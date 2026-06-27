@@ -9,16 +9,19 @@ CE specialises in telecommunications planning and operational support software b
 ## Products
 
 ### CE Express
+
 Web-based radio network planning application running on ArcGIS Enterprise. Accessible from any browser — no desktop installation required.
 
 → [Get Started with CE Express](ce-express/overview.md)
 
 ### CE Desktop
+
 ArcGIS Pro extensions for advanced radio network planning and analysis.
 
 → [CE Desktop RCP User Guide](ce-desktop/rcp-user-guide.md)
 
 ### CE Inventory3D
+
 3D spatial database for managing telecom network assets and structures.
 
 → [Inventory3D User Guide](inventory3d/user-guide.md)

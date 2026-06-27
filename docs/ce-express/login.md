@@ -4,7 +4,7 @@ CE Express uses **ArcGIS Enterprise** for authentication. You log in with your A
 
 ## Steps
 
-1. Open your browser and navigate to the CE Express URL provided by your administrator.  
+1. Open your browser and navigate to the CE Express URL provided by your administrator.
    Example: `https://cecom2.cellular-expert.com/ce_express/`
 
 2. Click **Login as ArcGIS**.

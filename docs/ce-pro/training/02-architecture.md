@@ -3,19 +3,16 @@
 CE Products and Solutions
 CE Desktop CE Express
 For ArcGIS Pro For ArcGIS Enterprise
-• Desktop, Single Use Radio Planning system • Web-based Radio Planning system
-• Wireless planning tools, together with • Server-based, Multi User system
+- Desktop, Single Use Radio Planning system • Web-based Radio Planning system
+- Wireless planning tools, together with • Server-based, Multi User system
 ArcGIS Pro functionality • Includes CE Inventory3D
-• Can be used as a client of CE Express system • Dashboard of Network Coverage Statistics
+- Can be used as a client of CE Express system • Dashboard of Network Coverage Statistics
 CE Customized solutions
 ArcGIS CE COTS
-
 
 ---
 
 CE Pro
-3
-
 
 ---
 
@@ -28,18 +25,14 @@ above
 Additional extensions are not
 required
 Local Database All files are saved in local disk
-4
-
 
 ---
 
 Cellular Expert for ArcGIS Pro
 License Structure
-• RCP – Radio Coverage Prediction
-• RLP – Radio Link Prediction
-• EMF – Electromagnetic Field
-5
-
+- RCP – Radio Coverage Prediction
+- RLP – Radio Link Prediction
+- EMF – Electromagnetic Field
 
 ---
 
@@ -52,49 +45,37 @@ Geospatial Information
 ✓ Obstacles
 ✓ Elevation
 ✓ Surface
-6
-
 
 ---
 
 Project files
 Project > Save Project/Save Project As
-7
-
 
 ---
 
 Cellular Expert Project Structure
-• Predictions
-• Results
-• SystemFiles
-• Temp
-• VolatileResults
-• VolatileTemp
-• Workspace.gdb
-8
-
+- Predictions
+- Results
+- SystemFiles
+- Temp
+- VolatileResults
+- VolatileTemp
+- Workspace.gdb
 
 ---
 
 Workspace database files
-9
-
 
 ---
 
 Environment
-• Geographic data
-• Cellular Expert Workspace
-• Results
-10
-
+- Geographic data
+- Cellular Expert Workspace
+- Results
 
 ---
 
 Cellular Expert Workspace
-11
-
 
 ---
 
@@ -102,8 +83,6 @@ Inside Workspace
 ➢ Network Data
 ➢ Equipment Data
 ➢ Modelling Settings
-12
-
 
 ---
 
@@ -126,8 +105,6 @@ unique identifier:
 Site Base station SiteID must be Integer.
 Site name is defined for Site object.
 Cells
-13
-
 
 ---
 
@@ -135,20 +112,14 @@ Cell
 ➢ 800 MHz
 ➢ 1800 MHz
 ➢ 2100 MHz
-14
-
 
 ---
 
 Site
-15
-
 
 ---
 
 Antenna
-16
-
 
 ---
 
@@ -178,19 +149,13 @@ Recommendation ITU-R P.2108 (ref URL);
 c. Receive antenna in NLOS condition – path loss modelled using Extended Hata model with additional losses due to diffraction calculated based on
 Recommendation ITU-R P.526 (ref URL) as well as clutter losses based on Rec. ITU-R P.2108 (ref URL).
 5. ITU-R P.368 Model (10kHz – 30MHz)
-17
-
 
 ---
 
 CE prediction models
-18
-
 
 ---
 
 Other
-19
-
 
 ---

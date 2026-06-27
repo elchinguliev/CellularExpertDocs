@@ -11,8 +11,6 @@ Break 11.30-11.40
 Trainings 11.40-12.50
 Break 12.50-13.00
 Trainings 13.00-14.00
-2
-
 
 ---
 
@@ -22,8 +20,6 @@ DAY 1 DAY 2
 2 1. Creating Workspace 5. Prediction Models
 3 2. Line of Sight 6. Importing Network
 4 3. Create Objects 7. Site Positioning
-3
-
 
 ---
 
@@ -34,8 +30,6 @@ C:\CE_COURSE
 ❑
 Exercise descriptions
 C:\CE_COURSE\0.Descriptions
-4
-
 
 ---
 
@@ -47,7 +41,5 @@ Today
 ➢ Creating Workspace
 ➢ Line of Sight
 ➢ Creating Objects
-5
-
 
 ---

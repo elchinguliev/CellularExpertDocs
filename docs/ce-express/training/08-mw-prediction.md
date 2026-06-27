@@ -3,19 +3,17 @@
 1. Objective
 This tutorial will show you how to add new MW links, manage and do predictions.
 At the end of the exercise you will be able to:
-• Create and import MW equipment.
-• Create MW links in the project.
-• Do MW Predictions.
+- Create and import MW equipment.
+- Create MW links in the project.
+- Do MW Predictions.
 2. Initial data
 Prepared project with:
-• Network objects.
-• Geodata.
-• Equipment and models.
+- Network objects.
+- Geodata.
+- Equipment and models.
 3. Add Links
 The link objects can be imported or created manually using Add functionality. Open Add
 Object tool and select Link option from drop-down menu list.
-2
-
 
 ---
 
@@ -25,46 +23,38 @@ Height, azimuth and other parameters are calculated automatically, leave them as
 Press Show Profile button to preview topographical data between Site A and Site B, if there
 is LOS, what Fresnel zone percentage value, etc.
 Profile will be generated.
-3
-
 
 ---
 
 Close Profile windows.
 Define parameters are defined below:
-• Name: MW001
-• Radio Model: 2. Aurora 2400
-• Frequency Plan: 10GHz-CEPT12-05-3_5MHz-350MHz
-• Carriers: 1 and 3 (1’ and 3’ will be automatically assigned).
-• Go to Antenna section and change antenna to Antenna 10MHz
-4
-
+- Name: MW001
+- Radio Model: 2. Aurora 2400
+- Frequency Plan: 10GHz-CEPT12-05-3_5MHz-350MHz
+- Carriers: 1 and 3 (1’ and 3’ will be automatically assigned).
+- Go to Antenna section and change antenna to Antenna 10MHz
 
 ---
 
 Press Save Changes button.
 Do not close the dialog, create new links and define parameters:
-• Between D1 and E2
+- Between D1 and E2
 o Name: MW002
 o SiteA: Lower
 o Radio Model: 2. Aurora 2400
 o Frequency Plan: 10GHz-CEPT12-05-3_5MHz-350MHz
-5
-
 
 ---
 
 o Carriers: 2 and 4
 o Antenna for Site A and Site B: Antenna 10MHz
 Press Save Changes
-• Between E6 and M77
+- Between E6 and M77
 o Name: MW003
 o SiteA: Lower
 o Radio Model: 2. Aurora 2400
 o Frequency Plan: 10GHz-CEPT12-05-3_5MHz-350MHz
 o Carriers: 1 and 4
-6
-
 
 ---
 
@@ -75,16 +65,12 @@ The predictions are working between selected links and provides all necessary in
 about power budget, interference or availability.
 Select all links on the map and open Link Prediction tool. Before launching the predictions,
 enable Calculate Interference option.
-7
-
 
 ---
 
 Press Run button and wait will prediction are completed and results loaded into your project.
 The primary results are Power Budget and Profile between Tx and Rx. On the left, select
 another link and results will be updated accordingly.
-8
-
 
 ---
 
@@ -94,20 +80,16 @@ Total Interference is shown in Power Budget section.
 Interference link predictions can be previewed too. Click on Interfering Link in top left corner
 and it will display selected interfering link Power Budget, Path Loss and draw a line on the
 map.
-9
-
 
 ---
 
 Go back to Links section, select MW001 from T1 to D1, Carrier 1’H.
 Click on Interference tab, and analize Inteference From table. Link MW002, from Site: E2
 with Carrier 2’H interferes:
-• Interference, dBm: -100.248 dBm
-• FML, dB: 1.29E-10
+- Interference, dBm: -100.248 dBm
+- FML, dB: 1.29E-10
 Close Link Prediction results, select MW002 link on the map and open Object Editor.
 Double click on the link.
-10
-
 
 ---
 
@@ -117,7 +99,9 @@ Select all links on the map, open Link Prediction tool again and run predictions
 After predictions are done, open MW001 (A-B) interference predictions and preview how
 Interference From is changed for MW002 link, Site E2.
 Close Link Prediction Results dialog.
-4.1 Geoclimatic data
+
+## 4.1 Geoclimatic data
+
 Geoclimatic data, comprising factors such as rain rate, temperature, gaseous absorption,
 and multipath fading, significantly shapes the planning and efficacy of microwave links.
 Rain rate introduces the challenge of rain fade, where increased rainfall leads to greater
@@ -133,8 +117,6 @@ modulation, as well as terrain-aware antenna placement. By navigating these geoc
 challenges, microwave link planners ensure robust and effective communication links in
 diverse environmental conditions.
 The tool is located in CE RLP tab, Radio Links section.
-11
-
 
 ---
 
@@ -143,16 +125,12 @@ and click on Performance tab.
 Review Multipath ITU and Rain ITU percentage values.
 Close results, and open Geoclimatic Data tool.
 Click on Multipath Fading tab, and define:
-• ITU-R P.530 version: 17
-12
-
+- ITU-R P.530 version: 17
 
 ---
 
 Click on Rain Fading tab, and define:
 Press Save Changes. Close Geoclimatic Data tab, and run Link Predictions again. Review
 Performance tab calculations for MW001 (A-B) link. Compare them with previous results.
-13
-
 
 ---

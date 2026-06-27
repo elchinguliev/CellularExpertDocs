@@ -3,18 +3,27 @@
 Cellular Expert Express Administrator Guide 7.2
 Table of Contents
 1. System requirements 5
-1.1 Minimum hardware requirements 5
-1.2 Minimum requirements for software 5
-1.3 CE Express architecture examples 6
+
+## 1.1 Minimum hardware requirements 5
+
+## 1.2 Minimum requirements for software 5
+
+## 1.3 CE Express architecture examples 6
+
 1.3.1 ArcGIS Enterprise & CE Server-Express on premises deployment simplified architecture 6
 1.3.2 ArcGIS Enterprise & CE Server-Express on premises or cloud deployment architecture 7
 2. Installation Guide 8
-2.1 Installation files 8
-2.2 Prerequisites 9
+
+## 2.1 Installation files 8
+
+## 2.2 Prerequisites 9
+
 2.2.1 ArcGIS Server 9
 2.2.2 PostgreSQL 9
 2.2.3 PHP server 9
-2.3 Install CE Express 11
+
+## 2.3 Install CE Express 11
+
 2.3.1 Accept the software terms and conditions 11
 2.3.2 Prepare installation folders 12
 2.3.3 Prepare CE Express server configuration: 12
@@ -27,14 +36,17 @@ Table of Contents
 2.3.10 Installing Inventory3D webapplication package 18
 2.3.11 Webapplication in Portal for ArcGIS 19
 2.3.12 CE Inventory3D folder structure 20
-2.4 Information about CE Express Inventory3D database 23
+
+## 2.4 Information about CE Express Inventory3D database 23
+
 2.4.1 Tables structure 23
 2.4.2 Register licence for the CE Inventory3D 28
 2.4.3 Testing the CE Inventory3D webview installation 28
 3. Prepare the application with own data 29
-3.1 Prepare data files 29
-Confidential Cellular Expert, 2026 Page | 2
 
+## 3.1 Prepare data files 29
+
+Confidential Cellular Expert, 2026 Page | 2
 
 ---
 
@@ -42,21 +54,34 @@ Cellular Expert Express Administrator Guide 7.2
 3.1.1 General information 30
 3.1.2 Geographic data 31
 3.1.3 Antennas 40
-3.2 Create new workspace in CE Express 41
-4. CE Inventory3D webapplication functions for administrators 42
-4.1 Set defaults 42
-4.2 Generate PDF reports 42
-4.3 Run script 43
-4.4 Import CSV 43
-4.5 History 45
-4.6 User Management 46
-4.7 System tables 52
-4.8 Delete object permanently 52
-4.9 Restore deleted image 52
-4.10 Column and table aliasing 53
-4.11 Reset password 53
-Confidential Cellular Expert, 2026 Page | 3
 
+## 3.2 Create new workspace in CE Express 41
+
+4. CE Inventory3D webapplication functions for administrators 42
+
+## 4.1 Set defaults 42
+
+## 4.2 Generate PDF reports 42
+
+## 4.3 Run script 43
+
+## 4.4 Import CSV 43
+
+## 4.5 History 45
+
+## 4.6 User Management 46
+
+## 4.7 System tables 52
+
+## 4.8 Delete object permanently 52
+
+## 4.9 Restore deleted image 52
+
+## 4.10 Column and table aliasing 53
+
+## 4.11 Reset password 53
+
+Confidential Cellular Expert, 2026 Page | 3
 
 ---
 
@@ -81,7 +106,6 @@ www.cellular-expert.com are service marks of UAB
 CELLULAR EXPERT in Lithuania and some other countries.
 Confidential Cellular Expert, 2026 Page | 4
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
@@ -90,7 +114,9 @@ Welcome to Cellular Expert. This chapter will guide you through the minimal hard
 requirements.
 Note: requirements can vary significantly, depending on acceptable calculation time task complexity, and
 size of the database.
-1.1 Minimum hardware requirements
+
+## 1.1 Minimum hardware requirements
+
 Processor (CPU):
  Minimum: 8 cores, hyperthreaded
  Recommended: 16 cores
@@ -106,7 +132,9 @@ Memory/RAM
 Storage
  Minimum: 500 GB to 1TB of free space
  Recommended: 2TB or more of free space on a solid-state drive (SSD)
-1.2 Minimum requirements for software
+
+## 1.2 Minimum requirements for software
+
 Cellular Expert Express runs on Microsoft Windows Server 2016 or higher. It requires:
  ArcGIS Enterprise server 10.8.1 or later (11.5 supported) Standard or Advanced licence (Portal for
 ArcGIS included) with:
@@ -119,11 +147,12 @@ ArcGIS included) with:
  Microsoft Visual C++ 2015-202x for ESRI products
 Confidential Cellular Expert, 2026 Page | 5
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
-1.3 CE Express architecture examples
+
+## 1.3 CE Express architecture examples
+
 1.3.1 ArcGIS Enterprise & CE Server-Express on premises deployment simplified architecture
 Clients Servers
 1: ArcGIS Web Adaptor
@@ -157,7 +186,6 @@ Storage:
 Minimum 500 GB of free space
 Confidential Cellular Expert, 2026 Page | 6
 SPTTH
-
 
 ---
 
@@ -195,7 +223,6 @@ Frontend
 (IIS+PHP)
 Confidential Cellular Expert, 2026 Page | 7
 SPTTH
-
 
 ---
 
@@ -239,10 +266,11 @@ rural), also possible limiting the GIS data coverage to just the Area of interes
 2. Installation Guide
 This topic provides detailed instructions for Cellular Expert Server solution installation. It describes the
 installation, configuration, data loading path and steps to setup and start Cellular Expert Express solution.
-2.1 Installation files
+
+## 2.1 Installation files
+
 1. CE Express Setup file provided “CE_Express_7.2_winInstall(x64).exe”. It will automatically install:
 Confidential Cellular Expert, 2026 Page | 8
-
 
 ---
 
@@ -252,17 +280,17 @@ Cellular Expert Express Administrator Guide 7.2
  CE Express demo data
 2. Zip file (ceexp_db.zip) with Cellular Expert Inventory3D web application - frontend
 3. Zip file (ceexp_db_scripts.zip) with Cellular Expert Inventory3D installation DB scripts
-2.2 Prerequisites
+
+## 2.2 Prerequisites
+
 2.2.1 ArcGIS Server
 Install ArcGIS for Server following the official installation guide:
-https://enterprise.arcgis.com/en/server/latest/install/windows/steps-to-get-arcgis-for-server-up-and-
-running.htm
+https://enterprise.arcgis.com/en/server/latest/install/windows/steps-to-get-arcgis-for-server-up-and-running.htm
 Use FQDN everywhere in the installation.
 Arcgis Image Server is recommended but optional for publishing layers from CE Express.
 2.2.2 PostgreSQL
 Install PostgreSQL following the guide:
-https://www.enterprisedb.com/docs/supported-open-
-source/postgresql/installer/02_installing_postgresql_with_the_graphical_installation_wizard/windows/
+https://www.enterprisedb.com/docs/supported-open-source/postgresql/installer/02_installing_postgresql_with_the_graphical_installation_wizard/windows/
 2.2.3 PHP server
 The PHP server can be installed and configured under IIS or under an Apache server. If PHP will use an
 Apache server, Apache must be configured to use a different http port if the IIS is installed.
@@ -282,7 +310,6 @@ Create missing folders under C:\php:
 2.2.3.1 PHP server configuration
 Open the php.ini configuration file with the text editor and edit it.
 Confidential Cellular Expert, 2026 Page | 9
-
 
 ---
 
@@ -325,7 +352,6 @@ Example: memory_limit = 512M
 Inventory3D configuration parameter $sessionInactivityTimeout * 60 in the conf.inc file.
 Confidential Cellular Expert, 2026 Page | 10
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
@@ -349,12 +375,13 @@ o Click OK > Yes
  Select Site > Default Documents > Add
 o Set index.php
  Restart IIS server
-2.3 Install CE Express
+
+## 2.3 Install CE Express
+
 Execute the provided CE Express installation file (“CE_Express_6.0_winInstall(x64).exe”) and proceed by
 following the instructions displayed on the screen.
 2.3.1 Accept the software terms and conditions
 Confidential Cellular Expert, 2026 Page | 11
-
 
 ---
 
@@ -373,7 +400,6 @@ be assigned to the administrator group.
  Click verify and wait for the messages:
 Confidential Cellular Expert, 2026 Page | 12
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
@@ -388,7 +414,6 @@ Cellular Expert Express Administrator Guide 7.2
  Click on the “Verify” button and wait for the messages:
 Confidential Cellular Expert, 2026 Page | 13
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
@@ -398,7 +423,6 @@ such a case, the tables will be copied with the postfix "_date" to avoid conflic
 2.3.5 Check Installation and the licence of the CE Express software.
 Check windows services and there should be 3 CE Express services running:
 Confidential Cellular Expert, 2026 Page | 14
-
 
 ---
 
@@ -416,7 +440,6 @@ the URL of CE Express to the insecure content list. It could be done using the b
  Edge: edge://settings/content/insecureContent
 Another way is to enable SSL support on CE Express (see chapter “Enable SSL support (optional)).
 Confidential Cellular Expert, 2026 Page | 15
-
 
 ---
 
@@ -443,7 +466,6 @@ https://CE_express_hostname/ceexpressfrontenfolder (Example: https://localhost/c
  Publish provided geoprocessing tool "publishTif.sd" using Arcgis Server manager. The published
 Confidential Cellular Expert, 2026 Page | 16
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
@@ -467,7 +489,6 @@ USERNAME and PASSWORD are Portal’s for Arcgis user's username and password. Th
 used to publish, and the published objects (raster or features) will be visible under this user's content.
  Restart Windows CE services. The “Coordinator” service must be started last.
 Confidential Cellular Expert, 2026 Page | 17
-
 
 ---
 
@@ -505,7 +526,6 @@ To install Inventory3D express webapplication copy the two folders from the prov
 C:\wampXX\\www for Apache server from WAMP package). If IIS will be used, grant write permissions for
 Confidential Cellular Expert, 2026 Page | 18
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
@@ -524,7 +544,6 @@ It is a required webapplication in Portal for ArcGIS to use ArcGIS login in the 
  Name the new application and describe it. Click “Save”:
 Confidential Cellular Expert, 2026 Page | 19
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
@@ -535,7 +554,6 @@ Cellular Expert Express Administrator Guide 7.2
 2.3.12 CE Inventory3D folder structure
 Example of “ceexp_db” folder structure:
 Confidential Cellular Expert, 2026 Page | 20
-
 
 ---
 
@@ -552,7 +570,6 @@ Folder “scripts” – for scripts that can be run manually by the administrat
 Folder “temp” – temporary folder that can be cleaned periodically
 Confidential Cellular Expert, 2026 Page | 21
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
@@ -561,7 +578,6 @@ File “conf.inc “ – configuration file. This file is very important and con
 to the database as well as other important information related to the database. The credentials can be
 changed according to the database server information.
 Confidential Cellular Expert, 2026 Page | 22
-
 
 ---
 
@@ -590,18 +606,18 @@ The file conf_template.inc has examples of possible configurations.
 File “defaults.json” – set default values for different fields. Changes in this file can be entered with the
 webapp feature “Set defaults…” described below. The file cannot be empty and must contain the characters
 “[]”.
-2.4 Information about CE Express Inventory3D database
+
+## 2.4 Information about CE Express Inventory3D database
+
 Some information about the requirements.
 2.4.1 Tables structure
 Simplified database schema for the CE Inventory3D system:
 Confidential Cellular Expert, 2026 Page | 23
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
 Confidential Cellular Expert, 2026 Page | 24
-
 
 ---
 
@@ -621,7 +637,6 @@ level 0 and described in the column “parent_name”.
 Example for a database schema:
 id table_name parent_name level
 Confidential Cellular Expert, 2026 Page | 25
-
 
 ---
 
@@ -656,7 +671,6 @@ Those tables are “child” tables of the “site” table (see DB schema), and
 opens a given site. Important columns are:
 object_id – unique object identifier type Integer. It should be set as Primary Key and Autoincrement if the
 Confidential Cellular Expert, 2026 Page | 26
-
 
 ---
 
@@ -696,7 +710,6 @@ performed changes and prepare reports about the database usage.
 The table “stats” is needed to register all user logins, logouts, or session expirations. Admins can then
 Confidential Cellular Expert, 2026 Page | 27
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
@@ -722,7 +735,6 @@ http(s):// {your_web_server_url}/ceexp_db
 The user will receive the login window:
 Confidential Cellular Expert, 2026 Page | 28
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
@@ -737,11 +749,12 @@ By default “Login with Express account’ option is enabled and the user’s �
 “admin_ce”. To change the password or to see the other default users and passwords use the database
 management tool (example pgadmin) and check in the “ceauth_user_info” table.
 3. Prepare the application with own data
-3.1 Prepare data files
+
+## 3.1 Prepare data files
+
 In this chapter, you will find a description of the geographical file types that are used in Cellular Expert. Use
 the “Geodata sets” tool to upload all the required data to the CE Express:
 Confidential Cellular Expert, 2026 Page | 29
-
 
 ---
 
@@ -779,7 +792,6 @@ The comparative precision of modelling signal coverage in dense urban conditions
 25 m resolution ASTER DSM data and 1 m resolution Maxar DTM & Buildings data is shown in Fig. 2.
 Confidential Cellular Expert, 2026 Page | 30
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
@@ -807,7 +819,6 @@ height in its center or the maximum. The smaller the pixels, the more accurate i
 data to calculate.
 Confidential Cellular Expert, 2026 Page | 31
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
@@ -821,14 +832,12 @@ If your raster is in a Geographic Coordinate System or needs a different project
 > Project Raster tool to update it.
 Confidential Cellular Expert, 2026 Page | 32
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
 In the Output Coordinate System, specify a new coordinate system. It is recommended to use a UTM
 coordinate system under the WGS 1984 projection.
 Confidential Cellular Expert, 2026 Page | 33
-
 
 ---
 
@@ -841,7 +850,6 @@ vary. An example is the Sentinel-2 Land Cover dataset from the Living Atlas: Liv
 Cover
 Confidential Cellular Expert, 2026 Page | 34
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
@@ -851,7 +859,6 @@ Prepare Clutter Classes raster
 It must have the same coordinate system as your elevation.tif raster. If your raster has different coordinate
 system, then use the Geoprocessing tool → Project Raster to fix it.
 Confidential Cellular Expert, 2026 Page | 35
-
 
 ---
 
@@ -864,7 +871,6 @@ Represents actual clutter heights, which override the default heights specified 
 clutter heights raster requires the accompanying clutter classes raster and cannot be used independently.
 Confidential Cellular Expert, 2026 Page | 36
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
@@ -873,7 +879,6 @@ A clutter height raster can be derived from a Digital Surface Model (DSM) raster
 navigate to Spatial Analyst > Map Algebra > Raster Calculator. Use the following formula:
 DSM – DTM
 Confidential Cellular Expert, 2026 Page | 37
-
 
 ---
 
@@ -886,7 +891,6 @@ It must have the same coordinate system as your elevation.tif raster. If your ra
 system, then use the Geoprocessing tool → Project Raster to fix it.
 Confidential Cellular Expert, 2026 Page | 38
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
@@ -894,7 +898,6 @@ In the Output Coordinate System you would need to define the same coordinate sys
 raster. Click on Select Coordinate System button.
 And choose the same coordinate system as your elevation.tif.
 Confidential Cellular Expert, 2026 Page | 39
-
 
 ---
 
@@ -906,11 +909,12 @@ format. This format consists of a header, horizontal and vertical records. Examp
 After import of the antenna, the antenna id could be used in the cells data table.
 Confidential Cellular Expert, 2026 Page | 40
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
-3.2 Create new workspace in CE Express
+
+## 3.2 Create new workspace in CE Express
+
 To create a new workspace using start CE Express using URL
 http://CE_express_hostname/ceexpressfrontenfolder
 (Example: http://localhost/ceexp )
@@ -926,18 +930,21 @@ Extra layers: add additional layers form the other sources to be visualized in t
 For the administrators the new workspace will be visible after creation.
 Confidential Cellular Expert, 2026 Page | 41
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
 Antennas or cells for the new workspace could be loaded using CE Express environment and tools.
 4. CE Inventory3D webapplication functions for administrators
-4.1 Set defaults
+
+## 4.1 Set defaults
+
 Columns can be designed in a way that their record contents do not have to be entered by hand but are
 chosen from a list of defaults, eg active/inactive or planned/active/closed. To do so, click on a column
 header, and select “Set defaults” from the dropdown menu. A new window opens with the currently active
 default values. Enter at least 2 defaults and click OK.
-4.2 Generate PDF reports
+
+## 4.2 Generate PDF reports
+
 Prior to using the PDF report feature, the administrator has to prepare a template json file. An example
 “default.json” file and a “readme” file with explanation can be found in the folder
 “ceexp_db/exporttemplates”. All new templates must be stored there. The name of the template file must
@@ -950,7 +957,6 @@ All three template files are prepared for the table “site”:
 After the selection of the template, a dialog will open:
 Confidential Cellular Expert, 2026 Page | 42
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
@@ -959,7 +965,9 @@ The report configuration including the text with the header, description and/or 
 configured by the administrator in the template json file.
 If there are errors in the template json file and the json syntax is invalid, the webapp application will inform
 the user:
-4.3 Run script
+
+## 4.3 Run script
+
 It is possible to run a script on the server and load updated data to the tables. The “Run Script” tool could
 be configured into “CE API tool”
 Important Note (!): This action is not secure. Before performing this action, the script must be tested by an
@@ -967,7 +975,9 @@ administrator. Otherwise, it could destroy the database.
 The script should be described in the conf.inc configuration file section $enableExternalScripts = true; and
 the scripts placed into the “scripts” folder on the server.
 The parameter $inv3dCustomScript is deprecated.
-4.4 Import CSV
+
+## 4.4 Import CSV
+
 Administrators can create a new table (level 0) or add a child table to an existing parent table (level 1) with
 the tool “Import CSV”. This tool could be configured into “CE API tool”.
 Clicking the “Import CSV” tool opens a new window.
@@ -976,7 +986,6 @@ icon to select the CSV file
 Level 1 table – define the name for the new table, enter the name of the parent table and select the CSV
 file
 Confidential Cellular Expert, 2026 Page | 43
-
 
 ---
 
@@ -992,22 +1001,24 @@ The Partial Import feature allows to add records to an already existing table.
 If the checkbox "Partial import” is ticked, the imported records will be added to the defined table:
 Confidential Cellular Expert, 2026 Page | 44
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
-4.5 History
+
+## 4.5 History
+
 Admins can monitor the changes made in the database, more precisely, the records that were changed.
 Select an object and click on the “History” button from the “Settings” menu:
 The log tab will open. It shows when an object’s parameter was changed and what was changed:
 If no object is selected and the “History” button is clicked, all actions made within the application are shown:
 Confidential Cellular Expert, 2026 Page | 45
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
-4.6 User Management
+
+## 4.6 User Management
+
 Administrators may restrict access to tables and attributes for individual users and user groups. The User
 Management is opened from the “Settings” menu:
 The user list opens in a separate window and comprises the fields User name, e-mail, Name and Group:
@@ -1021,7 +1032,6 @@ a) Restricting access of the group “users” to all tables
 Determine the visibility/editability of newly added items here:
 Confidential Cellular Expert, 2026 Page | 46
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
@@ -1032,7 +1042,6 @@ group may change and restrictions to all elements are inherited)
 User: New items are visible / editable only for the user who created them
 Determine the access of the group “users” here:
 Confidential Cellular Expert, 2026 Page | 47
-
 
 ---
 
@@ -1047,7 +1056,6 @@ b) Restricting access of the group “users” to selected tables and attributes
 For example, table “checklist”:
 Confidential Cellular Expert, 2026 Page | 48
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
@@ -1059,13 +1067,11 @@ editable not editable
 Restrict the visibility / editability of newly added items:
 Confidential Cellular Expert, 2026 Page | 49
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
 Choose from dropdown menu:
 Confidential Cellular Expert, 2026 Page | 50
-
 
 ---
 
@@ -1092,43 +1098,50 @@ discarded during the sync operation.
 Users of the 'admin' group have no restrictions
 Confidential Cellular Expert, 2026 Page | 51
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
-4.7 System tables
+
+## 4.7 System tables
+
 If tables are marked as System Tables, administrators can edit the tables in the webapp using the tool
 “System Tables” from the settings menu:
 System Tables can be tables for additional features implemented in the CE Inventory3D:
 Via the function System Tables the administrator can add, edit or delete records from predefined tables
 directly from the webapplication.
-4.8 Delete object permanently
+
+## 4.8 Delete object permanently
+
 Users can remove objects from the database, but only an administrator can delete a removed object
 permanently. When a user removes an object, said object is marked as strikethrough. Administrators delete
 the object permanently by selecting the strikethrough object and clicking :
-4.9 Restore deleted image
+
+## 4.9 Restore deleted image
+
 When a user deletes an image, said image is marked as strikethrough on the File Server:
 Confidential Cellular Expert, 2026 Page | 52
-
 
 ---
 
 Cellular Expert Express Administrator Guide 7.2
 Administrators may restore the image by selecting the strikethrough object and clicking .
-4.10 Column and table aliasing
+
+## 4.10 Column and table aliasing
+
 Table and column names are displayed as specified in the table requirements. However, sometimes it is
 preferred to display a different table name in the application.
 Therefore, administrators may add table or column aliases, and those aliases will then be visible in the
 application.
 For this feature to work it is required that the administrator has configured the System Table inv3d_aliases:
 Table inv3d_aliases comprises the columns table_name, field_name, table_alias and field_alias.
-4.11 Reset password
+
+## 4.11 Reset password
+
 Users login with their user name and password combination. The user information is stored in the System
 Table user_info:
 Note: Before using the “Reset Password feature” the server should be configured as mail server and have
 the possibility to send Emails.
 Confidential Cellular Expert, 2026 Page | 53
-
 
 ---
 
@@ -1140,10 +1153,8 @@ password using the CE Inventory3D application and send it to the user:
 The user will be asked to change the password during the first login with the temporary password.
 Confidential Cellular Expert, 2026 Page | 54
 
-
 ---
 
 Cellular Expert Express Administrator Guide 7.2
-
 
 ---

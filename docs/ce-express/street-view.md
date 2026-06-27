@@ -20,12 +20,15 @@ Click the **Street View** tool in the left toolbar. The screen divides into:
 ## Use Cases
 
 ### Verifying Antenna Position
+
 Click on a cell on the map. The street view shows the surroundings at that location, helping you confirm the antenna is positioned where expected and at roughly the right height.
 
 ### Checking Obstructions
+
 Navigate around the site in street view to identify tall buildings, trees, or other structures that may block coverage and are not fully captured in the DTM.
 
 ### Site Survey Support
+
 Before a physical site visit, use Street View to assess access routes, identify the tower/mast structure, and note any visible equipment.
 
 ## Closing Street View

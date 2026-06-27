@@ -1,73 +1,58 @@
 # 09. Importing Data
 
 Network import for CE for ArcGIS Pro
-• From:
-• Excel
-• CSV
-• SDE table
-• To Cellular Expert Workspace:
-• gdb database
-2
-
+- From:
+- Excel
+- CSV
+- SDE table
+- To Cellular Expert Workspace:
+- gdb database
 
 ---
 
 Network objects
-• Cells
-• Sites
-• Sites (if siteid
+- Cells
+- Sites
+- Sites (if siteid
 parameter is
 defined)
-3
-
 
 ---
 
 Mapping file
-• Json type file, can be edited with Notepad
-4
-
+- Json type file, can be edited with Notepad
 
 ---
 
 Mapping file structure
-•
-“current_name” - name of the value that is written in the data file.
+- “current_name” - name of the value that is written in the data file.
 As an example “freq_mhz” is a column name in the data file and will
 be changed to “frequency” when the mapping file is applied and
 objects are imported.
-•
-“destination_name” - the proper name of the property (table
+- “destination_name” - the proper name of the property (table
 column name) in the Cellular
-•
-“default_value” – The default value applies when an object in the
+- “default_value” – The default value applies when an object in the
 data file lacks a specific property. The same value will be applied for
 all imported objects.
-5
-
 
 ---
 
 Cells: generate Cell Name
-• Check option: Generate Cell Name
-• Latitude
-• Longitude
-• Azimuth
-• Frequency
-• Power
-• Height
-• Antenna gain
-6
-
+- Check option: Generate Cell Name
+- Latitude
+- Longitude
+- Azimuth
+- Frequency
+- Power
+- Height
+- Antenna gain
 
 ---
 
 Apply prediction model
-• Polygon type feature class/shape file
-• ModelID and ConfigID is a must
-• Option appears when Import HCM patterns option is active.
-7
-
+- Polygon type feature class/shape file
+- ModelID and ConfigID is a must
+- Option appears when Import HCM patterns option is active.
 
 ---
 
@@ -84,8 +69,6 @@ frequency - Frequency value in MHz.
 power - Power value in dBm.
 antenna_gain - Antenna gain value from the applied antenna.
 misc_loss - Miscellaneous loss value in dB.
-8
-
 
 ---
 
@@ -105,8 +88,6 @@ interference and boost throughput. Recommended
 values:
 For MIMO 32x32 – value 6.
 For MIMO 64x64 – value 9.
-9
-
 
 ---
 
@@ -128,16 +109,12 @@ different frequency_group value automatically.
 antenna_id- antenna identification in the database.
 duplex_mode - Required for 4G and 5G technologies, possible values FDD or TDD.
 site_id – to automatically create Site object for cells, define site name field here. Must be a text format.
-10
-
 
 ---
 
 Exercise
 Description: C:\CE_Course\0. Descriptions
 Name: 6. Importing data.pdf
-11
-
 
 ---
 
@@ -147,6 +124,5 @@ Email: info@cellular-expert.com
 S.Konarskio g. 28A LT-03127 Vilnius
 Lithuania
 www.cellular-expert.com
-
 
 ---

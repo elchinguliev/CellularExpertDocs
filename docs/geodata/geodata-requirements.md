@@ -4,20 +4,25 @@ Cellular Expert Technical Documentation
 Table of Contents
 1. High-Precision Inputs and Next-Generation Propagation 3
 2. Geographic data requirements 5
-2.1 Digital Terrain Model (DTM) Grid (Mandatory) 5
+
+## 2.1 Digital Terrain Model (DTM) Grid (Mandatory) 5
+
 2.1.1 Projection 6
 2.1.2 Correct No Data value and raster name 6
 2.1.3 Pixel type 6
-2.2 Clutter classes grid (optional) 7
+
+## 2.2 Clutter classes grid (optional) 7
+
 2.2.1 Projection 8
 2.2.2 Correct No Data value and raster name 8
 2.2.3 Pixel type 8
-2.3 Clutter heights (optional) 8
+
+## 2.3 Clutter heights (optional) 8
+
 2.3.1 Projection 10
 2.3.2 Correct No Data value and raster name 10
 2.3.3 Pixel type 10
 ©Cellular Expert, 2025 Page | 2
-
 
 ---
 
@@ -38,14 +43,13 @@ they already license, turning them into actionable broadband maps without additi
 requirements from the solution provider.
 By using terrain elevation, obstacles, and clutter classification in every calculation, Cellular Expert
 accurately models:
-• Line-of-Sight and Non-Line-of-Sight Conditions – Determining diffraction, reflection, and
+- Line-of-Sight and Non-Line-of-Sight Conditions – Determining diffraction, reflection, and
 shadowing effects over hills, valleys, and urban obstacles.
-• Coverage Footprints – Generating precise signal strength maps at national, regional, and local
+- Coverage Footprints – Generating precise signal strength maps at national, regional, and local
 levels.
-• Capacity and Interference Analysis – Modeling realistic signal overlaps and interference zones
+- Capacity and Interference Analysis – Modeling realistic signal overlaps and interference zones
 for multi-operator, multi-technology environments.
 ©Cellular Expert, 2025 Page | 3
-
 
 ---
 
@@ -61,51 +65,50 @@ UE
 DTM
 The CE tools make use of three distinct GIS data layers to obtain high precision modelling of radio wave
 propagation losses:
-• Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), which describes
+- Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), which describes
 Earth surface, i.e., path terrain profile in terms of ground elevation above uniform sea level.
-• Obstacles layer, delineating buildings and other such objects above Earth surface that may be
+- Obstacles layer, delineating buildings and other such objects above Earth surface that may be
 considered to be principal impediments for radio wave propagation.
-• Clutter layer, delineating natural occurring or human cultivated ground cover that may be
+- Clutter layer, delineating natural occurring or human cultivated ground cover that may be
 partially penetrable by radio waves, such as natural vegetation (e.g., forests, trees, bushes) or
 various crops, gardens, parks, etc.
 The image above illustrates how Cellular Expert uses different resolutions of topographical data to
 significantly improve coverage prediction accuracy.
-• Left image: Coverage calculated using 25 m resolution ASTER DEM data, showing a general view
+- Left image: Coverage calculated using 25 m resolution ASTER DEM data, showing a general view
 of signal distribution but with limited detail, especially in dense urban areas.
-• Right image: Coverage calculated using 1 m resolution data, revealing a much more precise
+- Right image: Coverage calculated using 1 m resolution data, revealing a much more precise
 propagation pattern, including building-level shadowing and accurate street-by-street coverage.
-More information: https://blog.maxar.com/earth-intelligence/2022/benefits-of-using-maxars-precision3d-
-telco-suite-for-5g
+More information: https://blog.maxar.com/earth-intelligence/2022/benefits-of-using-maxars-precision3d-telco-suite-for-5g
 Cellular Expert can easily integrate and process 1 m or even sub-meter topographical data, providing highly
 detailed RF calculations. This level of precision is essential for:
-• Modeling 2G/3G/4G/5G, small cells and mmWave networks.
-• Identifying exact coverage gaps at the building and street level.
+- Modeling 2G/3G/4G/5G, small cells and mmWave networks.
+- Identifying exact coverage gaps at the building and street level.
 ©Cellular Expert, 2025 Page | 4
-
 
 ---
 
 Cellular Expert Technical Documentation
-• Supporting regulatory-grade broadband mapping and planning.
+- Supporting regulatory-grade broadband mapping and planning.
 By using high-resolution terrain and clutter data, Cellular Expert ensures that its calculations match real-
 world conditions as closely as possible — resulting in better network design decisions and more reliable
 broadband planning outcomes.
 2. Geographic data requirements
 The supported geographical data types:
 Only GeoTIFF is supported. Topographical data must have specific names:
-• The Digital terrain model must be named elevation.tif
-• The land use (or clutter) grid must be named clutterClasses.tif
-• The clutter heights (typically building, vegetation height) grid must be named clutterHeight.tif
+- The Digital terrain model must be named elevation.tif
+- The land use (or clutter) grid must be named clutterClasses.tif
+- The clutter heights (typically building, vegetation height) grid must be named clutterHeight.tif
 Mandatory geographical data:
-• Digital Terrain Model (DTM) grid
+- Digital Terrain Model (DTM) grid
 All geodata must be located in one catalog.
-2.1 Digital Terrain Model (DTM) Grid (Mandatory)
+
+## 2.1 Digital Terrain Model (DTM) Grid (Mandatory)
+
 The Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), represents the Earth’s
 ground level above sea level. Each raster pixel has its height value.
 A sample DTM raster is presented below. Each pixel represents height value above the sea level. In reality,
 within a one-pixel area, the height is not the same everywhere. Thus, the pixel’s height value is the height
 ©Cellular Expert, 2025 Page | 5
-
 
 ---
 
@@ -124,11 +127,12 @@ the DTM raster.
 16-bit signed, or 32-bit signed or 32-bit float
 ©Cellular Expert, 2025 Page | 6
 
-
 ---
 
 Cellular Expert Technical Documentation
-2.2 Clutter classes grid (optional)
+
+## 2.2 Clutter classes grid (optional)
+
 Land use or clutter refers to the classification of the earth’s surface into categories such as urban, suburban,
 rural, forest, water, and open land, each of which affects radio propagation differently. Clutter data is crucial
 because it determines how signals are absorbed, reflected, or diffracted by the environment, directly
@@ -136,7 +140,6 @@ influencing coverage, interference, and quality of service. The naming and class
 may vary. An example is the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2
 Land Cover
 ©Cellular Expert, 2025 Page | 7
-
 
 ---
 
@@ -151,14 +154,15 @@ After setting the correct projection, assign the NoData: -9999 attribute and spe
 the DTM raster.
 2.2.3 Pixel type
 16-bit signed, or 32-bit signed or 32-bit float
-2.3 Clutter heights (optional)
+
+## 2.3 Clutter heights (optional)
+
 Clutter heights represent the vertical dimension of obstacles such as buildings, trees, and other surface
 features above the digital terrain model (DTM). While the DTM provides the bare-earth elevation, clutter
 heights add the true 3D profile of the environment by capturing how high objects rise above the ground.
 The clutter heights raster requires the accompanying clutterClasses.tif raster and cannot be used
 independently.
 ©Cellular Expert, 2025 Page | 8
-
 
 ---
 
@@ -168,7 +172,6 @@ A clutter height raster can be derived from a Digital Surface Model (DSM) raster
 The calculation output will be the difference between the DSM and DTM grids, representing the clutter
 heights.
 ©Cellular Expert, 2025 Page | 9
-
 
 ---
 
@@ -184,6 +187,5 @@ the DTM raster.
 2.3.3 Pixel type
 16-bit signed, or 32-bit signed or 32-bit float
 ©Cellular Expert, 2025 Page | 10
-
 
 ---

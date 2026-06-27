@@ -3,17 +3,26 @@
 Cellular Expert Express Administrator Guide 7.2
 Table of Contents
 1. System requirements 4
-1.1 Minimum hardware requirements 4
-1.2 Minimum requirements for software 4
-1.3 CE Express architecture examples 5
+
+## 1.1 Minimum hardware requirements 4
+
+## 1.2 Minimum requirements for software 4
+
+## 1.3 CE Express architecture examples 5
+
 1.3.1 ArcGIS Enterprise & CE Server-Express on premises deployment simplified architecture 5
 1.3.2 ArcGIS Enterprise & CE Server-Express on-premises or cloud deployment architecture 6
 2. Installation Guide 7
-2.1 Installation files 7
-2.2 Prerequisites 8
+
+## 2.1 Installation files 7
+
+## 2.2 Prerequisites 8
+
 2.2.1 ArcGIS Server 8
 2.2.2 PostgreSQL 8
-2.3 Install CE Express 8
+
+## 2.3 Install CE Express 8
+
 2.3.1 Accept the software terms and conditions 8
 2.3.2 Prepare installation folders 9
 2.3.3 Prepare CE Express server configuration: 9
@@ -22,13 +31,16 @@ Table of Contents
 2.3.6 Enable SSL support (optional) 13
 2.3.7 Configure CE Express to publish objects to the Portal for ArcGIS (optional) 13
 3. Prepare the application with own data 15
-3.1 Prepare data files 15
+
+## 3.1 Prepare data files 15
+
 3.1.1 General information 16
 3.1.2 Geographic data 17
 3.1.3 Antennas 26
-3.2 Create new workspace in CE Express 27
-Confidential Cellular Expert, 2026 Page | 2
 
+## 3.2 Create new workspace in CE Express 27
+
+Confidential Cellular Expert, 2026 Page | 2
 
 ---
 
@@ -53,7 +65,6 @@ www.cellular-expert.com are service marks of UAB
 CELLULAR EXPERT in Lithuania and some other countries.
 Confidential Cellular Expert, 2026 Page | 3
 
-
 ---
 
 Cellular Expert Express Administrator Guide 5.8
@@ -62,7 +73,9 @@ Welcome to Cellular Expert. This chapter will guide you through the minimal hard
 requirements.
 Note: requirements can vary significantly, depending on acceptable calculation time task complexity, and
 size of the database.
-1.1 Minimum hardware requirements
+
+## 1.1 Minimum hardware requirements
+
 Processor (CPU):
  Minimum: 4 cores, hyperthreaded
  Recommended: 8 cores
@@ -78,7 +91,9 @@ Memory/RAM
 Storage
  Minimum: 500 GB of free space
  Recommended: 2TB or more of free space on a solid-state drive (SSD)
-1.2 Minimum requirements for software
+
+## 1.2 Minimum requirements for software
+
 Cellular Expert Express runs on Microsoft Windows Server 2016 or higher. It requires:
  ArcGIS Enterprise server 10.8.1 or later (11.5 supported) Standard or Advanced licence (Portal for
 ArcGIS included) with:
@@ -90,11 +105,12 @@ ArcGIS included) with:
  Microsoft Visual C++ 2015-202x for ESRI products
 Confidential Cellular Expert, 2026 Page | 4
 
-
 ---
 
 Cellular Expert Express Administrator Guide 5.8
-1.3 CE Express architecture examples
+
+## 1.3 CE Express architecture examples
+
 1.3.1 ArcGIS Enterprise & CE Server-Express on premises deployment simplified architecture
 Clients Servers
 1: ArcGIS Web Adaptor
@@ -128,7 +144,6 @@ Storage:
 Minimum 500 GB of free space
 Confidential Cellular Expert, 2026 Page | 5
 SPTTH
-
 
 ---
 
@@ -166,7 +181,6 @@ Frontend
 (IIS)
 Confidential Cellular Expert, 2026 Page | 6
 SPTTH
-
 
 ---
 
@@ -210,10 +224,11 @@ rural), also possible limiting the GIS data coverage to just the Area of interes
 2. Installation Guide
 This topic provides detailed instructions for Cellular Expert Server solution installation. It describes the
 installation, configuration, data loading path and steps to setup and start Cellular Expert Express solution.
-2.1 Installation files
+
+## 2.1 Installation files
+
 1. CE Express Setup file provided “CE_Express_7.2_winInstall(x64).exe”. It will automatically install:
 Confidential Cellular Expert, 2026 Page | 7
-
 
 ---
 
@@ -221,23 +236,24 @@ Cellular Expert Express Administrator Guide 5.8
  CE Express DB schema
  CE Express (frontend and backend)
  CE Express demo data
-2.2 Prerequisites
+
+## 2.2 Prerequisites
+
 2.2.1 ArcGIS Server
 Install ArcGIS for Server following the official installation guide:
-https://enterprise.arcgis.com/en/server/latest/install/windows/steps-to-get-arcgis-for-server-up-and-
-running.htm
+https://enterprise.arcgis.com/en/server/latest/install/windows/steps-to-get-arcgis-for-server-up-and-running.htm
 Use FQDN everywhere in the installation.
 Arcgis Image Server is recommended but optional for publishing layers from CE Express.
 2.2.2 PostgreSQL
 Install PostgreSQL following the guide:
-https://www.enterprisedb.com/docs/supported-open-
-source/postgresql/installer/02_installing_postgresql_with_the_graphical_installation_wizard/windows/
-2.3 Install CE Express
+https://www.enterprisedb.com/docs/supported-open-source/postgresql/installer/02_installing_postgresql_with_the_graphical_installation_wizard/windows/
+
+## 2.3 Install CE Express
+
 Execute the provided CE Express installation file (“CE_Express_6.0_winInstall(x64).exe”) and proceed by
 following the instructions displayed on the screen.
 2.3.1 Accept the software terms and conditions
 Confidential Cellular Expert, 2026 Page | 8
-
 
 ---
 
@@ -256,7 +272,6 @@ be assigned to the administrator group.
  Click verify and wait for the messages:
 Confidential Cellular Expert, 2026 Page | 9
 
-
 ---
 
 Cellular Expert Express Administrator Guide 5.8
@@ -271,7 +286,6 @@ Cellular Expert Express Administrator Guide 5.8
  Click on the “Verify” button and wait for the messages:
 Confidential Cellular Expert, 2026 Page | 10
 
-
 ---
 
 Cellular Expert Express Administrator Guide 5.8
@@ -281,7 +295,6 @@ such a case, the tables will be copied with the postfix "_date" to avoid conflic
 2.3.5 Check Installation and the licence of the CE Express software.
 Check windows services and there should be 3 CE Express services running:
 Confidential Cellular Expert, 2026 Page | 11
-
 
 ---
 
@@ -299,7 +312,6 @@ the URL of CE Express to the insecure content list. It could be done using the b
  Edge: edge://settings/content/insecureContent
 Another way is to enable SSL support on CE Express (see chapter “Enable SSL support (optional)).
 Confidential Cellular Expert, 2026 Page | 12
-
 
 ---
 
@@ -326,7 +338,6 @@ https://CE_express_hostname/ceexpressfrontenfolder (Example: https://localhost/c
  Publish provided geoprocessing tool "publishTif.sd" using Arcgis Server manager. The published
 Confidential Cellular Expert, 2026 Page | 13
 
-
 ---
 
 Cellular Expert Express Administrator Guide 5.8
@@ -351,7 +362,6 @@ used to publish, and the published objects (raster or features) will be visible 
  Restart Windows CE services. The “Coordinator” service must be started last.
 Confidential Cellular Expert, 2026 Page | 14
 
-
 ---
 
 Cellular Expert Express Administrator Guide 5.8
@@ -374,11 +384,12 @@ Ensure the remaining SMTP parameters (SMTP_HOST, SMTP_PORT, etc.) are correctly 
 to your email provider’s requirements.
  Restart Windows CE services. The “Coordinator” service must be started last.
 3. Prepare the application with own data
-3.1 Prepare data files
+
+## 3.1 Prepare data files
+
 In this chapter, you will find a description of the geographical file types that are used in Cellular Expert.
 Use the “Geodata sets” tool to upload all the required data to the CE Express:
 Confidential Cellular Expert, 2026 Page | 15
-
 
 ---
 
@@ -398,7 +409,6 @@ These types of GIS data describing the radio wave propagation path are illustrat
 the key propagation effects with corresponding types of path loss components: Free Space Loss (FSL),
 losses due to diffraction over terrain protrusions and obstacles, and losses due to clutter penetration.
 Confidential Cellular Expert, 2026 Page | 16
-
 
 ---
 
@@ -429,7 +439,6 @@ All three layers could be prepared using ArcGIS Pro tools: Projection, Copy Rast
 Supported geographical data types:
 Confidential Cellular Expert, 2026 Page | 17
 
-
 ---
 
 Cellular Expert Express Administrator Guide 5.8
@@ -456,7 +465,6 @@ Then, go to the Source tab > Spatial Reference and check the Coordinate System t
 it is in a Projected Coordinate System.
 Confidential Cellular Expert, 2026 Page | 18
 
-
 ---
 
 Cellular Expert Express Administrator Guide 5.8
@@ -465,7 +473,6 @@ If your raster is in a Geographic Coordinate System or needs a different project
 In the Output Coordinate System, specify a new coordinate system. It is recommended to use a UTM
 coordinate system under the WGS 1984 projection.
 Confidential Cellular Expert, 2026 Page | 19
-
 
 ---
 
@@ -478,7 +485,6 @@ vary. An example is the Sentinel-2 Land Cover dataset from the Living Atlas: Liv
 Cover
 Confidential Cellular Expert, 2026 Page | 20
 
-
 ---
 
 Cellular Expert Express Administrator Guide 5.8
@@ -488,7 +494,6 @@ Prepare Clutter Classes raster
 It must have the same coordinate system as your elevation.tif raster. If your raster has different coordinate
 system, then use the Geoprocessing tool → Project Raster to fix it.
 Confidential Cellular Expert, 2026 Page | 21
-
 
 ---
 
@@ -501,7 +506,6 @@ Represents actual clutter heights, which override the default heights specified 
 clutter heights raster requires the accompanying clutter classes raster and cannot be used independently.
 Confidential Cellular Expert, 2026 Page | 22
 
-
 ---
 
 Cellular Expert Express Administrator Guide 5.8
@@ -510,7 +514,6 @@ A clutter height raster can be derived from a Digital Surface Model (DSM) raster
 navigate to Spatial Analyst > Map Algebra > Raster Calculator. Use the following formula:
 DSM – DTM
 Confidential Cellular Expert, 2026 Page | 23
-
 
 ---
 
@@ -523,7 +526,6 @@ It must have the same coordinate system as your elevation.tif raster. If your ra
 system, then use the Geoprocessing tool → Project Raster to fix it.
 Confidential Cellular Expert, 2026 Page | 24
 
-
 ---
 
 Cellular Expert Express Administrator Guide 5.8
@@ -531,7 +533,6 @@ In the Output Coordinate System you would need to define the same coordinate sys
 raster. Click on Select Coordinate System button.
 And choose the same coordinate system as your elevation.tif.
 Confidential Cellular Expert, 2026 Page | 25
-
 
 ---
 
@@ -543,11 +544,12 @@ format. This format consists of a header, horizontal and vertical records. Examp
 After import of the antenna, the antenna id could be used in the cells data table.
 Confidential Cellular Expert, 2026 Page | 26
 
-
 ---
 
 Cellular Expert Express Administrator Guide 5.8
-3.2 Create new workspace in CE Express
+
+## 3.2 Create new workspace in CE Express
+
 To create a new workspace using start CE Express using URL
 http://CE_express_hostname/ceexpressfrontenfolder
 (Example: http://localhost/ceexp )
@@ -563,12 +565,10 @@ Extra layers: add additional layers form the other sources to be visualized in t
 For the administrators the new workspace will be visible after creation.
 Confidential Cellular Expert, 2026 Page | 27
 
-
 ---
 
 Cellular Expert Express Administrator Guide 5.8
 Antennas or cells for the new workspace could be loaded using CE Express environment and tools.
 Confidential Cellular Expert, 2026 Page | 28
-
 
 ---

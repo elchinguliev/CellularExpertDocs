@@ -6,12 +6,12 @@ influence calculation results, and how model parameters can be adjusted to refle
 environments and scenarios. The exercise focuses on understanding model behavior,
 comparing results, and creating custom model configurations.
 By the end of this exercise, participants will be able to:
-• Understand how CE Express evaluates radio visibility conditions
-• Work with different prediction models and their configurations
-• Change prediction models at the cell level
-• Modify key model parameters and observe their impact
-• Create and manage custom prediction model configurations
-• Compare prediction results generated using different models
+- Understand how CE Express evaluates radio visibility conditions
+- Work with different prediction models and their configurations
+- Change prediction models at the cell level
+- Modify key model parameters and observe their impact
+- Create and manage custom prediction model configurations
+- Compare prediction results generated using different models
 2. Understanding Prediction Models in CE Express
 Prediction models define how signal propagation losses are calculated across the coverage
 area. Instead of applying a single formula everywhere, CE Express evaluates the radio
@@ -19,8 +19,6 @@ visibility condition between a transmitter and each receiver point and applies t
 appropriate loss calculation for that condition.
 This approach allows near-deterministic modeling, where terrain, obstacles, and clutter are
 explicitly considered for every calculation pixel.
-2
-
 
 ---
 
@@ -32,25 +30,21 @@ vis-à-vis a receiver antenna located at a given point in coverage area. The rad
 evaluated based on the DTM, Obstacles and Clutter path profile information, as described in
 previous section. This verification of radio visibility will result in the receiver antenna point
 assigned into one of three possible radio visibility conditions:
-• Line-of-Sight (LOS) – occurs when there are neither terrain irregularities, obstacles or
+- Line-of-Sight (LOS) – occurs when there are neither terrain irregularities, obstacles or
 clutter interposing the direct radio path between the transmitter and receiver antennas.
 The radio path is understood to include the 1st Fresnel zone around the direct line and
 account for Spherical Earth effect. The LOS condition is illustrated by the path profile
 depicted in Fig. 1(a).
-• Obstructed LOS (OLOS) – occurs when the direct radio propagation line is interposed by
+- Obstructed LOS (OLOS) – occurs when the direct radio propagation line is interposed by
 clutter, see illustration in Fig. 1(b).
-• Non-LOS (NLOS) – occurs when the direct radio propagation line is interposed by terrain
+- Non-LOS (NLOS) – occurs when the direct radio propagation line is interposed by terrain
 bulges or obstacles, see illustration in Fig. 1(c).
-3
-
 
 ---
 
 (a) Example of path profile with LOS condition (green line of direct radio link)
 (b) Example of path profile with OLOS condition (yellow segment of radio link path)
 (c) Example of path profile with NLOS condition (red segment of radio link path)
-4
-
 
 ---
 
@@ -63,7 +57,9 @@ section.
 2. Note that when the receiver is located indoors, the special Outdoor-to-Indoor propagation function
 will be applied in addition to basic path loss, as explained in the separate section at the end of this
 chapter.
-3.1 Models
+
+## 3.1 Models
+
 CEC ITU-R 3GPP Model (100MHz – 6GHz) is a combination model intended for use in a variety of
 different radiocommunication systems which is derived explicitly from ITU-R path loss modelling
 methods as follows:
@@ -84,8 +80,6 @@ above based on LOS, OLOS and NLOS conditions, and additional penetration loss is
 simulate Outdoor-to-Indoor scenario which is based on ITU-R P.833 recommendation (if receiver
 is in vegetation type clutter) or based on 3GPP TR 38.901 (ref URL) (if receiver is in a building).
 ITU-R P.452 Model (6GHz – 50GHz) is provided as a universally applicable model with a very wide
-5
-
 
 ---
 
@@ -116,12 +110,12 @@ above based on LOS, OLOS and NLOS conditions, and additional penetration loss is
 simulate Outdoor-to-Indoor scenario which is based on ITU-R P.833 recommendation (if receiver
 is in vegetation type clutter) or based on 3GPP TR 38.901 (ref URL) (if receiver is in a building).
 4. Exercise
-4.1 Step 1 – Open the Workspace
+
+## 4.1 Step 1 – Open the Workspace
+
 1. Open the CE Express application:
 https://cecom2.cellular-expert.com/ce_express/
 2. From the workspace list, select the workspace used in the previous exercise.
-6
-
 
 ---
 
@@ -130,12 +124,11 @@ Open Prediction Models tool
 1. Open the Prediction Models tool.
 2. Browse available models and configurations.
 3. Select CEC ITU-R (100 MHz – 6 GHz) and review its parameters.
-7
-
 
 ---
 
-5.1 Step 3 – Assigning Prediction Models to Cells
+## 5.1 Step 3 – Assigning Prediction Models to Cells
+
 Assigning a prediction model to a cell determines which propagation logic and parameter set
 will be used when calculations are performed. This step is critical because the selected model
 directly affects how terrain, clutter, distance, and frequency are interpreted during prediction.
@@ -143,15 +136,13 @@ Prediction models are assigned at the cell level, which means different cells wi
 workspace can use different models or different configurations of the same model.
 5.1.1 Selecting Cells for Model Assignment
 1. On the map, locate and select the following cells:
-• NBa 01
-• NBa 02
-• NBa 03
+- NBa 01
+- NBa 02
+- NBa 03
 2. Confirm that all selected cells are highlighted.
 Only selected cells will be affected by model assignment changes.
 5.1.2 Assigning a Prediction Model to a Cell
 1. Click on NBa 01 in Features tool to open the Edit Feature panel.
-8
-
 
 ---
 
@@ -160,21 +151,20 @@ Only selected cells will be affected by model assignment changes.
 The menu lists all available prediction model configurations defined in the workspace.
 5.1.3 Reviewing Available Models
 Before selecting a model, review the list and note:
-• Model name and configuration name
-• Intended frequency range
-• Maximum calculation radius
-• Environment assumptions
+- Model name and configuration name
+- Intended frequency range
+- Maximum calculation radius
+- Environment assumptions
 This review helps ensure the selected model matches the intended scenario.
 5.1.4 Applying the Model
 1. Select the appropriate prediction model configuration from the list.
 2. Click Accept to apply the change.
 Repeat this process for NBa 02 and NBa 03.
-9
-
 
 ---
 
-5.2 Step 4 – Running Predictions and Comparing Results
+## 5.2 Step 4 – Running Predictions and Comparing Results
+
 Once prediction models are correctly assigned to cells, the next step is to run RF predictions
 and systematically compare the results. This step transforms model configuration into visual
 outputs and allows users to understand how different models and parameters influence
@@ -191,8 +181,6 @@ A calculation task is created and executed in the background.
 1. Once the calculation is complete, open Prediction History.
 2. Locate the most recent prediction task.
 3. Open 5G 3500 Field Strength 1, dBm.
-10
-
 
 ---
 
@@ -201,18 +189,18 @@ Layers panel.
 5.2.3 Establishing a Baseline Result
 The first prediction result acts as a baseline.
 Before making any changes:
-• Observe overall coverage shape
-• Note areas of strong and weak signal
-• Zoom into representative locations
+- Observe overall coverage shape
+- Note areas of strong and weak signal
+- Zoom into representative locations
 This baseline is essential for understanding the impact of later changes.
-5.3 Step 5 – Modifying Model Parameters and Observing Impact
+
+## 5.3 Step 5 – Modifying Model Parameters and Observing Impact
+
 1. Open Prediction Models → CEC ITU-R → 2 km radius configuration.
 2. Change Free Space Loss KOff from 45 to 32.
 3. Run predictions again.
 After successful calculation, open 5G 3500 Field Strength 1, dBm prediction results.
 Now, we have two layers loaded to Prediction results.
-11
-
 
 ---
 
@@ -223,12 +211,12 @@ Now change Distance coefficient value from 20 to 30.
 Press Accept and RF run predictions again. After successful calculation, open 5G 3500
 Field Strength 1, dBm prediction results.
 Compare the predictions using Identify tool.
-5.4 Step 6 – Understanding Building Clutter Parameters
+
+## 5.4 Step 6 – Understanding Building Clutter Parameters
+
 Building clutter parameters describe how man-made structures affect signal propagation.
 These parameters are critical in environments where buildings are a dominant factor
 influencing visibility, attenuation, and diffraction.
-12
-
 
 ---
 
@@ -237,10 +225,10 @@ a set of configurable parameters that control how loss is introduced as signals 
 built environments.
 5.4.1 Purpose of Building Clutter Modeling
 Building clutter modeling is used to:
-• Represent attenuation caused by walls, roofs, and dense construction
-• Simulate diffraction around building edges
-• Account for penetration losses when receivers are located indoors
-• Reflect differences between open areas and dense urban zones
+- Represent attenuation caused by walls, roofs, and dense construction
+- Simulate diffraction around building edges
+- Account for penetration losses when receivers are located indoors
+- Reflect differences between open areas and dense urban zones
 Accurate clutter configuration ensures that predictions reflect realistic environmental
 behavior rather than idealized free-space conditions.
 5.4.2 Accessing Building Clutter Parameters
@@ -249,28 +237,26 @@ behavior rather than idealized free-space conditions.
 3. Expand Building clutter values.
 This section contains parameters that specifically control how buildings influence the path
 loss calculation.
-13
-
 
 ---
 
 Key Parameters:
-• Nominal distance, m – the average distance between objects within the clutter class,
+- Nominal distance, m – the average distance between objects within the clutter class,
 ranging from 1 to 100 meters.
-• Diffraction loss coefficient – a multiplier used in diffraction calculations. Lower values result
+- Diffraction loss coefficient – a multiplier used in diffraction calculations. Lower values result
 in reduced diffraction loss, while higher values increase it. Typically, this coefficient is
 higher for buildings compared to forests or other clutter types.ltiplier for diffraction
 calculations. If value is lower, diffraction will be lower, if higher – then diffraction will be
 higher. Usually, for buildings clutter class this parameter is higher then forest or other
 clutter classes.
-• Enclosed receiver loss offset, dB – the initial entry loss into the clutter class, expressed
+- Enclosed receiver loss offset, dB – the initial entry loss into the clutter class, expressed
 as an offset in dB, which is added to the path loss grid.
-• Enclosed receiver loss scaling coefficient – represents additional signal loss as a function
+- Enclosed receiver loss scaling coefficient – represents additional signal loss as a function
 of the distance traveled within the clutter class. Higher values increase path loss.
-• Enclosed receiver loss frequency exponent coefficient – reflects additional loss inside the
+- Enclosed receiver loss frequency exponent coefficient – reflects additional loss inside the
 clutter class based on frequency. Higher values increase path loss, particularly at higher
 frequencies.
-• Receiver point loss offset, dB – an additional loss offset in dB applied to the path loss grid,
+- Receiver point loss offset, dB – an additional loss offset in dB applied to the path loss grid,
 representing user equipment (UE) losses.
 5.4.3 Observing the Impact of Parameter Changes
 1. Change Diffraction Loss Coefficient from 1 to 1.3.
@@ -278,15 +264,14 @@ representing user equipment (UE) losses.
 3. Run RF predictions again. After successful calculation, open 5G 3500 Field Strength 1,
 dBm prediction results.
 After recalculation, observe:
-• Reduced signal strength in areas obstructed by buildings
-• Greater contrast between open and built-up areas
+- Reduced signal strength in areas obstructed by buildings
+- Greater contrast between open and built-up areas
 These changes confirm the role of building clutter parameters in shaping prediction results.
-14
-
 
 ---
 
-5.5 Step 7 – Creating, Applying, and Evaluating a Custom Prediction Model Configuration
+## 5.5 Step 7 – Creating, Applying, and Evaluating a Custom Prediction Model Configuration
+
 Creating a custom prediction model configuration allows users to tailor propagation behavior
 to a specific scenario, environment, or analysis objective. This step combines model creation,
 model assignment, and result evaluation into a single, coherent workflow.
@@ -297,49 +282,45 @@ references while enabling controlled experimentation and scenario-specific tunin
 2. Select the base model CEC ITU-R.
 3. Click + New Configuration.
 Define the following parameters:
-• Model Name: PM 1km radius
-• Maximum Radius: 1 km
-• Effective Earth Radius: 8500
-• Receiver Height: 1.5 m
-• Free Space Loss Offset: 45
-• Distance Coefficient (LOS): 20
-• Distance Coefficient (Obstructed): 30
-• Frequency Coefficient: 20
-15
-
+- Model Name: PM 1km radius
+- Maximum Radius: 1 km
+- Effective Earth Radius: 8500
+- Receiver Height: 1.5 m
+- Free Space Loss Offset: 45
+- Distance Coefficient (LOS): 20
+- Distance Coefficient (Obstructed): 30
+- Frequency Coefficient: 20
 
 ---
 
 5.5.2 Configuring Environmental Parameters
 Expand the following sections and configure values according to the training reference:
-• Building clutter values
-• Other clutter values
+- Building clutter values
+- Other clutter values
 These settings control how urban structures and non-building obstacles influence
 propagation behavior.
 Once all parameters are defined, click Accept to save the configuration.
-16
-
 
 ---
 
 5.5.3 Applying the Custom Model to Cells
 1. Select the cells:
-• NBa 01
-• NBa 02
-• NBa 03
+- NBa 01
+- NBa 02
+- NBa 03
 2. Open Edit Feature for each cell.
 3. Assign the newly created model configuration (PM 1km radius) as the prediction model.
 5.5.4 Running Predictions with the Custom Model
 1. Open the RF Prediction tool.
 2. Run predictions for the selected cells.
 3. Open the resulting Field Strength output from Prediction History.
-17
-
 
 ---
 
 Close all prediction results in Layers tool.
-5.6 Step 8 – LOS-Only Prediction for mmWave
+
+## 5.6 Step 8 – LOS-Only Prediction for mmWave
+
 High-frequency systems, particularly in the millimeter-wave (mmWave) range, behave very
 differently from lower-frequency deployments. At these frequencies, signal propagation is
 highly dependent on clear Line of Sight (LOS), and even small obstructions can completely
@@ -356,26 +337,20 @@ LOS conditions are met.
 5.6.2 Reviewing LOS-Only Model Parameters
 1. Open the Prediction Models tool.
 2. Select LOS ITU-R P.525 – mmWave Band 1km radius.
-18
-
 
 ---
 
 Key characteristics to review:
-• Free Space Loss formulation
-• Maximum calculation radius
-• Receiver height assumptions
+- Free Space Loss formulation
+- Maximum calculation radius
+- Receiver height assumptions
 5.6.3 Running the LOS-Only Prediction
 1. Open the RF Prediction tool.
 2. Run the prediction for Cx002.
-19
-
 
 ---
 
 3. Open the resulting Field Strength output from Prediction History.
 It will provide coverage results where only LOS condition exist.
-20
-
 
 ---

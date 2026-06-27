@@ -4,22 +4,35 @@ Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 Table of Contents
 1. Software Purpose and Functionality 6
 2. System requirements 8
-2.1 Minimal Requirements for Hardware 8
-2.2 Minimal Requirements for Software 8
+
+## 2.1 Minimal Requirements for Hardware 8
+
+## 2.2 Minimal Requirements for Software 8
+
 3. License types 9
-3.1 Single-User Environment 9
+
+## 3.1 Single-User Environment 9
+
 4. Getting Started 10
-4.1 Installation 10
-4.2 Activation 10
-4.3 Tools 11
+
+## 4.1 Installation 10
+
+## 4.2 Activation 10
+
+## 4.3 Tools 11
+
 5. Geographic data 13
-5.1 Geographic data requirements 15
+
+## 5.1 Geographic data requirements 15
+
 5.1.1 Digital Terrain Model (DTM) Grid (Mandatory) 15
 5.1.2 Clutter classes grid 19
 5.1.3 Clutter heights 24
 5.1.4 Buildings 28
 6. Workspace 32
-6.1 Workspace Tool 32
+
+## 6.1 Workspace Tool 32
+
 6.1.1 Workspace Table 32
 6.1.2 Create Workspace 34
 6.1.3 Create Indoor Workspace 38
@@ -27,41 +40,61 @@ Table of Contents
 6.1.5 Remove Workspace 43
 6.1.6 Workspace Upgrade 43
 6.1.7 Workspace Properties 45
-6.2 Docs Manager 51
-6.3 CE Express Connection 56
+
+## 6.2 Docs Manager 51
+
+## 6.3 CE Express Connection 56
+
 6.3.1 Properties 56
 7. Data Management 58
 Confidential ©Cellular Expert, 2026 Page | 2
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
-7.1 Network Objects 58
-7.2 Add Object 58
+
+## 7.1 Network Objects 58
+
+## 7.2 Add Object 58
+
 7.2.1 Add Cell 58
-7.3 Object Editor 66
+
+## 7.3 Object Editor 66
+
 7.3.1 Move Objects 68
 7.3.2 Duplicate Objects 72
-7.4 Clutter Classes 75
-7.5 Antenna Viewer 79
+
+## 7.4 Clutter Classes 75
+
+## 7.5 Antenna Viewer 79
+
 7.5.1 Preview Antenna Patterns 79
-7.6 Prediction Model Manager 79
+
+## 7.6 Prediction Model Manager 79
+
 7.6.1 Models 81
-7.7 Template Manager 104
+
+## 7.7 Template Manager 104
+
 7.7.1 Edit Network Objects template 105
 7.7.2 Manage Network Object Template 105
 7.7.3 Modulations 106
 7.7.4 Modulation Editor 108
-7.8 Import Objects 110
+
+## 7.8 Import Objects 110
+
 7.8.1 Import Cells 111
 7.8.2 Import Sites, Radar, CPE, or Repeaters 114
-7.9 Import/Export Antenna Files 115
+
+## 7.9 Import/Export Antenna Files 115
+
 7.9.1 Import Antennas 115
 7.9.2 Export Antennas 115
 7.9.3 Create Antennas 116
 8. Profile 118
-8.1 Profile Tool 118
+
+## 8.1 Profile Tool 118
+
 8.1.1 Properties 118
 8.1.2 Draw Profile 122
 8.1.3 Tools 129
@@ -69,24 +102,29 @@ Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 8.1.5 Export (Profile Report) 134
 8.1.6 Settings 136
 9. Coverage Prediction 137
-9.1 CE Calculation Task List 137
-Confidential ©Cellular Expert, 2026 Page | 3
 
+## 9.1 CE Calculation Task List 137
+
+Confidential ©Cellular Expert, 2026 Page | 3
 
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
-9.2 Visibility Prediction 137
+
+## 9.2 Visibility Prediction 137
+
 10. About 141
-10.1 License information 141
-10.2 Help 141
+
+## 10.1 License information 141
+
+## 10.2 Help 141
+
 10.2.1 Documentation 141
 10.2.2 What’s New 142
 10.2.3 Technical Support 143
 10.2.4 Error log 143
 11. Technical Support 144
 Confidential ©Cellular Expert, 2026 Page | 4
-
 
 ---
 
@@ -110,7 +148,6 @@ registered trademarks, @cellular-expert.com and
 www.cellular-expert.com are service marks of UAB
 CELLULAR EXPERT in Lithuania and some other countries.
 Confidential ©Cellular Expert, 2026 Page | 5
-
 
 ---
 
@@ -158,15 +195,14 @@ Signal Strength Prediction
 The tool contains several in-built path loss prediction models that allow the user to easily start simulations
 based on the evaluation of the most essential pathloss contributing factors. The following two models
 constitute the starting set:
-• Free space – typically used for modeling short-range mobile communications, fixed links, or other
+- Free space – typically used for modeling short-range mobile communications, fixed links, or other
 radiocommunications applications with prevalent Line-of-Sight conditions on propagation paths,
 Confidential ©Cellular Expert, 2026 Page | 6
-
 
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
-• UniMacro – a proprietary universal model for wide area mobile communication systems that flexibly
+- UniMacro – a proprietary universal model for wide area mobile communication systems that flexibly
 accounts for a variety of propagation paths as determined for each specific reception point based
 on terrain and clutter data vs. configuration of the modeled system.
 Further details on path loss models and their configuration options are provided in the relevant section of
@@ -180,12 +216,12 @@ Radio coverage calculation is assisted in the tool by the possibility to use pre
 templates that are tailored to typical technical parameters of base stations in different Radio Access
 Technologies. Accordingly, the model settings and outputs will be adjusted to suit the scenario pertinent to
 that technology, i.e.:
-• 2G – radio coverage is calculated in dBm as receive power level of narrow-band (200 kHz) signal,
-• 3G – radio coverage is calculated in dBm as the receive power level of a single broadband (3.85
+- 2G – radio coverage is calculated in dBm as receive power level of narrow-band (200 kHz) signal,
+- 3G – radio coverage is calculated in dBm as the receive power level of a single broadband (3.85
 MHz) carrier,
-• 4G/5G – radio coverage is calculated in dBm as the equivalent RSRP of a single sub-carrier
+- 4G/5G – radio coverage is calculated in dBm as the equivalent RSRP of a single sub-carrier
 component in the complex OFDM broadband signal.
-• Wi-Fi - wireless communication technology based on the IEEE 802.11 standards, used for setting
+- Wi-Fi - wireless communication technology based on the IEEE 802.11 standards, used for setting
 up local area networks (WLANs) and providing internet access in various settings without requiring
 cable connections.
 Profile Analysis
@@ -194,7 +230,6 @@ such as allowing to estimate of the Fresnel zone clearance condition, Power Budg
 between Tx and Rx.
 Confidential ©Cellular Expert, 2026 Page | 7
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -202,31 +237,34 @@ Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 This chapter will guide you through the minimal hardware and software requirements.
 Note: requirements can vary significantly, depending on the acceptable calculation time and task
 complexity.
-2.1 Minimal Requirements for Hardware
+
+## 2.1 Minimal Requirements for Hardware
+
 Processor (CPU):
-• Minimum: 8 cores, hyperthreaded
-• Recommended: 16 cores
+- Minimum: 8 cores, hyperthreaded
+- Recommended: 16 cores
 (Optional) Requirements for GPU-accelerated calculations
-• GPU – any NVIDIA GPU with CUDA capabilities (https://developer.nvidia.com/cuda-gpus)
-• Driver version: 456.38 or later
-• CUDA Toolkit 11.0 or later
+- GPU – any NVIDIA GPU with CUDA capabilities (https://developer.nvidia.com/cuda-gpus)
+- Driver version: 456.38 or later
+- CUDA Toolkit 11.0 or later
 Memory/RAM:
-• Minimum: 16 GB
-• Recommended: 32 GB
+- Minimum: 16 GB
+- Recommended: 32 GB
 Storage:
-• Minimum: 500 GB of free space
-• Recommended: 2TB or more of free space on a solid-state drive (SSD)
-2.2 Minimal Requirements for Software
+- Minimum: 500 GB of free space
+- Recommended: 2TB or more of free space on a solid-state drive (SSD)
+
+## 2.2 Minimal Requirements for Software
+
 Cellular Expert runs on Microsoft Windows 10 or higher operating system.
 It requires:
-• Microsoft .NET 8.0
+- Microsoft .NET 8.0
 Download .NET 8.0 Desktop Runtime (v8.0.0) - Windows x64 Installer
-• Microsoft Visual C++ Redistributable packages 2015-2022
+- Microsoft Visual C++ Redistributable packages 2015-2022
 https://aka.ms/vs/17/release/vc_redist.x64.exe
-• .NET support for ArcGIS libraries
-• ArcGIS Pro from version 3.3.x
+- .NET support for ArcGIS libraries
+- ArcGIS Pro from version 3.3.x
 Confidential ©Cellular Expert, 2026 Page | 8
-
 
 ---
 
@@ -234,16 +272,17 @@ Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 3. License types
 Only a Single Use Cellular Expert license is available. The license type is annual and dedicated to one
 workstation connected with ArcGIS Online, which is used for ArcGIS Pro.
-3.1 Single-User Environment
+
+## 3.1 Single-User Environment
+
 For the Single-User configuration of Cellular Expert, all information about radio network objects is stored in
 a personal geodatabase (GDB format) or locally on the disc (calculation results, raster data in GeoTIFF
 format, etc.).
 Geographical data can be stored:
-• Locally on a disc
+- Locally on a disc
 An ArcGIS Pro license and an active ArcGIS Named User or ArcGIS Pro Standalone are required to operate
 in the Single-User environment.
 Confidential ©Cellular Expert, 2026 Page | 9
-
 
 ---
 
@@ -253,13 +292,17 @@ Welcome to Cellular Expert.
 This chapter will guide you through project creation and analysis. It includes the installation and preparation
 of the Cellular Expert extension, as well as using it for the first time and creating a project.
 Note: the tools are not explained in this chapter. They are referenced in other chapters of this guide.
-4.1 Installation
-• If applicable, uninstall the previous version of Cellular Expert for ArcGIS Pro
-• Make sure that .NET 8.0 is installed
-• Make sure that ArcGIS Pro 3.3.x is installed
-• Run the ceProSetup.msi file to install the new version of Cellular Expert for ArcGIS Pro
-• After successful installation, open Task Manager > Services, and run CE_Pro_Prediction_Service
-4.2 Activation
+
+## 4.1 Installation
+
+- If applicable, uninstall the previous version of Cellular Expert for ArcGIS Pro
+- Make sure that .NET 8.0 is installed
+- Make sure that ArcGIS Pro 3.3.x is installed
+- Run the ceProSetup.msi file to install the new version of Cellular Expert for ArcGIS Pro
+- After successful installation, open Task Manager > Services, and run CE_Pro_Prediction_Service
+
+## 4.2 Activation
+
 This step is required for new users. If the Cellular Expert for ArcGIS Pro license has already been activated,
 please skip this step.
 You can activate the license in two ways:
@@ -287,30 +330,29 @@ If you want to check the expiration date of the license you can:
 3. Select License Information in the About section
 Confidential ©Cellular Expert, 2026 Page | 10
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 If you encounter any problems or want additional details about the license, please contact Cellular Expert
 at support@cellular-expert.com. For more information, see the chapter Technical Support.
-4.3 Tools
+
+## 4.3 Tools
+
 The Cellular Expert tools are in the Cellular Expert add-on. They appear automatically after installation of
 CE for ArcGIS Pro and will be found in the menu ribbon.
 There are 5 types of licenses and therefore 5 different tabs with various tool configurations:
-• RCP
-• RLP
+- RCP
+- RLP
 Confidential ©Cellular Expert, 2026 Page | 11
-
 
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
-• EMF
-• Sound
-• Indoor
+- EMF
+- Sound
+- Indoor
 This User Guide describes Indoor tools.
 Confidential ©Cellular Expert, 2026 Page | 12
-
 
 ---
 
@@ -331,14 +373,13 @@ already license, turning them into actionable broadband maps without additional 
 requirements from the solution provider.
 By using terrain elevation, obstacles, and clutter classification in every calculation, Cellular Expert
 accurately models:
-• Line-of-Sight and Non-Line-of-Sight Conditions – Determining diffraction, reflection, and
+- Line-of-Sight and Non-Line-of-Sight Conditions – Determining diffraction, reflection, and
 shadowing effects over hills, valleys, and urban obstacles.
-• Coverage Footprints – Generating precise signal strength maps at national, regional, and local
+- Coverage Footprints – Generating precise signal strength maps at national, regional, and local
 levels.
-• Capacity and Interference Analysis – Modeling realistic signal overlaps and interference zones
+- Capacity and Interference Analysis – Modeling realistic signal overlaps and interference zones
 for multi-operator, multi-technology environments.
 Confidential ©Cellular Expert, 2026 Page | 13
-
 
 ---
 
@@ -363,40 +404,39 @@ partially penetrable by radio waves, such as natural vegetation (e.g., forests, 
 various crops, gardens, parks, etc.
 The image above illustrates how Cellular Expert uses different resolutions of topographical data to
 significantly improve coverage prediction accuracy.
-• Left image: Coverage calculated using 25 m resolution ASTER DEM data, showing a general view
+- Left image: Coverage calculated using 25 m resolution ASTER DEM data, showing a general view
 of signal distribution but with limited detail, especially in dense urban areas.
-• Right image: Coverage calculated using 1 m resolution data, revealing a much more precise
+- Right image: Coverage calculated using 1 m resolution data, revealing a much more precise
 propagation pattern, including building-level shadowing and accurate street-by-street coverage.
-More information: https://blog.maxar.com/earth-intelligence/2022/benefits-of-using-maxars-precision3d-
-telco-suite-for-5g
+More information: https://blog.maxar.com/earth-intelligence/2022/benefits-of-using-maxars-precision3d-telco-suite-for-5g
 Cellular Expert can easily integrate and process 1 m or even sub-meter topographical data, providing highly
 detailed RF calculations. This level of precision is essential for:
-• Modeling 2G/3G/4G/5G, small cells and mmWave networks.
-• Identifying exact coverage gaps at the building and street level.
+- Modeling 2G/3G/4G/5G, small cells and mmWave networks.
+- Identifying exact coverage gaps at the building and street level.
 Confidential ©Cellular Expert, 2026 Page | 14
-
 
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
-• Supporting regulatory-grade broadband mapping and planning.
+- Supporting regulatory-grade broadband mapping and planning.
 By using high-resolution terrain and clutter data, Cellular Expert ensures that its calculations match real-
 world conditions as closely as possible — resulting in better network design decisions and more reliable
 broadband planning outcomes.
-5.1 Geographic data requirements
+
+## 5.1 Geographic data requirements
+
 The supported geographical data types:
 Only GeoTIFF is supported. Topographical data must have specific names:
-• The Digital terrain model must be named elevation.tif
-• The land use (or clutter) grid must be named clutterClasses.tif
-• The clutter heights (typically building, vegetation height) grid must be named clutterHeight.tif
+- The Digital terrain model must be named elevation.tif
+- The land use (or clutter) grid must be named clutterClasses.tif
+- The clutter heights (typically building, vegetation height) grid must be named clutterHeight.tif
 Mandatory geographical data:
-• Digital Terrain Model (DTM) grid
+- Digital Terrain Model (DTM) grid
 All geodata must be located in one catalog.
 5.1.1 Digital Terrain Model (DTM) Grid (Mandatory)
 The Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), represents the Earth’s
 ground level above sea level. Each raster pixel has its height value.
 Confidential ©Cellular Expert, 2026 Page | 15
-
 
 ---
 
@@ -414,7 +454,6 @@ Then, go to the Source tab > Spatial Reference and check the Coordinate System t
 it is in a Projected Coordinate System.
 Confidential ©Cellular Expert, 2026 Page | 16
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -426,7 +465,6 @@ You can find the appropriate UTM zone for your area here:
 https://www.arcgis.com/apps/mapviewer/index.html?layers=b294795270aa4fb3bd25286bf09edc51
 Confidential ©Cellular Expert, 2026 Page | 17
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -434,13 +472,12 @@ Correct No Data value and raster name
 After setting the correct projection, assign the NoData attribute and specify the appropriate name for the
 DTM raster. To do this, use the Copy Raster tool in Geoprocessing.
 Configure the following settings:
-• Input Raster: Select your newly projected DTM raster.
-• Output Raster Dataset: Specify the output location and set the raster name to elevation.tif.
-• NoData Value: Enter -9999.
-• Pixel Type: Choose 32-bit signed or 32-bit float.
-• Format: This will automatically be set to TIFF.
+- Input Raster: Select your newly projected DTM raster.
+- Output Raster Dataset: Specify the output location and set the raster name to elevation.tif.
+- NoData Value: Enter -9999.
+- Pixel Type: Choose 32-bit signed or 32-bit float.
+- Format: This will automatically be set to TIFF.
 Confidential ©Cellular Expert, 2026 Page | 18
-
 
 ---
 
@@ -456,7 +493,6 @@ This data is freely available worldwide and is detailed in Cellular Expert datab
 created, a default clutter class table is automatically applied for each land use class.
 Confidential ©Cellular Expert, 2026 Page | 19
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -465,7 +501,6 @@ These are standard clutter types in the default workspace database, which cannot
 map your clutter raster to these predefined clutter types. Standard mapping has already been configured
 for the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2 Land Cover
 Confidential ©Cellular Expert, 2026 Page | 20
-
 
 ---
 
@@ -478,7 +513,6 @@ Once clutter classes are successfully mapped, the prediction algorithms will rec
 apply distinct symbols, and adjust path loss calculations accordingly, based on the parameters set in the
 prediction model.
 Confidential ©Cellular Expert, 2026 Page | 21
-
 
 ---
 
@@ -493,7 +527,6 @@ raster. Click on Select Coordinate System button.
 And choose the same coordinate system as your elevation.tif.
 Confidential ©Cellular Expert, 2026 Page | 22
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -501,13 +534,12 @@ Correct No Data value and raster name
 After setting the correct projection, assign the NoData attribute and specify the appropriate name for the
 Clutter Class raster. To do this, use the Copy Raster tool in Geoprocessing.
 Configure the following settings:
-• Input Raster: Select your newly projected Clutter Class raster.
-• Output Raster Dataset: Specify the output location and set the raster name to clutterClasses.tif.
-• NoData Value: Enter -9999.
-• Pixel Type: Choose 32-bit signed or 32-bit float.
-• Format: This will automatically be set to TIFF.
+- Input Raster: Select your newly projected Clutter Class raster.
+- Output Raster Dataset: Specify the output location and set the raster name to clutterClasses.tif.
+- NoData Value: Enter -9999.
+- Pixel Type: Choose 32-bit signed or 32-bit float.
+- Format: This will automatically be set to TIFF.
 Confidential ©Cellular Expert, 2026 Page | 23
-
 
 ---
 
@@ -522,7 +554,6 @@ navigate to Spatial Analyst > Map Algebra > Raster Calculator. Use the following
 DSM – DTM
 Confidential ©Cellular Expert, 2026 Page | 24
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -535,7 +566,6 @@ It must have the same coordinate system as your elevation.tif raster. If your ra
 system, then use the Geoprocessing tool → Project Raster to fix it.
 Confidential ©Cellular Expert, 2026 Page | 25
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -547,18 +577,16 @@ After setting the correct projection, assign the NoData attribute and specify th
 Clutter Height raster. To do this, use the Copy Raster tool in Geoprocessing.
 Confidential ©Cellular Expert, 2026 Page | 26
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 Configure the following settings:
-• Input Raster: Select your newly projected Clutter Height raster.
-• Output Raster Dataset: Specify the output location and set the raster name to clutterHeight.tif.
-• NoData Value: Enter -9999.
-• Pixel Type: Choose 32-bit signed or 32-bit float.
-• Format: This will automatically be set to TIFF.
+- Input Raster: Select your newly projected Clutter Height raster.
+- Output Raster Dataset: Specify the output location and set the raster name to clutterHeight.tif.
+- NoData Value: Enter -9999.
+- Pixel Type: Choose 32-bit signed or 32-bit float.
+- Format: This will automatically be set to TIFF.
 Confidential ©Cellular Expert, 2026 Page | 27
-
 
 ---
 
@@ -580,7 +608,6 @@ you to enrich the clutter map with accurate building representations – essenti
 modeling.
 Confidential ©Cellular Expert, 2026 Page | 28
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -598,7 +625,6 @@ o Use map algebra expressions to merge or replace values as needed, assigning ap
 clutter class codes to building areas.
 Con(IsNull("building raster"), "Clutter_classes.tif", 0)
 Confidential ©Cellular Expert, 2026 Page | 29
-
 
 ---
 
@@ -620,19 +646,17 @@ This ensures that Buildings are accurately represented in simulations, contribut
 behavior in both indoor and outdoor environments.
 Confidential ©Cellular Expert, 2026 Page | 30
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 Building Height Determination in Clutter-Based Modeling
 Pixels assigned to a building clutter class ID will be automatically recognized as solid obstacle during
 prediction calculations. Their heights are determined using the following priority:
-• Option 1: From the associated Clutter Height raster, if available. This provides the most accurate,
+- Option 1: From the associated Clutter Height raster, if available. This provides the most accurate,
 location-specific height information.
-• Option 2: If no Clutter Height raster is present, the system will default to the height value defined
+- Option 2: If no Clutter Height raster is present, the system will default to the height value defined
 in the Clutter Classes table for the corresponding clutter ID.
 Confidential ©Cellular Expert, 2026 Page | 31
-
 
 ---
 
@@ -640,34 +664,34 @@ Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 The result:
 6. Workspace
 This chapter describes the Cellular Expert workspace functionality.
-6.1 Workspace Tool
+
+## 6.1 Workspace Tool
+
 6.1.1 Workspace Table
 Cellular Expert workspace is a geodatabase containing data tables, feature datasets, and the workspace
 definition table. After creating a new workspace database, the workspace definition table will be named
 CE_WORKSPACE and contain the information about the dataset.
 Confidential ©Cellular Expert, 2026 Page | 32
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 Data field types and values:
-• OBJECTID – long integer type
-• pName – text type
-• pType – text type
-• pValue – text type
+- OBJECTID – long integer type
+- pName – text type
+- pType – text type
+- pValue – text type
 When moving your project’s directory to another location (to another computer), it is necessary to update
 the workspace parameters by referencing the new paths to properly load the project:
-• Prediction Path – path for storing prediction grids
-• Calculation Path – path for temporary calculations
-• Calculation Tasks Data Path – path for saving calculation tasks
-• Geodata Folder Path – path for geodata (prediction models do not have geodata options, topographical
+- Prediction Path – path for storing prediction grids
+- Calculation Path – path for temporary calculations
+- Calculation Tasks Data Path – path for saving calculation tasks
+- Geodata Folder Path – path for geodata (prediction models do not have geodata options, topographical
 data are taken from the Geodata Folder Path)
-• Result Path – path for final results
+- Result Path – path for final results
 Workspace calculation paths and settings can be previewed in the dedicated tool, navigate to Workspace
 > Properties. It would show all parameters listed in CE_WORKSPACE table.
 Confidential ©Cellular Expert, 2026 Page | 33
-
 
 ---
 
@@ -684,12 +708,11 @@ Pro and CE workspace in the same location.
 Geodata folder path
 Catalog where geodata files are stored. More about Geodata requirements are listed in 5. Geographic
 data topic. Click on Browse button to define Geodata catalog. Geodata must have specific names:
-• The Digital terrain model must be named elevation.tif
-• The land use (or clutter) grid must be named clutterClasses.tif
-• The clutter heights (typically building and vegetation height) grid must be named
+- The Digital terrain model must be named elevation.tif
+- The land use (or clutter) grid must be named clutterClasses.tif
+- The clutter heights (typically building and vegetation height) grid must be named
 clutterHeight.tif
 Confidential ©Cellular Expert, 2026 Page | 34
-
 
 ---
 
@@ -703,16 +726,15 @@ the manual editing of clutter class IDs, click the Manually Set Clutter Class ID
 can be edited to designate its used and unused types, also indicated by their distinct colors.
 Confidential ©Cellular Expert, 2026 Page | 35
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 Note: The projected Coordinate System has been filled automatically and taken from the defined Elevation
 grid. This means that this coordinate system will be assigned to your project feature layers.
 Several messages related to Geodata:
-• If only Elevation exists in Geodata catalog, then tool will be filled with such information:
+- If only Elevation exists in Geodata catalog, then tool will be filled with such information:
 Clutter Classes and Clutter Height are optional.
-• If coordinates mismatch between elevation and clutter, then it will provide this message:
+- If coordinates mismatch between elevation and clutter, then it will provide this message:
 Please close Workspace Create tool and fix your geodata. You can use Geoprocessing tools,
 Define Projection tool to fix this issue. Define the same coordinate as elevation.tif for your
 clutterClasses.tif and if available, clutterHeight.tif rasters.
@@ -722,14 +744,12 @@ Use the option to create a second scene for 3D visualization.
 Cellular Expert layer and geodata will be added to the project.
 Confidential ©Cellular Expert, 2026 Page | 36
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 Workspace geodatabase and required folders will be created within successful workspace creation
 procedure.
 Confidential ©Cellular Expert, 2026 Page | 37
-
 
 ---
 
@@ -743,7 +763,6 @@ automatically created, but can also be changed with the browse button. Select th
 system by clicking the button with the globe icon.
 Confidential ©Cellular Expert, 2026 Page | 38
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -755,27 +774,25 @@ place it in its intended location on the map.
 button and select the building data. Formats supported: .DWG, .DXF, .SHP (line shapefile), .PDF (raster
 and vector documents)
 If CAD drawing (.DXF, .DWG format files) is selected:
-• Once the CAD drawing is selected, it is added to the map, and the properties can be adjusted. The
+- Once the CAD drawing is selected, it is added to the map, and the properties can be adjusted. The
 default selected feature type is Polyline (i.e., the polyline layer, or group, is used for selecting the
 features that will be transformed into the geodata). The wall height represents the values in the to-
 be-created clutterHeight.tif raster. The resolution also affects the width of the drawing lines (e.g.,
 walls will be thicker or thinner depending on the resolution).
 Confidential ©Cellular Expert, 2026 Page | 39
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 If line shapefile data (.SHP format files) is selected:
-• The same procedure applies as for CAD files; however, several .SHP files can be selected in the
+- The same procedure applies as for CAD files; however, several .SHP files can be selected in the
 file selection dialog. If more than one .SHP files are selected, they are treated as a single building
 data unit.
 If a PDF document (.PDF format file) is selected:
-• There are two options for converting PDF documents to a building plan drawing (DXF format):
+- There are two options for converting PDF documents to a building plan drawing (DXF format):
 o Vector: Select this option if your PDF document contains the building plan in vector lines.
 o Raster: Select this option of your building plan is an image in the PDF document.
 Confidential ©Cellular Expert, 2026 Page | 40
-
 
 ---
 
@@ -801,7 +818,6 @@ The created clutterHeight.tif, clutterClasses.tif, elevation.tif rasters are sto
 is located in the workspace folder.
 Confidential ©Cellular Expert, 2026 Page | 41
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -810,7 +826,6 @@ Steps to open a workspace:
 1. Click the Open option in the Workspace menu of the Cellular Expert toolbar.
 2. Specify the workspace name and click the OK button.
 Confidential ©Cellular Expert, 2026 Page | 42
-
 
 ---
 
@@ -829,7 +844,6 @@ Workspace Upgrade automatically checks all these parameters and notifies the use
 the project.
 Confidential ©Cellular Expert, 2026 Page | 43
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -844,16 +858,15 @@ Creates the missing tables and/or creates/adds back the missing fields from defa
 If a project with incompatible geodata is loaded, the Workspace Upgrade tool analyzes the current geodata,
 as well as the owned user Esri Extension licenses to offer the optimal geodata upgrade path. This process
 is one-time only, and can be done by checking the Upgrade Geodata toggle.
-• If only elevation and buildingHeight rasters exist, the buildingHeight can automatically be renamed
+- If only elevation and buildingHeight rasters exist, the buildingHeight can automatically be renamed
 to clutterHeight.
-• (Image Analyst and Spatial Analyst licenses only) If elevation, buildingHeight and clutterHeight
+- (Image Analyst and Spatial Analyst licenses only) If elevation, buildingHeight and clutterHeight
 rasters exist, raster calculations are performed to merge the buildingHeight and clutterHeight
 rasters.
-• (Image Analyst and Spatial Analyst licenses only) If elevation, buildingHeight, clutterHeight and
+- (Image Analyst and Spatial Analyst licenses only) If elevation, buildingHeight, clutterHeight and
 clutterClasses rasters exist, raster calculations are performed to merge the buildingHeight and
 clutterHeight rasters, and modify the clutterClasses raster to add the building outlines with ID of 0.
 Confidential ©Cellular Expert, 2026 Page | 44
-
 
 ---
 
@@ -866,7 +879,6 @@ To open the Workspace Properties dialogue, click on the Workspace menu icon and 
 All information from the “CE_WORKSPACE” table is represented in the Parameters tab of the Workspace
 Properties.
 Confidential ©Cellular Expert, 2026 Page | 45
-
 
 ---
 
@@ -904,7 +916,6 @@ Path for storing the final calculation results
 Volatile Calculation Path
 Confidential ©Cellular Expert, 2026 Page | 46
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -916,8 +927,8 @@ Path for the Quick Prediction calculation results that will be displayed in the 
 Project Settings Parameters
 Calculate EIRP
 Determines whether calculate EIRP or no in the prediction calculations.
-• Value YES. EIRP will be calculated based on Power, Antenna Gain and Misc. Loss values.
-• Value NO. EIRP will be taken as single value defined in Power field.
+- Value YES. EIRP will be calculated based on Power, Antenna Gain and Misc. Loss values.
+- Value NO. EIRP will be taken as single value defined in Power field.
 Enable GPU Acceleration
 Enables GPU Accelerations that optimizes the prediction calculations and makes them run faster. Possible
 values Yes/No.
@@ -926,13 +937,13 @@ Represents power value in dBm or Watts.
 Receiver/Transmitter Height Reference
 The reference raster for calculating the receiver’s and transmitter’s height for these calculations: Profile, RF
 Predictions, Quick Predictions, Visibility and other prediction tools. Possible values:
-• Elevation – reference layer will be used elevation.tif raster. This is a default parameter.
-• Clutter height – reference layer will be used clutterHeight.tif raster. Receiver/transmitter height will
+- Elevation – reference layer will be used elevation.tif raster. This is a default parameter.
+- Clutter height – reference layer will be used clutterHeight.tif raster. Receiver/transmitter height will
 be calculated over Clutter Height raster. clutterHeight.tif raster is a must to enable this parameter.
-• Clutter height (buildings only) – Height reference is calculated using the Building class from the
+- Clutter height (buildings only) – Height reference is calculated using the Building class from the
 clutterClasses.tif raster. The Building class is defined in the Clutter Class dialog and linked to a
 specific clutter class ID in the clutterClasses.tif raster.
-• Absolute – receiver and/or transmitter’s absolute height (relative to sea level) will be used in
+- Absolute – receiver and/or transmitter’s absolute height (relative to sea level) will be used in
 relevant calculations.
 Use Clutter Loss
 Determines whether clutterClasses.tif and clutterHeight.tif rasters are used in prediction calculations.
@@ -940,7 +951,6 @@ Possible values Yes/No.
 Rounding
 The rounding value for different parameters.
 Confidential ©Cellular Expert, 2026 Page | 47
-
 
 ---
 
@@ -950,7 +960,6 @@ The Cellular Expert network objects (Sites, Cells, OMEN) and calculation result 
 ArcGIS with the symbology as defined in the .lyr files, located in the Visualization tab (“CE_LAYERS”
 table).
 Confidential ©Cellular Expert, 2026 Page | 48
-
 
 ---
 
@@ -966,25 +975,24 @@ off, the next time a relevant calculation is performed. In that case, the raster
 are added to the map with the visibility disabled. This is done only for the calculations performed after the
 setting is changed, and does not impact already added rasters on the map.
 The symbology is defined as a list of Layers and .lyr files:
-• Narrowband 2G (GSM/CDMA-850/TETRA/P-25) – second generation network (like GSM) calculations
+- Narrowband 2G (GSM/CDMA-850/TETRA/P-25) – second generation network (like GSM) calculations
 or technology-independent calculations (for example, the symbology for antenna loss by tilt is defined
 by the same file for WiMAX, LTE, and other technology)
 Confidential ©Cellular Expert, 2026 Page | 49
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
-• Broadband 3G (UMTS/HSDPA) – results for UMTS, HSDPA and other 3 - 3.5 generation technologies
-• Broadband 4G (LTE, BWA/WiMAX) – results of LTE technology calculations
-• Broadband 5G (NR, CBRS) – results of 5G-NR technology calculations
-• Network objects – Sites, Cells, OMEN
-• Visibility – results of Visibility Calculations
-• Optimal Site Position – results of optimal site positioning.
-• Compare predictions – the results of comparing several predictions.
-• Model Tuning – results of model calibration
-• Radar – results of radar coverage calculations
-• Wi-Fi – results of Wi-Fi coverage calculations
+- Broadband 3G (UMTS/HSDPA) – results for UMTS, HSDPA and other 3 - 3.5 generation technologies
+- Broadband 4G (LTE, BWA/WiMAX) – results of LTE technology calculations
+- Broadband 5G (NR, CBRS) – results of 5G-NR technology calculations
+- Network objects – Sites, Cells, OMEN
+- Visibility – results of Visibility Calculations
+- Optimal Site Position – results of optimal site positioning.
+- Compare predictions – the results of comparing several predictions.
+- Model Tuning – results of model calibration
+- Radar – results of radar coverage calculations
+- Wi-Fi – results of Wi-Fi coverage calculations
 For example, the layer 4G Downlink Throughput with defined path dl_ul_throughput.lyr means that the 4G
 downlink bitrate prediction raster will be represented in ArcGIS using the symbology file …/Cellular
 Expert/Layers/dl_ul_throughput.lyr
@@ -992,17 +1000,17 @@ Note: if you change the symbology with ArcGIS tools, it will be saved only in th
 when you re-open the same Cellular Expert workspace in another ArcGIS project, the symbology will be
 defined in the Visualization tab of the Workspace Properties dialogue.
 To create a new visualization and locate it in the Workspace Properties:
-• Right-click on the layer with the modified symbology (for example Sites) in the ArcGIS Table Of
+- Right-click on the layer with the modified symbology (for example Sites) in the ArcGIS Table Of
 Contents
-• Choose Sharing > Save As Layer File… from the opened menu
-• Save the file with a given name (for example Sites_my_symbol.lyrx)
-• Copy/Paste it to C:\Program Files\Cellular Expert\Layers
-• Open the Cellular Expert workspace in which you want to use your symbology
-• Open the Workspace Properties dialogue and select the Visualization tab
-• Select the row with the corresponding layer name (for example Sites)
-• Click the browse button and locate your layer file (for example “C:\Program Files\Cellular
+- Choose Sharing > Save As Layer File… from the opened menu
+- Save the file with a given name (for example Sites_my_symbol.lyrx)
+- Copy/Paste it to C:\Program Files\Cellular Expert\Layers
+- Open the Cellular Expert workspace in which you want to use your symbology
+- Open the Workspace Properties dialogue and select the Visualization tab
+- Select the row with the corresponding layer name (for example Sites)
+- Click the browse button and locate your layer file (for example “C:\Program Files\Cellular
 Expert\Layers\Sites_my_symbol.lyrx”) which contains the modified symbols. Press the OK button.
-• The symbology for the Cellular Expert network objects (Sites, Cells, OMEN) will be applied to the layers
+- The symbology for the Cellular Expert network objects (Sites, Cells, OMEN) will be applied to the layers
 when you open the workspace next time. To see the changes immediately re-open the workspace
 (close it using the Remove option and open it again with the Open option from the workspace menu)
 The new symbology will be uploaded and remain assigned to the workspace database independently of
@@ -1012,11 +1020,12 @@ workspace to another location, the location path settings can become incorrect. 
 to find your defined symbology file, it will use the default file from the location .../Cellular Expert/Layers.
 Confidential ©Cellular Expert, 2026 Page | 50
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
-6.2 Docs Manager
+
+## 6.2 Docs Manager
+
 Docs Manager is a tool for managing Saved Profiles between the transmitter (Tx) and receiver (Rx), which
 are generated in the Profile tool, as well as saved Link Prediction results, Profile Reports, and Link
 Prediction Reports. When a profile is saved in the Profile tool, it is automatically stored in Docs Manager,
@@ -1032,20 +1041,18 @@ A saved profile can be accessed in two ways:
 2. Select the profile and click Open.
 Confidential ©Cellular Expert, 2026 Page | 51
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 Additional Functions
-• Delete: Removes the selected profile.
-• Close: Closes the Docs Manager dialog.
+- Delete: Removes the selected profile.
+- Close: Closes the Docs Manager dialog.
 By using Docs Manager, users can efficiently store and retrieve profiles, ensuring consistency and
 accuracy in their Tx and Rx calculations.
 How to Open a Link Prediction
 A saved Link Prediction, just like Profile, can be accessed either by double-clicking the desired Link
 Prediction result, or by select it and clicking Open.
 Confidential ©Cellular Expert, 2026 Page | 52
-
 
 ---
 
@@ -1054,7 +1061,6 @@ How to Save a Link Prediction
 Link Prediction result can be saved to Docs Manager by selecting Save result to Docs Manager in
 the Link Prediction tool.
 Confidential ©Cellular Expert, 2026 Page | 53
-
 
 ---
 
@@ -1066,7 +1072,6 @@ How to Save a Profile Report
 Profile Report of the current drawn profile can be saved to Docs Manager by selecting Save result to Docs
 Manager in the Export tab of the Profile tool.
 Confidential ©Cellular Expert, 2026 Page | 54
-
 
 ---
 
@@ -1080,11 +1085,12 @@ Link Prediction Report can be saved to Docs Manager by selecting Save result to 
 Export tab of the Link Prediction tool.
 Confidential ©Cellular Expert, 2026 Page | 55
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
-6.3 CE Express Connection
+
+## 6.3 CE Express Connection
+
 CE Express Connection is a tool that lets you establish a connection between the CE Express database
 and CE for ArcGIS Pro. When the connection is established, data can be retrieved from CE Express and
 uploaded to CE for ArcGIS Pro workspace.
@@ -1097,7 +1103,6 @@ field. Then press the Get Workspaces button.
 If you select one of the appearing workspaces, the properties of that workspace will be saved to your current
 ArcGIS Pro project automatically.
 Confidential ©Cellular Expert, 2026 Page | 56
-
 
 ---
 
@@ -1119,23 +1124,26 @@ Import Features
 Imports the retrieved objects to the currently opened CE workspace.
 Confidential ©Cellular Expert, 2026 Page | 57
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 7. Data Management
-7.1 Network Objects
+
+## 7.1 Network Objects
+
 Cellular Expert network objects are:
 Cells – primary network object for prediction calculations. They denote the carrier list, equipment
 information, height, and other common radio channel parameters.
 With the data management tools located in the Data Management section, you can view and edit the
 Cellular Expert network objects.
 Note: most of these tools work only in editing sessions on the currently active workspace.
-7.2 Add Object
+
+## 7.2 Add Object
+
 New network objects can be created in several ways. They can be:
-• Imported using the CE for ArcGIS Pro functionality
-• Created with Cellular Expert tools from zero (define all parameters in the process)
-• Created from templates
+- Imported using the CE for ArcGIS Pro functionality
+- Created with Cellular Expert tools from zero (define all parameters in the process)
+- Created from templates
 7.2.1 Add Cell
 The object represents both physical parameters (e.g., height, antenna, azimuth) and logical parameters
 (e.g., bandwidth, frequency, technology). Essentially, it is similar to a Sector object but is referred to as a
@@ -1147,7 +1155,6 @@ For Mobile Operator case, if one sector has several carriers, as an example 3 ca
 should be created in CE database. For example:
 Confidential ©Cellular Expert, 2026 Page | 58
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -1158,17 +1165,15 @@ second time in your preferred direction.
 Add Object > Cell dialog will be filled with coordinates and parameters from default template, and
 Confidential ©Cellular Expert, 2026 Page | 59
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 azimuth value based on defined direction on the map.
 The Cell object can be created by entering exact coordinates in:
-• Latitude (degrees) and Longitude (degrees) section.
-• Latitude and Longitude
-• X and Y (projected coordinate system)
+- Latitude (degrees) and Longitude (degrees) section.
+- Latitude and Longitude
+- X and Y (projected coordinate system)
 Confidential ©Cellular Expert, 2026 Page | 60
-
 
 ---
 
@@ -1193,7 +1198,6 @@ Latitude (degrees)
 Latitude degrees, minutes, and seconds Y type coordinate in the WGS 1984 geographical coordinate
 system.
 Confidential ©Cellular Expert, 2026 Page | 61
-
 
 ---
 
@@ -1238,7 +1242,6 @@ Downlink Duplex Factor
 Value range from 0 to 1. Required for Duplex mode TDD, which is applicable for 4G and 5G
 Confidential ©Cellular Expert, 2026 Page | 62
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -1254,8 +1257,8 @@ Active Antenna Effect
 The parameter is dedicated to smart antenna modeling. The default value is 0, but if massive MIMO is
 used, a smart antenna effect can be included to lower the interference and boost throughput.
 Recommended values:
-• For MIMO 32x32 – value 6.
-• For MIMO 64x64 – value 9.
+- For MIMO 32x32 – value 6.
+- For MIMO 64x64 – value 9.
 Cell Load
 The parameter is described in percentages and varies from 0 to 100. It describes how the cell is loaded.
 The Cell load affects RSSI, RSRQ, and DL Throughput calculations. For example, if the Cell load is
@@ -1281,7 +1284,6 @@ The cell object can be created on top of Site object, or near it with the possib
 that Cell.
 Confidential ©Cellular Expert, 2026 Page | 63
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -1293,7 +1295,6 @@ assigned to this new Cell.
 Once Cell is created, do not close the dialog.
 Confidential ©Cellular Expert, 2026 Page | 64
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -1302,21 +1303,21 @@ Save Changes. New Cell object will be created on the same location.
 Do it again, if you required additional Cell objects in the same location.
 Confidential ©Cellular Expert, 2026 Page | 65
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 7.2.1.3 Add Cells on the corner of the buildings
 The cells can be created on the corner of the building and assigned to the same Site.
 Site ID parameter should be adjusted for every cell.
-7.3 Object Editor
+
+## 7.3 Object Editor
+
 The Object Editor enables the user to make changes to a network object after it is created and placed on
 the map.
 Choose the button to open the Object Editor dialogue.
 Select objects by navigating to the ArcGIS Pro Edit → Selection section and choosing the Select tool. The
 selected objects will appear in the Object Editor in a tree hierarchy.
 Confidential ©Cellular Expert, 2026 Page | 66
-
 
 ---
 
@@ -1326,7 +1327,6 @@ below the list.
 Delete Object
 Select and right-click any network object from the selection, then choose the Delete option from the popup.
 Confidential ©Cellular Expert, 2026 Page | 67
-
 
 ---
 
@@ -1341,15 +1341,13 @@ Choose the button to open the Object Editor dialogue. Select the desirable objec
 tool and press the Move Objects button in the Object Editor.
 Confidential ©Cellular Expert, 2026 Page | 68
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 There are multiple ways to move objects:
-• If multiple objects are selected, the move objects display will show the geospatial properties of the
+- If multiple objects are selected, the move objects display will show the geospatial properties of the
 center point between the objects denoted as the “Cursor point”.
 Confidential ©Cellular Expert, 2026 Page | 69
-
 
 ---
 
@@ -1359,9 +1357,8 @@ centrally located among the objects on the map and shows where the cursor was pl
 the position of the Cursor Point either by entering new coordinates directly or by clicking “Select Point” and
 choosing a different location on the map. When you move the Cursor Point, all the objects on the map will
 shift their position to maintain their relative distances from this central point.
-• If a single point object is selected or several objects at the same location, the move objects display
+- If a single point object is selected or several objects at the same location, the move objects display
 Confidential ©Cellular Expert, 2026 Page | 70
-
 
 ---
 
@@ -1375,7 +1372,6 @@ of the Cursor Point will directly translate the selected object to the correspon
 its spatial relationship with the Cursor Point consistent.
 Confidential ©Cellular Expert, 2026 Page | 71
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -1388,12 +1384,11 @@ Choose the button to open the Object Editor dialogue. Select the object with the
 press the Duplicate Objects button in the Object Editor dialogue.
 Confidential ©Cellular Expert, 2026 Page | 72
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 There are multiple ways to duplicate objects:
-• If multiple objects are selected, the duplicate objects display will show the geospatial properties of
+- If multiple objects are selected, the duplicate objects display will show the geospatial properties of
 the center point between the objects denoted as the “Cursor point”.
 The "Cursor Point" functions as a reference marker depicted by a red dot on the map. This marker is
 centrally located among the objects on the map and shows where the cursor was placed. You can
@@ -1403,14 +1398,12 @@ the objects on the map will shift their position to maintain their relative dist
 point.
 Confidential ©Cellular Expert, 2026 Page | 73
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
-• If a single point object or several objects on the same location are selected, the duplicate objects
+- If a single point object or several objects on the same location are selected, the duplicate objects
 display will show the geospatial properties of that object denoted as “Cursor Point”.
 Confidential ©Cellular Expert, 2026 Page | 74
-
 
 ---
 
@@ -1426,7 +1419,9 @@ Save Changes
 Duplicates the objects.
 Dismiss
 Cancels the changes to the objects and closes the dialogue.
-7.4 Clutter Classes
+
+## 7.4 Clutter Classes
+
 The Clutter Classes tool is designed to manage categories describing different types of environments in
 telecommunication networks. It relies on the Clutter Classes raster used in the project. The raster values
 must match the ID values in the Clutter Classes dialog. For example, if "Trees" has a value of 2 in the
@@ -1435,7 +1430,6 @@ Land Use values are used after workspace creation: ESRI Sentinel-2 Land Cover
 Here is the table view of Clutter table, which comes with default database.
 Confidential ©Cellular Expert, 2026 Page | 75
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -1443,14 +1437,12 @@ Sentinel-2 clutter classes raster provides information about these classes:
 Choose the button to open the Clutter Classes dialogue.
 Confidential ©Cellular Expert, 2026 Page | 76
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 Select one of the clutter classes to open their properties. Clutter class list can also be filtered by solid
 obstacle and/or clutter obstacle categories.
 Confidential ©Cellular Expert, 2026 Page | 77
-
 
 ---
 
@@ -1464,11 +1456,12 @@ Dismiss
 Cancels clutter class changes and closes the dialogue.
 Confidential ©Cellular Expert, 2026 Page | 78
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
-7.5 Antenna Viewer
+
+## 7.5 Antenna Viewer
+
 The Antenna Viewer enables the user to preview the default antennae, compare their vertical and horizontal
 patterns as well as view the values of these patterns in a table.
 Click the button to open the Antenna Viewer. Change Antenna Type to Parabolic.
@@ -1478,7 +1471,9 @@ and entering the desired filter value.
 The antenna Type dropdown list contains two antenna types: Sector and Parabolic. Sector antennas have
 2 patterns and pertain to a single network object. Parabolic antennas have 4 patterns and pertain to
 point-to-point network objects. In Cellular Expert these objects are Links.
-7.6 Prediction Model Manager
+
+## 7.6 Prediction Model Manager
+
 The CE Path Loss Modelling aims to perform near-deterministic calculation of received signal levels at each
 specific point (pixel) in the network’s target coverage area by applying selective path loss model depending
 on the radio visibility condition between the transmitter antenna vis-à-vis a receiver antenna located at a
@@ -1486,24 +1481,22 @@ given point in coverage area. The radio visibility is evaluated based on the DTM
 path profile information, as described in previous section. This verification of radio visibility will result in the
 Confidential ©Cellular Expert, 2026 Page | 79
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 receiver antenna point assigned into one of three possible radio visibility conditions:
-• Line-of-Sight (LOS) – occurs when there are neither terrain irregularities, obstacles or clutter
+- Line-of-Sight (LOS) – occurs when there are neither terrain irregularities, obstacles or clutter
 interposing the direct radio path between the transmitter and receiver antennas. The radio path is
 understood to include the 1st Fresnel zone around the direct line and account for Spherical Earth
 effect. The LOS condition is illustrated by the path profile depicted in Fig. 3(a).
-• Obstructed LOS (OLOS) – occurs when the direct radio propagation line is interposed by clutter,
+- Obstructed LOS (OLOS) – occurs when the direct radio propagation line is interposed by clutter,
 see illustration in Fig. 3(b).
-• Non-LOS (NLOS) – occurs when the direct radio propagation line is interposed by terrain bulges
+- Non-LOS (NLOS) – occurs when the direct radio propagation line is interposed by terrain bulges
 or obstacles, see illustration in Fig. 3(c).
 (a) Example of path profile with LOS condition (green line of direct radio link)
 (b) Example of path profile with OLOS condition (yellow segment of radio link path)
 (c) Example of path profile with NLOS condition (red segment of radio link path)
 Confidential ©Cellular Expert, 2026 Page | 80
-
 
 ---
 
@@ -1521,7 +1514,6 @@ Prediction models available in Cellular Expert support frequencies from 10kHz to
 To open the Prediction Model Manager dialogue, click on the Prediction Model Manager tool in
 the Data Management section.
 Confidential ©Cellular Expert, 2026 Page | 81
-
 
 ---
 
@@ -1555,7 +1547,6 @@ b. Receive antenna in NLOS condition – total path loss modelled using a combin
 transmission losses and losses due to diffraction.
 Confidential ©Cellular Expert, 2026 Page | 82
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -1565,13 +1556,13 @@ estimating point-to-area radio signal coverage in the frequency range from 30 MH
 over terrestrial paths. This model is especially suitable for broadcasting, land mobile, and fixed
 services.
 Key Features
-• Versatile Application: Supports predictions over land, sea, and mixed paths, making it adaptable
+- Versatile Application: Supports predictions over land, sea, and mixed paths, making it adaptable
 to various geographic conditions.
-• Input Parameters: Takes into account factors such as transmitter and receiver heights, terrain
+- Input Parameters: Takes into account factors such as transmitter and receiver heights, terrain
 profile, clutter (buildings, vegetation), climate, and time/location variability.
-• Time and Location Variability: Predictions can be tailored for different statistical reliability levels
+- Time and Location Variability: Predictions can be tailored for different statistical reliability levels
 (e.g., 50% or 10% time availability).
-• Clutter and Terrain Handling: The model can incorporate detailed digital elevation models
+- Clutter and Terrain Handling: The model can incorporate detailed digital elevation models
 (DEM) and clutter data for more accurate predictions, reflecting the influence of buildings, forests,
 and other surface features.
 Use in Cellular Expert
@@ -1604,7 +1595,6 @@ and shortwave bands, often for maritime, aeronautical, military, and broadcastin
 This model offers guidance for engineers, planners, and researchers working on system design and
 Confidential ©Cellular Expert, 2026 Page | 83
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -1619,9 +1609,9 @@ Field strength diminishes with increasing distance due to geometrical spreading 
 ground and atmosphere.
 Surface refractivity, Surface Conductivity (σ) and Relative Permittivity (εᵣ)
 The surface over which the wave propagates critically affects signal strength:
-• Sea water: High conductivity, minimal loss
-• Dry land or desert: Low conductivity, high loss
-• Typical values range from:
+- Sea water: High conductivity, minimal loss
+- Dry land or desert: Low conductivity, high loss
+- Typical values range from:
 o Conductivity: 10⁻⁴ to 5 S/m
 o Relative permittivity: 4 to 81
 ISO 9613 standard provides a validated, practical method for predicting the outdoor propagation of
@@ -1631,45 +1621,44 @@ civil defense sirens, disaster warnings, military alert signals) achieve their i
 intelligibility, and effectiveness across various terrain and urban environments.
 Purpose in the Public Security Context
 In emergency and defense scenarios, reliable audibility of sirens is critical for:
-• Civil alert and evacuation systems
-• Military base perimeter alarms
-• Air raid or missile defense warning networks
-• Disaster alert systems (e.g. earthquakes, tsunamis, nuclear incidents)
+- Civil alert and evacuation systems
+- Military base perimeter alarms
+- Air raid or missile defense warning networks
+- Disaster alert systems (e.g. earthquakes, tsunamis, nuclear incidents)
 By applying ISO 9613-2, engineers can model how far a siren can be heard under specific
 environmental conditions, optimizing:
-• Placement and spacing of sirens
-• Sound power selection
-• Minimization of acoustic shadow zones
-• Compliance with national safety and civil defense regulations
+- Placement and spacing of sirens
+- Sound power selection
+- Minimization of acoustic shadow zones
+- Compliance with national safety and civil defense regulations
 The model assumes standard favorable propagation:
-• Downwind or moderate inversion conditions
-• Ambient temperature ~10 °C
-• Relative humidity ~70%
+- Downwind or moderate inversion conditions
+- Ambient temperature ~10 °C
+- Relative humidity ~70%
 These are conservative conditions ensuring that siren reach is never overestimated, supporting public
 safety margin planning.
 CEC 3GPP TR Indoor (500MHz – 100GHz) Propagation Model is a high-frequency path loss model
 designed for indoor radiocommunication systems operating within the 500 MHz to 100 GHz range.
 Confidential ©Cellular Expert, 2026 Page | 84
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 It builds upon the CEC ITU-R 3GPP model (100 MHz – 6 GHz) by adapting it to complex indoor
 environments, such as:
-• Office buildings
-• Residential units
-• Shopping centers
-• Industrial halls
+- Office buildings
+- Residential units
+- Shopping centers
+- Industrial halls
 This model integrates core ITU-R recommendations for free-space loss and penetration effects, while
 leveraging 3GPP-specific methods for accurate simulation of indoor multipath, wall attenuation,
 and frequency-dependent fading.
 Purpose and Use Cases
 The model is intended for:
-• Indoor wireless access network design (e.g., Wi-Fi, 5G NR, mmWave)
-• System-level simulations for indoor coverage planning
-• Performance evaluation of in-building penetration for outdoor base stations
-• Integration with dual-slope and multi-scenario path loss modeling frameworks
+- Indoor wireless access network design (e.g., Wi-Fi, 5G NR, mmWave)
+- System-level simulations for indoor coverage planning
+- Performance evaluation of in-building penetration for outdoor base stations
+- Integration with dual-slope and multi-scenario path loss modeling frameworks
 7.6.1.1 CEC ITU-R 3GPP Model
 Model application
 This deterministic model is designed for precise tracking of the main, strongest radio ray, while also
@@ -1687,19 +1676,18 @@ of 10 meters or lower are accessible, the UniMacro Model should be considered fo
 propagation and coverage modeling in a slightly narrower frequency range of 400 MHz to 3 GHz.
 Default settings
 General settings to calculate Model loss
-• Offset coefficient (dB) – represents the offset in decibels added to the path loss grid. The default
+- Offset coefficient (dB) – represents the offset in decibels added to the path loss grid. The default
 value is 32 dB.
-• Distance coefficient – defines the slope based on the distance between the cell and the receiver
+- Distance coefficient – defines the slope based on the distance between the cell and the receiver
 location, with a default value of 20.
-• Distance coefficient obstructed – represents the slope based on the obstructed distance between
+- Distance coefficient obstructed – represents the slope based on the obstructed distance between
 the cell and the receiver location. The default value is 40.
 Confidential ©Cellular Expert, 2026 Page | 85
-
 
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
-• Frequency coefficient – indicates the slope determined by the frequency value, with a default value
+- Frequency coefficient – indicates the slope determined by the frequency value, with a default value
 of 20.
 Clutter class to calculate diffraction, clutter loss, penetration loss and receiver loss
 The Clutter Class option defines several predefined clutter categories, each with unique values for
@@ -1707,26 +1695,25 @@ diffraction loss, clutter loss, penetration loss, and receiver loss coefficients
 These parameters describe how a signal is impacted when it passes through or terminates in a specific
 Confidential ©Cellular Expert, 2026 Page | 86
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 clutter class.
 Key Parameters:
-• Nominal distance, m – the average distance between objects within the clutter class, ranging from
+- Nominal distance, m – the average distance between objects within the clutter class, ranging from
 1 to 100 meters.
-• Diffraction loss coefficient – a multiplier used in diffraction calculations. Lower values result in
+- Diffraction loss coefficient – a multiplier used in diffraction calculations. Lower values result in
 reduced diffraction loss, while higher values increase it. Typically, this coefficient is higher for
 buildings compared to forests or other clutter types.ltiplier for diffraction calculations. If value is
 lower, diffraction will be lower, if higher – then diffraction will be higher. Usually, for buildings clutter
 class this parameter is higher then forest or other clutter classes.
-• Enclosed receiver loss offset, dB – the initial entry loss into the clutter class, expressed as an offset
+- Enclosed receiver loss offset, dB – the initial entry loss into the clutter class, expressed as an offset
 in dB, which is added to the path loss grid.
-• Enclosed receiver loss scaling coefficient – represents additional signal loss as a function of the
+- Enclosed receiver loss scaling coefficient – represents additional signal loss as a function of the
 distance traveled within the clutter class. Higher values increase path loss.
-• Enclosed receiver loss frequency exponent coefficient – reflects additional loss inside the clutter
+- Enclosed receiver loss frequency exponent coefficient – reflects additional loss inside the clutter
 class based on frequency. Higher values increase path loss, particularly at higher frequencies.
-• Receiver point loss offset, dB – an additional loss offset in dB applied to the path loss grid,
+- Receiver point loss offset, dB – an additional loss offset in dB applied to the path loss grid,
 representing user equipment (UE) losses.
 Clutter Classes default values
 Penetration Penetration Penetration
@@ -1748,7 +1735,6 @@ buildings)
 High density urban (Low buildings) 0 0.89 0.65
 High density urban (High buildings) 0 0.89 0.65
 Confidential ©Cellular Expert, 2026 Page | 87
-
 
 ---
 
@@ -1781,14 +1767,13 @@ effects of terrain, atmospheric conditions, and other factors, it helps engineer
 and optimize network performance in a variety of environmental scenarios.
 Default settings
 General settings to calculate Model loss
-• Offset coefficient (dB) – represents the offset in decibels added to the path loss grid. The default
+- Offset coefficient (dB) – represents the offset in decibels added to the path loss grid. The default
 value is 32 dB.
-• Distance coefficient – defines the slope based on the distance between the cell and the receiver
+- Distance coefficient – defines the slope based on the distance between the cell and the receiver
 location, with a default value of 20.
-• Frequency coefficient – indicates the slope determined by the frequency value, with a default value
+- Frequency coefficient – indicates the slope determined by the frequency value, with a default value
 of 20.
 Confidential ©Cellular Expert, 2026 Page | 88
-
 
 ---
 
@@ -1804,18 +1789,17 @@ Clutter class option describes several fixed Clutter names with penetration loss
 These parameters describe how a signal is impacted when it passes through or terminates in a specific
 clutter class.
 Key Parameters:
-• Penetration loss offset, dB – the initial entry loss into the clutter class, expressed as an offset in
+- Penetration loss offset, dB – the initial entry loss into the clutter class, expressed as an offset in
 dB, which is added to the path loss grid.
-• Penetration loss distance coefficient – represents additional signal loss as a function of the distance
+- Penetration loss distance coefficient – represents additional signal loss as a function of the distance
 traveled within the clutter class. Higher values increase path loss.
-• Penetration loss frequency coefficient – reflects additional loss inside the clutter class based on
+- Penetration loss frequency coefficient – reflects additional loss inside the clutter class based on
 frequency. Higher values increase path loss, particularly at higher frequencies.
 Clutter Classes default values
 Penetration Penetration Penetration
 receiver receiver receiver loss
 loss loss scaling frequency
 Confidential ©Cellular Expert, 2026 Page | 89
-
 
 ---
 
@@ -1868,7 +1852,6 @@ range of 100 MHz to 6 GHz.
 Default settings
 Confidential ©Cellular Expert, 2026 Page | 90
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -1876,32 +1859,31 @@ General settings to calculate Model loss
 If Tx and Rx is in LOS condition:
 Fig. 4. Illustration of LOS conditions
 Line of Sight coefficients are used to calculate general model loss.
-• Offset coefficient (dB) – represents the offset in decibels added to the path loss grid. The default
+- Offset coefficient (dB) – represents the offset in decibels added to the path loss grid. The default
 value is 32 dB.
-• Distance coefficient near – defines the slope based on the distance between the cell and the
+- Distance coefficient near – defines the slope based on the distance between the cell and the
 receiver location, with a default value of 20.
-• Distance coefficient far – represents the slope based on breakpoint distance between the cell and
+- Distance coefficient far – represents the slope based on breakpoint distance between the cell and
 the receiver location. The default value is 40.
-• Frequency coefficient – indicates the slope determined by the frequency value, with a default value
+- Frequency coefficient – indicates the slope determined by the frequency value, with a default value
 of 20.
 If Tx and Rx is in OLOS or NLOS condition, then Hata 9999 equation is used. 9999 Model is the Ericsson’s
 implementation of Hata Model. Ericsson provides the steering parameters of 9999 Model for different
 environments; therefore it’s very convenient just to apply in this form as the default parameters.
-• Hata Loss: A0 - constant offset in dB this value simply added to loss grid. Adjusting this value, you
+- Hata Loss: A0 - constant offset in dB this value simply added to loss grid. Adjusting this value, you
 can minimize mean error. It regulates the absolute level of the loss curve. Default value 36.2.
-• Hata Loss: A1 - distance influence coefficient. Physically it represents loss dependant on distance
+- Hata Loss: A1 - distance influence coefficient. Physically it represents loss dependant on distance
 such as atmospheric (dust, hydrometeors, etc...) losses. It regulates slope of the curve. Default
 value 30.2.
 Confidential ©Cellular Expert, 2026 Page | 91
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
-• Hata Loss: A2 - transmitter height influence coefficient. It is related to errors in DTM, real Earth
+- Hata Loss: A2 - transmitter height influence coefficient. It is related to errors in DTM, real Earth
 curvature, etc. It regulates loss curve vertical position like the A0, but with respect to antenna height.
 Default value -12.
-• Hata Loss: A3 - Okumura-Hata type of multiplying factor for log(h )log(d). Default value 0.1.
+- Hata Loss: A3 - Okumura-Hata type of multiplying factor for log(h )log(d). Default value 0.1.
 M
 Clutter class to calculate diffraction, clutter loss, penetration loss and receiver loss
 The Clutter Class option defines several predefined clutter categories, each with unique values for
@@ -1909,26 +1891,25 @@ diffraction loss, clutter loss, penetration loss, and receiver loss coefficients
 These parameters describe how a signal is impacted when it passes through or terminates in a specific
 Confidential ©Cellular Expert, 2026 Page | 92
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 clutter class.
 Key Parameters:
-• Nominal distance, m – the average distance between objects within the clutter class, ranging from
+- Nominal distance, m – the average distance between objects within the clutter class, ranging from
 1 to 100 meters.
-• Diffraction loss coefficient – a multiplier used in diffraction calculations. Lower values result in
+- Diffraction loss coefficient – a multiplier used in diffraction calculations. Lower values result in
 reduced diffraction loss, while higher values increase it. Typically, this coefficient is higher for
 buildings compared to forests or other clutter types.ltiplier for diffraction calculations. If value is
 lower, diffraction will be lower, if higher – then diffraction will be higher. Usually, for buildings clutter
 class this parameter is higher then forest or other clutter classes.
-• Penetration loss offset, dB – the initial entry loss into the clutter class, expressed as an offset in
+- Penetration loss offset, dB – the initial entry loss into the clutter class, expressed as an offset in
 dB, which is added to the path loss grid.
-• Penetration loss distance coefficient – represents additional signal loss as a function of the distance
+- Penetration loss distance coefficient – represents additional signal loss as a function of the distance
 traveled within the clutter class. Higher values increase path loss.
-• Penetration loss frequency coefficient – reflects additional loss inside the clutter class based on
+- Penetration loss frequency coefficient – reflects additional loss inside the clutter class based on
 frequency. Higher values increase path loss, particularly at higher frequencies.
-• Receiver point loss offset, dB – an additional loss offset in dB applied to the path loss grid,
+- Receiver point loss offset, dB – an additional loss offset in dB applied to the path loss grid,
 representing user equipment (UE) losses.
 Clutter Classes default values
 Penetration Penetration Penetration
@@ -1948,7 +1929,6 @@ buildings)
 Medium density urban (High 0 0.89 0.65
 buildings)
 Confidential ©Cellular Expert, 2026 Page | 93
-
 
 ---
 
@@ -1976,14 +1956,13 @@ Line of Sight model is typically used for mmWave band frequencies within the 6 G
 frequency range and provides results only for line-of-sight areas.
 Default settings
 General settings to calculate Model loss
-• Offset coefficient (dB) – represents the offset in decibels added to the path loss grid. The default
+- Offset coefficient (dB) – represents the offset in decibels added to the path loss grid. The default
 value is 32 dB.
-• Distance coefficient – defines the slope based on the distance between the cell and the receiver
+- Distance coefficient – defines the slope based on the distance between the cell and the receiver
 location, with a default value of 20.
-• Frequency coefficient – indicates the slope determined by the frequency value, with a default value
+- Frequency coefficient – indicates the slope determined by the frequency value, with a default value
 of 20.
 Confidential ©Cellular Expert, 2026 Page | 94
-
 
 ---
 
@@ -2001,18 +1980,18 @@ Default settings
 The general model parameters include the radius and receiver height. Additional parameters used for
 path loss calculations are derived from the clutter classes. Each clutter class has its own unique
 set of parameters:
-• Surface refractivity - a measure of the refractive index's influence on electromagnetic wave
+- Surface refractivity - a measure of the refractive index's influence on electromagnetic wave
 propagation, particularly in the lower atmosphere close to the Earth's surface. It is expressed as a
 dimensionless value, typically dependent on atmospheric pressure, temperature, and humidity.
 High surface refractivity can significantly affect radio wave bending and propagation, such as
 ducting or anomalous refraction.
-• Relative permittivity - quantifies a material's ability to permit electric field propagation relative to
+- Relative permittivity - quantifies a material's ability to permit electric field propagation relative to
 vacuum. It is a complex quantity with the real part representing energy storage capability and the
 imaginary part representing energy dissipation within the material.
 ITU-R P.368 uses relative permittivity to model how radio waves interact with various surface materials,
 such as soil, water, or vegetation. These interactions influence reflection, refraction, and absorption
 phenomena at the surface.
-• Surface conductivity - refers to a material's ability to conduct electrical currents across its surface.
+- Surface conductivity - refers to a material's ability to conduct electrical currents across its surface.
 It is measured in siemens per meter (S/m). Higher conductivity indicates that a surface can easily
 allow current flow, affecting the reflection and absorption of radio waves.
 According to ITU-R P.368, surface conductivity is a critical factor in determining the reflective properties
@@ -2029,7 +2008,6 @@ Surface
 conductivity, 0.001 0.004 0.004 0.001 0.001 0.002 0.03 1 0.002
 S/m
 Confidential ©Cellular Expert, 2026 Page | 95
-
 
 ---
 
@@ -2057,36 +2035,35 @@ Default settings
 The following key parameters are used to configure the ITU-R P.1546 radio propagation predictions within
 the software. These settings directly influence the coverage calculation and modeling accuracy:
 1. Radius
-• Description: This setting defines the maximum distance from the transmitter (or prediction center)
+- Description: This setting defines the maximum distance from the transmitter (or prediction center)
 over which the propagation prediction will be performed.
-• Purpose: It limits the spatial extent of the coverage area to optimize calculation time and resource
+- Purpose: It limits the spatial extent of the coverage area to optimize calculation time and resource
 usage.
-• Typical Values: Often set between 10 km to 100 km, depending on the transmitter's power, terrain,
+- Typical Values: Often set between 10 km to 100 km, depending on the transmitter's power, terrain,
 and target coverage region.
 2. Receiver Height (m)
-• Description: Specifies the height of the receiving antenna above ground level, in meters.
-• Purpose: Receiver height impacts the predicted signal strength, especially in terrain with elevation
+- Description: Specifies the height of the receiving antenna above ground level, in meters.
+- Purpose: Receiver height impacts the predicted signal strength, especially in terrain with elevation
 changes or obstacles.
-• Guidelines:
+- Guidelines:
 o 1.5 to 2 m for handheld/mobile users (e.g., mobile phones, public safety devices).
 o 10 m or higher for fixed installations (e.g., rooftop or vehicular antennas).
-• Note: Accurate setting of receiver height is essential for meaningful signal level predictions.
+- Note: Accurate setting of receiver height is essential for meaningful signal level predictions.
 3. Time Percentage (%)
 Confidential ©Cellular Expert, 2026 Page | 96
-
 
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
-• Description: Indicates the percentage of time during which the predicted field strength is expected
+- Description: Indicates the percentage of time during which the predicted field strength is expected
 to be met or exceeded.
-• Purpose: Reflects the statistical variability of signal propagation due to atmospheric and
+- Purpose: Reflects the statistical variability of signal propagation due to atmospheric and
 environmental effects.
-• Common Use Cases:
+- Common Use Cases:
 o 50% time: Typical for general service coverage maps (median conditions).
 o 10% time: Used for high-reliability or interference studies, ensuring signal presence under
 less favorable conditions.
-• Interpretation: A 10% time prediction means the signal level is met or exceeded during 10% of the
+- Interpretation: A 10% time prediction means the signal level is met or exceeded during 10% of the
 time, capturing worst-case propagation conditions (i.e., stronger signal occurrence during favorable
 propagation).
 7.6.1.7 ISO9613 Model
@@ -2100,13 +2077,12 @@ that warning signals reach the intended audience with sufficient audibility. Thi
 optimizing siren placement, regulatory compliance, and designing effective emergency alert systems.
 The primary factors included in the standard are:
 1. Geometric Spreading
-• This refers to how sound spreads out as it moves away from its source. Sound intensity decreases
+- This refers to how sound spreads out as it moves away from its source. Sound intensity decreases
 as the distance from the source increases, following the inverse square law (with spherical
 spreading) or other forms depending on terrain.
-• As the distance from the sound source increases, the intensity of sound diminishes, which is
+- As the distance from the sound source increases, the intensity of sound diminishes, which is
 considered in the calculation of sound levels at various receiver points.
 Confidential ©Cellular Expert, 2026 Page | 97
-
 
 ---
 
@@ -2114,35 +2090,35 @@ Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 𝐴 =20∗𝐿𝑂𝐺10(𝑑)+11
 𝑑𝑖𝑣
 2. Atmospheric Absorption
-• Sound is absorbed by the atmosphere as it travels, particularly at higher frequencies. The
+- Sound is absorbed by the atmosphere as it travels, particularly at higher frequencies. The
 absorption depends on factors like temperature, humidity, and air pressure, and is often more
 significant over longer distances.
-• Atmospheric absorption reduces the intensity of sound as it propagates, especially at higher
+- Atmospheric absorption reduces the intensity of sound as it propagates, especially at higher
 frequencies. The standard takes into account these effects to calculate the reduction in sound level.
 3. Obstacles
-• Physical barriers such as walls, hills, and buildings block or scatter sound waves, reducing the
+- Physical barriers such as walls, hills, and buildings block or scatter sound waves, reducing the
 sound level that reaches certain areas.
-• Obstacles can cause significant sound reduction, especially if they are large or located between
+- Obstacles can cause significant sound reduction, especially if they are large or located between
 the sound source and the receiver. The standard accounts for the shadow zones created by these
 barriers.
 4. Directivity of the Source
-• This parameter accounts for the directionality of the sound source, which may not emit sound
+- This parameter accounts for the directionality of the sound source, which may not emit sound
 equally in all directions. Sirens, for example, may have directional characteristics that focus their
 sound output in certain directions.
-• The directivity of the sound source influences how the sound energy is distributed, and therefore,
+- The directivity of the sound source influences how the sound energy is distributed, and therefore,
 how far and in what pattern the sound propagates.
 5. Meteorological Conditions
-• Weather conditions such as wind speed, temperature gradients, and humidity can significantly
+- Weather conditions such as wind speed, temperature gradients, and humidity can significantly
 affect sound propagation. For example, sound may travel farther downwind or be absorbed more
 by humid air.
-• These conditions are integrated into the model to adjust the calculations of sound attenuation,
+- These conditions are integrated into the model to adjust the calculations of sound attenuation,
 ensuring more accurate predictions for different weather scenarios.
 Default settings
-• Distance coefficient: 20.
+- Distance coefficient: 20.
 Describes slope coefficient based on distance. Value is included in Geometric spreading calculations.
-• Temperature: 20 Co
-• Humidity: 50%
-• Meteorological conditions: 3 dB. It is a factor, in decibels, which depends on local meteorological
+- Temperature: 20 Co
+- Humidity: 50%
+- Meteorological conditions: 3 dB. It is a factor, in decibels, which depends on local meteorological
 statistics for wind speed and direction, and temperature gradients. Experience indicates that values
 of Meteorological conditions (C0) in practice are limited to the range from zero to approximately +
 5 dB.
@@ -2152,20 +2128,14 @@ level predictions.
 Clutter Classes default values
 Confidential ©Cellular Expert, 2026 Page | 98
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 Ground factor
-1
 Open / Terrain
-1
 Grassland
-1
 Sparse forest
-1
 Medium dense forest
-1
 Very dense forest
 0.5
 Low density urban (Low buildings)
@@ -2179,36 +2149,22 @@ Medium density urban (High
 buildings)
 0.1
 High density urban (Low buildings)
-0
 High density urban (High buildings)
-0
 High density urban (Very high
 buildings)
-0
 Building blocks
-0
 Transportation
-1
 Agriculture
-1
 Plantation
 0.7
 Parks
-0
 Airport
-0
 Sea
-0
 Inland water
-0
 Concrete building
-0
 Glass building
-0
 Wood building
-0
 Low loss building
-0
 High loss building
 7.6.1.8 CEC 3GPP TR Indoor (500MHz – 100GHz)
 Model application
@@ -2219,19 +2175,18 @@ obstructed NLOS paths — it enables highly accurate modeling of next-generation
 ensuring reliable, secure, and efficient communication in the most demanding indoor environments.
 Confidential ©Cellular Expert, 2026 Page | 99
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 Key Enhancements for Indoor Use
-• Frequency scaling up to 100 GHz supports mmWave and terahertz
-• Wall material database from 3GPP TR 38.901:
+- Frequency scaling up to 100 GHz supports mmWave and terahertz
+- Wall material database from 3GPP TR 38.901:
 o Standard drywall: ~5–10 dB per wall
 o Concrete: 15–35 dB
 o Glass: 2–10 dB
-• Multi-floor attenuation (floor penetration factor)
-• Path loss floors: ensures minimum attenuation beyond near field
-• LOS probability models: stochastic treatment of LOS in large buildings
+- Multi-floor attenuation (floor penetration factor)
+- Path loss floors: ensures minimum attenuation beyond near field
+- LOS probability models: stochastic treatment of LOS in large buildings
 Default settings
 Configuration name
 Name of the prediction configuration name.
@@ -2244,7 +2199,6 @@ Earth radius in kilometers, used for the calculations.
 Offset coefficient
 Represents the offset in decibels added to the path loss grid. The default value is 37 dB.
 Confidential ©Cellular Expert, 2026 Page | 100
-
 
 ---
 
@@ -2300,7 +2254,6 @@ buildings)
 Building blocks
 Confidential ©Cellular Expert, 2026 Page | 101
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -2324,7 +2277,9 @@ Concrete building
 Glass building
 2 0.25 1
 Wood building
-8.5 0.25 1
+
+## 8.5 0.25 1
+
 Low loss building
 17 0.25 1
 High loss building
@@ -2350,17 +2305,16 @@ geometry consistent with the CNOSSOS-EU specification, and terrain profiles, clu
 building data from the workspace are used directly in the calculation. The primary factors included in the
 standard are:
 Default settings
-• Distance coefficient: 20.
+- Distance coefficient: 20.
 Describes slope coefficient based on distance. Value is included in Geometric spreading calculations.
-• Temperature: 15 Co
-• Humidity: 70%
+- Temperature: 15 Co
+- Humidity: 70%
 Confidential ©Cellular Expert, 2026 Page | 102
-
 
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
-• Favourable conditions occurrence: 0.25: Probability or fraction of time during which
+- Favourable conditions occurrence: 0.25: Probability or fraction of time during which
 meteorological conditions are "favourable" for sound propagation from a source to a receiver.
 Ground factor parameter for the CNOSSOS-EU model’s clutter classes allows users to define the acoustic
 reflectivity (from 0 to 1, indicating hard-soft respectively) of the ground surface for more accurate sound
@@ -2368,15 +2322,10 @@ level predictions. When the clutter classes raster is absent from the geodata, a
 is used.
 Clutter Classes default values
 Ground factor
-1
 Open / Terrain
-1
 Grassland
-1
 Sparse forest
-1
 Medium dense forest
-1
 Very dense forest
 0.5
 Low density urban (Low buildings)
@@ -2390,44 +2339,31 @@ Medium density urban (High
 buildings)
 0.1
 High density urban (Low buildings)
-0
 High density urban (High buildings)
-0
 High density urban (Very high
 buildings)
-0
 Building blocks
-0
 Transportation
-1
 Agriculture
-1
 Plantation
 0.7
 Parks
-0
 Airport
-0
 Sea
-0
 Inland water
-0
 Concrete building
-0
 Glass building
-0
 Wood building
-0
 Low loss building
-0
 High loss building
 Confidential ©Cellular Expert, 2026 Page | 103
-
 
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
-7.7 Template Manager
+
+## 7.7 Template Manager
+
 Template Manager allows the user to edit current project templates residing in the various Template tables
 of the default.gdb. The user may change the field values of the templates, create new or detele existing
 templates.
@@ -2449,13 +2385,12 @@ performed accurately and without interruption.
 By using templates, users can maintain efficiency, accuracy, and reliability in network planning and
 analysis, even in "just-in-case" scenarios where manual inputs might fall short.
 The templates are divided into categories:
-• Network Objects – edit and manage network objects (cells, sites, links, etc) templates. Templates
+- Network Objects – edit and manage network objects (cells, sites, links, etc) templates. Templates
 are divided into different network layers, each network have unique template structure based on
 available parameters in network layer.
-• Modulations – create modulation configurations that can be used for MW links > Radios.
-• Modulation Editor – create single modulations, which can be used in the Modulations tab.
+- Modulations – create modulation configurations that can be used for MW links > Radios.
+- Modulation Editor – create single modulations, which can be used in the Modulations tab.
 Confidential ©Cellular Expert, 2026 Page | 104
-
 
 ---
 
@@ -2471,7 +2406,6 @@ Cancels the changes to the objects and closes the dialogue.
 Right-click on a selected template to open the context menu with Duplicate and Delete options.
 Confidential ©Cellular Expert, 2026 Page | 105
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -2482,7 +2416,6 @@ The modulations are used in MW link calculations and specifically can be defined
 specifying Modulations one by one, the customer can create a set of them, and it is available in this tab.
 To preview and edit the Modulations template, click on it in the table.
 Confidential ©Cellular Expert, 2026 Page | 106
-
 
 ---
 
@@ -2495,7 +2428,6 @@ Save changes
 All changes will be saved.
 Dismiss
 Confidential ©Cellular Expert, 2026 Page | 107
-
 
 ---
 
@@ -2514,7 +2446,6 @@ template.
 The list of available modulations is taken from the Modulation Editor tab.
 Confidential ©Cellular Expert, 2026 Page | 108
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -2525,7 +2456,6 @@ Create
 Create a new modulation with the specified parameters.
 Confidential ©Cellular Expert, 2026 Page | 109
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -2533,23 +2463,24 @@ Save Changes
 Apply changes to a currently selected modulation. The button is disabled if the modulation is not created.
 Cancel
 Dismiss changes made to the modulation.
-7.8 Import Objects
+
+## 7.8 Import Objects
+
 The Import Objects feature further enhances efficiency by allowing users to bring in network objects from
 multiple external documents without manually creating them. This capability is invaluable when dealing with
 extensive or complex datasets. Cellular Expert for ArcGIS Pro supports the import of three widely used file
 formats: .xls, .xlsx, and .csv. Additionally, for mapping files, it supports the .json format.
 Key benefits of the Import Objects feature include:
-• Time-Saving: Instead of manually entering or recreating network objects, users can quickly import
+- Time-Saving: Instead of manually entering or recreating network objects, users can quickly import
 data from existing documents, significantly reducing setup time.
-• Data Consistency: Importing ensures that all network objects maintain consistency with the original
+- Data Consistency: Importing ensures that all network objects maintain consistency with the original
 data source, minimizing discrepancies and errors.
-• Support for Multiple Formats: With support for commonly used file formats like .xls, .xlsx, and .csv,
+- Support for Multiple Formats: With support for commonly used file formats like .xls, .xlsx, and .csv,
 the tool is versatile and can integrate seamlessly with various data workflows.
 Click the button to open the Import Objects dialogue. Expand Import drop-down menu and select
 the object, which should be imported.
 The dialog will be filled with the options to define data and mapping files.
 Confidential ©Cellular Expert, 2026 Page | 110
-
 
 ---
 
@@ -2575,7 +2506,6 @@ The supported formats: .xls, .xlsx,.csv, and tables from .sde connection. Upon s
 button will light up green.
 Confidential ©Cellular Expert, 2026 Page | 111
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -2590,15 +2520,14 @@ be used to map your data structure and Cellular Expert workspace, Cells layer st
 information about mapping file is available below.
 Confidential ©Cellular Expert, 2026 Page | 112
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 3. Click on Import Cells button to start importing procedure.
 Sites can be imported together with Cells, if:
-• The mapping file is not used, and text file has site_id field, which contains information about Site
+- The mapping file is not used, and text file has site_id field, which contains information about Site
 name. It must be text data.
-• The mapping file is used, then the data should be mapped with site_id field. It must be text data.
+- The mapping file is used, then the data should be mapped with site_id field. It must be text data.
 7.8.1.1 Mapping file
 The data in the import files may have names, values, and units that do not match the data in the Cellular
 Expert database. To resolve such issues an additional Mapping file should be imported in which these data
@@ -2608,7 +2537,6 @@ The mapping files are not necessary if the import file data corresponds to the C
 data, otherwise mapping files are a must for a successful import.
 Values that are not mentioned in the mapping file will not be affected.
 Confidential ©Cellular Expert, 2026 Page | 113
-
 
 ---
 
@@ -2638,11 +2566,12 @@ conditions under which said data is processed. The supported format is .json. Up
 the button will light up green.
 Confidential ©Cellular Expert, 2026 Page | 114
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
-7.9 Import/Export Antenna Files
+
+## 7.9 Import/Export Antenna Files
+
 7.9.1 Import Antennas
 Click the toolbar button and select Import to import antenna patterns. The command opens a
 dialogue window where the user can select the antenna pattern files to be imported into the Cellular Expert
@@ -2659,7 +2588,6 @@ Exports selected antennas to a desired format.
 Click on the button and select Export to export antenna patterns. Select the Export path on your
 local hard drive, check the desired antennas, and click the Export button.
 Confidential ©Cellular Expert, 2026 Page | 115
-
 
 ---
 
@@ -2680,7 +2608,6 @@ attenuations are set to 1000. Based on the horizontal and vertical beamwidths, t
 antenna patterns are displayed.
 Confidential ©Cellular Expert, 2026 Page | 116
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -2700,12 +2627,13 @@ Create Antenna
 Creates the antenna pattern in the database.
 Confidential ©Cellular Expert, 2026 Page | 117
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 8. Profile
-8.1 Profile Tool
+
+## 8.1 Profile Tool
+
 A Profile in wireless communication represents the geographical and environmental characteristics of
 the path between a transmitter and a receiver. It includes detailed information such as elevation
 data, terrain heights, and any obstacles (e.g., buildings, trees, or mountains) that might impact
@@ -2731,7 +2659,6 @@ by inputting it manually or by using the slider.
 Transmitter Template
 The template that is used for transmitter’s default values.
 Confidential ©Cellular Expert, 2026 Page | 118
-
 
 ---
 
@@ -2762,7 +2689,6 @@ El. Downtilt, deg.
 Electrical downtilt value for the transmitter, in degrees.
 Confidential ©Cellular Expert, 2026 Page | 119
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -2782,7 +2708,6 @@ Rx mimo
 Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
 Confidential ©Cellular Expert, 2026 Page | 120
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -2797,7 +2722,6 @@ Height, m
 Height above the ground in meters. The minimum value must be 1m.
 Azimuth towards transmitter
 Confidential ©Cellular Expert, 2026 Page | 121
-
 
 ---
 
@@ -2825,15 +2749,14 @@ coordinates will be taken.
 Most of these values will be displayed in the Profile pane shown above. If you change the values in the
 pane, these changes will be reflected in the Profile plot by redrawing it.
 Upon the selection of a second point, these geometries will be created between the points:
-• LOS (green) - the distance until the first obstruction in the profile’s way
-• OLOS (orange) – the distance until the first clutter LOS obstruction
-• NLOS (red) – the obstructed path between the sender and receiver
-• Lowest Clearance (yellow) – the point at which NLOS has the lowest clearance to the obstacle
-• Rx (purple) – the receiver point
-• Tx (green) – the transmitter point
-• Fresnel (blue) – the Fresnel lines
+- LOS (green) - the distance until the first obstruction in the profile’s way
+- OLOS (orange) – the distance until the first clutter LOS obstruction
+- NLOS (red) – the obstructed path between the sender and receiver
+- Lowest Clearance (yellow) – the point at which NLOS has the lowest clearance to the obstacle
+- Rx (purple) – the receiver point
+- Tx (green) – the transmitter point
+- Fresnel (blue) – the Fresnel lines
 Confidential ©Cellular Expert, 2026 Page | 122
-
 
 ---
 
@@ -2848,7 +2771,6 @@ prediction model selected for the cell.
 The button allows you to see the Prediction Calculation results.
 Confidential ©Cellular Expert, 2026 Page | 123
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -2858,7 +2780,6 @@ the profile by clicking on the name of the element. Enabled elements are indicat
 and disabled elements are indicated by regular text.
 Confidential ©Cellular Expert, 2026 Page | 124
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -2866,7 +2787,6 @@ You can change the height of the transmitter/receiver points by dragging their e
 Hovering the cursor over the plot displays a tooltip with the meter values for profile, building, clutter,
 elevation, distance, etc., as well as their representations in colors.
 Confidential ©Cellular Expert, 2026 Page | 125
-
 
 ---
 
@@ -2876,7 +2796,6 @@ Adjust data is found on the Profile Plot dockpane near the Results. The tool let
 elevation, building, and clutter data of the area visible in the profile plot.
 When the Adjust tab is opened, select a desirable range for the data adjustment on the plot.
 Confidential ©Cellular Expert, 2026 Page | 126
-
 
 ---
 
@@ -2888,7 +2807,6 @@ Changing the value of a single text box will also change all the other chosen ro
 text box. The selected area will be highlighted on the profile plot.
 To update the values, either select an unselected row or press the button.
 Confidential ©Cellular Expert, 2026 Page | 127
-
 
 ---
 
@@ -2907,7 +2825,6 @@ If a second point is selected while the profile is being drawn, the dynamic prof
 the LOS lines will appear on the map.
 Confidential ©Cellular Expert, 2026 Page | 128
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -2921,7 +2838,6 @@ Use Single Reflection
 Enable a reflection that will reflect straight from the transmitter to the receiver point with the smallest
 angle.
 Confidential ©Cellular Expert, 2026 Page | 129
-
 
 ---
 
@@ -2948,7 +2864,6 @@ screen.
 Reflection results will appear in the Profile Results table.
 Confidential ©Cellular Expert, 2026 Page | 130
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -2958,7 +2873,6 @@ on the changes in various profile parameters like frequency, transmitter height,
 factor. Reflections must be enabled to perform analysis, and the Single Reflection option is automatically
 enabled when the tool is selected.
 Confidential ©Cellular Expert, 2026 Page | 131
-
 
 ---
 
@@ -2973,7 +2887,6 @@ Dependency on K-Factor
 Calculate reflection analysis based on K-factor range (from radius, km to radius, km)
 Confidential ©Cellular Expert, 2026 Page | 132
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -2983,7 +2896,6 @@ tab of the Calculated Profile window.
 Import a profile by selecting a profile file in the Import section. Supported formats: .pl2 (path loss file).
 Once imported successfully, the profile data may then be customized.
 Confidential ©Cellular Expert, 2026 Page | 133
-
 
 ---
 
@@ -2996,13 +2908,11 @@ will show transmitter/receiver input data, calculation results as well as the Pr
 the profile was drawn. The report can be exported in PDF and PL2 formats.
 Confidential ©Cellular Expert, 2026 Page | 134
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 The resulting Profile report will look similar to this example:
 Confidential ©Cellular Expert, 2026 Page | 135
-
 
 ---
 
@@ -3020,12 +2930,13 @@ The step (in meters) for changing the receiver height when dragging it in the Pr
 value is 0.5 meters.
 Confidential ©Cellular Expert, 2026 Page | 136
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 9. Coverage Prediction
-9.1 CE Calculation Task List
+
+## 9.1 CE Calculation Task List
+
 All results of the prediction calculations can be found in the CE Calculation Task List tab. This includes
 failed and successful calculations.
 Click on the button to open the CE Calculation Task List dialogue.
@@ -3035,21 +2946,22 @@ from the task list by clicking on the right side of the task. To open a result r
 dropdown and click Open Results. Filtering by calculation spans these types: Antenna Visibility Prediction,
 EMF Calculation, Link Prediction, Model Tuning, Optimal Site Positions Calculation, RF Prediction, Siren
 Sound Prediction, and Visibility Prediction.
-9.2 Visibility Prediction
+
+## 9.2 Visibility Prediction
+
 Visibility calculations refer to the determination of line-of-sight between transmitting and receiving
 antennas, assessing whether any obstructions might impede direct signal transmission.
 Visibility Prediction is a tool that calculates 4 different results:
-• Minimum Receiver Height – the minimum height of a receiver that could be visible to the transmitter
-• Line of Sight – confirms whether visibility exists between the receiver and transmitter with the
+- Minimum Receiver Height – the minimum height of a receiver that could be visible to the transmitter
+- Line of Sight – confirms whether visibility exists between the receiver and transmitter with the
 provided receiver height
-• Clearance Height – the distance from the profile that is covered or is not covered.
+- Clearance Height – the distance from the profile that is covered or is not covered.
 Confidential ©Cellular Expert, 2026 Page | 137
-
 
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
-• Best Server – the same calculation as for RF Prediction
+- Best Server – the same calculation as for RF Prediction
 Click the button to open the Visibility Prediction dialogue.
 Resolution
 Cell size in meters
@@ -3070,41 +2982,41 @@ Run Calculations
 Starts the prediction calculation.
 Confidential ©Cellular Expert, 2026 Page | 138
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 Results:
-• Minimum Receiver Height in meters
-• Line of Sight – either visible (1) by the network objects or not (0)
-• Clearance in meters
+- Minimum Receiver Height in meters
+- Line of Sight – either visible (1) by the network objects or not (0)
+- Clearance in meters
 Confidential ©Cellular Expert, 2026 Page | 139
-
 
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
-• Best Server
+- Best Server
 Confidential ©Cellular Expert, 2026 Page | 140
-
 
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
 10. About
-10.1 License information
+
+## 10.1 License information
+
 Click the button to open the License Information dialogue.
 License information is a useful resource to see your current version of Cellular Expert for ArcGIS Pro, user
 key, currently active licenses, and their expiration dates. The license information window is also used when
 a user is enabling the CE for ArcGIS Pro extension on their computer. For more information about license
 activation see Activation.
-10.2 Help
+
+## 10.2 Help
+
 10.2.1 Documentation
 Click the button in the Help dropdown list to open the Documentation of CE for ArcGIS Pro.
 Here you will find extensive documentation of the add-on. Also, this should be the first place you check
 when trying to figure out a problem.
 Confidential ©Cellular Expert, 2026 Page | 141
-
 
 ---
 
@@ -3115,7 +3027,6 @@ is updated for each new release of Cellular Expert for ArcGIS Pro, and here you 
 the current installed version. This document serves as the introduction of added new features,
 enhancements, bug fixes, and other changes.
 Confidential ©Cellular Expert, 2026 Page | 142
-
 
 ---
 
@@ -3137,7 +3048,6 @@ Delete All
 If the error log ever gets too crowded, you can delete all errors from it.
 Confidential ©Cellular Expert, 2026 Page | 143
 
-
 ---
 
 Cellular Expert Desktop Indoor for ArcGIS Pro User Guide 4.9
@@ -3151,6 +3061,5 @@ Thank you for using our software.
 Cellular Expert Team
 www.cellular-expert.com
 Confidential ©Cellular Expert, 2026 Page | 144
-
 
 ---

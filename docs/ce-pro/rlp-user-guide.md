@@ -4,87 +4,126 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 Table of Contents
 1. Software Purpose and Functionality 7
 2. System requirements 9
-2.1 Minimal Requirements for Hardware 9
-2.2 Minimal Requirements for Software 9
+
+## 2.1 Minimal Requirements for Hardware 9
+
+## 2.2 Minimal Requirements for Software 9
+
 3. License types 10
-3.1 Single-User Environment 10
+
+## 3.1 Single-User Environment 10
+
 4. Getting Started 11
-4.1 Installation 11
-4.2 Activation 11
-4.3 Tools 12
+
+## 4.1 Installation 11
+
+## 4.2 Activation 11
+
+## 4.3 Tools 12
+
 5. Geographic data 14
-5.1 Geographic data requirements 16
+
+## 5.1 Geographic data requirements 16
+
 5.1.1 Digital Terrain Model (DTM) Grid (Mandatory) 17
 5.1.2 Clutter classes grid 20
 5.1.3 Clutter heights 26
 5.1.4 Buildings 30
 6. Workspace 34
-6.1 Workspace Tool 34
+
+## 6.1 Workspace Tool 34
+
 6.1.1 Workspace Table 34
 6.1.2 Create Workspace 36
 6.1.3 Open Workspace 41
 6.1.4 Remove Workspace 41
 6.1.5 Workspace Upgrade 41
 6.1.6 Workspace Properties 43
-6.2 Docs Manager 49
-6.3 CE Express Connection 54
+
+## 6.2 Docs Manager 49
+
+## 6.3 CE Express Connection 54
+
 6.3.1 Properties 54
 7. Data Management 56
-7.1 Network Objects 56
-Confidential ©Cellular Expert, 2026 Page | 2
 
+## 7.1 Network Objects 56
+
+Confidential ©Cellular Expert, 2026 Page | 2
 
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-7.2 Add Object 56
+
+## 7.2 Add Object 56
+
 7.2.1 Add Site 56
 7.2.2 Add Link 59
 7.2.3 Add Mesh Node 65
-7.3 Object Editor 67
+
+## 7.3 Object Editor 67
+
 7.3.1 Move Link Objects 70
 7.3.2 Duplicate Link Objects 72
 7.3.3 Move Site (Point) Objects 75
 7.3.4 Duplicate Site (Point) Objects 79
-7.4 Clutter Classes 83
-7.5 Antenna Viewer 87
+
+## 7.4 Clutter Classes 83
+
+## 7.5 Antenna Viewer 87
+
 7.5.1 Preview Antenna Patterns 87
-7.6 Prediction Model Manager 87
+
+## 7.6 Prediction Model Manager 87
+
 7.6.1 Models 89
-7.7 Template Manager 113
+
+## 7.7 Template Manager 113
+
 7.7.1 Edit Network Objects template 114
 7.7.2 Manage Network Object Template 115
 7.7.3 Modulations 116
 7.7.4 Modulation Editor 118
-7.8 Import Objects 120
+
+## 7.8 Import Objects 120
+
 7.8.1 Import Cells 121
 7.8.2 Import Sites, Radar, CPE, Repeaters, Links, or Mesh Nodes 124
-7.9 Import/Export Antenna Files 125
+
+## 7.9 Import/Export Antenna Files 125
+
 7.9.1 Import Antennas 125
 7.9.2 Export Antennas 125
 7.9.3 Create Antennas 126
-7.10 Radios 128
+
+## 7.10 Radios 128
+
 7.10.1 Manager Tab 128
 7.10.2 Import Tab 132
 7.10.3 Export Tab 132
-7.11 Spectrum Masks 133
+
+## 7.11 Spectrum Masks 133
+
 7.11.1 View Spectrum Masks 133
 7.11.2 Add Spectrum Mask 135
 7.11.3 Import Spectrum Mask 135
 Confidential ©Cellular Expert, 2026 Page | 3
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 7.11.4 Export Spectrum Mask 136
-7.12 Frequency Plans 137
+
+## 7.12 Frequency Plans 137
+
 7.12.1 Add Frequency Plan 137
 7.12.2 Import Frequency Plan 138
 7.12.3 Export Frequency Plan 139
 7.12.4 View Frequency Plans 139
 8. Profile 141
-8.1 Profile Tool 141
+
+## 8.1 Profile Tool 141
+
 8.1.1 Properties 141
 8.1.2 Draw Profile 146
 8.1.3 Tools 153
@@ -92,40 +131,53 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 8.1.5 Export (Profile Report) 158
 8.1.6 Settings 160
 9. Coverage Prediction 160
-9.1 CE Calculation Task List 160
-9.2 Visibility Prediction 161
+
+## 9.1 CE Calculation Task List 160
+
+## 9.2 Visibility Prediction 161
+
 10. Mesh Networks 165
-10.1 Mesh Connectivity 165
-10.2 Quick Mesh Connectivity 169
+
+## 10.1 Mesh Connectivity 165
+
+## 10.2 Quick Mesh Connectivity 169
+
 11. Radio Links 172
-11.1 Geoclimatic Data 172
+
+## 11.1 Geoclimatic Data 172
+
 11.1.1 Gaseous Absorption 174
 11.1.2 Temperature 175
 11.1.3 Multipath Fading 176
 11.1.4 Rain Fading 177
 11.1.5 Statistics 179
-11.2 Link Prediction 180
+
+## 11.2 Link Prediction 180
+
 11.2.1 Calculation 180
 11.2.2 Reflections 185
 11.2.3 Export (Link Prediction Report) 185
 11.2.4 Options 185
-11.3 Automatic Frequency Planning 187
-Confidential ©Cellular Expert, 2026 Page | 4
 
+## 11.3 Automatic Frequency Planning 187
+
+Confidential ©Cellular Expert, 2026 Page | 4
 
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 12. About 188
-12.1 License information 188
-12.2 Help 189
+
+## 12.1 License information 188
+
+## 12.2 Help 189
+
 12.2.1 Documentation 189
 12.2.2 What’s New 190
 12.2.3 Technical Support 191
 12.2.4 Error log 191
 13. Technical Support 192
 Confidential ©Cellular Expert, 2026 Page | 5
-
 
 ---
 
@@ -149,7 +201,6 @@ registered trademarks, @cellular-expert.com and
 www.cellular-expert.com are service marks of UAB
 CELLULAR EXPERT in Lithuania and some other countries.
 Confidential ©Cellular Expert, 2026 Page | 6
-
 
 ---
 
@@ -197,15 +248,14 @@ Signal Strength Prediction
 The tool contains several in-built path loss prediction models that allow the user to easily start simulations
 based on the evaluation of the most essential pathloss contributing factors. The following two models
 constitute the starting set:
-• Free space – typically used for modeling short-range mobile communications, fixed links, or other
+- Free space – typically used for modeling short-range mobile communications, fixed links, or other
 radiocommunications applications with prevalent Line-of-Sight conditions on propagation paths,
 Confidential ©Cellular Expert, 2026 Page | 7
-
 
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-• UniMacro – a proprietary universal model for wide area mobile communication systems that flexibly
+- UniMacro – a proprietary universal model for wide area mobile communication systems that flexibly
 accounts for a variety of propagation paths as determined for each specific reception point based
 on terrain and clutter data vs. configuration of the modeled system.
 Further details on path loss models and their configuration options are provided in the relevant section of
@@ -219,12 +269,12 @@ Radio coverage calculation is assisted in the tool by the possibility to use pre
 templates that are tailored to typical technical parameters of base stations in different Radio Access
 Technologies. Accordingly, the model settings and outputs will be adjusted to suit the scenario pertinent to
 that technology, i.e.:
-• 2G – radio coverage is calculated in dBm as receive power level of narrow-band (200 kHz) signal,
-• 3G – radio coverage is calculated in dBm as the receive power level of a single broadband (3.85
+- 2G – radio coverage is calculated in dBm as receive power level of narrow-band (200 kHz) signal,
+- 3G – radio coverage is calculated in dBm as the receive power level of a single broadband (3.85
 MHz) carrier,
-• 4G/5G – radio coverage is calculated in dBm as the equivalent RSRP of a single sub-carrier
+- 4G/5G – radio coverage is calculated in dBm as the equivalent RSRP of a single sub-carrier
 component in the complex OFDM broadband signal.
-• Wi-Fi - wireless communication technology based on the IEEE 802.11 standards, used for setting
+- Wi-Fi - wireless communication technology based on the IEEE 802.11 standards, used for setting
 up local area networks (WLANs) and providing internet access in various settings without requiring
 cable connections.
 Profile Analysis
@@ -233,7 +283,6 @@ such as allowing to estimate of the Fresnel zone clearance condition, Power Budg
 between Tx and Rx.
 Confidential ©Cellular Expert, 2026 Page | 8
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -241,31 +290,34 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 This chapter will guide you through the minimal hardware and software requirements.
 Note: requirements can vary significantly, depending on the acceptable calculation time and task
 complexity.
-2.1 Minimal Requirements for Hardware
+
+## 2.1 Minimal Requirements for Hardware
+
 Processor (CPU):
-• Minimum: 8 cores, hyperthreaded
-• Recommended: 16 cores
+- Minimum: 8 cores, hyperthreaded
+- Recommended: 16 cores
 (Optional) Requirements for GPU-accelerated calculations
-• GPU – any NVIDIA GPU with CUDA capabilities (https://developer.nvidia.com/cuda-gpus)
-• Driver version: 456.38 or later
-• CUDA Toolkit 11.0 or later
+- GPU – any NVIDIA GPU with CUDA capabilities (https://developer.nvidia.com/cuda-gpus)
+- Driver version: 456.38 or later
+- CUDA Toolkit 11.0 or later
 Memory/RAM:
-• Minimum: 16 GB
-• Recommended: 32 GB
+- Minimum: 16 GB
+- Recommended: 32 GB
 Storage:
-• Minimum: 500 GB of free space
-• Recommended: 2TB or more of free space on a solid-state drive (SSD)
-2.2 Minimal Requirements for Software
+- Minimum: 500 GB of free space
+- Recommended: 2TB or more of free space on a solid-state drive (SSD)
+
+## 2.2 Minimal Requirements for Software
+
 Cellular Expert runs on Microsoft Windows 10 or higher operating system.
 It requires:
-• Microsoft .NET 8.0
+- Microsoft .NET 8.0
 Download .NET 8.0 Desktop Runtime (v8.0.0) - Windows x64 Installer
-• Microsoft Visual C++ Redistributable packages 2015-2022
+- Microsoft Visual C++ Redistributable packages 2015-2022
 https://aka.ms/vs/17/release/vc_redist.x64.exe
-• .NET support for ArcGIS libraries
-• ArcGIS Pro from version 3.3.x
+- .NET support for ArcGIS libraries
+- ArcGIS Pro from version 3.3.x
 Confidential ©Cellular Expert, 2026 Page | 9
-
 
 ---
 
@@ -273,16 +325,17 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 3. License types
 Only a Single Use Cellular Expert license is available. The license type is annual and dedicated to one
 workstation connected with ArcGIS Online, which is used for ArcGIS Pro.
-3.1 Single-User Environment
+
+## 3.1 Single-User Environment
+
 For the Single-User configuration of Cellular Expert, all information about radio network objects is stored in
 a personal geodatabase (GDB format) or locally on the disc (calculation results, raster data in GeoTIFF
 format, etc.).
 Geographical data can be stored:
-• Locally on a disc
+- Locally on a disc
 An ArcGIS Pro license and an active ArcGIS Named User or ArcGIS Pro Standalone are required to operate
 in the Single-User environment.
 Confidential ©Cellular Expert, 2026 Page | 10
-
 
 ---
 
@@ -292,13 +345,17 @@ Welcome to Cellular Expert.
 This chapter will guide you through project creation and analysis. It includes the installation and preparation
 of the Cellular Expert extension, as well as using it for the first time and creating a project.
 Note: the tools are not explained in this chapter. They are referenced in other chapters of this guide.
-4.1 Installation
-• If applicable, uninstall the previous version of Cellular Expert for ArcGIS Pro
-• Make sure that .NET 8.0 is installed
-• Make sure that ArcGIS Pro 3.3.x is installed
-• Run the ceProSetup.msi file to install the new version of Cellular Expert for ArcGIS Pro
-• After successful installation, open Task Manager > Services, and run CE_Pro_Prediction_Service
-4.2 Activation
+
+## 4.1 Installation
+
+- If applicable, uninstall the previous version of Cellular Expert for ArcGIS Pro
+- Make sure that .NET 8.0 is installed
+- Make sure that ArcGIS Pro 3.3.x is installed
+- Run the ceProSetup.msi file to install the new version of Cellular Expert for ArcGIS Pro
+- After successful installation, open Task Manager > Services, and run CE_Pro_Prediction_Service
+
+## 4.2 Activation
+
 This step is required for new users. If the Cellular Expert for ArcGIS Pro license has already been activated,
 please skip this step.
 You can activate the license in two ways:
@@ -326,30 +383,29 @@ If you want to check the expiration date of the license you can:
 3. Select License Information in the About section
 Confidential ©Cellular Expert, 2026 Page | 11
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 If you encounter any problems or want additional details about the license, please contact Cellular Expert
 at support@cellular-expert.com. For more information, see the chapter Technical Support.
-4.3 Tools
+
+## 4.3 Tools
+
 The Cellular Expert tools are in the Cellular Expert add-on. They appear automatically after installation of
 CE for ArcGIS Pro and will be found in the menu ribbon.
 There are 5 types of licenses and therefore 5 different tabs with various tool configurations:
-• RCP
-• RLP
+- RCP
+- RLP
 Confidential ©Cellular Expert, 2026 Page | 12
-
 
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-• EMF
-• Sound
-• Indoor
+- EMF
+- Sound
+- Indoor
 This User Guide describes RLP tools.
 Confidential ©Cellular Expert, 2026 Page | 13
-
 
 ---
 
@@ -370,17 +426,16 @@ already license, turning them into actionable broadband maps without additional 
 requirements from the solution provider.
 By using terrain elevation, obstacles, and clutter classification in every calculation, Cellular Expert
 accurately models:
-• Line-of-Sight and Non-Line-of-Sight Conditions – Determining diffraction, reflection, and
+- Line-of-Sight and Non-Line-of-Sight Conditions – Determining diffraction, reflection, and
 Confidential ©Cellular Expert, 2026 Page | 14
-
 
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 shadowing effects over hills, valleys, and urban obstacles.
-• Coverage Footprints – Generating precise signal strength maps at national, regional, and local
+- Coverage Footprints – Generating precise signal strength maps at national, regional, and local
 levels.
-• Capacity and Interference Analysis – Modeling realistic signal overlaps and interference zones
+- Capacity and Interference Analysis – Modeling realistic signal overlaps and interference zones
 for multi-operator, multi-technology environments.
 Diffractio Free Space Loss
 n
@@ -402,13 +457,11 @@ partially penetrable by radio waves, such as natural vegetation (e.g., forests, 
 various crops, gardens, parks, etc.
 The image above illustrates how Cellular Expert uses different resolutions of topographical data to
 significantly improve coverage prediction accuracy.
-• Left image: Coverage calculated using 25 m resolution ASTER DEM data, showing a general view
+- Left image: Coverage calculated using 25 m resolution ASTER DEM data, showing a general view
 of signal distribution but with limited detail, especially in dense urban areas.
-• Right image: Coverage calculated using 1 m resolution data, revealing a much more precise
+- Right image: Coverage calculated using 1 m resolution data, revealing a much more precise
 propagation pattern, including building-level shadowing and accurate street-by-street coverage.
-More information: https://blog.maxar.com/earth-intelligence/2022/benefits-of-using-maxars-precision3d-
-Confidential ©Cellular Expert, 2026 Page | 15
-
+More information: https://blog.maxar.com/earth-intelligence/2022/benefits-of-using-maxars-precision3d-Confidential ©Cellular Expert, 2026 Page | 15
 
 ---
 
@@ -416,23 +469,24 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 telco-suite-for-5g
 Cellular Expert can easily integrate and process 1 m or even sub-meter topographical data, providing highly
 detailed RF calculations. This level of precision is essential for:
-• Modeling 2G/3G/4G/5G, small cells and mmWave networks.
-• Identifying exact coverage gaps at the building and street level.
-• Supporting regulatory-grade broadband mapping and planning.
+- Modeling 2G/3G/4G/5G, small cells and mmWave networks.
+- Identifying exact coverage gaps at the building and street level.
+- Supporting regulatory-grade broadband mapping and planning.
 By using high-resolution terrain and clutter data, Cellular Expert ensures that its calculations match real-
 world conditions as closely as possible — resulting in better network design decisions and more reliable
 broadband planning outcomes.
-5.1 Geographic data requirements
+
+## 5.1 Geographic data requirements
+
 The supported geographical data types:
 Only GeoTIFF is supported. Topographical data must have specific names:
-• The Digital terrain model must be named elevation.tif
-• The land use (or clutter) grid must be named clutterClasses.tif
-• The clutter heights (typically building, vegetation height) grid must be named clutterHeight.tif
+- The Digital terrain model must be named elevation.tif
+- The land use (or clutter) grid must be named clutterClasses.tif
+- The clutter heights (typically building, vegetation height) grid must be named clutterHeight.tif
 Mandatory geographical data:
-• Digital Terrain Model (DTM) grid
+- Digital Terrain Model (DTM) grid
 All geodata must be located in one catalog.
 Confidential ©Cellular Expert, 2026 Page | 16
-
 
 ---
 
@@ -453,7 +507,6 @@ Then, go to the Source tab > Spatial Reference and check the Coordinate System t
 it is in a Projected Coordinate System.
 Confidential ©Cellular Expert, 2026 Page | 17
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -462,7 +515,6 @@ If your raster is in a Geographic Coordinate System or needs a different project
 In the Output Coordinate System, specify a new coordinate system. It is recommended to use a UTM
 coordinate system under the WGS 1984 projection.
 Confidential ©Cellular Expert, 2026 Page | 18
-
 
 ---
 
@@ -474,22 +526,20 @@ After setting the correct projection, assign the NoData attribute and specify th
 DTM raster. To do this, use the Copy Raster tool in Geoprocessing.
 Confidential ©Cellular Expert, 2026 Page | 19
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 Configure the following settings:
-• Input Raster: Select your newly projected DTM raster.
-• Output Raster Dataset: Specify the output location and set the raster name to elevation.tif.
-• NoData Value: Enter -9999.
-• Pixel Type: Choose 32-bit signed or 32-bit float.
-• Format: This will automatically be set to TIFF.
+- Input Raster: Select your newly projected DTM raster.
+- Output Raster Dataset: Specify the output location and set the raster name to elevation.tif.
+- NoData Value: Enter -9999.
+- Pixel Type: Choose 32-bit signed or 32-bit float.
+- Format: This will automatically be set to TIFF.
 5.1.2 Clutter classes grid
 Land use or clutter refers to the classification of the earth’s surface into categories such as urban, suburban,
 rural, forest, water, and open land, each of which affects radio propagation differently. Clutter data is crucial
 because it determines how signals are absorbed, reflected, or diffracted by the environment, directly
 Confidential ©Cellular Expert, 2026 Page | 20
-
 
 ---
 
@@ -501,7 +551,6 @@ This data is freely available worldwide and is detailed in Cellular Expert datab
 created, a default clutter class table is automatically applied for each land use class.
 Confidential ©Cellular Expert, 2026 Page | 21
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -510,7 +559,6 @@ These are standard clutter types in the default workspace database, which cannot
 map your clutter raster to these predefined clutter types. Standard mapping has already been configured
 for the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2 Land Cover
 Confidential ©Cellular Expert, 2026 Page | 22
-
 
 ---
 
@@ -523,7 +571,6 @@ Once clutter classes are successfully mapped, the prediction algorithms will rec
 apply distinct symbols, and adjust path loss calculations accordingly, based on the parameters set in the
 prediction model.
 Confidential ©Cellular Expert, 2026 Page | 23
-
 
 ---
 
@@ -538,7 +585,6 @@ raster. Click on Select Coordinate System button.
 And choose the same coordinate system as your elevation.tif.
 Confidential ©Cellular Expert, 2026 Page | 24
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -546,13 +592,12 @@ Correct No Data value and raster name
 After setting the correct projection, assign the NoData attribute and specify the appropriate name for the
 Clutter Class raster. To do this, use the Copy Raster tool in Geoprocessing.
 Configure the following settings:
-• Input Raster: Select your newly projected Clutter Class raster.
-• Output Raster Dataset: Specify the output location and set the raster name to clutterClasses.tif.
-• NoData Value: Enter -9999.
-• Pixel Type: Choose 32-bit signed or 32-bit float.
-• Format: This will automatically be set to TIFF.
+- Input Raster: Select your newly projected Clutter Class raster.
+- Output Raster Dataset: Specify the output location and set the raster name to clutterClasses.tif.
+- NoData Value: Enter -9999.
+- Pixel Type: Choose 32-bit signed or 32-bit float.
+- Format: This will automatically be set to TIFF.
 Confidential ©Cellular Expert, 2026 Page | 25
-
 
 ---
 
@@ -567,7 +612,6 @@ navigate to Spatial Analyst > Map Algebra > Raster Calculator. Use the following
 DSM – DTM
 Confidential ©Cellular Expert, 2026 Page | 26
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -580,7 +624,6 @@ It must have the same coordinate system as your elevation.tif raster. If your ra
 system, then use the Geoprocessing tool → Project Raster to fix it.
 Confidential ©Cellular Expert, 2026 Page | 27
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -592,18 +635,16 @@ After setting the correct projection, assign the NoData attribute and specify th
 Clutter Height raster. To do this, use the Copy Raster tool in Geoprocessing.
 Confidential ©Cellular Expert, 2026 Page | 28
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 Configure the following settings:
-• Input Raster: Select your newly projected Clutter Height raster.
-• Output Raster Dataset: Specify the output location and set the raster name to clutterHeight.tif.
-• NoData Value: Enter -9999.
-• Pixel Type: Choose 32-bit signed or 32-bit float.
-• Format: This will automatically be set to TIFF.
+- Input Raster: Select your newly projected Clutter Height raster.
+- Output Raster Dataset: Specify the output location and set the raster name to clutterHeight.tif.
+- NoData Value: Enter -9999.
+- Pixel Type: Choose 32-bit signed or 32-bit float.
+- Format: This will automatically be set to TIFF.
 Confidential ©Cellular Expert, 2026 Page | 29
-
 
 ---
 
@@ -625,7 +666,6 @@ you to enrich the clutter map with accurate building representations – essenti
 modeling.
 Confidential ©Cellular Expert, 2026 Page | 30
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -643,7 +683,6 @@ o Use map algebra expressions to merge or replace values as needed, assigning ap
 clutter class codes to building areas.
 Con(IsNull("building raster"), "Clutter_classes.tif", 0)
 Confidential ©Cellular Expert, 2026 Page | 31
-
 
 ---
 
@@ -665,19 +704,17 @@ This ensures that Buildings are accurately represented in simulations, contribut
 behavior in both indoor and outdoor environments.
 Confidential ©Cellular Expert, 2026 Page | 32
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 Building Height Determination in Clutter-Based Modeling
 Pixels assigned to a building clutter class ID will be automatically recognized as solid obstacle during
 prediction calculations. Their heights are determined using the following priority:
-• Option 1: From the associated Clutter Height raster, if available. This provides the most accurate,
+- Option 1: From the associated Clutter Height raster, if available. This provides the most accurate,
 location-specific height information.
-• Option 2: If no Clutter Height raster is present, the system will default to the height value defined
+- Option 2: If no Clutter Height raster is present, the system will default to the height value defined
 in the Clutter Classes table for the corresponding clutter ID.
 Confidential ©Cellular Expert, 2026 Page | 33
-
 
 ---
 
@@ -685,34 +722,34 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 The result:
 6. Workspace
 This chapter describes the Cellular Expert workspace functionality.
-6.1 Workspace Tool
+
+## 6.1 Workspace Tool
+
 6.1.1 Workspace Table
 Cellular Expert workspace is a geodatabase containing data tables, feature datasets, and the workspace
 definition table. After creating a new workspace database, the workspace definition table will be named
 CE_WORKSPACE and contain the information about the dataset.
 Confidential ©Cellular Expert, 2026 Page | 34
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 Data field types and values:
-• OBJECTID – long integer type
-• pName – text type
-• pType – text type
-• pValue – text type
+- OBJECTID – long integer type
+- pName – text type
+- pType – text type
+- pValue – text type
 When moving your project’s directory to another location (to another computer), it is necessary to update
 the workspace parameters by referencing the new paths to properly load the project:
-• Prediction Path – path for storing prediction grids
-• Calculation Path – path for temporary calculations
-• Calculation Tasks Data Path – path for saving calculation tasks
-• Geodata Folder Path – path for geodata (prediction models do not have geodata options, topographical
+- Prediction Path – path for storing prediction grids
+- Calculation Path – path for temporary calculations
+- Calculation Tasks Data Path – path for saving calculation tasks
+- Geodata Folder Path – path for geodata (prediction models do not have geodata options, topographical
 data are taken from the Geodata Folder Path)
-• Result Path – path for final results
+- Result Path – path for final results
 Workspace calculation paths and settings can be previewed in the dedicated tool, navigate to Workspace
 > Properties. It would show all parameters listed in CE_WORKSPACE table.
 Confidential ©Cellular Expert, 2026 Page | 35
-
 
 ---
 
@@ -729,12 +766,11 @@ Pro and CE workspace in the same location.
 Geodata folder path
 Catalog where geodata files are stored. More about Geodata requirements are listed in 5. Geographic
 data topic. Click on Browse button to define Geodata catalog. Geodata must have specific names:
-• The Digital terrain model must be named elevation.tif
-• The land use (or clutter) grid must be named clutterClasses.tif
-• The clutter heights (typically building and vegetation height) grid must be named
+- The Digital terrain model must be named elevation.tif
+- The land use (or clutter) grid must be named clutterClasses.tif
+- The clutter heights (typically building and vegetation height) grid must be named
 clutterHeight.tif
 Confidential ©Cellular Expert, 2026 Page | 36
-
 
 ---
 
@@ -748,16 +784,15 @@ the manual editing of clutter class IDs, click the Manually Set Clutter Class ID
 can be edited to designate its used and unused types, also indicated by their distinct colors.
 Confidential ©Cellular Expert, 2026 Page | 37
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 Note: The projected Coordinate System has been filled automatically and taken from the defined Elevation
 grid. This means that this coordinate system will be assigned to your project feature layers.
 Several messages related to Geodata:
-• If only Elevation exists in Geodata catalog, then tool will be filled with such information:
+- If only Elevation exists in Geodata catalog, then tool will be filled with such information:
 Clutter Classes and Clutter Height are optional.
-• If coordinates mismatch between elevation and clutter, then it will provide this message:
+- If coordinates mismatch between elevation and clutter, then it will provide this message:
 Please close Workspace Create tool and fix your geodata. You can use Geoprocessing tools,
 Define Projection tool to fix this issue. Define the same coordinate as elevation.tif for your
 clutterClasses.tif and if available, clutterHeight.tif rasters.
@@ -767,7 +802,6 @@ Use the option to create a second scene for 3D visualization.
 Cellular Expert layer and geodata will be added to the project.
 Confidential ©Cellular Expert, 2026 Page | 38
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -775,13 +809,11 @@ Workspace geodatabase and required folders will be created within successful wor
 procedure.
 Confidential ©Cellular Expert, 2026 Page | 39
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 The Project Paths will be filled in the Workspace Properties → Properties tab.
 Confidential ©Cellular Expert, 2026 Page | 40
-
 
 ---
 
@@ -804,7 +836,6 @@ Workspace Upgrade automatically checks all these parameters and notifies the use
 the project.
 Confidential ©Cellular Expert, 2026 Page | 41
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -819,14 +850,13 @@ Creates the missing tables and/or creates/adds back the missing fields from defa
 If a project with incompatible geodata is loaded, the Workspace Upgrade tool analyzes the current geodata,
 as well as the owned user Esri Extension licenses to offer the optimal geodata upgrade path. This process
 is one-time only, and can be done by checking the Upgrade Geodata toggle.
-• If only elevation and buildingHeight rasters exist, the buildingHeight can automatically be renamed
+- If only elevation and buildingHeight rasters exist, the buildingHeight can automatically be renamed
 to clutterHeight.
-• (Image Analyst and Spatial Analyst licenses only) If elevation, buildingHeight and clutterHeight
+- (Image Analyst and Spatial Analyst licenses only) If elevation, buildingHeight and clutterHeight
 rasters exist, raster calculations are performed to merge the buildingHeight and clutterHeight
 rasters.
-• (Image Analyst and Spatial Analyst licenses only) If elevation, buildingHeight, clutterHeight and
+- (Image Analyst and Spatial Analyst licenses only) If elevation, buildingHeight, clutterHeight and
 Confidential ©Cellular Expert, 2026 Page | 42
-
 
 ---
 
@@ -838,7 +868,6 @@ The Workspace properties dialogue shows all the workspace information from the �
 data table. It also enables the user to customize the symbol visualization.
 To open the Workspace Properties dialogue, click on the Workspace menu icon and choose Properties.
 Confidential ©Cellular Expert, 2026 Page | 43
-
 
 ---
 
@@ -858,7 +887,6 @@ Connection URL to the ArcGIS Portal website.
 CE Server API
 Connection URL to Cellular Expert Server API.
 Confidential ©Cellular Expert, 2026 Page | 44
-
 
 ---
 
@@ -891,8 +919,8 @@ Path for the Quick Prediction calculation results that will be displayed in the 
 Project Settings Parameters
 Calculate EIRP
 Determines whether calculate EIRP or no in the prediction calculations.
-• Value YES. EIRP will be calculated based on Power, Antenna Gain and Misc. Loss values.
-• Value NO. EIRP will be taken as single value defined in Power field.
+- Value YES. EIRP will be calculated based on Power, Antenna Gain and Misc. Loss values.
+- Value NO. EIRP will be taken as single value defined in Power field.
 Enable GPU Acceleration
 Enables GPU Accelerations that optimizes the prediction calculations and makes them run faster. Possible
 values Yes/No.
@@ -900,20 +928,19 @@ Transmit Power Units
 Represents power value in dBm or Watts.
 Confidential ©Cellular Expert, 2026 Page | 45
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 Receiver/Transmitter Height Reference
 The reference raster for calculating the receiver’s and transmitter’s height for these calculations: Profile, RF
 Predictions, Quick Predictions, Visibility and other prediction tools. Possible values:
-• Elevation – reference layer will be used elevation.tif raster. This is a default parameter.
-• Clutter height – reference layer will be used clutterHeight.tif raster. Receiver/transmitter height will
+- Elevation – reference layer will be used elevation.tif raster. This is a default parameter.
+- Clutter height – reference layer will be used clutterHeight.tif raster. Receiver/transmitter height will
 be calculated over Clutter Height raster. clutterHeight.tif raster is a must to enable this parameter.
-• Clutter height (buildings only) – Height reference is calculated using the Building class from the
+- Clutter height (buildings only) – Height reference is calculated using the Building class from the
 clutterClasses.tif raster. The Building class is defined in the Clutter Class dialog and linked to a
 specific clutter class ID in the clutterClasses.tif raster.
-• Absolute – receiver and/or transmitter’s absolute height (relative to sea level) will be used in
+- Absolute – receiver and/or transmitter’s absolute height (relative to sea level) will be used in
 relevant calculations.
 Use Clutter Loss
 Determines whether clutterClasses.tif and clutterHeight.tif rasters are used in prediction calculations.
@@ -925,7 +952,6 @@ The Cellular Expert network objects (Sites, Cells, OMEN) and calculation result 
 ArcGIS with the symbology as defined in the .lyr files, located in the Visualization tab (“CE_LAYERS”
 table).
 Confidential ©Cellular Expert, 2026 Page | 46
-
 
 ---
 
@@ -941,25 +967,24 @@ off, the next time a relevant calculation is performed. In that case, the raster
 are added to the map with the visibility disabled. This is done only for the calculations performed after the
 setting is changed, and does not impact already added rasters on the map.
 The symbology is defined as a list of Layers and .lyr files:
-• Narrowband 2G (GSM/CDMA-850/TETRA/P-25) – second generation network (like GSM) calculations
+- Narrowband 2G (GSM/CDMA-850/TETRA/P-25) – second generation network (like GSM) calculations
 Confidential ©Cellular Expert, 2026 Page | 47
-
 
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 or technology-independent calculations (for example, the symbology for antenna loss by tilt is defined
 by the same file for WiMAX, LTE, and other technology)
-• Broadband 3G (UMTS/HSDPA) – results for UMTS, HSDPA and other 3 - 3.5 generation technologies
-• Broadband 4G (LTE, BWA/WiMAX) – results of LTE technology calculations
-• Broadband 5G (NR, CBRS) – results of 5G-NR technology calculations
-• Network objects – Sites, Cells, OMEN
-• Visibility – results of Visibility Calculations
-• Optimal Site Position – results of optimal site positioning.
-• Compare predictions – the results of comparing several predictions.
-• Model Tuning – results of model calibration
-• Radar – results of radar coverage calculations
-• Wi-Fi – results of Wi-Fi coverage calculations
+- Broadband 3G (UMTS/HSDPA) – results for UMTS, HSDPA and other 3 - 3.5 generation technologies
+- Broadband 4G (LTE, BWA/WiMAX) – results of LTE technology calculations
+- Broadband 5G (NR, CBRS) – results of 5G-NR technology calculations
+- Network objects – Sites, Cells, OMEN
+- Visibility – results of Visibility Calculations
+- Optimal Site Position – results of optimal site positioning.
+- Compare predictions – the results of comparing several predictions.
+- Model Tuning – results of model calibration
+- Radar – results of radar coverage calculations
+- Wi-Fi – results of Wi-Fi coverage calculations
 For example, the layer 4G Downlink Throughput with defined path dl_ul_throughput.lyr means that the 4G
 downlink bitrate prediction raster will be represented in ArcGIS using the symbology file …/Cellular
 Expert/Layers/dl_ul_throughput.lyr
@@ -967,17 +992,17 @@ Note: if you change the symbology with ArcGIS tools, it will be saved only in th
 when you re-open the same Cellular Expert workspace in another ArcGIS project, the symbology will be
 defined in the Visualization tab of the Workspace Properties dialogue.
 To create a new visualization and locate it in the Workspace Properties:
-• Right-click on the layer with the modified symbology (for example Sites) in the ArcGIS Table Of
+- Right-click on the layer with the modified symbology (for example Sites) in the ArcGIS Table Of
 Contents
-• Choose Sharing > Save As Layer File… from the opened menu
-• Save the file with a given name (for example Sites_my_symbol.lyrx)
-• Copy/Paste it to C:\Program Files\Cellular Expert\Layers
-• Open the Cellular Expert workspace in which you want to use your symbology
-• Open the Workspace Properties dialogue and select the Visualization tab
-• Select the row with the corresponding layer name (for example Sites)
-• Click the browse button and locate your layer file (for example “C:\Program Files\Cellular
+- Choose Sharing > Save As Layer File… from the opened menu
+- Save the file with a given name (for example Sites_my_symbol.lyrx)
+- Copy/Paste it to C:\Program Files\Cellular Expert\Layers
+- Open the Cellular Expert workspace in which you want to use your symbology
+- Open the Workspace Properties dialogue and select the Visualization tab
+- Select the row with the corresponding layer name (for example Sites)
+- Click the browse button and locate your layer file (for example “C:\Program Files\Cellular
 Expert\Layers\Sites_my_symbol.lyrx”) which contains the modified symbols. Press the OK button.
-• The symbology for the Cellular Expert network objects (Sites, Cells, OMEN) will be applied to the layers
+- The symbology for the Cellular Expert network objects (Sites, Cells, OMEN) will be applied to the layers
 when you open the workspace next time. To see the changes immediately re-open the workspace
 (close it using the Remove option and open it again with the Open option from the workspace menu)
 The new symbology will be uploaded and remain assigned to the workspace database independently of
@@ -987,11 +1012,12 @@ workspace to another location, the location path settings can become incorrect. 
 to find your defined symbology file, it will use the default file from the location .../Cellular Expert/Layers.
 Confidential ©Cellular Expert, 2026 Page | 48
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-6.2 Docs Manager
+
+## 6.2 Docs Manager
+
 Docs Manager is a tool for managing Saved Profiles between the transmitter (Tx) and receiver (Rx), which
 are generated in the Profile tool, as well as saved Link Prediction results, Profile Reports, and Link
 Prediction Reports. When a profile is saved in the Profile tool, it is automatically stored in Docs Manager,
@@ -1007,20 +1033,18 @@ A saved profile can be accessed in two ways:
 2. Select the profile and click Open.
 Confidential ©Cellular Expert, 2026 Page | 49
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 Additional Functions
-• Delete: Removes the selected profile.
-• Close: Closes the Docs Manager dialog.
+- Delete: Removes the selected profile.
+- Close: Closes the Docs Manager dialog.
 By using Docs Manager, users can efficiently store and retrieve profiles, ensuring consistency and
 accuracy in their Tx and Rx calculations.
 How to Open a Link Prediction
 A saved Link Prediction, just like Profile, can be accessed either by double-clicking the desired Link
 Prediction result, or by select it and clicking Open.
 Confidential ©Cellular Expert, 2026 Page | 50
-
 
 ---
 
@@ -1029,7 +1053,6 @@ How to Save a Link Prediction
 Link Prediction result can be saved to Docs Manager by selecting Save result to Docs Manager in
 the Link Prediction tool.
 Confidential ©Cellular Expert, 2026 Page | 51
-
 
 ---
 
@@ -1041,7 +1064,6 @@ How to Save a Profile Report
 Profile Report of the current drawn profile can be saved to Docs Manager by selecting Save result to
 Docs Manager in the Export tab of the Profile tool.
 Confidential ©Cellular Expert, 2026 Page | 52
-
 
 ---
 
@@ -1055,11 +1077,12 @@ Link Prediction Report can be saved to Docs Manager by selecting Save result to 
 the Export tab of the Link Prediction tool.
 Confidential ©Cellular Expert, 2026 Page | 53
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-6.3 CE Express Connection
+
+## 6.3 CE Express Connection
+
 CE Express Connection is a tool that lets you establish a connection between the CE Express database
 and CE for ArcGIS Pro. When the connection is established, data can be retrieved from CE Express and
 uploaded to CE for ArcGIS Pro workspace.
@@ -1072,7 +1095,6 @@ field. Then press the Get Workspaces button.
 If you select one of the appearing workspaces, the properties of that workspace will be saved to your current
 ArcGIS Pro project automatically.
 Confidential ©Cellular Expert, 2026 Page | 54
-
 
 ---
 
@@ -1094,12 +1116,13 @@ Import Features
 Imports the retrieved objects to the currently opened CE workspace.
 Confidential ©Cellular Expert, 2026 Page | 55
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 7. Data Management
-7.1 Network Objects
+
+## 7.1 Network Objects
+
 Cellular Expert network objects are:
 Sites – represent the geographical location of a radio station. They are identified by the unique site ID and
 contain information about the geographical coordinates, ground altitude, and base height.
@@ -1109,11 +1132,13 @@ list.
 With the data management tools located in the Data Management section, you can view and edit the
 Cellular Expert network objects.
 Note: most of these tools work only in editing sessions on the currently active workspace.
-7.2 Add Object
+
+## 7.2 Add Object
+
 New network objects can be created in several ways. They can be:
-• Imported using the CE for ArcGIS Pro functionality
-• Created with Cellular Expert tools from zero (define all parameters in the process)
-• Created from templates
+- Imported using the CE for ArcGIS Pro functionality
+- Created with Cellular Expert tools from zero (define all parameters in the process)
+- Created from templates
 7.2.1 Add Site
 The object represents Tower or Site location. It has several parameters, such as Site Name, coordinate or
 height. It is used only in 4G or 5G carrier aggregation calculation, when Total Downlink Throughput is
@@ -1121,22 +1146,20 @@ calculated.
 1. Choose the button from the toolbar and select Sites from the dropdown list.
 Confidential ©Cellular Expert, 2026 Page | 56
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 2. Define the location of the new Site by pressing the mouse left button on the map. The new Site
 will be placed right in that location.
 The Site object can be created by entering exact coordinates in:
-• Latitude (degrees) and Longitude (degrees) section.
-• Latitude and Longitude
+- Latitude (degrees) and Longitude (degrees) section.
+- Latitude and Longitude
 Confidential ©Cellular Expert, 2026 Page | 57
-
 
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-• X and Y (projected coordinate system)
+- X and Y (projected coordinate system)
 3. Define Site name and press Save Changes to save object to the database.
 Save Changes
 Creates the object with the given parameters.
@@ -1167,7 +1190,6 @@ Ground Altitude
 Ground elevation above sea level at the network object's location.
 Confidential ©Cellular Expert, 2026 Page | 58
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -1178,7 +1200,6 @@ Choose the button from the toolbar and select Links from the dropdown list.
 Define the location for the new Link by left-clicking on the map and selecting two distinct points, or two
 existing Sites. The new Link will be created as a geometry between those two points.
 Confidential ©Cellular Expert, 2026 Page | 59
-
 
 ---
 
@@ -1200,7 +1221,6 @@ system.
 Latitude (A, B)
 Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system.
 Confidential ©Cellular Expert, 2026 Page | 60
-
 
 ---
 
@@ -1245,7 +1265,6 @@ Protection configuration
 Based on the selected protection configuration the following transmitter and receiver switching schemes
 Confidential ©Cellular Expert, 2026 Page | 61
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -1263,7 +1282,6 @@ To define diversity options (antenna or frequency separation values) use the Div
 For space diversity options, the antenna can be selected, as well as the parameters for vertical separation
 (in meters), gain of diversity antenna, and misc. loss (in decibels).
 Confidential ©Cellular Expert, 2026 Page | 62
-
 
 ---
 
@@ -1299,7 +1317,6 @@ current link. It allows for defining availability and performance objectives. Pr
 objectives are related to the radio links under analysis.
 Confidential ©Cellular Expert, 2026 Page | 63
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -1308,8 +1325,8 @@ availability is recalculated automatically as a sum after entering objectives fo
 equipment. The objectives are expressed as a percentage over the average year, separately for one-way
 and two-way paths, for single hop, and end-to-end radio paths.
 The other group of objectives is performance objectives. There are two kinds of performance objectives
-• Individual - prescribed for a given link
-• Common - valid for all links subjected to the prediction procedure
+- Individual - prescribed for a given link
+- Common - valid for all links subjected to the prediction procedure
 Such a framework enables the evaluation of one group of performance objectives for a whole radio link
 network, together with specialized objectives for separate parts of a network.
 Individual performance objectives are accessible only when the performance objectives dialog is launched
@@ -1326,7 +1343,6 @@ If the value of a given performance objective depends on the path length of a li
 a multiplication factor as a formatted string.
 Confidential ©Cellular Expert, 2026 Page | 64
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -1338,7 +1354,6 @@ Choose the button from the toolbar and select MeshNodes from the dropdown list.
 Define the location of the new Mesh Node by pressing the mouse left button on the map. The new Mesh
 Node will be placed right in that location.
 Confidential ©Cellular Expert, 2026 Page | 65
-
 
 ---
 
@@ -1368,7 +1383,6 @@ Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system
 Longitude
 Decimal degrees X type coordinate in the WGS 1984 geographical coordinate system.
 Confidential ©Cellular Expert, 2026 Page | 66
-
 
 ---
 
@@ -1404,11 +1418,12 @@ The group name of the mesh node (text description). Several mesh nodes may belon
 Prediction model
 The prediction model that will be used for the mesh node in Mesh Connectivity and Quick Mesh Connectivity
 calculations. The default selection is LOS ITU-R P.525 (6GHz – 100GHz) – Default.
-7.3 Object Editor
+
+## 7.3 Object Editor
+
 The Object Editor enables the user to make changes to a network object after it is created and placed on
 the map.
 Confidential ©Cellular Expert, 2026 Page | 67
-
 
 ---
 
@@ -1419,7 +1434,6 @@ selected objects will appear in the Object Editor in a tree hierarchy.
 To edit one of the selected objects, left-click on that object and the corresponding editing menu will open
 below the list.
 Confidential ©Cellular Expert, 2026 Page | 68
-
 
 ---
 
@@ -1433,7 +1447,6 @@ want to duplicate objects and change their coordinates/meridians at the same tim
 Duplicate Objects button from above the selection tree.
 Confidential ©Cellular Expert, 2026 Page | 69
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -1444,16 +1457,14 @@ The Links object has Transmitter parameters.
 And Receiver parameters.
 Confidential ©Cellular Expert, 2026 Page | 70
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 The location of Transmitter and Receiver can be changed:
-• By defining exact coordinates in Transmitter and Receiver section.
-• Using Select Tx and Select Rx buttons.
+- By defining exact coordinates in Transmitter and Receiver section.
+- Using Select Tx and Select Rx buttons.
 If new location is defined, then potential link will be visible on the map.
 Confidential ©Cellular Expert, 2026 Page | 71
-
 
 ---
 
@@ -1469,23 +1480,20 @@ press the Duplicate Objects button in the Object Editor dialogue.
 The Links object has Transmitter parameters.
 Confidential ©Cellular Expert, 2026 Page | 72
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 And Receiver parameters.
 Confidential ©Cellular Expert, 2026 Page | 73
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 The location of Transmitter and Receiver can be changed:
-• By defining exact coordinates in Transmitter and Receiver section.
-• Using Select Tx and Select Rx buttons.
+- By defining exact coordinates in Transmitter and Receiver section.
+- Using Select Tx and Select Rx buttons.
 If new location is defined, then potential link will be visible on the map.
 Confidential ©Cellular Expert, 2026 Page | 74
-
 
 ---
 
@@ -1500,15 +1508,13 @@ Choose the button to open the Object Editor dialogue. Select the desirable objec
 tool and press the Move Objects button in the Object Editor.
 Confidential ©Cellular Expert, 2026 Page | 75
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 There are multiple ways to move objects:
-• If multiple objects are selected, the move objects display will show the geospatial properties of the
+- If multiple objects are selected, the move objects display will show the geospatial properties of the
 center point between the objects denoted as the “Cursor point”.
 Confidential ©Cellular Expert, 2026 Page | 76
-
 
 ---
 
@@ -1518,9 +1524,8 @@ centrally located among the objects on the map and shows where the cursor was pl
 the position of the Cursor Point either by entering new coordinates directly or by clicking “Select Point” and
 choosing a different location on the map. When you move the Cursor Point, all the objects on the map will
 shift their position to maintain their relative distances from this central point.
-• If a single point object is selected or several objects at the same location, the move objects display
+- If a single point object is selected or several objects at the same location, the move objects display
 Confidential ©Cellular Expert, 2026 Page | 77
-
 
 ---
 
@@ -1534,7 +1539,6 @@ of the Cursor Point will directly translate the selected object to the correspon
 its spatial relationship with the Cursor Point consistent.
 Confidential ©Cellular Expert, 2026 Page | 78
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -1547,15 +1551,13 @@ Choose the button to open the Object Editor dialogue. Select the object with the
 press the Duplicate Objects button in the Object Editor dialogue.
 Confidential ©Cellular Expert, 2026 Page | 79
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 There are multiple ways to duplicate objects:
-• If multiple objects are selected, the duplicate objects display will show the geospatial properties of
+- If multiple objects are selected, the duplicate objects display will show the geospatial properties of
 the center point between the objects denoted as the “Cursor point”.
 Confidential ©Cellular Expert, 2026 Page | 80
-
 
 ---
 
@@ -1565,10 +1567,9 @@ centrally located among the objects on the map and shows where the cursor was pl
 the position of the Cursor Point either by entering new coordinates directly or by clicking “Select Point” and
 choosing a different location on the map. When you move the Cursor Point, all the objects on the map will
 shift their position to maintain their relative distances from this central point.
-• If a single point object or several objects on the same location are selected, the duplicate objects
+- If a single point object or several objects on the same location are selected, the duplicate objects
 display will show the geospatial properties of that object denoted as “Cursor Point”.
 Confidential ©Cellular Expert, 2026 Page | 81
-
 
 ---
 
@@ -1581,7 +1582,6 @@ movement of the Cursor Point will directly translate the selected object to the 
 while keeping its spatial relationship with the Cursor Point consistent.
 Confidential ©Cellular Expert, 2026 Page | 82
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -1589,7 +1589,9 @@ Save Changes
 Duplicates the objects.
 Dismiss
 Cancels the changes to the objects and closes the dialogue.
-7.4 Clutter Classes
+
+## 7.4 Clutter Classes
+
 The Clutter Classes tool is designed to manage categories describing different types of environments in
 telecommunication networks. It relies on the Clutter Classes raster used in the project. The raster values
 must match the ID values in the Clutter Classes dialog. For example, if "Trees" has a value of 2 in the
@@ -1598,7 +1600,6 @@ Land Use values are used after workspace creation: ESRI Sentinel-2 Land Cover
 Here is the table view of Clutter table, which comes with default database.
 Confidential ©Cellular Expert, 2026 Page | 83
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -1606,14 +1607,12 @@ Sentinel-2 clutter classes raster provides information about these classes:
 Choose the button to open the Clutter Classes dialogue.
 Confidential ©Cellular Expert, 2026 Page | 84
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 Select one of the clutter classes to open their properties. Clutter class list can also be filtered by solid
 obstacle and/or clutter obstacle categories.
 Confidential ©Cellular Expert, 2026 Page | 85
-
 
 ---
 
@@ -1627,11 +1626,12 @@ Dismiss
 Cancels clutter class changes and closes the dialogue.
 Confidential ©Cellular Expert, 2026 Page | 86
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-7.5 Antenna Viewer
+
+## 7.5 Antenna Viewer
+
 The Antenna Viewer enables the user to preview the default antennae, compare their vertical and horizontal
 patterns as well as view the values of these patterns in a table.
 Click the button to open the Antenna Viewer. Change Antenna Type to Parabolic.
@@ -1641,7 +1641,9 @@ and entering the desired filter value.
 The antenna Type dropdown list contains two antenna types: Sector and Parabolic. Sector antennas have
 2 patterns and pertain to a single network object. Parabolic antennas have 4 patterns and pertain to
 point-to-point network objects. In Cellular Expert these objects are Links.
-7.6 Prediction Model Manager
+
+## 7.6 Prediction Model Manager
+
 The CE Path Loss Modelling aims to perform near-deterministic calculation of received signal levels at each
 specific point (pixel) in the network’s target coverage area by applying selective path loss model depending
 on the radio visibility condition between the transmitter antenna vis-à-vis a receiver antenna located at a
@@ -1649,23 +1651,21 @@ given point in coverage area. The radio visibility is evaluated based on the DTM
 path profile information, as described in previous section. This verification of radio visibility will result in the
 Confidential ©Cellular Expert, 2026 Page | 87
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 receiver antenna point assigned into one of three possible radio visibility conditions:
-• Line-of-Sight (LOS) – occurs when there are neither terrain irregularities, obstacles or clutter
+- Line-of-Sight (LOS) – occurs when there are neither terrain irregularities, obstacles or clutter
 interposing the direct radio path between the transmitter and receiver antennas. The radio path is
 understood to include the 1st Fresnel zone around the direct line and account for Spherical Earth
 effect. The LOS condition is illustrated by the path profile depicted in Fig. 3(a).
-• Obstructed LOS (OLOS) – occurs when the direct radio propagation line is interposed by clutter,
+- Obstructed LOS (OLOS) – occurs when the direct radio propagation line is interposed by clutter,
 see illustration in Fig. 3(b).
-• Non-LOS (NLOS) – occurs when the direct radio propagation line is interposed by terrain bulges
+- Non-LOS (NLOS) – occurs when the direct radio propagation line is interposed by terrain bulges
 or obstacles, see illustration in Fig. 3(c).
 (a) Example of path profile with LOS condition (green line of direct radio link)
 (b) Example of path profile with OLOS condition (yellow segment of radio link path)
 Confidential ©Cellular Expert, 2026 Page | 88
-
 
 ---
 
@@ -1682,7 +1682,6 @@ Prediction models available in Cellular Expert support frequencies from 10kHz to
 To open the Prediction Model Manager dialogue, click on the Prediction Model Manager tool in
 the Data Management section.
 Confidential ©Cellular Expert, 2026 Page | 89
-
 
 ---
 
@@ -1715,7 +1714,6 @@ b. Receive antenna in NLOS condition – total path loss modelled using a combin
 transmission losses and losses due to diffraction.
 Confidential ©Cellular Expert, 2026 Page | 90
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -1724,13 +1722,13 @@ developed by the International Telecommunication Union (ITU). It is primarily us
 to-area radio signal coverage in the frequency range from 30 MHz to 4000 MHz over terrestrial paths.
 This model is especially suitable for broadcasting, land mobile, and fixed services.
 Key Features
-• Versatile Application: Supports predictions over land, sea, and mixed paths, making it adaptable
+- Versatile Application: Supports predictions over land, sea, and mixed paths, making it adaptable
 to various geographic conditions.
-• Input Parameters: Takes into account factors such as transmitter and receiver heights, terrain
+- Input Parameters: Takes into account factors such as transmitter and receiver heights, terrain
 profile, clutter (buildings, vegetation), climate, and time/location variability.
-• Time and Location Variability: Predictions can be tailored for different statistical reliability levels
+- Time and Location Variability: Predictions can be tailored for different statistical reliability levels
 (e.g., 50% or 10% time availability).
-• Clutter and Terrain Handling: The model can incorporate detailed digital elevation models
+- Clutter and Terrain Handling: The model can incorporate detailed digital elevation models
 (DEM) and clutter data for more accurate predictions, reflecting the influence of buildings, forests,
 and other surface features.
 Use in Cellular Expert
@@ -1763,7 +1761,6 @@ This model offers guidance for engineers, planners, and researchers working on s
 analysis in the MF (Medium Frequency) and HF (High Frequency) bands.
 Confidential ©Cellular Expert, 2026 Page | 91
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -1777,9 +1774,9 @@ Field strength diminishes with increasing distance due to geometrical spreading 
 the ground and atmosphere.
 Surface refractivity, Surface Conductivity (σ) and Relative Permittivity (εᵣ)
 The surface over which the wave propagates critically affects signal strength:
-• Sea water: High conductivity, minimal loss
-• Dry land or desert: Low conductivity, high loss
-• Typical values range from:
+- Sea water: High conductivity, minimal loss
+- Dry land or desert: Low conductivity, high loss
+- Typical values range from:
 o Conductivity: 10⁻⁴ to 5 S/m
 o Relative permittivity: 4 to 81
 ISO 9613 standard provides a validated, practical method for predicting the outdoor propagation of sound,
@@ -1789,20 +1786,20 @@ warnings, military alert signals) achieve their intended coverage, intelligibili
 various terrain and urban environments.
 Purpose in the Public Security Context
 In emergency and defense scenarios, reliable audibility of sirens is critical for:
-• Civil alert and evacuation systems
-• Military base perimeter alarms
-• Air raid or missile defense warning networks
-• Disaster alert systems (e.g. earthquakes, tsunamis, nuclear incidents)
+- Civil alert and evacuation systems
+- Military base perimeter alarms
+- Air raid or missile defense warning networks
+- Disaster alert systems (e.g. earthquakes, tsunamis, nuclear incidents)
 By applying ISO 9613-2, engineers can model how far a siren can be heard under specific environmental
 conditions, optimizing:
-• Placement and spacing of sirens
-• Sound power selection
-• Minimization of acoustic shadow zones
-• Compliance with national safety and civil defense regulations
+- Placement and spacing of sirens
+- Sound power selection
+- Minimization of acoustic shadow zones
+- Compliance with national safety and civil defense regulations
 The model assumes standard favorable propagation:
-• Downwind or moderate inversion conditions
-• Ambient temperature ~10 °C
-• Relative humidity ~70%
+- Downwind or moderate inversion conditions
+- Ambient temperature ~10 °C
+- Relative humidity ~70%
 These are conservative conditions ensuring that siren reach is never overestimated, supporting public
 safety margin planning.
 CEC 3GPP TR Indoor (500MHz – 100GHz) Propagation Model is a high-frequency path loss model
@@ -1810,24 +1807,23 @@ designed for indoor radiocommunication systems operating within the 500 MHz to 1
 upon the CEC ITU-R 3GPP model (100 MHz – 6 GHz) by adapting it to complex indoor environments, such
 Confidential ©Cellular Expert, 2026 Page | 92
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 as:
-• Office buildings
-• Residential units
-• Shopping centers
-• Industrial halls
+- Office buildings
+- Residential units
+- Shopping centers
+- Industrial halls
 This model integrates core ITU-R recommendations for free-space loss and penetration effects, while
 leveraging 3GPP-specific methods for accurate simulation of indoor multipath, wall attenuation, and
 frequency-dependent fading.
 Purpose and Use Cases
 The model is intended for:
-• Indoor wireless access network design (e.g., Wi-Fi, 5G NR, mmWave)
-• System-level simulations for indoor coverage planning
-• Performance evaluation of in-building penetration for outdoor base stations
-• Integration with dual-slope and multi-scenario path loss modeling frameworks
+- Indoor wireless access network design (e.g., Wi-Fi, 5G NR, mmWave)
+- System-level simulations for indoor coverage planning
+- Performance evaluation of in-building penetration for outdoor base stations
+- Integration with dual-slope and multi-scenario path loss modeling frameworks
 7.6.1.1 CEC ITU-R 3GPP Model
 Model application
 This deterministic model is designed for precise tracking of the main, strongest radio ray, while also
@@ -1844,15 +1840,14 @@ meters or lower are accessible, the UniMacro Model should be considered for wide
 coverage modeling in a slightly narrower frequency range of 400 MHz to 3 GHz.
 Default settings
 General settings to calculate Model loss
-• Offset coefficient (dB) – represents the offset in decibels added to the path loss grid. The default
+- Offset coefficient (dB) – represents the offset in decibels added to the path loss grid. The default
 value is 32 dB.
-• Distance coefficient – defines the slope based on the distance between the cell and the receiver
+- Distance coefficient – defines the slope based on the distance between the cell and the receiver
 location, with a default value of 20.
-• Distance coefficient obstructed – represents the slope based on the obstructed distance between
+- Distance coefficient obstructed – represents the slope based on the obstructed distance between
 the cell and the receiver location. The default value is 40.
-• Frequency coefficient – indicates the slope determined by the frequency value, with a default value
+- Frequency coefficient – indicates the slope determined by the frequency value, with a default value
 Confidential ©Cellular Expert, 2026 Page | 93
-
 
 ---
 
@@ -1864,26 +1859,25 @@ diffraction loss, clutter loss, penetration loss, and receiver loss coefficients
 These parameters describe how a signal is impacted when it passes through or terminates in a specific
 Confidential ©Cellular Expert, 2026 Page | 94
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 clutter class.
 Key Parameters:
-• Nominal distance, m – the average distance between objects within the clutter class, ranging from
+- Nominal distance, m – the average distance between objects within the clutter class, ranging from
 1 to 100 meters.
-• Diffraction loss coefficient – a multiplier used in diffraction calculations. Lower values result in
+- Diffraction loss coefficient – a multiplier used in diffraction calculations. Lower values result in
 reduced diffraction loss, while higher values increase it. Typically, this coefficient is higher for
 buildings compared to forests or other clutter types.ltiplier for diffraction calculations. If value is
 lower, diffraction will be lower, if higher – then diffraction will be higher. Usually, for buildings clutter
 class this parameter is higher then forest or other clutter classes.
-• Enclosed receiver loss offset, dB – the initial entry loss into the clutter class, expressed as an offset
+- Enclosed receiver loss offset, dB – the initial entry loss into the clutter class, expressed as an offset
 in dB, which is added to the path loss grid.
-• Enclosed receiver loss scaling coefficient – represents additional signal loss as a function of the
+- Enclosed receiver loss scaling coefficient – represents additional signal loss as a function of the
 distance traveled within the clutter class. Higher values increase path loss.
-• Enclosed receiver loss frequency exponent coefficient – reflects additional loss inside the clutter
+- Enclosed receiver loss frequency exponent coefficient – reflects additional loss inside the clutter
 class based on frequency. Higher values increase path loss, particularly at higher frequencies.
-• Receiver point loss offset, dB – an additional loss offset in dB applied to the path loss grid,
+- Receiver point loss offset, dB – an additional loss offset in dB applied to the path loss grid,
 representing user equipment (UE) losses.
 Clutter Classes default values
 Penetration Penetration receiver Penetration receiver
@@ -1907,7 +1901,6 @@ Low density urban (High buildings)
 Medium density urban (Low buildings)
 Confidential ©Cellular Expert, 2026 Page | 95
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -1942,7 +1935,9 @@ Concrete building
 Glass building
 2 0.25 1
 Wood building
-8.5 0.25 1
+
+## 8.5 0.25 1
+
 Low loss building
 17 0.25 1
 High loss building
@@ -1959,17 +1954,16 @@ atmospheric conditions, and other factors, it helps engineers assess link reliab
 performance in a variety of environmental scenarios.
 Default settings
 General settings to calculate Model loss
-• Offset coefficient (dB) – represents the offset in decibels added to the path loss grid. The default
+- Offset coefficient (dB) – represents the offset in decibels added to the path loss grid. The default
 value is 32 dB.
 Confidential ©Cellular Expert, 2026 Page | 96
-
 
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-• Distance coefficient – defines the slope based on the distance between the cell and the receiver
+- Distance coefficient – defines the slope based on the distance between the cell and the receiver
 location, with a default value of 20.
-• Frequency coefficient – indicates the slope determined by the frequency value, with a default value
+- Frequency coefficient – indicates the slope determined by the frequency value, with a default value
 of 20.
 Multipath and focusing
 In ITU-R P.452, the correction for multipath and focusing effects accounts for signal enhancements caused
@@ -1982,17 +1976,16 @@ Clutter class option describes several fixed Clutter names with penetration loss
 These parameters describe how a signal is impacted when it passes through or terminates in a specific
 clutter class.
 Key Parameters:
-• Penetration loss offset, dB – the initial entry loss into the clutter class, expressed as an offset in
+- Penetration loss offset, dB – the initial entry loss into the clutter class, expressed as an offset in
 dB, which is added to the path loss grid.
 Confidential ©Cellular Expert, 2026 Page | 97
-
 
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-• Penetration loss distance coefficient – represents additional signal loss as a function of the distance
+- Penetration loss distance coefficient – represents additional signal loss as a function of the distance
 traveled within the clutter class. Higher values increase path loss.
-• Penetration loss frequency coefficient – reflects additional loss inside the clutter class based on
+- Penetration loss frequency coefficient – reflects additional loss inside the clutter class based on
 frequency. Higher values increase path loss, particularly at higher frequencies.
 Clutter Classes default values
 Penetration Penetration receiver Penetration receiver
@@ -2045,12 +2038,13 @@ Concrete building
 Glass building
 2 0.25 1
 Wood building
-8.5 0.25 1
+
+## 8.5 0.25 1
+
 Low loss building
 17 0.25 1
 High loss building
 Confidential ©Cellular Expert, 2026 Page | 98
-
 
 ---
 
@@ -2074,41 +2068,39 @@ General settings to calculate Model loss
 If Tx and Rx is in LOS condition:
 Fig. 4. Illustration of LOS conditions
 Line of Sight coefficients are used to calculate general model loss.
-• Offset coefficient (dB) – represents the offset in decibels added to the path loss grid. The default
+- Offset coefficient (dB) – represents the offset in decibels added to the path loss grid. The default
 value is 32 dB.
-• Distance coefficient near – defines the slope based on the distance between the cell and the
+- Distance coefficient near – defines the slope based on the distance between the cell and the
 receiver location, with a default value of 20.
-• Distance coefficient far – represents the slope based on breakpoint distance between the cell and
+- Distance coefficient far – represents the slope based on breakpoint distance between the cell and
 the receiver location. The default value is 40.
-• Use custom break distance – if value Yes, enables custom Fresnel breakpoint distance value. The
+- Use custom break distance – if value Yes, enables custom Fresnel breakpoint distance value. The
 path loss dependence on the distance is split into near and far zones by the breakpoint distance
 Confidential ©Cellular Expert, 2026 Page | 99
-
 
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 and the effect is only applied for Line of Sight condition.
-• Custom break distance, km – Fresnel breakpoint distance then path loss is calculated using
+- Custom break distance, km – Fresnel breakpoint distance then path loss is calculated using
 Distance coefficient far parameter.
-• Frequency coefficient – indicates the slope determined by the frequency value, with a default value
+- Frequency coefficient – indicates the slope determined by the frequency value, with a default value
 of 20.
 If Tx and Rx is in OLOS or NLOS condition, then Hata 9999 equation is used. 9999 Model is the Ericsson’s
 implementation of Hata Model. Ericsson provides the steering parameters of 9999 Model for different
 environments; therefore it’s very convenient just to apply in this form as the default parameters.
-• Hata Loss: A0 - constant offset in dB this value simply added to loss grid. Adjusting this value, you
+- Hata Loss: A0 - constant offset in dB this value simply added to loss grid. Adjusting this value, you
 can minimize mean error. It regulates the absolute level of the loss curve. Default value 36.2.
-• Hata Loss: A1 - distance influence coefficient. Physically it represents loss dependant on distance
+- Hata Loss: A1 - distance influence coefficient. Physically it represents loss dependant on distance
 such as atmospheric (dust, hydrometeors, etc...) losses. It regulates slope of the curve. Default
 value 30.2.
-• Hata Loss: A2 - transmitter height influence coefficient. It is related to errors in DTM, real Earth
+- Hata Loss: A2 - transmitter height influence coefficient. It is related to errors in DTM, real Earth
 curvature, etc. It regulates loss curve vertical position like the A0, but with respect to antenna height.
 Default value -12.
-• Hata Loss: A3 - Okumura-Hata type of multiplying factor for log(h )log(d). Default value 0.1.
+- Hata Loss: A3 - Okumura-Hata type of multiplying factor for log(h )log(d). Default value 0.1.
 M
 Clutter class to calculate diffraction, clutter loss, penetration loss and receiver loss
 Confidential ©Cellular Expert, 2026 Page | 100
-
 
 ---
 
@@ -2119,25 +2111,24 @@ These parameters describe how a signal is impacted when it passes through or ter
 clutter class.
 Confidential ©Cellular Expert, 2026 Page | 101
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 Key Parameters:
-• Nominal distance, m – the average distance between objects within the clutter class, ranging from
+- Nominal distance, m – the average distance between objects within the clutter class, ranging from
 1 to 100 meters.
-• Diffraction loss coefficient – a multiplier used in diffraction calculations. Lower values result in
+- Diffraction loss coefficient – a multiplier used in diffraction calculations. Lower values result in
 reduced diffraction loss, while higher values increase it. Typically, this coefficient is higher for
 buildings compared to forests or other clutter types.ltiplier for diffraction calculations. If value is
 lower, diffraction will be lower, if higher – then diffraction will be higher. Usually, for buildings clutter
 class this parameter is higher then forest or other clutter classes.
-• Penetration loss offset, dB – the initial entry loss into the clutter class, expressed as an offset in
+- Penetration loss offset, dB – the initial entry loss into the clutter class, expressed as an offset in
 dB, which is added to the path loss grid.
-• Penetration loss distance coefficient – represents additional signal loss as a function of the distance
+- Penetration loss distance coefficient – represents additional signal loss as a function of the distance
 traveled within the clutter class. Higher values increase path loss.
-• Penetration loss frequency coefficient – reflects additional loss inside the clutter class based on
+- Penetration loss frequency coefficient – reflects additional loss inside the clutter class based on
 frequency. Higher values increase path loss, particularly at higher frequencies.
-• Receiver point loss offset, dB – an additional loss offset in dB applied to the path loss grid,
+- Receiver point loss offset, dB – an additional loss offset in dB applied to the path loss grid,
 representing user equipment (UE) losses.
 Clutter Classes default values
 Penetration Penetration receiver Penetration receiver
@@ -2158,7 +2149,6 @@ Low density urban (Low buildings)
 0 0.89 0.65
 Low density urban (High buildings)
 Confidential ©Cellular Expert, 2026 Page | 102
-
 
 ---
 
@@ -2196,7 +2186,9 @@ Concrete building
 Glass building
 2 0.25 1
 Wood building
-8.5 0.25 1
+
+## 8.5 0.25 1
+
 Low loss building
 17 0.25 1
 High loss building
@@ -2206,14 +2198,13 @@ Line of Sight model is typically used for mmWave band frequencies within the 6 G
 range and provides results only for line-of-sight areas.
 Default settings
 General settings to calculate Model loss
-• Offset coefficient (dB) – represents the offset in decibels added to the path loss grid. The default
+- Offset coefficient (dB) – represents the offset in decibels added to the path loss grid. The default
 value is 32 dB.
-• Distance coefficient – defines the slope based on the distance between the cell and the receiver
+- Distance coefficient – defines the slope based on the distance between the cell and the receiver
 location, with a default value of 20.
-• Frequency coefficient – indicates the slope determined by the frequency value, with a default value
+- Frequency coefficient – indicates the slope determined by the frequency value, with a default value
 of 20.
 Confidential ©Cellular Expert, 2026 Page | 103
-
 
 ---
 
@@ -2231,18 +2222,18 @@ Default settings
 The general model parameters include the radius and receiver height. Additional parameters used for path
 loss calculations are derived from the clutter classes. Each clutter class has its own unique set of
 parameters:
-• Surface refractivity - a measure of the refractive index's influence on electromagnetic wave
+- Surface refractivity - a measure of the refractive index's influence on electromagnetic wave
 propagation, particularly in the lower atmosphere close to the Earth's surface. It is expressed as a
 dimensionless value, typically dependent on atmospheric pressure, temperature, and humidity.
 High surface refractivity can significantly affect radio wave bending and propagation, such as
 ducting or anomalous refraction.
-• Relative permittivity - quantifies a material's ability to permit electric field propagation relative to
+- Relative permittivity - quantifies a material's ability to permit electric field propagation relative to
 vacuum. It is a complex quantity with the real part representing energy storage capability and the
 imaginary part representing energy dissipation within the material.
 ITU-R P.368 uses relative permittivity to model how radio waves interact with various surface
 materials, such as soil, water, or vegetation. These interactions influence reflection, refraction, and
 absorption phenomena at the surface.
-• Surface conductivity - refers to a material's ability to conduct electrical currents across its surface.
+- Surface conductivity - refers to a material's ability to conduct electrical currents across its surface.
 It is measured in siemens per meter (S/m). Higher conductivity indicates that a surface can easily
 allow current flow, affecting the reflection and absorption of radio waves.
 According to ITU-R P.368, surface conductivity is a critical factor in determining the reflective
@@ -2252,7 +2243,6 @@ forest urban ground
 Surface 315 315 315 315 315 315 315 365 315
 refractivity, N-
 Confidential ©Cellular Expert, 2026 Page | 104
-
 
 ---
 
@@ -2286,36 +2276,35 @@ Default settings
 The following key parameters are used to configure the ITU-R P.1546 radio propagation predictions within
 the software. These settings directly influence the coverage calculation and modeling accuracy:
 1. Radius
-• Description: This setting defines the maximum distance from the transmitter (or prediction center)
+- Description: This setting defines the maximum distance from the transmitter (or prediction center)
 over which the propagation prediction will be performed.
-• Purpose: It limits the spatial extent of the coverage area to optimize calculation time and resource
+- Purpose: It limits the spatial extent of the coverage area to optimize calculation time and resource
 usage.
-• Typical Values: Often set between 10 km to 100 km, depending on the transmitter's power, terrain,
+- Typical Values: Often set between 10 km to 100 km, depending on the transmitter's power, terrain,
 and target coverage region.
 2. Receiver Height (m)
 Confidential ©Cellular Expert, 2026 Page | 105
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-• Description: Specifies the height of the receiving antenna above ground level, in meters.
-• Purpose: Receiver height impacts the predicted signal strength, especially in terrain with elevation
+- Description: Specifies the height of the receiving antenna above ground level, in meters.
+- Purpose: Receiver height impacts the predicted signal strength, especially in terrain with elevation
 changes or obstacles.
-• Guidelines:
+- Guidelines:
 o 1.5 to 2 m for handheld/mobile users (e.g., mobile phones, public safety devices).
 o 10 m or higher for fixed installations (e.g., rooftop or vehicular antennas).
-• Note: Accurate setting of receiver height is essential for meaningful signal level predictions.
+- Note: Accurate setting of receiver height is essential for meaningful signal level predictions.
 3. Time Percentage (%)
-• Description: Indicates the percentage of time during which the predicted field strength is expected
+- Description: Indicates the percentage of time during which the predicted field strength is expected
 to be met or exceeded.
-• Purpose: Reflects the statistical variability of signal propagation due to atmospheric and
+- Purpose: Reflects the statistical variability of signal propagation due to atmospheric and
 environmental effects.
-• Common Use Cases:
+- Common Use Cases:
 o 50% time: Typical for general service coverage maps (median conditions).
 o 10% time: Used for high-reliability or interference studies, ensuring signal presence under
 less favorable conditions.
-• Interpretation: A 10% time prediction means the signal level is met or exceeded during 10% of the
+- Interpretation: A 10% time prediction means the signal level is met or exceeded during 10% of the
 time, capturing worst-case propagation conditions (i.e., stronger signal occurrence during favorable
 propagation).
 7.6.1.7 ISO9613 Model
@@ -2326,7 +2315,6 @@ distance, considering factors such as geometric spreading, atmospheric absorptio
 reflections, and obstacles.
 Confidential ©Cellular Expert, 2026 Page | 106
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -2335,50 +2323,49 @@ that warning signals reach the intended audience with sufficient audibility. Thi
 optimizing siren placement, regulatory compliance, and designing effective emergency alert systems.
 The primary factors included in the standard are:
 1. Geometric Spreading
-• This refers to how sound spreads out as it moves away from its source. Sound intensity decreases
+- This refers to how sound spreads out as it moves away from its source. Sound intensity decreases
 as the distance from the source increases, following the inverse square law (with spherical
 spreading) or other forms depending on terrain.
-• As the distance from the sound source increases, the intensity of sound diminishes, which is
+- As the distance from the sound source increases, the intensity of sound diminishes, which is
 considered in the calculation of sound levels at various receiver points.
 𝐴 =20∗𝐿𝑂𝐺10(𝑑)+11
 𝑑𝑖𝑣
 2. Atmospheric Absorption
-• Sound is absorbed by the atmosphere as it travels, particularly at higher frequencies. The
+- Sound is absorbed by the atmosphere as it travels, particularly at higher frequencies. The
 absorption depends on factors like temperature, humidity, and air pressure, and is often more
 significant over longer distances.
-• Atmospheric absorption reduces the intensity of sound as it propagates, especially at higher
+- Atmospheric absorption reduces the intensity of sound as it propagates, especially at higher
 frequencies. The standard takes into account these effects to calculate the reduction in sound level.
 3. Obstacles
-• Physical barriers such as walls, hills, and buildings block or scatter sound waves, reducing the
+- Physical barriers such as walls, hills, and buildings block or scatter sound waves, reducing the
 sound level that reaches certain areas.
-• Obstacles can cause significant sound reduction, especially if they are large or located between
+- Obstacles can cause significant sound reduction, especially if they are large or located between
 the sound source and the receiver. The standard accounts for the shadow zones created by these
 barriers.
 4. Directivity of the Source
-• This parameter accounts for the directionality of the sound source, which may not emit sound
+- This parameter accounts for the directionality of the sound source, which may not emit sound
 equally in all directions. Sirens, for example, may have directional characteristics that focus their
 sound output in certain directions.
-• The directivity of the sound source influences how the sound energy is distributed, and therefore,
+- The directivity of the sound source influences how the sound energy is distributed, and therefore,
 how far and in what pattern the sound propagates.
 5. Meteorological Conditions
-• Weather conditions such as wind speed, temperature gradients, and humidity can significantly
+- Weather conditions such as wind speed, temperature gradients, and humidity can significantly
 affect sound propagation. For example, sound may travel farther downwind or be absorbed more
 by humid air.
-• These conditions are integrated into the model to adjust the calculations of sound attenuation,
+- These conditions are integrated into the model to adjust the calculations of sound attenuation,
 ensuring more accurate predictions for different weather scenarios.
 Confidential ©Cellular Expert, 2026 Page | 107
-
 
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 Default settings
-• Distance coefficient: 20.
+- Distance coefficient: 20.
 Describes slope coefficient based on distance. Value is included in Geometric spreading
 calculations.
-• Temperature: 20 Co
-• Humidity: 50%
-• Meteorological conditions: 3 dB. It is a factor, in decibels, which depends on local meteorological
+- Temperature: 20 Co
+- Humidity: 50%
+- Meteorological conditions: 3 dB. It is a factor, in decibels, which depends on local meteorological
 statistics for wind speed and direction, and temperature gradients. Experience indicates that values
 of Meteorological conditions (C0) in practice are limited to the range from zero to approximately +
 5 dB.
@@ -2387,15 +2374,10 @@ reflectivity (from 0 to 1, indicating hard-soft respectively) of the ground surf
 level predictions.
 Clutter Classes default values
 Ground factor
-1
 Open / Terrain
-1
 Grassland
-1
 Sparse forest
-1
 Medium dense forest
-1
 Very dense forest
 0.5
 Low density urban (Low buildings)
@@ -2409,42 +2391,27 @@ Medium density urban (High
 buildings)
 0.1
 High density urban (Low buildings)
-0
 High density urban (High buildings)
-0
 High density urban (Very high
 buildings)
-0
 Building blocks
-0
 Transportation
-1
 Agriculture
-1
 Plantation
 0.7
 Parks
-0
 Airport
 Confidential ©Cellular Expert, 2026 Page | 108
-
 
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-0
 Sea
-0
 Inland water
-0
 Concrete building
-0
 Glass building
-0
 Wood building
-0
 Low loss building
-0
 High loss building
 7.6.1.8 CEC 3GPP TR Indoor (500MHz – 100GHz)
 Model application
@@ -2454,17 +2421,16 @@ supporting a wide range of scenarios — from clean LOS corridors to deeply obst
 enables highly accurate modeling of next-generation wireless systems, ensuring reliable, secure, and
 efficient communication in the most demanding indoor environments.
 Key Enhancements for Indoor Use
-• Frequency scaling up to 100 GHz supports mmWave and terahertz
-• Wall material database from 3GPP TR 38.901:
+- Frequency scaling up to 100 GHz supports mmWave and terahertz
+- Wall material database from 3GPP TR 38.901:
 o Standard drywall: ~2–8 dB per wall
 o Concrete: 5–15 dB
 o Glass: 2–10 dB
-• Multi-floor attenuation (floor penetration factor)
-• Path loss floors: ensures minimum attenuation beyond near field
-• LOS probability models: stochastic treatment of LOS in large buildings
+- Multi-floor attenuation (floor penetration factor)
+- Path loss floors: ensures minimum attenuation beyond near field
+- LOS probability models: stochastic treatment of LOS in large buildings
 Default settings
 Confidential ©Cellular Expert, 2026 Page | 109
-
 
 ---
 
@@ -2490,7 +2456,6 @@ Indicates the slope determined by the frequency value, with a default value of 2
 Penetration loss offset
 The initial entry loss applied when crossing an obstacle within the clutter class, expressed as an offset in
 Confidential ©Cellular Expert, 2026 Page | 110
-
 
 ---
 
@@ -2554,13 +2519,14 @@ Concrete building
 Glass building
 Confidential ©Cellular Expert, 2026 Page | 111
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 2 0.25 1
 Wood building
-8.5 0.25 1
+
+## 8.5 0.25 1
+
 Low loss building
 17 0.25 1
 High loss building
@@ -2586,11 +2552,11 @@ geometry consistent with the CNOSSOS-EU specification, and terrain profiles, clu
 building data from the workspace are used directly in the calculation. The primary factors included in the
 standard are:
 Default settings
-• Distance coefficient: 20.
+- Distance coefficient: 20.
 Describes slope coefficient based on distance. Value is included in Geometric spreading calculations.
-• Temperature: 15 Co
-• Humidity: 70%
-• Favourable conditions occurrence: 0.25: Probability or fraction of time during which
+- Temperature: 15 Co
+- Humidity: 70%
+- Favourable conditions occurrence: 0.25: Probability or fraction of time during which
 meteorological conditions are "favourable" for sound propagation from a source to a receiver.
 Ground factor parameter for the CNOSSOS-EU model’s clutter classes allows users to define the acoustic
 reflectivity (from 0 to 1, indicating hard-soft respectively) of the ground surface for more accurate sound
@@ -2598,21 +2564,15 @@ level predictions. When the clutter classes raster is absent from the geodata, a
 is used.
 Clutter Classes default values
 Ground factor
-1
 Open / Terrain
 Confidential ©Cellular Expert, 2026 Page | 112
-
 
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-1
 Grassland
-1
 Sparse forest
-1
 Medium dense forest
-1
 Very dense forest
 0.5
 Low density urban (Low buildings)
@@ -2626,38 +2586,26 @@ Medium density urban (High
 buildings)
 0.1
 High density urban (Low buildings)
-0
 High density urban (High buildings)
-0
 High density urban (Very high
 buildings)
-0
 Building blocks
-0
 Transportation
-1
 Agriculture
-1
 Plantation
 0.7
 Parks
-0
 Airport
-0
 Sea
-0
 Inland water
-0
 Concrete building
-0
 Glass building
-0
 Wood building
-0
 Low loss building
-0
 High loss building
-7.7 Template Manager
+
+## 7.7 Template Manager
+
 Template Manager allows the user to edit current project templates residing in the various Template tables
 of the default.gdb. The user may change the field values of the templates, create new or detele existing
 templates.
@@ -2667,7 +2615,6 @@ setup, particularly in complex scenarios like wireless network configuration.
 Here’s why templates are beneficial:
 1. Automatic Parameter Filling: Templates automatically populate required parameters, eliminating
 Confidential ©Cellular Expert, 2026 Page | 113
-
 
 ---
 
@@ -2685,16 +2632,15 @@ performed accurately and without interruption.
 By using templates, users can maintain efficiency, accuracy, and reliability in network planning and
 analysis, even in "just-in-case" scenarios where manual inputs might fall short.
 The templates are divided into categories:
-• Network Objects – edit and manage network objects (cells, sites, links, etc) templates. Templates
+- Network Objects – edit and manage network objects (cells, sites, links, etc) templates. Templates
 are divided into different network layers, each network have unique template structure based on
 available parameters in network layer.
-• Modulations – create modulation configurations that can be used for MW links > Radios.
-• Modulation Editor – create single modulations, which can be used in the Modulations tab.
+- Modulations – create modulation configurations that can be used for MW links > Radios.
+- Modulation Editor – create single modulations, which can be used in the Modulations tab.
 7.7.1 Edit Network Objects template
 Click the button to open the Template Manager dialogue. Select one of the opened templates to edit
 them.
 Confidential ©Cellular Expert, 2026 Page | 114
-
 
 ---
 
@@ -2707,7 +2653,6 @@ Cancels the changes to the objects and closes the dialogue.
 Right-click on a selected template to open the context menu with Duplicate and Delete options.
 Confidential ©Cellular Expert, 2026 Page | 115
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -2718,7 +2663,6 @@ The modulations are used in MW link calculations and specifically can be defined
 specifying Modulations one by one, the customer can create a set of them, and it is available in this tab.
 To preview and edit the Modulations template, click on it in the table.
 Confidential ©Cellular Expert, 2026 Page | 116
-
 
 ---
 
@@ -2731,7 +2675,6 @@ Save changes
 All changes will be saved.
 Dismiss
 Confidential ©Cellular Expert, 2026 Page | 117
-
 
 ---
 
@@ -2750,7 +2693,6 @@ template.
 The list of available modulations is taken from the Modulation Editor tab.
 Confidential ©Cellular Expert, 2026 Page | 118
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -2761,7 +2703,6 @@ Create
 Create a new modulation with the specified parameters.
 Confidential ©Cellular Expert, 2026 Page | 119
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -2769,23 +2710,24 @@ Save Changes
 Apply changes to a currently selected modulation. The button is disabled if the modulation is not created.
 Cancel
 Dismiss changes made to the modulation.
-7.8 Import Objects
+
+## 7.8 Import Objects
+
 The Import Objects feature further enhances efficiency by allowing users to bring in network objects from
 multiple external documents without manually creating them. This capability is invaluable when dealing with
 extensive or complex datasets. Cellular Expert for ArcGIS Pro supports the import of three widely used file
 formats: .xls, .xlsx, and .csv. Additionally, for mapping files, it supports the .json format.
 Key benefits of the Import Objects feature include:
-• Time-Saving: Instead of manually entering or recreating network objects, users can quickly import
+- Time-Saving: Instead of manually entering or recreating network objects, users can quickly import
 data from existing documents, significantly reducing setup time.
-• Data Consistency: Importing ensures that all network objects maintain consistency with the original
+- Data Consistency: Importing ensures that all network objects maintain consistency with the original
 data source, minimizing discrepancies and errors.
-• Support for Multiple Formats: With support for commonly used file formats like .xls, .xlsx, and .csv,
+- Support for Multiple Formats: With support for commonly used file formats like .xls, .xlsx, and .csv,
 the tool is versatile and can integrate seamlessly with various data workflows.
 Click the button to open the Import Objects dialogue. Expand Import drop-down menu and select
 the object, which should be imported.
 The dialog will be filled with the options to define data and mapping files.
 Confidential ©Cellular Expert, 2026 Page | 120
-
 
 ---
 
@@ -2811,7 +2753,6 @@ The supported formats: .xls, .xlsx,.csv, and tables from .sde connection. Upon s
 button will light up green.
 Confidential ©Cellular Expert, 2026 Page | 121
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -2826,15 +2767,14 @@ be used to map your data structure and Cellular Expert workspace, Cells layer st
 information about mapping file is available below.
 Confidential ©Cellular Expert, 2026 Page | 122
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 3. Click on Import Cells button to start importing procedure.
 Sites can be imported together with Cells, if:
-• The mapping file is not used, and text file has site_id field, which contains information about Site
+- The mapping file is not used, and text file has site_id field, which contains information about Site
 name. It must be text data.
-• The mapping file is used, then the data should be mapped with site_id field. It must be text data.
+- The mapping file is used, then the data should be mapped with site_id field. It must be text data.
 7.8.1.1 Mapping file
 The data in the import files may have names, values, and units that do not match the data in the Cellular
 Expert database. To resolve such issues an additional Mapping file should be imported in which these data
@@ -2844,7 +2784,6 @@ The mapping files are not necessary if the import file data corresponds to the C
 data, otherwise mapping files are a must for a successful import.
 Values that are not mentioned in the mapping file will not be affected.
 Confidential ©Cellular Expert, 2026 Page | 123
-
 
 ---
 
@@ -2874,11 +2813,12 @@ conditions under which said data is processed. The supported format is .json. Up
 the button will light up green.
 Confidential ©Cellular Expert, 2026 Page | 124
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-7.9 Import/Export Antenna Files
+
+## 7.9 Import/Export Antenna Files
+
 7.9.1 Import Antennas
 Click the toolbar button and select Import to import antenna patterns. The command opens a
 dialogue window where the user can select the antenna pattern files to be imported into the Cellular Expert
@@ -2895,7 +2835,6 @@ Exports selected antennas to a desired format.
 Click on the button and select Export to export antenna patterns. Select the Export path on your
 local hard drive, check the desired antennas, and click the Export button.
 Confidential ©Cellular Expert, 2026 Page | 125
-
 
 ---
 
@@ -2916,7 +2855,6 @@ attenuations are set to 1000. Based on the horizontal and vertical beamwidths, t
 antenna patterns are displayed.
 Confidential ©Cellular Expert, 2026 Page | 126
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -2936,11 +2874,12 @@ Create Antenna
 Creates the antenna pattern in the database.
 Confidential ©Cellular Expert, 2026 Page | 127
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-7.10 Radios
+
+## 7.10 Radios
+
 Click the button to open the Radios Dockpane. The dock pane's Manager tab includes the
 functionality for creating new radios and deleting, editing, or duplicating existing ones. The Import tab allows
 for importing new antennas from supported format (.raf) files.
@@ -2951,7 +2890,6 @@ By clicking an already existing radio from the table displayed at the top of the
 properties and save them. Right-clicking an already existing radio displays a context menu with options
 Duplicate and Delete, for respectively either creating a copy of the selected antenna or deleting it.
 Confidential ©Cellular Expert, 2026 Page | 128
-
 
 ---
 
@@ -2993,7 +2931,6 @@ Sequences of errors occurring in clusters or bursts, typically caused by noise o
 multiple consecutive bits.
 Confidential ©Cellular Expert, 2026 Page | 129
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -3034,7 +2971,6 @@ Carrier-to-interference ratio for a reference bit error rate, expressed in decib
 Radio Properties: Transmitter
 Confidential ©Cellular Expert, 2026 Page | 130
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -3048,7 +2984,6 @@ The maximum power level at which the radio transmits, measured in decibels relat
 Automatic Transfer Power Control Range, dB
 The range over which the radio can automatically adjust its transmission power, measured in dB.
 Confidential ©Cellular Expert, 2026 Page | 131
-
 
 ---
 
@@ -3069,11 +3004,12 @@ Radios can be exported to the RAF data files version 4 or 5. Depending on the se
 structure of the data will be different.
 Confidential ©Cellular Expert, 2026 Page | 132
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-7.11 Spectrum Masks
+
+## 7.11 Spectrum Masks
+
 Click the button to open the Spectrum Masks dialogue.
 Spectrum Masks are specific to the CE for ArcGIS Pro RLP license. The tool enables you to create spectrum
 masks that will be necessary to be used in calculations.
@@ -3083,7 +3019,6 @@ Spectrum Masks dockpane. By selecting a spectrum mask you can view its propertie
 delete the spectrum mask altogether. Changes in the mask point values will be reflected in the graph.
 Delete
 Confidential ©Cellular Expert, 2026 Page | 133
-
 
 ---
 
@@ -3097,7 +3032,6 @@ You can change any values of these points and those changes will be reflected in
 Deletes the currently selected mask point. If none are selected, does nothing.
 Adds a new mask point to the spectrum mask.
 Confidential ©Cellular Expert, 2026 Page | 134
-
 
 ---
 
@@ -3121,7 +3055,6 @@ The number of points the resulting spectrum mask will have.
 You can add a spectrum mask by importing it from a JSON format file.
 Confidential ©Cellular Expert, 2026 Page | 135
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -3131,11 +3064,12 @@ spectrum mask in the container.
 Spectrum Masks can be exported to JSON file format.
 Confidential ©Cellular Expert, 2026 Page | 136
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-7.12 Frequency Plans
+
+## 7.12 Frequency Plans
+
 Click the button to open the Frequency Plans dialogue.
 Frequency Plans are specific to the CE for ArcGIS Pro RLP license. The tool enables you to create
 frequency plans that will be necessary to create a link and later be used in calculations.
@@ -3160,7 +3094,6 @@ frequencies of each frequency plan’s carrier. Select entries in the carrier ta
 on the plot.
 Confidential ©Cellular Expert, 2026 Page | 137
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -3176,7 +3109,6 @@ The frequency plan can also be edited before importing. Click Import to finalize
 procedure.
 Confidential ©Cellular Expert, 2026 Page | 138
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -3188,7 +3120,6 @@ the frequency plan to CSV format file.
 You can view, edit, and delete all frequency plans by navigating to the Frequency Plans tab on the
 Frequency Plans dockpane.
 Confidential ©Cellular Expert, 2026 Page | 139
-
 
 ---
 
@@ -3207,12 +3138,13 @@ Discard all changes made to the currently editable plan and leave edit mode. On 
 to the Frequency Plans tab.
 Confidential ©Cellular Expert, 2026 Page | 140
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 8. Profile
-8.1 Profile Tool
+
+## 8.1 Profile Tool
+
 A Profile in wireless communication represents the geographical and environmental characteristics of the
 path between a transmitter and a receiver. It includes detailed information such as elevation data, terrain
 heights, and any obstacles (e.g., buildings, trees, or mountains) that might impact signal propagation.
@@ -3232,7 +3164,6 @@ Profile: Profile Selection
 Profile selection allows for quick switching between profiles while retaining the most recently defined
 parameters. This feature is especially useful for comparing and verifying calculations across differentTx
 Confidential ©Cellular Expert, 2026 Page | 141
-
 
 ---
 
@@ -3257,7 +3188,6 @@ Receiver Template
 The template that is used for receiver’s default values.
 Profile: Transmitter
 Confidential ©Cellular Expert, 2026 Page | 142
-
 
 ---
 
@@ -3285,7 +3215,6 @@ El. Downtilt, deg.
 Electrical downtilt value for the transmitter, in degrees.
 Confidential ©Cellular Expert, 2026 Page | 143
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -3305,7 +3234,6 @@ Rx mimo
 Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
 Confidential ©Cellular Expert, 2026 Page | 144
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -3320,7 +3248,6 @@ Height, m
 Height above the ground in meters. The minimum value must be 1m.
 Azimuth towards transmitter
 Confidential ©Cellular Expert, 2026 Page | 145
-
 
 ---
 
@@ -3347,15 +3274,14 @@ the calculations. If the object is not a cell, then only the name and the object
 Most of these values will be displayed in the Profile pane shown above. If you change the values in the
 pane, these changes will be reflected in the Profile plot by redrawing it.
 Upon the selection of a second point, these geometries will be created between the points:
-• LOS (green) - the distance until the first obstruction in the profile’s way
-• OLOS (orange) – the distance until the first clutter LOS obstruction
-• NLOS (red) – the obstructed path between the sender and receiver
-• Lowest Clearance (yellow) – the point at which NLOS has the lowest clearance to the obstacle
-• Rx (purple) – the receiver point
-• Tx (green) – the transmitter point
-• Fresnel (blue) – the Fresnel lines
+- LOS (green) - the distance until the first obstruction in the profile’s way
+- OLOS (orange) – the distance until the first clutter LOS obstruction
+- NLOS (red) – the obstructed path between the sender and receiver
+- Lowest Clearance (yellow) – the point at which NLOS has the lowest clearance to the obstacle
+- Rx (purple) – the receiver point
+- Tx (green) – the transmitter point
+- Fresnel (blue) – the Fresnel lines
 Confidential ©Cellular Expert, 2026 Page | 146
-
 
 ---
 
@@ -3369,7 +3295,6 @@ antenna vertical beamwidth symbols is the radius of the prediction model selecte
 The button allows you to see the Prediction Calculation results.
 Confidential ©Cellular Expert, 2026 Page | 147
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -3379,7 +3304,6 @@ profile by clicking on the name of the element. Enabled elements are indicated b
 elements are indicated by regular text.
 Confidential ©Cellular Expert, 2026 Page | 148
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -3387,7 +3311,6 @@ You can change the height of the transmitter/receiver points by dragging their e
 Hovering the cursor over the plot displays a tooltip with the meter values for profile, building, clutter,
 elevation, distance, etc., as well as their representations in colors.
 Confidential ©Cellular Expert, 2026 Page | 149
-
 
 ---
 
@@ -3397,7 +3320,6 @@ Adjust data is found on the Profile Plot dockpane near the Results. The tool let
 building, and clutter data of the area visible in the profile plot.
 When the Adjust tab is opened, select a desirable range for the data adjustment on the plot.
 Confidential ©Cellular Expert, 2026 Page | 150
-
 
 ---
 
@@ -3409,7 +3331,6 @@ Changing the value of a single text box will also change all the other chosen ro
 The selected area will be highlighted on the profile plot.
 To update the values, either select an unselected row or press the button.
 Confidential ©Cellular Expert, 2026 Page | 151
-
 
 ---
 
@@ -3428,7 +3349,6 @@ If a second point is selected while the profile is being drawn, the dynamic prof
 LOS lines will appear on the map.
 Confidential ©Cellular Expert, 2026 Page | 152
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -3442,7 +3362,6 @@ Use Single Reflection
 Enable a reflection that will reflect straight from the transmitter to the receiver point with the smallest angle.
 Use Multipath Reflections
 Confidential ©Cellular Expert, 2026 Page | 153
-
 
 ---
 
@@ -3468,7 +3387,6 @@ screen.
 Reflection results will appear in the Profile Results table.
 Confidential ©Cellular Expert, 2026 Page | 154
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -3478,7 +3396,6 @@ on the changes in various profile parameters like frequency, transmitter height,
 factor. Reflections must be enabled to perform analysis, and the Single Reflection option is automatically
 enabled when the tool is selected.
 Confidential ©Cellular Expert, 2026 Page | 155
-
 
 ---
 
@@ -3493,7 +3410,6 @@ Dependency on K-Factor
 Calculate reflection analysis based on K-factor range (from radius, km to radius, km)
 Confidential ©Cellular Expert, 2026 Page | 156
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -3503,7 +3419,6 @@ of the Calculated Profile window.
 Import a profile by selecting a profile file in the Import section. Supported formats: .pl2 (path loss file).
 Once imported successfully, the profile data may then be customized.
 Confidential ©Cellular Expert, 2026 Page | 157
-
 
 ---
 
@@ -3517,13 +3432,11 @@ the profile was drawn. The report can be exported in PDF and PL2 formats. The Pr
 saved to Docs Manager by selecting Save result to Docs Manager.
 Confidential ©Cellular Expert, 2026 Page | 158
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 The resulting Profile report will look similar to this example:
 Confidential ©Cellular Expert, 2026 Page | 159
-
 
 ---
 
@@ -3540,12 +3453,13 @@ Receiver height change step
 The step (in meters) for changing the receiver height when dragging it in the Profile graph. The default
 value is 0.5 meters.
 9. Coverage Prediction
-9.1 CE Calculation Task List
+
+## 9.1 CE Calculation Task List
+
 All results of the prediction calculations can be found in the CE Calculation Task List tab. This includes
 failed and successful calculations.
 Click on the button to open the CE Calculation Task List dialogue.
 Confidential ©Cellular Expert, 2026 Page | 160
-
 
 ---
 
@@ -3556,18 +3470,19 @@ from the task list by clicking on the right side of the task. To open a result r
 dropdown and click Open Results. Filtering by calculation spans these types: Antenna Visibility Prediction,
 EMF Calculation, Link Prediction, Model Tuning, Optimal Site Positions Calculation, RF Prediction, Siren
 Sound Prediction, and Visibility Prediction.
-9.2 Visibility Prediction
+
+## 9.2 Visibility Prediction
+
 Visibility calculations refer to the determination of line-of-sight between transmitting and receiving antennas,
 assessing whether any obstructions might impede direct signal transmission.
 Visibility Prediction is a tool that calculates 4 different results:
-• Minimum Receiver Height – the minimum height of a receiver that could be visible to the transmitter
-• Line of Sight – confirms whether visibility exists between the receiver and transmitter with the
+- Minimum Receiver Height – the minimum height of a receiver that could be visible to the transmitter
+- Line of Sight – confirms whether visibility exists between the receiver and transmitter with the
 provided receiver height
-• Clearance Height – the distance from the profile that is covered or is not covered.
-• Best Server – the same calculation as for RF Prediction
+- Clearance Height – the distance from the profile that is covered or is not covered.
+- Best Server – the same calculation as for RF Prediction
 Click the button to open the Visibility Prediction dialogue.
 Confidential ©Cellular Expert, 2026 Page | 161
-
 
 ---
 
@@ -3593,50 +3508,48 @@ Run Calculations
 Starts the prediction calculation.
 Confidential ©Cellular Expert, 2026 Page | 162
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 Results:
-• Minimum Receiver Height in meters
-• Line of Sight – either visible (1) by the network objects or not (0)
-• Clearance in meters
+- Minimum Receiver Height in meters
+- Line of Sight – either visible (1) by the network objects or not (0)
+- Clearance in meters
 Confidential ©Cellular Expert, 2026 Page | 163
-
 
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-• Best Server
+- Best Server
 Confidential ©Cellular Expert, 2026 Page | 164
-
 
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 10. Mesh Networks
-10.1 Mesh Connectivity
+
+## 10.1 Mesh Connectivity
+
 Click the button to open Mesh Connectivity dialogue.
 This tool enables rapid and accurate assessment of wireless peer-to-peer link quality during mesh network
 planning and optimization.
 How It Works:
-• Select one or more Mesh Nodes in the workspace.
-• Open Mesh Connectivity tool.
-• Define:
+- Select one or more Mesh Nodes in the workspace.
+- Open Mesh Connectivity tool.
+- Define:
 o Calculation name – the calculation name which will be visible in Contents.
 o Mesh node template – mesh node template if selected features won’t have all necessary
 parameters.
 o Mesh node feature class – by default Mesh Nodes are using for the calculations, but
 external point type feature class can be used to estimate connectivity with each other.
 o Press Run button to start simulation.
-• The tool calculates the RSL between each node pair and compares it against the configured RSL
+- The tool calculates the RSL between each node pair and compares it against the configured RSL
 sensitivity threshold defined for the Mesh Node object.
-• Connectivity status is then visually rendered using a clear, color-coded scheme:
+- Connectivity status is then visually rendered using a clear, color-coded scheme:
 o Green: Bi-directional connectivity – both nodes meet or exceed the RSL sensitivity for
 each other.
 o Yellow: Uni-directional connectivity – only one node meets the RSL threshold for the
 Confidential ©Cellular Expert, 2026 Page | 165
-
 
 ---
 
@@ -3649,14 +3562,12 @@ Result. Connection lines
 Shows Mesh connections where the tool will create Link object.
 Confidential ©Cellular Expert, 2026 Page | 166
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 To create a Links between Mesh Nodes, define Mesh connectivity results. Once result is selected, it will
 add possible options to create a links between Mesh Nodes.
 Confidential ©Cellular Expert, 2026 Page | 167
-
 
 ---
 
@@ -3669,11 +3580,12 @@ Enable/Disable Links from the suggested list.
 Once parameters are set, press Create links button to create Links between Mesh objects.
 Confidential ©Cellular Expert, 2026 Page | 168
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-10.2 Quick Mesh Connectivity
+
+## 10.2 Quick Mesh Connectivity
+
 Click the button to open Quick Mesh Connectivity dialogue.
 To enhance the efficiency of early-stage planning and dynamic mesh layout, the Quick Mesh Connectivity
 tool offers a fast and intuitive way to assess connectivity potential.
@@ -3685,7 +3597,6 @@ Mesh Connectivity streamlines the decision-making process by providing immediate
 On the map interface, select the Mesh Nodes that should be included in the connectivity
 calculation.
 Confidential ©Cellular Expert, 2026 Page | 169
-
 
 ---
 
@@ -3702,15 +3613,14 @@ type, height).
 Click the Run button to initiate the connectivity analysis.
 Confidential ©Cellular Expert, 2026 Page | 170
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 6. View the Results
 Once the analysis is complete, the results will appear in the Contents panel and on the map:
-• Green indicates areas with successful two-way connectivity.
-• Yellow shows one-way connectivity.
-• Red marks areas with no connectivity.
+- Green indicates areas with successful two-way connectivity.
+- Yellow shows one-way connectivity.
+- Red marks areas with no connectivity.
 Calculation Name
 The name of calculations which will be used and loaded to Contents.
 Mesh node template
@@ -3733,7 +3643,6 @@ Coordinate in the projected coordinate system.
 Z
 Confidential ©Cellular Expert, 2026 Page | 171
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -3753,12 +3662,13 @@ Total losses in dB for proposed Mesh Node.
 Sensitivity
 Receiving Signal Level threshold in dBm at Mesh Node.
 11. Radio Links
-11.1 Geoclimatic Data
+
+## 11.1 Geoclimatic Data
+
 Click the button to open the Geoclimatic Data dialogue.
 Geoclimatic Data is a tool that lets you adjust the geoclimatic settings that will be used in certain calculations
 (e.g. Link Prediction).
 Confidential ©Cellular Expert, 2026 Page | 172
-
 
 ---
 
@@ -3766,7 +3676,6 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 Save Changes
 Save changes to the settings.
 Confidential ©Cellular Expert, 2026 Page | 173
-
 
 ---
 
@@ -3792,13 +3701,11 @@ Absorption Spectrum
 A button that lets you see the visual representation of the absorption spectrum.
 Confidential ©Cellular Expert, 2026 Page | 174
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 Linear/Logarithmic
 Specifies how the axes values are calculated and displayed on the plot. Logarithmic is calculated as log .
-10
 Frequency From/To
 The frequency range of the absorption spectrum.
 Path Length
@@ -3817,7 +3724,6 @@ temperature information.
 Use Geoclimatic Data
 Enable/Disable this Geoclimatic data.
 Confidential ©Cellular Expert, 2026 Page | 175
-
 
 ---
 
@@ -3838,16 +3744,15 @@ Use Geoclimatic Data
 Enable/Disable this Geoclimatic data.
 Confidential ©Cellular Expert, 2026 Page | 176
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 Refractivity Gradient Data / Field
 Refractivity gradient data: DNDZ
 Refractivity gradient field: DN01; DN10; DN50; DN90; DN99, KF01...KF99
-• DNx - refractivity gradient not exceeded for x% of the average year in the lowest 65 m of
+- DNx - refractivity gradient not exceeded for x% of the average year in the lowest 65 m of
 atmosphere. DN01 is the parameter referred to as dN1 in ITU-R P.530.
-• KFx - Effective Earth radius not exceeded for x% of the average year in the lowest 65 m of
+- KFx - Effective Earth radius not exceeded for x% of the average year in the lowest 65 m of
 atmosphere. KFx is provided only for map preview and cannot be used in the Geoclimatic Data
 settings dialog.
 Geoclimatic Factor (Define)
@@ -3855,12 +3760,12 @@ A field to input or calculate a factor used in propagation modeling, affecting t
 fading.
 Geoclimactic Factor (Calculate)
 Calculate the geoclimactic factor used in propagation modeling, affecting the prediction of multipath fading.
-• Approximation of terrain roughness - Options to select how terrain roughness is modeled in the
+- Approximation of terrain roughness - Options to select how terrain roughness is modeled in the
 calculations - as a constant value or as a linear approximation.
-• Percentage of time that refractivity gradient in the lowest 100 m is less than 100 units/km -
+- Percentage of time that refractivity gradient in the lowest 100 m is less than 100 units/km -
 An input field for the percentage of time when the refractivity gradient at low altitudes meets a
 specific threshold.
-• Co, dB / Lat, dB / Lon, dB - Fields to input correction values in decibels for specific geographic
+- Co, dB / Lat, dB / Lon, dB - Fields to input correction values in decibels for specific geographic
 coordinates, possibly related to the orientation or position of the transmitter/receiver.
 Percentage of Time / Design
 Radio buttons to choose the granularity of the time percentage for which the calculations are relevant, and
@@ -3881,7 +3786,6 @@ The rain fading page defines rain regions (ITU and Crane) for rain rate statisti
 (ITU and Crane). The rain rate exceedance parameter for 0.01% of the time can be set manually or
 automatically according to the rain zone.
 Confidential ©Cellular Expert, 2026 Page | 177
-
 
 ---
 
@@ -3906,7 +3810,6 @@ Selection options for the method of calculating the reliability of a signal in a
 involve multiple hops or two-way transmission.
 Confidential ©Cellular Expert, 2026 Page | 178
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -3923,11 +3826,12 @@ An input field for the beta parameter, which may be part of the statistical mode
 the ITU-R P.841 recommendation.
 Confidential ©Cellular Expert, 2026 Page | 179
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-11.2 Link Prediction
+
+## 11.2 Link Prediction
+
 Click the button to open the Link Prediction dialogue.
 Link Predictions is a tool specific to CE for ArcGIS Pro RLP license. The tool enables you to calculate Link
 predictions.
@@ -3940,7 +3844,6 @@ Link Template
 The template will fill all empty or not specified fields with default values that are not necessary for
 predictions.
 Confidential ©Cellular Expert, 2026 Page | 180
-
 
 ---
 
@@ -3965,7 +3868,6 @@ and receiver sensitivity in a communication system.
 Path Loss - the reduction in signal strength as it travels from the transmitter to the receiver.
 Confidential ©Cellular Expert, 2026 Page | 181
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -3975,7 +3877,6 @@ Interference - the undesired impact of one signal on another, leading to potenti
 Performance - assessments of key metrics like data rate, error rates, and signal-to-noise ratio, crucial for
 evaluating and optimizing a communication system's efficiency.
 Confidential ©Cellular Expert, 2026 Page | 182
-
 
 ---
 
@@ -3992,7 +3893,6 @@ and receiver sensitivity in a communication system.
 Path Loss - the reduction in signal strength as it travels from the transmitter to the receiver.
 Confidential ©Cellular Expert, 2026 Page | 183
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -4004,7 +3904,6 @@ frequencies are being utilized.
 Tx, Rx, Common
 Remove/Add certain parameters from the plot
 Confidential ©Cellular Expert, 2026 Page | 184
-
 
 ---
 
@@ -4027,7 +3926,6 @@ unforeseen signal losses or variations.
 Thermal Fade Margin Prediction
 The threshold below which thermal fade will not be calculated.
 Confidential ©Cellular Expert, 2026 Page | 185
-
 
 ---
 
@@ -4053,7 +3951,6 @@ The ability of filters in a duplex system to effectively separate and prevent in
 frequencies. No dBm greater than this will be accounted for in the calculation.
 Confidential ©Cellular Expert, 2026 Page | 186
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -4068,7 +3965,9 @@ A selection indicating if the metric is calculated based on yearly data.
 Statistics Worst-month
 A selection indicating if the metric is calculated based on the data from the month with the poorest
 performance.
-11.3 Automatic Frequency Planning
+
+## 11.3 Automatic Frequency Planning
+
 Click the button to open the Automatic Frequency Planning tool.
 The tool suggests the best channel for each selected link based on the chosen frequency plan and channel
 list. It accounts for inter-link interference, evaluates the signal-to-interference ratio (SIR) across available
@@ -4083,7 +3982,6 @@ the Automatic Frequency Planning Results table. The recommended carriers can be 
 and later used in Link Prediction calculations.
 Confidential ©Cellular Expert, 2026 Page | 187
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -4094,10 +3992,11 @@ reassigned for all links regardless of whether they have channel assignments.
 Run
 Run the automatic frequency planning tool.
 12. About
-12.1 License information
+
+## 12.1 License information
+
 Click the button to open the License Information dialogue.
 Confidential ©Cellular Expert, 2026 Page | 188
-
 
 ---
 
@@ -4106,13 +4005,14 @@ License information is a useful resource to see your current version of Cellular
 key, currently active licenses, and their expiration dates. The license information window is also used when
 a user is enabling the CE for ArcGIS Pro extension on their computer. For more information about license
 activation see Activation.
-12.2 Help
+
+## 12.2 Help
+
 12.2.1 Documentation
 Click the button in the Help dropdown list to open the Documentation of CE for ArcGIS Pro.
 Here you will find extensive documentation of the add-on. Also, this should be the first place you check
 when trying to figure out a problem.
 Confidential ©Cellular Expert, 2026 Page | 189
-
 
 ---
 
@@ -4123,7 +4023,6 @@ is updated for each new release of Cellular Expert for ArcGIS Pro, and here you 
 the current installed version. This document serves as the introduction of added new features,
 enhancements, bug fixes, and other changes.
 Confidential ©Cellular Expert, 2026 Page | 190
-
 
 ---
 
@@ -4145,7 +4044,6 @@ Delete All
 If the error log ever gets too crowded, you can delete all errors from it.
 Confidential ©Cellular Expert, 2026 Page | 191
 
-
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
@@ -4159,6 +4057,5 @@ Thank you for using our software.
 Cellular Expert Team
 www.cellular-expert.com
 Confidential ©Cellular Expert, 2026 Page | 192
-
 
 ---

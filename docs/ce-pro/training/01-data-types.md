@@ -3,14 +3,12 @@
 Data Types
 Data can be:
 1. Vector
-• Points
-• Lines
-• Polygons
+- Points
+- Lines
+- Polygons
 2. Raster
-• GeoTIFF
+- GeoTIFF
 3. Tabular
-2
-
 
 ---
 
@@ -35,48 +33,28 @@ H
 Clutter losses clutter DSM
 UE
 DTM
-3
-
 
 ---
 
 Raster Type Input: Elevation
-•
-Digital terrain model (DTM)
-•
-Represents Earth’s ground/water level above sea level
-•
-GeoTIFF raster format
-•
-Height values in meters
-•
-Coordinate system – projected
-•
-Resolution (cell size) – centimeter level
-•
-Raster name: elevation.tif
-4
-
+- Digital terrain model (DTM)
+- Represents Earth’s ground/water level above sea level
+- GeoTIFF raster format
+- Height values in meters
+- Coordinate system – projected
+- Resolution (cell size) – centimeter level
+- Raster name: elevation.tif
 
 ---
 
 Raster Type Input: Clutter height
-•
-Clutter height
-•
-Represents objects height above elevation raster.
-•
-GeoTIFF raster format
-•
-Height values in meters
-•
-Coordinate system – projected
-•
-Resolution (cell size) – centimeter level
-•
-Raster name: clutterHeight.tif
-5
-
+- Clutter height
+- Represents objects height above elevation raster.
+- GeoTIFF raster format
+- Height values in meters
+- Coordinate system – projected
+- Resolution (cell size) – centimeter level
+- Raster name: clutterHeight.tif
 
 ---
 
@@ -92,33 +70,21 @@ Obstacles grid
 Visible Not visible
 Rx Rx
 Elevation grid
-6
-
 
 ---
 
 Clutter classes
-•
-Clutter classes
-•
-Represents land use classes.
-•
-GeoTIFF raster format
-•
-Coordinate system – projected
-•
-Resolution (cell size) – centimeter level
-•
-Raster name: clutterClasses.tif
-7
-
+- Clutter classes
+- Represents land use classes.
+- GeoTIFF raster format
+- Coordinate system – projected
+- Resolution (cell size) – centimeter level
+- Raster name: clutterClasses.tif
 
 ---
 
 Clutter types
 Corine Land Cover
-8
-
 
 ---
 
@@ -128,32 +94,23 @@ output raster cell size, data field that will be
 converted to grid, output raster file name.
 Note: if some features in input layer are selected,
 only selected ones will be converted.
-9
-
 
 ---
 
 Environment Settings
-10
-
 
 ---
 
 Raster Calculator
-11
-
 
 ---
 
 Model Builder
 Automate your GIS tasks
-12
-
 
 ---
 
 Questions?
 www.cellular-expert.com
-
 
 ---

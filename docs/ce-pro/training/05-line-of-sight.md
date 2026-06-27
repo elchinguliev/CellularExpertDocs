@@ -21,177 +21,113 @@ H
 Clutter losses clutter DSM
 UE
 DTM
-2
-
 
 ---
 
 Point to point (Profile) input
-•
-Geodata
-•
-Elevation
-•
-Buildings
-•
-Clutter
-•
-Frequency
-•
-Fresnel zone (%)
-•
-Earth radius
-•
-Transmitter
-•
-Height
-•
-Power
-•
-Receiver
-•
-Height
-•
-Power
-3
-
+- Geodata
+- Elevation
+- Buildings
+- Clutter
+- Frequency
+- Fresnel zone (%)
+- Earth radius
+- Transmitter
+- Height
+- Power
+- Receiver
+- Height
+- Power
 
 ---
 
 Profile calculations
-•
-General
-•
-Clearance
-•
-Clearance Percentage
-•
-Clearance Distance
-•
-Distance to NLOS
-•
-Distance to OLOS
-•
-Power Budget
-•
-Downlink FS
-•
-Uplink FS
-•
-FWA downlink RSL
-•
-FWA uplink RSL
-•
-Path Loss
-•
-Total Path Loss
-•
-Model Loss
-•
-Diffraction Loss
-•
-Penetration Loss
-•
-Receiver Clutter Loss
-•
-Clutter Loss
-•
-Angles
-4
-
+- General
+- Clearance
+- Clearance Percentage
+- Clearance Distance
+- Distance to NLOS
+- Distance to OLOS
+- Power Budget
+- Downlink FS
+- Uplink FS
+- FWA downlink RSL
+- FWA uplink RSL
+- Path Loss
+- Total Path Loss
+- Model Loss
+- Diffraction Loss
+- Penetration Loss
+- Receiver Clutter Loss
+- Clutter Loss
+- Angles
 
 ---
 
 Dynamic profile
-• Fix transmitter
-• Dynamic option
-5
-
+- Fix transmitter
+- Dynamic option
 
 ---
 
 Profile symbology
-• Define colors for each object in profile
-6
-
+- Define colors for each object in profile
 
 ---
 
 Profile 3D
-7
-
 
 ---
 
 Profile 3D
-8
-
 
 ---
 
 Visibility prediction input
-• Geodata
-• Elevation
-• Obstacle
-• Frequency
-• Calculation radius
-• Earth radius
-• Transmitter
-• Receiver (height)
-9
-
+- Geodata
+- Elevation
+- Obstacle
+- Frequency
+- Calculation radius
+- Earth radius
+- Transmitter
+- Receiver (height)
 
 ---
 
 Visibility Results
-• Line of Sight
-• Required height for LoS
-• Clearance
-10
-
+- Line of Sight
+- Required height for LoS
+- Clearance
 
 ---
 
 Visibility: Line of Sight
 Possible values:
-• 0
-• 1
-11
-
+- 0
+- 1
 
 ---
 
 Visibility: Clearance
-• Clearance – clearance of visibility line between Tx to Rx as a distance in
+- Clearance – clearance of visibility line between Tx to Rx as a distance in
 meters
 Height, m
 Clearance = 6.5 m
-75
-70
-65
-60
-55
 0 100 200 300 400Distance, m
-12
-
 
 ---
 
 Visibility: Minimum Receiver Height
-• Receiver height – calculate required receiver heights to have a visibility
-13
-
+- Receiver height – calculate required receiver heights to have a visibility
 
 ---
 
 Visibility: Line of Sight sum meter topo data
-14
-
 
 ---
 
 Surface vs Eelevation+Obstacles
-15
 T
 T
 x
@@ -221,32 +157,23 @@ u rfa c e g rid
 b s ta c le s g rid
 le v a tio n g rid
 
-
 ---
 
 Surface
-16
-
 
 ---
 
 DTM + Obstacles (Buildings/Vegetation)
-17
-
 
 ---
 
 DTM + Buildings + Vegetation
-18
-
 
 ---
 
 Exercise
 Description: C:\CE_Course\0. Descriptions
 Name: 2. Line of Sight (Profile).pdf
-19
-
 
 ---
 
@@ -256,6 +183,5 @@ Email: info@cellular-expert.com
 S.Konarskio g. 28A LT-03127 Vilnius
 Lithuania
 www.cellular-expert.com
-
 
 ---

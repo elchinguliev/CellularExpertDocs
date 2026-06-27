@@ -1,39 +1,33 @@
 # 07. Cell Prediction
 
 Cell structure
-• Physical parameters
-• Coordinates
-• Height
-• Azimuth
-• …
-• Logical parameters
-• Power
-• Bandwidth
-• Frequency
-• …
-2
-
+- Physical parameters
+- Coordinates
+- Height
+- Azimuth
+- …
+- Logical parameters
+- Power
+- Bandwidth
+- Frequency
+- …
 
 ---
 
 Cell: Coordinates
-• Projected coordinate system:
-• X
-• Y
-• Geographic coordinate system in meters:
-• Longitude
-• Latitude
-• Z – total cell height above sea level.
-3
-
+- Projected coordinate system:
+- X
+- Y
+- Geographic coordinate system in meters:
+- Longitude
+- Latitude
+- Z – total cell height above sea level.
 
 ---
 
 Cell Name
-• Unique parameter in the project.
-• Best server – the same.
-4
-
+- Unique parameter in the project.
+- Best server – the same.
 
 ---
 
@@ -60,25 +54,19 @@ Cellload cell_load Percent 30 Parameterrangesarefrom0to100percent.Describeshowth
 takenforbroadbandcalculations.
 Technology technology Text 2G Possiblevalues:2G,3G,4G,5G.Describescelltechnology.
 Antenna name antenna_id Number 1 RepresentsAntennaIDvalue.
-5
-
 
 ---
 
 RF Predictions structure
-• Predictions
-• Results
-• Temp
-6
-
+- Predictions
+- Results
+- Temp
 
 ---
 
 Exercise
 Description: C:\CE_Course\0. Descriptions
 Name: 4. Cell Prediction.pdf
-7
-
 
 ---
 
@@ -88,6 +76,5 @@ Email: info@cellular-expert.com
 S.Konarskio g. 28A LT-03127 Vilnius
 Lithuania
 www.cellular-expert.com
-
 
 ---

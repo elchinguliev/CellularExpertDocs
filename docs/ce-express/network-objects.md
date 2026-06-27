@@ -71,9 +71,11 @@ SITE01_C,SITE01,54.6872,25.2797,30,240,3,1800,43,4G,
 ## Editing Objects
 
 ### On the Map
+
 Click an object to select it. Its attributes appear in the side panel where you can edit them inline.
 
 ### In the Table
+
 Switch to Network Data Management, find the row, and click any cell to edit it. Click **Synchronize Changes** when done.
 
 ## Moving an Object

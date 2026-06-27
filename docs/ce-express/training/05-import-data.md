@@ -6,38 +6,40 @@ becomes part of the project environment. It covers the import of network objects
 files and antenna patterns from external files, as well as the use of mapping templates to
 ensure consistency and repeatability.
 By the end of this exercise, participants will be able to:
-• Import network objects using CSV files
-• Map external data fields to CE Express object attributes
-• Create and reuse import mapping templates
-• Import antenna pattern files into the CE Express database
-• Verify and review imported data within the workspace
+- Import network objects using CSV files
+- Map external data fields to CE Express object attributes
+- Create and reuse import mapping templates
+- Import antenna pattern files into the CE Express database
+- Verify and review imported data within the workspace
 2. Understanding Data Import in CE Express
 Data import is a key capability in CE Express, allowing users to bring information from
 external sources into a workspace. Imported data may originate from:
-• External planning tools
-• Inventory systems
-• Field surveys
-• Desktop-based CE projects
+- External planning tools
+- Inventory systems
+- Field surveys
+- Desktop-based CE projects
 CE Express supports structured import workflows to ensure that imported data is:
-• Correctly mapped to internal object models
-• Consistent across multiple imports
-• Easy to review and validate after import
+- Correctly mapped to internal object models
+- Consistent across multiple imports
+- Easy to review and validate after import
 3. Initial Data and Prerequisites
 This exercise assumes:
-2
-
 
 ---
 
-• A prepared workspace created in previous exercises
-• Prepared geodata loaded in the workspace
-• Access to import files stored locally on the computer
+- A prepared workspace created in previous exercises
+- Prepared geodata loaded in the workspace
+- Access to import files stored locally on the computer
 4. Exercise
-4.1 Step 1 – Open the Workspace
+
+## 4.1 Step 1 – Open the Workspace
+
 1. Open the CE Express application:
 https://cecom2.cellular-expert.com/ce_express/
 2. From the workspace list, select the workspace used in the previous exercise.
-4.2 Step 2 – Importing Network Objects (Cells and Sites)
+
+## 4.2 Step 2 – Importing Network Objects (Cells and Sites)
+
 4.2.1 Purpose of Network Object Import
 Importing network objects allows users to rapidly populate a workspace with sites and cells
 instead of creating them manually. This approach is especially useful when working with
@@ -46,8 +48,6 @@ existing datasets or migrating data between systems.
 1. Open the Features tool.
 2. Click Import Features.
 3. Select Cells.
-3
-
 
 ---
 
@@ -61,13 +61,11 @@ C:\CE_Course\ImportingData\Network
 The CSV file is uploaded and ready for mapping.
 4.2.4 Defining Import Options
 Enable the following options:
-• Create Sites – automatically creates site objects based on site-related fields
-4
-
+- Create Sites – automatically creates site objects based on site-related fields
 
 ---
 
-• Use Mapping – allows explicit mapping between CSV fields and CE Express
+- Use Mapping – allows explicit mapping between CSV fields and CE Express
 attributes
 These options ensure that both sites and cells are created correctly during import.
 4.2.5 Mapping CSV Fields to CE Express Attributes
@@ -90,8 +88,6 @@ Bandwidth Bandwidth Leave empty
 Noise figure Leave empty 6
 Downlink duplex factor Leave empty 0.6
 Subcarrier spacing Leave empty 30
-5
-
 
 ---
 
@@ -108,8 +104,6 @@ antenna_id Leave empty 515
 carriers Leave empty []
 site_id Leave empty Leave empty
 duplex_mode Duplex Leave empty
-6
-
 
 ---
 
@@ -125,8 +119,6 @@ for future imports.
 1. Click Accept to start the import.
 2. Wait until the import process completes.
 3. Close the Import tool.
-7
-
 
 ---
 
@@ -135,12 +127,11 @@ for future imports.
 2. Click once on the map to select imported objects.
 3. Review the objects listed in the Features panel.
 This confirms that cells and sites were successfully created and loaded into the workspace.
-8
-
 
 ---
 
-4.3 Step 3 – Importing Antenna Patterns
+## 4.3 Step 3 – Importing Antenna Patterns
+
 4.3.1 Purpose of Antenna Import
 Antenna patterns define how energy is distributed spatially. Importing accurate antenna
 patterns ensures that predictions and analyses reflect real equipment behavior.
@@ -149,14 +140,12 @@ patterns ensures that predictions and analyses reflect real equipment behavior.
 C:\CE_Course\ImportingData\Antenna
 2. Open the file ADU4518R6v06_2655.txt using Notepad.
 The file is in Planet format and contains:
-• Header information
-• Horizontal radiation pattern
-• Vertical radiation pattern
+- Header information
+- Horizontal radiation pattern
+- Vertical radiation pattern
 This format is supported for direct import into CE Express.
 4.3.3 Importing the Antenna File
 1. Open the Antennas tool.
-9
-
 
 ---
 
@@ -164,23 +153,21 @@ This format is supported for direct import into CE Express.
 3. Click Import files.
 4. Drag and drop the antenna text file into the import area.
 The antenna is automatically added to the CE Express antenna database.
-4.4 Reviewing Imported Antenna Data
+
+## 4.4 Reviewing Imported Antenna Data
+
 1. Select the imported antenna from the list.
 2. Review antenna properties and radiation patterns.
 Verifying antenna data ensures it is ready for assignment to cells and use in predictions.
-10
-
 
 ---
 
 3. Close the Antennas tool.
 5. Summary and Key Takeaways
-• Data import enables rapid population of workspaces using external datasets
-• CSV import with explicit mapping ensures correct parameter assignment
-• Mapping templates provide repeatability and consistency
-• Antenna pattern import allows use of real equipment characteristics
-• Verifying imported data is essential before running predictions or further analysis
-11
-
+- Data import enables rapid population of workspaces using external datasets
+- CSV import with explicit mapping ensures correct parameter assignment
+- Mapping templates provide repeatability and consistency
+- Antenna pattern import allows use of real equipment characteristics
+- Verifying imported data is essential before running predictions or further analysis
 
 ---

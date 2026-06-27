@@ -1,115 +1,5 @@
 # CE Inventory3D User Guide v4.6
 
-CE Inventory3D User Guide 4.6
-Table of Contents
-1. Introduction 5
-2. Quickstart guide 5
-3. Data Management 7
-
-## 3.1 Data management tools 8
-
-3.1.1 Table view 8
-3.1.2 Back 8
-3.1.3 Search (sieve) 8
-3.1.4 Multiple table view 8
-3.1.5 View attachments 9
-3.1.6 Synchronize changes 9
-3.1.7 Select/unselect all 9
-3.1.8 Show selected/Show all 9
-3.1.9 Move record 9
-3.1.10 Copy record 9
-3.1.11 Add new record 10
-3.1.12 CE API 10
-3.1.13 Export selected 10
-3.1.14 Delete record 10
-3.1.15 Remove selected 10
-
-## 3.2 View options and User administration 10
-
-3.2.1 Map overlay 11
-3.2.2 Additional tools 11
-3.2.3 Settings 11
-3.2.4 User name/ Help/ Logout 11
-
-## 3.3 Table 12
-
-4. Database organization 12
-
-## 4.1 Page setup and navigation 12
-
-4.1.1 Organization of single and multiple tables 12
-4.1.2 Organization of columns 13
-4.1.3 Navigation across tables 13
-
-## 4.2 Filtering, sorting, editing, and linking database records 14
-
-Confidential Cellular Expert, 2025 Page | 2
-
----
-
-CE Inventory3D User Guide 4.6
-4.2.1 Set selected 16
-4.2.2 Add link 17
-
-## 4.3 Adding, viewing, downloading and deleting attachments 18
-
-## 4.4 Search (sieve) 20
-
-## 4.5 CE API 22
-
-## 4.6 Import CSV 22
-
-5. Exploring data 23
-
-## 5.1 Export selected 23
-
-## 5.2 PDF report 24
-
-## 5.3 File browser 24
-
-## 5.4 Quick references 27
-
-## 5.5 Default editing and manual editing 28
-
-## 5.6 External Links 28
-
-## 5.7 Displaying Rasters 28
-
-6. MAP functionality 30
-7. Optional CE Inventory3D features 37
-
-## 7.1 Diagram tool 37
-
-## 7.2 Integration with Google Sheets 41
-
-Confidential Cellular Expert, 2025 Page | 3
-
----
-
-CE Inventory3D User Guide 4.6
-About Cellular Expert
-Cellular Expert UAB (CE) developed ultra-fast wave
-propagation, communication systems deployment planning
-and radio/optical visibility calculation software for ESRI’s
-ArcGIS mapping environment, which is widely used within
-Telecom, Defense, IoT, and other companies and
-organizations.
-CE’s communication network planning, network asset
-management, operational support software and customer-
-tailored solutions enhance the intelligence and business
-efficiency of more than 170 communication network
-companies, regulators, and defense organizations in more
-than 50 countries.
-Copyright © 2025 UAB CELLULAR EXPERT. All rights
-reserved. Cellular Expert and Cellular Expert logo are
-registered trademarks, @cellular-expert.com and
-www.cellular-expert.com are service marks of UAB
-CELLULAR EXPERT in Lithuania and some other countries.
-Confidential Cellular Expert, 2025 Page | 4
-
----
-
-CE Inventory3D User Guide 4.6
 1. Introduction
 CE Inventory3D is a versatile tool for inventory planning, design, space and assets management. It consists
 of several building blocks that together provide a customized and tailored solution for a specific need.
@@ -133,22 +23,18 @@ Please note that for security reasons the application uses only HTTPS.
 Login with User and password combination
 Select one or more database records
 Click on a record using the left mouse button. Selected records are blue:
-Confidential Cellular Expert, 2025 Page | 5
 
 ---
 
-CE Inventory3D User Guide 4.6
 Open dataset
 Select a site, click on the Record`s Details Tool and the list of objects opens:
 Sieve
 Show only selected data of the currently opened table. Click and enter a filter term:
 Data Editing & Synchronizing
 Select a respective entry while holding the CTRL key on the keyboard or right mouse click and edit the
-Confidential Cellular Expert, 2025 Page | 6
 
 ---
 
-CE Inventory3D User Guide 4.6
 information. After editing changes will be saved automatically.
 3. Data Management
 The Network Data Management view is divided into four sections:
@@ -160,11 +46,9 @@ The Network Data Management view is divided into four sections:
 1. Data management User adminstration
 3. Table
 To navigate through the tables, click on the table name at the top right corner.
-Confidential Cellular Expert, 2025 Page | 7
 
 ---
 
-CE Inventory3D User Guide 4.6
 To select a record, click on a record with the left mouse button. Selected records are colored in blue:
 
 ## 3.1 Data management tools
@@ -179,11 +63,9 @@ Go one step back and show previous data.
 Sieve the data in the currently opened table for one or more filter terms.
 3.1.4 Multiple table view
 View and edit all tables from one site simultaneously in one window.
-Confidential Cellular Expert, 2025 Page | 8
 
 ---
 
-CE Inventory3D User Guide 4.6
 3.1.5 View attachments
 View the list of attachments associated with a given record. To do so, select a record of choice, then click
 on the View attachments button and a dialog will open with the respective attachments listed. To view an
@@ -204,11 +86,9 @@ Duplicate a database record from the Table view. Select the record to be duplica
 Record button and the duplicated record appears in pink color in the Table view as a new record. Note that
 if the selected record to be duplicated has child objects, Copy Record will duplicate the entire record incl.
 child objects. Attachments are not duplicated.
-Confidential Cellular Expert, 2025 Page | 9
 
 ---
 
-CE Inventory3D User Guide 4.6
 3.1.11 Add new record
 Add a new record to the Table view. Note that the newly added record will appear in orange writing.
 3.1.12 CE API
@@ -223,11 +103,8 @@ Removes selected objects.
 
 ## 3.2 View options and User administration
 
-Confidential Cellular Expert, 2025 Page | 10
-
 ---
 
-CE Inventory3D User Guide 4.6
 3.2.1 Map overlay
 Opens map view
 Opens table view
@@ -240,11 +117,8 @@ Please view Administration Guide for details.
 3.2.4 User name/ Help/ Logout
 Help - Displays the User Guide for quick help.
 Logout – Logoff the user from CE Inventory3D
-Confidential Cellular Expert, 2025 Page | 11
 
 ---
-
-CE Inventory3D User Guide 4.6
 
 ## 3.3 Table
 
@@ -260,11 +134,9 @@ scroll through the pages using the commands in the bottom middle and bottom righ
 (here: cells), the total quantity of entries (here: 20607), and the quantity of currently selected entries (here:
 0) are shown on the top right corner. Note that the number of filtered records will be shown, if the user
 applies a filter:
-Confidential Cellular Expert, 2025 Page | 12
 
 ---
 
-CE Inventory3D User Guide 4.6
 4.1.2 Organization of columns
 The column order can be adjusted by clicking on in the top right corner.
 A menu opens in which the position of the columns can be sorted by clicking the arrow symbols. Individual
@@ -274,11 +146,8 @@ within the column headers:
 4.1.3 Navigation across tables
 There are 2 ways to change from one table to another. Either click on the table name in the top right (here:
 cells) and a menu opens with all available tables.
-Confidential Cellular Expert, 2025 Page | 13
 
 ---
-
-CE Inventory3D User Guide 4.6
 
 ## 4.2 Filtering, sorting, editing, and linking database records
 
@@ -287,11 +156,9 @@ header and a dropdown menu opens with the following functions: “Set selected�
 “Clear all filters”, “Set defaults” and “Set as default sort field”:
 Alternatively, and more convenient for simple searches, columns can be filtered using the “quick filter” fields
 below the column names:
-Confidential Cellular Expert, 2025 Page | 14
 
 ---
 
-CE Inventory3D User Guide 4.6
 Users can use star symbol “*” as wildcard. Possible filtering options:
 *- any non-null value
 !* - null value
@@ -310,11 +177,9 @@ Filtering options for numeric values:
 >=n - greater than or equal to n
 The Filter function can be used on several columns simultaneously. The headers of columns with active
 Filter function are marked in pink color:
-Confidential Cellular Expert, 2025 Page | 15
 
 ---
 
-CE Inventory3D User Guide 4.6
 Filters can be cleared by clicking on Clear all filters.
 4.2.1 Set selected
 This feature allows bulk editing of several records at once: Select the respective records, click on the column
@@ -324,11 +189,9 @@ you want the selected database records to be changed to. Then click on “Change
 2. Click on the required column header (here:tilt)
 and choose Set selected
 3. Define the new value and click Change
-Confidential Cellular Expert, 2025 Page | 16
 
 ---
 
-CE Inventory3D User Guide 4.6
 4.2.2 Add link
 Each database record may comprise reference links to other database records. This means that a link can
 be added to reach another database record.
@@ -340,11 +203,9 @@ want to link to. Choose the component and confirm the selection. A new link has 
 and choose Add link
 3. Click on Add new reference ...
 4. Select the type of component you want to link to (here: calculation tasks)
-Confidential Cellular Expert, 2025 Page | 17
 
 ---
 
-CE Inventory3D User Guide 4.6
 5. Choose the repeaters(s) you want to link to and confirm the selection with in
 the top left corner
 6. The link has been created
@@ -354,21 +215,17 @@ the top left corner
 Each database entry can be connected with any type of attachment, for example, a picture or a text file.
 Entries with connected attachments have a blue check symbol next to the paper clip symbol in the column
 “Inc.”, while entries without attachment have only the paper clip.
-Confidential Cellular Expert, 2025 Page | 18
 
 ---
 
-CE Inventory3D User Guide 4.6
 Adding attachments
 To connect a database entry with an attachment, click on the paper clip symbol in the column “Inc.”. A
 dialog opens that allows you to browse your computer for the attachment of your choice or to take a photo.
 Viewing, downloading and deleting attachments:
 To view the list of attachments connected to an entry, select the respective entry and click on in the
-Confidential Cellular Expert, 2025 Page | 19
 
 ---
 
-CE Inventory3D User Guide 4.6
 toolbar:
 In the attachments the listed images are shown as thumbs. Select an attachment from the list and it opens
 in a separate browser tab.
@@ -380,11 +237,9 @@ To delete an attachment, click on the red cross symbol.
 ## 4.4 Search (sieve)
 
 It is possible to display only selected data from an open table. Click on the button in the toolbar.
-Confidential Cellular Expert, 2025 Page | 20
 
 ---
 
-CE Inventory3D User Guide 4.6
 And a dialog will open:
 Note that by clicking “Add rule” you may search (sieve) with two or more filter terms that are connected via
 the operation “OR”, not “AND”. Thus, the result of two filters will show all items that comprise either the first
@@ -394,11 +249,8 @@ Search tool will help.
 Click Add rule in order to add another search term, or click Clear all to remove all active searches.
 To start the sieve process, click OK.
 Results
-Confidential Cellular Expert, 2025 Page | 21
 
 ---
-
-CE Inventory3D User Guide 4.6
 
 ## 4.5 CE API
 
@@ -421,11 +273,9 @@ Requirements:
 4. Level 1 table – CSV file must comprise a column object_id and a column parent_id, with the
 parent_id value equal to the object_id of the parent table
 When adding a child table to a parent table, choose the parent table from the dropdown menu:
-Confidential Cellular Expert, 2025 Page | 22
 
 ---
 
-CE Inventory3D User Guide 4.6
 2.
 3.
 Partial Import
@@ -439,11 +289,9 @@ checked, the new records will be added to the defined table:
 Data subsets can be exported as .xls or .csv files. Select the database records of choice, then click Export
 Selected button:
 A pop up window opens.
-Confidential Cellular Expert, 2025 Page | 23
 
 ---
 
-CE Inventory3D User Guide 4.6
 Click on the links to choose between .xls or .csv file formats.
 Note that hidden columns are not exported.
 
@@ -459,20 +307,16 @@ in case of problems with generating PDF reports.
 ## 5.3 File browser
 
 Open the Data Export menu with and choose “File Browser”:
-Confidential Cellular Expert, 2025 Page | 24
 
 ---
 
-CE Inventory3D User Guide 4.6
 View attached files, download or delete files:
 Images are shown as thumbs. Note that it is possible to rotate the images.
 File Browser Toolbar:
 Open the Data View Panel
-Confidential Cellular Expert, 2025 Page | 25
 
 ---
 
-CE Inventory3D User Guide 4.6
 Go one step back
 Select / unselect all files and folders
 Download selected files
@@ -480,22 +324,17 @@ Delete selected files
 Restore selected files
 When an image is deleted, said image is marked as strikethrough on the File Server:
 You can restore the image by selecting the strikethrough object and clicking :
-Confidential Cellular Expert, 2025 Page | 26
 
 ---
-
-CE Inventory3D User Guide 4.6
 
 ## 5.4 Quick references
 
 Quick references are defined by the administrator and allow users to open a reference object in a separate
 browser tab. If Quick references are enabled, the respective column is marked with “*”, for example “site”:
 To open a reference link, select it in edit mode (right click on it) and click “here” in the opened dialog.
-Confidential Cellular Expert, 2025 Page | 27
 
 ---
 
-CE Inventory3D User Guide 4.6
 The referenced object is opened in a separate browser tab.
 
 ## 5.5 Default editing and manual editing
@@ -512,11 +351,9 @@ It is possible to add links to external webpages to the webapp, for example:
 
 It is possible to display raster type of data, similar to graphical layers, on the map. Rasters are created by
 the administrator, but users may also access and configure the table map_rasters:
-Confidential Cellular Expert, 2025 Page | 28
 
 ---
 
-CE Inventory3D User Guide 4.6
 If the raster is a PNG or JPG file, users can edit the coordinates of the top-left and bottom-right corners of
 the picture in the columns West, East, North, and South, and define the opacity.
 Example raster:
@@ -529,20 +366,16 @@ hexadecimal format, and BB is blue color value in hexadecimal format. For exampl
 mean green color. The color value can be acquired from the picture using any software with a color picking
 tool, e.g. Microsoft Paint or Free Color Picker.
 The legend labels are defined in the field Label of the table ”map_raster_legend”.
-Confidential Cellular Expert, 2025 Page | 29
 
 ---
 
-CE Inventory3D User Guide 4.6
 Rasters and Raster legends are shown in the list Layers.
 6. MAP functionality
 Users can work with maps only after prior configuration by the administrator. Select a site and open the
 map:
-Confidential Cellular Expert, 2025 Page | 30
 
 ---
 
-CE Inventory3D User Guide 4.6
 Map viewing options
 On the right side of the screen, you find the commands
 Full screen - Google Street View - Zoom in / out
@@ -555,48 +388,38 @@ and azimuth values will be displayed between the starting point and the mouse cu
 Link to database
 Map and database are functionally connected. Select the info tool . Then click on a site in the
 map (here: Abava), and a popup window opens:
-Confidential Cellular Expert, 2025 Page | 31
 
 ---
 
-CE Inventory3D User Guide 4.6
 The popup window comprises links to the site ( ) and to the attachments file browser ( ).
 Browse the parameters of the selected site by using the buttons
 Local Weather
 Display local weather conditions by clicking on and then on a custom position on the map. A
 popup window opens with the local weather information. Users may choose from daily, weekly,
 and monthly data:
-Confidential Cellular Expert, 2025 Page | 32
 
 ---
 
-CE Inventory3D User Guide 4.6
 Address search
 Use the field “Search in Google Maps” to search an address and zoom to the defined address.
 Print map
 Custom map views can be exported and printed. In the Map toolbar, click the button .
 A popup window opens with the possibility to enter a document header. Then send the selected
 map view to the printer with or :
-Confidential Cellular Expert, 2025 Page | 33
 
 ---
 
-CE Inventory3D User Guide 4.6
 Vectors, Rasters and Weather layers
-Confidential Cellular Expert, 2025 Page | 34
 
 ---
 
-CE Inventory3D User Guide 4.6
 The map functionality allows to show or hide vectors (points, lines), rasters or weather layers.
 Use and to show or hide objects
 Further, it is possible to select the child objects shown on the map:
 Additional map functions are shown after clicking on
-Confidential Cellular Expert, 2025 Page | 35
 
 ---
 
-CE Inventory3D User Guide 4.6
 “Reload” allows to reload the layer.
 Edit an object and click “Reload” to show the map with the edited features.
 “Add Object” allows to add an object to the map.
@@ -619,11 +442,9 @@ be displayed.
 “Clear Filter” allows to clear a preset filter.
 “Select Object” allows to select one object from the map.
 To select an object, first click “Select Object” and then on the object on the map.
-Confidential Cellular Expert, 2025 Page | 36
 
 ---
 
-CE Inventory3D User Guide 4.6
 “Select Circular Area” and “Select Rectangular Area” allow to select multiple objects on the map.
 1. Click “Select Circular Area” or “Select Rectangular Area”.
 2. Click the mouse button on the map and release.
@@ -647,11 +468,9 @@ appears in the toolbar.
  using the graphical diagrams interface, or
  creating and editing records in the tables “Diagram_items“ and “Diagram_links“
  To make a diagram, add a new record in the table “Diagrams“:
-Confidential Cellular Expert, 2025 Page | 37
 
 ---
 
-CE Inventory3D User Guide 4.6
 then
  select the record, press the button and create the diagram using the graphical drawing
 interface (method A)
@@ -668,11 +487,9 @@ in those tables.
  By drag and drop, select the item types from the left and the connection types from the right.
  Method BUsing the table interface, the diagram can be created by adding records in the diagrams data
 tables “Diagram_items" and “Diagram_links“.
-Confidential Cellular Expert, 2025 Page | 38
 
 ---
 
-CE Inventory3D User Guide 4.6
  The table “Diagram_items" contains the information about the displayed items. For example, in the mobile
 networks industry this could be antennas, RRUs, power devices etc.
  The table “Diagram_items" has the two mandatory fields “Unique_ident“ and “Model”:
@@ -687,11 +504,9 @@ The table “Diagram_links” comprises the information about the connections be
  Model – type of a connection/cable. For example, RF_cable
 Following successful table configuration, the diagram can be shown in the graphical editor interface. Simply
 go to the table “Diagrams“, select the diagram record, and press the button . Example:
-Confidential Cellular Expert, 2025 Page | 39
 
 ---
 
-CE Inventory3D User Guide 4.6
 For follow up diagram modifications, both the graphical and the table interface can be used. The changes
 made by using the graphical editor will be displayed in the diagrams data tables and vice versa.
 Diagrams toolbar functions:
@@ -701,11 +516,9 @@ open as SVG / PNG in a pop-up window
 open print dialog
 toggle full-screen mode
 bring object to front / send object to back
-Confidential Cellular Expert, 2025 Page | 40
 
 ---
 
-CE Inventory3D User Guide 4.6
 auto-layout graph
 zoom to fit
 zoom out / zoom in
@@ -719,11 +532,9 @@ save diagram
 There is the possibility to integrate one or more tables from Google Sheets into the CE Inventory3D webapp.
 First, the Google Sheet should be prepared with CE Inventory3D configuration and Google script. Then an
 extra button “Inv3D” will appear on the Google Sheets toolbar:
-Confidential Cellular Expert, 2025 Page | 41
 
 ---
 
-CE Inventory3D User Guide 4.6
 Clicking this button opens a dropdown menu with the commands “Connect” for connecting to the
 Inventory3D database on the server, “Sync” for synchronizing data from Google Sheets with CE
 Inventory3D, and “Help”:
@@ -733,6 +544,5 @@ Any changes in the Google Sheets are synchronized with CE Inventory3D by clickin
 Synchronize from the dropdown menu.
 Note: Google Sheets must have additional configuration to connect to the CE Inventory3D database and
 to choose which tables can be accessed. A prepared script should be there, too.
-Confidential Cellular Expert, 2025 Page | 42
 
 ---

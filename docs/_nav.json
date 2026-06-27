@@ -1,0 +1,65 @@
+{
+  "sections": [
+    {
+      "id": "ce-express",
+      "label": "CE Express",
+      "icon": "⚡",
+      "pages": [
+        { "id": "ce-express-overview",       "label": "Overview",              "file": "ce-express/overview.md" },
+        { "id": "ce-express-login",          "label": "Logging In",            "file": "ce-express/login.md" },
+        { "id": "ce-express-workspace",      "label": "Workspaces",            "file": "ce-express/workspace.md" },
+        { "id": "ce-express-geodata",        "label": "Geodata & Rasters",     "file": "ce-express/geodata.md" },
+        { "id": "ce-express-network-objects","label": "Network Objects",       "file": "ce-express/network-objects.md" },
+        { "id": "ce-express-antenna",        "label": "Antenna Patterns",      "file": "ce-express/antenna-patterns.md" },
+        { "id": "ce-express-rf-prediction",  "label": "RF Prediction",         "file": "ce-express/rf-prediction.md" },
+        { "id": "ce-express-profile",        "label": "Path Profile & LoS",    "file": "ce-express/profile-tool.md" },
+        { "id": "ce-express-street-view",    "label": "Street View",           "file": "ce-express/street-view.md" },
+        { "id": "ce-express-publishing",     "label": "Publishing to Portal",  "file": "ce-express/publishing.md" },
+        { "id": "ce-express-troubleshooting","label": "Troubleshooting",       "file": "ce-express/troubleshooting.md" }
+      ]
+    },
+    {
+      "id": "ce-desktop",
+      "label": "CE Desktop",
+      "icon": "🖥️",
+      "pages": [
+        { "id": "ce-desktop-overview", "label": "Overview",         "file": "ce-desktop/overview.md" },
+        { "id": "ce-desktop-rcp",      "label": "RCP – Coverage",   "file": "ce-desktop/rcp.md" },
+        { "id": "ce-desktop-rlp",      "label": "RLP – Link Plan",  "file": "ce-desktop/rlp.md" },
+        { "id": "ce-desktop-emf",      "label": "EMF",              "file": "ce-desktop/emf.md" },
+        { "id": "ce-desktop-indoor",   "label": "Indoor",           "file": "ce-desktop/indoor.md" },
+        { "id": "ce-desktop-sound",    "label": "Sound",            "file": "ce-desktop/sound.md" }
+      ]
+    },
+    {
+      "id": "inventory3d",
+      "label": "Inventory 3D",
+      "icon": "🗺️",
+      "pages": [
+        { "id": "inventory3d-overview", "label": "Overview",          "file": "inventory3d/overview.md" },
+        { "id": "inventory3d-objects",  "label": "Managing Objects",  "file": "inventory3d/objects.md" },
+        { "id": "inventory3d-admin",    "label": "Admin Functions",   "file": "inventory3d/admin.md" }
+      ]
+    },
+    {
+      "id": "installation",
+      "label": "Installation",
+      "icon": "🔧",
+      "pages": [
+        { "id": "installation-requirements", "label": "System Requirements", "file": "installation/requirements.md" },
+        { "id": "installation-ce-express",   "label": "CE Express Setup",    "file": "installation/ce-express.md" },
+        { "id": "installation-inventory3d",  "label": "Inventory3D Setup",   "file": "installation/inventory3d.md" }
+      ]
+    },
+    {
+      "id": "training",
+      "label": "Training",
+      "icon": "📘",
+      "pages": [
+        { "id": "training-quick-start",   "label": "Quick Start",          "file": "training/quick-start.md" },
+        { "id": "training-ce-express",    "label": "CE Express Basics",    "file": "training/ce-express-basics.md" },
+        { "id": "training-rf-prediction", "label": "RF Prediction Guide",  "file": "training/rf-prediction-guide.md" }
+      ]
+    }
+  ]
+}

@@ -21,7 +21,7 @@ Click once on T1 site and second time to D1 site.
 It will fill general parameters automatically.
 Height, azimuth and other parameters are calculated automatically, leave them as it is.
 Press Show Profile button to preview topographical data between Site A and Site B, if there
-is LOS, what Fresnel zone percentage value, etc.
+is LOS, what [Fresnel zone](https://www.google.com/search?q=Fresnel+zone+radio+link+clearance) percentage value, etc.
 Profile will be generated.
 
 ---
@@ -103,8 +103,8 @@ Close Link Prediction Results dialog.
 ## 4.1 Geoclimatic data
 
 Geoclimatic data, comprising factors such as rain rate, temperature, gaseous absorption,
-and multipath fading, significantly shapes the planning and efficacy of microwave links.
-Rain rate introduces the challenge of rain fade, where increased rainfall leads to greater
+and [multipath fading](https://www.google.com/search?q=multipath+fading+radio+propagation), significantly shapes the planning and efficacy of microwave links.
+Rain rate introduces the challenge of [rain fade](https://www.google.com/search?q=rain+fade+attenuation+microwave), where increased rainfall leads to greater
 signal attenuation. To address this, microwave link planners employ rain attenuation
 models, adjusting transmitter power or incorporating diversity techniques to maintain link
 reliability. Temperature variations impact atmospheric conditions, influencing signal
@@ -125,7 +125,7 @@ and click on Performance tab.
 Review Multipath ITU and Rain ITU percentage values.
 Close results, and open Geoclimatic Data tool.
 Click on Multipath Fading tab, and define:
-- ITU-R P.530 version: 17
+- [ITU-R P.530](https://www.google.com/search?q=ITU+R+P530+microwave+fading) version: 17
 
 ---
 

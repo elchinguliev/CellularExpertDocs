@@ -16,12 +16,12 @@ presets
 calculation status
 2. Key Concepts
 2.1.1 What Is an RF Prediction in CE Express?
-An RF prediction is a calculation that produces map-based outputs (rasters) representing
+An [RF prediction](https://www.google.com/search?q=RF+radio+frequency+prediction+coverage) is a calculation that produces map-based outputs (rasters) representing
 expected signal or performance across an area. Predictions are influenced by:
 - Network objects (cells, sites, antennas)
-- Configuration parameters (frequency, power, height, downtilt, bandwidth, MIMO,
+- Configuration parameters (frequency, power, height, downtilt, bandwidth, [MIMO](https://www.google.com/search?q=MIMO+Multiple+Input+Output+antenna),
 etc.)
-- Geodata (terrain elevation, clutter/land use, obstacles)
+- Geodata (terrain elevation, [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio)/land use, obstacles)
 - Equipment definitions and models (antenna patterns, propagation models,
 calculation templates)
 The outputs can be used to:
@@ -249,7 +249,7 @@ Symbology presets allow users to save and reuse visualization settings, ensuring
 consistency across different predictions, projects, and users.
 1. In the symbology panel, click + New color band preset.
 2. Define:
-- Template name: 5G RSRP Symbology
+- Template name: 5G [RSRP](https://www.google.com/search?q=RSRP+Reference+Signal+Received+Power+[LTE](https://www.google.com/search?q=LTE+Long+Term+Evolution+4G)) Symbology
 3. Click Save preset.
 4. Define technology:
 
@@ -413,7 +413,7 @@ maintains that selection automatically.
 Networks are especially useful when:
 - Working with a large number of cells
 - Repeating predictions regularly
-- Automatically publish coverage results and network featuresto ArcGIS Enterprise Portal
+- Automatically publish coverage results and network featuresto [ArcGIS Enterprise](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+Enterprise+server+GIS) Portal
 or ArcGIS Online
 - Automatically calculate statistic
 - Managing multi-band or multi-layer configurations

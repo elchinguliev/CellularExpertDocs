@@ -17,7 +17,7 @@ Prediction models define how signal propagation losses are calculated across the
 area. Instead of applying a single formula everywhere, CE Express evaluates the radio
 visibility condition between a transmitter and each receiver point and applies the most
 appropriate loss calculation for that condition.
-This approach allows near-deterministic modeling, where terrain, obstacles, and clutter are
+This approach allows near-deterministic modeling, where terrain, obstacles, and [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio) are
 explicitly considered for every calculation pixel.
 
 ---
@@ -25,14 +25,14 @@ explicitly considered for every calculation pixel.
 3. Prediction models
 The CE Path Loss Modelling aims to perform near-deterministic calculation of received signal
 levels at each specific point (pixel) in the network’s target coverage area by applying selective
-path loss model depending on the radio visibility condition between the transmitter antenna
+[path loss](https://www.google.com/search?q=path+loss+radio+signal+attenuation) model depending on the radio visibility condition between the transmitter antenna
 vis-à-vis a receiver antenna located at a given point in coverage area. The radio visibility is
-evaluated based on the DTM, Obstacles and Clutter path profile information, as described in
+evaluated based on the [DTM](https://www.google.com/search?q=DTM+Digital+Terrain+Model), Obstacles and Clutter path profile information, as described in
 previous section. This verification of radio visibility will result in the receiver antenna point
 assigned into one of three possible radio visibility conditions:
 - Line-of-Sight (LOS) – occurs when there are neither terrain irregularities, obstacles or
 clutter interposing the direct radio path between the transmitter and receiver antennas.
-The radio path is understood to include the 1st Fresnel zone around the direct line and
+The radio path is understood to include the 1st [Fresnel zone](https://www.google.com/search?q=Fresnel+zone+radio+link+clearance) around the direct line and
 account for Spherical Earth effect. The LOS condition is illustrated by the path profile
 depicted in Fig. 1(a).
 - Obstructed LOS (OLOS) – occurs when the direct radio propagation line is interposed by
@@ -60,7 +60,7 @@ chapter.
 
 ## 3.1 Models
 
-CEC ITU-R 3GPP Model (100MHz – 6GHz) is a combination model intended for use in a variety of
+CEC [ITU-R](https://www.google.com/search?q=ITU+R+radio+communication+standard) 3GPP Model (100MHz – 6GHz) is a combination model intended for use in a variety of
 different radiocommunication systems which is derived explicitly from ITU-R path loss modelling
 methods as follows:
 a. Receive antenna in LOS condition – path loss calculated as FSL based on Recommendation ITU-
@@ -323,7 +323,7 @@ Close all prediction results in Layers tool.
 
 High-frequency systems, particularly in the millimeter-wave (mmWave) range, behave very
 differently from lower-frequency deployments. At these frequencies, signal propagation is
-highly dependent on clear Line of Sight (LOS), and even small obstructions can completely
+highly dependent on clear [Line of Sight](https://www.google.com/search?q=Line+of+Sight+LOS+radio+propagation) (LOS), and even small obstructions can completely
 block connectivity.
 This step demonstrates how to use LOS-only prediction models in CE Express to accurately
 represent these conditions.

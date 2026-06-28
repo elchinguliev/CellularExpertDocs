@@ -1,4 +1,4 @@
-# 03. Line of Sight (Profile)
+# 03. [Line of Sight](https://www.google.com/search?q=Line+of+Sight+LOS+radio+propagation) (Profile)
 
 1. Objective
 This module introduces Line of Sight (LOS) and visibility analysis in CE Express. It
@@ -17,7 +17,7 @@ By the end of this exercise, participants will be able to:
 2. Initial data
 This exercise assumes a prepared workspace containing:
 - Network objects created in the previous exercise
-- Loaded geodata (terrain, obstacles and clutter)
+- Loaded geodata (terrain, obstacles and [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio))
 - Defined equipment and calculation models
 3. Understanding Line of Sight and Visibility
 Line of Sight (LOS) describes whether a direct, unobstructed path exists between a
@@ -262,7 +262,7 @@ Preview the results:
 Minimum Receiver Height – the receiver height in meters, which ensure visibility between
 transmitter and receiver.
 Line of Sight – Visibility condition, if value 1 – Visible, if value 0 – Not Visible.
-Clearance – Fresnel zone obstruction in meters, if value is negative – Fresnel zone is
+Clearance – [Fresnel zone](https://www.google.com/search?q=Fresnel+zone+radio+link+clearance) obstruction in meters, if value is negative – Fresnel zone is
 obstructed by X meters.
 Best Server – Cell Identification, which has highest Clearence value.
 4.3.3 Visualizing Results on the Map

@@ -13,7 +13,7 @@ By the end of this exercise, participants will be able to:
 - Prepare the workspace for further RF planning and optimization tasks
 2. Initial data
 The following data is pre-configured for this exercise:
-- Prepared geodata (high-resolution terrain and clutter)
+- Prepared geodata (high-resolution terrain and [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio))
 - Predefined external services for visualization
 Trainer note: Emphasize that workspace quality directly affects prediction accuracy,
 visualization clarity, and collaboration efficiency.
@@ -21,7 +21,7 @@ visualization clarity, and collaboration efficiency.
 A Workspace in CE Express represents a project container that holds:
 - Network objects (sites, cells, links, etc.)
 - Geodata used for propagation modeling
-- Additional visualization layers (GIS, 3D meshes, administrative boundaries)
+- Additional visualization layers ([GIS](https://www.google.com/search?q=GIS+Geographic+Information+System), 3D meshes, administrative boundaries)
 Workspaces can be:
 - Assigned to one or multiple user groups
 - Used collaboratively by RF planners, optimization engineers, and managers
@@ -32,7 +32,7 @@ Workspaces can be:
 ## 3.1 Step 1 – Accessing CE Express
 
 1. Open the following URL in your web browser: https://cecom2.cellular-expert.com/ce_express/
-2. On the login page, select Login as ArcGIS.
+2. On the login page, select Login as [ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+GIS+platform).
 3. Enter your User Name and Password (that information is provided separetely for each
 student)
 4. After successful authentication, the system displays all workspaces available to your

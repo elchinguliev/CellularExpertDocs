@@ -1,15 +1,15 @@
 # 09. Preparing Geodata
 
 1. Objective
-This module explains how to prepare topographical and land-use geodata in ArcGIS Pro so
+This module explains how to prepare topographical and land-use geodata in [ArcGIS Pro](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+Pro+Esri+desktop+software) so
 it can be correctly used for predictions in CE Express or CE Desktop for ArcGIS Pro. The
 focus is on producing rasters that are geometrically correct, consistently referenced, and
 compliant with CE input requirements.
 By the end of this exercise, participants will be able to:
 - Understand which geodata layers are mandatory and optional for CE Express
-- Prepare a Digital Terrain Model (DTM) raster suitable for predictions
+- Prepare a Digital Terrain Model ([DTM](https://www.google.com/search?q=DTM+Digital+Terrain+Model)) raster suitable for predictions
 - Mosaic, project, and standardize raster datasets in ArcGIS Pro
-- Prepare clutter class and clutter height rasters aligned with the DTM
+- Prepare [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio) class and clutter height rasters aligned with the DTM
 - Export final rasters with correct naming, resolution, extent, and data type
 2. Required and Optional Geodata Layers
 Mandatory. Digital terrain model (DTM) grid
@@ -27,7 +27,7 @@ The Obstacle height (building, vegetation, etc) grid represents the objects on t
 with their height above the DTM grid. The raster name must be clutterHeight.tif
 Optional. Clutter class grid
 A Clutter class grid represents land use types. The data can be downloaded from here:
-Livingatlas ArcGIS Sentinel-2 Land Use
+Livingatlas ArcGIS [Sentinel-2](https://www.google.com/search?q=Sentinel+2+ESA+satellite+land+cover) Land Use
 
 ---
 
@@ -94,7 +94,7 @@ than linear.
 Before projecting, determine the most appropriate projected coordinate system:
 - Local / National grid systems are preferred when available (e.g. LKS 1994
 Lithuania TM)
-- WGS 1984 UTM zones are suitable when national systems are not available
+- WGS 1984 [UTM](https://www.google.com/search?q=UTM+Universal+Transverse+Mercator) zones are suitable when national systems are not available
 When using UTM:
 - Select the zone covering the majority of the study area
 - Avoid splitting datasets across multiple UTM zones

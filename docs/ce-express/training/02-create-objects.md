@@ -12,7 +12,7 @@ By the end of this exercise, participants will be able to:
 2. Initial Data and Prerequisites
 The following prerequisites are assumed:
 - A prepared workspace created in: 01. CE Express – Creating Workspace
-- Available geodata (terrain, obstacles and clutter)
+- Available geodata (terrain, obstacles and [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio))
 - User permissions to create and edit network objects
 3. Understanding the Network Objects Concept
 In CE Express, network objects represent the physical and logical elements of a radio
@@ -28,12 +28,12 @@ These objects are tightly coupled with:
 
 ---
 
-- Technology definitions (LTE, 5G NR, TDD/FDD)
+- Technology definitions ([LTE](https://www.google.com/search?q=LTE+Long+Term+Evolution+4G), [5G NR](https://www.google.com/search?q=5G+NR+New+Radio+standard), [TDD](https://www.google.com/search?q=TDD+Time+Division+Duplex+LTE+5G)/[FDD](https://www.google.com/search?q=FDD+Frequency+Division+Duplex+LTE))
 - Templates, which standardize configuration and reduce engineering errors
 Why Templates Matter
 Object templates encapsulate best-practice RF configurations, such as:
 - Standard power levels and bandwidths
-- Technology-specific parameters (e.g. NR numerology, MIMO layers)
+- Technology-specific parameters (e.g. NR numerology, [MIMO](https://www.google.com/search?q=MIMO+Multiple+Input+Output+antenna) layers)
 - Approved antennas and prediction models
 Using templates ensures:
 - Consistency across large networks
@@ -102,7 +102,7 @@ Active Antenna Effect 6 6 6
 Cell Load, % 30 30 30
 Color index
 Technology 5G 5G 5G
-Prediction model CEC ITU-R: 3km CEC ITU-R: 3km CEC ITU-R: 3km
+Prediction model CEC [ITU-R](https://www.google.com/search?q=ITU+R+radio+communication+standard): 3km CEC ITU-R: 3km CEC ITU-R: 3km
 radius radius radius
 Frequency group 3500 3500 3500
 

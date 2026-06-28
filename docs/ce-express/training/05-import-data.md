@@ -9,7 +9,7 @@ By the end of this exercise, participants will be able to:
 - Import network objects using CSV files
 - Map external data fields to CE Express object attributes
 - Create and reuse import mapping templates
-- Import antenna pattern files into the CE Express database
+- Import [antenna pattern](https://www.google.com/search?q=antenna+radiation+pattern+format) files into the CE Express database
 - Verify and review imported data within the workspace
 2. Understanding Data Import in CE Express
 Data import is a key capability in CE Express, allowing users to bring information from
@@ -91,7 +91,7 @@ Subcarrier spacing Leave empty 30
 
 ---
 
-TX MIMO TxMIMO Leave empty
+TX [MIMO](https://www.google.com/search?q=MIMO+Multiple+Input+Output+antenna) TxMIMO Leave empty
 RX MIMO RxMIMO Leave empty
 Active antenna effect Leave empty 6
 Cell load, % Leave empty 30

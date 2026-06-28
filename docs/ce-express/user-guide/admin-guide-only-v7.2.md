@@ -10,26 +10,26 @@ Table of Contents
 
 ## 1.3 CE Express architecture examples 5
 
-1.3.1 ArcGIS Enterprise & CE Server-Express on premises deployment simplified architecture 5
-1.3.2 ArcGIS Enterprise & CE Server-Express on-premises or cloud deployment architecture 6
+1.3.1 [ArcGIS Enterprise](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+Enterprise+server+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)) & CE Server-Express on premises deployment simplified architecture 5
+1.3.2 [ArcGIS Enterprise]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=[ArcGIS]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+Enterprise+server+GIS+deployment) & CE Server-Express on-premises or cloud deployment architecture 6
 2. Installation Guide 7
 
 ## 2.1 Installation files 7
 
 ## 2.2 Prerequisites 8
 
-2.2.1 ArcGIS Server 8
-2.2.2 PostgreSQL 8
+2.2.1 [ArcGIS Server](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+Server+GIS+web+services) 8
+2.2.2 [PostgreSQL](https://www.google.com/search?q=PostgreSQL+database+open+source) 8
 
 ## 2.3 Install CE Express 8
 
 2.3.1 Accept the software terms and conditions 8
 2.3.2 Prepare installation folders 9
-2.3.3 Prepare CE Express server configuration: 9
-2.3.4 Prepare CE Express server DB configuration. 10
+2.3.3 Prepare [CE Express](https://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) server configuration: 9
+2.3.4 Prepare [CE Express](https://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) server [DB](https://www.google.com/search?q=dB+decibel+signal+measurement+unit) configuration. 10
 2.3.5 Check Installation and the licence of the CE Express software. 11
 2.3.6 Enable SSL support (optional) 13
-2.3.7 Configure CE Express to publish objects to the Portal for ArcGIS (optional) 13
+2.3.7 Configure CE Express to [publish](https://www.google.com/search?q=publish+layer+ArcGIS+Portal+web+map) objects to the Portal for ArcGIS (optional) 13
 3. Prepare the application with own data 15
 
 ## 3.1 Prepare data files 15
@@ -52,7 +52,7 @@ and radio/optical visibility calculation software for ESRI’s
 ArcGIS mapping environment, which is widely used within
 Telecom, Defense, IoT, and other companies and
 organizations.
-CE’s communication network planning, network asset
+CE’s communication [network planning](https://www.google.com/search?q=telecom+network+planning+optimization), network asset
 management, operational support software and customer-
 tailored solutions enhance the intelligence and business
 efficiency of more than 170 communication network
@@ -80,10 +80,10 @@ Processor (CPU):
  Minimum: 4 cores, hyperthreaded
  Recommended: 8 cores
  Optimal: 16 cores
-Optional Requirements for GPU-accelerated calculations
- GPU – any NVIDIA GPU with CUDA capabilities (https://developer.nvidia.com/cuda-gpus)
+Optional Requirements for [GPU](https://www.google.com/search?q=GPU+graphics+processing+unit)-accelerated calculations
+ [GPU](https://www.google.com/search?q=GPU+graphics+processing+unit+computing) – any [NVIDIA](https://www.google.com/search?q=NVIDIA+[GPU](https://www.google.com/search?q=GPU+graphics+processing+unit+computing)+computing+graphics) GPU with [CUDA](https://www.google.com/search?q=NVIDIA+CUDA+parallel+computing) capabilities (https://developer.[nvidia](https://www.google.com/search?q=NVIDIA+GPU+computing+graphics).com/[cuda](https://www.google.com/search?q=NVIDIA+CUDA+parallel+computing+platform)-gpus)
  Driver version: 456.38 or later
- CUDA Toolkit 11.or to 12.4 (recommended)
+ [CUDA](https://www.google.com/search?q=NVIDIA+CUDA+parallel+computing+platform) Toolkit 11.or to 12.4 (recommended)
 Memory/RAM
  Minimum: 16 GB
  Recommended: 32 GB
@@ -94,14 +94,14 @@ Storage
 
 ## 1.2 Minimum requirements for software
 
-Cellular Expert Express runs on Microsoft Windows Server 2016 or higher. It requires:
- ArcGIS Enterprise server 10.8.1 or later (11.5 supported) Standard or Advanced licence (Portal for
+Cellular Expert Express runs on Microsoft [Windows Server](https://www.google.com/search?q=Windows+Server+Microsoft+operating+system) 2016 or higher. It requires:
+ [ArcGIS Enterprise](https://www.google.com/search?q=ArcGIS+Enterprise+server+GIS+deployment) server 10.8.1 or later (11.5 supported) Standard or Advanced licence (Portal for
 ArcGIS included) with:
 - ArcGIS DataStore
-- WebAdapter for IIS to configure ArcGIS server
-- WebAdapter for IIS to configure ArcGIS portal
- IIS webserver (or Apache server) with SSL enabled: required for ArcGIS server and CE Express
- SQL Database management system PostgreSQL (download from my.esri.com)
+- WebAdapter for [IIS](https://www.google.com/search?q=Microsoft+IIS+web+server) to configure [ArcGIS server](https://www.google.com/search?q=ArcGIS+Server+GIS+web+services)
+- WebAdapter for [IIS](https://www.google.com/search?q=Microsoft+IIS+Internet+Information+Services+web+server) to configure [ArcGIS portal](https://www.google.com/search?q=ArcGIS+Portal+enterprise+web+GIS)
+ [IIS](https://www.google.com/search?q=Microsoft+IIS+Internet+Information+Services+web+server) webserver (or [Apache](https://www.google.com/search?q=Apache+[HTTP](https://www.google.com/search?q=HTTP+HyperText+Transfer+Protocol)+web+server) server) with SSL enabled: required for ArcGIS server and CE Express
+ SQL Database management system [PostgreSQL](https://www.google.com/search?q=PostgreSQL+database+open+source) (download from my.esri.com)
  Microsoft Visual C++ 2015-202x for ESRI products
 Confidential Cellular Expert, 2026 Page | 4
 
@@ -114,21 +114,21 @@ Cellular Expert Express Administrator Guide 5.8
 1.3.1 ArcGIS Enterprise & CE Server-Express on premises deployment simplified architecture
 Clients Servers
 1: ArcGIS Web Adaptor
-ArcGIS Portal
+[ArcGIS Portal](https://www.google.com/search?q=ArcGIS+Portal+enterprise+web+GIS)
 Web Browser ArcGIS GIS Server
 Users (Editors &
 ArcGIS Datastore
 Viewers)
 CE Express Frontend
-3. ArcGIS Pro
-+ CE Desktop 2. CE Express backend, API
+3. [ArcGIS Pro](https://www.google.com/search?q=ArcGIS+Pro+Esri+desktop+software)
++ [CE Desktop](https://www.google.com/search?q=Cellular+Expert+CE+Desktop+ArcGIS+Pro) 2. CE Express backend, API
 for Advanced
-PostgreSQL
+[PostgreSQL](https://www.google.com/search?q=PostgreSQL+database+open+source)
 Users
 Technical requirements:
 1. Server for ArcGIS SW:
 ArcGIS Web Adaptor (Esri ref URL);
-ArcGIS Portal (Esri ref URL);
+[ArcGIS Portal](https://www.google.com/search?q=ArcGIS+Portal+enterprise+web+GIS) (Esri ref URL);
 ArcGIS GIS Server (Esri ref URL);
 ArcGIS Data Store (Esri ref URL);
 CE Frontend (it could be installed together with the CE Express backend)
@@ -153,7 +153,7 @@ Recommended 2TB (Note 1)
 CPU: 32 cores
 RAM: 64 GB
 Storage: 1+ TB (Note 2)
-3. ArcGIS Pro:
+3. [ArcGIS Pro](https://www.google.com/search?q=ArcGIS+Pro+Esri+desktop+software):
 CPU: 4 cores
 RAM: 16 GB
 Storage: 1 TB
@@ -172,8 +172,8 @@ Users (Editors &
 Viewers)
 3. ArcGIS 4. ArcGIS
 GIS Server DataStore
-7. ArcGIS Pro 5. CE
-+ CE Desktop Express
+7. [ArcGIS Pro](https://www.google.com/search?q=ArcGIS+Pro+Esri+desktop+software) 5. CE
++ [CE Desktop](https://www.google.com/search?q=Cellular+Expert+CE+Desktop+ArcGIS+Pro) Express
 for Advanced backend +
 Users PostgreSQL
 6: CE
@@ -215,10 +215,10 @@ CPU: 4 cores
 RAM: 16 GB
 Storage: 1 TB
 Note 1: ArcGIS Data Store shall contain the background maps, imaging and other general GIS data. The
-required storage capacity is to be confirmed in consultation with the client and/or GIS data vendor.
-Note 2: CE Server-Express shall store locally the GIS raster data (GeoTIFF) needed for calculations (DEM,
-DSM, DHM). The required storage capacity to be confirmed in consultation with the client and/or GIS data
-vendor and dependent on the ultimate choice for GIS resolution: 0.2/0.5/1/2 m. or lower. Likely some
+required storage [capacity](https://www.google.com/search?q=network+capacity+planning+telecom) is to be confirmed in consultation with the client and/or GIS data vendor.
+Note 2: CE Server-Express shall store locally the GIS [raster](https://www.google.com/search?q=raster+GIS+grid+data+format) data ([GeoTIFF](https://www.google.com/search?q=GeoTIFF+raster+geospatial+format)) needed for calculations ([DEM](https://www.google.com/search?q=DEM+Digital+Elevation+Model+terrain),
+[DSM](https://www.google.com/search?q=DSM+Digital+Surface+Model), DHM). The required storage [capacity](https://www.google.com/search?q=network+capacity+planning+telecom) to be confirmed in consultation with the client and/or GIS data
+vendor and dependent on the ultimate choice for GIS [resolution](https://www.google.com/search?q=spatial+resolution+[raster](https://www.google.com/search?q=raster+GIS+grid+data+format)+GIS+accuracy): 0.2/0.5/1/2 m. or lower. Likely some
 combination of resolutions may be logical (e.g. 1 m or below for urban/suburban areas, and 2 m or 5 m for
 rural), also possible limiting the GIS data coverage to just the Area of interests.
 2. Installation Guide
@@ -233,7 +233,7 @@ Confidential Cellular Expert, 2026 Page | 7
 ---
 
 Cellular Expert Express Administrator Guide 5.8
- CE Express DB schema
+ CE Express [DB](https://www.google.com/search?q=dB+decibel+signal+measurement+unit) schema
  CE Express (frontend and backend)
  CE Express demo data
 
@@ -268,7 +268,7 @@ folder "ceexp" needs to be created manually if it doesn't exist.
 be assigned to the administrator group.
  Enter CE Express server hostname. Use FQDN for the hostname.
  Enter CE express server port. It could be changed if 6062 will be occupied after verification.
- Enter CE express frontend host URL (http(s)://[hostname]) or leave the “*”
+ Enter CE express frontend host URL ([http](https://www.google.com/search?q=HTTP+HyperText+Transfer+Protocol)(s)://[hostname]) or leave the “*”
  Click verify and wait for the messages:
 Confidential Cellular Expert, 2026 Page | 9
 
@@ -304,7 +304,7 @@ http://CE_express_hostname/ceexpressfrontenfolder/?admin=true
 (Example: http://localhost/ceexp/?admin=true)
  Obtain the licence request file by clicking on the designated section.
  Send the obtained file to Cellular Expert support.
- Once you receive the license file, apply it by either clicking on the "Import License File" section or
+ Once you receive the license file, apply it by either clicking on the "[Import](https://www.google.com/search?q=data+import+GIS+network+objects+[CSV](https://www.google.com/search?q=CSV+comma+separated+values+file+format)) License File" section or
 by dragging and dropping the file into that section:
 Note: The browser could always redirect to https instead of using http. The administrator needs to include
 the URL of CE Express to the insecure content list. It could be done using the browser’s settings:
@@ -319,13 +319,13 @@ Cellular Expert Express Administrator Guide 5.8
 2.3.6 Enable SSL support (optional)
 To enable SSL support prepare SSL certificate files. Into CE Express could be imported the pfx file
 (password required) (Optional: ssl.crt and ssl_pem.key could be imported).
-To import SSL files for CE Express open the CE admin tool using URL:
+To [import](https://www.google.com/search?q=data+import+GIS+network+objects+[CSV](https://www.google.com/search?q=CSV+comma+separated+values+file+format)) SSL files for CE Express open the CE admin tool using URL:
 http://CE_express_hostname/ceexpressfrontenfolder/?admin=true
  Open SSL tab:
  Import prepared SSL pfx file using “Import .pfx certificate file” section.
  After importing the SSL certificate, it needs to edit the configuration file located under CE Express
 frontend folder as described in section 2.3.2. Example “C:/inetpub/wwwroot/ceexp”
- Open “config.json” file with the text editor and change from “http” to “https” in the parameter
+ Open “config.[json](https://www.google.com/search?q=JSON+JavaScript+Object+Notation+data+format)” file with the text editor and change from “http” to “https” in the parameter
 “ceApiUrl”. Example:
 From "ceApiUrl": "http://[CE_express_hostname]:6062"
 To "ceApiUrl": "https://[CE_express_hostname]:6062"
@@ -333,7 +333,7 @@ To "ceApiUrl": "https://[CE_express_hostname]:6062"
 The “Coordinator” service must be started the last.
 When SSL is enabled use https protocol to access the CE Express application
 https://CE_express_hostname/ceexpressfrontenfolder (Example: https://localhost/ceexp ).
-2.3.7 Configure CE Express to publish objects to the Portal for ArcGIS (optional)
+2.3.7 Configure CE Express to [publish](https://www.google.com/search?q=publish+layer+ArcGIS+Portal+web+map) objects to the Portal for ArcGIS (optional)
 2.3.7.1 Option: Arcgis Server without Image Server
  Publish provided geoprocessing tool "publishTif.sd" using Arcgis Server manager. The published
 Confidential Cellular Expert, 2026 Page | 13
@@ -342,10 +342,10 @@ Confidential Cellular Expert, 2026 Page | 13
 
 Cellular Expert Express Administrator Guide 5.8
 GP tool example view:
- Find and copy the GP tool's Rest URL:
- Edit C:\Program Files\Cellular Expert\Express\config.json and change the three (3) parameters
+ Find and copy the GP tool's [Rest](https://www.google.com/search?q=REST+API+web+services+architecture) URL:
+ Edit C:\Program Files\Cellular Expert\Express\config.[json](https://www.google.com/search?q=JSON+JavaScript+Object+Notation+data+format) and change the three (3) parameters
 required for publishing:
-"PUBLISH_GEOPROCESSOR": "https://<CE Server hostname>/server/rest/services/publishTif/GPServer",
+"PUBLISH_GEOPROCESSOR": "https://<CE Server hostname>/server/[rest](https://www.google.com/search?q=REST+API+web+services+architecture)/services/publishTif/GPServer",
 "PUBLISH_USERNAME": "USERNAME",
 "PUBLISH_PASSWORD": "PASSWORD"
 USERNAME and PASSWORD are Portal’s for Arcgis user's username and password. This user will be
@@ -398,43 +398,43 @@ How to prepare geodata tif files is described below in this CE Express Administr
 3.1.1 General information
 The CE tools make use of three distinct GIS data layers to obtain high precision modelling of radio wave
 propagation losses:
-1. Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), which describes Earth
-surface, i.e., path terrain profile in terms of ground elevation above uniform sea level.
-2. Clutter height layer, delineating buildings and other such objects above Earth surface that may
-be considered to be principal impediments for radio wave propagation.
-3. Clutter class layer, each pixel defines the ID of the clutter class, which the area belongs to. Usually
-derived from land use data. If building heights are included in the clutter height raster, the clutter
+1. [Digital [Terrain](https://www.google.com/search?q=terrain+elevation+model+GIS+topography) Model](https://www.google.com/search?q=Digital+[Terrain](https://www.google.com/search?q=terrain+elevation+model+GIS+topography)+Model+[DTM](https://www.google.com/search?q=DTM+Digital+Terrain+Model+elevation+data)+bare+earth) ([DTM](https://www.google.com/search?q=DTM+Digital+Terrain+Model)), also known as [Digital [Elevation](https://www.google.com/search?q=elevation+model+terrain+height+datum) Model](https://www.google.com/search?q=Digital+[Elevation](https://www.google.com/search?q=elevation+model+terrain+height+datum)+Model+[DEM](https://www.google.com/search?q=DEM+Digital+Elevation+Model+terrain+raster)+terrain+data) ([DEM](https://www.google.com/search?q=DEM+Digital+Elevation+Model+terrain+raster)), which describes Earth
+surface, i.e., path [terrain profile](https://www.google.com/search?q=terrain+profile+elevation+radio+link) in terms of ground elevation above uniform sea level.
+2. [Clutter](https://www.google.com/search?q=clutter+land+use+classification+radio+planning) height layer, delineating buildings and other such objects above Earth surface that may
+be considered to be principal impediments for radio [wave propagation](https://www.google.com/search?q=radio+wave+propagation+physics).
+3. [Clutter](https://www.google.com/search?q=clutter+land+use+classification+radio+planning) class layer, each [pixel](https://www.google.com/search?q=pixel+raster+grid+[cell](https://www.google.com/search?q=mobile+cell+sector+coverage+base+station)+resolution) defines the ID of the [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio) class, which the area belongs to. Usually
+derived from [land use](https://www.google.com/search?q=land+use+land+cover+classification+GIS) data. If building heights are included in the clutter height raster, the clutter
 classes raster must have building outlines separated into their own class ID.
-These types of GIS data describing the radio wave propagation path are illustrated in Fig. 1, which shows
-the key propagation effects with corresponding types of path loss components: Free Space Loss (FSL),
-losses due to diffraction over terrain protrusions and obstacles, and losses due to clutter penetration.
+These types of GIS data describing the radio [wave propagation](https://www.google.com/search?q=radio+wave+propagation+physics) path are illustrated in Fig. 1, which shows
+the key propagation effects with corresponding types of [path loss](https://www.google.com/search?q=path+loss+radio+signal+attenuation) components: Free Space Loss (FSL),
+losses due to [diffraction](https://www.google.com/search?q=radio+diffraction+obstacle+propagation) over terrain protrusions and obstacles, and losses due to clutter penetration.
 Confidential Cellular Expert, 2026 Page | 16
 
 ---
 
 Cellular Expert Express Administrator Guide 5.8
-Sometimes users may have the Digital Surface Model (DSM) elevation data to represent the path profile.
+Sometimes users may have the [Digital Surface Model](https://www.google.com/search?q=Digital+Surface+Model+[DSM](https://www.google.com/search?q=DSM+Digital+Surface+Model+buildings+trees)+buildings) ([DSM](https://www.google.com/search?q=DSM+Digital+Surface+Model+buildings+trees)) elevation data to represent the [path profile](https://www.google.com/search?q=path+profile+terrain+[microwave](https://www.google.com/search?q=microwave+[backhaul](https://www.google.com/search?q=backhaul+microwave+telecom+network)+radio+link+planning)+link).
 The DSM is usually obtained by air-based scanning of surface of the Earth that cannot distinguish between
 the actual terrain level and the elevation due to buildings, forests, or other types of ground cover. The well
-known and widely available sets of global DSM data include the USGS SRTM-1 and SRTM-3 as well as
-ASTER. Although a single path profile layer with DSM data could be used to model radio wave propagation,
-the path loss model will interpret it as a pure DTM, i.e., as if representing the homogeneous (and
+known and widely available sets of global DSM data include the USGS [SRTM](https://www.google.com/search?q=SRTM+Shuttle+Radar+Topography+Mission)-1 and [SRTM](https://www.google.com/search?q=SRTM+Shuttle+Radar+Topography+Mission+DEM)-3 as well as
+[ASTER](https://www.google.com/search?q=ASTER+DEM+NASA+global+elevation+model). Although a single [path profile](https://www.google.com/search?q=path+profile+terrain+[microwave](https://www.google.com/search?q=microwave+[backhaul](https://www.google.com/search?q=backhaul+microwave+telecom+network)+radio+link+planning)+link) layer with DSM data could be used to model radio wave propagation,
+the [path loss](https://www.google.com/search?q=path+loss+radio+signal+attenuation+dB) model will interpret it as a pure [DTM](https://www.google.com/search?q=DTM+Digital+Terrain+Model+elevation+data), i.e., as if representing the homogeneous (and
 impenetrable for radio waves) Earth surface. Therefore, the results of calculated path losses, and
 accordingly the forecasted network coverage signal levels, will not be as precise and nuanced as if using
 distinct types of DTM and clutter layers.
-Another important factor defining the precision of path loss modelling is the resolution of GIS data used to
+Another important factor defining the precision of [path loss](https://www.google.com/search?q=path+loss+radio+signal+attenuation+dB) modelling is the [resolution](https://www.google.com/search?q=spatial+resolution+raster+GIS+accuracy) of GIS data used to
 represent DTM and clutter, or the DSM. For instance, based on our practical experience with available GIS
 data sets and the modern computational capabilities of our tools, CE recommends using the following
-resolution of path profiling data for modelling coverage of 4G/5G cellular networks:
+resolution of path profiling data for modelling coverage of [4G](https://www.google.com/search?q=4G+LTE+mobile+network+technology)/[5G](https://www.google.com/search?q=5G+fifth+generation+mobile+network) cellular networks:
  Rural areas: preferably 10 m, and at most 25 m,
  Urban areas: preferably 1 m, and at most 5 m.
 The comparative precision of modelling signal coverage in dense urban conditions when using respectively
-25 m resolution ASTER DSM data and 1 m resolution Maxar DTM & Buildings data is shown in Fig. 2.
+25 m resolution [ASTER](https://www.google.com/search?q=ASTER+DEM+NASA+global+elevation+model) DSM data and 1 m resolution Maxar DTM & Buildings data is shown in Fig. 2.
 To summarize, it is of critical importance to gather, configure and use suitable types of path profiling data
 with appropriate resolution to obtain reliable results of network coverage simulations. Only then the user
 may be confident in simulated results of network coverage in terms of calculated received signal levels and
 other derivative operational parameters.
-All three layers could be prepared using ArcGIS Pro tools: Projection, Copy Raster and Raster Calculator.
+All three layers could be prepared using ArcGIS Pro tools: [Projection](https://www.google.com/search?q=map+projection+coordinate+system+GIS), Copy Raster and Raster Calculator.
 3.1.2 Geographic data
 Supported geographical data types:
 Confidential Cellular Expert, 2026 Page | 17
@@ -442,24 +442,24 @@ Confidential Cellular Expert, 2026 Page | 17
 ---
 
 Cellular Expert Express Administrator Guide 5.8
-Only GeoTIFF is supported.
+Only [GeoTIFF](https://www.google.com/search?q=GeoTIFF+raster+geospatial+format) is supported.
 Mandatory geographical data:
-Elevation, or Digital Terrain Model (DTM) grid.
+Elevation, or [Digital Terrain Model](https://www.google.com/search?q=Digital+Terrain+Model+DTM+bare+earth) (DTM) grid.
 Uploaded rasters have the following requirements:
- Must be in projected coordinate system
- Coordinate system units must be meters
- All rasters must have the same coordinate system
+ Must be in [projected coordinate](https://www.google.com/search?q=projected+coordinate+system+[UTM](https://www.google.com/search?q=UTM+Universal+Transverse+Mercator+projection)+GIS) system
+ [Coordinate system](https://www.google.com/search?q=coordinate+reference+system+CRS+GIS) units must be meters
+ All rasters must have the same [coordinate system](https://www.google.com/search?q=coordinate+reference+system+CRS+GIS)
  Raster resolution in X and Y axis must match
 3.1.2.1 Elevation, or Digital Terrain Model (DTM) Grid (Mandatory)
-The Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), represents the Earth’s
-ground level above sea level. Each raster pixel has its height value.
+The Digital Terrain Model (DTM), also known as [Digital Elevation Model](https://www.google.com/search?q=Digital+Elevation+Model+DEM+terrain+data) (DEM), represents the Earth’s
+ground level above sea level. Each raster [pixel](https://www.google.com/search?q=pixel+raster+grid+[cell](https://www.google.com/search?q=mobile+cell+sector+coverage+base+station)+resolution) has its height value.
 A sample DTM raster is presented below. Each pixel represents 5 square meters with its height value. In
 reality, within a one-pixel area, the height is not the same everywhere. Thus, the pixel’s height value is the
 height in its center or the maximum. The smaller the pixels, the more accurate is the grid - but also more
 data to calculate.
 Prepare DTM raster
-3.1.2.1.1.1 Projection
-The raster must use a Projected Coordinate System. To check the coordinate system of your raster, use
+3.1.2.1.1.1 [Projection](https://www.google.com/search?q=map+projection+coordinate+system+GIS)
+The raster must use a [Projected Coordinate](https://www.google.com/search?q=projected+coordinate+system+[UTM](https://www.google.com/search?q=UTM+Universal+Transverse+Mercator+projection)+GIS) System. To check the coordinate system of your raster, use
 the Properties function in ArcGIS Pro. Add the raster to your project, right-click on it, and select Properties.
 Then, go to the Source tab > Spatial Reference and check the Coordinate System type parameter to confirm
 it is in a Projected Coordinate System.
@@ -468,9 +468,9 @@ Confidential Cellular Expert, 2026 Page | 18
 ---
 
 Cellular Expert Express Administrator Guide 5.8
-If your raster is in a Geographic Coordinate System or needs a different projection, use the Geoprocessing
+If your raster is in a [Geographic Coordinate](https://www.google.com/search?q=geographic+coordinate+system+latitude+longitude) System or needs a different projection, use the Geoprocessing
 > Project Raster tool to update it.
-In the Output Coordinate System, specify a new coordinate system. It is recommended to use a UTM
+In the Output Coordinate System, specify a new coordinate system. It is recommended to use a [UTM](https://www.google.com/search?q=UTM+Universal+Transverse+Mercator)
 coordinate system under the WGS 1984 projection.
 Confidential Cellular Expert, 2026 Page | 19
 
@@ -480,8 +480,8 @@ Cellular Expert Express Administrator Guide 5.8
 You can find the appropriate UTM zone for your area here:
 https://www.arcgis.com/apps/mapviewer/index.html?layers=b294795270aa4fb3bd25286bf09edc51
 3.1.2.2 Clutter classes grid
-This raster type provides information about land use. The naming and classification of land use types may
-vary. An example is the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2 Land
+This raster type provides information about [land use](https://www.google.com/search?q=land+use+land+cover+classification+GIS). The naming and classification of land use types may
+vary. An example is the [Sentinel-2](https://www.google.com/search?q=Sentinel+2+ESA+satellite+land+cover) [Land Cover](https://www.google.com/search?q=land+cover+classification+satellite+imagery) dataset from the Living Atlas: Living Atlas [Sentinel-2](https://www.google.com/search?q=Sentinel+2+ESA+satellite+multispectral+imagery) Land
 Cover
 Confidential Cellular Expert, 2026 Page | 20
 
@@ -509,7 +509,7 @@ Confidential Cellular Expert, 2026 Page | 22
 ---
 
 Cellular Expert Express Administrator Guide 5.8
-A clutter height raster can be derived from a Digital Surface Model (DSM) raster and a Digital Terrain Model
+A clutter height raster can be derived from a [Digital Surface Model](https://www.google.com/search?q=Digital+Surface+Model+DSM+buildings) (DSM) raster and a Digital Terrain Model
 (DTM) raster using the ArcGIS Raster Calculator tool. To access this tool, open Geoprocessing tools and
 navigate to Spatial Analyst > Map Algebra > Raster Calculator. Use the following formula:
 DSM – DTM
@@ -538,8 +538,8 @@ Confidential Cellular Expert, 2026 Page | 25
 
 Cellular Expert Express Administrator Guide 5.8
 3.1.3 Antennas
-The Antenna pattern files in .txt format should be prepared and could be imported into the CE database
-using the CE Express antenna import tool. The CE Express application uses the Planet antenna pattern
+The [Antenna pattern](https://www.google.com/search?q=antenna+radiation+pattern+file+format+MSI) files in .txt format should be prepared and could be imported into the CE database
+using the CE Express antenna import tool. The CE Express application uses the Planet [antenna pattern](https://www.google.com/search?q=antenna+radiation+pattern+format)
 format. This format consists of a header, horizontal and vertical records. Example:
 After import of the antenna, the antenna id could be used in the cells data table.
 Confidential Cellular Expert, 2026 Page | 26
@@ -550,15 +550,15 @@ Cellular Expert Express Administrator Guide 5.8
 
 ## 3.2 Create new workspace in CE Express
 
-To create a new workspace using start CE Express using URL
+To create a new [workspace](https://www.google.com/search?q=ArcGIS+workspace+project+geodatabase) using start CE Express using URL
 http://CE_express_hostname/ceexpressfrontenfolder
 (Example: http://localhost/ceexp )
  Login as user with administrator rights (user provided during setup)
- In the workspace list click “+ new Workspace” button:
+ In the [workspace](https://www.google.com/search?q=ArcGIS+workspace+project+geodatabase) list click “+ new Workspace” button:
  In the window describe the workspace:
 Workspace name: must be the name of a newly created folder.
 Geodata folder path: must be the physical path of the newly created folder.
-Coordinate system EPSG: enter coordinate system’s code. 4326 is WGS84.
+Coordinate system [EPSG](https://www.google.com/search?q=EPSG+coordinate+reference+system): enter coordinate system’s code. 4326 is [WGS84](https://www.google.com/search?q=WGS84+geographic+coordinate+system).
 Extent: describe the extent of the workspace.
 Calculations: enable or disable parameters if they are not used.
 Extra layers: add additional layers form the other sources to be visualized in this new workspace.

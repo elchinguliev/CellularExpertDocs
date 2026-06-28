@@ -18,8 +18,8 @@ related:
 
 By the end of this module, you will be able to:
 
-- Create and configure a workspace correctly in CE Express
-- Understand workspace structure and scope
+- Create and configure a [workspace]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=[ArcGIS]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+workspace+project+geodatabase) correctly in [CE Express](https://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform)
+- Understand [workspace](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+workspace+project+geodatabase) structure and scope
 - Manage and visualize layers efficiently
 - Switch between 2D and 3D environments
 - Prepare a workspace for RF planning tasks
@@ -27,18 +27,18 @@ By the end of this module, you will be able to:
 ## Initial Data
 
 For this exercise, the following is pre-configured:
-- Prepared geodata (high-resolution terrain and clutter)
+- Prepared geodata (high-[resolution](https://www.google.com/search?q=spatial+resolution+[raster](https://www.google.com/search?q=raster+GIS+grid+data+format)+GIS+accuracy) [terrain](https://www.google.com/search?q=terrain+elevation+model+GIS+topography) and [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio))
 - Predefined external services for visualization
 
 > **Trainer note:** Emphasize that workspace quality directly affects prediction accuracy, visualization clarity, and collaboration efficiency.
 
 ## Understanding the Workspace Concept
 
-A **Workspace** in CE Express is a project container holding:
+A **Workspace** in [CE Express](https://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) is a project container holding:
 
-- Network objects (sites, cells, links, etc.)
+- [Network objects](https://www.google.com/search?q=radio+network+objects+sites+cells+GIS) (sites, cells, links, etc.)
 - Geodata for propagation modeling
-- Visualization layers (GIS, 3D meshes, administrative boundaries)
+- Visualization layers ([GIS](https://www.google.com/search?q=GIS+Geographic+Information+System), 3D meshes, administrative boundaries)
 
 Workspaces can be:
 - Assigned to one or multiple user groups
@@ -65,7 +65,7 @@ Workspaces can be:
 | Field | Value for this exercise |
 |-------|------------------------|
 | Workspace name | `Training_[YourName]` |
-| Coordinate system EPSG | EPSG for your training area (instructor provides) |
+| [Coordinate system](https://www.google.com/search?q=coordinate+reference+system+CRS+GIS) [EPSG](https://www.google.com/search?q=EPSG+coordinate+reference+system) | [EPSG](https://www.google.com/search?q=EPSG+coordinate+reference+system+code+database) for your training area (instructor provides) |
 | Group | `Training` |
 
 4. Set the **extent** by clicking **Draw on map** and drawing a rectangle around your planning area
@@ -77,13 +77,13 @@ Workspaces can be:
 After creating the workspace, explore the map view:
 
 1. The map auto-zooms to the workspace extent
-2. Confirm the DEM/terrain is visible (enable in Layers if not)
-3. Check that clutter layer is loaded
+2. Confirm the [DEM](https://www.google.com/search?q=DEM+Digital+Elevation+Model+terrain)/[terrain](https://www.google.com/search?q=terrain+elevation+model+GIS+topography) is visible (enable in Layers if not)
+3. Check that [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio+planning) layer is loaded
 
 ## Step 4 — Adding an Extra Layer
 
 1. In workspace settings → Extra layers → click **Add layer**
-2. Enter an ArcGIS Portal Item ID or URL for a background map
+2. Enter an [ArcGIS Portal](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+Portal+enterprise+web+GIS) Item ID or URL for a background map
 3. Set opacity to 70%
 4. Click Save
 
@@ -99,8 +99,8 @@ After creating the workspace, explore the map view:
 Create a workspace for a new planning project:
 - Name: `[YourName]_Exercise_01`
 - Area: 50 km × 50 km urban area
-- Coordinate system: UTM (ask instructor for local UTM zone)
-- Load DEM and clutter geodata set
+- [Coordinate system](https://www.google.com/search?q=coordinate+reference+system+CRS+GIS): [UTM](https://www.google.com/search?q=UTM+Universal+Transverse+Mercator) (ask instructor for local [UTM](https://www.google.com/search?q=UTM+Universal+Transverse+Mercator+projection) zone)
+- Load [DEM](https://www.google.com/search?q=DEM+Digital+Elevation+Model+terrain+raster) and [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio+planning) geodata set
 - Add an OpenStreetMap background layer
 
 ## Related Documentation

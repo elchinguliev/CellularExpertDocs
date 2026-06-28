@@ -1,12 +1,12 @@
 # 04. Creating Workspace
 
-Cellular Expert for ArcGIS Pro project
+Cellular Expert for [ArcGIS Pro](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+Pro+Esri+desktop+software) project
 
 ---
 
 CE Tools
-- Workspace is not added
-- Workspace is added
+- [Workspace]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=[ArcGIS]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+workspace+project+geodatabase) is not added
+- [Workspace](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+workspace+project+geodatabase) is added
 - Workspace is added, but Geodata is missing
 
 ---
@@ -14,7 +14,7 @@ CE Tools
 Create Workspace
 - New workspace path
 - Geodata folder path
-- Projected coordinate system
+- [Projected coordinate](https://www.google.com/search?q=projected+coordinate+system+[UTM](https://www.google.com/search?q=UTM+Universal+Transverse+Mercator+projection)+GIS) system
 - Also create Local Scene
 
 ---
@@ -31,11 +31,11 @@ Cellular Expert Project Structure
 ---
 
 Cellular Expert Dataset
-- Cell
-- Site
+- [Cell](https://www.google.com/search?q=mobile+cell+sector+coverage+base+station)
+- [Site](https://www.google.com/search?q=cell+site+tower+base+station+location)
 - Radar
-- Repeater
-- CPE
+- [Repeater](https://www.google.com/search?q=radio+repeater+signal+booster+telecom)
+- [CPE](https://www.google.com/search?q=CPE+Customer+Premises+Equipment+wireless)
 - OMEN
 - Link
 

@@ -1,6 +1,6 @@
 # CE Desktop RLP User Guide v4.9
 
-Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
+Cellular Expert Desktop RLP for [ArcGIS Pro](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+Pro+Esri+desktop+software) User Guide 4.9
 Table of Contents
 1. Software Purpose and Functionality 7
 2. System requirements 9
@@ -25,15 +25,15 @@ Table of Contents
 
 ## 5.1 Geographic data requirements 16
 
-5.1.1 Digital Terrain Model (DTM) Grid (Mandatory) 17
-5.1.2 Clutter classes grid 20
-5.1.3 Clutter heights 26
+5.1.1 [Digital [Terrain]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=terrain+elevation+model+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+topography) Model]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=Digital+[Terrain](https://www.google.com/search?q=terrain+elevation+model+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+topography)+Model+[DTM](https://www.google.com/search?q=DTM+Digital+Terrain+Model+elevation+data)+bare+earth) ([DTM](https://www.google.com/search?q=DTM+Digital+Terrain+Model)) Grid (Mandatory) 17
+5.1.2 [Clutter](https://www.google.com/search?q=clutter+land+use+classification+radio+planning) classes grid 20
+5.1.3 [Clutter](https://www.google.com/search?q=clutter+land+use+classification+radio+planning) heights 26
 5.1.4 Buildings 30
-6. Workspace 34
+6. [Workspace](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+workspace+project+geodatabase) 34
 
 ## 6.1 Workspace Tool 34
 
-6.1.1 Workspace Table 34
+6.1.1 [Workspace](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+workspace+project+geodatabase) Table 34
 6.1.2 Create Workspace 36
 6.1.3 Open Workspace 41
 6.1.4 Remove Workspace 41
@@ -53,11 +53,11 @@ Confidential ©Cellular Expert, 2026 Page | 2
 
 ---
 
-Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
+Cellular Expert Desktop RLP for [ArcGIS Pro](https://www.google.com/search?q=ArcGIS+Pro+Esri+desktop+software) User Guide 4.9
 
 ## 7.2 Add Object 56
 
-7.2.1 Add Site 56
+7.2.1 Add [Site](https://www.google.com/search?q=cell+site+tower+base+station+location) 56
 7.2.2 Add Link 59
 7.2.3 Add Mesh Node 65
 
@@ -65,7 +65,7 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 
 7.3.1 Move Link Objects 70
 7.3.2 Duplicate Link Objects 72
-7.3.3 Move Site (Point) Objects 75
+7.3.3 Move [Site](https://www.google.com/search?q=cell+site+tower+base+station+location) (Point) Objects 75
 7.3.4 Duplicate Site (Point) Objects 79
 
 ## 7.4 Clutter Classes 83
@@ -80,38 +80,38 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 
 ## 7.7 Template Manager 113
 
-7.7.1 Edit Network Objects template 114
-7.7.2 Manage Network Object Template 115
+7.7.1 Edit [Network Objects](https://www.google.com/search?q=radio+network+objects+sites+cells+GIS) template 114
+7.7.2 Manage [Network Object](https://www.google.com/search?q=radio+network+object+GIS+database) Template 115
 7.7.3 Modulations 116
 7.7.4 Modulation Editor 118
 
 ## 7.8 Import Objects 120
 
-7.8.1 Import Cells 121
-7.8.2 Import Sites, Radar, CPE, Repeaters, Links, or Mesh Nodes 124
+7.8.1 [Import](https://www.google.com/search?q=data+import+GIS+network+objects+[CSV](https://www.google.com/search?q=CSV+comma+separated+values+file+format)) Cells 121
+7.8.2 [Import](https://www.google.com/search?q=data+import+GIS+network+objects+[CSV](https://www.google.com/search?q=CSV+comma+separated+values+file+format)) Sites, Radar, [CPE](https://www.google.com/search?q=CPE+Customer+Premises+Equipment+wireless), Repeaters, Links, or Mesh Nodes 124
 
 ## 7.9 Import/Export Antenna Files 125
 
 7.9.1 Import Antennas 125
-7.9.2 Export Antennas 125
+7.9.2 [Export](https://www.google.com/search?q=data+export+GIS+raster+vector) Antennas 125
 7.9.3 Create Antennas 126
 
 ## 7.10 Radios 128
 
 7.10.1 Manager Tab 128
 7.10.2 Import Tab 132
-7.10.3 Export Tab 132
+7.10.3 [Export](https://www.google.com/search?q=data+export+GIS+raster+vector) Tab 132
 
 ## 7.11 Spectrum Masks 133
 
-7.11.1 View Spectrum Masks 133
-7.11.2 Add Spectrum Mask 135
+7.11.1 View [Spectrum](https://www.google.com/search?q=radio+frequency+spectrum+allocation+telecom) Masks 133
+7.11.2 Add [Spectrum](https://www.google.com/search?q=radio+frequency+spectrum+allocation+telecom) Mask 135
 7.11.3 Import Spectrum Mask 135
 Confidential ©Cellular Expert, 2026 Page | 3
 
 ---
 
-Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
+Cellular Expert Desktop RLP for [ArcGIS Pro](https://www.google.com/search?q=ArcGIS+Pro+Esri+desktop+software) User Guide 4.9
 7.11.4 Export Spectrum Mask 136
 
 ## 7.12 Frequency Plans 137
@@ -130,7 +130,7 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 8.1.4 Import 157
 8.1.5 Export (Profile Report) 158
 8.1.6 Settings 160
-9. Coverage Prediction 160
+9. [Coverage Prediction](https://www.google.com/search?q=coverage+prediction+RF+radio+planning) 160
 
 ## 9.1 CE Calculation Task List 160
 
@@ -146,9 +146,9 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 
 ## 11.1 Geoclimatic Data 172
 
-11.1.1 Gaseous Absorption 174
+11.1.1 [Gaseous Absorption](https://www.google.com/search?q=gaseous+[absorption](https://www.google.com/search?q=atmospheric+absorption+radio+signal)+oxygen+water+vapour+radio) 174
 11.1.2 Temperature 175
-11.1.3 Multipath Fading 176
+11.1.3 [Multipath Fading](https://www.google.com/search?q=[multipath](https://www.google.com/search?q=multipath+propagation+fading+radio)+fading+radio+propagation+effect) 176
 11.1.4 Rain Fading 177
 11.1.5 Statistics 179
 
@@ -189,7 +189,7 @@ and radio/optical visibility calculation software for ESRI’s
 ArcGIS mapping environment, which is widely used within
 Telecom, Defense, IoT, and other companies and
 organizations.
-CE’s communication network planning, network asset
+CE’s communication [network planning](https://www.google.com/search?q=telecom+network+planning+optimization), network asset
 management, operational support software, and customer-
 tailored solutions enhance the intelligence and business
 efficiency of more than 170 communication network
@@ -206,11 +206,11 @@ Confidential ©Cellular Expert, 2026 Page | 6
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 1. Software Purpose and Functionality
-Cellular Expert Desktop for ArcGIS Pro (CE Pro) is a professional radio coverage planning software tool
-designed on top of the Esri ArcGIS Pro environment. The CE Pro is a highly versatile and functional tool,
+Cellular Expert Desktop for ArcGIS Pro ([CE Pro](https://www.google.com/search?q=Cellular+Expert+CE+Pro+ArcGIS+planning)) is a professional radio coverage planning software tool
+designed on top of the Esri ArcGIS Pro environment. The [CE Pro](https://www.google.com/search?q=Cellular+Expert+CE+Pro+ArcGIS+planning) is a highly versatile and functional tool,
 covering the network design functionality needs of most professional radio communication planners and
-developers. It could support network planning and optimization for the entire range of wireless technologies
-in frequencies from 10 kHz to 350 GHz.
+developers. It could support [network planning](https://www.google.com/search?q=telecom+network+planning+optimization) and optimization for the entire range of wireless technologies
+in frequencies from 10 [kHz](https://www.google.com/search?q=kHz+kilohertz+frequency+unit) to 350 [GHz](https://www.google.com/search?q=GHz+gigahertz+frequency+unit).
 The key features and benefits of utilizing Cellular Expert software are as follows:
 1. CE Pro is a purpose-built extension of ESRI software, a world-renowned standard in GIS
 environments. This means that along with wireless network planning and optimization, it gives
@@ -224,20 +224,20 @@ network operational maintenance and supervision,
 developers and radio planners, allowing attentive responsiveness to customer needs and
 developing custom-tailored solutions.
 CE Pro performs mobile network coverage analysis based on:
-1. Site and cell level details of radio equipment complement, specifications, cell and component
+1. Site and [cell](https://www.google.com/search?q=mobile+cell+sector+coverage+base+station) level details of radio equipment complement, specifications, [cell](https://www.google.com/search?q=mobile+cell+sector+coverage+base+station) and component
 carriers configuration,
 2. Subscriber characteristics – geographic distribution density, generated traffic to estimate
 network/cell loading,
-3. DTM, buildings, and clutter-based deterministic point-to-area radio wave propagation
+3. [DTM](https://www.google.com/search?q=DTM+Digital+Terrain+Model+elevation+data), buildings, and [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio)-based deterministic point-to-area radio [wave propagation](https://www.google.com/search?q=radio+wave+propagation+physics)
 modeling.
 CE Pro allows the user to input and use a broad variety of GIS and network data to support the simulations,
 as the overall quality of coverage calculations is dependent on the completeness and detail of technical
-network data and the resolution and quality of the GIS data. CE Pro can efficiently simulate wide area
-network coverage using the GIS data with a resolution of down to sub-meter.
+network data and the [resolution](https://www.google.com/search?q=spatial+resolution+[raster](https://www.google.com/search?q=raster+GIS+grid+data+format)+GIS+accuracy) and quality of the GIS data. CE Pro can efficiently simulate wide area
+network coverage using the GIS data with a [resolution](https://www.google.com/search?q=spatial+resolution+[raster](https://www.google.com/search?q=raster+GIS+grid+data+format)+GIS+accuracy) of down to sub-meter.
 Calculated results of coverage predictions could be presented as coverage raster maps.
-CE Pro is capable of modeling various wireless technologies: cellular (2G/3G/4G/5G), PMR/PAMR
-(TETRA, APCO, others), FWA/BWA, IoT (LoRa/SigFox, others), as well as fixed microwave links.
-Therefore, it may be used as a radio planning tool in various industries: Mobile Operators, Integrated
+CE Pro is capable of modeling various wireless technologies: cellular ([2G](https://www.google.com/search?q=2G+GSM+mobile+network+second+generation)/[3G](https://www.google.com/search?q=3G+UMTS+HSPA+mobile+network)/[4G](https://www.google.com/search?q=4G+LTE+mobile+network+technology)/[5G](https://www.google.com/search?q=5G+fifth+generation+mobile+network)), PMR/PAMR
+([TETRA](https://www.google.com/search?q=TETRA+digital+mobile+radio), APCO, others), FWA/BWA, IoT (LoRa/SigFox, others), as well as fixed [microwave](https://www.google.com/search?q=microwave+[backhaul](https://www.google.com/search?q=backhaul+microwave+telecom+network)+radio+link+planning) links.
+Therefore, it may be used as a [radio planning](https://www.google.com/search?q=radio+network+planning+telecom) tool in various industries: Mobile Operators, Integrated
 Telecom Companies, Wireless Internet Service providers, Regulatory authorities, Utilities, Broadband
 Infrastructure providers, Defense organizations, as well as any other users of radiocommunication systems.
 In the following, we summarize the key functionalities of the tool.
@@ -245,11 +245,11 @@ Data Management
 The tool allows the importation, storage, and management of detailed technical data on network nodes,
 such as sites, cells, RF transmitters, and antennas.
 Signal Strength Prediction
-The tool contains several in-built path loss prediction models that allow the user to easily start simulations
+The tool contains several in-built [path loss](https://www.google.com/search?q=path+loss+radio+signal+attenuation) prediction models that allow the user to easily start simulations
 based on the evaluation of the most essential pathloss contributing factors. The following two models
 constitute the starting set:
 - Free space – typically used for modeling short-range mobile communications, fixed links, or other
-radiocommunications applications with prevalent Line-of-Sight conditions on propagation paths,
+radiocommunications applications with prevalent [Line-of-Sight](https://www.google.com/search?q=line+of+sight+[LOS](https://www.google.com/search?q=LOS+Line+of+Sight+radio+propagation)+radio+link) conditions on propagation paths,
 Confidential ©Cellular Expert, 2026 Page | 7
 
 ---
@@ -258,10 +258,10 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 - UniMacro – a proprietary universal model for wide area mobile communication systems that flexibly
 accounts for a variety of propagation paths as determined for each specific reception point based
 on terrain and clutter data vs. configuration of the modeled system.
-Further details on path loss models and their configuration options are provided in the relevant section of
+Further details on [path loss](https://www.google.com/search?q=path+loss+radio+signal+attenuation+[dB](https://www.google.com/search?q=dB+decibel+signal+measurement+unit)) models and their configuration options are provided in the relevant section of
 this manual.
-Model Tuning
-The tool provides an automated method for fine-tuning propagation model parameters to fit the specific
+[Model Tuning](https://www.google.com/search?q=propagation+model+tuning+calibration+drive+test)
+The tool provides an automated method for fine-tuning [propagation model](https://www.google.com/search?q=radio+propagation+model+telecom) parameters to fit the specific
 scenario and type of area of network deployment based on analyzing real field strength measurement
 results.
 Radio Coverage Calculation for Different Mobile Technologies
@@ -269,17 +269,17 @@ Radio coverage calculation is assisted in the tool by the possibility to use pre
 templates that are tailored to typical technical parameters of base stations in different Radio Access
 Technologies. Accordingly, the model settings and outputs will be adjusted to suit the scenario pertinent to
 that technology, i.e.:
-- 2G – radio coverage is calculated in dBm as receive power level of narrow-band (200 kHz) signal,
-- 3G – radio coverage is calculated in dBm as the receive power level of a single broadband (3.85
-MHz) carrier,
-- 4G/5G – radio coverage is calculated in dBm as the equivalent RSRP of a single sub-carrier
-component in the complex OFDM broadband signal.
-- Wi-Fi - wireless communication technology based on the IEEE 802.11 standards, used for setting
+- [2G](https://www.google.com/search?q=2G+GSM+mobile+network+second+generation) – radio coverage is calculated in [dBm](https://www.google.com/search?q=dBm+decibel+milliwatt+power+unit) as receive power level of narrow-band (200 [kHz](https://www.google.com/search?q=kHz+kilohertz+frequency+unit)) signal,
+- [3G](https://www.google.com/search?q=3G+UMTS+HSPA+mobile+network) – radio coverage is calculated in [dBm](https://www.google.com/search?q=dBm+decibel+milliwatt+power+unit) as the receive power level of a single broadband (3.85
+[MHz](https://www.google.com/search?q=MHz+megahertz+frequency+unit)) carrier,
+- [4G](https://www.google.com/search?q=4G+LTE+mobile+network+technology)/[5G](https://www.google.com/search?q=5G+fifth+generation+mobile+network) – radio coverage is calculated in dBm as the equivalent [RSRP](https://www.google.com/search?q=RSRP+Reference+Signal+Received+Power+[LTE](https://www.google.com/search?q=LTE+Long+Term+Evolution+4G)) of a single sub-carrier
+component in the complex [OFDM](https://www.google.com/search?q=OFDM+Orthogonal+Frequency+Division+Multiplexing) broadband signal.
+- [Wi-Fi](https://www.google.com/search?q=Wi+Fi+wireless+LAN+802.11+standard) - wireless communication technology based on the IEEE 802.11 standards, used for setting
 up local area networks (WLANs) and providing internet access in various settings without requiring
 cable connections.
 Profile Analysis
 The tool provides powerful GIS analytical features to analyze the terrain and clutter on the fixed link path,
-such as allowing to estimate of the Fresnel zone clearance condition, Power Budget, Path loss and Angles
+such as allowing to estimate of the [Fresnel zone](https://www.google.com/search?q=Fresnel+zone+radio+link+clearance) clearance condition, Power Budget, [Path loss](https://www.google.com/search?q=path+loss+radio+signal+attenuation+[dB](https://www.google.com/search?q=dB+decibel+signal+measurement+unit)) and Angles
 between Tx and Rx.
 Confidential ©Cellular Expert, 2026 Page | 8
 
@@ -296,10 +296,10 @@ complexity.
 Processor (CPU):
 - Minimum: 8 cores, hyperthreaded
 - Recommended: 16 cores
-(Optional) Requirements for GPU-accelerated calculations
-- GPU – any NVIDIA GPU with CUDA capabilities (https://developer.nvidia.com/cuda-gpus)
+(Optional) Requirements for [GPU](https://www.google.com/search?q=GPU+graphics+processing+unit)-accelerated calculations
+- [GPU](https://www.google.com/search?q=GPU+graphics+processing+unit+computing) – any [NVIDIA](https://www.google.com/search?q=NVIDIA+[GPU](https://www.google.com/search?q=GPU+graphics+processing+unit+computing)+computing+graphics) GPU with [CUDA](https://www.google.com/search?q=NVIDIA+CUDA+parallel+computing) capabilities (https://developer.[nvidia](https://www.google.com/search?q=NVIDIA+GPU+computing+graphics).com/[cuda](https://www.google.com/search?q=NVIDIA+CUDA+parallel+computing+platform)-gpus)
 - Driver version: 456.38 or later
-- CUDA Toolkit 11.0 or later
+- [CUDA](https://www.google.com/search?q=NVIDIA+CUDA+parallel+computing+platform) Toolkit 11.0 or later
 Memory/RAM:
 - Minimum: 16 GB
 - Recommended: 32 GB
@@ -324,12 +324,12 @@ Confidential ©Cellular Expert, 2026 Page | 9
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 3. License types
 Only a Single Use Cellular Expert license is available. The license type is annual and dedicated to one
-workstation connected with ArcGIS Online, which is used for ArcGIS Pro.
+workstation connected with [ArcGIS Online](https://www.google.com/search?q=ArcGIS+Online+cloud+GIS+platform), which is used for ArcGIS Pro.
 
 ## 3.1 Single-User Environment
 
-For the Single-User configuration of Cellular Expert, all information about radio network objects is stored in
-a personal geodatabase (GDB format) or locally on the disc (calculation results, raster data in GeoTIFF
+For the Single-User configuration of Cellular Expert, all information about radio [network objects](https://www.google.com/search?q=radio+network+objects+sites+cells+GIS) is stored in
+a personal [geodatabase](https://www.google.com/search?q=ArcGIS+geodatabase+spatial+database) (GDB format) or locally on the disc (calculation results, raster data in [GeoTIFF](https://www.google.com/search?q=GeoTIFF+raster+geospatial+format)
 format, etc.).
 Geographical data can be stored:
 - Locally on a disc
@@ -401,7 +401,7 @@ Confidential ©Cellular Expert, 2026 Page | 12
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-- EMF
+- [EMF](https://www.google.com/search?q=EMF+electromagnetic+field+exposure+assessment)
 - Sound
 - Indoor
 This User Guide describes RLP tools.
@@ -411,22 +411,22 @@ Confidential ©Cellular Expert, 2026 Page | 13
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 5. Geographic data
-CE Desktop is designed to work with any geospatial data available to the customer and fully exploit its
+[CE Desktop](https://www.google.com/search?q=Cellular+Expert+CE+Desktop+ArcGIS+Pro) is designed to work with any geospatial data available to the customer and fully exploit its
 precision for the most accurate coverage and QoS calculations. The platform supports multi-resolution input
-datasets — from freely available global sources such as Sentinel-2 10 m land cover and ASTER DEM, to
-premium high-resolution terrain and 3D building models when provided by the customer or government
+datasets — from freely available global sources such as [Sentinel-2](https://www.google.com/search?q=Sentinel+2+ESA+satellite+land+cover) 10 m [land cover](https://www.google.com/search?q=land+cover+classification+satellite+imagery) and [ASTER](https://www.google.com/search?q=ASTER+[DEM](https://www.google.com/search?q=DEM+Digital+Elevation+Model+terrain+raster)+NASA+global+elevation+model) [DEM](https://www.google.com/search?q=DEM+Digital+Elevation+Model+terrain), to
+premium high-resolution terrain and [3D building](https://www.google.com/search?q=3D+building+model+urban+GIS) models when provided by the customer or government
 agencies.
 Source: https://livingatlas.arcgis.com/landcoverexplorer/
-By leveraging whatever data is available locally, CE Express performs nationwide calculations at the
-maximum feasible resolution, accurately modeling signal propagation even in dense urban environments.
+By leveraging whatever data is available locally, [CE Express](https://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) performs nationwide calculations at the
+maximum feasible resolution, accurately modeling [signal propagation](https://www.google.com/search?q=signal+propagation+radio+wave) even in dense urban environments.
 Support for 3D multi-height calculations ensures that coverage predictions reflect street-level, indoor, and
-rooftop conditions, providing regulators with a realistic representation of service availability.
+rooftop conditions, providing regulators with a realistic representation of service [availability](https://www.google.com/search?q=link+availability+percentage+[microwave](https://www.google.com/search?q=microwave+[backhaul](https://www.google.com/search?q=backhaul+microwave+telecom+network)+radio+link+planning)+ITU).
 This flexibility ensures that NRAs can use their existing GIS assets, open datasets, or commercial data they
 already license, turning them into actionable broadband maps without additional data procurement
 requirements from the solution provider.
-By using terrain elevation, obstacles, and clutter classification in every calculation, Cellular Expert
+By using terrain [elevation](https://www.google.com/search?q=elevation+model+terrain+height+datum), obstacles, and clutter classification in every calculation, Cellular Expert
 accurately models:
-- Line-of-Sight and Non-Line-of-Sight Conditions – Determining diffraction, reflection, and
+- [Line-of-Sight](https://www.google.com/search?q=line+of+sight+[LOS](https://www.google.com/search?q=LOS+Line+of+Sight+radio+propagation)+radio+link) and Non-Line-of-Sight Conditions – Determining [diffraction](https://www.google.com/search?q=radio+diffraction+obstacle+propagation), [reflection](https://www.google.com/search?q=radio+wave+reflection+[multipath](https://www.google.com/search?q=multipath+propagation+fading+radio)), and
 Confidential ©Cellular Expert, 2026 Page | 14
 
 ---
@@ -435,29 +435,29 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 shadowing effects over hills, valleys, and urban obstacles.
 - Coverage Footprints – Generating precise signal strength maps at national, regional, and local
 levels.
-- Capacity and Interference Analysis – Modeling realistic signal overlaps and interference zones
+- [Capacity](https://www.google.com/search?q=network+capacity+planning+telecom) and [Interference](https://www.google.com/search?q=radio+interference+co+channel+adjacent) Analysis – Modeling realistic signal overlaps and [interference](https://www.google.com/search?q=radio+interference+co+channel+adjacent) zones
 for multi-operator, multi-technology environments.
 Diffractio Free Space Loss
 n
 Diffractio
 H
 H clutter n obstacles
-DSM
+[DSM](https://www.google.com/search?q=DSM+Digital+Surface+Model)
 Clutter losses
 UE
 DTM
 The CE tools make use of three distinct GIS data layers to obtain high precision modelling of radio wave
 propagation losses:
-1. Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), which describes
-Earth surface, i.e., path terrain profile in terms of ground elevation above uniform sea level.
+1. [Digital Terrain Model](https://www.google.com/search?q=Digital+Terrain+Model+DTM+bare+earth) (DTM), also known as [Digital [Elevation](https://www.google.com/search?q=elevation+model+terrain+height+datum) Model](https://www.google.com/search?q=Digital+Elevation+Model+[DEM](https://www.google.com/search?q=DEM+Digital+Elevation+Model+terrain+raster)+terrain+data) (DEM), which describes
+Earth surface, i.e., path [terrain profile](https://www.google.com/search?q=terrain+profile+elevation+radio+link) in terms of ground elevation above uniform sea level.
 2. Obstacles layer, delineating buildings and other such objects above Earth surface that may be
-considered to be principal impediments for radio wave propagation.
+considered to be principal impediments for radio [wave propagation](https://www.google.com/search?q=radio+wave+propagation+physics).
 3. Clutter layer, delineating natural occurring or human cultivated ground cover that may be
 partially penetrable by radio waves, such as natural vegetation (e.g., forests, trees, bushes) or
 various crops, gardens, parks, etc.
 The image above illustrates how Cellular Expert uses different resolutions of topographical data to
-significantly improve coverage prediction accuracy.
-- Left image: Coverage calculated using 25 m resolution ASTER DEM data, showing a general view
+significantly improve [coverage prediction](https://www.google.com/search?q=coverage+prediction+RF+radio+planning) accuracy.
+- Left image: Coverage calculated using 25 m resolution [ASTER](https://www.google.com/search?q=ASTER+DEM+NASA+global+elevation+model) DEM data, showing a general view
 of signal distribution but with limited detail, especially in dense urban areas.
 - Right image: Coverage calculated using 1 m resolution data, revealing a much more precise
 propagation pattern, including building-level shadowing and accurate street-by-street coverage.
@@ -479,9 +479,9 @@ broadband planning outcomes.
 ## 5.1 Geographic data requirements
 
 The supported geographical data types:
-Only GeoTIFF is supported. Topographical data must have specific names:
+Only [GeoTIFF](https://www.google.com/search?q=GeoTIFF+raster+geospatial+format) is supported. Topographical data must have specific names:
 - The Digital terrain model must be named elevation.tif
-- The land use (or clutter) grid must be named clutterClasses.tif
+- The [land use](https://www.google.com/search?q=land+use+land+cover+classification+GIS) (or clutter) grid must be named clutterClasses.tif
 - The clutter heights (typically building, vegetation height) grid must be named clutterHeight.tif
 Mandatory geographical data:
 - Digital Terrain Model (DTM) grid
@@ -492,27 +492,27 @@ Confidential ©Cellular Expert, 2026 Page | 16
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 5.1.1 Digital Terrain Model (DTM) Grid (Mandatory)
-The Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), represents the Earth’s
-ground level above sea level. Each raster pixel has its height value.
-A sample DTM raster is presented below. Each pixel represents 5 square meters with its height value. In
+The Digital Terrain Model (DTM), also known as [Digital Elevation Model](https://www.google.com/search?q=Digital+Elevation+Model+DEM+terrain+data) (DEM), represents the Earth’s
+ground level above sea level. Each raster [pixel](https://www.google.com/search?q=pixel+raster+grid+cell+resolution) has its height value.
+A sample DTM raster is presented below. Each [pixel](https://www.google.com/search?q=pixel+raster+grid+cell+resolution) represents 5 square meters with its height value. In
 reality, within a one-pixel area, the height is not the same everywhere. Thus, the pixel’s height value is the
 height in its center or the maximum. The smaller the pixels, the more accurate is the grid - but also more
 data to calculate.
 5.1.1.1 Prepare DTM raster
 The Digital Terrain Model (DTM) has several requirements, which are listed below.
-Projection
-The raster must use a Projected Coordinate System. To check the coordinate system of your raster, use
+[Projection](https://www.google.com/search?q=map+projection+coordinate+system+GIS)
+The raster must use a [Projected Coordinate](https://www.google.com/search?q=projected+coordinate+system+[UTM](https://www.google.com/search?q=UTM+Universal+Transverse+Mercator+projection)+GIS) System. To check the [coordinate system](https://www.google.com/search?q=coordinate+reference+system+CRS+GIS) of your raster, use
 the Properties function in ArcGIS Pro. Add the raster to your project, right-click on it, and select Properties.
-Then, go to the Source tab > Spatial Reference and check the Coordinate System type parameter to confirm
-it is in a Projected Coordinate System.
+Then, go to the Source tab > Spatial Reference and check the [Coordinate System](https://www.google.com/search?q=coordinate+reference+system+CRS+GIS) type parameter to confirm
+it is in a [Projected Coordinate](https://www.google.com/search?q=projected+coordinate+system+[UTM](https://www.google.com/search?q=UTM+Universal+Transverse+Mercator+projection)+GIS) System.
 Confidential ©Cellular Expert, 2026 Page | 17
 
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-If your raster is in a Geographic Coordinate System or needs a different projection, use the Geoprocessing
+If your raster is in a [Geographic Coordinate](https://www.google.com/search?q=geographic+coordinate+system+latitude+longitude) System or needs a different [projection](https://www.google.com/search?q=map+projection+coordinate+system+GIS), use the Geoprocessing
 > Project Raster tool to update it.
-In the Output Coordinate System, specify a new coordinate system. It is recommended to use a UTM
+In the Output Coordinate System, specify a new coordinate system. It is recommended to use a [UTM](https://www.google.com/search?q=UTM+Universal+Transverse+Mercator)
 coordinate system under the WGS 1984 projection.
 Confidential ©Cellular Expert, 2026 Page | 18
 
@@ -522,7 +522,7 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 You can find the appropriate UTM zone for your area here:
 https://www.arcgis.com/apps/mapviewer/index.html?layers=b294795270aa4fb3bd25286bf09edc51
 Correct No Data value and raster name
-After setting the correct projection, assign the NoData attribute and specify the appropriate name for the
+After setting the correct projection, assign the [NoData](https://www.google.com/search?q=NoData+raster+value+GIS+missing+data) attribute and specify the appropriate name for the
 DTM raster. To do this, use the Copy Raster tool in Geoprocessing.
 Confidential ©Cellular Expert, 2026 Page | 19
 
@@ -532,11 +532,11 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 Configure the following settings:
 - Input Raster: Select your newly projected DTM raster.
 - Output Raster Dataset: Specify the output location and set the raster name to elevation.tif.
-- NoData Value: Enter -9999.
+- [NoData](https://www.google.com/search?q=NoData+raster+value+GIS+missing+data) Value: Enter -9999.
 - Pixel Type: Choose 32-bit signed or 32-bit float.
 - Format: This will automatically be set to TIFF.
 5.1.2 Clutter classes grid
-Land use or clutter refers to the classification of the earth’s surface into categories such as urban, suburban,
+[Land use](https://www.google.com/search?q=land+use+land+cover+classification+GIS) or clutter refers to the classification of the earth’s surface into categories such as urban, suburban,
 rural, forest, water, and open land, each of which affects radio propagation differently. Clutter data is crucial
 because it determines how signals are absorbed, reflected, or diffracted by the environment, directly
 Confidential ©Cellular Expert, 2026 Page | 20
@@ -545,7 +545,7 @@ Confidential ©Cellular Expert, 2026 Page | 20
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 influencing coverage, interference, and quality of service. The naming and classification of land use types
-may vary. An example is the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2
+may vary. An example is the [Sentinel-2](https://www.google.com/search?q=Sentinel+2+ESA+satellite+multispectral+imagery) [Land Cover](https://www.google.com/search?q=land+cover+classification+satellite+imagery) dataset from the Living Atlas: Living Atlas [Sentinel-2](https://www.google.com/search?q=Sentinel+2+ESA+satellite+multispectral+imagery)
 Land Cover
 This data is freely available worldwide and is detailed in Cellular Expert databases. Once the workspace is
 created, a default clutter class table is automatically applied for each land use class.
@@ -606,7 +606,7 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 Represents actual clutter heights, which override the default heights specified in the Clutter table. The
 clutter heights raster requires the accompanying clutterClasses.tif raster and cannot be used
 independently.
-A clutter height raster can be derived from a Digital Surface Model (DSM) raster and a Digital Terrain Model
+A clutter height raster can be derived from a [Digital Surface Model](https://www.google.com/search?q=Digital+Surface+Model+[DSM](https://www.google.com/search?q=DSM+Digital+Surface+Model+buildings+trees)+buildings) ([DSM](https://www.google.com/search?q=DSM+Digital+Surface+Model+buildings+trees)) raster and a Digital Terrain Model
 (DTM) raster using the ArcGIS Raster Calculator tool. To access this tool, open Geoprocessing tools and
 navigate to Spatial Analyst > Map Algebra > Raster Calculator. Use the following formula:
 DSM – DTM
@@ -655,12 +655,12 @@ of dedicated building-specific clutter types. These clutter types are available 
 tool and are specifically designed to represent different architectural materials and structural
 characteristics.
 Importantly, all building-related clutter classes are treated as Solid Obstacles – ensuring accurate
-modeling of signal attenuation and reflection in propagation calculations. This classification enhances the
+modeling of signal [attenuation](https://www.google.com/search?q=signal+attenuation+loss+radio+propagation) and [reflection](https://www.google.com/search?q=radio+wave+reflection+multipath) in propagation calculations. This classification enhances the
 realism and precision of both indoor and outdoor network predictions by accounting for the physical impact
 of built environments.
 You can seamlessly edit your Clutter Classes raster using standard ArcGIS Geoprocessing tools to
 integrate detailed building data into your existing clutter layer.
-The process supports both vector and raster input formats, giving you flexibility depending on your data
+The process supports both [vector](https://www.google.com/search?q=vector+GIS+shapefile+feature+data) and raster input formats, giving you flexibility depending on your data
 source. Whether you're working with CAD-derived vectors or pre-classified raster layers, these tools allow
 you to enrich the clutter map with accurate building representations – essential for high-fidelity propagation
 modeling.
@@ -669,7 +669,7 @@ Confidential ©Cellular Expert, 2026 Page | 30
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-If your building data is in vector format (e.g., polygons), you’ll first need to convert it to raster before
+If your building data is in [vector](https://www.google.com/search?q=vector+GIS+shapefile+feature+data) format (e.g., polygons), you’ll first need to convert it to raster before
 incorporating it into the Clutter Classes layer.
 1. Convert Vector to Raster
 Use the Polygon to Raster tool available in the Geoprocessing pane. This will transform your
@@ -694,7 +694,7 @@ numeric value to represent the "Buildings" clutter class. In the example provide
 but you may choose any value – as long as it does not conflict with existing clutter class values
 already present in your raster.
 Once applied, the Clutter Classes raster will be updated to include a new entry for Buildings, enabling
-more precise signal propagation modeling that accounts for structural obstructions.
+more precise [signal propagation](https://www.google.com/search?q=signal+propagation+radio+wave) modeling that accounts for structural obstructions.
 Be sure to document your chosen value and update your Clutter Class definitions accordingly within the
 Clutter Classes tool to maintain consistency across your modeling environment.
 All propagation and prediction calculations reference clutter types defined in the Clutter Classes table.
@@ -726,7 +726,7 @@ This chapter describes the Cellular Expert workspace functionality.
 ## 6.1 Workspace Tool
 
 6.1.1 Workspace Table
-Cellular Expert workspace is a geodatabase containing data tables, feature datasets, and the workspace
+Cellular Expert workspace is a [geodatabase](https://www.google.com/search?q=ArcGIS+geodatabase+spatial+database) containing data tables, feature datasets, and the workspace
 definition table. After creating a new workspace database, the workspace definition table will be named
 CE_WORKSPACE and contain the information about the dataset.
 Confidential ©Cellular Expert, 2026 Page | 34
@@ -882,8 +882,8 @@ Click this button to cancel any changes and close the dialogue.
 Help
 Get helpful information about the dialogue.
 CE Server Parameters
-ArcGIS Portal URL
-Connection URL to the ArcGIS Portal website.
+[ArcGIS Portal](https://www.google.com/search?q=ArcGIS+Portal+enterprise+web+GIS) URL
+Connection URL to the [ArcGIS Portal](https://www.google.com/search?q=ArcGIS+Portal+enterprise+web+GIS) website.
 CE Server API
 Connection URL to Cellular Expert Server API.
 Confidential ©Cellular Expert, 2026 Page | 44
@@ -917,15 +917,15 @@ Path for storing the final Quick Prediction calculation results
 Volatile Tasks Data Path
 Path for the Quick Prediction calculation results that will be displayed in the Calculation Task List.
 Project Settings Parameters
-Calculate EIRP
-Determines whether calculate EIRP or no in the prediction calculations.
-- Value YES. EIRP will be calculated based on Power, Antenna Gain and Misc. Loss values.
+Calculate [EIRP](https://www.google.com/search?q=EIRP+Effective+Isotropic+Radiated+Power)
+Determines whether calculate [EIRP](https://www.google.com/search?q=EIRP+Effective+Isotropic+Radiated+Power+antenna) or no in the prediction calculations.
+- Value YES. [EIRP](https://www.google.com/search?q=EIRP+Effective+Isotropic+Radiated+Power+antenna) will be calculated based on Power, [Antenna Gain](https://www.google.com/search?q=antenna+gain+[dBi](https://www.google.com/search?q=dBi+decibel+isotropic+antenna+gain)+directional) and Misc. Loss values.
 - Value NO. EIRP will be taken as single value defined in Power field.
 Enable GPU Acceleration
 Enables GPU Accelerations that optimizes the prediction calculations and makes them run faster. Possible
 values Yes/No.
-Transmit Power Units
-Represents power value in dBm or Watts.
+[Transmit Power](https://www.google.com/search?q=transmit+power+dBm+radio+antenna) Units
+Represents power value in dBm or [Watts](https://www.google.com/search?q=watts+power+unit+radio+transmission).
 Confidential ©Cellular Expert, 2026 Page | 45
 
 ---
@@ -967,25 +967,25 @@ off, the next time a relevant calculation is performed. In that case, the raster
 are added to the map with the visibility disabled. This is done only for the calculations performed after the
 setting is changed, and does not impact already added rasters on the map.
 The symbology is defined as a list of Layers and .lyr files:
-- Narrowband 2G (GSM/CDMA-850/TETRA/P-25) – second generation network (like GSM) calculations
+- Narrowband 2G ([GSM](https://www.google.com/search?q=GSM+Global+System+Mobile+2G)/[CDMA](https://www.google.com/search?q=CDMA+Code+Division+Multiple+Access)-850/[TETRA](https://www.google.com/search?q=TETRA+Terrestrial+Trunked+Radio)/P-25) – second generation network (like [GSM](https://www.google.com/search?q=GSM+Global+System+Mobile+2G)) calculations
 Confidential ©Cellular Expert, 2026 Page | 47
 
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 or technology-independent calculations (for example, the symbology for antenna loss by tilt is defined
-by the same file for WiMAX, LTE, and other technology)
-- Broadband 3G (UMTS/HSDPA) – results for UMTS, HSDPA and other 3 - 3.5 generation technologies
-- Broadband 4G (LTE, BWA/WiMAX) – results of LTE technology calculations
+by the same file for WiMAX, [LTE](https://www.google.com/search?q=LTE+Long+Term+Evolution+4G+mobile), and other technology)
+- Broadband 3G ([UMTS](https://www.google.com/search?q=UMTS+3G+Universal+Mobile+Telecommunications)/HSDPA) – results for [UMTS](https://www.google.com/search?q=UMTS+3G+Universal+Mobile+Telecommunications), HSDPA and other 3 - 3.5 generation technologies
+- Broadband 4G ([LTE](https://www.google.com/search?q=LTE+Long+Term+Evolution+4G+mobile), BWA/WiMAX) – results of LTE technology calculations
 - Broadband 5G (NR, CBRS) – results of 5G-NR technology calculations
 - Network objects – Sites, Cells, OMEN
 - Visibility – results of Visibility Calculations
 - Optimal Site Position – results of optimal site positioning.
 - Compare predictions – the results of comparing several predictions.
-- Model Tuning – results of model calibration
+- [Model Tuning](https://www.google.com/search?q=propagation+model+tuning+calibration+drive+test) – results of model calibration
 - Radar – results of radar coverage calculations
-- Wi-Fi – results of Wi-Fi coverage calculations
-For example, the layer 4G Downlink Throughput with defined path dl_ul_throughput.lyr means that the 4G
+- [Wi-Fi](https://www.google.com/search?q=Wi+Fi+wireless+LAN+802.11+standard) – results of Wi-Fi coverage calculations
+For example, the layer 4G Downlink [Throughput](https://www.google.com/search?q=network+throughput+downlink+uplink+[capacity](https://www.google.com/search?q=network+capacity+planning+telecom)) with defined path dl_ul_throughput.lyr means that the 4G
 downlink bitrate prediction raster will be represented in ArcGIS using the symbology file …/Cellular
 Expert/Layers/dl_ul_throughput.lyr
 Note: if you change the symbology with ArcGIS tools, it will be saved only in the current ArcGIS project. So,
@@ -1083,10 +1083,10 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 
 ## 6.3 CE Express Connection
 
-CE Express Connection is a tool that lets you establish a connection between the CE Express database
+[CE Express](https://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) Connection is a tool that lets you establish a connection between the CE Express database
 and CE for ArcGIS Pro. When the connection is established, data can be retrieved from CE Express and
 uploaded to CE for ArcGIS Pro workspace.
-For the connection to be established you must have access to ArcGIS Portal and have a valid CE Express
+For the connection to be established you must have access to [ArcGIS Portal](https://www.google.com/search?q=ArcGIS+Portal+enterprise+web+GIS) and have a valid CE Express
 URL.
 6.3.1 Properties
 Click the button and select the Properties tab to open the CE Express Connection dialogue.
@@ -1141,7 +1141,7 @@ New network objects can be created in several ways. They can be:
 - Created from templates
 7.2.1 Add Site
 The object represents Tower or Site location. It has several parameters, such as Site Name, coordinate or
-height. It is used only in 4G or 5G carrier aggregation calculation, when Total Downlink Throughput is
+height. It is used only in 4G or 5G carrier aggregation calculation, when Total Downlink [Throughput](https://www.google.com/search?q=network+throughput+downlink+uplink+capacity) is
 calculated.
 1. Choose the button from the toolbar and select Sites from the dropdown list.
 Confidential ©Cellular Expert, 2026 Page | 56
@@ -1184,10 +1184,10 @@ Y
 Coordinate in the projected coordinate system.
 Z
 3D dimensions representing an object's height above sea level, used for visualizing objects in a 3D scene.
-Height Above Ground
+[Height Above Ground](https://www.google.com/search?q=height+above+ground+[AGL](https://www.google.com/search?q=AGL+Above+Ground+Level+height+measurement)+antenna)
 Object’s height above the terrain.
 Ground Altitude
-Ground elevation above sea level at the network object's location.
+Ground elevation above sea level at the [network object](https://www.google.com/search?q=radio+network+object+GIS+database)'s location.
 Confidential ©Cellular Expert, 2026 Page | 58
 
 ---
@@ -1195,7 +1195,7 @@ Confidential ©Cellular Expert, 2026 Page | 58
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 7.2.2 Add Link
 The object represents a Microwave link that holds all the information about frequencies, antennas, radio
-equipment, etc. Object type is a line feature class.
+equipment, etc. Object type is a line [feature class](https://www.google.com/search?q=ArcGIS+feature+class+geodatabase).
 Choose the button from the toolbar and select Links from the dropdown list.
 Define the location for the new Link by left-clicking on the map and selecting two distinct points, or two
 existing Sites. The new Link will be created as a geometry between those two points.
@@ -1235,10 +1235,10 @@ Z (A, B)
 3D dimensions representing an object's height above sea level, used for visualizing objects in a 3D scene.
 Height (A, B)
 Object’s height above the terrain.
-Azimuth (A, B)
+[Azimuth](https://www.google.com/search?q=antenna+azimuth+direction+degrees+north) (A, B)
 Direction from the North in degrees.
 Tilt (A, B)
-Mechanical tilt in telecommunications repeaters is the physical angling of the antenna to optimize signal
+[Mechanical tilt](https://www.google.com/search?q=mechanical+tilt+antenna+[downtilt](https://www.google.com/search?q=antenna+downtilt+mechanical+electrical+degrees)) in telecommunications repeaters is the physical angling of the antenna to optimize signal
 coverage.
 Link Name
 Link identification.
@@ -1313,7 +1313,7 @@ Read more about prediction models in Prediction Model Manager.
 This tab lets the user select which prediction model and configuration should be used for calculations.
 7.2.2.5 Performance Objectives
 Performance Objectives Opens a dialog for the assignment of individual performance objectives for the
-current link. It allows for defining availability and performance objectives. Predefined performance
+current link. It allows for defining [availability](https://www.google.com/search?q=link+availability+percentage+microwave+ITU) and performance objectives. Predefined performance
 objectives are related to the radio links under analysis.
 Confidential ©Cellular Expert, 2026 Page | 63
 
@@ -1327,7 +1327,7 @@ and two-way paths, for single hop, and end-to-end radio paths.
 The other group of objectives is performance objectives. There are two kinds of performance objectives
 - Individual - prescribed for a given link
 - Common - valid for all links subjected to the prediction procedure
-Such a framework enables the evaluation of one group of performance objectives for a whole radio link
+Such a framework enables the evaluation of one group of performance objectives for a whole [radio link](https://www.google.com/search?q=radio+link+microwave+point+to+point)
 network, together with specialized objectives for separate parts of a network.
 Individual performance objectives are accessible only when the performance objectives dialog is launched
 from the selected link's properties dialog.
@@ -1347,7 +1347,7 @@ Confidential ©Cellular Expert, 2026 Page | 64
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 7.2.3 Add Mesh Node
-The object represents a node used in mesh network calculations and serves as an endpoint for Link objects.
+The object represents a node used in [mesh network](https://www.google.com/search?q=mesh+network+wireless+topology) calculations and serves as an endpoint for Link objects.
 It includes several configurable parameters such as name, geographic coordinates, height, maximum
 number of connections, group affiliation, and additional technical attributes.
 Choose the button from the toolbar and select MeshNodes from the dropdown list.
@@ -1393,11 +1393,11 @@ Y
 Coordinate in the projected coordinate system.
 Z
 3D dimensions representing an object's height above sea level, used for visualizing objects in a 3D scene.
-Height Above Ground
+[Height Above Ground](https://www.google.com/search?q=height+above+ground+[AGL](https://www.google.com/search?q=AGL+Above+Ground+Level+height+measurement)+antenna)
 Object’s height above the terrain.
 Ground Altitude
 Ground elevation above sea level at the network object's location.
-Frequency, MHz
+Frequency, [MHz](https://www.google.com/search?q=MHz+megahertz+frequency+unit)
 Frequency of the mesh node.
 Antenna
 Define antenna patterns for the mesh node object.
@@ -1406,18 +1406,18 @@ Power value of the mesh node.
 Misc Loss, dB
 Miscellaneous loss value of the mesh node.
 Misc Loss, dBm
-Sensitivity value of the mesh node.
+[Sensitivity](https://www.google.com/search?q=receiver+sensitivity+dBm+radio) value of the mesh node.
 Type
 Type of the mesh node (text description).
 Max connections
 The maximum number of connections the mesh node can have (used for mesh connectivity calculations).
 Layer
-The layer of the mesh node (number value). Used for priority calculations in Automatic Frequency Planning.
+The layer of the mesh node (number value). Used for priority calculations in [Automatic Frequency Planning](https://www.google.com/search?q=Automatic+Frequency+Planning+[AFP](https://www.google.com/search?q=Automatic+Frequency+Planning+radio+network)+interference).
 Group name
 The group name of the mesh node (text description). Several mesh nodes may belong to the same group.
 Prediction model
 The prediction model that will be used for the mesh node in Mesh Connectivity and Quick Mesh Connectivity
-calculations. The default selection is LOS ITU-R P.525 (6GHz – 100GHz) – Default.
+calculations. The default selection is LOS [ITU-R](https://www.google.com/search?q=ITU+R+radio+communication+standard) P.525 (6GHz – 100GHz) – Default.
 
 ## 7.3 Object Editor
 
@@ -1638,9 +1638,9 @@ Click the button to open the Antenna Viewer. Change Antenna Type to Parabolic.
 You can filter the entries of the Antenna Table by pressing the Filter symbol near one of the field names
 and entering the desired filter value.
 7.5.1 Preview Antenna Patterns
-The antenna Type dropdown list contains two antenna types: Sector and Parabolic. Sector antennas have
+The antenna Type dropdown list contains two antenna types: [Sector](https://www.google.com/search?q=cell+sector+antenna+coverage+area) and Parabolic. [Sector](https://www.google.com/search?q=cell+sector+antenna+coverage+area) antennas have
 2 patterns and pertain to a single network object. Parabolic antennas have 4 patterns and pertain to
-point-to-point network objects. In Cellular Expert these objects are Links.
+[point-to-point](https://www.google.com/search?q=point+to+point+radio+link+microwave) network objects. In Cellular Expert these objects are Links.
 
 ## 7.6 Prediction Model Manager
 
@@ -1648,7 +1648,7 @@ The CE Path Loss Modelling aims to perform near-deterministic calculation of rec
 specific point (pixel) in the network’s target coverage area by applying selective path loss model depending
 on the radio visibility condition between the transmitter antenna vis-à-vis a receiver antenna located at a
 given point in coverage area. The radio visibility is evaluated based on the DTM, Obstacles and Clutter
-path profile information, as described in previous section. This verification of radio visibility will result in the
+[path profile](https://www.google.com/search?q=path+profile+terrain+microwave+link) information, as described in previous section. This verification of radio visibility will result in the
 Confidential ©Cellular Expert, 2026 Page | 87
 
 ---
@@ -1657,20 +1657,20 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 receiver antenna point assigned into one of three possible radio visibility conditions:
 - Line-of-Sight (LOS) – occurs when there are neither terrain irregularities, obstacles or clutter
 interposing the direct radio path between the transmitter and receiver antennas. The radio path is
-understood to include the 1st Fresnel zone around the direct line and account for Spherical Earth
-effect. The LOS condition is illustrated by the path profile depicted in Fig. 3(a).
+understood to include the 1st [Fresnel zone](https://www.google.com/search?q=Fresnel+zone+radio+link+clearance+calculation) around the direct line and account for Spherical Earth
+effect. The LOS condition is illustrated by the [path profile](https://www.google.com/search?q=path+profile+terrain+microwave+link) depicted in Fig. 3(a).
 - Obstructed LOS (OLOS) – occurs when the direct radio propagation line is interposed by clutter,
 see illustration in Fig. 3(b).
-- Non-LOS (NLOS) – occurs when the direct radio propagation line is interposed by terrain bulges
+- Non-LOS ([NLOS](https://www.google.com/search?q=NLOS+Non+Line+of+Sight+radio+propagation)) – occurs when the direct radio propagation line is interposed by terrain bulges
 or obstacles, see illustration in Fig. 3(c).
-(a) Example of path profile with LOS condition (green line of direct radio link)
+(a) Example of path profile with LOS condition (green line of direct [radio link](https://www.google.com/search?q=radio+link+microwave+point+to+point))
 (b) Example of path profile with OLOS condition (yellow segment of radio link path)
 Confidential ©Cellular Expert, 2026 Page | 88
 
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-(c) Example of path profile with NLOS condition (red segment of radio link path)
+(c) Example of path profile with [NLOS](https://www.google.com/search?q=NLOS+Non+Line+of+Sight+radio+propagation) condition (red segment of radio link path)
 (d) Example of path profile with OLOS+NLOS condition (yellow+red segment of radio link path)
 Fig. 3. Illustration of different LOS conditions
 Depending on the LOS condition for the receive antenna at specific location (area map pixel), the CE tools
@@ -1678,7 +1678,7 @@ will apply the specific sub-set of path loss prediction model, as explained in t
 Note that when the receiver is located indoors, the special Outdoor-to-Indoor propagation function will be
 applied in addition to basic path loss, as explained in the separate section at the end of this chapter.
 7.6.1 Models
-Prediction models available in Cellular Expert support frequencies from 10kHz to 350 GHz.
+Prediction models available in Cellular Expert support frequencies from 10kHz to 350 [GHz](https://www.google.com/search?q=GHz+gigahertz+frequency+unit).
 To open the Prediction Model Manager dialogue, click on the Prediction Model Manager tool in
 the Data Management section.
 Confidential ©Cellular Expert, 2026 Page | 89
@@ -1686,8 +1686,8 @@ Confidential ©Cellular Expert, 2026 Page | 89
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-CEC ITU-R 3GPP Model (100MHz – 6GHz) is a combination model intended for use in a variety of different
-radiocommunication systems which is derived explicitly from ITU-R path loss modelling methods as follows:
+CEC [ITU-R](https://www.google.com/search?q=ITU+R+International+Telecommunication+Union+Radio) 3GPP Model (100MHz – 6GHz) is a combination model intended for use in a variety of different
+radiocommunication systems which is derived explicitly from [ITU-R](https://www.google.com/search?q=ITU+R+International+Telecommunication+Union+Radio) path loss modelling methods as follows:
 a. Receive antenna in LOS condition – path loss calculated as FSL based on Recommendation ITU-
 R P.525 (ref URL).
 b. Receive antenna in OLOS condition – total path loss modelled as a combination of basic FSL
@@ -1695,7 +1695,7 @@ calculated based on Recommendation ITU-R P.525 (ref URL) with included dual slop
 clutter loss modelling based on Recommendation ITU-R P.2108 (ref URL).
 c. Receive antenna in NLOS condition – path loss as a combination of basic FSL calculated based
 on Recommendation ITU-R P.525 (ref URL) with included dual slope option, additional losses due
-to diffraction calculated based on Recommendation ITU-R P.526 (ref URL).
+to [diffraction](https://www.google.com/search?q=radio+diffraction+obstacle+propagation) calculated based on Recommendation ITU-R P.526 (ref URL).
 d. Receive antenna in OLOS+NLOS condition – path loss as a combination of basic FSL calculated
 based on Recommendation ITU-R P.525 (ref URL) with included dual slope option, additional
 losses due to diffraction calculated based on Recommendation ITU-R P.526 (ref URL), and clutter
@@ -1737,7 +1737,7 @@ coverage planning and regulatory studies. Users can configure environmental para
 resolution settings to match local conditions and improve prediction accuracy.
 LOS ITU-R P.525 Model (6GHz – 100GHz) is the FSL path loss calculated based on the method in
 Recommendation ITU-R P.525 (ref URL). As such it could be used for modelling radio links where LOS is
-considered a necessary condition, e.g., for Fixed (Point-to-Point) Links or Mobile Systems in mmWave
+considered a necessary condition, e.g., for Fixed ([Point-to-Point](https://www.google.com/search?q=point+to+point+radio+link+microwave)) Links or Mobile Systems in mmWave
 bands.
 UniMacro Model (400MHz – 3GHz) is the CE’s proprietary combination model developed over the years
 of practical experience with the operational planning of cellular mobile networks in the frequency ranges
@@ -1754,7 +1754,7 @@ above based on LOS, OLOS and NLOS conditions, and additional penetration loss is
 simulate Outdoor-to-Indoor scenario which is based on ITU-R P.833 recommendation (if receiver
 is in vegetation type clutter) or based on 3GPP TR 38.901 (ref URL) (if receiver is in a building).
 ITU-R P.368 (10kHz – 30MHz) provides a standardized prediction method for assessing the ground-wave
-field strength of radio waves in the 10 kHz to 30 MHz frequency range. This frequency band is primarily
+field strength of radio waves in the 10 kHz to 30 MHz frequency range. This [frequency band](https://www.google.com/search?q=radio+frequency+band+telecom+spectrum) is primarily
 associated with long-range communication systems using amplitude modulation (AM) and shortwave
 bands, often for maritime, aeronautical, military, and broadcasting services.
 This model offers guidance for engineers, planners, and researchers working on system design and
@@ -1767,10 +1767,10 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 The ITU-R P.368 model calculates signal strength based on several key environmental and system
 parameters:
 Frequency (f)
-Higher frequencies tend to attenuate more rapidly over ground. The attenuation rate increases
+Higher frequencies tend to attenuate more rapidly over ground. The [attenuation](https://www.google.com/search?q=signal+attenuation+loss+radio+propagation) rate increases
 significantly above 3 MHz.
 Distance (d)
-Field strength diminishes with increasing distance due to geometrical spreading and absorption by
+Field strength diminishes with increasing distance due to geometrical spreading and [absorption](https://www.google.com/search?q=atmospheric+absorption+radio+signal) by
 the ground and atmosphere.
 Surface refractivity, Surface Conductivity (σ) and Relative Permittivity (εᵣ)
 The surface over which the wave propagates critically affects signal strength:
@@ -1780,8 +1780,8 @@ The surface over which the wave propagates critically affects signal strength:
 o Conductivity: 10⁻⁴ to 5 S/m
 o Relative permittivity: 4 to 81
 ISO 9613 standard provides a validated, practical method for predicting the outdoor propagation of sound,
-and is increasingly applied in siren sound modeling within public security, emergency warning systems, and
-defense operations. This modeling ensures that acoustic alert systems (e.g. civil defense sirens, disaster
+and is increasingly applied in [siren](https://www.google.com/search?q=siren+audibility+sound+propagation+ISO9613) sound modeling within public security, emergency warning systems, and
+defense operations. This modeling ensures that [acoustic](https://www.google.com/search?q=acoustic+propagation+sound+wave+modeling) alert systems (e.g. civil defense sirens, disaster
 warnings, military alert signals) achieve their intended coverage, intelligibility, and effectiveness across
 various terrain and urban environments.
 Purpose in the Public Security Context
@@ -1790,11 +1790,11 @@ In emergency and defense scenarios, reliable audibility of sirens is critical fo
 - Military base perimeter alarms
 - Air raid or missile defense warning networks
 - Disaster alert systems (e.g. earthquakes, tsunamis, nuclear incidents)
-By applying ISO 9613-2, engineers can model how far a siren can be heard under specific environmental
+By applying ISO 9613-2, engineers can model how far a [siren](https://www.google.com/search?q=siren+audibility+sound+propagation+ISO9613) can be heard under specific environmental
 conditions, optimizing:
 - Placement and spacing of sirens
 - Sound power selection
-- Minimization of acoustic shadow zones
+- Minimization of [acoustic](https://www.google.com/search?q=acoustic+propagation+sound+wave+modeling) shadow zones
 - Compliance with national safety and civil defense regulations
 The model assumes standard favorable propagation:
 - Downwind or moderate inversion conditions
@@ -1802,7 +1802,7 @@ The model assumes standard favorable propagation:
 - Relative humidity ~70%
 These are conservative conditions ensuring that siren reach is never overestimated, supporting public
 safety margin planning.
-CEC 3GPP TR Indoor (500MHz – 100GHz) Propagation Model is a high-frequency path loss model
+CEC 3GPP TR Indoor (500MHz – 100GHz) [Propagation Model](https://www.google.com/search?q=radio+wave+propagation+model+telecom) is a high-frequency path loss model
 designed for indoor radiocommunication systems operating within the 500 MHz to 100 GHz range. It builds
 upon the CEC ITU-R 3GPP model (100 MHz – 6 GHz) by adapting it to complex indoor environments, such
 Confidential ©Cellular Expert, 2026 Page | 92
@@ -1820,20 +1820,20 @@ leveraging 3GPP-specific methods for accurate simulation of indoor multipath, wa
 frequency-dependent fading.
 Purpose and Use Cases
 The model is intended for:
-- Indoor wireless access network design (e.g., Wi-Fi, 5G NR, mmWave)
+- Indoor wireless access network design (e.g., Wi-Fi, [5G NR](https://www.google.com/search?q=5G+NR+New+Radio+standard), mmWave)
 - System-level simulations for indoor coverage planning
 - Performance evaluation of in-building penetration for outdoor base stations
 - Integration with dual-slope and multi-scenario path loss modeling frameworks
 7.6.1.1 CEC ITU-R 3GPP Model
 Model application
 This deterministic model is designed for precise tracking of the main, strongest radio ray, while also
-empirically modeling the scattering of other rays around the receiver. It applies to all ranges of cellular
+empirically modeling the [scattering](https://www.google.com/search?q=radio+wave+scattering+propagation) of other rays around the receiver. It applies to all ranges of cellular
 mobile and public safety networks, including 2G, 3G, 4G, and 5G, within the 30 MHz to 6 GHz frequency
 range.
 The model is recommended for accurate wide-area propagation and coverage modeling, especially when
 precise and up-to-date topographic data are available. This includes Digital Terrain Models (DTM), building
 data (including height information), and vegetation data (with height details) derived from a Digital Surface
-Model (DSM). Ideally, these data should be created with LiDAR or similar methods, at a resolution of at
+Model (DSM). Ideally, these data should be created with [LiDAR](https://www.google.com/search?q=LiDAR+light+detection+ranging) or similar methods, at a resolution of at
 least 10 meters, though 5, 2, or even 1 meter or higher is preferable for optimal accuracy.
 When building data and their heights are not available, and only DTM and clutter data at a resolution of 10
 meters or lower are accessible, the UniMacro Model should be considered for wide-area propagation and
@@ -2051,10 +2051,10 @@ Confidential ©Cellular Expert, 2026 Page | 98
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 7.6.1.3 UniMacro Model
 Model application
-This model is designed for deterministic tracking of the main, strongest radio ray in Line of Sight (LOS)
-areas, while propagation modeling in Obstructed Line of Sight (OLOS) and Non-Line of Sight (NLOS) areas
+This model is designed for deterministic tracking of the main, strongest radio ray in [Line of Sight](https://www.google.com/search?q=Line+of+Sight+LOS+radio+propagation) (LOS)
+areas, while propagation modeling in Obstructed [Line of Sight](https://www.google.com/search?q=Line+of+Sight+LOS+radio+propagation) (OLOS) and Non-[Line of Sight](https://www.google.com/search?q=Line+of+Sight+LOS+radio+propagation) (NLOS) areas
 uses empirically determined parameters defined in ITU-R and 3GPP recommendations. It also models the
-scattering of other rays around the receiver. The model applies empirically validated values for the 400
+[scattering](https://www.google.com/search?q=radio+wave+scattering+propagation) of other rays around the receiver. The model applies empirically validated values for the 400
 MHz to 3 GHz frequency range and is suitable for modeling all cellular mobile and public safety networks,
 including 2G, 3G, 4G, and 5G, within that frequency range.
 This model is recommended for wide-area propagation and coverage modeling when building data and
@@ -2086,8 +2086,8 @@ and the effect is only applied for Line of Sight condition.
 Distance coefficient far parameter.
 - Frequency coefficient – indicates the slope determined by the frequency value, with a default value
 of 20.
-If Tx and Rx is in OLOS or NLOS condition, then Hata 9999 equation is used. 9999 Model is the Ericsson’s
-implementation of Hata Model. Ericsson provides the steering parameters of 9999 Model for different
+If Tx and Rx is in OLOS or NLOS condition, then Hata 9999 equation is used. 9999 Model is the [Ericsson](https://www.google.com/search?q=Ericsson+telecom+network+vendor)’s
+implementation of Hata Model. [Ericsson](https://www.google.com/search?q=Ericsson+telecom+network+vendor) provides the steering parameters of 9999 Model for different
 environments; therefore it’s very convenient just to apply in this form as the default parameters.
 - Hata Loss: A0 - constant offset in dB this value simply added to loss grid. Adjusting this value, you
 can minimize mean error. It regulates the absolute level of the loss curve. Default value 36.2.
@@ -2097,7 +2097,7 @@ value 30.2.
 - Hata Loss: A2 - transmitter height influence coefficient. It is related to errors in DTM, real Earth
 curvature, etc. It regulates loss curve vertical position like the A0, but with respect to antenna height.
 Default value -12.
-- Hata Loss: A3 - Okumura-Hata type of multiplying factor for log(h )log(d). Default value 0.1.
+- Hata Loss: A3 - [Okumura-Hata](https://www.google.com/search?q=Okumura+Hata+propagation+model) type of multiplying factor for log(h )log(d). Default value 0.1.
 M
 Clutter class to calculate diffraction, clutter loss, penetration loss and receiver loss
 Confidential ©Cellular Expert, 2026 Page | 100
@@ -2307,7 +2307,7 @@ less favorable conditions.
 - Interpretation: A 10% time prediction means the signal level is met or exceeded during 10% of the
 time, capturing worst-case propagation conditions (i.e., stronger signal occurrence during favorable
 propagation).
-7.6.1.7 ISO9613 Model
+7.6.1.7 [ISO9613](https://www.google.com/search?q=ISO+9613+acoustic+propagation+standard) Model
 Model application
 ISO 9613 is an international standard used for predicting outdoor sound propagation, including the
 assessment of siren noise levels. It provides a structured method for calculating sound attenuation over
@@ -2369,7 +2369,7 @@ calculations.
 statistics for wind speed and direction, and temperature gradients. Experience indicates that values
 of Meteorological conditions (C0) in practice are limited to the range from zero to approximately +
 5 dB.
-Ground factor parameter for the ISO9613-2 model’s clutter classes allows users to define the acoustic
+Ground factor parameter for the [ISO9613](https://www.google.com/search?q=ISO+9613+acoustic+propagation+standard)-2 model’s clutter classes allows users to define the acoustic
 reflectivity (from 0 to 1, indicating hard-soft respectively) of the ground surface for more accurate sound
 level predictions.
 Clutter Classes default values
@@ -2627,7 +2627,7 @@ configuration, templates act as a safeguard. They ensure all necessary parameter
 for, reducing the likelihood of incomplete or incorrect setups.
 3. Coverage Prediction Assurance: Templates are particularly valuable when performing tasks like
 coverage predictions. If a parameter in the wireless network layer is forgotten or overlooked (e.g.,
-for a cell, site, or CPE), the template provides a fallback, ensuring that the prediction can still be
+for a cell, site, or [CPE](https://www.google.com/search?q=CPE+Customer+Premises+Equipment+wireless)), the template provides a fallback, ensuring that the prediction can still be
 performed accurately and without interruption.
 By using templates, users can maintain efficiency, accuracy, and reliability in network planning and
 analysis, even in "just-in-case" scenarios where manual inputs might fall short.
@@ -2716,7 +2716,7 @@ Dismiss changes made to the modulation.
 The Import Objects feature further enhances efficiency by allowing users to bring in network objects from
 multiple external documents without manually creating them. This capability is invaluable when dealing with
 extensive or complex datasets. Cellular Expert for ArcGIS Pro supports the import of three widely used file
-formats: .xls, .xlsx, and .csv. Additionally, for mapping files, it supports the .json format.
+formats: .xls, .xlsx, and .csv. Additionally, for mapping files, it supports the .[json](https://www.google.com/search?q=JSON+JavaScript+Object+Notation+data+format) format.
 Key benefits of the Import Objects feature include:
 - Time-Saving: Instead of manually entering or recreating network objects, users can quickly import
 data from existing documents, significantly reducing setup time.
@@ -2740,16 +2740,16 @@ Take necessary parameters from the template during the import. Template values a
 parameters are missing in text file and mapping file.
 Import HCM Patterns
 Antenna patterns would be created and imported based on specific antenna name values provided in HCM
-agreement. HCM antenna pattern import requires the data files to have an antenna_type field.
+agreement. HCM [antenna pattern](https://www.google.com/search?q=antenna+radiation+pattern+format) import requires the data files to have an antenna_type field.
 Generate Cell Name
 Generate a cell name for all selected cells based on these parameters in this exact order: "longitude",
-"latitude", "height", "azimuth", "power", "antenna_gain", and "frequency". If any of the fields are missing,
+"latitude", "height", "[azimuth](https://www.google.com/search?q=antenna+azimuth+direction+degrees+north)", "power", "antenna_gain", and "frequency". If any of the fields are missing,
 that field will be skipped.
 Use Default Mapping File
 A default mapping file will be applied to the imported data.
 Select Data Files
 Opens a dialogue window where the user can select the files that define the network objects to be imported.
-The supported formats: .xls, .xlsx,.csv, and tables from .sde connection. Upon successful selection, the
+The supported formats: .xls, .xlsx,.csv, and tables from .[sde](https://www.google.com/search?q=SDE+ArcSDE+spatial+database+engine) connection. Upon successful selection, the
 button will light up green.
 Confidential ©Cellular Expert, 2026 Page | 121
 
@@ -2758,7 +2758,7 @@ Confidential ©Cellular Expert, 2026 Page | 121
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 Select Mapping File (Optional)
 Opens a dialogue window where the user can select a file that defines the data to be imported and the
-conditions under which said data is processed. The supported format is .json. Upon successful selection,
+conditions under which said data is processed. The supported format is .[json](https://www.google.com/search?q=JSON+JavaScript+Object+Notation+data+format). Upon successful selection,
 the button will light up green. More on mapping files are below.
 Steps.
 1. Click on Select Data Files, and define your text file. The file will be loaded into the dialog.
@@ -2805,7 +2805,7 @@ Take necessary parameters from the template during the import. Template values a
 parameters are missing in text file and mapping file.
 Select Data Files
 Opens a dialogue window where the user can select the files that define the network objects to be imported.
-The supported formats: .xls, .xlsx,.csv, and tables from .sde connection. Upon successful selection, the
+The supported formats: .xls, .xlsx,.csv, and tables from .[sde](https://www.google.com/search?q=SDE+ArcSDE+spatial+database+engine) connection. Upon successful selection, the
 button will light up green.
 Select Mapping File (Optional)
 Opens a dialogue window where the user can select a file that defines the data to be imported and the
@@ -2821,10 +2821,10 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 
 7.9.1 Import Antennas
 Click the toolbar button and select Import to import antenna patterns. The command opens a
-dialogue window where the user can select the antenna pattern files to be imported into the Cellular Expert
+dialogue window where the user can select the [antenna pattern](https://www.google.com/search?q=antenna+radiation+pattern+file+format+MSI) files to be imported into the Cellular Expert
 database. Select the antenna type in the dropdown list and proceed.
 Select Files
-This button opens a dialogue in which you can select one or more antenna pattern files to be imported. The
+This button opens a dialogue in which you can select one or more [antenna pattern](https://www.google.com/search?q=antenna+radiation+pattern+file+format+MSI) files to be imported. The
 supported type formats are Planet, Andrew, and NSMA.
 Import Antennas
 Imports the selected Antenna pattern files to the Cellular Expert database.
@@ -2865,7 +2865,7 @@ Antenna identification or name.
 Frequency
 Antenna frequency value in MHz.
 Gain
-Antenna gain value in dBi.
+[Antenna gain](https://www.google.com/search?q=antenna+gain+[dBi](https://www.google.com/search?q=dBi+decibel+isotropic+antenna+gain)+directional) value in dBi.
 Horizontal beamwidth
 Antenna’s horizontal beamwidth value or range in degrees. By default, the value is 60.
 Vertical beamwidth
@@ -2910,12 +2910,12 @@ Capacity
 Maximum data throughput of the radio.
 Emission Designator
 Code describing the characteristics of the radio emission, including modulation type, signal nature, and
-bandwidth.
+[bandwidth](https://www.google.com/search?q=channel+bandwidth+radio+frequency+MHz).
 Frequency From, MHz
 The lower limit of the frequency range for the radio communication channel, measured in MHz.
 Frequency To, MHz
 The upper limit of the frequency range for the radio communication channel, measured in MHz.
-Bandwidth, MHz
+[Bandwidth](https://www.google.com/search?q=channel+bandwidth+radio+frequency+MHz), MHz
 Range of frequencies within which the radio operates, value in MHz. Required for 4G and 5G technologies.
 MTBF, h
 Mean time between failures: average time (in hours) between successive failures of the radio system during
@@ -2934,21 +2934,21 @@ Confidential ©Cellular Expert, 2026 Page | 129
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-Dispersive Fade Margin, dB
+Dispersive [Fade Margin](https://www.google.com/search?q=fade+margin+link+budget+microwave+dB), dB
 Additional signal strength required to overcome dispersion and fading effects in the radio communication
 system, measured in dB.
 Radio Properties: Receiver
 BER 10-3 Threshold, dBm
-Receiver sensitivity threshold for BER = 10-6.
+Receiver [sensitivity](https://www.google.com/search?q=receiver+sensitivity+dBm+radio) threshold for BER = 10-6.
 BER 10-6 Threshold, dBm
 Receiver sensitivity threshold for BER = 10-3.
 Noise Floor, dB
-Refers to the minimum power level of unwanted noise or interference at the receiver at the base station.
-Noise Figure, dB
+Refers to the minimum power level of unwanted noise or interference at the receiver at the [base station](https://www.google.com/search?q=base+station+[BTS](https://www.google.com/search?q=BTS+Base+Transceiver+Station+GSM+2G)+[NodeB](https://www.google.com/search?q=NodeB+3G+UMTS+base+station)+[eNodeB](https://www.google.com/search?q=eNodeB+LTE+4G+base+station)+[gNodeB](https://www.google.com/search?q=gNodeB+5G+NR+base+station)).
+[Noise Figure](https://www.google.com/search?q=noise+figure+receiver+sensitivity+dB), dB
 Measure of the degradation of the signal-to-noise ratio (SNR) as a signal passes through a radio component
 or system. Value in dB. Required for 4G and 5G technologies.
 Receiver Noise, dBm
-The sum of Noise Floor and Noise Figure.
+The sum of Noise Floor and [Noise Figure](https://www.google.com/search?q=noise+figure+receiver+sensitivity+dB).
 Residual BER
 The remaining bit error rate after all error correction methods have been applied.
 IIP2, dBm
@@ -3207,7 +3207,7 @@ Azimuth towards receiver
 Enabled by default. When enabled, the transmitter’s azimuth is towards the receiver. Disabling this option
 it would take azimuth value from the Cell object, and use it for FWA Power Budget calculations, it also
 allows the user to enter a custom azimuth value for the transmitter.
-Downtilt towards receiver
+[Downtilt](https://www.google.com/search?q=antenna+downtilt+mechanical+electrical+degrees) towards receiver
 Enabled by default. When enabled, the transmitter’s tilt is towards the receiver. Disabling this option it would
 take tilt value from the Cell object, and use it for FWA Power Budget calculations, it allows the user to enter
 a custom tilt value for the transmitter.
@@ -3228,16 +3228,16 @@ Power, dBm
 A power that the transmitter possesses.
 Misc Loss, dB
 Miscellaneous loss value in dB. Value is not required.
-Tx mimo
+[Tx mimo](https://www.google.com/search?q=Tx+[MIMO](https://www.google.com/search?q=MIMO+Multiple+Input+Multiple+Output+antenna+technology)+transmit+antenna+configuration)
 Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
-Rx mimo
+[Rx mimo](https://www.google.com/search?q=Rx+[MIMO](https://www.google.com/search?q=MIMO+Multiple+Input+Multiple+Output+antenna+technology)+receive+antenna+configuration)
 Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
 Confidential ©Cellular Expert, 2026 Page | 144
 
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-Subcarrier spacing
+[Subcarrier spacing](https://www.google.com/search?q=[subcarrier](https://www.google.com/search?q=subcarrier+spacing+[OFDM](https://www.google.com/search?q=OFDM+Orthogonal+Frequency+Division+Multiplexing)+LTE+5G)+spacing+OFDM+LTE+5G+kHz)
 Value in kHz.
 Profile: Receiver
 Latitude
@@ -3286,7 +3286,7 @@ Confidential ©Cellular Expert, 2026 Page | 146
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-The Profile plot illustrating these geometries, obstacles (buildings), and the Fresnel zone will appear in a
+The Profile plot illustrating these geometries, obstacles (buildings), and the [Fresnel zone](https://www.google.com/search?q=Fresnel+zone+radio+link+clearance+calculation) will appear in a
 dockpane below. You can inspect the values at particular points by moving the cursor around the plot. The
 cursor movement on the plot will be projected as a moving point on the map. If a cell is selected for the
 transmitter, the cell’s tilt (the sum of mechanical and electrical tilts) and vertical beamwidth are displayed
@@ -3406,8 +3406,8 @@ Dependency on Receiver height
 Calculate reflection analysis based on receiver height range (from m to m)
 Dependency on Transmitter height
 Calculate reflection analysis based on transmitter height range (from m to m)
-Dependency on K-Factor
-Calculate reflection analysis based on K-factor range (from radius, km to radius, km)
+Dependency on [K-Factor](https://www.google.com/search?q=K+factor+earth+bulge+radio+propagation)
+Calculate reflection analysis based on [K-factor](https://www.google.com/search?q=K+factor+earth+bulge+radio+propagation) range (from radius, km to radius, km)
 Confidential ©Cellular Expert, 2026 Page | 156
 
 ---
@@ -3468,7 +3468,7 @@ The task list refreshes automatically once calculation tasks are run. The task s
 main colors: blue (in progress), green (completed), and red (failed). Calculation tasks can be deleted
 from the task list by clicking on the right side of the task. To open a result raster, select it from the results
 dropdown and click Open Results. Filtering by calculation spans these types: Antenna Visibility Prediction,
-EMF Calculation, Link Prediction, Model Tuning, Optimal Site Positions Calculation, RF Prediction, Siren
+[EMF](https://www.google.com/search?q=EMF+electromagnetic+field+exposure+assessment) Calculation, Link Prediction, [Model Tuning](https://www.google.com/search?q=propagation+model+tuning+calibration+CE), Optimal Site Positions Calculation, [RF Prediction](https://www.google.com/search?q=RF+radio+frequency+prediction+coverage+planning), Siren
 Sound Prediction, and Visibility Prediction.
 
 ## 9.2 Visibility Prediction
@@ -3480,7 +3480,7 @@ Visibility Prediction is a tool that calculates 4 different results:
 - Line of Sight – confirms whether visibility exists between the receiver and transmitter with the
 provided receiver height
 - Clearance Height – the distance from the profile that is covered or is not covered.
-- Best Server – the same calculation as for RF Prediction
+- [Best Server](https://www.google.com/search?q=best+server+analysis+coverage+planning+RF) – the same calculation as for [RF Prediction](https://www.google.com/search?q=RF+radio+frequency+prediction+coverage+planning)
 Click the button to open the Visibility Prediction dialogue.
 Confidential ©Cellular Expert, 2026 Page | 161
 
@@ -3520,7 +3520,7 @@ Confidential ©Cellular Expert, 2026 Page | 163
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-- Best Server
+- [Best Server](https://www.google.com/search?q=best+server+analysis+coverage+planning+RF)
 Confidential ©Cellular Expert, 2026 Page | 164
 
 ---
@@ -3531,7 +3531,7 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 ## 10.1 Mesh Connectivity
 
 Click the button to open Mesh Connectivity dialogue.
-This tool enables rapid and accurate assessment of wireless peer-to-peer link quality during mesh network
+This tool enables rapid and accurate assessment of wireless peer-to-peer link quality during [mesh network](https://www.google.com/search?q=mesh+network+wireless+topology)
 planning and optimization.
 How It Works:
 - Select one or more Mesh Nodes in the workspace.
@@ -3540,7 +3540,7 @@ How It Works:
 o Calculation name – the calculation name which will be visible in Contents.
 o Mesh node template – mesh node template if selected features won’t have all necessary
 parameters.
-o Mesh node feature class – by default Mesh Nodes are using for the calculations, but
+o Mesh node [feature class](https://www.google.com/search?q=ArcGIS+feature+class+geodatabase) – by default Mesh Nodes are using for the calculations, but
 external point type feature class can be used to estimate connectivity with each other.
 o Press Run button to start simulation.
 - The tool calculates the RSL between each node pair and compares it against the configured RSL
@@ -3665,8 +3665,8 @@ Receiving Signal Level threshold in dBm at Mesh Node.
 
 ## 11.1 Geoclimatic Data
 
-Click the button to open the Geoclimatic Data dialogue.
-Geoclimatic Data is a tool that lets you adjust the geoclimatic settings that will be used in certain calculations
+Click the button to open the [Geoclimatic](https://www.google.com/search?q=geoclimatic+factor+microwave+fading+ITU) Data dialogue.
+[Geoclimatic](https://www.google.com/search?q=geoclimatic+factor+microwave+fading+ITU) Data is a tool that lets you adjust the geoclimatic settings that will be used in certain calculations
 (e.g. Link Prediction).
 Confidential ©Cellular Expert, 2026 Page | 172
 
@@ -3680,7 +3680,7 @@ Confidential ©Cellular Expert, 2026 Page | 173
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-11.1.1 Gaseous Absorption
+11.1.1 [Gaseous Absorption](https://www.google.com/search?q=gaseous+absorption+oxygen+water+vapour+radio)
 Gaseous absorption pages define values for dry air pressure and water vapour density. These values can
 be obtained from predefined geoclimatic data maps.
 Water vapour density data according to ITU-R P.836-3. It is used in gaseous absorption evaluation.
@@ -3728,18 +3728,18 @@ Confidential ©Cellular Expert, 2026 Page | 175
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-11.1.3 Multipath Fading
+11.1.3 [Multipath Fading](https://www.google.com/search?q=multipath+fading+radio+propagation+effect)
 The Multipath Fading page defines refractivity data and calculation parameters for ITU and Vigants-Barnett
 methods.
 Worst month-to-annual statistics conversion can be performed according to ITU-R P. 530 or ITU-R P. 841
 methods.
-Refractivity gradient data is based on ITU-R P.453-9. Refractivity gradient data is used for multipath fading
+Refractivity gradient data is based on [ITU-R P.453](https://www.google.com/search?q=ITU+R+P453+radio+refractive+index)-9. Refractivity gradient data is used for [multipath fading](https://www.google.com/search?q=multipath+fading+radio+propagation)
 analysis.
 ITU Method
 Enable/Disable the ITU Method
-ITU-R P.530 version
+[ITU-R P.530](https://www.google.com/search?q=ITU+R+P530+microwave+fading) version
 A checkbox indicating the use of the International Telecommunication Union's method for calculations, with
-a dropdown to select the ITU-R P.530 version.
+a dropdown to select the [ITU-R P.530](https://www.google.com/search?q=ITU+R+P530+microwave+fading+propagation) version.
 Use Geoclimatic Data
 Enable/Disable this Geoclimatic data.
 Confidential ©Cellular Expert, 2026 Page | 176
@@ -3751,7 +3751,7 @@ Refractivity Gradient Data / Field
 Refractivity gradient data: DNDZ
 Refractivity gradient field: DN01; DN10; DN50; DN90; DN99, KF01...KF99
 - DNx - refractivity gradient not exceeded for x% of the average year in the lowest 65 m of
-atmosphere. DN01 is the parameter referred to as dN1 in ITU-R P.530.
+atmosphere. DN01 is the parameter referred to as dN1 in [ITU-R P.530](https://www.google.com/search?q=ITU+R+P530+microwave+fading+propagation).
 - KFx - Effective Earth radius not exceeded for x% of the average year in the lowest 65 m of
 atmosphere. KFx is provided only for map preview and cannot be used in the Geoclimatic Data
 settings dialog.
@@ -3796,7 +3796,7 @@ Elections to categorize the geographic location by ITU rain zone standards, whic
 attenuation in different regions.
 Geoclimatic data - ESA rain rate data / ESA rain rate
 Options to select the dataset (such as "ESARAIN_V5") and the specific field within that dataset (like "MT")
-for rain rate data, used for calculating rain attenuation.
+for rain rate data, used for calculating [rain attenuation](https://www.google.com/search?q=rain+attenuation+microwave+ITU+R+P838).
 Fading method - ITU method / ITU-R P.530 version
 A checkbox to select the ITU method for rain fading calculations and a dropdown to choose the version of
 the ITU-R P.530 recommendation being applied.
@@ -3804,7 +3804,7 @@ Rain rate exceeded for 0.01% of the time (mm/h)
 Options to use either default or custom values for the rain rate that is exceeded for 0.01% of the time, which
 is a measure used to predict rain fading in telecommunications.
 Crane
-This is a model selection option related to the Crane model for calculating rain attenuation.
+This is a model selection option related to the Crane model for calculating [rain attenuation](https://www.google.com/search?q=rain+attenuation+microwave+ITU+R+P838).
 End-to-end reliability method - Multi-hop / Two-way
 Selection options for the method of calculating the reliability of a signal in a communication path that may
 involve multiple hops or two-way transmission.
@@ -3923,7 +3923,7 @@ If checked, it will take into account the specified field margin for Power Budge
 Field Margin
 Extra signal strength beyond the minimum required, providing a buffer for reliable communication against
 unforeseen signal losses or variations.
-Thermal Fade Margin Prediction
+Thermal [Fade Margin](https://www.google.com/search?q=fade+margin+link+budget+microwave+dB) Prediction
 The threshold below which thermal fade will not be calculated.
 Confidential ©Cellular Expert, 2026 Page | 185
 
@@ -3968,7 +3968,7 @@ performance.
 
 ## 11.3 Automatic Frequency Planning
 
-Click the button to open the Automatic Frequency Planning tool.
+Click the button to open the [Automatic Frequency Planning](https://www.google.com/search?q=Automatic+Frequency+Planning+[AFP](https://www.google.com/search?q=Automatic+Frequency+Planning+radio+network)+interference) tool.
 The tool suggests the best channel for each selected link based on the chosen frequency plan and channel
 list. It accounts for inter-link interference, evaluates the signal-to-interference ratio (SIR) across available
 carriers, and aims to maximize link performance while minimizing co-channel interference. The tool

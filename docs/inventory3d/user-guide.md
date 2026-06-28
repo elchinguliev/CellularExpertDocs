@@ -1,12 +1,12 @@
-# CE Inventory3D User Guide v4.6
+# CE __S0__ User Guide v4.6
 
 1. Introduction
-CE Inventory3D is a versatile tool for inventory planning, design, space and assets management. It consists
+CE [Inventory3D]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=Cellular+Expert+Inventory3D+asset+management) is a versatile tool for inventory planning, design, space and assets management. It consists
 of several building blocks that together provide a customized and tailored solution for a specific need.
 Take inventory management: Error-prone databases which contain faulty inventory lists can be deleterious,
 especially in large industry environments. Thus, it is essential that upon inventory changing databases are
 regularly updated.
-In this User Guide we introduce the CE Inventory3D. From a desktop, laptop or tablet computer with internet
+In this User Guide we introduce the CE [Inventory3D]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=Cellular+Expert+Inventory3D+asset+management). From a desktop, laptop or tablet computer with internet
 access, the Webapp connects to a database located on a server and enables the user to edit database
 records, sites and objects, to draw diagrams and to locate the assets on an integrated map. CE Inventory3D
 integrates data derived from various sources, such as sensors, Google Sheets, maps, and changes in
@@ -15,11 +15,11 @@ to date.
 This User Guide explains the individual CE Inventory3D functions step by step and in detail
 2. Quickstart guide
 To access the CE Inventory3D web application, type its URL in the address field of a web browser. You
-can use any web browser, however, we recommend the up-to-date Google Chrome web browser.
+can use any web browser, however, we recommend the up-to-date [Google Chrome](https://www.google.com/search?q=Google+Chrome+web+browser) web browser.
 The URL depends on the installation and initial configuration:
 1. Web address, as an example: https://<yourdomain>/ce_inv3d
 2. An address can be configured by the administrator.
-Please note that for security reasons the application uses only HTTPS.
+Please note that for security reasons the application uses only [HTTPS](https://www.google.com/search?q=HTTPS+SSL+TLS+secure+protocol).
 Login with User and password combination
 Select one or more database records
 Click on a record using the left mouse button. Selected records are blue:
@@ -27,7 +27,7 @@ Click on a record using the left mouse button. Selected records are blue:
 ---
 
 Open dataset
-Select a site, click on the Record`s Details Tool and the list of objects opens:
+Select a [site](https://www.google.com/search?q=cell+site+tower+base+station+location), click on the Record`s Details Tool and the list of objects opens:
 Sieve
 Show only selected data of the currently opened table. Click and enter a filter term:
 Data Editing & Synchronizing
@@ -62,7 +62,7 @@ Go one step back and show previous data.
 3.1.3 Search (sieve)
 Sieve the data in the currently opened table for one or more filter terms.
 3.1.4 Multiple table view
-View and edit all tables from one site simultaneously in one window.
+View and edit all tables from one [site](https://www.google.com/search?q=cell+site+tower+base+station+location) simultaneously in one window.
 
 ---
 
@@ -93,8 +93,8 @@ child objects. Attachments are not duplicated.
 Add a new record to the Table view. Note that the newly added record will appear in orange writing.
 3.1.12 CE API
 Call CE API tool. Note: The administrator has to configure the tool.
-3.1.13 Export selected
-Export selected items.
+3.1.13 [Export](https://www.google.com/search?q=data+export+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+raster+vector) selected
+[Export](https://www.google.com/search?q=data+export+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+raster+vector) selected items.
 3.1.14 Delete record
 Remove a selected record from the current view. Note that removed records will be hidden from the user.
 Only administrators can delete a removed record from the database permanently (or restore it).
@@ -259,8 +259,8 @@ configured. To start tool selection, click on the button in the toolbar.
 
 ## 4.6 Import CSV
 
-This tool is integrated into the “CE API” tool. It is possible to import data from .csv files. Note(!): Consult
-with the administrator before import.
+This tool is integrated into the “CE API” tool. It is possible to [import](https://www.google.com/search?q=data+import+GIS+network+objects+[CSV](https://www.google.com/search?q=CSV+comma+separated+values+file+format)) data from .[csv](https://www.google.com/search?q=CSV+comma+separated+values+file+format) files. Note(!): Consult
+with the administrator before [import](https://www.google.com/search?q=data+import+GIS+network+objects+CSV).
 “Import CSV” opens a new window:
 1.
 Data can be imported either as a new table (level 0), or added as a child table to a parent table (level 1).
@@ -349,12 +349,12 @@ It is possible to add links to external webpages to the webapp, for example:
 
 ## 5.7 Displaying Rasters
 
-It is possible to display raster type of data, similar to graphical layers, on the map. Rasters are created by
+It is possible to display [raster](https://www.google.com/search?q=raster+GIS+grid+data+format) type of data, similar to graphical layers, on the map. Rasters are created by
 the administrator, but users may also access and configure the table map_rasters:
 
 ---
 
-If the raster is a PNG or JPG file, users can edit the coordinates of the top-left and bottom-right corners of
+If the [raster](https://www.google.com/search?q=raster+GIS+grid+data+format) is a PNG or JPG file, users can edit the coordinates of the top-left and bottom-right corners of
 the picture in the columns West, East, North, and South, and define the opacity.
 Example raster:
 Raster legend
@@ -384,7 +384,7 @@ Home
 moves the map view to your current location.
 Measure Distances
 Select the Measure Tool , left-click on the starting point, then move the mouse over the map - distance
-and azimuth values will be displayed between the starting point and the mouse cursor.
+and [azimuth](https://www.google.com/search?q=antenna+azimuth+direction+degrees+north) values will be displayed between the starting point and the mouse cursor.
 Link to database
 Map and database are functionally connected. Select the info tool . Then click on a site in the
 map (here: Abava), and a popup window opens:
@@ -452,7 +452,7 @@ To select an object, first click “Select Object” and then on the object on t
 4. Selected objects are marked with a yellow square:
 “Open Selection” Allows to open the CE Inventory3D attribute information of the selected objects. Click
 “Open Selection” and a new browser tab opens with the grouped data for the selected objects.
-“Draw Circles & Vectors” Allows to draw circles with a defined radius and lines with a defined azimuth for
+“Draw Circles & Vectors” Allows to draw circles with a defined radius and lines with a defined [azimuth](https://www.google.com/search?q=antenna+azimuth+direction+degrees+north) for
 selected objects. This feature must be configured by the administrator. It draws vectors based on data
 defined in the tables [table]_circles and [table]_vectors, where table is the name of layer table.
 “Clear Selection & Vectors” Allows to clear all selections, drawn circles and vectors.

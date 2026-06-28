@@ -1,25 +1,25 @@
-# 03. [Line of Sight](https://www.google.com/search?q=Line+of+Sight+LOS+radio+propagation) (Profile)
+# 03. __S0__ (Profile)
 
 1. Objective
-This module introduces Line of Sight (LOS) and visibility analysis in CE Express. It
+This module introduces [Line of Sight]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=Line+of+Sight+[LOS](https://www.google.com/search?q=LOS+Line+of+Sight+radio+propagation)+radio+propagation) ([LOS](https://www.google.com/search?q=LOS+Line+of+Sight+radio+propagation)) and visibility analysis in [CE Express]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform). It
 demonstrates how to use profiling and visibility tools to evaluate spatial conditions between
-transmitters, receivers, terrain, vegetation, and buildings.
+transmitters, receivers, [terrain](https://www.google.com/search?q=terrain+elevation+model+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+topography), vegetation, and buildings.
 The goal is to help participants build confidence in:
 - Setting up correct analysis inputs (transmitter/receiver locations and key parameters)
 - Interpreting graphical and numerical outputs
 - Converting results into practical conclusions that support planning, feasibility
 assessment, and reporting
 By the end of this exercise, participants will be able to:
-- Analyze line-of-sight conditions between two locations
+- Analyze [line-of-sight](https://www.google.com/search?q=line+of+sight+LOS+radio+link) conditions between two locations
 - Interpret profile results and obstruction indicators
 - Perform area-based visibility analysis
 - Understand and visualize visibility results for decision support
 2. Initial data
-This exercise assumes a prepared workspace containing:
-- Network objects created in the previous exercise
-- Loaded geodata (terrain, obstacles and [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio))
+This exercise assumes a prepared [workspace](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+workspace+project+geodatabase) containing:
+- [Network objects](https://www.google.com/search?q=radio+network+objects+sites+cells+GIS) created in the previous exercise
+- Loaded geodata ([terrain](https://www.google.com/search?q=terrain+elevation+model+GIS+topography), obstacles and [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio))
 - Defined equipment and calculation models
-3. Understanding Line of Sight and Visibility
+3. Understanding [Line of Sight](https://www.google.com/search?q=Line+of+Sight+LOS+radio+propagation) and Visibility
 Line of Sight (LOS) describes whether a direct, unobstructed path exists between a
 transmitter and a receiver. Visibility analysis extends this concept by evaluating how terrain,
 vegetation, buildings, and other obstacles influence connectivity across space.
@@ -35,20 +35,20 @@ such as:
 LOS and visibility analysis is widely applicable in many scenarios, including:
 - Feasibility studies – determining whether a connection or observation path is
 possible before deployment
-- Site selection and placement – identifying locations with the best visibility
+- [Site](https://www.google.com/search?q=cell+site+tower+base+station+location) selection and placement – identifying locations with the best visibility
 characteristics
 - Operational planning – understanding terrain and obstruction impact on
 communication or sensing
 - Risk and constraint assessment – recognizing areas where obstacles significantly
 limit performance
-In CE Express, LOS and visibility analysis are supported by two complementary tools:
-- Profile Tool – analyzes visibility along a single path (point-to-point)
+In [CE Express](https://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform), LOS and visibility analysis are supported by two complementary tools:
+- Profile Tool – analyzes visibility along a single path ([point-to-point](https://www.google.com/search?q=point+to+point+radio+link+[microwave](https://www.google.com/search?q=microwave+[backhaul](https://www.google.com/search?q=backhaul+microwave+telecom+network)+radio+link+planning)))
 - Visibility Prediction Tool – analyzes visibility across an area (point-to-area)
 Together, these tools help users move from simple visual checks to structured, data-driven
 assessment of spatial conditions.
 Both tools rely on:
-- Terrain elevation
-- Vegetation and clutter
+- Terrain [elevation](https://www.google.com/search?q=elevation+model+terrain+height+datum)
+- Vegetation and [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio+planning)
 - Buildings and structures
 - Equipment and configuration parameters (such as height and frequency)
 By combining detailed profiles with area-wide visibility results, users gain a clear and intuitive
@@ -62,12 +62,12 @@ understanding of how the environment influences connectivity and visibility.
 
 1. Open the CE Express application:
 https://cecom2.cellular-expert.com/ce_express/
-2. From the workspace list, select the workspace used in the previous exercise.
+2. From the [workspace](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+workspace+project+geodatabase) list, select the workspace used in the previous exercise.
 
 ## 4.2 Step 2 – Profiling (Point-to-Point Analysis)
 
 4.2.1 Selecting the Transmitter and Receiver
-1. Find the cell with Cell Name: Cx002.
+1. Find the [cell](https://www.google.com/search?q=mobile+cell+sector+coverage+base+station) with [Cell](https://www.google.com/search?q=mobile+cell+sector+coverage+base+station) Name: Cx002.
 2. Zoom to its location on the map.
 3. Open the Profile tool.
 
@@ -94,11 +94,11 @@ The Profile tool provides several result sections:
 
 - General – Summary of path characteristics
 - Power Budget – Transmit and receive power balance
-- Path Loss – Signal attenuation along the path
+- [Path Loss](https://www.google.com/search?q=path+loss+radio+signal+attenuation+[dB](https://www.google.com/search?q=dB+decibel+signal+measurement+unit)) – Signal [attenuation](https://www.google.com/search?q=signal+attenuation+loss+radio+propagation) along the path
 - Angles – Vertical and horizontal angles between points
 Each tab offers additional context for understanding the profile outcome.
-4.2.3 Exploring Parameter Sensitivity
-Parameter sensitivity analysis helps users understand how changes in input values influence
+4.2.3 Exploring Parameter [Sensitivity](https://www.google.com/search?q=receiver+sensitivity+[dBm](https://www.google.com/search?q=dBm+decibel+milliwatt+power+unit)+radio)
+Parameter [sensitivity](https://www.google.com/search?q=receiver+sensitivity+[dBm](https://www.google.com/search?q=dBm+decibel+milliwatt+power+unit)+radio) analysis helps users understand how changes in input values influence
 visibility results. Instead of treating calculations as fixed outcomes, this step encourages
 exploration and comparison, making it easier to understand cause-and-effect relationships.
 In CE Express, the Profile tool recalculates results automatically and instantly when key
@@ -128,7 +128,7 @@ scenarios.
 Different frequencies interact with the environment in different ways. Lower frequencies
 generally:
 - Are less sensitive to small obstacles
-- Provide better diffraction over terrain
+- Provide better [diffraction](https://www.google.com/search?q=radio+diffraction+obstacle+propagation) over terrain
 - Result in different clearance and path characteristics
 Observing these changes helps users understand how frequency choice affects visibility
 outcomes.
@@ -165,7 +165,7 @@ As you move the mouse cursor:
 - The path updates based on the cursor left click.
 4.2.4.2 Exploring Receiver Locations
 1. Move the cursor across different areas of the map.
-2. Observe how the terrain profile preview changes along the grey path.
+2. Observe how the [terrain profile](https://www.google.com/search?q=terrain+profile+[elevation](https://www.google.com/search?q=elevation+model+terrain+height+datum)+radio+link) preview changes along the grey path.
 3. When a point of interest is identified, left-click on the map to set the receiver location.
 The profile is recalculated and displayed for the selected path.
 
@@ -184,7 +184,7 @@ Reports can be used for documentation, presentations, or decision support.
 
 ## 4.3 Step 3 – Visibility Prediction (Point-to-Area Analysis)
 
-Visibility Prediction extends the concept of line-of-sight analysis from a single path to an
+Visibility Prediction extends the concept of [line-of-sight](https://www.google.com/search?q=line+of+sight+LOS+radio+link) analysis from a single path to an
 entire surrounding area. Instead of answering the question “Is this specific point visible?”,
 it helps answer “Which areas are visible, and under what conditions?”
 This type of analysis is particularly useful when exploring spatial feasibility, coverage
@@ -193,7 +193,7 @@ Visibility prediction evaluates visibility between a fixed transmitter and many 
 receiver locations within a defined radius, taking into account:
 - Terrain elevation
 - Buildings and man-made structures
-- Vegetation and clutter
+- Vegetation and [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio+planning)
 - Earth curvature and distance
 - Defined receiver height
 
@@ -227,8 +227,8 @@ Opening the Visibility Prediction Tool
 This panel controls both the accuracy of the analysis and the scope of the evaluated area.
 Defining Calculation Parameters
 Set the following parameters carefully:
-- Resolution: 1
-Defines the spatial resolution of the output grid. Smaller values produce finer detail
+- [Resolution](https://www.google.com/search?q=spatial+resolution+[raster](https://www.google.com/search?q=raster+GIS+grid+data+format)+GIS+accuracy): 1
+Defines the spatial [resolution](https://www.google.com/search?q=spatial+resolution+[raster](https://www.google.com/search?q=raster+GIS+grid+data+format)+GIS+accuracy) of the output grid. Smaller values produce finer detail
 and smoother boundaries but increase computation time.
 - Max Radius: 2
 Defines the maximum distance (in kilometers) from the transmitter to be analyzed.
@@ -262,9 +262,9 @@ Preview the results:
 Minimum Receiver Height – the receiver height in meters, which ensure visibility between
 transmitter and receiver.
 Line of Sight – Visibility condition, if value 1 – Visible, if value 0 – Not Visible.
-Clearance – [Fresnel zone](https://www.google.com/search?q=Fresnel+zone+radio+link+clearance) obstruction in meters, if value is negative – Fresnel zone is
+Clearance – [Fresnel zone](https://www.google.com/search?q=Fresnel+zone+radio+link+clearance) obstruction in meters, if value is negative – [Fresnel zone](https://www.google.com/search?q=Fresnel+zone+radio+link+clearance+calculation) is
 obstructed by X meters.
-Best Server – Cell Identification, which has highest Clearence value.
+[Best Server](https://www.google.com/search?q=best+server+analysis+coverage+planning+RF) – Cell Identification, which has highest Clearence value.
 4.3.3 Visualizing Results on the Map
 Once a visibility prediction is completed, results are presented as map layers that visually
 describe visibility conditions across the analyzed area. Proper visualization is essential for
@@ -298,7 +298,7 @@ Working with Multiple Result Layers
 Visibility prediction produces several complementary result layers, such as:
 - Line of Sight
 - Clearance
-- Best Server
+- [Best Server](https://www.google.com/search?q=best+server+analysis+coverage+planning+RF)
 Users can:
 - Toggle layers on and off to compare results
 - Overlay results with other map layers (buildings, terrain, objects)

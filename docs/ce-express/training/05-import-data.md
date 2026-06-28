@@ -1,19 +1,19 @@
 # 05. Import Data
 
 1. Objective
-This module explains how to import external data into CE Express and how imported data
-becomes part of the project environment. It covers the import of network objects from CSV
+This module explains how to [import]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=data+import+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+network+objects+[CSV](https://www.google.com/search?q=CSV+comma+separated+values+file+format)) external data into [CE Express]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) and how imported data
+becomes part of the project environment. It covers the [import](https://www.google.com/search?q=data+import+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+network+objects+[CSV](https://www.google.com/search?q=CSV+comma+separated+values+file+format)) of [network objects](https://www.google.com/search?q=radio+network+objects+sites+cells+GIS) from CSV
 files and antenna patterns from external files, as well as the use of mapping templates to
 ensure consistency and repeatability.
 By the end of this exercise, participants will be able to:
-- Import network objects using CSV files
-- Map external data fields to CE Express object attributes
+- Import [network objects](https://www.google.com/search?q=radio+network+objects+sites+cells+GIS) using CSV files
+- Map external data fields to [CE Express](https://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) object attributes
 - Create and reuse import mapping templates
 - Import [antenna pattern](https://www.google.com/search?q=antenna+radiation+pattern+format) files into the CE Express database
-- Verify and review imported data within the workspace
+- Verify and review imported data within the [workspace](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+workspace+project+geodatabase)
 2. Understanding Data Import in CE Express
 Data import is a key capability in CE Express, allowing users to bring information from
-external sources into a workspace. Imported data may originate from:
+external sources into a [workspace](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+workspace+project+geodatabase). Imported data may originate from:
 - External planning tools
 - Inventory systems
 - Field surveys
@@ -40,7 +40,7 @@ https://cecom2.cellular-expert.com/ce_express/
 
 ## 4.2 Step 2 – Importing Network Objects (Cells and Sites)
 
-4.2.1 Purpose of Network Object Import
+4.2.1 Purpose of [Network Object](https://www.google.com/search?q=radio+network+object+GIS+database) Import
 Importing network objects allows users to rapidly populate a workspace with sites and cells
 instead of creating them manually. This approach is especially useful when working with
 existing datasets or migrating data between systems.
@@ -61,7 +61,7 @@ C:\CE_Course\ImportingData\Network
 The CSV file is uploaded and ready for mapping.
 4.2.4 Defining Import Options
 Enable the following options:
-- Create Sites – automatically creates site objects based on site-related fields
+- Create Sites – automatically creates [site](https://www.google.com/search?q=cell+site+tower+base+station+location) objects based on [site](https://www.google.com/search?q=cell+site+tower+base+station+location)-related fields
 
 ---
 
@@ -73,26 +73,26 @@ Mapping defines how columns in the CSV file are translated into CE Express objec
 parameters.
 For each attribute, define the following mappings:
 CE Express CSV file Fill
-Cell name Cell Name Leave empty
+[Cell](https://www.google.com/search?q=mobile+cell+sector+coverage+base+station) name [Cell](https://www.google.com/search?q=mobile+cell+sector+coverage+base+station) Name Leave empty
 X longitude Leave empty
 Y latitude Leave empty
-Azimuth Azimuth Leave empty
+[Azimuth](https://www.google.com/search?q=antenna+azimuth+direction+degrees+north) [Azimuth](https://www.google.com/search?q=antenna+azimuth+direction+degrees+north) Leave empty
 Site name Tower Name Leave empty
-Height Height Above Ground Leave empty
-Downtilt Tilt Leave empty
-El. Downtilt Leave empty 0
+Height [Height Above Ground](https://www.google.com/search?q=height+above+ground+[AGL](https://www.google.com/search?q=AGL+Above+Ground+Level+height+measurement)+antenna) Leave empty
+[Downtilt](https://www.google.com/search?q=antenna+downtilt+mechanical+electrical+degrees) Tilt Leave empty
+El. [Downtilt](https://www.google.com/search?q=antenna+downtilt+mechanical+electrical+degrees) Leave empty 0
 Frequency Frequency Leave empty
 Power Cell Power Leave empty
-Misc loss, dB Leave empty 0
-Bandwidth Bandwidth Leave empty
-Noise figure Leave empty 6
+Misc loss, [dB](https://www.google.com/search?q=dB+decibel+signal+measurement+unit) Leave empty 0
+[Bandwidth](https://www.google.com/search?q=channel+bandwidth+radio+frequency+[MHz](https://www.google.com/search?q=MHz+megahertz+frequency+unit)) [Bandwidth](https://www.google.com/search?q=channel+bandwidth+radio+frequency+[MHz](https://www.google.com/search?q=MHz+megahertz+frequency+unit)) Leave empty
+[Noise figure](https://www.google.com/search?q=noise+figure+receiver+[sensitivity](https://www.google.com/search?q=receiver+sensitivity+[dBm](https://www.google.com/search?q=dBm+decibel+milliwatt+power+unit)+radio)+[dB](https://www.google.com/search?q=dB+decibel+signal+measurement+unit)) Leave empty 6
 Downlink duplex factor Leave empty 0.6
-Subcarrier spacing Leave empty 30
+[Subcarrier spacing](https://www.google.com/search?q=[subcarrier](https://www.google.com/search?q=subcarrier+spacing+[OFDM](https://www.google.com/search?q=OFDM+Orthogonal+Frequency+Division+Multiplexing)+[LTE](https://www.google.com/search?q=LTE+Long+Term+Evolution+[4G](https://www.google.com/search?q=4G+LTE+mobile+network+technology)+mobile)+[5G](https://www.google.com/search?q=5G+fifth+generation+mobile+network))+spacing+[OFDM](https://www.google.com/search?q=OFDM+Orthogonal+Frequency+Division+Multiplexing)+[LTE](https://www.google.com/search?q=LTE+Long+Term+Evolution+[4G](https://www.google.com/search?q=4G+LTE+mobile+network+technology)+mobile)+[5G](https://www.google.com/search?q=5G+fifth+generation+mobile+network)+[kHz](https://www.google.com/search?q=kHz+kilohertz+frequency+unit)) Leave empty 30
 
 ---
 
 TX [MIMO](https://www.google.com/search?q=MIMO+Multiple+Input+Output+antenna) TxMIMO Leave empty
-RX MIMO RxMIMO Leave empty
+[RX MIMO](https://www.google.com/search?q=Rx+[MIMO](https://www.google.com/search?q=MIMO+Multiple+Input+Multiple+Output+antenna+technology)+receive+antenna+configuration) RxMIMO Leave empty
 Active antenna effect Leave empty 6
 Cell load, % Leave empty 30
 Color index Leave empty Leave empty
@@ -141,8 +141,8 @@ C:\CE_Course\ImportingData\Antenna
 2. Open the file ADU4518R6v06_2655.txt using Notepad.
 The file is in Planet format and contains:
 - Header information
-- Horizontal radiation pattern
-- Vertical radiation pattern
+- Horizontal [radiation pattern](https://www.google.com/search?q=antenna+radiation+pattern+horizontal+vertical)
+- Vertical [radiation pattern](https://www.google.com/search?q=antenna+radiation+pattern+horizontal+vertical)
 This format is supported for direct import into CE Express.
 4.3.3 Importing the Antenna File
 1. Open the Antennas tool.
@@ -167,7 +167,7 @@ Verifying antenna data ensures it is ready for assignment to cells and use in pr
 - Data import enables rapid population of workspaces using external datasets
 - CSV import with explicit mapping ensures correct parameter assignment
 - Mapping templates provide repeatability and consistency
-- Antenna pattern import allows use of real equipment characteristics
+- [Antenna pattern](https://www.google.com/search?q=antenna+radiation+pattern+file+format+MSI) import allows use of real equipment characteristics
 - Verifying imported data is essential before running predictions or further analysis
 
 ---

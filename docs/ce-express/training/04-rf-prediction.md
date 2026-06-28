@@ -1,13 +1,13 @@
 # 04. RF Prediction
 
 1. Objective
-This module explains how to run RF predictions in CE Express and how to interpret and
+This module explains how to run RF predictions in [CE Express]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) and how to interpret and
 manage results. It covers both rapid “what-if” checks and full project predictions, including
 result visualization, comparison, and network-based calculation workflows.
 By the end of this exercise, participants will be able to:
 - Run Quick RF Predictions to test configuration changes without modifying the
 database
-- Run full RF Prediction calculations for one or multiple cells
+- Run full [RF Prediction]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=RF+radio+frequency+prediction+coverage+planning) calculations for one or multiple cells
 - Understand how geodata is used in prediction calculations
 - Visualize results on the map, customize symbology, and create reusable symbology
 presets
@@ -15,14 +15,14 @@ presets
 - Use Networks to calculate predictions without manual object selection and track
 calculation status
 2. Key Concepts
-2.1.1 What Is an RF Prediction in CE Express?
+2.1.1 What Is an [RF Prediction](https://www.google.com/search?q=RF+radio+frequency+prediction+coverage+planning) in [CE Express](https://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform)?
 An [RF prediction](https://www.google.com/search?q=RF+radio+frequency+prediction+coverage) is a calculation that produces map-based outputs (rasters) representing
 expected signal or performance across an area. Predictions are influenced by:
-- Network objects (cells, sites, antennas)
-- Configuration parameters (frequency, power, height, downtilt, bandwidth, [MIMO](https://www.google.com/search?q=MIMO+Multiple+Input+Output+antenna),
+- [Network objects](https://www.google.com/search?q=radio+network+objects+sites+cells+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)) (cells, sites, antennas)
+- Configuration parameters (frequency, power, height, [downtilt](https://www.google.com/search?q=antenna+downtilt+mechanical+electrical+degrees), [bandwidth](https://www.google.com/search?q=channel+bandwidth+radio+frequency+[MHz](https://www.google.com/search?q=MHz+megahertz+frequency+unit)), [MIMO](https://www.google.com/search?q=MIMO+Multiple+Input+Output+antenna),
 etc.)
-- Geodata (terrain elevation, [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio)/land use, obstacles)
-- Equipment definitions and models (antenna patterns, propagation models,
+- Geodata ([terrain](https://www.google.com/search?q=terrain+elevation+model+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+topography) [elevation](https://www.google.com/search?q=elevation+model+[terrain](https://www.google.com/search?q=terrain+elevation+model+GIS+topography)+height+datum), [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio)/[land use](https://www.google.com/search?q=land+use+land+cover+classification+GIS), obstacles)
+- Equipment definitions and models (antenna patterns, [propagation models](https://www.google.com/search?q=radio+propagation+models+comparison+telecom),
 calculation templates)
 The outputs can be used to:
 - Evaluate scenarios and alternatives
@@ -34,7 +34,7 @@ The outputs can be used to:
 
 2.1.2 Quick Prediction vs Full RF Prediction
 CE Express provides two complementary calculation approaches:
-- Quick RF Prediction
+- [Quick RF Prediction](https://www.google.com/search?q=Quick+RF+Prediction+what+if+testing+CE+Express)
 o Designed for rapid “what-if” testing
 o Uses object values as a starting point but does not write changes back to the
 database
@@ -44,9 +44,9 @@ o Runs full calculations based on project configuration and selected objects
 o Results are tracked in Prediction History
 o Supports multi-object predictions and more structured workflows
 3. Initial Data and Prerequisites
-This exercise assumes a prepared workspace containing:
-- Network objects created in previous exercises
-- Loaded geodata (terrain, clutter/obstacles)
+This exercise assumes a prepared [workspace](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+workspace+project+geodatabase) containing:
+- [Network objects](https://www.google.com/search?q=radio+network+objects+sites+cells+GIS) created in previous exercises
+- Loaded geodata (terrain, [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio+planning)/obstacles)
 - Defined equipment and calculation models
 4. Exercise
 
@@ -54,16 +54,16 @@ This exercise assumes a prepared workspace containing:
 
 1. Open the CE Express application:
 https://cecom2.cellular-expert.com/ce_express/
-2. From the workspace list, select the workspace used in the previous exercise.
+2. From the [workspace](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+workspace+project+geodatabase) list, select the workspace used in the previous exercise.
 
 ---
 
 ## 4.2 Step 2 – Quick RF Prediction
 
-Quick RF Prediction enables rapid calculations without permanently changing object
+[Quick RF Prediction](https://www.google.com/search?q=Quick+RF+Prediction+what+if+testing+CE+Express) enables rapid calculations without permanently changing object
 parameters. This is useful for fast scenario testing and side-by-side comparison.
-4.2.1 Run a Quick Prediction for a Specific Cell
-1. Zoom to the cell Cx002.
+4.2.1 Run a Quick Prediction for a Specific [Cell](https://www.google.com/search?q=mobile+cell+sector+coverage+base+station)
+1. Zoom to the [cell](https://www.google.com/search?q=mobile+cell+sector+coverage+base+station) Cx002.
 2. Open the Quick RF Prediction tool.
 3. To snap the cell:
 o Hold Ctrl
@@ -80,20 +80,20 @@ The tool automatically reads coordinates and key parameters from the snapped cel
 1. Open the Layers tool.
 2. The newly generated coverage layer is listed under Prediction Results.
 This confirms the result is loaded and available for review.
-4.2.3 Adjust Resolution and Manage Result Handling
-1. In the Quick Prediction tool, change Resolution from 10 to 5.
+4.2.3 Adjust [Resolution](https://www.google.com/search?q=spatial+resolution+[raster](https://www.google.com/search?q=raster+GIS+grid+data+format)+GIS+accuracy) and Manage Result Handling
+1. In the Quick Prediction tool, change [Resolution](https://www.google.com/search?q=spatial+resolution+[raster](https://www.google.com/search?q=raster+GIS+grid+data+format)+GIS+accuracy) from 10 to 5.
 2. The result updates automatically.
 Important behavior: By default, new results may replace/close previous results.
 3. Disable Close previous results to keep multiple variants for comparison.
-4.2.4 Run a Variant Prediction by Changing a Parameter (Azimuth Example)
-1. Change Azimuth from 160 to 90.
+4.2.4 Run a Variant Prediction by Changing a Parameter ([Azimuth](https://www.google.com/search?q=antenna+azimuth+direction+degrees+north) Example)
+1. Change [Azimuth](https://www.google.com/search?q=antenna+azimuth+direction+degrees+north) from 160 to 90.
 2. A new result is generated and added to Layers as a separate output.
 
 ---
 
 4.2.5 Compare Two Results Using Swipe
 Comparing results is essential when evaluating alternatives.
-1. In Layers, locate the Azimuth 90 QP FS, dBm quick prediction layer.
+1. In Layers, locate the Azimuth 90 QP FS, [dBm](https://www.google.com/search?q=dBm+decibel+milliwatt+power+unit) quick prediction layer.
 2. Hover over the layer and click Compare.
 3. Do the same for the Resolution 5 quick prediction result.
 A swipe tool appears on the map, allowing visual comparison between two rasters.
@@ -103,12 +103,12 @@ A swipe tool appears on the map, allowing visual comparison between two rasters.
 Run several additional quick predictions by changing one parameter at a time. Use the
 following test values:
 Parameter name New Value
-Height above ground 40
-Downtilt 5
+[Height above ground](https://www.google.com/search?q=height+above+ground+[AGL](https://www.google.com/search?q=AGL+Above+Ground+Level+height+measurement)+antenna) 40
+[Downtilt](https://www.google.com/search?q=antenna+downtilt+mechanical+electrical+degrees) 5
 
 ---
 
-Tx MIMO 8
+[Tx MIMO](https://www.google.com/search?q=Tx+[MIMO](https://www.google.com/search?q=MIMO+Multiple+Input+Multiple+Output+antenna+technology)+transmit+antenna+configuration) 8
 Power 45
 Frequency 3500
 6. Close the Quick Prediction tool.
@@ -127,7 +127,7 @@ differences in configuration can lead to noticeable changes in map outputs.
 Cell parameters influence:
 - Signal strength distribution
 - Coverage extent and shape
-- Throughput and capacity estimates
+- [Throughput](https://www.google.com/search?q=network+throughput+downlink+uplink+[capacity](https://www.google.com/search?q=network+capacity+planning+telecom)) and [capacity](https://www.google.com/search?q=network+capacity+planning+telecom) estimates
 - Comparison validity between different scenarios
 Ensuring parameter clarity helps avoid misinterpretation of results and unintended
 differences between calculations.
@@ -137,7 +137,7 @@ These parameters define the spatial behavior of the cell:
 ---
 
 - Geographic location (X, Y)
-- Height above ground
+- [Height above ground](https://www.google.com/search?q=height+above+ground+[AGL](https://www.google.com/search?q=AGL+Above+Ground+Level+height+measurement)+antenna)
 - Azimuth
 - Mechanical and electrical downtilt
 They directly influence:
@@ -147,18 +147,18 @@ They directly influence:
 4.3.1.2 Transmission and Radio Parameters
 These parameters control how energy is transmitted:
 - Frequency
-- Bandwidth
-- Transmit power
+- [Bandwidth](https://www.google.com/search?q=channel+bandwidth+radio+frequency+[MHz](https://www.google.com/search?q=MHz+megahertz+frequency+unit))
+- [Transmit power](https://www.google.com/search?q=transmit+power+[dBm](https://www.google.com/search?q=dBm+decibel+milliwatt+power+unit)+radio+antenna)
 - Duplex mode
-- Subcarrier spacing
+- [Subcarrier spacing](https://www.google.com/search?q=[subcarrier](https://www.google.com/search?q=subcarrier+spacing+[OFDM](https://www.google.com/search?q=OFDM+Orthogonal+Frequency+Division+Multiplexing)+[LTE](https://www.google.com/search?q=LTE+Long+Term+Evolution+[4G](https://www.google.com/search?q=4G+LTE+mobile+network+technology)+mobile)+[5G](https://www.google.com/search?q=5G+fifth+generation+mobile+network))+spacing+[OFDM](https://www.google.com/search?q=OFDM+Orthogonal+Frequency+Division+Multiplexing)+[LTE](https://www.google.com/search?q=LTE+Long+Term+Evolution+[4G](https://www.google.com/search?q=4G+LTE+mobile+network+technology)+mobile)+[5G](https://www.google.com/search?q=5G+fifth+generation+mobile+network)+[kHz](https://www.google.com/search?q=kHz+kilohertz+frequency+unit))
 They affect:
 - Propagation behavior
-- Signal attenuation
-- Throughput potential
+- Signal [attenuation](https://www.google.com/search?q=signal+attenuation+loss+radio+propagation)
+- [Throughput](https://www.google.com/search?q=network+throughput+downlink+uplink+capacity) potential
 4.3.1.3 Antenna and Equipment Parameters
 These parameters describe how the signal is shaped:
 - Antenna model and pattern
-- MIMO configuration
+- [MIMO](https://www.google.com/search?q=MIMO+Multiple+Input+Multiple+Output+antenna+technology) configuration
 - Active antenna effects
 They influence:
 - Beam shape and directionality
@@ -168,7 +168,7 @@ They influence:
 
 4.3.1.4 Environmental and Model Parameters
 These parameters define how the environment is considered:
-- Propagation model
+- [Propagation model](https://www.google.com/search?q=radio+wave+propagation+model+telecom)
 - Model radius
 - Environmental assumptions
 They ensure calculations are aligned with the intended level of detail and scenario scope.
@@ -187,7 +187,7 @@ defined in the picture below.
 All RF Predictions are tracked in Prediction History, where users can:
 - Monitor status (queued, running, finished)
 - Open results
-- Export outputs
+- [Export](https://www.google.com/search?q=data+export+GIS+raster+vector) outputs
 - Keep a record of scenario runs
 1. Open Prediction History.
 2. Locate the most recent calculation.
@@ -278,7 +278,7 @@ and a selected location.
 These areas typically represent:
 - Greater distance from the transmitter
 - Increased obstruction by terrain or buildings
-- Reduced line-of-sight conditions
+- Reduced [line-of-sight](https://www.google.com/search?q=line+of+sight+[LOS](https://www.google.com/search?q=LOS+Line+of+Sight+radio+propagation)+radio+link) conditions
 4.6.3 Running a Profile for a Weak Location
 1. Open the Profile tool.
 2. Hold Ctrl and snap the transmitter to Cx002.
@@ -289,7 +289,7 @@ Once the receiver is defined, the profile is calculated and displayed immediatel
 
 4.6.4 Interpreting the Profile Output
 The profile view shows:
-- Terrain elevation along the path
+- Terrain [elevation](https://www.google.com/search?q=elevation+model+terrain+height+datum) along the path
 - Buildings and vegetation intersecting the path
 - The direct path between transmitter and receiver
 Color indicators highlight visibility conditions along the path:
@@ -351,7 +351,7 @@ selected cells.
 
 4.7.6 Applying Consistent Symbology
 1. Open the Layers tool.
-2. Apply the saved 5G RSRP Symbology preset to the multi-cell raster.
+2. Apply the saved 5G [RSRP](https://www.google.com/search?q=RSRP+Reference+Signal+Received+Power+LTE+4G) Symbology preset to the multi-cell raster.
 Using the same symbology preset ensures:
 - Consistent interpretation across single-cell and multi-cell results
 - Reliable visual comparison between scenarios
@@ -359,7 +359,7 @@ Using the same symbology preset ensures:
 
 ## 4.8 Step 8 – Throughput Predictions and Symbology
 
-1. In Prediction History, open 5G 1800 Throughput, Mbps.
+1. In Prediction History, open 5G 1800 Throughput, [Mbps](https://www.google.com/search?q=Mbps+megabits+per+second+data+rate).
 2. Review default symbology.
 
 ---
@@ -413,8 +413,8 @@ maintains that selection automatically.
 Networks are especially useful when:
 - Working with a large number of cells
 - Repeating predictions regularly
-- Automatically publish coverage results and network featuresto [ArcGIS Enterprise](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+Enterprise+server+GIS) Portal
-or ArcGIS Online
+- Automatically [publish](https://www.google.com/search?q=publish+layer+ArcGIS+Portal+web+map) coverage results and network featuresto [ArcGIS Enterprise](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+Enterprise+server+GIS) Portal
+or [ArcGIS Online](https://www.google.com/search?q=ArcGIS+Online+cloud+GIS+platform)
 - Automatically calculate statistic
 - Managing multi-band or multi-layer configurations
 - Ensuring consistency across prediction runs

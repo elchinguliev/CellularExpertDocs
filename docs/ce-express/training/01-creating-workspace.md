@@ -6,20 +6,20 @@ managing workspaces in CE Server-Express. The material is designed from an RF pl
 and optimization perspective, focusing not only on how to perform actions, but also why they
 matter in real-world network design workflows.
 By the end of this exercise, participants will be able to:
-- Create and configure a workspace correctly
-- Understand workspace structure and scope
+- Create and configure a [workspace]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=[ArcGIS]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+workspace+project+geodatabase) correctly
+- Understand [workspace](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+workspace+project+geodatabase) structure and scope
 - Manage and visualize layers efficiently
 - Switch between 2D and 3D environments for RF-relevant analysis
 - Prepare the workspace for further RF planning and optimization tasks
 2. Initial data
 The following data is pre-configured for this exercise:
-- Prepared geodata (high-resolution terrain and [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio))
+- Prepared geodata (high-[resolution](https://www.google.com/search?q=spatial+resolution+[raster](https://www.google.com/search?q=raster+GIS+grid+data+format)+GIS+accuracy) [terrain](https://www.google.com/search?q=terrain+elevation+model+GIS+topography) and [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio))
 - Predefined external services for visualization
 Trainer note: Emphasize that workspace quality directly affects prediction accuracy,
 visualization clarity, and collaboration efficiency.
 3. Understanding the Workspace Concept
-A Workspace in CE Express represents a project container that holds:
-- Network objects (sites, cells, links, etc.)
+A Workspace in [CE Express](https://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) represents a project container that holds:
+- [Network objects](https://www.google.com/search?q=radio+network+objects+sites+cells+GIS) (sites, cells, links, etc.)
 - Geodata used for propagation modeling
 - Additional visualization layers ([GIS](https://www.google.com/search?q=GIS+Geographic+Information+System), 3D meshes, administrative boundaries)
 Workspaces can be:
@@ -64,18 +64,18 @@ Workspace Parameters
 - Geodata Set: Select Vilnius_1m
 - Extent:
 o Click Copy from geodata set
-o Ensures spatial alignment between workspace and terrain data
+o Ensures spatial alignment between workspace and [terrain](https://www.google.com/search?q=terrain+elevation+model+GIS+topography) data
 4. Adding Extra Layers
 Click + Add layer and include the following services:
 - Administrative regions:
 
 ---
 
-https://cecom2.cellular-expert.com/server/rest/services/Hosted/Regions/FeatureServer/0
+https://cecom2.cellular-expert.com/server/[rest](https://www.google.com/search?q=REST+API+web+services+architecture)/services/Hosted/Regions/FeatureServer/0
 - Google 3D Mesh:
-https://tile.googleapis.com/v1/3dtiles/root.json
+https://tile.googleapis.com/v1/3dtiles/root.[json](https://www.google.com/search?q=JSON+JavaScript+Object+Notation+data+format)
 - OpenStreetMap 3D Buildings:
-https://basemaps3d.arcgis.com/arcgis/rest/services/OpenStreetMap3D_Buildings
+https://basemaps3d.arcgis.com/arcgis/[rest](https://www.google.com/search?q=REST+API+web+services+architecture)/services/OpenStreetMap3D_Buildings
 _v1/SceneServer
 4. Click Accept to create the workspace.
 
@@ -94,10 +94,10 @@ The map zooms to the workspace area. Blue contours indicate the workspace extent
 Open the Layers tool. It is divided into logical sections:
 1. Preview available layers.
 1. Features
-- Displays all network objects
+- Displays all [network objects](https://www.google.com/search?q=radio+network+objects+sites+cells+GIS)
 - Includes sites, cells, links, and other RF elements
 2. Geodata
-- Terrain, clutter, and elevation data
+- Terrain, [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio+planning), and [elevation](https://www.google.com/search?q=elevation+model+terrain+height+datum) data
 
 ---
 
@@ -117,7 +117,7 @@ The map now displays the Google 3D Mesh, which provides realistic urban morpholo
 
 ---
 
-RF planning value: 3D meshes help validate antenna heights, LOS conditions, and urban
+RF planning value: 3D meshes help validate antenna heights, [LOS](https://www.google.com/search?q=LOS+Line+of+Sight+radio+propagation) conditions, and urban
 canyon effects.
 4. Switch OFF Google 3D tiles.
 5. Enable OpenStreetMap3D Buildings again.
@@ -135,14 +135,14 @@ You can also visualize 3D objects, such as polygons, lines and zones.
 
 ## 3.8 Step 8 – Enabling and Reviewing Geodata
 
-1. In the Geodata section, enable the Elevation layer.
+1. In the Geodata section, enable the [Elevation](https://www.google.com/search?q=elevation+model+terrain+height+datum) layer.
 
 ---
 
 This layer:
 - Visualizes terrain height
 - Helps quickly identify hills, valleys, and potential shadowing areas
-2. Review Clutter height and Clutter classes layers.
+2. Review [Clutter](https://www.google.com/search?q=clutter+land+use+classification+radio+planning) height and Clutter classes layers.
 3. If Geodata Is Not Visible
 1. Open Settings.
 2. Enable Load geodata when opening workspace.

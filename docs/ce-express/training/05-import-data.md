@@ -1,19 +1,19 @@
 # 05. Import Data
 
 1. Objective
-This module explains how to [import](https+TLS+secure+protocol)://www.google.com/search?q=data+import+GIS+network+objects+CSV) external data into [CE Express](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) and how imported data
-becomes part of the project environment. It covers the import+network+objects+CSV) of network objects from CSV
-files and antenna patterns from external files, as well as the use of mapping templates to
+This module explains how to import external data into CE Express and how imported data
+becomes part of the project environment. It covers the import of network objects from CSV
+files and [antenna patterns](#kw:importing-antenna-patterns:ce-express-antenna) from external files, as well as the use of mapping templates to
 ensure consistency and repeatability.
 By the end of this exercise, participants will be able to:
 - Import network objects using CSV files
-- Map external data fields to [CE Express](#ce-express-overview) object attributes
+- Map external data fields to CE Express object attributes
 - Create and reuse import mapping templates
-- Import [antenna pattern](#kw:antenna-patterns:ce-express-antenna) files into the [CE Express](#ce-express-overview) database
-- Verify and review imported data within the [workspace](#kw:creating-a-workspace:ce-express-workspace)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase)
+- Import [antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) files into the CE Express database
+- Verify and review imported data within the workspace
 2. Understanding Data Import in CE Express
 Data import is a key capability in CE Express, allowing users to bring information from
-external sources into a workspace+workspace+project+geodatabase). Imported data may originate from:
+external sources into a workspace. Imported data may originate from:
 - External planning tools
 - Inventory systems
 - Field surveys
@@ -78,21 +78,21 @@ X longitude Leave empty
 Y latitude Leave empty
 Azimuth Azimuth Leave empty
 Site name Tower Name Leave empty
-Height Height Above Ground+antenna) Leave empty
+Height Height Above Ground Leave empty
 Downtilt Tilt Leave empty
 El. Downtilt Leave empty 0
 Frequency Frequency Leave empty
 Power Cell Power Leave empty
 Misc loss, dB Leave empty 0
-Bandwidth) Bandwidth) Leave empty
-Noise figure+radio)+dB) Leave empty 6
+Bandwidth Bandwidth Leave empty
+Noise figure Leave empty 6
 Downlink duplex factor Leave empty 0.6
-Subcarrier spacing+LTE+mobile)+5G)+spacing+OFDM+LTE+mobile)+5G+kHz) Leave empty 30
+Subcarrier spacing Leave empty 30
 
 ---
 
 TX MIMO TxMIMO Leave empty
-RX MIMO+receive+antenna+configuration) RxMIMO Leave empty
+RX MIMO RxMIMO Leave empty
 Active antenna effect Leave empty 6
 Cell load, % Leave empty 30
 Color index Leave empty Leave empty
@@ -133,7 +133,7 @@ This confirms that cells and sites were successfully created and loaded into the
 ## 4.3 Step 3 – Importing Antenna Patterns
 
 4.3.1 Purpose of Antenna Import
-Antenna patterns define how energy is distributed spatially. Importing accurate antenna
+[Antenna patterns](#kw:importing-antenna-patterns:ce-express-antenna) define how energy is distributed spatially. Importing accurate antenna
 patterns ensures that predictions and analyses reflect real equipment behavior.
 4.3.2 Reviewing the Antenna File
 1. Navigate to:
@@ -167,7 +167,7 @@ Verifying antenna data ensures it is ready for assignment to cells and use in pr
 - Data import enables rapid population of workspaces using external datasets
 - CSV import with explicit mapping ensures correct parameter assignment
 - Mapping templates provide repeatability and consistency
-- [Antenna pattern](#kw:antenna-patterns:ce-express-antenna) import allows use of real equipment characteristics
+- [Antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) import allows use of real equipment characteristics
 - Verifying imported data is essential before running predictions or further analysis
 
 ---

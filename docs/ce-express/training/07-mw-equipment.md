@@ -3,7 +3,7 @@
 1. Objective
 This tutorial will show you how to add new MW links, manage and do predictions.
 At the end of the exercise you will be able to:
-- Create and [import](https+TLS+secure+protocol)://www.google.com/search?q=data+import+GIS+network+objects+CSV) MW equipment.
+- Create and import MW equipment.
 - Create MW links in the project.
 - Do MW Predictions.
 2. Initial data
@@ -13,14 +13,14 @@ Prepared project with:
 3. Manage MW equipment
 Navigate to C:\CE_Course\MW_Equipment\Project and run Project.aprx file to open the
 prepared project for RL Introduction exercise.
-[Microwave](https+TLS+secure+protocol)://www.google.com/search?q=microwave+backhaul+radio+link+planning) links involve additional equipment settings compared to point-to-area predictions.
+Microwave links involve additional equipment settings compared to point-to-area predictions.
 These settings include frequency plans, radio equipment, and parabolic antennas, which are
-used for predicting power budget, interference, or availability+radio+link+planning)+ITU). In this section, we will cover
-how to create and, if necessary, import+network+objects+CSV) this data into the project.
+used for predicting power budget, interference, or availability. In this section, we will cover
+how to create and, if necessary, import this data into the project.
 
 ## 3.1 Parabolic antennas
 
-Open Antenna Viewer in CE RLP tab, and change antenna type from Sector+sector+antenna+coverage+area) to Parabolic.
+Open Antenna Viewer in CE RLP tab, and change antenna type from Sector to Parabolic.
 All parabolic antennas will be displayed.
 
 ---
@@ -54,9 +54,9 @@ Close Antenna Viewer and Import tools.
 ## 3.2 Radios
 
 This equipment category encompasses details about radio transceivers utilized in microwave
-links. It comprises information on transmitter power, receiver sensitivity+radio), noise figure+radio)+dB),
+links. It comprises information on transmitter power, receiver sensitivity, noise figure,
 nonlinearity characteristics, and maximum data capacity.
-Open Radios tool in CE RLP tab and preview available Radio within default CE [workspace](#kw:creating-a-workspace:ce-express-workspace)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase).
+Open Radios tool in CE RLP tab and preview available Radio within default CE workspace.
 
 ---
 
@@ -76,7 +76,7 @@ Define the same parameters as defined below:
 - Bit Rate, kbps: 2048
 - Block Size, bits: 2048
 - Burst Errors: 1
-- Dispersive [Fade Margin](#ce-express-radio-link)), dB: 50
+- Dispersive Fade Margin, dB: 50
 - BER 10-3 Threshold, dBm: -76
 - BER 10-6 Threshold, dBm: -72
 - Noise Figure, dB: 5

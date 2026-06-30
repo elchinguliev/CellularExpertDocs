@@ -2,29 +2,29 @@
 
 1. Objective
 This module explains and demonstrates how to create, edit, duplicate, and manage network
-objects in [CE Express](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) using object templates.
+objects in CE Express using object templates.
 By the end of this exercise, participants will be able to:
 - Create and use object templates effectively
 - Create sites and cells with correct RF parameters
-- Duplicate and reposition [network objects](https+TLS+secure+protocol)://www.google.com/search?q=radio+network+objects+sites+cells+GIS) efficiently
+- Duplicate and reposition network objects efficiently
 - Modify object parameters using both forms and tables
 - Apply meaningful network symbology for RF analysis
 2. Initial Data and Prerequisites
 The following prerequisites are assumed:
-- A prepared [workspace](#kw:creating-a-workspace:ce-express-workspace)+platform)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase) created in: 01. [CE Express](#ce-express-overview) – Creating Workspace+workspace+project+geodatabase)
-- Available geodata (terrain, obstacles and [clutter](#kw:clutter-classes-grid:geodata-clutter))
+- A prepared workspace created in: 01. CE Express – Creating Workspace
+- Available geodata (terrain, obstacles and [clutter](#kw:clutter-classification-values:ce-express-geodata))
 - User permissions to create and edit network objects
 3. Understanding the Network Objects Concept
-In [CE Express](#ce-express-overview), network objects represent the physical and logical elements of a radio
+In CE Express, network objects represent the physical and logical elements of a radio
 network. They form the foundation for all RF planning, simulation, and optimization activities
 performed in the workspace.
 Network objects typically include:
 - Sites – physical locations where radio equipment is installed
 - Cells / Sectors – logical radio entities defining coverage and capacity
-- Antennas – radiation characteristics, patterns, and beamforming+MIMO+technology) behavior
+- Antennas – radiation characteristics, patterns, and beamforming behavior
 - Links and relations – logical associations between network elements
 These objects are tightly coupled with:
-- Geodata (terrain, [clutter](#kw:clutter-classes-grid:geodata-clutter), obstacles), which influences propagation behavior
+- Geodata (terrain, [clutter](#kw:clutter-classification-values:ce-express-geodata), obstacles), which influences propagation behavior
 
 ---
 
@@ -65,7 +65,7 @@ Define the following parameters:
 ---
 
 3. Click Accept to create the site.
-RF note: Site height represents the average antenna mounting height above ground+antenna) and
+RF note: Site height represents the average antenna mounting height above ground and
 directly impacts coverage and LOS conditions.
 3.2.2 Creating Cell Objects Using Templates
 1. In the Features tool, click Add Feature again.
@@ -77,7 +77,7 @@ directly impacts coverage and LOS conditions.
 
 Templates pre-fill technology-specific parameters, ensuring consistency and reducing
 configuration errors.
-3.2.3 Creating a 3-Sector+sector+antenna+coverage+area) 5G Site
+3.2.3 Creating a 3-Sector 5G Site
 Then create three new cells based on table below (once you enter all parameters for one
 cell object press Accept button, then change parameters for second cell and press Accept
 button, and do it for third cell).
@@ -92,17 +92,17 @@ El. Downtilt, deg 0 0 0
 Frequency, MHz 3500 3500 3500
 Power, dBm 40 40 40
 Misc Loss, dB 0 0 0
-Bandwidth), MHz 100 100 100
-Noise Figure+radio)+dB), dB 6 6 6
+Bandwidth, MHz 100 100 100
+Noise Figure, dB 6 6 6
 Downlink duplex factor 0,6 0,6 0,6
-Subcarrier spacing+LTE+mobile)+5G)+spacing+OFDM+LTE+mobile)+5G+kHz), kHz 60 60 60
-TX MIMO+transmit+antenna+configuration) 32 32 32
+Subcarrier spacing, kHz 60 60 60
+TX MIMO 32 32 32
 RX MIMO 32 32 32
 Active Antenna Effect 6 6 6
 Cell Load, % 30 30 30
 Color index
 Technology 5G 5G 5G
-Prediction model CEC [ITU-R](#kw:geoclimatic-data:ce-express-radio-link): 3km CEC [ITU-R](#kw:geoclimatic-data:ce-express-radio-link): 3km CEC ITU-R: 3km
+Prediction model CEC ITU-R: 3km CEC ITU-R: 3km CEC ITU-R: 3km
 radius radius radius
 Frequency group 3500 3500 3500
 

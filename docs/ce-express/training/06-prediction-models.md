@@ -1,39 +1,39 @@
 # 06. Prediction Models
 
 1. Objective
-This module explains how prediction models are used in [CE Express](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform), how different models
+This module explains how prediction models are used in CE Express, how different models
 influence calculation results, and how model parameters can be adjusted to reflect different
 environments and scenarios. The exercise focuses on understanding model behavior,
 comparing results, and creating custom model configurations.
 By the end of this exercise, participants will be able to:
-- Understand how [CE Express](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) evaluates radio visibility conditions
+- Understand how CE Express evaluates radio visibility conditions
 - Work with different prediction models and their configurations
 - Change prediction models at the cell level
 - Modify key model parameters and observe their impact
 - Create and manage custom prediction model configurations
 - Compare prediction results generated using different models
-2. Understanding Prediction Models in [CE Express](#ce-express-overview)
+2. Understanding Prediction Models in CE Express
 Prediction models define how signal propagation losses are calculated across the coverage
-area. Instead of applying a single formula everywhere, [CE Express](#ce-express-overview) evaluates the radio
+area. Instead of applying a single formula everywhere, CE Express evaluates the radio
 visibility condition between a transmitter and each receiver point and applies the most
 appropriate loss calculation for that condition.
-This approach allows near-deterministic modeling, where terrain+topography), obstacles, and [clutter](#kw:clutter-classes-grid:geodata-clutter) are
-explicitly considered for every calculation pixel+resolution).
+This approach allows near-deterministic modeling, where terrain, obstacles, and [clutter](#kw:clutter-classification-values:ce-express-geodata) are
+explicitly considered for every calculation pixel.
 
 ---
 
 3. Prediction models
-The CE [Path Loss](#ce-express-prediction-models)) Modelling aims to perform near-deterministic calculation of received signal
+The CE Path Loss Modelling aims to perform near-deterministic calculation of received signal
 levels at each specific point (pixel) in the network’s target coverage area by applying selective
-[path loss](#ce-express-prediction-models) model depending on the radio visibility condition between the transmitter antenna
+path loss model depending on the radio visibility condition between the transmitter antenna
 vis-à-vis a receiver antenna located at a given point in coverage area. The radio visibility is
-evaluated based on the [DTM](#geodata-dem), Obstacles and [Clutter](#kw:clutter-classes-grid:geodata-clutter) path profile+topography)+microwave+radio+link+planning)+link) information, as described in
+evaluated based on the DTM, Obstacles and [Clutter](#kw:clutter-classification-values:ce-express-geodata) path profile information, as described in
 previous section. This verification of radio visibility will result in the receiver antenna point
 assigned into one of three possible radio visibility conditions:
-- Line-of-Sight+radio+link) (LOS) – occurs when there are neither terrain irregularities, obstacles or
+- Line-of-Sight (LOS) – occurs when there are neither terrain irregularities, obstacles or
 clutter interposing the direct radio path between the transmitter and receiver antennas.
-The radio path is understood to include the 1st [Fresnel zone](#ce-express-profile) around the direct line and
-account for Spherical Earth effect. The LOS condition is illustrated by the path profile+radio+link+planning)+link)
+The radio path is understood to include the 1st [Fresnel zone](#kw:fresnel-zone-clearance:ce-express-profile) around the direct line and
+account for Spherical Earth effect. The LOS condition is illustrated by the path profile
 depicted in Fig. 1(a).
 - Obstructed LOS (OLOS) – occurs when the direct radio propagation line is interposed by
 clutter, see illustration in Fig. 1(b).
@@ -52,7 +52,7 @@ bulges or obstacles, see illustration in Fig. 1(c).
 path)
 Fig. 1. Illustration of different LOS conditions
 1. Depending on the LOS condition for the receive antenna at specific location (area map pixel), the
-CE tools will apply the specific sub-set of path loss) prediction model, as explained in the following
+CE tools will apply the specific sub-set of path loss prediction model, as explained in the following
 section.
 2. Note that when the receiver is located indoors, the special Outdoor-to-Indoor propagation function
 will be applied in addition to basic path loss, as explained in the separate section at the end of this
@@ -60,8 +60,8 @@ chapter.
 
 ## 3.1 Models
 
-CEC [ITU-R](#kw:geoclimatic-data:ce-express-radio-link) 3GPP Model (100MHz – 6GHz) is a combination model intended for use in a variety of
-different radiocommunication systems which is derived explicitly from [ITU-R](#kw:geoclimatic-data:ce-express-radio-link) path loss modelling
+CEC ITU-R 3GPP Model (100MHz – 6GHz) is a combination model intended for use in a variety of
+different radiocommunication systems which is derived explicitly from ITU-R path loss modelling
 methods as follows:
 a. Receive antenna in LOS condition – path loss calculated as FSL based on Recommendation ITU-
 R P.525 (ref URL).
@@ -115,7 +115,7 @@ is in vegetation type clutter) or based on 3GPP TR 38.901 (ref URL) (if receiver
 
 1. Open the CE Express application:
 https://cecom2.cellular-expert.com/ce_express/
-2. From the [workspace](#kw:creating-a-workspace:ce-express-workspace)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase) list, select the workspace+workspace+project+geodatabase) used in the previous exercise.
+2. From the workspace list, select the workspace used in the previous exercise.
 
 ---
 
@@ -172,7 +172,7 @@ calculated results.
 Running predictions is not only about generating maps, it is about ensuring that results are
 produced in a controlled, repeatable manner so meaningful comparisons can be made.
 5.2.1 Running the Initial Prediction
-1. Open the [RF Prediction](#ce-express-rf-prediction) tool.
+1. Open the RF Prediction tool.
 2. Review calculation parameters make sure that they match with defined in the picture
 below.
 3. Click Calculate to start the prediction.
@@ -311,7 +311,7 @@ Once all parameters are defined, click Accept to save the configuration.
 2. Open Edit Feature for each cell.
 3. Assign the newly created model configuration (PM 1km radius) as the prediction model.
 5.5.4 Running Predictions with the Custom Model
-1. Open the [RF Prediction](#ce-express-rf-prediction) tool.
+1. Open the RF Prediction tool.
 2. Run predictions for the selected cells.
 3. Open the resulting Field Strength output from Prediction History.
 
@@ -323,7 +323,7 @@ Close all prediction results in Layers tool.
 
 High-frequency systems, particularly in the millimeter-wave (mmWave) range, behave very
 differently from lower-frequency deployments. At these frequencies, signal propagation is
-highly dependent on clear [Line of Sight](#ce-express-profile) (LOS), and even small obstructions can completely
+highly dependent on clear Line of Sight (LOS), and even small obstructions can completely
 block connectivity.
 This step demonstrates how to use LOS-only prediction models in CE Express to accurately
 represent these conditions.

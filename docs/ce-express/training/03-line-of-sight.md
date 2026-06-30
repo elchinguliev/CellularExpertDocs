@@ -1,9 +1,9 @@
-# 03. __S0__ (Profile)
+# 03. Line of Sight (Profile)
 
 1. Objective
-This module introduces [Line of Sight](https+TLS+secure+protocol)://www.google.com/search?q=Line+of+Sight+LOS+radio+propagation) (LOS) and visibility analysis in [CE Express](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform). It
+This module introduces Line of Sight (LOS) and visibility analysis in CE Express. It
 demonstrates how to use profiling and visibility tools to evaluate spatial conditions between
-transmitters, receivers, terrain+topography), vegetation, and buildings.
+transmitters, receivers, terrain, vegetation, and buildings.
 The goal is to help participants build confidence in:
 - Setting up correct analysis inputs (transmitter/receiver locations and key parameters)
 - Interpreting graphical and numerical outputs
@@ -15,12 +15,12 @@ By the end of this exercise, participants will be able to:
 - Perform area-based visibility analysis
 - Understand and visualize visibility results for decision support
 2. Initial data
-This exercise assumes a prepared [workspace](#kw:creating-a-workspace:ce-express-workspace)+platform)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase) containing:
+This exercise assumes a prepared workspace containing:
 - Network objects created in the previous exercise
-- Loaded geodata (terrain, obstacles and [clutter](#kw:clutter-classes-grid:geodata-clutter))
+- Loaded geodata (terrain, obstacles and [clutter](#kw:clutter-classification-values:ce-express-geodata))
 - Defined equipment and calculation models
-3. Understanding [Line of Sight](#ce-express-profile) and Visibility
-[Line of Sight](#ce-express-profile) (LOS) describes whether a direct, unobstructed path exists between a
+3. Understanding Line of Sight and Visibility
+Line of Sight (LOS) describes whether a direct, unobstructed path exists between a
 transmitter and a receiver. Visibility analysis extends this concept by evaluating how terrain,
 vegetation, buildings, and other obstacles influence connectivity across space.
 Understanding LOS and visibility is important because it helps answer fundamental questions
@@ -41,14 +41,14 @@ characteristics
 communication or sensing
 - Risk and constraint assessment – recognizing areas where obstacles significantly
 limit performance
-In [CE Express](#ce-express-overview), LOS and visibility analysis are supported by two complementary tools:
-- Profile Tool – analyzes visibility along a single path (point-to-point+radio+link+planning)))
+In CE Express, LOS and visibility analysis are supported by two complementary tools:
+- Profile Tool – analyzes visibility along a single path (point-to-point)
 - Visibility Prediction Tool – analyzes visibility across an area (point-to-area)
 Together, these tools help users move from simple visual checks to structured, data-driven
 assessment of spatial conditions.
 Both tools rely on:
 - Terrain elevation
-- Vegetation and [clutter](#kw:clutter-classes-grid:geodata-clutter)
+- Vegetation and [clutter](#kw:clutter-classification-values:ce-express-geodata)
 - Buildings and structures
 - Equipment and configuration parameters (such as height and frequency)
 By combining detailed profiles with area-wide visibility results, users gain a clear and intuitive
@@ -60,9 +60,9 @@ understanding of how the environment influences connectivity and visibility.
 
 ## 4.1 Step 1 – Open the Workspace
 
-1. Open the [CE Express](#ce-express-overview) application:
+1. Open the CE Express application:
 https://cecom2.cellular-expert.com/ce_express/
-2. From the workspace+workspace+project+geodatabase) list, select the workspace used in the previous exercise.
+2. From the workspace list, select the workspace used in the previous exercise.
 
 ## 4.2 Step 2 – Profiling (Point-to-Point Analysis)
 
@@ -94,11 +94,11 @@ The Profile tool provides several result sections:
 
 - General – Summary of path characteristics
 - Power Budget – Transmit and receive power balance
-- [Path Loss](#ce-express-prediction-models)) – Signal attenuation along the path
+- Path Loss – Signal attenuation along the path
 - Angles – Vertical and horizontal angles between points
 Each tab offers additional context for understanding the profile outcome.
-4.2.3 Exploring Parameter Sensitivity+radio)
-Parameter sensitivity+radio) analysis helps users understand how changes in input values influence
+4.2.3 Exploring Parameter Sensitivity
+Parameter sensitivity analysis helps users understand how changes in input values influence
 visibility results. Instead of treating calculations as fixed outcomes, this step encourages
 exploration and comparison, making it easier to understand cause-and-effect relationships.
 In CE Express, the Profile tool recalculates results automatically and instantly when key
@@ -165,7 +165,7 @@ As you move the mouse cursor:
 - The path updates based on the cursor left click.
 4.2.4.2 Exploring Receiver Locations
 1. Move the cursor across different areas of the map.
-2. Observe how the terrain profile+radio+link) preview changes along the grey path.
+2. Observe how the terrain profile preview changes along the grey path.
 3. When a point of interest is identified, left-click on the map to set the receiver location.
 The profile is recalculated and displayed for the selected path.
 
@@ -227,8 +227,8 @@ Opening the Visibility Prediction Tool
 This panel controls both the accuracy of the analysis and the scope of the evaluated area.
 Defining Calculation Parameters
 Set the following parameters carefully:
-- Resolution+GIS+accuracy): 1
-Defines the spatial resolution+GIS+accuracy) of the output grid. Smaller values produce finer detail
+- Resolution: 1
+Defines the spatial resolution of the output grid. Smaller values produce finer detail
 and smoother boundaries but increase computation time.
 - Max Radius: 2
 Defines the maximum distance (in kilometers) from the transmitter to be analyzed.
@@ -262,7 +262,7 @@ Preview the results:
 Minimum Receiver Height – the receiver height in meters, which ensure visibility between
 transmitter and receiver.
 Line of Sight – Visibility condition, if value 1 – Visible, if value 0 – Not Visible.
-Clearance – [Fresnel zone](#ce-express-profile) obstruction in meters, if value is negative – [Fresnel zone](#ce-express-profile) is
+Clearance – [Fresnel zone](#kw:fresnel-zone-clearance:ce-express-profile) obstruction in meters, if value is negative – [Fresnel zone](#kw:fresnel-zone-clearance:ce-express-profile) is
 obstructed by X meters.
 Best Server – Cell Identification, which has highest Clearence value.
 4.3.3 Visualizing Results on the Map

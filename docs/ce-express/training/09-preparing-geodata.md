@@ -1,22 +1,22 @@
 # 09. Preparing Geodata
 
 1. Objective
-This module explains how to prepare topographical and land-use geodata in [ArcGIS Pro](#ce-pro-rcp)+platform)+Pro+Esri+desktop+software) so
-it can be correctly used for predictions in [CE Express](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) or [CE Desktop](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Desktop+ArcGIS+platform)+Pro) for [ArcGIS Pro](#ce-pro-rcp)+platform)+Pro+Esri+desktop+software). The
+This module explains how to prepare topographical and land-use geodata in ArcGIS Pro so
+it can be correctly used for predictions in CE Express or CE Desktop for ArcGIS Pro. The
 focus is on producing rasters that are geometrically correct, consistently referenced, and
 compliant with CE input requirements.
 By the end of this exercise, participants will be able to:
-- Understand which geodata layers are mandatory and optional for [CE Express](#ce-express-overview)
-- Prepare a Digital [Terrain Model](https://www.google.com/search?q=Digital+Terrain+Model+DTM+bare+earth) ([DTM](#geodata-dem)) raster suitable for predictions
+- Understand which geodata layers are mandatory and optional for CE Express
+- Prepare a Digital Terrain Model (DTM) raster suitable for predictions
 - Mosaic, project, and standardize raster datasets in ArcGIS Pro
-- Prepare [clutter](#kw:clutter-classes-grid:geodata-clutter) class and [clutter](#kw:clutter-classes-grid:geodata-clutter) height rasters aligned with the [DTM](#geodata-dem)
+- Prepare [clutter](#kw:clutter-classification-values:ce-express-geodata) class and [clutter](#kw:clutter-classification-values:ce-express-geodata) height rasters aligned with the DTM
 - Export final rasters with correct naming, resolution, extent, and data type
 2. Required and Optional Geodata Layers
 Mandatory. Digital terrain model (DTM) grid
 The Digital Terrain Model (DTM) represents the Earth’s ground level above sea level. Each
-raster pixel+resolution) has its height value. Freely available data can be download from:
+raster pixel has its height value. Freely available data can be download from:
 https://search.earthdata.nasa.gov/search/granules?p=C1711961296-LPCLOUD&pg[0][v]=f&pg[0][gsk]=-start_date&g=G1726517680-
-LPCLOUD&q=aster+NASA+global+elevation+model)&lat=54.10244930917067&long=26.561757102638634&zoom=6.73700
+LPCLOUD&q=aster&lat=54.10244930917067&long=26.561757102638634&zoom=6.73700
 5077561119
 The raster name must be elevation.tif
 
@@ -27,7 +27,7 @@ The Obstacle height (building, vegetation, etc) grid represents the objects on t
 with their height above the DTM grid. The raster name must be clutterHeight.tif
 Optional. Clutter class grid
 A Clutter class grid represents land use types. The data can be downloaded from here:
-Livingatlas ArcGIS [Sentinel-2](#kw:global-free-data-sources:geodata-requirements) Land Use
+Livingatlas ArcGIS Sentinel-2 Land Use
 
 ---
 
@@ -69,7 +69,7 @@ These files represent adjacent DTM tiles and must be merged into a single raster
 1. Open Geoprocessing from the View tab.
 2. In Find Tools, search for Mosaic to New Raster.
 3. Configure the tool as shown in the training reference:
-- Input Rasters: both ASTER+NASA+global+elevation+model) tiles
+- Input Rasters: both ASTER tiles
 - Output location: calculation directory
 - Output raster name: temporary DTM
 
@@ -85,13 +85,13 @@ data can be correctly interpreted and used by CE. Prediction engines require all
 
 ---
 
-be in a projected coordinate+GIS) system so that distances, angles, and areas are calculated
+be in a projected coordinate system so that distances, angles, and areas are calculated
 accurately.
 Raster datasets provided in geographic coordinate systems (latitude/longitude) are not
 suitable for prediction calculations without reprojection, because their units are angular rather
 than linear.
 3.3.1 Selecting the Correct Coordinate System
-Before projecting, determine the most appropriate projected coordinate+GIS) system:
+Before projecting, determine the most appropriate projected coordinate system:
 - Local / National grid systems are preferred when available (e.g. LKS 1994
 Lithuania TM)
 - WGS 1984 UTM zones are suitable when national systems are not available
@@ -132,7 +132,7 @@ Define:
 ---
 
 - Topographic basemap
-The DTM is now ready for [CE Express](#ce-express-overview).
+The DTM is now ready for CE Express.
 
 ## 3.4 Step 3 – Preparing Clutter Class Raster
 

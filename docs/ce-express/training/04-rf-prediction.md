@@ -1,13 +1,13 @@
 # 04. RF Prediction
 
 1. Objective
-This module explains how to run RF predictions in [CE Express](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) and how to interpret and
+This module explains how to run RF predictions in CE Express and how to interpret and
 manage results. It covers both rapid “what-if” checks and full project predictions, including
 result visualization, comparison, and network-based calculation workflows.
 By the end of this exercise, participants will be able to:
 - Run Quick RF Predictions to test configuration changes without modifying the
 database
-- Run full [RF Prediction](https+TLS+secure+protocol)://www.google.com/search?q=RF+radio+frequency+prediction+coverage+planning) calculations for one or multiple cells
+- Run full RF Prediction calculations for one or multiple cells
 - Understand how geodata is used in prediction calculations
 - Visualize results on the map, customize symbology, and create reusable symbology
 presets
@@ -15,14 +15,14 @@ presets
 - Use Networks to calculate predictions without manual object selection and track
 calculation status
 2. Key Concepts
-2.1.1 What Is an [RF Prediction](#ce-express-rf-prediction) in [CE Express](#ce-express-overview)?
-An [RF prediction](#ce-express-rf-prediction) is a calculation that produces map-based outputs (rasters) representing
+2.1.1 What Is an RF Prediction in CE Express?
+An RF prediction is a calculation that produces map-based outputs (rasters) representing
 expected signal or performance across an area. Predictions are influenced by:
-- Network objects) (cells, sites, antennas)
-- Configuration parameters (frequency, power, height, downtilt, bandwidth), MIMO,
+- Network objects (cells, sites, antennas)
+- Configuration parameters (frequency, power, height, downtilt, bandwidth, MIMO,
 etc.)
-- Geodata (terrain+topography) elevation+height+datum), [clutter](#kw:clutter-classes-grid:geodata-clutter)/land use, obstacles)
-- Equipment definitions and models (antenna patterns, [propagation models](#kw:prediction-models:ce-express-prediction-models),
+- Geodata (terrain elevation, [clutter](#kw:clutter-classification-values:ce-express-geodata)/land use, obstacles)
+- Equipment definitions and models ([antenna patterns](#kw:importing-antenna-patterns:ce-express-antenna), propagation models,
 calculation templates)
 The outputs can be used to:
 - Evaluate scenarios and alternatives
@@ -33,8 +33,8 @@ The outputs can be used to:
 ---
 
 2.1.2 Quick Prediction vs Full RF Prediction
-[CE Express](#ce-express-overview) provides two complementary calculation approaches:
-- [Quick RF Prediction](#kw:quick-rf-prediction-vs-full-rf-prediction:ce-express-rf-prediction)
+CE Express provides two complementary calculation approaches:
+- [Quick RF Prediction](#kw:quick-rf-prediction:ce-express-rf-prediction)
 o Designed for rapid “what-if” testing
 o Uses object values as a starting point but does not write changes back to the
 database
@@ -44,9 +44,9 @@ o Runs full calculations based on project configuration and selected objects
 o Results are tracked in Prediction History
 o Supports multi-object predictions and more structured workflows
 3. Initial Data and Prerequisites
-This exercise assumes a prepared [workspace](#kw:creating-a-workspace:ce-express-workspace)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase) containing:
+This exercise assumes a prepared workspace containing:
 - Network objects created in previous exercises
-- Loaded geodata (terrain, [clutter](#kw:clutter-classes-grid:geodata-clutter)/obstacles)
+- Loaded geodata (terrain, [clutter](#kw:clutter-classification-values:ce-express-geodata)/obstacles)
 - Defined equipment and calculation models
 4. Exercise
 
@@ -54,13 +54,13 @@ This exercise assumes a prepared [workspace](#kw:creating-a-workspace:ce-express
 
 1. Open the CE Express application:
 https://cecom2.cellular-expert.com/ce_express/
-2. From the workspace+workspace+project+geodatabase) list, select the workspace used in the previous exercise.
+2. From the workspace list, select the workspace used in the previous exercise.
 
 ---
 
 ## 4.2 Step 2 – Quick RF Prediction
 
-[Quick RF Prediction](#kw:quick-rf-prediction-vs-full-rf-prediction:ce-express-rf-prediction) enables rapid calculations without permanently changing object
+[Quick RF Prediction](#kw:quick-rf-prediction:ce-express-rf-prediction) enables rapid calculations without permanently changing object
 parameters. This is useful for fast scenario testing and side-by-side comparison.
 4.2.1 Run a Quick Prediction for a Specific Cell
 1. Zoom to the cell Cx002.
@@ -80,8 +80,8 @@ The tool automatically reads coordinates and key parameters from the snapped cel
 1. Open the Layers tool.
 2. The newly generated coverage layer is listed under Prediction Results.
 This confirms the result is loaded and available for review.
-4.2.3 Adjust Resolution+GIS+accuracy) and Manage Result Handling
-1. In the Quick Prediction tool, change Resolution+GIS+accuracy) from 10 to 5.
+4.2.3 Adjust Resolution and Manage Result Handling
+1. In the Quick Prediction tool, change Resolution from 10 to 5.
 2. The result updates automatically.
 Important behavior: By default, new results may replace/close previous results.
 3. Disable Close previous results to keep multiple variants for comparison.
@@ -103,12 +103,12 @@ A swipe tool appears on the map, allowing visual comparison between two rasters.
 Run several additional quick predictions by changing one parameter at a time. Use the
 following test values:
 Parameter name New Value
-Height above ground+antenna) 40
+Height above ground 40
 Downtilt 5
 
 ---
 
-Tx MIMO+transmit+antenna+configuration) 8
+Tx MIMO 8
 Power 45
 Frequency 3500
 6. Close the Quick Prediction tool.
@@ -127,7 +127,7 @@ differences in configuration can lead to noticeable changes in map outputs.
 Cell parameters influence:
 - Signal strength distribution
 - Coverage extent and shape
-- Throughput) and capacity estimates
+- Throughput and capacity estimates
 - Comparison validity between different scenarios
 Ensuring parameter clarity helps avoid misinterpretation of results and unintended
 differences between calculations.
@@ -137,7 +137,7 @@ These parameters define the spatial behavior of the cell:
 ---
 
 - Geographic location (X, Y)
-- Height above ground+antenna)
+- Height above ground
 - Azimuth
 - Mechanical and electrical downtilt
 They directly influence:
@@ -147,10 +147,10 @@ They directly influence:
 4.3.1.2 Transmission and Radio Parameters
 These parameters control how energy is transmitted:
 - Frequency
-- Bandwidth)
-- Transmit power+radio+antenna)
+- Bandwidth
+- Transmit power
 - Duplex mode
-- Subcarrier spacing+LTE+mobile)+5G)+spacing+OFDM+LTE+mobile)+5G+kHz)
+- Subcarrier spacing
 They affect:
 - Propagation behavior
 - Signal attenuation
@@ -168,7 +168,7 @@ They influence:
 
 4.3.1.4 Environmental and Model Parameters
 These parameters define how the environment is considered:
-- [Propagation model](#kw:prediction-models:ce-express-prediction-models)
+- Propagation model
 - Model radius
 - Environmental assumptions
 They ensure calculations are aligned with the intended level of detail and scenario scope.
@@ -249,7 +249,7 @@ Symbology presets allow users to save and reuse visualization settings, ensuring
 consistency across different predictions, projects, and users.
 1. In the symbology panel, click + New color band preset.
 2. Define:
-- Template name: 5G RSRP) Symbology
+- Template name: 5G [RSRP](#kw:typical-rsrp-thresholds:ce-express-rf-prediction) Symbology
 3. Click Save preset.
 4. Define technology:
 
@@ -278,7 +278,7 @@ and a selected location.
 These areas typically represent:
 - Greater distance from the transmitter
 - Increased obstruction by terrain or buildings
-- Reduced line-of-sight+radio+link) conditions
+- Reduced line-of-sight conditions
 4.6.3 Running a Profile for a Weak Location
 1. Open the Profile tool.
 2. Hold Ctrl and snap the transmitter to Cx002.
@@ -351,7 +351,7 @@ selected cells.
 
 4.7.6 Applying Consistent Symbology
 1. Open the Layers tool.
-2. Apply the saved 5G RSRP Symbology preset to the multi-cell raster.
+2. Apply the saved 5G [RSRP](#kw:typical-rsrp-thresholds:ce-express-rf-prediction) Symbology preset to the multi-cell raster.
 Using the same symbology preset ensures:
 - Consistent interpretation across single-cell and multi-cell results
 - Reliable visual comparison between scenarios
@@ -413,7 +413,7 @@ maintains that selection automatically.
 Networks are especially useful when:
 - Working with a large number of cells
 - Repeating predictions regularly
-- Automatically publish coverage results and network featuresto ArcGIS Enterprise+platform)+Enterprise+server+GIS) Portal
+- Automatically publish coverage results and network featuresto ArcGIS Enterprise Portal
 or ArcGIS Online
 - Automatically calculate statistic
 - Managing multi-band or multi-layer configurations

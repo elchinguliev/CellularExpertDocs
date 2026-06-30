@@ -3,12 +3,12 @@
 1. Objective
 This tutorial will show you how to add new MW links, manage and do predictions.
 At the end of the exercise you will be able to:
-- Create and [import](https+TLS+secure+protocol)://www.google.com/search?q=data+import+GIS+network+objects+CSV) MW equipment.
+- Create and import MW equipment.
 - Create MW links in the project.
 - Do MW Predictions.
 2. Initial data
 Prepared project with:
-- [Network objects](https+TLS+secure+protocol)://www.google.com/search?q=radio+network+objects+sites+cells+GIS).
+- Network objects.
 - Geodata.
 - Equipment and models.
 3. Add Links
@@ -21,7 +21,7 @@ Click once on T1 site and second time to D1 site.
 It will fill general parameters automatically.
 Height, azimuth and other parameters are calculated automatically, leave them as it is.
 Press Show Profile button to preview topographical data between Site A and Site B, if there
-is LOS, what [Fresnel zone](#ce-express-profile) percentage value, etc.
+is LOS, what [Fresnel zone](#kw:fresnel-zone-clearance:ce-express-profile) percentage value, etc.
 Profile will be generated.
 
 ---
@@ -62,7 +62,7 @@ o Antenna for Site A and Site B: Antenna 10MHz
 Press Save Changes
 4. RL Predictions
 The predictions are working between selected links and provides all necessary information
-about power budget, interference or availability+radio+link+planning)+ITU).
+about power budget, interference or availability.
 Select all links on the map and open Link Prediction tool. Before launching the predictions,
 enable Calculate Interference option.
 
@@ -78,7 +78,7 @@ Selected Link can have several carriers, to preview the results expand Carrier o
 Click on Interference tab to display interfering links and interfered links information.
 Total Interference is shown in Power Budget section.
 Interference link predictions can be previewed too. Click on Interfering Link in top left corner
-and it will display selected interfering link Power Budget, [Path Loss](#ce-express-prediction-models)) and draw a line on the
+and it will display selected interfering link Power Budget, Path Loss and draw a line on the
 map.
 
 ---
@@ -102,17 +102,17 @@ Close Link Prediction Results dialog.
 
 ## 4.1 Geoclimatic data
 
-Geoclimatic+radio+link+planning)+fading+ITU) data, comprising factors such as rain rate, temperature, gaseous absorption+oxygen+water+vapour+radio),
-and [multipath fading](#kw:geoclimatic-data:ce-express-radio-link), significantly shapes the planning and efficacy of microwave links.
-Rain rate introduces the challenge of [rain fade](#kw:geoclimatic-data:ce-express-radio-link), where increased rainfall leads to greater
-signal attenuation. To address this, microwave link planners employ rain attenuation+microwave+ITU+R+P838)
+Geoclimatic data, comprising factors such as rain rate, temperature, gaseous absorption,
+and multipath fading, significantly shapes the planning and efficacy of microwave links.
+Rain rate introduces the challenge of rain fade, where increased rainfall leads to greater
+signal attenuation. To address this, microwave link planners employ rain attenuation
 models, adjusting transmitter power or incorporating diversity techniques to maintain link
 reliability. Temperature variations impact atmospheric conditions, influencing signal
 propagation. Planners consider these effects to optimize link performance and account for
-temperature-related changes in their designs. Gaseous absorption+oxygen+water+vapour+radio), particularly by
+temperature-related changes in their designs. Gaseous absorption, particularly by
 atmospheric water vapor and oxygen, is factored into link planning by selecting frequency
 bands less susceptible to absorption, particularly for long-distance links. Lastly, the impact
-of [multipath fading](#kw:geoclimatic-data:ce-express-radio-link)+fading+radio+propagation+effect) is mitigated through strategies like antenna diversity and adaptive
+of multipath fading is mitigated through strategies like antenna diversity and adaptive
 modulation, as well as terrain-aware antenna placement. By navigating these geoclimatic
 challenges, microwave link planners ensure robust and effective communication links in
 diverse environmental conditions.
@@ -125,7 +125,7 @@ and click on Performance tab.
 Review Multipath ITU and Rain ITU percentage values.
 Close results, and open Geoclimatic Data tool.
 Click on Multipath Fading tab, and define:
-- [ITU-R](#kw:geoclimatic-data:ce-express-radio-link) P.530 version: 17
+- ITU-R P.530 version: 17
 
 ---
 

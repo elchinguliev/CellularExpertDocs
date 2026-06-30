@@ -6,19 +6,19 @@ managing workspaces in CE Server-Express. The material is designed from an RF pl
 and optimization perspective, focusing not only on how to perform actions, but also why they
 matter in real-world network design workflows.
 By the end of this exercise, participants will be able to:
-- Create and configure a [workspace](https+TLS+secure+protocol)://www.google.com/search?q=[ArcGIS](https+TLS+secure+protocol)://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase) correctly
-- Understand [workspace](#kw:creating-a-workspace:ce-express-workspace)+platform)+workspace+project+geodatabase) structure and scope
+- Create and configure a workspace correctly
+- Understand workspace structure and scope
 - Manage and visualize layers efficiently
 - Switch between 2D and 3D environments for RF-relevant analysis
 - Prepare the workspace for further RF planning and optimization tasks
 2. Initial data
 The following data is pre-configured for this exercise:
-- Prepared geodata (high-resolution+GIS+accuracy) terrain and [clutter](#kw:clutter-classes-grid:geodata-clutter))
+- Prepared geodata (high-resolution terrain and [clutter](#kw:clutter-classification-values:ce-express-geodata))
 - Predefined external services for visualization
 Trainer note: Emphasize that workspace quality directly affects prediction accuracy,
 visualization clarity, and collaboration efficiency.
 3. Understanding the Workspace Concept
-A Workspace in [CE Express](#ce-express-overview) represents a project container that holds:
+A Workspace in CE Express represents a project container that holds:
 - Network objects (sites, cells, links, etc.)
 - Geodata used for propagation modeling
 - Additional visualization layers (GIS, 3D meshes, administrative boundaries)
@@ -97,7 +97,7 @@ Open the Layers tool. It is divided into logical sections:
 - Displays all network objects
 - Includes sites, cells, links, and other RF elements
 2. Geodata
-- Terrain, [clutter](#kw:clutter-classes-grid:geodata-clutter), and elevation data
+- Terrain, [clutter](#kw:clutter-classification-values:ce-express-geodata), and elevation data
 
 ---
 

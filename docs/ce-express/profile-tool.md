@@ -1,12 +1,12 @@
-# Path Profile & __S2__
+# Path Profile & Line of Sight
 
-The **Profile** tool analyses the [terrain](https+TLS+secure+protocol)://www.google.com/search?q=terrain+elevation+model+GIS+topography) between two points — typically between a transmitter (cell) and a receiver location. It shows whether a clear [line of sight](https+TLS+secure+protocol)://www.google.com/search?q=Line+of+Sight+LOS+radio+propagation) exists, how much [Fresnel zone](#ce-express-profile) clearance there is, the expected [path loss](#ce-express-prediction-models), and the link power budget.
+The **Profile** tool analyses the terrain between two points — typically between a transmitter (cell) and a receiver location. It shows whether a clear line of sight exists, how much [Fresnel zone](#kw:fresnel-zone-clearance:none) clearance there is, the expected path loss, and the link power budget.
 
 ## When to Use the Profile Tool
 
-- Checking whether a microwave+radio+link+planning) link has sufficient clearance
-- Verifying that a cell has line-of-sight+radio+link) to a target location
-- Estimating [path loss](#ce-express-prediction-models)) for a specific point-to-point+radio+link+planning)) link
+- Checking whether a microwave link has sufficient clearance
+- Verifying that a cell has line-of-sight to a target location
+- Estimating path loss for a specific point-to-point link
 - Planning repeater placement (finding obstructions)
 
 ## Running a Profile
@@ -18,8 +18,8 @@ The **Profile** tool analyses the [terrain](https+TLS+secure+protocol)://www.goo
 3. **Set the receiver** — left-click a point on the map. The profile calculates automatically.
 
 4. The **Profile panel** appears showing:
-   - A terrain+topography) cross-section graph between the two points
-   - First [Fresnel zone](#ce-express-profile) ellipse overlay
+   - A terrain cross-section graph between the two points
+   - First [Fresnel zone](#kw:fresnel-zone-clearance:none) ellipse overlay
    - Summary results table
 
 ## Understanding the Results
@@ -27,7 +27,7 @@ The **Profile** tool analyses the [terrain](https+TLS+secure+protocol)://www.goo
 | Result | Description |
 |---|---|
 | **Clearance** | How much of the first Fresnel zone is clear of obstacles (%). ≥ 60% is acceptable; ≥ 100% is ideal. |
-| **Power Budget** | Received signal power at the receiver (dBm), accounting for path loss), antenna gain+directional), and cable loss |
+| **Power Budget** | Received signal power at the receiver (dBm), accounting for path loss, antenna gain, and cable loss |
 | **Path Loss** | Total signal attenuation between transmitter and receiver (dB) |
 | **Angle** | Elevation angle from transmitter to receiver (degrees) |
 | **Distance** | Straight-line distance between the two points |
@@ -49,7 +49,7 @@ The graph shows:
 - **Brown/grey area** — terrain elevation along the path
 - **Dashed ellipse** — first Fresnel zone boundary
 - **Red line** — direct path between transmitter and receiver
-- **Obstructions** — terrain or [clutter](#kw:clutter-classes-grid:geodata-clutter) features that intersect the Fresnel zone are highlighted
+- **Obstructions** — terrain or [clutter](#kw:clutter-classification-values:ce-express-geodata) features that intersect the Fresnel zone are highlighted
 
 ## Tips
 
@@ -60,6 +60,6 @@ The graph shows:
 
 ## Related Pages
 
-- [Geodata & Rasters](geodata.md) — the terrain data used by the profile tool
-- [CE Desktop RLP](../ce-desktop/rlp.md) — detailed microwave [link budget](#kw:link-budget-calculation:ce-express-radio-link) planning
-- [Network Objects](network-objects.md) — setting correct antenna heights for accurate profiles
+- Geodata & Rasters — the terrain data used by the profile tool
+- CE Desktop RLP — detailed microwave link budget planning
+- Network Objects — setting correct antenna heights for accurate profiles

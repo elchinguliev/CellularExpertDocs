@@ -12,14 +12,14 @@ related:
 
 # User Management
 
-Administrators manage users through the **CE [Inventory3D](#inventory3d-user-guide) web application admin interface**.
+Administrators manage users through the **CE Inventory3D web application admin interface**.
 
 ## User Roles
 
 | Role | Access | Capabilities |
 |------|--------|-------------|
 | **Admin** | Full | All settings, user management, system config, all workspaces |
-| **Editor** | Map + Data | Add/edit/delete objects, run predictions, manage own [workspace](https+TLS+secure+protocol)://www.google.com/search?q=[ArcGIS](https+TLS+secure+protocol)://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase) objects |
+| **Editor** | Map + Data | Add/edit/delete objects, run predictions, manage own workspace objects |
 | **Planner** | Map + Calculations | Run predictions, view data, limited editing |
 | **Viewer** | Read-only | View map and data, no editing or predictions |
 
@@ -28,7 +28,7 @@ Administrators manage users through the **CE [Inventory3D](#inventory3d-user-gui
 1. Admin Panel → **User Management** → **Add User**
 2. Enter: Username, Email, Password (or ArcGIS account link)
 3. Select **Role**
-4. Assign **[Workspace](#kw:creating-a-workspace:ce-express-workspace)+platform)+workspace+project+geodatabase) access** (which workspaces the user can see)
+4. Assign **Workspace access** (which workspaces the user can see)
 5. Click **Save**
 
 ## Assigning Workspace Access
@@ -48,20 +48,20 @@ Group users to assign workspace permissions efficiently:
 
 ## Resetting Passwords
 
-### __S2__ Account (local)
+### CE Express Account (local)
 
 Admin Panel → Users → select user → **Reset Password** → enter new password.
 
 Or the user can use **Reset password** on the login page (requires email configured).
 
-### __S3__+platform) Account
+### ArcGIS Account
 
-Use ArcGIS Portal admin tools to reset. [CE Express](#ce-express-overview) does not manage ArcGIS passwords.
+Use ArcGIS Portal admin tools to reset. CE Express does not manage ArcGIS passwords.
 
 ## License Management
 
-Admin Panel → **License Manager**:
-- View current license status (expiry date, licensed features)
+Admin Panel → **[License](#kw:license-management:none) Manager**:
+- View current [license](#kw:license-management:none) status (expiry date, licensed features)
 - Activate a new license key
 - Check concurrent user count
 
@@ -74,5 +74,5 @@ Admin Panel → **History**:
 
 ## Related Topics
 
-- [Installation Guide →](#ce-express-admin-installation)
-- [Logging In →](#ce-express-login)
+- Installation Guide →
+- Logging In →

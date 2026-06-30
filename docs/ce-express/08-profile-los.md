@@ -11,9 +11,9 @@ related:
   - geodata-requirements
 ---
 
-# __S0__ and Profile Analysis
+# Line of Sight and Profile Analysis
 
-The **Profile** tool computes [terrain](https+TLS+secure+protocol)://www.google.com/search?q=terrain+elevation+model+GIS+topography) cross-sections and checks whether two points have a clear radio path.
+The **Profile** tool computes terrain cross-sections and checks whether two points have a clear radio path.
 
 ## Opening the Profile Tool
 
@@ -23,11 +23,11 @@ Click **Profile** in the left toolbar.
 
 1. Click **Draw Profile** in the tool panel
 2. Click two points on the map (start and end)
-3. [CE Express](#ce-express-overview) computes the [terrain profile](https+TLS+secure+protocol)://www.google.com/search?q=terrain+topography)+profile+elevation+radio+link) using the loaded [DEM](#geodata-dem)
+3. CE Express computes the terrain profile using the loaded DEM
 
 Alternatively:
 - Select two existing network objects → Profile is drawn between them
-- Import) profile endpoints from a file
+- Import profile endpoints from a file
 
 ## Profile Properties
 
@@ -35,11 +35,11 @@ Configure before drawing:
 
 | Property | Description |
 |----------|-------------|
-| **Frequency (MHz)** | Affects [Fresnel zone](#ce-express-profile) radius calculation |
+| **Frequency (MHz)** | Affects [Fresnel zone](#kw:fresnel-zone-clearance:ce-express-profile) radius calculation |
 | **K-factor** | Earth curvature correction. Default: 4/3 (standard atmosphere). Use 2/3 for worst-case diffraction. |
 | **Antenna height A** | Height at start point (m AGL) |
 | **Antenna height B** | Height at end point (m AGL) |
-| **[DEM](#geodata-dem) source** | Terrain dataset to use |
+| **DEM source** | Terrain dataset to use |
 
 ## Profile Results
 
@@ -48,8 +48,8 @@ The profile chart shows:
 | Element | Description |
 |---------|-------------|
 | **Terrain cross-section** | Elevation profile along the path |
-| **[Line of sight](#ce-express-profile)+radio+propagation)** | Direct path between antennas |
-| **Fresnel zones** | 1st (and higher) [Fresnel zone](#ce-express-profile) ellipses |
+| **Line of sight** | Direct path between antennas |
+| **Fresnel zones** | 1st (and higher) [Fresnel zone](#kw:fresnel-zone-clearance:ce-express-profile) ellipses |
 | **Earth bulge** | Earth curvature correction (based on K-factor) |
 | **Obstacles** | Terrain or building obstructions |
 | **Clearance** | Vertical clearance above terrain at critical points |
@@ -62,7 +62,7 @@ The profile chart shows:
 | 🟡 Yellow | Marginal — 1st Fresnel zone partially obstructed |
 | 🔴 Red | Obstructed — direct path blocked |
 
-> For microwave+radio+link+planning) links, the 1st Fresnel zone should be **at least 60% clear** for acceptable performance.
+> For microwave links, the 1st Fresnel zone should be **at least 60% clear** for acceptable performance.
 
 ## Profile Tools
 
@@ -87,10 +87,10 @@ Configure display options:
 
 ## Import
 
-Import) profile endpoints from coordinates (CSV) or from existing network objects.
+Import profile endpoints from coordinates (CSV) or from existing network objects.
 
 ## Related Topics
 
-- [Radio Link Prediction →](#ce-express-radio-link)
-- [RF Prediction →](#ce-express-rf-prediction)
-- [Geodata Requirements →](#geodata-requirements)
+- Radio Link Prediction →
+- RF Prediction →
+- Geodata Requirements →

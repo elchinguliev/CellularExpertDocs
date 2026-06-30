@@ -1,10 +1,10 @@
 # Logging In to CE Express
 
-[CE Express](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) uses **[ArcGIS Enterprise](https+TLS+secure+protocol)://www.google.com/search?q=ArcGIS+platform)+Enterprise+server+GIS+deployment)** for authentication. You log in with your ArcGIS+platform) credentials — the same username and password you use for your organisation's ArcGIS portal+Portal+enterprise+web+GIS).
+CE Express uses **ArcGIS Enterprise** for authentication. You log in with your ArcGIS credentials — the same username and password you use for your organisation's ArcGIS portal.
 
 ## Steps
 
-1. Open your browser and navigate to the [CE Express](#ce-express-overview) URL provided by your administrator.
+1. Open your browser and navigate to the CE Express URL provided by your administrator.
    Example: `https://cecom2.cellular-expert.com/ce_express/`
 
 2. Click **Login as ArcGIS**.
@@ -19,8 +19,8 @@
 
 If you are logging in for the first time:
 
-- Confirm with your administrator that your ArcGIS account has been granted access to the [CE Express](#ce-express-overview) application item in the ArcGIS Portal.
-- Make sure at least one **[workspace](#kw:creating-a-workspace:ce-express-workspace)** has been created and shared with your account. Without a [workspace](#kw:creating-a-workspace:ce-express-workspace) you cannot run predictions or view network objects on the map.
+- Confirm with your administrator that your ArcGIS account has been granted access to the CE Express application item in the ArcGIS Portal.
+- Make sure at least one **workspace** has been created and shared with your account. Without a workspace you cannot run predictions or view network objects on the map.
 
 ## Switching Between Views
 
@@ -46,6 +46,6 @@ Click your user name or avatar in the top-right corner of the ArcGIS Portal and 
 
 ## Related Pages
 
-- [CE Express Overview](overview.md)
-- [Workspaces](workspace.md)
-- [Troubleshooting](troubleshooting.md)
+- CE Express Overview
+- Workspaces
+- Troubleshooting

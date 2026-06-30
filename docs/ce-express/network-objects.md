@@ -1,13 +1,13 @@
 # Network Objects
 
-[Network objects](https+TLS+secure+protocol)://www.google.com/search?q=radio+network+objects+sites+cells+GIS) are the radio infrastructure elements managed in [CE Express](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform): **sites**, **cells**, and **repeaters**. All objects are stored in the PostgreSQL database and are visible on the map when a [workspace](#kw:creating-a-workspace:ce-express-workspace)+platform)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase) is selected.
+Network objects are the radio infrastructure elements managed in CE Express: **sites**, **cells**, and **repeaters**. All objects are stored in the PostgreSQL database and are visible on the map when a workspace is selected.
 
 ## Object Types
 
 | Type | Description |
 |---|---|
 | **Site** | A physical location (tower, rooftop, pole) that hosts one or more cells |
-| **Cell** | A single radio sector+sector+antenna+coverage+area) — one antenna with defined position, direction, frequency, and power |
+| **Cell** | A single radio sector — one antenna with defined position, direction, frequency, and power |
 | **Repeater** | A signal booster that receives and retransmits a cell's signal |
 
 ## Required Cell Attributes
@@ -23,13 +23,13 @@
 | Attribute | Description |
 |---|---|
 | `site_name` | Parent site name |
-| `height` | Antenna height above ground+antenna) (metres) |
+| `height` | Antenna height above ground (metres) |
 | `azimuth` | Horizontal direction the antenna faces (0–360°, clockwise from north) |
 | `tilt` | Vertical downtilt angle (degrees) |
 | `frequency_mhz` | Operating frequency in MHz (e.g. 1800, 2100, 3500) |
-| `power_dbm` | Transmit power+radio+antenna) in dBm |
+| `power_dbm` | Transmit power in dBm |
 | `technology` | Radio technology: `2G`, `3G`, `4G`, or `5G` |
-| `antenna_pattern` | Name of the assigned [antenna pattern](#kw:antenna-patterns:ce-express-antenna) file |
+| `antenna_pattern` | Name of the assigned [antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) file |
 
 ## Adding Objects Manually
 
@@ -42,11 +42,11 @@
 
 ## Importing Objects from CSV
 
-Bulk import) is the fastest way to add many cells at once.
+Bulk import is the fastest way to add many cells at once.
 
 1. Open **Network Data Management**.
-2. Click **Import)**.
-3. Select your CSV file. The file must have a header row with column names matching [CE Express](#ce-express-overview) field names.
+2. Click **Import**.
+3. Select your CSV file. The file must have a header row with column names matching CE Express field names.
 4. Map any columns that don't match automatically.
 5. Click **Import**.
 6. Click **Synchronize Changes** to confirm.
@@ -66,7 +66,7 @@ SITE01_B,SITE01,54.6872,25.2797,30,120,3,1800,43,4G,
 SITE01_C,SITE01,54.6872,25.2797,30,240,3,1800,43,4G,
 ```
 
-> Download the template from the [Downloads](../../downloads.md) page.
+> Download the template from the Downloads page.
 
 ## Editing Objects
 
@@ -90,7 +90,7 @@ Switch to Network Data Management, find the row, and click any cell to edit it. 
 
 1. Select the objects to duplicate (use Rectangle Selection for multiple).
 2. Click **Duplicate selected objects**.
-3. Choose the target workspace+workspace+project+geodatabase) from the dropdown.
+3. Choose the target workspace from the dropdown.
 4. Set the new position by clicking the map or entering coordinates.
 5. Click **Accept**.
 
@@ -98,7 +98,7 @@ Switch to Network Data Management, find the row, and click any cell to edit it. 
 
 Select the object → right-click → **Delete**, or select the row in Network Data Management and click **Delete Record**.
 
-> In [Inventory3D](#inventory3d-user-guide), permanent deletion requires the **Delete Object Permanently** admin function. Standard deletion in [CE Express](#ce-express-overview) moves objects to a soft-deleted state.
+> In Inventory3D, permanent deletion requires the **Delete Object Permanently** admin function. Standard deletion in CE Express moves objects to a soft-deleted state.
 
 ## Selecting Multiple Objects
 
@@ -106,6 +106,6 @@ Use the **Rectangle Selection** tool to draw a box on the map and select all obj
 
 ## Related Pages
 
-- [Antenna Patterns](antenna-patterns.md) — assigning patterns to cells
-- [RF Prediction](rf-prediction.md) — running predictions on selected cells
-- [Workspaces](workspace.md) — workspace and database overview
+- [Antenna Patterns](#kw:importing-antenna-patterns:ce-express-antenna) — assigning patterns to cells
+- RF Prediction — running predictions on selected cells
+- Workspaces — workspace and database overview

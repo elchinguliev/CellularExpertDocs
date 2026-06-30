@@ -1,11 +1,11 @@
 # Workspaces
 
-A **[workspace](https+TLS+secure+protocol)://www.google.com/search?q=[ArcGIS](https+TLS+secure+protocol)://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase)** is the top-level project container in [CE Express](#ce-express-overview). Each [workspace](#kw:creating-a-workspace:ce-express-workspace)+platform)+workspace+project+geodatabase) links your network objects to a geodata folder (terrain and [clutter](#kw:clutter-classes-grid:geodata-clutter) rasters) and a set of prediction model settings. You must have a workspace selected before you can view objects on the map or run RF predictions.
+A **[workspace](#kw:what-a-workspace-contains:none)** is the top-level project container in CE Express. Each [workspace](#kw:what-a-workspace-contains:none) links your network objects to a geodata folder (terrain and [clutter](#kw:clutter-classification-values:ce-express-geodata) rasters) and a set of prediction model settings. You must have a workspace selected before you can view objects on the map or run RF predictions.
 
 ## What a Workspace Contains
 
 - Network objects (sites, cells, repeaters) stored in the PostgreSQL database
-- A reference to the **geodata folder** on the server (elevation+height+datum).tif, [clutter](#kw:clutter-classes-grid:geodata-clutter) files)
+- A reference to the **geodata folder** on the server (elevation.tif, [clutter](#kw:clutter-classification-values:ce-express-geodata) files)
 - The **coordinate reference system (CRS)** for that project area
 - Assigned **prediction model** configurations
 
@@ -19,7 +19,7 @@ Click the **Workspace** icon in the left toolbar of Map View.
 2. Click on a workspace name to select it.
 3. The map loads all network objects from that workspace.
 
-> If no workspaces appear, contact your administrator — workspaces must be created and shared with your ArcGIS+platform) user account.
+> If no workspaces appear, contact your administrator — workspaces must be created and shared with your ArcGIS user account.
 
 ## Creating a New Workspace
 
@@ -31,7 +31,7 @@ Click the **Workspace** icon in the left toolbar of Map View.
 |---|---|
 | **Name** | A descriptive name for the project (e.g. "Vilnius 4G Q1 2025") |
 | **Geodata folder** | Server path to the folder containing `elevation.tif` and optional clutter rasters |
-| **Coordinate system** | Must match the CRS of your [GeoTIFF](#geodata-[dem](#geodata-dem)) rasters (Projected CRS, not geographic/WGS84) |
+| **Coordinate system** | Must match the CRS of your GeoTIFF rasters (Projected CRS, not geographic/WGS84) |
 
 4. Click **Save**.
 
@@ -47,7 +47,7 @@ Duplicating is useful when you want to test changes without affecting an existin
 
 > If the new workspace does not appear immediately, refresh the page.
 
-The duplicate inherits all settings from the original. Network objects are **not** copied — both workspaces read from the same database table. To work on a separate copy of the objects, use the Import)/Export tools.
+The duplicate inherits all settings from the original. Network objects are **not** copied — both workspaces read from the same database table. To work on a separate copy of the objects, use the Import/Export tools.
 
 ## Editing Workspace Settings
 
@@ -64,6 +64,6 @@ The duplicate inherits all settings from the original. Network objects are **not
 
 ## Related Pages
 
-- [Geodata & Rasters](geodata.md) — preparing elevation.tif and clutter files
-- [RF Prediction](rf-prediction.md) — prediction model settings
-- [Network Objects](network-objects.md) — managing sites and cells within a workspace
+- Geodata & Rasters — preparing elevation.tif and clutter files
+- RF Prediction — prediction model settings
+- Network Objects — managing sites and cells within a workspace

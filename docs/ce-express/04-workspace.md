@@ -14,16 +14,16 @@ related:
 
 # Workspaces
 
-A **[workspace](https+TLS+secure+protocol)://www.google.com/search?q=[ArcGIS](https+TLS+secure+protocol)://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase)** is a project container in [CE Express](#ce-express-overview) that holds all network objects), geodata references, and settings for a specific planning area.
+A **[workspace](#kw:creating-a-workspace:none)** is a project container in CE Express that holds all network objects, geodata references, and settings for a specific planning area.
 
 ## What a Workspace Contains
 
 - Network objects (sites, cells, links, repeaters, etc.)
-- Geodata set reference (terrain, [clutter](#kw:clutter-classes-grid:geodata-clutter), buildings)
-- Coordinate system (EPSG code)
+- Geodata set reference (terrain, [clutter](#kw:clutter-classification-values:ce-express-geodata), buildings)
+- Coordinate system ([EPSG](#kw:coordinate-origin:none) code)
 - Visualization layers (external services, GIS layers)
 - User group assignments
-- Calculation settings (EIRP, height references, [clutter](#kw:clutter-classes-grid:geodata-clutter) use)
+- Calculation settings (EIRP, height references, [clutter](#kw:clutter-classification-values:ce-express-geodata) use)
 
 Workspaces can be:
 - Assigned to one or multiple user groups
@@ -32,7 +32,7 @@ Workspaces can be:
 
 ## Switching Workspaces
 
-Click the **Workspaces** tool in the left toolbar. The active [workspace](#kw:creating-a-workspace:ce-express-workspace)+workspace+project+geodatabase) name is shown.
+Click the **Workspaces** tool in the left toolbar. The active [workspace](#kw:creating-a-workspace:none) name is shown.
 
 - Click any workspace to switch to it
 - The map automatically zooms to the workspace extent
@@ -49,7 +49,7 @@ Click **New workspace** in the Workspaces panel.
 | Field | Description |
 |-------|-------------|
 | **Workspace name** | Unique workspace identifier |
-| **Coordinate system EPSG** | EPSG code of the projected coordinate+GIS) system. Default: 4326 (WGS84). **Use a projected system (UTM, national grid) for accurate distance calculations.** |
+| **Coordinate system [EPSG](#kw:coordinate-origin:none)** | EPSG code of the projected coordinate system. Default: 4326 (WGS84). **Use a projected system (UTM, national grid) for accurate distance calculations.** |
 | **Group** | Group workspaces by setting the same value for multiple workspaces |
 | **Locked** | Prevents feature editing. Only admins can unlock. Use for archiving. |
 
@@ -71,9 +71,9 @@ Origin point from which coordinates are displayed in the UI. Global coordinates 
 
 | Setting | Options | Description |
 |---------|---------|-------------|
-| **Calculate EIRP** | Enabled/Disabled | Enabled: EIRP = Power − Misc. Loss + Antenna Gain+directional). Disabled: Power value used as EIRP. |
+| **Calculate EIRP** | Enabled/Disabled | Enabled: EIRP = Power − Misc. Loss + Antenna Gain. Disabled: Power value used as EIRP. |
 | **Use clutter** | On/Off | Whether Clutter Loss is applied in predictions |
-| **Transmitter height reference** | Elevation+height+datum) / Clutter height (buildings only) / Clutter height / Absolute | How absolute transmitter height is calculated |
+| **Transmitter height reference** | Elevation / Clutter height (buildings only) / Clutter height / Absolute | How absolute transmitter height is calculated |
 | **Receiver height reference** | Same options | How absolute receiver height is calculated |
 | **Geodata set** | Select from list | Geodata used in all calculations in this workspace |
 
@@ -109,7 +109,7 @@ Hover over a workspace → click **Delete Workspace**.
 
 ## Related Topics
 
-- [Geodata Sets →](#ce-express-geodata-sets)
-- [Geodata Requirements →](#geodata-requirements)
-- [Creating a Workspace (Admin) →](#ce-express-admin-workspace)
-- [Features — Adding Objects →](#ce-express-features)
+- Geodata Sets →
+- Geodata Requirements →
+- Creating a Workspace (Admin) →
+- Features — Adding Objects →

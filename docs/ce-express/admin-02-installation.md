@@ -10,23 +10,23 @@ related:
   - ce-express-admin-workspace
 ---
 
-# __S22__ Installation Guide
+# CE Express Installation Guide
 
 ## Prerequisites
 
-Before installing [CE Express](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform), ensure the following are installed and configured:
+Before installing CE Express, ensure the following are installed and configured:
 
-### 1. __S23__ Server
-- ArcGIS+platform) Server 10.9.1 or later
+### 1. ArcGIS Server
+- ArcGIS Server 10.9.1 or later
 - Configured and licensed
 - Site created and accessible
 
-### 2. __S25__
-- PostgreSQL 13+ with **[PostGIS](https+TLS+secure+protocol)://www.google.com/search?q=PostGIS+PostgreSQL+spatial+extension)** extension installed
+### 2. PostgreSQL
+- PostgreSQL 13+ with **PostGIS** extension installed
 - Database user with CREATE privileges
 - Remote connections enabled (pg_hba.conf)
 
-### 3. __S27__ Server
+### 3. PHP Server
 - PHP 7.4 or later
 - Extensions: `pdo_pgsql`, `curl`, `json`, `mbstring`
 
@@ -34,7 +34,7 @@ Before installing [CE Express](https+TLS+secure+protocol)://www.google.com/searc
 
 ### Step 1: Accept Terms and Conditions
 
-Run the [CE Express](#ce-express-overview) installer as **Administrator**. Accept the software license agreement.
+Run the CE Express installer as **Administrator**. Accept the software license agreement.
 
 ### Step 2: Prepare Installation Folders
 
@@ -69,7 +69,7 @@ $server_url = 'https://your-server/server';
 
 Edit `ce_express_db_config.php` with PostgreSQL connection details.
 
-Run the [CE Express](#ce-express-overview) database setup script:
+Run the CE Express database setup script:
 
 ```sql
 -- Creates CE Express schema
@@ -99,10 +99,10 @@ server {
 }
 ```
 
-### Step 7: Configure __S30__ Publishing (Optional)
+### Step 7: Configure ArcGIS Portal Publishing (Optional)
 
-To allow CE Express to publish+platform)+Portal+web+map) layers to ArcGIS Portal:
-1. Create a dedicated ArcGIS Portal+platform)+Portal+enterprise+web+GIS) service account for CE Express
+To allow CE Express to publish layers to ArcGIS Portal:
+1. Create a dedicated ArcGIS Portal service account for CE Express
 2. Edit `ce_express_config.php` → set `$portal_user` and `$portal_pass`
 3. Test: CE Express → Features → Publish → verify layer appears in Portal
 
@@ -112,16 +112,16 @@ For password reset and ticket notifications:
 1. Edit `ce_express_config.php` → set `$smtp_host`, `$smtp_port`, `$smtp_user`, `$smtp_pass`
 2. Test: CE Express → Settings → Send test email
 
-### Step 9: Create Database Structure (__S32__)
+### Step 9: Create Database Structure (Inventory3D)
 
-Run the [Inventory3D](#inventory3d-user-guide) database initialization:
+Run the Inventory3D database initialization:
 ```bash
 php ce_inventory3d_setup.php
 ```
 
 ### Step 10: Install Inventory3D Web Application
 
-Copy [Inventory3D](#inventory3d-user-guide) web application package to the web server folder.
+Copy Inventory3D web application package to the web server folder.
 Register in ArcGIS Portal as a web application.
 
 ## CE Inventory3D Folder Structure
@@ -139,12 +139,12 @@ CEInventory3D\
 1. Open `https://your-server/ceexp` in Chrome
 2. Log in with ArcGIS credentials
 3. Verify Map view loads
-4. Create a test [workspace](#kw:creating-a-workspace:ce-express-workspace)
-5. Run a test [RF prediction](#ce-express-rf-prediction)
+4. Create a test workspace
+5. Run a test RF prediction
 
 ## Related Topics
 
-- [System Requirements →](#ce-express-admin-requirements)
-- [Geodata Preparation →](#ce-express-admin-geodata)
-- [User Management →](#ce-express-admin-user-management)
-- [Creating Workspaces (Admin) →](#ce-express-admin-workspace)
+- System Requirements →
+- Geodata Preparation →
+- User Management →
+- Creating Workspaces (Admin) →

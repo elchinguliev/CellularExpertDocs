@@ -10,11 +10,11 @@ related:
   - ce-express-admin-user-management
 ---
 
-# __S1__ System Requirements
+# CE Express System Requirements
 
 ## Minimum Hardware Requirements
 
-### Server (CE Express + __S2__+Enterprise+server+deployment))
+### Server (CE Express + ArcGIS Enterprise+Enterprise+server+deployment))
 
 | Component | Minimum | Recommended | Optimal |
 |-----------|---------|-------------|---------|
@@ -22,7 +22,7 @@ related:
 | **RAM** | 16 GB | 32 GB | 64 GB or more |
 | **Storage** | 500 GB – 1 TB free | 2 TB+ SSD | NVMe SSD RAID |
 
-### Optional: __S3__-Accelerated Calculations
+### Optional: GPU-Accelerated Calculations
 
 | Component | Requirement |
 |-----------|------------|
@@ -30,7 +30,7 @@ related:
 | Driver | Version 456.38 or later |
 | CUDA Toolkit | 11.0 – 12.4 (recommended) |
 
-See: [https://developer.nvidia.com/cuda-gpus](https://developer.nvidia.com/cuda-gpus)
+See: https://developer.nvidia.com/cuda-gpus
 
 > Requirements vary significantly depending on acceptable calculation time, task complexity, and database size.
 
@@ -38,11 +38,11 @@ See: [https://developer.nvidia.com/cuda-gpus](https://developer.nvidia.com/cuda-
 
 | Software | Version | Notes |
 |----------|---------|-------|
-| **Operating System** | [Windows Server](#ce-express-admin-requirements) 2016/2019/2022 | Also supported: [Ubuntu](#ce-express-admin-requirements) 20.04+ |
-| **[ArcGIS Server](https+TLS+secure+protocol)://www.google.com/search?q=[ArcGIS](https+TLS+secure+protocol)://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+Server+GIS+web+services)** | 10.9.1 or later | Required for map services |
-| **ArcGIS Portal+Portal+enterprise+web+GIS)** | 10.9.1 or later | Required for user authentication |
+| **Operating System** | Windows Server 2016/2019/2022 | Also supported: Ubuntu 20.04+ |
+| **ArcGIS Server** | 10.9.1 or later | Required for map services |
+| **ArcGIS Portal** | 10.9.1 or later | Required for user authentication |
 | **PostgreSQL** | 13 or later | With PostGIS extension |
-| **PHP Server** | 7.4 or later | For [CE Express](#ce-express-overview) web application |
+| **PHP Server** | 7.4 or later | For CE Express web application |
 | **Web Server** | IIS (Windows) or Nginx (Linux) | Front-end proxy |
 
 ## Architecture Examples
@@ -65,15 +65,15 @@ See: [https://developer.nvidia.com/cuda-gpus](https://developer.nvidia.com/cuda-
 
 ### Cloud / Hybrid Deployment
 
-[CE Express](#ce-express-overview) supports cloud deployment on:
+CE Express supports cloud deployment on:
 - **Microsoft Azure** (recommended)
 - **AWS**
 - **Google Cloud Platform**
 
-ArcGIS Enterprise+platform)+Enterprise+server+GIS) and the CE Express server can be on separate machines/VMs.
+ArcGIS Enterprise and the CE Express server can be on separate machines/VMs.
 
 ## Related Topics
 
-- [Installation Guide →](#ce-express-admin-installation)
-- [Geodata Preparation (Admin) →](#ce-express-admin-geodata)
-- [User Management →](#ce-express-admin-user-management)
+- Installation Guide →
+- Geodata Preparation (Admin) →
+- User Management →

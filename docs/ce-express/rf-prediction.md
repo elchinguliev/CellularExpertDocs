@@ -1,18 +1,18 @@
 # RF Prediction
 
-[RF Prediction](https+TLS+secure+protocol)://www.google.com/search?q=RF+radio+frequency+prediction+coverage+planning) calculates radio coverage for a set of cells across a defined area. The output is a set of [raster](https+TLS+secure+protocol)://www.google.com/search?q=raster+GIS+grid+data+format) layers — RSRP), SINR, throughput), and best server — that can be displayed on the map and published to ArcGIS Portal+platform)+Portal+enterprise+web+GIS).
+[RF Prediction](#kw:running-a-full-rf-prediction:none) calculates radio coverage for a set of cells across a defined area. The output is a set of raster layers — [RSRP](#kw:typical-rsrp-thresholds:none), SINR, throughput, and best server — that can be displayed on the map and published to ArcGIS Portal.
 
 ## Prerequisites
 
 Before running a prediction, make sure you have:
 
-1. ✅ A **[workspace](#kw:creating-a-workspace:ce-express-workspace)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase)** selected with a valid geodata folder path
+1. ✅ A **workspace** selected with a valid geodata folder path
 2. ✅ `elevation.tif` in the geodata folder (Projected CRS, NoData = -9999)
 3. ✅ At least one **cell** with latitude, longitude, and cell_name defined
 4. ✅ A **prediction model** configured for the target technology (4G or 5G)
-5. ✅ (Recommended) **Antenna patterns** assigned to cells
+5. ✅ (Recommended) **[Antenna patterns](#kw:importing-antenna-patterns:ce-express-antenna)** assigned to cells
 
-> See [Geodata](geodata.md), [Network Objects](network-objects.md), and [Antenna Patterns](antenna-patterns.md) if any of these are not yet set up.
+> See Geodata, Network Objects, and [Antenna Patterns](#kw:importing-antenna-patterns:ce-express-antenna) if any of these are not yet set up.
 
 ## Running a Full RF Prediction
 
@@ -24,20 +24,20 @@ Before running a prediction, make sure you have:
 
 ### Step 2 — Open RF Prediction
 
-Click the **[RF Prediction](#ce-express-rf-prediction)** tool in the left toolbar.
+Click the **[RF Prediction](#kw:running-a-full-rf-prediction:none)** tool in the left toolbar.
 
 ### Step 3 — Configure Parameters
 
 | Parameter | Description | Recommendation |
 |---|---|---|
 | **Technology** | 4G (LTE) or 5G (NR) | Match your cell technology |
-| **Resolution+GIS+accuracy)** | Pixel size in metres | 50–100 m for quick checks; 10–25 m for final results |
+| **Resolution** | Pixel size in metres | 50–100 m for quick checks; 10–25 m for final results |
 | **Best server count** | How many best servers to calculate per pixel | Minimum 3; use 5 for interference analysis |
 | **Prediction model** | The propagation formula to use | Select the model configured for your area |
 
 ### Step 4 — Calculate
 
-Click **Calculate**. The prediction job is submitted to the [CE Express](#ce-express-overview) server.
+Click **Calculate**. The prediction job is submitted to the CE Express server.
 
 Monitor progress in **Prediction History** (panel at the bottom of the screen):
 - 🟡 Yellow = calculating
@@ -48,12 +48,12 @@ Monitor progress in **Prediction History** (panel at the bottom of the screen):
 
 Quick RF is a fast, single-cell field strength preview. Use it for a rapid sanity check without running a full job.
 
-1. Open the **[Quick RF Prediction](#kw:quick-rf-prediction:ce-express-rf-prediction)** tool.
+1. Open the **[Quick RF Prediction](#kw:quick-rf-prediction:none)** tool.
 2. Set **Resolution** to 1 for best quality.
 3. Hold **CTRL** and click on a cell — the prediction runs instantly.
 4. View results in **Layers → Prediction results**.
 
-> Quick RF calculates field strength only. For RSRP+4G), SINR, throughput), and multi-cell best server analysis, use the full [RF Prediction](#ce-express-rf-prediction) tool.
+> Quick RF calculates field strength only. For [RSRP](#kw:typical-rsrp-thresholds:none), SINR, throughput, and multi-cell best server analysis, use the full RF Prediction tool.
 
 ## Prediction Outputs
 
@@ -88,18 +88,18 @@ Quick RF is a fast, single-cell field strength preview. Use it for a rapid sanit
 
 ## Prediction Models
 
-Prediction models define how [path loss](#ce-express-prediction-models) is calculated. Go to the **Prediction Models** tool to configure:
+Prediction models define how path loss is calculated. Go to the **Prediction Models** tool to configure:
 
-- Propagation formula (e.g. [Okumura-Hata](#ce-express-prediction-models), Cost231, 3GPP)
+- Propagation formula (e.g. Okumura-Hata, Cost231, 3GPP)
 - Frequency and band
-- [Clutter](#kw:clutter-classes-grid:geodata-clutter) loss coefficients (requires `clutterClasses.tif`)
+- [Clutter](#kw:clutter-classification-values:ce-express-geodata) loss coefficients (requires `clutterClasses.tif`)
 - Diffraction and morphology settings
 
-Each model is assigned to a workspace+workspace+project+geodatabase). You can have different models for different project areas.
+Each model is assigned to a workspace. You can have different models for different project areas.
 
 ## Related Pages
 
-- [Quick Start Guide](../training/quick-start.md)
-- [Publishing to Portal](publishing.md) — sharing results with your team
-- [Geodata & Rasters](geodata.md)
-- [Troubleshooting](troubleshooting.md)
+- Quick Start Guide
+- Publishing to Portal — sharing results with your team
+- Geodata & Rasters
+- Troubleshooting

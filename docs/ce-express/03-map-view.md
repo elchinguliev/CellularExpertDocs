@@ -13,7 +13,7 @@ related:
 
 # Map View
 
-The [CE Express](#ce-express-overview) Map view is the primary [workspace](https+TLS+secure+protocol)://www.google.com/search?q=[ArcGIS](https+TLS+secure+protocol)://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase) for network planning and analysis.
+The CE Express Map view is the primary workspace for network planning and analysis.
 
 ## Layout
 
@@ -21,7 +21,7 @@ The Map view is divided into six areas:
 
 | Area | Description |
 |------|-------------|
-| 1. Top bar | [Inventory3D](#inventory3d-user-guide) window layout, settings, user menu |
+| 1. Top bar | Inventory3D window layout, settings, user menu |
 | 2. Left toolbar | Data management and visualization tools |
 | 3. Map canvas | Graphical data management, object placement |
 | 4. Table panel | Attribute data management (bottom) |
@@ -34,25 +34,25 @@ All main tools are accessed from the left toolbar:
 
 | Tool | Icon | Function |
 |------|------|----------|
-| [Workspaces](#ce-express-workspace) | 🗂 | Switch between workspaces |
-| [Features](#ce-express-features) | 📍 | Add, import+network+objects+CSV), select, edit objects |
-| [Networks](#ce-express-networks) | 🔗 | Manage object groups, run batch predictions |
-| [Layers](#ce-express-layers) | 🗺 | Control map layer visibility |
-| [Prediction History](#ce-express-prediction-history) | 📊 | Browse and manage prediction results |
-| [Antennas](#ce-express-antennas) | 📡 | [Antenna pattern](#kw:antenna-patterns:ce-express-antenna) library |
-| [Geodata Sets](#ce-express-geodata-sets) | 🌍 | Manage terrain, [clutter](#kw:clutter-classes-grid:geodata-clutter), building data |
-| [Feature Templates](#ce-express-feature-templates) | 📋 | Reusable object configurations |
-| [Prediction Models](#ce-express-prediction-models) | 🧮 | Configure [propagation models](#kw:prediction-models:ce-express-prediction-models) |
-| [Profile](#ce-express-profile) | 📈 | Line-of-sight+radio+link) and terrain profile+profile+elevation+radio+link) |
-| [Quick RF Prediction](#ce-express-quick-rf) | ⚡ | Rapid what-if prediction |
-| [RF Prediction](#ce-express-rf-prediction) | 📻 | Full coverage prediction |
-| [3D RF Prediction](#ce-express-3d-rf) | 🏙 | 3D propagation with buildings |
-| [Model Tuning](#ce-express-model-tuning) | 🔧 | Calibrate models against measurements |
-| [Optimal Placement](#ce-express-optimal-placement) | 🎯 | Find best site locations |
-| [Measurement Tool](#ce-express-measurement) | 📏 | Distance and area measurement |
-| [Network Statistics](#ce-express-network-stats) | 📉 | Coverage KPI dashboards |
-| [Street View](#ce-express-street-view) | 🛣 | Google Street View integration |
-| [Feature Report](#ce-express-feature-report) | 📄 | Generate object reports |
+| Workspaces | 🗂 | Switch between workspaces |
+| Features | 📍 | Add, import, select, edit objects |
+| Networks | 🔗 | Manage object groups, run batch predictions |
+| Layers | 🗺 | Control map layer visibility |
+| Prediction History | 📊 | Browse and manage prediction results |
+| Antennas | 📡 | [Antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) library |
+| Geodata Sets | 🌍 | Manage terrain, [clutter](#kw:clutter-classification-values:ce-express-geodata), building data |
+| Feature Templates | 📋 | Reusable object configurations |
+| Prediction Models | 🧮 | Configure propagation models |
+| Profile | 📈 | Line-of-sight and terrain profile |
+| [Quick RF Prediction](#kw:quick-rf-prediction:ce-express-rf-prediction) | ⚡ | Rapid what-if prediction |
+| RF Prediction | 📻 | Full coverage prediction |
+| 3D RF Prediction | 🏙 | 3D propagation with buildings |
+| Model Tuning | 🔧 | Calibrate models against measurements |
+| Optimal Placement | 🎯 | Find best site locations |
+| Measurement Tool | 📏 | Distance and area measurement |
+| Network Statistics | 📉 | Coverage KPI dashboards |
+| Street View | 🛣 | Google Street View integration |
+| Feature Report | 📄 | Generate object reports |
 
 ## View Modes
 
@@ -65,6 +65,6 @@ Switch between view modes using the toolbar buttons:
 
 ## Related Topics
 
-- [Features Tool →](#ce-express-features)
-- [RF Prediction →](#ce-express-rf-prediction)
-- [Workspaces →](#ce-express-workspace)
+- Features Tool →
+- RF Prediction →
+- Workspaces →

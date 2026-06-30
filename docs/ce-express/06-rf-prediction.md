@@ -15,25 +15,25 @@ related:
 
 # RF Prediction
 
-[RF Prediction](https+TLS+secure+protocol)://www.google.com/search?q=RF+radio+frequency+prediction+coverage+planning) calculates **map-based [raster](https+TLS+secure+protocol)://www.google.com/search?q=raster+GIS+grid+data+format) outputs** representing expected signal or radio performance across a coverage area.
+[RF Prediction](#kw:what-rf-prediction-uses:none) calculates **map-based raster outputs** representing expected signal or radio performance across a coverage area.
 
 ## What RF Prediction Uses
 
 Predictions are influenced by:
-- **Network objects)** — cells, sites, antennas (azimuth, tilt, height, power, frequency, technology)
-- **Configuration parameters** — bandwidth), MIMO, duplex mode, losses
-- **Geodata** — terrain elevation+height+datum) ([DEM](#geodata-dem)), [clutter](#kw:clutter-classes-grid:geodata-clutter)/land use, buildings
-- **Equipment definitions** — antenna patterns, [propagation models](#kw:prediction-models:ce-express-prediction-models), calculation templates
+- **Network objects** — cells, sites, antennas (azimuth, tilt, height, power, frequency, technology)
+- **Configuration parameters** — bandwidth, MIMO, duplex mode, losses
+- **Geodata** — terrain elevation (DEM), [clutter](#kw:clutter-classification-values:ce-express-geodata)/land use, buildings
+- **Equipment definitions** — [antenna patterns](#kw:importing-antenna-patterns:ce-express-antenna), propagation models, calculation templates
 
 ## Prediction Types
 
 | Output Type | Description |
 |-------------|-------------|
 | Coverage (signal level) | Received signal strength in dBm |
-| [Path Loss](#ce-express-prediction-models)) | Signal attenuation in dB |
+| Path Loss | Signal attenuation in dB |
 | Best Server | Which cell provides the best signal at each point |
 | Interference | Interference level across the area |
-| RSRP | Reference Signal Received Power (4G/5G) |
+| [RSRP](#kw:typical-rsrp-thresholds:ce-express-rf-prediction) | Reference Signal Received Power (4G/5G) |
 | RSRQ | Reference Signal Received Quality (4G/5G) |
 | SINR | Signal-to-Interference-plus-Noise Ratio |
 | DL Throughput | Downlink data rate estimate (Mb/s) |
@@ -49,23 +49,23 @@ Predictions are influenced by:
 | Object selection | Uses current object values | Uses saved database values |
 | Batch processing | Single cell/group | Multiple networks |
 
-→ See [Quick RF Prediction](#ce-express-quick-rf) for rapid testing.
+→ See [Quick RF Prediction](#kw:quick-rf-prediction-vs-full-rf-prediction:none) for rapid testing.
 
 ## Running a Full RF Prediction
 
 ### Step 1: Select Cells
 
-Select one or more cells using the [Features tool](#ce-express-features) or via a [Network](#ce-express-networks).
+Select one or more cells using the Features tool or via a Network.
 
 ### Step 2: Open Prediction Tool
 
-Click **[RF Prediction](#ce-express-rf-prediction)** in the left toolbar.
+Click **[RF Prediction](#kw:what-rf-prediction-uses:none)** in the left toolbar.
 
 ### Step 3: Configure Parameters
 
-**Prediction type:** Choose output (Coverage, Best Server, RSRP), RSRQ, SINR, Throughput), Interference, etc.)
+**Prediction type:** Choose output (Coverage, Best Server, [RSRP](#kw:typical-rsrp-thresholds:ce-express-rf-prediction), RSRQ, SINR, Throughput, Interference, etc.)
 
-**Resolution+GIS+accuracy):** Controls calculation detail and speed:
+**Resolution:** Controls calculation detail and speed:
 | Resolution | Coverage Quality | Speed |
 |-----------|-----------------|-------|
 | 10 m | Highest | Slowest |
@@ -77,8 +77,8 @@ Click **[RF Prediction](#ce-express-rf-prediction)** in the left toolbar.
 
 **Radius:** Maximum prediction radius from each site (meters).
 
-**[Propagation model](#kw:prediction-models:ce-express-prediction-models):** Select the model appropriate for your environment.
-→ See [Prediction Models](#ce-express-prediction-models)
+**Propagation model:** Select the model appropriate for your environment.
+→ See Prediction Models
 
 **Receiver height:** Height of the mobile receiver above ground (typically 1.5m for outdoor; custom for indoor, vehicle, rooftop).
 
@@ -90,39 +90,39 @@ Click **Run** — a progress indicator appears. Results render as raster layers 
 
 | Input | Required? | Notes |
 |-------|-----------|-------|
-| [DEM](#geodata-dem) (terrain) | **Mandatory** | Must cover the full prediction area with correct projection |
-| [Clutter](#kw:clutter-classes-grid:geodata-clutter)/land use | Recommended | Significantly improves accuracy in mixed environments |
-| 3D buildings | For urban micro / ray-tracing | Required for [COST-231](#ce-express-prediction-models) W-I and ray-tracing models |
-| [Antenna pattern](#kw:antenna-patterns:ce-express-antenna) | **Mandatory** | Each cell must have an antenna assigned (.msi or .pln) |
-| [Propagation model](#kw:prediction-models:ce-express-prediction-models) | **Mandatory** | Configured in [workspace](#kw:creating-a-workspace:ce-express-workspace)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase) or per-cell |
+| DEM (terrain) | **Mandatory** | Must cover the full prediction area with correct projection |
+| [Clutter](#kw:clutter-classification-values:ce-express-geodata)/land use | Recommended | Significantly improves accuracy in mixed environments |
+| 3D buildings | For urban micro / ray-tracing | Required for COST-231 W-I and ray-tracing models |
+| [Antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) | **Mandatory** | Each cell must have an antenna assigned (.msi or .pln) |
+| Propagation model | **Mandatory** | Configured in workspace or per-cell |
 
-> If DEM does not cover the prediction area, the prediction will produce empty results. Check geodata coverage in [Geodata Sets](#ce-express-geodata-sets).
+> If DEM does not cover the prediction area, the prediction will produce empty results. Check geodata coverage in Geodata Sets.
 
 ## Prediction Results
 
-Results appear as raster layers in the map. From the [Prediction History](#ce-express-prediction-history) panel:
+Results appear as raster layers in the map. From the Prediction History panel:
 - Toggle layers on/off
 - Customize colour scales and thresholds
 - Compare multiple predictions
-- Export results as **[GeoTIFF](#geodata-dem)** raster
+- Export results as **GeoTIFF** raster
 
 ## Common Issues
 
 | Problem | Cause | Fix |
 |---------|-------|-----|
 | Empty/blank result | DEM not loaded or wrong projection | Check geodata set coverage and projection |
-| No result layer | Antenna not assigned to cell | Assign [antenna pattern](#kw:antenna-patterns:ce-express-antenna) in cell properties |
+| No result layer | Antenna not assigned to cell | Assign [antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) in cell properties |
 | Very slow prediction | Fine resolution over large area | Increase resolution to 50–100m; reduce radius |
 | Out of memory | Large area at fine resolution | Split area, reduce radius, use coarser resolution |
 | License error | Prediction module not licensed | Check License Manager — contact support |
 
-→ See [Troubleshooting RF Prediction](#troubleshooting-rf-prediction)
+→ See Troubleshooting [RF Prediction](#kw:what-rf-prediction-uses:none)
 
 ## Related Topics
 
-- [Quick RF Prediction →](#ce-express-quick-rf)
-- [Prediction Models →](#ce-express-prediction-models)
-- [Geodata Requirements →](#geodata-requirements)
-- [Geodata Sets →](#ce-express-geodata-sets)
-- [Prediction History →](#ce-express-prediction-history)
-- [Networks (Batch Prediction) →](#ce-express-networks)
+- [Quick RF Prediction](#kw:quick-rf-prediction-vs-full-rf-prediction:none) →
+- Prediction Models →
+- Geodata Requirements →
+- Geodata Sets →
+- Prediction History →
+- Networks (Batch Prediction) →

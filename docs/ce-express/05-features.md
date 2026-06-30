@@ -13,13 +13,13 @@ related:
 
 # Features Tool
 
-The **Features** tool is used to [import](https+TLS+secure+protocol)://www.google.com/search?q=data+import+GIS+network+objects+CSV), add, select, and edit all [network objects](https+TLS+secure+protocol)://www.google.com/search?q=radio+network+objects+sites+cells+GIS) on the map.
+The **Features** tool is used to import, add, select, and edit all network objects on the map.
 
 Click the **Features** button in the left toolbar to open the tool.
 
 ## Importing Features
 
-Click **Import) features** to create objects from a file.
+Click **Import features** to create objects from a file.
 
 ### Supported Formats
 
@@ -29,7 +29,7 @@ Click **Import) features** to create objects from a file.
 ### Import Steps
 
 1. Click **Import features**
-2. Select the **object type** (Site, Cell, Repeater, Mesh Node, etc.)
+2. Select the **object type** (Site, Cell, Repeater, [Mesh Node](#kw:mesh-node:none), etc.)
 3. Select or drag-and-drop your CSV or KMZ file
 4. Map columns using the **Mapping** feature if field names differ from CE format
 5. Click **Import** — objects appear on the map automatically
@@ -57,7 +57,7 @@ Objects can be created:
 
 ### Feature Set Templates
 
-A feature set template saves a group of related features (e.g., a 3-sector+sector+antenna+coverage+area) site with typical parameters) so they can be placed with a single click.
+A feature set template saves a group of related features (e.g., a 3-sector site with typical parameters) so they can be placed with a single click.
 
 **Quick Add:** If you have templates marked as favorites, they appear in the Quick Add section — drag and drop directly onto the map to place.
 
@@ -88,23 +88,23 @@ A radio sector or cell on a site.
 | Parameter | Unit | Description |
 |-----------|------|-------------|
 | Height | m | Height above terrain |
-| Downtilt | deg | Mechanical tilt) |
+| Downtilt | deg | Mechanical tilt |
 | El. Downtilt | deg | Electrical tilt |
 | Frequency | MHz | Carrier frequency |
-| Power | dBm | Transmit power+radio+antenna) |
+| Power | dBm | Transmit power |
 | Misc. loss | dB | Cable and connector losses |
-| Bandwidth) | MHz | Required for 4G/5G. Use 0.015 for 2G/3G. |
-| Noise figure+dB) | dB | Required for 4G/5G |
+| Bandwidth | MHz | Required for 4G/5G. Use 0.015 for 2G/3G. |
+| Noise figure | dB | Required for 4G/5G |
 | Downlink duplex factor | 0–1 | For TDD (4G/5G). 0.7 = 70% DL, 30% UL. |
-| Subcarrier spacing+LTE+5G)+spacing+OFDM+LTE+5G+kHz) | kHz | Required for 4G/5G. Use 15 for 2G/3G. |
+| Subcarrier spacing | kHz | Required for 4G/5G. Use 15 for 2G/3G. |
 | Tx MIMO | — | 1, 2, 4, 8, 16, 32, or 64 |
 | Rx MIMO | — | 1, 2, 4, 8, 16, 32, or 64 |
-| Active antenna effect | dB | For massive MIMO+5G+antenna+beamforming+technology)). MIMO 32×32: use 6. MIMO 64×64: use 9. |
-| Cell load | % | 0–100. Higher load = lower DL throughput). |
+| Active antenna effect | dB | For massive MIMO. MIMO 32×32: use 6. MIMO 64×64: use 9. |
+| Cell load | % | 0–100. Higher load = lower DL throughput. |
 | Technology | — | 2G, 3G, 4G, or 5G |
-| Duplex mode | FDD/TDD+5G) | Required for 4G/5G. Use FDD for 2G/3G. |
-| Prediction model | — | [Path loss](#ce-express-prediction-models) model for this cell |
-| Antenna | — | [Antenna pattern](#kw:antenna-patterns:ce-express-antenna) from library |
+| Duplex mode | FDD/TDD | Required for 4G/5G. Use FDD for 2G/3G. |
+| Prediction model | — | Path loss model for this cell |
+| Antenna | — | [Antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) from library |
 | Site ID | — | Parent site reference |
 
 **Color index:** Controls cell visualization color (None=blue, 1=red, 2=light green, 3=dark green, 4=light blue, 5=dark blue, 6=purple).
@@ -115,7 +115,7 @@ A signal repeater/booster.
 
 **Required:** Name, X, Y, Azimuth
 
-**Optional:** Height, Downtilt, Electrical tilt, Frequency (MHz), Power thresholds (1-2-3) and corresponding Power values (dBm), Misc loss, Bandwidth, Subcarrier spacing+spacing+OFDM+LTE+5G+kHz), Tx/Rx MIMO, Technology, Prediction model, Antenna
+**Optional:** Height, Downtilt, Electrical tilt, Frequency (MHz), Power thresholds (1-2-3) and corresponding Power values (dBm), Misc loss, Bandwidth, Subcarrier spacing, Tx/Rx MIMO, Technology, Prediction model, Antenna
 
 ### Radar
 
@@ -127,7 +127,7 @@ A signal repeater/booster.
 
 **Required:** Name, X, Y
 
-**Optional:** Height, Azimuth, Antenna, Power (dBm), Misc loss (dB), Cell ID (parent cell), Throughput) (Mb/s), Status, Notes
+**Optional:** Height, Azimuth, Antenna, Power (dBm), Misc loss (dB), Cell ID (parent cell), Throughput (Mb/s), Status, Notes
 
 ### Measurements
 
@@ -147,7 +147,7 @@ Sound prediction source.
 
 ### Light
 
-Lighting+calculation+photometry) point source for lux calculations.
+Lighting point source for lux calculations.
 
 **Required:** Name, X, Y, Azimuth
 
@@ -205,15 +205,15 @@ Hover over a feature item for quick actions:
 Select objects on the map, then:
 
 - **Move** — drag selected objects to new location → Accept to save
-- **Duplicate** — copy objects, optionally to another [workspace](#kw:creating-a-workspace:ce-express-workspace)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase) → Accept to save
+- **Duplicate** — copy objects, optionally to another workspace → Accept to save
 - **Delete** — removes from map and database → Accept to confirm
-- **Publish+Portal+web+map)** — publish selected features as an ArcGIS Portal+Portal+enterprise+GIS) feature layer (select sharing: organization/public/groups)
+- **Publish** — publish selected features as an ArcGIS Portal+Portal+enterprise+GIS) feature layer (select sharing: organization/public/groups)
 
 ---
 
 ## Related Topics
 
-- [Network Object Requirements →](#network-object-requirements)
-- [Importing Data (Training) →](#training-import-data)
-- [RF Prediction →](#ce-express-rf-prediction)
-- [Antenna Library →](#ce-express-antennas)
+- Network Object Requirements →
+- Importing Data (Training) →
+- RF Prediction →
+- Antenna Library →

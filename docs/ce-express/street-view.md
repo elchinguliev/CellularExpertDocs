@@ -1,11 +1,11 @@
 # Street View
 
-The **Street View** tool splits the [CE Express](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) map screen into two panels — the standard map on the left and a street-level view on the right. Use it to visually verify antenna positions, check surroundings, and confirm site conditions without visiting the location.
+The **Street View** tool splits the CE Express map screen into two panels — the standard map on the left and a street-level view on the right. Use it to visually verify antenna positions, check surroundings, and confirm site conditions without visiting the location.
 
 ## Opening Street View
 
 Click the **Street View** tool in the left toolbar. The screen divides into:
-- **Left panel** — the normal [CE Express](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) map with all layers and objects
+- **Left panel** — the normal CE Express map with all layers and objects
 - **Right panel** — a street-level panoramic view at the selected point
 
 ## Navigating Street View
@@ -25,7 +25,7 @@ Click on a cell on the map. The street view shows the surroundings at that locat
 
 ### Checking Obstructions
 
-Navigate around the site in street view to identify tall buildings, trees, or other structures that may block coverage and are not fully captured in the [DTM](#geodata-dem).
+Navigate around the site in street view to identify tall buildings, trees, or other structures that may block coverage and are not fully captured in the DTM.
 
 ### Site Survey Support
 
@@ -39,9 +39,9 @@ Click the **Street View** tool again to close the panel and return to the full-w
 
 - Street View imagery is sourced from mapping providers and may not reflect recent construction or changes at the site.
 - Coverage is limited to areas with available street-level imagery.
-- The tool does not use the [CE Express](#ce-express-overview) geodata — it shows real-world imagery only.
+- The tool does not use the CE Express geodata — it shows real-world imagery only.
 
 ## Related Pages
 
-- [Network Objects](network-objects.md) — viewing and editing cell positions
-- [RF Prediction](rf-prediction.md) — understanding coverage in context of the surroundings
+- Network Objects — viewing and editing cell positions
+- RF Prediction — understanding coverage in context of the surroundings

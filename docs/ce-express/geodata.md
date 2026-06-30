@@ -1,23 +1,23 @@
 # Geodata & Rasters
 
-[CE Express](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) uses [raster](https+TLS+secure+protocol)://www.google.com/search?q=raster+GIS+grid+data+format) files to model terrain+topography) and land use when calculating RF predictions. These files must be prepared and placed on the [CE Express](#ce-express-overview) server before running any predictions.
+CE Express uses raster files to model terrain and land use when calculating RF predictions. These files must be prepared and placed on the CE Express server before running any predictions.
 
 ## Required Files
 
 | File | Required | Description |
 |---|---|---|
-| `elevation.tif` | **Yes** | Digital [Terrain Model](https://www.google.com/search?q=Digital+Terrain+Model+DTM+bare+earth) ([DTM](#geodata-dem)) — ground elevation in metres |
+| `elevation.tif` | **Yes** | Digital Terrain Model (DTM) — ground elevation in metres |
 | `clutterClasses.tif` | No | Land use classification (urban, suburban, forest, water, etc.) |
-| `clutterHeight.tif` | No | Height of [clutter](#kw:clutter-classes-grid:geodata-clutter) above terrain (buildings, trees) in metres |
+| `clutterHeight.tif` | No | Height of [clutter](#kw:clutter-classification-values:none) above terrain (buildings, trees) in metres |
 
 ## Format Requirements
 
 All raster files must meet the following specification:
 
-- **Format**: [GeoTIFF](#geodata-[dem](#geodata-dem)) (`.tif`)
+- **Format**: GeoTIFF (`.tif`)
 - **Coordinate Reference System**: Projected CRS (e.g. UTM, national grid) — **not** geographic WGS84 (EPSG:4326)
 - **NoData value**: `-9999`
-- **All files in the same CRS** as each other and as the [workspace](#kw:creating-a-workspace:ce-express-workspace)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase) setting
+- **All files in the same CRS** as each other and as the workspace setting
 
 > ⚠️ If any file uses a different CRS or NoData value, predictions will fail or produce incorrect results.
 
@@ -32,7 +32,7 @@ A **Projected CRS** represents the Earth's curved surface on a flat plane (in me
 | LKS94 / Lithuania TM | EPSG:3346 | Lithuania national grid |
 | ETRS89 / TM35FIN | EPSG:3067 | Finland |
 
-Use GIS software (QGIS, [ArcGIS Pro](#ce-pro-rcp)+Pro+Esri+desktop+software)) to check or reproject your rasters if needed.
+Use GIS software (QGIS, ArcGIS Pro) to check or reproject your rasters if needed.
 
 ## Preparing Rasters with QGIS (Free)
 
@@ -40,7 +40,7 @@ Use GIS software (QGIS, [ArcGIS Pro](#ce-pro-rcp)+Pro+Esri+desktop+software)) to
 
 1. Open your `.tif` file in QGIS.
 2. Right-click the layer → **Properties** → **Information** tab.
-3. Look for "CRS" — it should show a Projected CRS, not EPSG:4326+geographic+coordinate+system).
+3. Look for "CRS" — it should show a Projected CRS, not EPSG:4326.
 
 ### Reproject to Projected CRS
 
@@ -56,15 +56,15 @@ Use GIS software (QGIS, [ArcGIS Pro](#ce-pro-rcp)+Pro+Esri+desktop+software)) to
 
 ## Placing Files on the Server
 
-Geodata files must be stored on the **[CE Express](#ce-express-overview) server** (not the user's computer). Work with your system administrator to:
+Geodata files must be stored on the **CE Express server** (not the user's computer). Work with your system administrator to:
 
 1. Create a folder for each project (e.g. `D:\geodata\vilnius_2025\`).
-2. Copy `elevation.tif` (and optional [clutter](#kw:clutter-classes-grid:geodata-clutter) files) into the folder.
-3. Use this server path when creating or configuring a workspace+workspace+project+geodatabase).
+2. Copy `elevation.tif` (and optional [clutter](#kw:clutter-classification-values:none) files) into the folder.
+3. Use this server path when creating or configuring a workspace.
 
 ## Clutter Classification Values
 
-The `clutterClasses.tif` file assigns a land-use category to each pixel+resolution). Typical values:
+The `clutterClasses.tif` file assigns a land-use category to each pixel. Typical values:
 
 | Value | Class |
 |---|---|
@@ -80,6 +80,6 @@ The exact values and their mapping to propagation loss are configured in the pre
 
 ## Related Pages
 
-- [Workspaces](workspace.md) — linking geodata to a workspace
-- [RF Prediction](rf-prediction.md) — how geodata is used in predictions
-- [System Requirements](../installation/requirements.md) — server storage recommendations
+- Workspaces — linking geodata to a workspace
+- RF Prediction — how geodata is used in predictions
+- System Requirements — server storage recommendations

@@ -1,24 +1,24 @@
 # Antenna Patterns
 
-An [antenna pattern](#kw:antenna-patterns:ce-express-antenna) file describes how an antenna radiates power in different directions — both horizontally ([azimuth](https+TLS+secure+protocol)://www.google.com/search?q=antenna+azimuth+direction+degrees+north)) and vertically ([elevation](https+TLS+secure+protocol)://www.google.com/search?q=elevation+model+terrain+topography)+height+datum)). [CE Express](#ce-express-overview) uses these patterns to calculate accurate RF predictions rather than assuming an idealised omnidirectional antenna.
+An [antenna pattern](#kw:managing-the-antenna-library:none) file describes how an antenna radiates power in different directions — both horizontally (azimuth) and vertically (elevation). CE Express uses these patterns to calculate accurate RF predictions rather than assuming an idealised omnidirectional antenna.
 
 ## Supported Formats
 
 | Format | Extension | Notes |
 |---|---|---|
-| [MSI Planet](#kw:antenna-patterns:ce-express-antenna) | `.msi` | Most common format from antenna vendors |
+| MSI Planet | `.msi` | Most common format from antenna vendors |
 | Kathrein | `.txt` | Text-based pattern format |
 
-Most antenna manufacturers (Kathrein, Commscope, Ericsson, Nokia, Huawei) provide patterns in .msi format on their websites or on [Antenna DL](https://www.antenna-dl.com).
+Most antenna manufacturers (Kathrein, Commscope, Ericsson, Nokia, Huawei) provide patterns in .msi format on their websites or on Antenna DL.
 
 ## Importing Antenna Patterns
 
 1. Open the **Antennas** tool from the left toolbar.
-2. Click **Import+network+objects+CSV)**.
+2. Click **Import**.
 3. Select one or more `.msi` or `.txt` files.
 4. Click **Open** — the patterns are imported into the antenna library.
 
-You can import) multiple files at once. Imported patterns are available to all workspaces.
+You can import multiple files at once. Imported patterns are available to all workspaces.
 
 ## Assigning a Pattern to a Cell
 
@@ -28,7 +28,7 @@ You can import) multiple files at once. Imported patterns are available to all w
 4. Type or select the pattern name from the dropdown.
 5. Click **Synchronize Changes**.
 
-> If no pattern is assigned, [CE Express](#ce-express-overview) uses an **isotropic (omnidirectional)** model for that cell. This gives less accurate predictions but allows you to run a quick test without patterns.
+> If no pattern is assigned, CE Express uses an **isotropic (omnidirectional)** model for that cell. This gives less accurate predictions but allows you to run a quick test without patterns.
 
 ## Pattern File Structure (MSI)
 
@@ -36,7 +36,7 @@ An .msi file contains:
 
 - **Header** — frequency, gain, half-power beamwidths (H and V), front-to-back ratio
 - **Horizontal pattern** — attenuation in dB at each azimuth angle (0–360°)
-- **Vertical pattern** — attenuation in dB at each elevation+height+datum) angle
+- **Vertical pattern** — attenuation in dB at each elevation angle
 
 Example header:
 ```
@@ -70,5 +70,5 @@ In the Antennas tool, click a pattern name to view its horizontal and vertical r
 
 ## Related Pages
 
-- [Network Objects](network-objects.md) — assigning patterns to cells
-- [RF Prediction](rf-prediction.md) — how patterns affect prediction results
+- Network Objects — assigning patterns to cells
+- RF Prediction — how patterns affect prediction results

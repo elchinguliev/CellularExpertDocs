@@ -1,12 +1,12 @@
-# CE __S0__ User Guide v4.6
+# CE Inventory3D User Guide v4.6
 
 1. Introduction
-CE [Inventory3D](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+[Inventory3D](#inventory3d-user-guide)+asset+management) is a versatile tool for inventory planning, design, space and assets management. It consists
+CE Inventory3D is a versatile tool for inventory planning, design, space and assets management. It consists
 of several building blocks that together provide a customized and tailored solution for a specific need.
 Take inventory management: Error-prone databases which contain faulty inventory lists can be deleterious,
 especially in large industry environments. Thus, it is essential that upon inventory changing databases are
 regularly updated.
-In this User Guide we introduce the CE [Inventory3D](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+[Inventory3D](#inventory3d-user-guide)+asset+management). From a desktop, laptop or tablet computer with internet
+In this User Guide we introduce the CE Inventory3D. From a desktop, laptop or tablet computer with internet
 access, the Webapp connects to a database located on a server and enables the user to edit database
 records, sites and objects, to draw diagrams and to locate the assets on an integrated map. CE Inventory3D
 integrates data derived from various sources, such as sensors, Google Sheets, maps, and changes in
@@ -93,8 +93,8 @@ child objects. Attachments are not duplicated.
 Add a new record to the Table view. Note that the newly added record will appear in orange writing.
 3.1.12 CE API
 Call CE API tool. Note: The administrator has to configure the tool.
-3.1.13 Export+raster+vector) selected
-Export+raster+vector) selected items.
+3.1.13 Export selected
+Export selected items.
 3.1.14 Delete record
 Remove a selected record from the current view. Note that removed records will be hidden from the user.
 Only administrators can delete a removed record from the database permanently (or restore it).
@@ -259,7 +259,7 @@ configured. To start tool selection, click on the button in the toolbar.
 
 ## 4.6 Import CSV
 
-This tool is integrated into the “CE API” tool. It is possible to import) data from .csv files. Note(!): Consult
+This tool is integrated into the “CE API” tool. It is possible to import data from .csv files. Note(!): Consult
 with the administrator before import.
 “Import CSV” opens a new window:
 1.

@@ -17,8 +17,8 @@ Trainings 13.00-14.00
 Exercises for CE Desktop
 DAY 1 DAY 2
 1 0. Introduction slides 4. Cell Prediction
-2 1. Creating Workspace 5. Prediction Models
-3 2. Line of Sight 6. Importing Network
+2 1. Creating Workspace 5. Prediction [Models](#kw:31-models:ce-express-tr-models)
+3 2. [Line of Sight](#kw:running-a-profile:ce-express-profile) 6. Importing Network
 4 3. Create Objects 7. Site Positioning
 
 ---
@@ -39,7 +39,7 @@ Today
 ➢ Data requirements
 2. Exercises
 ➢ Creating Workspace
-➢ Line of Sight
+➢ [Line of Sight](#kw:running-a-profile:ce-express-profile)
 ➢ Creating Objects
 
 ---

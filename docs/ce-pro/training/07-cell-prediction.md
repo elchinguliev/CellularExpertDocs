@@ -15,7 +15,7 @@ Cell structure
 ---
 
 Cell: Coordinates
-- Projected coordinate system:
+- [Projected coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) system:
 - X
 - Y
 - Geographic coordinate system in meters:

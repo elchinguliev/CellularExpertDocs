@@ -30,7 +30,7 @@ Diffraction
 H
 obstacles
 H
-[Clutter](#kw:clutter-classification-values:ce-express-geodata) losses clutter DSM
+[Clutter](#kw:clutter-classification-values:ce-express-geodata) losses [clutter](#kw:clutter-classification-values:ce-express-geodata) DSM
 UE
 DTM
 
@@ -73,8 +73,8 @@ Elevation grid
 
 ---
 
-Clutter classes
-- Clutter classes
+[Clutter classes](#kw:clutter-classification-values:ce-express-geodata)
+- [Clutter classes](#kw:clutter-classification-values:ce-express-geodata)
 - Represents land use classes.
 - GeoTIFF raster format
 - Coordinate system – projected

@@ -18,7 +18,7 @@ Diffraction
 H
 obstacles
 H
-[Clutter](#kw:clutter-classification-values:ce-express-geodata) losses clutter DSM
+[Clutter](#kw:clutter-classification-values:ce-express-geodata) losses [clutter](#kw:clutter-classification-values:ce-express-geodata) DSM
 UE
 DTM
 
@@ -51,8 +51,8 @@ Profile calculations
 - Power Budget
 - Downlink FS
 - Uplink FS
-- FWA downlink RSL
-- FWA uplink RSL
+- [FWA](#kw:94-fwa-rf-prediction:ce-pro-rcp) downlink RSL
+- [FWA](#kw:94-fwa-rf-prediction:ce-pro-rcp) uplink RSL
 - Path Loss
 - Total Path Loss
 - Model Loss
@@ -83,7 +83,7 @@ Profile 3D
 
 ---
 
-Visibility prediction input
+[Visibility prediction](#kw:43-step-3-visibility-prediction-pointtoarea-analysis:ce-express-tr-los) input
 - Geodata
 - Elevation
 - Obstacle
@@ -96,13 +96,13 @@ Visibility prediction input
 ---
 
 Visibility Results
-- Line of Sight
+- [Line of Sight](#kw:running-a-profile:ce-express-profile)
 - Required height for LoS
 - Clearance
 
 ---
 
-Visibility: Line of Sight
+Visibility: [Line of Sight](#kw:running-a-profile:ce-express-profile)
 Possible values:
 - 0
 - 1
@@ -123,7 +123,7 @@ Visibility: Minimum Receiver Height
 
 ---
 
-Visibility: Line of Sight sum meter topo data
+Visibility: [Line of Sight](#kw:running-a-profile:ce-express-profile) sum meter topo data
 
 ---
 

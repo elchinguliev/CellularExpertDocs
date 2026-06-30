@@ -19,7 +19,7 @@ Installation (requires administration rights)
 ---
 
 Activation
-- Open empty ArcGIS Pro project
+- Open empty [ArcGIS Pro project](#kw:31-step-1-opening-the-arcgis-pro-project:ce-express-tr-geodata)
 - Open Settings > Licensing
 - Enable Cellular Expert extension
 - Send User key

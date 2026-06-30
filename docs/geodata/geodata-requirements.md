@@ -5,17 +5,17 @@ Table of Contents
 1. High-Precision Inputs and Next-Generation Propagation 3
 2. Geographic data requirements 5
 
-## 2.1 Digital Terrain Model (__S0__) Grid (Mandatory) 5
+## 2.1 Digital Terrain Model (DTM) Grid (Mandatory) 5
 
-2.1.1 [Projection](https+TLS+secure+protocol)://www.google.com/search?q=map+projection+coordinate+system+GIS) 6
-2.1.2 Correct No Data value and [raster](https+TLS+secure+protocol)://www.google.com/search?q=raster+GIS+grid+data+format) name 6
-2.1.3 Pixel+resolution) type 6
+2.1.1 Projection 6
+2.1.2 Correct No Data value and raster name 6
+2.1.3 Pixel type 6
 
 ## 2.2 Clutter classes grid (optional) 7
 
 2.2.1 Projection 8
 2.2.2 Correct No Data value and raster name 8
-2.2.3 Pixel+resolution) type 8
+2.2.3 Pixel type 8
 
 ## 2.3 Clutter heights (optional) 8
 
@@ -28,22 +28,22 @@ Table of Contents
 
 Cellular Expert Technical Documentation
 1. High-Precision Inputs and Next-Generation Propagation
-[CE Express](#ce-express-overview) is designed to work with any geospatial data available to the customer and fully exploit its
+CE Express is designed to work with any geospatial data available to the customer and fully exploit its
 precision for the most accurate coverage and QoS calculations. The platform supports multi-resolution input
-datasets — from freely available global sources such as [Sentinel-2](#kw:global-free-data-sources:geodata-requirements) 10 m land cover and ASTER+NASA+global+elevation+model) [DEM](#geodata-dem), to
+datasets — from freely available global sources such as Sentinel-2 10 m land cover and ASTER DEM, to
 premium high-resolution terrain and 3D building models when provided by the customer or government
 agencies.
 Source: https://livingatlas.arcgis.com/landcoverexplorer/
-By leveraging whatever data is available locally, [CE Express](#ce-express-overview) performs nationwide calculations at the
+By leveraging whatever data is available locally, CE Express performs nationwide calculations at the
 maximum feasible resolution, accurately modeling signal propagation even in dense urban environments.
 Support for 3D multi-height calculations ensures that coverage predictions reflect street-level, indoor, and
-rooftop conditions, providing regulators with a realistic representation of service availability+radio+link+planning)+ITU).
+rooftop conditions, providing regulators with a realistic representation of service availability.
 This flexibility ensures that customers can use their existing GIS assets, open datasets, or commercial data
 they already license, turning them into actionable broadband maps without additional data procurement
 requirements from the solution provider.
-By using terrain elevation, obstacles, and [clutter](#kw:clutter-classes-grid:geodata-clutter) classification in every calculation, Cellular Expert
+By using terrain elevation, obstacles, and [clutter](#kw:clutter-classification-values:ce-express-geodata) classification in every calculation, Cellular Expert
 accurately models:
-- Line-of-Sight+radio+link) and Non-Line-of-Sight+radio+link) Conditions – Determining diffraction, reflection), and
+- Line-of-Sight and Non-Line-of-Sight Conditions – Determining diffraction, reflection, and
 shadowing effects over hills, valleys, and urban obstacles.
 - Coverage Footprints – Generating precise signal strength maps at national, regional, and local
 levels.
@@ -58,14 +58,14 @@ Diffractio Free Space Loss
 n
 Diffractio
 H
-H [clutter](#kw:clutter-classes-grid:geodata-clutter) n obstacles
-[DSM](#kw:clutter-heights:geodata-clutter)
+H [clutter](#kw:clutter-classification-values:ce-express-geodata) n obstacles
+DSM
 Clutter losses
 UE
-[DTM](#geodata-dem)
+DTM
 The CE tools make use of three distinct GIS data layers to obtain high precision modelling of radio wave
 propagation losses:
-- Digital Terrain Model+bare+earth) ([DTM](#geodata-dem)), also known as Digital [Elevation Model](https://www.google.com/search?q=Digital+Elevation+Model+DEM+terrain+data) ([DEM](#geodata-dem)), which describes
+- Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), which describes
 Earth surface, i.e., path terrain profile in terms of ground elevation above uniform sea level.
 - Obstacles layer, delineating buildings and other such objects above Earth surface that may be
 considered to be principal impediments for radio wave propagation.
@@ -94,7 +94,7 @@ world conditions as closely as possible — resulting in better network design d
 broadband planning outcomes.
 2. Geographic data requirements
 The supported geographical data types:
-Only [GeoTIFF](#geodata-dem) is supported. Topographical data must have specific names:
+Only GeoTIFF is supported. Topographical data must have specific names:
 - The Digital terrain model must be named elevation.tif
 - The land use (or clutter) grid must be named clutterClasses.tif
 - The clutter heights (typically building, vegetation height) grid must be named clutterHeight.tif
@@ -116,10 +116,10 @@ Cellular Expert Technical Documentation
 in its center or the maximum. The smaller the pixels, the more accurate is the grid - but also more data to
 calculate.
 2.1.1 Projection
-The raster must use a Projected Coordinate+GIS) System. To check the coordinate system of your raster, use
-the Properties function in [ArcGIS Pro](#ce-pro-rcp)+Pro+Esri+desktop+software). Add the raster to your project, right-click on it, and select Properties.
+The raster must use a Projected Coordinate System. To check the coordinate system of your raster, use
+the Properties function in ArcGIS Pro. Add the raster to your project, right-click on it, and select Properties.
 Then, go to the Source tab > Spatial Reference and check the Coordinate System type parameter to confirm
-it is in a Projected Coordinate+GIS) System.
+it is in a Projected Coordinate System.
 2.1.2 Correct No Data value and raster name
 After setting the correct projection, assign the NoData: -9999 attribute and specify the appropriate name for
 the DTM raster.
@@ -137,7 +137,7 @@ Land use or clutter refers to the classification of the earth’s surface into c
 rural, forest, water, and open land, each of which affects radio propagation differently. Clutter data is crucial
 because it determines how signals are absorbed, reflected, or diffracted by the environment, directly
 influencing coverage, interference, and quality of service. The naming and classification of land use types
-may vary. An example is the [Sentinel-2](#kw:global-free-data-sources:geodata-requirements) Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2
+may vary. An example is the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2
 Land Cover
 ©Cellular Expert, 2025 Page | 7
 
@@ -146,7 +146,7 @@ Land Cover
 Cellular Expert Technical Documentation
 2.2.1 Projection
 The raster must use a Projected Coordinate System. To check the coordinate system of your raster, use
-the Properties function in [ArcGIS Pro](#ce-pro-rcp)+Pro+Esri+desktop+software). Add the raster to your project, right-click on it, and select Properties.
+the Properties function in ArcGIS Pro. Add the raster to your project, right-click on it, and select Properties.
 Then, go to the Source tab > Spatial Reference and check the Coordinate System type parameter to confirm
 it is in a Projected Coordinate System.
 2.2.2 Correct No Data value and raster name
@@ -167,7 +167,7 @@ independently.
 ---
 
 Cellular Expert Technical Documentation
-A clutter height raster can be derived from a Digital Surface Model+buildings) ([DSM](#kw:clutter-heights:geodata-clutter)) raster and a Digital Terrain Model
+A clutter height raster can be derived from a Digital Surface Model (DSM) raster and a Digital Terrain Model
 (DTM) raster using the ArcGIS Raster Calculator tool.
 The calculation output will be the difference between the DSM and DTM grids, representing the clutter
 heights.

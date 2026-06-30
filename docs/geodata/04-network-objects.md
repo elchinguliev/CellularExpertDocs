@@ -11,7 +11,7 @@ related:
 
 # Requirements for CE Network Objects
 
-CE [network objects](https+TLS+secure+protocol)://www.google.com/search?q=radio+network+objects+sites+cells+GIS) must meet minimum field requirements for successful [import](https+TLS+secure+protocol)://www.google.com/search?q=data+import+GIS+network+objects+CSV) and use in calculations.
+CE network objects must meet minimum field requirements for successful import and use in calculations.
 
 ## Primary Data Structure
 
@@ -21,11 +21,11 @@ CE [network objects](https+TLS+secure+protocol)://www.google.com/search?q=radio+
 - Subsequent rows: values
 - Field names are **not case-sensitive** — CE includes a mapping function to align external names with CE database fields
 
-### Import from __S7__+platform)+Portal+enterprise+web+GIS)
+### Import from ArcGIS Portal
 
-- Point layer shared on ArcGIS Enterprise Portal or ArcGIS Online+Online+cloud+GIS+platform)
+- Point layer shared on ArcGIS Enterprise Portal or ArcGIS Online
 - CE imports via Portal Item ID
-- Field mapping)+GIS) is handled automatically via the CE mapping function
+- Field mapping is handled automatically via the CE mapping function
 
 ---
 
@@ -43,22 +43,22 @@ CE [network objects](https+TLS+secure+protocol)://www.google.com/search?q=radio+
 
 | Field | Unit | Notes |
 |-------|------|-------|
-| **Height** | m AGL | Antenna height above ground+antenna) |
+| **Height** | m AGL | Antenna height above ground |
 | **Azimuth** | degrees | 0–360°, direction from North |
-| **Mechanical tilt)** | degrees | Physical antenna downtilt |
+| **Mechanical tilt** | degrees | Physical antenna downtilt |
 | **Electrical tilt** | degrees | Electronic beam tilt |
 | **Frequency** | MHz | Carrier frequency |
-| **Power** | dBm | Transmit power+radio+antenna) |
-| **Antenna gain+directional)** | dBi | Peak antenna gain |
+| **Power** | dBm | Transmit power |
+| **Antenna gain** | dBi | Peak antenna gain |
 | **Losses** | dB | Cable, connector, combiner losses |
-| **Bandwidth)** | MHz | Channel bandwidth (required for 4G/5G) |
-| **Subcarrier spacing+LTE+mobile)+5G)+spacing+OFDM+LTE+5G+kHz)** | kHz | SCS (required for 5G) |
-| **TX MIMO+transmit+antenna+configuration)** | — | Transmit antenna count (1,2,4,8,16,32,64) |
-| **RX MIMO+receive+antenna+configuration)** | — | Receive antenna count |
+| **Bandwidth** | MHz | Channel bandwidth (required for 4G/5G) |
+| **Subcarrier spacing** | kHz | SCS (required for 5G) |
+| **TX MIMO** | — | Transmit antenna count (1,2,4,8,16,32,64) |
+| **RX MIMO** | — | Receive antenna count |
 | **Technology** | — | 2G, 3G, 4G, 5G, NB-IoT |
 | **Antenna name** | — | Must match antenna in CE library |
 | **Site ID** | — | Parent site identifier (links cell to site) |
-| **Duplex mode** | FDD)/TDD | Required for 4G/5G |
+| **Duplex mode** | FDD/TDD | Required for 4G/5G |
 
 ---
 
@@ -79,13 +79,13 @@ Sites are optional — cells can exist without explicit site records. Sites add:
 
 ## Antenna Patterns
 
-For each cell, an [antenna pattern](#kw:antenna-patterns:ce-express-antenna) must be assigned from the CE antenna library.
+For each cell, an [antenna pattern](#kw:antenna-patterns:none) must be assigned from the CE antenna library.
 
 ### Antenna File Formats
 
 | Format | Extension | Notes |
 |--------|-----------|-------|
-| [MSI Planet](#kw:antenna-patterns:ce-express-antenna) | `.msi` | **Standard format — recommended** |
+| [MSI Planet](#kw:antenna-file-formats:none) | `.msi` | **Standard format — recommended** |
 | Planet | `.pln` | Alternative format |
 
 ### Antenna File Requirements
@@ -122,6 +122,6 @@ CELL_001C,51.5074,-0.1278,240,25,4G,1800
 
 ## Related Topics
 
-- [Features Tool — Adding Objects →](#ce-express-features)
-- [Importing Data →](#training-import-data)
-- [Geodata Requirements →](#geodata-requirements)
+- Features Tool — Adding Objects →
+- Importing Data →
+- Geodata Requirements →

@@ -10,19 +10,19 @@ related:
   - ce-express-geodata-sets
 ---
 
-# Digital Terrain Model (__S2__ / __S3__)
+# Digital Terrain Model (DEM / DTM)
 
-The [Digital [Terrain](https+TLS+secure+protocol)://www.google.com/search?q=terrain+elevation+model+GIS+topography) Model](https+TLS+secure+protocol)://www.google.com/search?q=Digital+Terrain+topography)+Model+[DTM](#geodata-dem)+bare+earth) ([DEM](#geodata-dem) or [DTM](#geodata-dem)) provides **terrain elevation data** used in all RF propagation calculations. It is the **single most important geodata input** in [CE Express](#ce-express-overview).
+The Digital Terrain Model ([DEM](#kw:checking-your-dem:none) or DTM) provides **terrain elevation data** used in all RF propagation calculations. It is the **single most important geodata input** in CE Express.
 
 ## Requirements
 
 ### Format
 
 Supported raster formats:
-- **[GeoTIFF](#geodata-[dem](#geodata-dem))+geospatial+format)** (.tif, .tiff) — **recommended**
+- **[GeoTIFF](#kw:checking-your-[dem](#kw:checking-your-dem:none):none)** (.tif, .tiff) — **recommended**
 - ERDAS Imagine (.img)
 - ASCII Grid (.asc)
-- ArcGIS+platform) Grid format
+- ArcGIS Grid format
 - Any GDAL-supported raster format
 
 ### Resolution
@@ -38,9 +38,9 @@ Supported raster formats:
 
 ### Coordinate System (Projection)
 
-- **Must use a projected coordinate+GIS) system** (e.g., UTM Zone XX, ETRS89/TM, national grids)
+- **Must use a projected coordinate system** (e.g., UTM Zone XX, ETRS89/TM, national grids)
 - **Do NOT use geographic coordinates (WGS84 EPSG:4326)**
-- Must exactly match the **[workspace](#kw:creating-a-workspace:ce-express-workspace)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase) EPSG code**
+- Must exactly match the **workspace EPSG code**
 
 ### Pixel Type
 
@@ -58,7 +58,7 @@ Supported raster formats:
 
 - Use descriptive, unique filenames
 - Avoid special characters and spaces: use underscores (`terrain_utm35n_2m.tif`)
-- The file name becomes the dataset identifier in [CE Express](#ce-express-overview)
+- The file name becomes the dataset identifier in CE Express
 
 ## Vertical Accuracy
 
@@ -90,6 +90,6 @@ CE Express supports **multi-resolution datasets** — you can load different DEM
 
 ## Related Topics
 
-- [Geodata Overview →](#geodata-requirements)
-- [Clutter Classes →](#geodata-clutter)
-- [Loading Geodata in CE Express →](#ce-express-geodata-sets)
+- Geodata Overview →
+- [Clutter](#kw:clutter-classification-values:ce-express-geodata) Classes →
+- Loading Geodata in CE Express →

@@ -15,16 +15,16 @@ Table of Contents
 ## 2.2 Optional information 3
 
 2.2.1 Height 3
-2.2.2 [Azimuth](https+TLS+secure+protocol)://www.google.com/search?q=antenna+azimuth+direction+degrees+north) 4
-2.2.3 [Mechanical tilt](https+TLS+secure+protocol)://www.google.com/search?q=mechanical+tilt+antenna+downtilt) 4
+2.2.2 Azimuth 4
+2.2.3 Mechanical tilt 4
 2.2.4 Frequency 4
 2.2.5 Power 4
-2.2.6 Antenna gain+directional) 4
+2.2.6 Antenna gain 4
 2.2.7 Losses 4
-2.2.8 Bandwidth) 4
-2.2.9 Subcarrier spacing+LTE+mobile)+5G)+spacing+OFDM+LTE+mobile)+5G+kHz) 4
+2.2.8 Bandwidth 4
+2.2.9 Subcarrier spacing 4
 2.2.10 TX MIMO 5
-2.2.11 RX MIMO+receive+antenna+configuration) 5
+2.2.11 RX MIMO 5
 2.2.12 Technology 5
 2.2.13 Antenna name 5
 2.2.14 Site (Tower) identification 6
@@ -44,7 +44,7 @@ CE database structure.
 
 ## 1.2 Import from Organization’s Portal
 
-The point layer shared on the Organization’s ArcGIS+platform) Enterpris Portal or ArcGIS Online+platform)+Online+cloud+GIS+platform) can be imported
+The point layer shared on the Organization’s ArcGIS Enterpris Portal or ArcGIS Online can be imported
 into the CE Database. Field names are not crucial, as CE includes a mapping function to align external
 database fields with the CE database structure.
 2. Cells
@@ -78,7 +78,7 @@ Operator cannot provide the cell azimuth value, the following can be applied:
 - Set the value to 0 and designate the antenna type as Omnidirectional.
 - Automatically assign azimuth values based on the number of antennas on the tower. For example,
 if there are 3 antennas, the azimuths would be 0, 120, and 240 degrees.
-2.2.3 Mechanical tilt)
+2.2.3 Mechanical tilt
 Antenna (cell) vertical direction.
 If Mobile Operator cannot provide Cell tilt value then we can use value – 0.
 2.2.4 Frequency
@@ -88,24 +88,24 @@ If the frequency is missing, it can be determined based on the following:
 - The frequency bands associated with this technology and operator.
 2.2.5 Power
 Cell power in dBm.
-2.2.6 Antenna gain+directional)
+2.2.6 Antenna gain
 Antenna gain in dBi, which is taken automatically from defined antenna for Cell.
 2.2.7 Losses
 Miscellaneous losses in dB, which shows total losses for cables, feeders, etc.
 2.2.8 Bandwidth
 Cell bandwidth value in MHz. Especially required for 3G, 4G, and 5G technologies.
 If Mobile Operators cannot provide this parameter, then we can apply default value based on technology
-and frequency band).
-2.2.9 Subcarrier spacing+spacing+OFDM+LTE+5G+kHz)
+and frequency band.
+2.2.9 Subcarrier spacing
 Especially required for 5G, while 4G uses constant value – 15. Units are in kHz.
 If Mobile Operators cannot provide this parameter for 5G technology, then we can apply default value based
-on frequency band).
+on frequency band.
 Confidential ©Cellular Expert, 2024 Page | 4
 
 ---
 
 Cellular Expert Network Requirements
-2.2.10 TX MIMO+transmit+antenna+configuration)
+2.2.10 TX MIMO
 Transmitter MIMO configuration, with possible values of 1, 2, 4, 8, 16, 32, 64.
 If Mobile Operators cannot provide this parameter, a default value of 1 is typically used.
 2.2.11 RX MIMO
@@ -128,7 +128,7 @@ Confidential ©Cellular Expert, 2024 Page | 5
 
 Cellular Expert Network Requirements
 Typical Omni 360deg antenna
-2.2.13.1 [Antenna pattern](#kw:antenna-patterns:ce-express-antenna) file structure
+2.2.13.1 [Antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) file structure
 The text file in Planet format represents:
 - Main antenna parameters, such as name, gain value.
 - Horizontal pattern.

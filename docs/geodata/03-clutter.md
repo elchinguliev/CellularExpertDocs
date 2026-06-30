@@ -14,11 +14,11 @@ related:
 
 ## Clutter Classes Grid
 
-The [clutter](#kw:clutter-classes-grid:geodata-clutter) (land-use) [raster](https+TLS+secure+protocol)://www.google.com/search?q=raster+GIS+grid+data+format) classifies each pixel+resolution) by **[land cover](https+TLS+secure+protocol)://www.google.com/search?q=land+cover+classification+satellite+imagery) type**, allowing CE to apply appropriate diffraction and attenuation corrections per environment.
+The [clutter](#kw:clutter-classes-grid:none) (land-use) raster classifies each pixel by **land cover type**, allowing CE to apply appropriate diffraction and attenuation corrections per environment.
 
 ### Why Clutter Matters
 
-Without [clutter](#kw:clutter-classes-grid:geodata-clutter), CE applies a single propagation correction regardless of terrain+topography) type. With clutter:
+Without [clutter](#kw:clutter-classes-grid:none), CE applies a single propagation correction regardless of terrain type. With clutter:
 - **Forest pixels** → additional attenuation for tree canopy
 - **Urban pixels** → higher diffraction loss, building absorption
 - **Open water** → minimal attenuation, potential reflections
@@ -26,10 +26,10 @@ Without [clutter](#kw:clutter-classes-grid:geodata-clutter), CE applies a single
 
 ### Format and Resolution
 
-- Same raster formats as [DEM](#geodata-dem) ([GeoTIFF](#geodata-[dem](#geodata-dem)) recommended)
+- Same raster formats as DEM (GeoTIFF recommended)
 - Resolution: should **match or be finer** than the DEM
-- **Must use the same projected coordinate+GIS) system** as DEM and [workspace](#kw:creating-a-workspace:ce-express-workspace)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase)
-- **Pixel+resolution) type: 8-bit or 16-bit integer** (classification codes, not continuous values)
+- **Must use the same projected coordinate system** as DEM and workspace
+- **Pixel type: 8-bit or 16-bit integer** (classification codes, not continuous values)
 
 ### Standard Clutter Categories
 
@@ -55,7 +55,7 @@ Each clutter code has an associated **attenuation value (dB)** applied to NLOS a
 
 ## Clutter Heights
 
-The clutter heights dataset provides the **height of objects** (buildings, trees, vegetation) above terrain at each pixel — effectively creating a **digital surface model+buildings) ([DSM](#kw:clutter-heights:geodata-clutter))**.
+The [clutter heights](#kw:clutter-heights:none) dataset provides the **height of objects** (buildings, trees, vegetation) above terrain at each pixel — effectively creating a **digital surface model (DSM)**.
 
 ### Use
 
@@ -66,20 +66,20 @@ The clutter heights dataset provides the **height of objects** (buildings, trees
 
 ### Format
 
-- Same raster formats ([GeoTIFF](#geodata-dem) recommended)
+- Same raster formats (GeoTIFF recommended)
 - **Resolution:** Should match DEM resolution
 - **Pixel type:** 32-bit float or 16-bit integer
 - **Values:** Height in meters above terrain (not above sea level)
-- **Projection:** Same as DEM and workspace+workspace+project+geodatabase)
+- **Projection:** Same as DEM and workspace
 
 ### Buildings Only vs. All Clutter Heights
 
 | Dataset | What It Includes |
 |---------|-----------------|
 | **Buildings only** | Heights of building structures only |
-| **All clutter heights** | Buildings + vegetation (trees) |
+| **All [clutter heights](#kw:clutter-heights:none)** | Buildings + vegetation (trees) |
 
-[CE Express](#ce-express-overview) can use either. "Buildings only" is recommended for environments where tree heights are well-known and vegetation attenuation is handled by clutter codes.
+CE Express can use either. "Buildings only" is recommended for environments where tree heights are well-known and vegetation attenuation is handled by clutter codes.
 
 ### NoData Value
 
@@ -91,12 +91,12 @@ Set a proper NoData value. Pixels with NoData are treated as height = 0 (terrain
 
 All clutter rasters must:
 
-1. Use the **same projected coordinate+GIS) system** as the DEM and workspace
+1. Use the **same projected coordinate system** as the DEM and workspace
 2. Cover the **same geographic extent** (or be larger)
 3. Have a **clearly defined NoData value**
 
 ## Related Topics
 
-- [DEM Requirements →](#geodata-dem)
-- [3D Buildings →](#geodata-buildings)
-- [Prediction Models →](#ce-express-prediction-models)
+- DEM Requirements →
+- 3D Buildings →
+- Prediction Models →

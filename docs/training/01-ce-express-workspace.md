@@ -18,8 +18,8 @@ related:
 
 By the end of this module, you will be able to:
 
-- Create and configure a [workspace](https+TLS+secure+protocol)://www.google.com/search?q=[ArcGIS](https+TLS+secure+protocol)://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase) correctly in [CE Express](#ce-express-overview)
-- Understand [workspace](#kw:creating-a-workspace:ce-express-workspace)+platform)+workspace+project+geodatabase) structure and scope
+- Create and configure a workspace correctly in CE Express
+- Understand workspace structure and scope
 - Manage and visualize layers efficiently
 - Switch between 2D and 3D environments
 - Prepare a workspace for RF planning tasks
@@ -27,14 +27,14 @@ By the end of this module, you will be able to:
 ## Initial Data
 
 For this exercise, the following is pre-configured:
-- Prepared geodata (high-resolution+GIS+accuracy) terrain and [clutter](#kw:clutter-classes-grid:geodata-clutter))
+- Prepared geodata (high-resolution terrain and [clutter](#kw:clutter-classification-values:ce-express-geodata))
 - Predefined external services for visualization
 
 > **Trainer note:** Emphasize that workspace quality directly affects prediction accuracy, visualization clarity, and collaboration efficiency.
 
 ## Understanding the Workspace Concept
 
-A **Workspace** in [CE Express](#ce-express-overview) is a project container holding:
+A **Workspace** in CE Express is a project container holding:
 
 - Network objects (sites, cells, links, etc.)
 - Geodata for propagation modeling
@@ -45,7 +45,7 @@ Workspaces can be:
 - Used collaboratively by RF planners, optimization engineers, and managers
 - Reused as templates for similar geographic areas
 
-**→ For full workspace documentation, see [Workspaces →](#ce-express-workspace)**
+**→ For full workspace documentation, see Workspaces →**
 
 ## Step 1 — Accessing CE Express
 
@@ -77,13 +77,13 @@ Workspaces can be:
 After creating the workspace, explore the map view:
 
 1. The map auto-zooms to the workspace extent
-2. Confirm the [DEM](#geodata-dem)/terrain is visible (enable in Layers if not)
-3. Check that [clutter](#kw:clutter-classes-grid:geodata-clutter) layer is loaded
+2. Confirm the DEM/terrain is visible (enable in Layers if not)
+3. Check that [clutter](#kw:clutter-classification-values:ce-express-geodata) layer is loaded
 
 ## Step 4 — Adding an Extra Layer
 
 1. In workspace settings → Extra layers → click **Add layer**
-2. Enter an ArcGIS Portal+Portal+enterprise+web+GIS) Item ID or URL for a background map
+2. Enter an ArcGIS Portal Item ID or URL for a background map
 3. Set opacity to 70%
 4. Click Save
 
@@ -100,11 +100,11 @@ Create a workspace for a new planning project:
 - Name: `[YourName]_Exercise_01`
 - Area: 50 km × 50 km urban area
 - Coordinate system: UTM (ask instructor for local UTM zone)
-- Load [DEM](#geodata-dem) and clutter geodata set
+- Load DEM and clutter geodata set
 - Add an OpenStreetMap background layer
 
 ## Related Documentation
 
-- **Full workspace documentation:** [Workspaces →](#ce-express-workspace)
-- **Geodata requirements:** [Geodata Requirements →](#geodata-requirements)
-- **Login help:** [Logging In →](#ce-express-login)
+- **Full workspace documentation:** Workspaces →
+- **Geodata requirements:** Geodata Requirements →
+- **Login help:** Logging In →

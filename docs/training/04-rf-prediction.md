@@ -30,13 +30,13 @@ By the end of this module, you will be able to:
 
 ### What Is an RF Prediction?
 
-An [RF prediction](#ce-express-rf-prediction) produces **map-based [raster](https+TLS+secure+protocol)://www.google.com/search?q=raster+GIS+grid+data+format) outputs** representing expected signal or performance. These are influenced by:
+An [RF prediction](#kw:what-is-an-rf-prediction:none) produces **map-based raster outputs** representing expected signal or performance. These are influenced by:
 
-- [Network objects](https+TLS+secure+protocol)://www.google.com/search?q=radio+network+objects+sites+cells+GIS) (cells, sites, antennas — azimuth, tilt, height, power, frequency)
-- Geodata (terrain elevation+height+datum), [clutter](#kw:clutter-classes-grid:geodata-clutter)/land use, obstacles)
-- Equipment definitions (antenna patterns, [propagation models](#kw:prediction-models:ce-express-prediction-models), calculation templates)
+- Network objects (cells, sites, antennas — azimuth, tilt, height, power, frequency)
+- Geodata (terrain elevation, [clutter](#kw:clutter-classification-values:ce-express-geodata)/land use, obstacles)
+- Equipment definitions ([antenna patterns](#kw:importing-antenna-patterns:ce-express-antenna), propagation models, calculation templates)
 
-**→ Full documentation: [RF Prediction →](#ce-express-rf-prediction)**
+**→ Full documentation: [RF Prediction](#kw:what-is-an-rf-prediction:none) →**
 
 ### Quick Prediction vs Full RF Prediction
 
@@ -49,7 +49,7 @@ An [RF prediction](#ce-express-rf-prediction) produces **map-based [raster](http
 ## Exercise 1 — Quick RF Prediction
 
 1. Select a cell on the map (single click)
-2. Click **[Quick RF Prediction](#kw:quick-rf-prediction-vs-full-rf-prediction:ce-express-rf-prediction)** in the left toolbar
+2. Click **[Quick RF Prediction](#kw:quick-rf-prediction:ce-express-rf-prediction)** in the left toolbar
 3. Change the azimuth to 90° in the Quick RF panel
 4. Click **Run** — result appears immediately on the map
 5. Change azimuth to 180° → **Run** again
@@ -60,22 +60,22 @@ An [RF prediction](#ce-express-rf-prediction) produces **map-based [raster](http
 ## Exercise 2 — Full RF Prediction
 
 1. Select 3 cells on the map (use Rectangle selection)
-2. Click **[RF Prediction](#ce-express-rf-prediction)** in the left toolbar
+2. Click **[RF Prediction](#kw:what-is-an-rf-prediction:none)** in the left toolbar
 3. Set parameters:
    - Prediction type: **Coverage (signal level)**
-   - Resolution+GIS+accuracy): **50 m**
+   - Resolution: **50 m**
    - Radius: **15 km**
-   - [Propagation model](#kw:prediction-models:ce-express-prediction-models): **[COST-231 Hata](#ce-express-prediction-models)**
+   - Propagation model: **COST-231 Hata**
 4. Click **Run**
 5. Wait for the prediction to complete (watch the progress bar)
 6. View results in the Prediction History panel
 
-**→ Prediction models documentation: [Prediction Models →](#ce-express-prediction-models)**
+**→ Prediction models documentation: Prediction Models →**
 
 ## Exercise 3 — Best Server Prediction
 
 1. Select all cells in an area (use Polygon selection)
-2. RF Prediction → Prediction type: **Best Server**
+2. [RF Prediction](#kw:what-is-an-rf-prediction:none) → Prediction type: **[Best Server](#kw:exercise-3-best-server-prediction:none)**
 3. Resolution: **50 m** | Radius: **20 km**
 4. Click **Run**
 5. Observe which cell "wins" each area
@@ -91,7 +91,7 @@ An [RF prediction](#ce-express-rf-prediction) produces **map-based [raster](http
 7. In the network item → click **Calculate**
 8. All 4G cells are calculated automatically
 
-**→ Networks documentation: [Networks Tool →](#ce-express-networks)**
+**→ Networks documentation: Networks Tool →**
 
 ## Exercise 5 — Comparing Predictions
 
@@ -103,12 +103,12 @@ An [RF prediction](#ce-express-rf-prediction) produces **map-based [raster](http
 ## Exercise 6 — Exporting Results
 
 1. In Prediction History → select a result layer
-2. Click **Export** → save as [GeoTIFF](#geodata-[dem](#geodata-dem))
+2. Click **Export** → save as GeoTIFF
 3. The raster file can be used in other GIS software or shared with clients
 
 ## Related Documentation
 
-- **RF Prediction:** [RF Prediction →](#ce-express-rf-prediction)
-- **Quick RF:** [Quick RF Prediction →](#ce-express-quick-rf)
-- **Prediction Models:** [Prediction Models →](#ce-express-prediction-models)
-- **Troubleshooting:** [RF Prediction Troubleshooting →](#troubleshooting-rf-prediction)
+- **RF Prediction:** RF Prediction →
+- **Quick RF:** [Quick RF Prediction](#kw:quick-rf-prediction:ce-express-rf-prediction) →
+- **Prediction Models:** Prediction Models →
+- **Troubleshooting:** RF Prediction Troubleshooting →

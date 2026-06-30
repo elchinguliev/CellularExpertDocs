@@ -31,7 +31,7 @@ Cellular Expert Technical Documentation
 CE Express is designed to work with any geospatial data available to the customer and fully exploit its
 precision for the most accurate coverage and QoS calculations. The platform supports multi-resolution input
 datasets — from freely available global sources such as Sentinel-2 10 m land cover and ASTER DEM, to
-premium high-resolution terrain and 3D building models when provided by the customer or government
+premium high-resolution terrain and 3D building [models](#kw:31-models:ce-express-tr-models) when provided by the customer or government
 agencies.
 Source: https://livingatlas.arcgis.com/landcoverexplorer/
 By leveraging whatever data is available locally, CE Express performs nationwide calculations at the
@@ -42,8 +42,8 @@ This flexibility ensures that customers can use their existing GIS assets, open 
 they already license, turning them into actionable broadband maps without additional data procurement
 requirements from the solution provider.
 By using terrain elevation, obstacles, and [clutter](#kw:clutter-classification-values:ce-express-geodata) classification in every calculation, Cellular Expert
-accurately models:
-- Line-of-Sight and Non-Line-of-Sight Conditions – Determining diffraction, reflection, and
+accurately [models](#kw:31-models:ce-express-tr-models):
+- [Line-of-Sight](#kw:running-a-profile:ce-express-profile) and Non-[Line-of-Sight](#kw:running-a-profile:ce-express-profile) Conditions – Determining diffraction, reflection, and
 shadowing effects over hills, valleys, and urban obstacles.
 - Coverage Footprints – Generating precise signal strength maps at national, regional, and local
 levels.
@@ -60,13 +60,13 @@ Diffractio
 H
 H [clutter](#kw:clutter-classification-values:ce-express-geodata) n obstacles
 DSM
-Clutter losses
+[Clutter](#kw:clutter-classification-values:ce-express-geodata) losses
 UE
 DTM
 The CE tools make use of three distinct GIS data layers to obtain high precision modelling of radio wave
 propagation losses:
 - Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), which describes
-Earth surface, i.e., path terrain profile in terms of ground elevation above uniform sea level.
+Earth surface, i.e., path [terrain profile](#kw:reading-the-profile-graph:ce-express-profile) in terms of ground elevation above uniform sea level.
 - Obstacles layer, delineating buildings and other such objects above Earth surface that may be
 considered to be principal impediments for radio wave propagation.
 - Clutter layer, delineating natural occurring or human cultivated ground cover that may be
@@ -81,7 +81,7 @@ propagation pattern, including building-level shadowing and accurate street-by-s
 More information: https://blog.maxar.com/earth-intelligence/2022/benefits-of-using-maxars-precision3d-telco-suite-for-5g
 Cellular Expert can easily integrate and process 1 m or even sub-meter topographical data, providing highly
 detailed RF calculations. This level of precision is essential for:
-- Modeling 2G/3G/4G/5G, small cells and mmWave networks.
+- Modeling 2G/3G/4G/5G, small cells and [mmWave](#kw:56-step-8-losonly-prediction-for-mmwave:ce-express-tr-models) networks.
 - Identifying exact coverage gaps at the building and street level.
 ©Cellular Expert, 2025 Page | 4
 
@@ -116,12 +116,12 @@ Cellular Expert Technical Documentation
 in its center or the maximum. The smaller the pixels, the more accurate is the grid - but also more data to
 calculate.
 2.1.1 Projection
-The raster must use a Projected Coordinate System. To check the coordinate system of your raster, use
+The raster must use a [Projected Coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) System. To check the coordinate system of your raster, use
 the Properties function in ArcGIS Pro. Add the raster to your project, right-click on it, and select Properties.
 Then, go to the Source tab > Spatial Reference and check the Coordinate System type parameter to confirm
-it is in a Projected Coordinate System.
+it is in a [Projected Coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) System.
 2.1.2 Correct No Data value and raster name
-After setting the correct projection, assign the NoData: -9999 attribute and specify the appropriate name for
+After setting the correct projection, assign the [NoData](#kw:check-and-set-nodata-value:ce-express-geodata): -9999 attribute and specify the appropriate name for
 the DTM raster.
 2.1.3 Pixel type
 16-bit signed, or 32-bit signed or 32-bit float
@@ -145,12 +145,12 @@ Land Cover
 
 Cellular Expert Technical Documentation
 2.2.1 Projection
-The raster must use a Projected Coordinate System. To check the coordinate system of your raster, use
+The raster must use a [Projected Coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) System. To check the coordinate system of your raster, use
 the Properties function in ArcGIS Pro. Add the raster to your project, right-click on it, and select Properties.
 Then, go to the Source tab > Spatial Reference and check the Coordinate System type parameter to confirm
 it is in a Projected Coordinate System.
 2.2.2 Correct No Data value and raster name
-After setting the correct projection, assign the NoData: -9999 attribute and specify the appropriate name for
+After setting the correct projection, assign the [NoData](#kw:check-and-set-nodata-value:ce-express-geodata): -9999 attribute and specify the appropriate name for
 the DTM raster.
 2.2.3 Pixel type
 16-bit signed, or 32-bit signed or 32-bit float
@@ -182,7 +182,7 @@ the Properties function in ArcGIS Pro. Add the raster to your project, right-cli
 Then, go to the Source tab > Spatial Reference and check the Coordinate System type parameter to confirm
 it is in a Projected Coordinate System.
 2.3.2 Correct No Data value and raster name
-After setting the correct projection, assign the NoData: -9999 attribute and specify the appropriate name for
+After setting the correct projection, assign the [NoData](#kw:check-and-set-nodata-value:ce-express-geodata): -9999 attribute and specify the appropriate name for
 the DTM raster.
 2.3.3 Pixel type
 16-bit signed, or 32-bit signed or 32-bit float

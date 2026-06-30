@@ -18,7 +18,7 @@ The [clutter](#kw:clutter-classes-grid:none) (land-use) raster classifies each p
 
 ### Why Clutter Matters
 
-Without [clutter](#kw:clutter-classes-grid:none), CE applies a single propagation correction regardless of terrain type. With clutter:
+Without [clutter](#kw:clutter-classes-grid:none), CE applies a single propagation correction regardless of terrain type. With [clutter](#kw:clutter-classes-grid:none):
 - **Forest pixels** → additional attenuation for tree canopy
 - **Urban pixels** → higher diffraction loss, building absorption
 - **Open water** → minimal attenuation, potential reflections
@@ -26,9 +26,9 @@ Without [clutter](#kw:clutter-classes-grid:none), CE applies a single propagatio
 
 ### Format and Resolution
 
-- Same raster formats as DEM (GeoTIFF recommended)
-- Resolution: should **match or be finer** than the DEM
-- **Must use the same projected coordinate system** as DEM and workspace
+- Same raster formats as DEM ([GeoTIFF](#kw:format-and-resolution:none) recommended)
+- [Resolution](#kw:format-and-resolution:none): should **match or be finer** than the DEM
+- **Must use the same [projected coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) system** as DEM and workspace
 - **Pixel type: 8-bit or 16-bit integer** (classification codes, not continuous values)
 
 ### Standard Clutter Categories
@@ -66,8 +66,8 @@ The [clutter heights](#kw:clutter-heights:none) dataset provides the **height of
 
 ### Format
 
-- Same raster formats (GeoTIFF recommended)
-- **Resolution:** Should match DEM resolution
+- Same raster formats ([GeoTIFF](#kw:format-and-resolution:none) recommended)
+- **[Resolution](#kw:format-and-resolution:none):** Should match DEM [resolution](#kw:format-and-resolution:none)
 - **Pixel type:** 32-bit float or 16-bit integer
 - **Values:** Height in meters above terrain (not above sea level)
 - **Projection:** Same as DEM and workspace
@@ -83,7 +83,7 @@ CE Express can use either. "Buildings only" is recommended for environments wher
 
 ### NoData Value
 
-Set a proper NoData value. Pixels with NoData are treated as height = 0 (terrain level).
+Set a proper [NoData](#kw:nodata-value:none) value. Pixels with [NoData](#kw:nodata-value:none) are treated as height = 0 (terrain level).
 
 ---
 
@@ -91,12 +91,12 @@ Set a proper NoData value. Pixels with NoData are treated as height = 0 (terrain
 
 All clutter rasters must:
 
-1. Use the **same projected coordinate system** as the DEM and workspace
+1. Use the **same [projected coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) system** as the DEM and workspace
 2. Cover the **same geographic extent** (or be larger)
-3. Have a **clearly defined NoData value**
+3. Have a **clearly defined [NoData](#kw:nodata-value:none) value**
 
 ## Related Topics
 
 - DEM Requirements →
 - 3D Buildings →
-- Prediction Models →
+- Prediction [Models](#kw:31-models:ce-express-tr-models) →

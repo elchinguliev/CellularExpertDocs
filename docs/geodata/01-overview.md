@@ -15,24 +15,24 @@ related:
 
 # Geodata Requirements for CE Software
 
-CE Express and CE Desktop Pro use GIS datasets for accurate RF propagation calculations. The quality and resolution of geodata **directly determines prediction accuracy**.
+CE Express and CE Desktop Pro use GIS datasets for accurate RF propagation calculations. The quality and resolution of [geodata](#kw:geodata-types-summary:none) **directly determines prediction accuracy**.
 
 ## Geodata Types Summary
 
 | Dataset | Required? | Purpose |
 |---------|-----------|---------|
 | Digital Terrain Model (DEM/DTM) | **Mandatory** | Terrain elevation for propagation |
-| [Clutter](#kw:clutter-classification-values:ce-express-geodata) / Land-Use Classes | Recommended | Environment type per pixel |
-| [Clutter](#kw:clutter-classification-values:ce-express-geodata) Heights | Optional | Building/vegetation heights |
+| [Clutter](#kw:clutter-classification-values:ce-express-[geodata](#kw:geodata-types-summary:none)) / Land-Use Classes | Recommended | Environment type per pixel |
+| [Clutter](#kw:clutter-classification-values:ce-express-[geodata](#kw:geodata-types-summary:none)) Heights | Optional | Building/vegetation heights |
 | 3D Buildings (LoD1/LoD2) | For urban / ray-tracing | Building geometry |
-| [Antenna Patterns](#kw:importing-antenna-patterns:ce-express-antenna) | **Mandatory** | Radiation pattern per antenna |
+| [Antenna Patterns](#kw:importing-antenna-patterns:ce-express-antenna) | **Mandatory** | [Radiation pattern](#kw:viewing-patterns:ce-express-antenna) per antenna |
 
 ## High-Precision Inputs
 
 CE Express is designed to work with **any available geospatial data** and fully exploit its precision:
 
 - Freely available global sources: **[Sentinel-2](#kw:global-free-data-sources:none) 10m land cover**, **ASTER DEM (30m)**, **[SRTM](#kw:global-free-data-sources:none) (30m)**
-- Premium high-resolution: **national mapping agency DEMs (1–5m)**, **LiDAR data**, **3D building models**
+- Premium high-resolution: **national mapping agency DEMs (1–5m)**, **LiDAR data**, **3D building [models](#kw:31-models:ce-express-tr-models)**
 - CE performs nationwide calculations at the maximum feasible resolution for the data provided
 
 ## Global Free Data Sources
@@ -47,15 +47,15 @@ CE Express is designed to work with **any available geospatial data** and fully 
 
 ## All Geodata Must:
 
-1. Use a **projected coordinate system** (UTM, national grid — NOT geographic WGS84 lat/lon)
-2. Match the **workspace coordinate system** (same EPSG code)
-3. Be **free of NoData holes** within the prediction area (or use proper NoData masking)
-4. Use **correct NoData values** (not 0 or -9999 if real elevation values can be 0)
+1. Use a **[projected coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) system** ([UTM](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata), national grid — NOT geographic [WGS84](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) lat/lon)
+2. Match the **workspace coordinate system** (same [EPSG](#kw:what-is-a-projected-crs:ce-express-geodata) code)
+3. Be **free of [NoData](#kw:check-and-set-nodata-value:ce-express-geodata) holes** within the prediction area (or use proper [NoData](#kw:check-and-set-nodata-value:ce-express-geodata) masking)
+4. Use **correct [NoData](#kw:check-and-set-nodata-value:ce-express-geodata) values** (not 0 or -9999 if real elevation values can be 0)
 
 ## Related Topics
 
 - DEM Requirements →
-- Clutter Requirements →
+- [Clutter](#kw:clutter-classification-values:ce-express-geodata) Requirements →
 - Building Data Requirements →
 - [Antenna Pattern](#kw:managing-the-antenna-library:ce-express-antenna) Requirements →
 - Preparing Geodata (Training) →

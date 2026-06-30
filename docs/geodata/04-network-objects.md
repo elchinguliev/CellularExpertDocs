@@ -11,7 +11,7 @@ related:
 
 # Requirements for CE Network Objects
 
-CE network objects must meet minimum field requirements for successful import and use in calculations.
+CE [network objects](#kw:object-types:ce-express-network-objects) must meet minimum field [requirements](#kw:minimum-requirements:none) for successful import and use in calculations.
 
 ## Primary Data Structure
 
@@ -35,8 +35,8 @@ CE network objects must meet minimum field requirements for successful import an
 
 | CE Field | Unit | Example | Description |
 |----------|------|---------|-------------|
-| `y` (Latitude) | Decimal degrees | 49.9993 | Y coordinate in WGS84 (for initial CSV import) |
-| `x` (Longitude) | Decimal degrees | 33.6573 | X coordinate in WGS84 |
+| `y` (Latitude) | Decimal degrees | 49.9993 | Y coordinate in [WGS84](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) (for initial CSV import) |
+| `x` (Longitude) | Decimal degrees | 33.6573 | X coordinate in [WGS84](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) |
 | `cell_` (Cell ID) | — | ABC_001 | Unique cell identifier |
 
 ### Optional Fields
@@ -69,7 +69,7 @@ Sites are optional — cells can exist without explicit site records. Sites add:
 | Field | Description |
 |-------|-------------|
 | **Site name** | Unique identifier |
-| **Latitude / Longitude** | WGS84 decimal degrees |
+| **Latitude / Longitude** | [WGS84](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) decimal degrees |
 | **Height** | Tower/mast height AGL (m) |
 | **Type** | Monopole, Lattice, Rooftop, etc. |
 | **Owner** | Network operator or tower company |
@@ -79,7 +79,7 @@ Sites are optional — cells can exist without explicit site records. Sites add:
 
 ## Antenna Patterns
 
-For each cell, an [antenna pattern](#kw:antenna-patterns:none) must be assigned from the CE antenna library.
+For each cell, an [antenna pattern](#kw:antenna-patterns:none) must be assigned from the CE [antenna library](#kw:managing-the-antenna-library:ce-express-antenna).
 
 ### Antenna File Formats
 
@@ -122,6 +122,6 @@ CELL_001C,51.5074,-0.1278,240,25,4G,1800
 
 ## Related Topics
 
-- Features Tool — Adding Objects →
+- Features Tool — [Adding Objects](#kw:adding-objects-manually:ce-express-network-objects) →
 - Importing Data →
-- Geodata Requirements →
+- Geodata [Requirements](#kw:minimum-requirements:none) →

@@ -3,7 +3,7 @@
 Cellular Expert Express User Guide 7.3
 Table of Contents
 1. Introduction 7
-2. [CE Express](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) application 7
+2. CE Express application 7
 
 ## 2.1 Log in to the Express Network Data Management application 7
 
@@ -31,9 +31,9 @@ Table of Contents
 3.1.14 Street view 134
 3.1.15 Feature report 135
 3.1.16 Profile 142
-3.1.17 [Quick RF Prediction](https+TLS+secure+protocol)://www.google.com/search?q=Quick+RF+Prediction+what+if+testing+CE+Express) 150
-3.1.18 [RF Prediction](#ce-express-rf-prediction) 153
-3.1.19 3D [RF Prediction](#ce-express-rf-prediction) 168
+3.1.17 [Quick RF Prediction](#kw:quick-rf-prediction:ce-express-rf-prediction) 150
+3.1.18 RF Prediction 153
+3.1.19 3D RF Prediction 168
 3.1.20 Visibility prediction 170
 3.1.21 Antenna visibility prediction 171
 3.1.22 Minimum receiver height 172
@@ -44,20 +44,20 @@ Confidential ©Cellular Expert, 2026 Page | 2
 ---
 
 Cellular Expert Express User Guide 7.3
-3.1.25 Network availability+radio+link+planning)+ITU) 177
-3.1.26 [Model Tuning](#kw:model-tuning-calibration:ce-express-prediction-models) 179
-3.1.27 Optimal placement+placement+RF+planning+CE) 184
+3.1.25 Network availability 177
+3.1.26 Model Tuning 179
+3.1.27 Optimal placement 184
 3.1.28 Utilities 186
 3.1.29 Points to DXF 187
 3.1.30 EMF 188
 3.1.31 Audibility 189
 3.1.32 Lux calculation 191
-3.1.33 Geoclimatic+radio+link+planning)+fading+ITU) data 191
+3.1.33 Geoclimatic data 191
 3.1.34 Spectrum masks 197
 3.1.35 Radios 201
 3.1.36 Frequency plans 207
 3.1.37 Link prediction 211
-3.1.38 Automatic frequency planning+interference) 220
+3.1.38 Automatic frequency planning 220
 3.1.39 Link HCM-FS prediction 222
 3.1.40 Mesh topology builder 225
 3.1.41 Mesh connectivity 227
@@ -111,7 +111,7 @@ Cellular Expert Express User Guide 7.3
 
 ## 4.7 Workspace 268
 
-5. [CE Express](#ce-express-overview) API 268
+5. CE Express API 268
 6. Network Data Management 268
 
 ## 6.1 Data management tools 269
@@ -128,13 +128,13 @@ Cellular Expert Express User Guide 7.3
 6.1.10 Copy record 271
 6.1.11 Add new record 271
 6.1.12 CE API 271
-6.1.13 Export+raster+vector) selected 272
+6.1.13 Export selected 272
 6.1.14 Delete record 272
 6.1.15 Remove selected 272
 
 ## 6.2 View options and User administration 272
 
-6.2.1 Import+network+objects+CSV) Export 272
+6.2.1 Import Export 272
 Confidential ©Cellular Expert, 2026 Page | 4
 
 ---
@@ -189,7 +189,7 @@ About Cellular Expert
 Cellular Expert UAB (CE) developed ultra-fast wave
 propagation, communication systems deployment planning
 and radio/optical visibility calculation software for ESRI’s
-ArcGIS+platform) mapping environment, which is widely used within
+ArcGIS mapping environment, which is widely used within
 Telecom, Defense, IoT, and other companies and
 organizations.
 CE’s communication network planning, network asset
@@ -213,7 +213,7 @@ In this User Guide, we introduce the Cellular Expert Express application. Expres
 3D and Cellular Expert Express solution in one product. Inventory 3D is responsible for data management.
 From a desktop, laptop, or tablet computer with internet access, the Webapp connects to a database
 located on a server and enables the user to edit database records, sites, and objects, draw diagrams and
-locate the assets on an integrated map. [Inventory3D](#inventory3d-user-guide) integrates data derived from various sources, such as
+locate the assets on an integrated map. Inventory3D integrates data derived from various sources, such as
 sensors, Google Sheets, maps, and changes in database entries are synchronized with the server database
 content, keeping the database constantly up to date.
 Cellular Expert Express is a telecommunication network planning, optimization, and data management
@@ -227,7 +227,7 @@ management. It consists of several building blocks that together provide a custo
 for a specific need. Take inventory management: Error-prone databases which contain faulty inventory lists
 can be deleterious, especially in large industrial environments. Thus, it is essential that upon inventory
 changing databases are regularly updated.
-2. [CE Express](#ce-express-overview) application
+2. CE Express application
 To access the Cellular Expert Express web application, type its URL in the address field of a web browser.
 You can use any web browser, however, we recommend the up-to-date Google Chrome web browser.
 The URL depends on the installation and initial configuration:
@@ -237,7 +237,7 @@ Please note that for security reasons the application uses only HTTPS.
 
 ## 2.1 Log in to the Express Network Data Management application
 
-Users can log in with the organization account of ArcGIS Enterprise+Enterprise+server+GIS+deployment) or Cellular Expert Express and are
+Users can log in with the organization account of ArcGIS Enterprise or Cellular Expert Express and are
 identified by a Username and a Password.
 Confidential ©Cellular Expert, 2026 Page | 7
 
@@ -271,13 +271,13 @@ To recover an ArcGIS Enterprise account, use the Forgot password button.
 ## 2.2 Open the Express Map view
 
 In the Network Data Management view the map and the database are connected. Features, described in
-the tables, are displayed on the map. Select a [workspace](#kw:creating-a-workspace:ce-express-workspace).
+the tables, are displayed on the map. Select a workspace.
 Confidential ©Cellular Expert, 2026 Page | 10
 
 ---
 
 Cellular Expert Express User Guide 7.3
-Map view and features are visible only for the selected [workspace](#kw:creating-a-workspace:ce-express-workspace).
+Map view and features are visible only for the selected workspace.
 
 ## 2.3 Log out
 
@@ -380,13 +380,13 @@ Origin point from which coordinates are calculated from in the user interface. G
 saved in the database regardless of this setting.
 Calculations
 Calculate EIRP
-Enabled – EIRP is calculated with the formula: power – misc. loss + antenna gain+directional).
+Enabled – EIRP is calculated with the formula: power – misc. loss + antenna gain.
 Disabled – power value is used as EIRP.
-Use [clutter](#kw:clutter-classes-grid:geodata-clutter)
-Determines whether [Clutter](#kw:clutter-classes-grid:geodata-clutter) Loss is used in prediction calculations.
+Use [clutter](#kw:clutter-classification-values:ce-express-geodata)
+Determines whether [Clutter](#kw:clutter-classification-values:ce-express-geodata) Loss is used in prediction calculations.
 Transmitter height reference
-The height above which the absolute transmitter height is calculated, e.g. if “elevation+height+datum)” is selected, and
-transmitter height is set to 10 m, the absolute transmitter height is calculated as elevation+height+datum) + 10. This is
+The height above which the absolute transmitter height is calculated, e.g. if “elevation” is selected, and
+transmitter height is set to 10 m, the absolute transmitter height is calculated as elevation + 10. This is
 used within CE calculations.
 Available options:
 Confidential ©Cellular Expert, 2026 Page | 16
@@ -432,7 +432,7 @@ example: Cells feature naming scheme set to “1,2,3..” → Cells 1, 2, and 3 
 next placed cell in add features tool will automatically have the name set to 4.
 3.1.2 Features
 Click this button to open Features tool.
-Use this tool to import) or add features, select and visualize them.
+Use this tool to import or add features, select and visualize them.
 Confidential ©Cellular Expert, 2026 Page | 18
 
 ---
@@ -523,9 +523,9 @@ Required parameters
 Site name
 Site identification.
 X
-Coordinate in the projected coordinate+GIS) system.
+Coordinate in the projected coordinate system.
 Y
-Coordinate in the projected coordinate+GIS) system.
+Coordinate in the projected coordinate system.
 Optional parameters
 Height
 Height above the terrain.
@@ -598,7 +598,7 @@ Optional parameters
 Height, m
 Height above the terrain.
 Downtilt
-Mechanical tilt) value.
+Mechanical tilt value.
 El. Downtilt, deg
 Electrical tilt value
 Frequency
@@ -607,23 +607,23 @@ Power
 Power value in dBm.
 Misc. loss, dB
 Miscellaneous loss value in dB.
-Bandwidth), MHz
+Bandwidth, MHz
 Value in MHz. Required for 4G and 5G technologies. For other technologies define the value as 0.015.
-Noise figure+radio)+dB), dB
+Noise figure, dB
 Value in dB. Required for 4G and 5G technologies.
 Downlink duplex factor
-Value range from 0 to 1. Required for Duplex mode TDD+5G), which is applicable for 4G and 5G technologies,
-and used for Downlink Throughput) calculations. For example, if defined value is 0.7, then 70% of available
+Value range from 0 to 1. Required for Duplex mode TDD, which is applicable for 4G and 5G technologies,
+and used for Downlink Throughput calculations. For example, if defined value is 0.7, then 70% of available
 bandwidth will be dedicated to Downlink, and 30% - for Uplink.
-Subcarrier spacing+LTE+5G)+spacing+OFDM+LTE+5G+kHz), kHz
+Subcarrier spacing, kHz
 Value in kHz. Required for 4G and 5G technologies. For other technologies define value 15.
-Tx Mimo+transmit+antenna+configuration)
+Tx Mimo
 Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
-Rx Mimo+receive+antenna+configuration)
+Rx Mimo
 Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
 Active antenna effect
 The parameter is dedicated to smart antenna modeling. The default value is 0, but if massive MIMO is
-used, a smart antenna effect can be included to lower the interference and boost throughput).
+used, a smart antenna effect can be included to lower the interference and boost throughput.
 Recommended values:
 - For MIMO 32x32 – value 6.
 - For MIMO 64x64 – value 9.
@@ -648,12 +648,12 @@ Describes the cell visualization. Available values:
 Technology
 Describes the technology of the network object. Possible values are 2G, 3G, 4G, and 5G.
 Prediction model
-Prediction model for [Path Loss](#ce-express-prediction-models) simulation.
+Prediction model for Path Loss simulation.
 Frequency group
 Used to divide calculations into parts. If the selection range includes two or more different frequency group
 values, the cells won’t be predicted together.
 Antenna
-Define antenna patterns for the Cell object.
+Define [antenna patterns](#kw:importing-antenna-patterns:ce-express-antenna) for the Cell object.
 Carriers
 Describes the carrier values used for 2G calculations: C/I interference and C/A interference. The values
 are written in brackets, […]. If more than one value is defined, the values are separated by a comma. If
@@ -709,7 +709,7 @@ Misc loss
 Miscellaneous loss value in dB.
 Bandwidth
 Value in MHz. Required for 4G and 5G technologies. For other technologies define the value as 0.015.
-Subcarrier Spacing+spacing+OFDM+LTE+5G+kHz)
+Subcarrier Spacing
 Value in kHz. Required for 4G and 5G technologies. For other technologies define value 15.
 Tx Mimo
 Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
@@ -756,7 +756,7 @@ Miscellaneous loss value in dB.
 View Angle
 Visible field (vertical angle) of the radar in degrees.
 Prediction Model
-Prediction model for [Path Loss](#ce-express-prediction-models) simulation.
+Prediction model for Path Loss simulation.
 3.1.2.2.8 Add CPE
 Confidential ©Cellular Expert, 2026 Page | 35
 
@@ -909,13 +909,13 @@ Prediction model
 The prediction model that will be used for the mesh node in Mesh Connectivity and Quick Mesh Connectivity
 calculations.
 Antenna
-Define antenna patterns for the mesh node object.
+Define [antenna patterns](#kw:importing-antenna-patterns:ce-express-antenna) for the mesh node object.
 Sensitivity
 Sensitivity value of the mesh node.
 Max connections
 The maximum number of connections the mesh node can have (used for mesh connectivity calculations).
 Layer
-The layer of the mesh node (number value). Used for priority calculations in Automatic Frequency Planning+interference).
+The layer of the mesh node (number value). Used for priority calculations in Automatic Frequency Planning.
 Group name
 The group name of the mesh node (text description). Several mesh nodes may belong to the same group.
 Status
@@ -1363,8 +1363,8 @@ Confidential ©Cellular Expert, 2026 Page | 76
 
 Cellular Expert Express User Guide 7.3
 Adjust vertical pattern
-In the case where you have an electrically tilted vertical [antenna pattern](#kw:antenna-patterns:ce-express-antenna) imported, you might want to tilt it
-back so it is essentially a 0 tilt [antenna pattern](#kw:antenna-patterns:ce-express-antenna) (recommended if you use electrical tilt field in cell attributes).
+In the case where you have an electrically tilted vertical [antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) imported, you might want to tilt it
+back so it is essentially a 0 tilt [antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) (recommended if you use electrical tilt field in cell attributes).
 You may use the adjust vertical pattern tool to do this. Find the center of the main lobe of the vertical
 antenna pattern using the “main lobe center” slider, then click accept.
 Confidential ©Cellular Expert, 2026 Page | 77
@@ -1384,7 +1384,7 @@ Confidential ©Cellular Expert, 2026 Page | 78
 Cellular Expert Express User Guide 7.3
 3.1.6.1 Import HCM code file
 To import HCM code patterns as antennas, you may use this import option. The required file is a CSV with
-3 fields, antenna gain+directional), horizontal HCM code and vertical HCM code. These are then combined and imported
+3 fields, antenna gain, horizontal HCM code and vertical HCM code. These are then combined and imported
 as antenna patterns under the HCM manufacturer group. Multiple lines are allowed.
 CSV file example:
 After file upload, you are prompted to assign which CSV field corresponds to the required parameters:
@@ -1464,7 +1464,7 @@ Cellular Expert Express User Guide 7.3
 Click this button to open Geodata sets tool.
 Geodata sets are collections of geographical raster data that is used in CE calculations. Geodata sets are
 comprised of the following raster types:
-Elevation – [DTM](#geodata-dem) (Digital terrain model+bare+earth)), each pixel defines the absolute terrain height above sea level. No
+Elevation – DTM (Digital terrain model), each pixel defines the absolute terrain height above sea level. No
 buildings or other obstacles are included in this height.
 Clutter height (optional) – Relative height of obstructions (buildings, forests, etc.) above elevation.
 Clutter classes (optional) – Each pixel defines the ID of the clutter class, which the area belongs to.
@@ -1539,12 +1539,12 @@ Click this button to open Prediction models tool.
 The CE Path Loss Modelling aims to perform near-deterministic calculation of received signal levels at each
 specific point (pixel) in the network’s target coverage area by applying selective path loss model depending
 on the radio visibility condition between the transmitter antenna vis-à-vis a receiver antenna located at a
-given point in coverage area. The radio visibility is evaluated based on the [DTM](#geodata-dem), Obstacles and Clutter
+given point in coverage area. The radio visibility is evaluated based on the DTM, Obstacles and Clutter
 path profile information. This verification of radio visibility will result in the receiver antenna point assigned
 into one of three possible radio visibility conditions:
-- Line-of-Sight+radio+link) (LOS) – occurs when there are neither terrain irregularities, obstacles or clutter
+- Line-of-Sight (LOS) – occurs when there are neither terrain irregularities, obstacles or clutter
 interposing the direct radio path between the transmitter and receiver antennas. The radio path is
-understood to include the 1st [Fresnel zone](#ce-express-profile) around the direct line and account for Spherical Earth
+understood to include the 1st [Fresnel zone](#kw:fresnel-zone-clearance:ce-express-profile) around the direct line and account for Spherical Earth
 effect. The LOS condition is illustrated by the path profile depicted in Fig. 3(a).
 - Obstructed LOS (OLOS) – occurs when the direct radio propagation line is interposed by clutter,
 see illustration in Fig. 3(b).
@@ -1572,8 +1572,8 @@ Confidential ©Cellular Expert, 2026 Page | 91
 ---
 
 Cellular Expert Express User Guide 7.3
-CEC [ITU-R](#kw:geoclimatic-data:ce-express-radio-link) Model (100MHz – 6GHz) is a combination model intended for use in a variety of different
-radiocommunication systems which is derived explicitly from [ITU-R](#kw:geoclimatic-data:ce-express-radio-link) path loss modelling methods as
+CEC ITU-R Model (100MHz – 6GHz) is a combination model intended for use in a variety of different
+radiocommunication systems which is derived explicitly from ITU-R path loss modelling methods as
 follows:
 a. Receive antenna in LOS condition – path loss calculated as FSL based on Recommendation ITU-
 R P.525 (ref URL).
@@ -1612,7 +1612,7 @@ profile, clutter (buildings, vegetation), climate, and time/location variability
 - Time and Location Variability: Predictions can be tailored for different statistical reliability levels
 (e.g., 50% or 10% time availability).
 - Clutter and Terrain Handling: The model can incorporate detailed digital elevation models
-([DEM](#geodata-dem)) and clutter data for more accurate predictions, reflecting the influence of buildings, forests,
+(DEM) and clutter data for more accurate predictions, reflecting the influence of buildings, forests,
 and other surface features.
 Use in Cellular Expert
 In the Cellular Expert software, the ITU-R P.1546 model is implemented to support real-world coverage
@@ -1647,7 +1647,7 @@ e. Receive antenna in the clutter (building, vegetation, etc) – path loss is c
 above based on LOS, OLOS and NLOS conditions, and additional penetration loss is added to
 simulate Outdoor-to-Indoor scenario which is based on ITU-R P.833 recommendation.
 ITU-R P.368 (10kHz – 30MHz) provides a standardized prediction method for assessing the ground-wave
-field strength of radio waves in the 10 kHz to 30 MHz frequency range. This frequency band) is primarily
+field strength of radio waves in the 10 kHz to 30 MHz frequency range. This frequency band is primarily
 associated with long-range communication systems using amplitude modulation (AM) and shortwave
 bands, often for maritime, aeronautical, military, and broadcasting services.
 This model offers guidance for engineers, planners, and researchers working on system design and
@@ -1717,7 +1717,7 @@ range.
 The model is recommended for accurate wide-area propagation and coverage modeling, especially when
 precise and up-to-date topographic data are available. This includes Digital Terrain Models (DTM), building
 data (including height information), and vegetation data (with height details) derived from a Digital Surface
-Model ([DSM](#kw:clutter-heights:geodata-clutter)). Ideally, these data should be created with LiDAR or similar methods, at a resolution of at
+Model (DSM). Ideally, these data should be created with LiDAR or similar methods, at a resolution of at
 least 10 meters, though 5, 2, or even 1 meter or higher is preferable for optimal accuracy.
 When building data and their heights are not available, and only DTM and clutter data at a resolution of 10
 meters or lower are accessible, the UniMacro Model should be considered for wide-area propagation and
@@ -2012,7 +2012,7 @@ Receiver height
 Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main
 receiver height value defined in the prediction model is used.
 3.1.9.4 ITU-R P525 Model
-[Line of Sight](#ce-express-profile) model is typically used for mmWave band frequencies within the 6 GHz – 100 GHz frequency
+Line of Sight model is typically used for mmWave band frequencies within the 6 GHz – 100 GHz frequency
 range and provides results only for line-of-sight areas.
 3.1.9.4.1 ITU-R P525 Model settings
 Confidential ©Cellular Expert, 2026 Page | 104
@@ -2044,7 +2044,7 @@ Receiver height
 Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main
 receiver height value defined in the prediction model is used.
 3.1.9.5 UniMacro Model
-This model is designed for deterministic tracking of the main, strongest radio ray in [Line of Sight](#ce-express-profile) (LOS)
+This model is designed for deterministic tracking of the main, strongest radio ray in Line of Sight (LOS)
 areas, while propagation modeling in Obstructed Line of Sight (OLOS) and Non-Line of Sight (NLOS) areas
 uses empirically determined parameters defined in ITU-R and 3GPP recommendations. It also models the
 scattering of other rays around the receiver. The model applies empirically validated values for the 400
@@ -2095,7 +2095,7 @@ A2
 Transmitter height influence coefficient. It is related to errors in DTM, real Earth curvature, etc. It regulates
 loss curve vertical position like the A0, but with respect to antenna height. Default value -12.
 A3
-[Okumura-Hata](#ce-express-prediction-models) type of multiplying factor for log(h )log(d). Default value 0.1.
+Okumura-Hata type of multiplying factor for log(h )log(d). Default value 0.1.
 M
 The Clutter Class option defines several predefined clutter categories, each with unique values for
 diffraction loss, clutter loss, penetration loss, and receiver loss coefficients. These parameters describe
@@ -2241,12 +2241,12 @@ Quantifies a material's ability to permit electric field propagation relative to
 with the real part representing energy storage capability and the imaginary part representing energy
 dissipation within the material.
 ITU-R P.368 uses relative permittivity to model how radio waves interact with various surface materials,
-such as soil, water, or vegetation. These interactions influence reflection), refraction, and absorption
+such as soil, water, or vegetation. These interactions influence reflection, refraction, and absorption
 phenomena at the surface.
 Surface conductivity
 Refers to a material's ability to conduct electrical currents across its surface. It is measured in siemens per
 meter (S/m). Higher conductivity indicates that a surface can easily allow current flow, affecting the
-reflection) and absorption of radio waves.
+reflection and absorption of radio waves.
 According to ITU-R P.368, surface conductivity is a critical factor in determining the reflective properties of
 surfaces, such as dry versus wet soil, or metallic versus dielectric surfaces.
 Receiver height
@@ -2569,8 +2569,8 @@ Available options:
 Automatically apply first feature templates when calculation widgets are first opened
 When enabled – automatically sets the feature template parameters on calculation widgets to the first
 (recently edited) one.
-Automatically apply snapped feature in Profile & [Quick RF prediction](#kw:quick-rf-prediction-vs-full-rf-prediction:ce-express-rf-prediction) tools
-When enabled – while using Profile or [Quick RF prediction](#kw:quick-rf-prediction-vs-full-rf-prediction:ce-express-rf-prediction) tools and snapping to a feature, the parameters
+Automatically apply snapped feature in Profile & [Quick RF prediction](#kw:quick-rf-prediction:ce-express-rf-prediction) tools
+When enabled – while using Profile or Quick RF prediction tools and snapping to a feature, the parameters
 from this feature will be automatically applied without having to select it from the snapped features
 dropdown list. If disabled, only the location will be snapped to.
 Measurements
@@ -3224,7 +3224,7 @@ Maximum neighbour count
 Maximum number of neighbours a cell can have. If a cell has more potential neighbours than this number,
 only the ones with the highest overlap are returned.
 Available coverage rasters:
-- Reference Signal Receive Power (RSRP) raster in dBm, as measured for a reference OFDMA sub-
+- Reference Signal Receive Power ([RSRP](#kw:typical-rsrp-thresholds:ce-express-rf-prediction)) raster in dBm, as measured for a reference OFDMA sub-
 carrier bandwidth. It is possible to calculate separately the rasters for the 1st, 2nd, 3rd, 4th and 5th
 strongest signal levels and it depends on the count defined in the Best server count option.
 - The best server raster shows the identification of cells that generate the strongest signals at each
@@ -3306,7 +3306,7 @@ Confidential ©Cellular Expert, 2026 Page | 164
 
 Cellular Expert Express User Guide 7.3
 Available coverage rasters:
-- Equivalent Reference Signal Receive Power (RSRP) raster in dBm, as measured for a reference
+- Equivalent Reference Signal Receive Power ([RSRP](#kw:typical-rsrp-thresholds:ce-express-rf-prediction)) raster in dBm, as measured for a reference
 OFDMA sub-carrier bandwidth. It is possible to calculate separately the rasters for the 1st, 2nd, 3rd,
 4th and 5th strongest signal levels and it depends on the count defined in the Best server count
 option.
@@ -3607,7 +3607,7 @@ Confidential ©Cellular Expert, 2026 Page | 178
 Cellular Expert Express User Guide 7.3
 It is possible to draw a profile from the provided results. Press the Calculate profile button to open the
 profile.
-3.1.26 [Model Tuning](#kw:model-tuning-calibration:ce-express-prediction-models)
+3.1.26 Model Tuning
 Click this button to open Model tuning tool.
 Model Tuning is a tool to optimize prediction model parameters based on test points. These test points
 Confidential ©Cellular Expert, 2026 Page | 179
@@ -3875,8 +3875,8 @@ Enable/Disable this Geoclimatic data
 Annual Temperature Data
 A dropdown menu allowing the user to select the dataset from which the annual temperature data should
 be sourced.
-3.1.33.3 [Multipath Fading](#kw:geoclimatic-data:ce-express-radio-link)
-The [Multipath Fading](#kw:geoclimatic-data:ce-express-radio-link) page defines refractivity data and calculation parameters for ITU and Vigants-Barnett
+3.1.33.3 Multipath Fading
+The Multipath Fading page defines refractivity data and calculation parameters for ITU and Vigants-Barnett
 methods.
 Worst month-to-annual statistics conversion can be performed according to ITU-R P. 530 or ITU-R P. 841
 methods.
@@ -4032,7 +4032,7 @@ normal operation, indicating reliability.
 MTTR, h
 Mean time to repair: average time (in hours) required to repair the radio system after a failure occurs,
 indicating maintainability.
-Dispersive [Fade Margin](#ce-express-radio-link), dB
+Dispersive Fade Margin, dB
 Additional signal strength required to overcome dispersion and fading effects in the radio communication
 system, measured in dB.
 Emission Designator
@@ -4049,7 +4049,7 @@ Receiver sensitivity threshold for BER = 10-6.
 BER 10-6 Threshold, dBm
 Receiver sensitivity threshold for BER = 10-3.
 Noise Floor, dB
-Refers to the minimum power level of unwanted noise or interference at the receiver at the base station+NodeB+base+station)+eNodeB+gNodeB).
+Refers to the minimum power level of unwanted noise or interference at the receiver at the base station.
 Noise Figure, dB
 Measure of the degradation of the signal-to-noise ratio (SNR) as a signal passes through a radio component
 or system. Value in dB. Required for 4G and 5G technologies.
@@ -4181,7 +4181,7 @@ Cellular Expert Express User Guide 7.3
 Field Margin
 Include Field Margin in Power Budget
 If checked, it will take into account the specified field margin for Power Budget calculations.
-Thermal [Fade Margin](#ce-express-radio-link)
+Thermal Fade Margin
 The threshold below which thermal fade will not be calculated
 Tropospheric scatter
 Calculate Tropospheric Scatter
@@ -5049,7 +5049,7 @@ Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
 rx_mimo
 Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
 active_antenna_effect
-This parameter is dedicated to smart antenna modelling. The default value is 0, but if massive MIMO) is
+This parameter is dedicated to smart antenna modelling. The default value is 0, but if massive MIMO is
 used, a smart antenna effect can be included to lower the interference and boost the throughput.
 Recommended values:
 - For MIMO 32x32 – value 6.
@@ -5365,7 +5365,7 @@ Opens the menu for administrator functions:
 Please view Administration Guide for details.
 6.2.3 User name/ Help/ Logout
 Help - Displays the User Guide for quick help.
-Logout – Logoff the user from CE [Inventory3D](#inventory3d-user-guide)
+Logout – Logoff the user from CE Inventory3D
 
 ## 6.3 Table
 

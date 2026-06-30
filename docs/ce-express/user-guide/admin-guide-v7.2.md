@@ -10,15 +10,15 @@ Table of Contents
 
 ## 1.3 CE Express architecture examples 6
 
-1.3.1 ArcGIS Enterprise+platform)+Enterprise+server+GIS) & CE Server-Express on premises deployment simplified architecture 6
-1.3.2 [ArcGIS Enterprise](https+TLS+secure+protocol)://www.google.com/search?q=[ArcGIS](https+TLS+secure+protocol)://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+Enterprise+server+GIS+deployment) & CE Server-Express on premises or cloud deployment architecture 7
+1.3.1 ArcGIS Enterprise & CE Server-Express on premises deployment simplified architecture 6
+1.3.2 ArcGIS Enterprise & CE Server-Express on premises or cloud deployment architecture 7
 2. Installation Guide 8
 
 ## 2.1 Installation files 8
 
 ## 2.2 Prerequisites 9
 
-2.2.1 ArcGIS Server+Server+GIS+web+services) 9
+2.2.1 ArcGIS Server 9
 2.2.2 PostgreSQL 9
 2.2.3 PHP server 9
 
@@ -26,14 +26,14 @@ Table of Contents
 
 2.3.1 Accept the software terms and conditions 11
 2.3.2 Prepare installation folders 12
-2.3.3 Prepare [CE Express](#ce-express-overview) server configuration: 12
-2.3.4 Prepare [CE Express](#ce-express-overview) server DB configuration. 13
+2.3.3 Prepare CE Express server configuration: 12
+2.3.4 Prepare CE Express server DB configuration. 13
 2.3.5 Check Installation and the licence of the CE Express software. 14
 2.3.6 Enable SSL support (optional) 16
 2.3.7 Configure CE Express to publish objects to the Portal for ArcGIS (optional) 16
 2.3.8 Configure CE Express to send notifications (optional) 18
-2.3.9 Creating the [Inventory3D](#inventory3d-user-guide) Database structure and insert initial data 18
-2.3.10 Installing [Inventory3D](#inventory3d-user-guide) webapplication package 18
+2.3.9 Creating the Inventory3D Database structure and insert initial data 18
+2.3.10 Installing Inventory3D webapplication package 18
 2.3.11 Webapplication in Portal for ArcGIS 19
 2.3.12 CE Inventory3D folder structure 20
 
@@ -122,7 +122,7 @@ Processor (CPU):
  Recommended: 16 cores
  Optimal: 32 cores
 Optional Requirements for GPU-accelerated calculations
- GPU – any NVIDIA+computing+graphics) GPU with CUDA capabilities (https://developer.nvidia.com/cuda-gpus)
+ GPU – any NVIDIA GPU with CUDA capabilities (https://developer.nvidia.com/cuda-gpus)
  Driver version: 456.38 or later
  CUDA Toolkit 11.0 to 12.4 (recommended)
 Memory/RAM
@@ -135,14 +135,14 @@ Storage
 
 ## 1.2 Minimum requirements for software
 
-Cellular Expert Express runs on Microsoft [Windows Server](#ce-express-admin-requirements) 2016 or higher. It requires:
+Cellular Expert Express runs on Microsoft Windows Server 2016 or higher. It requires:
  ArcGIS Enterprise server 10.8.1 or later (11.5 supported) Standard or Advanced licence (Portal for
 ArcGIS included) with:
 - ArcGIS DataStore
 - WebAdapter for IIS to configure ArcGIS server
 - WebAdapter for IIS to configure ArcGIS portal
- IIS webserver (or Apache+web+server) server) with SSL enabled: required for ArcGIS server and CE Express
- PHP server for IIS(or for Apache+web+server) server) version 8.5 or less
+ IIS webserver (or Apache server) with SSL enabled: required for ArcGIS server and CE Express
+ PHP server for IIS(or for Apache server) version 8.5 or less
  SQL Database management system PostgreSQL (download from my.esri.com)
  Microsoft Visual C++ 2015-202x for ESRI products
 Confidential Cellular Expert, 2026 Page | 5
@@ -162,8 +162,8 @@ Users (Editors &
 ArcGIS Datastore
 Viewers)
 CE Express Frontend+PHP
-3. [ArcGIS Pro](#ce-pro-rcp)
-+ [CE Desktop](#ce-pro-rcp) 2. CE Express backend, API
+3. ArcGIS Pro
++ CE Desktop 2. CE Express backend, API
 for Advanced
 PostgreSQL
 Users
@@ -195,7 +195,7 @@ Recommended 2TB (Note 1)
 CPU: 32cores
 RAM: 64 GB
 Storage: 1+ TB (Note 2)
-3. [ArcGIS Pro](#ce-pro-rcp):
+3. ArcGIS Pro:
 CPU: 4 cores
 RAM: 16 GB
 Storage: 1 TB
@@ -215,7 +215,7 @@ Viewers)
 3. ArcGIS 4. ArcGIS
 GIS Server DataStore
 7. ArcGIS Pro 5. CE
-+ [CE Desktop](#ce-pro-rcp) Express
++ CE Desktop Express
 for Advanced backend +
 Users PostgreSQL
 6: CE
@@ -258,9 +258,9 @@ RAM: 16 GB
 Storage: 1 TB
 Note 1: ArcGIS Data Store shall contain the background maps, imaging and other general GIS data. The
 required storage capacity is to be confirmed in consultation with the client and/or GIS data vendor.
-Note 2: CE Server-Express shall store locally the GIS raster data ([GeoTIFF](#geodata-[dem](#geodata-dem))) needed for calculations ([DEM](#geodata-dem),
-[DSM](#kw:clutter-heights:geodata-clutter), DHM). The required storage capacity to be confirmed in consultation with the client and/or GIS data
-vendor and dependent on the ultimate choice for GIS resolution+GIS+accuracy): 0.2/0.5/1/2 m. or lower. Likely some
+Note 2: CE Server-Express shall store locally the GIS raster data (GeoTIFF) needed for calculations (DEM,
+DSM, DHM). The required storage capacity to be confirmed in consultation with the client and/or GIS data
+vendor and dependent on the ultimate choice for GIS resolution: 0.2/0.5/1/2 m. or lower. Likely some
 combination of resolutions may be logical (e.g. 1 m or below for urban/suburban areas, and 2 m or 5 m for
 rural), also possible limiting the GIS data coverage to just the Area of interests.
 2. Installation Guide
@@ -432,7 +432,7 @@ http://CE_express_hostname/ceexpressfrontenfolder/?admin=true
 (Example: http://localhost/ceexp/?admin=true)
  Obtain the licence request file by clicking on the designated section.
  Send the obtained file to Cellular Expert support.
- Once you receive the license file, apply it by either clicking on the "Import) License File" section or
+ Once you receive the license file, apply it by either clicking on the "Import License File" section or
 by dragging and dropping the file into that section:
 Note: The browser could always redirect to https instead of using http. The administrator needs to include
 the URL of CE Express to the insecure content list. It could be done using the browser’s settings:
@@ -447,7 +447,7 @@ Cellular Expert Express Administrator Guide 7.2
 2.3.6 Enable SSL support (optional)
 To enable SSL support prepare SSL certificate files. Into CE Express could be imported the pfx file
 (password required) (Optional: ssl.crt and ssl_pem.key could be imported).
-To import) SSL files for CE Express open the CE admin tool using URL:
+To import SSL files for CE Express open the CE admin tool using URL:
 http://CE_express_hostname/ceexpressfrontenfolder/?admin=true
  Open SSL tab:
  Import prepared SSL pfx file using “Import .pfx certificate file” section.
@@ -763,22 +763,22 @@ How to prepare geodata tif files is described below in this CE Express Administr
 3.1.1 General information
 The CE tools make use of three distinct GIS data layers to obtain high precision modelling of radio wave
 propagation losses:
-1. Digital [Terrain Model](https://www.google.com/search?q=Digital+Terrain+Model+DTM+bare+earth) ([DTM](#geodata-dem)), also known as Digital [Elevation Model](https://www.google.com/search?q=Digital+Elevation+Model+DEM+terrain+data) (DEM), which describes Earth
+1. Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), which describes Earth
 surface, i.e., path terrain profile in terms of ground elevation above uniform sea level.
-2. [Clutter](#kw:clutter-classes-grid:geodata-clutter) height layer, delineating buildings and other such objects above Earth surface that may
+2. [Clutter](#kw:clutter-classification-values:ce-express-geodata) height layer, delineating buildings and other such objects above Earth surface that may
 be considered to be principal impediments for radio wave propagation.
-3. [Clutter](#kw:clutter-classes-grid:geodata-clutter) class layer, each pixel+resolution) defines the ID of the clutter class, which the area belongs to. Usually
+3. [Clutter](#kw:clutter-classification-values:ce-express-geodata) class layer, each pixel defines the ID of the clutter class, which the area belongs to. Usually
 derived from land use data. If building heights are included in the clutter height raster, the clutter
 classes raster must have building outlines separated into their own class ID.
 These types of GIS data describing the radio wave propagation path are illustrated in Fig. 1, which shows
-the key propagation effects with corresponding types of [path loss](#ce-express-prediction-models) components: Free Space Loss (FSL),
+the key propagation effects with corresponding types of path loss components: Free Space Loss (FSL),
 losses due to diffraction over terrain protrusions and obstacles, and losses due to clutter penetration.
-Sometimes users may have the Digital Surface Model+buildings) ([DSM](#kw:clutter-heights:geodata-clutter)) elevation data to represent the path profile+radio+link+planning)+link).
+Sometimes users may have the Digital Surface Model (DSM) elevation data to represent the path profile.
 The DSM is usually obtained by air-based scanning of surface of the Earth that cannot distinguish between
 the actual terrain level and the elevation due to buildings, forests, or other types of ground cover. The well
-known and widely available sets of global DSM data include the USGS [SRTM](#kw:global-free-data-sources:geodata-requirements)-1 and [SRTM](#kw:global-free-data-sources:geodata-requirements)-3 as well as
-ASTER. Although a single path profile+radio+link+planning)+link) layer with DSM data could be used to model radio wave propagation,
-the [path loss](#ce-express-prediction-models) model will interpret it as a pure [DTM](#geodata-dem), i.e., as if representing the homogeneous (and
+known and widely available sets of global DSM data include the USGS SRTM-1 and SRTM-3 as well as
+ASTER. Although a single path profile layer with DSM data could be used to model radio wave propagation,
+the path loss model will interpret it as a pure DTM, i.e., as if representing the homogeneous (and
 impenetrable for radio waves) Earth surface. Therefore, the results of calculated path losses, and
 accordingly the forecasted network coverage signal levels, will not be as precise and nuanced as if using
 distinct types of DTM and clutter layers.
@@ -802,17 +802,17 @@ other derivative operational parameters.
 All three layers could be prepared using ArcGIS Pro tools: Projection, Copy Raster and Raster Calculator.
 3.1.2 Geographic data
 Supported geographical data types:
-Only [GeoTIFF](#geodata-dem) is supported.
+Only GeoTIFF is supported.
 Mandatory geographical data:
 Elevation, or Digital Terrain Model (DTM) grid.
 Uploaded rasters have the following requirements:
- Must be in projected coordinate+GIS) system
+ Must be in projected coordinate system
  Coordinate system units must be meters
  All rasters must have the same coordinate system
  Raster resolution in X and Y axis must match
 3.1.2.1 Elevation, or Digital Terrain Model (DTM) Grid (Mandatory)
 The Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), represents the Earth’s
-ground level above sea level. Each raster pixel+resolution) has its height value.
+ground level above sea level. Each raster pixel has its height value.
 A sample DTM raster is presented below. Each pixel represents 5 square meters with its height value. In
 reality, within a one-pixel area, the height is not the same everywhere. Thus, the pixel’s height value is the
 height in its center or the maximum. The smaller the pixels, the more accurate is the grid - but also more
@@ -824,7 +824,7 @@ Confidential Cellular Expert, 2026 Page | 31
 Cellular Expert Express Administrator Guide 7.2
 Prepare DTM raster
 3.1.2.1.1.1 Projection
-The raster must use a Projected Coordinate+GIS) System. To check the coordinate system of your raster, use
+The raster must use a Projected Coordinate System. To check the coordinate system of your raster, use
 the Properties function in ArcGIS Pro. Add the raster to your project, right-click on it, and select Properties.
 Then, go to the Source tab > Spatial Reference and check the Coordinate System type parameter to confirm
 it is in a Projected Coordinate System.
@@ -846,7 +846,7 @@ You can find the appropriate UTM zone for your area here:
 https://www.arcgis.com/apps/mapviewer/index.html?layers=b294795270aa4fb3bd25286bf09edc51
 3.1.2.2 Clutter classes grid
 This raster type provides information about land use. The naming and classification of land use types may
-vary. An example is the [Sentinel-2](#kw:global-free-data-sources:geodata-requirements) Land Cover dataset from the Living Atlas: Living Atlas [Sentinel-2](#kw:global-free-data-sources:geodata-requirements) Land
+vary. An example is the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2 Land
 Cover
 Confidential Cellular Expert, 2026 Page | 34
 
@@ -903,8 +903,8 @@ Confidential Cellular Expert, 2026 Page | 39
 
 Cellular Expert Express Administrator Guide 7.2
 3.1.3 Antennas
-The [Antenna pattern](#kw:antenna-patterns:ce-express-antenna) files in .txt format should be prepared and could be imported into the CE database
-using the CE Express antenna import tool. The CE Express application uses the Planet [antenna pattern](#kw:antenna-patterns:ce-express-antenna)
+The [Antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) files in .txt format should be prepared and could be imported into the CE database
+using the CE Express antenna import tool. The CE Express application uses the Planet [antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna)
 format. This format consists of a header, horizontal and vertical records. Example:
 After import of the antenna, the antenna id could be used in the cells data table.
 Confidential Cellular Expert, 2026 Page | 40
@@ -915,11 +915,11 @@ Cellular Expert Express Administrator Guide 7.2
 
 ## 3.2 Create new workspace in CE Express
 
-To create a new [workspace](#kw:creating-a-workspace:ce-express-workspace) using start CE Express using URL
+To create a new workspace using start CE Express using URL
 http://CE_express_hostname/ceexpressfrontenfolder
 (Example: http://localhost/ceexp )
  Login as user with administrator rights (user provided during setup)
- In the [workspace](#kw:creating-a-workspace:ce-express-workspace) list click “+ new Workspace” button:
+ In the workspace list click “+ new Workspace” button:
  In the window describe the workspace:
 Workspace name: must be the name of a newly created folder.
 Geodata folder path: must be the physical path of the newly created folder.

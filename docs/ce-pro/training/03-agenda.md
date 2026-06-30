@@ -14,12 +14,12 @@ Trainings 13.00-14.00
 
 ---
 
-Exercises for [CE Desktop]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Desktop+[ArcGIS]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+Pro)
+Exercises for [CE Desktop](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Desktop+[ArcGIS](https+TLS+secure+protocol)://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+Pro)
 DAY 1 DAY 2
-1 0. Introduction slides 4. [Cell](https://www.google.com/search?q=mobile+cell+sector+coverage+base+station) Prediction
-2 1. Creating [Workspace](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+workspace+project+geodatabase) 5. Prediction Models
-3 2. [Line of Sight](https://www.google.com/search?q=Line+of+Sight+LOS+radio+propagation) 6. Importing Network
-4 3. Create Objects 7. [Site](https://www.google.com/search?q=cell+site+tower+base+station+location) Positioning
+1 0. Introduction slides 4. Cell Prediction
+2 1. Creating [Workspace](#kw:creating-a-workspace:ce-express-workspace)+platform)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase) 5. Prediction Models
+3 2. [Line of Sight](#ce-express-profile) 6. Importing Network
+4 3. Create Objects 7. Site Positioning
 
 ---
 
@@ -38,8 +38,8 @@ Today
 ➢ Architecture
 ➢ Data requirements
 2. Exercises
-➢ Creating [Workspace](https://www.google.com/search?q=ArcGIS+workspace+project+geodatabase)
-➢ [Line of Sight](https://www.google.com/search?q=Line+of+Sight+[LOS](https://www.google.com/search?q=LOS+Line+of+Sight+radio+propagation)+radio+propagation)
+➢ Creating Workspace
+➢ [Line of Sight](#ce-express-profile)+radio+propagation)
 ➢ Creating Objects
 
 ---

@@ -1,38 +1,38 @@
 # 08. Prediction Models
 
-[Path Loss]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=path+loss+radio+signal+attenuation+[dB](https://www.google.com/search?q=dB+decibel+signal+measurement+unit))
+[Path Loss](https+TLS+secure+protocol)://www.google.com/search?q=path+loss+radio+signal+attenuation+dB)
 𝐹𝑖𝑒𝑙𝑑 𝑆𝑡𝑟𝑒𝑛𝑔ℎ𝑡 = 𝐸𝐼𝑅𝑃 − 𝐴𝑛𝑡𝑒𝑛𝑛𝑎𝐴𝑡𝑡𝑒𝑛𝑢𝑎𝑡𝑖𝑜𝑛 -
 PathLoss
 
 ---
 
 Prediction Models
-- [ITU-R](https://www.google.com/search?q=ITU+R+radio+communication+standard) P.452 (6GHz to 50GHz)
+- [ITU-R](#kw:geoclimatic-data:ce-express-radio-link) P.452 (6GHz to 50GHz)
 - UniMacro (400MHz to 3GHz)
-- CEC [ITU-R](https://www.google.com/search?q=ITU+R+International+Telecommunication+Union+Radio) (100MHz to 6GHz)
-- [LOS](https://www.google.com/search?q=LOS+Line+of+Sight+radio+propagation) [ITU-R](https://www.google.com/search?q=ITU+R+International+Telecommunication+Union+Radio) P.525 (6GHz to 100 [GHz](https://www.google.com/search?q=GHz+gigahertz+frequency+unit))
+- CEC [ITU-R](#kw:geoclimatic-data:ce-express-radio-link) (100MHz to 6GHz)
+- LOS ITU-R P.525 (6GHz to 100 GHz)
 - ITU-R P.368 (10kHz to 30MHz)
 
 ---
 
-CE [Path Loss]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=path+loss+radio+signal+attenuation+[dB](https://www.google.com/search?q=dB+decibel+signal+measurement+unit)) models (10kHz - 100 [GHz](https://www.google.com/search?q=GHz+gigahertz+frequency+unit))
+CE [Path Loss](https+TLS+secure+protocol)://www.google.com/search?q=path+loss+radio+signal+attenuation+dB) models (10kHz - 100 GHz)
 1. CEC ITU-R Model (100MHz – 6GHz) is a combination model intended for use in a variety of different radiocommunication systems which is derived explicitly
-from ITU-R [path loss](https://www.google.com/search?q=path+loss+radio+signal+attenuation) modelling methods as follows:
-a. Receive antenna in [LOS](https://www.google.com/search?q=LOS+Line+of+Sight+radio+propagation) condition – path loss calculated as FSL based on Recommendation ITU-R P.525 (ref URL);
+from ITU-R [path loss](#ce-express-prediction-models) modelling methods as follows:
+a. Receive antenna in LOS condition – [path loss](#ce-express-prediction-models) calculated as FSL based on Recommendation ITU-R P.525 (ref URL);
 b. Receive antenna in OLOS condition – total path loss modelled as a combination of basic FSL calculated based on Recommendation ITU-R P.525 (ref
-URL) and [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio) loss calculated based on Recommendation ITU-R P.2108 (ref URL);
-c. Receive antenna in [NLOS](https://www.google.com/search?q=NLOS+Non+Line+of+Sight+radio+propagation) condition – path loss as a combination of basic FSL calculated based on Recommendation ITU-R P.525 (ref URL), additional
-losses due to [diffraction](https://www.google.com/search?q=radio+diffraction+obstacle+propagation) calculated based on Recommendation ITU-R P.526 (ref URL) and the [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio+planning) losses calculated based on Rec. ITU-R P.2108
+URL) and [clutter](#kw:clutter-classes-grid:geodata-clutter) loss calculated based on Recommendation ITU-R P.2108 (ref URL);
+c. Receive antenna in NLOS condition – path loss as a combination of basic FSL calculated based on Recommendation ITU-R P.525 (ref URL), additional
+losses due to diffraction calculated based on Recommendation ITU-R P.526 (ref URL) and the [clutter](#kw:clutter-classes-grid:geodata-clutter) losses calculated based on Rec. ITU-R P.2108
 (ref URL).
 2. ITU-R P.452 Model (6GHz – 50GHz) is provided as a universally applicable model with very wide frequency range from 0.1-50 GHz. Its implementation is
 based on the methodology described in the Recommendation ITU-R P.452 (ref URL). This model does not provide for definition of OLOS visibility condition;
-instead it considers [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio+planning) as part of general obstacles category and accordingly distinguishes only two radio visibility cases:
+instead it considers clutter as part of general obstacles category and accordingly distinguishes only two radio visibility cases:
 a. Receive antenna in LOS condition – path loss modelled based on FSL principle;
-b. Receive antenna in [NLOS](https://www.google.com/search?q=NLOS+Non+Line+of+Sight+radio+propagation) condition – total path loss modelled using a combination of basic transmission losses and losses due to [diffraction](https://www.google.com/search?q=radio+diffraction+obstacle+propagation).
+b. Receive antenna in NLOS condition – total path loss modelled using a combination of basic transmission losses and losses due to diffraction.
 3. LOS ITU-R P.525 Model (6GHz – 100GHz) is the FSL path loss calculated based on method in Recommendation ITU-R P.525 (ref URL). As such it could be
-used for modelling of radio links where LOS is considered a necessary condition, e.g., for Fixed ([Point-to-Point](https://www.google.com/search?q=point+to+point+radio+link+[microwave](https://www.google.com/search?q=microwave+[backhaul](https://www.google.com/search?q=backhaul+microwave+telecom+network)+radio+link+planning))) Links or Mobile Systems in mmWave bands.
+used for modelling of radio links where LOS is considered a necessary condition, e.g., for Fixed (Point-to-Point+radio+link+planning))) Links or Mobile Systems in mmWave bands.
 4. UniMacro Model (400MHz – 3GHz) is the CE’s proprietary combination model developed over the years of practical experience with the operational planning
-of cellular mobile networks in the frequency ranges from 400-2600 [MHz](https://www.google.com/search?q=MHz+megahertz+frequency+unit). It had been fine tuned to produce coverage predictions that are most closely aligned
+of cellular mobile networks in the frequency ranges from 400-2600 MHz. It had been fine tuned to produce coverage predictions that are most closely aligned
 with what could be expected to be experienced by the actual mobile network users in the field. The model will model different path losses depending on radio
 visibility conditions as follows:
 a. Receive antenna in LOS condition – path loss modelled based on FSL principle;
@@ -49,7 +49,7 @@ Prediction Models. Default
 ---
 
 CEC ITU-R (30MHz – 6GHz)
-- For frequencies from about 30 [MHz](https://www.google.com/search?q=MHz+megahertz+frequency+unit)
+- For frequencies from about 30 MHz
 to about 6 GHz.
 - Modelling:
 - LOS
@@ -60,14 +60,14 @@ Diffraction
 H
 obstacles
 H
-Clutter losses clutter [DSM](https://www.google.com/search?q=DSM+Digital+Surface+Model)
+Clutter losses clutter [DSM](#kw:clutter-heights:geodata-clutter)
 UE
-[DTM](https://www.google.com/search?q=DTM+Digital+Terrain+Model)
+[DTM](#geodata-dem)
 
 ---
 
 Input Data
-- [Elevation](https://www.google.com/search?q=elevation+model+[terrain](https://www.google.com/search?q=terrain+elevation+model+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+topography)+height+datum)
+- Elevation+topography)+height+datum)
 - Clutter classes* Geographic data
 - Clutter height grid*
 - Receiver settings
@@ -80,7 +80,7 @@ Algorithm
 
 Path loss equation
 Path loss in dB:
-Offset coefficient (K ) - Constant offset ([dBm](https://www.google.com/search?q=dBm+decibel+milliwatt+power+unit)). Default value 32
+Offset coefficient (K ) - Constant offset (dBm). Default value 32
 Off
 Distance coefficient (K ) - Distance influence coefficient. Default value 20
 LogD
@@ -98,7 +98,7 @@ l o g F
 
 Path loss equation
 Path loss in dB:
-Offset coefficient (K ) - Constant offset ([dBm](https://www.google.com/search?q=dBm+decibel+milliwatt+power+unit)). Default value 32
+Offset coefficient (K ) - Constant offset (dBm). Default value 32
 Off
 Distance coefficient obstructed (K ) - Distance influence coefficient. Default value 30
 LogD
@@ -117,7 +117,7 @@ l o g F
 Clutter
 - Diffraction loss for solid obstacle:
 - Building clutter class
-- [Elevation](https://www.google.com/search?q=elevation+model+[terrain](https://www.google.com/search?q=terrain+elevation+model+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+topography)+height+datum)
+- Elevation+topography)+height+datum)
 - Clutter loss
 - Based on diffraction calculation
 - P.2108 Clutter Loss
@@ -148,7 +148,7 @@ loss with diffraction as dominant effect
 Penetration loss (Outdoor – Indoor)
 CE Outdoor to Indoor Path Loss calculation is realised based on method
 recommended in 3GPP TR 38.901 (ref URL). This method accounts for
-indoor portion of the total radio [signal propagation](https://www.google.com/search?q=signal+propagation+radio+wave) path as shown in picture:
+indoor portion of the total radio signal propagation path as shown in picture:
 Definition of indoor propagation path in 3GPP TR 38.901
 For general purpose modelling of typical building entry losses, two types of loss profiles are assumed:
 - Low-loss BEL Model assumes a wall penetration losses characteristic of average traditional
@@ -177,9 +177,9 @@ Diffraction
 H
 obstacles
 H
-Clutter losses clutter [DSM](https://www.google.com/search?q=DSM+Digital+Surface+Model+buildings+trees)
+Clutter losses clutter [DSM](#kw:clutter-heights:geodata-clutter)
 UE
-[DTM](https://www.google.com/search?q=DTM+Digital+Terrain+Model+elevation+data)
+[DTM](#geodata-dem)
 
 ---
 
@@ -235,7 +235,7 @@ d d
 Penetration loss (Outdoor – Indoor)
 CE Outdoor to Indoor Path Loss calculation is realised based on method
 recommended in 3GPP TR 38.901 (ref URL). This method accounts for
-indoor portion of the total radio [signal propagation](https://www.google.com/search?q=signal+propagation+radio+wave) path as shown in picture:
+indoor portion of the total radio signal propagation path as shown in picture:
 Definition of indoor propagation path in 3GPP TR 38.901
 For general purpose modelling of typical building entry losses, two types of loss profiles are assumed:
 - Low-loss BEL Model assumes a wall penetration losses characteristic of average traditional
@@ -256,9 +256,9 @@ Diffraction
 H
 obstacles
 H
-Clutter losses clutter [DSM](https://www.google.com/search?q=DSM+Digital+Surface+Model+buildings+trees)
+Clutter losses clutter DSM
 UE
-[DTM](https://www.google.com/search?q=DTM+Digital+Terrain+Model+elevation+data)
+DTM
 
 ---
 
@@ -295,7 +295,7 @@ l o g F
 UniMacro
 - Frequency: ~ 100 MHz - 2 GHz (3 GHz)
 - Distance: up to 100 km
-- 9999 Model ([Ericsson](https://www.google.com/search?q=Ericsson+telecom+network+vendor))
+- 9999 Model (Ericsson)
 Diffraction Free Space Loss
 Diffraction
 H
@@ -320,8 +320,8 @@ Algorithm
 ---
 
 Equation
-- [Line-Of-Sight](https://www.google.com/search?q=line+of+sight+LOS+radio+link) Model Loss
-- 9999 [Ericsson](https://www.google.com/search?q=Ericsson+telecom+network+vendor)
+- Line-Of-Sight Model Loss
+- 9999 Ericsson
 - Single Knife Edge Diffraction
 
 ---
@@ -347,7 +347,7 @@ slope of the curve.
 a Transmitter height influence coefficient. It is related to errors in DTM, real
 Earth curvature, etc. It regulates loss curve vertical position like the a0, but -12.0
 with respect to antenna height
-a [Okumura-Hata](https://www.google.com/search?q=Okumura+Hata+propagation+model) type of multiplying factor for log(h )log(d) 0.1
+a [Okumura-Hata](#ce-express-prediction-models) type of multiplying factor for log(h )log(d) 0.1
 3 B
 
 ---
@@ -456,7 +456,7 @@ m
 
 9999 Ericsson: A3
 - 9999 Model is very convenient for calibration
-- a3 defines slope of the path loss curve for different [base station](https://www.google.com/search?q=base+station+[BTS](https://www.google.com/search?q=BTS+Base+Transceiver+Station+GSM+[2G](https://www.google.com/search?q=2G+GSM+mobile+network+second+generation))+[NodeB](https://www.google.com/search?q=NodeB+[3G](https://www.google.com/search?q=3G+UMTS+HSPA+mobile+network)+[UMTS](https://www.google.com/search?q=UMTS+[3G](https://www.google.com/search?q=3G+UMTS+HSPA+mobile+network)+Universal+Mobile+Telecommunications)+base+station)+[eNodeB](https://www.google.com/search?q=eNodeB+[LTE](https://www.google.com/search?q=LTE+Long+Term+Evolution+[4G](https://www.google.com/search?q=4G+LTE+mobile+network+technology)+mobile)+[4G](https://www.google.com/search?q=4G+LTE+mobile+network+technology)+base+station)+[gNodeB](https://www.google.com/search?q=gNodeB+[5G](https://www.google.com/search?q=5G+fifth+generation+mobile+network)+NR+base+station))
+- a3 defines slope of the path loss curve for different base station)+NodeB+UMTS+Universal+Mobile+Telecommunications)+base+station)+eNodeB+mobile)+4G+base+station)+gNodeB+NR+base+station))
 antenna heights
 Path Loss,
 A3 = -0.5

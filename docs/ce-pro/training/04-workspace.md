@@ -1,12 +1,12 @@
 # 04. Creating Workspace
 
-Cellular Expert for [ArcGIS Pro](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+Pro+Esri+desktop+software) project
+Cellular Expert for [ArcGIS Pro](#ce-pro-rcp)+platform)+Pro+Esri+desktop+software) project
 
 ---
 
 CE Tools
-- [Workspace]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=[ArcGIS]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+workspace+project+geodatabase) is not added
-- [Workspace](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+workspace+project+geodatabase) is added
+- [Workspace](https+TLS+secure+protocol)://www.google.com/search?q=[ArcGIS](https+TLS+secure+protocol)://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase) is not added
+- [Workspace](#kw:creating-a-workspace:ce-express-workspace)+platform)+workspace+project+geodatabase) is added
 - Workspace is added, but Geodata is missing
 
 ---
@@ -14,7 +14,7 @@ CE Tools
 Create Workspace
 - New workspace path
 - Geodata folder path
-- [Projected coordinate](https://www.google.com/search?q=projected+coordinate+system+[UTM](https://www.google.com/search?q=UTM+Universal+Transverse+Mercator+projection)+GIS) system
+- Projected coordinate+GIS) system
 - Also create Local Scene
 
 ---
@@ -31,11 +31,11 @@ Cellular Expert Project Structure
 ---
 
 Cellular Expert Dataset
-- [Cell](https://www.google.com/search?q=mobile+cell+sector+coverage+base+station)
-- [Site](https://www.google.com/search?q=cell+site+tower+base+station+location)
+- Cell
+- Site
 - Radar
-- [Repeater](https://www.google.com/search?q=radio+repeater+signal+booster+telecom)
-- [CPE](https://www.google.com/search?q=CPE+Customer+Premises+Equipment+wireless)
+- Repeater
+- CPE
 - OMEN
 - Link
 

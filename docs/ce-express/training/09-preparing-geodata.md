@@ -9,7 +9,7 @@ By the end of this exercise, participants will be able to:
 - Understand which geodata layers are mandatory and optional for CE Express
 - Prepare a Digital Terrain Model (DTM) raster suitable for predictions
 - Mosaic, project, and standardize raster datasets in ArcGIS Pro
-- Prepare clutter class and clutter height rasters aligned with the DTM
+- Prepare [clutter](#kw:clutter-classification-values:ce-express-geodata) class and [clutter](#kw:clutter-classification-values:ce-express-geodata) height rasters aligned with the DTM
 - Export final rasters with correct naming, resolution, extent, and data type
 2. Required and Optional Geodata Layers
 Mandatory. Digital terrain model (DTM) grid
@@ -22,7 +22,7 @@ The raster name must be elevation.tif
 
 ---
 
-Optional. Clutter height grid
+Optional. [Clutter](#kw:clutter-classification-values:ce-express-geodata) height grid
 The Obstacle height (building, vegetation, etc) grid represents the objects on the ground
 with their height above the DTM grid. The raster name must be clutterHeight.tif
 Optional. Clutter class grid
@@ -46,7 +46,7 @@ The clutter must be named clutterClasses.tif.
 
 1. Navigate to:
 C:\CE_Course\PreparingGeodata\Project
-2. Open the ArcGIS Pro project file:
+2. Open the [ArcGIS Pro project](#kw:31-step-1-opening-the-arcgis-pro-project:none) file:
 Project.aprx
 This project contains predefined folder structures and basemaps used throughout the
 exercise.
@@ -85,27 +85,27 @@ data can be correctly interpreted and used by CE. Prediction engines require all
 
 ---
 
-be in a projected coordinate system so that distances, angles, and areas are calculated
+be in a [projected coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) system so that distances, angles, and areas are calculated
 accurately.
 Raster datasets provided in geographic coordinate systems (latitude/longitude) are not
 suitable for prediction calculations without reprojection, because their units are angular rather
 than linear.
 3.3.1 Selecting the Correct Coordinate System
-Before projecting, determine the most appropriate projected coordinate system:
+Before projecting, determine the most appropriate [projected coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) system:
 - Local / National grid systems are preferred when available (e.g. LKS 1994
 Lithuania TM)
-- WGS 1984 UTM zones are suitable when national systems are not available
-When using UTM:
+- WGS 1984 [UTM](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) zones are suitable when national systems are not available
+When using [UTM](#kw:what-is-a-projected-crs:ce-express-geodata):
 - Select the zone covering the majority of the study area
-- Avoid splitting datasets across multiple UTM zones
+- Avoid splitting datasets across multiple [UTM](#kw:what-is-a-projected-crs:ce-express-geodata) zones
 Which zone should be used can be checked https://hub.arcgis.com/datasets/esri::world-utm-grid/explore
 Consistency across all geodata layers is mandatory.
 
 ---
 
-3.3.2 Running the Project Raster Tool
+3.3.2 Running the [Project Raster](#kw:33-project-raster:none) Tool
 1. Open Geoprocessing from the View tab.
-2. Search for Project Raster.
+2. Search for [Project Raster](#kw:33-project-raster:none).
 Configure the tool as follows:
 - Input raster: DTM_WGS.tif
 - Output Raster Dataset:
@@ -124,14 +124,14 @@ Define:
 - Input raster: projected DTM
 - Output raster: elevation.tif
 - Pixel Type: 16-bit signed, 32-bit signed, or 32-bit float
-- NoData value: -9999
+- [NoData](#kw:check-and-set-nodata-value:ce-express-geodata) value: -9999
 3. Click Run.
 4. Remove all other layers except:
 - elevation.tif
 
 ---
 
-- Topographic basemap
+- Topographic [basemap](#kw:37-step-7-basemap-configuration:ce-express-tr-workspace)
 The DTM is now ready for CE Express.
 
 ## 3.4 Step 3 – Preparing Clutter Class Raster
@@ -154,14 +154,14 @@ C:\CE_Course\PreparingGeodata\Initial\Clutter
 
 4. Click OK.
 This raster covers a much larger area than the DTM.
-3.4.2 Projecting and Clipping Clutter Classes
+3.4.2 Projecting and Clipping [Clutter Classes](#kw:clutter-classification-values:ce-express-geodata)
 Clutter class rasters must match the DTM in all spatial aspects. Any mismatch can lead to
-incorrect obstruction modeling and unstable prediction results.
+incorrect obstruction modeling and unstable [prediction results](#kw:viewing-results:ce-express-rf-prediction).
 Proper projection and clipping ensures:
 - Correct spatial alignment between terrain and clutter
 - One-to-one pixel correspondence across rasters
 - Consistent distance and area calculations
-- Reliable application of clutter loss models
+- Reliable application of clutter loss [models](#kw:31-models:ce-express-tr-models)
 3.4.3 Reprojecting the Clutter Class Raster
 1. Open Geoprocessing in ArcGIS Pro.
 2. Search for Project Raster.
@@ -189,7 +189,7 @@ Press Run.
 2. Configure:
 - Output name: clutterClasses.tif
 - Pixel Type: 32-bit signed integer
-- NoData value: -9999
+- [NoData](#kw:check-and-set-nodata-value:ce-express-geodata) value: -9999
 3. Click Run.
 4. Remove all intermediate clutter rasters from the map.
 The clutter class raster is now fully prepared and compliant with CE requirements.

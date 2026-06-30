@@ -3,7 +3,7 @@
 1. Objective
 This tutorial will show you how to add new MW links, manage and do predictions.
 At the end of the exercise you will be able to:
-- Create and [import]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=data+import+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+network+objects+[CSV](https://www.google.com/search?q=CSV+comma+separated+values+file+format)) MW equipment.
+- Create and [import](https+TLS+secure+protocol)://www.google.com/search?q=data+import+GIS+network+objects+CSV) MW equipment.
 - Create MW links in the project.
 - Do MW Predictions.
 2. Initial data
@@ -13,19 +13,19 @@ Prepared project with:
 3. Manage MW equipment
 Navigate to C:\CE_Course\MW_Equipment\Project and run Project.aprx file to open the
 prepared project for RL Introduction exercise.
-[Microwave]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=microwave+[backhaul](https://www.google.com/search?q=backhaul+microwave+telecom+network)+radio+link+planning) links involve additional equipment settings compared to point-to-area predictions.
+[Microwave](https+TLS+secure+protocol)://www.google.com/search?q=microwave+backhaul+radio+link+planning) links involve additional equipment settings compared to point-to-area predictions.
 These settings include frequency plans, radio equipment, and parabolic antennas, which are
-used for predicting power budget, [interference](https://www.google.com/search?q=radio+interference+co+channel+adjacent), or [availability](https://www.google.com/search?q=link+availability+percentage+[microwave](https://www.google.com/search?q=microwave+[backhaul](https://www.google.com/search?q=backhaul+microwave+telecom+network)+radio+link+planning)+ITU). In this section, we will cover
-how to create and, if necessary, [import](https://www.google.com/search?q=data+import+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+network+objects+[CSV](https://www.google.com/search?q=CSV+comma+separated+values+file+format)) this data into the project.
+used for predicting power budget, interference, or availability+radio+link+planning)+ITU). In this section, we will cover
+how to create and, if necessary, import+network+objects+CSV) this data into the project.
 
 ## 3.1 Parabolic antennas
 
-Open Antenna Viewer in CE RLP tab, and change antenna type from [Sector](https://www.google.com/search?q=[cell](https://www.google.com/search?q=mobile+cell+sector+coverage+base+station)+sector+antenna+coverage+area) to Parabolic.
+Open Antenna Viewer in CE RLP tab, and change antenna type from Sector+sector+antenna+coverage+area) to Parabolic.
 All parabolic antennas will be displayed.
 
 ---
 
-Close Antenna Viewer tool. To import a new parabolic antenna, open Import/[Export](https://www.google.com/search?q=data+export+GIS+raster+vector) Antenna
+Close Antenna Viewer tool. To import a new parabolic antenna, open Import/Export Antenna
 Files tool. Parabolic antenna import supports:
 - Andrew format:
 - NSMA format:
@@ -35,7 +35,7 @@ Files tool. Parabolic antenna import supports:
 Select Parabolic (NSMA Format).
 Click on Select Antenna Model Files
 Browse to C:\CE_Course\RL_Prediction\Equipment\Antennas, select Antenna10GHz.txt file
-and press OK button. It will appear in Import/[Export](https://www.google.com/search?q=data+export+GIS+raster+vector) Antenna Files dialog.
+and press OK button. It will appear in Import/Export Antenna Files dialog.
 Select Check box near the antenna and press Import Antennas button.
 
 ---
@@ -54,9 +54,9 @@ Close Antenna Viewer and Import tools.
 ## 3.2 Radios
 
 This equipment category encompasses details about radio transceivers utilized in microwave
-links. It comprises information on transmitter power, receiver [sensitivity](https://www.google.com/search?q=receiver+sensitivity+[dBm](https://www.google.com/search?q=dBm+decibel+milliwatt+power+unit)+radio), [noise figure](https://www.google.com/search?q=noise+figure+receiver+[sensitivity](https://www.google.com/search?q=receiver+sensitivity+[dBm](https://www.google.com/search?q=dBm+decibel+milliwatt+power+unit)+radio)+[dB](https://www.google.com/search?q=dB+decibel+signal+measurement+unit)),
-nonlinearity characteristics, and maximum data [capacity](https://www.google.com/search?q=network+capacity+planning+telecom).
-Open Radios tool in CE RLP tab and preview available Radio within default CE [workspace](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+workspace+project+geodatabase).
+links. It comprises information on transmitter power, receiver sensitivity+radio), noise figure+radio)+dB),
+nonlinearity characteristics, and maximum data capacity.
+Open Radios tool in CE RLP tab and preview available Radio within default CE [workspace](#kw:creating-a-workspace:ce-express-workspace)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase).
 
 ---
 
@@ -68,18 +68,18 @@ Define the same parameters as defined below:
 
 ---
 
-- Frequency From, [MHz](https://www.google.com/search?q=MHz+megahertz+frequency+unit): 9500
-- Frequency To, [MHz](https://www.google.com/search?q=MHz+megahertz+frequency+unit): 10500
-- [Bandwidth](https://www.google.com/search?q=channel+bandwidth+radio+frequency+MHz), MHz: 10
+- Frequency From, MHz: 9500
+- Frequency To, MHz: 10500
+- Bandwidth, MHz: 10
 - MTBF, h: 300000
 - MTTR, h: 24
 - Bit Rate, kbps: 2048
 - Block Size, bits: 2048
 - Burst Errors: 1
-- Dispersive [Fade Margin](https://www.google.com/search?q=fade+margin+link+budget+microwave+[dB](https://www.google.com/search?q=dB+decibel+signal+measurement+unit)), dB: 50
+- Dispersive [Fade Margin](#ce-express-radio-link)), dB: 50
 - BER 10-3 Threshold, dBm: -76
 - BER 10-6 Threshold, dBm: -72
-- [Noise Figure](https://www.google.com/search?q=noise+figure+receiver+sensitivity+dB), dB: 5
+- Noise Figure, dB: 5
 - Residual BER: 1E-12
 - IIP2, dBm: 30
 - IIP3, dBm: 29
@@ -111,8 +111,8 @@ Close Radio tool.
 
 ## 3.3 Frequency plans
 
-Frequency planning is important for microwave link design, optimizing [spectrum](https://www.google.com/search?q=radio+frequency+spectrum+allocation+telecom) use, and
-preventing [interference](https://www.google.com/search?q=radio+interference+co+channel+adjacent). By strategically allocating frequency bands, it enhances efficiency,
+Frequency planning is important for microwave link design, optimizing spectrum use, and
+preventing interference. By strategically allocating frequency bands, it enhances efficiency,
 complies with regulations, and coordinates with other services. This planning considers
 propagation characteristics and facilitates scalability, ensuring optimal performance for
 microwave links in various environments and supporting future technology upgrades.

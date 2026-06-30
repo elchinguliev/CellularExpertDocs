@@ -1,33 +1,33 @@
 # 09. Preparing Geodata
 
 1. Objective
-This module explains how to prepare topographical and land-use geodata in [ArcGIS Pro](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+Pro+Esri+desktop+software) so
-it can be correctly used for predictions in [CE Express]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) or [CE Desktop]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Desktop+[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+Pro) for [ArcGIS Pro](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+Pro+Esri+desktop+software). The
+This module explains how to prepare topographical and land-use geodata in [ArcGIS Pro](#ce-pro-rcp)+platform)+Pro+Esri+desktop+software) so
+it can be correctly used for predictions in [CE Express](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) or [CE Desktop](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Desktop+ArcGIS+platform)+Pro) for [ArcGIS Pro](#ce-pro-rcp)+platform)+Pro+Esri+desktop+software). The
 focus is on producing rasters that are geometrically correct, consistently referenced, and
 compliant with CE input requirements.
 By the end of this exercise, participants will be able to:
-- Understand which geodata layers are mandatory and optional for [CE Express](https://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform)
-- Prepare a [Digital [Terrain](https://www.google.com/search?q=terrain+elevation+model+GIS+topography) Model](https://www.google.com/search?q=Digital+[Terrain](https://www.google.com/search?q=terrain+elevation+model+GIS+topography)+Model+[DTM](https://www.google.com/search?q=DTM+Digital+Terrain+Model+elevation+data)+bare+earth) ([DTM](https://www.google.com/search?q=DTM+Digital+Terrain+Model)) [raster](https://www.google.com/search?q=raster+GIS+grid+data+format) suitable for predictions
-- Mosaic, project, and standardize [raster](https://www.google.com/search?q=raster+GIS+grid+data+format) datasets in [ArcGIS Pro](https://www.google.com/search?q=ArcGIS+Pro+Esri+desktop+software)
-- Prepare [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio) class and [clutter](https://www.google.com/search?q=clutter+land+use+classification+radio+planning) height rasters aligned with the [DTM](https://www.google.com/search?q=DTM+Digital+Terrain+Model+elevation+data)
-- [Export](https://www.google.com/search?q=data+export+GIS+raster+vector) final rasters with correct naming, [resolution](https://www.google.com/search?q=spatial+resolution+raster+GIS+accuracy), extent, and data type
+- Understand which geodata layers are mandatory and optional for [CE Express](#ce-express-overview)
+- Prepare a Digital [Terrain Model](https://www.google.com/search?q=Digital+Terrain+Model+DTM+bare+earth) ([DTM](#geodata-dem)) raster suitable for predictions
+- Mosaic, project, and standardize raster datasets in ArcGIS Pro
+- Prepare [clutter](#kw:clutter-classes-grid:geodata-clutter) class and [clutter](#kw:clutter-classes-grid:geodata-clutter) height rasters aligned with the [DTM](#geodata-dem)
+- Export final rasters with correct naming, resolution, extent, and data type
 2. Required and Optional Geodata Layers
-Mandatory. [Digital terrain model](https://www.google.com/search?q=Digital+Terrain+Model+DTM+bare+earth) (DTM) grid
+Mandatory. Digital terrain model (DTM) grid
 The Digital Terrain Model (DTM) represents the Earth’s ground level above sea level. Each
-raster [pixel](https://www.google.com/search?q=pixel+raster+grid+[cell](https://www.google.com/search?q=mobile+cell+sector+coverage+base+station)+resolution) has its height value. Freely available data can be download from:
+raster pixel+resolution) has its height value. Freely available data can be download from:
 https://search.earthdata.nasa.gov/search/granules?p=C1711961296-LPCLOUD&pg[0][v]=f&pg[0][gsk]=-start_date&g=G1726517680-
-LPCLOUD&q=[aster](https://www.google.com/search?q=ASTER+[DEM](https://www.google.com/search?q=DEM+Digital+Elevation+Model+terrain+raster)+NASA+global+elevation+model)&lat=54.10244930917067&long=26.561757102638634&zoom=6.73700
+LPCLOUD&q=aster+NASA+global+elevation+model)&lat=54.10244930917067&long=26.561757102638634&zoom=6.73700
 5077561119
-The raster name must be [elevation](https://www.google.com/search?q=elevation+model+terrain+height+datum).tif
+The raster name must be elevation.tif
 
 ---
 
-Optional. [Clutter](https://www.google.com/search?q=clutter+land+use+classification+radio+planning) height grid
+Optional. Clutter height grid
 The Obstacle height (building, vegetation, etc) grid represents the objects on the ground
 with their height above the DTM grid. The raster name must be clutterHeight.tif
 Optional. Clutter class grid
-A Clutter class grid represents [land use](https://www.google.com/search?q=land+use+land+cover+classification+GIS) types. The data can be downloaded from here:
-Livingatlas ArcGIS [Sentinel-2](https://www.google.com/search?q=Sentinel+2+ESA+satellite+land+cover) [Land Use](https://www.google.com/search?q=land+use+land+cover+classification+GIS)
+A Clutter class grid represents land use types. The data can be downloaded from here:
+Livingatlas ArcGIS [Sentinel-2](#kw:global-free-data-sources:geodata-requirements) Land Use
 
 ---
 
@@ -69,14 +69,14 @@ These files represent adjacent DTM tiles and must be merged into a single raster
 1. Open Geoprocessing from the View tab.
 2. In Find Tools, search for Mosaic to New Raster.
 3. Configure the tool as shown in the training reference:
-- Input Rasters: both [ASTER](https://www.google.com/search?q=ASTER+[DEM](https://www.google.com/search?q=DEM+Digital+Elevation+Model+terrain+raster)+NASA+global+elevation+model) tiles
+- Input Rasters: both ASTER+NASA+global+elevation+model) tiles
 - Output location: calculation directory
 - Output raster name: temporary DTM
 
 ---
 
 4. Click Run.
-This creates a single continuous [elevation](https://www.google.com/search?q=elevation+model+terrain+height+datum) raster.
+This creates a single continuous elevation raster.
 
 ## 3.3 Project raster
 
@@ -85,16 +85,16 @@ data can be correctly interpreted and used by CE. Prediction engines require all
 
 ---
 
-be in a [projected coordinate](https://www.google.com/search?q=projected+coordinate+system+[UTM](https://www.google.com/search?q=UTM+Universal+Transverse+Mercator+projection)+GIS) system so that distances, angles, and areas are calculated
+be in a projected coordinate+GIS) system so that distances, angles, and areas are calculated
 accurately.
-Raster datasets provided in [geographic coordinate](https://www.google.com/search?q=geographic+coordinate+system+latitude+longitude) systems (latitude/longitude) are not
+Raster datasets provided in geographic coordinate systems (latitude/longitude) are not
 suitable for prediction calculations without reprojection, because their units are angular rather
 than linear.
-3.3.1 Selecting the Correct [Coordinate System](https://www.google.com/search?q=coordinate+reference+system+CRS+GIS)
-Before projecting, determine the most appropriate [projected coordinate](https://www.google.com/search?q=projected+coordinate+system+[UTM](https://www.google.com/search?q=UTM+Universal+Transverse+Mercator+projection)+GIS) system:
+3.3.1 Selecting the Correct Coordinate System
+Before projecting, determine the most appropriate projected coordinate+GIS) system:
 - Local / National grid systems are preferred when available (e.g. LKS 1994
 Lithuania TM)
-- WGS 1984 [UTM](https://www.google.com/search?q=UTM+Universal+Transverse+Mercator) zones are suitable when national systems are not available
+- WGS 1984 UTM zones are suitable when national systems are not available
 When using UTM:
 - Select the zone covering the majority of the study area
 - Avoid splitting datasets across multiple UTM zones
@@ -111,7 +111,7 @@ Configure the tool as follows:
 - Output Raster Dataset:
 C:\CE_Course\PreparingGeodata\Initial\Calculations\DTM_UTM.tif
 - LKS_1994_Lithuania_TM
-- [Cell](https://www.google.com/search?q=mobile+cell+sector+coverage+base+station) size:
+- Cell size:
 o X: 25
 o Y: 25
 
@@ -123,8 +123,8 @@ Run calculations.
 Define:
 - Input raster: projected DTM
 - Output raster: elevation.tif
-- [Pixel](https://www.google.com/search?q=pixel+raster+grid+cell+resolution) Type: 16-bit signed, 32-bit signed, or 32-bit float
-- [NoData](https://www.google.com/search?q=NoData+raster+value+GIS+missing+data) value: -9999
+- Pixel Type: 16-bit signed, 32-bit signed, or 32-bit float
+- NoData value: -9999
 3. Click Run.
 4. Remove all other layers except:
 - elevation.tif
@@ -132,7 +132,7 @@ Define:
 ---
 
 - Topographic basemap
-The DTM is now ready for CE Express.
+The DTM is now ready for [CE Express](#ce-express-overview).
 
 ## 3.4 Step 3 – Preparing Clutter Class Raster
 
@@ -157,7 +157,7 @@ This raster covers a much larger area than the DTM.
 3.4.2 Projecting and Clipping Clutter Classes
 Clutter class rasters must match the DTM in all spatial aspects. Any mismatch can lead to
 incorrect obstruction modeling and unstable prediction results.
-Proper [projection](https://www.google.com/search?q=map+projection+coordinate+system+GIS) and clipping ensures:
+Proper projection and clipping ensures:
 - Correct spatial alignment between terrain and clutter
 - One-to-one pixel correspondence across rasters
 - Consistent distance and area calculations
@@ -168,7 +168,7 @@ Proper [projection](https://www.google.com/search?q=map+projection+coordinate+sy
 Configure the tool as follows:
 - Input Raster: Original clutter class dataset
 - Output Raster: C:\CE_Course\PreparingGeodata\Initial\Calculations\clutter_UTM.tif
-- Output [Coordinate System](https://www.google.com/search?q=coordinate+reference+system+CRS+GIS): Same projected system used for elevation.tif
+- Output Coordinate System: Same projected system used for elevation.tif
 
 ---
 
@@ -189,7 +189,7 @@ Press Run.
 2. Configure:
 - Output name: clutterClasses.tif
 - Pixel Type: 32-bit signed integer
-- [NoData](https://www.google.com/search?q=NoData+raster+value+GIS+missing+data) value: -9999
+- NoData value: -9999
 3. Click Run.
 4. Remove all intermediate clutter rasters from the map.
 The clutter class raster is now fully prepared and compliant with CE requirements.

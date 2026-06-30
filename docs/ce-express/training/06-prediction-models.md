@@ -1,17 +1,17 @@
 # 06. Prediction Models
 
 1. Objective
-This module explains how prediction models are used in CE Express, how different models
+This module explains how prediction [models](#kw:31-models:none) are used in CE Express, how different [models](#kw:31-models:none)
 influence calculation results, and how model parameters can be adjusted to reflect different
 environments and scenarios. The exercise focuses on understanding model behavior,
-comparing results, and creating custom model configurations.
+[comparing results](#kw:52-step-4-running-predictions-and-comparing-results:none), and creating custom model configurations.
 By the end of this exercise, participants will be able to:
 - Understand how CE Express evaluates radio visibility conditions
 - Work with different prediction models and their configurations
 - Change prediction models at the cell level
 - Modify key model parameters and observe their impact
-- Create and manage custom prediction model configurations
-- Compare prediction results generated using different models
+- Create and manage [custom prediction model](#kw:55-step-7-creating-applying-and-evaluating-a-custom-prediction-model-configuration:none) configurations
+- [Compare](#kw:98-compare-predictions:ce-pro-rcp) [prediction results](#kw:viewing-results:ce-express-rf-prediction) generated using different models
 2. Understanding Prediction Models in CE Express
 Prediction models define how signal propagation losses are calculated across the coverage
 area. Instead of applying a single formula everywhere, CE Express evaluates the radio
@@ -30,8 +30,8 @@ vis-à-vis a receiver antenna located at a given point in coverage area. The rad
 evaluated based on the DTM, Obstacles and [Clutter](#kw:clutter-classification-values:ce-express-geodata) path profile information, as described in
 previous section. This verification of radio visibility will result in the receiver antenna point
 assigned into one of three possible radio visibility conditions:
-- Line-of-Sight (LOS) – occurs when there are neither terrain irregularities, obstacles or
-clutter interposing the direct radio path between the transmitter and receiver antennas.
+- [Line-of-Sight](#kw:running-a-profile:ce-express-profile) (LOS) – occurs when there are neither terrain irregularities, obstacles or
+[clutter](#kw:clutter-classification-values:ce-express-geodata) interposing the direct radio path between the transmitter and receiver antennas.
 The radio path is understood to include the 1st [Fresnel zone](#kw:fresnel-zone-clearance:ce-express-profile) around the direct line and
 account for Spherical Earth effect. The LOS condition is illustrated by the path profile
 depicted in Fig. 1(a).
@@ -93,7 +93,7 @@ transmission losses and losses due to diffraction.
 LOS ITU-R P.525 Model (6GHz – 100GHz) is the FSL path loss calculated based on the method in
 Recommendation ITU-R P.525 (ref URL). As such it could be used for modelling radio links where
 LOS is considered a necessary condition, e.g., for Fixed (Point-to-Point) Links or Mobile Systems
-in mmWave bands.
+in [mmWave](#kw:56-step-8-losonly-prediction-for-mmwave:none) bands.
 UniMacro Model (400MHz – 3GHz) is the CE’s proprietary combination model developed over the
 years of practical experience with the operational planning of cellular mobile networks in the
 frequency ranges from 400-3000 MHz. It had been fine-tuned to produce coverage predictions that
@@ -166,7 +166,7 @@ Repeat this process for NBa 02 and NBa 03.
 ## 5.2 Step 4 – Running Predictions and Comparing Results
 
 Once prediction models are correctly assigned to cells, the next step is to run RF predictions
-and systematically compare the results. This step transforms model configuration into visual
+and systematically [compare](#kw:98-compare-predictions:ce-pro-rcp) the results. This step transforms model configuration into visual
 outputs and allows users to understand how different models and parameters influence
 calculated results.
 Running predictions is not only about generating maps, it is about ensuring that results are
@@ -177,14 +177,14 @@ produced in a controlled, repeatable manner so meaningful comparisons can be mad
 below.
 3. Click Calculate to start the prediction.
 A calculation task is created and executed in the background.
-5.2.2 Loading Prediction Results
-1. Once the calculation is complete, open Prediction History.
+5.2.2 Loading [Prediction Results](#kw:viewing-results:ce-express-rf-prediction)
+1. Once the calculation is complete, open [Prediction History](#kw:44-step-4-prediction-history-and-result-management:ce-express-tr-rf).
 2. Locate the most recent prediction task.
 3. Open 5G 3500 Field Strength 1, dBm.
 
 ---
 
-The prediction raster is loaded on the map and listed under Prediction Results in the
+The prediction raster is loaded on the map and listed under [Prediction Results](#kw:viewing-results:ce-express-rf-prediction) in the
 Layers panel.
 5.2.3 Establishing a Baseline Result
 The first prediction result acts as a baseline.
@@ -204,13 +204,13 @@ Now, we have two layers loaded to Prediction results.
 
 ---
 
-Compare them visually. Then open Identify tool and click on the map.
+Compare them visually. Then open [Identify tool](#kw:310-step-10-using-the-identify-tool:ce-express-tr-workspace) and click on the map.
 Field Strength for second prediction is higher by 13 (because we defined lower Offset
 Coefficient value by 13).
 Now change Distance coefficient value from 20 to 30.
 Press Accept and RF run predictions again. After successful calculation, open 5G 3500
 Field Strength 1, dBm prediction results.
-Compare the predictions using Identify tool.
+Compare the predictions using [Identify tool](#kw:310-step-10-using-the-identify-tool:ce-express-tr-workspace).
 
 ## 5.4 Step 6 – Understanding Building Clutter Parameters
 
@@ -248,7 +248,7 @@ in reduced diffraction loss, while higher values increase it. Typically, this co
 higher for buildings compared to forests or other clutter types.ltiplier for diffraction
 calculations. If value is lower, diffraction will be lower, if higher – then diffraction will be
 higher. Usually, for buildings clutter class this parameter is higher then forest or other
-clutter classes.
+[clutter classes](#kw:clutter-classification-values:ce-express-geodata).
 - Enclosed receiver loss offset, dB – the initial entry loss into the clutter class, expressed
 as an offset in dB, which is added to the path loss grid.
 - Enclosed receiver loss scaling coefficient – represents additional signal loss as a function
@@ -272,7 +272,7 @@ These changes confirm the role of building clutter parameters in shaping predict
 
 ## 5.5 Step 7 – Creating, Applying, and Evaluating a Custom Prediction Model Configuration
 
-Creating a custom prediction model configuration allows users to tailor propagation behavior
+Creating a [custom prediction model](#kw:55-step-7-creating-applying-and-evaluating-a-custom-prediction-model-configuration:none) configuration allows users to tailor propagation behavior
 to a specific scenario, environment, or analysis objective. This step combines model creation,
 model assignment, and result evaluation into a single, coherent workflow.
 Instead of modifying standard models directly, custom configurations preserve original
@@ -313,7 +313,7 @@ Once all parameters are defined, click Accept to save the configuration.
 5.5.4 Running Predictions with the Custom Model
 1. Open the RF Prediction tool.
 2. Run predictions for the selected cells.
-3. Open the resulting Field Strength output from Prediction History.
+3. Open the resulting Field Strength output from [Prediction History](#kw:44-step-4-prediction-history-and-result-management:ce-express-tr-rf).
 
 ---
 
@@ -321,9 +321,9 @@ Close all prediction results in Layers tool.
 
 ## 5.6 Step 8 – LOS-Only Prediction for mmWave
 
-High-frequency systems, particularly in the millimeter-wave (mmWave) range, behave very
+High-frequency systems, particularly in the millimeter-wave ([mmWave](#kw:56-step-8-losonly-prediction-for-mmwave:none)) range, behave very
 differently from lower-frequency deployments. At these frequencies, signal propagation is
-highly dependent on clear Line of Sight (LOS), and even small obstructions can completely
+highly dependent on clear [Line of Sight](#kw:running-a-profile:ce-express-profile) (LOS), and even small obstructions can completely
 block connectivity.
 This step demonstrates how to use LOS-only prediction models in CE Express to accurately
 represent these conditions.

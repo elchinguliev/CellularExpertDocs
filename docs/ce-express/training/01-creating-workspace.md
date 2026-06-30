@@ -19,7 +19,7 @@ Trainer note: Emphasize that workspace quality directly affects prediction accur
 visualization clarity, and collaboration efficiency.
 3. Understanding the Workspace Concept
 A Workspace in CE Express represents a project container that holds:
-- Network objects (sites, cells, links, etc.)
+- [Network objects](#kw:object-types:ce-express-network-objects) (sites, cells, links, etc.)
 - Geodata used for propagation modeling
 - Additional visualization layers (GIS, 3D meshes, administrative boundaries)
 Workspaces can be:
@@ -94,7 +94,7 @@ The map zooms to the workspace area. Blue contours indicate the workspace extent
 Open the Layers tool. It is divided into logical sections:
 1. Preview available layers.
 1. Features
-- Displays all network objects
+- Displays all [network objects](#kw:object-types:ce-express-network-objects)
 - Includes sites, cells, links, and other RF elements
 2. Geodata
 - Terrain, [clutter](#kw:clutter-classification-values:ce-express-geodata), and elevation data
@@ -128,9 +128,9 @@ You can also visualize 3D objects, such as polygons, lines and zones.
 
 ## 3.7 Step 7 – Basemap Configuration
 
-1. Expand the Basemap options in Layers tool.
+1. Expand the [Basemap](#kw:37-step-7-basemap-configuration:none) options in Layers tool.
 2. Review available ESRI basemaps.
-3. Enable each basemap briefly to understand differences.
+3. Enable each [basemap](#kw:37-step-7-basemap-configuration:none) briefly to understand differences.
 4. Leave Topographic basemap enabled.
 
 ## 3.8 Step 8 – Enabling and Reviewing Geodata
@@ -142,7 +142,7 @@ You can also visualize 3D objects, such as polygons, lines and zones.
 This layer:
 - Visualizes terrain height
 - Helps quickly identify hills, valleys, and potential shadowing areas
-2. Review Clutter height and Clutter classes layers.
+2. Review [Clutter](#kw:clutter-classification-values:ce-express-geodata) height and [Clutter classes](#kw:clutter-classification-values:ce-express-geodata) layers.
 3. If Geodata Is Not Visible
 1. Open Settings.
 2. Enable Load geodata when opening workspace.
@@ -170,12 +170,12 @@ Add the following service:
 
 ## 3.10 Step 10 – Using the Identify Tool
 
-1. Open the Identify tool.
+1. Open the [Identify tool](#kw:310-step-10-using-the-identify-tool:none).
 2. Click on one of the address points.
 3. Review the popup information.
 4. Summary and Key Takeaways
 - A well-configured workspace is the foundation of reliable RF planning
-- Layer management improves clarity and performance
+- [Layer management](#kw:35-step-5-layer-management-overview:none) improves clarity and performance
 - 3D visualization enhances understanding of real-world propagation challenges
 
 ---

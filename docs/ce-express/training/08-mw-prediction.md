@@ -8,9 +8,9 @@ At the end of the exercise you will be able to:
 - Do MW Predictions.
 2. Initial data
 Prepared project with:
-- Network objects.
+- [Network objects](#kw:object-types:ce-express-network-objects).
 - Geodata.
-- Equipment and models.
+- Equipment and [models](#kw:31-models:ce-express-tr-models).
 3. Add Links
 The link objects can be imported or created manually using Add functionality. Open Add
 Object tool and select Link option from drop-down menu list.
@@ -88,7 +88,7 @@ Click on Interference tab, and analize Inteference From table. Link MW002, from 
 with Carrier 2’H interferes:
 - Interference, dBm: -100.248 dBm
 - FML, dB: 1.29E-10
-Close Link Prediction results, select MW002 link on the map and open Object Editor.
+Close Link [Prediction results](#kw:viewing-results:ce-express-rf-prediction), select MW002 link on the map and open [Object Editor](#kw:73-object-editor:ce-pro-emf).
 Double click on the link.
 
 ---
@@ -98,7 +98,7 @@ Save Changes.
 Select all links on the map, open Link Prediction tool again and run predictions.
 After predictions are done, open MW001 (A-B) interference predictions and preview how
 Interference From is changed for MW002 link, Site E2.
-Close Link Prediction Results dialog.
+Close Link [Prediction Results](#kw:viewing-results:ce-express-rf-prediction) dialog.
 
 ## 4.1 Geoclimatic data
 
@@ -106,7 +106,7 @@ Geoclimatic data, comprising factors such as rain rate, temperature, gaseous abs
 and multipath fading, significantly shapes the planning and efficacy of microwave links.
 Rain rate introduces the challenge of rain fade, where increased rainfall leads to greater
 signal attenuation. To address this, microwave link planners employ rain attenuation
-models, adjusting transmitter power or incorporating diversity techniques to maintain link
+[models](#kw:31-models:ce-express-tr-models), adjusting transmitter power or incorporating diversity techniques to maintain link
 reliability. Temperature variations impact atmospheric conditions, influencing signal
 propagation. Planners consider these effects to optimize link performance and account for
 temperature-related changes in their designs. Gaseous absorption, particularly by
@@ -131,6 +131,6 @@ Click on Multipath Fading tab, and define:
 
 Click on Rain Fading tab, and define:
 Press Save Changes. Close Geoclimatic Data tab, and run Link Predictions again. Review
-Performance tab calculations for MW001 (A-B) link. Compare them with previous results.
+Performance tab calculations for MW001 (A-B) link. [Compare](#kw:98-compare-predictions:ce-pro-rcp) them with previous results.
 
 ---

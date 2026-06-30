@@ -6,15 +6,15 @@ objects in CE Express using object templates.
 By the end of this exercise, participants will be able to:
 - Create and use object templates effectively
 - Create sites and cells with correct RF parameters
-- Duplicate and reposition network objects efficiently
+- Duplicate and reposition [network objects](#kw:object-types:ce-express-network-objects) efficiently
 - Modify object parameters using both forms and tables
-- Apply meaningful network symbology for RF analysis
+- Apply meaningful [network symbology](#kw:37-step-7-managing-network-symbology:none) for RF analysis
 2. Initial Data and Prerequisites
 The following prerequisites are assumed:
 - A prepared workspace created in: 01. CE Express – Creating Workspace
 - Available geodata (terrain, obstacles and [clutter](#kw:clutter-classification-values:ce-express-geodata))
-- User permissions to create and edit network objects
-3. Understanding the Network Objects Concept
+- User permissions to create and edit [network objects](#kw:object-types:ce-express-network-objects)
+3. Understanding the [Network Objects](#kw:object-types:ce-express-network-objects) Concept
 In CE Express, network objects represent the physical and logical elements of a radio
 network. They form the foundation for all RF planning, simulation, and optimization activities
 performed in the workspace.
@@ -34,7 +34,7 @@ Why Templates Matter
 Object templates encapsulate best-practice RF configurations, such as:
 - Standard power levels and bandwidths
 - Technology-specific parameters (e.g. NR numerology, MIMO layers)
-- Approved antennas and prediction models
+- Approved antennas and prediction [models](#kw:31-models:ce-express-tr-models)
 Using templates ensures:
 - Consistency across large networks
 - Faster rollout and scenario creation
@@ -126,7 +126,7 @@ Duplex Mode TDD TDD TDD
 
 ## 3.4 Step 4 – Duplicating Network Objects
 
-Duplicating objects is commonly used for:
+[Duplicating objects](#kw:duplicating-objects:ce-express-network-objects) is commonly used for:
 - Multi-site rollout scenarios
 - Rapid what-if analysis
 - Dense urban planning
@@ -211,7 +211,7 @@ o Azimuth → 250
 This approach makes it easy to review and adjust values while maintaining full spatial
 awareness.
 3.6.3 Bulk Editing Multiple Objects
-1. Select multiple cells in the table (left click on them).
+1. Select [multiple cells](#kw:47-step-7-rf-prediction-for-multiple-cells:ce-express-tr-rf) in the table (left click on them).
 
 ---
 
@@ -225,7 +225,7 @@ awareness.
 
 ## 3.7 Step 7 – Managing Network Symbology
 
-Network symbology defines how objects are visually displayed on the map. While symbology
+[Network symbology](#kw:37-step-7-managing-network-symbology:none) defines how objects are visually displayed on the map. While symbology
 does not change object data, it plays a key role in making complex projects easier to
 understand for different audiences, including technical teams, decision-makers, and non-
 technical users.

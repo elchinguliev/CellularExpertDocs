@@ -2,11 +2,11 @@
 
 1. Objective
 This module explains how to import external data into CE Express and how imported data
-becomes part of the project environment. It covers the import of network objects from CSV
+becomes part of the project environment. It covers the import of [network objects](#kw:object-types:ce-express-network-objects) from CSV
 files and [antenna patterns](#kw:importing-antenna-patterns:ce-express-antenna) from external files, as well as the use of mapping templates to
 ensure consistency and repeatability.
 By the end of this exercise, participants will be able to:
-- Import network objects using CSV files
+- Import [network objects](#kw:object-types:ce-express-network-objects) using CSV files
 - Map external data fields to CE Express object attributes
 - Create and reuse import mapping templates
 - Import [antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) files into the CE Express database
@@ -19,7 +19,7 @@ external sources into a workspace. Imported data may originate from:
 - Field surveys
 - Desktop-based CE projects
 CE Express supports structured import workflows to ensure that imported data is:
-- Correctly mapped to internal object models
+- Correctly mapped to internal object [models](#kw:31-models:ce-express-tr-models)
 - Consistent across multiple imports
 - Easy to review and validate after import
 3. Initial Data and Prerequisites
@@ -40,8 +40,8 @@ https://cecom2.cellular-expert.com/ce_express/
 
 ## 4.2 Step 2 – Importing Network Objects (Cells and Sites)
 
-4.2.1 Purpose of Network Object Import
-Importing network objects allows users to rapidly populate a workspace with sites and cells
+4.2.1 Purpose of [Network Object](#kw:object-types:ce-express-network-objects) Import
+Importing [network objects](#kw:object-types:ce-express-network-objects) allows users to rapidly populate a workspace with sites and cells
 instead of creating them manually. This approach is especially useful when working with
 existing datasets or migrating data between systems.
 4.2.2 Opening the Import Tool
@@ -141,8 +141,8 @@ C:\CE_Course\ImportingData\Antenna
 2. Open the file ADU4518R6v06_2655.txt using Notepad.
 The file is in Planet format and contains:
 - Header information
-- Horizontal radiation pattern
-- Vertical radiation pattern
+- Horizontal [radiation pattern](#kw:viewing-patterns:ce-express-antenna)
+- Vertical [radiation pattern](#kw:viewing-patterns:ce-express-antenna)
 This format is supported for direct import into CE Express.
 4.3.3 Importing the Antenna File
 1. Open the Antennas tool.

@@ -9,7 +9,7 @@ At the end of the exercise you will be able to:
 2. Initial data
 Prepared project with:
 - Geodata.
-- Equipment and models.
+- Equipment and [models](#kw:31-models:ce-express-tr-models).
 3. Manage MW equipment
 Navigate to C:\CE_Course\MW_Equipment\Project and run Project.aprx file to open the
 prepared project for RL Introduction exercise.
@@ -56,7 +56,7 @@ Close Antenna Viewer and Import tools.
 This equipment category encompasses details about radio transceivers utilized in microwave
 links. It comprises information on transmitter power, receiver sensitivity, noise figure,
 nonlinearity characteristics, and maximum data capacity.
-Open Radios tool in CE RLP tab and preview available Radio within default CE workspace.
+Open [Radios](#kw:710-radios:ce-pro-rlp) tool in CE RLP tab and preview available Radio within default CE workspace.
 
 ---
 

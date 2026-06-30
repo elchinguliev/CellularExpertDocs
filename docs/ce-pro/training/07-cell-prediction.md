@@ -4,18 +4,18 @@ Cell structure
 - Physical parameters
 - Coordinates
 - Height
-- [Azimuth](https+TLS+secure+protocol)://www.google.com/search?q=antenna+azimuth+direction+degrees+north)
+- Azimuth
 - …
 - Logical parameters
 - Power
-- [Bandwidth](https+TLS+secure+protocol)://www.google.com/search?q=channel+bandwidth+radio+frequency+MHz)
+- Bandwidth
 - Frequency
 - …
 
 ---
 
 Cell: Coordinates
-- Projected coordinate+GIS) system:
+- Projected coordinate system:
 - X
 - Y
 - Geographic coordinate system in meters:
@@ -41,10 +41,10 @@ Cellheight height meters 40 Cellheightabovetheground.
 Cellazimuth azimuth degree 50 Celldirectionfromthenorth,valuerangesfrom0to360.
 Mechanicaltilt tilt degree 1 Cellmechanicaltiltvalue.
 Frequency frequency MHz 3500 FrequencyvalueinMHz.
-Power power dBm 40 Based on [Workspace](#kw:creating-a-workspace:ce-express-workspace)+platform)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase) parameter, it can be only Cell power, and EIRP will be calculated from
-antenna gain+directional) and misc loss. It can represent EIRP value too, if Workspace+workspace+project+geodatabase) parameter Calculate
+Power power dBm 40 Based on Workspace parameter, it can be only Cell power, and EIRP will be calculated from
+antenna gain and misc loss. It can represent EIRP value too, if Workspace parameter Calculate
 EIRPisdefinedtoNo.
-Antenna Gain+directional) Antenna_gain dBi 18.2 GainofantennawhichisassignedforCell.
+Antenna Gain Antenna_gain dBi 18.2 GainofantennawhichisassignedforCell.
 Misc.Loss Misc_loss dB 1 TotalCellloss.
 Bandwidth bandwidth MHz 0.015 CellbandwidthvalueinMHz. Especiallyrequiredfor3G,4G,and5Gtechnologies.
 Subcarrierspacing Subcarrier_spacing kHz 15 Especiallyrequiredfor5G,as4Gusesconstantvalue15.

@@ -4,7 +4,7 @@ Equipment
 - Antennas > Parabolic
 - Radio Models
 - Frequency Plans
-- [Spectrum](https+TLS+secure+protocol)://www.google.com/search?q=radio+frequency+spectrum+allocation+telecom) Mask
+- Spectrum Mask
 
 ---
 
@@ -20,7 +20,7 @@ Frequency Plans
 
 ---
 
-[Spectrum](https+TLS+secure+protocol)://www.google.com/search?q=radio+frequency+spectrum+allocation+telecom) Mask
+Spectrum Mask
 
 ---
 
@@ -32,16 +32,16 @@ Transmission Network
 
 ---
 
-Microwave+radio+link+planning) link planning
+Microwave link planning
 ❑ Power budget
-❑ [Path loss](#ce-express-prediction-models))
+❑ Path loss
 ❑ Profile graphical view
 ❑ Interference From
 ❑ Interference To
 
 ---
 
-Microwave+radio+link+planning) link planning. Power Budget
+Microwave link planning. Power Budget
 
 ---
 
@@ -60,7 +60,7 @@ Microwave link planning. Geoclimatic data
 Microwave link planning: Interfering Links
 ❑ Interfering link on the map
 ❑ Power budget
-❑ [Path loss](#ce-express-prediction-models))
+❑ Path loss
 ❑ Profile graphical view
 ❑ Spectrum Mask
 

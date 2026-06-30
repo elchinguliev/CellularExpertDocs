@@ -1,15 +1,15 @@
-# 05. __S0__
+# 05. Line of Sight
 
 Modelling Outdoor coverage
 The CE tools make use of three distinct GIS data layers to obtain high
-precision modelling of radio [wave propagation](https+TLS+secure+protocol)://www.google.com/search?q=radio+wave+propagation+physics) losses:
-1. [Digital [Terrain](https+TLS+secure+protocol)://www.google.com/search?q=terrain+elevation+model+GIS+topography) Model](https://www.google.com/search?q=Digital+Terrain+topography)+Model+[DTM](#geodata-dem)+bare+earth) ([DTM](#geodata-dem)), also known as Digital Elevation
-Model ([DEM](#geodata-dem)), which describes Earth surface, i.e., path terrain
+precision modelling of radio wave propagation losses:
+1. Digital Terrain Model (DTM), also known as Digital Elevation
+Model (DEM), which describes Earth surface, i.e., path terrain
 profile in terms of ground elevation above uniform sea level.
 2. Obstacles layer, delineating buildings and other such objects
 above Earth surface that may be considered to be principal
 impediments for radio wave propagation.
-3. [Clutter](#kw:clutter-classes-grid:geodata-clutter) layer, delineating natural occurring or human cultivated
+3. [Clutter](#kw:clutter-classification-values:ce-express-geodata) layer, delineating natural occurring or human cultivated
 ground cover that may be partially penetrable by radio waves,
 such as natural vegetation (e.g., forests, trees, bushes) or various
 crops, gardens, parks, etc.
@@ -18,7 +18,7 @@ Diffraction
 H
 obstacles
 H
-[Clutter](#kw:clutter-classes-grid:geodata-clutter) losses clutter [DSM](#kw:clutter-heights:geodata-clutter)
+[Clutter](#kw:clutter-classification-values:ce-express-geodata) losses clutter DSM
 UE
 DTM
 
@@ -30,7 +30,7 @@ Point to point (Profile) input
 - Buildings
 - Clutter
 - Frequency
-- [Fresnel zone](#ce-express-profile) (%)
+- [Fresnel zone](#kw:fresnel-zone-clearance:ce-express-profile) (%)
 - Earth radius
 - Transmitter
 - Height
@@ -53,8 +53,8 @@ Profile calculations
 - Uplink FS
 - FWA downlink RSL
 - FWA uplink RSL
-- [Path Loss](#ce-express-prediction-models))
-- Total [Path Loss](#ce-express-prediction-models))
+- Path Loss
+- Total Path Loss
 - Model Loss
 - Diffraction Loss
 - Penetration Loss
@@ -96,13 +96,13 @@ Visibility prediction input
 ---
 
 Visibility Results
-- [Line of Sight](#ce-express-profile)+radio+propagation)
+- Line of Sight
 - Required height for LoS
 - Clearance
 
 ---
 
-Visibility: [Line of Sight](#ce-express-profile)
+Visibility: Line of Sight
 Possible values:
 - 0
 - 1

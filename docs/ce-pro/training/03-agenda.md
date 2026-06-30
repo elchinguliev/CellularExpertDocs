@@ -14,11 +14,11 @@ Trainings 13.00-14.00
 
 ---
 
-Exercises for [CE Desktop](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Desktop+[ArcGIS](https+TLS+secure+protocol)://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+Pro)
+Exercises for CE Desktop
 DAY 1 DAY 2
 1 0. Introduction slides 4. Cell Prediction
-2 1. Creating [Workspace](#kw:creating-a-workspace:ce-express-workspace)+platform)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase) 5. Prediction Models
-3 2. [Line of Sight](#ce-express-profile) 6. Importing Network
+2 1. Creating Workspace 5. Prediction Models
+3 2. Line of Sight 6. Importing Network
 4 3. Create Objects 7. Site Positioning
 
 ---
@@ -39,7 +39,7 @@ Today
 ➢ Data requirements
 2. Exercises
 ➢ Creating Workspace
-➢ [Line of Sight](#ce-express-profile)+radio+propagation)
+➢ Line of Sight
 ➢ Creating Objects
 
 ---

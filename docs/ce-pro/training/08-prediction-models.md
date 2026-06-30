@@ -1,28 +1,28 @@
 # 08. Prediction Models
 
-[Path Loss](https+TLS+secure+protocol)://www.google.com/search?q=path+loss+radio+signal+attenuation+dB)
+Path Loss
 𝐹𝑖𝑒𝑙𝑑 𝑆𝑡𝑟𝑒𝑛𝑔ℎ𝑡 = 𝐸𝐼𝑅𝑃 − 𝐴𝑛𝑡𝑒𝑛𝑛𝑎𝐴𝑡𝑡𝑒𝑛𝑢𝑎𝑡𝑖𝑜𝑛 -
 PathLoss
 
 ---
 
 Prediction Models
-- [ITU-R](#kw:geoclimatic-data:ce-express-radio-link) P.452 (6GHz to 50GHz)
+- ITU-R P.452 (6GHz to 50GHz)
 - UniMacro (400MHz to 3GHz)
-- CEC [ITU-R](#kw:geoclimatic-data:ce-express-radio-link) (100MHz to 6GHz)
+- CEC ITU-R (100MHz to 6GHz)
 - LOS ITU-R P.525 (6GHz to 100 GHz)
 - ITU-R P.368 (10kHz to 30MHz)
 
 ---
 
-CE [Path Loss](https+TLS+secure+protocol)://www.google.com/search?q=path+loss+radio+signal+attenuation+dB) models (10kHz - 100 GHz)
+CE Path Loss models (10kHz - 100 GHz)
 1. CEC ITU-R Model (100MHz – 6GHz) is a combination model intended for use in a variety of different radiocommunication systems which is derived explicitly
-from ITU-R [path loss](#ce-express-prediction-models) modelling methods as follows:
-a. Receive antenna in LOS condition – [path loss](#ce-express-prediction-models) calculated as FSL based on Recommendation ITU-R P.525 (ref URL);
+from ITU-R path loss modelling methods as follows:
+a. Receive antenna in LOS condition – path loss calculated as FSL based on Recommendation ITU-R P.525 (ref URL);
 b. Receive antenna in OLOS condition – total path loss modelled as a combination of basic FSL calculated based on Recommendation ITU-R P.525 (ref
-URL) and [clutter](#kw:clutter-classes-grid:geodata-clutter) loss calculated based on Recommendation ITU-R P.2108 (ref URL);
+URL) and [clutter](#kw:clutter-classification-values:ce-express-geodata) loss calculated based on Recommendation ITU-R P.2108 (ref URL);
 c. Receive antenna in NLOS condition – path loss as a combination of basic FSL calculated based on Recommendation ITU-R P.525 (ref URL), additional
-losses due to diffraction calculated based on Recommendation ITU-R P.526 (ref URL) and the [clutter](#kw:clutter-classes-grid:geodata-clutter) losses calculated based on Rec. ITU-R P.2108
+losses due to diffraction calculated based on Recommendation ITU-R P.526 (ref URL) and the [clutter](#kw:clutter-classification-values:ce-express-geodata) losses calculated based on Rec. ITU-R P.2108
 (ref URL).
 2. ITU-R P.452 Model (6GHz – 50GHz) is provided as a universally applicable model with very wide frequency range from 0.1-50 GHz. Its implementation is
 based on the methodology described in the Recommendation ITU-R P.452 (ref URL). This model does not provide for definition of OLOS visibility condition;
@@ -30,7 +30,7 @@ instead it considers clutter as part of general obstacles category and according
 a. Receive antenna in LOS condition – path loss modelled based on FSL principle;
 b. Receive antenna in NLOS condition – total path loss modelled using a combination of basic transmission losses and losses due to diffraction.
 3. LOS ITU-R P.525 Model (6GHz – 100GHz) is the FSL path loss calculated based on method in Recommendation ITU-R P.525 (ref URL). As such it could be
-used for modelling of radio links where LOS is considered a necessary condition, e.g., for Fixed (Point-to-Point+radio+link+planning))) Links or Mobile Systems in mmWave bands.
+used for modelling of radio links where LOS is considered a necessary condition, e.g., for Fixed (Point-to-Point) Links or Mobile Systems in mmWave bands.
 4. UniMacro Model (400MHz – 3GHz) is the CE’s proprietary combination model developed over the years of practical experience with the operational planning
 of cellular mobile networks in the frequency ranges from 400-2600 MHz. It had been fine tuned to produce coverage predictions that are most closely aligned
 with what could be expected to be experienced by the actual mobile network users in the field. The model will model different path losses depending on radio
@@ -60,14 +60,14 @@ Diffraction
 H
 obstacles
 H
-Clutter losses clutter [DSM](#kw:clutter-heights:geodata-clutter)
+Clutter losses clutter DSM
 UE
-[DTM](#geodata-dem)
+DTM
 
 ---
 
 Input Data
-- Elevation+topography)+height+datum)
+- Elevation
 - Clutter classes* Geographic data
 - Clutter height grid*
 - Receiver settings
@@ -117,7 +117,7 @@ l o g F
 Clutter
 - Diffraction loss for solid obstacle:
 - Building clutter class
-- Elevation+topography)+height+datum)
+- Elevation
 - Clutter loss
 - Based on diffraction calculation
 - P.2108 Clutter Loss
@@ -177,9 +177,9 @@ Diffraction
 H
 obstacles
 H
-Clutter losses clutter [DSM](#kw:clutter-heights:geodata-clutter)
+Clutter losses clutter DSM
 UE
-[DTM](#geodata-dem)
+DTM
 
 ---
 
@@ -347,7 +347,7 @@ slope of the curve.
 a Transmitter height influence coefficient. It is related to errors in DTM, real
 Earth curvature, etc. It regulates loss curve vertical position like the a0, but -12.0
 with respect to antenna height
-a [Okumura-Hata](#ce-express-prediction-models) type of multiplying factor for log(h )log(d) 0.1
+a Okumura-Hata type of multiplying factor for log(h )log(d) 0.1
 3 B
 
 ---
@@ -456,7 +456,7 @@ m
 
 9999 Ericsson: A3
 - 9999 Model is very convenient for calibration
-- a3 defines slope of the path loss curve for different base station)+NodeB+UMTS+Universal+Mobile+Telecommunications)+base+station)+eNodeB+mobile)+4G+base+station)+gNodeB+NR+base+station))
+- a3 defines slope of the path loss curve for different base station
 antenna heights
 Path Loss,
 A3 = -0.5

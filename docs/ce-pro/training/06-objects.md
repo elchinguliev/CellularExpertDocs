@@ -1,11 +1,11 @@
 # 06. Creating Objects
 
 Create object
-- [Import](https+TLS+secure+protocol)://www.google.com/search?q=data+import+GIS+network+objects+CSV) from text (done in previous exercise)
+- Import from text (done in previous exercise)
 - Create manually using Add Object tool:
 - Cell;
 - Site;
-- [Repeater](https+TLS+secure+protocol)://www.google.com/search?q=radio+repeater+signal+booster+telecom);
+- Repeater;
 - CPE;
 - Etc..
 - Duplicate existing object or objects in the project
@@ -16,7 +16,7 @@ Create object
 Steps to create cell
 - Define location
 - Type specific coordinates in:
-- Projected coordinate+GIS) system – X and Y coordinates;
+- Projected coordinate system – X and Y coordinates;
 - Geographical coordinate system – Latitude and Longitude
 coordinates
 - Click on the map: coordinates will be filled
@@ -37,7 +37,7 @@ Template
 ---
 
 Create Cell
-[RF prediction](#ce-express-rf-prediction) does not require Site
+RF prediction does not require Site
 object. Cells can be created
 Cell – logical
 without Site object.
@@ -52,7 +52,7 @@ Site and Cell is connected through
 Site – location point with
 SiteID value.
 unique identifier:
-Site Base station)+NodeB+UMTS+Universal+Mobile+Telecommunications)+base+station)+eNodeB+mobile)+4G+base+station)+gNodeB+NR+base+station)) SiteID must be Integer.
+Site Base station SiteID must be Integer.
 Site name is defined for Site object.
 Cells
 

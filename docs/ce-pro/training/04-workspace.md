@@ -1,12 +1,12 @@
 # 04. Creating Workspace
 
-Cellular Expert for [ArcGIS Pro](#ce-pro-rcp)+platform)+Pro+Esri+desktop+software) project
+Cellular Expert for ArcGIS Pro project
 
 ---
 
 CE Tools
-- [Workspace](https+TLS+secure+protocol)://www.google.com/search?q=[ArcGIS](https+TLS+secure+protocol)://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase) is not added
-- [Workspace](#kw:creating-a-workspace:ce-express-workspace)+platform)+workspace+project+geodatabase) is added
+- Workspace is not added
+- Workspace is added
 - Workspace is added, but Geodata is missing
 
 ---
@@ -14,7 +14,7 @@ CE Tools
 Create Workspace
 - New workspace path
 - Geodata folder path
-- Projected coordinate+GIS) system
+- Projected coordinate system
 - Also create Local Scene
 
 ---

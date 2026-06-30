@@ -2,13 +2,13 @@
 
 The sequency of events
 - Installation • CE upgrade
-1. [ArcGIS Pro](#ce-pro-rcp)+platform)+Pro+Esri+desktop+software) 1. Delete Cellular Expert
+1. ArcGIS Pro 1. Delete Cellular Expert
 2. Cellular Expert 2. Install Cellular Expert
-- [ArcGIS](https+TLS+secure+protocol)://www.google.com/search?q=ArcGIS+Esri+GIS+platform) upgrade
+- ArcGIS upgrade
 - Uninstallation
-1. Cellular Expert 1. Run [ArcGIS Pro](https+TLS+secure+protocol)://www.google.com/search?q=ArcGIS+platform)+Pro+Esri+desktop+software) upgrade
+1. Cellular Expert 1. Run ArcGIS Pro upgrade
 (Cellular Expert
-2. [ArcGIS Pro](#ce-pro-rcp)
+2. ArcGIS Pro
 uninstallation is not
 required)
 

@@ -26,7 +26,7 @@ Table of Contents
 ## 5.1 Geographic data requirements 16
 
 5.1.1 Digital Terrain Model (DTM) Grid (Mandatory) 17
-5.1.2 [Clutter](#kw:clutter-classification-values:ce-express-geodata) classes grid 20
+5.1.2 [Clutter classes](#kw:[clutter](#kw:clutter-classification-values:ce-express-geodata)-classification-values:ce-express-geodata) grid 20
 5.1.3 [Clutter](#kw:clutter-classification-values:ce-express-geodata) heights 26
 5.1.4 Buildings 30
 6. Workspace 34
@@ -45,7 +45,7 @@ Table of Contents
 ## 6.3 CE Express Connection 54
 
 6.3.1 Properties 54
-7. Data Management 56
+7. [Data Management](#kw:31-data-management-tools:inventory3d-user-guide) 56
 
 ## 7.1 Network Objects 56
 
@@ -76,12 +76,12 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 
 ## 7.6 Prediction Model Manager 87
 
-7.6.1 Models 89
+7.6.1 [Models](#kw:31-models:ce-express-tr-models) 89
 
 ## 7.7 Template Manager 113
 
-7.7.1 Edit Network Objects template 114
-7.7.2 Manage Network Object Template 115
+7.7.1 Edit [Network Objects](#kw:object-types:ce-express-network-objects) template 114
+7.7.2 Manage [Network Object](#kw:object-types:ce-express-network-objects) Template 115
 7.7.3 Modulations 116
 7.7.4 Modulation Editor 118
 
@@ -104,7 +104,7 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 
 ## 7.11 Spectrum Masks 133
 
-7.11.1 View Spectrum Masks 133
+7.11.1 View [Spectrum Masks](#kw:711-spectrum-masks:none) 133
 7.11.2 Add Spectrum Mask 135
 7.11.3 Import Spectrum Mask 135
 Confidential ©Cellular Expert, 2026 Page | 3
@@ -228,7 +228,7 @@ CE Pro performs mobile network coverage analysis based on:
 carriers configuration,
 2. Subscriber characteristics – geographic distribution density, generated traffic to estimate
 network/cell loading,
-3. DTM, buildings, and clutter-based deterministic point-to-area radio wave propagation
+3. DTM, buildings, and [clutter](#kw:clutter-classification-values:ce-express-geodata)-based deterministic point-to-area radio wave propagation
 modeling.
 CE Pro allows the user to input and use a broad variety of GIS and network data to support the simulations,
 as the overall quality of coverage calculations is dependent on the completeness and detail of technical
@@ -236,20 +236,20 @@ network data and the resolution and quality of the GIS data. CE Pro can efficien
 network coverage using the GIS data with a resolution of down to sub-meter.
 Calculated results of coverage predictions could be presented as coverage raster maps.
 CE Pro is capable of modeling various wireless technologies: cellular (2G/3G/4G/5G), PMR/PAMR
-(TETRA, APCO, others), FWA/BWA, IoT (LoRa/SigFox, others), as well as fixed microwave links.
+(TETRA, APCO, others), [FWA](#kw:94-fwa-rf-prediction:ce-pro-rcp)/BWA, IoT (LoRa/SigFox, others), as well as fixed microwave links.
 Therefore, it may be used as a radio planning tool in various industries: Mobile Operators, Integrated
 Telecom Companies, Wireless Internet Service providers, Regulatory authorities, Utilities, Broadband
 Infrastructure providers, Defense organizations, as well as any other users of radiocommunication systems.
 In the following, we summarize the key functionalities of the tool.
-Data Management
+[Data Management](#kw:31-data-management-tools:inventory3d-user-guide)
 The tool allows the importation, storage, and management of detailed technical data on network nodes,
 such as sites, cells, RF transmitters, and antennas.
 Signal Strength Prediction
-The tool contains several in-built path loss prediction models that allow the user to easily start simulations
+The tool contains several in-built path loss prediction [models](#kw:31-models:ce-express-tr-models) that allow the user to easily start simulations
 based on the evaluation of the most essential pathloss contributing factors. The following two models
 constitute the starting set:
 - Free space – typically used for modeling short-range mobile communications, fixed links, or other
-radiocommunications applications with prevalent Line-of-Sight conditions on propagation paths,
+radiocommunications applications with prevalent [Line-of-Sight](#kw:running-a-profile:ce-express-profile) conditions on propagation paths,
 Confidential ©Cellular Expert, 2026 Page | 7
 
 ---
@@ -328,7 +328,7 @@ workstation connected with ArcGIS Online, which is used for ArcGIS Pro.
 
 ## 3.1 Single-User Environment
 
-For the Single-User configuration of Cellular Expert, all information about radio network objects is stored in
+For the Single-User configuration of Cellular Expert, all information about radio [network objects](#kw:object-types:ce-express-network-objects) is stored in
 a personal geodatabase (GDB format) or locally on the disc (calculation results, raster data in GeoTIFF
 format, etc.).
 Geographical data can be stored:
@@ -369,7 +369,7 @@ License Activation Key which must be entered into the same dialogue
 6. Press Activate License and the license will be activated, enabling the acquired versions of the
 add-on
 Second way:
-1. Create an empty ArcGIS Pro project
+1. Create an empty [ArcGIS Pro project](#kw:31-step-1-opening-the-arcgis-pro-project:ce-express-tr-geodata)
 2. Navigate to Insert and select New Map. After the map insertion, the Cellular Expert tabs will be
 enabled
 3. Navigate to any of the Cellular Expert tabs and select License Information in the About section.
@@ -426,7 +426,7 @@ already license, turning them into actionable broadband maps without additional 
 requirements from the solution provider.
 By using terrain elevation, obstacles, and clutter classification in every calculation, Cellular Expert
 accurately models:
-- Line-of-Sight and Non-Line-of-Sight Conditions – Determining diffraction, reflection, and
+- [Line-of-Sight](#kw:running-a-profile:ce-express-profile) and Non-[Line-of-Sight](#kw:running-a-profile:ce-express-profile) Conditions – Determining diffraction, reflection, and
 Confidential ©Cellular Expert, 2026 Page | 14
 
 ---
@@ -449,7 +449,7 @@ DTM
 The CE tools make use of three distinct GIS data layers to obtain high precision modelling of radio wave
 propagation losses:
 1. Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), which describes
-Earth surface, i.e., path terrain profile in terms of ground elevation above uniform sea level.
+Earth surface, i.e., path [terrain profile](#kw:reading-the-profile-graph:ce-express-profile) in terms of ground elevation above uniform sea level.
 2. Obstacles layer, delineating buildings and other such objects above Earth surface that may be
 considered to be principal impediments for radio wave propagation.
 3. Clutter layer, delineating natural occurring or human cultivated ground cover that may be
@@ -469,7 +469,7 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 telco-suite-for-5g
 Cellular Expert can easily integrate and process 1 m or even sub-meter topographical data, providing highly
 detailed RF calculations. This level of precision is essential for:
-- Modeling 2G/3G/4G/5G, small cells and mmWave networks.
+- Modeling 2G/3G/4G/5G, small cells and [mmWave](#kw:56-step-8-losonly-prediction-for-mmwave:ce-express-tr-models) networks.
 - Identifying exact coverage gaps at the building and street level.
 - Supporting regulatory-grade broadband mapping and planning.
 By using high-resolution terrain and clutter data, Cellular Expert ensures that its calculations match real-
@@ -501,28 +501,28 @@ data to calculate.
 5.1.1.1 Prepare DTM raster
 The Digital Terrain Model (DTM) has several requirements, which are listed below.
 Projection
-The raster must use a Projected Coordinate System. To check the coordinate system of your raster, use
+The raster must use a [Projected Coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) System. To check the coordinate system of your raster, use
 the Properties function in ArcGIS Pro. Add the raster to your project, right-click on it, and select Properties.
 Then, go to the Source tab > Spatial Reference and check the Coordinate System type parameter to confirm
-it is in a Projected Coordinate System.
+it is in a [Projected Coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) System.
 Confidential ©Cellular Expert, 2026 Page | 17
 
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 If your raster is in a Geographic Coordinate System or needs a different projection, use the Geoprocessing
-> Project Raster tool to update it.
-In the Output Coordinate System, specify a new coordinate system. It is recommended to use a UTM
+> [Project Raster](#kw:33-project-raster:ce-express-tr-geodata) tool to update it.
+In the Output Coordinate System, specify a new coordinate system. It is recommended to use a [UTM](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata)
 coordinate system under the WGS 1984 projection.
 Confidential ©Cellular Expert, 2026 Page | 18
 
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-You can find the appropriate UTM zone for your area here:
+You can find the appropriate [UTM](#kw:what-is-a-projected-crs:ce-express-geodata) zone for your area here:
 https://www.arcgis.com/apps/mapviewer/index.html?layers=b294795270aa4fb3bd25286bf09edc51
 Correct No Data value and raster name
-After setting the correct projection, assign the NoData attribute and specify the appropriate name for the
+After setting the correct projection, assign the [NoData](#kw:check-and-set-nodata-value:ce-express-geodata) attribute and specify the appropriate name for the
 DTM raster. To do this, use the Copy Raster tool in Geoprocessing.
 Confidential ©Cellular Expert, 2026 Page | 19
 
@@ -532,10 +532,10 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 Configure the following settings:
 - Input Raster: Select your newly projected DTM raster.
 - Output Raster Dataset: Specify the output location and set the raster name to elevation.tif.
-- NoData Value: Enter -9999.
+- [NoData](#kw:check-and-set-nodata-value:ce-express-geodata) Value: Enter -9999.
 - Pixel Type: Choose 32-bit signed or 32-bit float.
 - Format: This will automatically be set to TIFF.
-5.1.2 Clutter classes grid
+5.1.2 [Clutter classes](#kw:clutter-classification-values:ce-express-geodata) grid
 Land use or clutter refers to the classification of the earth’s surface into categories such as urban, suburban,
 rural, forest, water, and open land, each of which affects radio propagation differently. Clutter data is crucial
 because it determines how signals are absorbed, reflected, or diffracted by the environment, directly
@@ -564,7 +564,7 @@ Confidential ©Cellular Expert, 2026 Page | 22
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 If you have a different clutter class layer, it can be used for predictions by remapping it using the Clutter
-Classes tool and specifying the IDs in the geodata raster parameter. If multiple clutter classes correspond
+Classes tool and specifying the IDs in the geodata raster parameter. If multiple [clutter classes](#kw:clutter-classification-values:ce-express-geodata) correspond
 to a single default clutter type, separate the ID values with commas.
 This mapping can also be adjusted in the Clutter table.
 Once clutter classes are successfully mapped, the prediction algorithms will recognize the clutter types,
@@ -579,7 +579,7 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 The Clutter Raster has several requirements, which are the same as for DTM raster listed above.
 Projection
 It must have the same coordinate system as your elevation.tif raster. If your raster has different coordinate
-system, then use the Geoprocessing tool → Project Raster to fix it.
+system, then use the Geoprocessing tool → [Project Raster](#kw:33-project-raster:ce-express-tr-geodata) to fix it.
 In the Output Coordinate System you would need to define the same coordinate system as your elevation.tif
 raster. Click on Select Coordinate System button.
 And choose the same coordinate system as your elevation.tif.
@@ -589,7 +589,7 @@ Confidential ©Cellular Expert, 2026 Page | 24
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 Correct No Data value and raster name
-After setting the correct projection, assign the NoData attribute and specify the appropriate name for the
+After setting the correct projection, assign the [NoData](#kw:check-and-set-nodata-value:ce-express-geodata) attribute and specify the appropriate name for the
 Clutter Class raster. To do this, use the Copy Raster tool in Geoprocessing.
 Configure the following settings:
 - Input Raster: Select your newly projected Clutter Class raster.
@@ -759,7 +759,7 @@ Steps to create a new workspace:
 1. Click the Create button in the Cellular Expert Workspace menu.
 2. The Create dialogue will appear. Fill in the minimum required data:
 New workspace path
-It is automatically filled based on the ArcGIS Pro project location. The recommendation is to first save your
+It is automatically filled based on the [ArcGIS Pro project](#kw:31-step-1-opening-the-arcgis-pro-project:ce-express-tr-geodata) location. The recommendation is to first save your
 ArcGIS Pro project, and then open the Workspace > Create tool. The project's workspace folder will be
 automatically created in the ArcGIS Pro project location catalog. This way, you will have both the ArcGIS
 Pro and CE workspace in the same location.
@@ -775,7 +775,7 @@ Confidential ©Cellular Expert, 2026 Page | 36
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-Note: The projected Coordinate System has been filled automatically and taken from the defined Elevation
+Note: The [projected Coordinate](#kw:what-is-a-projected-crs:ce-express-geodata) System has been filled automatically and taken from the defined Elevation
 grid. This means that this coordinate system will be assigned to your project feature layers.
 When creating a new workspace using geodata containing clutter classes raster, default class IDs can now
 be set by clicking Set Default Clutter Class IDs button. The default ID values are based on Living Atlas
@@ -911,11 +911,11 @@ Path for storing prediction grids.
 Result Path
 Path for storing the final calculation results
 Volatile Calculation Path
-Path for temporary Quick Prediction calculation results.
+Path for temporary [Quick Prediction](#kw:quick-rf-prediction:ce-express-rf-prediction) calculation results.
 Volatile Result Path
-Path for storing the final Quick Prediction calculation results
+Path for storing the final [Quick Prediction](#kw:quick-rf-prediction:ce-express-rf-prediction) calculation results
 Volatile Tasks Data Path
-Path for the Quick Prediction calculation results that will be displayed in the Calculation Task List.
+Path for the [Quick Prediction](#kw:quick-rf-prediction:ce-express-rf-prediction) calculation results that will be displayed in the Calculation Task List.
 Project Settings Parameters
 Calculate EIRP
 Determines whether calculate EIRP or no in the prediction calculations.
@@ -948,7 +948,7 @@ Possible values Yes/No.
 Rounding
 The rounding value for different parameters.
 6.1.6.2 Visualization
-The Cellular Expert network objects (Sites, Cells, OMEN) and calculation result rasters are represented in
+The Cellular Expert [network objects](#kw:object-types:ce-express-network-objects) (Sites, Cells, OMEN) and calculation result rasters are represented in
 ArcGIS with the symbology as defined in the .lyr files, located in the Visualization tab (“CE_LAYERS”
 table).
 Confidential ©Cellular Expert, 2026 Page | 46
@@ -981,7 +981,7 @@ by the same file for WiMAX, LTE, and other technology)
 - Network objects – Sites, Cells, OMEN
 - Visibility – results of Visibility Calculations
 - Optimal Site Position – results of optimal site positioning.
-- Compare predictions – the results of comparing several predictions.
+- [Compare](#kw:98-compare-predictions:ce-pro-rcp) predictions – the results of comparing several predictions.
 - Model Tuning – results of model calibration
 - Radar – results of radar coverage calculations
 - Wi-Fi – results of Wi-Fi coverage calculations
@@ -1019,11 +1019,11 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 ## 6.2 Docs Manager
 
 Docs Manager is a tool for managing Saved Profiles between the transmitter (Tx) and receiver (Rx), which
-are generated in the Profile tool, as well as saved Link Prediction results, Profile Reports, and Link
-Prediction Reports. When a profile is saved in the Profile tool, it is automatically stored in Docs Manager,
+are generated in the [Profile tool](#kw:when-to-use-the-profile-tool:ce-express-profile), as well as saved Link [Prediction results](#kw:viewing-results:ce-express-rf-prediction), Profile Reports, and Link
+Prediction Reports. When a profile is saved in the [Profile tool](#kw:when-to-use-the-profile-tool:ce-express-profile), it is automatically stored in Docs Manager,
 allowing users to reopen it at any time. This ensures that all parameters and calculations related to Tx and
 Rx are preserved for future reference, eliminating the need to reconfigure settings repeatedly. The same
-applies for Link Prediction results, and the Reports can be opened if the original exported document is, for
+applies for Link [Prediction results](#kw:viewing-results:ce-express-rf-prediction), and the Reports can be opened if the original exported document is, for
 example, deleted from Desktop or other saved location.
 How to Find a Saved Profile
 Use the filter option for each field to quickly locate the required profile from the list.
@@ -1062,7 +1062,7 @@ A Profile Report document can be accessed either by double-clicking the desired 
 select it and clicking Open. The document will be opened using your default PDF document reader.
 How to Save a Profile Report
 Profile Report of the current drawn profile can be saved to Docs Manager by selecting Save result to
-Docs Manager in the Export tab of the Profile tool.
+Docs Manager in the Export tab of the [Profile tool](#kw:when-to-use-the-profile-tool:ce-express-profile).
 Confidential ©Cellular Expert, 2026 Page | 52
 
 ---
@@ -1187,7 +1187,7 @@ Z
 Height Above Ground
 Object’s height above the terrain.
 Ground Altitude
-Ground elevation above sea level at the network object's location.
+Ground elevation above sea level at the [network object](#kw:object-types:ce-express-network-objects)'s location.
 Confidential ©Cellular Expert, 2026 Page | 58
 
 ---
@@ -1306,8 +1306,8 @@ Mask form for selected carriers.
 Radio Model
 The radio equipment parameters which is assigned to the Link.
 View Mask
-Opens the Spectrum Masks with the selected spectrum mask patterns.
-Read more about equipment in Radios, Spectrum Masks.
+Opens the [Spectrum Masks](#kw:711-spectrum-masks:none) with the selected spectrum mask patterns.
+Read more about equipment in [Radios](#kw:710-radios:none), Spectrum Masks.
 7.2.2.4 Prediction Models
 Read more about prediction models in Prediction Model Manager.
 This tab lets the user select which prediction model and configuration should be used for calculations.
@@ -1396,11 +1396,11 @@ Z
 Height Above Ground
 Object’s height above the terrain.
 Ground Altitude
-Ground elevation above sea level at the network object's location.
+Ground elevation above sea level at the [network object](#kw:object-types:ce-express-network-objects)'s location.
 Frequency, MHz
 Frequency of the mesh node.
 Antenna
-Define antenna patterns for the mesh node object.
+Define [antenna patterns](#kw:importing-antenna-patterns:ce-express-antenna) for the mesh node object.
 Power, dBm
 Power value of the mesh node.
 Misc Loss, dB
@@ -1421,14 +1421,14 @@ calculations. The default selection is LOS ITU-R P.525 (6GHz – 100GHz) – Def
 
 ## 7.3 Object Editor
 
-The Object Editor enables the user to make changes to a network object after it is created and placed on
+The [Object Editor](#kw:73-object-editor:none) enables the user to make changes to a network object after it is created and placed on
 the map.
 Confidential ©Cellular Expert, 2026 Page | 67
 
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-Choose the button to open the Object Editor dialogue.
+Choose the button to open the [Object Editor](#kw:73-object-editor:none) dialogue.
 Select objects by navigating to the ArcGIS Pro Edit → Selection section and choosing the Select tool. The
 selected objects will appear in the Object Editor in a tree hierarchy.
 To edit one of the selected objects, left-click on that object and the corresponding editing menu will open
@@ -1632,7 +1632,7 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 
 ## 7.5 Antenna Viewer
 
-The Antenna Viewer enables the user to preview the default antennae, compare their vertical and horizontal
+The Antenna Viewer enables the user to preview the default antennae, [compare](#kw:98-compare-predictions:ce-pro-rcp) their vertical and horizontal
 patterns as well as view the values of these patterns in a table.
 Click the button to open the Antenna Viewer. Change Antenna Type to Parabolic.
 You can filter the entries of the Antenna Table by pressing the Filter symbol near one of the field names
@@ -1737,7 +1737,7 @@ coverage planning and regulatory studies. Users can configure environmental para
 resolution settings to match local conditions and improve prediction accuracy.
 LOS ITU-R P.525 Model (6GHz – 100GHz) is the FSL path loss calculated based on the method in
 Recommendation ITU-R P.525 (ref URL). As such it could be used for modelling radio links where LOS is
-considered a necessary condition, e.g., for Fixed (Point-to-Point) Links or Mobile Systems in mmWave
+considered a necessary condition, e.g., for Fixed (Point-to-Point) Links or Mobile Systems in [mmWave](#kw:56-step-8-losonly-prediction-for-mmwave:ce-express-tr-models)
 bands.
 UniMacro Model (400MHz – 3GHz) is the CE’s proprietary combination model developed over the years
 of practical experience with the operational planning of cellular mobile networks in the frequency ranges
@@ -1818,7 +1818,7 @@ as:
 This model integrates core ITU-R recommendations for free-space loss and penetration effects, while
 leveraging 3GPP-specific methods for accurate simulation of indoor multipath, wall attenuation, and
 frequency-dependent fading.
-Purpose and Use Cases
+Purpose and [Use Cases](#kw:use-cases:ce-express-street-view)
 The model is intended for:
 - Indoor wireless access network design (e.g., Wi-Fi, 5G NR, mmWave)
 - System-level simulations for indoor coverage planning
@@ -2051,8 +2051,8 @@ Confidential ©Cellular Expert, 2026 Page | 98
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 7.6.1.3 UniMacro Model
 Model application
-This model is designed for deterministic tracking of the main, strongest radio ray in Line of Sight (LOS)
-areas, while propagation modeling in Obstructed Line of Sight (OLOS) and Non-Line of Sight (NLOS) areas
+This model is designed for deterministic tracking of the main, strongest radio ray in [Line of Sight](#kw:running-a-profile:ce-express-profile) (LOS)
+areas, while propagation modeling in Obstructed [Line of Sight](#kw:running-a-profile:ce-express-profile) (OLOS) and Non-[Line of Sight](#kw:running-a-profile:ce-express-profile) (NLOS) areas
 uses empirically determined parameters defined in ITU-R and 3GPP recommendations. It also models the
 scattering of other rays around the receiver. The model applies empirically validated values for the 400
 MHz to 3 GHz frequency range and is suitable for modeling all cellular mobile and public safety networks,
@@ -2300,7 +2300,7 @@ o 10 m or higher for fixed installations (e.g., rooftop or vehicular antennas).
 to be met or exceeded.
 - Purpose: Reflects the statistical variability of signal propagation due to atmospheric and
 environmental effects.
-- Common Use Cases:
+- Common [Use Cases](#kw:use-cases:ce-express-street-view):
 o 50% time: Typical for general service coverage maps (median conditions).
 o 10% time: Used for high-reliability or interference studies, ensuring signal presence under
 less favorable conditions.
@@ -2606,7 +2606,7 @@ High loss building
 
 ## 7.7 Template Manager
 
-Template Manager allows the user to edit current project templates residing in the various Template tables
+[Template Manager](#kw:77-template-manager:none) allows the user to edit current project templates residing in the various Template tables
 of the default.gdb. The user may change the field values of the templates, create new or detele existing
 templates.
 Templates are essential tools designed to streamline and simplify the configuration process by predefining
@@ -2635,10 +2635,10 @@ The templates are divided into categories:
 - Network Objects – edit and manage network objects (cells, sites, links, etc) templates. Templates
 are divided into different network layers, each network have unique template structure based on
 available parameters in network layer.
-- Modulations – create modulation configurations that can be used for MW links > Radios.
+- Modulations – create modulation configurations that can be used for MW links > [Radios](#kw:710-radios:none).
 - Modulation Editor – create single modulations, which can be used in the Modulations tab.
 7.7.1 Edit Network Objects template
-Click the button to open the Template Manager dialogue. Select one of the opened templates to edit
+Click the button to open the [Template Manager](#kw:77-template-manager:none) dialogue. Select one of the opened templates to edit
 them.
 Confidential ©Cellular Expert, 2026 Page | 114
 
@@ -2824,7 +2824,7 @@ Click the toolbar button and select Import to import antenna patterns. The comma
 dialogue window where the user can select the [antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) files to be imported into the Cellular Expert
 database. Select the antenna type in the dropdown list and proceed.
 Select Files
-This button opens a dialogue in which you can select one or more antenna pattern files to be imported. The
+This button opens a dialogue in which you can select one or more [antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) files to be imported. The
 supported type formats are Planet, Andrew, and NSMA.
 Import Antennas
 Imports the selected Antenna pattern files to the Cellular Expert database.
@@ -3155,7 +3155,7 @@ environmental obstructions. The profile also provides the calculated angles, inc
 (vertical angle between the transmitter and receiver) and the azimuth angle (horizontal direction).
 Additionally, it determines whether a direct line-of-sight exists between the two points.
 This comprehensive information is ready for use, enabling users to assess the feasibility and performance
-of a communication link for network planning, optimization, and troubleshooting.
+of a communication link for network planning, optimization, and [troubleshooting](#kw:troubleshooting-login-issues:ce-express-login).
 Click the button to open the Profile dialogue.
 Profile tool enables you to determine the obstructions, elevation, and Fresnel zones between two points on
 a map.
@@ -3205,7 +3205,7 @@ Height, m
 Height above the ground in meters. The minimum value must be 1m.
 Azimuth towards receiver
 Enabled by default. When enabled, the transmitter’s azimuth is towards the receiver. Disabling this option
-it would take azimuth value from the Cell object, and use it for FWA Power Budget calculations, it also
+it would take azimuth value from the Cell object, and use it for [FWA](#kw:94-fwa-rf-prediction:ce-pro-rcp) Power Budget calculations, it also
 allows the user to enter a custom azimuth value for the transmitter.
 Downtilt towards receiver
 Enabled by default. When enabled, the transmitter’s tilt is towards the receiver. Disabling this option it would
@@ -3286,7 +3286,7 @@ Confidential ©Cellular Expert, 2026 Page | 146
 ---
 
 Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
-The Profile plot illustrating these geometries, obstacles (buildings), and the Fresnel zone will appear in a
+The Profile plot illustrating these geometries, obstacles (buildings), and the [Fresnel zone](#kw:fresnel-zone-clearance:ce-express-profile) will appear in a
 dockpane below. You can inspect the values at particular points by moving the cursor around the plot. The
 cursor movement on the plot will be projected as a moving point on the map. If a cell is selected for the
 transmitter, the cell’s tilt (the sum of mechanical and electrical tilts) and vertical beamwidth are displayed
@@ -3427,7 +3427,7 @@ Load Profile
 Creates the profile with the provided data.
 8.1.5 Export (Profile Report)
 The input data and calculation results can be automatically transferred into a Profile Report. This report
-will show transmitter/receiver input data, calculation results as well as the Profile plot and map view in which
+will show transmitter/receiver input data, calculation results as well as the Profile plot and [map view](#kw:switching-between-views:ce-express-login) in which
 the profile was drawn. The report can be exported in PDF and PL2 formats. The Profile Report can also be
 saved to Docs Manager by selecting Save result to Docs Manager.
 Confidential ©Cellular Expert, 2026 Page | 158
@@ -3467,9 +3467,9 @@ Cellular Expert Desktop RLP for ArcGIS Pro User Guide 4.9
 The task list refreshes automatically once calculation tasks are run. The task status is indicated by three
 main colors: blue (in progress), green (completed), and red (failed). Calculation tasks can be deleted
 from the task list by clicking on the right side of the task. To open a result raster, select it from the results
-dropdown and click Open Results. Filtering by calculation spans these types: Antenna Visibility Prediction,
+dropdown and click Open Results. Filtering by calculation spans these types: Antenna [Visibility Prediction](#kw:92-visibility-prediction:none),
 EMF Calculation, Link Prediction, Model Tuning, Optimal Site Positions Calculation, RF Prediction, Siren
-Sound Prediction, and Visibility Prediction.
+Sound Prediction, and [Visibility Prediction](#kw:92-visibility-prediction:none).
 
 ## 9.2 Visibility Prediction
 

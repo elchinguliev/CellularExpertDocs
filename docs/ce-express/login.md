@@ -1,15 +1,15 @@
 # Logging In to CE Express
 
-[CE Express]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) uses **[ArcGIS Enterprise]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+Enterprise+server+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+deployment)** for authentication. You log in with your [ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform) credentials — the same username and password you use for your organisation's [ArcGIS portal](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+Portal+enterprise+web+GIS).
+[CE Express](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) uses **[ArcGIS Enterprise](https+TLS+secure+protocol)://www.google.com/search?q=ArcGIS+platform)+Enterprise+server+GIS+deployment)** for authentication. You log in with your ArcGIS+platform) credentials — the same username and password you use for your organisation's ArcGIS portal+Portal+enterprise+web+GIS).
 
 ## Steps
 
-1. Open your browser and navigate to the [CE Express](https://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) URL provided by your administrator.
+1. Open your browser and navigate to the [CE Express](#ce-express-overview) URL provided by your administrator.
    Example: `https://cecom2.cellular-expert.com/ce_express/`
 
 2. Click **Login as ArcGIS**.
 
-3. Enter your **[ArcGIS Enterprise](https://www.google.com/search?q=ArcGIS+Enterprise+server+GIS+deployment) username and password**.
+3. Enter your **ArcGIS Enterprise username and password**.
 
 4. On successful login you are taken to the **Network Data Management** view.
 
@@ -19,21 +19,21 @@
 
 If you are logging in for the first time:
 
-- Confirm with your administrator that your ArcGIS account has been granted access to the CE Express application item in the [ArcGIS Portal](https://www.google.com/search?q=ArcGIS+Portal+enterprise+web+GIS).
-- Make sure at least one **[workspace](https://www.google.com/search?q=ArcGIS+workspace+project+geodatabase)** has been created and shared with your account. Without a [workspace](https://www.google.com/search?q=ArcGIS+workspace+project+geodatabase) you cannot run predictions or view [network objects](https://www.google.com/search?q=radio+network+objects+sites+cells+GIS) on the map.
+- Confirm with your administrator that your ArcGIS account has been granted access to the [CE Express](#ce-express-overview) application item in the ArcGIS Portal.
+- Make sure at least one **[workspace](#kw:creating-a-workspace:ce-express-workspace)** has been created and shared with your account. Without a [workspace](#kw:creating-a-workspace:ce-express-workspace) you cannot run predictions or view network objects on the map.
 
 ## Switching Between Views
 
 | View | Purpose |
 |---|---|
 | **Map View** | Interactive map with all CE Express tools |
-| **Network Data Management** | Table view for editing [network object](https://www.google.com/search?q=radio+network+object+GIS+database) attributes |
+| **Network Data Management** | Table view for editing network object attributes |
 
 You can switch between these at any time using the button in the top toolbar.
 
 ## Logging Out
 
-Click your user name or avatar in the top-right corner of the [ArcGIS Portal](https://www.google.com/search?q=ArcGIS+Portal+enterprise+web+GIS) and select **Sign Out**.
+Click your user name or avatar in the top-right corner of the ArcGIS Portal and select **Sign Out**.
 
 ## Troubleshooting Login Issues
 

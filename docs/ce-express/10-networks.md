@@ -37,7 +37,7 @@ Click **New network**:
 | **Feature filter** | By attribute or From selection |
 
 **Filter options:**
-- **By attribute** — filter features by a specific attribute value (e.g., Technology = "[4G](https://www.google.com/search?q=4G+LTE+mobile+network+technology)")
+- **By attribute** — filter features by a specific attribute value (e.g., Technology = "4G")
 - **From selection** — include currently selected objects on the map
 
 ## Running Batch Predictions
@@ -48,15 +48,15 @@ Select a network → click **Calculate** → predictions run for all objects in 
 
 From the Results section of a network:
 - **Open** — display the prediction result layer on the map
-- **[Export]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=data+export+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+raster+vector)** — save result as [GeoTIFF](https://www.google.com/search?q=GeoTIFF+raster+geospatial+format) [raster]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=raster+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+grid+data+format)
+- **[Export](https+TLS+secure+protocol)://www.google.com/search?q=data+export+GIS+raster+vector)** — save result as [GeoTIFF](#geodata-[dem](#geodata-dem)) [raster](https+TLS+secure+protocol)://www.google.com/search?q=raster+GIS+grid+data+format)
 - Toggle result layers on/off
 
 ## Network Publishing Settings
 
 Configure automatic publishing when the network is recalculated:
 1. Open the calculation result layer → configure colour band values
-2. Enable **auto-[publish](https://www.google.com/search?q=publish+layer+[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+Portal+web+map)** in publishing settings
-3. When the network recalculates, results are automatically published to [ArcGIS Portal](https://www.google.com/search?q=ArcGIS+platform)+Portal+enterprise+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)) as a [feature layer](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+feature+layer+web+GIS)
+2. Enable **auto-publish+Portal+web+map)** in publishing settings
+3. When the network recalculates, results are automatically published to ArcGIS Portal+Portal+enterprise+GIS) as a feature layer+feature+layer+web+GIS)
 
 ## Editing a Network
 

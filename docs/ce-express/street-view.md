@@ -1,11 +1,11 @@
 # Street View
 
-The **Street View** tool splits the [CE Express]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) map screen into two panels — the standard map on the left and a street-level view on the right. Use it to visually verify antenna positions, check surroundings, and confirm [site](https://www.google.com/search?q=cell+site+tower+base+station+location) conditions without visiting the location.
+The **Street View** tool splits the [CE Express](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) map screen into two panels — the standard map on the left and a street-level view on the right. Use it to visually verify antenna positions, check surroundings, and confirm site conditions without visiting the location.
 
 ## Opening Street View
 
 Click the **Street View** tool in the left toolbar. The screen divides into:
-- **Left panel** — the normal [CE Express]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) map with all layers and objects
+- **Left panel** — the normal [CE Express](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) map with all layers and objects
 - **Right panel** — a street-level panoramic view at the selected point
 
 ## Navigating Street View
@@ -21,11 +21,11 @@ Click the **Street View** tool in the left toolbar. The screen divides into:
 
 ### Verifying Antenna Position
 
-Click on a [cell](https://www.google.com/search?q=mobile+cell+sector+coverage+base+station) on the map. The street view shows the surroundings at that location, helping you confirm the antenna is positioned where expected and at roughly the right height.
+Click on a cell on the map. The street view shows the surroundings at that location, helping you confirm the antenna is positioned where expected and at roughly the right height.
 
 ### Checking Obstructions
 
-Navigate around the [site](https://www.google.com/search?q=cell+site+tower+base+station+location) in street view to identify tall buildings, trees, or other structures that may block coverage and are not fully captured in the [DTM](https://www.google.com/search?q=DTM+Digital+Terrain+Model).
+Navigate around the site in street view to identify tall buildings, trees, or other structures that may block coverage and are not fully captured in the [DTM](#geodata-dem).
 
 ### Site Survey Support
 
@@ -39,9 +39,9 @@ Click the **Street View** tool again to close the panel and return to the full-w
 
 - Street View imagery is sourced from mapping providers and may not reflect recent construction or changes at the site.
 - Coverage is limited to areas with available street-level imagery.
-- The tool does not use the CE Express geodata — it shows real-world imagery only.
+- The tool does not use the [CE Express](#ce-express-overview) geodata — it shows real-world imagery only.
 
 ## Related Pages
 
-- [Network Objects](network-objects.md) — viewing and editing [cell](https://www.google.com/search?q=mobile+cell+sector+coverage+base+station) positions
+- [Network Objects](network-objects.md) — viewing and editing cell positions
 - [RF Prediction](rf-prediction.md) — understanding coverage in context of the surroundings

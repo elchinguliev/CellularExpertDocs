@@ -13,32 +13,32 @@ related:
 
 # Introduction to Cellular Expert Express
 
-Cellular Expert Express ([CE Express](https://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform)) is a **web-based** telecommunication [network planning]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=telecom+network+planning+optimization), optimization, and data management solution built on **Esri [ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+GIS+platform) Enterprise**.
+Cellular Expert Express ([CE Express](#ce-express-overview)) is a **web-based** telecommunication [network planning](https+TLS+secure+protocol)://www.google.com/search?q=telecom+network+planning+optimization), optimization, and data management solution built on **Esri ArcGIS Enterprise**.
 
-[CE Express]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) is the merged **Inventory 3D** and **Cellular Expert Express** solution in one product:
+[CE Express](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) is the merged **Inventory 3D** and **Cellular Expert Express** solution in one product:
 - **Inventory 3D** — data management (sites, assets, equipment inventory)
-- **[CE Express](https://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform)** — [network planning](https://www.google.com/search?q=telecom+network+planning+optimization), RF calculations, optimization, analysis
+- **[CE Express](#ce-express-overview)** — network planning, RF calculations, optimization, analysis
 
-From a desktop, laptop, or tablet with internet access, users connect to a central server and can edit database records, manage [network objects](https://www.google.com/search?q=radio+network+objects+sites+cells+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)), and run RF calculations — **without installing any local [GIS](https://www.google.com/search?q=GIS+Geographic+Information+System) software**.
+From a desktop, laptop, or tablet with internet access, users connect to a central server and can edit database records, manage network objects), and run RF calculations — **without installing any local GIS software**.
 
 ## Key Capabilities
 
 | Capability | Description |
 |-----------|-------------|
-| RF [Coverage Prediction](https://www.google.com/search?q=coverage+prediction+RF+radio+planning) | Signal level, [RSRP](https://www.google.com/search?q=RSRP+Reference+Signal+Received+Power+LTE+4G), [RSRQ](https://www.google.com/search?q=RSRQ+Reference+Signal+Received+Quality+LTE+4G), [SINR](https://www.google.com/search?q=SINR+Signal+to+Interference+Noise+Ratio), [throughput](https://www.google.com/search?q=network+throughput+downlink+uplink+[capacity](https://www.google.com/search?q=network+capacity+planning+telecom)) maps |
-| 3D [RF Prediction](https://www.google.com/search?q=RF+radio+frequency+prediction+coverage+planning) | Full 3D propagation with building data |
-| [Quick RF Prediction](https://www.google.com/search?q=Quick+RF+Prediction+what+if+testing+CE+Express) | Rapid what-if testing without [DB](https://www.google.com/search?q=dB+decibel+signal+measurement+unit) changes |
-| [Microwave](https://www.google.com/search?q=microwave+[backhaul](https://www.google.com/search?q=backhaul+microwave+telecom+network)+radio+link+planning) / [Radio Link](https://www.google.com/search?q=radio+link+[microwave](https://www.google.com/search?q=microwave+[backhaul](https://www.google.com/search?q=backhaul+microwave+telecom+network)+radio+link+planning)+point+to+point) | Link budgets, path profiles, [rain fade](https://www.google.com/search?q=rain+fade+attenuation+microwave+link), [availability](https://www.google.com/search?q=link+availability+percentage+microwave+ITU) |
-| Network Optimization | [Best server](https://www.google.com/search?q=best+server+analysis+coverage+planning+RF), [interference](https://www.google.com/search?q=radio+interference+co+channel+adjacent), C/I analysis |
-| [Mesh Network](https://www.google.com/search?q=mesh+network+wireless+topology) Planning | Connectivity, [automatic frequency planning](https://www.google.com/search?q=Automatic+Frequency+Planning+[AFP](https://www.google.com/search?q=Automatic+Frequency+Planning+radio+network)+[interference](https://www.google.com/search?q=radio+interference+co+channel+adjacent)) |
-| [Line of Sight](https://www.google.com/search?q=Line+of+Sight+LOS+radio+propagation) / Profile | [Terrain](https://www.google.com/search?q=terrain+elevation+model+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+topography) cross-sections, Fresnel zones |
+| [RF Coverage](#ce-express-rf-prediction) Prediction | Signal level, RSRP, RSRQ, SINR, throughput) maps |
+| 3D [RF Prediction](#ce-express-rf-prediction) | Full 3D propagation with building data |
+| [Quick RF Prediction](#kw:quick-rf-prediction-vs-full-rf-prediction:ce-express-rf-prediction) | Rapid what-if testing without DB changes |
+| Microwave+radio+link+planning) / Radio Link+radio+link+planning)+point+to+point) | Link budgets, path profiles, [rain fade](#kw:geoclimatic-data:ce-express-radio-link), availability |
+| Network Optimization | Best server, interference, C/I analysis |
+| Mesh Network Planning | Connectivity, automatic frequency planning+interference) |
+| [Line of Sight](#ce-express-profile) / Profile | Terrain+topography) cross-sections, Fresnel zones |
 | Visibility Prediction | Radar and antenna visibility analysis |
-| Indoor Planning | In-building [signal propagation](https://www.google.com/search?q=signal+propagation+radio+wave) |
-| Sound Propagation | [Siren](https://www.google.com/search?q=siren+audibility+sound+propagation+ISO9613) audibility, [acoustic](https://www.google.com/search?q=acoustic+propagation+sound+wave+modeling) analysis ([ISO9613](https://www.google.com/search?q=ISO+9613+acoustic+propagation+standard)) |
-| Light / [Lux](https://www.google.com/search?q=lux+light+intensity+measurement+unit) Prediction | [Lighting](https://www.google.com/search?q=lighting+design+[lux](https://www.google.com/search?q=lux+light+intensity+measurement+unit)+calculation+photometry) design calculations |
-| [EMF](https://www.google.com/search?q=EMF+electromagnetic+field+exposure+assessment) Analysis | [Electromagnetic field](https://www.google.com/search?q=electromagnetic+field+[EMF](https://www.google.com/search?q=EMF+electromagnetic+field+exposure+assessment)+exposure+limits) compliance |
-| [Model Tuning](https://www.google.com/search?q=propagation+model+tuning+calibration+drive+test) | Calibrate [propagation models](https://www.google.com/search?q=radio+propagation+models+comparison+telecom) against drive-test data |
-| [Optimal Placement](https://www.google.com/search?q=optimal+[site](https://www.google.com/search?q=cell+site+tower+base+station+location)+placement+RF+planning+CE) | Find best [site](https://www.google.com/search?q=cell+site+tower+base+station+location) locations automatically |
+| Indoor Planning | In-building signal propagation |
+| Sound Propagation | Siren audibility, acoustic analysis (ISO9613) |
+| Light / Lux Prediction | Lighting+calculation+photometry) design calculations |
+| EMF Analysis | Electromagnetic field+exposure+limits) compliance |
+| [Model Tuning](#kw:model-tuning-calibration:ce-express-prediction-models) | Calibrate [propagation models](#kw:prediction-models:ce-express-prediction-models) against drive-test data |
+| Optimal Placement+placement+RF+planning+CE) | Find best site locations automatically |
 
 ## Architecture
 
@@ -54,15 +54,15 @@ PostgreSQL + PostGIS Database
 CE Calculation Engine (multi-threaded C++, optional GPU)
 ```
 
-> CE Express is **not** intended to replicate [CE Desktop](https://www.google.com/search?q=Cellular+Expert+CE+Desktop+ArcGIS+Pro) Pro feature-for-feature. It provides a simplified, task-oriented interface for shared workflows.
+> CE Express is **not** intended to replicate [CE Desktop](#ce-pro-rcp) Pro feature-for-feature. It provides a simplified, task-oriented interface for shared workflows.
 
 ## Supported Browsers
 
-- **[Google Chrome](https://www.google.com/search?q=Google+Chrome+web+browser)** (recommended — latest version)
-- Mozilla [Firefox](https://www.google.com/search?q=Mozilla+Firefox+web+browser)
+- **Google Chrome** (recommended — latest version)
+- Mozilla Firefox
 - Microsoft Edge
 
-> All communication uses **HTTPS only**. [HTTP](https://www.google.com/search?q=HTTP+HyperText+Transfer+Protocol) is not supported.
+> All communication uses **HTTPS only**. HTTP is not supported.
 
 ## Related Topics
 

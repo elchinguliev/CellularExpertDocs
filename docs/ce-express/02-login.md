@@ -15,27 +15,27 @@ related:
 
 ## Accessing the Application
 
-Open [CE Express]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) by typing its URL in your web browser:
+Open [CE Express](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) by typing its URL in your web browser:
 
 ```
 https://<yourdomain>/ceexp
 ```
 
-The URL is configured by your administrator. [CE Express]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) **requires HTTPS** — [HTTP](https://www.google.com/search?q=HTTP+HyperText+Transfer+Protocol) is not supported.
+The URL is configured by your administrator. [CE Express](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) **requires HTTPS** — HTTP is not supported.
 
 ## Login Methods
 
-CE Express offers two login options:
+[CE Express](#ce-express-overview) offers two login options:
 
 ### 1. Login with __S2__ (Recommended)
 
-Click **Login as [ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)** to authenticate with your [ArcGIS Enterprise](https://www.google.com/search?q=ArcGIS+Enterprise+server+deployment) organization account.
+Click **Login as ArcGIS+platform)** to authenticate with your ArcGIS Enterprise organization account.
 
 **This gives access to:**
 - Network Data Management view (database tables)
 - Map view (RF calculations, analysis tools, visualization)
 
-An [ArcGIS Portal](https://www.google.com/search?q=ArcGIS+Portal+enterprise+GIS) account is required. Contact your administrator if you do not have one.
+An ArcGIS Portal account is required. Contact your administrator if you do not have one.
 
 ### 2. Login with Express Account
 
@@ -45,20 +45,20 @@ Click **Login with Express account** to use a Cellular Expert Express local acco
 - Network Data Management view only
 - Database tables, records, and data management
 
-> To access the Map view with an Express account, you will need to also log in with [ArcGIS Enterprise](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+Enterprise+server+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)) credentials later.
+> To access the Map view with an Express account, you will need to also log in with ArcGIS Enterprise+platform)+Enterprise+server+GIS) credentials later.
 
 ## Password Management
 
 - **Reset password:** Click **Reset password** on the login page. Requires the server to be configured as a mail server.
-- **Forgot [ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+GIS+platform) password:** Click **Forgot password** to recover via [ArcGIS Enterprise](https://www.google.com/search?q=ArcGIS+Enterprise+server+GIS+deployment).
+- **Forgot ArcGIS password:** Click **Forgot password** to recover via ArcGIS Enterprise.
 
-> Contact your CE Express administrator if you cannot log in or do not have credentials.
+> Contact your [CE Express](#ce-express-overview) administrator if you cannot log in or do not have credentials.
 
 ## After Login
 
 After successful authentication, the **Network Data Management** view opens, showing all workspaces available to your user group.
 
-To open the Map view: select a [workspace](https://www.google.com/search?q=ArcGIS+workspace+project+geodatabase) from the list → the Map view loads with that [workspace](https://www.google.com/search?q=ArcGIS+workspace+project+geodatabase) active.
+To open the Map view: select a [workspace](#kw:creating-a-workspace:ce-express-workspace) from the list → the Map view loads with that [workspace](#kw:creating-a-workspace:ce-express-workspace) active.
 
 ## Logging Out
 

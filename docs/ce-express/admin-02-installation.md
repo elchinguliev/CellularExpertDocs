@@ -14,27 +14,27 @@ related:
 
 ## Prerequisites
 
-Before installing [CE Express]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform), ensure the following are installed and configured:
+Before installing [CE Express](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform), ensure the following are installed and configured:
 
 ### 1. __S23__ Server
-- [ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform) Server 10.9.1 or later
+- ArcGIS+platform) Server 10.9.1 or later
 - Configured and licensed
-- [Site](https://www.google.com/search?q=cell+site+tower+base+station+location) created and accessible
+- Site created and accessible
 
 ### 2. __S25__
-- [PostgreSQL](https://www.google.com/search?q=PostgreSQL+database+open+source) 13+ with **[PostGIS]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=PostGIS+PostgreSQL+spatial+extension)** extension installed
+- PostgreSQL 13+ with **[PostGIS](https+TLS+secure+protocol)://www.google.com/search?q=PostGIS+PostgreSQL+spatial+extension)** extension installed
 - Database user with CREATE privileges
 - Remote connections enabled (pg_hba.conf)
 
 ### 3. __S27__ Server
-- [PHP](https://www.google.com/search?q=PHP+server+side+scripting) 7.4 or later
+- PHP 7.4 or later
 - Extensions: `pdo_pgsql`, `curl`, `json`, `mbstring`
 
 ## Installation Steps
 
 ### Step 1: Accept Terms and Conditions
 
-Run the [CE Express](https://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) installer as **Administrator**. Accept the software license agreement.
+Run the [CE Express](#ce-express-overview) installer as **Administrator**. Accept the software license agreement.
 
 ### Step 2: Prepare Installation Folders
 
@@ -67,9 +67,9 @@ $server_url = 'https://your-server/server';
 
 ### Step 4: Configure Database
 
-Edit `ce_express_db_config.php` with [PostgreSQL](https://www.google.com/search?q=PostgreSQL+database+open+source) connection details.
+Edit `ce_express_db_config.php` with PostgreSQL connection details.
 
-Run the CE Express database setup script:
+Run the [CE Express](#ce-express-overview) database setup script:
 
 ```sql
 -- Creates CE Express schema
@@ -85,11 +85,11 @@ Run the CE Express database setup script:
 
 ### Step 6: Enable SSL (Recommended)
 
-Configure your web server to enforce [HTTPS](https://www.google.com/search?q=HTTPS+SSL+TLS+secure+protocol):
+Configure your web server to enforce HTTPS:
 
-**[IIS](https://www.google.com/search?q=Microsoft+IIS+Internet+Information+Services+web+server):** Enable SSL certificate → Require SSL in [site](https://www.google.com/search?q=cell+site+tower+base+station+location) bindings
+**IIS:** Enable SSL certificate → Require SSL in site bindings
 
-**[Nginx](https://www.google.com/search?q=Nginx+web+server+reverse+proxy):**
+**Nginx:**
 ```nginx
 server {
     listen 443 ssl;
@@ -101,10 +101,10 @@ server {
 
 ### Step 7: Configure __S30__ Publishing (Optional)
 
-To allow CE Express to [publish](https://www.google.com/search?q=publish+layer+[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+Portal+web+map) layers to [ArcGIS Portal](https://www.google.com/search?q=ArcGIS+Portal+enterprise+web+GIS):
-1. Create a dedicated [ArcGIS Portal](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+Portal+enterprise+web+GIS) service account for CE Express
+To allow CE Express to publish+platform)+Portal+web+map) layers to ArcGIS Portal:
+1. Create a dedicated ArcGIS Portal+platform)+Portal+enterprise+web+GIS) service account for CE Express
 2. Edit `ce_express_config.php` → set `$portal_user` and `$portal_pass`
-3. Test: CE Express → Features → [Publish](https://www.google.com/search?q=publish+layer+ArcGIS+Portal+web+map) → verify layer appears in Portal
+3. Test: CE Express → Features → Publish → verify layer appears in Portal
 
 ### Step 8: Configure Email Notifications (Optional)
 
@@ -114,15 +114,15 @@ For password reset and ticket notifications:
 
 ### Step 9: Create Database Structure (__S32__)
 
-Run the [Inventory3D](https://www.google.com/search?q=Cellular+Expert+Inventory3D+asset+management) database initialization:
+Run the [Inventory3D](#inventory3d-user-guide) database initialization:
 ```bash
 php ce_inventory3d_setup.php
 ```
 
 ### Step 10: Install Inventory3D Web Application
 
-Copy [Inventory3D](https://www.google.com/search?q=Cellular+Expert+Inventory3D+asset+management) web application package to the web server folder.
-Register in [ArcGIS Portal](https://www.google.com/search?q=ArcGIS+Portal+enterprise+web+GIS) as a web application.
+Copy [Inventory3D](#inventory3d-user-guide) web application package to the web server folder.
+Register in ArcGIS Portal as a web application.
 
 ## CE Inventory3D Folder Structure
 
@@ -139,8 +139,8 @@ CEInventory3D\
 1. Open `https://your-server/ceexp` in Chrome
 2. Log in with ArcGIS credentials
 3. Verify Map view loads
-4. Create a test [workspace](https://www.google.com/search?q=ArcGIS+workspace+project+geodatabase)
-5. Run a test [RF prediction](https://www.google.com/search?q=RF+radio+frequency+prediction+coverage+planning)
+4. Create a test [workspace](#kw:creating-a-workspace:ce-express-workspace)
+5. Run a test [RF prediction](#ce-express-rf-prediction)
 
 ## Related Topics
 

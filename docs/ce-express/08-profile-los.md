@@ -13,7 +13,7 @@ related:
 
 # __S0__ and Profile Analysis
 
-The **Profile** tool computes [terrain]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=terrain+elevation+model+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+topography) cross-sections and checks whether two points have a clear radio path.
+The **Profile** tool computes [terrain](https+TLS+secure+protocol)://www.google.com/search?q=terrain+elevation+model+GIS+topography) cross-sections and checks whether two points have a clear radio path.
 
 ## Opening the Profile Tool
 
@@ -23,11 +23,11 @@ Click **Profile** in the left toolbar.
 
 1. Click **Draw Profile** in the tool panel
 2. Click two points on the map (start and end)
-3. [CE Express](https://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) computes the [terrain profile]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=[terrain](https://www.google.com/search?q=terrain+elevation+model+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+topography)+profile+[elevation](https://www.google.com/search?q=elevation+model+terrain+height+datum)+radio+link) using the loaded [DEM](https://www.google.com/search?q=DEM+Digital+Elevation+Model+terrain)
+3. [CE Express](#ce-express-overview) computes the [terrain profile](https+TLS+secure+protocol)://www.google.com/search?q=terrain+topography)+profile+elevation+radio+link) using the loaded [DEM](#geodata-dem)
 
 Alternatively:
-- Select two existing [network objects](https://www.google.com/search?q=radio+network+objects+sites+cells+GIS) → Profile is drawn between them
-- [Import](https://www.google.com/search?q=data+import+GIS+network+objects+[CSV](https://www.google.com/search?q=CSV+comma+separated+values+file+format)) profile endpoints from a file
+- Select two existing network objects → Profile is drawn between them
+- Import) profile endpoints from a file
 
 ## Profile Properties
 
@@ -35,11 +35,11 @@ Configure before drawing:
 
 | Property | Description |
 |----------|-------------|
-| **Frequency ([MHz](https://www.google.com/search?q=MHz+megahertz+frequency+unit))** | Affects [Fresnel zone](https://www.google.com/search?q=Fresnel+zone+radio+link+clearance) radius calculation |
-| **[K-factor](https://www.google.com/search?q=K+factor+earth+bulge+radio+propagation)** | Earth curvature correction. Default: 4/3 (standard atmosphere). Use 2/3 for worst-case [diffraction](https://www.google.com/search?q=radio+diffraction+obstacle+propagation). |
-| **Antenna height A** | Height at start point (m [AGL](https://www.google.com/search?q=AGL+Above+Ground+Level+height+measurement)) |
-| **Antenna height B** | Height at end point (m [AGL](https://www.google.com/search?q=AGL+Above+Ground+Level+height+measurement)) |
-| **[DEM](https://www.google.com/search?q=DEM+Digital+Elevation+Model+terrain+raster) source** | Terrain dataset to use |
+| **Frequency (MHz)** | Affects [Fresnel zone](#ce-express-profile) radius calculation |
+| **K-factor** | Earth curvature correction. Default: 4/3 (standard atmosphere). Use 2/3 for worst-case diffraction. |
+| **Antenna height A** | Height at start point (m AGL) |
+| **Antenna height B** | Height at end point (m AGL) |
+| **[DEM](#geodata-dem) source** | Terrain dataset to use |
 
 ## Profile Results
 
@@ -47,10 +47,10 @@ The profile chart shows:
 
 | Element | Description |
 |---------|-------------|
-| **Terrain cross-section** | [Elevation](https://www.google.com/search?q=elevation+model+terrain+height+datum) profile along the path |
-| **[Line of sight](https://www.google.com/search?q=Line+of+Sight+[LOS](https://www.google.com/search?q=LOS+Line+of+Sight+radio+propagation)+radio+propagation)** | Direct path between antennas |
-| **Fresnel zones** | 1st (and higher) [Fresnel zone](https://www.google.com/search?q=Fresnel+zone+radio+link+clearance) ellipses |
-| **[Earth bulge](https://www.google.com/search?q=earth+bulge+curvature+radio+link)** | Earth curvature correction (based on [K-factor](https://www.google.com/search?q=K+factor+earth+bulge+radio+propagation)) |
+| **Terrain cross-section** | Elevation profile along the path |
+| **[Line of sight](#ce-express-profile)+radio+propagation)** | Direct path between antennas |
+| **Fresnel zones** | 1st (and higher) [Fresnel zone](#ce-express-profile) ellipses |
+| **Earth bulge** | Earth curvature correction (based on K-factor) |
 | **Obstacles** | Terrain or building obstructions |
 | **Clearance** | Vertical clearance above terrain at critical points |
 
@@ -58,11 +58,11 @@ The profile chart shows:
 
 | Indicator | Meaning |
 |-----------|---------|
-| 🟢 Green | Clear [LOS](https://www.google.com/search?q=LOS+Line+of+Sight+radio+propagation) — 1st [Fresnel zone](https://www.google.com/search?q=Fresnel+zone+radio+link+clearance+calculation) fully clear |
-| 🟡 Yellow | Marginal — 1st [Fresnel zone](https://www.google.com/search?q=Fresnel+zone+radio+link+clearance+calculation) partially obstructed |
+| 🟢 Green | Clear LOS — 1st Fresnel zone fully clear |
+| 🟡 Yellow | Marginal — 1st Fresnel zone partially obstructed |
 | 🔴 Red | Obstructed — direct path blocked |
 
-> For [microwave](https://www.google.com/search?q=microwave+[backhaul](https://www.google.com/search?q=backhaul+microwave+telecom+network)+radio+link+planning) links, the 1st Fresnel zone should be **at least 60% clear** for acceptable performance.
+> For microwave+radio+link+planning) links, the 1st Fresnel zone should be **at least 60% clear** for acceptable performance.
 
 ## Profile Tools
 
@@ -72,7 +72,7 @@ The profile chart shows:
 
 ## Exporting the Profile
 
-Click **[Export](https://www.google.com/search?q=data+export+GIS+raster+vector)** (Profile Report) to generate a PDF report containing:
+Click **Export** (Profile Report) to generate a PDF report containing:
 - Profile chart
 - Fresnel zone analysis
 - Link parameters summary
@@ -87,7 +87,7 @@ Configure display options:
 
 ## Import
 
-[Import](https://www.google.com/search?q=data+import+GIS+network+objects+[CSV](https://www.google.com/search?q=CSV+comma+separated+values+file+format)) profile endpoints from coordinates ([CSV](https://www.google.com/search?q=CSV+comma-separated+values+file+format)) or from existing [network objects](https://www.google.com/search?q=radio+network+objects+sites+cells+GIS).
+Import) profile endpoints from coordinates (CSV) or from existing network objects.
 
 ## Related Topics
 

@@ -1,35 +1,35 @@
 # Network Objects
 
-[Network objects]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=radio+network+objects+sites+cells+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)) are the radio infrastructure elements managed in [CE Express]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform): **sites**, **cells**, and **repeaters**. All objects are stored in the [PostgreSQL](https://www.google.com/search?q=PostgreSQL+database+open+source) database and are visible on the map when a [workspace](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+workspace+project+geodatabase) is selected.
+[Network objects](https+TLS+secure+protocol)://www.google.com/search?q=radio+network+objects+sites+cells+GIS) are the radio infrastructure elements managed in [CE Express](https+TLS+secure+protocol)://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform): **sites**, **cells**, and **repeaters**. All objects are stored in the PostgreSQL database and are visible on the map when a [workspace](#kw:creating-a-workspace:ce-express-workspace)+platform)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase) is selected.
 
 ## Object Types
 
 | Type | Description |
 |---|---|
-| **[Site](https://www.google.com/search?q=cell+site+tower+base+station+location)** | A physical location (tower, rooftop, pole) that hosts one or more cells |
-| **[Cell](https://www.google.com/search?q=mobile+cell+sector+coverage+base+station)** | A single radio [sector](https://www.google.com/search?q=[cell](https://www.google.com/search?q=mobile+cell+sector+coverage+base+station)+sector+antenna+coverage+area) — one antenna with defined position, direction, frequency, and power |
-| **[Repeater](https://www.google.com/search?q=radio+repeater+signal+booster+telecom)** | A signal booster that receives and retransmits a cell's signal |
+| **Site** | A physical location (tower, rooftop, pole) that hosts one or more cells |
+| **Cell** | A single radio sector+sector+antenna+coverage+area) — one antenna with defined position, direction, frequency, and power |
+| **Repeater** | A signal booster that receives and retransmits a cell's signal |
 
 ## Required Cell Attributes
 
 | Attribute | Description |
 |---|---|
 | `cell_name` | Unique identifier for the cell |
-| `latitude` | [WGS84](https://www.google.com/search?q=WGS84+geographic+coordinate+system) decimal degrees (e.g. 54.6872) |
-| `longitude` | [WGS84](https://www.google.com/search?q=WGS84+World+Geodetic+System+coordinate) decimal degrees (e.g. 25.2797) |
+| `latitude` | WGS84 decimal degrees (e.g. 54.6872) |
+| `longitude` | WGS84 decimal degrees (e.g. 25.2797) |
 
 ## Common Optional Attributes
 
 | Attribute | Description |
 |---|---|
-| `site_name` | Parent [site](https://www.google.com/search?q=cell+site+tower+base+station+location) name |
-| `height` | Antenna [height above ground](https://www.google.com/search?q=height+above+ground+[AGL](https://www.google.com/search?q=AGL+Above+Ground+Level+height+measurement)+antenna) (metres) |
+| `site_name` | Parent site name |
+| `height` | Antenna height above ground+antenna) (metres) |
 | `azimuth` | Horizontal direction the antenna faces (0–360°, clockwise from north) |
-| `tilt` | Vertical [downtilt](https://www.google.com/search?q=antenna+downtilt+mechanical+electrical+degrees) angle (degrees) |
-| `frequency_mhz` | Operating frequency in [MHz](https://www.google.com/search?q=MHz+megahertz+frequency+unit) (e.g. 1800, 2100, 3500) |
-| `power_dbm` | [Transmit power](https://www.google.com/search?q=transmit+power+[dBm](https://www.google.com/search?q=dBm+decibel+milliwatt+power+unit)+radio+antenna) in [dBm](https://www.google.com/search?q=dBm+decibel+milliwatt+power+unit) |
+| `tilt` | Vertical downtilt angle (degrees) |
+| `frequency_mhz` | Operating frequency in MHz (e.g. 1800, 2100, 3500) |
+| `power_dbm` | Transmit power+radio+antenna) in dBm |
 | `technology` | Radio technology: `2G`, `3G`, `4G`, or `5G` |
-| `antenna_pattern` | Name of the assigned [antenna pattern](https://www.google.com/search?q=antenna+radiation+pattern+format) file |
+| `antenna_pattern` | Name of the assigned [antenna pattern](#kw:antenna-patterns:ce-express-antenna) file |
 
 ## Adding Objects Manually
 
@@ -42,11 +42,11 @@
 
 ## Importing Objects from CSV
 
-Bulk [import](https://www.google.com/search?q=data+import+GIS+network+objects+[CSV](https://www.google.com/search?q=CSV+comma+separated+values+file+format)) is the fastest way to add many cells at once.
+Bulk import) is the fastest way to add many cells at once.
 
 1. Open **Network Data Management**.
-2. Click **[Import](https://www.google.com/search?q=data+import+GIS+network+objects+[CSV](https://www.google.com/search?q=CSV+comma+separated+values+file+format))**.
-3. Select your CSV file. The file must have a header row with column names matching [CE Express](https://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) field names.
+2. Click **Import)**.
+3. Select your CSV file. The file must have a header row with column names matching [CE Express](#ce-express-overview) field names.
 4. Map any columns that don't match automatically.
 5. Click **Import**.
 6. Click **Synchronize Changes** to confirm.
@@ -90,7 +90,7 @@ Switch to Network Data Management, find the row, and click any cell to edit it. 
 
 1. Select the objects to duplicate (use Rectangle Selection for multiple).
 2. Click **Duplicate selected objects**.
-3. Choose the target [workspace](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+workspace+project+geodatabase) from the dropdown.
+3. Choose the target workspace+workspace+project+geodatabase) from the dropdown.
 4. Set the new position by clicking the map or entering coordinates.
 5. Click **Accept**.
 
@@ -98,7 +98,7 @@ Switch to Network Data Management, find the row, and click any cell to edit it. 
 
 Select the object → right-click → **Delete**, or select the row in Network Data Management and click **Delete Record**.
 
-> In [Inventory3D](https://www.google.com/search?q=Cellular+Expert+Inventory3D+asset+management), permanent deletion requires the **Delete Object Permanently** admin function. Standard deletion in CE Express moves objects to a soft-deleted state.
+> In [Inventory3D](#inventory3d-user-guide), permanent deletion requires the **Delete Object Permanently** admin function. Standard deletion in [CE Express](#ce-express-overview) moves objects to a soft-deleted state.
 
 ## Selecting Multiple Objects
 

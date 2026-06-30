@@ -12,23 +12,23 @@ related:
 
 # User Management
 
-Administrators manage users through the **CE [Inventory3D](https://www.google.com/search?q=Cellular+Expert+Inventory3D+asset+management) web application admin interface**.
+Administrators manage users through the **CE [Inventory3D](#inventory3d-user-guide) web application admin interface**.
 
 ## User Roles
 
 | Role | Access | Capabilities |
 |------|--------|-------------|
 | **Admin** | Full | All settings, user management, system config, all workspaces |
-| **Editor** | Map + Data | Add/edit/delete objects, run predictions, manage own [workspace]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=[ArcGIS]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+workspace+project+geodatabase) objects |
+| **Editor** | Map + Data | Add/edit/delete objects, run predictions, manage own [workspace](https+TLS+secure+protocol)://www.google.com/search?q=[ArcGIS](https+TLS+secure+protocol)://www.google.com/search?q=ArcGIS+Esri+GIS+platform)+[workspace](#kw:creating-a-workspace:ce-express-workspace)+project+geodatabase) objects |
 | **Planner** | Map + Calculations | Run predictions, view data, limited editing |
 | **Viewer** | Read-only | View map and data, no editing or predictions |
 
 ## Adding a User
 
 1. Admin Panel → **User Management** → **Add User**
-2. Enter: Username, Email, Password (or [ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+GIS+platform) account link)
+2. Enter: Username, Email, Password (or ArcGIS account link)
 3. Select **Role**
-4. Assign **[Workspace](https://www.google.com/search?q=[ArcGIS](https://www.google.com/search?q=ArcGIS+Esri+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+platform)+workspace+project+geodatabase) access** (which workspaces the user can see)
+4. Assign **[Workspace](#kw:creating-a-workspace:ce-express-workspace)+platform)+workspace+project+geodatabase) access** (which workspaces the user can see)
 5. Click **Save**
 
 ## Assigning Workspace Access
@@ -56,7 +56,7 @@ Or the user can use **Reset password** on the login page (requires email configu
 
 ### __S3__+platform) Account
 
-Use [ArcGIS Portal](https://www.google.com/search?q=ArcGIS+Portal+enterprise+GIS) admin tools to reset. [CE Express](https://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) does not manage ArcGIS passwords.
+Use ArcGIS Portal admin tools to reset. [CE Express](#ce-express-overview) does not manage ArcGIS passwords.
 
 ## License Management
 
@@ -70,7 +70,7 @@ Admin Panel → **License Manager**:
 Admin Panel → **History**:
 - View all user actions (object creation, edits, deletions, predictions)
 - Filter by user, date, action type
-- [Export](https://www.google.com/search?q=data+export+GIS+raster+vector) to [CSV](https://www.google.com/search?q=CSV+comma-separated+values+file+format)
+- Export to CSV
 
 ## Related Topics
 

@@ -1,42 +1,42 @@
 # Antenna Patterns
 
-An [antenna pattern](https://www.google.com/search?q=antenna+radiation+pattern+format) file describes how an antenna radiates power in different directions — both horizontally ([azimuth]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=antenna+azimuth+direction+degrees+north)) and vertically ([elevation]([https](https://www.google.com/search?q=HTTPS+[SSL](https://www.google.com/search?q=SSL+Secure+Sockets+Layer+encryption)+[TLS](https://www.google.com/search?q=TLS+Transport+Layer+Security)+secure+protocol)://www.google.com/search?q=elevation+model+[terrain](https://www.google.com/search?q=terrain+elevation+model+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+topography)+height+datum)). [CE Express](https://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) uses these patterns to calculate accurate RF predictions rather than assuming an idealised omnidirectional antenna.
+An [antenna pattern](#kw:antenna-patterns:ce-express-antenna) file describes how an antenna radiates power in different directions — both horizontally ([azimuth](https+TLS+secure+protocol)://www.google.com/search?q=antenna+azimuth+direction+degrees+north)) and vertically ([elevation](https+TLS+secure+protocol)://www.google.com/search?q=elevation+model+terrain+topography)+height+datum)). [CE Express](#ce-express-overview) uses these patterns to calculate accurate RF predictions rather than assuming an idealised omnidirectional antenna.
 
 ## Supported Formats
 
 | Format | Extension | Notes |
 |---|---|---|
-| [MSI Planet](https://www.google.com/search?q=MSI+Planet+antenna+pattern+format) | `.msi` | Most common format from antenna vendors |
+| [MSI Planet](#kw:antenna-patterns:ce-express-antenna) | `.msi` | Most common format from antenna vendors |
 | Kathrein | `.txt` | Text-based pattern format |
 
-Most antenna manufacturers (Kathrein, Commscope, [Ericsson](https://www.google.com/search?q=Ericsson+telecom+network+vendor), Nokia, [Huawei](https://www.google.com/search?q=Huawei+telecom+network+equipment)) provide patterns in .msi format on their websites or on [Antenna DL](https://www.antenna-dl.com).
+Most antenna manufacturers (Kathrein, Commscope, Ericsson, Nokia, Huawei) provide patterns in .msi format on their websites or on [Antenna DL](https://www.antenna-dl.com).
 
 ## Importing Antenna Patterns
 
 1. Open the **Antennas** tool from the left toolbar.
-2. Click **[Import](https://www.google.com/search?q=data+import+[GIS](https://www.google.com/search?q=GIS+Geographic+Information+System)+network+objects+[CSV](https://www.google.com/search?q=CSV+comma+separated+values+file+format))**.
+2. Click **Import+network+objects+CSV)**.
 3. Select one or more `.msi` or `.txt` files.
 4. Click **Open** — the patterns are imported into the antenna library.
 
-You can [import](https://www.google.com/search?q=data+import+GIS+network+objects+[CSV](https://www.google.com/search?q=CSV+comma+separated+values+file+format)) multiple files at once. Imported patterns are available to all workspaces.
+You can import) multiple files at once. Imported patterns are available to all workspaces.
 
 ## Assigning a Pattern to a Cell
 
 1. Open **Network Data Management**.
-2. Find the [cell](https://www.google.com/search?q=mobile+cell+sector+coverage+base+station) row.
+2. Find the cell row.
 3. Click the `antenna_pattern` field.
 4. Type or select the pattern name from the dropdown.
 5. Click **Synchronize Changes**.
 
-> If no pattern is assigned, [CE Express](https://www.google.com/search?q=Cellular+Expert+CE+Express+web+platform) uses an **[isotropic](https://www.google.com/search?q=isotropic+antenna+radiator+reference) (omnidirectional)** model for that [cell](https://www.google.com/search?q=mobile+cell+sector+coverage+base+station). This gives less accurate predictions but allows you to run a quick test without patterns.
+> If no pattern is assigned, [CE Express](#ce-express-overview) uses an **isotropic (omnidirectional)** model for that cell. This gives less accurate predictions but allows you to run a quick test without patterns.
 
 ## Pattern File Structure (MSI)
 
 An .msi file contains:
 
 - **Header** — frequency, gain, half-power beamwidths (H and V), front-to-back ratio
-- **Horizontal pattern** — [attenuation](https://www.google.com/search?q=signal+attenuation+loss+radio+propagation) in [dB](https://www.google.com/search?q=dB+decibel+signal+measurement+unit) at each [azimuth](https://www.google.com/search?q=antenna+azimuth+direction+degrees+north) angle (0–360°)
-- **Vertical pattern** — [attenuation](https://www.google.com/search?q=signal+attenuation+loss+radio+propagation) in [dB](https://www.google.com/search?q=dB+decibel+signal+measurement+unit) at each [elevation](https://www.google.com/search?q=elevation+model+[terrain](https://www.google.com/search?q=terrain+elevation+model+GIS+topography)+height+datum) angle
+- **Horizontal pattern** — attenuation in dB at each azimuth angle (0–360°)
+- **Vertical pattern** — attenuation in dB at each elevation+height+datum) angle
 
 Example header:
 ```
@@ -59,14 +59,14 @@ In the Antennas tool, click a pattern name to view its horizontal and vertical r
 |---|---|
 | View all imported patterns | Open Antennas tool → Library tab |
 | Delete a pattern | Select the pattern → click Delete |
-| [Export](https://www.google.com/search?q=data+export+GIS+raster+vector) a pattern | Select the pattern → click [Export](https://www.google.com/search?q=data+export+GIS+raster+vector) |
+| Export a pattern | Select the pattern → click Export |
 | Rename a pattern | Not supported — re-import under a new name |
 
 ## Tips
 
 - Use the **actual vendor pattern** for your installed antennas whenever possible — it significantly improves prediction accuracy.
 - Pattern file names often contain the model number (e.g. `K742212_1800MHz_0deg.msi`). Keep names consistent so they are easy to assign in bulk via CSV import.
-- For multi-band antennas (e.g. 900/1800 [MHz](https://www.google.com/search?q=MHz+megahertz+frequency+unit) combined), import separate pattern files per band.
+- For multi-band antennas (e.g. 900/1800 MHz combined), import separate pattern files per band.
 
 ## Related Pages
 

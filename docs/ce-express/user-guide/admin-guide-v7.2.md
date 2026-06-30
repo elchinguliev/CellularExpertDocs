@@ -739,11 +739,11 @@ Confidential Cellular Expert, 2026 Page | 28
 
 Cellular Expert Express Administrator Guide 7.2
 Use the Login as ArcGIS button to login with an ArcGIS Enterprise account (section 2.3.3). It will allow to
-access the Network Data Management view for database management and the Map view for analysis,
+access the Network [Data Management](#kw:31-data-management-tools:inventory3d-user-guide) view for database management and the [Map view](#kw:switching-between-views:ce-express-login) for analysis,
 calculations, etc.
 All ArcGIS users should be created and administrated on the Portal for ArcGIS.
 Use Login with Express account to login with a Cellular Expert Express account. It will allow to access only
-the Network Data Management view. To reach Map view you will be able to log in with an ArcGIS Enterprise
+the Network [Data Management](#kw:31-data-management-tools:inventory3d-user-guide) view. To reach [Map view](#kw:switching-between-views:ce-express-login) you will be able to log in with an ArcGIS Enterprise
 account later
 By default “Login with Express account’ option is enabled and the user’s “admin” password is set to
 “admin_ce”. To change the password or to see the other default users and passwords use the database
@@ -764,10 +764,10 @@ How to prepare geodata tif files is described below in this CE Express Administr
 The CE tools make use of three distinct GIS data layers to obtain high precision modelling of radio wave
 propagation losses:
 1. Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), which describes Earth
-surface, i.e., path terrain profile in terms of ground elevation above uniform sea level.
+surface, i.e., path [terrain profile](#kw:reading-the-profile-graph:ce-express-profile) in terms of ground elevation above uniform sea level.
 2. [Clutter](#kw:clutter-classification-values:ce-express-geodata) height layer, delineating buildings and other such objects above Earth surface that may
 be considered to be principal impediments for radio wave propagation.
-3. [Clutter](#kw:clutter-classification-values:ce-express-geodata) class layer, each pixel defines the ID of the clutter class, which the area belongs to. Usually
+3. [Clutter](#kw:clutter-classification-values:ce-express-geodata) class layer, each pixel defines the ID of the [clutter](#kw:clutter-classification-values:ce-express-geodata) class, which the area belongs to. Usually
 derived from land use data. If building heights are included in the clutter height raster, the clutter
 classes raster must have building outlines separated into their own class ID.
 These types of GIS data describing the radio wave propagation path are illustrated in Fig. 1, which shows
@@ -785,7 +785,7 @@ distinct types of DTM and clutter layers.
 Another important factor defining the precision of path loss modelling is the resolution of GIS data used to
 represent DTM and clutter, or the DSM. For instance, based on our practical experience with available GIS
 data sets and the modern computational capabilities of our tools, CE recommends using the following
-resolution of path profiling data for modelling coverage of 4G/5G cellular networks:
+resolution of path [profiling](#kw:42-step-2-profiling-pointtopoint-analysis:ce-express-tr-los) data for modelling coverage of 4G/5G cellular networks:
  Rural areas: preferably 10 m, and at most 25 m,
  Urban areas: preferably 1 m, and at most 5 m.
 The comparative precision of modelling signal coverage in dense urban conditions when using respectively
@@ -795,7 +795,7 @@ Confidential Cellular Expert, 2026 Page | 30
 ---
 
 Cellular Expert Express Administrator Guide 7.2
-To summarize, it is of critical importance to gather, configure and use suitable types of path profiling data
+To summarize, it is of critical importance to gather, configure and use suitable types of path [profiling](#kw:42-step-2-profiling-pointtopoint-analysis:ce-express-tr-los) data
 with appropriate resolution to obtain reliable results of network coverage simulations. Only then the user
 may be confident in simulated results of network coverage in terms of calculated received signal levels and
 other derivative operational parameters.
@@ -806,7 +806,7 @@ Only GeoTIFF is supported.
 Mandatory geographical data:
 Elevation, or Digital Terrain Model (DTM) grid.
 Uploaded rasters have the following requirements:
- Must be in projected coordinate system
+ Must be in [projected coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) system
  Coordinate system units must be meters
  All rasters must have the same coordinate system
  Raster resolution in X and Y axis must match
@@ -824,27 +824,27 @@ Confidential Cellular Expert, 2026 Page | 31
 Cellular Expert Express Administrator Guide 7.2
 Prepare DTM raster
 3.1.2.1.1.1 Projection
-The raster must use a Projected Coordinate System. To check the coordinate system of your raster, use
+The raster must use a [Projected Coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) System. To check the coordinate system of your raster, use
 the Properties function in ArcGIS Pro. Add the raster to your project, right-click on it, and select Properties.
 Then, go to the Source tab > Spatial Reference and check the Coordinate System type parameter to confirm
-it is in a Projected Coordinate System.
+it is in a [Projected Coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) System.
 If your raster is in a Geographic Coordinate System or needs a different projection, use the Geoprocessing
-> Project Raster tool to update it.
+> [Project Raster](#kw:33-project-raster:ce-express-tr-geodata) tool to update it.
 Confidential Cellular Expert, 2026 Page | 32
 
 ---
 
 Cellular Expert Express Administrator Guide 7.2
-In the Output Coordinate System, specify a new coordinate system. It is recommended to use a UTM
+In the Output Coordinate System, specify a new coordinate system. It is recommended to use a [UTM](#kw:what-is-a-projected-crs:ce-express-geodata)
 coordinate system under the WGS 1984 projection.
 Confidential Cellular Expert, 2026 Page | 33
 
 ---
 
 Cellular Expert Express Administrator Guide 7.2
-You can find the appropriate UTM zone for your area here:
+You can find the appropriate [UTM](#kw:what-is-a-projected-crs:ce-express-geodata) zone for your area here:
 https://www.arcgis.com/apps/mapviewer/index.html?layers=b294795270aa4fb3bd25286bf09edc51
-3.1.2.2 Clutter classes grid
+3.1.2.2 [Clutter classes](#kw:clutter-classification-values:ce-express-geodata) grid
 This raster type provides information about land use. The naming and classification of land use types may
 vary. An example is the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2 Land
 Cover
@@ -854,10 +854,10 @@ Confidential Cellular Expert, 2026 Page | 34
 
 Cellular Expert Express Administrator Guide 7.2
 This data is freely available worldwide.
-Prepare Clutter Classes raster
+Prepare [Clutter Classes](#kw:clutter-classification-values:ce-express-geodata) raster
 3.1.2.2.1.1 Projection
 It must have the same coordinate system as your elevation.tif raster. If your raster has different coordinate
-system, then use the Geoprocessing tool → Project Raster to fix it.
+system, then use the Geoprocessing tool → [Project Raster](#kw:33-project-raster:ce-express-tr-geodata) to fix it.
 Confidential Cellular Expert, 2026 Page | 35
 
 ---
@@ -868,7 +868,7 @@ raster. Click on Select Coordinate System button.
 And choose the same coordinate system as your elevation.tif.
 3.1.2.3 Clutter height
 Represents actual clutter heights, which override the default heights specified in the Clutter table. The
-clutter heights raster requires the accompanying clutter classes raster and cannot be used independently.
+clutter heights raster requires the accompanying [clutter classes](#kw:clutter-classification-values:ce-express-geodata) raster and cannot be used independently.
 Confidential Cellular Expert, 2026 Page | 36
 
 ---
@@ -923,7 +923,7 @@ http://CE_express_hostname/ceexpressfrontenfolder
  In the window describe the workspace:
 Workspace name: must be the name of a newly created folder.
 Geodata folder path: must be the physical path of the newly created folder.
-Coordinate system EPSG: enter coordinate system’s code. 4326 is WGS84.
+Coordinate system [EPSG](#kw:what-is-a-projected-crs:ce-express-geodata): enter coordinate system’s code. 4326 is [WGS84](#kw:what-is-a-projected-crs:ce-express-geodata).
 Extent: describe the extent of the workspace.
 Calculations: enable or disable parameters if they are not used.
 Extra layers: add additional layers form the other sources to be visualized in this new workspace.

@@ -26,7 +26,7 @@ By the end of this module, you will be able to:
 
 ## Initial Data
 
-For this exercise, the following is pre-configured:
+For this [exercise](#kw:exercise:none), the following is pre-configured:
 - Prepared geodata (high-resolution terrain and [clutter](#kw:clutter-classification-values:ce-express-geodata))
 - Predefined external services for visualization
 
@@ -36,7 +36,7 @@ For this exercise, the following is pre-configured:
 
 A **Workspace** in CE Express is a project container holding:
 
-- Network objects (sites, cells, links, etc.)
+- [Network objects](#kw:object-types:ce-express-network-objects) (sites, cells, links, etc.)
 - Geodata for propagation modeling
 - Visualization layers (GIS, 3D meshes, administrative boundaries)
 
@@ -62,10 +62,10 @@ Workspaces can be:
 2. Click **New workspace**
 3. Fill in workspace parameters:
 
-| Field | Value for this exercise |
+| Field | Value for this [exercise](#kw:exercise:none) |
 |-------|------------------------|
 | Workspace name | `Training_[YourName]` |
-| Coordinate system EPSG | EPSG for your training area (instructor provides) |
+| Coordinate system [EPSG](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) | [EPSG](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) for your training area (instructor provides) |
 | Group | `Training` |
 
 4. Set the **extent** by clicking **Draw on map** and drawing a rectangle around your planning area
@@ -74,7 +74,7 @@ Workspaces can be:
 
 ## Step 3 — Exploring the Map View
 
-After creating the workspace, explore the map view:
+After creating the workspace, explore the [map view](#kw:switching-between-views:ce-express-login):
 
 1. The map auto-zooms to the workspace extent
 2. Confirm the DEM/terrain is visible (enable in Layers if not)
@@ -99,8 +99,8 @@ After creating the workspace, explore the map view:
 Create a workspace for a new planning project:
 - Name: `[YourName]_Exercise_01`
 - Area: 50 km × 50 km urban area
-- Coordinate system: UTM (ask instructor for local UTM zone)
-- Load DEM and clutter geodata set
+- Coordinate system: [UTM](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) (ask instructor for local [UTM](#kw:what-is-a-projected-crs:ce-express-geodata) zone)
+- Load DEM and [clutter](#kw:clutter-classification-values:ce-express-geodata) geodata set
 - Add an OpenStreetMap background layer
 
 ## Related Documentation

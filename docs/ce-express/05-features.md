@@ -13,7 +13,7 @@ related:
 
 # Features Tool
 
-The **Features** tool is used to import, add, select, and edit all network objects on the map.
+The **Features** tool is used to import, add, select, and edit all [network objects](#kw:network-object-types:none) on the map.
 
 Click the **Features** button in the left toolbar to open the tool.
 
@@ -29,7 +29,7 @@ Click **Import features** to create objects from a file.
 ### Import Steps
 
 1. Click **Import features**
-2. Select the **object type** (Site, Cell, Repeater, [Mesh Node](#kw:mesh-node:none), etc.)
+2. Select the **object type** (Site, Cell, [Repeater](#kw:repeater:none), [Mesh Node](#kw:mesh-node:none), etc.)
 3. Select or drag-and-drop your CSV or KMZ file
 4. Map columns using the **Mapping** feature if field names differ from CE format
 5. Click **Import** — objects appear on the map automatically
@@ -57,7 +57,7 @@ Objects can be created:
 
 ### Feature Set Templates
 
-A feature set template saves a group of related features (e.g., a 3-sector site with typical parameters) so they can be placed with a single click.
+A [feature set template](#kw:feature-set-templates:none) saves a group of related features (e.g., a 3-sector site with typical parameters) so they can be placed with a single click.
 
 **Quick Add:** If you have templates marked as favorites, they appear in the Quick Add section — drag and drop directly onto the map to place.
 
@@ -107,11 +107,11 @@ A radio sector or cell on a site.
 | Antenna | — | [Antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) from library |
 | Site ID | — | Parent site reference |
 
-**Color index:** Controls cell visualization color (None=blue, 1=red, 2=light green, 3=dark green, 4=light blue, 5=dark blue, 6=purple).
+**Color index:** Controls cell visualization color (None=blue, 1=red, 2=[light](#kw:light:none) green, 3=dark green, 4=[light](#kw:light:none) blue, 5=dark blue, 6=purple).
 
 ### Repeater
 
-A signal repeater/booster.
+A signal [repeater](#kw:repeater:none)/booster.
 
 **Required:** Name, X, Y, Azimuth
 
@@ -151,7 +151,7 @@ Lighting point source for lux calculations.
 
 **Required:** Name, X, Y, Azimuth
 
-**Optional:** Height (m), Downtilt, Antenna (light pattern)
+**Optional:** Height (m), Downtilt, Antenna ([light](#kw:light:none) pattern)
 
 ### Mesh Node
 
@@ -213,7 +213,7 @@ Select objects on the map, then:
 
 ## Related Topics
 
-- Network Object Requirements →
+- [Network Object](#kw:network-object-types:none) Requirements →
 - Importing Data (Training) →
 - RF Prediction →
-- Antenna Library →
+- [Antenna Library](#kw:managing-the-antenna-library:ce-express-antenna) →

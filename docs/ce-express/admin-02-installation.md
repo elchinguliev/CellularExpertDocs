@@ -87,7 +87,7 @@ Run the CE Express database setup script:
 
 Configure your web server to enforce HTTPS:
 
-**IIS:** Enable SSL certificate → Require SSL in site bindings
+**IIS:** [Enable SSL](#kw:step-6-enable-ssl-recommended:none) certificate → Require SSL in site bindings
 
 **Nginx:**
 ```nginx
@@ -138,7 +138,7 @@ CEInventory3D\
 
 1. Open `https://your-server/ceexp` in Chrome
 2. Log in with ArcGIS credentials
-3. Verify Map view loads
+3. Verify [Map view](#kw:switching-between-views:ce-express-login) loads
 4. Create a test workspace
 5. Run a test RF prediction
 

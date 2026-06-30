@@ -23,7 +23,7 @@ For each network item:
 | **Feature type** | Type of objects in the network (Cells, Sites, etc.) |
 | **Feature count** | Total number of objects |
 | **Uncalculated features** | Objects not yet added to a calculation |
-| **Calculation status** | Current batch prediction status |
+| **Calculation status** | Current [batch prediction](#kw:running-batch-predictions:none) status |
 | **Last calculated** | Timestamp of last calculation run |
 
 ## Creating a Network
@@ -69,5 +69,5 @@ Hover → **Delete Network**. Only the network definition is deleted — objects
 ## Related Topics
 
 - RF Prediction →
-- Prediction History →
+- [Prediction History](#kw:44-step-4-prediction-history-and-result-management:ce-express-tr-rf) →
 - Features Tool →

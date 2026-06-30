@@ -14,16 +14,16 @@ related:
 
 # Workspaces
 
-A **[workspace](#kw:creating-a-workspace:none)** is a project container in CE Express that holds all network objects, geodata references, and settings for a specific planning area.
+A **[workspace](#kw:creating-a-workspace:none)** is a project container in CE Express that holds all [network objects](#kw:object-types:ce-express-network-objects), geodata references, and settings for a specific planning area.
 
 ## What a Workspace Contains
 
-- Network objects (sites, cells, links, repeaters, etc.)
+- [Network objects](#kw:object-types:ce-express-network-objects) (sites, cells, links, repeaters, etc.)
 - Geodata set reference (terrain, [clutter](#kw:clutter-classification-values:ce-express-geodata), buildings)
-- Coordinate system ([EPSG](#kw:coordinate-origin:none) code)
+- Coordinate system ([EPSG](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) code)
 - Visualization layers (external services, GIS layers)
 - User group assignments
-- Calculation settings (EIRP, height references, [clutter](#kw:clutter-classification-values:ce-express-geodata) use)
+- [Calculation settings](#kw:calculation-settings:none) (EIRP, height references, [clutter](#kw:clutter-classification-values:ce-express-geodata) use)
 
 Workspaces can be:
 - Assigned to one or multiple user groups
@@ -34,7 +34,7 @@ Workspaces can be:
 
 Click the **Workspaces** tool in the left toolbar. The active [workspace](#kw:creating-a-workspace:none) name is shown.
 
-- Click any workspace to switch to it
+- Click any [workspace](#kw:creating-a-workspace:none) to switch to it
 - The map automatically zooms to the workspace extent
 - Only objects defined for that workspace are visible
 
@@ -49,7 +49,7 @@ Click **New workspace** in the Workspaces panel.
 | Field | Description |
 |-------|-------------|
 | **Workspace name** | Unique workspace identifier |
-| **Coordinate system [EPSG](#kw:coordinate-origin:none)** | EPSG code of the projected coordinate system. Default: 4326 (WGS84). **Use a projected system (UTM, national grid) for accurate distance calculations.** |
+| **Coordinate system [EPSG](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata)** | [EPSG](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) code of the [projected coordinate](#kw:what-is-a-projected-crs:ce-express-geodata) system. Default: 4326 ([WGS84](#kw:what-is-a-projected-crs:ce-express-geodata)). **Use a projected system ([UTM](#kw:what-is-a-projected-crs:ce-express-geodata), national grid) for accurate distance calculations.** |
 | **Group** | Group workspaces by setting the same value for multiple workspaces |
 | **Locked** | Prevents feature editing. Only admins can unlock. Use for archiving. |
 
@@ -72,7 +72,7 @@ Origin point from which coordinates are displayed in the UI. Global coordinates 
 | Setting | Options | Description |
 |---------|---------|-------------|
 | **Calculate EIRP** | Enabled/Disabled | Enabled: EIRP = Power − Misc. Loss + Antenna Gain. Disabled: Power value used as EIRP. |
-| **Use clutter** | On/Off | Whether Clutter Loss is applied in predictions |
+| **Use [clutter](#kw:clutter-classification-values:ce-express-geodata)** | On/Off | Whether Clutter Loss is applied in predictions |
 | **Transmitter height reference** | Elevation / Clutter height (buildings only) / Clutter height / Absolute | How absolute transmitter height is calculated |
 | **Receiver height reference** | Same options | How absolute receiver height is calculated |
 | **Geodata set** | Select from list | Geodata used in all calculations in this workspace |
@@ -105,11 +105,11 @@ Hover over a workspace → click **Duplicate Workspace** to create a copy with a
 
 Hover over a workspace → click **Delete Workspace**. 
 
-> ⚠️ Deleting a workspace removes all objects associated with it. This action cannot be undone.
+> ⚠️ [Deleting a workspace](#kw:deleting-a-workspace:none) removes all objects associated with it. This action cannot be undone.
 
 ## Related Topics
 
 - Geodata Sets →
 - Geodata Requirements →
-- Creating a Workspace (Admin) →
-- Features — Adding Objects →
+- [Creating a Workspace](#kw:creating-a-workspace:none) (Admin) →
+- Features — [Adding Objects](#kw:adding-objects-manually:ce-express-network-objects) →

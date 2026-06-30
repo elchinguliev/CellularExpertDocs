@@ -19,7 +19,7 @@ CE Express includes a complete **microwave (MW) backhaul planning** module for p
 
 1. Select two sites on the map
 2. Right-click → **Create Link** (or use Features tool → Add Link)
-3. Configure link parameters:
+3. Configure [link parameters](#kw:link-parameters:none):
 
 ### Link Parameters
 
@@ -27,19 +27,19 @@ CE Express includes a complete **microwave (MW) backhaul planning** module for p
 |-----------|-------------|
 | **A-site / B-site** | Both ends of the link |
 | **Frequency (GHz)** | Operating frequency |
-| **Polarisation** | Horizontal (H) or Vertical (V) |
+| **[Polarisation](#kw:link-parameters:none)** | Horizontal (H) or Vertical (V) |
 | **Channel bandwidth** | MHz |
 | **Antenna (A-end / B-end)** | Parabolic antenna from library |
 | **Radio model** | Modem/radio equipment from library |
 
 ## Link Budget Calculation
 
-Click **Link Prediction** → **Calculation** to compute:
+Click **[Link Prediction](#kw:link-prediction-report:none)** → **Calculation** to compute:
 
 | Output | Description |
 |--------|-------------|
-| **Free-space path loss** | FSPL = 20·log(d) + 20·log(f) + 32.44 (dB) |
-| **Atmospheric absorption** | Gas absorption (oxygen, water vapour) per [ITU-R](#kw:geoclimatic-data:none) P.676 |
+| **[Free-space path loss](#kw:link-budget-calculation:none)** | [FSPL](#kw:link-budget-calculation:none) = 20·log(d) + 20·log(f) + 32.44 (dB) |
+| **Atmospheric absorption** | Gas absorption (oxygen, water vapour) per [ITU-R P.676](#kw:geoclimatic-data:none) |
 | **Received Signal Level (RSL)** | Signal strength at receiver (dBm) |
 | **System gain** | Tx power + both antenna gains − losses |
 | **[Fade margin](#kw:link-budget-calculation:none)** | RSL minus receiver sensitivity (dB) |
@@ -48,9 +48,9 @@ Click **Link Prediction** → **Calculation** to compute:
 
 CE Express uses [ITU-R](#kw:geoclimatic-data:none) P-series recommendations for fade calculations:
 
-| Factor | ITU-R Reference | Description |
+| Factor | [ITU-R](#kw:geoclimatic-data:none) Reference | Description |
 |--------|----------------|-------------|
-| **Gaseous absorption** | P.676 | Frequency-dependent gas attenuation |
+| **[Gaseous absorption](#kw:geoclimatic-data:none)** | P.676 | Frequency-dependent gas attenuation |
 | **Temperature** | P.453 | Affect refractivity and multipath |
 | **[Multipath fading](#kw:geoclimatic-data:none)** | P.530 | Statistical fading due to atmospheric layering |
 | **Rain fading** | P.838 | Rain-induced attenuation |
@@ -58,9 +58,9 @@ CE Express uses [ITU-R](#kw:geoclimatic-data:none) P-series recommendations for 
 
 ## Availability Calculation
 
-The [link budget](#kw:link-budget-calculation:none) includes ITU-R **[availability](#kw:availability-calculation:none) prediction**:
+The [link budget](#kw:link-budget-calculation:none) includes [ITU-R](#kw:geoclimatic-data:none) **[availability](#kw:availability-calculation:none) prediction**:
 
-| Availability | Typical Use |
+| [Availability](#kw:availability-calculation:none) | Typical Use |
 |-------------|------------|
 | 99.999% | Critical infrastructure (telecom backhaul) |
 | 99.99% | High-availability links |
@@ -73,7 +73,7 @@ The **[Reflections](#kw:reflections:none)** tab analyses signal [reflections](#k
 ## Link Prediction Report
 
 Click **Export** → generates a PDF report with:
-- Link parameters summary
+- [Link parameters](#kw:link-parameters:none) summary
 - Path profile
 - [Link budget](#kw:link-budget-calculation:none) table
 - Availability calculation
@@ -81,25 +81,25 @@ Click **Export** → generates a PDF report with:
 
 ## Multi-Hop Paths
 
-For multi-hop backhaul:
+For [multi-hop](#kw:multihop-paths:none) backhaul:
 1. Create links between consecutive sites
 2. CE Express calculates end-to-end performance for each hop
 3. Total availability = product of individual hop availabilities
 
 ## MW Equipment Library
 
-→ See MW Equipment →
+→ See [MW Equipment](#kw:mw-equipment-library:none) →
 
-To use Link Prediction, assign antenna and radio models from the equipment library to each link endpoint.
+To use [Link Prediction](#kw:link-prediction-report:none), assign antenna and radio [models](#kw:31-models:ce-express-tr-models) from the equipment library to each link endpoint.
 
 ## Automatic Frequency Planning (AFP)
 
 For mesh and multi-link networks, use **[AFP](#kw:automatic-frequency-planning-afp:none)** to automatically assign frequencies minimizing interference.
 
-→ See [Automatic Frequency Planning](#kw:automatic-frequency-planning-[afp](#kw:automatic-frequency-planning-afp:none):none) →
+→ See [Automatic Frequency Planning](#kw:automatic-frequency-planning-[afp](#kw:automatic-frequency-planning-afp:none):none):none) →
 
 ## Related Topics
 
-- Profile / Line of Sight →
-- MW Equipment Library →
+- Profile / [Line of Sight](#kw:running-a-profile:ce-express-profile) →
+- [MW Equipment](#kw:mw-equipment-library:none) Library →
 - Mesh Networks →

@@ -32,8 +32,8 @@ CE Express offers two login options:
 Click **Login as ArcGIS** to authenticate with your ArcGIS Enterprise organization account.
 
 **This gives access to:**
-- Network Data Management view (database tables)
-- Map view (RF calculations, analysis tools, visualization)
+- Network [Data Management](#kw:31-data-management-tools:inventory3d-user-guide) view (database tables)
+- [Map view](#kw:switching-between-views:ce-express-login) (RF calculations, analysis tools, visualization)
 
 An ArcGIS Portal account is required. Contact your administrator if you do not have one.
 
@@ -42,10 +42,10 @@ An ArcGIS Portal account is required. Contact your administrator if you do not h
 Click **Login with Express account** to use a Cellular Expert Express local account.
 
 **This gives access to:**
-- Network Data Management view only
+- Network [Data Management](#kw:31-data-management-tools:inventory3d-user-guide) view only
 - Database tables, records, and data management
 
-> To access the Map view with an Express account, you will need to also log in with ArcGIS Enterprise credentials later.
+> To access the [Map view](#kw:switching-between-views:ce-express-login) with an Express account, you will need to also log in with ArcGIS Enterprise credentials later.
 
 ## Password Management
 
@@ -58,7 +58,7 @@ Click **Login with Express account** to use a Cellular Expert Express local acco
 
 After successful authentication, the **Network Data Management** view opens, showing all workspaces available to your user group.
 
-To open the Map view: select a workspace from the list → the Map view loads with that workspace active.
+To open the [Map view](#kw:switching-between-views:ce-express-login): select a workspace from the list → the Map view loads with that workspace active.
 
 ## Logging Out
 

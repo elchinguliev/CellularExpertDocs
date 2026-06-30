@@ -23,10 +23,10 @@ Click **Profile** in the left toolbar.
 
 1. Click **Draw Profile** in the tool panel
 2. Click two points on the map (start and end)
-3. CE Express computes the terrain profile using the loaded DEM
+3. CE Express computes the [terrain profile](#kw:profile-results:none) using the loaded DEM
 
 Alternatively:
-- Select two existing network objects → Profile is drawn between them
+- Select two existing [network objects](#kw:object-types:ce-express-network-objects) → Profile is drawn between them
 - Import profile endpoints from a file
 
 ## Profile Properties
@@ -48,7 +48,7 @@ The profile chart shows:
 | Element | Description |
 |---------|-------------|
 | **Terrain cross-section** | Elevation profile along the path |
-| **Line of sight** | Direct path between antennas |
+| **[Line of sight](#kw:drawing-a-profile:none)** | Direct path between antennas |
 | **Fresnel zones** | 1st (and higher) [Fresnel zone](#kw:fresnel-zone-clearance:ce-express-profile) ellipses |
 | **Earth bulge** | Earth curvature correction (based on K-factor) |
 | **Obstacles** | Terrain or building obstructions |
@@ -58,7 +58,7 @@ The profile chart shows:
 
 | Indicator | Meaning |
 |-----------|---------|
-| 🟢 Green | Clear LOS — 1st Fresnel zone fully clear |
+| 🟢 Green | Clear LOS — 1st [Fresnel zone](#kw:fresnel-zone-clearance:ce-express-profile) fully clear |
 | 🟡 Yellow | Marginal — 1st Fresnel zone partially obstructed |
 | 🔴 Red | Obstructed — direct path blocked |
 
@@ -87,7 +87,7 @@ Configure display options:
 
 ## Import
 
-Import profile endpoints from coordinates (CSV) or from existing network objects.
+Import profile endpoints from coordinates (CSV) or from existing [network objects](#kw:object-types:ce-express-network-objects).
 
 ## Related Topics
 

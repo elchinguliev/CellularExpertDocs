@@ -1,11 +1,11 @@
 # Path Profile & Line of Sight
 
-The **Profile** tool analyses the terrain between two points — typically between a transmitter (cell) and a receiver location. It shows whether a clear line of sight exists, how much [Fresnel zone](#kw:fresnel-zone-clearance:none) clearance there is, the expected path loss, and the link power budget.
+The **Profile** tool analyses the terrain between two points — typically between a transmitter (cell) and a receiver location. It shows whether a clear [line of sight](#kw:running-a-profile:none) exists, how much [Fresnel zone](#kw:fresnel-zone-clearance:none) clearance there is, the expected path loss, and the link power budget.
 
 ## When to Use the Profile Tool
 
 - Checking whether a microwave link has sufficient clearance
-- Verifying that a cell has line-of-sight to a target location
+- Verifying that a cell has [line-of-sight](#kw:running-a-profile:none) to a target location
 - Estimating path loss for a specific point-to-point link
 - Planning repeater placement (finding obstructions)
 
@@ -26,7 +26,7 @@ The **Profile** tool analyses the terrain between two points — typically betwe
 
 | Result | Description |
 |---|---|
-| **Clearance** | How much of the first Fresnel zone is clear of obstacles (%). ≥ 60% is acceptable; ≥ 100% is ideal. |
+| **Clearance** | How much of the first [Fresnel zone](#kw:fresnel-zone-clearance:none) is clear of obstacles (%). ≥ 60% is acceptable; ≥ 100% is ideal. |
 | **Power Budget** | Received signal power at the receiver (dBm), accounting for path loss, antenna gain, and cable loss |
 | **Path Loss** | Total signal attenuation between transmitter and receiver (dB) |
 | **Angle** | Elevation angle from transmitter to receiver (degrees) |
@@ -41,7 +41,7 @@ The Fresnel zone is an elliptical region around the direct path between two ante
 | > 100% | Full clearance, minimal diffraction loss |
 | 60–100% | Minor diffraction loss (< 1 dB typical) |
 | < 60% | Significant diffraction loss — consider adjusting antenna heights or finding an alternative path |
-| 0% (obstructed) | Non-line-of-sight (NLOS) — may still work but with higher loss |
+| 0% (obstructed) | Non-[line-of-sight](#kw:running-a-profile:none) (NLOS) — may still work but with higher loss |
 
 ## Reading the Profile Graph
 
@@ -53,13 +53,13 @@ The graph shows:
 
 ## Tips
 
-- Hold **CTRL** when clicking on any network object to snap precisely to its position (useful for both ends of a microwave link).
-- For **microwave link planning**, use the Profile tool before ordering equipment to confirm clearance at different frequencies (the Fresnel zone radius changes with frequency).
+- Hold **CTRL** when clicking on any [network object](#kw:object-types:ce-express-network-objects) to snap precisely to its position (useful for both ends of a microwave link).
+- For **microwave link planning**, use the [Profile tool](#kw:when-to-use-the-profile-tool:none) before ordering equipment to confirm clearance at different frequencies (the Fresnel zone radius changes with frequency).
 - The profile uses the `elevation.tif` terrain model, and `clutterHeight.tif` if available, to account for buildings and trees.
-- To compare multiple paths, run the profile tool multiple times — each result is shown in the panel as a separate tab.
+- To [compare](#kw:98-compare-predictions:ce-pro-rcp) multiple paths, run the [profile tool](#kw:when-to-use-the-profile-tool:none) multiple times — each result is shown in the panel as a separate tab.
 
 ## Related Pages
 
-- Geodata & Rasters — the terrain data used by the profile tool
+- Geodata & Rasters — the terrain data used by the [profile tool](#kw:when-to-use-the-profile-tool:none)
 - CE Desktop RLP — detailed microwave link budget planning
-- Network Objects — setting correct antenna heights for accurate profiles
+- [Network Objects](#kw:object-types:ce-express-network-objects) — setting correct antenna heights for accurate profiles

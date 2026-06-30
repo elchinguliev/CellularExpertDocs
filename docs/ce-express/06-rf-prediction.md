@@ -20,10 +20,10 @@ related:
 ## What RF Prediction Uses
 
 Predictions are influenced by:
-- **Network objects** — cells, sites, antennas (azimuth, tilt, height, power, frequency, technology)
+- **[Network objects](#kw:object-types:ce-express-network-objects)** — cells, sites, antennas (azimuth, tilt, height, power, frequency, technology)
 - **Configuration parameters** — bandwidth, MIMO, duplex mode, losses
 - **Geodata** — terrain elevation (DEM), [clutter](#kw:clutter-classification-values:ce-express-geodata)/land use, buildings
-- **Equipment definitions** — [antenna patterns](#kw:importing-antenna-patterns:ce-express-antenna), propagation models, calculation templates
+- **Equipment definitions** — [antenna patterns](#kw:importing-antenna-patterns:ce-express-antenna), propagation [models](#kw:31-models:ce-express-tr-models), calculation templates
 
 ## Prediction Types
 
@@ -44,7 +44,7 @@ Predictions are influenced by:
 | Feature | Quick RF | Full RF |
 |---------|----------|---------|
 | Speed | Instant | Standard |
-| DB impact | **Does not write** to database | Saves to prediction history |
+| DB impact | **Does not write** to database | Saves to [prediction history](#kw:44-step-4-prediction-history-and-result-management:ce-express-tr-rf) |
 | Use case | What-if testing, parameter comparison | Final results, reporting, documentation |
 | Object selection | Uses current object values | Uses saved database values |
 | Batch processing | Single cell/group | Multiple networks |
@@ -78,7 +78,7 @@ Click **[RF Prediction](#kw:what-rf-prediction-uses:none)** in the left toolbar.
 **Radius:** Maximum prediction radius from each site (meters).
 
 **Propagation model:** Select the model appropriate for your environment.
-→ See Prediction Models
+→ See Prediction [Models](#kw:31-models:ce-express-tr-models)
 
 **Receiver height:** Height of the mobile receiver above ground (typically 1.5m for outdoor; custom for indoor, vehicle, rooftop).
 
@@ -100,10 +100,10 @@ Click **Run** — a progress indicator appears. Results render as raster layers 
 
 ## Prediction Results
 
-Results appear as raster layers in the map. From the Prediction History panel:
+Results appear as raster layers in the map. From the [Prediction History](#kw:44-step-4-prediction-history-and-result-management:ce-express-tr-rf) panel:
 - Toggle layers on/off
 - Customize colour scales and thresholds
-- Compare multiple predictions
+- [Compare](#kw:98-compare-predictions:ce-pro-rcp) multiple predictions
 - Export results as **GeoTIFF** raster
 
 ## Common Issues
@@ -116,7 +116,7 @@ Results appear as raster layers in the map. From the Prediction History panel:
 | Out of memory | Large area at fine resolution | Split area, reduce radius, use coarser resolution |
 | License error | Prediction module not licensed | Check License Manager — contact support |
 
-→ See Troubleshooting [RF Prediction](#kw:what-rf-prediction-uses:none)
+→ See [Troubleshooting](#kw:common-issues:none) [RF Prediction](#kw:what-rf-prediction-uses:none)
 
 ## Related Topics
 

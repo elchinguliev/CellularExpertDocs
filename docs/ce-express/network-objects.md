@@ -1,6 +1,6 @@
 # Network Objects
 
-Network objects are the radio infrastructure elements managed in CE Express: **sites**, **cells**, and **repeaters**. All objects are stored in the PostgreSQL database and are visible on the map when a workspace is selected.
+[Network objects](#kw:object-types:none) are the radio infrastructure elements managed in CE Express: **sites**, **cells**, and **repeaters**. All objects are stored in the PostgreSQL database and are visible on the map when a workspace is selected.
 
 ## Object Types
 
@@ -15,8 +15,8 @@ Network objects are the radio infrastructure elements managed in CE Express: **s
 | Attribute | Description |
 |---|---|
 | `cell_name` | Unique identifier for the cell |
-| `latitude` | WGS84 decimal degrees (e.g. 54.6872) |
-| `longitude` | WGS84 decimal degrees (e.g. 25.2797) |
+| `latitude` | [WGS84](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) decimal degrees (e.g. 54.6872) |
+| `longitude` | [WGS84](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) decimal degrees (e.g. 25.2797) |
 
 ## Common Optional Attributes
 
@@ -33,7 +33,7 @@ Network objects are the radio infrastructure elements managed in CE Express: **s
 
 ## Adding Objects Manually
 
-1. Open **Network Data Management** (button in top toolbar).
+1. Open **Network [Data Management](#kw:31-data-management-tools:inventory3d-user-guide)** (button in top toolbar).
 2. Click **Add New Record**.
 3. Fill in `cell_name`, `latitude`, and `longitude` (minimum required).
 4. Fill in any additional attributes.
@@ -44,7 +44,7 @@ Network objects are the radio infrastructure elements managed in CE Express: **s
 
 Bulk import is the fastest way to add many cells at once.
 
-1. Open **Network Data Management**.
+1. Open **Network [Data Management](#kw:31-data-management-tools:inventory3d-user-guide)**.
 2. Click **Import**.
 3. Select your CSV file. The file must have a header row with column names matching CE Express field names.
 4. Map any columns that don't match automatically.

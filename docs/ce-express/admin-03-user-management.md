@@ -18,14 +18,14 @@ Administrators manage users through the **CE Inventory3D web application admin i
 
 | Role | Access | Capabilities |
 |------|--------|-------------|
-| **Admin** | Full | All settings, user management, system config, all workspaces |
+| **Admin** | Full | All settings, [user management](#kw:adding-a-user:none), system config, all workspaces |
 | **Editor** | Map + Data | Add/edit/delete objects, run predictions, manage own workspace objects |
 | **Planner** | Map + Calculations | Run predictions, view data, limited editing |
 | **Viewer** | Read-only | View map and data, no editing or predictions |
 
 ## Adding a User
 
-1. Admin Panel → **User Management** → **Add User**
+1. Admin Panel → **[User Management](#kw:adding-a-user:none)** → **Add User**
 2. Enter: Username, Email, Password (or ArcGIS account link)
 3. Select **Role**
 4. Assign **Workspace access** (which workspaces the user can see)
@@ -35,14 +35,14 @@ Administrators manage users through the **CE Inventory3D web application admin i
 
 Users only see workspaces they are assigned to.
 
-1. Admin Panel → Workspaces → select workspace → **User groups**
+1. Admin Panel → Workspaces → select workspace → **[User groups](#kw:user-groups:none)**
 2. Add user or user group to the workspace
 3. Set permission level for that workspace (View / Edit / Admin)
 
 ## User Groups
 
 Group users to assign workspace permissions efficiently:
-1. Admin Panel → **User Groups** → **New Group**
+1. Admin Panel → **[User Groups](#kw:user-groups:none)** → **New Group**
 2. Add users to the group
 3. Assign the group to workspaces instead of individual users
 
@@ -62,7 +62,7 @@ Use ArcGIS Portal admin tools to reset. CE Express does not manage ArcGIS passwo
 
 Admin Panel → **[License](#kw:license-management:none) Manager**:
 - View current [license](#kw:license-management:none) status (expiry date, licensed features)
-- Activate a new license key
+- Activate a new [license](#kw:license-management:none) key
 - Check concurrent user count
 
 ## History / Audit Log

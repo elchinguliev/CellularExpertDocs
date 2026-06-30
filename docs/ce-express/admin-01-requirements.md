@@ -65,7 +65,7 @@ See: https://developer.nvidia.com/cuda-gpus
 
 ### Cloud / Hybrid Deployment
 
-CE Express supports cloud deployment on:
+CE Express supports [cloud deployment](#kw:cloud-hybrid-deployment:none) on:
 - **Microsoft Azure** (recommended)
 - **AWS**
 - **Google Cloud Platform**

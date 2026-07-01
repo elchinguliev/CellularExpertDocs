@@ -1,185 +1,220 @@
 # Visual Assets Catalog
 
-This file lists all visual assets (screenshots and icons) to be integrated into the CE documentation.
-Each entry includes the asset URL, type, and a note specifying **which documentation file** and **which section** the asset belongs in.
+This file catalogues all visual assets (screenshots and icons) to be stored in the PostgreSQL database and integrated into CE documentation.
 
-**Source:** All assets are sourced from official ArcGIS / Esri documentation.
-**Integration:** Elchin will store these URLs in the PostgreSQL database and wire them into the portal.
+- **CE Pro docs** → ArcGIS Pro screenshots (CE Pro runs inside ArcGIS Pro, so these match directly)
+- **CE Express docs** → Esri Calcite SVG icons (CE Express is a web app; real screenshots must be taken from the live CE Express application — see notes below)
 
----
+**Icon source:** [Esri Calcite UI Icons](https://github.com/Esri/calcite-ui-icons) (open-source, Esri official)
+**Screenshot source:** [ArcGIS Pro documentation](https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html) (Esri official)
 
-## Screenshots
-
-### 1. ArcGIS Pro Sign-In Window
-
-- **URL:** `https://doc.esri.com/en/arcgis-pro/latest/get-started/images/sign-in-window-F405D.png`
-- **Type:** Screenshot
-- **Alt text:** ArcGIS Pro sign-in prompt
-- **Goes in:** `docs/ce-pro/training/00-installation.md`
-- **Note:** Insert after the "Activation" heading, where users are instructed to open ArcGIS Pro and sign in for the first time. Shows the sign-in dialog box.
+> ⚠️ **CE Express screenshots** — The entries marked `[SCREENSHOT NEEDED]` require a real screenshot taken from the running CE Express web application. These cannot be sourced from ArcGIS Pro docs because CE Express is a separate browser-based product.
 
 ---
 
-### 2. ArcGIS Pro Sign-In Menu
+## Part 1 — CE Pro Documentation (ArcGIS Pro Screenshots)
 
-- **URL:** `https://doc.esri.com/en/arcgis-pro/latest/get-started/images/sign-in-menu-F8B91.png`
-- **Type:** Screenshot
-- **Alt text:** Sign-in menu as it appears in an open project
-- **Goes in:** `docs/ce-pro/training/00-installation.md`
-- **Note:** Insert below screenshot #1, to show the sign-in menu in the top bar after signing in. Helps users identify where to switch accounts.
+These screenshots are from official ArcGIS Pro docs and match CE Pro docs directly because CE Pro is an ArcGIS Pro extension.
 
----
+### Screenshot 1 — ArcGIS Pro Sign-In Window
 
-### 3. ArcGIS Pro Start Page — Home Tab
-
-- **URL:** `https://doc.esri.com/en/arcgis-pro/latest/get-started/images/start-page-home-DC4BD.png`
-- **Type:** Screenshot
-- **Alt text:** The Home tab of the ArcGIS Pro start page
-- **Goes in:** `docs/ce-pro/training/04-workspace.md`
-- **Note:** Insert at the beginning of the "Creating a Workspace" steps, where the user opens ArcGIS Pro and sees the start page. Shows the New Project options.
+| Field | Value |
+|-------|-------|
+| **URL** | `https://doc.esri.com/en/arcgis-pro/latest/get-started/images/sign-in-window-F405D.png` |
+| **Type** | Screenshot |
+| **Alt text** | ArcGIS Pro sign-in prompt |
+| **Goes in** | `docs/ce-pro/training/00-installation.md` |
+| **Note** | Insert after the "Activation" heading. Users must open ArcGIS Pro and sign in to activate CE Desktop license. |
 
 ---
 
-### 4. ArcGIS Pro Start Page — Learning Resources Tab
+### Screenshot 2 — ArcGIS Pro Sign-In Menu
 
-- **URL:** `https://doc.esri.com/en/arcgis-pro/latest/get-started/images/start-page-learn-tab-B3D72.png`
-- **Type:** Screenshot
-- **Alt text:** The Learning Resources tab of the ArcGIS Pro start page
-- **Goes in:** `docs/ce-pro/training/00-installation.md`
-- **Note:** Insert in a "Getting Help" or "Additional Resources" note at the end of the installation doc. Shows users where to find ArcGIS Pro tutorials.
-
----
-
-### 5. ArcGIS Pro Settings Page
-
-- **URL:** `https://doc.esri.com/en/arcgis-pro/latest/get-started/images/settings-page-8C3ED.png`
-- **Type:** Screenshot
-- **Alt text:** ArcGIS Pro settings and licensing page
-- **Goes in:** `docs/ce-pro/training/00-installation.md`
-- **Note:** Insert at the Licensing section. Users must go to Project → Settings → Licensing to activate the CE Desktop extension. This screenshot shows exactly where that is.
+| Field | Value |
+|-------|-------|
+| **URL** | `https://doc.esri.com/en/arcgis-pro/latest/get-started/images/sign-in-menu-F8B91.png` |
+| **Type** | Screenshot |
+| **Alt text** | Sign-in menu in an open ArcGIS Pro project |
+| **Goes in** | `docs/ce-pro/training/00-installation.md` |
+| **Note** | Insert below Screenshot 1. Shows the sign-in menu in the top bar of an open project. |
 
 ---
 
-### 6. ArcGIS Pro Project View
+### Screenshot 3 — ArcGIS Pro Settings / Licensing Page
 
-- **URL:** `https://doc.esri.com/en/arcgis-pro/latest/get-started/images/arcgis-pro-project-3DC45.png`
-- **Type:** Screenshot
-- **Alt text:** An ArcGIS Pro project with map view, Contents pane, and Catalog pane open
-- **Goes in:** `docs/ce-pro/training/02-architecture.md`
-- **Note:** Insert at the top of this doc as an overview of the ArcGIS Pro interface. Shows the relationship between map view, Contents pane, and Catalog pane — core to understanding CE Pro architecture.
-
----
-
-### 7. ArcGIS Pro Ribbon — Core and Contextual Tabs
-
-- **URL:** `https://doc.esri.com/en/arcgis-pro/latest/get-started/images/ribbon_context_tab_diagram-D53F0.png`
-- **Type:** Screenshot / Diagram
-- **Alt text:** ArcGIS Pro ribbon showing core tabs and contextual tabs
-- **Goes in:** `docs/ce-pro/training/02-architecture.md`
-- **Note:** Insert after screenshot #6, in the section that explains how CE Pro toolbar tabs appear in the ribbon. Contextual tabs (like Feature Layer, Labeling) are exactly how CE Pro tools appear in ArcGIS Pro.
+| Field | Value |
+|-------|-------|
+| **URL** | `https://doc.esri.com/en/arcgis-pro/latest/get-started/images/settings-page-8C3ED.png` |
+| **Type** | Screenshot |
+| **Alt text** | ArcGIS Pro settings page showing licensing options |
+| **Goes in** | `docs/ce-pro/training/00-installation.md` |
+| **Note** | Insert at the Licensing section. Users go to Project → Settings → Licensing to activate CE Desktop extension. |
 
 ---
 
-### 8. ArcGIS Pro Active Map View
+### Screenshot 4 — ArcGIS Pro Start Page (Home Tab)
 
-- **URL:** `https://doc.esri.com/en/arcgis-pro/latest/get-started/images/arcgis-pro-view-AFCF6.png`
-- **Type:** Screenshot
-- **Alt text:** An active map view in ArcGIS Pro with multiple open views
-- **Goes in:** `docs/ce-pro/training/01-data-types.md`
-- **Note:** Insert near the top. When explaining CE Pro data types, this shows the map canvas where all spatial data (sites, cells, predictions) is displayed.
-
----
-
-### 9. Contents Pane and Catalog Pane
-
-- **URL:** `https://doc.esri.com/en/arcgis-pro/latest/get-started/images/contents-pane-catalog-pane-EDB2F.png`
-- **Type:** Screenshot
-- **Alt text:** The Contents pane and Catalog pane in ArcGIS Pro
-- **Goes in:** `docs/ce-pro/training/01-data-types.md`
-- **Note:** Insert after the map view screenshot. CE Pro data (geodatabase, layers) is accessed via the Catalog pane, and all map layers appear in the Contents pane. Essential for understanding how CE data is organised.
+| Field | Value |
+|-------|-------|
+| **URL** | `https://doc.esri.com/en/arcgis-pro/latest/get-started/images/start-page-home-DC4BD.png` |
+| **Type** | Screenshot |
+| **Alt text** | The Home tab of the ArcGIS Pro start page |
+| **Goes in** | `docs/ce-pro/training/04-workspace.md` |
+| **Note** | Insert at the start of workspace creation steps. Shows where to click New Project. |
 
 ---
 
-### 10. Symbology Pane Controls
+### Screenshot 5 — ArcGIS Pro Project View
 
-- **URL:** `https://doc.esri.com/en/arcgis-pro/latest/get-started/images/pane-options-65B60.png`
-- **Type:** Screenshot
-- **Alt text:** Symbology pane with labelled controls (tabs, expanders, menu button)
-- **Goes in:** `docs/ce-pro/training/06-objects.md`
-- **Note:** Insert in the section about viewing or styling network objects (sites/cells). The Symbology pane is used to change how CE network objects are displayed on the map.
-
----
-
-### 11. Pane Overflow Menu
-
-- **URL:** `https://doc.esri.com/en/arcgis-pro/latest/get-started/images/pane-overflow-menu-226FD.png`
-- **Type:** Screenshot
-- **Alt text:** Overflow menu for stacked panes in ArcGIS Pro
-- **Goes in:** `docs/ce-pro/training/02-architecture.md`
-- **Note:** Insert in the interface overview section. Explains how to navigate between multiple open panes (e.g. Contents, Catalog, CE Pro tool panes) when they are stacked.
+| Field | Value |
+|-------|-------|
+| **URL** | `https://doc.esri.com/en/arcgis-pro/latest/get-started/images/arcgis-pro-project-3DC45.png` |
+| **Type** | Screenshot |
+| **Alt text** | ArcGIS Pro project with map view, Contents pane, and Catalog pane |
+| **Goes in** | `docs/ce-pro/training/02-architecture.md` |
+| **Note** | Insert at the top as an overview of the ArcGIS Pro interface. Shows map view, Contents pane and Catalog pane — the core layout when using CE Pro. |
 
 ---
 
-### 12. ArcGIS Pro — Customised User Interface
+### Screenshot 6 — ArcGIS Pro Ribbon (Core + Contextual Tabs)
 
-- **URL:** `https://doc.esri.com/en/arcgis-pro/latest/get-started/images/customize-ui-E4D73.png`
-- **Type:** Screenshot
-- **Alt text:** ArcGIS Pro interface with docked and floating panes and views
-- **Goes in:** `docs/ce-pro/user-guides/rcp-user-guide.md` *(or any CE Pro user guide that refers to screen layout)*
-- **Note:** Insert in a tips section about arranging the workspace. Shows how users can dock, float, or stack panes to get the best layout when using CE Pro tools alongside standard ArcGIS panes.
-
----
-
-## Icons
-
-All icons below are 16×16 px PNG files from the official ArcGIS Pro icon set.
-
-| # | Icon URL | Alt Text | Goes In | Note |
-|---|----------|----------|---------|------|
-| 1 | `https://doc.esri.com/en/arcgis-pro/latest/icons/HomeDefaultMonochrome16.png` | Home tab icon | `docs/ce-pro/training/04-workspace.md` | Use inline next to the word "Home" when describing the Home tab on the start page. |
-| 2 | `https://doc.esri.com/en/arcgis-pro/latest/icons/BookDefaultMonochrome16.png` | Learning Resources tab icon | `docs/ce-pro/training/00-installation.md` | Use inline next to "Learning Resources" tab reference. |
-| 3 | `https://doc.esri.com/en/arcgis-pro/latest/icons/GearDefaultMonochrome16.png` | Settings / Gear icon | `docs/ce-pro/training/00-installation.md` | Use inline next to "Settings" tab in the licensing activation steps. |
-| 4 | `https://doc.esri.com/en/arcgis-pro/latest/icons/FolderOpenState16.png` | Open Folder icon | `docs/ce-pro/training/04-workspace.md` | Use inline when referring to "Open another project" or browsing for geodata folder. |
-| 5 | `https://doc.esri.com/en/arcgis-pro/latest/icons/List16.png` | List view icon | `docs/ce-pro/training/04-workspace.md` | Use inline next to "List" view option on the start page. |
-| 6 | `https://doc.esri.com/en/arcgis-pro/latest/icons/Grid16.png` | Tiles / Grid view icon | `docs/ce-pro/training/04-workspace.md` | Use inline next to "Tiles" view option on the start page. |
-| 7 | `https://doc.esri.com/en/arcgis-pro/latest/icons/ArcGISLearnColor16.png` | ArcGIS Learn icon | `docs/ce-pro/training/00-installation.md` | Use inline when referencing the Help tab → Learning Resources button. |
-| 8 | `https://doc.esri.com/en/arcgis-pro/latest/icons/Find16.png` | Find / Search icon | `docs/ce-pro/training/02-architecture.md` | Use inline next to "Locate" or command search references in the ribbon overview. |
-| 9 | `https://doc.esri.com/en/arcgis-pro/latest/icons/Esri_BackButtonSmall.png` | Back button icon | `docs/ce-pro/training/02-architecture.md` | Use inline when describing multi-page pane navigation. |
-| 10 | `https://doc.esri.com/en/arcgis-pro/latest/icons/GenericList12.png` | Pane menu button icon | `docs/ce-pro/training/02-architecture.md` | Use inline next to the "Menu button" reference in the pane controls section. |
-| 11 | `https://doc.esri.com/en/arcgis-pro/latest/icons/auto-hide-button12.png` | Auto-hide pane icon | `docs/ce-pro/training/02-architecture.md` | Use inline when describing how to auto-hide the Contents or Catalog pane to save screen space. |
-| 12 | `https://doc.esri.com/en/arcgis-pro/latest/icons/BookMonochrome16.png` | Book (monochrome) icon | `docs/ce-pro/training/00-installation.md` | Use inline as an alternative to BookDefaultMonochrome16 where a monochrome style is preferred. |
+| Field | Value |
+|-------|-------|
+| **URL** | `https://doc.esri.com/en/arcgis-pro/latest/get-started/images/ribbon_context_tab_diagram-D53F0.png` |
+| **Type** | Screenshot / Diagram |
+| **Alt text** | ArcGIS Pro ribbon showing core tabs and contextual CE tabs |
+| **Goes in** | `docs/ce-pro/training/02-architecture.md` |
+| **Note** | Insert after Screenshot 5. CE Pro tools appear as contextual tabs in the ribbon (Feature Layer, Labeling, Data tabs). |
 
 ---
 
-## Summary Table
+### Screenshot 7 — Active Map View
 
-| Asset | Type | Destination File |
-|-------|------|-----------------|
-| Sign-in window | Screenshot | `ce-pro/training/00-installation.md` |
-| Sign-in menu | Screenshot | `ce-pro/training/00-installation.md` |
-| Start page Home tab | Screenshot | `ce-pro/training/04-workspace.md` |
-| Start page Learning Resources tab | Screenshot | `ce-pro/training/00-installation.md` |
-| Settings page | Screenshot | `ce-pro/training/00-installation.md` |
-| ArcGIS Pro project view | Screenshot | `ce-pro/training/02-architecture.md` |
-| Ribbon contextual tabs diagram | Screenshot | `ce-pro/training/02-architecture.md` |
-| Active map view | Screenshot | `ce-pro/training/01-data-types.md` |
-| Contents and Catalog panes | Screenshot | `ce-pro/training/01-data-types.md` |
-| Symbology pane controls | Screenshot | `ce-pro/training/06-objects.md` |
-| Pane overflow menu | Screenshot | `ce-pro/training/02-architecture.md` |
-| Customised UI layout | Screenshot | `ce-pro/rcp-user-guide.md` |
-| Home icon | Icon | `ce-pro/training/04-workspace.md` |
-| Book / Learning icon | Icon | `ce-pro/training/00-installation.md` |
-| Settings / Gear icon | Icon | `ce-pro/training/00-installation.md` |
-| Open Folder icon | Icon | `ce-pro/training/04-workspace.md` |
-| List view icon | Icon | `ce-pro/training/04-workspace.md` |
-| Tiles / Grid icon | Icon | `ce-pro/training/04-workspace.md` |
-| ArcGIS Learn icon | Icon | `ce-pro/training/00-installation.md` |
-| Find / Search icon | Icon | `ce-pro/training/02-architecture.md` |
-| Back button icon | Icon | `ce-pro/training/02-architecture.md` |
-| Pane menu button icon | Icon | `ce-pro/training/02-architecture.md` |
-| Auto-hide icon | Icon | `ce-pro/training/02-architecture.md` |
-| Book monochrome icon | Icon | `ce-pro/training/00-installation.md` |
+| Field | Value |
+|-------|-------|
+| **URL** | `https://doc.esri.com/en/arcgis-pro/latest/get-started/images/arcgis-pro-view-AFCF6.png` |
+| **Type** | Screenshot |
+| **Alt text** | Active map view in ArcGIS Pro |
+| **Goes in** | `docs/ce-pro/training/01-data-types.md` |
+| **Note** | Insert near the top. Shows the map canvas where CE Pro data (sites, cells, predictions) is displayed. |
 
 ---
 
-*Sources: [ArcGIS Pro documentation](https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html) · [ArcGIS Maps SDK for JavaScript](https://developers.arcgis.com/javascript/latest/)*
+### Screenshot 8 — Contents Pane and Catalog Pane
+
+| Field | Value |
+|-------|-------|
+| **URL** | `https://doc.esri.com/en/arcgis-pro/latest/get-started/images/contents-pane-catalog-pane-EDB2F.png` |
+| **Type** | Screenshot |
+| **Alt text** | Contents pane and Catalog pane in ArcGIS Pro |
+| **Goes in** | `docs/ce-pro/training/01-data-types.md` |
+| **Note** | Insert after Screenshot 7. CE Pro geodatabase and layers are managed here. |
+
+---
+
+### Screenshot 9 — Symbology Pane
+
+| Field | Value |
+|-------|-------|
+| **URL** | `https://doc.esri.com/en/arcgis-pro/latest/get-started/images/pane-options-65B60.png` |
+| **Type** | Screenshot |
+| **Alt text** | Symbology pane with labelled controls |
+| **Goes in** | `docs/ce-pro/training/06-objects.md` |
+| **Note** | Insert in the section about styling network objects (sites/cells) on the map. |
+
+---
+
+### Screenshot 10 — Customised ArcGIS Pro UI Layout
+
+| Field | Value |
+|-------|-------|
+| **URL** | `https://doc.esri.com/en/arcgis-pro/latest/get-started/images/customize-ui-E4D73.png` |
+| **Type** | Screenshot |
+| **Alt text** | ArcGIS Pro interface with docked, stacked, and floating panes |
+| **Goes in** | `docs/ce-pro/rcp-user-guide.md` |
+| **Note** | Insert in a layout/tips section. Shows how to arrange panes for an efficient CE Pro workspace. |
+
+---
+
+## Part 2 — CE Express Documentation (Calcite Icons + Screenshots Needed)
+
+CE Express is a **web browser application** — ArcGIS Pro screenshots do not apply here. Below are Esri Calcite icons (functional/concept icons) plus notes on where real CE Express screenshots are needed.
+
+**Calcite icon URL pattern:** `https://raw.githubusercontent.com/Esri/calcite-ui-icons/master/icons/32/{name}-32.svg`
+
+---
+
+### Icons for CE Express Docs
+
+| # | Icon Name | URL | Alt Text | Goes In | Note |
+|---|-----------|-----|----------|---------|------|
+| 1 | `user` | `https://raw.githubusercontent.com/Esri/calcite-ui-icons/master/icons/32/user-32.svg` | User / login icon | `docs/ce-express/login.md` | Use as the icon for the Login section heading or login button reference. |
+| 2 | `map` | `https://raw.githubusercontent.com/Esri/calcite-ui-icons/master/icons/32/map-32.svg` | Map icon | `docs/ce-express/overview.md` | Use next to "Map View" section heading. |
+| 3 | `layers` | `https://raw.githubusercontent.com/Esri/calcite-ui-icons/master/icons/32/layers-32.svg` | Layers icon | `docs/ce-express/workspace.md` | Use next to Workspace / geodata layers section. |
+| 4 | `gear` | `https://raw.githubusercontent.com/Esri/calcite-ui-icons/master/icons/32/gear-32.svg` | Settings icon | `docs/ce-express/user-guide/admin-guide-v7.2.md` | Use next to Administration / Settings headings. |
+| 5 | `magnifying-glass` | `https://raw.githubusercontent.com/Esri/calcite-ui-icons/master/icons/32/magnifying-glass-32.svg` | Search icon | `docs/ce-express/overview.md` | Use next to Search functionality reference. |
+| 6 | `upload` | `https://raw.githubusercontent.com/Esri/calcite-ui-icons/master/icons/32/upload-32.svg` | Import / upload icon | `docs/ce-express/training/05-import-data.md` | Use next to "Import Data" heading. |
+| 7 | `download` | `https://raw.githubusercontent.com/Esri/calcite-ui-icons/master/icons/32/download-32.svg` | Export / download icon | `docs/ce-express/training/05-import-data.md` | Use next to export/download data steps. |
+| 8 | `graph-line` | `https://raw.githubusercontent.com/Esri/calcite-ui-icons/master/icons/32/graph-line-32.svg` | Line graph / profile icon | `docs/ce-express/profile-tool.md` | Use next to "Line of Sight / Profile" heading. |
+| 9 | `globe` | `https://raw.githubusercontent.com/Esri/calcite-ui-icons/master/icons/32/globe-32.svg` | Globe / geodata icon | `docs/ce-express/geodata.md` | Use next to Geodata section heading. |
+| 10 | `pin` | `https://raw.githubusercontent.com/Esri/calcite-ui-icons/master/icons/32/pin-32.svg` | Location pin icon | `docs/ce-express/network-objects.md` | Use next to "Network Objects / Sites" heading. |
+| 11 | `signal-tower` | `https://raw.githubusercontent.com/Esri/calcite-ui-icons/master/icons/32/signal-tower-32.svg` | Cell tower icon | `docs/ce-express/network-objects.md` | Use next to "Cells / Antennas" heading. |
+| 12 | `analysis` | `https://raw.githubusercontent.com/Esri/calcite-ui-icons/master/icons/32/analysis-32.svg` | Analysis icon | `docs/ce-express/rf-prediction.md` | Use next to "RF Prediction" heading. |
+| 13 | `raster` | `https://raw.githubusercontent.com/Esri/calcite-ui-icons/master/icons/32/raster-32.svg` | Raster layer icon | `docs/ce-express/geodata.md` | Use next to DEM / raster geodata section. |
+| 14 | `measure` | `https://raw.githubusercontent.com/Esri/calcite-ui-icons/master/icons/32/measure-32.svg` | Measure / calculation icon | `docs/ce-express/training/04-rf-prediction.md` | Use next to prediction calculation steps. |
+| 15 | `filter` | `https://raw.githubusercontent.com/Esri/calcite-ui-icons/master/icons/32/filter-32.svg` | Filter icon | `docs/ce-express/training/06-prediction-models.md` | Use next to model filter / selection steps. |
+
+---
+
+### CE Express Screenshots — Action Required
+
+The following docs need real screenshots taken from the live CE Express web application. These **cannot** be replaced with ArcGIS Pro images.
+
+| Doc File | Screenshot Needed | Where to Take It |
+|----------|------------------|-----------------|
+| `docs/ce-express/login.md` | CE Express login page | Open CE Express in browser → screenshot the login screen |
+| `docs/ce-express/overview.md` | CE Express main map view | Log in → screenshot the full map interface |
+| `docs/ce-express/workspace.md` | Workspace creation dialog | Map view → Workspaces tool → New Workspace dialog |
+| `docs/ce-express/network-objects.md` | Sites and cells on map | Add a site and cell → screenshot the map with objects visible |
+| `docs/ce-express/rf-prediction.md` | RF prediction panel + result raster | Run an RF prediction → screenshot panel and result on map |
+| `docs/ce-express/profile-tool.md` | Profile / LOS tool panel | Draw a profile → screenshot the terrain cross-section result |
+| `docs/ce-express/antenna-patterns.md` | Antenna pattern assignment dialog | Open a cell → assign antenna → screenshot the dialog |
+| `docs/ce-express/street-view.md` | Street View panel inside CE Express | Open Street View tool → screenshot |
+| `docs/ce-express/training/01-creating-workspace.md` | New workspace form | Workspaces → New → screenshot the form filled in |
+| `docs/ce-express/training/09-preparing-geodata.md` | Geodata upload/configuration screen | Geodata settings → screenshot |
+
+> **Who takes these:** Ask your senior developer or Elchin if CE Express is running on a server you can access, or if existing screenshots exist somewhere.
+
+---
+
+## Part 3 — ArcGIS Pro Icons (for CE Pro docs inline use)
+
+Small 16px icons from ArcGIS Pro docs. Use these **inline** next to button/tab names in CE Pro documentation text.
+
+| # | URL | Alt Text | Goes In | Note |
+|---|-----|----------|---------|------|
+| 1 | `https://doc.esri.com/en/arcgis-pro/latest/icons/HomeDefaultMonochrome16.png` | Home tab icon | `docs/ce-pro/training/04-workspace.md` | Inline next to "Home" tab reference |
+| 2 | `https://doc.esri.com/en/arcgis-pro/latest/icons/GearDefaultMonochrome16.png` | Settings icon | `docs/ce-pro/training/00-installation.md` | Inline next to Settings tab in licensing steps |
+| 3 | `https://doc.esri.com/en/arcgis-pro/latest/icons/BookDefaultMonochrome16.png` | Learning Resources icon | `docs/ce-pro/training/00-installation.md` | Inline next to Learning Resources tab |
+| 4 | `https://doc.esri.com/en/arcgis-pro/latest/icons/FolderOpenState16.png` | Open folder icon | `docs/ce-pro/training/04-workspace.md` | Inline next to "Open another project" |
+| 5 | `https://doc.esri.com/en/arcgis-pro/latest/icons/Find16.png` | Search / Find icon | `docs/ce-pro/training/02-architecture.md` | Inline next to command search reference |
+| 6 | `https://doc.esri.com/en/arcgis-pro/latest/icons/ArcGISLearnColor16.png` | ArcGIS Learn icon | `docs/ce-pro/training/00-installation.md` | Inline next to Help → Learning Resources button |
+| 7 | `https://doc.esri.com/en/arcgis-pro/latest/icons/List16.png` | List view icon | `docs/ce-pro/training/04-workspace.md` | Inline next to List view option on start page |
+| 8 | `https://doc.esri.com/en/arcgis-pro/latest/icons/Grid16.png` | Grid / Tiles icon | `docs/ce-pro/training/04-workspace.md` | Inline next to Tiles view option |
+| 9 | `https://doc.esri.com/en/arcgis-pro/latest/icons/Esri_BackButtonSmall.png` | Back button | `docs/ce-pro/training/02-architecture.md` | Inline when describing multi-page pane navigation |
+| 10 | `https://doc.esri.com/en/arcgis-pro/latest/icons/auto-hide-button12.png` | Auto-hide icon | `docs/ce-pro/training/02-architecture.md` | Inline when describing how to auto-hide panes |
+
+---
+
+## Summary
+
+| Category | Count | Status |
+|----------|-------|--------|
+| CE Pro screenshots (ArcGIS Pro) | 10 | ✅ Ready — URLs verified from official Esri docs |
+| CE Pro inline icons (ArcGIS Pro) | 10 | ✅ Ready — URLs verified from official Esri docs |
+| CE Express icons (Calcite SVG) | 15 | ✅ Ready — Esri open-source icon library |
+| CE Express screenshots | 10 | ⚠️ Needed — must be taken from live CE Express app |
+
+---
+
+*Sources: [ArcGIS Pro docs](https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html) · [Esri Calcite UI Icons](https://github.com/Esri/calcite-ui-icons) (Apache 2.0 license)*

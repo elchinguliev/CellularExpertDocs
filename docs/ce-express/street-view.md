@@ -1,10 +1,10 @@
 # Street View
 
-The **Street View** tool splits the CE Express map screen into two panels — the standard map on the left and a street-level view on the right. Use it to visually verify antenna positions, check surroundings, and confirm site conditions without visiting the location.
+The **[Street View](#kw:navigating-street-view:none)** tool splits the CE Express map screen into two panels — the standard map on the left and a street-level view on the right. Use it to visually verify antenna positions, check surroundings, and confirm site conditions without visiting the location.
 
 ## Opening Street View
 
-Click the **Street View** tool in the left toolbar. The screen divides into:
+Click the **[Street View](#kw:navigating-street-view:none)** tool in the left toolbar. The screen divides into:
 - **Left panel** — the normal CE Express map with all layers and objects
 - **Right panel** — a street-level panoramic view at the selected point
 
@@ -12,7 +12,7 @@ Click the **Street View** tool in the left toolbar. The screen divides into:
 
 | Action | Result |
 |---|---|
-| Click anywhere on the map | Moves the street view to that location |
+| Click anywhere on the map | Moves the [street view](#kw:navigating-street-view:none) to that location |
 | Click and drag inside the street view | Rotates the camera angle |
 | Scroll wheel inside the street view | Zoom in / out |
 | Click a road inside street view | Moves along the street |
@@ -33,7 +33,7 @@ Before a physical site visit, use Street View to assess access routes, identify 
 
 ## Closing Street View
 
-Click the **Street View** tool again to close the panel and return to the full-width map view.
+Click the **Street View** tool again to close the panel and return to the full-width [map view](#kw:switching-between-views:ce-express-login).
 
 ## Limitations
 
@@ -43,5 +43,5 @@ Click the **Street View** tool again to close the panel and return to the full-w
 
 ## Related Pages
 
-- [Network Objects](network-objects.md) — viewing and editing cell positions
-- [RF Prediction](rf-prediction.md) — understanding coverage in context of the surroundings
+- [Network Objects](#kw:object-types:ce-express-network-objects) — viewing and editing cell positions
+- RF Prediction — understanding coverage in context of the surroundings

@@ -1,6 +1,6 @@
 # 04. Creating Workspace
 
-Cellular Expert for ArcGIS Pro project
+Cellular Expert for [ArcGIS Pro project](#kw:31-step-1-opening-the-arcgis-pro-project:ce-express-tr-geodata)
 
 ---
 
@@ -14,7 +14,7 @@ CE Tools
 Create Workspace
 - New workspace path
 - Geodata folder path
-- Projected coordinate system
+- [Projected coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) system
 - Also create Local Scene
 
 ---

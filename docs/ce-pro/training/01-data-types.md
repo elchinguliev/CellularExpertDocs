@@ -21,7 +21,7 @@ profile in terms of ground elevation above uniform sea level.
 2. Obstacles layer, delineating buildings and other such objects
 above Earth surface that may be considered to be principal
 impediments for radio wave propagation.
-3. Clutter layer, delineating natural occurring or human cultivated
+3. [Clutter](#kw:clutter-classification-values:ce-express-geodata) layer, delineating natural occurring or human cultivated
 ground cover that may be partially penetrable by radio waves,
 such as natural vegetation (e.g., forests, trees, bushes) or various
 crops, gardens, parks, etc.
@@ -30,7 +30,7 @@ Diffraction
 H
 obstacles
 H
-Clutter losses clutter DSM
+[Clutter](#kw:clutter-classification-values:ce-express-geodata) losses [clutter](#kw:clutter-classification-values:ce-express-geodata) DSM
 UE
 DTM
 
@@ -73,8 +73,8 @@ Elevation grid
 
 ---
 
-Clutter classes
-- Clutter classes
+[Clutter classes](#kw:clutter-classification-values:ce-express-geodata)
+- [Clutter classes](#kw:clutter-classification-values:ce-express-geodata)
 - Represents land use classes.
 - GeoTIFF raster format
 - Coordinate system – projected

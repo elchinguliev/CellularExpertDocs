@@ -16,7 +16,7 @@ Create object
 Steps to create cell
 - Define location
 - Type specific coordinates in:
-- Projected coordinate system – X and Y coordinates;
+- [Projected coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) system – X and Y coordinates;
 - Geographical coordinate system – Latitude and Longitude
 coordinates
 - Click on the map: coordinates will be filled
@@ -31,7 +31,7 @@ by click on the map.
 
 Template
 - Automatically fills the attributes
-- Template Manager
+- [Template Manager](#kw:77-template-manager:ce-pro-emf)
 - Own table
 
 ---
@@ -58,8 +58,8 @@ Cells
 
 ---
 
-Object Editor
-- Open Object Editor
+[Object Editor](#kw:73-object-editor:ce-pro-emf)
+- Open [Object Editor](#kw:73-object-editor:ce-pro-emf)
 - Select features
 - Double click on object
 - Apply – to save changes

@@ -10,7 +10,7 @@ Network import for CE for ArcGIS Pro
 
 ---
 
-Network objects
+[Network objects](#kw:object-types:ce-express-network-objects)
 - Cells
 - Sites
 - Sites (if siteid

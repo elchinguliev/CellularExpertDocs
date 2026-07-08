@@ -28,7 +28,7 @@ Click on a record using the left mouse button. Selected records are blue:
 
 Open dataset
 Select a site, click on the Record`s Details Tool and the list of objects opens:
-Sieve
+[Sieve](#kw:74-sieve:ce-express-user-guide)
 Show only selected data of the currently opened table. Click and enter a filter term:
 Data Editing & Synchronizing
 Select a respective entry while holding the CTRL key on the keyboard or right mouse click and edit the
@@ -36,13 +36,13 @@ Select a respective entry while holding the CTRL key on the keyboard or right mo
 ---
 
 information. After editing changes will be saved automatically.
-3. Data Management
-The Network Data Management view is divided into four sections:
+3. [Data Management](#kw:31-data-management-tools:none)
+The Network [Data Management](#kw:31-data-management-tools:none) view is divided into four sections:
  Tools for data management.
  User administration tasks.
  Table for data editing.
- View options.
-2. View options and
+ [View options](#kw:32-view-options-and-user-administration:none).
+2. [View options](#kw:32-view-options-and-user-administration:none) and
 1. Data management User adminstration
 3. Table
 To navigate through the tables, click on the table name at the top right corner.
@@ -59,7 +59,7 @@ Load data from the previously configured server location and open the Table view
 can be performed, eg sorting or filtering data.
 3.1.2 Back
 Go one step back and show previous data.
-3.1.3 Search (sieve)
+3.1.3 Search ([sieve](#kw:74-sieve:ce-express-user-guide))
 Sieve the data in the currently opened table for one or more filter terms.
 3.1.4 Multiple table view
 View and edit all tables from one site simultaneously in one window.
@@ -106,7 +106,7 @@ Removes selected objects.
 ---
 
 3.2.1 Map overlay
-Opens map view
+Opens [map view](#kw:switching-between-views:ce-express-login)
 Opens table view
 3.2.2 Additional tools
 Opens the menu :
@@ -378,10 +378,10 @@ map:
 
 Map viewing options
 On the right side of the screen, you find the commands
-Full screen - Google Street View - Zoom in / out
-Map view - select the preferred map background, for example ESRI streets:
+Full screen - Google [Street View](#kw:navigating-street-view:ce-express-street-view) - Zoom in / out
+[Map view](#kw:switching-between-views:ce-express-login) - select the preferred map background, for example ESRI streets:
 Home
-moves the map view to your current location.
+moves the [map view](#kw:switching-between-views:ce-express-login) to your current location.
 Measure Distances
 Select the Measure Tool , left-click on the starting point, then move the mouse over the map - distance
 and azimuth values will be displayed between the starting point and the mouse cursor.
@@ -478,7 +478,7 @@ or
  select the record, press the button and create the diagram records in the tables
 “Diagram_items“ and “Diagram_links“ (method B)
  Method AUsing the graphical drawing interface, the diagram can be created by dragging and dropping
-predefined models from the models templates toolbar and making connections between them. After
+predefined [models](#kw:31-models:ce-express-tr-models) from the [models](#kw:31-models:ce-express-tr-models) templates toolbar and making connections between them. After
 synchronizing (see section 3.10) all information is saved in the diagrams data tables “Diagram_items“ and
 “Diagram_links“. For this reason, diagram modifications can also be performed by making changes directly
 in those tables.

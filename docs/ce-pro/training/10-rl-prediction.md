@@ -2,7 +2,7 @@
 
 Equipment
 - Antennas > Parabolic
-- Radio Models
+- Radio [Models](#kw:31-models:ce-express-tr-models)
 - Frequency Plans
 - Spectrum Mask
 
@@ -12,7 +12,7 @@ Antennas
 
 ---
 
-Radio Models
+Radio [Models](#kw:31-models:ce-express-tr-models)
 
 ---
 

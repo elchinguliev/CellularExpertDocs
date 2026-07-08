@@ -128,7 +128,7 @@ Confidential ©Cellular Expert, 2024 Page | 5
 
 Cellular Expert Network Requirements
 Typical Omni 360deg antenna
-2.2.13.1 Antenna pattern file structure
+2.2.13.1 [Antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) file structure
 The text file in Planet format represents:
 - Main antenna parameters, such as name, gain value.
 - Horizontal pattern.

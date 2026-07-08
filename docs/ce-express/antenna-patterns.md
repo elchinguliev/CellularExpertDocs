@@ -1,28 +1,28 @@
 # Antenna Patterns
 
-An antenna pattern file describes how an antenna radiates power in different directions — both horizontally (azimuth) and vertically (elevation). CE Express uses these patterns to calculate accurate RF predictions rather than assuming an idealised omnidirectional antenna.
+An [antenna pattern](#kw:managing-the-antenna-library:none) file describes how an antenna radiates power in different directions — both horizontally (azimuth) and vertically (elevation). CE Express uses these patterns to calculate accurate RF predictions rather than assuming an idealised omnidirectional antenna.
 
 ## Supported Formats
 
 | Format | Extension | Notes |
 |---|---|---|
-| MSI Planet | `.msi` | Most common format from antenna vendors |
+| [MSI Planet](#kw:pattern-file-structure-msi:none) | `.msi` | Most common format from antenna vendors |
 | Kathrein | `.txt` | Text-based pattern format |
 
-Most antenna manufacturers (Kathrein, Commscope, Ericsson, Nokia, Huawei) provide patterns in .msi format on their websites or on [Antenna DL](https://www.antenna-dl.com).
+Most antenna manufacturers (Kathrein, Commscope, Ericsson, Nokia, Huawei) provide patterns in .msi format on their websites or on Antenna DL.
 
 ## Importing Antenna Patterns
 
 1. Open the **Antennas** tool from the left toolbar.
 2. Click **Import**.
 3. Select one or more `.msi` or `.txt` files.
-4. Click **Open** — the patterns are imported into the antenna library.
+4. Click **Open** — the patterns are imported into the [antenna library](#kw:managing-the-antenna-library:none).
 
 You can import multiple files at once. Imported patterns are available to all workspaces.
 
 ## Assigning a Pattern to a Cell
 
-1. Open **Network Data Management**.
+1. Open **Network [Data Management](#kw:31-data-management-tools:inventory3d-user-guide)**.
 2. Find the cell row.
 3. Click the `antenna_pattern` field.
 4. Type or select the pattern name from the dropdown.
@@ -70,5 +70,5 @@ In the Antennas tool, click a pattern name to view its horizontal and vertical r
 
 ## Related Pages
 
-- [Network Objects](network-objects.md) — assigning patterns to cells
-- [RF Prediction](rf-prediction.md) — how patterns affect prediction results
+- [Network Objects](#kw:object-types:ce-express-network-objects) — assigning patterns to cells
+- RF Prediction — how patterns affect [prediction results](#kw:viewing-results:ce-express-rf-prediction)

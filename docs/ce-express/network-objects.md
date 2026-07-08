@@ -1,6 +1,6 @@
 # Network Objects
 
-Network objects are the radio infrastructure elements managed in CE Express: **sites**, **cells**, and **repeaters**. All objects are stored in the PostgreSQL database and are visible on the map when a workspace is selected.
+[Network objects](#kw:object-types:none) are the radio infrastructure elements managed in CE Express: **sites**, **cells**, and **repeaters**. All objects are stored in the PostgreSQL database and are visible on the map when a workspace is selected.
 
 ## Object Types
 
@@ -15,8 +15,8 @@ Network objects are the radio infrastructure elements managed in CE Express: **s
 | Attribute | Description |
 |---|---|
 | `cell_name` | Unique identifier for the cell |
-| `latitude` | WGS84 decimal degrees (e.g. 54.6872) |
-| `longitude` | WGS84 decimal degrees (e.g. 25.2797) |
+| `latitude` | [WGS84](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) decimal degrees (e.g. 54.6872) |
+| `longitude` | [WGS84](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) decimal degrees (e.g. 25.2797) |
 
 ## Common Optional Attributes
 
@@ -29,11 +29,11 @@ Network objects are the radio infrastructure elements managed in CE Express: **s
 | `frequency_mhz` | Operating frequency in MHz (e.g. 1800, 2100, 3500) |
 | `power_dbm` | Transmit power in dBm |
 | `technology` | Radio technology: `2G`, `3G`, `4G`, or `5G` |
-| `antenna_pattern` | Name of the assigned antenna pattern file |
+| `antenna_pattern` | Name of the assigned [antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) file |
 
 ## Adding Objects Manually
 
-1. Open **Network Data Management** (button in top toolbar).
+1. Open **Network [Data Management](#kw:31-data-management-tools:inventory3d-user-guide)** (button in top toolbar).
 2. Click **Add New Record**.
 3. Fill in `cell_name`, `latitude`, and `longitude` (minimum required).
 4. Fill in any additional attributes.
@@ -44,7 +44,7 @@ Network objects are the radio infrastructure elements managed in CE Express: **s
 
 Bulk import is the fastest way to add many cells at once.
 
-1. Open **Network Data Management**.
+1. Open **Network [Data Management](#kw:31-data-management-tools:inventory3d-user-guide)**.
 2. Click **Import**.
 3. Select your CSV file. The file must have a header row with column names matching CE Express field names.
 4. Map any columns that don't match automatically.
@@ -66,7 +66,7 @@ SITE01_B,SITE01,54.6872,25.2797,30,120,3,1800,43,4G,
 SITE01_C,SITE01,54.6872,25.2797,30,240,3,1800,43,4G,
 ```
 
-> Download the template from the [Downloads](../../downloads.md) page.
+> Download the template from the Downloads page.
 
 ## Editing Objects
 
@@ -106,6 +106,6 @@ Use the **Rectangle Selection** tool to draw a box on the map and select all obj
 
 ## Related Pages
 
-- [Antenna Patterns](antenna-patterns.md) — assigning patterns to cells
-- [RF Prediction](rf-prediction.md) — running predictions on selected cells
-- [Workspaces](workspace.md) — workspace and database overview
+- [Antenna Patterns](#kw:importing-antenna-patterns:ce-express-antenna) — assigning patterns to cells
+- RF Prediction — running predictions on selected cells
+- Workspaces — workspace and database overview

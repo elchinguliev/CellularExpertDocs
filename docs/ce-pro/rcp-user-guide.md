@@ -2048,18 +2048,13 @@ Open / Terrain
 Grassland
 Sparse forest
 Medium dense forest
-Very dense forest
-0.5
-Low density urban (Low buildings)
-0.3
-Low density urban (High buildings)
-0.3
+Very dense forest: **0.5**
+Low density urban (Low buildings): **0.3**
+Low density urban (High buildings): **0.3**
 Medium density urban (Low
-buildings)
-0.1
+buildings): **0.1**
 Medium density urban (High
-buildings)
-0.1
+buildings): **0.1**
 High density urban (Low buildings)
 High density urban (High buildings)
 High density urban (Very high
@@ -2067,8 +2062,7 @@ buildings)
 Building blocks
 Transportation
 Agriculture
-Plantation
-0.7
+Plantation: **0.7**
 Parks
 Airport
 Sea
@@ -2108,8 +2102,7 @@ Earth radius in kilometers, used for the calculations.
 Offset coefficient
 Represents the offset in decibels added to the path loss grid. The default value is 37 dB.
 Distance coefficient
-Defines the slope based on the distance between the cell and the receiver location, with a default value of
-20.
+Defines the slope based on the distance between the cell and the receiver location, with a default value of: **20.**
 Distance coefficient obstructed
 Represents the slope based on the obstructed distance between the cell and the receiver location. The
 default value is 30.
@@ -2220,18 +2213,13 @@ Open / Terrain
 Grassland
 Sparse forest
 Medium dense forest
-Very dense forest
-0.5
-Low density urban (Low buildings)
-0.3
-Low density urban (High buildings)
-0.3
+Very dense forest: **0.5**
+Low density urban (Low buildings): **0.3**
+Low density urban (High buildings): **0.3**
 Medium density urban (Low
-buildings)
-0.1
+buildings): **0.1**
 Medium density urban (High
-buildings)
-0.1
+buildings): **0.1**
 High density urban (Low buildings)
 High density urban (High buildings)
 High density urban (Very high
@@ -2239,8 +2227,7 @@ buildings)
 Building blocks
 Transportation
 Agriculture
-Plantation
-0.7
+Plantation: **0.7**
 Parks
 Airport
 Sea

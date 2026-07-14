@@ -2,6 +2,16 @@
 
 > **Version:** CE Pro v4.9
 
+RLP results — MW link paths and availability predictions — are displayed on the ArcGIS Pro map view:
+
+![Map view showing RLP prediction results and MW link paths](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/arcgis-pro-view-AFCF6.png)
+
+Arrange your ArcGIS Pro panes for an efficient RLP workflow:
+
+![Customised ArcGIS Pro layout — recommended pane arrangement for RLP workflow](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/customize-ui-E4D73.png)
+
+---
+
 About Cellular Expert
 Cellular Expert UAB (CE) developed ultra-fast wave
 propagation, communication systems deployment planning,

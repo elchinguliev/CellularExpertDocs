@@ -4,6 +4,11 @@
 
 
 ## 1. Software Purpose and Functionality
+
+EMF prediction results are displayed as raster layers in the ArcGIS Pro map view. Use the Contents pane to toggle visibility of EMF exposure zones:
+
+![ArcGIS Pro project with map view, Contents pane, and Catalog pane](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/arcgis-pro-project-3DC45.png)
+
 Cellular Expert Desktop for ArcGIS Pro (CE Pro) is a professional radio coverage planning software tool
 designed on top of the Esri ArcGIS Pro environment. The CE Pro is a highly versatile and functional tool,
 covering the network design functionality needs of most professional radio communication planners and

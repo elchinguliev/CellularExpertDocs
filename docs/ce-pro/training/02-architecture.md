@@ -18,6 +18,16 @@ CE Pro
 
 ---
 
+CE Pro runs inside ArcGIS Pro. The image below shows a typical project with map view, Contents pane, and Catalog pane — the core layout you will use throughout all CE Pro work:
+
+![ArcGIS Pro project with map view, Contents pane, and Catalog pane](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/arcgis-pro-project-3DC45.png)
+
+CE Pro tools appear as contextual tabs in the ArcGIS Pro ribbon:
+
+![ArcGIS Pro ribbon showing core tabs and contextual CE tabs](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/ribbon_context_tab_diagram-D53F0.png)
+
+---
+
 Cellular Expert for ArcGIS Pro Architecture
 Cellular Expert for ArcGIS Pro
 RCP | RLP | EMF

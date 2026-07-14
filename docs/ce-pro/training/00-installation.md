@@ -39,8 +39,19 @@ Always install in this sequence — installing CE before ArcGIS Pro will fail:
 
 ## Activating the Licence
 
+When you first open ArcGIS Pro, you will be prompted to sign in:
+
+![ArcGIS Pro sign-in prompt](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/sign-in-window-F405D.png)
+
+You can also sign in from within an open project using the sign-in menu in the top bar:
+
+![Sign-in menu in an open ArcGIS Pro project](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/sign-in-menu-F8B91.png)
+
 1. Open **ArcGIS Pro** and create or open a project with a Map view
 2. Go to **Settings → Licensing → Configure your licensing options**
+
+![ArcGIS Pro settings page showing licensing options](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/settings-page-8C3ED.png)
+
 3. Locate **Cellular Expert** in the extension list
 4. Toggle it **On**
 5. Copy your **User Key** from the CE licence portal and paste it when prompted

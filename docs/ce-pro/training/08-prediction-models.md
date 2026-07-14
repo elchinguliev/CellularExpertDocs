@@ -2,6 +2,16 @@
 
 > **Version:** CE Pro v4.9
 
+Prediction model output is displayed as a coverage raster on the active map:
+
+![Map view showing prediction model output coverage raster](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/arcgis-pro-view-AFCF6.png)
+
+Select the prediction model from the contextual CE Desktop tab in the ArcGIS Pro ribbon:
+
+![ArcGIS Pro ribbon showing core tabs and contextual CE tabs](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/ribbon_context_tab_diagram-D53F0.png)
+
+---
+
 ## Overview — Path Loss
 
 The fundamental relationship used in CE Pro predictions:

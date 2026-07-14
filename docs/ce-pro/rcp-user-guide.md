@@ -4,6 +4,11 @@
 
 
 ## 1. Software Purpose and Functionality
+
+CE Pro runs as an extension inside ArcGIS Pro. For an efficient CE Pro workspace, arrange your panes so the map, Contents, and CE Pro tools are all visible at once:
+
+![ArcGIS Pro interface with docked, stacked, and floating panes — recommended CE Pro layout](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/customize-ui-E4D73.png)
+
 Cellular Expert Desktop for ArcGIS Pro (CE Pro) is a professional radio coverage planning software tool
 designed on top of the Esri ArcGIS Pro environment. The CE Pro is a highly versatile and functional tool,
 covering the network design functionality needs of most professional radio communication planners and

@@ -4,6 +4,11 @@
 
 
 ## 1. Software Purpose and Functionality
+
+Indoor prediction results are displayed as floor-level rasters inside building footprints on the ArcGIS Pro map:
+
+![ArcGIS Pro project with map view and Contents pane showing indoor coverage layers](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/arcgis-pro-project-3DC45.png)
+
 Cellular Expert Desktop for ArcGIS Pro (CE Pro) is a professional radio coverage planning software tool
 designed on top of the Esri ArcGIS Pro environment. The CE Pro is a highly versatile and functional tool,
 covering the network design functionality needs of most professional radio communication planners and

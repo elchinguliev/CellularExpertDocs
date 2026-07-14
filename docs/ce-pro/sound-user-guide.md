@@ -4,6 +4,11 @@
 
 
 ## 1. Software Purpose and Functionality
+
+Sound prediction results are displayed as outdoor noise contour rasters on the ArcGIS Pro map view:
+
+![ArcGIS Pro project with map view, Contents pane, and Catalog pane](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/arcgis-pro-project-3DC45.png)
+
 Cellular Expert Desktop for ArcGIS Pro (CE Pro) is a professional radio coverage planning software tool
 designed on top of the Esri ArcGIS Pro environment. The CE Pro is a highly versatile and functional tool,
 covering the network design functionality needs of most professional radio communication planners and

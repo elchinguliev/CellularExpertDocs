@@ -24,6 +24,10 @@ The **CE Tools** tab in the ArcGIS Pro ribbon shows one of three states:
 
 ## Creating a New Workspace
 
+When ArcGIS Pro opens, the start page lets you create a new project or open an existing one:
+
+![The Home tab of the ArcGIS Pro start page](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/start-page-home-DC4BD.png)
+
 1. Open ArcGIS Pro and add a **Map** or **Local Scene** to your project
 2. Click the **CE Desktop** tab in the ribbon
 3. Click **Create Workspace**

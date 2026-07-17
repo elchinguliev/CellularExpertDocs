@@ -47,7 +47,7 @@ Workspaces can be:
 - Used collaboratively by RF planners, optimization engineers, and managers
 - Reused as templates for similar geographic areas
 
-**→ For full workspace documentation, see Workspaces →**
+** For full workspace documentation, see Workspaces**
 
 ## Step 1 — Accessing CE Express
 
@@ -84,7 +84,7 @@ After creating the workspace, explore the [map view](#kw:switching-between-views
 
 ## Step 4 — Adding an Extra Layer
 
-1. In workspace settings → Extra layers → click **Add layer**
+1. In workspace settings Extra layers click **Add layer**
 2. Enter an ArcGIS Portal Item ID or URL for a background map
 3. Set opacity to 70%
 4. Click Save
@@ -107,6 +107,6 @@ Create a workspace for a new planning project:
 
 ## Related Documentation
 
-- **Full workspace documentation:** Workspaces →
-- **Geodata requirements:** Geodata Requirements →
-- **Login help:** Logging In →
+- **Full workspace documentation:** Workspaces
+- **Geodata requirements:** Geodata Requirements
+- **Login help:** Logging In

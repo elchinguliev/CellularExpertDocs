@@ -81,7 +81,7 @@ Run the CE Express database setup script:
 ### Step 5: Verify Installation and License
 
 1. Open CE Express in a browser: `https://your-server/ceexp`
-2. In CE Express → Settings → License Manager
+2. In CE Express Settings License Manager
 3. Enter your license key
 4. Click **Activate** (requires internet for online activation)
 
@@ -89,7 +89,7 @@ Run the CE Express database setup script:
 
 Configure your web server to enforce HTTPS:
 
-**IIS:** [Enable SSL](#kw:step-6-enable-ssl-recommended:none) certificate → Require SSL in site bindings
+**IIS:** [Enable SSL](#kw:step-6-enable-ssl-recommended:none) certificate Require SSL in site bindings
 
 **Nginx:**
 ```nginx
@@ -105,14 +105,14 @@ server {
 
 To allow CE Express to publish layers to ArcGIS Portal:
 1. Create a dedicated ArcGIS Portal service account for CE Express
-2. Edit `ce_express_config.php` → set `$portal_user` and `$portal_pass`
-3. Test: CE Express → Features → Publish → verify layer appears in Portal
+2. Edit `ce_express_config.php` set `$portal_user` and `$portal_pass`
+3. Test: CE Express Features Publish verify layer appears in Portal
 
 ### Step 8: Configure Email Notifications (Optional)
 
 For password reset and ticket notifications:
-1. Edit `ce_express_config.php` → set `$smtp_host`, `$smtp_port`, `$smtp_user`, `$smtp_pass`
-2. Test: CE Express → Settings → Send test email
+1. Edit `ce_express_config.php` set `$smtp_host`, `$smtp_port`, `$smtp_user`, `$smtp_pass`
+2. Test: CE Express Settings Send test email
 
 ### Step 9: Create Database Structure (Inventory3D)
 
@@ -146,7 +146,7 @@ CEInventory3D\
 
 ## Related Topics
 
-- System Requirements →
-- Geodata Preparation →
-- User Management →
-- Creating Workspaces (Admin) →
+- System Requirements
+- Geodata Preparation
+- User Management
+- Creating Workspaces (Admin)

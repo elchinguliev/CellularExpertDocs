@@ -97,21 +97,21 @@ Automatic feature name setting based on existing features. For example: if namin
 
 ## Editing a Workspace
 
-Hover over a workspace item → click **Edit Workspace** to modify settings.
+Hover over a workspace item click **Edit Workspace** to modify settings.
 
 ## Duplicating a Workspace
 
-Hover over a workspace → click **Duplicate Workspace** to create a copy with all settings.
+Hover over a workspace click **Duplicate Workspace** to create a copy with all settings.
 
 ## Deleting a Workspace
 
-Hover over a workspace → click **Delete Workspace**. 
+Hover over a workspace click **Delete Workspace**. 
 
 > ⚠️ [Deleting a workspace](#kw:deleting-a-workspace:none) removes all objects associated with it. This action cannot be undone.
 
 ## Related Topics
 
-- Geodata Sets →
-- Geodata Requirements →
-- [Creating a Workspace](#kw:creating-a-workspace:none) (Admin) →
-- Features — [Adding Objects](#kw:adding-objects-manually:ce-express-network-objects) →
+- Geodata Sets
+- Geodata Requirements
+- [Creating a Workspace](#kw:creating-a-workspace:none) (Admin)
+- Features — [Adding Objects](#kw:adding-objects-manually:ce-express-network-objects)

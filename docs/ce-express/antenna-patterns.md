@@ -59,9 +59,9 @@ In the Antennas tool, click a pattern name to view its horizontal and vertical r
 
 | Action | How |
 |---|---|
-| View all imported patterns | Open Antennas tool → Library tab |
-| Delete a pattern | Select the pattern → click Delete |
-| Export a pattern | Select the pattern → click Export |
+| View all imported patterns | Open Antennas tool Library tab |
+| Delete a pattern | Select the pattern click Delete |
+| Export a pattern | Select the pattern click Export |
 | Rename a pattern | Not supported — re-import under a new name |
 
 ## Tips

@@ -49,9 +49,7 @@ Predictions are influenced by:
 | DB impact | **Does not write** to database | Saves to [prediction history](#kw:44-step-4-prediction-history-and-result-management:ce-express-tr-rf) |
 | Use case | What-if testing, parameter comparison | Final results, reporting, documentation |
 | Object selection | Uses current object values | Uses saved database values |
-| Batch processing | Single cell/group | Multiple networks |
-
-→ See [Quick RF Prediction](#kw:quick-rf-prediction-vs-full-rf-prediction:none) for rapid testing.
+| Batch processing | Single cell/group | Multiple networks | See [Quick RF Prediction](#kw:quick-rf-prediction-vs-full-rf-prediction:none) for rapid testing.
 
 ## Running a Full RF Prediction
 
@@ -79,8 +77,7 @@ Click **[RF Prediction](#kw:what-rf-prediction-uses:none)** in the left toolbar.
 
 **Radius:** Maximum prediction radius from each site (meters).
 
-**Propagation model:** Select the model appropriate for your environment.
-→ See Prediction [Models](#kw:31-models:ce-express-tr-models)
+**Propagation model:** Select the model appropriate for your environment. See Prediction [Models](#kw:31-models:ce-express-tr-models)
 
 **Receiver height:** Height of the mobile receiver above ground (typically 1.5m for outdoor; custom for indoor, vehicle, rooftop).
 
@@ -116,15 +113,13 @@ Results appear as raster layers in the map. From the [Prediction History](#kw:44
 | No result layer | Antenna not assigned to cell | Assign [antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) in cell properties |
 | Very slow prediction | Fine resolution over large area | Increase resolution to 50–100m; reduce radius |
 | Out of memory | Large area at fine resolution | Split area, reduce radius, use coarser resolution |
-| License error | Prediction module not licensed | Check License Manager — contact support |
-
-→ See [Troubleshooting](#kw:common-issues:none) [RF Prediction](#kw:what-rf-prediction-uses:none)
+| License error | Prediction module not licensed | Check License Manager — contact support | See [Troubleshooting](#kw:common-issues:none) [RF Prediction](#kw:what-rf-prediction-uses:none)
 
 ## Related Topics
 
-- [Quick RF Prediction](#kw:quick-rf-prediction-vs-full-rf-prediction:none) →
-- Prediction Models →
-- Geodata Requirements →
-- Geodata Sets →
-- Prediction History →
-- Networks (Batch Prediction) →
+- [Quick RF Prediction](#kw:quick-rf-prediction-vs-full-rf-prediction:none)
+- Prediction Models
+- Geodata Requirements
+- Geodata Sets
+- Prediction History
+- Networks (Batch Prediction)

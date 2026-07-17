@@ -67,6 +67,6 @@ Switch between [view modes](#kw:view-modes:none) using the toolbar buttons:
 
 ## Related Topics
 
-- Features Tool →
-- RF Prediction →
-- Workspaces →
+- Features Tool
+- RF Prediction
+- Workspaces

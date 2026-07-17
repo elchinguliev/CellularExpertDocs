@@ -68,7 +68,7 @@ CE Calculation Engine (multi-threaded C++, optional GPU)
 
 ## Related Topics
 
-- Logging In →
-- [Map View](#kw:switching-between-views:ce-express-login) Overview →
-- Creating Workspaces →
-- System Requirements (Admin) →
+- Logging In
+- [Map View](#kw:switching-between-views:ce-express-login) Overview
+- Creating Workspaces
+- System Requirements (Admin)

@@ -98,13 +98,13 @@ Switch to Network Data Management, find the row, and click any cell to edit it. 
 
 ## Deleting Objects
 
-Select the object → right-click → **Delete**, or select the row in Network Data Management and click **Delete Record**.
+Select the object right-click **Delete**, or select the row in Network Data Management and click **Delete Record**.
 
 > In Inventory3D, permanent deletion requires the **Delete Object Permanently** admin function. Standard deletion in CE Express moves objects to a soft-deleted state.
 
 ## Selecting Multiple Objects
 
-Use the **Rectangle Selection** tool to draw a box on the map and select all objects within it. Then use **Show In Table → Cells** to view and bulk-edit their attributes.
+Use the **Rectangle Selection** tool to draw a box on the map and select all objects within it. Then use **Show In Table Cells** to view and bulk-edit their attributes.
 
 ## Related Pages
 

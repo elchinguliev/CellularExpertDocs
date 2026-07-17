@@ -53,13 +53,13 @@ The duplicate inherits all settings from the original. Network objects are **not
 
 ## Editing Workspace Settings
 
-1. Hover over the workspace → click the **Settings** icon (gear).
+1. Hover over the workspace click the **Settings** icon (gear).
 2. Update the geodata folder path or coordinate system as needed.
 3. Click **Save**.
 
 ## Deleting a Workspace
 
-1. Hover over the workspace → click the **Delete** icon (bin).
+1. Hover over the workspace click the **Delete** icon (bin).
 2. Confirm deletion.
 
 > [Deleting a workspace](#kw:deleting-a-workspace:none) does **not** delete the network objects in the database — only the workspace container and its settings are removed.

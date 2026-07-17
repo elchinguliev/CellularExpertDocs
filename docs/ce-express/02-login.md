@@ -60,14 +60,14 @@ Click **Login with Express account** to use a Cellular Expert Express local acco
 
 After successful authentication, the **Network Data Management** view opens, showing all workspaces available to your user group.
 
-To open the [Map view](#kw:switching-between-views:ce-express-login): select a workspace from the list → the Map view loads with that workspace active.
+To open the [Map view](#kw:switching-between-views:ce-express-login): select a workspace from the list the Map view loads with that workspace active.
 
 ## Logging Out
 
-Click the **User menu** button (top right corner) → click **Logout**.
+Click the **User menu** button (top right corner) click **Logout**.
 
 ## Related Topics
 
-- Introduction to CE Express →
-- Workspaces →
-- User Management (Admin) →
+- Introduction to CE Express
+- Workspaces
+- User Management (Admin)

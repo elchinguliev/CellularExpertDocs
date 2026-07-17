@@ -96,12 +96,10 @@ Models can be set:
 Improve prediction accuracy by calibrating against real measurements:
 
 1. Import drive-test data (CSV with Lat/Lon/Signal level/Cell ID)
-2. CE Express → **[Model Tuning](#kw:model-tuning-calibration:none)** tool
+2. CE Express **[Model Tuning](#kw:model-tuning-calibration:none)** tool
 3. The wizard compares predicted vs. measured values
 4. Adjusts [model coefficients](#kw:model-tuning-calibration:none) to minimize mean error
-5. Save the tuned model for future predictions
-
-→ See [Model Tuning](#kw:model-tuning-calibration:none) →
+5. Save the tuned model for future predictions See [Model Tuning](#kw:model-tuning-calibration:none)
 
 ## Choosing the Right Model
 
@@ -116,6 +114,6 @@ Improve prediction accuracy by calibrating against real measurements:
 
 ## Related Topics
 
-- RF Prediction →
-- Model Tuning →
-- Geodata Requirements →
+- RF Prediction
+- Model Tuning
+- Geodata Requirements

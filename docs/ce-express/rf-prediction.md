@@ -22,7 +22,7 @@ Before running a prediction, make sure you have:
 
 1. Open the **Features** tool (or use the Rectangle Selection tool on the map).
 2. Select the cells you want to include in the prediction.
-3. Click **Show in Table → Cells** to confirm your selection.
+3. Click **Show in Table Cells** to confirm your selection.
 
 ### Step 2 — Open RF Prediction
 
@@ -53,7 +53,7 @@ Quick RF is a fast, single-cell field strength preview. Use it for a rapid sanit
 1. Open the **[Quick RF Prediction](#kw:quick-rf-prediction:none)** tool.
 2. Set **Resolution** to 1 for best quality.
 3. Hold **CTRL** and click on a cell — the prediction runs instantly.
-4. View results in **Layers → [Prediction results](#kw:viewing-results:none)**.
+4. View results in **Layers [Prediction results](#kw:viewing-results:none)**.
 
 > Quick RF calculates field strength only. For [RSRP](#kw:typical-rsrp-thresholds:none), SINR, throughput, and multi-cell best server analysis, use the full [RF Prediction](#kw:running-a-full-rf-prediction:none) tool.
 

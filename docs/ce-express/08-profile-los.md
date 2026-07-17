@@ -28,7 +28,7 @@ Click **Profile** in the left toolbar.
 3. CE Express computes the [terrain profile](#kw:profile-results:none) using the loaded DEM
 
 Alternatively:
-- Select two existing [network objects](#kw:object-types:ce-express-network-objects) → Profile is drawn between them
+- Select two existing [network objects](#kw:object-types:ce-express-network-objects) Profile is drawn between them
 - Import profile endpoints from a file
 
 ## Profile Properties
@@ -93,6 +93,6 @@ Import profile endpoints from coordinates (CSV) or from existing [network object
 
 ## Related Topics
 
-- Radio Link Prediction →
-- RF Prediction →
-- Geodata Requirements →
+- Radio Link Prediction
+- RF Prediction
+- Geodata Requirements

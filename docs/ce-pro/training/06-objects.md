@@ -56,8 +56,6 @@ Templates speed up object creation by pre-populating common parameter sets.
 
 After creating objects, use the **Symbology** pane to style how sites and cells appear on the map:
 
-![Symbology pane with labelled controls](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/pane-options-65B60.png)
-
 ---
 
 ## Creating a Cell — Key Parameters

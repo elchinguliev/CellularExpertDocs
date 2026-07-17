@@ -6,11 +6,7 @@
 
 RL and MW link paths and prediction results are displayed on the active map view:
 
-![Map view showing MW link paths and RL prediction results](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/arcgis-pro-view-AFCF6.png)
-
 For RL planning, arrange your ArcGIS Pro panes to keep the map, Contents, and CE Pro pane all visible at once:
-
-![Customised ArcGIS Pro layout — recommended pane arrangement for RL / MW planning](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/customize-ui-E4D73.png)
 
 ---
 

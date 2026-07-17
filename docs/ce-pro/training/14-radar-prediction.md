@@ -6,8 +6,6 @@
 
 Radar Prediction calculates the detection reach of radar signals across an area. The tool accounts for terrain (DTM), obstacles, and the radar cross-section of different target types. Detection range varies by target — drones are identified within a shorter distance than aircraft.
 
-![Map view showing radar prediction coverage results](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/arcgis-pro-view-AFCF6.png)
-
 ---
 
 ## How to Run

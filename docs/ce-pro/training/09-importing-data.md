@@ -4,8 +4,6 @@
 
 After import, network objects appear as feature classes in the geodatabase. View them in the **Contents** and **Catalog** panes:
 
-![Contents and Catalog pane — imported network objects appear as feature classes in the geodatabase](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/contents-pane-catalog-pane-EDB2F.png)
-
 ---
 
 Network import for CE for ArcGIS Pro

@@ -2,12 +2,9 @@
 
 > **Version:** CE Pro v4.9
 
-
 ## 1. Software Purpose and Functionality
 
 CE Pro runs as an extension inside ArcGIS Pro. For an efficient CE Pro workspace, arrange your panes so the map, Contents, and CE Pro tools are all visible at once:
-
-![ArcGIS Pro interface with docked, stacked, and floating panes — recommended CE Pro layout](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/customize-ui-E4D73.png)
 
 Cellular Expert Desktop for ArcGIS Pro (CE Pro) is a professional radio coverage planning software tool
 designed on top of the Esri ArcGIS Pro environment. The CE Pro is a highly versatile and functional tool,
@@ -16,28 +13,28 @@ developers. It could support network planning and optimization for the entire ra
 in frequencies from 10 kHz to 350 GHz.
 The key features and benefits of utilizing Cellular Expert software are as follows:
 
-## 1. CE Pro is a purpose-built extension of ESRI software, a world-renowned standard in GIS
+1. CE Pro is a purpose-built extension of ESRI software, a world-renowned standard in GIS
 environments. This means that along with wireless network planning and optimization, it gives
 users various value-added GIS/mapping functionalities to manage, visualize feature classes or
 roasters, create reports, and graphs, or automate workflows,
 
-## 2. CE Pro is made of several processing engines and functional modules and therefore may be
+2. CE Pro is made of several processing engines and functional modules and therefore may be
 easily configured for various business functions: network planning, network engineering,
 technology information support to sales and marketing, network assets management, and
 network operational maintenance and supervision,
 
-## 3. CE Pro is maintained and constantly developed by a dedicated agile team of software
+3. CE Pro is maintained and constantly developed by a dedicated agile team of software
 developers and radio planners, allowing attentive responsiveness to customer needs and
 developing custom-tailored solutions.
 CE Pro performs mobile network coverage analysis based on:
 
-## 1. Site and cell level details of radio equipment complement, specifications, cell and component
+1. Site and cell level details of radio equipment complement, specifications, cell and component
 carriers configuration,
 
-## 2. Subscriber characteristics – geographic distribution density, generated traffic to estimate
+2. Subscriber characteristics – geographic distribution density, generated traffic to estimate
 network/cell loading,
 
-## 3. DTM, buildings, and clutter-based deterministic point-to-area radio wave propagation
+3. DTM, buildings, and clutter-based deterministic point-to-area radio wave propagation
 modeling.
 CE Pro allows the user to input and use a broad variety of GIS and network data to support the simulations,
 as the overall quality of coverage calculations is dependent on the completeness and detail of technical
@@ -87,7 +84,6 @@ The tool provides powerful GIS analytical features to analyze the terrain and cl
 such as allowing to estimate of the Fresnel zone clearance condition, Power Budget, Path loss and Angles
 between Tx and Rx.
 
-
 ## 2. System requirements
 This chapter will guide you through the minimal hardware and software requirements.
 Note: requirements can vary significantly, depending on the acceptable calculation time and task
@@ -118,7 +114,6 @@ https://aka.ms/vs/17/release/vc_redist.x64.exe
 • .NET support for ArcGIS libraries
 • ArcGIS Pro from version 3.3.x
 
-
 ## 3. License types
 Only a Single Use Cellular Expert license is available. The license type is annual and dedicated to one
 workstation connected with ArcGIS Online, which is used for ArcGIS Pro.
@@ -131,7 +126,6 @@ Geographical data can be stored:
 • Locally on a disc
 An ArcGIS Pro license and an active ArcGIS Named User or ArcGIS Pro Standalone are required to operate
 in the Single-User environment.
-
 
 ## 4. Getting Started
 Welcome to Cellular Expert.
@@ -152,40 +146,40 @@ please skip this step.
 You can activate the license in two ways:
 First way:
 
-## 1. Open ArcGIS Pro and select Settings
+1. Open ArcGIS Pro and select Settings
 
-## 2. Navigate to Licensing → External Extensions
+2. Navigate to Licensing → External Extensions
 
-## 3. Find the Cellular Expert entry in the extensions table
+3. Find the Cellular Expert entry in the extensions table
 
-## 4. Click the checkmark in the Enabled field. The License Activation dialog will appear
+4. Click the checkmark in the Enabled field. The License Activation dialog will appear
 
-## 5. Copy the User Key and send it to support@cellular-expert.com. You will be provided with a
+5. Copy the User Key and send it to support@cellular-expert.com. You will be provided with a
 License Activation Key which must be entered into the same dialogue
 
-## 6. Press Activate License and the license will be activated, enabling the acquired versions of the
+6. Press Activate License and the license will be activated, enabling the acquired versions of the
 add-on
 Second way:
 
-## 1. Create an empty ArcGIS Pro project
+1. Create an empty ArcGIS Pro project
 
-## 2. Navigate to Insert and select New Map. After the map insertion, the Cellular Expert tabs will be
+2. Navigate to Insert and select New Map. After the map insertion, the Cellular Expert tabs will be
 enabled
 
-## 3. Navigate to any of the Cellular Expert tabs and select License Information in the About section.
+3. Navigate to any of the Cellular Expert tabs and select License Information in the About section.
 
-## 4. Copy the User Key and send it to support@cellular-expert.com. You will be provided with a
+4. Copy the User Key and send it to support@cellular-expert.com. You will be provided with a
 License Activation Key which must be entered into the same dialogue
 
-## 5. Press Activate License and the license will be activated, enabling the acquired versions of the
+5. Press Activate License and the license will be activated, enabling the acquired versions of the
 add-on
 If you want to check the expiration date of the license you can:
 
-## 1. Open ArcGIS Pro and start/open a project with an active map
+1. Open ArcGIS Pro and start/open a project with an active map
 
-## 2. Navigate to the Cellular Expert tab
+2. Navigate to the Cellular Expert tab
 
-## 3. Select License Information in the About section
+3. Select License Information in the About section
 
 If you encounter any problems or want additional details about the license, please contact Cellular Expert
 at support@cellular-expert.com. For more information, see the chapter Technical Support.
@@ -201,7 +195,6 @@ There are 5 types of licenses and therefore 5 different tabs with various tool c
 • Sound
 • Indoor
 This User Guide describes RCP tools.
-
 
 ## 5. Geographic data
 CE Desktop is designed to work with any geospatial data available to the customer and fully exploit its
@@ -238,13 +231,13 @@ DTM
 The CE tools make use of three distinct GIS data layers to obtain high precision modelling of radio wave
 propagation losses:
 
-## 1. Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), which describes
+1. Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), which describes
 Earth surface, i.e., path terrain profile in terms of ground elevation above uniform sea level.
 
-## 2. Obstacles layer, delineating buildings and other such objects above Earth surface that may be
+2. Obstacles layer, delineating buildings and other such objects above Earth surface that may be
 considered to be principal impediments for radio wave propagation.
 
-## 3. Clutter layer, delineating natural occurring or human cultivated ground cover that may be
+3. Clutter layer, delineating natural occurring or human cultivated ground cover that may be
 partially penetrable by radio waves, such as natural vegetation (e.g., forests, trees, bushes) or
 various crops, gardens, parks, etc.
 The image above illustrates how Cellular Expert uses different resolutions of topographical data to
@@ -308,7 +301,6 @@ Configure the following settings:
 • Pixel Type: Choose 32-bit signed or 32-bit float.
 • Format: This will automatically be set to TIFF.
 
-
 #### 5.1.2 Clutter classes grid
 Land use or clutter refers to the classification of the earth’s surface into categories such as urban, suburban,
 rural, forest, water, and open land, each of which affects radio propagation differently. Clutter data is crucial
@@ -351,7 +343,6 @@ Configure the following settings:
 • Pixel Type: Choose 32-bit signed or 32-bit float.
 • Format: This will automatically be set to TIFF.
 
-
 #### 5.1.3 Clutter heights
 Represents actual clutter heights, which override the default heights specified in the Clutter table. The
 clutter heights raster requires the accompanying clutterClasses.tif raster and cannot be used
@@ -383,7 +374,6 @@ Configure the following settings:
 • Pixel Type: Choose 32-bit signed or 32-bit float.
 • Format: This will automatically be set to TIFF.
 
-
 #### 5.1.4 Buildings
 Building features within the Clutter Classes raster are automatically identified and categorized using a range
 of dedicated building-specific clutter types. These clutter types are available within the Clutter Classes
@@ -403,11 +393,11 @@ modeling.
 If your building data is in vector format (e.g., polygons), you’ll first need to convert it to raster before
 incorporating it into the Clutter Classes layer.
 
-## 1. Convert Vector to Raster
+1. Convert Vector to Raster
 Use the Polygon to Raster tool available in the Geoprocessing pane. This will transform your
 vector-based building footprints into a raster format suitable for clutter classification.
 
-## 2. Update Clutter Classes Using Raster Calculator
+2. Update Clutter Classes Using Raster Calculator
 After conversion, open the Raster Calculator to integrate the new raster into your existing clutter
 layer:
 o Navigate to Geoprocessing
@@ -468,13 +458,12 @@ data are taken from the Geodata Folder Path)
 Workspace calculation paths and settings can be previewed in the dedicated tool, navigate to Workspace
 > Properties. It would show all parameters listed in CE_WORKSPACE table.
 
-
 #### 6.1.2 Create Workspace
 Steps to create a new workspace:
 
-## 1. Click the Create button in the Cellular Expert Workspace menu.
+1. Click the Create button in the Cellular Expert Workspace menu.
 
-## 2. The Create dialogue will appear. Fill in the minimum required data:
+2. The Create dialogue will appear. Fill in the minimum required data:
 New workspace path
 It is automatically filled based on the ArcGIS Pro project location. The recommendation is to first save your
 ArcGIS Pro project and then open the Workspace > Create tool. The project's workspace folder will be
@@ -506,7 +495,7 @@ clutterClasses.tif and if available, clutterHeight.tif rasters.
 Also Create Local Scene
 Use the option to create a second scene for 3D visualization.
 
-## 3. Press OK button to start workspace creation procedure.
+3. Press OK button to start workspace creation procedure.
 Cellular Expert layer and geodata will be added to the project.
 
 Workspace geodatabase and required folders will be created within successful workspace creation
@@ -514,13 +503,12 @@ procedure.
 
 The Project Paths will be filled in the Workspace Properties → Properties tab.
 
-
 #### 6.1.3 Open Workspace
 Steps to open a workspace:
 
-## 1. Click the Open option in the Workspace menu of the Cellular Expert toolbar.
+1. Click the Open option in the Workspace menu of the Cellular Expert toolbar.
 
-## 2. Specify the workspace name and click the OK button.
+2. Specify the workspace name and click the OK button.
 The specified workspace will be activated automatically.
 
 #### 6.1.4 Remove Workspace
@@ -703,9 +691,9 @@ Use the filter option for each field to quickly locate the required profile from
 How to Open a Profile
 A saved profile can be accessed in two ways:
 
-## 1. Double-click on the desired profile.
+1. Double-click on the desired profile.
 
-## 2. Select the profile and click Open.
+2. Select the profile and click Open.
 Additional Functions
 • Delete: Removes the selected profile.
 • Close: Closes the Docs Manager dialog.
@@ -733,7 +721,6 @@ reader.
 How to Save a Link Prediction Report
 Link Prediction Report can be saved to Docs Manager by selecting Save result to Docs Manager in the
 Export tab of the Link Prediction tool.
-
 
 ### 6.3 CE Express Connection
 CE Express Connection is a tool that lets you establish a connection between the CE Express database
@@ -764,7 +751,6 @@ button, the user may be redirected to a browser window in which he will have to 
 After doing so, the workspaces will be retrieved.
 Import Features
 Imports the retrieved objects to the currently opened CE workspace.
-
 
 ## 7. Data Management
 
@@ -805,11 +791,10 @@ antenna coverage within a specific area.
 For Mobile Operator case, if one sector has several carriers, as an example 3 carriers, then 3 cells should
 be created in CE database. For example:
 
-## 1. Choose the button from the toolbar and select Cells from the dropdown list.
+1. Choose the button from the toolbar and select Cells from the dropdown list.
 Cell objects are used for prediction calculations.
 
-
-## 1. Left-clicking on the map will define the location of the object. To define its direction, left-click a
+1. Left-clicking on the map will define the location of the object. To define its direction, left-click a
 second time in your preferred direction.
 Add Object > Cell dialog will be filled with coordinates and parameters from default template, and azimuth
 value based on defined direction on the map.
@@ -819,12 +804,12 @@ The Cell object can be created by entering exact coordinates in:
 • Latitude and Longitude
 • X and Y (projected coordinate system)
 
-## 2. The parameters can be changed at once by using different templates, which are available within
+2. The parameters can be changed at once by using different templates, which are available within
 the default database. More about template management in 7.8. Template Manager topic.
 
-## 3. Define Name for new Cell object.
+3. Define Name for new Cell object.
 
-## 4. Press Save Changes to save Cell object to the database.
+4. Press Save Changes to save Cell object to the database.
 
 Save Changes
 Creates the object with the given parameters.
@@ -936,15 +921,14 @@ Do it again, if you required additional Cell objects in the same location.
 The cells can be created on the corner of the building and assigned to the same Site.
 Site ID parameter should be adjusted for every cell.
 
-
 #### 7.2.2 Add Site
 The object represents Tower or Site location. It carriers several parameters, such as Site Name, coordinate
 or height. It is used only in 4G or 5G carrier aggregation calculation, when Total Downlink Throughput is
 calculated.
 
-## 1. Choose the button from the toolbar and select Site from the dropdown list.
+1. Choose the button from the toolbar and select Site from the dropdown list.
 
-## 2. Define the location of the new Site by pressing the mouse left button on the map. The new Site
+2. Define the location of the new Site by pressing the mouse left button on the map. The new Site
 will be placed right in that location.
 
 The Site object can be created by entering exact coordinates in:
@@ -952,7 +936,7 @@ The Site object can be created by entering exact coordinates in:
 • Latitude and Longitude
 • X and Y (projected coordinate system)
 
-## 3. Define Site name and press Save Changes to save object to the database.
+3. Define Site name and press Save Changes to save object to the database.
 Save Changes
 Creates the object with the given parameters.
 Dismiss
@@ -986,9 +970,9 @@ Ground elevation above sea level at the network object's location.
 Radar object is used for Radar Prediction tool, which does theoretical radar coverage calculations and
 provides the results in the project.
 
-## 1. Choose the button from the toolbar and select Radar from the dropdown list.
+1. Choose the button from the toolbar and select Radar from the dropdown list.
 
-## 2. Define the location of the new Radar by pressing the mouse left button on the map. The new Radar
+2. Define the location of the new Radar by pressing the mouse left button on the map. The new Radar
 will be placed right in that location.
 The Radar object can be created by entering exact coordinates in:
 • Latitude (degrees) and Longitude (degrees) section.
@@ -996,7 +980,7 @@ The Radar object can be created by entering exact coordinates in:
 
 • X and Y (projected coordinate system)
 
-## 3. Define Radar name and press Save Changes to save object to the database.
+3. Define Radar name and press Save Changes to save object to the database.
 Save Changes
 Creates the object with the given parameters.
 Dismiss
@@ -1059,17 +1043,16 @@ The software calculates the siren's sound level based on parameters such as powe
 environmental conditions, and distance. It allows users to analyze sound propagation, ensuring effective
 coverage for emergency and safety applications.
 
-## 1. Choose the button from the toolbar and select Sirens from the dropdown list.
+1. Choose the button from the toolbar and select Sirens from the dropdown list.
 
-## 2. Left-clicking on the map will define the location of the object. To define its direction, left-click a
+2. Left-clicking on the map will define the location of the object. To define its direction, left-click a
 second time in your preferred direction.
 The Siren object can be created by entering exact coordinates in:
 • Latitude (degrees) and Longitude (degrees) section.
 • Latitude and Longitude
 • X and Y (projected coordinate system)
 
-
-## 3. Define Siren name and press Save Changes to save object to the database.
+3. Define Siren name and press Save Changes to save object to the database.
 Save Changes
 Creates the object with the given parameters.
 Dismiss
@@ -1123,16 +1106,16 @@ The object represents customer locations. It carrries information about customer
 
 installed antenna.
 
-## 1. Choose the button from the toolbar and select CPE from the dropdown list.
+1. Choose the button from the toolbar and select CPE from the dropdown list.
 
-## 2. Left-clicking on the map will define the location of the object. To define its antenna direction, left-
+2. Left-clicking on the map will define the location of the object. To define its antenna direction, left-
 click a second time in your preferred direction.
 The CPE object can be created by entering exact coordinates in:
 • Latitude (degrees) and Longitude (degrees) section.
 • Latitude and Longitude
 • X and Y (projected coordinate system)
 
-## 3. Define CPE name and press Save Changes to save object to the database.
+3. Define CPE name and press Save Changes to save object to the database.
 Save Changes
 Creates the object with the given parameters.
 Dismiss
@@ -1179,7 +1162,6 @@ Current status of the network object.
 Notes
 Additional information for network predictions can be noted here.
 
-
 #### 7.2.6 Add Repeater
 A repeater is a device used to extend wireless coverage by amplifying and retransmitting signals between
 a base station and mobile devices. In 2G technology, repeaters help enhance signal strength in areas with
@@ -1187,16 +1169,16 @@ weak coverage, such as remote or obstructed locations. For multipoint applicatio
 communication across multiple user devices within their range, ensuring consistent connectivity and
 improved service quality.
 
-## 4. Choose the button from the toolbar and select Repeater from the dropdown list.
+4. Choose the button from the toolbar and select Repeater from the dropdown list.
 
-## 5. Left-clicking on the map will define the location of the object. To define its antenna direction, left-
+5. Left-clicking on the map will define the location of the object. To define its antenna direction, left-
 click a second time in your preferred direction.
 The Repeater object can be created by entering exact coordinates in:
 • Latitude (degrees) and Longitude (degrees) section.
 • Latitude and Longitude
 • X and Y (projected coordinate system)
 
-## 6. Define Repeater name and press Save Changes to save object to the database.
+6. Define Repeater name and press Save Changes to save object to the database.
 
 Save Changes
 Creates the object with the given parameters.
@@ -1378,7 +1360,6 @@ Saves changes made to clutter classes and cloes the dialogue.
 Dismiss
 Cancels clutter class changes and closes the dialogue.
 
-
 ### 7.6 Antenna Viewer
 The Antenna Viewer enables the user to preview the default antennae, compare their vertical and horizontal
 patterns as well as view the values of these patterns in a table.
@@ -1392,7 +1373,6 @@ The antenna Type dropdown list contains two antenna types: Sector and Parabolic.
 point-to-point network objects. In Cellular Expert these objects are Links.
 To compare the horizontal and vertical patterns of an antenna in the Antenna Viewer, double-click one of
 the antennas from the antenna list and the patterns as well as their corresponding values will appear.
-
 
 ### 7.7 Prediction Model Manager
 The CE Path Loss Modelling aims to perform near-deterministic calculation of received signal levels at each
@@ -1950,7 +1930,7 @@ Default settings
 The following key parameters are used to configure the ITU-R P.1546 radio propagation predictions within
 the software. These settings directly influence the coverage calculation and modeling accuracy:
 
-## 1. Radius
+1. Radius
 • Description: This setting defines the maximum distance from the transmitter (or prediction center)
 over which the propagation prediction will be performed.
 • Purpose: It limits the spatial extent of the coverage area to optimize calculation time and resource
@@ -1958,7 +1938,7 @@ usage.
 • Typical Values: Often set between 10 km to 100 km, depending on the transmitter's power, terrain,
 and target coverage region.
 
-## 2. Receiver Height (m)
+### Receiver Height (m)
 • Description: Specifies the height of the receiving antenna above ground level, in meters.
 • Purpose: Receiver height impacts the predicted signal strength, especially in terrain with elevation
 changes or obstacles.
@@ -1967,7 +1947,7 @@ o 1.5 to 2 m for handheld/mobile users (e.g., mobile phones, public safety devic
 o 10 m or higher for fixed installations (e.g., rooftop or vehicular antennas).
 • Note: Accurate setting of receiver height is essential for meaningful signal level predictions.
 
-## 3. Time Percentage (%)
+### Time Percentage (%)
 • Description: Indicates the percentage of time during which the predicted field strength is expected
 to be met or exceeded.
 • Purpose: Reflects the statistical variability of signal propagation due to atmospheric and
@@ -1991,7 +1971,7 @@ that warning signals reach the intended audience with sufficient audibility. Thi
 optimizing siren placement, regulatory compliance, and designing effective emergency alert systems.
 The primary factors included in the standard are:
 
-## 1. Geometric Spreading
+1. Geometric Spreading
 • This refers to how sound spreads out as it moves away from its source. Sound intensity decreases
 as the distance from the source increases, following the inverse square law (with spherical
 spreading) or other forms depending on terrain.
@@ -2000,7 +1980,7 @@ considered in the calculation of sound levels at various receiver points.
 𝐴 =20∗𝐿𝑂𝐺10(𝑑)+11
 𝑑𝑖𝑣
 
-## 2. Atmospheric Absorption
+2. Atmospheric Absorption
 • Sound is absorbed by the atmosphere as it travels, particularly at higher frequencies. The
 
 absorption depends on factors like temperature, humidity, and air pressure, and is often more
@@ -2008,21 +1988,21 @@ significant over longer distances.
 • Atmospheric absorption reduces the intensity of sound as it propagates, especially at higher
 frequencies. The standard takes into account these effects to calculate the reduction in sound level.
 
-## 3. Obstacles
+3. Obstacles
 • Physical barriers such as walls, hills, and buildings block or scatter sound waves, reducing the
 sound level that reaches certain areas.
 • Obstacles can cause significant sound reduction, especially if they are large or located between
 the sound source and the receiver. The standard accounts for the shadow zones created by these
 barriers.
 
-## 4. Directivity of the Source
+4. Directivity of the Source
 • This parameter accounts for the directionality of the sound source, which may not emit sound
 equally in all directions. Sirens, for example, may have directional characteristics that focus their
 sound output in certain directions.
 • The directivity of the sound source influences how the sound energy is distributed, and therefore,
 how far and in what pattern the sound propagates.
 
-## 5. Meteorological Conditions
+5. Meteorological Conditions
 • Weather conditions such as wind speed, temperature gradients, and humidity can significantly
 affect sound propagation. For example, sound may travel farther downwind or be absorbed more
 by humid air.
@@ -2248,16 +2228,16 @@ parameters automatically. Their primary purpose is to save time and reduce the r
 setup, particularly in complex scenarios like wireless network configuration.
 Here’s why templates are beneficial:
 
-## 1. Automatic Parameter Filling: Templates automatically populate required parameters, eliminating
+1. Automatic Parameter Filling: Templates automatically populate required parameters, eliminating
 the need for users to input them one by one. This ensures consistency and speeds up the setup
 process, especially when working with large datasets or multiple network layers, such as cells,
 sites, or CPEs.
 
-## 2. Error Prevention: In cases where a parameter might be inadvertently missed during manual
+2. Error Prevention: In cases where a parameter might be inadvertently missed during manual
 configuration, templates act as a safeguard. They ensure all necessary parameters are accounted
 for, reducing the likelihood of incomplete or incorrect setups.
 
-## 3. Coverage Prediction Assurance: Templates are particularly valuable when performing tasks like
+3. Coverage Prediction Assurance: Templates are particularly valuable when performing tasks like
 coverage predictions. If a parameter in the wireless network layer is forgotten or overlooked (e.g.,
 for a cell, site, or CPE), the template provides a fallback, ensuring that the prediction can still be
 performed accurately and without interruption.
@@ -2269,7 +2249,6 @@ are divided into different network layers, each network have unique template str
 available parameters in network layer.
 • Modulations – create modulation configurations that can be used for MW links > Radios.
 • Modulation Editor – create single modulations, which can be used in the Modulations tab.
-
 
 #### 7.8.1 Edit Network Objects template
 Click the button to open the Template Manager dialogue. Select one of the opened templates to edit
@@ -2348,7 +2327,6 @@ Click the button to open the Import Objects dialogue. Expand Import drop-down me
 the object, which should be imported.
 The dialog will be filled with the options to define data and mapping files.
 
-
 #### 7.9.1 Import Cells
 The option enables possibility to import Cells in the Cellular Expert workspace. It has additional parameters
 compared to other import options.
@@ -2375,14 +2353,13 @@ conditions under which said data is processed. The supported format is .json. Up
 the button will light up green. More on mapping files are below.
 Steps.
 
-## 1. Click on Select Data Files, and define your text file. The file will be loaded into the dialog.
+1. Click on Select Data Files, and define your text file. The file will be loaded into the dialog.
 
-## 2. If your data structure is different compared to Cellular Expert database, then Mapping file should
+2. If your data structure is different compared to Cellular Expert database, then Mapping file should
 be used to map your data structure and Cellular Expert workspace, Cells layer structure. More
 information about mapping file is available below.
 
-
-## 3. Click on Import Cells button to start importing procedure.
+3. Click on Import Cells button to start importing procedure.
 Sites can be imported together with Cells, if:
 • The mapping file is not used, and text file has site_id field, which contains information about Site
 name. It must be text data.
@@ -2420,7 +2397,6 @@ Select Mapping File (Optional)
 Opens a dialogue window where the user can select a file that defines the data to be imported and the
 conditions under which said data is processed. The supported format is .json. Upon successful selection,
 the button will light up green.
-
 
 ### 7.10 Import/Export Antenna Files
 
@@ -2471,7 +2447,6 @@ Vertical beamwidth
 Antenna’s vertical beamwidth value or range in degrees. By default, the value is 15.
 Create Antenna
 Creates the antenna pattern in the database.
-
 
 ### 7.11 Model Tuning
 Click the button to open the Model Tuning dialogue.
@@ -2548,7 +2523,6 @@ Apply
 Edit the tuned prediction model with suggested model and clutter class values.
 Back
 Get back to the main Model Tuning calculation window.
-
 
 ## 8. Profile
 
@@ -2717,7 +2691,6 @@ chosen if the point is not currently entered.
 If a second point is selected while the profile is being drawn, the dynamic profile will be disabled, and
 the LOS lines will appear on the map.
 
-
 #### 8.1.3 Tools
 Reflections are considered in profile and RF calculations to assess how radio waves bounce off
 surfaces, affecting signal path and strength.
@@ -2781,7 +2754,6 @@ the profile was drawn. The report can be exported in PDF and PL2 formats.
 
 The resulting Profile report will look similar to this example:
 
-
 #### 8.1.6 Settings
 Currently, you can configure the profile’s visual properties and controls in profile settings. The settings
 can be changed once a profile is drawn.
@@ -2793,7 +2765,6 @@ value is 0.5 meters.
 Receiver height change step
 The step (in meters) for changing the receiver height when dragging it in the Profile graph. The default
 value is 0.5 meters.
-
 
 ## 9. Coverage Prediction
 
@@ -2816,9 +2787,9 @@ audibility prediction, or other analyses. To streamline this process, we have in
 efficiently generates additional information for the Best Server raster. The tool allows users to define the
 network object type and select the prediction raster (Best Server).
 
-## 1. Select calculation result.
+1. Select calculation result.
 
-## 2. Select network object type.
+2. Select network object type.
 Press Run to generate object names for selected prediction raster.
 
 ### 9.3 RF Prediction
@@ -2838,7 +2809,6 @@ Run calculations in different receiver heights and after completion creates sing
 Strength values in 3D scene.
 Run
 Starts the prediction calculation.
-
 
 #### 9.3.1 Narrowband 2G (GSM/CDMA-850/TETRA/P-25)
 Resolution
@@ -2900,7 +2870,6 @@ cells that utilize the same carrier.
 from nearby cells that operate the adjacent carrier (adjacent frequency channel).
 • Uplink Field Strength raster shows receiver signal strength in dBm.
 
-
 #### 9.3.2 Broadband 3G (UMTS/CDMA)
 Resolution
 Resolution for raster calculations. The output rasters will be produced with the indicated cell size.
@@ -2951,7 +2920,6 @@ o 3rd best server shows the third strongest field strength cell identification.
 o 4th best server shows the fourth strongest field strength cell identification.
 o 5th best server shows the fifth strongest field strength cell identification.
 • Uplink Field Strength raster shows receiver signal strength in dBm.
-
 
 #### 9.3.3 Broadband 4G (LTE/BWA/WiMAX)
 Resolution
@@ -3052,7 +3020,6 @@ dB.
 
 • Uplink Throughput in Mbps
 
-
 #### 9.3.4 Broadband 5G (NR/CBRS)
 Resolution
 Resolution for raster calculations. The output rasters will be produced with the indicated cell size.
@@ -3149,7 +3116,6 @@ dB.
 
 • Uplink CQI identification.
 • Uplink Throughput in Mbps
-
 
 #### 9.3.5 WiFi
 Resolution
@@ -3296,7 +3262,6 @@ Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
 Results:
 • Field Strength raster in dBm
 
-
 ### 9.6 Radar Prediction
 Click the button to open the Radar Prediction dialogue.
 Radar Prediction is a tool that lets you calculate predictions on radars. Depending on the view angle and
@@ -3358,7 +3323,6 @@ Results:
 
 • Best Server
 
-
 ### 9.8 Compare Predictions
 Compare Predictions is a tool that lets you compare the results of RF predictions with different parameters.
 There are 4 possible parameters to choose from: Antenna, Azimuth, Tilt, and Height. When a different
@@ -3400,7 +3364,6 @@ Applies the selected parameter to the currently selected cell.
 Create Difference Raster
 Creates a raster that is made from two RF Prediction rasters. It shows the value differences between them.
 
-
 ### 9.9 Optimal Site Positions
 Optimal Site Positions is a tool that lets the user find optimal positions for a site based on specified
 parameters. The prediction produces two rasters:
@@ -3439,7 +3402,6 @@ Results:
 • Covered Points
 • Coverage Percentage
 
-
 ### 9.10 View Statistics
 View Statistics is a tool that calculates the total coverage of a polygon based on its overall coverage (signal
 strength, dl throughput, etc.).
@@ -3460,7 +3422,6 @@ format.
 
 The button lets you edit the selected statistic.
 To exit edit mode and cancel all changes, click the Exit Edit Mode button.
-
 
 #### 9.10.2 Add Statistics
 Add Statistic Parameters
@@ -3556,7 +3517,6 @@ values of 0 (blocked by elevation or an obstacle) for each layer.
 The default Line of Sight Clearance and Pattern Clearance layer files (.lyr) can be changed in Workspace
 Properties, under the Visualization tab and the Visibility category.
 
-
 ## 10. About
 
 ### 10.1 License information
@@ -3565,7 +3525,6 @@ License information is a useful resource to see your current version of Cellular
 key, currently active licenses, and their expiration dates. The license information window is also used when
 a user is enabling the CE for ArcGIS Pro extension on their computer. For more information about license
 activation see Activation.
-
 
 ### 10.2 Help
 
@@ -3579,7 +3538,6 @@ Click the button in the Help dropdown list to open the What’s New document. Th
 is updated for each new release of Cellular Expert for ArcGIS Pro, and here you will find the changelog for
 the current installed version. This document serves as the introduction of added new features,
 enhancements, bug fixes, and other changes.
-
 
 #### 10.2.3 Technical Support
 Click the button in the Help dropdown list to open the Technical Support page in your

@@ -92,6 +92,6 @@ CE Express supports **multi-[resolution](#kw:resolution:none) datasets** — you
 
 ## Related Topics
 
-- Geodata Overview →
-- [Clutter Classes](#kw:[clutter](#kw:clutter-classification-values:ce-express-geodata)-classification-values:ce-express-geodata) →
-- Loading Geodata in CE Express →
+- Geodata Overview
+- [Clutter Classes](#kw:[clutter](#kw:clutter-classification-values:ce-express-geodata)-classification-values:ce-express-geodata)
+- Loading Geodata in CE Express

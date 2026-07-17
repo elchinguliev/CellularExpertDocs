@@ -124,6 +124,6 @@ CELL_001C,51.5074,-0.1278,240,25,4G,1800
 
 ## Related Topics
 
-- Features Tool — [Adding Objects](#kw:adding-objects-manually:ce-express-network-objects) →
-- Importing Data →
-- Geodata [Requirements](#kw:minimum-requirements:none) →
+- Features Tool — [Adding Objects](#kw:adding-objects-manually:ce-express-network-objects)
+- Importing Data
+- Geodata [Requirements](#kw:minimum-requirements:none)

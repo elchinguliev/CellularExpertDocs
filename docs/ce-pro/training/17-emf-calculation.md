@@ -47,7 +47,6 @@ Click the button to open the Profile dialogue.
 Profile tool enables you to determine the obstructions, elevation, and Fresnel zones between two points
 on a map.
 
-
 #### 9.1.1 Properties
 Profile: General
 Fresnel Minimal Clearance, %
@@ -183,7 +182,6 @@ chosen if the point is not currently entered.
 If a second point is selected while the profile is being drawn, the dynamic profile will be disabled, and
 the LOS lines will appear on the map.
 
-
 #### 9.1.3 Tools
 Reflections are considered in profile and RF calculations to assess how radio waves bounce off
 surfaces, affecting signal path and strength.
@@ -247,7 +245,6 @@ the profile was drawn. The report can be exported in PDF and PL2 formats. The Pr
 saved to Docs Manager by selecting Save result to Docs Manager.
 
 The resulting Profile report will look similar to this example:
-
 
 #### 9.1.6 Settings
 Currently, you can configure the profile’s visual properties and controls in profile settings. The settings can

@@ -51,7 +51,6 @@ Results:
 
 • Best Server
 
-
 ## 10. About
 
 ### 10.1 License information
@@ -68,13 +67,11 @@ Click the button in the Help dropdown list to open the Documentation of CE for A
 Here you will find extensive documentation of the add-on. Also, this should be the first place you check
 when trying to figure out a problem.
 
-
 #### 10.2.2 What’s New
 Click the button in the Help dropdown list to open the What’s New document. This document
 is updated for each new release of Cellular Expert for ArcGIS Pro, and here you will find the changelog for
 the current installed version. This document serves as the introduction of added new features,
 enhancements, bug fixes, and other changes.
-
 
 #### 10.2.3 Technical Support
 Click the button in the Help dropdown list to open the Technical Support page in your
@@ -93,7 +90,6 @@ Copy
 Copy the necessary error information into your clipboard and send it to Cellular Expert.
 Delete All
 If the error log ever gets too crowded, you can delete all errors from it.
-
 
 ## 11. Technical Support
 For any issues, e-mail support (support@cellular-expert.com) and we will register your ticket.

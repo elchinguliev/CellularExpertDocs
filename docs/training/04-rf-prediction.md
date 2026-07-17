@@ -38,7 +38,7 @@ An [RF prediction](#kw:what-is-an-rf-prediction:none) produces **map-based raste
 - Geodata (terrain elevation, [clutter](#kw:clutter-classification-values:ce-express-geodata)/land use, obstacles)
 - Equipment definitions ([antenna patterns](#kw:importing-antenna-patterns:ce-express-antenna), propagation [models](#kw:31-models:ce-express-tr-models), calculation templates)
 
-**→ Full documentation: [RF Prediction](#kw:what-is-an-rf-prediction:none) →**
+** Full documentation: [RF Prediction](#kw:what-is-an-rf-prediction:none)**
 
 ### Quick Prediction vs Full RF Prediction
 
@@ -54,7 +54,7 @@ An [RF prediction](#kw:what-is-an-rf-prediction:none) produces **map-based raste
 2. Click **[Quick RF Prediction](#kw:quick-rf-prediction:ce-express-rf-prediction)** in the left toolbar
 3. Change the azimuth to 90° in the Quick RF panel
 4. Click **Run** — result appears immediately on the map
-5. Change azimuth to 180° → **Run** again
+5. Change azimuth to 180° **Run** again
 6. [Compare](#kw:98-compare-predictions:ce-pro-rcp) the two results
 
 **Observe:** The database has NOT been changed. This is for testing only.
@@ -72,12 +72,12 @@ An [RF prediction](#kw:what-is-an-rf-prediction:none) produces **map-based raste
 5. Wait for the prediction to complete (watch the progress bar)
 6. View results in the [Prediction History](#kw:44-step-4-prediction-history-and-result-management:ce-express-tr-rf) panel
 
-**→ Prediction [models](#kw:31-models:ce-express-tr-models) documentation: Prediction Models →**
+** Prediction [models](#kw:31-models:ce-express-tr-models) documentation: Prediction Models**
 
 ## Exercise 3 — Best Server Prediction
 
 1. Select all cells in an area (use Polygon selection)
-2. [RF Prediction](#kw:what-is-an-rf-prediction:none) → Prediction type: **[Best Server](#kw:exercise-3-best-server-prediction:none)**
+2. [RF Prediction](#kw:what-is-an-rf-prediction:none) Prediction type: **[Best Server](#kw:exercise-3-best-server-prediction:none)**
 3. Resolution: **50 m** | Radius: **20 km**
 4. Click **Run**
 5. Observe which cell "wins" each area
@@ -90,10 +90,10 @@ An [RF prediction](#kw:what-is-an-rf-prediction:none) produces **map-based raste
 4. Feature type: **Cells**
 5. Filter by attribute: Technology = **4G**
 6. Click **Save**
-7. In the network item → click **Calculate**
+7. In the network item click **Calculate**
 8. All 4G cells are calculated automatically
 
-**→ Networks documentation: Networks Tool →**
+** Networks documentation: Networks Tool**
 
 ## Exercise 5 — Comparing Predictions
 
@@ -104,13 +104,13 @@ An [RF prediction](#kw:what-is-an-rf-prediction:none) produces **map-based raste
 
 ## Exercise 6 — Exporting Results
 
-1. In Prediction History → select a result layer
-2. Click **Export** → save as GeoTIFF
+1. In Prediction History select a result layer
+2. Click **Export** save as GeoTIFF
 3. The raster file can be used in other GIS software or shared with clients
 
 ## Related Documentation
 
-- **[RF Prediction](#kw:what-is-an-rf-prediction:none):** [RF Prediction](#kw:what-is-an-rf-prediction:none) →
-- **Quick RF:** [Quick RF Prediction](#kw:quick-rf-prediction:ce-express-rf-prediction) →
-- **Prediction Models:** Prediction Models →
-- **[Troubleshooting](#kw:troubleshooting-login-issues:ce-express-login):** RF Prediction [Troubleshooting](#kw:troubleshooting-login-issues:ce-express-login) →
+- **[RF Prediction](#kw:what-is-an-rf-prediction:none):** [RF Prediction](#kw:what-is-an-rf-prediction:none)
+- **Quick RF:** [Quick RF Prediction](#kw:quick-rf-prediction:ce-express-rf-prediction)
+- **Prediction Models:** Prediction Models
+- **[Troubleshooting](#kw:troubleshooting-login-issues:ce-express-login):** RF Prediction [Troubleshooting](#kw:troubleshooting-login-issues:ce-express-login)

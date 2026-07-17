@@ -76,6 +76,6 @@ ArcGIS Enterprise and the CE Express server can be on separate machines/VMs.
 
 ## Related Topics
 
-- Installation Guide →
-- Geodata Preparation (Admin) →
-- User Management →
+- Installation Guide
+- Geodata Preparation (Admin)
+- User Management

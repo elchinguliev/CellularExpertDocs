@@ -4,11 +4,7 @@
 
 All CE Pro data — sites, cells, prediction rasters, and geodata layers — is displayed in the ArcGIS Pro map view:
 
-![Active map view in ArcGIS Pro](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/arcgis-pro-view-AFCF6.png)
-
 Geodata layers and network feature classes are managed in the **Contents** and **Catalog** panes:
-
-![Contents pane and Catalog pane in ArcGIS Pro](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/contents-pane-catalog-pane-EDB2F.png)
 
 ---
 

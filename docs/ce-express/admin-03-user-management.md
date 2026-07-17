@@ -27,7 +27,7 @@ Administrators manage users through the **CE Inventory3D web application admin i
 
 ## Adding a User
 
-1. Admin Panel → **[User Management](#kw:adding-a-user:none)** → **Add User**
+1. Admin Panel **[User Management](#kw:adding-a-user:none)** **Add User**
 2. Enter: Username, Email, Password (or ArcGIS account link)
 3. Select **Role**
 4. Assign **Workspace access** (which workspaces the user can see)
@@ -37,14 +37,14 @@ Administrators manage users through the **CE Inventory3D web application admin i
 
 Users only see workspaces they are assigned to.
 
-1. Admin Panel → Workspaces → select workspace → **[User groups](#kw:user-groups:none)**
+1. Admin Panel Workspaces select workspace **[User groups](#kw:user-groups:none)**
 2. Add user or user group to the workspace
 3. Set permission level for that workspace (View / Edit / Admin)
 
 ## User Groups
 
 Group users to assign workspace permissions efficiently:
-1. Admin Panel → **[User Groups](#kw:user-groups:none)** → **New Group**
+1. Admin Panel **[User Groups](#kw:user-groups:none)** **New Group**
 2. Add users to the group
 3. Assign the group to workspaces instead of individual users
 
@@ -52,7 +52,7 @@ Group users to assign workspace permissions efficiently:
 
 ### CE Express Account (local)
 
-Admin Panel → Users → select user → **Reset Password** → enter new password.
+Admin Panel Users select user **Reset Password** enter new password.
 
 Or the user can use **Reset password** on the login page (requires email configured).
 
@@ -62,19 +62,19 @@ Use ArcGIS Portal admin tools to reset. CE Express does not manage ArcGIS passwo
 
 ## License Management
 
-Admin Panel → **[License](#kw:license-management:none) Manager**:
+Admin Panel **[License](#kw:license-management:none) Manager**:
 - View current [license](#kw:license-management:none) status (expiry date, licensed features)
 - Activate a new [license](#kw:license-management:none) key
 - Check concurrent user count
 
 ## History / Audit Log
 
-Admin Panel → **History**:
+Admin Panel **History**:
 - View all user actions (object creation, edits, deletions, predictions)
 - Filter by user, date, action type
 - Export to CSV
 
 ## Related Topics
 
-- Installation Guide →
-- Logging In →
+- Installation Guide
+- Logging In

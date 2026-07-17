@@ -41,19 +41,19 @@ Use GIS software ([QGIS](#kw:preparing-rasters-with-qgis-free:none), ArcGIS Pro)
 ### Check CRS
 
 1. Open your `.tif` file in [QGIS](#kw:preparing-rasters-with-qgis-free:none).
-2. Right-click the layer → **Properties** → **Information** tab.
+2. Right-click the layer **Properties** **Information** tab.
 3. Look for "CRS" — it should show a [Projected CRS](#kw:what-is-a-projected-crs:none), not EPSG:4326.
 
 ### Reproject to Projected CRS
 
-1. **Raster** menu → **Projections** → **Warp ([Reproject](#kw:reproject-to-projected-crs:none))**.
+1. **Raster** menu **Projections** **Warp ([Reproject](#kw:reproject-to-projected-crs:none))**.
 2. Set Target CRS to your required projected CRS.
 3. Set [NoData](#kw:check-and-set-nodata-value:none) value to `-9999`.
 4. Save output as `.tif`.
 
 ### Check and Set NoData Value
 
-1. **Raster** → **Miscellaneous** → **Build Virtual Raster**, or use the Raster Calculator.
+1. **Raster** **Miscellaneous** **Build Virtual Raster**, or use the Raster Calculator.
 2. Alternatively, use GDAL: `gdal_translate -a_nodata -9999 input.tif output.tif`
 
 ## Placing Files on the Server

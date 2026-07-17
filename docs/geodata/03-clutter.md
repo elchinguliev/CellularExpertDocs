@@ -21,10 +21,10 @@ The [clutter](#kw:clutter-classes-grid:none) (land-use) raster classifies each p
 ### Why Clutter Matters
 
 Without [clutter](#kw:clutter-classes-grid:none), CE applies a single propagation correction regardless of terrain type. With [clutter](#kw:clutter-classes-grid:none):
-- **Forest pixels** → additional attenuation for tree canopy
-- **Urban pixels** → higher diffraction loss, building absorption
-- **Open water** → minimal attenuation, potential reflections
-- **Industrial** → specific attenuation coefficients
+- **Forest pixels** additional attenuation for tree canopy
+- **Urban pixels** higher diffraction loss, building absorption
+- **Open water** minimal attenuation, potential reflections
+- **Industrial** specific attenuation coefficients
 
 ### Format and Resolution
 
@@ -99,6 +99,6 @@ All clutter rasters must:
 
 ## Related Topics
 
-- DEM Requirements →
-- 3D Buildings →
-- Prediction [Models](#kw:31-models:ce-express-tr-models) →
+- DEM Requirements
+- 3D Buildings
+- Prediction [Models](#kw:31-models:ce-express-tr-models)

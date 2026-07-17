@@ -56,8 +56,8 @@ CE Express is designed to work with **any available geospatial data** and fully 
 
 ## Related Topics
 
-- DEM Requirements →
-- [Clutter](#kw:clutter-classification-values:ce-express-geodata) Requirements →
-- Building Data Requirements →
-- [Antenna Pattern](#kw:managing-the-antenna-library:ce-express-antenna) Requirements →
-- Preparing Geodata (Training) →
+- DEM Requirements
+- [Clutter](#kw:clutter-classification-values:ce-express-geodata) Requirements
+- Building Data Requirements
+- [Antenna Pattern](#kw:managing-the-antenna-library:ce-express-antenna) Requirements
+- Preparing Geodata (Training)

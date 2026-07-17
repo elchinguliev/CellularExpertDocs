@@ -20,7 +20,7 @@ CE Express includes a complete **microwave (MW) backhaul planning** module for p
 ## Creating a Radio Link
 
 1. Select two sites on the map
-2. Right-click → **Create Link** (or use Features tool → Add Link)
+2. Right-click **Create Link** (or use Features tool Add Link)
 3. Configure [link parameters](#kw:link-parameters:none):
 
 ### Link Parameters
@@ -36,7 +36,7 @@ CE Express includes a complete **microwave (MW) backhaul planning** module for p
 
 ## Link Budget Calculation
 
-Click **[Link Prediction](#kw:link-prediction-report:none)** → **Calculation** to compute:
+Click **[Link Prediction](#kw:link-prediction-report:none)** **Calculation** to compute:
 
 | Output | Description |
 |--------|-------------|
@@ -74,7 +74,7 @@ The **[Reflections](#kw:reflections:none)** tab analyses signal [reflections](#k
 
 ## Link Prediction Report
 
-Click **Export** → generates a PDF report with:
+Click **Export** generates a PDF report with:
 - [Link parameters](#kw:link-parameters:none) summary
 - Path profile
 - [Link budget](#kw:link-budget-calculation:none) table
@@ -88,20 +88,16 @@ For [multi-hop](#kw:multihop-paths:none) backhaul:
 2. CE Express calculates end-to-end performance for each hop
 3. Total availability = product of individual hop availabilities
 
-## MW Equipment Library
-
-→ See [MW Equipment](#kw:mw-equipment-library:none) →
+## MW Equipment Library See [MW Equipment](#kw:mw-equipment-library:none)
 
 To use [Link Prediction](#kw:link-prediction-report:none), assign antenna and radio [models](#kw:31-models:ce-express-tr-models) from the equipment library to each link endpoint.
 
 ## Automatic Frequency Planning (AFP)
 
-For mesh and multi-link networks, use **[AFP](#kw:automatic-frequency-planning-afp:none)** to automatically assign frequencies minimizing interference.
-
-→ See [Automatic Frequency Planning](#kw:automatic-frequency-planning-[afp](#kw:automatic-frequency-planning-afp:none):none):none) →
+For mesh and multi-link networks, use **[AFP](#kw:automatic-frequency-planning-afp:none)** to automatically assign frequencies minimizing interference. See [Automatic Frequency Planning](#kw:automatic-frequency-planning-[afp](#kw:automatic-frequency-planning-afp:none):none):none)
 
 ## Related Topics
 
-- Profile / [Line of Sight](#kw:running-a-profile:ce-express-profile) →
-- [MW Equipment](#kw:mw-equipment-library:none) Library →
-- Mesh Networks →
+- Profile / [Line of Sight](#kw:running-a-profile:ce-express-profile)
+- [MW Equipment](#kw:mw-equipment-library:none) Library
+- Mesh Networks

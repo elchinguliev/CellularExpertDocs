@@ -44,7 +44,7 @@ Click **New network**:
 
 ## Running Batch Predictions
 
-Select a network → click **Calculate** → predictions run for all objects in the network without manual selection.
+Select a network click **Calculate** predictions run for all objects in the network without manual selection.
 
 ## Managing Results
 
@@ -56,20 +56,20 @@ From the Results section of a network:
 ## Network Publishing Settings
 
 Configure automatic publishing when the network is recalculated:
-1. Open the calculation result layer → configure colour band values
+1. Open the calculation result layer configure colour band values
 2. Enable **auto-publish** in publishing settings
 3. When the network recalculates, results are automatically published to ArcGIS Portal+Portal+enterprise+GIS) as a feature layer
 
 ## Editing a Network
 
-Hover over a network item → **Edit Network** to modify parameters.
+Hover over a network item **Edit Network** to modify parameters.
 
 ## Deleting a Network
 
-Hover → **Delete Network**. Only the network definition is deleted — objects remain in the database.
+Hover **Delete Network**. Only the network definition is deleted — objects remain in the database.
 
 ## Related Topics
 
-- RF Prediction →
-- [Prediction History](#kw:44-step-4-prediction-history-and-result-management:ce-express-tr-rf) →
-- Features Tool →
+- RF Prediction
+- [Prediction History](#kw:44-step-4-prediction-history-and-result-management:ce-express-tr-rf)
+- Features Tool

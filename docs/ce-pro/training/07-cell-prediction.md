@@ -4,11 +4,7 @@
 
 Cell prediction results are displayed as coverage rasters in the ArcGIS Pro map view:
 
-![Map view showing CE Pro cell prediction coverage raster results](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/arcgis-pro-view-AFCF6.png)
-
 Configure prediction parameters in the CE Pro pane before running:
-
-![CE Pro cell prediction configuration pane](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/pane-options-65B60.png)
 
 ---
 

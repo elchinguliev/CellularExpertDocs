@@ -43,7 +43,6 @@ Applies the selected parameter to the currently selected cell.
 Create Difference Raster
 Creates a raster that is made from two RF Prediction rasters. It shows the value differences between them.
 
-
 ### 9.9 Optimal Site Positions
 Optimal Site Positions is a tool that lets the user find optimal positions for a site based on specified
 parameters. The prediction produces two rasters:
@@ -82,7 +81,6 @@ Results:
 • Covered Points
 • Coverage Percentage
 
-
 ### 9.10 View Statistics
 View Statistics is a tool that calculates the total coverage of a polygon based on its overall coverage (signal
 strength, dl throughput, etc.).
@@ -103,7 +101,6 @@ format.
 
 The button lets you edit the selected statistic.
 To exit edit mode and cancel all changes, click the Exit Edit Mode button.
-
 
 #### 9.10.2 Add Statistics
 Add Statistic Parameters

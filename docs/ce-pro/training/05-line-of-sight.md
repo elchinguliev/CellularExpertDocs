@@ -4,11 +4,7 @@
 
 LOS and profile results are displayed in the ArcGIS Pro map view. The map canvas shows the terrain cross-section and any obstruction points:
 
-![Active map view — terrain and CE Pro line-of-sight / profile results displayed here](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/arcgis-pro-view-AFCF6.png)
-
 The **Contents** and **Catalog** panes show the DEM, clutter, and obstacle layers required for LOS calculation:
-
-![Contents pane showing DEM, clutter, and obstacle layers](https://doc.esri.com/en/arcgis-pro/latest/get-started/images/contents-pane-catalog-pane-EDB2F.png)
 
 ---
 

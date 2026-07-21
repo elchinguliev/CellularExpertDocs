@@ -681,12 +681,11 @@ useful when checking if the newest version tables correspond to the current proj
 Workspace Upgrade automatically checks all these parameters and notifies the user upon the start-up of
 the project.
 
-Reimport Antennas
-Imports the deleted default antennas back to the Antennas table.
-Generate Antenna Type
-Based on the Antenna data assign antennas a type if they are missing it.
-Run Analysis
-Manually checks if the default tables and their fields exist in the project.
+| Parameter | Description |
+|---|---|
+| Reimport Antennas | Imports the deleted default antennas back to the Antennas table. |
+| Generate Antenna Type | Based on the Antenna data assign antennas a type if they are missing it. |
+| Run Analysis | Manually checks if the default tables and their fields exist in the project. |
 Upgrade Database
 Creates the missing tables and/or creates/adds back the missing fields from default tables.
 If a project with incompatible geodata is loaded, the Workspace Upgrade tool analyzes the current geodata,
@@ -718,43 +717,34 @@ All information from the “CE_WORKSPACE” table is represented in the Paramete
 
 ![Image p44](../assets/images/ce-pro/rlp-guide/p044-img1.png)
 Properties.
-OK
-Click this button to save any changes and close the dialogue.
-Cancel
-Click this button to cancel any changes and close the dialogue.
-Help
-Get helpful information about the dialogue.
+| Parameter | Description |
+|---|---|
+| OK | Click this button to save any changes and close the dialogue. |
+| Cancel | Click this button to cancel any changes and close the dialogue. |
+| Help | Get helpful information about the dialogue. |
 CE Server Parameters
 ArcGIS Portal URL
 Connection URL to the ArcGIS Portal website.
 CE Server API
 Connection URL to Cellular Expert Server API.
 
-CE Server Environment
-Cellular Expert Server environment in which it is run.
-CE Server URL
-Connection URL to Cellular Expert Server.
-CE Server Workspace
-The workspace used in the Cellular Expert Server.
-CE Server Workspace ID
-The ID of the workspace which is used in the Cellular Expert Server.
+| Parameter | Description |
+|---|---|
+| CE Server Environment | Cellular Expert Server environment in which it is run. |
+| CE Server URL | Connection URL to Cellular Expert Server. |
+| CE Server Workspace | The workspace used in the Cellular Expert Server. |
+| CE Server Workspace ID | The ID of the workspace which is used in the Cellular Expert Server. |
 Project Paths Parameters
-Calculation Path
-Path for temporary calculation results.
-Calculation Tasks Data Path
-Path for the calculation results that will be displayed in the Calculation Task List.
-Geodata Folder Path
-Path to a folder in which the geodata from the Cellular Expert Workspace is stored.
-Prediction Path
-Path for storing prediction grids.
-Result Path
-Path for storing the final calculation results
-Volatile Calculation Path
-Path for temporary Quick Prediction calculation results.
-Volatile Result Path
-Path for storing the final Quick Prediction calculation results
-Volatile Tasks Data Path
-Path for the Quick Prediction calculation results that will be displayed in the Calculation Task List.
+| Parameter | Description |
+|---|---|
+| Calculation Path | Path for temporary calculation results. |
+| Calculation Tasks Data Path | Path for the calculation results that will be displayed in the Calculation Task List. |
+| Geodata Folder Path | Path to a folder in which the geodata from the Cellular Expert Workspace is stored. |
+| Prediction Path | Path for storing prediction grids. |
+| Result Path | Path for storing the final calculation results |
+| Volatile Calculation Path | Path for temporary Quick Prediction calculation results. |
+| Volatile Result Path | Path for storing the final Quick Prediction calculation results |
+| Volatile Tasks Data Path | Path for the Quick Prediction calculation results that will be displayed in the Calculation Task List. |
 Project Settings Parameters
 Calculate EIRP
 Determines whether calculate EIRP or no in the prediction calculations.
@@ -927,15 +917,12 @@ If you select one of the appearing workspaces, the properties of that workspace 
 ![Image p54](../assets/images/ce-pro/rlp-guide/p054-img2.png)
 ArcGIS Pro project automatically.
 
-Server URL
-The URL to the CE Express database where the workspaces will be located. This parameter must be
-defined to connect to the database.
-Server ArcGIS Portal URL
-The URL to your organization’s ArcGIS Portal (filled in automatically).
-Server API URL
-The API is used in the connection process (filled in automatically).
-Selected Workspace
-The list of all workspaces was retrieved from the CE Express Database.
+| Parameter | Description |
+|---|---|
+| Server URL | The URL to the CE Express database where the workspaces will be located. This parameter must be defined to connect to the database. |
+| Server ArcGIS Portal URL | The URL to your organization’s ArcGIS Portal (filled in automatically). |
+| Server API URL | The API is used in the connection process (filled in automatically). |
+| Selected Workspace | The list of all workspaces was retrieved from the CE Express Database. |
 Get Workspaces
 Establishes the connection between the provided Server URL and CE for ArcGIS Pro. Upon clicking the
 button, the user may be redirected to a browser window in which he will have to log in to the ArcGIS Portal.
@@ -995,32 +982,18 @@ Creates the object with the given parameters.
 Dismiss
 Cancels object creation and closes the dialogue.
 Site Properties
-Name
-Site identification.
-Latitude (degrees)
-Latitude degrees, minutes, and seconds Y type coordinate in the WGS 1984 geographical coordinate
-system.
-Longitude (degrees)
-Longitude degrees, minutes, and seconds X type coordinate in the WGS 1984 geographical coordinate
-system.
-Latitude
-Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system.
-Longitude
-Decimal degrees X type coordinate in the WGS 1984 geographical coordinate system.
-X
-Coordinate in the projected coordinate system.
-Y
-Coordinate in the projected coordinate system.
-Z
-3D dimensions representing an object's height above sea level, used for visualizing objects in a 3D scene.
-
-![Image p58](../assets/images/ce-pro/rlp-guide/p058-img1.png)
-
-![Image p58](../assets/images/ce-pro/rlp-guide/p058-img2.png)
-Height Above Ground
-Object’s height above the terrain.
-Ground Altitude
-Ground elevation above sea level at the network object's location.
+| Parameter | Description |
+|---|---|
+| Name | Site identification. |
+| Latitude (degrees) | Latitude degrees, minutes, and seconds Y type coordinate in the WGS 1984 geographical coordinate system. |
+| Longitude (degrees) | Longitude degrees, minutes, and seconds X type coordinate in the WGS 1984 geographical coordinate system. |
+| Latitude | Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system. |
+| Longitude | Decimal degrees X type coordinate in the WGS 1984 geographical coordinate system. |
+| X | Coordinate in the projected coordinate system. |
+| Y | Coordinate in the projected coordinate system. |
+| Z | 3D dimensions representing an object's height above sea level, used for visualizing objects in a 3D scene. |
+| Height Above Ground | Object’s height above the terrain. |
+| Ground Altitude | Ground elevation above sea level at the network object's location. |
 
 #### 7.2.2 Add Link
 The object represents a Microwave link that holds all the information about frequencies, antennas, radio
@@ -1052,37 +1025,21 @@ system.
 Latitude (A, B)
 Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system.
 
-Longitude (A, B)
-Decimal degrees X type coordinate in the WGS 1984 geographical coordinate system.
-X (A, B)
-Coordinate in the projected coordinate system.
-Y (A, B)
-Coordinate in the projected coordinate system.
-Z (A, B)
-3D dimensions representing an object's height above sea level, used for visualizing objects in a 3D scene.
-Height (A, B)
-Object’s height above the terrain.
-Azimuth (A, B)
-Direction from the North in degrees.
-Tilt (A, B)
-Mechanical tilt in telecommunications repeaters is the physical angling of the antenna to optimize signal
-coverage.
-Link Name
-Link identification.
-Template
-The template will fill all empty or not specified fields with default values that are not necessary for
-predictions.
-7.2.2.1 Frequency Plan
-Band (A, B)
-Specifies whether the transmitter operates in Upper or Lower frequencies. Additionally, if the link type is
-duplex, we also determine the receiver band.
-Radio Model
-The radio equipment parameters which are assigned to the Link.
-Duplex
-Specifies whether the signal can be transmitted and received simultaneously. Changing the duplex mode
-will affect the carrier selection.
-Frequency Plan
-Frequency plan that is applied to the link. Changing the frequency plan will affect the carrier selection
+| Parameter | Description |
+|---|---|
+| Longitude (A, B) | Decimal degrees X type coordinate in the WGS 1984 geographical coordinate system. |
+| X (A, B) | Coordinate in the projected coordinate system. |
+| Y (A, B) | Coordinate in the projected coordinate system. |
+| Z (A, B) | 3D dimensions representing an object's height above sea level, used for visualizing objects in a 3D scene. |
+| Height (A, B) | Object’s height above the terrain. |
+| Azimuth (A, B) | Direction from the North in degrees. |
+| Tilt (A, B) | Mechanical tilt in telecommunications repeaters is the physical angling of the antenna to optimize signal coverage. |
+| Link Name | Link identification. |
+| Template | The template will fill all empty or not specified fields with default values that are not necessary for predictions. 7.2.2.1 Frequency Plan |
+| Band (A, B) | Specifies whether the transmitter operates in Upper or Lower frequencies. Additionally, if the link type is duplex, we also determine the receiver band. |
+| Radio Model | The radio equipment parameters which are assigned to the Link. |
+| Duplex | Specifies whether the signal can be transmitted and received simultaneously. Changing the duplex mode will affect the carrier selection. |
+| Frequency Plan | Frequency plan that is applied to the link. Changing the frequency plan will affect the carrier selection |
 Carrier Selection
 Carriers that will be assigned to the created Link. Carriers must be selected for the link to be created. If
 duplex mode is enabled, the user will be able to edit both Upper and Lower band carriers. Also, selecting
@@ -1114,18 +1071,13 @@ If toggled, saves the receiver band carrier parameters to the transmitter band c
 overwriting any changes that were made to the selected carriers.
 Read more about Frequency Plans in Frequency Plans.
 7.2.2.2 Antenna
-Antenna (A, B)
-Antenna name, parameters, and patterns for predictions.
-Misc Loss (Optional)
-Miscellaneous loss value in dB.
-View Antenna
-Opens the Antenna Viewer with the corresponding antenna patterns.
-Read more about antennae in Antenna Viewer.
-7.2.2.3 Equipment
-Spectrum Mask
-Mask form for selected carriers.
-Radio Model
-The radio equipment parameters which is assigned to the Link.
+| Parameter | Description |
+|---|---|
+| Antenna (A, B) | Antenna name, parameters, and patterns for predictions. |
+| Misc Loss (Optional) | Miscellaneous loss value in dB. |
+| View Antenna | Opens the Antenna Viewer with the corresponding antenna patterns. Read more about antennae in Antenna Viewer . 7.2.2.3 Equipment |
+| Spectrum Mask | Mask form for selected carriers. |
+| Radio Model | The radio equipment parameters which is assigned to the Link. |
 View Mask
 Opens the Spectrum Masks with the selected spectrum mask patterns.
 Read more about equipment in Radios, Spectrum Masks.
@@ -1189,58 +1141,32 @@ Creates the object with the given parameters.
 Dismiss
 Cancels object creation and closes the dialogue.
 Mesh Node Properties
-Name
-Mesh node identification.
-Status
-Mesh node status.
-Latitude (degrees)
-Latitude degrees, minutes, and seconds Y type coordinate in the WGS 1984 geographical coordinate
-system.
-Longitude (degrees)
-Longitude degrees, minutes, and seconds X type coordinate in the WGS 1984 geographical coordinate
+| Parameter | Description |
+|---|---|
+| Name | Mesh node identification. |
+| Status | Mesh node status. |
+| Latitude (degrees) | Latitude degrees, minutes, and seconds Y type coordinate in the WGS 1984 geographical coordinate system. |
+| Longitude (degrees) | Longitude degrees, minutes, and seconds X type coordinate in the WGS 1984 geographical coordinate system. |
+| Latitude | Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system. |
+| Longitude | Decimal degrees X type coordinate in the WGS 1984 geographical coordinate system. |
 
-![Image p66](../assets/images/ce-pro/rlp-guide/p066-img1.png)
-
-![Image p66](../assets/images/ce-pro/rlp-guide/p066-img2.png)
-
-![Image p66](../assets/images/ce-pro/rlp-guide/p066-img3.png)
-system.
-Latitude
-Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system.
-Longitude
-Decimal degrees X type coordinate in the WGS 1984 geographical coordinate system.
-
-X
-Coordinate in the projected coordinate system.
-Y
-Coordinate in the projected coordinate system.
-Z
-3D dimensions representing an object's height above sea level, used for visualizing objects in a 3D scene.
-Height Above Ground
-Object’s height above the terrain.
-Ground Altitude
-Ground elevation above sea level at the network object's location.
-Frequency, MHz
-Frequency of the mesh node.
-Antenna
-Define antenna patterns for the mesh node object.
-Power, dBm
-Power value of the mesh node.
-Misc Loss, dB
-Miscellaneous loss value of the mesh node.
-Misc Loss, dBm
-Sensitivity value of the mesh node.
-Type
-Type of the mesh node (text description).
-Max connections
-The maximum number of connections the mesh node can have (used for mesh connectivity calculations).
-Layer
-The layer of the mesh node (number value). Used for priority calculations in Automatic Frequency Planning.
-Group name
-The group name of the mesh node (text description). Several mesh nodes may belong to the same group.
-Prediction model
-The prediction model that will be used for the mesh node in Mesh Connectivity and Quick Mesh Connectivity
-calculations. The default selection is LOS ITU-R P.525 (6GHz – 100GHz) – Default.
+| Parameter | Description |
+|---|---|
+| X | Coordinate in the projected coordinate system. |
+| Y | Coordinate in the projected coordinate system. |
+| Z | 3D dimensions representing an object's height above sea level, used for visualizing objects in a 3D scene. |
+| Height Above Ground | Object’s height above the terrain. |
+| Ground Altitude | Ground elevation above sea level at the network object's location. |
+| Frequency, MHz | Frequency of the mesh node. |
+| Antenna | Define antenna patterns for the mesh node object. |
+| Power, dBm | Power value of the mesh node. |
+| Misc Loss, dB | Miscellaneous loss value of the mesh node. |
+| Misc Loss, dBm | Sensitivity value of the mesh node. |
+| Type | Type of the mesh node (text description). |
+| Max connections | The maximum number of connections the mesh node can have (used for mesh connectivity calculations). |
+| Layer | The layer of the mesh node (number value). Used for priority calculations in Automatic Frequency Planning. |
+| Group name | The group name of the mesh node (text description). Several mesh nodes may belong to the same group. |
+| Prediction model | The prediction model that will be used for the mesh node in Mesh Connectivity and Quick Mesh Connectivity calculations. The default selection is LOS ITU-R P.525 (6GHz – 100GHz) – Default. |
 
 ### 7.3 Object Editor
 The Object Editor enables the user to make changes to a network object after it is created and placed on
@@ -1426,12 +1352,11 @@ obstacle and/or clutter obstacle categories.
 New mapping between land use raster and clutter class data should be done in Clutter Classes dialog.
 
 ![Image p86](../assets/images/ce-pro/rlp-guide/p086-img1.png)
-Apply
-Saves changes made to clutter classes.
-OK
-Saves changes made to clutter classes and cloes the dialogue.
-Dismiss
-Cancels clutter class changes and closes the dialogue.
+| Parameter | Description |
+|---|---|
+| Apply | Saves changes made to clutter classes. |
+| OK | Saves changes made to clutter classes and cloes the dialogue. |
+| Dismiss | Cancels clutter class changes and closes the dialogue. |
 
 ### 7.5 Antenna Viewer
 The Antenna Viewer enables the user to preview the default antennae, compare their vertical and horizontal
@@ -2188,25 +2113,17 @@ o Glass: 2–10 dB
 • LOS probability models: stochastic treatment of LOS in large buildings
 Default settings
 
-Configuration name
-Name of the prediction configuration name.
-Radius
-Maximum prediction radius in kilometers to calculate path loss.
-Receiver height
-Receiver height above the receiver reference height selected in the workspace settings.
-Effective earth radius
-Earth radius in kilometers, used for the calculations.
-Offset coefficient
-Represents the offset in decibels added to the path loss grid. The default value is 37 dB.
-Distance coefficient
-Defines the slope based on the distance between the cell and the receiver location, with a default value of: **20.**
-Distance coefficient obstructed
-Represents the slope based on the obstructed distance between the cell and the receiver location. The
-default value is 30.
-Frequency coefficient
-Indicates the slope determined by the frequency value, with a default value of 20.
-Penetration loss offset
-The initial entry loss applied when crossing an obstacle within the clutter class, expressed as an offset in
+| Parameter | Description |
+|---|---|
+| Configuration name | Name of the prediction configuration name. |
+| Radius | Maximum prediction radius in kilometers to calculate path loss. |
+| Receiver height | Receiver height above the receiver reference height selected in the workspace settings. |
+| Effective earth radius | Earth radius in kilometers, used for the calculations. |
+| Offset coefficient | Represents the offset in decibels added to the path loss grid. The default value is 37 dB. |
+| Distance coefficient | Defines the slope based on the distance between the cell and the receiver location, with a default value of 20. |
+| Distance coefficient obstructed | Represents the slope based on the obstructed distance between the cell and the receiver location. The default value is 30. |
+| Frequency coefficient | Indicates the slope determined by the frequency value, with a default value of 20. |
+| Penetration loss offset | The initial entry loss applied when crossing an obstacle within the clutter class, expressed as an offset in |
 
 ![Image p110](../assets/images/ce-pro/rlp-guide/p110-img1.png)
 
@@ -2591,22 +2508,15 @@ horizontal and vertical values or ranges, the horizontal and vertical attenuatio
 attenuations are set to 1000. Based on the horizontal and vertical beamwidths, the horizontal and vertical
 antenna patterns are displayed.
 
-Manufacturer
-Antenna manufacturer (company or entity).
-Model
-Antenna identification or name.
-Frequency
-Antenna frequency value in MHz.
-Gain
-Antenna gain value in dBi.
-Horizontal beamwidth
-Antenna’s horizontal beamwidth value or range in degrees. By default, the value is 60.
-
-![Image p127](../assets/images/ce-pro/rlp-guide/p127-img1.png)
-Vertical beamwidth
-Antenna’s vertical beamwidth value or range in degrees. By default, the value is 15.
-Create Antenna
-Creates the antenna pattern in the database.
+| Parameter | Description |
+|---|---|
+| Manufacturer | Antenna manufacturer (company or entity). |
+| Model | Antenna identification or name. |
+| Frequency | Antenna frequency value in MHz. |
+| Gain | Antenna gain value in dBi. |
+| Horizontal beamwidth | Antenna’s horizontal beamwidth value or range in degrees. By default, the value is 60. |
+| Vertical beamwidth | Antenna’s vertical beamwidth value or range in degrees. By default, the value is 15. |
+| Create Antenna | Creates the antenna pattern in the database. |
 
 ### 7.10 Radios
 Click the button to open the Radios Dockpane. The dock pane's Manager tab includes the
@@ -2629,39 +2539,25 @@ properties and save them. Right-clicking an already existing radio displays a co
 Duplicate and Delete, for respectively either creating a copy of the selected antenna or deleting it.
 
 Initialize a new radio with default parameters.
-Save Changes
-Save changes to the radio that is currently being edited.
-Create
-Create a new radio with the specified parameters.
-Dismiss
-Cancels all changes made to the radio and closes the dock pane.
+| Parameter | Description |
+|---|---|
+| Save Changes | Save changes to the radio that is currently being edited. |
+| Create | Create a new radio with the specified parameters. |
+| Dismiss | Cancels all changes made to the radio and closes the dock pane. |
 Radio Properties: General
-Model
-Radio identification or name.
-Manufacturer
-Radio manufacturer (company or entity).
-Capacity
-Maximum data throughput of the radio.
-Emission Designator
-Code describing the characteristics of the radio emission, including modulation type, signal nature, and
-bandwidth.
-Frequency From, MHz
-The lower limit of the frequency range for the radio communication channel, measured in MHz.
-Frequency To, MHz
-The upper limit of the frequency range for the radio communication channel, measured in MHz.
-Bandwidth, MHz
-Range of frequencies within which the radio operates, value in MHz. Required for 4G and 5G technologies.
-MTBF, h
-Mean time between failures: average time (in hours) between successive failures of the radio system during
-normal operation, indicating reliability.
-MTTR, h
-Mean time to repair: average time (in hours) required to repair the radio system after a failure occurs,
-indicating maintainability.
-Bit Rate, kbps
-Number of bits transmitted per second over the communication channel, measured in kbps.
-Block Size, bits Number of bits grouped as a single unit of data for transmission or processing.
-Burst Errors
-Sequences of errors occurring in clusters or bursts, typically caused by noise or interference affecting
+| Parameter | Description |
+|---|---|
+| Model | Radio identification or name. |
+| Manufacturer | Radio manufacturer (company or entity). |
+| Capacity | Maximum data throughput of the radio. |
+| Emission Designator | Code describing the characteristics of the radio emission, including modulation type, signal nature, and bandwidth. |
+| Frequency From, MHz | The lower limit of the frequency range for the radio communication channel, measured in MHz. |
+| Frequency To, MHz | The upper limit of the frequency range for the radio communication channel, measured in MHz. |
+| Bandwidth, MHz | Range of frequencies within which the radio operates, value in MHz. Required for 4G and 5G technologies. |
+| MTBF, h | Mean time between failures: average time (in hours) between successive failures of the radio system during normal operation, indicating reliability. |
+| MTTR, h | Mean time to repair: average time (in hours) required to repair the radio system after a failure occurs, indicating maintainability. |
+| Bit Rate, kbps | Number of bits transmitted per second over the communication channel, measured in kbps. Block Size, bits Number of bits grouped as a single unit of data for transmission or processing. |
+| Burst Errors | Sequences of errors occurring in clusters or bursts, typically caused by noise or interference affecting multiple consecutive bits. |
 multiple consecutive bits.
 
 Dispersive Fade Margin, dB
@@ -2699,17 +2595,12 @@ Carrier-to-interference ratio for a reference BER, dB
 Carrier-to-interference ratio for a reference bit error rate, expressed in decibels (dB). The default value is: **35.**
 Radio Properties: Transmitter
 
-Power, dBm
-Power value in dBm.
-Power Low, dBm
-The minimum power level at which the radio transmits, measured
-in decibels relative to 1 milliwatt (dBm).
-Power High, dBm
-The maximum power level at which the radio transmits, measured in decibels relative to 1 milliwatt (dBm).
-
-![Image p131](../assets/images/ce-pro/rlp-guide/p131-img1.png)
-Automatic Transfer Power Control Range, dB
-The range over which the radio can automatically adjust its transmission power, measured in dB.
+| Parameter | Description |
+|---|---|
+| Power, dBm | Power value in dBm. |
+| Power Low, dBm | The minimum power level at which the radio transmits, measured in decibels relative to 1 milliwatt (dBm). |
+| Power High, dBm | The maximum power level at which the radio transmits, measured in decibels relative to 1 milliwatt (dBm). |
+| Automatic Transfer Power Control Range, dB | The range over which the radio can automatically adjust its transmission power, measured in dB. |
 
 Selecting the Modulations tab allows you to assign a modulation to a radio. The adaptive modulations are
 displayed in the table by their ID and technology name. The modulations available for assigning to a radio
@@ -2766,27 +2657,17 @@ You can change any values of these points and those changes will be reflected in
 Deletes the currently selected mask point. If none are selected, does nothing.
 Adds a new mask point to the spectrum mask.
 
-Save Changes
-Save changes made to the current spectrum mask.
-Dismiss
-Cancel any changes made to the current spectrum mask.
-
-#### 7.11.2 Add Spectrum Mask
-You can add a spectrum mask by selecting the Add tab located on the Spectrum Masks dockpane.
-
-![Image p135](../assets/images/ce-pro/rlp-guide/p135-img1.png)
-Add Spectrum Mask
-Creates a new spectrum mask.
+| Parameter | Description |
+|---|---|
+| Save Changes | Save changes made to the current spectrum mask. |
+| Dismiss | Cancel any changes made to the current spectrum mask. 7.11.2 Add Spectrum Mask You can add a spectrum mask by selecting the Add tab located on the Spectrum Masks dockpane. |
+| Add Spectrum Mask | Creates a new spectrum mask. |
 Spectrum Mask Parameters
-Mask Name
-Spectrum mask identification.
-Bandwidth
-Value in MHz. Required for 4G and 5G technologies.
-Number of Mask Points
-The number of points the resulting spectrum mask will have.
-
-#### 7.11.3 Import Spectrum Mask
-You can add a spectrum mask by importing it from a JSON format file.
+| Parameter | Description |
+|---|---|
+| Mask Name | Spectrum mask identification. |
+| Bandwidth | Value in MHz. Required for 4G and 5G technologies. |
+| Number of Mask Points | The number of points the resulting spectrum mask will have. 7.11.3 Import Spectrum Mask You can add a spectrum mask by importing it from a JSON format file. |
 
 The selected spectrum mask can be visually inspected before importing, by clicking on the selection of the
 
@@ -2810,15 +2691,12 @@ You can add a frequency plan by selecting the Add tab located on the Frequency P
 Add Frequency Plan
 Adds a new frequency plan.
 Frequency Plan Parameters
-Frequency Plan Name
-Frequency Plan identification
-Low, Center, High Frequency
-Frequencies in MHz.
-Carrier Spacing, MHz
-The frequency separation between adjacent carrier frequencies in a communication system, ensuring non-
-interference between carriers.
-Duplex Spacing, MHz
-Frequency separation between the transmit and receive bands in a two-way communication system.
+| Parameter | Description |
+|---|---|
+| Frequency Plan Name | Frequency Plan identification |
+| Low, Center, High Frequency | Frequencies in MHz. |
+| Carrier Spacing, MHz | The frequency separation between adjacent carrier frequencies in a communication system, ensuring non- interference between carriers. |
+| Duplex Spacing, MHz | Frequency separation between the transmit and receive bands in a two-way communication system. |
 Carriers
 Specific frequencies or waves used to modulate and transmit information over a communication medium.
 Once you create a frequency plan, you will be able to see its graphical representation as well as the
@@ -2905,12 +2783,11 @@ parameters. This feature is especially useful for comparing and verifying calcul
 and Rx configurations. When a new profile is created, it is automatically assigned a name and appears in
 the Profile Selection option.
 Profile can be saved or removed from the list.
-Save
-The option saves the profile to Docs Manager tool with all defined parameters.
-Close
-Removes profile from the list in Profile Selection.
-Close All
-Removes all profiles from Profile Selection list.
+| Parameter | Description |
+|---|---|
+| Save | The option saves the profile to Docs Manager tool with all defined parameters. |
+| Close | Removes profile from the list in Profile Selection. |
+| Close All | Removes all profiles from Profile Selection list. |
 Profile: General
 Fresnel Minimal Clearance, %
 Percentage by which the primary Fresnel zones will be scaled up or down thus creating a secondary Fresnel
@@ -2928,15 +2805,12 @@ Profile: Transmitter
 
 Toggling the switch to the left of Transmitter will enable the Fixed Transmitter functionality, which will
 modify only the receiver’s positioning when drawing the profile on the map.
-Cell
-A cell from which the profile will be drawn. The parameters of the cell will be taken into calculation if the cell
-is snapped to by the profile tool.
-Latitude
-Decimal degrees Y type coordinate.
-Longitude
-Decimal degrees X type coordinate.
-Height, m
-Height above the ground in meters. The minimum value must be 1m.
+| Parameter | Description |
+|---|---|
+| Cell | A cell from which the profile will be drawn. The parameters of the cell will be taken into calculation if the cell is snapped to by the profile tool. |
+| Latitude | Decimal degrees Y type coordinate. |
+| Longitude | Decimal degrees X type coordinate. |
+| Height, m | Height above the ground in meters. The minimum value must be 1m. |
 Azimuth towards receiver
 Enabled by default. When enabled, the transmitter’s azimuth is towards the receiver. Disabling this option
 it would take azimuth value from the Cell object, and use it for FWA Power Budget calculations, it also
@@ -2952,28 +2826,23 @@ The antenna for the transmitter can be selected from the table below the El. Dow
 
 ![Image p144](../assets/images/ce-pro/rlp-guide/p144-img1.png)
 can be viewed by clicking the View Antenna button on the right side.
-Frequency, MHz
-Frequency of the transmitter.
-Bandwidth, MHz
-Bandwidth of the transmitter.
-Power, dBm
-A power that the transmitter possesses.
-Misc Loss, dB
-Miscellaneous loss value in dB. Value is not required.
-Tx mimo
-Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
-Rx mimo
-Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
+| Parameter | Description |
+|---|---|
+| Frequency, MHz | Frequency of the transmitter. |
+| Bandwidth, MHz | Bandwidth of the transmitter. |
+| Power, dBm | A power that the transmitter possesses. |
+| Misc Loss, dB | Miscellaneous loss value in dB. Value is not required. |
+| Tx mimo | Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64. |
+| Rx mimo | Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64. |
 
 Subcarrier spacing
 Value in kHz.
 Profile: Receiver
-Latitude
-Decimal degrees Y type coordinate.
-Longitude
-Decimal degrees X type coordinate.
-Height, m
-Height above the ground in meters. The minimum value must be 1m.
+| Parameter | Description |
+|---|---|
+| Latitude | Decimal degrees Y type coordinate. |
+| Longitude | Decimal degrees X type coordinate. |
+| Height, m | Height above the ground in meters. The minimum value must be 1m. |
 
 ![Image p145](../assets/images/ce-pro/rlp-guide/p145-img1.png)
 Azimuth towards transmitter
@@ -3133,14 +3002,12 @@ on the changes in various profile parameters like frequency, transmitter height,
 factor. Reflections must be enabled to perform analysis, and the Single Reflection option is automatically
 enabled when the tool is selected.
 
-Dependency on Frequency
-Calculate reflection analysis based on frequency range (from GHz to GHz)
-Dependency on Receiver height
-Calculate reflection analysis based on receiver height range (from m to m)
-Dependency on Transmitter height
-Calculate reflection analysis based on transmitter height range (from m to m)
-Dependency on K-Factor
-Calculate reflection analysis based on K-factor range (from radius, km to radius, km)
+| Parameter | Description |
+|---|---|
+| Dependency on Frequency | Calculate reflection analysis based on frequency range (from GHz to GHz) |
+| Dependency on Receiver height | Calculate reflection analysis based on receiver height range (from m to m) |
+| Dependency on Transmitter height | Calculate reflection analysis based on transmitter height range (from m to m) |
+| Dependency on K-Factor | Calculate reflection analysis based on K-factor range (from radius, km to radius, km) |
 
 ![Image p156](../assets/images/ce-pro/rlp-guide/p156-img1.png)
 
@@ -3179,13 +3046,11 @@ Currently, you can configure the profile’s visual properties and controls in p
 
 ![Image p160](../assets/images/ce-pro/rlp-guide/p160-img3.png)
 be changed once a profile is drawn.
-Show Step Plot
-Display data points as a series of steps rather than a smooth line or individual points.
-Transmitter height change stepnter
-The step (in meters) for changing the transmitter height when dragging it in the Profile graph. The default
-value is 0.5 meters.
-Receiver height change step
-The step (in meters) for changing the receiver height when dragging it in the Profile graph. The default
+| Parameter | Description |
+|---|---|
+| Show Step Plot | Display data points as a series of steps rather than a smooth line or individual points. |
+| Transmitter height change stepnter | The step (in meters) for changing the transmitter height when dragging it in the Profile graph. The default value is 0.5 meters. |
+| Receiver height change step | The step (in meters) for changing the receiver height when dragging it in the Profile graph. The default value is 0.5 meters. |
 value is 0.5 meters.
 
 ## 9. Coverage Prediction
@@ -3225,27 +3090,17 @@ provided receiver height
 • Best Server – the same calculation as for RF Prediction
 Click the button to open the Visibility Prediction dialogue.
 
-Calculation Name
-Name of the calculation that will be displayed in the CE Calculation Task List.
-Resolution
-Resolution for raster calculations. The output rasters will be produced with the indicated cell size.
-Max Radius
-The maximum radius of the prediction
-Receiver height
-Receiver height above the ground.
-Effective Earth Radius
-Earth radius in kilometers, used for the calculations.
-Layers to calculate
-All present CE layers on which predictions can be performed
-Template
-A template that corresponds to the selected layers. When the layer changes the templates change as well.
-Selected
-Network objects that are present on the selected network layer. The visibility prediction will be performed
-
-![Image p162](../assets/images/ce-pro/rlp-guide/p162-img1.png)
-on all of them.
-Run Calculations
-Starts the prediction calculation.
+| Parameter | Description |
+|---|---|
+| Calculation Name | Name of the calculation that will be displayed in the CE Calculation Task List. |
+| Resolution | Resolution for raster calculations. The output rasters will be produced with the indicated cell size. |
+| Max Radius | The maximum radius of the prediction |
+| Receiver height | Receiver height above the ground. |
+| Effective Earth Radius | Earth radius in kilometers, used for the calculations. |
+| Layers to calculate | All present CE layers on which predictions can be performed |
+| Template | A template that corresponds to the selected layers. When the layer changes the templates change as well. |
+| Selected | Network objects that are present on the selected network layer. The visibility prediction will be performed on all of them. |
+| Run Calculations | Starts the prediction calculation. |
 
 Results:
 • Minimum Receiver Height in meters
@@ -3371,31 +3226,24 @@ The Temporary Mesh Node Object Template is automatically utilized whenever a new
 object lacks the required parameters needed to complete connectivity calculations. This ensures that all
 essential data is available for accurate simulation and evaluation, even if the original Mesh object is
 incomplete.
-Latitude
-Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system.
-Longitude
-Decimal degrees X type coordinate in the WGS 1984 geographical coordinate system.
-X
-Coordinate in the projected coordinate system.
-Y
-Coordinate in the projected coordinate system.
+| Parameter | Description |
+|---|---|
+| Latitude | Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system. |
+| Longitude | Decimal degrees X type coordinate in the WGS 1984 geographical coordinate system. |
+| X | Coordinate in the projected coordinate system. |
+| Y | Coordinate in the projected coordinate system. |
 Z
 
 3D dimensions representing an object's height above sea level, used for visualizing objects in a 3D scene.
-Height Above Ground
-Mesh node object’s height above the terrain.
-Antenna
-Antenna which will be used for Mesh node.
-Prediction model
-Prediction model used to calculate a path loss between Mesh Nodes.
-Frequency
-Frequency in MHz for proposed Mesh Node.
-Power
-Tx power in dBm for proposed Mesh Node.
-Misc. Loss
-Total losses in dB for proposed Mesh Node.
-Sensitivity
-Receiving Signal Level threshold in dBm at Mesh Node.
+| Parameter | Description |
+|---|---|
+| Height Above Ground | Mesh node object’s height above the terrain. |
+| Antenna | Antenna which will be used for Mesh node. |
+| Prediction model | Prediction model used to calculate a path loss between Mesh Nodes. |
+| Frequency | Frequency in MHz for proposed Mesh Node. |
+| Power | Tx power in dBm for proposed Mesh Node. |
+| Misc. Loss | Total losses in dB for proposed Mesh Node. |
+| Sensitivity | Receiving Signal Level threshold in dBm at Mesh Node. |
 
 ## 11. Radio Links
 
@@ -3417,48 +3265,24 @@ Save changes to the settings.
 Gaseous absorption pages define values for dry air pressure and water vapour density. These values can
 be obtained from predefined geoclimatic data maps.
 Water vapour density data according to ITU-R P.836-3. It is used in gaseous absorption evaluation.
-Dry Air Pressure
-The atmospheric pressure contributed by air that contains no water vapor, typically measured in
-hectopascals (hPa).
-Water Vapour Density
-The mass of water vapor present in a unit volume of air, typically measured in grams per cubic meter (g/m³).
+| Parameter | Description |
+|---|---|
+| Dry Air Pressure | The atmospheric pressure contributed by air that contains no water vapor, typically measured in hectopascals (hPa). |
+| Water Vapour Density | The mass of water vapor present in a unit volume of air, typically measured in grams per cubic meter (g/m³). |
+| Water Vapour Density Data | A dropdown menu that allows the user to select the source or type of data used to determine water vapor density. |
+| Water Vapour Density Data | A dropdown menu to select the specific field or parameter from the chosen data source that provides the water vapor density information. |
+| Use Geoclimatic Data | Enable/Disable this Geoclimatic data |
+| Absorption Spectrum | A button that lets you see the visual representation of the absorption spectrum. |
 
-![Image p174](../assets/images/ce-pro/rlp-guide/p174-img1.png)
-
-![Image p174](../assets/images/ce-pro/rlp-guide/p174-img2.png)
-Water Vapour Density Data
-A dropdown menu that allows the user to select the source or type of data used to determine water vapor
-density.
-Water Vapour Density Data
-A dropdown menu to select the specific field or parameter from the chosen data source that provides the
-water vapor density information.
-Use Geoclimatic Data
-Enable/Disable this Geoclimatic data
-Absorption Spectrum
-A button that lets you see the visual representation of the absorption spectrum.
-
-Linear/Logarithmic
-Specifies how the axes values are calculated and displayed on the plot. Logarithmic is calculated as log .
-
-![Image p175](../assets/images/ce-pro/rlp-guide/p175-img1.png)
-Frequency From/To
-The frequency range of the absorption spectrum.
-Path Length
-The length of the spectrum.
-
-#### 11.1.2 Temperature
-Annual mean surface temperature at 2m above the surface of the Earth according to ITU-R P.1510. The
-data is used to evaluate the thermal noise of a receiver.
-Annual Temperature
-Annual Temperature expressed in Kelvins.
-Annual Temperature Data
-A dropdown menu allowing the user to select the dataset from which the annual temperature data should
-be sourced.
-Annual Temperature Field
-A dropdown menu to select the specific data field within the chosen dataset that contains the annual
-temperature information.
-Use Geoclimatic Data
-Enable/Disable this Geoclimatic data.
+| Parameter | Description |
+|---|---|
+| Linear/Logarithmic | Specifies how the axes values are calculated and displayed on the plot. Logarithmic is calculated as log . 10 |
+| Frequency From/To | The frequency range of the absorption spectrum. |
+| Path Length | The length of the spectrum. 11.1.2 Temperature Annual mean surface temperature at 2m above the surface of the Earth according to ITU-R P.1510. The data is used to evaluate the thermal noise of a receiver. |
+| Annual Temperature | Annual Temperature expressed in Kelvins. |
+| Annual Temperature Data | A dropdown menu allowing the user to select the dataset from which the annual temperature data should be sourced. |
+| Annual Temperature Field | A dropdown menu to select the specific data field within the chosen dataset that contains the annual temperature information. |
+| Use Geoclimatic Data | Enable/Disable this Geoclimatic data. |
 
 #### 11.1.3 Multipath Fading
 The Multipath Fading page defines refractivity data and calculation parameters for ITU and Vigants-Barnett
@@ -3469,13 +3293,11 @@ Refractivity gradient data is based on ITU-R P.453-9. Refractivity gradient data
 
 ![Image p176](../assets/images/ce-pro/rlp-guide/p176-img1.png)
 analysis.
-ITU Method
-Enable/Disable the ITU Method
-ITU-R P.530 version
-A checkbox indicating the use of the International Telecommunication Union's method for calculations, with
-a dropdown to select the ITU-R P.530 version.
-Use Geoclimatic Data
-Enable/Disable this Geoclimatic data.
+| Parameter | Description |
+|---|---|
+| ITU Method | Enable/Disable the ITU Method |
+| ITU-R P.530 version | A checkbox indicating the use of the International Telecommunication Union's method for calculations, with a dropdown to select the ITU-R P.530 version. |
+| Use Geoclimatic Data | Enable/Disable this Geoclimatic data. |
 
 Refractivity Gradient Data / Field
 Refractivity gradient data: DNDZ
@@ -3497,17 +3319,12 @@ An input field for the percentage of time when the refractivity gradient at low 
 specific threshold.
 • Co, dB / Lat, dB / Lon, dB - Fields to input correction values in decibels for specific geographic
 coordinates, possibly related to the orientation or position of the transmitter/receiver.
-Percentage of Time / Design
-Radio buttons to choose the granularity of the time percentage for which the calculations are relevant, and
-the level of detail required for planning.
-Use Viggants-Barnett Method
-Enabled/Disabled Viggants-Barnett Method.
-Geoclimatic Factor (Propagation Conditions)
-A checkbox to select this specific method for calculations, with radio buttons to choose a geoclimatic factor
-indicating propagation conditions.
-Worst-month-to-annual statistics conversion
-A section to select the ITU recommendation (either ITU-R P.530 or ITU-R P.841) for converting worst-
-month statistics to annual statistics.
+| Parameter | Description |
+|---|---|
+| Percentage of Time / Design | Radio buttons to choose the granularity of the time percentage for which the calculations are relevant, and the level of detail required for planning. |
+| Use Viggants-Barnett Method | Enabled/Disabled Viggants-Barnett Method. |
+| Geoclimatic Factor (Propagation Conditions) | A checkbox to select this specific method for calculations, with radio buttons to choose a geoclimatic factor indicating propagation conditions. |
+| Worst-month-to-annual statistics conversion | A section to select the ITU recommendation (either ITU-R P.530 or ITU-R P.841) for converting worst- month statistics to annual statistics. |
 Interf. correction factor for multipath and focusing effects
 Input for the percentage of time to apply an interference correction factor to account for multipath and
 focusing effects.
@@ -3541,13 +3358,11 @@ involve multiple hops or two-way transmission.
 #### 11.1.5 Statistics
 These settings are used to handle statistical conversions for telecommunication planning, ensuring that
 systems are designed to cope with the worst-case scenarios based on historical data and predictive models.
-Conversion factor - Define / Calculate
-Options to either define a fixed conversion factor or to calculate it based on additional inputs.
-Q1 (1...12)
-An input field likely used to define a conversion factor or another parameter for a specific month or set of
-months.
-Beta
-An input field for the beta parameter, which may be part of the statistical model or conversion formula within
+| Parameter | Description |
+|---|---|
+| Conversion factor - Define / Calculate | Options to either define a fixed conversion factor or to calculate it based on additional inputs. |
+| Q1 (1...12) | An input field likely used to define a conversion factor or another parameter for a specific month or set of months. |
+| Beta | An input field for the beta parameter, which may be part of the statistical model or conversion formula within the ITU-R P.841 recommendation. |
 
 ![Image p179](../assets/images/ce-pro/rlp-guide/p179-img1.png)
 the ITU-R P.841 recommendation.
@@ -3654,13 +3469,11 @@ result to Docs Manager.
 #### 11.2.4 Options
 The Options tab is found on the Link Prediction dockpane. Here you will see additional parameters that
 can be changed in accordance with your prediction needs.
-Include Field Margin in Power Budget
-If checked, it will take into account the specified field margin for Power Budget calculations.
-Field Margin
-Extra signal strength beyond the minimum required, providing a buffer for reliable communication against
-unforeseen signal losses or variations.
-Thermal Fade Margin Prediction
-The threshold below which thermal fade will not be calculated.
+| Parameter | Description |
+|---|---|
+| Include Field Margin in Power Budget | If checked, it will take into account the specified field margin for Power Budget calculations. |
+| Field Margin | Extra signal strength beyond the minimum required, providing a buffer for reliable communication against unforeseen signal losses or variations. |
+| Thermal Fade Margin Prediction | The threshold below which thermal fade will not be calculated. |
 
 Calculate attenuation due to clouds and fog
 Enabled/Disable this option.
@@ -3688,16 +3501,13 @@ The ability of filters in a duplex system to effectively separate and prevent in
 ![Image p186](../assets/images/ce-pro/rlp-guide/p186-img3.png)
 frequencies. No dBm greater than this will be accounted for in the calculation.
 
-Parameter
-The specific telecommunication performance metric being evaluated.
-Fading
-The type of signal disruption being accounted for in the metric.
-Method
-The standard used to calculate the performance metric.
-Statistics Annual
-A selection indicating if the metric is calculated based on yearly data.
-Statistics Worst-month
-A selection indicating if the metric is calculated based on the data from the month with the poorest
+| Parameter | Description |
+|---|---|
+| Parameter | The specific telecommunication performance metric being evaluated. |
+| Fading | The type of signal disruption being accounted for in the metric. |
+| Method | The standard used to calculate the performance metric. |
+| Statistics Annual | A selection indicating if the metric is calculated based on yearly data. |
+| Statistics Worst-month | A selection indicating if the metric is calculated based on the data from the month with the poorest performance. |
 performance.
 
 ### 11.3 Automatic Frequency Planning

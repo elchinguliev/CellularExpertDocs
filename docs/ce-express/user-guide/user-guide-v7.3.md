@@ -450,12 +450,11 @@ Available options:
 Geodata set
 Geodata set used in calculations launched within the workspace.
 Extra layers
-URL / Portal ItemID
-Specifies the source of the layer. Accepts either a direct URL or an ArcGIS Portal Item ID.
-Title
-The title field defines the name displayed for a layer in the layer list
-Opacity
-Adjusts layer transparency.
+| Parameter | Description |
+|---|---|
+| URL / Portal ItemID | Specifies the source of the layer. Accepts either a direct URL or an ArcGIS Portal Item ID. |
+| Title | The title field defines the name displayed for a layer in the layer list |
+| Opacity | Adjusts layer transparency. |
 Visible
 Confidential ©Cellular Expert, 2026 Page | 17
 
@@ -592,79 +591,11 @@ Confidential ©Cellular Expert, 2026 Page | 25
 Cellular Expert Express User Guide 7.3
 3.1.2.2.2 Add Site
 Required parameters
-Site name
-Site identification.
-X
-Coordinate in the [projected coordinate](#kw:what-is-a-projected-crs:ce-express-geodata) system.
-Y
-Coordinate in the [projected coordinate](#kw:what-is-a-projected-crs:ce-express-geodata) system.
-Optional parameters
-Height
-Height above the terrain.
-3.1.2.2.3 Add Candidate sites
-Confidential ©Cellular Expert, 2026 Page | 26
-
-![Image p26](../../assets/images/ce-express/user-guide-v73/p026-img1.png)
-
----
-
-Cellular Expert Express User Guide 7.3
-Required parameters
-Site name
-Site identification.
-X
-Coordinate in the [projected coordinate](#kw:what-is-a-projected-crs:ce-express-geodata) system.
-Y
-Coordinate in the projected coordinate system.
-Optional parameters
-Max Site Height
-Maximum site height above the terrain in meters.
-City
-City where the site is located.
-Street
-Street address of the site.
-Status
-Free-form text.
-Confidential ©Cellular Expert, 2026 Page | 27
-
-![Image p27](../../assets/images/ce-express/user-guide-v73/p027-img1.png)
-
----
-
-Cellular Expert Express User Guide 7.3
-Type
-Free-form text.
-Notes
-Free-form text.
-3.1.2.2.4 Add Site search areas
-Required parameters
-Area Name
-Area identification.
-Draw mode
-Method used to draw the area geometry:
-- Polygon
-- Circle
-Circle radius
-Radius of the circle, in meters.
-Geometry segments
-Number of segments used to approximate the geometry.
-Group
-Group to which the area belongs.
-3.1.2.2.5 Add Cell
-Confidential ©Cellular Expert, 2026 Page | 28
-
-![Image p28](../../assets/images/ce-express/user-guide-v73/p028-img1.png)
-
----
-
-Cellular Expert Express User Guide 7.3
-Required parameters
-Cell name
-Cell identification.
-X
-Coordinate in the projected coordinate system.
-Y
-Coordinate in the projected coordinate system.
+| Parameter | Description |
+|---|---|
+| Site name | Site identification. |
+| X | Coordinate in the projected coordinate system. |
+| Y | Coordinate in the projected coordinate system. |
 Azimuth
 Cell direction from the North in degrees.
 Confidential ©Cellular Expert, 2026 Page | 29
@@ -675,32 +606,25 @@ Confidential ©Cellular Expert, 2026 Page | 29
 
 Cellular Expert Express User Guide 7.3
 Optional parameters
-Height, m
-Height above the terrain.
-Downtilt
-Mechanical tilt value.
-El. Downtilt, deg
-Electrical tilt value
-Frequency
-Frequency value in MHz.
-Power
-Power value in dBm.
-Misc. loss, dB
-Miscellaneous loss value in dB.
-Bandwidth, MHz
-Value in MHz. Required for 4G and 5G technologies. For other technologies define the value as 0.015.
-Noise figure, dB
-Value in dB. Required for 4G and 5G technologies.
+| Parameter | Description |
+|---|---|
+| Height, m | Height above the terrain. |
+| Downtilt | Mechanical tilt value. |
+| El. Downtilt, deg | Electrical tilt value |
+| Frequency | Frequency value in MHz. |
+| Power | Power value in dBm. |
+| Misc. loss, dB | Miscellaneous loss value in dB. |
+| Bandwidth, MHz | Value in MHz. Required for 4G and 5G technologies. For other technologies define the value as 0.015. |
+| Noise figure, dB | Value in dB. Required for 4G and 5G technologies. |
 Downlink duplex factor
 Value range from 0 to 1. Required for Duplex mode TDD, which is applicable for 4G and 5G technologies,
 and used for Downlink Throughput calculations. For example, if defined value is 0.7, then 70% of available
 bandwidth will be dedicated to Downlink, and 30% - for Uplink.
-Subcarrier spacing, kHz
-Value in kHz. Required for 4G and 5G technologies. For other technologies define value 15.
-Tx Mimo
-Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
-Rx Mimo
-Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
+| Parameter | Description |
+|---|---|
+| Subcarrier spacing, kHz | Value in kHz. Required for 4G and 5G technologies. For other technologies define value 15. |
+| Tx Mimo | Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64. |
+| Rx Mimo | Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64. |
 Active antenna effect
 The parameter is dedicated to smart antenna modeling. The default value is 0, but if massive MIMO is
 used, a smart antenna effect can be included to lower the interference and boost throughput.
@@ -738,30 +662,24 @@ Carriers
 Describes the carrier values used for 2G calculations: C/I interference and C/A interference. The values
 are written in brackets, […]. If more than one value is defined, the values are separated by a comma. If
 there is no carrier information, the brackets are left empty [].
-Site ID
-Describes to which Site the Cell belongs.
-Duplex mode
-Available values FDD or TDD. Required for 4G and 5G technologies. For other technologies define value
-FDD.
-Status
-Free-form text.
-Type
-Free-form text.
-3.1.2.2.6 Add Repeater
+| Parameter | Description |
+|---|---|
+| Site ID | Describes to which Site the Cell belongs. |
+| Duplex mode | Available values FDD or TDD. Required for 4G and 5G technologies. For other technologies define value FDD. |
+| Status | Free-form text. |
+| Type | Free-form text. 3.1.2.2.6 Add Repeater |
 Confidential ©Cellular Expert, 2026 Page | 31
 
 ---
 
 Cellular Expert Express User Guide 7.3
 Required parameters
-Repeater name
-Repeater identification.
-X
-Coordinate in the projected coordinate system.
-Y
-Coordinate in the projected coordinate system.
-Azimuth
-Direction from the North in degrees.
+| Parameter | Description |
+|---|---|
+| Repeater name | Repeater identification. |
+| X | Coordinate in the projected coordinate system. |
+| Y | Coordinate in the projected coordinate system. |
+| Azimuth | Direction from the North in degrees. |
 Confidential ©Cellular Expert, 2026 Page | 32
 
 ![Image p32](../../assets/images/ce-express/user-guide-v73/p032-img1.png)
@@ -770,16 +688,12 @@ Confidential ©Cellular Expert, 2026 Page | 32
 
 Cellular Expert Express User Guide 7.3
 Optional parameters
-Height
-Object’s height above the terrain.
-Downtilt
-Mechanical tilt in telecommunications repeaters is the physical angling of the antenna to optimize signal
-coverage.
-Electrical Tilt
-Electrical tilt in a repeater refers to the electronic adjustment of an antenna's vertical [radiation pattern](#kw:viewing-patterns:ce-express-antenna) to
-optimize network coverage and reduce interference.
-Frequency
-Frequency value in MHz.
+| Parameter | Description |
+|---|---|
+| Height | Object’s height above the terrain. |
+| Downtilt | Mechanical tilt in telecommunications repeaters is the physical angling of the antenna to optimize signal coverage. |
+| Electrical Tilt | Electrical tilt in a repeater refers to the electronic adjustment of an antenna's vertical radiation pattern to optimize network coverage and reduce interference. |
+| Frequency | Frequency value in MHz. |
 Thresholds 1, 2, 3
 The minimum field strength in dB at repeater location at which power of the corresponding index (1-3) will
 be applied. Values should be in ascending order. If a higher threshold is satisfied, the power corresponding
@@ -813,12 +727,11 @@ Antenna
 Antenna name for Repeater object.
 3.1.2.2.7 Add Radar
 Required parameters
-Radar name
-Radar identification.
-X
-Coordinate in the projected coordinate system.
-Y
-Coordinate in the projected coordinate system.
+| Parameter | Description |
+|---|---|
+| Radar name | Radar identification. |
+| X | Coordinate in the projected coordinate system. |
+| Y | Coordinate in the projected coordinate system. |
 Optional parameters
 Height
 Object’s height above the terrain.
@@ -829,19 +742,14 @@ Confidential ©Cellular Expert, 2026 Page | 34
 ---
 
 Cellular Expert Express User Guide 7.3
-Downtilt
-Mechanical tilt value.
-Frequency
-Frequency value in MHz.
-Power
-Power value in dBm.
-Misc Loss
-Miscellaneous loss value in dB.
-View Angle
-Visible field (vertical angle) of the radar in degrees.
-Prediction Model
-Prediction model for Path Loss simulation.
-3.1.2.2.8 Add CPE
+| Parameter | Description |
+|---|---|
+| Downtilt | Mechanical tilt value. |
+| Frequency | Frequency value in MHz. |
+| Power | Power value in dBm. |
+| Misc Loss | Miscellaneous loss value in dB. |
+| View Angle | Visible field (vertical angle) of the radar in degrees. |
+| Prediction Model | Prediction model for Path Loss simulation. 3.1.2.2.8 Add CPE |
 Confidential ©Cellular Expert, 2026 Page | 35
 
 ![Image p35](../../assets/images/ce-express/user-guide-v73/p035-img1.png)
@@ -850,12 +758,11 @@ Confidential ©Cellular Expert, 2026 Page | 35
 
 Cellular Expert Express User Guide 7.3
 Required parameters
-CPE name
-CPE identification.
-X
-Coordinate in the projected coordinate system.
-Y
-Coordinate in the projected coordinate system.
+| Parameter | Description |
+|---|---|
+| CPE name | CPE identification. |
+| X | Coordinate in the projected coordinate system. |
+| Y | Coordinate in the projected coordinate system. |
 Optional parameters
 Height
 Object’s height above the terrain.
@@ -882,14 +789,12 @@ Confidential ©Cellular Expert, 2026 Page | 36
 
 Cellular Expert Express User Guide 7.3
 Required parameters
-Field strength, dB
-Field strength.
-X
-Coordinate in the projected coordinate system.
-Y
-Coordinate in the projected coordinate system.
-Cell ID
-A field which binds the measurement to a cell network object.
+| Parameter | Description |
+|---|---|
+| Field strength, dB | Field strength. |
+| X | Coordinate in the projected coordinate system. |
+| Y | Coordinate in the projected coordinate system. |
+| Cell ID | A field which binds the measurement to a cell network object. 3.1.2.2.10 Add Omen |
 3.1.2.2.10 Add Omen
 Confidential ©Cellular Expert, 2026 Page | 37
 
@@ -901,12 +806,11 @@ Confidential ©Cellular Expert, 2026 Page | 37
 
 Cellular Expert Express User Guide 7.3
 Required parameters
-Omen name
-Omen identification.
-X
-Coordinate in the projected coordinate system.
-Y
-Coordinate in the projected coordinate system.
+| Parameter | Description |
+|---|---|
+| Omen name | Omen identification. |
+| X | Coordinate in the projected coordinate system. |
+| Y | Coordinate in the projected coordinate system. |
 Optional parameters
 Height, m
 Height above the terrain.
@@ -921,48 +825,36 @@ Confidential ©Cellular Expert, 2026 Page | 38
 
 Cellular Expert Express User Guide 7.3
 Required parameters
-Siren name
-Siren identification.
-X
-Coordinate in the projected coordinate system.
-Y
-Coordinate in the projected coordinate system.
-Azimuth
-Cell direction from the North in degrees.
+| Parameter | Description |
+|---|---|
+| Siren name | Siren identification. |
+| X | Coordinate in the projected coordinate system. |
+| Y | Coordinate in the projected coordinate system. |
+| Azimuth | Cell direction from the North in degrees. |
 Optional parameters
-Height, m
-Height above the terrain.
-Downtilt
-Mechanical tilt value.
-Frequency
-Frequency value in MHz.
-Power
-Power value in dBm.
-Misc. loss, dB
-Miscellaneous loss value in dB.
-Prediction model
-Only ISO9613 can be applied to calculate sound loss for the siren.
-Antenna
-Antenna name for Siren object.
-Status
-Free-form text.
-Type
-Free-form text.
-3.1.2.2.12 Add Lights
+| Parameter | Description |
+|---|---|
+| Height, m | Height above the terrain. |
+| Downtilt | Mechanical tilt value. |
+| Frequency | Frequency value in MHz. |
+| Power | Power value in dBm. |
+| Misc. loss, dB | Miscellaneous loss value in dB. |
+| Prediction model | Only ISO9613 can be applied to calculate sound loss for the siren. |
+| Antenna | Antenna name for Siren object. |
+| Status | Free-form text. |
+| Type | Free-form text. 3.1.2.2.12 Add Lights |
 Confidential ©Cellular Expert, 2026 Page | 39
 
 ---
 
 Cellular Expert Express User Guide 7.3
 Required parameters
-Light name
-Light identification.
-X
-Coordinate in the projected coordinate system.
-Y
-Coordinate in the projected coordinate system.
-Azimuth
-Cell direction from the North in degrees.
+| Parameter | Description |
+|---|---|
+| Light name | Light identification. |
+| X | Coordinate in the projected coordinate system. |
+| Y | Coordinate in the projected coordinate system. |
+| Azimuth | Cell direction from the North in degrees. |
 Optional parameters
 Height, m
 Height above the terrain.
@@ -979,12 +871,11 @@ Antenna
 Antenna name for Light object.
 3.1.2.2.13 Add Mesh nodes
 Required parameters
-Mesh node name
-Mesh node identification.
-X
-Coordinate in the projected coordinate system.
-Y
-Coordinate in the projected coordinate system.
+| Parameter | Description |
+|---|---|
+| Mesh node name | Mesh node identification. |
+| X | Coordinate in the projected coordinate system. |
+| Y | Coordinate in the projected coordinate system. |
 Confidential ©Cellular Expert, 2026 Page | 41
 
 ![Image p41](../../assets/images/ce-express/user-guide-v73/p041-img1.png)
@@ -1170,16 +1061,13 @@ Confidential ©Cellular Expert, 2026 Page | 51
 ---
 
 Cellular Expert Express User Guide 7.3
-View from perspective
-Viewpoint from the position of cell.
-Highlight feature
-Highlights feature on the map.
-Duplicate feature
-Creates a copy of the feature.
-Delete feature
-Deletes feature.
-Remove from selection
-Removes feature from the selected features list.
+| Parameter | Description |
+|---|---|
+| View from perspective | Viewpoint from the position of cell. |
+| Highlight feature | Highlights feature on the map. |
+| Duplicate feature | Creates a copy of the feature. |
+| Delete feature | Deletes feature. |
+| Remove from selection | Removes feature from the selected features list. |
 Add to selection
 Adds feature to selected features list.
 3.1.2.6 Quick add
@@ -1346,17 +1234,12 @@ Confidential ©Cellular Expert, 2026 Page | 61
 ---
 
 Cellular Expert Express User Guide 7.3
-Owned by me
-Shows only layers you own.
-Sort by
-Determines the order of search results (e.g., by view count or date).
-3.1.4.2 Features
-Rearrange layers
-Allows you to reorder layers by dragging.
-Turn on/off the layer
-Turn on or off a layer in the Map view
-- The layer is visible -
-- The layer is not visible -
+| Parameter | Description |
+|---|---|
+| Owned by me | Shows only layers you own. |
+| Sort by | Determines the order of search results (e.g., by view count or date). 3.1.4.2 Features |
+| Rearrange layers | Allows you to reorder layers by dragging. |
+| Turn on/off the layer | Turn on or off a layer in the Map view • The layer is visible - The layer is not visible - • |
 Confidential ©Cellular Expert, 2026 Page | 62
 
 ![Image p62](../../assets/images/ce-express/user-guide-v73/p062-img1.png)
@@ -1447,14 +1330,11 @@ The prediction rasters calculated in Cellular Expert Express and loaded in the m
 
 ![Image p67](../../assets/images/ce-express/user-guide-v73/p067-img4.png)
 Layers tool.
-Rearrange layers
-Allows you to reorder layers by dragging.
-Turn on/off the layer
-Turn on or off a layer in the Map view
-- The layer is visible -
-- The layer is not visible -
-Expand layer
-Expand the layer so you can see and edit the symbology.
+| Parameter | Description |
+|---|---|
+| Rearrange layers | Allows you to reorder layers by dragging. |
+| Turn on/off the layer | Turn on or off a layer in the Map view The layer is visible - • The layer is not visible - • |
+| Expand layer | Expand the layer so you can see and edit the symbology. |
 Confidential ©Cellular Expert, 2026 Page | 67
 
 ---
@@ -1574,17 +1454,13 @@ successful calculations. The accessibility of prediction rasters is user specifi
 ![Image p74](../../assets/images/ce-express/user-guide-v73/p074-img1.png)
 not view the prediction results of other users, except the owner of the prediction results shares them with
 the organization.
-Calculation status
-Status of the current calculation
-Log
-The tool shows the progress of a prediction in the Task log section.
-Results
-Select which prediction results you want to add to the Map view and manage in the layers tool.
-Export
-Exports the selected prediction results layer as a TIF raster.
-Open
-Opens the selected prediction results layer.
-Upon hovering the mouse over a prediction result item, options for it appear.
+| Parameter | Description |
+|---|---|
+| Calculation status | Status of the current calculation |
+| Log | The tool shows the progress of a prediction in the Task log section. |
+| Results | Select which prediction results you want to add to the Map view and manage in the layers tool. |
+| Export | Exports the selected prediction results layer as a TIF raster. |
+| Open | Opens the selected prediction results layer. Upon hovering the mouse over a prediction result item, options for it appear. |
 Confidential ©Cellular Expert, 2026 Page | 74
 
 ---
@@ -1673,14 +1549,12 @@ Confidential ©Cellular Expert, 2026 Page | 79
 
 Cellular Expert Express User Guide 7.3
 Antenna parameters
-Manufacturer
-Antenna manufacturer.
-Model
-Antenna name.
-Frequency
-Antenna frequency value in MHz.
-Gain
-Antenna gain value in dBi.
+| Parameter | Description |
+|---|---|
+| Manufacturer | Antenna manufacturer. |
+| Model | Antenna name. |
+| Frequency | Antenna frequency value in MHz. |
+| Gain | Antenna gain value in dBi. |
 Confidential ©Cellular Expert, 2026 Page | 80
 
 ![Image p80](../../assets/images/ce-express/user-guide-v73/p080-img1.png)
@@ -1714,34 +1588,18 @@ Confidential ©Cellular Expert, 2026 Page | 82
 ---
 
 Cellular Expert Express User Guide 7.3
-Frequency
-Antenna frequency value in MHz.
-Gain
-Antenna gain value in dBi.
-Max attenuation
-Attenuation value assigned to the attenuated parts of the antenna pattern
+| Parameter | Description |
+|---|---|
+| Frequency | Antenna frequency value in MHz. |
+| Gain | Antenna gain value in dBi. |
+| Max attenuation | Attenuation value assigned to the attenuated parts of the antenna pattern |
 Horizontal pattern
-Beamwidth
-Antenna’s horizontal beamwidth value in degrees. Used for generating the antenna pattern.
-Smoothing degree count
-Transition width between attenuated and non-attenuated parts of the antenna pattern in degrees. The
-attenuation values are linearly interpolated between 0 and the max attenuation value within this transition
-
-![Image p83](../../assets/images/ce-express/user-guide-v73/p083-img1.png)
-range.
-Vertical pattern
-Beamwidth
-Antenna’s vertical beamwidth value in degrees. Used for generating the antenna pattern.
-Smoothing degree count
-Transition width between attenuated and non-attenuated parts of the antenna pattern in degrees. The
-attenuation values are linearly interpolated between 0 and the max attenuation value within this transition
-range.
-Angle offset
-Transition width between attenuated and non-attenuated parts of the antenna pattern in degrees. The
-attenuation values are linearly interpolated between 0 and the max attenuation value within this transition
-range.
-Mirror pattern
-Ability to mirror the vertical attenuation pattern.
+| Parameter | Description |
+|---|---|
+| Beamwidth | Antenna’s vertical beamwidth value in degrees. Used for generating the antenna pattern. |
+| Smoothing degree count | Transition width between attenuated and non-attenuated parts of the antenna pattern in degrees. The attenuation values are linearly interpolated between 0 and the max attenuation value within this transition range. |
+| Angle offset | Transition width between attenuated and non-attenuated parts of the antenna pattern in degrees. The attenuation values are linearly interpolated between 0 and the max attenuation value within this transition range. |
+| Mirror pattern | Ability to mirror the vertical attenuation pattern. |
 Pattern preview
 Confidential ©Cellular Expert, 2026 Page | 83
 
@@ -2050,26 +1908,16 @@ Confidential ©Cellular Expert, 2026 Page | 95
 ---
 
 Cellular Expert Express User Guide 7.3
-Configuration name
-Name of the prediction configuration name.
-Radius
-Maximum prediction radius in kilometers to calculate path loss.
-Receiver height
-Receiver height above the receiver reference height selected in the workspace settings.
-Effective earth radius
-Earth radius in kilometers, used for the calculations.
-Offset coefficient
-Represents the offset in decibels added to the path loss grid. The default value is 37 dB.
-Distance coefficient
-Defines the slope based on the distance between the cell and the receiver location, with a default value of
-
-![Image p96](../../assets/images/ce-express/user-guide-v73/p096-img1.png)
-20.
-Distance coefficient obstructed
-Represents the slope based on the obstructed distance between the cell and the receiver location. The
-default value is 30.
-Frequency coefficient
-Indicates the slope determined by the frequency value, with a default value of 20.
+| Parameter | Description |
+|---|---|
+| Configuration name | Name of the prediction configuration name. |
+| Radius | Maximum prediction radius in kilometers to calculate path loss. |
+| Receiver height | Receiver height above the receiver reference height selected in the workspace settings. |
+| Effective earth radius | Earth radius in kilometers, used for the calculations. |
+| Offset coefficient | Represents the offset in decibels added to the path loss grid. The default value is 37 dB. |
+| Distance coefficient | Defines the slope based on the distance between the cell and the receiver location, with a default value of 20. |
+| Distance coefficient obstructed | Represents the slope based on the obstructed distance between the cell and the receiver location. The default value is 30. |
+| Frequency coefficient | Indicates the slope determined by the frequency value, with a default value of 20. |
 Confidential ©Cellular Expert, 2026 Page | 96
 
 ---
@@ -2117,16 +1965,13 @@ scaling frequency
 coefficient exponent
 coefficient
 1 1 17 0.25 1 0
-Open / Terrain
-27 0.5 0 0.82 0.65 0
-Grassland
-27 0.5 0 0.82 0.65 0
-Sparse forest
-27 0.5 0 0.89 0.65 0
-Medium dense forest
-15 0.5 0 0.95 0.65 0
-Very dense forest
-27 0.5 0 0.89 0.65 0
+| Parameter | Description |
+|---|---|
+| Open / Terrain | 27 0.5 0 0.82 0.65 0 |
+| Grassland | 27 0.5 0 0.82 0.65 0 |
+| Sparse forest | 27 0.5 0 0.89 0.65 0 |
+| Medium dense forest | 15 0.5 0 0.95 0.65 0 |
+| Very dense forest | 27 0.5 0 0.89 0.65 0 |
 Low density urban (Low
 buildings)
 27 0.5 0 0.89 0.65 0
@@ -2151,32 +1996,21 @@ High density urban
 (High buildings)
 10 0.7 0 0.89 0.65 0
 High density urban
-(Very high buildings)
-15 0.6 0 0.89 0.65 0
-Building blocks
-27 0.5 0 0.89 0.65 0
-Transportation
-27 0.5 0 0.89 0.65 0
-Agriculture
-27 0.5 0 0.89 0.65 0
-Plantation
-27 0.5 0 0.89 0.65 0
-Parks
-27 0.6 0 0.89 0.65 0
-Airport
-27 0.5 0 0.89 0.65 0
-Sea
-27 0.5 0 0.89 0.65 0
-Inland water
-1 1 5 0.25 1 0
-Concrete building
-1 1 2 0.25 1 0
-Glass building
-1 0.6 2 0.25 1 0
-Wood building
-1 1 8.5 0.25 1 0
-Low loss building
-1 1 17 0.25 1 0
+| Parameter | Description |
+|---|---|
+| (Very high buildings) | 15 0.6 0 0.89 0.65 0 |
+| Building blocks | 27 0.5 0 0.89 0.65 0 |
+| Transportation | 27 0.5 0 0.89 0.65 0 |
+| Agriculture | 27 0.5 0 0.89 0.65 0 |
+| Plantation | 27 0.5 0 0.89 0.65 0 |
+| Parks | 27 0.6 0 0.89 0.65 0 |
+| Airport | 27 0.5 0 0.89 0.65 0 |
+| Sea | 27 0.5 0 0.89 0.65 0 |
+| Inland water | 1 1 5 0.25 1 0 |
+| Concrete building | 1 1 2 0.25 1 0 |
+| Glass building | 1 0.6 2 0.25 1 0 |
+| Wood building | 1 1 8.5 0.25 1 0 |
+| Low loss building | 1 1 17 0.25 1 0 |
 High loss building
 3.1.9.2 ITU-R P.452 Model
 This model is designed to estimate radio signal propagation over long distances, including terrestrial paths.
@@ -2194,18 +2028,14 @@ Confidential ©Cellular Expert, 2026 Page | 99
 ---
 
 Cellular Expert Express User Guide 7.3
-Configuration name
-Name of the prediction configuration name.
-Radius
-Maximum prediction radius in kilometers to calculate path loss.
-Receiver height
-Receiver height above the receiver reference height selected in the workspace settings.
-Effective earth radius
-Earth radius in kilometers, used for the calculations.
-Offset coefficient
-Represents the offset in decibels added to the path loss grid. The default value is 37 dB.
-Distance coefficient
-Defines the slope based on the distance between the cell and the receiver location, with a default value of
+| Parameter | Description |
+|---|---|
+| Configuration name | Name of the prediction configuration name. |
+| Radius | Maximum prediction radius in kilometers to calculate path loss. |
+| Receiver height | Receiver height above the receiver reference height selected in the workspace settings. |
+| Effective earth radius | Earth radius in kilometers, used for the calculations. |
+| Offset coefficient | Represents the offset in decibels added to the path loss grid. The default value is 37 dB. |
+| Distance coefficient | Defines the slope based on the distance between the cell and the receiver location, with a default value of 20. |
 
 ![Image p100](../../assets/images/ce-express/user-guide-v73/p100-img1.png)
 20.
@@ -2244,55 +2074,36 @@ receiver height value defined in the prediction model is used.
 Clutter Classes default values
 Enclosed Enclosed receiver Enclosed receiver
 receiver loss loss scaling loss frequency
-offset coefficient exponent coefficient
-17 0.25 1
-Open / Terrain
-0 0.82 0.65
-Grassland
-0 0.82 0.65
-Sparse forest
-0 0.89 0.65
-Medium dense forest
-0 0.95 0.65
-Very dense forest
-0 0.89 0.65
-Low density urban (Low buildings)
-0 0.89 0.65
-Low density urban (High buildings)
-0 0.89 0.65
+| Parameter | Description |
+|---|---|
+| offset coefficient exponent coefficient | 17 0.25 1 |
+| Open / Terrain | 0 0.82 0.65 |
+| Grassland | 0 0.82 0.65 |
+| Sparse forest | 0 0.89 0.65 |
+| Medium dense forest | 0 0.95 0.65 |
+| Very dense forest | 0 0.89 0.65 |
+| Low density urban (Low buildings) | 0 0.89 0.65 |
+| Low density urban (High buildings) | 0 0.89 0.65 |
 Medium density urban (Low
-buildings)
-0 0.89 0.65
-Medium density urban (High
-buildings)
-0 0.89 0.65
-High density urban (Low buildings)
-0 0.89 0.65
-High density urban (High buildings)
-0 0.89 0.65
+| Parameter | Description |
+|---|---|
+| buildings) | 0 0.89 0.65 |
+| High density urban (Low buildings) | 0 0.89 0.65 |
+| High density urban (High buildings) | 0 0.89 0.65 |
 High density urban (Very high
-buildings)
-0 0.89 0.65
-Building blocks
-0 0.89 0.65
-Transportation
-0 0.89 0.65
-Agriculture
-0 0.89 0.65
-Plantation
-0 0.89 0.65
-Parks
-0 0.89 0.65
-Airport
-0 0.89 0.65
-Sea
-0 0.89 0.65
-Inland water
-5 0.25 1
-Concrete building
-2 0.25 1
-Glass building
-2 0.25 1
+| Parameter | Description |
+|---|---|
+| buildings) | 0 0.89 0.65 |
+| Building blocks | 0 0.89 0.65 |
+| Transportation | 0 0.89 0.65 |
+| Agriculture | 0 0.89 0.65 |
+| Plantation | 0 0.89 0.65 |
+| Parks | 0 0.89 0.65 |
+| Airport | 0 0.89 0.65 |
+| Sea | 0 0.89 0.65 |
+| Inland water | 5 0.25 1 |
+| Concrete building | 2 0.25 1 |
+| Glass building | 2 0.25 1 |
 Wood building
 Confidential ©Cellular Expert, 2026 Page | 102
 
@@ -2325,52 +2136,15 @@ For scenarios where accurate building geometry and heights are available and a h
 range (up to 6 GHz) is required, the CEC ITU-R 3GPP Model is recommended instead, offering greater
 precision in dense urban and high-frequency applications.
 3.1.9.3.1 ITU R. P1546 Model settings
-Configuration name
-Name of the prediction configuration name.
-Radius
-Maximum prediction radius in kilometers to calculate path loss.
-Receiver height
-Confidential ©Cellular Expert, 2026 Page | 103
-
----
-
-Cellular Expert Express User Guide 7.3
-Receiver height above the receiver reference height selected in the workspace settings.
-Time percentage
-How radio signal levels fluctuate over time due to changes in atmospheric conditions, tropospheric
-refraction, and diffraction. This effect is represented as a statistical factor in the model, which allows
-predictions for different time percentages. Should not exceed outside the range from 1% to 50%.
-Receiver height
-Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main
-
-![Image p104](../../assets/images/ce-express/user-guide-v73/p104-img1.png)
-receiver height value defined in the prediction model is used.
-3.1.9.4 ITU-R P525 Model
-[Line of Sight](#kw:running-a-profile:ce-express-profile) model is typically used for [mmWave](#kw:56-step-8-losonly-prediction-for-mmwave:ce-express-tr-models) band frequencies within the 6 GHz – 100 GHz frequency
-range and provides results only for line-of-sight areas.
-3.1.9.4.1 ITU-R P525 Model settings
-Confidential ©Cellular Expert, 2026 Page | 104
-
----
-
-Cellular Expert Express User Guide 7.3
-Configuration name
-Name of the prediction configuration name.
-Radius
-Maximum prediction radius in kilometers to calculate path loss.
-Receiver height
-Receiver height above the receiver reference height selected in the workspace settings.
-Effective earth radius
-Earth radius in kilometers, used for the calculations.
-Offset coefficient
-Represents the offset in decibels added to the path loss grid. The default value is 37 dB.
-Distance coefficient
-Defines the slope based on the distance between the cell and the receiver location, with a default value of
-
-![Image p105](../../assets/images/ce-express/user-guide-v73/p105-img1.png)
-20.
-Frequency coefficient
-Indicates the slope determined by the frequency value, with a default value of 20.
+| Parameter | Description |
+|---|---|
+| Configuration name | Name of the prediction configuration name. |
+| Radius | Maximum prediction radius in kilometers to calculate path loss. |
+| Receiver height | Receiver height above the receiver reference height selected in the workspace settings. |
+| Effective earth radius | Earth radius in kilometers, used for the calculations. |
+| Offset coefficient | Represents the offset in decibels added to the path loss grid. The default value is 37 dB. |
+| Distance coefficient | Defines the slope based on the distance between the cell and the receiver location, with a default value of 20. |
+| Frequency coefficient | Indicates the slope determined by the frequency value, with a default value of 20. |
 Confidential ©Cellular Expert, 2026 Page | 105
 
 ---
@@ -2400,14 +2174,12 @@ Confidential ©Cellular Expert, 2026 Page | 106
 
 Cellular Expert Express User Guide 7.3
 3.1.9.5.1 UniMacro Model settings
-Configuration name
-Name of the prediction configuration name.
-Radius
-Maximum prediction radius in kilometers to calculate path loss.
-Receiver height
-Receiver height above the receiver reference height selected in the workspace settings.
-Effective earth radius
-Earth radius in kilometers, used for the calculations.
+| Parameter | Description |
+|---|---|
+| Configuration name | Name of the prediction configuration name. |
+| Radius | Maximum prediction radius in kilometers to calculate path loss. |
+| Receiver height | Receiver height above the receiver reference height selected in the workspace settings. |
+| Effective earth radius | Earth radius in kilometers, used for the calculations. |
 Confidential ©Cellular Expert, 2026 Page | 107
 
 ![Image p107](../../assets/images/ce-express/user-guide-v73/p107-img1.png)
@@ -2415,25 +2187,15 @@ Confidential ©Cellular Expert, 2026 Page | 107
 ---
 
 Cellular Expert Express User Guide 7.3
-Offset coefficient
-Represents the offset in decibels added to the path loss grid. The default value is 37 dB.
-Distance coefficient near
-Defines the slope based on the distance between the cell and the receiver location, with a default value of
-20.
-Distance coefficient far
-Represents the slope based on breakpoint distance between the cell and the receiver location. The default
-value is 30.
-Frequency coefficient
-Indicates the slope determined by the frequency value, with a default value of 20.
-A0
-Constant offset in dB this value simply added to loss grid. Adjusting this value, you can minimize mean
-error. It regulates the absolute level of the loss curve. Default value 36.
-A1
-Distance influence coefficient. Physically it represents loss dependant on distance such as atmospheric
-(dust, hydrometeors, etc...) losses. It regulates slope of the curve. Default value 32.
-A2
-Transmitter height influence coefficient. It is related to errors in DTM, real Earth curvature, etc. It regulates
-loss curve vertical position like the A0, but with respect to antenna height. Default value -12.
+| Parameter | Description |
+|---|---|
+| Offset coefficient | Represents the offset in decibels added to the path loss grid. The default value is 37 dB. |
+| Distance coefficient near | Defines the slope based on the distance between the cell and the receiver location, with a default value of 20. |
+| Distance coefficient far | Represents the slope based on breakpoint distance between the cell and the receiver location. The default value is 30. |
+| Frequency coefficient | Indicates the slope determined by the frequency value, with a default value of 20. |
+| A0 | Constant offset in dB this value simply added to loss grid. Adjusting this value, you can minimize mean error. It regulates the absolute level of the loss curve. Default value 36. |
+| A1 | Distance influence coefficient. Physically it represents loss dependant on distance such as atmospheric (dust, hydrometeors, etc...) losses. It regulates slope of the curve. Default value 32. |
+| A2 | Transmitter height influence coefficient. It is related to errors in DTM, real Earth curvature, etc. It regulates loss curve vertical position like the A0, but with respect to antenna height. Default value -12. |
 A3
 Okumura-Hata type of multiplying factor for log(h )log(d). Default value 0.1.
 M
@@ -2484,16 +2246,13 @@ scaling frequency
 coefficient exponent
 coefficient
 1 1 17 0.25 1 0
-Open / Terrain
-27 0.5 0 0.82 0.65 0
-Grassland
-27 0.5 0 0.82 0.65 0
-Sparse forest
-27 0.5 0 0.89 0.65 0
-Medium dense forest
-15 0.5 0 0.95 0.65 0
-Very dense forest
-27 0.5 0 0.89 0.65 0
+| Parameter | Description |
+|---|---|
+| Open / Terrain | 27 0.5 0 0.82 0.65 0 |
+| Grassland | 27 0.5 0 0.82 0.65 0 |
+| Sparse forest | 27 0.5 0 0.89 0.65 0 |
+| Medium dense forest | 15 0.5 0 0.95 0.65 0 |
+| Very dense forest | 27 0.5 0 0.89 0.65 0 |
 Low density urban (Low
 buildings)
 27 0.5 0 0.89 0.65 0
@@ -2520,30 +2279,20 @@ Confidential ©Cellular Expert, 2026 Page | 110
 
 Cellular Expert Express User Guide 7.3
 15 0.6 0 0.89 0.65 0
-Building blocks
-27 0.5 0 0.89 0.65 0
-Transportation
-27 0.5 0 0.89 0.65 0
-Agriculture
-27 0.5 0 0.89 0.65 0
-Plantation
-27 0.5 0 0.89 0.65 0
-Parks
-27 0.6 0 0.89 0.65 0
-Airport
-27 0.5 0 0.89 0.65 0
-Sea
-27 0.5 0 0.89 0.65 0
-Inland water
-1 1 5 0.25 1 0
-Concrete building
-1 1 2 0.25 1 0
-Glass building
-1 0.6 2 0.25 1 0
-Wood building
-1 1 8.5 0.25 1 0
-Low loss building
-1 1 17 0.25 1 0
+| Parameter | Description |
+|---|---|
+| Building blocks | 27 0.5 0 0.89 0.65 0 |
+| Transportation | 27 0.5 0 0.89 0.65 0 |
+| Agriculture | 27 0.5 0 0.89 0.65 0 |
+| Plantation | 27 0.5 0 0.89 0.65 0 |
+| Parks | 27 0.6 0 0.89 0.65 0 |
+| Airport | 27 0.5 0 0.89 0.65 0 |
+| Sea | 27 0.5 0 0.89 0.65 0 |
+| Inland water | 1 1 5 0.25 1 0 |
+| Concrete building | 1 1 2 0.25 1 0 |
+| Glass building | 1 0.6 2 0.25 1 0 |
+| Wood building | 1 1 8.5 0.25 1 0 |
+| Low loss building | 1 1 17 0.25 1 0 |
 High loss building
 3.1.9.6 ITU-R P368 Model
 ITU-R P.368 is ground-wave propagation of radio signals model. It is specifically designed to estimate the
@@ -2595,72 +2344,34 @@ meter (S/m). Higher conductivity indicates that a surface can easily allow curre
 reflection and absorption of radio waves.
 According to ITU-R P.368, surface conductivity is a critical factor in determining the reflective properties of
 surfaces, such as dry versus wet soil, or metallic versus dielectric surfaces.
-Receiver height
-Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main
-receiver height value defined in the prediction model is used.
-Clutter Classes default values
-Surface refractivity Relative permittivity Surface conductivity
-1 1 17
-Open / Terrain
-27 0.5 0
-Grassland
-27 0.5 0
-Sparse forest
-27 0.5 0
-Medium dense forest
-15 0.5 0
-Very dense forest
-27 0.5 0
+| Parameter | Description |
+|---|---|
+| Receiver height | Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used. |
+| Clutter Classes default values | Surface refractivity Relative permittivit y Surface conductivity 1 1 17 |
+| Open / Terrain | 27 0.5 0 |
+| Grassland | 27 0.5 0 |
+| Sparse forest | 27 0.5 0 |
+| Medium dense forest | 15 0.5 0 |
+| Very dense forest | 27 0.5 0 |
 Low density urban (Low
 buildings)
 27 0.5 0
 Low density urban (High
-buildings)
-15 0.6 0
-Medium density urban (Low
-buildings)
-15 0.6 0
-Medium density urban (High
-buildings)
-10 0.7 0
-High density urban (Low
-buildings)
-Confidential ©Cellular Expert, 2026 Page | 113
-
----
-
-Cellular Expert Express User Guide 7.3
-10 0.7 0
-High density urban (High
-buildings)
-10 0.7 0
-High density urban (Very high
-buildings)
-15 0.6 0
-Building blocks
-27 0.5 0
-Transportation
-27 0.5 0
-Agriculture
-27 0.5 0
-Plantation
-27 0.5 0
-Parks
-27 0.6 0
-Airport
-27 0.5 0
-Sea
-27 0.5 0
-Inland water
-1 1 5
-Concrete building
-1 1 2
-Glass building
-1 0.6 2
-Wood building
-1 1 8.5
-Low loss building
-1 1 17
+| Parameter | Description |
+|---|---|
+| buildings) | 15 0.6 0 |
+| Building blocks | 27 0.5 0 |
+| Transportation | 27 0.5 0 |
+| Agriculture | 27 0.5 0 |
+| Plantation | 27 0.5 0 |
+| Parks | 27 0.6 0 |
+| Airport | 27 0.5 0 |
+| Sea | 27 0.5 0 |
+| Inland water | 1 1 5 |
+| Concrete building | 1 1 2 |
+| Glass building | 1 0.6 2 |
+| Wood building | 1 1 8.5 |
+| Low loss building | 1 1 17 |
 High loss building
 3.1.9.7 ISO9613 Model
 ISO 9613 is an international standard used for predicting outdoor sound propagation, including the
@@ -2714,16 +2425,13 @@ Confidential ©Cellular Expert, 2026 Page | 115
 ---
 
 Cellular Expert Express User Guide 7.3
-Configuration name
-Name of the prediction configuration name.
-Radius
-Maximum prediction radius in kilometers to calculate path loss.
-Receiver height
-Receiver height above the receiver reference height selected in the workspace settings.
-Effective earth radius
-Earth radius in kilometers, used for the calculations.
-Distance coefficient
-Defines the slope based on the distance between the cell and the receiver location, with a default value of
+| Parameter | Description |
+|---|---|
+| Configuration name | Name of the prediction configuration name. |
+| Radius | Maximum prediction radius in kilometers to calculate path loss. |
+| Receiver height | Receiver height above the receiver reference height selected in the workspace settings. |
+| Effective earth radius | Earth radius in kilometers, used for the calculations. |
+| Distance coefficient | Defines the slope based on the distance between the cell and the receiver location, with a default value of 20. |
 20.
 Meteorological conditions
 It is a factor, in decibels, which depends on local meteorological statistics for wind speed and direction, and
@@ -2758,23 +2466,15 @@ Confidential ©Cellular Expert, 2026 Page | 117
 ---
 
 Cellular Expert Express User Guide 7.3
-Configuration name
-Name of the prediction configuration name.
-Radius
-Maximum prediction radius in kilometers to calculate path loss.
-Receiver height
-Receiver height above the receiver reference height selected in the workspace settings.
-Effective earth radius
-Earth radius in kilometers, used for the calculations.
-Offset coefficient
-Represents the offset in decibels added to the path loss grid. The default value is 37 dB.
-Distance coefficient
-Defines the slope based on the distance between the cell and the receiver location, with a default value of
-
-![Image p118](../../assets/images/ce-express/user-guide-v73/p118-img1.png)
-20.
-Distance coefficient obstructed
-Represents the slope based on the obstructed distance between the cell and the receiver location. The
+| Parameter | Description |
+|---|---|
+| Configuration name | Name of the prediction configuration name. |
+| Radius | Maximum prediction radius in kilometers to calculate path loss. |
+| Receiver height | Receiver height above the receiver reference height selected in the workspace settings. |
+| Effective earth radius | Earth radius in kilometers, used for the calculations. |
+| Offset coefficient | Represents the offset in decibels added to the path loss grid. The default value is 37 dB. |
+| Distance coefficient | Defines the slope based on the distance between the cell and the receiver location, with a default value of 20. |
+| Distance coefficient obstructed | Represents the slope based on the obstructed distance between the cell and the receiver location. The default value is 20. |
 default value is 20.
 Confidential ©Cellular Expert, 2026 Page | 118
 
@@ -2806,53 +2506,35 @@ Note: penetration losses stack when multiple obstacles are crossed.
 Clutter Classes default values
 Penetration Penetration receiver Penetration receiver
 receiver loss loss scaling loss frequency
-offset coefficient exponent coefficient
-17 0.25 1
-Open / Terrain
-0 0.82 0.65
-Grassland
-0 0.82 0.65
-Sparse forest
-0 0.89 0.65
-Medium dense forest
-0 0.95 0.65
-Very dense forest
-0 0.89 0.65
-Low density urban (Low buildings)
-0 0.89 0.65
-Low density urban (High buildings)
-0 0.89 0.65
+| Parameter | Description |
+|---|---|
+| offset coefficient exponent coefficient | 17 0.25 1 |
+| Open / Terrain | 0 0.82 0.65 |
+| Grassland | 0 0.82 0.65 |
+| Sparse forest | 0 0.89 0.65 |
+| Medium dense forest | 0 0.95 0.65 |
+| Very dense forest | 0 0.89 0.65 |
+| Low density urban (Low buildings) | 0 0.89 0.65 |
+| Low density urban (High buildings) | 0 0.89 0.65 |
 Medium density urban (Low
-buildings)
-0 0.89 0.65
-Medium density urban (High
-buildings)
-0 0.89 0.65
-High density urban (Low buildings)
-0 0.89 0.65
-High density urban (High buildings)
-0 0.89 0.65
+| Parameter | Description |
+|---|---|
+| buildings) | 0 0.89 0.65 |
+| High density urban (Low buildings) | 0 0.89 0.65 |
+| High density urban (High buildings) | 0 0.89 0.65 |
 High density urban (Very high
-buildings)
-0 0.89 0.65
-Building blocks
-0 0.89 0.65
-Transportation
-0 0.89 0.65
-Agriculture
-0 0.89 0.65
-Plantation
-0 0.89 0.65
-Parks
-0 0.89 0.65
-Airport
-0 0.89 0.65
-Sea
-0 0.89 0.65
-Inland water
-5 0.25 1
-Concrete building
-2 0.25 1
+| Parameter | Description |
+|---|---|
+| buildings) | 0 0.89 0.65 |
+| Building blocks | 0 0.89 0.65 |
+| Transportation | 0 0.89 0.65 |
+| Agriculture | 0 0.89 0.65 |
+| Plantation | 0 0.89 0.65 |
+| Parks | 0 0.89 0.65 |
+| Airport | 0 0.89 0.65 |
+| Sea | 0 0.89 0.65 |
+| Inland water | 5 0.25 1 |
+| Concrete building | 2 0.25 1 |
 Glass building
 Confidential ©Cellular Expert, 2026 Page | 120
 
@@ -2860,15 +2542,11 @@ Confidential ©Cellular Expert, 2026 Page | 120
 
 Cellular Expert Express User Guide 7.3
 2 0.25 1
-Wood building
-
-## 8.5 0.25 1
-
-Low loss building
-17 0.25 1
-High loss building
-3.1.10 Settings
-Click this button to open Settings tool.
+| Parameter | Description |
+|---|---|
+| Wood building | 8.5 0.25 1 |
+| Low loss building | 17 0.25 1 |
+| High loss building | 3.1.10 Settings Click this button to open Settings tool. |
 Confidential ©Cellular Expert, 2026 Page | 121
 
 ![Image p121](../../assets/images/ce-express/user-guide-v73/p121-img1.png)
@@ -2884,16 +2562,12 @@ Confidential ©Cellular Expert, 2026 Page | 122
 
 Cellular Expert Express User Guide 7.3
 Application
-Active module
-The currently active CE Express module. Switches the toolset to the required module. Module list consists
-of currently licensed CE Express modules.
-Keep prediction results open between sessions
-When enabled - opening a workspace loads open prediction result layers from the last session.
-Load geodata when opening workspace
-If a geodata set is applied to the workspace, the geodata rasters will be loaded under the geodata section
-of the layer list, and can be used to visualize the geodata that is used for calculations.
-Show only feature layers related to active module
-When enabled – hides features types not related to active module in tools like layer list, features, networks,
+| Parameter | Description |
+|---|---|
+| Active module | The currently active CE Express module. Switches the toolset to the required module. Module list consists of currently licensed CE Express modules. |
+| Keep prediction results open between sessions | When enabled - opening a workspace loads open prediction result layers from the last session. |
+| Load geodata when opening workspace | If a geodata set is applied to the workspace, the geodata rasters will be loaded under the geodata section of the layer list, and can be used to visualize the geodata that is used for calculations. |
+| Show only feature layers related to active module | When enabled – hides features types not related to active module in tools like layer list, features, networks, etc. |
 
 ![Image p123](../../assets/images/ce-express/user-guide-v73/p123-img1.png)
 
@@ -2909,15 +2583,11 @@ Confidential ©Cellular Expert, 2026 Page | 123
 ---
 
 Cellular Expert Express User Guide 7.3
-Toolbar location
-Change the location of the tools:
-- Split
-- Left
-- Right
-Show seconds on prediction history log timestamps
-May be enabled or disabled.
-Show workspace preview thumbnails
-May be enabled or disabled.
+| Parameter | Description |
+|---|---|
+| Toolbar location | Change the location of the tools: Split • • Left • Right |
+| Show seconds on prediction history log timestamps | May be enabled or disabled. |
+| Show workspace preview thumbnails | May be enabled or disabled. |
 Show mini calculation task window for newly created tasks
 When enabled, a small calculation window appears upon creating a calculation task. The window shows
 the calculation log while the task is executing, then switches to showing the result list once the task is
@@ -3002,16 +2672,11 @@ Confidential ©Cellular Expert, 2026 Page | 127
 ---
 
 Cellular Expert Express User Guide 7.3
-Segment 1 → 2
-Angles between line segments.
-3.1.12.2 Area
-Calculates the surface area and perimeter of the area.
-Area
-Total enclosed surface.
-Perimeter
-Total boundary length.
-3.1.12.3 Offset
-Helps find the shortest distance from a line to a point on the map.
+| Parameter | Description |
+|---|---|
+| Segment 1 → 2 | Angles between line segments. 3.1.12.2 Area Calculates the surface area and perimeter of the area. |
+| Area | Total enclosed surface. |
+| Perimeter | Total boundary length. 3.1.12.3 Offset Helps find the shortest distance from a line to a point on the map. |
 Confidential ©Cellular Expert, 2026 Page | 128
 
 ![Image p128](../../assets/images/ce-express/user-guide-v73/p128-img1.png)
@@ -3066,12 +2731,11 @@ a population point layer, then it’s the percentage of population.
 - Population – population covered by each color band, when polygon population field is set.
 - Point count - only appears on statistics based on a population point layer. Displays the number of
 weighted points covered by each color band.
-Ascending order
-Sort in descending/ascending order.
-Show as table
-View the results in tabular view.
-Row count
-Defines the maximum number of rows displayed.
+| Parameter | Description |
+|---|---|
+| Ascending order | Sort in descending/ascending order. |
+| Show as table | View the results in tabular view. |
+| Row count | Defines the maximum number of rows displayed. |
 Confidential ©Cellular Expert, 2026 Page | 132
 
 ![Image p132](../../assets/images/ce-express/user-guide-v73/p132-img1.png)
@@ -3101,12 +2765,11 @@ Confidential ©Cellular Expert, 2026 Page | 133
 ---
 
 Cellular Expert Express User Guide 7.3
-Polygon layer
-Workspace ‘extra layer’ (polygon feature layer) that is used to divide statistics item into areas by polygon.
-Name Field
-Defines the names of territories that will be displayed in the results.
-Population field (optional)
-If selected, adds a population calculation to statistics item.
+| Parameter | Description |
+|---|---|
+| Polygon layer | Workspace ‘extra layer’ (polygon feature layer) that is used to divide statistics item into areas by polygon. |
+| Name Field | Defines the names of territories that will be displayed in the results. |
+| Population field (optional) | If selected, adds a population calculation to statistics item. |
 Point layer (optional)
 Workspace ‘extra layer’ (point feature layer). If selected, the statistics will be calculated not by total polygon
 
@@ -3143,18 +2806,14 @@ Confidential ©Cellular Expert, 2026 Page | 135
 ---
 
 Cellular Expert Express User Guide 7.3
-Download map as image
-If this is enabled, an additional image file of the map will be downloaded upon report generation.
-Preliminary report
-Whether to add “Preliminary report” notice at the front page of the report.
-Table styling (disable for printing)
-Enable / disable colors applied to table.
-Filename
-Report file name.
-Title
-Title for the front page of the report.
-Report info
-Contact data of the report generating person / organization. Displayed in the final report.
+| Parameter | Description |
+|---|---|
+| Download map as image | If this is enabled, an additional image file of the map will be downloaded upon report generation. |
+| Preliminary report | Whether to add “Preliminary report” notice at the front page of the report. |
+| Table styling (disable for printing) | Enable / disable colors applied to table. |
+| Filename | Report file name. |
+| Title | Title for the front page of the report. |
+| Report info | Contact data of the report generating person / organization. Displayed in the final report. |
 Confidential ©Cellular Expert, 2026 Page | 136
 
 ![Image p136](../../assets/images/ce-express/user-guide-v73/p136-img1.png)
@@ -3260,15 +2919,12 @@ Confidential ©Cellular Expert, 2026 Page | 142
 ---
 
 Cellular Expert Express User Guide 7.3
-Lock transmitter location
-Toggling the switch will enable the Locked Transmitter location, which will modify only the receiver’s
-positioning when drawing the profile on the map.
-Prediction model
-Prediction model list.
-Transmitter template
-The template that is used for transmitter’s default values.
-Receiver template
-The template that is used for receiver’s default values.
+| Parameter | Description |
+|---|---|
+| Lock transmitter location | Toggling the switch will enable the Locked Transmitter location, which will modify only the receiver’s positioning when drawing the profile on the map. |
+| Prediction model | Prediction model list. |
+| Transmitter template | The template that is used for transmitter’s default values. |
+| Receiver template | The template that is used for receiver’s default values. |
 Transmitter
 Snapped feature
 A feature from which the profile will be drawn. The parameters of the feature will be taken into calculation
@@ -3280,37 +2936,22 @@ Confidential ©Cellular Expert, 2026 Page | 143
 ---
 
 Cellular Expert Express User Guide 7.3
-X
-X coordinate of the transmitter.
-Y
-Y coordinate of the transmitter.
-Height
-Height above the ground in meters.
-Azimuth towards receiver
-Enabled by default. When enabled, the transmitter’s azimuth automatically set towards the receiver.
-Disabling this option allows the user to enter a static azimuth value for the transmitter.
-Downtilt towards receiver
-Enabled by default. When enabled, the transmitter’s tilt is automatically set towards the receiver. Disabling
-this option allows the user to enter a static tilt value for the transmitter.
-El. Downtilt
-Electrical downtilt value for the transmitter, in degrees.
-Antenna
-Antenna that will be used in the prediction calculations.
-Frequency
-The frequency value in MHz.
-Bandwidth
-Value in MHz. Required for 4G and 5G technologies. For other technologies define the value as 0.015.
-Power
-Transmitter power in dBm. If calculate EIRP is set to false in the workspace settings, the power value is
-assumed to be EIRP.
-Misc. loss
-Miscellaneous loss value in dB.
-TX MIMO
-Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
-RX MIMO
-Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
-Subcarrier spacing
-Value in kHz. Required for 4G and 5G technologies. For other technologies define value 15.
+| Parameter | Description |
+|---|---|
+| X | X coordinate of the transmitter. |
+| Y | Y coordinate of the transmitter. |
+| Height | Height above the ground in meters. |
+| Azimuth towards receiver | Enabled by default. When enabled, the transmitter’s azimuth automatically set towards the receiver. Disabling this option allows the user to enter a static azimuth value for the transmitter. |
+| Downtilt towards receiver | Enabled by default. When enabled, the transmitter’s tilt is automatically set towards the receiver. Disabling this option allows the user to enter a static tilt value for the transmitter. |
+| El. Downtilt | Electrical downtilt value for the transmitter, in degrees. |
+| Antenna | Antenna that will be used in the prediction calculations. |
+| Frequency | The frequency value in MHz. |
+| Bandwidth | Value in MHz. Required for 4G and 5G technologies. For other technologies define the value as 0.015. |
+| Power | Transmitter power in dBm. If calculate EIRP is set to false in the workspace settings, the power value is assumed to be EIRP. |
+| Misc. loss | Miscellaneous loss value in dB. |
+| TX MIMO | Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64. |
+| RX MIMO | Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64. |
+| Subcarrier spacing | Value in kHz. Required for 4G and 5G technologies. For other technologies define value 15. |
 Confidential ©Cellular Expert, 2026 Page | 144
 
 ---
@@ -3442,32 +3083,21 @@ Confidential ©Cellular Expert, 2026 Page | 151
 
 Cellular Expert Express User Guide 7.3
 Cell
-Snapped feature (optional)
-A cell from which the calculation will be done.
-X
-X coordinate of the Cell.
-Y
-Y coordinate of the Cell.
-Height
-Cell height above the ground in meters.
-Azimuth
-Cell direction from the North in degrees.
-Downtilt
-Cells vertical angle offset.
-El. Downtilt
-Electrical downtilt value for the cell, in degrees.
-Antenna
-Antenna that will be used in the prediction calculations.
-Frequency
-Frequency value in MHz.
-Bandwidth
-Value in MHz. Required for 4G and 5G technologies. For other technologies define the value as 0.015.
-Power
-Power value in dBm.
-Misc. loss
-Miscellaneous loss value in dB.
-TX mimo
-Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
+| Parameter | Description |
+|---|---|
+| Snapped feature (optional) | A cell from which the calculation will be done. |
+| X | X coordinate of the Cell. |
+| Y | Y coordinate of the Cell. |
+| Height | Cell height above the ground in meters. |
+| Azimuth | Cell direction from the North in degrees. |
+| Downtilt | Cells vertical angle offset. |
+| El. Downtilt | Electrical downtilt value for the cell, in degrees. |
+| Antenna | Antenna that will be used in the prediction calculations. |
+| Frequency | Frequency value in MHz. |
+| Bandwidth | Value in MHz. Required for 4G and 5G technologies. For other technologies define the value as 0.015. |
+| Power | Power value in dBm. |
+| Misc. loss | Miscellaneous loss value in dB. |
+| TX mimo | Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64. |
 Subcarrier spacing
 Value in kHz. Required for 4G and 5G technologies. For other technologies define value 15.
 Click on the map to start the calculation. The results will be loaded automatically in the Map view and will
@@ -3552,15 +3182,12 @@ Confidential ©Cellular Expert, 2026 Page | 156
 Cellular Expert Express User Guide 7.3
 The neighboring channel’s signal interference if the first and the second strongest signals differ by less than
 or equal to 10 dBm.
-Calculate uplink
-An option to calculate the Uplink signal strength.
-RX EIRP, dBm
-The power that the receiving antenna can capture from the transmitted signal in dBm.
-Calculate technology totals
-Calculates the overall field strength and the aggregate downlink throughput for several frequency bands in
-the same technology.
-Calculate neighbours
-An option to calculate neighbours for each cell in the technology section
+| Parameter | Description |
+|---|---|
+| Calculate uplink | An option to calculate the Uplink signal strength. |
+| RX EIRP, dBm | The power that the receiving antenna can capture from the transmitted signal in dBm. |
+| Calculate technology totals | Calculates the overall field strength and the aggregate downlink throughput for several frequency bands in the same technology. |
+| Calculate neighbours | An option to calculate neighbours for each cell in the technology section |
 Minimum FS
 Field strength threshold in dBm above which the area is considered as “covered” by the cell. The same
 threshold is used for calculating whether a cell’s potential neighboring cell has overlapping areas, I.e. cells
@@ -3592,15 +3219,12 @@ Confidential ©Cellular Expert, 2026 Page | 157
 
 Cellular Expert Express User Guide 7.3
 3.1.18.2 3G technology (UMTS/CDMA)
-Resolution
-Prediction raster cell size in meters.
-Best server count
-There is the possibility to calculate up to 5 best servers. The prediction rasters show the 1st, 2nd, 3rd, and so
-on strongest signal sources.
-Cell template
-If the cell is missing the required parameters, the parameters from the template will be used.
-Repeater template
-If the repeater is missing the required parameters, the parameters from the template will be used.
+| Parameter | Description |
+|---|---|
+| Resolution | Prediction raster cell size in meters. |
+| Best server count | 1st, 2nd, 3rd, There is the possibility to calculate up to 5 best servers. The prediction rasters show the and so on strongest signal sources. |
+| Cell template | If the cell is missing the required parameters, the parameters from the template will be used. |
+| Repeater template | If the repeater is missing the required parameters, the parameters from the template will be used. |
 Calculate FS overlap
 Confidential ©Cellular Expert, 2026 Page | 158
 
@@ -3611,20 +3235,14 @@ This calculation in Cellular Expert calculates the geographical areas where two 
 signal strength. Specifically, it identifies regions where the absolute difference between the field strengths
 of Cell 1 and Cell 2 is less than a defined threshold (e.g., 10 dB). This analysis is useful for understanding
 coverage overlaps and potential handover zones between cells.
-FS overlap minimum FS
-Defines the lowest acceptable field strength for overlap consideration.
-FS overlap max field margin
-Threshold under which the cell field strength overlap values are presented in the results.
-Calculate uplink
-An option to calculate the Uplink signal strength.
-RX EIRP, dBm
-The power that the receiving antenna can capture from the transmitted signal in dBm.
-Calculate technology totals
-Calculate technology totals
-Calculates the overall field strength and the aggregate downlink throughput for several frequency bands in
-the same technology.
-Calculate neighbours
-An option to calculate neighbours for each cell in the technology section
+| Parameter | Description |
+|---|---|
+| FS overlap minimum FS | Defines the lowest acceptable field strength for overlap consideration. |
+| FS overlap max field margin | Threshold under which the cell field strength overlap values are presented in the results. |
+| Calculate uplink | An option to calculate the Uplink signal strength. |
+| RX EIRP, dBm | The power that the receiving antenna can capture from the transmitted signal in dBm. Calculate technology totals |
+| Calculate technology totals | Calculates the overall field strength and the aggregate downlink throughput for several frequency bands in the same technology. |
+| Calculate neighbours | An option to calculate neighbours for each cell in the technology section |
 Minimum FS
 Field strength threshold in dBm above which the area is considered as “covered” by the cell. The same
 threshold is used for calculating whether a cell’s potential neighboring cell has overlapping areas, I.e. cells
@@ -3672,29 +3290,17 @@ This calculation in Cellular Expert calculates the geographical areas where two 
 signal strength. Specifically, it identifies regions where the absolute difference between the field strengths
 of Cell 1 and Cell 2 is less than a defined threshold (e.g., 10 dB). This analysis is useful for understanding
 coverage overlaps and potential handover zones between cells.
-FS overlap minimum FS
-Defines the lowest acceptable field strength for overlap consideration.
-FS overlap max field margin
-Threshold under which the cell field strength overlap values are presented in the results.
-Calculate uplink
-An option to calculate the Uplink signal strength.
-Rx EIRP, dBm
-The EIRP value of the receiver in dBm.
-BS RX Noise Floor, dB
-Best Server receiver’s lowest noise level. No values below this level will be included in the calculation.
-UL interference ceiling, dB
-Uplink’s interference highest value. No values above this point will be included in the calculation.
-Calculate broadband coverage
-An option to calculate the Broadband coverage.
-- RSSI;
-- RSRQ;
-- RS-SINR;
-- DL Throughput.
-Calculate technology totals
-Calculates the overall field strength and the aggregate downlink throughput for several frequency bands in
-the same technology.
-Calculate neighbours
-An option to calculate neighbours for each cell in the technology section
+| Parameter | Description |
+|---|---|
+| FS overlap minimum FS | Defines the lowest acceptable field strength for overlap consideration. |
+| FS overlap max field margin | Threshold under which the cell field strength overlap values are presented in the results. |
+| Calculate uplink | An option to calculate the Uplink signal strength. |
+| Rx EIRP, dBm | The EIRP value of the receiver in dBm. |
+| BS RX Noise Floor, dB | Best Server receiver’s lowest noise level. No values below this level will be included in the calculation. |
+| UL interference ceiling, dB | Uplink’s interference highest value. No values above this point will be included in the calculation. |
+| Calculate broadband coverage | An option to calculate the Broadband coverage. • RSSI; • RSRQ; RS-SINR; • DL Throughput. • |
+| Calculate technology totals | Calculates the overall field strength and the aggregate downlink throughput for several frequency bands in the same technology. |
+| Calculate neighbours | An option to calculate neighbours for each cell in the technology section |
 Minimum FS
 Field strength threshold in dBm above which the area is considered as “covered” by the cell. The same
 threshold is used for calculating whether a cell’s potential neighboring cell has overlapping areas, I.e. cells
@@ -3754,29 +3360,17 @@ This calculation in Cellular Expert calculates the geographical areas where two 
 signal strength. Specifically, it identifies regions where the absolute difference between the field strengths
 of Cell 1 and Cell 2 is less than a defined threshold (e.g., 10 dB). This analysis is useful for understanding
 coverage overlaps and potential handover zones between cells.
-FS overlap minimum FS
-Defines the lowest acceptable field strength for overlap consideration.
-FS overlap max field margin
-Threshold under which the cell field strength overlap values are presented in the results.
-Calculate uplink
-An option to calculate the Uplink signal strength.
-Rx EIRP, dBm
-The EIRP value of the receiver in dBm.
-BS RX Noise Floor, dB
-Best Server receiver’s lowest noise level. No values below this level will be included in the calculation.
-UL interference ceiling, dB
-Uplink’s interference highest value. No values above this point will be included in the calculation.
-Calculate broadband coverage
-An option to calculate the Broadband coverage.
-- RSSI;
-- RSRQ;
-- RS-SINR;
-- DL Throughput.
-Calculate technology totals
-Calculates the overall field strength and the aggregate downlink throughput for several frequency bands in
-the same technology.
-Calculate neighbours
-An option to calculate neighbours for each cell in the technology section
+| Parameter | Description |
+|---|---|
+| FS overlap minimum FS | Defines the lowest acceptable field strength for overlap consideration. |
+| FS overlap max field margin | Threshold under which the cell field strength overlap values are presented in the results. |
+| Calculate uplink | An option to calculate the Uplink signal strength. |
+| Rx EIRP, dBm | The EIRP value of the receiver in dBm. |
+| BS RX Noise Floor, dB | Best Server receiver’s lowest noise level. No values below this level will be included in the calculation. |
+| UL interference ceiling, dB | Uplink’s interference highest value. No values above this point will be included in the calculation. |
+| Calculate broadband coverage | An option to calculate the Broadband coverage. RSSI; • RSRQ; • • RS-SINR; DL Throughput. • |
+| Calculate technology totals | Calculates the overall field strength and the aggregate downlink throughput for several frequency bands in the same technology. |
+| Calculate neighbours | An option to calculate neighbours for each cell in the technology section |
 Minimum FS
 Field strength threshold in dBm above which the area is considered as “covered” by the cell. The same
 threshold is used for calculating whether a cell’s potential neighboring cell has overlapping areas, I.e. cells
@@ -3837,29 +3431,17 @@ This calculation in Cellular Expert calculates the geographical areas where two 
 signal strength. Specifically, it identifies regions where the absolute difference between the field strengths
 of Cell 1 and Cell 2 is less than a defined threshold (e.g., 10 dB). This analysis is useful for understanding
 coverage overlaps and potential handover zones between cells.
-FS overlap minimum FS
-Defines the lowest acceptable field strength for overlap consideration.
-FS overlap max field margin
-Threshold under which the cell field strength overlap values are presented in the results.
-Calculate uplink
-An option to calculate the Uplink signal strength.
-Rx EIRP, dBm
-The EIRP value of the receiver in dBm.
-BS RX Noise Floor, dB
-Best Server receiver’s lowest noise level. No values below this level will be included in the calculation.
-UL interference ceiling, dB
-Uplink’s interference highest value. No values above this point will be included in the calculation.
-Calculate broadband coverage
-An option to calculate the Broadband coverage.
-- RSSI
-- RSRQ
-- RS-SINR
-- DL Throughput
-Calculate technology totals
-Calculates the overall field strength and the aggregate downlink throughput for several frequency bands in
-the same technology.
-Calculate neighbours
-An option to calculate neighbours for each cell in the technology section
+| Parameter | Description |
+|---|---|
+| FS overlap minimum FS | Defines the lowest acceptable field strength for overlap consideration. |
+| FS overlap max field margin | Threshold under which the cell field strength overlap values are presented in the results. |
+| Calculate uplink | An option to calculate the Uplink signal strength. |
+| Rx EIRP, dBm | The EIRP value of the receiver in dBm. |
+| BS RX Noise Floor, dB | Best Server receiver’s lowest noise level. No values below this level will be included in the calculation. |
+| UL interference ceiling, dB | Uplink’s interference highest value. No values above this point will be included in the calculation. |
+| Calculate broadband coverage | An option to calculate the Broadband coverage. • RSSI • RSRQ RS-SINR • DL Throughput • |
+| Calculate technology totals | Calculates the overall field strength and the aggregate downlink throughput for several frequency bands in the same technology. |
+| Calculate neighbours | An option to calculate neighbours for each cell in the technology section |
 Minimum FS
 Field strength threshold in dBm above which the area is considered as “covered” by the cell. The same
 threshold is used for calculating whether a cell’s potential neighboring cell has overlapping areas, I.e. cells
@@ -3947,14 +3529,12 @@ Confidential ©Cellular Expert, 2026 Page | 170
 ---
 
 Cellular Expert Express User Guide 7.3
-Max radius
-Maximum calculation radius in kilometers.
-Receiver height
-Receiver height above the receiver reference height selected in the workspace settings.
-Effective earth radius
-Earth radius was used for the calculations.
-Layer to calculate
-All selected layers on which predictions can be performed.
+| Parameter | Description |
+|---|---|
+| Max radius | Maximum calculation radius in kilometers. |
+| Receiver height | Receiver height above the receiver reference height selected in the workspace settings. |
+| Effective earth radius | Earth radius was used for the calculations. |
+| Layer to calculate | All selected layers on which predictions can be performed. |
 Template
 A template which corresponds to the selected layers. When the layer changes the templates change as
 well.
@@ -3976,14 +3556,12 @@ Confidential ©Cellular Expert, 2026 Page | 171
 ---
 
 Cellular Expert Express User Guide 7.3
-Calculation Name
-Name of the calculation that will be displayed in Prediction history.
-Resolution
-Prediction raster cell size in meters.
-Cell template
-If the cell is missing the required parameters, the parameters from the template will be used.
-Attenuation threshold, db
-Maximum allowable signal loss for determining effective signal visibility.
+| Parameter | Description |
+|---|---|
+| Calculation Name | Name of the calculation that will be displayed in Prediction history. |
+| Resolution | Prediction raster cell size in meters. |
+| Cell template | If the cell is missing the required parameters, the parameters from the template will be used. |
+| Attenuation threshold, db | Maximum allowable signal loss for determining effective signal visibility. |
 Results:
 - Line of Sight (LOS) clearance – height difference between the receiver point and feature’s straight
 line-of-sight based on tilt and azimuth.
@@ -4002,14 +3580,12 @@ Confidential ©Cellular Expert, 2026 Page | 172
 
 Cellular Expert Express User Guide 7.3
 Calculation settings
-Calculation name
-Name of the calculation that will be displayed in Prediction history.
-Resolution
-Prediction raster cell size in meters.
-Max radius
-Maximum calculation radius in kilometers.
-Effective earth radius
-Earth radius was used for the calculations.
+| Parameter | Description |
+|---|---|
+| Calculation name | Name of the calculation that will be displayed in Prediction history. |
+| Resolution | Prediction raster cell size in meters. |
+| Max radius | Maximum calculation radius in kilometers. |
+| Effective earth radius | Earth radius was used for the calculations. |
 Overlap priority
 Value priority in places where multiple feature calculations overlap
 - Lowest (Reach at least 1) – minimum value will be used
@@ -4041,12 +3617,11 @@ Confidential ©Cellular Expert, 2026 Page | 174
 
 Cellular Expert Express User Guide 7.3
 Calculation settings
-Resolution
-Prediction raster cell size in meters.
-Max radius
-Maximum calculation radius in kilometers.
-Effective earth radius
-Earth radius was used for the calculations.
+| Parameter | Description |
+|---|---|
+| Resolution | Prediction raster cell size in meters. |
+| Max radius | Maximum calculation radius in kilometers. |
+| Effective earth radius | Earth radius was used for the calculations. |
 Close previous results
 If this option is enabled, clicking elsewhere on the map or changing the calculation parameters will close
 the previous result raster and open the new one. If disabled, the old calculation raster stays displayed on
@@ -4054,12 +3629,11 @@ the previous result raster and open the new one. If disabled, the old calculatio
 ![Image p175](../../assets/images/ce-express/user-guide-v73/p175-img1.png)
 the map.
 Feature
-X
-X coordinate of the Feature.
-Y
-Y coordinate of the Feature.
-Height
-Feature height above the ground in meters.
+| Parameter | Description |
+|---|---|
+| X | X coordinate of the Feature. |
+| Y | Y coordinate of the Feature. |
+| Height | Feature height above the ground in meters. |
 Confidential ©Cellular Expert, 2026 Page | 175
 
 ---
@@ -4074,18 +3648,14 @@ Radar Prediction is a tool that lets you calculate predictions on radars. Depend
 ![Image p176](../../assets/images/ce-express/user-guide-v73/p176-img2.png)
 the size of the radar, Radar Predictions will show the reach of radar signals.
 Calculation settings
-Calculation name
-Name of the calculation that will be displayed in Prediction history.
-Resolution
-Prediction raster cell size in meters.
-Best server count
-Option to calculate up to 5 best servers.
-Radar template
-If the radar misses the required parameters, the parameters from the template will be used.
-Target cross-section, m^2
-This parameter describes the target size in square meters.
-Selected
-Current amount of selected radars.
+| Parameter | Description |
+|---|---|
+| Calculation name | Name of the calculation that will be displayed in Prediction history. |
+| Resolution | Prediction raster cell size in meters. |
+| Best server count | Option to calculate up to 5 best servers. |
+| Radar template | If the radar misses the required parameters, the parameters from the template will be used. |
+| Target cross-section, m^2 | This parameter describes the target size in square meters. |
+| Selected | Current amount of selected radars. |
 Results:
 - Field Strength raster in dBm
 Confidential ©Cellular Expert, 2026 Page | 176
@@ -4146,15 +3716,12 @@ Confidential ©Cellular Expert, 2026 Page | 179
 
 Cellular Expert Express User Guide 7.3
 must be bound to cells by their cell id.
-Calculation Name
-Name of the calculation that will be displayed in the Prediction history.
-Resolution
-Prediction raster cell size in meters.
-Prediction model
-Select which model will be tuned.
-Use the Features tool to select measurements.
-Selected
-The count of selected measurement points.
+| Parameter | Description |
+|---|---|
+| Calculation Name | Name of the calculation that will be displayed in the Prediction history. |
+| Resolution | Prediction raster cell size in meters. |
+| Prediction model | Select which model will be tuned. Use the Features tool to select measurements. |
+| Selected | The count of selected measurement points. |
 Cell to use
 Select the Cell with which you want to do the drive test. At the moment, measuring for a single cell is
 supported.
@@ -4232,22 +3799,16 @@ Confidential ©Cellular Expert, 2026 Page | 184
 ---
 
 Cellular Expert Express User Guide 7.3
-Calculation Name
-Name of the calculation that will be displayed in the Prediction history.
-Prediction Model
-The prediction model list.
-Resolution
-Prediction raster cell size in meters.
-CPE templates
-If the CPE is missing required parameters, the parameters from the template will be used.
-Tower height
-The height of the tower that hosts the site.
-Frequency
-The frequency value in MHz.
-TX power
-Transmitter power in dBm.
-TX antenna gain
-Transmitter gain in dBi.
+| Parameter | Description |
+|---|---|
+| Calculation Name | Name of the calculation that will be displayed in the Prediction history. |
+| Prediction Model | The prediction model list. |
+| Resolution | Prediction raster cell size in meters. |
+| CPE templates | If the CPE is missing required parameters, the parameters from the template will be used. |
+| Tower height | The height of the tower that hosts the site. |
+| Frequency | The frequency value in MHz. |
+| TX power | Transmitter power in dBm. |
+| TX antenna gain | Transmitter gain in dBi. |
 Confidential ©Cellular Expert, 2026 Page | 185
 
 ![Image p185](../../assets/images/ce-express/user-guide-v73/p185-img1.png)
@@ -4306,16 +3867,13 @@ Confidential ©Cellular Expert, 2026 Page | 187
 
 Cellular Expert Express User Guide 7.3
 DXF options
-Marker
-Type of marker to draw
-Marker radius
-Size of marker
-Label
-Draw number labels next to the points
-Label line
-Draw line from the labels to the points
-Label offset
-How far to place the labels from the points
+| Parameter | Description |
+|---|---|
+| Marker | Type of marker to draw |
+| Marker radius | Size of marker |
+| Label | Draw number labels next to the points |
+| Label line | Draw line from the labels to the points |
+| Label offset | How far to place the labels from the points |
 Point options
 Layer name
 Output points are placed into different layers. New points are placed into this layer upon map click. Point
@@ -4332,18 +3890,13 @@ Confidential ©Cellular Expert, 2026 Page | 188
 ---
 
 Cellular Expert Express User Guide 7.3
-Calculation name
-Name of the calculation that will be displayed in the Prediction history.
-Resolution
-Prediction raster cell size in meters.
-Cell template
-If the cell is missing the required parameters, the parameters from the template will be used.
-Reflection factor
-- No reflection – ground reflections aren’t considered
-- Realistic reflection – reflection coefficient of 2.56
-- Full reflection - reflection coefficient of 4
-Receiver height
-Receiver height above the receiver reference height selected in the workspace settings.
+| Parameter | Description |
+|---|---|
+| Calculation name | Name of the calculation that will be displayed in the Prediction history. |
+| Resolution | Prediction raster cell size in meters. |
+| Cell template | If the cell is missing the required parameters, the parameters from the template will be used. |
+| Reflection factor | No reflection – ground reflections aren’t considered • • Realistic reflection – reflection coefficient of 2.56 Full reflection - reflection coefficient of 4 • |
+| Receiver height | Receiver height above the receiver reference height selected in the workspace settings. |
 Results:
 - EMF Limit usage, % - weighted percentage of frequency band regulatory EMF limit.
 - EMF, W/m2 – EMF value in mW/m2
@@ -4359,12 +3912,11 @@ Confidential ©Cellular Expert, 2026 Page | 189
 ---
 
 Cellular Expert Express User Guide 7.3
-Calculation name
-Name of the calculation that will be displayed in Prediction history.
-Resolution
-Prediction raster cell size in meters.
-Siren Template
-Option to use the parameters from the template if the siren misses the required parameters.
+| Parameter | Description |
+|---|---|
+| Calculation name | Name of the calculation that will be displayed in Prediction history. |
+| Resolution | Prediction raster cell size in meters. |
+| Siren Template | Option to use the parameters from the template if the siren misses the required parameters. |
 Results:
 - Audibility, dB. The siren sound prediction tool calculates the sound pressure level (SPL) at various
 locations around a siren using ISO 9613-2 as the standard for sound propagation. The results are
@@ -4490,14 +4042,11 @@ An input field for the percentage of time when the refractivity gradient at low 
 specific threshold.
 - Co, dB / Lat, dB / Lon, dB - Fields to input correction values in decibels for specific geographic
 coordinates, possibly related to the orientation or position of the transmitter/receiver.
-Percentage of Time / Design
-A dropdown menus to choose the granularity of the time percentage for which the calculations are relevant,
-and the level of detail required for planning.
-Use Viggants-Barnett Method
-Enabled/Disabled Viggants-Barnett Method.
-Worst month conversion
-A section to select the ITU recommendation (either ITU-R P.530 or ITU-R P.841) for converting worst-
-month statistics to annual statistics.
+| Parameter | Description |
+|---|---|
+| Percentage of Time / Design | A dropdown menus to choose the granularity of the time percentage for which the calculations are relevant, and the level of detail required for planning. |
+| Use Viggants-Barnett Method | Enabled/Disabled Viggants-Barnett Method. |
+| Worst month conversion | A section to select the ITU recommendation (either ITU-R P.530 or ITU-R P.841) for converting worst- month statistics to annual statistics. |
 Interf. correction factor for multipath and focusing effects
 Input for the percentage of time to apply an interference correction factor to account for multipath and
 focusing effects.
@@ -4510,14 +4059,11 @@ Confidential ©Cellular Expert, 2026 Page | 195
 ---
 
 Cellular Expert Express User Guide 7.3
-Geoclimatic data - ESA rain rate data / ESA rain rate
-Options to select the dataset (such as "ESARAIN_V5") and the specific field within that dataset (like "MT")
-for rain rate data, used for calculating rain attenuation.
-Fading method - ITU method / ITU-R P.530 version
-A checkbox to select the ITU method for rain fading calculations and a dropdown to choose the version of
-the ITU-R P.530 recommendation being applied.
-Crane
-This is a model selection option related to the Crane model for calculating rain attenuation.
+| Parameter | Description |
+|---|---|
+| Geoclimatic data - ESA rain rate data / ESA rain rate | Options to select the dataset (such as "ESARAIN_V5") and the specific field within that dataset (like "MT") for rain rate data, used for calculating rain attenuation. |
+| Fading method - ITU method / ITU-R P.530 version | A checkbox to select the ITU method for rain fading calculations and a dropdown to choose the version of the ITU-R P.530 recommendation being applied. |
+| Crane | This is a model selection option related to the Crane model for calculating rain attenuation. |
 End-to-end reliability method - Multi-hop / Two-way
 Selection options for the method of calculating the reliability of a signal in a communication path that may
 
@@ -4755,29 +4301,19 @@ Confidential ©Cellular Expert, 2026 Page | 209
 ---
 
 Cellular Expert Express User Guide 7.3
-Low/high frequency
-Frequencies in MHz.
-Carrier spacing
-The frequency separation between adjacent carrier frequencies in a communication system, ensuring non-
-
-![Image p210](../../assets/images/ce-express/user-guide-v73/p210-img1.png)
-
-![Image p210](../../assets/images/ce-express/user-guide-v73/p210-img2.png)
-interference between carriers.
-Duplex spacing
-Frequency separation between the transmit and receive bands in a two-way communication system.
-Index of first channel
-The numbering start point for generated channels.
-Generate channels
-Creates a list of channels based on the inputs.
+| Parameter | Description |
+|---|---|
+| Low/high frequency | Frequencies in MHz. |
+| Carrier spacing | The frequency separation between adjacent carrier frequencies in a communication system, ensuring non- interference between carriers. |
+| Duplex spacing | Frequency separation between the transmit and receive bands in a two-way communication system. |
+| Index of first channel | The numbering start point for generated channels. |
+| Generate channels | Creates a list of channels based on the inputs. |
 Channels
-Add channel
-Allows manual addition of individual channels to the frequency plan.
-Channel
-Channel identifier.
-Frequency
-Channel’s frequency value in MHz.
-Add channel using Add channel below button
+| Parameter | Description |
+|---|---|
+| Add channel | Allows manual addition of individual channels to the frequency plan. |
+| Channel | Channel identifier. |
+| Frequency | Channel ’s frequency value in MHz. Add channel using Add channel below button |
 Confidential ©Cellular Expert, 2026 Page | 210
 
 ---
@@ -4810,13 +4346,11 @@ If enabled, also allows to specify a certain radius from either link endpoint. P
 ![Image p212](../../assets/images/ce-express/user-guide-v73/p212-img1.png)
 be included in the calculation, speeding up the calculation process. If disabled all links will be used in the
 calculations.
-Interference creation limit
-The power threshold below which no interference for links will be calculated.
-Interference analysis limit
-The power threshold below which no links with lesser interference will be included in the analysis.
-Tx/Rx filter discrimination
-The ability of filters in a duplex system to effectively separate and prevent interference between Tx and Rx
-frequencies. No dBm greater than this will be accounted for in the calculation.
+| Parameter | Description |
+|---|---|
+| Interference creation limit | The power threshold below which no interference for links will be calculated. |
+| Interference analysis limit | The power threshold below which no links with lesser interference will be included in the analysis. |
+| Tx/Rx filter discrimination | The ability of filters in a duplex system to effectively separate and prevent interference between Tx and Rx frequencies. No dBm greater than this will be accounted for in the calculation. |
 Confidential ©Cellular Expert, 2026 Page | 212
 
 ---
@@ -4856,13 +4390,11 @@ Confidential ©Cellular Expert, 2026 Page | 214
 ---
 
 Cellular Expert Express User Guide 7.3
-Carrier
-Select different carriers to view the results for each one of them.
-Diversity improvement
-To alleviate the effect of multipath fading, various propagation diversity techniques are employed.
-Protection improvement
-The protection improvement factor is a ratio between unprotected and protected unavailability.
-Profile - The Link Profile behaves in virtually the same way as a regular profile.
+| Parameter | Description |
+|---|---|
+| Carrier | Select different carriers to view the results for each one of them. |
+| Diversity improvement | To alleviate the effect of multipath fading, various propagation diversity techniques are employed. |
+| Protection improvement | The protection improvement factor is a ratio between unprotected and protected unavailability. Profile - The Link Profile behaves in virtually the same way as a regular profile. |
 Confidential ©Cellular Expert, 2026 Page | 215
 
 ![Image p215](../../assets/images/ce-express/user-guide-v73/p215-img1.png)
@@ -4992,15 +4524,12 @@ Trigger options are used to limit the size of calculation report. If all trigger
 
 ![Image p223](../../assets/images/ce-express/user-guide-v73/p223-img1.png)
 report may become very huge since all calculation cases will be logged into the report.
-Limit TD
-If enabled, calculation case is logged into the report only if threshold degradation is greater than defined.
-TD, dB >
-Value of threshold degradation used as a trigger for logging calculation case into the report.
-Limit Interference
-If enabled, calculation case is logged into the report only if interference level is greater than defined. Can
-be used along with TD limit.
-Interference level, dBW
-Value of interference level used as a trigger for logging calculation case into the report.
+| Parameter | Description |
+|---|---|
+| Limit TD | If enabled, calculation case is logged into the report only if threshold degradation is greater than defined. |
+| TD, dB > | Value of threshold degradation used as a trigger for logging calculation case into the report. |
+| Limit Interference | If enabled, calculation case is logged into the report only if interference level is greater than defined. Can be used along with TD limit. |
+| Interference level, dBW | Value of interference level used as a trigger for logging calculation case into the report. |
 Distance PTX to RX [km]
 Distance between passive transmitter and receiver. In the case of passive receiver, calculation will be
 performed only if distance between passive transmitter and receiver is less than defined. Decision
@@ -5278,16 +4807,13 @@ There is no substantial difference between test and reference file. Calculations
 same way but the calculation report always lists records of test file.
 When calculation report is opened it shows all the records from test file along with maximum value of
 threshold degradation.
-Type
-Type of station of the test record
-Name
-Name os station of the test record
-Frequency
-Combines frequency and frequency unit of the test record
-Reference
-Coordination reference of the test record
-Original status
-Status of coordination of the test record
+| Parameter | Description |
+|---|---|
+| Type | Type of station of the test record |
+| Name | Name os station of the test record |
+| Frequency | Combines frequency and frequency unit of the test record |
+| Reference | Coordination reference of the test record |
+| Original status | Status of coordination of the test record |
 Max TD
 Maximum threshold degradation. In case of test TX record, it shows maximum threshold degradation
 caused by the transmitter to a receiver of the reference file. In case of test RX record, it shows threshold
@@ -5357,20 +4883,15 @@ Confidential ©Cellular Expert, 2026 Page | 241
 ---
 
 Cellular Expert Express User Guide 7.3
-Country from
-Country of origin
-Country to
-Destination country
-Registration number
-Your assigned registration number used for your convenience (optional)
-Registration date
-Your date of registration of the coordination request, used for your convenience (optional)
-Responsible person
-Name of the responsible person (from HCM request file header)
-Phone
-Phone number from HCM request file header
-Telefax
-Telefax number from HCM request file header
+| Parameter | Description |
+|---|---|
+| Country from | Country of origin |
+| Country to | Destination country |
+| Registration number | Your assigned registration number used for your convenience (optional) |
+| Registration date | Your date of registration of the coordination request, used for your convenience (optional) |
+| Responsible person | Name of the responsible person (from HCM request file header) |
+| Phone | Phone number from HCM request file header |
+| Telefax | Telefax number from HCM request file header |
 Confidential ©Cellular Expert, 2026 Page | 242
 
 ![Image p242](../../assets/images/ce-express/user-guide-v73/p242-img1.png)
@@ -5378,12 +4899,11 @@ Confidential ©Cellular Expert, 2026 Page | 242
 ---
 
 Cellular Expert Express User Guide 7.3
-Email
-Email from HCM request file header
-Number of records
-Number of records from HCM request file header
-Writing date
-Writing date from HCM request file header
+| Parameter | Description |
+|---|---|
+| Email | Email from HCM request file header |
+| Number of records | Number of records from HCM request file header |
+| Writing date | Writing date from HCM request file header |
 Status
 Current status of the coordination request. Different statuses are available:
 - Processing.
@@ -5418,12 +4938,11 @@ Confidential ©Cellular Expert, 2026 Page | 243
 
 Cellular Expert Express User Guide 7.3
 Your data
-Calculation Name
-Name of the calculation that will be displayed in Prediction history.
-Registration Number
-You can assign registration number for the coordination request. Optional.
-Registration Date
-You can assign here registration date for the coordination request. Optional.
+| Parameter | Description |
+|---|---|
+| Calculation Name | Name of the calculation that will be displayed in Prediction history. |
+| Registration Number | You can assign registration number for the coordination request. Optional. |
+| Registration Date | You can assign here registration date for the coordination request. Optional. |
 Confidential ©Cellular Expert, 2026 Page | 244
 
 ![Image p244](../../assets/images/ce-express/user-guide-v73/p244-img1.png)
@@ -5436,21 +4955,13 @@ Cellular Expert Express User Guide 7.3
 File content section contains header information of the file as it is defined in Annex 2B of HCM-
 Agreement.
 Trigger options
-Limit TD
-If enabled, calculation case is logged into the report only if threshold degradation is greater than defined.
-
-![Image p245](../../assets/images/ce-express/user-guide-v73/p245-img1.png)
-
-![Image p245](../../assets/images/ce-express/user-guide-v73/p245-img2.png)
-TD, dB >
-Value of threshold degradation used as a trigger for logging calculation case into the report.
-Limit Interference
-If enabled, calculation case is logged into the report only if interference level is greater than defined. Can
-be used along with TD limit.
-Interference level, dBW
-Value of interference level used as a trigger for logging calculation case into the report.
-Distance PTX to RX [km]
-Distance between passive transmitter and receiver. In the case of passive receiver, calculation will be
+| Parameter | Description |
+|---|---|
+| Limit TD | If enabled, calculation case is logged into the report only if threshold degradation is greater than defined. |
+| TD, dB > | Value of threshold degradation used as a trigger for logging calculation case into the report. |
+| Limit Interference | If enabled, calculation case is logged into the report only if interference level is greater than defined. Can be used along with TD limit. |
+| Interference level, dBW | Value of interference level used as a trigger for logging calculation case into the report. |
+| Distance PTX to RX [km] | Distance between passive transmitter and receiver. In the case of passive receiver, calculation will be |
 Confidential ©Cellular Expert, 2026 Page | 245
 
 ---
@@ -5492,16 +5003,13 @@ Confidential ©Cellular Expert, 2026 Page | 246
 ---
 
 Cellular Expert Express User Guide 7.3
-Type
-Type of station of the test record
-Name
-Name of station of the test record
-Frequency
-Combines frequency and frequency unit of the test record
-Reference
-Coordination reference of the test record
-Original status
-Status of coordination of the test record
+| Parameter | Description |
+|---|---|
+| Type | Type of station of the test record |
+| Name | Name of station of the test record |
+| Frequency | Combines frequency and frequency unit of the test record |
+| Reference | Coordination reference of the test record |
+| Original status | Status of coordination of the test record |
 Max TD
 Maximum threshold degradation. In case of test TX record, it shows maximum threshold degradation
 cause by the transmitter to a receiver of the reference file. In case of test RX record, it shows threshold
@@ -5536,16 +5044,13 @@ Confidential ©Cellular Expert, 2026 Page | 248
 ---
 
 Cellular Expert Express User Guide 7.3
-Parameter name
-Name of the parameter defined in Annex 2B of HCM-Agreement.
-Database value
-Value of the record stored in the database.
-Received value
-Value of the record in the received request file.
-Error
-Contains error message if error occurs while processing the record.
-Download report as CSV file
-Downloads report containing all the records of this section
+| Parameter | Description |
+|---|---|
+| Parameter name | Name of the parameter defined in Annex 2B of HCM-Agreement. |
+| Database value | Value of the record stored in the database. |
+| Received value | Value of the record in the received request file. |
+| Error | Contains error message if error occurs while processing the record. |
+| Download report as CSV file | Downloads report containing all the records of this section |
 Confidential ©Cellular Expert, 2026 Page | 249
 
 ![Image p249](../../assets/images/ce-express/user-guide-v73/p249-img1.png)
@@ -5611,40 +5116,27 @@ Confidential ©Cellular Expert, 2026 Page | 252
 ---
 
 Cellular Expert Express User Guide 7.3
-Country from
-Country of origin. It is defined in the settings of the user.
-Country to
-Target country, to which coordination request is to be sent.
-Registration number
-Optional identification of the coordination request.
-Registration date
-Optional registration date of the request.
-Responsible person
-Name, as defined in Annex 2B of HCM-Agreement. This field is automatically filled with information from
-
-![Image p253](../../assets/images/ce-express/user-guide-v73/p253-img1.png)
-user settings.
-Phone
-Phone number, as defined in Annex 2B of HCM-Agreement. This field is automatically filled with
+| Parameter | Description |
+|---|---|
+| Country from | Country of origin. It is defined in the settings of the user. |
+| Country to | Target country, to which coordination request is to be sent. |
+| Registration number | Optional identification of the coordination request. |
+| Registration date | Optional registration date of the request. |
+| Responsible person | Name, as defined in Annex 2B of HCM-Agreement. This field is automatically filled with information from user settings. |
+| Phone | Phone number, as defined in Annex 2B of HCM-Agreement. This field is automatically filled with information from user settings. |
 information from user settings.
 Confidential ©Cellular Expert, 2026 Page | 253
 
 ---
 
 Cellular Expert Express User Guide 7.3
-Telefax
-Telefax number, as defined in Annex 2B of HCM-Agreement. There is no such parameter in the user
-settings therefore it is not filled in automatically.
-Email
-Email, as defined in Annex 2B of HCM-Agreement. This field is automatically filled with information from
-user settings.
-Number of records
-Defined in Annex 2B of HCM-Agreement. This field is automatically calculated.
-Writing date
-Writing date, as defined in Annex 2B of HCM-Agreement. Date of the creation of coordination request is
-automatically written to this field.
-Status
-Status of coordination request
+| Parameter | Description |
+|---|---|
+| Telefax | Telefax number, as defined in Annex 2B of HCM-Agreement. There is no such parameter in the user settings therefore it is not filled in automatically. |
+| Email | Email, as defined in Annex 2B of HCM-Agreement. This field is automatically filled with information from user settings. |
+| Number of records | Defined in Annex 2B of HCM-Agreement. This field is automatically calculated. |
+| Writing date | Writing date, as defined in Annex 2B of HCM-Agreement. Date of the creation of coordination request is automatically written to this field. |
+| Status | Status of coordination request |
 Send email
 If enabled, email is automatically sent to the contact person of the target country. For this to work, the
 following conditions have to be fulfilled:
@@ -5838,38 +5330,21 @@ Confidential ©Cellular Expert, 2026 Page | 261
 ---
 
 Cellular Expert Express User Guide 7.3
-Y
-Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system.
-X
-Decimal degrees X type coordinate in the WGS 1984 geographical coordinate system.
-workspace_id
-ID for the workspace. This field value is used to filter objects based on a chosen workspace. The parameter
-is filled automatically.
-height
-Height of the site in meters.
-
-## 4.2 Cells
-
-Describes the sector equipment, parameters, and cell logical information in one table. An object is used for
-point-to-area calculation, which describes the technology, frequency, power, and other information.
-cell_name
-Object identification.
-Y
-Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system.
-X
-Decimal degrees type coordinate in the WGS 1984 geographical coordinate system.
-height
-Cell height above the ground in meters.
-azimuth
-Cell direction from the North in degrees.
-tilt
-Mechanical tilt value, negative numbers tilt up.
-frequency
-Frequency value in MHz.
-power
-Power value in dBm.
-misc_loss
-Miscellaneous loss value in dB.
+| Parameter | Description |
+|---|---|
+| Y | Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system. |
+| X | Decimal degrees X type coordinate in the WGS 1984 geographical coordinate system. |
+| workspace_id | ID for the workspace. This field value is used to filter objects based on a chosen workspace. The parameter is filled automatically. |
+| height | Height of the site in meters. |
+| cell_name | Object identification. |
+| Y | Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system. |
+| X | Decimal degrees type coordinate in the WGS 1984 geographical coordinate system. |
+| height | Cell height above the ground in meters. |
+| azimuth | Cell direction from the North in degrees. |
+| tilt | Mechanical tilt value , negative numbers tilt up. |
+| frequency | Frequency value in MHz. |
+| power | Power value in dBm. |
+| misc_loss | Miscellaneous loss value in dB. |
 bandwidth
 Confidential ©Cellular Expert, 2026 Page | 262
 
@@ -5877,17 +5352,13 @@ Confidential ©Cellular Expert, 2026 Page | 262
 
 Cellular Expert Express User Guide 7.3
 Value in MHz. Required for 4G and 5G technologies. For other technologies define the value as 0.015.
-noise_figure
-Value in dB. Required for 4G and 5G technologies.
-downlink_duplex_factor
-Value range from 0 to 1. Required for 4G and 5G technologies, and used for Downlink Throughput
-calculations.
-subcarrier_spacing
-Value in kHz. Required for 4G and 5G technologies. For other technologies define value 15.
-tx_mimo
-Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
-rx_mimo
-Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
+| Parameter | Description |
+|---|---|
+| noise_figure | Value in dB. Required for 4G and 5G technologies. |
+| downlink_duplex_factor | Value range from 0 to 1. Required for 4G and 5G technologies, and used for Downlink Throughput calculations. |
+| subcarrier_spacing | Value in kHz. Required for 4G and 5G technologies. For other technologies define value 15. |
+| tx_mimo | Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64. |
+| rx_mimo | Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64. |
 active_antenna_effect
 This parameter is dedicated to smart antenna modelling. The default value is 0, but if massive MIMO is
 used, a smart antenna effect can be included to lower the interference and boost the throughput.
@@ -5929,33 +5400,20 @@ carriers
 Describes the carrier values used for 2G calculations: C/I interference and C/A interference. The values
 are written in brackets, […]. If more than one value is defined, the values are separated by a comma. If
 there is no carrier information, the brackets are left empty [].
-site_id
-Site identification. This field value is optional.
-duplex_mode
-Lets the user select what type of duplexing technique he wants to assign to the cell.
-electrical_tilt
-Electrical tilt value, negative numbers tilt up
-status
-free-form text.
-type
-free-form text.
-
-## 4.3 Repeaters
-
-repeater_name
-Object identification.
-Y
-Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system.
-X
-Decimal degrees X type coordinate in the WGS 1984 geographical coordinate system.
-height
-Repeater height above the ground in meters.
-azimuth
-Cell direction from the North in degrees.
-tilt
-Mechanical tilt value, negative numbers tilt up.
-frequency
-Frequency value in MHz.
+| Parameter | Description |
+|---|---|
+| site_id | Site identification. This field value is optional. |
+| duplex_mode | Lets the user select what type of duplexing technique he wants to assign to the cell. |
+| electrical_tilt | Electrical tilt value, negative numbers tilt up |
+| status | free-form text. |
+| type | free-form text. |
+| repeater_name | Object identification. |
+| Y | Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system. |
+| X | Decimal degrees X type coordinate in the WGS 1984 geographical coordinate system. |
+| height | Repeater height above the ground in meters. |
+| azimuth | Cell direction from the North in degrees. |
+| tilt | Mechanical tilt value, negative numbers tilt up. |
+| frequency | Frequency value in MHz. |
 Confidential ©Cellular Expert, 2026 Page | 264
 
 ---
@@ -5965,37 +5423,21 @@ threshold 1-3
 The minimum field strength in dB at repeater location at which power of the corresponding index (1-3) will
 be applied. Values should be in ascending order. If a higher threshold is satisfied, the power corresponding
 to it will be used.
-power 1-3
-Power value in dBm.
-misc_loss
-Miscellaneous loss value in dB. Value is optional.
-bandwith
-Value in MHz. Required for 4G and 5G technologies. For other technologies define the value as 0.015.
-subcarrier_spacing
-Value in kHz. Required for 4G and 5G technologies. For other technologies define value 15.
-tx_mimo
-Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
-rx_mimo
-Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
-technology
-Describes cell technology. Possible values are 2G, 3G, 4G, and 5G.
-prediction_model_id
-Sets the model type to be used:
-- Value 1 – ITU R. P452
-- Value 2 – UniMacro
-prediction_model_configuration_id
-Defines the prediction model configuration to be used in the model table. The objectID value is taken from
-the prediction model table.
-frequency_group
-Used to divide calculations into parts. If the selection range includes two or more different frequency group
-values, the cells won’t be predicted together.
-antenna_id
-Describes the antenna ID from the antennas table. The objectID is used.
-workspace_id
-ID for the workspace. The field value is used to filter objects based on a chosen workspace. The parameter
-is filled automatically.
-electrical_tilt
-Electrical tilt value, negative numbers tilt up
+| Parameter | Description |
+|---|---|
+| power 1-3 | Power value in dBm. |
+| misc_loss | Miscellaneous loss value in dB. Value is optional. |
+| bandwith | Value in MHz. Required for 4G and 5G technologies. For other technologies define the value as 0.015. |
+| subcarrier_spacing | Value in kHz. Required for 4G and 5G technologies. For other technologies define value 15. |
+| tx_mimo | Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64. |
+| rx_mimo | Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64. |
+| technology | Describes cell technology. Possible values are 2G, 3G, 4G, and 5G. |
+| prediction_model_id | Sets the model type to be used: Value 1 – ITU R. P452 • Value 2 – UniMacro • |
+| prediction_model_configuration_id | Defines the prediction model configuration to be used in the model table. The objectID value is taken from the prediction model table. |
+| frequency_group | Used to divide calculations into parts. If the selection range includes two or more different frequency group values, the cells won’t be predicted together. |
+| antenna_id | Describes the antenna ID from the antennas table. The objectID is used. |
+| workspace_id | ID for the workspace. The field value is used to filter objects based on a chosen workspace. The parameter is filled automatically. |
+| electrical_tilt | Electrical tilt value, negative numbers tilt up |
 Confidential ©Cellular Expert, 2026 Page | 265
 
 ---
@@ -6004,41 +5446,22 @@ Cellular Expert Express User Guide 7.3
 
 ## 4.4 Radars
 
-Radar_name
-Object identification.
-Y
-Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system.
-X
-Decimal degrees X type coordinate in the WGS 1984 geographical coordinate system.
-Height
-Radar height above the ground in meters
-Tilt
-Mechanical tilt value, negative numbers tilt up.
-Frequency
-Frequency value in MHz.
-Power
-Power value in dBm. Value is optional.
-Misc_loss
-Miscellaneous loss value in dB. Value is optional.
-View_angle
-Radar radiation vertical height in degrees centered at the tilt value.
-Prediction_model_id
-Sets the model type to be used:
-- Value 1 – ITU R. P452
-- Value 2 – UniMacro
-Prediction_model_configuration_id
-Defines the prediction model configuration to be used in the model table. The objectID value is taken from
-the prediction model table.
-Workspace_id
-ID for the workspace. The field value is used to filter objects based on a chosen workspace. The parameter
-is filled automatically.
-
-## 4.5 CPE
-
-Cpe_name
-Object identification.
-Y
-Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system.
+| Parameter | Description |
+|---|---|
+| Radar_name | Object identification. |
+| Y | Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system. |
+| X | Decimal degrees X type coordinate in the WGS 1984 geographical coordinate system. |
+| Height | Radar height above the ground in meters |
+| Tilt | Mechanical tilt value, negative numbers tilt up. |
+| Frequency | Frequency value in MHz. |
+| Power | Power value in dBm. Value is optional. |
+| Misc_loss | Miscellaneous loss value in dB. Value is optional. |
+| View_angle | Radar radiation vertical height in degrees centered at the tilt value. |
+| Prediction_model_id | Sets the model type to be used: Value 1 – ITU R. P452 • • Value 2 – UniMacro |
+| Prediction_model_configuration_id | Defines the prediction model configuration to be used in the model table. The objectID value is taken from the prediction model table. |
+| Workspace_id | ID for the workspace. The field value is used to filter objects based on a chosen workspace. The parameter is filled automatically. |
+| Cpe_name | Object identification. |
+| Y | Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system. |
 X
 Confidential ©Cellular Expert, 2026 Page | 266
 
@@ -6046,40 +5469,23 @@ Confidential ©Cellular Expert, 2026 Page | 266
 
 Cellular Expert Express User Guide 7.3
 Decimal degrees X type coordinate in the WGS 1984 geographical coordinate system.
-Height
-CPE height above the ground in meters
-Azimuth
-Cell direction from the North in degrees.
-Antenna_id
-Describes the antenna ID from the antennas table. The objectID is used.
-Cell_id
-Cell identification.
-Throughput
-Throughput sold to customer (used in network availability calculation)
-Power
-Power value in dBm.
-Misc_loss
-Miscellaneous loss value in dB.
-Status
-free-form text.
-Notes
-free-form text.
-Workspace_id
-ID for the workspace. The field value is used to filter objects based on a chosen workspace. The parameter
-is filled automatically.
-
-## 4.6 Measurements
-
-Fs
-Measured field strength.
-Y
-Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system.
-X
-Decimal degrees X type coordinate in the WGS 1984 geographical coordinate system.
-Cell_id
-Cell identification.
-Workspace_id
-ID for the workspace. The field value is used to filter objects based on a chosen workspace. The parameter
+| Parameter | Description |
+|---|---|
+| Height | CPE height above the ground in meters |
+| Azimuth | Cell direction from the North in degrees. |
+| Antenna_id | Describes the antenna ID from the antennas table. The objectID is used. |
+| Cell_id | Cell identification. |
+| Throughput | Throughput sold to customer (used in network availability calculation) |
+| Power | Power value in dBm. |
+| Misc_loss | Miscellaneous loss value in dB. |
+| Status | free-form text. |
+| Notes | free-form text. |
+| Workspace_id | ID for the workspace. The field value is used to filter objects based on a chosen workspace. The parameter is filled automatically. |
+| Fs | Measured field strength. |
+| Y | Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system. |
+| X | Decimal degrees X type coordinate in the WGS 1984 geographical coordinate system. |
+| Cell_id | Cell identification. |
+| Workspace_id | ID for the workspace. The field value is used to filter objects based on a chosen workspace. The parameter is filled automatically. |
 is filled automatically.
 Confidential ©Cellular Expert, 2026 Page | 267
 
@@ -6089,29 +5495,17 @@ Cellular Expert Express User Guide 7.3
 
 ## 4.7 Workspace
 
-Workspace_name
-Workspace identification.
-Extent_xmin
-Minimum workspace extent longitude
-Extent_ymin
-Minimum workspace extent latitude
-Extent_xmax
-Maximum workspace extent longitude
-Extent_ymax
-Maximum workspace extent latitude
-Extra_layers
-JSON array containing links to ArcGIS layer services.
-e.g.: [“url1”, “url2”]
-Use_clutter_loss
-Possible values:
-- t – clutter losses included in the prediction model.
-- f – clutter losses not included in the prediction model.
-Calculate_eirp
-True – EIRP is calculated with the formula power - misc_loss + antenna gain.
-False – power value is used as EIRP.
-Geodata_set_id
-Path to folder containing geodata rasters: elevation.tif, building_height.tif (optional), clutter_classes.tif
-(optional), clutter_height.tif (optional).
+| Parameter | Description |
+|---|---|
+| Workspace_name | Workspace identification. |
+| Extent_xmin | Minimum workspace extent longitude |
+| Extent_ymin | Minimum workspace extent latitude |
+| Extent_xmax | Maximum workspace extent longitude |
+| Extent_ymax | Maximum workspace extent latitude |
+| Extra_layers | JSON array containing links to ArcGIS layer services. e.g.: [“url1”, “url2”] |
+| Use_clutter_loss | Possible values: • t – clutter losses included in the prediction model. f – clutter losses not included in the prediction model. • |
+| Calculate_eirp | True – EIRP is calculated with the formula power - misc_loss + antenna gain. False – power value is used as EIRP. |
+| Geodata_set_id | Path to folder containing geodata rasters: elevation.tif, building_height.tif (optional), clutter_classes.tif (optional), clutter_height.tif (optional). |
 5. CE Express API
 The (currently incomplete) documentation for the CE Express API endpoints can be found here:
 https://cecom2.cellular-expert.com/ce_express_api_documentation/

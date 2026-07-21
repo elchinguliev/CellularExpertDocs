@@ -656,12 +656,11 @@ useful when checking if the newest version tables correspond to the current proj
 Workspace Upgrade automatically checks all these parameters and notifies the user upon the start-up of
 the project.
 
-Reimport Antennas
-Imports the deleted default antennas back to the Antennas table.
-Generate Antenna Type
-Based on the Antenna data assign antennas a type if they are missing it.
-Run Analysis
-Manually checks if the default tables and their fields exist in the project.
+| Parameter | Description |
+|---|---|
+| Reimport Antennas | Imports the deleted default antennas back to the Antennas table. |
+| Generate Antenna Type | Based on the Antenna data assign antennas a type if they are missing it. |
+| Run Analysis | Manually checks if the default tables and their fields exist in the project. |
 Upgrade Database
 Creates the missing tables and/or creates/adds back the missing fields from default tables.
 If a project with incompatible geodata is loaded, the Workspace Upgrade tool analyzes the current geodata,
@@ -693,43 +692,34 @@ All information from the “CE_WORKSPACE” table is represented in the Paramete
 
 ![Image p42](../assets/images/ce-pro/emf-guide/p042-img1.png)
 Properties.
-OK
-Click this button to save any changes and close the dialogue.
-Cancel
-Click this button to cancel any changes and close the dialogue.
-Help
-Get helpful information about the dialogue.
+| Parameter | Description |
+|---|---|
+| OK | Click this button to save any changes and close the dialogue. |
+| Cancel | Click this button to cancel any changes and close the dialogue. |
+| Help | Get helpful information about the dialogue. |
 CE Server Parameters
 ArcGIS Portal URL
 Connection URL to the ArcGIS Portal website.
 CE Server API
 Connection URL to Cellular Expert Server API.
 
-CE Server Environment
-Cellular Expert Server environment in which it is run.
-CE Server URL
-Connection URL to Cellular Expert Server.
-CE Server Workspace
-The workspace used in the Cellular Expert Server.
-CE Server Workspace ID
-The ID of the workspace which is used in the Cellular Expert Server.
+| Parameter | Description |
+|---|---|
+| CE Server Environment | Cellular Expert Server environment in which it is run. |
+| CE Server URL | Connection URL to Cellular Expert Server. |
+| CE Server Workspace | The workspace used in the Cellular Expert Server. |
+| CE Server Workspace ID | The ID of the workspace which is used in the Cellular Expert Server. |
 Project Paths Parameters
-Calculation Path
-Path for temporary calculation results.
-Calculation Tasks Data Path
-Path for the calculation results that will be displayed in the Calculation Task List.
-Geodata Folder Path
-Path to a folder in which the geodata from the Cellular Expert Workspace is stored.
-Prediction Path
-Path for storing prediction grids.
-Result Path
-Path for storing the final calculation results
-Volatile Calculation Path
-Path for temporary Quick Prediction calculation results.
-Volatile Result Path
-Path for storing the final Quick Prediction calculation results
-Volatile Tasks Data Path
-Path for the Quick Prediction calculation results that will be displayed in the Calculation Task List.
+| Parameter | Description |
+|---|---|
+| Calculation Path | Path for temporary calculation results. |
+| Calculation Tasks Data Path | Path for the calculation results that will be displayed in the Calculation Task List. |
+| Geodata Folder Path | Path to a folder in which the geodata from the Cellular Expert Workspace is stored. |
+| Prediction Path | Path for storing prediction grids. |
+| Result Path | Path for storing the final calculation results |
+| Volatile Calculation Path | Path for temporary Quick Prediction calculation results. |
+| Volatile Result Path | Path for storing the final Quick Prediction calculation results |
+| Volatile Tasks Data Path | Path for the Quick Prediction calculation results that will be displayed in the Calculation Task List. |
 Project Settings Parameters
 Calculate EIRP
 Determines whether calculate EIRP or no in the prediction calculations.
@@ -902,15 +892,12 @@ If you select one of the appearing workspaces, the properties of that workspace 
 ![Image p52](../assets/images/ce-pro/emf-guide/p052-img2.png)
 ArcGIS Pro project automatically.
 
-Server URL
-The URL to the CE Express database where the workspaces will be located. This parameter must be
-defined to connect to the database.
-Server ArcGIS Portal URL
-The URL to your organization’s ArcGIS Portal (filled in automatically).
-Server API URL
-The API is used in the connection process (filled in automatically).
-Selected Workspace
-The list of all workspaces was retrieved from the CE Express Database.
+| Parameter | Description |
+|---|---|
+| Server URL | The URL to the CE Express database where the workspaces will be located. This parameter must be defined to connect to the database. |
+| Server ArcGIS Portal URL | The URL to your organization’s ArcGIS Portal (filled in automatically). |
+| Server API URL | The API is used in the connection process (filled in automatically). |
+| Selected Workspace | The list of all workspaces was retrieved from the CE Express Database. |
 Get Workspaces
 Establishes the connection between the provided Server URL and CE for ArcGIS Pro. Upon clicking the
 button, the user may be redirected to a browser window in which he will have to log in to the ArcGIS Portal.
@@ -985,73 +972,47 @@ the default database. More about template management in 7.8. Template Manager to
 3. Define Name for new Cell object.
 
 4. Press Save Changes to save Cell object to the database.
-Save Changes
-Creates the object with the given parameters.
-Dismiss
-Cancels object creation and closes the dialogue.
-View Antenna
-Opens the Antenna Viewer with the corresponding antenna patterns.
+| Parameter | Description |
+|---|---|
+| Save Changes | Creates the object with the given parameters. |
+| Dismiss | Cancels object creation and closes the dialogue. |
+| View Antenna | Opens the Antenna Viewer with the corresponding antenna patterns. |
 Cell Properties
-Template
-The template will fill all empty or not specified fields with default values that are not necessary for
-
-![Image p57](../assets/images/ce-pro/emf-guide/p057-img1.png)
-
-![Image p57](../assets/images/ce-pro/emf-guide/p057-img2.png)
-predictions.
-Name
-Cell identification.
-Latitude (degrees)
-Latitude degrees, minutes, and seconds Y type coordinate in the WGS 1984 geographical coordinate
+| Parameter | Description |
+|---|---|
+| Template | The template will fill all empty or not specified fields with default values that are not necessary for predictions. |
+| Name | Cell identification. |
+| Latitude (degrees) | Latitude degrees, minutes, and seconds Y type coordinate in the WGS 1984 geographical coordinate system. |
 system.
 
-Longitude (degrees)
-Longitude degrees, minutes, and seconds X type coordinate in the WGS 1984 geographical coordinate
-system.
-Latitude
-Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system.
-Longitude
-Decimal degrees X type coordinate in the WGS 1984 geographical coordinate system.
-X
-Coordinate in the projected coordinate system.
-Y
-Coordinate in the projected coordinate system.
-Z
-3D dimensions representing an object's height above sea level, used for visualizing objects in a 3D scene.
-Ground Altitude
-Ground elevation above sea level at the network object's location.
-Azimuth
-Cell direction from the North in degrees.
-Site ID
-Describes to which Site the Cell belongs.
-Tilt
-Mechanical tilt value.
-Frequency
-Frequency value in MHz.
-Frequency Group
-Used to divide calculations into parts. If the selection range includes two or more different frequency
-group values, the cells won’t be predicted together.
-Power
-Power value in dBm.
-Antenna Gain
-The parameter can be left empty because the value will be taken automatically from the defined antenna.
-Misc Loss
-Miscellaneous loss value in dB.
-Bandwidth
-Value in MHz. Required for 4G and 5G technologies. For other technologies define the value as 0.015.
-Noise Figure
-Value in dB. Required for 4G and 5G technologies.
-Downlink Duplex Factor
-Value range from 0 to 1. Required for Duplex mode TDD, which is applicable for 4G and 5G
+| Parameter | Description |
+|---|---|
+| Longitude (degrees) | Longitude degrees, minutes, and seconds X type coordinate in the WGS 1984 geographical coordinate system. |
+| Latitude | Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system. |
+| Longitude | Decimal degrees X type coordinate in the WGS 1984 geographical coordinate system. |
+| X | Coordinate in the projected coordinate system. |
+| Y | Coordinate in the projected coordinate system. |
+| Z | 3D dimensions representing an object's height above sea level, used for visualizing objects in a 3D scene. |
+| Ground Altitude | Ground elevation above sea level at the network object's location. |
+| Azimuth | Cell direction from the North in degrees. |
+| Site ID | Describes to which Site the Cell belongs. |
+| Tilt | Mechanical tilt value. |
+| Frequency | Frequency value in MHz. |
+| Frequency Group | Used to divide calculations into parts. If the selection range includes two or more different frequency group values, the cells won’t be predicted together. |
+| Power | Power value in dBm. |
+| Antenna Gain | The parameter can be left empty because the value will be taken automatically from the defined antenna. |
+| Misc Loss | Miscellaneous loss value in dB. |
+| Bandwidth | Value in MHz. Required for 4G and 5G technologies. For other technologies define the value as 0.015. |
+| Noise Figure | Value in dB. Required for 4G and 5G technologies. |
+| Downlink Duplex Factor | Value range from 0 to 1. Required for Duplex mode TDD, which is applicable for 4G and 5G |
 
 technologies, and used for Downlink Throughput calculations. For example, if defined value is 0.7,
 then 70% of available bandwidth will be dedicated to Downlink, and 30% - for Uplink.
-Subcarrier Spacing
-Value in kHz. Required for 4G and 5G technologies. For other technologies define value 15.
-Tx Mimo
-Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
-Rx Mimo
-Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
+| Parameter | Description |
+|---|---|
+| Subcarrier Spacing | Value in kHz. Required for 4G and 5G technologies. For other technologies define value 15. |
+| Tx Mimo | Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64. |
+| Rx Mimo | Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64. |
 Active Antenna Effect
 The parameter is dedicated to smart antenna modeling. The default value is 0, but if massive MIMO is
 used, a smart antenna effect can be included to lower the interference and boost throughput.
@@ -1062,16 +1023,12 @@ Cell Load
 The parameter is described in percentages and varies from 0 to 100. It describes how the cell is loaded.
 The Cell load affects RSSI, RSRQ, and DL Throughput calculations. For example, if the Cell load is
 higher, the DL Throughput is lower.
-Network Name
-Divides cells into networks. Helps to manage different technologies and frequencies in the project, and
-automatically tracks changes for cells.
-Technology
-Describes the technology of the network object. Possible values are 2G, 3G, 4G, and 5G.
-Duplex Mode
-Available values FDD or TDD. Required for 4G and 5G technologies. For other technologies define
-value FDD.
-Antenna
-Define antenna patterns for the Cell object.
+| Parameter | Description |
+|---|---|
+| Network Name | Divides cells into networks. Helps to manage different technologies and frequencies in the project, and automatically tracks changes for cells. |
+| Technology | Describes the technology of the network object. Possible values are 2G, 3G, 4G, and 5G. |
+| Duplex Mode | Available values FDD or TDD. Required for 4G and 5G technologies. For other technologies define value FDD. |
+| Antenna | Define antenna patterns for the Cell object. |
 Carriers
 Describes the carrier values and is used for 2G calculations: C/I interference and C/A interference.
 Values must be written in []. If more than one value is defined, it must be separated by a comma,
@@ -1239,12 +1196,11 @@ obstacle and/or clutter obstacle categories.
 New mapping between land use raster and clutter class data should be done in Clutter Classes dialog.
 
 ![Image p74](../assets/images/ce-pro/emf-guide/p074-img1.png)
-Apply
-Saves changes made to clutter classes.
-OK
-Saves changes made to clutter classes and cloes the dialogue.
-Dismiss
-Cancels clutter class changes and closes the dialogue.
+| Parameter | Description |
+|---|---|
+| Apply | Saves changes made to clutter classes. |
+| OK | Saves changes made to clutter classes and cloes the dialogue. |
+| Dismiss | Cancels clutter class changes and closes the dialogue. |
 
 ### 7.5 Antenna Viewer
 The Antenna Viewer enables the user to preview the default antennae, compare their vertical and horizontal
@@ -1997,30 +1953,21 @@ o Glass: 2–10 dB
 • Path loss floors: ensures minimum attenuation beyond near field
 • LOS probability models: stochastic treatment of LOS in large buildings
 Default settings
-Configuration name
-Name of the prediction configuration name.
-Radius
-Maximum prediction radius in kilometers to calculate path loss.
-Receiver height
-Receiver height above the receiver reference height selected in the workspace settings.
-Effective earth radius
-Earth radius in kilometers, used for the calculations.
+| Parameter | Description |
+|---|---|
+| Configuration name | Name of the prediction configuration name. |
+| Radius | Maximum prediction radius in kilometers to calculate path loss. |
+| Receiver height | Receiver height above the receiver reference height selected in the workspace settings. |
+| Effective earth radius | Earth radius in kilometers, used for the calculations. |
 
-Offset coefficient
-Represents the offset in decibels added to the path loss grid. The default value is 37 dB.
-Distance coefficient
-Defines the slope based on the distance between the cell and the receiver location, with a default value of: **20.**
-Distance coefficient obstructed
-Represents the slope based on the obstructed distance between the cell and the receiver location. The
-default value is 30.
-Frequency coefficient
-Indicates the slope determined by the frequency value, with a default value of 20.
-Penetration loss offset
-The initial entry loss applied when crossing an obstacle within the clutter class, expressed as an offset in
-dB, which is added to the path loss grid.
-Penetration loss scaling coefficient
-Represents additional signal loss as a function of the distance travelled in an obstacle within the clutter
-class. Higher values increase path loss.
+| Parameter | Description |
+|---|---|
+| Offset coefficient | Represents the offset in decibels added to the path loss grid. The default value is 37 dB. |
+| Distance coefficient | Defines the slope based on the distance between the cell and the receiver location, with a default value of 20. |
+| Distance coefficient obstructed | Represents the slope based on the obstructed distance between the cell and the receiver location. The default value is 30. |
+| Frequency coefficient | Indicates the slope determined by the frequency value, with a default value of 20. |
+| Penetration loss offset | The initial entry loss applied when crossing an obstacle within the clutter class, expressed as an offset in dB, which is added to the path loss grid. |
+| Penetration loss scaling coefficient | Represents additional signal loss as a function of the distance travelled in an obstacle within the clutter class. Higher values increase path loss. |
 Penetration loss frequency exponent coefficient
 Reflects additional loss inside an obstacle within the clutter class based on frequency. Higher values
 increase path loss, particularly at higher frequencies.
@@ -2397,22 +2344,15 @@ horizontal and vertical values or ranges, the horizontal and vertical attenuatio
 attenuations are set to 1000. Based on the horizontal and vertical beamwidths, the horizontal and vertical
 antenna patterns are displayed.
 
-Manufacturer
-Antenna manufacturer (company or entity).
-Model
-Antenna identification or name.
-Frequency
-Antenna frequency value in MHz.
-Gain
-Antenna gain value in dBi.
-Horizontal beamwidth
-Antenna’s horizontal beamwidth value or range in degrees. By default, the value is 60.
-
-![Image p114](../assets/images/ce-pro/emf-guide/p114-img1.png)
-Vertical beamwidth
-Antenna’s vertical beamwidth value or range in degrees. By default, the value is 15.
-Create Antenna
-Creates the antenna pattern in the database.
+| Parameter | Description |
+|---|---|
+| Manufacturer | Antenna manufacturer (company or entity). |
+| Model | Antenna identification or name. |
+| Frequency | Antenna frequency value in MHz. |
+| Gain | Antenna gain value in dBi. |
+| Horizontal beamwidth | Antenna’s horizontal beamwidth value or range in degrees. By default, the value is 60. |
+| Vertical beamwidth | Antenna’s vertical beamwidth value or range in degrees. By default, the value is 15. |
+| Create Antenna | Creates the antenna pattern in the database. |
 
 ## 8. EMF Calculations
 
@@ -2425,17 +2365,13 @@ height. This tool allows users to perform EMF calculations for selected cells by
 These are then processed to provide results for EMF limit usage (%), EMF in mV/m, and EMF in mW/m².
 The results are displayed on the map, highlighting areas with varying levels of EMF exposure, and the
 values are explained in the legend under the newly created calculation layer.
-Calculation Name
-Name of the calculation that will be displayed in the CE Calculation Task List.
-Resolution
-Resolution for raster calculations. The output rasters will be produced with the indicated cell size.
-Cell template
-Cell template that will be used in the prediction calculations.
-Reflection factor
-Reflection factor, used for the electromagnetic field exposure prediction calculations. Available selections:
-no reflection, realistic reflection, or full reflection.
-Reflection factor
-Receiver height in meters.
+| Parameter | Description |
+|---|---|
+| Calculation Name | Name of the calculation that will be displayed in the CE Calculation Task List. |
+| Resolution | Resolution for raster calculations. The output rasters will be produced with the indicated cell size. |
+| Cell template | Cell template that will be used in the prediction calculations. |
+| Reflection factor | Reflection factor, used for the electromagnetic field exposure prediction calculations. Available selections: no reflection, realistic reflection, or full reflection. |
+| Reflection factor | Receiver height in meters. |
 
 The results are displayed in newly added rasters of the calculation – electromagnetic field exposure results
 
@@ -2486,12 +2422,11 @@ Cell
 A cell from which the profile will be drawn. The parameters of the cell will be taken into calculation if
 
 the cell is snapped to by the profile tool.
-Latitude
-Decimal degrees Y type coordinate.
-Longitude
-Decimal degrees X type coordinate.
-Height, m
-Height above the ground in meters. The minimum value must be 1m.
+| Parameter | Description |
+|---|---|
+| Latitude | Decimal degrees Y type coordinate. |
+| Longitude | Decimal degrees X type coordinate. |
+| Height, m | Height above the ground in meters. The minimum value must be 1m. |
 Azimuth towards receiver
 Enabled by default. When enabled, the transmitter’s azimuth is towards the receiver. Disabling this
 option it would take azimuth value from the Cell object, and use it for FWA Power Budget
@@ -2507,28 +2442,23 @@ The antenna for the transmitter can be selected from the table below the El. Dow
 
 ![Image p119](../assets/images/ce-pro/emf-guide/p119-img1.png)
 pattern can be viewed by clicking the View Antenna button on the right side.
-Frequency, MHz
-Frequency of the transmitter.
-Bandwidth, MHz
-Bandwidth of the transmitter.
-Power, dBm
-A power that the transmitter possesses.
-Misc Loss, dB
-Miscellaneous loss value in dB. Value is not required.
-Tx mimo
-Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
-Rx mimo
-Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
+| Parameter | Description |
+|---|---|
+| Frequency, MHz | Frequency of the transmitter. |
+| Bandwidth, MHz | Bandwidth of the transmitter. |
+| Power, dBm | A power that the transmitter possesses. |
+| Misc Loss, dB | Miscellaneous loss value in dB. Value is not required. |
+| Tx mimo | Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64. |
+| Rx mimo | Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64. |
 
 Subcarrier spacing
 Value in kHz.
 Profile: Receiver
-Latitude
-Decimal degrees Y type coordinate.
-Longitude
-Decimal degrees X type coordinate.
-Height, m
-Height above the ground in meters. The minimum value must be 1m.
+| Parameter | Description |
+|---|---|
+| Latitude | Decimal degrees Y type coordinate. |
+| Longitude | Decimal degrees X type coordinate. |
+| Height, m | Height above the ground in meters. The minimum value must be 1m. |
 
 ![Image p120](../assets/images/ce-pro/emf-guide/p120-img1.png)
 Azimuth towards transmitter
@@ -2658,18 +2588,13 @@ Enable a reflection that will reflect straight from the transmitter to the recei
 ![Image p128](../assets/images/ce-pro/emf-guide/p128-img2.png)
 angle.
 
-Use Multipath Reflections
-Enable all reflections that happen along the profile line.
-Use Divergence Factor
-Quantifies the extent to which a reflected signal spreads out, affecting its strength and coverage.
-Step Size
-The length period by which the reflection will be calculated. The step size is determined by taking the
-average cell size of the elevation raster.
-Polarizations
-The polarization of reflections (vertical or horizontal).
-Use Clutter Classes
-Enables the use of default clutter classes for the reflection calculations (see Clutter Classes). If
-disabled, custom values may be used for conductivity and permittivity.
+| Parameter | Description |
+|---|---|
+| Use Multipath Reflections | Enable all reflections that happen along the profile line. |
+| Use Divergence Factor | Quantifies the extent to which a reflected signal spreads out, affecting its strength and coverage. |
+| Step Size | The length period by which the reflection will be calculated. The step size is determined by taking the average cell size of the elevation raster. |
+| Polarizations | The polarization of reflections (vertical or horizontal). |
+| Use Clutter Classes | Enables the use of default clutter classes for the reflection calculations (see Clutter Classes ). If disabled, custom values may be used for conductivity and permittivity. |
 Select Reflection Range
 Lets you set a range in which the reflection calculations should happen. This will affect both Single and
 
@@ -2691,14 +2616,12 @@ on the changes in various profile parameters like frequency, transmitter height,
 factor. Reflections must be enabled to perform analysis, and the Single Reflection option is automatically
 enabled when the tool is selected.
 
-Dependency on Frequency
-Calculate reflection analysis based on frequency range (from GHz to GHz)
-Dependency on Receiver height
-Calculate reflection analysis based on receiver height range (from m to m)
-Dependency on Transmitter height
-Calculate reflection analysis based on transmitter height range (from m to m)
-Dependency on K-Factor
-Calculate reflection analysis based on K-factor range (from radius, km to radius, km)
+| Parameter | Description |
+|---|---|
+| Dependency on Frequency | Calculate reflection analysis based on frequency range (from GHz to GHz) |
+| Dependency on Receiver height | Calculate reflection analysis based on receiver height range (from m to m) |
+| Dependency on Transmitter height | Calculate reflection analysis based on transmitter height range (from m to m) |
+| Dependency on K-Factor | Calculate reflection analysis based on K-factor range (from radius, km to radius, km) |
 
 ![Image p131](../assets/images/ce-pro/emf-guide/p131-img1.png)
 
@@ -2733,13 +2656,11 @@ Currently, you can configure the profile’s visual properties and controls in p
 
 ![Image p135](../assets/images/ce-pro/emf-guide/p135-img1.png)
 be changed once a profile is drawn.
-Show Step Plot
-Display data points as a series of steps rather than a smooth line or individual points.
-Transmitter height change stepnter
-The step (in meters) for changing the transmitter height when dragging it in the Profile graph. The default
-value is 0.5 meters.
-Receiver height change step
-The step (in meters) for changing the receiver height when dragging it in the Profile graph. The default
+| Parameter | Description |
+|---|---|
+| Show Step Plot | Display data points as a series of steps rather than a smooth line or individual points. |
+| Transmitter height change stepnter | The step (in meters) for changing the transmitter height when dragging it in the Profile graph. The default value is 0.5 meters. |
+| Receiver height change step | The step (in meters) for changing the receiver height when dragging it in the Profile graph. The default value is 0.5 meters. |
 value is 0.5 meters.
 
 ## 10. Coverage Prediction
@@ -2778,27 +2699,16 @@ provided receiver height
 
 • Best Server – the same calculation as for RF Prediction
 Click the button to open the Visibility Prediction dialogue.
-Resolution
-Cell size in meters
-Max Radius
-The maximum radius of the prediction
-Receiver height
-Receiver height above the ground.
-Effective Earth Radius
-Earth radius in kilometers, used for the calculations.
-Layers to calculate
-All present CE layers on which predictions can be performed
-Template
-A template that corresponds to the selected layers. When the layer changes the templates change as well.
-Selected
-Network objects that are present on the selected network layer. The visibility prediction will be performed
-
-![Image p137](../assets/images/ce-pro/emf-guide/p137-img1.png)
-
-![Image p137](../assets/images/ce-pro/emf-guide/p137-img2.png)
-on all of them.
-Run Calculations
-Starts the prediction calculation.
+| Parameter | Description |
+|---|---|
+| Resolution | Cell size in meters |
+| Max Radius | The maximum radius of the prediction |
+| Receiver height | Receiver height above the ground. |
+| Effective Earth Radius | Earth radius in kilometers, used for the calculations. |
+| Layers to calculate | All present CE layers on which predictions can be performed |
+| Template | A template that corresponds to the selected layers. When the layer changes the templates change as well. |
+| Selected | Network objects that are present on the selected network layer. The visibility prediction will be performed on all of them. |
+| Run Calculations | Starts the prediction calculation. |
 
 Results:
 • Minimum Receiver Height in meters

@@ -96,29 +96,28 @@ Then create three new cells based on table below (once you enter all parameters 
 cell object press Accept button, then change parameters for second cell and press Accept
 button, and do it for third cell).
 Parameter Value
-Cell name Cx01 Cx02 Cx03
-X 25.2129439 25.2129439 25.2129439
-Y 54.7398379 54.7398379 54.7398379
-Azimuth, deg 0 120 240
-Height, m 30 30 30
-Downtilt, deg 1 1 1
-El. Downtilt, deg 0 0 0
-Frequency, MHz 3500 3500 3500
-Power, dBm 40 40 40
-Misc Loss, dB 0 0 0
-Bandwidth, MHz 100 100 100
-Noise Figure, dB 6 6 6
-Downlink duplex factor 0,6 0,6 0,6
-Subcarrier spacing, kHz 60 60 60
-TX MIMO 32 32 32
-RX MIMO 32 32 32
-Active Antenna Effect 6 6 6
-Cell Load, % 30 30 30
-Color index
-Technology 5G 5G 5G
-Prediction model CEC ITU-R: 3km CEC ITU-R: 3km CEC ITU-R: 3km
-radius radius radius
-Frequency group 3500 3500 3500
+| Cell name | Cx01 | Cx02 | Cx03 |
+|---|---|---|---|
+| X | 25.2129439 | 25.2129439 | 25.2129439 |
+| Y | 54.7398379 | 54.7398379 | 54.7398379 |
+| Azimuth, deg | 0 | 120 | 240 |
+| Height, m | 30 | 30 | 30 |
+| Downtilt, deg | 1 | 1 | 1 |
+| El. Downtilt, deg | 0 | 0 | 0 |
+| Frequency, MHz | 3500 | 3500 | 3500 |
+| Power, dBm | 40 | 40 | 40 |
+| Misc Loss, dB | 0 | 0 | 0 |
+| Bandwidth, MHz | 100 | 100 | 100 |
+| Noise Figure, dB | 6 | 6 | 6 |
+| Downlink duplex factor | 0,6 | 0,6 | 0,6 |
+| Subcarrier spacing, kHz | 60 | 60 | 60 |
+| TX MIMO | 32 | 32 | 32 |
+| RX MIMO | 32 | 32 | 32 |
+| Active Antenna Effect | 6 | 6 | 6 |
+| Cell Load, % | 30 | 30 | 30 |
+| Technology | 5G | 5G | 5G |
+| Prediction model | CEC ITU-R: 3km radius | CEC ITU-R: 3km radius | CEC ITU-R: 3km radius |
+| Frequency group | 3500 | 3500 | 3500 |
 
 ---
 

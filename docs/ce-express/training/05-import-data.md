@@ -84,22 +84,23 @@ These options ensure that both sites and cells are created correctly during impo
 Mapping defines how columns in the CSV file are translated into CE Express object
 parameters.
 For each attribute, define the following mappings:
-CE Express CSV file Fill
-Cell name Cell Name Leave empty
-X longitude Leave empty
-Y latitude Leave empty
-Azimuth Azimuth Leave empty
-Site name Tower Name Leave empty
-Height Height Above Ground Leave empty
-Downtilt Tilt Leave empty
-El. Downtilt Leave empty 0
-Frequency Frequency Leave empty
-Power Cell Power Leave empty
-Misc loss, dB Leave empty 0
-Bandwidth Bandwidth Leave empty
-Noise figure Leave empty 6
-Downlink duplex factor Leave empty 0.6
-Subcarrier spacing Leave empty 30
+| CE Express | CSV file | Fill |
+|---|---|---|
+| Cell name | Cell Name | Leave empty |
+| X | longitude | Leave empty |
+| Y | latitude | Leave empty |
+| Azimuth | Azimuth | Leave empty |
+| Site name | Tower Name | Leave empty |
+| Height | Height Above Ground | Leave empty |
+| Downtilt | Tilt | Leave empty |
+| El. Downtilt | Leave empty | 0 |
+| Frequency | Frequency | Leave empty |
+| Power | Cell Power | Leave empty |
+| Misc loss, dB | Leave empty | 0 |
+| Bandwidth | Bandwidth | Leave empty |
+| Noise figure | Leave empty | 6 |
+| Downlink duplex factor | Leave empty | 0.6 |
+| Subcarrier spacing | Leave empty | 30 |
 
 ---
 

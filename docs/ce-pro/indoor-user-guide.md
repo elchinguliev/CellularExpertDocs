@@ -1539,21 +1539,21 @@ buildings)
 High density urban (Low buildings) 0 0.89 0.65
 High density urban (High buildings) 0 0.89 0.65
 
-High density urban (Very high 0 0.89 0.65
-buildings)
-Building blocks 0 0.89 0.65
-Transportation 0 0.89 0.65
-Agriculture 0 0.89 0.65
-Plantation 0 0.89 0.65
-Parks 0 0.89 0.65
-Airport 0 0.89 0.65
-Sea 0 0.89 0.65
-Inland water 0 0.89 0.65
-Concrete building 5 0.25 1
-Glass building 2 0.25 1
-Wood building 2 0.25 1
-Low loss building 8.5 0.25 1
-High loss building 17 0.25 1
+| High density urban (Very high buildings) | 0 | 0.89 | 0.65 |
+|---|---|---|---|
+| Building blocks | 0 | 0.89 | 0.65 |
+| Transportation | 0 | 0.89 | 0.65 |
+| Agriculture | 0 | 0.89 | 0.65 |
+| Plantation | 0 | 0.89 | 0.65 |
+| Parks | 0 | 0.89 | 0.65 |
+| Airport | 0 | 0.89 | 0.65 |
+| Sea | 0 | 0.89 | 0.65 |
+| Inland water | 0 | 0.89 | 0.65 |
+| Concrete building | 5 | 0.25 | 1 |
+| Glass building | 2 | 0.25 | 1 |
+| Wood building | 2 | 0.25 | 1 |
+| Low loss building | 8.5 | 0.25 | 1 |
+| High loss building | 17 | 0.25 | 1 |
 7.6.1.2 ITU-R P.452 Model
 Model application
 This model is designed to estimate radio signal propagation over long distances, including terrestrial
@@ -1602,36 +1602,33 @@ Penetration Penetration Penetration
 receiver receiver receiver loss
 loss loss scaling frequency
 
-offset coefficient exponent
-coefficient
-Open / Terrain 17 0.25 1
-Grassland 0 0.82 0.65
-Sparse forest 0 0.82 0.65
-Medium dense forest 0 0.89 0.65
-Very dense forest 0 0.95 0.65
-Low density urban (Low buildings) 0 0.89 0.65
-Low density urban (High buildings) 0 0.89 0.65
-Medium density urban (Low 0 0.89 0.65
-buildings)
-Medium density urban (High 0 0.89 0.65
-buildings)
-High density urban (Low buildings) 0 0.89 0.65
-High density urban (High buildings) 0 0.89 0.65
-High density urban (Very high 0 0.89 0.65
-buildings)
-Building blocks 0 0.89 0.65
-Transportation 0 0.89 0.65
-Agriculture 0 0.89 0.65
-Plantation 0 0.89 0.65
-Parks 0 0.89 0.65
-Airport 0 0.89 0.65
-Sea 0 0.89 0.65
-Inland water 0 0.89 0.65
-Concrete building 5 0.25 1
-Glass building 2 0.25 1
-Wood building 2 0.25 1
-Low loss building 8.5 0.25 1
-High loss building 17 0.25 1
+|  | offset | coefficient | exponent coefficient |
+|---|---|---|---|
+| Open / Terrain | 17 | 0.25 | 1 |
+| Grassland | 0 | 0.82 | 0.65 |
+| Sparse forest | 0 | 0.82 | 0.65 |
+| Medium dense forest | 0 | 0.89 | 0.65 |
+| Very dense forest | 0 | 0.95 | 0.65 |
+| Low density urban (Low buildings) | 0 | 0.89 | 0.65 |
+| Low density urban (High buildings) | 0 | 0.89 | 0.65 |
+| Medium density urban (Low buildings) | 0 | 0.89 | 0.65 |
+| Medium density urban (High buildings) | 0 | 0.89 | 0.65 |
+| High density urban (Low buildings) | 0 | 0.89 | 0.65 |
+| High density urban (High buildings) | 0 | 0.89 | 0.65 |
+| High density urban (Very high buildings) | 0 | 0.89 | 0.65 |
+| Building blocks | 0 | 0.89 | 0.65 |
+| Transportation | 0 | 0.89 | 0.65 |
+| Agriculture | 0 | 0.89 | 0.65 |
+| Plantation | 0 | 0.89 | 0.65 |
+| Parks | 0 | 0.89 | 0.65 |
+| Airport | 0 | 0.89 | 0.65 |
+| Sea | 0 | 0.89 | 0.65 |
+| Inland water | 0 | 0.89 | 0.65 |
+| Concrete building | 5 | 0.25 | 1 |
+| Glass building | 2 | 0.25 | 1 |
+| Wood building | 2 | 0.25 | 1 |
+| Low loss building | 8.5 | 0.25 | 1 |
+| High loss building | 17 | 0.25 | 1 |
 7.6.1.3 UniMacro Model
 Model application
 This model is designed for deterministic tracking of the main, strongest radio ray in Line of Sight (LOS)
@@ -1723,25 +1720,23 @@ Low density urban (High buildings) 0 0.89 0.65
 Medium density urban (Low 0 0.89 0.65
 buildings)
 Medium density urban (High 0 0.89 0.65
-buildings)
-
-High density urban (Low buildings) 0 0.89 0.65
-High density urban (High buildings) 0 0.89 0.65
-High density urban (Very high 0 0.89 0.65
-buildings)
-Building blocks 0 0.89 0.65
-Transportation 0 0.89 0.65
-Agriculture 0 0.89 0.65
-Plantation 0 0.89 0.65
-Parks 0 0.89 0.65
-Airport 0 0.89 0.65
-Sea 0 0.89 0.65
-Inland water 0 0.89 0.65
-Concrete building 5 0.25 1
-Glass building 2 0.25 1
-Wood building 2 0.25 1
-Low loss building 8.5 0.25 1
-High loss building 17 0.25 1
+| High density urban (Low buildings) | 0 | 0.89 | 0.65 |
+|---|---|---|---|
+| High density urban (High buildings) | 0 | 0.89 | 0.65 |
+| High density urban (Very high buildings) | 0 | 0.89 | 0.65 |
+| Building blocks | 0 | 0.89 | 0.65 |
+| Transportation | 0 | 0.89 | 0.65 |
+| Agriculture | 0 | 0.89 | 0.65 |
+| Plantation | 0 | 0.89 | 0.65 |
+| Parks | 0 | 0.89 | 0.65 |
+| Airport | 0 | 0.89 | 0.65 |
+| Sea | 0 | 0.89 | 0.65 |
+| Inland water | 0 | 0.89 | 0.65 |
+| Concrete building | 5 | 0.25 | 1 |
+| Glass building | 2 | 0.25 | 1 |
+| Wood building | 2 | 0.25 | 1 |
+| Low loss building | 8.5 | 0.25 | 1 |
+| High loss building | 17 | 0.25 | 1 |
 7.6.1.4 LOS ITU-R Model
 Model application
 Line of Sight model is typically used for mmWave band frequencies within the 6 GHz – 100 GHz
@@ -2015,29 +2010,19 @@ buildings)
 0 0.89 0.65
 Building blocks
 
-0 0.89 0.65
-Transportation
-0 0.89 0.65
-Agriculture
-0 0.89 0.65
-Plantation
-0 0.89 0.65
-Parks
-0 0.89 0.65
-Airport
-0 0.89 0.65
-Sea
-0 0.89 0.65
-Inland water
-5 0.25 1
-Concrete building
-2 0.25 1
-Glass building
-2 0.25 1
-Wood building
-8.5 0.25 1
-Low loss building
-17 0.25 1
+| Transportation | 0 | 0.89 | 0.65 |
+|---|---|---|---|
+| Agriculture | 0 | 0.89 | 0.65 |
+| Plantation | 0 | 0.89 | 0.65 |
+| Parks | 0 | 0.89 | 0.65 |
+| Airport | 0 | 0.89 | 0.65 |
+| Sea | 0 | 0.89 | 0.65 |
+| Inland water | 0 | 0.89 | 0.65 |
+| Concrete building | 5 | 0.25 | 1 |
+| Glass building | 2 | 0.25 | 1 |
+| Wood building | 2 | 0.25 | 1 |
+| Low loss building | 8.5 | 0.25 | 1 |
+| High loss building | 17 | 0.25 | 1 |
 High loss building
 7.6.1.9 CNOSSOS-EU Model
 Model application

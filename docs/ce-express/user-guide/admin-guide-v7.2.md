@@ -775,13 +775,14 @@ Confidential Cellular Expert, 2026 Page | 25
 ---
 
 Cellular Expert Express Administrator Guide 7.2
-1 site 0
-2 Table1 site 1
-3 TableX site 1
-4 Table2 0
-5 TableY 0
-6 TableZ1 TableY 1
-7 TableZZ TableY 1
+| 1 | site |  | 0 |
+|---|---|---|---|
+| 2 | Table1 | site | 1 |
+| 3 | TableX | site | 1 |
+| 4 | Table2 |  | 0 |
+| 5 | TableY |  | 0 |
+| 6 | TableZ1 | TableY | 1 |
+| 7 | TableZZ | TableY | 1 |
 2.4.1.2 Table “inv3d_references”
 The table “inv3d_references” stores the information about the references between records. This feature is
 described in the User Guide section 5.2.3

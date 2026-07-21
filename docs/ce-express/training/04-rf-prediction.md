@@ -432,12 +432,13 @@ run predictions.
 ---
 
 3. Change the following parameters:
-Parameter New Value
-Bandwidth 20
-Subcarrier_spacing 15
-Tx_mimo 4
-Rx_mimo 4
-Active antenna effect 0
+| Parameter | New Value |
+|---|---|
+| Bandwidth | 20 |
+| Subcarrier_spacing | 15 |
+| Tx_mimo | 4 |
+| Rx_mimo | 4 |
+| Active antenna effect | 0 |
 4. Return to full map screen using map overlay controls.
 
 ![Image p22](../../assets/images/ce-express/training-04/p022-img1.png)

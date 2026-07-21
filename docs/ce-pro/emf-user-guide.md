@@ -1470,36 +1470,24 @@ Medium density urban (Low buildings)
 Medium density urban (High buildings)
 0 0.89 0.65
 High density urban (Low buildings)
-0 0.89 0.65
-High density urban (High buildings)
-0 0.89 0.65
-High density urban (Very high
-buildings)
-0 0.89 0.65
-Building blocks
-0 0.89 0.65
-Transportation
-0 0.89 0.65
-Agriculture
-0 0.89 0.65
-Plantation
-0 0.89 0.65
-Parks
-0 0.89 0.65
-Airport
-0 0.89 0.65
-Sea
-0 0.89 0.65
-Inland water
-5 0.25 1
-Concrete building
-2 0.25 1
-Glass building
-2 0.25 1
-Wood building
-8.5 0.25 1
-Low loss building
-17 0.25 1
+| Medium density urban (High buildings) | 0 | 0.89 | 0.65 |
+|---|---|---|---|
+| High density urban (Low buildings) | 0 | 0.89 | 0.65 |
+| High density urban (High buildings) | 0 | 0.89 | 0.65 |
+| High density urban (Very high buildings) | 0 | 0.89 | 0.65 |
+| Building blocks | 0 | 0.89 | 0.65 |
+| Transportation | 0 | 0.89 | 0.65 |
+| Agriculture | 0 | 0.89 | 0.65 |
+| Plantation | 0 | 0.89 | 0.65 |
+| Parks | 0 | 0.89 | 0.65 |
+| Airport | 0 | 0.89 | 0.65 |
+| Sea | 0 | 0.89 | 0.65 |
+| Inland water | 0 | 0.89 | 0.65 |
+| Concrete building | 5 | 0.25 | 1 |
+| Glass building | 2 | 0.25 | 1 |
+| Wood building | 2 | 0.25 | 1 |
+| Low loss building | 8.5 | 0.25 | 1 |
+| High loss building | 17 | 0.25 | 1 |
 High loss building
 7.6.1.2 ITU-R P.452 Model
 Model application
@@ -1589,16 +1577,13 @@ Airport
 0 0.89 0.65
 Sea
 0 0.89 0.65
-Inland water
-5 0.25 1
-Concrete building
-2 0.25 1
-Glass building
-2 0.25 1
-Wood building
-8.5 0.25 1
-Low loss building
-17 0.25 1
+| Inland water | 0 | 0.89 | 0.65 |
+|---|---|---|---|
+| Concrete building | 5 | 0.25 | 1 |
+| Glass building | 2 | 0.25 | 1 |
+| Wood building | 2 | 0.25 | 1 |
+| Low loss building | 8.5 | 0.25 | 1 |
+| High loss building | 17 | 0.25 | 1 |
 High loss building
 
 7.6.1.3 UniMacro Model
@@ -1701,35 +1686,21 @@ Medium density urban (High buildings)
 High density urban (Low buildings)
 0 0.89 0.65
 High density urban (High buildings)
-0 0.89 0.65
-High density urban (Very high
-buildings)
-0 0.89 0.65
-Building blocks
-0 0.89 0.65
-Transportation
-0 0.89 0.65
-Agriculture
-0 0.89 0.65
-Plantation
-0 0.89 0.65
-Parks
-0 0.89 0.65
-Airport
-0 0.89 0.65
-Sea
-
-0 0.89 0.65
-Inland water
-5 0.25 1
-Concrete building
-2 0.25 1
-Glass building
-2 0.25 1
-Wood building
-8.5 0.25 1
-Low loss building
-17 0.25 1
+| High density urban (Very high buildings) | 0 | 0.89 | 0.65 |
+|---|---|---|---|
+| Building blocks | 0 | 0.89 | 0.65 |
+| Transportation | 0 | 0.89 | 0.65 |
+| Agriculture | 0 | 0.89 | 0.65 |
+| Plantation | 0 | 0.89 | 0.65 |
+| Parks | 0 | 0.89 | 0.65 |
+| Airport | 0 | 0.89 | 0.65 |
+| Sea | 0 | 0.89 | 0.65 |
+| Inland water | 0 | 0.89 | 0.65 |
+| Concrete building | 5 | 0.25 | 1 |
+| Glass building | 2 | 0.25 | 1 |
+| Wood building | 2 | 0.25 | 1 |
+| Low loss building | 8.5 | 0.25 | 1 |
+| High loss building | 17 | 0.25 | 1 |
 High loss building
 7.6.1.4 LOS ITU-R Model
 Model application

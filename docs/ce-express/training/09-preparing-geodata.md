@@ -1,5 +1,9 @@
 # 09. Preparing Geodata
 
+![Image p1](../../assets/images/ce-express/training-09/p001-img1.png)
+
+![Image p1](../../assets/images/ce-express/training-09/p001-img2.png)
+
 > **Version:** CE Express v7.2
 
 1. Objective
@@ -27,13 +31,9 @@ The raster name must be elevation.tif
 Optional. [Clutter](#kw:clutter-classification-values:ce-express-geodata) height grid
 The Obstacle height (building, vegetation, etc) grid represents the objects on the ground
 
-![Screenshot p3](../../assets/images/ce-express/training-09/p003-img1.png)
+![Image p3](../../assets/images/ce-express/training-09/p003-img1.png)
 
-![Screenshot p3](../../assets/images/ce-express/training-09/p003-img2.png)
-
-![Screenshot p3](../../assets/images/ce-express/training-09/p003-img1.png)
-
-![Screenshot p3](../../assets/images/ce-express/training-09/p003-img2.png)
+![Image p3](../../assets/images/ce-express/training-09/p003-img2.png)
 with their height above the DTM grid. The raster name must be clutterHeight.tif
 Optional. Clutter class grid
 A Clutter class grid represents land use types. The data can be downloaded from here:
@@ -59,6 +59,8 @@ C:\CE_Course\PreparingGeodata\Project
 2. Open the [ArcGIS Pro project](#kw:31-step-1-opening-the-arcgis-pro-project:none) file:
 Project.aprx
 This project contains predefined folder structures and basemaps used throughout the
+
+![Image p4](../../assets/images/ce-express/training-09/p004-img1.png)
 exercise.
 
 ## 3.2 Step 2 – Preparing the Digital Terrain Model (DTM)
@@ -76,9 +78,9 @@ C:\CE_Course\PreparingGeodata\Initial\DTM
 4. Click OK.
 These files represent adjacent DTM tiles and must be merged into a single raster.
 
-![Screenshot p5](../../assets/images/ce-express/training-09/p005-img1.png)
+![Image p5](../../assets/images/ce-express/training-09/p005-img1.png)
 
-![Screenshot p5](../../assets/images/ce-express/training-09/p005-img1.png)
+![Image p5](../../assets/images/ce-express/training-09/p005-img2.png)
 3.2.2 Mosaic to New Raster
 1. Open Geoprocessing from the View tab.
 2. In Find Tools, search for Mosaic to New Raster.
@@ -96,13 +98,9 @@ This creates a single continuous elevation raster.
 
 Projecting the Digital Terrain Model (DTM) is a critical GIS step that ensures the elevation
 
-![Screenshot p6](../../assets/images/ce-express/training-09/p006-img1.png)
+![Image p6](../../assets/images/ce-express/training-09/p006-img1.png)
 
-![Screenshot p6](../../assets/images/ce-express/training-09/p006-img2.png)
-
-![Screenshot p6](../../assets/images/ce-express/training-09/p006-img1.png)
-
-![Screenshot p6](../../assets/images/ce-express/training-09/p006-img2.png)
+![Image p6](../../assets/images/ce-express/training-09/p006-img2.png)
 data can be correctly interpreted and used by CE. Prediction engines require all geodata to
 
 ---
@@ -111,6 +109,8 @@ be in a [projected coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-ex
 accurately.
 Raster datasets provided in geographic coordinate systems (latitude/longitude) are not
 suitable for prediction calculations without reprojection, because their units are angular rather
+
+![Image p7](../../assets/images/ce-express/training-09/p007-img1.png)
 than linear.
 3.3.1 Selecting the Correct Coordinate System
 Before projecting, determine the most appropriate [projected coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) system:
@@ -133,9 +133,9 @@ Configure the tool as follows:
 - Output Raster Dataset:
 C:\CE_Course\PreparingGeodata\Initial\Calculations\DTM_UTM.tif
 
-![Screenshot p8](../../assets/images/ce-express/training-09/p008-img1.png)
+![Image p8](../../assets/images/ce-express/training-09/p008-img1.png)
 
-![Screenshot p8](../../assets/images/ce-express/training-09/p008-img1.png)
+![Image p8](../../assets/images/ce-express/training-09/p008-img2.png)
 - LKS_1994_Lithuania_TM
 - Cell size:
 o X: 25
@@ -146,9 +146,9 @@ o Y: 25
 Run calculations.
 3.3.3 Finalizing the Elevation Raster
 
-![Screenshot p9](../../assets/images/ce-express/training-09/p009-img1.png)
+![Image p9](../../assets/images/ce-express/training-09/p009-img1.png)
 
-![Screenshot p9](../../assets/images/ce-express/training-09/p009-img1.png)
+![Image p9](../../assets/images/ce-express/training-09/p009-img2.png)
 1. Open Copy Raster.
 Define:
 - Input raster: projected DTM
@@ -169,9 +169,7 @@ The DTM is now ready for CE Express.
 The clutter class raster is downloaded from here:
 https://livingatlas.arcgis.com/landcoverexplorer/?hsamp_network=linkedin&hsamp=bMJ1Ld
 
-![Screenshot p10](../../assets/images/ce-express/training-09/p010-img1.png)
-
-![Screenshot p10](../../assets/images/ce-express/training-09/p010-img1.png)
+![Image p10](../../assets/images/ce-express/training-09/p010-img1.png)
 VdwXGW&adumkts=social&utm_source=social&aduc=social&adum=external&adusf=linke
 din&sf_id=7015x000000aYlKAAU&aduca=mi_employee_advocacy_hootsuite_amplify_soc
 _ex&adut=e621d967-b85a-4721-aa1e-d37a8f477f1b#mapCenter=-
@@ -191,9 +189,7 @@ This raster covers a much larger area than the DTM.
 3.4.2 Projecting and Clipping [Clutter Classes](#kw:clutter-classification-values:ce-express-geodata)
 Clutter class rasters must match the DTM in all spatial aspects. Any mismatch can lead to
 
-![Screenshot p11](../../assets/images/ce-express/training-09/p011-img1.png)
-
-![Screenshot p11](../../assets/images/ce-express/training-09/p011-img1.png)
+![Image p11](../../assets/images/ce-express/training-09/p011-img1.png)
 incorrect obstruction modeling and unstable [prediction results](#kw:viewing-results:ce-express-rf-prediction).
 Proper projection and clipping ensures:
 - Correct spatial alignment between terrain and clutter
@@ -212,6 +208,14 @@ Configure the tool as follows:
 
 3.4.4 Enforcing Spatial Alignment (Environment Settings)
 To ensure perfect alignment with the DTM, configure the Environment settings before
+
+![Image p12](../../assets/images/ce-express/training-09/p012-img1.png)
+
+![Image p12](../../assets/images/ce-express/training-09/p012-img2.png)
+
+![Image p12](../../assets/images/ce-express/training-09/p012-img3.png)
+
+![Image p12](../../assets/images/ce-express/training-09/p012-img4.png)
 running the tool:
 - Processing Extent: Same as elevation.tif
 - Snap Raster: elevation.tif
@@ -232,8 +236,6 @@ Press Run.
 4. Remove all intermediate clutter rasters from the map.
 The clutter class raster is now fully prepared and compliant with CE requirements.
 
-![Screenshot p13](../../assets/images/ce-express/training-09/p013-img1.png)
-
-![Screenshot p13](../../assets/images/ce-express/training-09/p013-img1.png)
+![Image p13](../../assets/images/ce-express/training-09/p013-img1.png)
 
 ---

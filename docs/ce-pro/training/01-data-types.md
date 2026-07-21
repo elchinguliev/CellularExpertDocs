@@ -1,5 +1,25 @@
 # 01. Data Types
 
+![Image p1](../../assets/images/ce-pro/training-01/p001-img1.png)
+
+![Image p1](../../assets/images/ce-pro/training-01/p001-img2.png)
+
+![Image p1](../../assets/images/ce-pro/training-01/p001-img3.png)
+
+![Image p1](../../assets/images/ce-pro/training-01/p001-img4.png)
+
+![Image p1](../../assets/images/ce-pro/training-01/p001-img5.png)
+
+
+![Image p2](../../assets/images/ce-pro/training-01/p002-img1.png)
+
+![Image p2](../../assets/images/ce-pro/training-01/p002-img2.png)
+
+![Image p2](../../assets/images/ce-pro/training-01/p002-img3.png)
+
+![Image p2](../../assets/images/ce-pro/training-01/p002-img4.png)
+
+![Image p2](../../assets/images/ce-pro/training-01/p002-img5.png)
 > **Version:** CE Pro v4.9
 
 All CE Pro data — sites, cells, prediction rasters, and geodata layers — is displayed in the ArcGIS Pro map view:
@@ -22,10 +42,72 @@ Data can be:
 
 Modelling Outdoor coverage
 The CE tools make use of three distinct GIS data layers to obtain high
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img1.png)
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img2.png)
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img3.png)
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img4.png)
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img5.png)
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img6.png)
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img7.png)
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img8.png)
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img9.png)
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img10.png)
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img11.png)
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img12.png)
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img13.png)
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img14.png)
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img15.png)
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img16.png)
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img17.png)
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img18.png)
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img19.png)
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img20.png)
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img21.png)
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img22.png)
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img23.png)
+
+![Image p3](../../assets/images/ce-pro/training-01/p003-img24.png)
 precision modelling of radio wave propagation losses:
+
+![Image p4](../../assets/images/ce-pro/training-01/p004-img1.png)
+
+![Image p4](../../assets/images/ce-pro/training-01/p004-img2.png)
 1. Digital Terrain Model (DTM), also known as Digital Elevation
+
+![Image p5](../../assets/images/ce-pro/training-01/p005-img1.png)
+
+![Image p5](../../assets/images/ce-pro/training-01/p005-img2.png)
 Model (DEM), which describes Earth surface, i.e., path terrain
+
+![Image p7](../../assets/images/ce-pro/training-01/p007-img1.png)
+
+![Image p7](../../assets/images/ce-pro/training-01/p007-img2.png)
 profile in terms of ground elevation above uniform sea level.
+
+![Image p8](../../assets/images/ce-pro/training-01/p008-img1.png)
 2. Obstacles layer, delineating buildings and other such objects
 above Earth surface that may be considered to be principal
 impediments for radio wave propagation.
@@ -101,10 +183,40 @@ Following should be defined: input layer,
 output raster cell size, data field that will be
 converted to grid, output raster file name.
 Note: if some features in input layer are selected,
+
+![Image p9](../../assets/images/ce-pro/training-01/p009-img1.png)
+
+![Image p9](../../assets/images/ce-pro/training-01/p009-img2.png)
+
+![Image p9](../../assets/images/ce-pro/training-01/p009-img3.png)
 only selected ones will be converted.
 
+![Image p10](../../assets/images/ce-pro/training-01/p010-img1.png)
+
+![Image p10](../../assets/images/ce-pro/training-01/p010-img2.png)
+
+![Image p10](../../assets/images/ce-pro/training-01/p010-img3.png)
+
+![Image p10](../../assets/images/ce-pro/training-01/p010-img4.png)
+
+
+![Image p11](../../assets/images/ce-pro/training-01/p011-img1.png)
+
+![Image p11](../../assets/images/ce-pro/training-01/p011-img2.png)
 ---
 
+![Image p12](../../assets/images/ce-pro/training-01/p012-img1.png)
+
+
+![Image p13](../../assets/images/ce-pro/training-01/p013-img1.png)
+
+![Image p13](../../assets/images/ce-pro/training-01/p013-img2.png)
+
+![Image p13](../../assets/images/ce-pro/training-01/p013-img3.png)
+
+![Image p13](../../assets/images/ce-pro/training-01/p013-img4.png)
+
+![Image p13](../../assets/images/ce-pro/training-01/p013-img5.png)
 Environment Settings
 
 ---
@@ -121,84 +233,4 @@ Automate your GIS tasks
 Questions?
 www.cellular-expert.com
 
-![Screenshot p1](../../assets/images/ce-pro/training-01/p001-img1.png)
-
-![Screenshot p1](../../assets/images/ce-pro/training-01/p001-img2.png)
-
-![Screenshot p1](../../assets/images/ce-pro/training-01/p001-img3.png)
-
-
-![Screenshot p2](../../assets/images/ce-pro/training-01/p002-img1.png)
-![Screenshot p1](../../assets/images/ce-pro/training-01/p001-img1.png)
-
-![Screenshot p3](../../assets/images/ce-pro/training-01/p003-img1.png)
-
-
-![Screenshot p4](../../assets/images/ce-pro/training-01/p004-img1.png)
-![Screenshot p1](../../assets/images/ce-pro/training-01/p001-img2.png)
-
-![Screenshot p5](../../assets/images/ce-pro/training-01/p005-img1.png)
-
-
-![Screenshot p7](../../assets/images/ce-pro/training-01/p007-img1.png)
-
-![Screenshot p7](../../assets/images/ce-pro/training-01/p007-img2.png)
-![Screenshot p1](../../assets/images/ce-pro/training-01/p001-img3.png)
-
-![Screenshot p8](../../assets/images/ce-pro/training-01/p008-img1.png)
-
-
-![Screenshot p9](../../assets/images/ce-pro/training-01/p009-img1.png)
-
-![Screenshot p9](../../assets/images/ce-pro/training-01/p009-img2.png)
-
-
-![Screenshot p10](../../assets/images/ce-pro/training-01/p010-img1.png)
-
-![Screenshot p10](../../assets/images/ce-pro/training-01/p010-img2.png)
-![Screenshot p2](../../assets/images/ce-pro/training-01/p002-img1.png)
-
-![Screenshot p11](../../assets/images/ce-pro/training-01/p011-img1.png)
-
-![Screenshot p11](../../assets/images/ce-pro/training-01/p011-img2.png)
 ---
-
-![Screenshot p12](../../assets/images/ce-pro/training-01/p012-img1.png)
-
-
-![Screenshot p13](../../assets/images/ce-pro/training-01/p013-img1.png)
-
-![Screenshot p13](../../assets/images/ce-pro/training-01/p013-img2.png)
-
-![Screenshot p13](../../assets/images/ce-pro/training-01/p013-img3.png)
-![Screenshot p3](../../assets/images/ce-pro/training-01/p003-img1.png)
-
-![Screenshot p4](../../assets/images/ce-pro/training-01/p004-img1.png)
-
-![Screenshot p5](../../assets/images/ce-pro/training-01/p005-img1.png)
-
-![Screenshot p7](../../assets/images/ce-pro/training-01/p007-img1.png)
-
-![Screenshot p7](../../assets/images/ce-pro/training-01/p007-img2.png)
-
-![Screenshot p8](../../assets/images/ce-pro/training-01/p008-img1.png)
-
-![Screenshot p9](../../assets/images/ce-pro/training-01/p009-img1.png)
-
-![Screenshot p9](../../assets/images/ce-pro/training-01/p009-img2.png)
-
-![Screenshot p10](../../assets/images/ce-pro/training-01/p010-img1.png)
-
-![Screenshot p10](../../assets/images/ce-pro/training-01/p010-img2.png)
-
-![Screenshot p11](../../assets/images/ce-pro/training-01/p011-img1.png)
-
-![Screenshot p11](../../assets/images/ce-pro/training-01/p011-img2.png)
-
-![Screenshot p12](../../assets/images/ce-pro/training-01/p012-img1.png)
-
-![Screenshot p13](../../assets/images/ce-pro/training-01/p013-img1.png)
-
-![Screenshot p13](../../assets/images/ce-pro/training-01/p013-img2.png)
-
-![Screenshot p13](../../assets/images/ce-pro/training-01/p013-img3.png)

@@ -1,5 +1,11 @@
 # Geodata Requirements 2025
 
+![Image p1](../assets/images/geodata/geodata-requirements/p001-img1.png)
+
+![Image p1](../assets/images/geodata/geodata-requirements/p001-img2.png)
+
+![Image p1](../assets/images/geodata/geodata-requirements/p001-img3.png)
+
 > **Version:** CE Pro v4.9 / CE Express v7.2
 
 Cellular Expert Technical Documentation
@@ -40,7 +46,7 @@ By leveraging whatever data is available locally, CE Express performs nationwide
 maximum feasible resolution, accurately modeling signal propagation even in dense urban environments.
 Support for 3D multi-height calculations ensures that coverage predictions reflect street-level, indoor, and
 
-![Screenshot p3](../assets/images/geodata/geodata-requirements/p003-img1.png)
+![Image p3](../assets/images/geodata/geodata-requirements/p003-img1.png)
 rooftop conditions, providing regulators with a realistic representation of service availability.
 This flexibility ensures that customers can use their existing GIS assets, open datasets, or commercial data
 they already license, turning them into actionable broadband maps without additional data procurement
@@ -85,7 +91,27 @@ propagation pattern, including building-level shadowing and accurate street-by-s
 More information: https://blog.maxar.com/earth-intelligence/2022/benefits-of-using-maxars-precision3d-telco-suite-for-5g
 Cellular Expert can easily integrate and process 1 m or even sub-meter topographical data, providing highly
 
-![Screenshot p4](../assets/images/geodata/geodata-requirements/p004-img1.png)
+![Image p4](../assets/images/geodata/geodata-requirements/p004-img1.png)
+
+![Image p4](../assets/images/geodata/geodata-requirements/p004-img2.png)
+
+![Image p4](../assets/images/geodata/geodata-requirements/p004-img3.png)
+
+![Image p4](../assets/images/geodata/geodata-requirements/p004-img4.png)
+
+![Image p4](../assets/images/geodata/geodata-requirements/p004-img5.png)
+
+![Image p4](../assets/images/geodata/geodata-requirements/p004-img6.png)
+
+![Image p4](../assets/images/geodata/geodata-requirements/p004-img7.png)
+
+![Image p4](../assets/images/geodata/geodata-requirements/p004-img8.png)
+
+![Image p4](../assets/images/geodata/geodata-requirements/p004-img9.png)
+
+![Image p4](../assets/images/geodata/geodata-requirements/p004-img10.png)
+
+![Image p4](../assets/images/geodata/geodata-requirements/p004-img11.png)
 detailed RF calculations. This level of precision is essential for:
 - Modeling 2G/3G/4G/5G, small cells and [mmWave](#kw:56-step-8-losonly-prediction-for-mmwave:ce-express-tr-models) networks.
 - Identifying exact coverage gaps at the building and street level.
@@ -97,7 +123,9 @@ Cellular Expert Technical Documentation
 - Supporting regulatory-grade broadband mapping and planning.
 By using high-resolution terrain and clutter data, Cellular Expert ensures that its calculations match real-
 
-![Screenshot p5](../assets/images/geodata/geodata-requirements/p005-img1.png)
+![Image p5](../assets/images/geodata/geodata-requirements/p005-img1.png)
+
+![Image p5](../assets/images/geodata/geodata-requirements/p005-img2.png)
 world conditions as closely as possible — resulting in better network design decisions and more reliable
 broadband planning outcomes.
 2. Geographic data requirements
@@ -127,7 +155,7 @@ calculate.
 The raster must use a [Projected Coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) System. To check the coordinate system of your raster, use
 the Properties function in ArcGIS Pro. Add the raster to your project, right-click on it, and select Properties.
 
-![Screenshot p6](../assets/images/geodata/geodata-requirements/p006-img1.png)
+![Image p6](../assets/images/geodata/geodata-requirements/p006-img1.png)
 Then, go to the Source tab > Spatial Reference and check the Coordinate System type parameter to confirm
 it is in a [Projected Coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) System.
 2.1.2 Correct No Data value and raster name
@@ -146,9 +174,9 @@ Cellular Expert Technical Documentation
 Land use or clutter refers to the classification of the earth’s surface into categories such as urban, suburban,
 rural, forest, water, and open land, each of which affects radio propagation differently. Clutter data is crucial
 
-![Screenshot p7](../assets/images/geodata/geodata-requirements/p007-img1.png)
+![Image p7](../assets/images/geodata/geodata-requirements/p007-img1.png)
 
-![Screenshot p7](../assets/images/geodata/geodata-requirements/p007-img2.png)
+![Image p7](../assets/images/geodata/geodata-requirements/p007-img2.png)
 because it determines how signals are absorbed, reflected, or diffracted by the environment, directly
 influencing coverage, interference, and quality of service. The naming and classification of land use types
 may vary. An example is the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2
@@ -162,7 +190,7 @@ Cellular Expert Technical Documentation
 The raster must use a [Projected Coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) System. To check the coordinate system of your raster, use
 the Properties function in ArcGIS Pro. Add the raster to your project, right-click on it, and select Properties.
 
-![Screenshot p8](../assets/images/geodata/geodata-requirements/p008-img1.png)
+![Image p8](../assets/images/geodata/geodata-requirements/p008-img1.png)
 Then, go to the Source tab > Spatial Reference and check the Coordinate System type parameter to confirm
 it is in a Projected Coordinate System.
 2.2.2 Correct No Data value and raster name
@@ -185,9 +213,9 @@ independently.
 Cellular Expert Technical Documentation
 A clutter height raster can be derived from a Digital Surface Model (DSM) raster and a Digital Terrain Model
 
-![Screenshot p9](../assets/images/geodata/geodata-requirements/p009-img1.png)
+![Image p9](../assets/images/geodata/geodata-requirements/p009-img1.png)
 
-![Screenshot p9](../assets/images/geodata/geodata-requirements/p009-img2.png)
+![Image p9](../assets/images/geodata/geodata-requirements/p009-img2.png)
 (DTM) raster using the ArcGIS Raster Calculator tool.
 The calculation output will be the difference between the DSM and DTM grids, representing the clutter
 heights.
@@ -200,7 +228,7 @@ Cellular Expert Technical Documentation
 The raster must use a Projected Coordinate System. To check the coordinate system of your raster, use
 the Properties function in ArcGIS Pro. Add the raster to your project, right-click on it, and select Properties.
 
-![Screenshot p10](../assets/images/geodata/geodata-requirements/p010-img1.png)
+![Image p10](../assets/images/geodata/geodata-requirements/p010-img1.png)
 Then, go to the Source tab > Spatial Reference and check the Coordinate System type parameter to confirm
 it is in a Projected Coordinate System.
 2.3.2 Correct No Data value and raster name

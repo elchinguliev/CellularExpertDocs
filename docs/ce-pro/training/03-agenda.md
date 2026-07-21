@@ -1,16 +1,14 @@
 # 03. Agenda
 
-![Screenshot p1](../../assets/images/ce-pro/training-03/p001-img1.png)
+![Image p1](../../assets/images/ce-pro/training-03/p001-img1.png)
 
-![Screenshot p1](../../assets/images/ce-pro/training-03/p001-img2.png)
+![Image p1](../../assets/images/ce-pro/training-03/p001-img2.png)
 
-![Screenshot p1](../../assets/images/ce-pro/training-03/p001-img3.png)
+![Image p1](../../assets/images/ce-pro/training-03/p001-img3.png)
 
-![Screenshot p1](../../assets/images/ce-pro/training-03/p001-img1.png)
+![Image p1](../../assets/images/ce-pro/training-03/p001-img4.png)
 
-![Screenshot p1](../../assets/images/ce-pro/training-03/p001-img2.png)
-
-![Screenshot p1](../../assets/images/ce-pro/training-03/p001-img3.png)
+![Image p1](../../assets/images/ce-pro/training-03/p001-img5.png)
 
 > **Version:** CE Pro v4.9
 

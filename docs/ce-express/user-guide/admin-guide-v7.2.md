@@ -1,12 +1,40 @@
 # CE Express Administrator Guide v7.2
 
+![Image p1](../../assets/images/ce-express/admin-guide-v72/p001-img1.png)
+
+![Image p1](../../assets/images/ce-express/admin-guide-v72/p001-img2.png)
+
 > **Version:** CE Express v7.2
 
 Cellular Expert Express Administrator Guide 7.2
 
-![Screenshot p4](../../assets/images/ce-express/admin-guide-v72/p004-img1.png)
+![Image p4](../../assets/images/ce-express/admin-guide-v72/p004-img1.png)
 
-![Screenshot p4](../../assets/images/ce-express/admin-guide-v72/p004-img1.png)
+![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img1.png)
+
+![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img2.png)
+
+![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img3.png)
+
+![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img4.png)
+
+![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img5.png)
+
+![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img6.png)
+
+![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img7.png)
+
+![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img8.png)
+
+![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img9.png)
+
+![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img10.png)
+
+![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img11.png)
+
+![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img12.png)
+
+![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img13.png)
 Table of Contents
 1. System requirements 5
 
@@ -57,30 +85,6 @@ Confidential Cellular Expert, 2026 Page | 2
 ---
 
 Cellular Expert Express Administrator Guide 7.2
-
-![Screenshot p6](../../assets/images/ce-express/admin-guide-v72/p006-img1.png)
-
-![Screenshot p6](../../assets/images/ce-express/admin-guide-v72/p006-img2.png)
-
-![Screenshot p6](../../assets/images/ce-express/admin-guide-v72/p006-img3.png)
-
-![Screenshot p6](../../assets/images/ce-express/admin-guide-v72/p006-img4.png)
-
-![Screenshot p6](../../assets/images/ce-express/admin-guide-v72/p006-img5.png)
-
-![Screenshot p6](../../assets/images/ce-express/admin-guide-v72/p006-img6.png)
-
-![Screenshot p6](../../assets/images/ce-express/admin-guide-v72/p006-img1.png)
-
-![Screenshot p6](../../assets/images/ce-express/admin-guide-v72/p006-img2.png)
-
-![Screenshot p6](../../assets/images/ce-express/admin-guide-v72/p006-img3.png)
-
-![Screenshot p6](../../assets/images/ce-express/admin-guide-v72/p006-img4.png)
-
-![Screenshot p6](../../assets/images/ce-express/admin-guide-v72/p006-img5.png)
-
-![Screenshot p6](../../assets/images/ce-express/admin-guide-v72/p006-img6.png)
 3.1.1 General information 30
 3.1.2 Geographic data 31
 3.1.3 Antennas 40
@@ -253,49 +257,41 @@ Frontend
 (IIS+PHP)
 Confidential Cellular Expert, 2026 Page | 7
 
-![Screenshot p7](../../assets/images/ce-express/admin-guide-v72/p007-img1.png)
+![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img1.png)
 
-![Screenshot p7](../../assets/images/ce-express/admin-guide-v72/p007-img2.png)
+![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img2.png)
 
-![Screenshot p7](../../assets/images/ce-express/admin-guide-v72/p007-img3.png)
+![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img3.png)
 
-![Screenshot p7](../../assets/images/ce-express/admin-guide-v72/p007-img4.png)
+![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img4.png)
 
-![Screenshot p7](../../assets/images/ce-express/admin-guide-v72/p007-img5.png)
+![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img5.png)
 
-![Screenshot p7](../../assets/images/ce-express/admin-guide-v72/p007-img6.png)
+![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img6.png)
 
-![Screenshot p7](../../assets/images/ce-express/admin-guide-v72/p007-img7.png)
+![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img7.png)
 
-![Screenshot p7](../../assets/images/ce-express/admin-guide-v72/p007-img8.png)
+![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img8.png)
 
-![Screenshot p7](../../assets/images/ce-express/admin-guide-v72/p007-img9.png)
+![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img9.png)
 
-![Screenshot p7](../../assets/images/ce-express/admin-guide-v72/p007-img10.png)
+![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img10.png)
 
-![Screenshot p7](../../assets/images/ce-express/admin-guide-v72/p007-img11.png)
+![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img11.png)
 
-![Screenshot p7](../../assets/images/ce-express/admin-guide-v72/p007-img1.png)
+![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img12.png)
 
-![Screenshot p7](../../assets/images/ce-express/admin-guide-v72/p007-img2.png)
+![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img13.png)
 
-![Screenshot p7](../../assets/images/ce-express/admin-guide-v72/p007-img3.png)
+![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img14.png)
 
-![Screenshot p7](../../assets/images/ce-express/admin-guide-v72/p007-img4.png)
+![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img15.png)
 
-![Screenshot p7](../../assets/images/ce-express/admin-guide-v72/p007-img5.png)
+![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img16.png)
 
-![Screenshot p7](../../assets/images/ce-express/admin-guide-v72/p007-img6.png)
+![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img17.png)
 
-![Screenshot p7](../../assets/images/ce-express/admin-guide-v72/p007-img7.png)
-
-![Screenshot p7](../../assets/images/ce-express/admin-guide-v72/p007-img8.png)
-
-![Screenshot p7](../../assets/images/ce-express/admin-guide-v72/p007-img9.png)
-
-![Screenshot p7](../../assets/images/ce-express/admin-guide-v72/p007-img10.png)
-
-![Screenshot p7](../../assets/images/ce-express/admin-guide-v72/p007-img11.png)
+![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img18.png)
 SPTTH
 
 ---
@@ -433,9 +429,7 @@ Example: session.gc_maxlifetime=43500
 2.2.3.2 IIS configuration for PHP
 If the IIS is installed on the server, double-check if the CGI feature is installed. If the CGI feature isn’t
 
-![Screenshot p11](../../assets/images/ce-express/admin-guide-v72/p011-img1.png)
-
-![Screenshot p11](../../assets/images/ce-express/admin-guide-v72/p011-img1.png)
+![Image p11](../../assets/images/ce-express/admin-guide-v72/p011-img1.png)
 installed open the Server Manager and:
  Select Manage > Add roles and features
  Select Role Webserver (IIS) > Application Development > check CGI
@@ -472,13 +466,9 @@ folder "ceexp" needs to be created manually if it doesn't exist.
  Enter Portal for ArcGIS URL.
  Enter Portal for ArcGIS username, which will be used to login into CE Express. The same user will
 
-![Screenshot p12](../../assets/images/ce-express/admin-guide-v72/p012-img1.png)
+![Image p12](../../assets/images/ce-express/admin-guide-v72/p012-img1.png)
 
-![Screenshot p12](../../assets/images/ce-express/admin-guide-v72/p012-img2.png)
-
-![Screenshot p12](../../assets/images/ce-express/admin-guide-v72/p012-img1.png)
-
-![Screenshot p12](../../assets/images/ce-express/admin-guide-v72/p012-img2.png)
+![Image p12](../../assets/images/ce-express/admin-guide-v72/p012-img2.png)
 be assigned to the administrator group.
  Enter CE Express server hostname. Use FQDN or leave “localhost” if SSL is not enabled.
  Enter CE express server port. It could be changed if 6062 will be occupied after verification.
@@ -493,13 +483,9 @@ Cellular Expert Express Administrator Guide 7.2
 2.3.4 Prepare CE Express server DB configuration.
  Enter the hostname of PostgreSQL database. If the database is on the same server, could be left
 
-![Screenshot p13](../../assets/images/ce-express/admin-guide-v72/p013-img1.png)
+![Image p13](../../assets/images/ce-express/admin-guide-v72/p013-img1.png)
 
-![Screenshot p13](../../assets/images/ce-express/admin-guide-v72/p013-img2.png)
-
-![Screenshot p13](../../assets/images/ce-express/admin-guide-v72/p013-img1.png)
-
-![Screenshot p13](../../assets/images/ce-express/admin-guide-v72/p013-img2.png)
+![Image p13](../../assets/images/ce-express/admin-guide-v72/p013-img2.png)
 “localhost”.
  Enter the port of the PostgreSQL database. Usually, it is 5432.
  Enter admin user of PostgreSQL database. Usually, it is “postgres”.
@@ -513,17 +499,13 @@ Confidential Cellular Expert, 2026 Page | 13
 Cellular Expert Express Administrator Guide 7.2
 If a database schema named "ce_express" exists, you will be notified during the installation process. In
 
-![Screenshot p14](../../assets/images/ce-express/admin-guide-v72/p014-img1.png)
+![Image p14](../../assets/images/ce-express/admin-guide-v72/p014-img1.png)
 
-![Screenshot p14](../../assets/images/ce-express/admin-guide-v72/p014-img2.png)
+![Image p14](../../assets/images/ce-express/admin-guide-v72/p014-img2.png)
 
-![Screenshot p14](../../assets/images/ce-express/admin-guide-v72/p014-img3.png)
+![Image p14](../../assets/images/ce-express/admin-guide-v72/p014-img3.png)
 
-![Screenshot p14](../../assets/images/ce-express/admin-guide-v72/p014-img1.png)
-
-![Screenshot p14](../../assets/images/ce-express/admin-guide-v72/p014-img2.png)
-
-![Screenshot p14](../../assets/images/ce-express/admin-guide-v72/p014-img3.png)
+![Image p14](../../assets/images/ce-express/admin-guide-v72/p014-img4.png)
 such a case, the tables will be copied with the postfix "_date" to avoid conflicts:
  Click “Next”. Installation will continue till finish:
 2.3.5 Check Installation and the licence of the CE Express software.
@@ -540,17 +522,11 @@ http://CE_express_hostname/ceexpressfrontenfolder/?admin=true
  Send the obtained file to Cellular Expert support.
  Once you receive the license file, apply it by either clicking on the "Import License File" section or
 
-![Screenshot p15](../../assets/images/ce-express/admin-guide-v72/p015-img1.png)
+![Image p15](../../assets/images/ce-express/admin-guide-v72/p015-img1.png)
 
-![Screenshot p15](../../assets/images/ce-express/admin-guide-v72/p015-img2.png)
+![Image p15](../../assets/images/ce-express/admin-guide-v72/p015-img2.png)
 
-![Screenshot p15](../../assets/images/ce-express/admin-guide-v72/p015-img3.png)
-
-![Screenshot p15](../../assets/images/ce-express/admin-guide-v72/p015-img1.png)
-
-![Screenshot p15](../../assets/images/ce-express/admin-guide-v72/p015-img2.png)
-
-![Screenshot p15](../../assets/images/ce-express/admin-guide-v72/p015-img3.png)
+![Image p15](../../assets/images/ce-express/admin-guide-v72/p015-img3.png)
 by dragging and dropping the file into that section:
 Note: The browser could always redirect to https instead of using http. The administrator needs to include
 the URL of CE Express to the insecure content list. It could be done using the browser’s settings:
@@ -579,9 +555,9 @@ To "ceApiUrl": "https://[CE_express_hostname]:6062"
 The “Coordinator” service must be started the last.
 When SSL is enabled use https protocol to access the CE Express application
 
-![Screenshot p16](../../assets/images/ce-express/admin-guide-v72/p016-img1.png)
+![Image p16](../../assets/images/ce-express/admin-guide-v72/p016-img1.png)
 
-![Screenshot p16](../../assets/images/ce-express/admin-guide-v72/p016-img1.png)
+![Image p16](../../assets/images/ce-express/admin-guide-v72/p016-img2.png)
 https://CE_express_hostname/ceexpressfrontenfolder (Example: https://localhost/ceexp ).
 2.3.7 Configure CE Express to publish objects to the Portal for ArcGIS (optional)
 2.3.7.1 Option: Arcgis Server without Image Server
@@ -601,13 +577,9 @@ required for publishing:
 USERNAME and PASSWORD are Portal’s for Arcgis user's username and password. This user will be
 used to publish, and the published objects (raster or features) will be visible under this user's content.
 
-![Screenshot p17](../../assets/images/ce-express/admin-guide-v72/p017-img1.png)
+![Image p17](../../assets/images/ce-express/admin-guide-v72/p017-img1.png)
 
-![Screenshot p17](../../assets/images/ce-express/admin-guide-v72/p017-img2.png)
-
-![Screenshot p17](../../assets/images/ce-express/admin-guide-v72/p017-img1.png)
-
-![Screenshot p17](../../assets/images/ce-express/admin-guide-v72/p017-img2.png)
+![Image p17](../../assets/images/ce-express/admin-guide-v72/p017-img2.png)
  Restart Windows services. The “Coordinator” service must be started last.
 2.3.7.2 Option: Arcgis Server with Image Server
  Edit C:\Program Files\Cellular Expert\Express\config.json and change the two (2) parameters
@@ -625,6 +597,8 @@ Confidential Cellular Expert, 2026 Page | 17
 Cellular Expert Express Administrator Guide 7.2
 2.3.8 Configure CE Express to send notifications (optional)
 You can enable email notifications to alert recipients when changes occur in the database. This feature is
+
+![Image p18](../../assets/images/ce-express/admin-guide-v72/p018-img1.png)
 managed through the configuration file.
  Open the configuration file C:\Program Files\Cellular Expert\Express\config.json
  Locate and edit the following parameters to match your email service or SMTP server settings:
@@ -665,17 +639,11 @@ The folder “ceexp_server” is required for Inventory3D logics.
 The folder “ceexp_db” is the Inventory3D folder described below.
 The “ceexp” folder is already created under C:\inetpub\wwwroot during CE Express setup (section
 
-![Screenshot p19](../../assets/images/ce-express/admin-guide-v72/p019-img1.png)
+![Image p19](../../assets/images/ce-express/admin-guide-v72/p019-img1.png)
 
-![Screenshot p19](../../assets/images/ce-express/admin-guide-v72/p019-img2.png)
+![Image p19](../../assets/images/ce-express/admin-guide-v72/p019-img2.png)
 
-![Screenshot p19](../../assets/images/ce-express/admin-guide-v72/p019-img3.png)
-
-![Screenshot p19](../../assets/images/ce-express/admin-guide-v72/p019-img1.png)
-
-![Screenshot p19](../../assets/images/ce-express/admin-guide-v72/p019-img2.png)
-
-![Screenshot p19](../../assets/images/ce-express/admin-guide-v72/p019-img3.png)
+![Image p19](../../assets/images/ce-express/admin-guide-v72/p019-img3.png)
 2.3.3).
 2.3.11 Webapplication in Portal for ArcGIS
 It is a required webapplication in Portal for ArcGIS to use ArcGIS login in the Inventory3D.
@@ -697,17 +665,13 @@ Cellular Expert Express Administrator Guide 7.2
 Example of “ceexp_db” folder structure:
 Confidential Cellular Expert, 2026 Page | 20
 
-![Screenshot p20](../../assets/images/ce-express/admin-guide-v72/p020-img1.png)
+![Image p20](../../assets/images/ce-express/admin-guide-v72/p020-img1.png)
 
-![Screenshot p20](../../assets/images/ce-express/admin-guide-v72/p020-img2.png)
+![Image p20](../../assets/images/ce-express/admin-guide-v72/p020-img2.png)
 
-![Screenshot p20](../../assets/images/ce-express/admin-guide-v72/p020-img3.png)
+![Image p20](../../assets/images/ce-express/admin-guide-v72/p020-img3.png)
 
-![Screenshot p20](../../assets/images/ce-express/admin-guide-v72/p020-img1.png)
-
-![Screenshot p20](../../assets/images/ce-express/admin-guide-v72/p020-img2.png)
-
-![Screenshot p20](../../assets/images/ce-express/admin-guide-v72/p020-img3.png)
+![Image p20](../../assets/images/ce-express/admin-guide-v72/p020-img4.png)
 
 ---
 
@@ -717,6 +681,8 @@ Folders “images” or “data” – for attachments and images taken from mob
 Folder “deleted” – for files that were attached to objects and have been removed by a user with the Remove
 Record Tool
 Folder “logs” – here log files will be created for debugging, and debugging will be enabled in the conf.inc
+
+![Image p21](../../assets/images/ce-express/admin-guide-v72/p021-img1.png)
 file
 Folder “exporttemplates” – for configuration files for creating
 Folder “plugins” – for CE Inventory3D plugins like “Map”
@@ -730,25 +696,15 @@ Cellular Expert Express Administrator Guide 7.2
 Folder “thumbs” – for the thumb image files
 File “conf.inc “ – configuration file. This file is very important and contains the credentials for the connection
 
-![Screenshot p22](../../assets/images/ce-express/admin-guide-v72/p022-img1.png)
+![Image p22](../../assets/images/ce-express/admin-guide-v72/p022-img1.png)
 
-![Screenshot p22](../../assets/images/ce-express/admin-guide-v72/p022-img2.png)
+![Image p22](../../assets/images/ce-express/admin-guide-v72/p022-img2.png)
 
-![Screenshot p22](../../assets/images/ce-express/admin-guide-v72/p022-img3.png)
+![Image p22](../../assets/images/ce-express/admin-guide-v72/p022-img3.png)
 
-![Screenshot p22](../../assets/images/ce-express/admin-guide-v72/p022-img4.png)
+![Image p22](../../assets/images/ce-express/admin-guide-v72/p022-img4.png)
 
-![Screenshot p22](../../assets/images/ce-express/admin-guide-v72/p022-img5.png)
-
-![Screenshot p22](../../assets/images/ce-express/admin-guide-v72/p022-img1.png)
-
-![Screenshot p22](../../assets/images/ce-express/admin-guide-v72/p022-img2.png)
-
-![Screenshot p22](../../assets/images/ce-express/admin-guide-v72/p022-img3.png)
-
-![Screenshot p22](../../assets/images/ce-express/admin-guide-v72/p022-img4.png)
-
-![Screenshot p22](../../assets/images/ce-express/admin-guide-v72/p022-img5.png)
+![Image p22](../../assets/images/ce-express/admin-guide-v72/p022-img5.png)
 to the database as well as other important information related to the database. The credentials can be
 changed according to the database server information.
 Confidential Cellular Expert, 2026 Page | 22
@@ -793,9 +749,7 @@ Confidential Cellular Expert, 2026 Page | 23
 Cellular Expert Express Administrator Guide 7.2
 Confidential Cellular Expert, 2026 Page | 24
 
-![Screenshot p24](../../assets/images/ce-express/admin-guide-v72/p024-img1.png)
-
-![Screenshot p24](../../assets/images/ce-express/admin-guide-v72/p024-img1.png)
+![Image p24](../../assets/images/ce-express/admin-guide-v72/p024-img1.png)
 
 ---
 
@@ -812,9 +766,7 @@ inv3d_system – means that the admin can access the table from “System_tables
 level – the level in which the table should appear in the application. The table with level 0 will appear in the
 first level. The table with level 1 will appear in the second level records will be child records of a table from
 
-![Screenshot p25](../../assets/images/ce-express/admin-guide-v72/p025-img1.png)
-
-![Screenshot p25](../../assets/images/ce-express/admin-guide-v72/p025-img1.png)
+![Image p25](../../assets/images/ce-express/admin-guide-v72/p025-img1.png)
 level 0 and described in the column “parent_name”.
 Example for a database schema:
 id table_name parent_name level
@@ -907,6 +859,10 @@ The first access of the application will show that the application is unlicenced
 To obtain a licence use such php script:
 http(s)://{your_web_server_url}/ceexp_db/licence.php
 It will generate a request key. Copy the provided information with the request key and send it to Cellular
+
+![Image p28](../../assets/images/ce-express/admin-guide-v72/p028-img1.png)
+
+![Image p28](../../assets/images/ce-express/admin-guide-v72/p028-img2.png)
 Expert (support@cellular-expert.com) to get a licence key:
 After receiving the licence key, use the following script:
 http(s)://{your_web_server_url}/ceexp_db/licence.php?serial=[LICENCE_KEY]
@@ -936,13 +892,9 @@ management tool (example pgadmin) and check in the “ceauth_user_info” table.
 
 In this chapter, you will find a description of the geographical file types that are used in Cellular Expert. Use
 
-![Screenshot p29](../../assets/images/ce-express/admin-guide-v72/p029-img1.png)
+![Image p29](../../assets/images/ce-express/admin-guide-v72/p029-img1.png)
 
-![Screenshot p29](../../assets/images/ce-express/admin-guide-v72/p029-img2.png)
-
-![Screenshot p29](../../assets/images/ce-express/admin-guide-v72/p029-img1.png)
-
-![Screenshot p29](../../assets/images/ce-express/admin-guide-v72/p029-img2.png)
+![Image p29](../../assets/images/ce-express/admin-guide-v72/p029-img2.png)
 the “Geodata sets” tool to upload all the required data to the CE Express:
 Confidential Cellular Expert, 2026 Page | 29
 
@@ -967,9 +919,7 @@ Sometimes users may have the Digital Surface Model (DSM) elevation data to repre
 The DSM is usually obtained by air-based scanning of surface of the Earth that cannot distinguish between
 the actual terrain level and the elevation due to buildings, forests, or other types of ground cover. The well
 
-![Screenshot p30](../../assets/images/ce-express/admin-guide-v72/p030-img1.png)
-
-![Screenshot p30](../../assets/images/ce-express/admin-guide-v72/p030-img1.png)
+![Image p30](../../assets/images/ce-express/admin-guide-v72/p030-img1.png)
 known and widely available sets of global DSM data include the USGS SRTM-1 and SRTM-3 as well as
 ASTER. Although a single path profile layer with DSM data could be used to model radio wave propagation,
 the path loss model will interpret it as a pure DTM, i.e., as if representing the homogeneous (and
@@ -1010,9 +960,7 @@ ground level above sea level. Each raster pixel has its height value.
 A sample DTM raster is presented below. Each pixel represents 5 square meters with its height value. In
 reality, within a one-pixel area, the height is not the same everywhere. Thus, the pixel’s height value is the
 
-![Screenshot p31](../../assets/images/ce-express/admin-guide-v72/p031-img1.png)
-
-![Screenshot p31](../../assets/images/ce-express/admin-guide-v72/p031-img1.png)
+![Image p31](../../assets/images/ce-express/admin-guide-v72/p031-img1.png)
 height in its center or the maximum. The smaller the pixels, the more accurate is the grid - but also more
 data to calculate.
 Confidential Cellular Expert, 2026 Page | 31
@@ -1025,13 +973,11 @@ Prepare DTM raster
 The raster must use a [Projected Coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) System. To check the coordinate system of your raster, use
 the Properties function in ArcGIS Pro. Add the raster to your project, right-click on it, and select Properties.
 
-![Screenshot p32](../../assets/images/ce-express/admin-guide-v72/p032-img1.png)
+![Image p32](../../assets/images/ce-express/admin-guide-v72/p032-img1.png)
 
-![Screenshot p32](../../assets/images/ce-express/admin-guide-v72/p032-img2.png)
+![Image p32](../../assets/images/ce-express/admin-guide-v72/p032-img2.png)
 
-![Screenshot p32](../../assets/images/ce-express/admin-guide-v72/p032-img1.png)
-
-![Screenshot p32](../../assets/images/ce-express/admin-guide-v72/p032-img2.png)
+![Image p32](../../assets/images/ce-express/admin-guide-v72/p032-img3.png)
 Then, go to the Source tab > Spatial Reference and check the Coordinate System type parameter to confirm
 it is in a [Projected Coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) System.
 If your raster is in a Geographic Coordinate System or needs a different projection, use the Geoprocessing
@@ -1043,9 +989,7 @@ Confidential Cellular Expert, 2026 Page | 32
 Cellular Expert Express Administrator Guide 7.2
 In the Output Coordinate System, specify a new coordinate system. It is recommended to use a [UTM](#kw:what-is-a-projected-crs:ce-express-geodata)
 
-![Screenshot p33](../../assets/images/ce-express/admin-guide-v72/p033-img1.png)
-
-![Screenshot p33](../../assets/images/ce-express/admin-guide-v72/p033-img1.png)
+![Image p33](../../assets/images/ce-express/admin-guide-v72/p033-img1.png)
 coordinate system under the WGS 1984 projection.
 Confidential Cellular Expert, 2026 Page | 33
 
@@ -1057,13 +1001,9 @@ https://www.arcgis.com/apps/mapviewer/index.html?layers=b294795270aa4fb3bd25286b
 3.1.2.2 [Clutter classes](#kw:clutter-classification-values:ce-express-geodata) grid
 This raster type provides information about land use. The naming and classification of land use types may
 
-![Screenshot p34](../../assets/images/ce-express/admin-guide-v72/p034-img1.png)
+![Image p34](../../assets/images/ce-express/admin-guide-v72/p034-img1.png)
 
-![Screenshot p34](../../assets/images/ce-express/admin-guide-v72/p034-img2.png)
-
-![Screenshot p34](../../assets/images/ce-express/admin-guide-v72/p034-img1.png)
-
-![Screenshot p34](../../assets/images/ce-express/admin-guide-v72/p034-img2.png)
+![Image p34](../../assets/images/ce-express/admin-guide-v72/p034-img2.png)
 vary. An example is the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2 Land
 Cover
 Confidential Cellular Expert, 2026 Page | 34
@@ -1076,13 +1016,11 @@ Prepare [Clutter Classes](#kw:clutter-classification-values:ce-express-geodata) 
 3.1.2.2.1.1 Projection
 It must have the same coordinate system as your elevation.tif raster. If your raster has different coordinate
 
-![Screenshot p35](../../assets/images/ce-express/admin-guide-v72/p035-img1.png)
+![Image p35](../../assets/images/ce-express/admin-guide-v72/p035-img1.png)
 
-![Screenshot p35](../../assets/images/ce-express/admin-guide-v72/p035-img2.png)
+![Image p35](../../assets/images/ce-express/admin-guide-v72/p035-img2.png)
 
-![Screenshot p35](../../assets/images/ce-express/admin-guide-v72/p035-img1.png)
-
-![Screenshot p35](../../assets/images/ce-express/admin-guide-v72/p035-img2.png)
+![Image p35](../../assets/images/ce-express/admin-guide-v72/p035-img3.png)
 system, then use the Geoprocessing tool → [Project Raster](#kw:33-project-raster:ce-express-tr-geodata) to fix it.
 Confidential Cellular Expert, 2026 Page | 35
 
@@ -1091,13 +1029,9 @@ Confidential Cellular Expert, 2026 Page | 35
 Cellular Expert Express Administrator Guide 7.2
 In the Output Coordinate System you would need to define the same coordinate system as your elevation.tif
 
-![Screenshot p36](../../assets/images/ce-express/admin-guide-v72/p036-img1.png)
+![Image p36](../../assets/images/ce-express/admin-guide-v72/p036-img1.png)
 
-![Screenshot p36](../../assets/images/ce-express/admin-guide-v72/p036-img2.png)
-
-![Screenshot p36](../../assets/images/ce-express/admin-guide-v72/p036-img1.png)
-
-![Screenshot p36](../../assets/images/ce-express/admin-guide-v72/p036-img2.png)
+![Image p36](../../assets/images/ce-express/admin-guide-v72/p036-img2.png)
 raster. Click on Select Coordinate System button.
 And choose the same coordinate system as your elevation.tif.
 3.1.2.3 Clutter height
@@ -1110,9 +1044,7 @@ Confidential Cellular Expert, 2026 Page | 36
 Cellular Expert Express Administrator Guide 7.2
 A clutter height raster can be derived from a Digital Surface Model (DSM) raster and a Digital Terrain Model
 
-![Screenshot p37](../../assets/images/ce-express/admin-guide-v72/p037-img1.png)
-
-![Screenshot p37](../../assets/images/ce-express/admin-guide-v72/p037-img1.png)
+![Image p37](../../assets/images/ce-express/admin-guide-v72/p037-img1.png)
 (DTM) raster using the ArcGIS Raster Calculator tool. To access this tool, open Geoprocessing tools and
 navigate to Spatial Analyst > Map Algebra > Raster Calculator. Use the following formula:
 DSM – DTM
@@ -1127,9 +1059,9 @@ Prepare Clutter Height raster
 3.1.2.3.1.1 Projection
 It must have the same coordinate system as your elevation.tif raster. If your raster has different coordinate
 
-![Screenshot p38](../../assets/images/ce-express/admin-guide-v72/p038-img1.png)
+![Image p38](../../assets/images/ce-express/admin-guide-v72/p038-img1.png)
 
-![Screenshot p38](../../assets/images/ce-express/admin-guide-v72/p038-img1.png)
+![Image p38](../../assets/images/ce-express/admin-guide-v72/p038-img2.png)
 system, then use the Geoprocessing tool → Project Raster to fix it.
 Confidential Cellular Expert, 2026 Page | 38
 
@@ -1138,13 +1070,9 @@ Confidential Cellular Expert, 2026 Page | 38
 Cellular Expert Express Administrator Guide 7.2
 In the Output Coordinate System you would need to define the same coordinate system as your elevation.tif
 
-![Screenshot p39](../../assets/images/ce-express/admin-guide-v72/p039-img1.png)
+![Image p39](../../assets/images/ce-express/admin-guide-v72/p039-img1.png)
 
-![Screenshot p39](../../assets/images/ce-express/admin-guide-v72/p039-img2.png)
-
-![Screenshot p39](../../assets/images/ce-express/admin-guide-v72/p039-img1.png)
-
-![Screenshot p39](../../assets/images/ce-express/admin-guide-v72/p039-img2.png)
+![Image p39](../../assets/images/ce-express/admin-guide-v72/p039-img2.png)
 raster. Click on Select Coordinate System button.
 And choose the same coordinate system as your elevation.tif.
 Confidential Cellular Expert, 2026 Page | 39
@@ -1156,13 +1084,9 @@ Cellular Expert Express Administrator Guide 7.2
 The [Antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) files in .txt format should be prepared and could be imported into the CE database
 using the CE Express antenna import tool. The CE Express application uses the Planet [antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna)
 
-![Screenshot p40](../../assets/images/ce-express/admin-guide-v72/p040-img1.png)
+![Image p40](../../assets/images/ce-express/admin-guide-v72/p040-img1.png)
 
-![Screenshot p40](../../assets/images/ce-express/admin-guide-v72/p040-img2.png)
-
-![Screenshot p40](../../assets/images/ce-express/admin-guide-v72/p040-img1.png)
-
-![Screenshot p40](../../assets/images/ce-express/admin-guide-v72/p040-img2.png)
+![Image p40](../../assets/images/ce-express/admin-guide-v72/p040-img2.png)
 format. This format consists of a header, horizontal and vertical records. Example:
 After import of the antenna, the antenna id could be used in the cells data table.
 Confidential Cellular Expert, 2026 Page | 40
@@ -1175,9 +1099,9 @@ Cellular Expert Express Administrator Guide 7.2
 
 To create a new workspace using start CE Express using URL
 
-![Screenshot p41](../../assets/images/ce-express/admin-guide-v72/p041-img1.png)
+![Image p41](../../assets/images/ce-express/admin-guide-v72/p041-img1.png)
 
-![Screenshot p41](../../assets/images/ce-express/admin-guide-v72/p041-img1.png)
+![Image p41](../../assets/images/ce-express/admin-guide-v72/p041-img2.png)
 http://CE_express_hostname/ceexpressfrontenfolder
 (Example: http://localhost/ceexp )
  Login as user with administrator rights (user provided during setup)
@@ -1202,6 +1126,10 @@ Antennas or cells for the new workspace could be loaded using CE Express environ
 
 Columns can be designed in a way that their record contents do not have to be entered by hand but are
 chosen from a list of defaults, eg active/inactive or planned/active/closed. To do so, click on a column
+
+![Image p42](../../assets/images/ce-express/admin-guide-v72/p042-img1.png)
+
+![Image p42](../../assets/images/ce-express/admin-guide-v72/p042-img2.png)
 header, and select “Set defaults” from the dropdown menu. A new window opens with the currently active
 default values. Enter at least 2 defaults and click OK.
 
@@ -1226,6 +1154,12 @@ Click “here” to open a new window with the PDF report.
 The report configuration including the text with the header, description and/or signature field can be
 configured by the administrator in the template json file.
 If there are errors in the template json file and the json syntax is invalid, the webapp application will inform
+
+![Image p43](../../assets/images/ce-express/admin-guide-v72/p043-img1.png)
+
+![Image p43](../../assets/images/ce-express/admin-guide-v72/p043-img2.png)
+
+![Image p43](../../assets/images/ce-express/admin-guide-v72/p043-img3.png)
 the user:
 
 ## 4.3 Run script
@@ -1263,13 +1197,9 @@ The Partial Import feature allows to add records to an already existing table.
 If the checkbox "Partial import” is ticked, the imported records will be added to the defined table:
 Confidential Cellular Expert, 2026 Page | 44
 
-![Screenshot p44](../../assets/images/ce-express/admin-guide-v72/p044-img1.png)
+![Image p44](../../assets/images/ce-express/admin-guide-v72/p044-img1.png)
 
-![Screenshot p44](../../assets/images/ce-express/admin-guide-v72/p044-img2.png)
-
-![Screenshot p44](../../assets/images/ce-express/admin-guide-v72/p044-img1.png)
-
-![Screenshot p44](../../assets/images/ce-express/admin-guide-v72/p044-img2.png)
+![Image p44](../../assets/images/ce-express/admin-guide-v72/p044-img2.png)
 
 ---
 
@@ -1282,17 +1212,13 @@ Select an object and click on the “History” button from the “Settings” m
 The log tab will open. It shows when an object’s parameter was changed and what was changed:
 If no object is selected and the “History” button is clicked, all actions made within the application are shown:
 
-![Screenshot p45](../../assets/images/ce-express/admin-guide-v72/p045-img1.png)
+![Image p45](../../assets/images/ce-express/admin-guide-v72/p045-img1.png)
 
-![Screenshot p45](../../assets/images/ce-express/admin-guide-v72/p045-img2.png)
+![Image p45](../../assets/images/ce-express/admin-guide-v72/p045-img2.png)
 
-![Screenshot p45](../../assets/images/ce-express/admin-guide-v72/p045-img3.png)
+![Image p45](../../assets/images/ce-express/admin-guide-v72/p045-img3.png)
 
-![Screenshot p45](../../assets/images/ce-express/admin-guide-v72/p045-img1.png)
-
-![Screenshot p45](../../assets/images/ce-express/admin-guide-v72/p045-img2.png)
-
-![Screenshot p45](../../assets/images/ce-express/admin-guide-v72/p045-img3.png)
+![Image p45](../../assets/images/ce-express/admin-guide-v72/p045-img4.png)
 Confidential Cellular Expert, 2026 Page | 45
 
 ---
@@ -1309,6 +1235,16 @@ User groups:
 A new user group can be added by clicking on (Note that new users are added only directly in the
 database)
 For editing user group restrictions, enter the edit mode in the column “Restrictions”. For example, for editing
+
+![Image p46](../../assets/images/ce-express/admin-guide-v72/p046-img1.png)
+
+![Image p46](../../assets/images/ce-express/admin-guide-v72/p046-img2.png)
+
+![Image p46](../../assets/images/ce-express/admin-guide-v72/p046-img3.png)
+
+![Image p46](../../assets/images/ce-express/admin-guide-v72/p046-img4.png)
+
+![Image p46](../../assets/images/ce-express/admin-guide-v72/p046-img5.png)
 the restrictions of the group “users” hold the ctrl key and right mouse click here:
 a) Restricting access of the group “users” to all tables
 Determine the visibility/editability of newly added items here:
@@ -1320,6 +1256,10 @@ Cellular Expert Express Administrator Guide 7.2
 Select one of the three options from the dropdown menu:
 Everybody: New items are visible / editable for everybody
 User group: New items are visible / editable for the members of the group “users” (note: the users in a
+
+![Image p47](../../assets/images/ce-express/admin-guide-v72/p047-img1.png)
+
+![Image p47](../../assets/images/ce-express/admin-guide-v72/p047-img2.png)
 group may change and restrictions to all elements are inherited)
 User: New items are visible / editable only for the user who created them
 Determine the access of the group “users” here:
@@ -1333,6 +1273,10 @@ Restrict: Enables restrictions posed by other groups
 Read: Enables the members of the group “users” to view items
 Modify: Enables the members of the group “users” to view and edit items
 Note that the selection “access for this group” may override the per item access rights. For the
+
+![Image p48](../../assets/images/ce-express/admin-guide-v72/p048-img1.png)
+
+![Image p48](../../assets/images/ce-express/admin-guide-v72/p048-img2.png)
 restrictions posed by other groups, this value must be set to “Restrict”.
 b) Restricting access of the group “users” to selected tables and attributes
 For example, table “checklist”:
@@ -1344,9 +1288,17 @@ Cellular Expert Express Administrator Guide 7.2
 Edit restrictions of the group “users” for table “checklist”:
 Choose option “entire table” or select the attributes that shall be restricted. Using the eye and lock symbols,
 
-![Screenshot p49](../../assets/images/ce-express/admin-guide-v72/p049-img1.png)
+![Image p49](../../assets/images/ce-express/admin-guide-v72/p049-img1.png)
 
-![Screenshot p49](../../assets/images/ce-express/admin-guide-v72/p049-img1.png)
+![Image p49](../../assets/images/ce-express/admin-guide-v72/p049-img2.png)
+
+![Image p49](../../assets/images/ce-express/admin-guide-v72/p049-img3.png)
+
+![Image p49](../../assets/images/ce-express/admin-guide-v72/p049-img4.png)
+
+![Image p49](../../assets/images/ce-express/admin-guide-v72/p049-img5.png)
+
+![Image p49](../../assets/images/ce-express/admin-guide-v72/p049-img6.png)
 restrictions can be set for visibility and editability:
 visible invisible
 editable not editable
@@ -1359,13 +1311,9 @@ Cellular Expert Express Administrator Guide 7.2
 Choose from dropdown menu:
 Confidential Cellular Expert, 2026 Page | 50
 
-![Screenshot p50](../../assets/images/ce-express/admin-guide-v72/p050-img1.png)
+![Image p50](../../assets/images/ce-express/admin-guide-v72/p050-img1.png)
 
-![Screenshot p50](../../assets/images/ce-express/admin-guide-v72/p050-img2.png)
-
-![Screenshot p50](../../assets/images/ce-express/admin-guide-v72/p050-img1.png)
-
-![Screenshot p50](../../assets/images/ce-express/admin-guide-v72/p050-img2.png)
+![Image p50](../../assets/images/ce-express/admin-guide-v72/p050-img2.png)
 
 ---
 
@@ -1409,13 +1357,13 @@ directly from the webapplication.
 Users can remove objects from the database, but only an administrator can delete a removed object
 permanently. When a user removes an object, said object is marked as strikethrough. Administrators delete
 
-![Screenshot p52](../../assets/images/ce-express/admin-guide-v72/p052-img1.png)
+![Image p52](../../assets/images/ce-express/admin-guide-v72/p052-img1.png)
 
-![Screenshot p52](../../assets/images/ce-express/admin-guide-v72/p052-img2.png)
+![Image p52](../../assets/images/ce-express/admin-guide-v72/p052-img2.png)
 
-![Screenshot p52](../../assets/images/ce-express/admin-guide-v72/p052-img1.png)
+![Image p52](../../assets/images/ce-express/admin-guide-v72/p052-img3.png)
 
-![Screenshot p52](../../assets/images/ce-express/admin-guide-v72/p052-img2.png)
+![Image p52](../../assets/images/ce-express/admin-guide-v72/p052-img4.png)
 the object permanently by selecting the strikethrough object and clicking :
 
 ## 4.9 Restore deleted image
@@ -1436,9 +1384,11 @@ Therefore, administrators may add table or column aliases, and those aliases wil
 application.
 For this feature to work it is required that the administrator has configured the System Table inv3d_aliases:
 
-![Screenshot p53](../../assets/images/ce-express/admin-guide-v72/p053-img1.png)
+![Image p53](../../assets/images/ce-express/admin-guide-v72/p053-img1.png)
 
-![Screenshot p53](../../assets/images/ce-express/admin-guide-v72/p053-img1.png)
+![Image p53](../../assets/images/ce-express/admin-guide-v72/p053-img2.png)
+
+![Image p53](../../assets/images/ce-express/admin-guide-v72/p053-img3.png)
 Table inv3d_aliases comprises the columns table_name, field_name, table_alias and field_alias.
 
 ## 4.11 Reset password
@@ -1453,6 +1403,10 @@ Confidential Cellular Expert, 2026 Page | 53
 
 Cellular Expert Express Administrator Guide 7.2
 Once users are registered with their Email address they may change their password for login as CE Express
+
+![Image p54](../../assets/images/ce-express/admin-guide-v72/p054-img1.png)
+
+![Image p54](../../assets/images/ce-express/admin-guide-v72/p054-img2.png)
 account any time by clicking “Reset password”:
 Users can ask an Inventory3D administrator to reset their password. The administrator can set a temporary
 password using the CE Inventory3D application and send it to the user:

@@ -1,5 +1,15 @@
 # CE Desktop EMF User Guide
 
+![Image p1](../assets/images/ce-pro/emf-guide/p001-img1.png)
+
+![Image p1](../assets/images/ce-pro/emf-guide/p001-img2.png)
+
+![Image p1](../assets/images/ce-pro/emf-guide/p001-img3.png)
+
+
+![Image p5](../assets/images/ce-pro/emf-guide/p005-img1.png)
+
+![Image p5](../assets/images/ce-pro/emf-guide/p005-img2.png)
 > **Version:** CE Pro v4.9
 
 ## 1. Software Purpose and Functionality
@@ -187,7 +197,13 @@ at support@cellular-expert.com. For more information, see the chapter Technical 
 ### 4.3 Tools
 The Cellular Expert tools are in the Cellular Expert add-on. They appear automatically after installation of
 
-![Screenshot p11](../assets/images/ce-pro/emf-guide/p011-img1.png)
+![Image p11](../assets/images/ce-pro/emf-guide/p011-img1.png)
+
+![Image p11](../assets/images/ce-pro/emf-guide/p011-img2.png)
+
+![Image p11](../assets/images/ce-pro/emf-guide/p011-img3.png)
+
+![Image p11](../assets/images/ce-pro/emf-guide/p011-img4.png)
 CE for ArcGIS Pro and will be found in the menu ribbon.
 There are 5 types of licenses and therefore 5 different tabs with various tool configurations:
 • RCP
@@ -197,6 +213,20 @@ There are 5 types of licenses and therefore 5 different tabs with various tool c
 • Sound
 • Indoor
 This User Guide describes EMF tools.
+
+![Image p12](../assets/images/ce-pro/emf-guide/p012-img1.png)
+
+![Image p12](../assets/images/ce-pro/emf-guide/p012-img2.png)
+
+![Image p12](../assets/images/ce-pro/emf-guide/p012-img3.png)
+
+![Image p12](../assets/images/ce-pro/emf-guide/p012-img4.png)
+
+![Image p12](../assets/images/ce-pro/emf-guide/p012-img5.png)
+
+![Image p12](../assets/images/ce-pro/emf-guide/p012-img6.png)
+
+![Image p12](../assets/images/ce-pro/emf-guide/p012-img7.png)
 
 ## 5. Geographic data
 CE Desktop is designed to work with any geospatial data available to the customer and fully exploit its
@@ -209,7 +239,7 @@ By leveraging whatever data is available locally, CE Express performs nationwide
 maximum feasible resolution, accurately modeling signal propagation even in dense urban environments.
 Support for 3D multi-height calculations ensures that coverage predictions reflect street-level, indoor, and
 
-![Screenshot p13](../assets/images/ce-pro/emf-guide/p013-img1.png)
+![Image p13](../assets/images/ce-pro/emf-guide/p013-img1.png)
 rooftop conditions, providing regulators with a realistic representation of service availability.
 This flexibility ensures that NRAs can use their existing GIS assets, open datasets, or commercial data they
 already license, turning them into actionable broadband maps without additional data procurement
@@ -254,7 +284,27 @@ More information: https://blog.maxar.com/earth-intelligence/2022/benefits-of-usi
 telco-suite-for-5g
 Cellular Expert can easily integrate and process 1 m or even sub-meter topographical data, providing highly
 
-![Screenshot p14](../assets/images/ce-pro/emf-guide/p014-img1.png)
+![Image p14](../assets/images/ce-pro/emf-guide/p014-img1.png)
+
+![Image p14](../assets/images/ce-pro/emf-guide/p014-img2.png)
+
+![Image p14](../assets/images/ce-pro/emf-guide/p014-img3.png)
+
+![Image p14](../assets/images/ce-pro/emf-guide/p014-img4.png)
+
+![Image p14](../assets/images/ce-pro/emf-guide/p014-img5.png)
+
+![Image p14](../assets/images/ce-pro/emf-guide/p014-img6.png)
+
+![Image p14](../assets/images/ce-pro/emf-guide/p014-img7.png)
+
+![Image p14](../assets/images/ce-pro/emf-guide/p014-img8.png)
+
+![Image p14](../assets/images/ce-pro/emf-guide/p014-img9.png)
+
+![Image p14](../assets/images/ce-pro/emf-guide/p014-img10.png)
+
+![Image p14](../assets/images/ce-pro/emf-guide/p014-img11.png)
 detailed RF calculations. This level of precision is essential for:
 • Modeling 2G/3G/4G/5G, small cells and mmWave networks.
 • Identifying exact coverage gaps at the building and street level.
@@ -262,7 +312,9 @@ detailed RF calculations. This level of precision is essential for:
 • Supporting regulatory-grade broadband mapping and planning.
 By using high-resolution terrain and clutter data, Cellular Expert ensures that its calculations match real-
 
-![Screenshot p15](../assets/images/ce-pro/emf-guide/p015-img1.png)
+![Image p15](../assets/images/ce-pro/emf-guide/p015-img1.png)
+
+![Image p15](../assets/images/ce-pro/emf-guide/p015-img2.png)
 world conditions as closely as possible — resulting in better network design decisions and more reliable
 broadband planning outcomes.
 
@@ -290,17 +342,15 @@ Projection
 The raster must use a Projected Coordinate System. To check the coordinate system of your raster, use
 the Properties function in ArcGIS Pro. Add the raster to your project, right-click on it, and select Properties.
 
-![Screenshot p16](../assets/images/ce-pro/emf-guide/p016-img1.png)
+![Image p16](../assets/images/ce-pro/emf-guide/p016-img1.png)
 
-![Screenshot p16](../assets/images/ce-pro/emf-guide/p016-img2.png)
+![Image p16](../assets/images/ce-pro/emf-guide/p016-img2.png)
 Then, go to the Source tab > Spatial Reference and check the Coordinate System type parameter to confirm
 it is in a Projected Coordinate System.
 
 If your raster is in a Geographic Coordinate System or needs a different projection, use the Geoprocessing
 
-![Screenshot p17](../assets/images/ce-pro/emf-guide/p017-img1.png)
-
-![Screenshot p17](../assets/images/ce-pro/emf-guide/p017-img2.png)
+![Image p17](../assets/images/ce-pro/emf-guide/p017-img1.png)
 > Project Raster tool to update it.
 In the Output Coordinate System, specify a new coordinate system. It is recommended to use a UTM
 coordinate system under the WGS 1984 projection.
@@ -309,8 +359,6 @@ https://www.arcgis.com/apps/mapviewer/index.html?layers=b294795270aa4fb3bd25286b
 
 Correct No Data value and raster name
 After setting the correct projection, assign the NoData attribute and specify the appropriate name for the
-
-![Screenshot p18](../assets/images/ce-pro/emf-guide/p018-img1.png)
 DTM raster. To do this, use the Copy Raster tool in Geoprocessing.
 Configure the following settings:
 • Input Raster: Select your newly projected DTM raster.
@@ -323,9 +371,9 @@ Configure the following settings:
 Land use or clutter refers to the classification of the earth’s surface into categories such as urban, suburban,
 rural, forest, water, and open land, each of which affects radio propagation differently. Clutter data is crucial
 
-![Screenshot p19](../assets/images/ce-pro/emf-guide/p019-img1.png)
+![Image p19](../assets/images/ce-pro/emf-guide/p019-img1.png)
 
-![Screenshot p19](../assets/images/ce-pro/emf-guide/p019-img2.png)
+![Image p19](../assets/images/ce-pro/emf-guide/p019-img2.png)
 because it determines how signals are absorbed, reflected, or diffracted by the environment, directly
 influencing coverage, interference, and quality of service. The naming and classification of land use types
 may vary. An example is the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2
@@ -337,16 +385,18 @@ Table:
 These are standard clutter types in the default workspace database, which cannot be edited. You must
 map your clutter raster to these predefined clutter types. Standard mapping has already been configured
 
-![Screenshot p20](../assets/images/ce-pro/emf-guide/p020-img1.png)
+![Image p20](../assets/images/ce-pro/emf-guide/p020-img1.png)
 
-![Screenshot p20](../assets/images/ce-pro/emf-guide/p020-img2.png)
+![Image p20](../assets/images/ce-pro/emf-guide/p020-img2.png)
 for the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2 Land Cover
 
 If you have a different clutter class layer, it can be used for predictions by remapping it using the Clutter
 
-![Screenshot p21](../assets/images/ce-pro/emf-guide/p021-img1.png)
+![Image p21](../assets/images/ce-pro/emf-guide/p021-img1.png)
 
-![Screenshot p21](../assets/images/ce-pro/emf-guide/p021-img2.png)
+![Image p21](../assets/images/ce-pro/emf-guide/p021-img2.png)
+
+![Image p21](../assets/images/ce-pro/emf-guide/p021-img3.png)
 Classes tool and specifying the IDs in the geodata raster parameter. If multiple clutter classes correspond
 to a single default clutter type, separate the ID values with commas.
 This mapping can also be adjusted in the Clutter table.
@@ -359,9 +409,9 @@ The Clutter Raster has several requirements, which are the same as for DTM raste
 Projection
 It must have the same coordinate system as your elevation.tif raster. If your raster has different coordinate
 
-![Screenshot p22](../assets/images/ce-pro/emf-guide/p022-img1.png)
+![Image p22](../assets/images/ce-pro/emf-guide/p022-img1.png)
 
-![Screenshot p22](../assets/images/ce-pro/emf-guide/p022-img2.png)
+![Image p22](../assets/images/ce-pro/emf-guide/p022-img2.png)
 system, then use the Geoprocessing tool → Project Raster to fix it.
 In the Output Coordinate System you would need to define the same coordinate system as your elevation.tif
 raster. Click on Select Coordinate System button.
@@ -370,9 +420,7 @@ And choose the same coordinate system as your elevation.tif.
 Correct No Data value and raster name
 After setting the correct projection, assign the NoData attribute and specify the appropriate name for the
 
-![Screenshot p23](../assets/images/ce-pro/emf-guide/p023-img1.png)
-
-![Screenshot p23](../assets/images/ce-pro/emf-guide/p023-img2.png)
+![Image p23](../assets/images/ce-pro/emf-guide/p023-img1.png)
 Clutter Class raster. To do this, use the Copy Raster tool in Geoprocessing.
 Configure the following settings:
 • Input Raster: Select your newly projected Clutter Class raster.
@@ -387,9 +435,9 @@ clutter heights raster requires the accompanying clutterClasses.tif raster and c
 independently.
 A clutter height raster can be derived from a Digital Surface Model (DSM) raster and a Digital Terrain Model
 
-![Screenshot p24](../assets/images/ce-pro/emf-guide/p024-img1.png)
+![Image p24](../assets/images/ce-pro/emf-guide/p024-img1.png)
 
-![Screenshot p24](../assets/images/ce-pro/emf-guide/p024-img2.png)
+![Image p24](../assets/images/ce-pro/emf-guide/p024-img2.png)
 (DTM) raster using the ArcGIS Raster Calculator tool. To access this tool, open Geoprocessing tools and
 navigate to Spatial Analyst > Map Algebra > Raster Calculator. Use the following formula:
 DSM – DTM
@@ -401,7 +449,7 @@ The Clutter Height has several requirements, which are the same as for DTM raste
 Projection
 It must have the same coordinate system as your elevation.tif raster. If your raster has different coordinate
 
-![Screenshot p25](../assets/images/ce-pro/emf-guide/p025-img1.png)
+![Image p25](../assets/images/ce-pro/emf-guide/p025-img1.png)
 system, then use the Geoprocessing tool → Project Raster to fix it.
 
 In the Output Coordinate System you would need to define the same coordinate system as your elevation.tif
@@ -410,18 +458,16 @@ And choose the same coordinate system as your elevation.tif.
 Correct No Data value and raster name
 After setting the correct projection, assign the NoData attribute and specify the appropriate name for the
 
-![Screenshot p26](../assets/images/ce-pro/emf-guide/p026-img1.png)
+![Image p26](../assets/images/ce-pro/emf-guide/p026-img1.png)
 
-![Screenshot p26](../assets/images/ce-pro/emf-guide/p026-img2.png)
+![Image p26](../assets/images/ce-pro/emf-guide/p026-img2.png)
 Clutter Height raster. To do this, use the Copy Raster tool in Geoprocessing.
 
 Configure the following settings:
 • Input Raster: Select your newly projected Clutter Height raster.
 • Output Raster Dataset: Specify the output location and set the raster name to clutterHeight.tif.
 
-![Screenshot p27](../assets/images/ce-pro/emf-guide/p027-img1.png)
-
-![Screenshot p27](../assets/images/ce-pro/emf-guide/p027-img2.png)
+![Image p27](../assets/images/ce-pro/emf-guide/p027-img1.png)
 • NoData Value: Enter -9999.
 • Pixel Type: Choose 32-bit signed or 32-bit float.
 • Format: This will automatically be set to TIFF.
@@ -429,7 +475,7 @@ Configure the following settings:
 #### 5.1.4 Buildings
 Building features within the Clutter Classes raster are automatically identified and categorized using a range
 
-![Screenshot p28](../assets/images/ce-pro/emf-guide/p028-img1.png)
+![Image p28](../assets/images/ce-pro/emf-guide/p028-img1.png)
 of dedicated building-specific clutter types. These clutter types are available within the Clutter Classes
 tool and are specifically designed to represent different architectural materials and structural
 characteristics.
@@ -446,9 +492,9 @@ modeling.
 
 If your building data is in vector format (e.g., polygons), you’ll first need to convert it to raster before
 
-![Screenshot p29](../assets/images/ce-pro/emf-guide/p029-img1.png)
+![Image p29](../assets/images/ce-pro/emf-guide/p029-img1.png)
 
-![Screenshot p29](../assets/images/ce-pro/emf-guide/p029-img2.png)
+![Image p29](../assets/images/ce-pro/emf-guide/p029-img2.png)
 incorporating it into the Clutter Classes layer.
 
 1. Convert Vector to Raster
@@ -479,15 +525,15 @@ Each building-related clutter class is assigned a unique ID value, which is used
 the appropriate path loss parameters for solid structures.
 This ensures that Buildings are accurately represented in simulations, contributing to more realistic signal
 
-![Screenshot p30](../assets/images/ce-pro/emf-guide/p030-img1.png)
+![Image p30](../assets/images/ce-pro/emf-guide/p030-img1.png)
 behavior in both indoor and outdoor environments.
 
 Building Height Determination in Clutter-Based Modeling
 Pixels assigned to a building clutter class ID will be automatically recognized as solid obstacle during
 
-![Screenshot p31](../assets/images/ce-pro/emf-guide/p031-img1.png)
+![Image p31](../assets/images/ce-pro/emf-guide/p031-img1.png)
 
-![Screenshot p31](../assets/images/ce-pro/emf-guide/p031-img2.png)
+![Image p31](../assets/images/ce-pro/emf-guide/p031-img2.png)
 prediction calculations. Their heights are determined using the following priority:
 • Option 1: From the associated Clutter Height raster, if available. This provides the most accurate,
 location-specific height information.
@@ -505,7 +551,7 @@ This chapter describes the Cellular Expert workspace functionality.
 Cellular Expert workspace is a geodatabase containing data tables, feature datasets, and the workspace
 definition table. After creating a new workspace database, the workspace definition table will be named
 
-![Screenshot p32](../assets/images/ce-pro/emf-guide/p032-img1.png)
+![Image p32](../assets/images/ce-pro/emf-guide/p032-img1.png)
 CE_WORKSPACE and contain the information about the dataset.
 
 Data field types and values:
@@ -520,7 +566,9 @@ the workspace parameters by referencing the new paths to properly load the proje
 • Calculation Tasks Data Path – path for saving calculation tasks
 • Geodata Folder Path – path for geodata (prediction models do not have geodata options, topographical
 
-![Screenshot p33](../assets/images/ce-pro/emf-guide/p033-img1.png)
+![Image p33](../assets/images/ce-pro/emf-guide/p033-img1.png)
+
+![Image p33](../assets/images/ce-pro/emf-guide/p033-img2.png)
 data are taken from the Geodata Folder Path)
 • Result Path – path for final results
 Workspace calculation paths and settings can be previewed in the dedicated tool, navigate to Workspace
@@ -534,6 +582,10 @@ Steps to create a new workspace:
 2. The Create dialogue will appear. Fill in the minimum required data:
 New workspace path
 It is automatically filled based on the ArcGIS Pro project location. The recommendation is to first save your
+
+![Image p34](../assets/images/ce-pro/emf-guide/p034-img1.png)
+
+![Image p34](../assets/images/ce-pro/emf-guide/p034-img2.png)
 ArcGIS Pro project, and then open the Workspace > Create tool. The project's workspace folder will be
 automatically created in the ArcGIS Pro project location catalog. This way, you will have both the ArcGIS
 Pro and CE workspace in the same location.
@@ -551,15 +603,21 @@ When creating a new workspace using geodata containing clutter classes raster, d
 be set by clicking Set Default Clutter Class IDs button. The default ID values are based on Living Atlas
 clutter. Clutter class IDs can also be set manually, either before or after the default values are set. To initiate
 
-![Screenshot p35](../assets/images/ce-pro/emf-guide/p035-img1.png)
+![Image p35](../assets/images/ce-pro/emf-guide/p035-img1.png)
 
-![Screenshot p35](../assets/images/ce-pro/emf-guide/p035-img2.png)
+![Image p35](../assets/images/ce-pro/emf-guide/p035-img2.png)
 the manual editing of clutter class IDs, click the Manually Set Clutter Class IDs button. Each clutter class
 can be edited to designate its used and unused types, also indicated by their distinct colors.
 
 Note: The projected Coordinate System has been filled automatically and taken from the defined Elevation
 
-![Screenshot p36](../assets/images/ce-pro/emf-guide/p036-img1.png)
+![Image p36](../assets/images/ce-pro/emf-guide/p036-img1.png)
+
+![Image p36](../assets/images/ce-pro/emf-guide/p036-img2.png)
+
+![Image p36](../assets/images/ce-pro/emf-guide/p036-img3.png)
+
+![Image p36](../assets/images/ce-pro/emf-guide/p036-img4.png)
 grid. This means that this coordinate system will be assigned to your project feature layers.
 Several messages related to Geodata:
 • If only Elevation exists in Geodata catalog, then tool will be filled with such information:
@@ -576,12 +634,14 @@ Cellular Expert layer and geodata will be added to the project.
 
 Workspace geodatabase and required folders will be created within successful workspace creation
 
-![Screenshot p37](../assets/images/ce-pro/emf-guide/p037-img1.png)
+![Image p37](../assets/images/ce-pro/emf-guide/p037-img1.png)
 
-![Screenshot p37](../assets/images/ce-pro/emf-guide/p037-img2.png)
+![Image p37](../assets/images/ce-pro/emf-guide/p037-img2.png)
 procedure.
 
 The Project Paths will be filled in the Workspace Properties → Properties tab.
+
+![Image p38](../assets/images/ce-pro/emf-guide/p038-img1.png)
 
 #### 6.1.3 Open Workspace
 Steps to open a workspace:
@@ -601,7 +661,7 @@ Workspace Upgrade is a tool that enables the user to update missing tables from 
 table. If the tables are toggled, they will be updated (upgraded) by the tool.
 Usually, with new versions of CE for ArcGIS Pro come changes to default data tables. This tool is especially
 
-![Screenshot p39](../assets/images/ce-pro/emf-guide/p039-img1.png)
+![Image p39](../assets/images/ce-pro/emf-guide/p039-img1.png)
 useful when checking if the newest version tables correspond to the current project tables.
 Workspace Upgrade automatically checks all these parameters and notifies the user upon the start-up of
 the project.
@@ -616,7 +676,7 @@ Upgrade Database
 Creates the missing tables and/or creates/adds back the missing fields from default tables.
 If a project with incompatible geodata is loaded, the Workspace Upgrade tool analyzes the current geodata,
 
-![Screenshot p40](../assets/images/ce-pro/emf-guide/p040-img1.png)
+![Image p40](../assets/images/ce-pro/emf-guide/p040-img1.png)
 as well as the owned user Esri Extension licenses to offer the optimal geodata upgrade path. This process
 is one-time only, and can be done by checking the Upgrade Geodata toggle.
 • If only elevation and buildingHeight rasters exist, the buildingHeight can automatically be renamed
@@ -629,7 +689,9 @@ rasters.
 clutterClasses rasters exist, raster calculations are performed to merge the buildingHeight and
 clutterHeight rasters, and modify the clutterClasses raster to add the building outlines with ID of 0.
 
-![Screenshot p41](../assets/images/ce-pro/emf-guide/p041-img1.png)
+![Image p41](../assets/images/ce-pro/emf-guide/p041-img1.png)
+
+![Image p41](../assets/images/ce-pro/emf-guide/p041-img2.png)
 
 #### 6.1.6 Workspace Properties
 The Workspace properties dialogue shows all the workspace information from the “CE_WORKSPACE”
@@ -639,7 +701,7 @@ To open the Workspace Properties dialogue, click on the Workspace menu icon and 
 6.1.6.1 Parameters
 All information from the “CE_WORKSPACE” table is represented in the Parameters tab of the Workspace
 
-![Screenshot p42](../assets/images/ce-pro/emf-guide/p042-img1.png)
+![Image p42](../assets/images/ce-pro/emf-guide/p042-img1.png)
 Properties.
 OK
 Click this button to save any changes and close the dialogue.
@@ -691,6 +753,10 @@ Represents power value in dBm or Watts.
 
 Receiver/Transmitter Height Reference
 The reference raster for calculating the receiver’s and transmitter’s height for these calculations: Profile, RF
+
+![Image p44](../assets/images/ce-pro/emf-guide/p044-img1.png)
+
+![Image p44](../assets/images/ce-pro/emf-guide/p044-img2.png)
 Predictions, Quick Predictions, Visibility and other prediction tools. Possible values:
 • Elevation – reference layer will be used elevation.tif raster. This is a default parameter.
 • Clutter height – reference layer will be used clutterHeight.tif raster. Receiver/transmitter height will
@@ -719,7 +785,7 @@ Get helpful information about the dialogue.
 All visualization settings have the “Visible” option set to On by default. Suppose the Visible option is set to
 off, the next time a relevant calculation is performed. In that case, the rasters associated with the calculation
 
-![Screenshot p45](../assets/images/ce-pro/emf-guide/p045-img1.png)
+![Image p45](../assets/images/ce-pro/emf-guide/p045-img1.png)
 are added to the map with the visibility disabled. This is done only for the calculations performed after the
 setting is changed, and does not impact already added rasters on the map.
 The symbology is defined as a list of Layers and .lyr files:
@@ -763,14 +829,16 @@ When you use layer files for visualization, do not forget about them. Remember t
 workspace to another location, the location path settings can become incorrect. If Cellular Expert is not able
 to find your defined symbology file, it will use the default file from the location .../Cellular Expert/Layers.
 
+![Image p46](../assets/images/ce-pro/emf-guide/p046-img1.png)
+
 ### 6.2 Docs Manager
 Docs Manager is a tool for managing Saved Profiles between the transmitter (Tx) and receiver (Rx), which
 are generated in the Profile tool, as well as saved Link Prediction results, Profile Reports, and Link
 Prediction Reports. When a profile is saved in the Profile tool, it is automatically stored in Docs Manager,
 
-![Screenshot p47](../assets/images/ce-pro/emf-guide/p047-img1.png)
+![Image p47](../assets/images/ce-pro/emf-guide/p047-img1.png)
 
-![Screenshot p47](../assets/images/ce-pro/emf-guide/p047-img2.png)
+![Image p47](../assets/images/ce-pro/emf-guide/p047-img2.png)
 allowing users to reopen it at any time. This ensures that all parameters and calculations related to Tx and
 Rx are preserved for future reference, eliminating the need to reconfigure settings repeatedly. The same
 applies for Link Prediction results, and the Reports can be opened if the original exported document is, for
@@ -792,15 +860,15 @@ accuracy in their Tx and Rx calculations.
 How to Open a Link Prediction
 A saved Link Prediction, just like Profile, can be accessed either by double-clicking the desired Link
 
-![Screenshot p48](../assets/images/ce-pro/emf-guide/p048-img1.png)
+![Image p48](../assets/images/ce-pro/emf-guide/p048-img1.png)
 Prediction result, or by select it and clicking Open.
 
 How to Save a Link Prediction
 Link Prediction result can be saved to Docs Manager by selecting Save result to Docs Manager in
 
-![Screenshot p49](../assets/images/ce-pro/emf-guide/p049-img1.png)
+![Image p49](../assets/images/ce-pro/emf-guide/p049-img1.png)
 
-![Screenshot p49](../assets/images/ce-pro/emf-guide/p049-img2.png)
+![Image p49](../assets/images/ce-pro/emf-guide/p049-img2.png)
 the Link Prediction tool.
 
 How to Open a Profile Report
@@ -809,17 +877,17 @@ select it and clicking Open. The document will be opened using your default PDF 
 How to Save a Profile Report
 Profile Report of the current drawn profile can be saved to Docs Manager by selecting Save result to Docs
 
-![Screenshot p50](../assets/images/ce-pro/emf-guide/p050-img1.png)
+![Image p50](../assets/images/ce-pro/emf-guide/p050-img1.png)
 
-![Screenshot p50](../assets/images/ce-pro/emf-guide/p050-img2.png)
+![Image p50](../assets/images/ce-pro/emf-guide/p050-img2.png)
 Manager in the Export tab of the Profile tool.
 
 How to Open a Link Prediction Report
 A Link Prediction Report document can be accessed either by double-clicking the desired Link Prediction
 
-![Screenshot p51](../assets/images/ce-pro/emf-guide/p051-img1.png)
+![Image p51](../assets/images/ce-pro/emf-guide/p051-img1.png)
 
-![Screenshot p51](../assets/images/ce-pro/emf-guide/p051-img2.png)
+![Image p51](../assets/images/ce-pro/emf-guide/p051-img2.png)
 Report, or by select it and clicking Open. The document will be opened using your default PDF document
 reader.
 How to Save a Link Prediction Report
@@ -839,7 +907,9 @@ To connect to CE Server Express and get the list of workspaces, insert the Serve
 field. Then press the Get Workspaces button.
 If you select one of the appearing workspaces, the properties of that workspace will be saved to your current
 
-![Screenshot p52](../assets/images/ce-pro/emf-guide/p052-img1.png)
+![Image p52](../assets/images/ce-pro/emf-guide/p052-img1.png)
+
+![Image p52](../assets/images/ce-pro/emf-guide/p052-img2.png)
 ArcGIS Pro project automatically.
 
 Server URL
@@ -855,7 +925,7 @@ Get Workspaces
 Establishes the connection between the provided Server URL and CE for ArcGIS Pro. Upon clicking the
 button, the user may be redirected to a browser window in which he will have to log in to the ArcGIS Portal.
 
-![Screenshot p53](../assets/images/ce-pro/emf-guide/p053-img1.png)
+![Image p53](../assets/images/ce-pro/emf-guide/p053-img1.png)
 After doing so, the workspaces will be retrieved.
 Import Features
 Imports the retrieved objects to the currently opened CE workspace.
@@ -879,6 +949,8 @@ New network objects can be created in several ways. They can be:
 #### 7.2.1 Add Cell
 The object represents both physical parameters (e.g., height, antenna, azimuth) and logical parameters
 (e.g., bandwidth, frequency, technology). Essentially, it is similar to a Sector object but is referred to as a
+
+![Image p54](../assets/images/ce-pro/emf-guide/p054-img1.png)
 Cell and includes additional details about cell-specific parameters. This object serves as the primary
 element for performing coverage predictions and supports various technologies, including 2G, 3G, 4G, 5G,
 and WiFi. It is also utilized in critical networks like TETRA, APCO, P-25, and military applications to model
@@ -891,16 +963,28 @@ Cell objects are used for prediction calculations.
 
 1. Left-clicking on the map will define the location of the object. To define its direction, left-click a
 
-![Screenshot p55](../assets/images/ce-pro/emf-guide/p055-img1.png)
+![Image p55](../assets/images/ce-pro/emf-guide/p055-img1.png)
 
-![Screenshot p55](../assets/images/ce-pro/emf-guide/p055-img2.png)
+![Image p55](../assets/images/ce-pro/emf-guide/p055-img2.png)
+
+![Image p55](../assets/images/ce-pro/emf-guide/p055-img3.png)
+
+![Image p55](../assets/images/ce-pro/emf-guide/p055-img4.png)
 second time in your preferred direction.
 Add Object > Cell dialog will be filled with coordinates and parameters from default template, and
 
 azimuth value based on defined direction on the map.
 The Cell object can be created by entering exact coordinates in:
 
-![Screenshot p56](../assets/images/ce-pro/emf-guide/p056-img1.png)
+![Image p56](../assets/images/ce-pro/emf-guide/p056-img1.png)
+
+![Image p56](../assets/images/ce-pro/emf-guide/p056-img2.png)
+
+![Image p56](../assets/images/ce-pro/emf-guide/p056-img3.png)
+
+![Image p56](../assets/images/ce-pro/emf-guide/p056-img4.png)
+
+![Image p56](../assets/images/ce-pro/emf-guide/p056-img5.png)
 • Latitude (degrees) and Longitude (degrees) section.
 • Latitude and Longitude
 • X and Y (projected coordinate system)
@@ -921,7 +1005,9 @@ Cell Properties
 Template
 The template will fill all empty or not specified fields with default values that are not necessary for
 
-![Screenshot p57](../assets/images/ce-pro/emf-guide/p057-img1.png)
+![Image p57](../assets/images/ce-pro/emf-guide/p057-img1.png)
+
+![Image p57](../assets/images/ce-pro/emf-guide/p057-img2.png)
 predictions.
 Name
 Cell identification.
@@ -1010,16 +1096,20 @@ Open Add Cell function.
 Moove mouse coursor on top of Site object, and mouse will be automatically snapped to that Site.
 Define direction, similary as creating Cell object on empty location. Site ID will be automatically
 
-![Screenshot p60](../assets/images/ce-pro/emf-guide/p060-img1.png)
+![Image p60](../assets/images/ce-pro/emf-guide/p060-img1.png)
+
+![Image p60](../assets/images/ce-pro/emf-guide/p060-img2.png)
+
+![Image p60](../assets/images/ce-pro/emf-guide/p060-img3.png)
 assigned to this new Cell.
 7.2.1.2 Add several Cells in same position.
 Once Cell is created, do not close the dialog.
 
 Simply change Name and Azimuth parameters (and if required, adjust other parameters), and press
 
-![Screenshot p61](../assets/images/ce-pro/emf-guide/p061-img1.png)
+![Image p61](../assets/images/ce-pro/emf-guide/p061-img1.png)
 
-![Screenshot p61](../assets/images/ce-pro/emf-guide/p061-img2.png)
+![Image p61](../assets/images/ce-pro/emf-guide/p061-img2.png)
 Save Changes. New Cell object will be created on the same location.
 Do it again, if you required additional Cell objects in the same location.
 
@@ -1033,14 +1123,16 @@ the map.
 Choose the button to open the Object Editor dialogue.
 Select objects by navigating to the ArcGIS Pro Edit → Selection section and choosing the Select tool. The
 
-![Screenshot p62](../assets/images/ce-pro/emf-guide/p062-img1.png)
+![Image p62](../assets/images/ce-pro/emf-guide/p062-img1.png)
+
+![Image p62](../assets/images/ce-pro/emf-guide/p062-img2.png)
 selected objects will appear in the Object Editor in a tree hierarchy.
 
 To edit one of the selected objects, left-click on that object and the corresponding editing menu will open
 
-![Screenshot p63](../assets/images/ce-pro/emf-guide/p063-img1.png)
+![Image p63](../assets/images/ce-pro/emf-guide/p063-img1.png)
 
-![Screenshot p63](../assets/images/ce-pro/emf-guide/p063-img2.png)
+![Image p63](../assets/images/ce-pro/emf-guide/p063-img2.png)
 below the list.
 Delete Object
 Select and right-click any network object from the selection, then choose the Delete option from the popup.
@@ -1048,6 +1140,10 @@ Select and right-click any network object from the selection, then choose the De
 Duplicate Object
 Select and right-click any object from the selection, then choose the Duplicate option from the popup. The
 duplicated object will retain all information from the original object including coordinates/meridians. If you
+
+![Image p64](../assets/images/ce-pro/emf-guide/p064-img1.png)
+
+![Image p64](../assets/images/ce-pro/emf-guide/p064-img2.png)
 want to duplicate objects and change their coordinates/meridians at the same time, use the separate
 Duplicate Objects button from above the selection tree.
 
@@ -1058,16 +1154,16 @@ tool and press the Move Objects button in the Object Editor.
 There are multiple ways to move objects:
 • If multiple objects are selected, the move objects display will show the geospatial properties of the
 
-![Screenshot p65](../assets/images/ce-pro/emf-guide/p065-img1.png)
+![Image p65](../assets/images/ce-pro/emf-guide/p065-img1.png)
 center point between the objects denoted as the “Cursor point”.
 
 The "Cursor Point" functions as a reference marker depicted by a red dot on the map. This marker is
 centrally located among the objects on the map and shows where the cursor was placed. You can adjust
 the position of the Cursor Point either by entering new coordinates directly or by clicking “Select Point” and
 
-![Screenshot p66](../assets/images/ce-pro/emf-guide/p066-img1.png)
+![Image p66](../assets/images/ce-pro/emf-guide/p066-img1.png)
 
-![Screenshot p66](../assets/images/ce-pro/emf-guide/p066-img2.png)
+![Image p66](../assets/images/ce-pro/emf-guide/p066-img2.png)
 choosing a different location on the map. When you move the Cursor Point, all the objects on the map will
 shift their position to maintain their relative distances from this central point.
 • If a single point object is selected or several objects at the same location, the move objects display
@@ -1075,7 +1171,7 @@ shift their position to maintain their relative distances from this central poin
 will show the geospatial properties of these objects denoted as “Cursor Point”.
 If a single point object is selected on the map, the "Cursor Point" serves as its positional anchor. Positioned
 
-![Screenshot p67](../assets/images/ce-pro/emf-guide/p067-img1.png)
+![Image p67](../assets/images/ce-pro/emf-guide/p067-img1.png)
 as a red dot, the Cursor Point represents the current coordinates of the selected object and shows where
 the cursor was last placed. You can alter the location of the selected object by manually updating the Cursor
 Point's coordinates or by clicking “Select Point” and choosing a new location on the map. Any movement
@@ -1090,15 +1186,15 @@ Cancels the changes to the objects and closes the dialogue.
 #### 7.3.2 Duplicate Objects
 Choose the button to open the Object Editor dialogue. Select the object with the Select tool and
 
-![Screenshot p68](../assets/images/ce-pro/emf-guide/p068-img1.png)
+![Image p68](../assets/images/ce-pro/emf-guide/p068-img1.png)
 
-![Screenshot p68](../assets/images/ce-pro/emf-guide/p068-img2.png)
+![Image p68](../assets/images/ce-pro/emf-guide/p068-img2.png)
 press the Duplicate Objects button in the Object Editor dialogue.
 
 There are multiple ways to duplicate objects:
 • If multiple objects are selected, the duplicate objects display will show the geospatial properties of
 
-![Screenshot p69](../assets/images/ce-pro/emf-guide/p069-img1.png)
+![Image p69](../assets/images/ce-pro/emf-guide/p069-img1.png)
 the center point between the objects denoted as the “Cursor point”.
 The "Cursor Point" functions as a reference marker depicted by a red dot on the map. This marker is
 centrally located among the objects on the map and shows where the cursor was placed. You can
@@ -1109,9 +1205,9 @@ point.
 
 • If a single point object or several objects on the same location are selected, the duplicate objects
 
-![Screenshot p70](../assets/images/ce-pro/emf-guide/p070-img1.png)
+![Image p70](../assets/images/ce-pro/emf-guide/p070-img1.png)
 
-![Screenshot p70](../assets/images/ce-pro/emf-guide/p070-img2.png)
+![Image p70](../assets/images/ce-pro/emf-guide/p070-img2.png)
 display will show the geospatial properties of that object denoted as “Cursor Point”.
 
 If a single point object is selected on the map, the "Cursor Point" serves as its positional anchor.
@@ -1130,7 +1226,7 @@ Cancels the changes to the objects and closes the dialogue.
 The Clutter Classes tool is designed to manage categories describing different types of environments in
 telecommunication networks. It relies on the Clutter Classes raster used in the project. The raster values
 
-![Screenshot p71](../assets/images/ce-pro/emf-guide/p071-img1.png)
+![Image p71](../assets/images/ce-pro/emf-guide/p071-img1.png)
 must match the ID values in the Clutter Classes dialog. For example, if "Trees" has a value of 2 in the
 Clutter Classes raster, this ID must be defined in the Clutter Classes tool. By default, ESRI’s Sentinel-2
 Land Use values are used after workspace creation: ESRI Sentinel-2 Land Cover
@@ -1138,17 +1234,21 @@ Here is the table view of Clutter table, which comes with default database.
 
 Sentinel-2 clutter classes raster provides information about these classes:
 
-![Screenshot p72](../assets/images/ce-pro/emf-guide/p072-img1.png)
+![Image p72](../assets/images/ce-pro/emf-guide/p072-img1.png)
+
+![Image p72](../assets/images/ce-pro/emf-guide/p072-img2.png)
+
+![Image p72](../assets/images/ce-pro/emf-guide/p072-img3.png)
 Choose the button to open the Clutter Classes dialogue.
 
 Select one of the clutter classes to open their properties. Clutter class list can also be filtered by solid
 
-![Screenshot p73](../assets/images/ce-pro/emf-guide/p073-img1.png)
+![Image p73](../assets/images/ce-pro/emf-guide/p073-img1.png)
 obstacle and/or clutter obstacle categories.
 
 New mapping between land use raster and clutter class data should be done in Clutter Classes dialog.
 
-![Screenshot p74](../assets/images/ce-pro/emf-guide/p074-img1.png)
+![Image p74](../assets/images/ce-pro/emf-guide/p074-img1.png)
 Apply
 Saves changes made to clutter classes.
 OK
@@ -1175,14 +1275,20 @@ on the radio visibility condition between the transmitter antenna vis-à-vis a r
 given point in coverage area. The radio visibility is evaluated based on the DTM, Obstacles and Clutter
 path profile information, as described in previous section. This verification of radio visibility will result in the
 
-![Screenshot p75](../assets/images/ce-pro/emf-guide/p075-img1.png)
+![Image p75](../assets/images/ce-pro/emf-guide/p075-img1.png)
+
+![Image p75](../assets/images/ce-pro/emf-guide/p075-img2.png)
+
+![Image p75](../assets/images/ce-pro/emf-guide/p075-img3.png)
+
+![Image p75](../assets/images/ce-pro/emf-guide/p075-img4.png)
 
 receiver antenna point assigned into one of three possible radio visibility conditions:
 • Line-of-Sight (LOS) – occurs when there are neither terrain irregularities, obstacles or clutter
 
-![Screenshot p76](../assets/images/ce-pro/emf-guide/p076-img1.png)
+![Image p76](../assets/images/ce-pro/emf-guide/p076-img1.png)
 
-![Screenshot p76](../assets/images/ce-pro/emf-guide/p076-img2.png)
+![Image p76](../assets/images/ce-pro/emf-guide/p076-img2.png)
 interposing the direct radio path between the transmitter and receiver antennas. The radio path is
 understood to include the 1st Fresnel zone around the direct line and account for Spherical Earth
 effect. The LOS condition is illustrated by the path profile depicted in Fig. 3(a).
@@ -1205,15 +1311,17 @@ applied in addition to basic path loss, as explained in the separate section at 
 Prediction models available in Cellular Expert support frequencies from 10kHz to 350 GHz.
 To open the Prediction Model Manager dialogue, click on the Prediction Model Manager tool in
 
-![Screenshot p77](../assets/images/ce-pro/emf-guide/p077-img1.png)
+![Image p77](../assets/images/ce-pro/emf-guide/p077-img1.png)
 
-![Screenshot p77](../assets/images/ce-pro/emf-guide/p077-img2.png)
+![Image p77](../assets/images/ce-pro/emf-guide/p077-img2.png)
+
+![Image p77](../assets/images/ce-pro/emf-guide/p077-img3.png)
 the Data Management section.
 
 CEC ITU-R 3GPP Model (100MHz – 6GHz) is a combination model intended for use in a variety of different
 radiocommunication systems which is derived explicitly from ITU-R path loss modelling methods as follows:
 
-![Screenshot p78](../assets/images/ce-pro/emf-guide/p078-img1.png)
+![Image p78](../assets/images/ce-pro/emf-guide/p078-img1.png)
 a. Receive antenna in LOS condition – path loss calculated as FSL based on Recommendation ITU-
 R P.525 (ref URL).
 b. Receive antenna in OLOS condition – total path loss modelled as a combination of basic FSL
@@ -1368,7 +1476,9 @@ The Clutter Class option defines several predefined clutter categories, each wit
 diffraction loss, clutter loss, penetration loss, and receiver loss coefficients.
 These parameters describe how a signal is impacted when it passes through or terminates in a specific
 
-![Screenshot p82](../assets/images/ce-pro/emf-guide/p082-img1.png)
+![Image p82](../assets/images/ce-pro/emf-guide/p082-img1.png)
+
+![Image p82](../assets/images/ce-pro/emf-guide/p082-img2.png)
 
 clutter class.
 Key Parameters:
@@ -1381,7 +1491,7 @@ lower, diffraction will be lower, if higher – then diffraction will be higher.
 class this parameter is higher then forest or other clutter classes.
 • Enclosed receiver loss offset, dB – the initial entry loss into the clutter class, expressed as an offset
 
-![Screenshot p83](../assets/images/ce-pro/emf-guide/p083-img1.png)
+![Image p83](../assets/images/ce-pro/emf-guide/p083-img1.png)
 in dB, which is added to the path loss grid.
 • Enclosed receiver loss scaling coefficient – represents additional signal loss as a function of the
 distance traveled within the clutter class. Higher values increase path loss.
@@ -1477,6 +1587,12 @@ These parameters describe how a signal is impacted when it passes through or ter
 clutter class.
 Key Parameters:
 • Penetration loss offset, dB – the initial entry loss into the clutter class, expressed as an offset in
+
+![Image p85](../assets/images/ce-pro/emf-guide/p085-img1.png)
+
+![Image p85](../assets/images/ce-pro/emf-guide/p085-img2.png)
+
+![Image p85](../assets/images/ce-pro/emf-guide/p085-img3.png)
 dB, which is added to the path loss grid.
 
 • Penetration loss distance coefficient – represents additional signal loss as a function of the distance
@@ -1543,7 +1659,7 @@ High loss building
 Model application
 This model is designed for deterministic tracking of the main, strongest radio ray in Line of Sight (LOS)
 
-![Screenshot p87](../assets/images/ce-pro/emf-guide/p087-img1.png)
+![Image p87](../assets/images/ce-pro/emf-guide/p087-img1.png)
 areas, while propagation modeling in Obstructed Line of Sight (OLOS) and Non-Line of Sight (NLOS) areas
 uses empirically determined parameters defined in ITU-R and 3GPP recommendations. It also models the
 scattering of other rays around the receiver. The model applies empirically validated values for the 400
@@ -1579,6 +1695,10 @@ such as atmospheric (dust, hydrometeors, etc...) losses. It regulates slope of t
 value 30.2.
 • Hata Loss: A2 - transmitter height influence coefficient. It is related to errors in DTM, real Earth
 curvature, etc. It regulates loss curve vertical position like the A0, but with respect to antenna height.
+
+![Image p88](../assets/images/ce-pro/emf-guide/p088-img1.png)
+
+![Image p88](../assets/images/ce-pro/emf-guide/p088-img2.png)
 Default value -12.
 • Hata Loss: A3 - Okumura-Hata type of multiplying factor for log(h )log(d). Default value 0.1.
 M
@@ -1588,9 +1708,9 @@ diffraction loss, clutter loss, penetration loss, and receiver loss coefficients
 
 These parameters describe how a signal is impacted when it passes through or terminates in a specific
 
-![Screenshot p89](../assets/images/ce-pro/emf-guide/p089-img1.png)
+![Image p89](../assets/images/ce-pro/emf-guide/p089-img1.png)
 
-![Screenshot p89](../assets/images/ce-pro/emf-guide/p089-img2.png)
+![Image p89](../assets/images/ce-pro/emf-guide/p089-img2.png)
 clutter class.
 Key Parameters:
 
@@ -1681,6 +1801,8 @@ of 20.
 Model application
 ITU-R P.368 is ground-wave propagation of radio signals model. It is specifically designed to estimate the
 field strength and attenuation of radio waves over the Earth's surface, particularly for frequencies below 30
+
+![Image p91](../assets/images/ce-pro/emf-guide/p091-img1.png)
 MHz.
 This model is widely used in planning and designing long-distance communication systems, such as
 
@@ -1780,7 +1902,7 @@ reflections, and obstacles.
 In the context of siren sound prediction, ISO 9613 helps determine the effective coverage area, ensuring
 that warning signals reach the intended audience with sufficient audibility. This standard is essential for
 
-![Screenshot p94](../assets/images/ce-pro/emf-guide/p094-img1.png)
+![Image p94](../assets/images/ce-pro/emf-guide/p094-img1.png)
 optimizing siren placement, regulatory compliance, and designing effective emergency alert systems.
 The primary factors included in the standard are:
 
@@ -1872,7 +1994,7 @@ ITU-R principles and 3GPP extensions, specifically engineered for indoor radiowa
 
 supporting a wide range of scenarios — from clean LOS corridors to deeply obstructed NLOS paths — it
 
-![Screenshot p97](../assets/images/ce-pro/emf-guide/p097-img1.png)
+![Image p97](../assets/images/ce-pro/emf-guide/p097-img1.png)
 enables highly accurate modeling of next-generation wireless systems, ensuring reliable, secure, and
 efficient communication in the most demanding indoor environments.
 Key Enhancements for Indoor Use
@@ -2068,9 +2190,11 @@ available parameters in network layer.
 #### 7.7.1 Edit Network Objects template
 Click the button to open the Template Manager dialogue. Select one of the opened templates to edit
 
-![Screenshot p102](../assets/images/ce-pro/emf-guide/p102-img1.png)
+![Image p102](../assets/images/ce-pro/emf-guide/p102-img1.png)
 
-![Screenshot p102](../assets/images/ce-pro/emf-guide/p102-img2.png)
+![Image p102](../assets/images/ce-pro/emf-guide/p102-img2.png)
+
+![Image p102](../assets/images/ce-pro/emf-guide/p102-img3.png)
 them.
 
 Save Changes
@@ -2087,13 +2211,17 @@ Delete will remove this selected template.
 The modulations are used in MW link calculations and specifically can be defined for Radios. Instead of
 specifying Modulations one by one, the customer can create a set of them, and it is available in this tab.
 
-![Screenshot p103](../assets/images/ce-pro/emf-guide/p103-img1.png)
+![Image p103](../assets/images/ce-pro/emf-guide/p103-img1.png)
+
+![Image p103](../assets/images/ce-pro/emf-guide/p103-img2.png)
 To preview and edit the Modulations template, click on it in the table.
 
 (top right)
 A new modulation with default values can be initialized.
 
-![Screenshot p104](../assets/images/ce-pro/emf-guide/p104-img1.png)
+![Image p104](../assets/images/ce-pro/emf-guide/p104-img1.png)
+
+![Image p104](../assets/images/ce-pro/emf-guide/p104-img2.png)
 X
 Modulation can be removed.
 Save changes
@@ -2103,7 +2231,11 @@ Dismiss
 Remove changes.
 To create a new Modulation template, press button in the top right corner of the dialog to initialize a
 
-![Screenshot p105](../assets/images/ce-pro/emf-guide/p105-img1.png)
+![Image p105](../assets/images/ce-pro/emf-guide/p105-img1.png)
+
+![Image p105](../assets/images/ce-pro/emf-guide/p105-img2.png)
+
+![Image p105](../assets/images/ce-pro/emf-guide/p105-img3.png)
 new template.
 Template name
 The name of the modulation template.
@@ -2118,9 +2250,11 @@ The list of available modulations is taken from the Modulation Editor tab.
 
 To add a new modulation, click the at the top right of the Modulation Editor window to initialize a new
 
-![Screenshot p106](../assets/images/ce-pro/emf-guide/p106-img1.png)
+![Image p106](../assets/images/ce-pro/emf-guide/p106-img1.png)
 
-![Screenshot p106](../assets/images/ce-pro/emf-guide/p106-img2.png)
+![Image p106](../assets/images/ce-pro/emf-guide/p106-img2.png)
+
+![Image p106](../assets/images/ce-pro/emf-guide/p106-img3.png)
 modulation with default values, and press the Create button at the bottom of the window. Alternatively, click
 on an existing one to edit its parameters.
 Create
@@ -2134,6 +2268,10 @@ Dismiss changes made to the modulation.
 ### 7.8 Import Objects
 The Import Objects feature further enhances efficiency by allowing users to bring in network objects from
 multiple external documents without manually creating them. This capability is invaluable when dealing with
+
+![Image p107](../assets/images/ce-pro/emf-guide/p107-img1.png)
+
+![Image p107](../assets/images/ce-pro/emf-guide/p107-img2.png)
 extensive or complex datasets. Cellular Expert for ArcGIS Pro supports the import of three widely used file
 formats: .xls, .xlsx, and .csv. Additionally, for mapping files, it supports the .json format.
 Key benefits of the Import Objects feature include:
@@ -2150,7 +2288,7 @@ The dialog will be filled with the options to define data and mapping files.
 #### 7.8.1 Import Cells
 The option enables possibility to import Cells in the Cellular Expert workspace. It has additional parameters
 
-![Screenshot p108](../assets/images/ce-pro/emf-guide/p108-img1.png)
+![Image p108](../assets/images/ce-pro/emf-guide/p108-img1.png)
 compared to other import options.
 Template
 Take necessary parameters from the template during the import. Template values are taken if some
@@ -2173,7 +2311,7 @@ Select Mapping File (Optional)
 Opens a dialogue window where the user can select a file that defines the data to be imported and the
 conditions under which said data is processed. The supported format is .json. Upon successful selection,
 
-![Screenshot p109](../assets/images/ce-pro/emf-guide/p109-img1.png)
+![Image p109](../assets/images/ce-pro/emf-guide/p109-img1.png)
 the button will light up green. More on mapping files are below.
 Steps.
 
@@ -2191,7 +2329,9 @@ name. It must be text data.
 7.8.1.1 Mapping file
 The data in the import files may have names, values, and units that do not match the data in the Cellular
 
-![Screenshot p110](../assets/images/ce-pro/emf-guide/p110-img1.png)
+![Image p110](../assets/images/ce-pro/emf-guide/p110-img1.png)
+
+![Image p110](../assets/images/ce-pro/emf-guide/p110-img2.png)
 Expert database. To resolve such issues an additional Mapping file should be imported in which these data
 conflicts ought to be addressed.
 The empty mapping file can be found in the project’s workspace catalog, SystemFiles folder.
@@ -2208,6 +2348,10 @@ imported.
 database. This property will be checked when the mapping file is imported.
 “default_value” – value that will be used when an object in the data file has no value for a particular
 property. In this example, if “latitude” is not set, then it will by default be assigned the value of 41.258.
+
+![Image p111](../assets/images/ce-pro/emf-guide/p111-img1.png)
+
+![Image p111](../assets/images/ce-pro/emf-guide/p111-img2.png)
 Leaving the default to empty quotation marks (“”) means that no default value will be applied.
 
 #### 7.8.2 Import Sites, Radar, CPE, or Repeaters
@@ -2230,7 +2374,7 @@ the button will light up green.
 Click the toolbar button and select Import to import antenna patterns. The command opens a
 dialogue window where the user can select the antenna pattern files to be imported into the Cellular Expert
 
-![Screenshot p112](../assets/images/ce-pro/emf-guide/p112-img1.png)
+![Image p112](../assets/images/ce-pro/emf-guide/p112-img1.png)
 database. Select the antenna type in the dropdown list and proceed.
 Select Files
 This button opens a dialogue in which you can select one or more antenna pattern files to be imported. The
@@ -2259,7 +2403,7 @@ Click on the button and select Create to create antenna patterns. Various parame
 antenna can be entered, as well as horizontal and vertical beamwidth values or ranges. For the selected
 horizontal and vertical values or ranges, the horizontal and vertical attenuations are set to 0, while all other
 
-![Screenshot p113](../assets/images/ce-pro/emf-guide/p113-img1.png)
+![Image p113](../assets/images/ce-pro/emf-guide/p113-img1.png)
 attenuations are set to 1000. Based on the horizontal and vertical beamwidths, the horizontal and vertical
 antenna patterns are displayed.
 
@@ -2272,9 +2416,9 @@ Antenna frequency value in MHz.
 Gain
 Antenna gain value in dBi.
 Horizontal beamwidth
-
-![Screenshot p114](../assets/images/ce-pro/emf-guide/p114-img1.png)
 Antenna’s horizontal beamwidth value or range in degrees. By default, the value is 60.
+
+![Image p114](../assets/images/ce-pro/emf-guide/p114-img1.png)
 Vertical beamwidth
 Antenna’s vertical beamwidth value or range in degrees. By default, the value is 15.
 Create Antenna
@@ -2287,7 +2431,7 @@ The EMF Calculation Tool analyzes and visualizes electromagnetic field (EMF) exp
 environmental and technical parameters, such as resolution, cell template, reflection factor, and receiver
 height. This tool allows users to perform EMF calculations for selected cells by specifying these parameters.
 
-![Screenshot p115](../assets/images/ce-pro/emf-guide/p115-img1.png)
+![Image p115](../assets/images/ce-pro/emf-guide/p115-img1.png)
 These are then processed to provide results for EMF limit usage (%), EMF in mV/m, and EMF in mW/m².
 The results are displayed on the map, highlighting areas with varying levels of EMF exposure, and the
 values are explained in the legend under the newly created calculation layer.
@@ -2305,7 +2449,9 @@ Receiver height in meters.
 
 The results are displayed in newly added rasters of the calculation – electromagnetic field exposure results
 
-![Screenshot p116](../assets/images/ce-pro/emf-guide/p116-img1.png)
+![Image p116](../assets/images/ce-pro/emf-guide/p116-img1.png)
+
+![Image p116](../assets/images/ce-pro/emf-guide/p116-img2.png)
 in mV/m and mW/m2. For example, the green indicates where mV/m exposure values are less than 50, and
 red indicates where they are higher than 100.
 
@@ -2342,9 +2488,9 @@ The template that is used for receiver’s default values.
 Profile: Transmitter
 Toggling the switch to the left of Transmitter will enable the Fixed Transmitter functionality, which will
 
-![Screenshot p117](../assets/images/ce-pro/emf-guide/p117-img1.png)
+![Image p117](../assets/images/ce-pro/emf-guide/p117-img1.png)
 
-![Screenshot p117](../assets/images/ce-pro/emf-guide/p117-img2.png)
+![Image p117](../assets/images/ce-pro/emf-guide/p117-img2.png)
 modify only the receiver’s positioning when drawing the profile on the map.
 Cell
 A cell from which the profile will be drawn. The parameters of the cell will be taken into calculation if
@@ -2369,7 +2515,7 @@ Electrical downtilt value for the transmitter, in degrees.
 
 The antenna for the transmitter can be selected from the table below the El. Downtilt, deg input. Its
 
-![Screenshot p119](../assets/images/ce-pro/emf-guide/p119-img1.png)
+![Image p119](../assets/images/ce-pro/emf-guide/p119-img1.png)
 pattern can be viewed by clicking the View Antenna button on the right side.
 Frequency, MHz
 Frequency of the transmitter.
@@ -2394,7 +2540,7 @@ Decimal degrees X type coordinate.
 Height, m
 Height above the ground in meters. The minimum value must be 1m.
 
-![Screenshot p120](../assets/images/ce-pro/emf-guide/p120-img1.png)
+![Image p120](../assets/images/ce-pro/emf-guide/p120-img1.png)
 Azimuth towards transmitter
 
 Enabled by default. When enabled, the receiver’s azimuth is towards the transmitter. Disabling this
@@ -2402,6 +2548,8 @@ option it would take azimuth value from the receiver (Cell) object, and use it f
 calculations, it also allows the user to enter a custom azimuth value for the receiver.
 Downtilt towards transmitter
 Enabled by default. When enabled, the receiver’s tilt is towards the transmitter. Disabling this option it
+
+![Image p121](../assets/images/ce-pro/emf-guide/p121-img1.png)
 would take tilt value from the receiver (Cell) object, and use it for FWA Power Budget calculations,
 it allows the user to enter a custom tilt value for the receiver.
 Power, dBm
@@ -2431,7 +2579,11 @@ Upon the selection of a second point, these geometries will be created between t
 
 The Profile plot illustrating these geometries, obstacles (buildings), and the Fresnel zone will appear in
 
-![Screenshot p122](../assets/images/ce-pro/emf-guide/p122-img1.png)
+![Image p122](../assets/images/ce-pro/emf-guide/p122-img1.png)
+
+![Image p122](../assets/images/ce-pro/emf-guide/p122-img2.png)
+
+![Image p122](../assets/images/ce-pro/emf-guide/p122-img3.png)
 a dockpane below. You can inspect the values at particular points by moving the cursor around the
 plot. The cursor movement on the plot will be projected as a moving point on the map. If a cell is
 selected for the transmitter, the cell’s tilt (the sum of mechanical and electrical tilts) and vertical
@@ -2442,7 +2594,9 @@ The button allows you to see the Prediction Calculation results.
 
 You can change the colors of the profile by clicking the colored squares near the names of the parameters.
 
-![Screenshot p123](../assets/images/ce-pro/emf-guide/p123-img1.png)
+![Image p123](../assets/images/ce-pro/emf-guide/p123-img1.png)
+
+![Image p123](../assets/images/ce-pro/emf-guide/p123-img2.png)
 The colors will be updated automatically. You can toggle the visibility of each separate parameter of
 the profile by clicking on the name of the element. Enabled elements are indicated by bold text,
 and disabled elements are indicated by regular text.
@@ -2450,25 +2604,29 @@ and disabled elements are indicated by regular text.
 You can change the height of the transmitter/receiver points by dragging their ends on the plot.
 Hovering the cursor over the plot displays a tooltip with the meter values for profile, building, clutter,
 
-![Screenshot p124](../assets/images/ce-pro/emf-guide/p124-img1.png)
+![Image p124](../assets/images/ce-pro/emf-guide/p124-img1.png)
 
-![Screenshot p124](../assets/images/ce-pro/emf-guide/p124-img2.png)
+![Image p124](../assets/images/ce-pro/emf-guide/p124-img2.png)
 elevation, distance, etc., as well as their representations in colors.
 
 9.1.2.1 Adjust Data
 Adjust data is found on the Profile Plot dockpane near the Results. The tool lets you change the
 
-![Screenshot p125](../assets/images/ce-pro/emf-guide/p125-img1.png)
+![Image p125](../assets/images/ce-pro/emf-guide/p125-img1.png)
 
-![Screenshot p125](../assets/images/ce-pro/emf-guide/p125-img2.png)
+![Image p125](../assets/images/ce-pro/emf-guide/p125-img2.png)
 elevation, building, and clutter data of the area visible in the profile plot.
 When the Adjust tab is opened, select a desirable range for the data adjustment on the plot.
 
 You can make slight changes to the range of the selection area by hovering over the area's edges and
 
-![Screenshot p126](../assets/images/ce-pro/emf-guide/p126-img1.png)
+![Image p126](../assets/images/ce-pro/emf-guide/p126-img1.png)
 
-![Screenshot p126](../assets/images/ce-pro/emf-guide/p126-img2.png)
+![Image p126](../assets/images/ce-pro/emf-guide/p126-img2.png)
+
+![Image p126](../assets/images/ce-pro/emf-guide/p126-img3.png)
+
+![Image p126](../assets/images/ce-pro/emf-guide/p126-img4.png)
 dragging them. To adjust the values, click on one of the text boxes and insert the value.
 To change multiple values simultaneously, drag across the adjustment table and select multiple rows.
 Changing the value of a single text box will also change all the other chosen rows’ values in that
@@ -2479,9 +2637,13 @@ To reset the adjusted values to defaults, click the Refresh button .
 Manual Profile
 If you want to insert specific coordinates and draw a profile that way, you can insert these values in the
 
-![Screenshot p127](../assets/images/ce-pro/emf-guide/p127-img1.png)
+![Image p127](../assets/images/ce-pro/emf-guide/p127-img1.png)
 
-![Screenshot p127](../assets/images/ce-pro/emf-guide/p127-img2.png)
+![Image p127](../assets/images/ce-pro/emf-guide/p127-img2.png)
+
+![Image p127](../assets/images/ce-pro/emf-guide/p127-img3.png)
+
+![Image p127](../assets/images/ce-pro/emf-guide/p127-img4.png)
 Profile pane and click the Manual Profile button.
 Dynamic Profile
 The button toggles the Dynamic Profile.
@@ -2501,9 +2663,9 @@ It is recommended to disable the Step Plot of the profile before using Reflectio
 Use Single Reflection
 Enable a reflection that will reflect straight from the transmitter to the receiver point with the smallest
 
-![Screenshot p128](../assets/images/ce-pro/emf-guide/p128-img1.png)
+![Image p128](../assets/images/ce-pro/emf-guide/p128-img1.png)
 
-![Screenshot p128](../assets/images/ce-pro/emf-guide/p128-img2.png)
+![Image p128](../assets/images/ce-pro/emf-guide/p128-img2.png)
 angle.
 
 Use Multipath Reflections
@@ -2521,7 +2683,9 @@ disabled, custom values may be used for conductivity and permittivity.
 Select Reflection Range
 Lets you set a range in which the reflection calculations should happen. This will affect both Single and
 
-![Screenshot p129](../assets/images/ce-pro/emf-guide/p129-img1.png)
+![Image p129](../assets/images/ce-pro/emf-guide/p129-img1.png)
+
+![Image p129](../assets/images/ce-pro/emf-guide/p129-img2.png)
 Multipath reflections and help highlight specific important areas along the profile as well as speed
 up the calculation process.
 The range will be enabled as soon as a profile is drawn.
@@ -2532,7 +2696,7 @@ Reflection results will appear in the Profile Results table.
 9.1.3.1 Reflection Analysis
 The Reflection Analysis tool for Profile is designed to help analyze and visualize signal reflections based
 
-![Screenshot p130](../assets/images/ce-pro/emf-guide/p130-img1.png)
+![Image p130](../assets/images/ce-pro/emf-guide/p130-img1.png)
 on the changes in various profile parameters like frequency, transmitter height, receiver height, and K-
 factor. Reflections must be enabled to perform analysis, and the Single Reflection option is automatically
 enabled when the tool is selected.
@@ -2546,7 +2710,7 @@ Calculate reflection analysis based on transmitter height range (from m to m)
 Dependency on K-Factor
 Calculate reflection analysis based on K-factor range (from radius, km to radius, km)
 
-![Screenshot p131](../assets/images/ce-pro/emf-guide/p131-img1.png)
+![Image p131](../assets/images/ce-pro/emf-guide/p131-img1.png)
 
 The reflection analysis results for each type of dependency are displayed in the Reflection Analysis
 tab of the Calculated Profile window.
@@ -2554,7 +2718,7 @@ tab of the Calculated Profile window.
 #### 9.1.4 Import
 Import a profile by selecting a profile file in the Import section. Supported formats: .pl2 (path loss file).
 
-![Screenshot p132](../assets/images/ce-pro/emf-guide/p132-img1.png)
+![Image p132](../assets/images/ce-pro/emf-guide/p132-img1.png)
 Once imported successfully, the profile data may then be customized.
 
 Load Profile
@@ -2564,18 +2728,20 @@ Creates the profile with the provided data.
 The input data and calculation results can be automatically transferred into a Profile Report. This report
 will show transmitter/receiver input data, calculation results as well as the Profile plot and map view in which
 
-![Screenshot p133](../assets/images/ce-pro/emf-guide/p133-img1.png)
+![Image p133](../assets/images/ce-pro/emf-guide/p133-img1.png)
 
-![Screenshot p133](../assets/images/ce-pro/emf-guide/p133-img2.png)
+![Image p133](../assets/images/ce-pro/emf-guide/p133-img2.png)
 the profile was drawn. The report can be exported in PDF and PL2 formats. The Profile Report can also be
 saved to Docs Manager by selecting Save result to Docs Manager.
 
 The resulting Profile report will look similar to this example:
 
-![Screenshot p134](../assets/images/ce-pro/emf-guide/p134-img1.png)
+![Image p134](../assets/images/ce-pro/emf-guide/p134-img1.png)
 
 #### 9.1.6 Settings
 Currently, you can configure the profile’s visual properties and controls in profile settings. The settings can
+
+![Image p135](../assets/images/ce-pro/emf-guide/p135-img1.png)
 be changed once a profile is drawn.
 Show Step Plot
 Display data points as a series of steps rather than a smooth line or individual points.
@@ -2596,7 +2762,17 @@ The task list refreshes automatically once calculation tasks are run. The task s
 main colors: blue (in progress), green (completed), and red (failed). Calculation tasks can be deleted
 from the task list by clicking on the right side of the task. To open a result raster, select it from the results
 
-![Screenshot p136](../assets/images/ce-pro/emf-guide/p136-img1.png)
+![Image p136](../assets/images/ce-pro/emf-guide/p136-img1.png)
+
+![Image p136](../assets/images/ce-pro/emf-guide/p136-img2.png)
+
+![Image p136](../assets/images/ce-pro/emf-guide/p136-img3.png)
+
+![Image p136](../assets/images/ce-pro/emf-guide/p136-img4.png)
+
+![Image p136](../assets/images/ce-pro/emf-guide/p136-img5.png)
+
+![Image p136](../assets/images/ce-pro/emf-guide/p136-img6.png)
 dropdown and click Open Results. Filtering by calculation spans these types: Antenna Visibility Prediction,
 EMF Calculation, Link Prediction, Model Tuning, Optimal Site Positions Calculation, RF Prediction, Siren
 Sound Prediction, and Visibility Prediction.
@@ -2627,7 +2803,9 @@ A template that corresponds to the selected layers. When the layer changes the t
 Selected
 Network objects that are present on the selected network layer. The visibility prediction will be performed
 
-![Screenshot p137](../assets/images/ce-pro/emf-guide/p137-img1.png)
+![Image p137](../assets/images/ce-pro/emf-guide/p137-img1.png)
+
+![Image p137](../assets/images/ce-pro/emf-guide/p137-img2.png)
 on all of them.
 Run Calculations
 Starts the prediction calculation.
@@ -2636,16 +2814,16 @@ Results:
 • Minimum Receiver Height in meters
 • Line of Sight – either visible (1) by the network objects or not (0)
 
-![Screenshot p138](../assets/images/ce-pro/emf-guide/p138-img1.png)
+![Image p138](../assets/images/ce-pro/emf-guide/p138-img1.png)
 
-![Screenshot p138](../assets/images/ce-pro/emf-guide/p138-img2.png)
+![Image p138](../assets/images/ce-pro/emf-guide/p138-img2.png)
 • Clearance in meters
 
+![Image p139](../assets/images/ce-pro/emf-guide/p139-img1.png)
+
+![Image p139](../assets/images/ce-pro/emf-guide/p139-img2.png)
+
 • Best Server
-
-![Screenshot p139](../assets/images/ce-pro/emf-guide/p139-img1.png)
-
-![Screenshot p139](../assets/images/ce-pro/emf-guide/p139-img2.png)
 
 ## 11. About
 
@@ -2653,7 +2831,11 @@ Results:
 Click the button to open the License Information dialogue.
 License information is a useful resource to see your current version of Cellular Expert for ArcGIS Pro, user
 
-![Screenshot p140](../assets/images/ce-pro/emf-guide/p140-img1.png)
+![Image p140](../assets/images/ce-pro/emf-guide/p140-img1.png)
+
+![Image p140](../assets/images/ce-pro/emf-guide/p140-img2.png)
+
+![Image p140](../assets/images/ce-pro/emf-guide/p140-img3.png)
 key, currently active licenses, and their expiration dates. The license information window is also used when
 a user is enabling the CE for ArcGIS Pro extension on their computer. For more information about license
 activation see Activation.
@@ -2669,9 +2851,11 @@ when trying to figure out a problem.
 Click the button in the Help dropdown list to open the What’s New document. This document
 is updated for each new release of Cellular Expert for ArcGIS Pro, and here you will find the changelog for
 
-![Screenshot p141](../assets/images/ce-pro/emf-guide/p141-img1.png)
+![Image p141](../assets/images/ce-pro/emf-guide/p141-img1.png)
 
-![Screenshot p141](../assets/images/ce-pro/emf-guide/p141-img2.png)
+![Image p141](../assets/images/ce-pro/emf-guide/p141-img2.png)
+
+![Image p141](../assets/images/ce-pro/emf-guide/p141-img3.png)
 the current installed version. This document serves as the introduction of added new features,
 enhancements, bug fixes, and other changes.
 
@@ -2686,7 +2870,11 @@ Click the button in the Help dropdown list to open the Error Log dialogue.
 Here you will find information about errors that have occurred during certain processes of the CE for ArcGIS
 Pro extension’s lifetime. These logs are crucial to improving the overall quality of the user experience. Thus,
 
-![Screenshot p142](../assets/images/ce-pro/emf-guide/p142-img1.png)
+![Image p142](../assets/images/ce-pro/emf-guide/p142-img1.png)
+
+![Image p142](../assets/images/ce-pro/emf-guide/p142-img2.png)
+
+![Image p142](../assets/images/ce-pro/emf-guide/p142-img3.png)
 when an error happens and you decide to contact a Cellular Expert, you will be asked to send these logs
 so that the problems you encounter can be patched as soon as possible.
 Copy

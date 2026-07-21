@@ -1,19 +1,125 @@
 # 05. Line of Sight (Profile)
 
+![Image p1](../../assets/images/ce-pro/training-05/p001-img1.png)
+
+![Image p1](../../assets/images/ce-pro/training-05/p001-img2.png)
+
+![Image p1](../../assets/images/ce-pro/training-05/p001-img3.png)
+
+![Image p1](../../assets/images/ce-pro/training-05/p001-img4.png)
+
+![Image p1](../../assets/images/ce-pro/training-05/p001-img5.png)
+
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img1.png)
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img2.png)
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img3.png)
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img4.png)
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img5.png)
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img6.png)
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img7.png)
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img8.png)
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img9.png)
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img10.png)
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img11.png)
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img12.png)
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img13.png)
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img14.png)
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img15.png)
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img16.png)
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img17.png)
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img18.png)
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img19.png)
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img20.png)
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img21.png)
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img22.png)
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img23.png)
+
+![Image p2](../../assets/images/ce-pro/training-05/p002-img24.png)
 > **Version:** CE Pro v4.9
 
+![Image p3](../../assets/images/ce-pro/training-05/p003-img1.png)
+
+
+![Image p4](../../assets/images/ce-pro/training-05/p004-img1.png)
+
+![Image p4](../../assets/images/ce-pro/training-05/p004-img2.png)
+
+![Image p4](../../assets/images/ce-pro/training-05/p004-img3.png)
 LOS and profile results are displayed in the ArcGIS Pro map view. The map canvas shows the terrain cross-section and any obstruction points:
 
+![Image p5](../../assets/images/ce-pro/training-05/p005-img1.png)
+
+
+![Image p6](../../assets/images/ce-pro/training-05/p006-img1.png)
 The **Contents** and **Catalog** panes show the DEM, clutter, and obstacle layers required for LOS calculation:
 
+![Image p7](../../assets/images/ce-pro/training-05/p007-img1.png)
+
+![Image p7](../../assets/images/ce-pro/training-05/p007-img2.png)
+
+
+![Image p8](../../assets/images/ce-pro/training-05/p008-img1.png)
+
+![Image p8](../../assets/images/ce-pro/training-05/p008-img2.png)
 ---
 
+![Image p9](../../assets/images/ce-pro/training-05/p009-img1.png)
+
+![Image p9](../../assets/images/ce-pro/training-05/p009-img2.png)
+
+
+![Image p10](../../assets/images/ce-pro/training-05/p010-img1.png)
+
+![Image p10](../../assets/images/ce-pro/training-05/p010-img2.png)
 ## Geodata Layers Used
 
+![Image p11](../../assets/images/ce-pro/training-05/p011-img1.png)
+
+
+![Image p12](../../assets/images/ce-pro/training-05/p012-img1.png)
+
+![Image p12](../../assets/images/ce-pro/training-05/p012-img2.png)
 CE Pro uses three GIS data layers for precise RF propagation modelling:
 
+![Image p13](../../assets/images/ce-pro/training-05/p013-img1.png)
+
+![Image p13](../../assets/images/ce-pro/training-05/p013-img2.png)
+
+
+![Image p14](../../assets/images/ce-pro/training-05/p014-img1.png)
+
+![Image p14](../../assets/images/ce-pro/training-05/p014-img2.png)
 | Layer | Description |
+
+![Image p15](../../assets/images/ce-pro/training-05/p015-img1.png)
+
+![Image p15](../../assets/images/ce-pro/training-05/p015-img2.png)
 |-------|-------------|
+
+![Image p16](../../assets/images/ce-pro/training-05/p016-img1.png)
 | **DTM / DEM** | Digital Terrain Model — ground elevation above sea level |
 | **Obstacles** | Buildings and structures above ground (principal impediments) |
 | **Clutter** | Vegetation, crops, gardens — partially penetrable by radio waves |
@@ -21,8 +127,22 @@ CE Pro uses three GIS data layers for precise RF propagation modelling:
 Together these layers form the **DSM (Digital Surface Model)**:
 ```
 DSM = DTM + Obstacles (buildings/vegetation)
+
+![Image p17](../../assets/images/ce-pro/training-05/p017-img1.png)
 ```
 
+![Image p18](../../assets/images/ce-pro/training-05/p018-img1.png)
+
+
+![Image p20](../../assets/images/ce-pro/training-05/p020-img1.png)
+
+![Image p20](../../assets/images/ce-pro/training-05/p020-img2.png)
+
+![Image p20](../../assets/images/ce-pro/training-05/p020-img3.png)
+
+![Image p20](../../assets/images/ce-pro/training-05/p020-img4.png)
+
+![Image p20](../../assets/images/ce-pro/training-05/p020-img5.png)
 ---
 
 ## Point-to-Point Profile
@@ -157,112 +277,4 @@ CE Pro can display the terrain profile in 3D, showing the transmitter, receiver,
 ---
 
 *Reference: CE Desktop Training — 2. Line of Sight (Profile)*
-
-![Screenshot p1](../../assets/images/ce-pro/training-05/p001-img1.png)
-
-![Screenshot p1](../../assets/images/ce-pro/training-05/p001-img2.png)
-
-![Screenshot p1](../../assets/images/ce-pro/training-05/p001-img3.png)
-
-
-![Screenshot p2](../../assets/images/ce-pro/training-05/p002-img1.png)
-![Screenshot p1](../../assets/images/ce-pro/training-05/p001-img1.png)
-
-![Screenshot p3](../../assets/images/ce-pro/training-05/p003-img1.png)
-
-
-![Screenshot p4](../../assets/images/ce-pro/training-05/p004-img1.png)
-
-![Screenshot p4](../../assets/images/ce-pro/training-05/p004-img2.png)
-![Screenshot p1](../../assets/images/ce-pro/training-05/p001-img2.png)
-
-![Screenshot p5](../../assets/images/ce-pro/training-05/p005-img1.png)
-
-
-![Screenshot p6](../../assets/images/ce-pro/training-05/p006-img1.png)
-![Screenshot p1](../../assets/images/ce-pro/training-05/p001-img3.png)
-
-![Screenshot p7](../../assets/images/ce-pro/training-05/p007-img1.png)
-
-![Screenshot p7](../../assets/images/ce-pro/training-05/p007-img2.png)
 *Contact: info@cellular-expert.com | +370 5 2150575*
-
-![Screenshot p8](../../assets/images/ce-pro/training-05/p008-img1.png)
-
-![Screenshot p8](../../assets/images/ce-pro/training-05/p008-img2.png)
-
-
-![Screenshot p9](../../assets/images/ce-pro/training-05/p009-img1.png)
-
-![Screenshot p9](../../assets/images/ce-pro/training-05/p009-img2.png)
-![Screenshot p2](../../assets/images/ce-pro/training-05/p002-img1.png)
-
-![Screenshot p10](../../assets/images/ce-pro/training-05/p010-img1.png)
-
-
-![Screenshot p11](../../assets/images/ce-pro/training-05/p011-img1.png)
-![Screenshot p3](../../assets/images/ce-pro/training-05/p003-img1.png)
-
-![Screenshot p12](../../assets/images/ce-pro/training-05/p012-img1.png)
-
-
-![Screenshot p13](../../assets/images/ce-pro/training-05/p013-img1.png)
-![Screenshot p4](../../assets/images/ce-pro/training-05/p004-img1.png)
-
-![Screenshot p14](../../assets/images/ce-pro/training-05/p014-img1.png)
-
-![Screenshot p14](../../assets/images/ce-pro/training-05/p014-img2.png)
-
-
-![Screenshot p16](../../assets/images/ce-pro/training-05/p016-img1.png)
-![Screenshot p4](../../assets/images/ce-pro/training-05/p004-img2.png)
-
-![Screenshot p17](../../assets/images/ce-pro/training-05/p017-img1.png)
-
-
-![Screenshot p18](../../assets/images/ce-pro/training-05/p018-img1.png)
-![Screenshot p5](../../assets/images/ce-pro/training-05/p005-img1.png)
-
-![Screenshot p20](../../assets/images/ce-pro/training-05/p020-img1.png)
-
-![Screenshot p20](../../assets/images/ce-pro/training-05/p020-img2.png)
-
-![Screenshot p20](../../assets/images/ce-pro/training-05/p020-img3.png)
-
-![Screenshot p6](../../assets/images/ce-pro/training-05/p006-img1.png)
-
-![Screenshot p7](../../assets/images/ce-pro/training-05/p007-img1.png)
-
-![Screenshot p7](../../assets/images/ce-pro/training-05/p007-img2.png)
-
-![Screenshot p8](../../assets/images/ce-pro/training-05/p008-img1.png)
-
-![Screenshot p8](../../assets/images/ce-pro/training-05/p008-img2.png)
-
-![Screenshot p9](../../assets/images/ce-pro/training-05/p009-img1.png)
-
-![Screenshot p9](../../assets/images/ce-pro/training-05/p009-img2.png)
-
-![Screenshot p10](../../assets/images/ce-pro/training-05/p010-img1.png)
-
-![Screenshot p11](../../assets/images/ce-pro/training-05/p011-img1.png)
-
-![Screenshot p12](../../assets/images/ce-pro/training-05/p012-img1.png)
-
-![Screenshot p13](../../assets/images/ce-pro/training-05/p013-img1.png)
-
-![Screenshot p14](../../assets/images/ce-pro/training-05/p014-img1.png)
-
-![Screenshot p14](../../assets/images/ce-pro/training-05/p014-img2.png)
-
-![Screenshot p16](../../assets/images/ce-pro/training-05/p016-img1.png)
-
-![Screenshot p17](../../assets/images/ce-pro/training-05/p017-img1.png)
-
-![Screenshot p18](../../assets/images/ce-pro/training-05/p018-img1.png)
-
-![Screenshot p20](../../assets/images/ce-pro/training-05/p020-img1.png)
-
-![Screenshot p20](../../assets/images/ce-pro/training-05/p020-img2.png)
-
-![Screenshot p20](../../assets/images/ce-pro/training-05/p020-img3.png)

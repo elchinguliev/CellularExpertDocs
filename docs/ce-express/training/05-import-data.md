@@ -1,5 +1,9 @@
 # 05. Import Data
 
+![Image p1](../../assets/images/ce-express/training-05/p001-img1.png)
+
+![Image p1](../../assets/images/ce-express/training-05/p001-img2.png)
+
 > **Version:** CE Express v7.2
 
 1. Objective
@@ -46,9 +50,7 @@ https://cecom2.cellular-expert.com/ce_express/
 Importing [network objects](#kw:object-types:ce-express-network-objects) allows users to rapidly populate a workspace with sites and cells
 instead of creating them manually. This approach is especially useful when working with
 
-![Screenshot p3](../../assets/images/ce-express/training-05/p003-img1.png)
-
-![Screenshot p3](../../assets/images/ce-express/training-05/p003-img1.png)
+![Image p3](../../assets/images/ce-express/training-05/p003-img1.png)
 existing datasets or migrating data between systems.
 4.2.2 Opening the Import Tool
 1. Open the Features tool.
@@ -59,13 +61,11 @@ existing datasets or migrating data between systems.
 
 The Import dialog opens on the right side of the screen.
 
-![Screenshot p4](../../assets/images/ce-express/training-05/p004-img1.png)
+![Image p4](../../assets/images/ce-express/training-05/p004-img1.png)
 
-![Screenshot p4](../../assets/images/ce-express/training-05/p004-img2.png)
+![Image p4](../../assets/images/ce-express/training-05/p004-img2.png)
 
-![Screenshot p4](../../assets/images/ce-express/training-05/p004-img1.png)
-
-![Screenshot p4](../../assets/images/ce-express/training-05/p004-img2.png)
+![Image p4](../../assets/images/ce-express/training-05/p004-img3.png)
 4.2.3 Loading the CSV File
 1. Open Windows File Explorer.
 2. Navigate to:
@@ -83,9 +83,7 @@ Enable the following options:
 attributes
 These options ensure that both sites and cells are created correctly during import.
 
-![Screenshot p5](../../assets/images/ce-express/training-05/p005-img1.png)
-
-![Screenshot p5](../../assets/images/ce-express/training-05/p005-img1.png)
+![Image p5](../../assets/images/ce-express/training-05/p005-img1.png)
 4.2.5 Mapping CSV Fields to CE Express Attributes
 Mapping defines how columns in the CSV file are translated into CE Express object
 parameters.
@@ -118,13 +116,9 @@ Technology Tech Leave empty
 Prediction model ID Leave empty 3
 Prediction model configuration ID Leave empty 4
 
-![Screenshot p6](../../assets/images/ce-express/training-05/p006-img1.png)
+![Image p6](../../assets/images/ce-express/training-05/p006-img1.png)
 
-![Screenshot p6](../../assets/images/ce-express/training-05/p006-img2.png)
-
-![Screenshot p6](../../assets/images/ce-express/training-05/p006-img1.png)
-
-![Screenshot p6](../../assets/images/ce-express/training-05/p006-img2.png)
+![Image p6](../../assets/images/ce-express/training-05/p006-img2.png)
 Frequency group frequency_group Leave empty
 antenna_id Leave empty 515
 carriers Leave empty []
@@ -141,9 +135,11 @@ Import template
 3. Click Apply to save the preset.
 Using mapping templates ensures consistency and avoids repeating manual configuration
 
-![Screenshot p7](../../assets/images/ce-express/training-05/p007-img1.png)
+![Image p7](../../assets/images/ce-express/training-05/p007-img1.png)
 
-![Screenshot p7](../../assets/images/ce-express/training-05/p007-img1.png)
+![Image p7](../../assets/images/ce-express/training-05/p007-img2.png)
+
+![Image p7](../../assets/images/ce-express/training-05/p007-img3.png)
 for future imports.
 4.2.7 Importing the Data
 1. Click Accept to start the import.
@@ -158,13 +154,9 @@ for future imports.
 3. Review the objects listed in the Features panel.
 This confirms that cells and sites were successfully created and loaded into the workspace.
 
-![Screenshot p8](../../assets/images/ce-express/training-05/p008-img1.png)
+![Image p8](../../assets/images/ce-express/training-05/p008-img1.png)
 
-![Screenshot p8](../../assets/images/ce-express/training-05/p008-img2.png)
-
-![Screenshot p8](../../assets/images/ce-express/training-05/p008-img1.png)
-
-![Screenshot p8](../../assets/images/ce-express/training-05/p008-img2.png)
+![Image p8](../../assets/images/ce-express/training-05/p008-img2.png)
 
 ---
 
@@ -174,9 +166,7 @@ This confirms that cells and sites were successfully created and loaded into the
 [Antenna patterns](#kw:importing-antenna-patterns:ce-express-antenna) define how energy is distributed spatially. Importing accurate antenna
 patterns ensures that predictions and analyses reflect real equipment behavior.
 
-![Screenshot p9](../../assets/images/ce-express/training-05/p009-img1.png)
-
-![Screenshot p9](../../assets/images/ce-express/training-05/p009-img1.png)
+![Image p9](../../assets/images/ce-express/training-05/p009-img1.png)
 4.3.2 Reviewing the Antenna File
 1. Navigate to:
 C:\CE_Course\ImportingData\Antenna
@@ -202,18 +192,18 @@ The antenna is automatically added to the CE Express antenna database.
 2. Review antenna properties and radiation patterns.
 Verifying antenna data ensures it is ready for assignment to cells and use in predictions.
 
-![Screenshot p10](../../assets/images/ce-express/training-05/p010-img1.png)
+![Image p10](../../assets/images/ce-express/training-05/p010-img1.png)
 
-![Screenshot p10](../../assets/images/ce-express/training-05/p010-img1.png)
+![Image p10](../../assets/images/ce-express/training-05/p010-img2.png)
 
+![Image p10](../../assets/images/ce-express/training-05/p010-img3.png)
+
+
+![Image p11](../../assets/images/ce-express/training-05/p011-img1.png)
 ---
 
 3. Close the Antennas tool.
 5. Summary and Key Takeaways
-
-![Screenshot p11](../../assets/images/ce-express/training-05/p011-img1.png)
-
-![Screenshot p11](../../assets/images/ce-express/training-05/p011-img1.png)
 - Data import enables rapid population of workspaces using external datasets
 - CSV import with explicit mapping ensures correct parameter assignment
 - Mapping templates provide repeatability and consistency

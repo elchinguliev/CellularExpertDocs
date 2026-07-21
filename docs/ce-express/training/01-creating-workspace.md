@@ -1,5 +1,9 @@
 # 01. Creating Workspace
 
+![Image p1](../../assets/images/ce-express/training-01/p001-img1.png)
+
+![Image p1](../../assets/images/ce-express/training-01/p001-img2.png)
+
 > **Version:** CE Express v7.2
 
 1. Objective
@@ -39,9 +43,9 @@ Workspaces can be:
 student)
 4. After successful authentication, the system displays all workspaces available to your
 
-![Screenshot p3](../../assets/images/ce-express/training-01/p003-img1.png)
+![Image p3](../../assets/images/ce-express/training-01/p003-img1.png)
 
-![Screenshot p3](../../assets/images/ce-express/training-01/p003-img1.png)
+![Image p3](../../assets/images/ce-express/training-01/p003-img2.png)
 user group.
 
 ---
@@ -56,13 +60,9 @@ changes to avoid unintended modifications.
 3. Review visible objects and layers.
 Trainer insight: Encourage users to explore existing workspaces to understand naming
 
-![Screenshot p4](../../assets/images/ce-express/training-01/p004-img1.png)
+![Image p4](../../assets/images/ce-express/training-01/p004-img1.png)
 
-![Screenshot p4](../../assets/images/ce-express/training-01/p004-img2.png)
-
-![Screenshot p4](../../assets/images/ce-express/training-01/p004-img1.png)
-
-![Screenshot p4](../../assets/images/ce-express/training-01/p004-img2.png)
+![Image p4](../../assets/images/ce-express/training-01/p004-img2.png)
 conventions, layer organization, and visualization standards.
 
 ## 3.3 Step 3 – Creating a New Workspace
@@ -80,9 +80,9 @@ Workspace Parameters
 o Click Copy from geodata set
 o Ensures spatial alignment between workspace and terrain data
 
-![Screenshot p5](../../assets/images/ce-express/training-01/p005-img1.png)
+![Image p5](../../assets/images/ce-express/training-01/p005-img1.png)
 
-![Screenshot p5](../../assets/images/ce-express/training-01/p005-img1.png)
+![Image p5](../../assets/images/ce-express/training-01/p005-img2.png)
 4. Adding Extra Layers
 Click + Add layer and include the following services:
 - Administrative regions:
@@ -95,9 +95,7 @@ https://tile.googleapis.com/v1/3dtiles/root.json
 - OpenStreetMap 3D Buildings:
 https://basemaps3d.arcgis.com/arcgis/rest/services/OpenStreetMap3D_Buildings
 
-![Screenshot p6](../../assets/images/ce-express/training-01/p006-img1.png)
-
-![Screenshot p6](../../assets/images/ce-express/training-01/p006-img1.png)
+![Image p6](../../assets/images/ce-express/training-01/p006-img1.png)
 _v1/SceneServer
 4. Click Accept to create the workspace.
 
@@ -111,13 +109,9 @@ _v1/SceneServer
 3. Click on it to load.
 The map zooms to the workspace area. Blue contours indicate the workspace extent.
 
-![Screenshot p7](../../assets/images/ce-express/training-01/p007-img1.png)
+![Image p7](../../assets/images/ce-express/training-01/p007-img1.png)
 
-![Screenshot p7](../../assets/images/ce-express/training-01/p007-img2.png)
-
-![Screenshot p7](../../assets/images/ce-express/training-01/p007-img1.png)
-
-![Screenshot p7](../../assets/images/ce-express/training-01/p007-img2.png)
+![Image p7](../../assets/images/ce-express/training-01/p007-img2.png)
 
 ## 3.5 Step 5 – Layer Management Overview
 
@@ -145,21 +139,17 @@ Observe changes on the map.
 3. Switch OFF the OpenStreetMap3D Buildings layer.
 The map now displays the Google 3D Mesh, which provides realistic urban morphology.
 
-![Screenshot p8](../../assets/images/ce-express/training-01/p008-img1.png)
+![Image p8](../../assets/images/ce-express/training-01/p008-img1.png)
 
-![Screenshot p8](../../assets/images/ce-express/training-01/p008-img1.png)
+![Image p8](../../assets/images/ce-express/training-01/p008-img2.png)
 
 ---
 
 RF planning value: 3D meshes help validate antenna heights, LOS conditions, and urban
 
-![Screenshot p9](../../assets/images/ce-express/training-01/p009-img1.png)
+![Image p9](../../assets/images/ce-express/training-01/p009-img1.png)
 
-![Screenshot p9](../../assets/images/ce-express/training-01/p009-img2.png)
-
-![Screenshot p9](../../assets/images/ce-express/training-01/p009-img1.png)
-
-![Screenshot p9](../../assets/images/ce-express/training-01/p009-img2.png)
+![Image p9](../../assets/images/ce-express/training-01/p009-img2.png)
 canyon effects.
 4. Switch OFF Google 3D tiles.
 5. Enable OpenStreetMap3D Buildings again.
@@ -179,9 +169,9 @@ You can also visualize 3D objects, such as polygons, lines and zones.
 
 1. In the Geodata section, enable the Elevation layer.
 
-![Screenshot p10](../../assets/images/ce-express/training-01/p010-img1.png)
+![Image p10](../../assets/images/ce-express/training-01/p010-img1.png)
 
-![Screenshot p10](../../assets/images/ce-express/training-01/p010-img1.png)
+![Image p10](../../assets/images/ce-express/training-01/p010-img2.png)
 
 ---
 
@@ -193,9 +183,11 @@ This layer:
 1. Open Settings.
 2. Enable Load geodata when opening workspace.
 
-![Screenshot p11](../../assets/images/ce-express/training-01/p011-img1.png)
+![Image p11](../../assets/images/ce-express/training-01/p011-img1.png)
 
-![Screenshot p11](../../assets/images/ce-express/training-01/p011-img1.png)
+![Image p11](../../assets/images/ce-express/training-01/p011-img2.png)
+
+![Image p11](../../assets/images/ce-express/training-01/p011-img3.png)
 3. Refresh the workspace:
 o Open Workspaces tool
 o Click on your workspace again
@@ -213,26 +205,20 @@ Adding an Additional Layer
 Add the following service:
 - https://cecom2.cellular-expert.com/server/rest/services/Hosted/Adresai_Vilnius/FeatureServer/82
 
-![Screenshot p12](../../assets/images/ce-express/training-01/p012-img1.png)
+![Image p12](../../assets/images/ce-express/training-01/p012-img1.png)
 
-![Screenshot p12](../../assets/images/ce-express/training-01/p012-img2.png)
+![Image p12](../../assets/images/ce-express/training-01/p012-img2.png)
 
-![Screenshot p12](../../assets/images/ce-express/training-01/p012-img1.png)
-
-![Screenshot p12](../../assets/images/ce-express/training-01/p012-img2.png)
+![Image p12](../../assets/images/ce-express/training-01/p012-img3.png)
 
 ---
 
 4. Click Accept.
 5. Verify the new layer (Adresai Vilnius) is visible on the map.
 
-![Screenshot p13](../../assets/images/ce-express/training-01/p013-img1.png)
+![Image p13](../../assets/images/ce-express/training-01/p013-img1.png)
 
-![Screenshot p13](../../assets/images/ce-express/training-01/p013-img2.png)
-
-![Screenshot p13](../../assets/images/ce-express/training-01/p013-img1.png)
-
-![Screenshot p13](../../assets/images/ce-express/training-01/p013-img2.png)
+![Image p13](../../assets/images/ce-express/training-01/p013-img2.png)
 
 ## 3.10 Step 10 – Using the Identify Tool
 

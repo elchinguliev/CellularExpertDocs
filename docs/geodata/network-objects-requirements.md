@@ -1,5 +1,7 @@
 # Requirements for CE Network Objects
 
+![Image p1](../assets/images/geodata/network-objects-requirements/p001-img1.png)
+
 > **Version:** CE Pro v4.9 / CE Express v7.2
 
 Cellular Expert Network Requirements
@@ -61,6 +63,8 @@ Longitude x Degrees 33.6573 X point coordinate in Decimal degrees
 and in WGS 1984 geographical
 coordinate system.
 Unique cell_name [text] 5G cell XXYY Represents cell identification, usually
+
+![Image p3](../assets/images/geodata/network-objects-requirements/p003-img1.png)
 identification name.
 
 ## 2.2 Optional information
@@ -116,9 +120,9 @@ If Mobile Operators cannot provide this parameter, a default value of 1 is typic
 2.2.12 Technology
 Antenna (cell) technology, with possible values including 2G, 3G, 4G, 5G, and WiFi. If the Mobile Operator
 
-![Screenshot p5](../assets/images/geodata/network-objects-requirements/p005-img1.png)
+![Image p5](../assets/images/geodata/network-objects-requirements/p005-img1.png)
 
-![Screenshot p5](../assets/images/geodata/network-objects-requirements/p005-img2.png)
+![Image p5](../assets/images/geodata/network-objects-requirements/p005-img2.png)
 cannot provide this parameter, we can:
 - Estimate the technology based on the frequency.
 - Default to 2G if only Signal Strength calculation is needed.
@@ -143,9 +147,9 @@ Such files can be imported into Cellular Expert database.
 2.2.14 Site (Tower) identification
 Represents the Site (Tower) name in text format. This information enables the automatic creation of Site
 
-![Screenshot p6](../assets/images/geodata/network-objects-requirements/p006-img1.png)
+![Image p6](../assets/images/geodata/network-objects-requirements/p006-img1.png)
 
-![Screenshot p6](../assets/images/geodata/network-objects-requirements/p006-img2.png)
+![Image p6](../assets/images/geodata/network-objects-requirements/p006-img2.png)
 objects along with Cell objects. If the information is missing, it will be skipped.
 Confidential ©Cellular Expert, 2024 Page | 6
 

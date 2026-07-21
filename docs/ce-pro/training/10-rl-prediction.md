@@ -1,17 +1,77 @@
 # 10. RL / Microwave Link Prediction
 
+![Image p1](../../assets/images/ce-pro/training-10/p001-img1.png)
+
+![Image p1](../../assets/images/ce-pro/training-10/p001-img2.png)
+
+![Image p1](../../assets/images/ce-pro/training-10/p001-img3.png)
+
+![Image p1](../../assets/images/ce-pro/training-10/p001-img4.png)
+
+![Image p1](../../assets/images/ce-pro/training-10/p001-img5.png)
+
+
+![Image p3](../../assets/images/ce-pro/training-10/p003-img1.png)
 > **Version:** CE Pro v4.9
 
+![Image p4](../../assets/images/ce-pro/training-10/p004-img1.png)
+
+![Image p4](../../assets/images/ce-pro/training-10/p004-img2.png)
+
+![Image p4](../../assets/images/ce-pro/training-10/p004-img3.png)
+
+
+![Image p5](../../assets/images/ce-pro/training-10/p005-img1.png)
 ## Overview
 
+![Image p6](../../assets/images/ce-pro/training-10/p006-img1.png)
+
+
+![Image p7](../../assets/images/ce-pro/training-10/p007-img1.png)
 RL and MW link paths and prediction results are displayed on the active map view:
 
+![Image p8](../../assets/images/ce-pro/training-10/p008-img1.png)
+
+
+![Image p9](../../assets/images/ce-pro/training-10/p009-img1.png)
+
+![Image p9](../../assets/images/ce-pro/training-10/p009-img2.png)
 For RL planning, arrange your ArcGIS Pro panes to keep the map, Contents, and CE Pro pane all visible at once:
 
+![Image p10](../../assets/images/ce-pro/training-10/p010-img1.png)
+
+
+![Image p11](../../assets/images/ce-pro/training-10/p011-img1.png)
 ---
 
+![Image p12](../../assets/images/ce-pro/training-10/p012-img1.png)
+
+
+![Image p13](../../assets/images/ce-pro/training-10/p013-img1.png)
+
+![Image p13](../../assets/images/ce-pro/training-10/p013-img2.png)
+
+![Image p13](../../assets/images/ce-pro/training-10/p013-img3.png)
+
+![Image p13](../../assets/images/ce-pro/training-10/p013-img4.png)
+
+![Image p13](../../assets/images/ce-pro/training-10/p013-img5.png)
 CE Pro includes a full **Radio Link (RL) / Microwave planning** module for fixed point-to-point links. It covers power budget calculation, interference analysis, and geoclimatic availability.
 
+![Image p14](../../assets/images/ce-pro/training-10/p014-img1.png)
+
+![Image p14](../../assets/images/ce-pro/training-10/p014-img2.png)
+
+
+![Image p16](../../assets/images/ce-pro/training-10/p016-img1.png)
+
+![Image p16](../../assets/images/ce-pro/training-10/p016-img2.png)
+
+![Image p16](../../assets/images/ce-pro/training-10/p016-img3.png)
+
+![Image p16](../../assets/images/ce-pro/training-10/p016-img4.png)
+
+![Image p16](../../assets/images/ce-pro/training-10/p016-img5.png)
 ---
 
 ## Equipment Library
@@ -138,56 +198,4 @@ Parabolic dish antennas are characterised by:
 ---
 
 *Reference: CE Desktop Training — 7. RL Introduction*
-
-![Screenshot p1](../../assets/images/ce-pro/training-10/p001-img1.png)
-
-![Screenshot p1](../../assets/images/ce-pro/training-10/p001-img2.png)
-
-![Screenshot p1](../../assets/images/ce-pro/training-10/p001-img3.png)
 *Contact: info@cellular-expert.com | +370 5 2150575*
-
-![Screenshot p3](../../assets/images/ce-pro/training-10/p003-img1.png)
-
-![Screenshot p4](../../assets/images/ce-pro/training-10/p004-img1.png)
-
-![Screenshot p4](../../assets/images/ce-pro/training-10/p004-img2.png)
-
-![Screenshot p4](../../assets/images/ce-pro/training-10/p004-img3.png)
-
-![Screenshot p5](../../assets/images/ce-pro/training-10/p005-img1.png)
-
-![Screenshot p6](../../assets/images/ce-pro/training-10/p006-img1.png)
-
-![Screenshot p7](../../assets/images/ce-pro/training-10/p007-img1.png)
-
-![Screenshot p8](../../assets/images/ce-pro/training-10/p008-img1.png)
-
-![Screenshot p9](../../assets/images/ce-pro/training-10/p009-img1.png)
-
-![Screenshot p9](../../assets/images/ce-pro/training-10/p009-img2.png)
-
-![Screenshot p10](../../assets/images/ce-pro/training-10/p010-img1.png)
-
-![Screenshot p11](../../assets/images/ce-pro/training-10/p011-img1.png)
-
-![Screenshot p12](../../assets/images/ce-pro/training-10/p012-img1.png)
-
-![Screenshot p13](../../assets/images/ce-pro/training-10/p013-img1.png)
-
-![Screenshot p13](../../assets/images/ce-pro/training-10/p013-img2.png)
-
-![Screenshot p13](../../assets/images/ce-pro/training-10/p013-img3.png)
-
-![Screenshot p13](../../assets/images/ce-pro/training-10/p013-img4.png)
-
-![Screenshot p13](../../assets/images/ce-pro/training-10/p013-img5.png)
-
-![Screenshot p14](../../assets/images/ce-pro/training-10/p014-img1.png)
-
-![Screenshot p14](../../assets/images/ce-pro/training-10/p014-img2.png)
-
-![Screenshot p16](../../assets/images/ce-pro/training-10/p016-img1.png)
-
-![Screenshot p16](../../assets/images/ce-pro/training-10/p016-img2.png)
-
-![Screenshot p16](../../assets/images/ce-pro/training-10/p016-img3.png)

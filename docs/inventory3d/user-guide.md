@@ -1,13 +1,17 @@
 # CE Inventory3D User Guide v4.6
 
-![Screenshot p4](../assets/images/inventory3d/user-guide/p004-img1.png)
+![Image p1](../assets/images/inventory3d/user-guide/p001-img1.png)
 
+![Image p1](../assets/images/inventory3d/user-guide/p001-img2.png)
+
+
+![Image p4](../assets/images/inventory3d/user-guide/p004-img1.png)
 > **Version:** Inventory 3D
 
 1. Introduction
 CE Inventory3D is a versatile tool for inventory planning, design, space and assets management. It consists
 
-![Screenshot p5](../assets/images/inventory3d/user-guide/p005-img1.png)
+![Image p5](../assets/images/inventory3d/user-guide/p005-img1.png)
 of several building blocks that together provide a customized and tailored solution for a specific need.
 Take inventory management: Error-prone databases which contain faulty inventory lists can be deleterious,
 especially in large industry environments. Thus, it is essential that upon inventory changing databases are
@@ -39,15 +43,19 @@ Show only selected data of the currently opened table. Click and enter a filter 
 Data Editing & Synchronizing
 Select a respective entry while holding the CTRL key on the keyboard or right mouse click and edit the
 
-![Screenshot p6](../assets/images/inventory3d/user-guide/p006-img1.png)
+![Image p6](../assets/images/inventory3d/user-guide/p006-img1.png)
 
-![Screenshot p6](../assets/images/inventory3d/user-guide/p006-img2.png)
+![Image p6](../assets/images/inventory3d/user-guide/p006-img2.png)
 
-![Screenshot p6](../assets/images/inventory3d/user-guide/p006-img3.png)
+![Image p6](../assets/images/inventory3d/user-guide/p006-img3.png)
 
-![Screenshot p6](../assets/images/inventory3d/user-guide/p006-img4.png)
+![Image p6](../assets/images/inventory3d/user-guide/p006-img4.png)
 
-![Screenshot p6](../assets/images/inventory3d/user-guide/p006-img5.png)
+![Image p6](../assets/images/inventory3d/user-guide/p006-img5.png)
+
+![Image p6](../assets/images/inventory3d/user-guide/p006-img6.png)
+
+![Image p6](../assets/images/inventory3d/user-guide/p006-img7.png)
 
 ---
 
@@ -61,9 +69,9 @@ The Network [Data Management](#kw:31-data-management-tools:none) view is divided
 2. [View options](#kw:32-view-options-and-user-administration:none) and
 1. Data management User adminstration
 
-![Screenshot p7](../assets/images/inventory3d/user-guide/p007-img1.png)
+![Image p7](../assets/images/inventory3d/user-guide/p007-img1.png)
 
-![Screenshot p7](../assets/images/inventory3d/user-guide/p007-img2.png)
+![Image p7](../assets/images/inventory3d/user-guide/p007-img2.png)
 3. Table
 To navigate through the tables, click on the table name at the top right corner.
 
@@ -77,7 +85,17 @@ The Data management tools are found at the top of the screen:
 3.1.1 Table view
 Load data from the previously configured server location and open the Table view. Here, several functions
 
-![Screenshot p8](../assets/images/inventory3d/user-guide/p008-img1.png)
+![Image p8](../assets/images/inventory3d/user-guide/p008-img1.png)
+
+![Image p8](../assets/images/inventory3d/user-guide/p008-img2.png)
+
+![Image p8](../assets/images/inventory3d/user-guide/p008-img3.png)
+
+![Image p8](../assets/images/inventory3d/user-guide/p008-img4.png)
+
+![Image p8](../assets/images/inventory3d/user-guide/p008-img5.png)
+
+![Image p8](../assets/images/inventory3d/user-guide/p008-img6.png)
 can be performed, eg sorting or filtering data.
 3.1.2 Back
 Go one step back and show previous data.
@@ -107,6 +125,16 @@ are not moved.
 Duplicate a database record from the Table view. Select the record to be duplicated. Then click the Copy
 Record button and the duplicated record appears in pink color in the Table view as a new record. Note that
 if the selected record to be duplicated has child objects, Copy Record will duplicate the entire record incl.
+
+![Image p9](../assets/images/inventory3d/user-guide/p009-img1.png)
+
+![Image p9](../assets/images/inventory3d/user-guide/p009-img2.png)
+
+![Image p9](../assets/images/inventory3d/user-guide/p009-img3.png)
+
+![Image p9](../assets/images/inventory3d/user-guide/p009-img4.png)
+
+![Image p9](../assets/images/inventory3d/user-guide/p009-img5.png)
 child objects. Attachments are not duplicated.
 
 ---
@@ -119,6 +147,18 @@ Call CE API tool. Note: The administrator has to configure the tool.
 Export selected items.
 3.1.14 Delete record
 Remove a selected record from the current view. Note that removed records will be hidden from the user.
+
+![Image p10](../assets/images/inventory3d/user-guide/p010-img1.png)
+
+![Image p10](../assets/images/inventory3d/user-guide/p010-img2.png)
+
+![Image p10](../assets/images/inventory3d/user-guide/p010-img3.png)
+
+![Image p10](../assets/images/inventory3d/user-guide/p010-img4.png)
+
+![Image p10](../assets/images/inventory3d/user-guide/p010-img5.png)
+
+![Image p10](../assets/images/inventory3d/user-guide/p010-img6.png)
 Only administrators can delete a removed record from the database permanently (or restore it).
 3.1.15 Remove selected
 Removes selected objects.
@@ -139,7 +179,21 @@ Please view Administration Guide for details.
 3.2.4 User name/ Help/ Logout
 Help - Displays the User Guide for quick help.
 
-![Screenshot p11](../assets/images/inventory3d/user-guide/p011-img1.png)
+![Image p11](../assets/images/inventory3d/user-guide/p011-img1.png)
+
+![Image p11](../assets/images/inventory3d/user-guide/p011-img2.png)
+
+![Image p11](../assets/images/inventory3d/user-guide/p011-img3.png)
+
+![Image p11](../assets/images/inventory3d/user-guide/p011-img4.png)
+
+![Image p11](../assets/images/inventory3d/user-guide/p011-img5.png)
+
+![Image p11](../assets/images/inventory3d/user-guide/p011-img6.png)
+
+![Image p11](../assets/images/inventory3d/user-guide/p011-img7.png)
+
+![Image p11](../assets/images/inventory3d/user-guide/p011-img8.png)
 Logout – Logoff the user from CE Inventory3D
 
 ---
@@ -157,9 +211,9 @@ The number of records displayed per page can be set on the bottom left corner. F
 scroll through the pages using the commands in the bottom middle and bottom right corner. The table name
 (here: cells), the total quantity of entries (here: 20607), and the quantity of currently selected entries (here:
 
-![Screenshot p12](../assets/images/inventory3d/user-guide/p012-img1.png)
+![Image p12](../assets/images/inventory3d/user-guide/p012-img1.png)
 
-![Screenshot p12](../assets/images/inventory3d/user-guide/p012-img2.png)
+![Image p12](../assets/images/inventory3d/user-guide/p012-img2.png)
 0) are shown on the top right corner. Note that the number of filtered records will be shown, if the user
 applies a filter:
 
@@ -174,9 +228,13 @@ within the column headers:
 4.1.3 Navigation across tables
 There are 2 ways to change from one table to another. Either click on the table name in the top right (here:
 
-![Screenshot p13](../assets/images/inventory3d/user-guide/p013-img1.png)
+![Image p13](../assets/images/inventory3d/user-guide/p013-img1.png)
 
-![Screenshot p13](../assets/images/inventory3d/user-guide/p013-img2.png)
+![Image p13](../assets/images/inventory3d/user-guide/p013-img2.png)
+
+![Image p13](../assets/images/inventory3d/user-guide/p013-img3.png)
+
+![Image p13](../assets/images/inventory3d/user-guide/p013-img4.png)
 cells) and a menu opens with all available tables.
 
 ---
@@ -188,9 +246,9 @@ header and a dropdown menu opens with the following functions: “Set selected�
 “Clear all filters”, “Set defaults” and “Set as default sort field”:
 Alternatively, and more convenient for simple searches, columns can be filtered using the “quick filter” fields
 
-![Screenshot p14](../assets/images/inventory3d/user-guide/p014-img1.png)
+![Image p14](../assets/images/inventory3d/user-guide/p014-img1.png)
 
-![Screenshot p14](../assets/images/inventory3d/user-guide/p014-img2.png)
+![Image p14](../assets/images/inventory3d/user-guide/p014-img2.png)
 below the column names:
 
 ---
@@ -213,7 +271,7 @@ Filtering options for numeric values:
 >=n - greater than or equal to n
 The Filter function can be used on several columns simultaneously. The headers of columns with active
 
-![Screenshot p15](../assets/images/inventory3d/user-guide/p015-img1.png)
+![Image p15](../assets/images/inventory3d/user-guide/p015-img1.png)
 Filter function are marked in pink color:
 
 ---
@@ -222,13 +280,13 @@ Filters can be cleared by clicking on Clear all filters.
 4.2.1 Set selected
 This feature allows bulk editing of several records at once: Select the respective records, click on the column
 
-![Screenshot p16](../assets/images/inventory3d/user-guide/p016-img1.png)
+![Image p16](../assets/images/inventory3d/user-guide/p016-img1.png)
 
-![Screenshot p16](../assets/images/inventory3d/user-guide/p016-img2.png)
+![Image p16](../assets/images/inventory3d/user-guide/p016-img2.png)
 
-![Screenshot p16](../assets/images/inventory3d/user-guide/p016-img3.png)
+![Image p16](../assets/images/inventory3d/user-guide/p016-img3.png)
 
-![Screenshot p16](../assets/images/inventory3d/user-guide/p016-img4.png)
+![Image p16](../assets/images/inventory3d/user-guide/p016-img4.png)
 header and choose “Set selected” from the dropdown menu. A dialog opens with a text field. Fill in the term
 you want the selected database records to be changed to. Then click on “Change”.
 1. Select the records
@@ -241,11 +299,11 @@ and choose Set selected
 4.2.2 Add link
 Each database record may comprise reference links to other database records. This means that a link can
 
-![Screenshot p17](../assets/images/inventory3d/user-guide/p017-img1.png)
+![Image p17](../assets/images/inventory3d/user-guide/p017-img1.png)
 
-![Screenshot p17](../assets/images/inventory3d/user-guide/p017-img2.png)
+![Image p17](../assets/images/inventory3d/user-guide/p017-img2.png)
 
-![Screenshot p17](../assets/images/inventory3d/user-guide/p017-img3.png)
+![Image p17](../assets/images/inventory3d/user-guide/p017-img3.png)
 be added to reach another database record.
 Select the respective record, click on the column header and choose “Add link” from the dropdown menu.
 In the pop up window, click on Add new reference. A list of component types opens. Select the one you
@@ -266,11 +324,13 @@ the top left corner
 
 Each database entry can be connected with any type of attachment, for example, a picture or a text file.
 
-![Screenshot p18](../assets/images/inventory3d/user-guide/p018-img1.png)
+![Image p18](../assets/images/inventory3d/user-guide/p018-img1.png)
 
-![Screenshot p18](../assets/images/inventory3d/user-guide/p018-img2.png)
+![Image p18](../assets/images/inventory3d/user-guide/p018-img2.png)
 
-![Screenshot p18](../assets/images/inventory3d/user-guide/p018-img3.png)
+![Image p18](../assets/images/inventory3d/user-guide/p018-img3.png)
+
+![Image p18](../assets/images/inventory3d/user-guide/p018-img4.png)
 Entries with connected attachments have a blue check symbol next to the paper clip symbol in the column
 “Inc.”, while entries without attachment have only the paper clip.
 
@@ -282,18 +342,22 @@ dialog opens that allows you to browse your computer for the attachment of your 
 Viewing, downloading and deleting attachments:
 To view the list of attachments connected to an entry, select the respective entry and click on in the
 
-![Screenshot p19](../assets/images/inventory3d/user-guide/p019-img1.png)
+![Image p19](../assets/images/inventory3d/user-guide/p019-img1.png)
 
-![Screenshot p19](../assets/images/inventory3d/user-guide/p019-img2.png)
+![Image p19](../assets/images/inventory3d/user-guide/p019-img2.png)
+
+![Image p19](../assets/images/inventory3d/user-guide/p019-img3.png)
 
 ---
 
 toolbar:
 In the attachments the listed images are shown as thumbs. Select an attachment from the list and it opens
 
-![Screenshot p20](../assets/images/inventory3d/user-guide/p020-img1.png)
+![Image p20](../assets/images/inventory3d/user-guide/p020-img1.png)
 
-![Screenshot p20](../assets/images/inventory3d/user-guide/p020-img2.png)
+![Image p20](../assets/images/inventory3d/user-guide/p020-img2.png)
+
+![Image p20](../assets/images/inventory3d/user-guide/p020-img3.png)
 in a separate browser tab.
 Another way to view an attachment list is to move the pointer over the check symbol in the column “Inc.”
 and to click the right mouse button.
@@ -310,11 +374,11 @@ And a dialog will open:
 Note that by clicking “Add rule” you may search (sieve) with two or more filter terms that are connected via
 the operation “OR”, not “AND”. Thus, the result of two filters will show all items that comprise either the first
 
-![Screenshot p21](../assets/images/inventory3d/user-guide/p021-img1.png)
+![Image p21](../assets/images/inventory3d/user-guide/p021-img1.png)
 
-![Screenshot p21](../assets/images/inventory3d/user-guide/p021-img2.png)
+![Image p21](../assets/images/inventory3d/user-guide/p021-img2.png)
 
-![Screenshot p21](../assets/images/inventory3d/user-guide/p021-img3.png)
+![Image p21](../assets/images/inventory3d/user-guide/p021-img3.png)
 or the second search term in their attributes.
 For example, do you want to search the table cells for records starting with defined characters? Then the
 Search tool will help.
@@ -333,9 +397,11 @@ configured. To start tool selection, click on the button in the toolbar.
 
 This tool is integrated into the “CE API” tool. It is possible to import data from .csv files. Note(!): Consult
 
-![Screenshot p22](../assets/images/inventory3d/user-guide/p022-img1.png)
+![Image p22](../assets/images/inventory3d/user-guide/p022-img1.png)
 
-![Screenshot p22](../assets/images/inventory3d/user-guide/p022-img2.png)
+![Image p22](../assets/images/inventory3d/user-guide/p022-img2.png)
+
+![Image p22](../assets/images/inventory3d/user-guide/p022-img3.png)
 with the administrator before import.
 “Import CSV” opens a new window:
 1.
@@ -355,11 +421,15 @@ When adding a child table to a parent table, choose the parent table from the dr
 2.
 3.
 Partial Import
-
-![Screenshot p23](../assets/images/inventory3d/user-guide/p023-img1.png)
-
-![Screenshot p23](../assets/images/inventory3d/user-guide/p023-img2.png)
 The Partial Import feature allows to add records to an already existing table. If the box "Partial import” is
+
+![Image p23](../assets/images/inventory3d/user-guide/p023-img1.png)
+
+![Image p23](../assets/images/inventory3d/user-guide/p023-img2.png)
+
+![Image p23](../assets/images/inventory3d/user-guide/p023-img3.png)
+
+![Image p23](../assets/images/inventory3d/user-guide/p023-img4.png)
 checked, the new records will be added to the defined table:
 4.
 5. Exploring data
@@ -383,9 +453,13 @@ PDF”:
 A new dialog appears. Open the PDF report by clicking to the file name:
 Note that the administrator has to prepare the template for the PDF report. Please inform the administrator
 
-![Screenshot p24](../assets/images/inventory3d/user-guide/p024-img1.png)
+![Image p24](../assets/images/inventory3d/user-guide/p024-img1.png)
 
-![Screenshot p24](../assets/images/inventory3d/user-guide/p024-img2.png)
+![Image p24](../assets/images/inventory3d/user-guide/p024-img2.png)
+
+![Image p24](../assets/images/inventory3d/user-guide/p024-img3.png)
+
+![Image p24](../assets/images/inventory3d/user-guide/p024-img4.png)
 in case of problems with generating PDF reports.
 
 ## 5.3 File browser
@@ -397,9 +471,11 @@ Open the Data Export menu with and choose “File Browser”:
 View attached files, download or delete files:
 Images are shown as thumbs. Note that it is possible to rotate the images.
 
-![Screenshot p25](../assets/images/inventory3d/user-guide/p025-img1.png)
+![Image p25](../assets/images/inventory3d/user-guide/p025-img1.png)
 
-![Screenshot p25](../assets/images/inventory3d/user-guide/p025-img2.png)
+![Image p25](../assets/images/inventory3d/user-guide/p025-img2.png)
+
+![Image p25](../assets/images/inventory3d/user-guide/p025-img3.png)
 File Browser Toolbar:
 Open the Data View Panel
 
@@ -412,7 +488,19 @@ Delete selected files
 Restore selected files
 When an image is deleted, said image is marked as strikethrough on the File Server:
 
-![Screenshot p26](../assets/images/inventory3d/user-guide/p026-img1.png)
+![Image p26](../assets/images/inventory3d/user-guide/p026-img1.png)
+
+![Image p26](../assets/images/inventory3d/user-guide/p026-img2.png)
+
+![Image p26](../assets/images/inventory3d/user-guide/p026-img3.png)
+
+![Image p26](../assets/images/inventory3d/user-guide/p026-img4.png)
+
+![Image p26](../assets/images/inventory3d/user-guide/p026-img5.png)
+
+![Image p26](../assets/images/inventory3d/user-guide/p026-img6.png)
+
+![Image p26](../assets/images/inventory3d/user-guide/p026-img7.png)
 You can restore the image by selecting the strikethrough object and clicking :
 
 ---
@@ -422,9 +510,9 @@ You can restore the image by selecting the strikethrough object and clicking :
 Quick references are defined by the administrator and allow users to open a reference object in a separate
 browser tab. If Quick references are enabled, the respective column is marked with “*”, for example “site”:
 
-![Screenshot p27](../assets/images/inventory3d/user-guide/p027-img1.png)
+![Image p27](../assets/images/inventory3d/user-guide/p027-img1.png)
 
-![Screenshot p27](../assets/images/inventory3d/user-guide/p027-img2.png)
+![Image p27](../assets/images/inventory3d/user-guide/p027-img2.png)
 To open a reference link, select it in edit mode (right click on it) and click “here” in the opened dialog.
 
 ---
@@ -445,18 +533,22 @@ It is possible to add links to external webpages to the webapp, for example:
 
 It is possible to display raster type of data, similar to graphical layers, on the map. Rasters are created by
 
-![Screenshot p28](../assets/images/inventory3d/user-guide/p028-img1.png)
+![Image p28](../assets/images/inventory3d/user-guide/p028-img1.png)
 
-![Screenshot p28](../assets/images/inventory3d/user-guide/p028-img2.png)
+![Image p28](../assets/images/inventory3d/user-guide/p028-img2.png)
+
+![Image p28](../assets/images/inventory3d/user-guide/p028-img3.png)
+
+![Image p28](../assets/images/inventory3d/user-guide/p028-img4.png)
 the administrator, but users may also access and configure the table map_rasters:
 
 ---
 
 If the raster is a PNG or JPG file, users can edit the coordinates of the top-left and bottom-right corners of
 
-![Screenshot p29](../assets/images/inventory3d/user-guide/p029-img1.png)
+![Image p29](../assets/images/inventory3d/user-guide/p029-img1.png)
 
-![Screenshot p29](../assets/images/inventory3d/user-guide/p029-img2.png)
+![Image p29](../assets/images/inventory3d/user-guide/p029-img2.png)
 the picture in the columns West, East, North, and South, and define the opacity.
 Example raster:
 Raster legend
@@ -475,9 +567,9 @@ Rasters and Raster legends are shown in the list Layers.
 6. MAP functionality
 Users can work with maps only after prior configuration by the administrator. Select a site and open the
 
-![Screenshot p30](../assets/images/inventory3d/user-guide/p030-img1.png)
+![Image p30](../assets/images/inventory3d/user-guide/p030-img1.png)
 
-![Screenshot p30](../assets/images/inventory3d/user-guide/p030-img2.png)
+![Image p30](../assets/images/inventory3d/user-guide/p030-img2.png)
 map:
 
 ---
@@ -491,7 +583,19 @@ moves the [map view](#kw:switching-between-views:ce-express-login) to your curre
 Measure Distances
 Select the Measure Tool , left-click on the starting point, then move the mouse over the map - distance
 
-![Screenshot p31](../assets/images/inventory3d/user-guide/p031-img1.png)
+![Image p31](../assets/images/inventory3d/user-guide/p031-img1.png)
+
+![Image p31](../assets/images/inventory3d/user-guide/p031-img2.png)
+
+![Image p31](../assets/images/inventory3d/user-guide/p031-img3.png)
+
+![Image p31](../assets/images/inventory3d/user-guide/p031-img4.png)
+
+![Image p31](../assets/images/inventory3d/user-guide/p031-img5.png)
+
+![Image p31](../assets/images/inventory3d/user-guide/p031-img6.png)
+
+![Image p31](../assets/images/inventory3d/user-guide/p031-img7.png)
 and azimuth values will be displayed between the starting point and the mouse cursor.
 Link to database
 Map and database are functionally connected. Select the info tool . Then click on a site in the
@@ -501,7 +605,15 @@ map (here: Abava), and a popup window opens:
 
 The popup window comprises links to the site ( ) and to the attachments file browser ( ).
 
-![Screenshot p32](../assets/images/inventory3d/user-guide/p032-img1.png)
+![Image p32](../assets/images/inventory3d/user-guide/p032-img1.png)
+
+![Image p32](../assets/images/inventory3d/user-guide/p032-img2.png)
+
+![Image p32](../assets/images/inventory3d/user-guide/p032-img3.png)
+
+![Image p32](../assets/images/inventory3d/user-guide/p032-img4.png)
+
+![Image p32](../assets/images/inventory3d/user-guide/p032-img5.png)
 Browse the parameters of the selected site by using the buttons
 Local Weather
 Display local weather conditions by clicking on and then on a custom position on the map. A
@@ -516,24 +628,36 @@ Print map
 Custom map views can be exported and printed. In the Map toolbar, click the button .
 A popup window opens with the possibility to enter a document header. Then send the selected
 
-![Screenshot p33](../assets/images/inventory3d/user-guide/p033-img1.png)
+![Image p33](../assets/images/inventory3d/user-guide/p033-img1.png)
+
+![Image p33](../assets/images/inventory3d/user-guide/p033-img2.png)
+
+![Image p33](../assets/images/inventory3d/user-guide/p033-img3.png)
+
+![Image p33](../assets/images/inventory3d/user-guide/p033-img4.png)
 map view to the printer with or :
 
 ---
 
 Vectors, Rasters and Weather layers
 
-![Screenshot p34](../assets/images/inventory3d/user-guide/p034-img1.png)
+![Image p34](../assets/images/inventory3d/user-guide/p034-img1.png)
 
-![Screenshot p34](../assets/images/inventory3d/user-guide/p034-img2.png)
+![Image p34](../assets/images/inventory3d/user-guide/p034-img2.png)
 
 ---
 
 The map functionality allows to show or hide vectors (points, lines), rasters or weather layers.
 
-![Screenshot p35](../assets/images/inventory3d/user-guide/p035-img1.png)
+![Image p35](../assets/images/inventory3d/user-guide/p035-img1.png)
 
-![Screenshot p35](../assets/images/inventory3d/user-guide/p035-img2.png)
+![Image p35](../assets/images/inventory3d/user-guide/p035-img2.png)
+
+![Image p35](../assets/images/inventory3d/user-guide/p035-img3.png)
+
+![Image p35](../assets/images/inventory3d/user-guide/p035-img4.png)
+
+![Image p35](../assets/images/inventory3d/user-guide/p035-img5.png)
 Use and to show or hide objects
 Further, it is possible to select the child objects shown on the map:
 Additional map functions are shown after clicking on
@@ -552,6 +676,12 @@ information to the database.
 5. Click "Reload" and the map will be reloaded with the newly added attributes, for example a label.
 “Move Object” allows to move an object of point type on the map
 1. Select the layer on which You would like to move an object, for example "site". Then click "Select Object".
+
+![Image p36](../assets/images/inventory3d/user-guide/p036-img1.png)
+
+![Image p36](../assets/images/inventory3d/user-guide/p036-img2.png)
+
+![Image p36](../assets/images/inventory3d/user-guide/p036-img3.png)
 2. Select the object on the map (it should be marked with a square).
 3. Move the pointer to the desired position on the map. Click and the selected object will be moved to the
 new position. The function will not work if two or more objects are selected.
@@ -583,6 +713,12 @@ or hidden using the buttons and
 ## 7.1 Diagram tool
 
 Users can work with diagrams only after prior configuration by the administrator. Once configured the button
+
+![Image p37](../assets/images/inventory3d/user-guide/p037-img1.png)
+
+![Image p37](../assets/images/inventory3d/user-guide/p037-img2.png)
+
+![Image p37](../assets/images/inventory3d/user-guide/p037-img3.png)
 appears in the toolbar.
  Diagrams can be created and modified in two ways:
  using the graphical diagrams interface, or
@@ -601,9 +737,13 @@ or
 predefined [models](#kw:31-models:ce-express-tr-models) from the [models](#kw:31-models:ce-express-tr-models) templates toolbar and making connections between them. After
 synchronizing (see section 3.10) all information is saved in the diagrams data tables “Diagram_items“ and
 
-![Screenshot p38](../assets/images/inventory3d/user-guide/p038-img1.png)
+![Image p38](../assets/images/inventory3d/user-guide/p038-img1.png)
 
-![Screenshot p38](../assets/images/inventory3d/user-guide/p038-img2.png)
+![Image p38](../assets/images/inventory3d/user-guide/p038-img2.png)
+
+![Image p38](../assets/images/inventory3d/user-guide/p038-img3.png)
+
+![Image p38](../assets/images/inventory3d/user-guide/p038-img4.png)
 “Diagram_links“. For this reason, diagram modifications can also be performed by making changes directly
 in those tables.
  Graphical drawing interface:
@@ -616,11 +756,11 @@ tables “Diagram_items" and “Diagram_links“.
 
  The table “Diagram_items" contains the information about the displayed items. For example, in the mobile
 
-![Screenshot p39](../assets/images/inventory3d/user-guide/p039-img1.png)
+![Image p39](../assets/images/inventory3d/user-guide/p039-img1.png)
 
-![Screenshot p39](../assets/images/inventory3d/user-guide/p039-img2.png)
+![Image p39](../assets/images/inventory3d/user-guide/p039-img2.png)
 
-![Screenshot p39](../assets/images/inventory3d/user-guide/p039-img3.png)
+![Image p39](../assets/images/inventory3d/user-guide/p039-img3.png)
 networks industry this could be antennas, RRUs, power devices etc.
  The table “Diagram_items" has the two mandatory fields “Unique_ident“ and “Model”:
  “Unique_ident“ – item’s unique identification. “Unique_ident“ has to be unique for the same diagram
@@ -639,9 +779,23 @@ go to the table “Diagrams“, select the diagram record, and press the button 
 
 For follow up diagram modifications, both the graphical and the table interface can be used. The changes
 
-![Screenshot p40](../assets/images/inventory3d/user-guide/p040-img1.png)
+![Image p40](../assets/images/inventory3d/user-guide/p040-img1.png)
 
-![Screenshot p40](../assets/images/inventory3d/user-guide/p040-img2.png)
+![Image p40](../assets/images/inventory3d/user-guide/p040-img2.png)
+
+![Image p40](../assets/images/inventory3d/user-guide/p040-img3.png)
+
+![Image p40](../assets/images/inventory3d/user-guide/p040-img4.png)
+
+![Image p40](../assets/images/inventory3d/user-guide/p040-img5.png)
+
+![Image p40](../assets/images/inventory3d/user-guide/p040-img6.png)
+
+![Image p40](../assets/images/inventory3d/user-guide/p040-img7.png)
+
+![Image p40](../assets/images/inventory3d/user-guide/p040-img8.png)
+
+![Image p40](../assets/images/inventory3d/user-guide/p040-img9.png)
 made by using the graphical editor will be displayed in the diagrams data tables and vice versa.
 Diagrams toolbar functions:
 undo / redo action
@@ -664,6 +818,22 @@ save diagram
 ## 7.2 Integration with Google Sheets
 
 There is the possibility to integrate one or more tables from Google Sheets into the CE Inventory3D webapp.
+
+![Image p41](../assets/images/inventory3d/user-guide/p041-img1.png)
+
+![Image p41](../assets/images/inventory3d/user-guide/p041-img2.png)
+
+![Image p41](../assets/images/inventory3d/user-guide/p041-img3.png)
+
+![Image p41](../assets/images/inventory3d/user-guide/p041-img4.png)
+
+![Image p41](../assets/images/inventory3d/user-guide/p041-img5.png)
+
+![Image p41](../assets/images/inventory3d/user-guide/p041-img6.png)
+
+![Image p41](../assets/images/inventory3d/user-guide/p041-img7.png)
+
+![Image p41](../assets/images/inventory3d/user-guide/p041-img8.png)
 First, the Google Sheet should be prepared with CE Inventory3D configuration and Google script. Then an
 extra button “Inv3D” will appear on the Google Sheets toolbar:
 
@@ -673,6 +843,10 @@ Clicking this button opens a dropdown menu with the commands “Connect” for c
 Inventory3D database on the server, “Sync” for synchronizing data from Google Sheets with CE
 Inventory3D, and “Help”:
 After connecting to the CE Inventory3D database, a list of tables appears (here: Orders and Warehouse).
+
+![Image p42](../assets/images/inventory3d/user-guide/p042-img1.png)
+
+![Image p42](../assets/images/inventory3d/user-guide/p042-img2.png)
 The list of tables depends on the configuration in Google sheets:
 Any changes in the Google Sheets are synchronized with CE Inventory3D by clicking the command
 Synchronize from the dropdown menu.

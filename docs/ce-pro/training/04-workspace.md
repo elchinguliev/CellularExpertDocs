@@ -1,13 +1,67 @@
 # 04. Creating Workspace
 
+![Image p1](../../assets/images/ce-pro/training-04/p001-img1.png)
+
+![Image p1](../../assets/images/ce-pro/training-04/p001-img2.png)
+
+![Image p1](../../assets/images/ce-pro/training-04/p001-img3.png)
+
+![Image p1](../../assets/images/ce-pro/training-04/p001-img4.png)
+
+![Image p1](../../assets/images/ce-pro/training-04/p001-img5.png)
+
+
+![Image p2](../../assets/images/ce-pro/training-04/p002-img1.png)
 > **Version:** CE Pro v4.9
 
+![Image p3](../../assets/images/ce-pro/training-04/p003-img1.png)
+
+![Image p3](../../assets/images/ce-pro/training-04/p003-img2.png)
+
+![Image p3](../../assets/images/ce-pro/training-04/p003-img3.png)
+
+
+![Image p4](../../assets/images/ce-pro/training-04/p004-img1.png)
+
+![Image p4](../../assets/images/ce-pro/training-04/p004-img2.png)
+
+![Image p4](../../assets/images/ce-pro/training-04/p004-img3.png)
 > **Version:** CE Pro v4.9
 
+![Image p5](../../assets/images/ce-pro/training-04/p005-img1.png)
+
+![Image p5](../../assets/images/ce-pro/training-04/p005-img2.png)
+
+![Image p5](../../assets/images/ce-pro/training-04/p005-img3.png)
+
+![Image p5](../../assets/images/ce-pro/training-04/p005-img4.png)
+
+
+![Image p6](../../assets/images/ce-pro/training-04/p006-img1.png)
 ## What Is a Workspace?
 
+![Image p7](../../assets/images/ce-pro/training-04/p007-img1.png)
+
+
+![Image p8](../../assets/images/ce-pro/training-04/p008-img1.png)
 A CE Pro Workspace is a geodatabase (`.gdb`) that stores all project data — cells, sites, antennas, links, and prediction results. Every CE Pro project must have one workspace before any RF work can begin.
 
+![Image p9](../../assets/images/ce-pro/training-04/p009-img1.png)
+
+![Image p9](../../assets/images/ce-pro/training-04/p009-img2.png)
+
+![Image p9](../../assets/images/ce-pro/training-04/p009-img3.png)
+
+
+![Image p11](../../assets/images/ce-pro/training-04/p011-img1.png)
+
+![Image p11](../../assets/images/ce-pro/training-04/p011-img2.png)
+
+![Image p11](../../assets/images/ce-pro/training-04/p011-img3.png)
+
+![Image p11](../../assets/images/ce-pro/training-04/p011-img4.png)
+
+![Image p11](../../assets/images/ce-pro/training-04/p011-img5.png)
 ---
 
 ## CE Tools State
@@ -112,59 +166,3 @@ When you open a workspace created with an older CE version, CE Pro will detect a
 **Exercise:** `C:\CE_Course\0. Descriptions\1. Create workspace.pdf`
 
 **Contact:** info@cellular-expert.com | +370 5 2150575 | www.cellular-expert.com
-
-![Screenshot p1](../../assets/images/ce-pro/training-04/p001-img1.png)
-
-![Screenshot p1](../../assets/images/ce-pro/training-04/p001-img2.png)
-
-![Screenshot p1](../../assets/images/ce-pro/training-04/p001-img3.png)
-
-
-![Screenshot p2](../../assets/images/ce-pro/training-04/p002-img1.png)
-![Screenshot p1](../../assets/images/ce-pro/training-04/p001-img1.png)
-
-![Screenshot p4](../../assets/images/ce-pro/training-04/p004-img1.png)
-
-![Screenshot p4](../../assets/images/ce-pro/training-04/p004-img2.png)
-
-
-![Screenshot p5](../../assets/images/ce-pro/training-04/p005-img1.png)
-![Screenshot p1](../../assets/images/ce-pro/training-04/p001-img2.png)
-
-![Screenshot p7](../../assets/images/ce-pro/training-04/p007-img1.png)
-
-
-![Screenshot p8](../../assets/images/ce-pro/training-04/p008-img1.png)
-![Screenshot p1](../../assets/images/ce-pro/training-04/p001-img3.png)
-
-![Screenshot p9](../../assets/images/ce-pro/training-04/p009-img1.png)
-
-![Screenshot p9](../../assets/images/ce-pro/training-04/p009-img2.png)
-
-
-![Screenshot p11](../../assets/images/ce-pro/training-04/p011-img1.png)
-
-![Screenshot p11](../../assets/images/ce-pro/training-04/p011-img2.png)
-
-![Screenshot p11](../../assets/images/ce-pro/training-04/p011-img3.png)
-![Screenshot p2](../../assets/images/ce-pro/training-04/p002-img1.png)
-
-![Screenshot p4](../../assets/images/ce-pro/training-04/p004-img1.png)
-
-![Screenshot p4](../../assets/images/ce-pro/training-04/p004-img2.png)
-
-![Screenshot p5](../../assets/images/ce-pro/training-04/p005-img1.png)
-
-![Screenshot p7](../../assets/images/ce-pro/training-04/p007-img1.png)
-
-![Screenshot p8](../../assets/images/ce-pro/training-04/p008-img1.png)
-
-![Screenshot p9](../../assets/images/ce-pro/training-04/p009-img1.png)
-
-![Screenshot p9](../../assets/images/ce-pro/training-04/p009-img2.png)
-
-![Screenshot p11](../../assets/images/ce-pro/training-04/p011-img1.png)
-
-![Screenshot p11](../../assets/images/ce-pro/training-04/p011-img2.png)
-
-![Screenshot p11](../../assets/images/ce-pro/training-04/p011-img3.png)

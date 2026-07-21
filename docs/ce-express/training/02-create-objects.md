@@ -1,5 +1,9 @@
 # 02. Create Objects
 
+![Image p1](../../assets/images/ce-express/training-02/p001-img1.png)
+
+![Image p1](../../assets/images/ce-express/training-02/p001-img2.png)
+
 > **Version:** CE Express v7.2
 
 1. Objective
@@ -48,21 +52,15 @@ Using templates ensures:
 https://cecom2.cellular-expert.com/ce_express/
 2. From the workspace list, select the workspace created in the previous exercise.
 
-![Screenshot p3](../../assets/images/ce-express/training-02/p003-img1.png)
-
-![Screenshot p3](../../assets/images/ce-express/training-02/p003-img1.png)
+![Image p3](../../assets/images/ce-express/training-02/p003-img1.png)
 
 ---
 
 Best practice: Always confirm the active workspace before object creation to avoid placing
 
-![Screenshot p4](../../assets/images/ce-express/training-02/p004-img1.png)
+![Image p4](../../assets/images/ce-express/training-02/p004-img1.png)
 
-![Screenshot p4](../../assets/images/ce-express/training-02/p004-img2.png)
-
-![Screenshot p4](../../assets/images/ce-express/training-02/p004-img1.png)
-
-![Screenshot p4](../../assets/images/ce-express/training-02/p004-img2.png)
+![Image p4](../../assets/images/ce-express/training-02/p004-img2.png)
 objects in the wrong project.
 
 ## 3.2 Step 2 – Creating Network Objects
@@ -81,13 +79,11 @@ Define the following parameters:
 3. Click Accept to create the site.
 RF note: Site height represents the average antenna mounting height above ground and
 
-![Screenshot p5](../../assets/images/ce-express/training-02/p005-img1.png)
+![Image p5](../../assets/images/ce-express/training-02/p005-img1.png)
 
-![Screenshot p5](../../assets/images/ce-express/training-02/p005-img2.png)
+![Image p5](../../assets/images/ce-express/training-02/p005-img2.png)
 
-![Screenshot p5](../../assets/images/ce-express/training-02/p005-img1.png)
-
-![Screenshot p5](../../assets/images/ce-express/training-02/p005-img2.png)
+![Image p5](../../assets/images/ce-express/training-02/p005-img3.png)
 directly impacts coverage and LOS conditions.
 3.2.2 Creating Cell Objects Using Templates
 1. In the Features tool, click Add Feature again.
@@ -132,9 +128,9 @@ Frequency group 3500 3500 3500
 
 Antenna S4-90M-R1- S4-90M-R1- S4-90M-R1-
 
-![Screenshot p7](../../assets/images/ce-express/training-02/p007-img1.png)
+![Image p7](../../assets/images/ce-express/training-02/p007-img1.png)
 
-![Screenshot p7](../../assets/images/ce-express/training-02/p007-img1.png)
+![Image p7](../../assets/images/ce-express/training-02/p007-img2.png)
 V2_BC-3300- V2_BC-3300-3600- V2_BC-3300-
 3600- P0_02DT_3500 3600-
 P0_02DT_3500 P0_02DT_3500
@@ -166,9 +162,9 @@ Duplicate Procedure
 4. Click Accept.
 All selected objects are duplicated at the new location.
 
-![Screenshot p8](../../assets/images/ce-express/training-02/p008-img1.png)
+![Image p8](../../assets/images/ce-express/training-02/p008-img1.png)
 
-![Screenshot p8](../../assets/images/ce-express/training-02/p008-img1.png)
+![Image p8](../../assets/images/ce-express/training-02/p008-img2.png)
 
 ---
 
@@ -177,13 +173,9 @@ All selected objects are duplicated at the new location.
 Objects can be repositioned individually or as a group.
 In this exercise, cells will be placed at different corners of a building.
 
-![Screenshot p9](../../assets/images/ce-express/training-02/p009-img1.png)
+![Image p9](../../assets/images/ce-express/training-02/p009-img1.png)
 
-![Screenshot p9](../../assets/images/ce-express/training-02/p009-img2.png)
-
-![Screenshot p9](../../assets/images/ce-express/training-02/p009-img1.png)
-
-![Screenshot p9](../../assets/images/ce-express/training-02/p009-img2.png)
+![Image p9](../../assets/images/ce-express/training-02/p009-img2.png)
 3.5.1 Moving a Single Cell
 1. Select duplicated objects.
 2. Remove all but Cx01 from the selection.
@@ -203,9 +195,9 @@ Repeat the process for:
 
 After objects are created and positioned, the next important task is updating and refining their
 
-![Screenshot p10](../../assets/images/ce-express/training-02/p010-img1.png)
+![Image p10](../../assets/images/ce-express/training-02/p010-img1.png)
 
-![Screenshot p10](../../assets/images/ce-express/training-02/p010-img1.png)
+![Image p10](../../assets/images/ce-express/training-02/p010-img2.png)
 parameters. Correct parameters ensure that objects are clearly identified, consistently
 configured, and ready for further analysis, visualization, or reporting across different user
 roles.
@@ -214,13 +206,9 @@ roles.
 
 CE Express provides two complementary ways to modify object parameters:
 
-![Screenshot p11](../../assets/images/ce-express/training-02/p011-img1.png)
+![Image p11](../../assets/images/ce-express/training-02/p011-img1.png)
 
-![Screenshot p11](../../assets/images/ce-express/training-02/p011-img2.png)
-
-![Screenshot p11](../../assets/images/ce-express/training-02/p011-img1.png)
-
-![Screenshot p11](../../assets/images/ce-express/training-02/p011-img2.png)
+![Image p11](../../assets/images/ce-express/training-02/p011-img2.png)
 - Object-level editing – detailed changes for individual objects
 - Table-based editing – fast and efficient updates for multiple objects
 Both methods are commonly used together in real projects.
@@ -234,9 +222,9 @@ Both methods are commonly used together in real projects.
 
 Clear and unique object names help all users quickly understand the network structure and
 
-![Screenshot p12](../../assets/images/ce-express/training-02/p012-img1.png)
+![Image p12](../../assets/images/ce-express/training-02/p012-img1.png)
 
-![Screenshot p12](../../assets/images/ce-express/training-02/p012-img1.png)
+![Image p12](../../assets/images/ce-express/training-02/p012-img2.png)
 avoid confusion.
 4. Click on the Cx01 cell in Features tool and modify the following parameters:
 - Name: Cv001
@@ -264,9 +252,7 @@ o Cell Name → Cv003
 o Azimuth → 250
 This approach makes it easy to review and adjust values while maintaining full spatial
 
-![Screenshot p13](../../assets/images/ce-express/training-02/p013-img1.png)
-
-![Screenshot p13](../../assets/images/ce-express/training-02/p013-img1.png)
+![Image p13](../../assets/images/ce-express/training-02/p013-img1.png)
 awareness.
 3.6.3 Bulk Editing Multiple Objects
 1. Select [multiple cells](#kw:47-step-7-rf-prediction-for-multiple-cells:ce-express-tr-rf) in the table (left click on them).
@@ -279,17 +265,17 @@ awareness.
 5. Click Change.
 6. Select Cells again and do the same for frequency_group field. Define value 1800.
 
-![Screenshot p14](../../assets/images/ce-express/training-02/p014-img1.png)
+![Image p14](../../assets/images/ce-express/training-02/p014-img1.png)
 
-![Screenshot p14](../../assets/images/ce-express/training-02/p014-img2.png)
+![Image p14](../../assets/images/ce-express/training-02/p014-img2.png)
 
-![Screenshot p14](../../assets/images/ce-express/training-02/p014-img3.png)
+![Image p14](../../assets/images/ce-express/training-02/p014-img3.png)
 
-![Screenshot p14](../../assets/images/ce-express/training-02/p014-img1.png)
+![Image p14](../../assets/images/ce-express/training-02/p014-img4.png)
 
-![Screenshot p14](../../assets/images/ce-express/training-02/p014-img2.png)
+![Image p14](../../assets/images/ce-express/training-02/p014-img5.png)
 
-![Screenshot p14](../../assets/images/ce-express/training-02/p014-img3.png)
+![Image p14](../../assets/images/ce-express/training-02/p014-img6.png)
 
 ---
 
@@ -299,15 +285,17 @@ awareness.
 does not change object data, it plays a key role in making complex projects easier to
 understand for different audiences, including technical teams, decision-makers, and non-
 
-![Screenshot p15](../../assets/images/ce-express/training-02/p015-img1.png)
-
-
-![Screenshot p16](../../assets/images/ce-express/training-02/p016-img1.png)
-![Screenshot p15](../../assets/images/ce-express/training-02/p015-img1.png)
+![Image p15](../../assets/images/ce-express/training-02/p015-img1.png)
 technical users.
 
-![Screenshot p16](../../assets/images/ce-express/training-02/p016-img1.png)
+![Image p16](../../assets/images/ce-express/training-02/p016-img1.png)
+
+![Image p16](../../assets/images/ce-express/training-02/p016-img2.png)
 Well-designed symbology helps to:
+
+![Image p17](../../assets/images/ce-express/training-02/p017-img1.png)
+
+![Image p17](../../assets/images/ce-express/training-02/p017-img2.png)
 - Distinguish between technologies and frequency layers
 - Improve map readability in dense areas
 - Support presentations, reviews, and decision-making
@@ -334,13 +322,5 @@ Define:
 
 Press Accept button.
 Cells symbology will be updated
-
-![Screenshot p17](../../assets/images/ce-express/training-02/p017-img1.png)
-
-![Screenshot p17](../../assets/images/ce-express/training-02/p017-img2.png)
-
-![Screenshot p17](../../assets/images/ce-express/training-02/p017-img1.png)
-
-![Screenshot p17](../../assets/images/ce-express/training-02/p017-img2.png)
 
 ---

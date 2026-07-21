@@ -1,5 +1,15 @@
 # 09. Importing Data
 
+![Image p1](../../assets/images/ce-pro/training-09/p001-img1.png)
+
+![Image p1](../../assets/images/ce-pro/training-09/p001-img2.png)
+
+![Image p1](../../assets/images/ce-pro/training-09/p001-img3.png)
+
+![Image p1](../../assets/images/ce-pro/training-09/p001-img4.png)
+
+![Image p1](../../assets/images/ce-pro/training-09/p001-img5.png)
+
 > **Version:** CE Pro v4.9
 
 After import, network objects appear as feature classes in the geodatabase. View them in the **Contents** and **Catalog** panes:
@@ -7,8 +17,18 @@ After import, network objects appear as feature classes in the geodatabase. View
 ---
 
 Network import for CE for ArcGIS Pro
+
+![Image p2](../../assets/images/ce-pro/training-09/p002-img1.png)
+
+![Image p2](../../assets/images/ce-pro/training-09/p002-img2.png)
 - From:
+
+![Image p3](../../assets/images/ce-pro/training-09/p003-img1.png)
 - Excel
+
+![Image p4](../../assets/images/ce-pro/training-09/p004-img1.png)
+
+![Image p4](../../assets/images/ce-pro/training-09/p004-img2.png)
 - CSV
 - SDE table
 - To Cellular Expert Workspace:
@@ -39,8 +59,16 @@ objects are imported.
 column name) in the Cellular
 - “default_value” – The default value applies when an object in the
 data file lacks a specific property. The same value will be applied for
+
+![Image p5](../../assets/images/ce-pro/training-09/p005-img1.png)
+
+![Image p5](../../assets/images/ce-pro/training-09/p005-img2.png)
 all imported objects.
 
+![Image p6](../../assets/images/ce-pro/training-09/p006-img1.png)
+
+
+![Image p7](../../assets/images/ce-pro/training-09/p007-img1.png)
 ---
 
 Cells: generate Cell Name
@@ -128,27 +156,17 @@ Thank you!
 Tel.: +370 5 2150575
 Email: info@cellular-expert.com
 S.Konarskio g. 28A LT-03127 Vilnius
+
+![Image p12](../../assets/images/ce-pro/training-09/p012-img1.png)
+
+![Image p12](../../assets/images/ce-pro/training-09/p012-img2.png)
+
+![Image p12](../../assets/images/ce-pro/training-09/p012-img3.png)
+
+![Image p12](../../assets/images/ce-pro/training-09/p012-img4.png)
+
+![Image p12](../../assets/images/ce-pro/training-09/p012-img5.png)
 Lithuania
 www.cellular-expert.com
 
-![Screenshot p1](../../assets/images/ce-pro/training-09/p001-img1.png)
-
-![Screenshot p1](../../assets/images/ce-pro/training-09/p001-img2.png)
-
-![Screenshot p1](../../assets/images/ce-pro/training-09/p001-img3.png)
-
-
-![Screenshot p2](../../assets/images/ce-pro/training-09/p002-img1.png)
 ---
-
-![Screenshot p3](../../assets/images/ce-pro/training-09/p003-img1.png)
-
-![Screenshot p4](../../assets/images/ce-pro/training-09/p004-img1.png)
-
-![Screenshot p4](../../assets/images/ce-pro/training-09/p004-img2.png)
-
-![Screenshot p12](../../assets/images/ce-pro/training-09/p012-img1.png)
-
-![Screenshot p12](../../assets/images/ce-pro/training-09/p012-img2.png)
-
-![Screenshot p12](../../assets/images/ce-pro/training-09/p012-img3.png)

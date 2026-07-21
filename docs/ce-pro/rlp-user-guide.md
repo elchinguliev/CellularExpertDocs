@@ -1,5 +1,11 @@
 # CE Desktop RLP User Guide
 
+![Image p1](../assets/images/ce-pro/rlp-guide/p001-img1.png)
+
+![Image p1](../assets/images/ce-pro/rlp-guide/p001-img2.png)
+
+![Image p1](../assets/images/ce-pro/rlp-guide/p001-img3.png)
+
 > **Version:** CE Pro v4.9
 
 RLP results — MW link paths and availability predictions — are displayed on the ArcGIS Pro map view:
@@ -14,6 +20,10 @@ propagation, communication systems deployment planning,
 and radio/optical visibility calculation software for ESRI’s
 ArcGIS mapping environment, which is widely used within
 Telecom, Defense, IoT, and other companies and
+
+![Image p6](../assets/images/ce-pro/rlp-guide/p006-img1.png)
+
+![Image p6](../assets/images/ce-pro/rlp-guide/p006-img2.png)
 organizations.
 CE’s communication network planning, network asset
 management, operational support software, and customer-
@@ -209,7 +219,13 @@ at support@cellular-expert.com. For more information, see the chapter Technical 
 ### 4.3 Tools
 The Cellular Expert tools are in the Cellular Expert add-on. They appear automatically after installation of
 
-![Screenshot p12](../assets/images/ce-pro/rlp-guide/p012-img1.png)
+![Image p12](../assets/images/ce-pro/rlp-guide/p012-img1.png)
+
+![Image p12](../assets/images/ce-pro/rlp-guide/p012-img2.png)
+
+![Image p12](../assets/images/ce-pro/rlp-guide/p012-img3.png)
+
+![Image p12](../assets/images/ce-pro/rlp-guide/p012-img4.png)
 CE for ArcGIS Pro and will be found in the menu ribbon.
 There are 5 types of licenses and therefore 5 different tabs with various tool configurations:
 • RCP
@@ -219,6 +235,20 @@ There are 5 types of licenses and therefore 5 different tabs with various tool c
 • Sound
 • Indoor
 This User Guide describes RLP tools.
+
+![Image p13](../assets/images/ce-pro/rlp-guide/p013-img1.png)
+
+![Image p13](../assets/images/ce-pro/rlp-guide/p013-img2.png)
+
+![Image p13](../assets/images/ce-pro/rlp-guide/p013-img3.png)
+
+![Image p13](../assets/images/ce-pro/rlp-guide/p013-img4.png)
+
+![Image p13](../assets/images/ce-pro/rlp-guide/p013-img5.png)
+
+![Image p13](../assets/images/ce-pro/rlp-guide/p013-img6.png)
+
+![Image p13](../assets/images/ce-pro/rlp-guide/p013-img7.png)
 
 ## 5. Geographic data
 CE Desktop is designed to work with any geospatial data available to the customer and fully exploit its
@@ -231,7 +261,7 @@ By leveraging whatever data is available locally, CE Express performs nationwide
 maximum feasible resolution, accurately modeling signal propagation even in dense urban environments.
 Support for 3D multi-height calculations ensures that coverage predictions reflect street-level, indoor, and
 
-![Screenshot p14](../assets/images/ce-pro/rlp-guide/p014-img1.png)
+![Image p14](../assets/images/ce-pro/rlp-guide/p014-img1.png)
 rooftop conditions, providing regulators with a realistic representation of service availability.
 This flexibility ensures that NRAs can use their existing GIS assets, open datasets, or commercial data they
 already license, turning them into actionable broadband maps without additional data procurement
@@ -256,7 +286,27 @@ UE
 DTM
 The CE tools make use of three distinct GIS data layers to obtain high precision modelling of radio wave
 
-![Screenshot p15](../assets/images/ce-pro/rlp-guide/p015-img1.png)
+![Image p15](../assets/images/ce-pro/rlp-guide/p015-img1.png)
+
+![Image p15](../assets/images/ce-pro/rlp-guide/p015-img2.png)
+
+![Image p15](../assets/images/ce-pro/rlp-guide/p015-img3.png)
+
+![Image p15](../assets/images/ce-pro/rlp-guide/p015-img4.png)
+
+![Image p15](../assets/images/ce-pro/rlp-guide/p015-img5.png)
+
+![Image p15](../assets/images/ce-pro/rlp-guide/p015-img6.png)
+
+![Image p15](../assets/images/ce-pro/rlp-guide/p015-img7.png)
+
+![Image p15](../assets/images/ce-pro/rlp-guide/p015-img8.png)
+
+![Image p15](../assets/images/ce-pro/rlp-guide/p015-img9.png)
+
+![Image p15](../assets/images/ce-pro/rlp-guide/p015-img10.png)
+
+![Image p15](../assets/images/ce-pro/rlp-guide/p015-img11.png)
 propagation losses:
 
 1. Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), which describes
@@ -284,7 +334,7 @@ detailed RF calculations. This level of precision is essential for:
 • Supporting regulatory-grade broadband mapping and planning.
 By using high-resolution terrain and clutter data, Cellular Expert ensures that its calculations match real-
 
-![Screenshot p16](../assets/images/ce-pro/rlp-guide/p016-img1.png)
+![Image p16](../assets/images/ce-pro/rlp-guide/p016-img1.png)
 world conditions as closely as possible — resulting in better network design decisions and more reliable
 broadband planning outcomes.
 
@@ -311,15 +361,15 @@ Projection
 The raster must use a Projected Coordinate System. To check the coordinate system of your raster, use
 the Properties function in ArcGIS Pro. Add the raster to your project, right-click on it, and select Properties.
 
-![Screenshot p17](../assets/images/ce-pro/rlp-guide/p017-img1.png)
+![Image p17](../assets/images/ce-pro/rlp-guide/p017-img1.png)
+
+![Image p17](../assets/images/ce-pro/rlp-guide/p017-img2.png)
 Then, go to the Source tab > Spatial Reference and check the Coordinate System type parameter to confirm
 it is in a Projected Coordinate System.
 
 If your raster is in a Geographic Coordinate System or needs a different projection, use the Geoprocessing
 
-![Screenshot p18](../assets/images/ce-pro/rlp-guide/p018-img1.png)
-
-![Screenshot p18](../assets/images/ce-pro/rlp-guide/p018-img2.png)
+![Image p18](../assets/images/ce-pro/rlp-guide/p018-img1.png)
 > Project Raster tool to update it.
 In the Output Coordinate System, specify a new coordinate system. It is recommended to use a UTM
 coordinate system under the WGS 1984 projection.
@@ -329,7 +379,7 @@ https://www.arcgis.com/apps/mapviewer/index.html?layers=b294795270aa4fb3bd25286b
 Correct No Data value and raster name
 After setting the correct projection, assign the NoData attribute and specify the appropriate name for the
 
-![Screenshot p19](../assets/images/ce-pro/rlp-guide/p019-img1.png)
+![Image p19](../assets/images/ce-pro/rlp-guide/p019-img1.png)
 DTM raster. To do this, use the Copy Raster tool in Geoprocessing.
 
 Configure the following settings:
@@ -343,14 +393,12 @@ Configure the following settings:
 Land use or clutter refers to the classification of the earth’s surface into categories such as urban, suburban,
 rural, forest, water, and open land, each of which affects radio propagation differently. Clutter data is crucial
 
-![Screenshot p20](../assets/images/ce-pro/rlp-guide/p020-img1.png)
-
-![Screenshot p20](../assets/images/ce-pro/rlp-guide/p020-img2.png)
+![Image p20](../assets/images/ce-pro/rlp-guide/p020-img1.png)
 because it determines how signals are absorbed, reflected, or diffracted by the environment, directly
 
 influencing coverage, interference, and quality of service. The naming and classification of land use types
 
-![Screenshot p21](../assets/images/ce-pro/rlp-guide/p021-img1.png)
+![Image p21](../assets/images/ce-pro/rlp-guide/p021-img1.png)
 may vary. An example is the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2
 Land Cover
 This data is freely available worldwide and is detailed in Cellular Expert databases. Once the workspace is
@@ -360,16 +408,18 @@ Table:
 These are standard clutter types in the default workspace database, which cannot be edited. You must
 map your clutter raster to these predefined clutter types. Standard mapping has already been configured
 
-![Screenshot p22](../assets/images/ce-pro/rlp-guide/p022-img1.png)
+![Image p22](../assets/images/ce-pro/rlp-guide/p022-img1.png)
 
-![Screenshot p22](../assets/images/ce-pro/rlp-guide/p022-img2.png)
+![Image p22](../assets/images/ce-pro/rlp-guide/p022-img2.png)
 for the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2 Land Cover
 
 If you have a different clutter class layer, it can be used for predictions by remapping it using the Clutter
 
-![Screenshot p23](../assets/images/ce-pro/rlp-guide/p023-img1.png)
+![Image p23](../assets/images/ce-pro/rlp-guide/p023-img1.png)
 
-![Screenshot p23](../assets/images/ce-pro/rlp-guide/p023-img2.png)
+![Image p23](../assets/images/ce-pro/rlp-guide/p023-img2.png)
+
+![Image p23](../assets/images/ce-pro/rlp-guide/p023-img3.png)
 Classes tool and specifying the IDs in the geodata raster parameter. If multiple clutter classes correspond
 to a single default clutter type, separate the ID values with commas.
 This mapping can also be adjusted in the Clutter table.
@@ -382,9 +432,9 @@ The Clutter Raster has several requirements, which are the same as for DTM raste
 Projection
 It must have the same coordinate system as your elevation.tif raster. If your raster has different coordinate
 
-![Screenshot p24](../assets/images/ce-pro/rlp-guide/p024-img1.png)
+![Image p24](../assets/images/ce-pro/rlp-guide/p024-img1.png)
 
-![Screenshot p24](../assets/images/ce-pro/rlp-guide/p024-img2.png)
+![Image p24](../assets/images/ce-pro/rlp-guide/p024-img2.png)
 system, then use the Geoprocessing tool → Project Raster to fix it.
 In the Output Coordinate System you would need to define the same coordinate system as your elevation.tif
 raster. Click on Select Coordinate System button.
@@ -393,9 +443,7 @@ And choose the same coordinate system as your elevation.tif.
 Correct No Data value and raster name
 After setting the correct projection, assign the NoData attribute and specify the appropriate name for the
 
-![Screenshot p25](../assets/images/ce-pro/rlp-guide/p025-img1.png)
-
-![Screenshot p25](../assets/images/ce-pro/rlp-guide/p025-img2.png)
+![Image p25](../assets/images/ce-pro/rlp-guide/p025-img1.png)
 Clutter Class raster. To do this, use the Copy Raster tool in Geoprocessing.
 Configure the following settings:
 • Input Raster: Select your newly projected Clutter Class raster.
@@ -410,9 +458,9 @@ clutter heights raster requires the accompanying clutterClasses.tif raster and c
 independently.
 A clutter height raster can be derived from a Digital Surface Model (DSM) raster and a Digital Terrain Model
 
-![Screenshot p26](../assets/images/ce-pro/rlp-guide/p026-img1.png)
+![Image p26](../assets/images/ce-pro/rlp-guide/p026-img1.png)
 
-![Screenshot p26](../assets/images/ce-pro/rlp-guide/p026-img2.png)
+![Image p26](../assets/images/ce-pro/rlp-guide/p026-img2.png)
 (DTM) raster using the ArcGIS Raster Calculator tool. To access this tool, open Geoprocessing tools and
 navigate to Spatial Analyst > Map Algebra > Raster Calculator. Use the following formula:
 DSM – DTM
@@ -424,7 +472,7 @@ The Clutter Height has several requirements, which are the same as for DTM raste
 Projection
 It must have the same coordinate system as your elevation.tif raster. If your raster has different coordinate
 
-![Screenshot p27](../assets/images/ce-pro/rlp-guide/p027-img1.png)
+![Image p27](../assets/images/ce-pro/rlp-guide/p027-img1.png)
 system, then use the Geoprocessing tool → Project Raster to fix it.
 
 In the Output Coordinate System you would need to define the same coordinate system as your elevation.tif
@@ -433,18 +481,16 @@ And choose the same coordinate system as your elevation.tif.
 Correct No Data value and raster name
 After setting the correct projection, assign the NoData attribute and specify the appropriate name for the
 
-![Screenshot p28](../assets/images/ce-pro/rlp-guide/p028-img1.png)
+![Image p28](../assets/images/ce-pro/rlp-guide/p028-img1.png)
 
-![Screenshot p28](../assets/images/ce-pro/rlp-guide/p028-img2.png)
+![Image p28](../assets/images/ce-pro/rlp-guide/p028-img2.png)
 Clutter Height raster. To do this, use the Copy Raster tool in Geoprocessing.
 
 Configure the following settings:
 • Input Raster: Select your newly projected Clutter Height raster.
 • Output Raster Dataset: Specify the output location and set the raster name to clutterHeight.tif.
 
-![Screenshot p29](../assets/images/ce-pro/rlp-guide/p029-img1.png)
-
-![Screenshot p29](../assets/images/ce-pro/rlp-guide/p029-img2.png)
+![Image p29](../assets/images/ce-pro/rlp-guide/p029-img1.png)
 • NoData Value: Enter -9999.
 • Pixel Type: Choose 32-bit signed or 32-bit float.
 • Format: This will automatically be set to TIFF.
@@ -452,7 +498,7 @@ Configure the following settings:
 #### 5.1.4 Buildings
 Building features within the Clutter Classes raster are automatically identified and categorized using a range
 
-![Screenshot p30](../assets/images/ce-pro/rlp-guide/p030-img1.png)
+![Image p30](../assets/images/ce-pro/rlp-guide/p030-img1.png)
 of dedicated building-specific clutter types. These clutter types are available within the Clutter Classes
 tool and are specifically designed to represent different architectural materials and structural
 characteristics.
@@ -469,9 +515,9 @@ modeling.
 
 If your building data is in vector format (e.g., polygons), you’ll first need to convert it to raster before
 
-![Screenshot p31](../assets/images/ce-pro/rlp-guide/p031-img1.png)
+![Image p31](../assets/images/ce-pro/rlp-guide/p031-img1.png)
 
-![Screenshot p31](../assets/images/ce-pro/rlp-guide/p031-img2.png)
+![Image p31](../assets/images/ce-pro/rlp-guide/p031-img2.png)
 incorporating it into the Clutter Classes layer.
 
 1. Convert Vector to Raster
@@ -502,15 +548,15 @@ Each building-related clutter class is assigned a unique ID value, which is used
 the appropriate path loss parameters for solid structures.
 This ensures that Buildings are accurately represented in simulations, contributing to more realistic signal
 
-![Screenshot p32](../assets/images/ce-pro/rlp-guide/p032-img1.png)
+![Image p32](../assets/images/ce-pro/rlp-guide/p032-img1.png)
 behavior in both indoor and outdoor environments.
 
 Building Height Determination in Clutter-Based Modeling
 Pixels assigned to a building clutter class ID will be automatically recognized as solid obstacle during
 
-![Screenshot p33](../assets/images/ce-pro/rlp-guide/p033-img1.png)
+![Image p33](../assets/images/ce-pro/rlp-guide/p033-img1.png)
 
-![Screenshot p33](../assets/images/ce-pro/rlp-guide/p033-img2.png)
+![Image p33](../assets/images/ce-pro/rlp-guide/p033-img2.png)
 prediction calculations. Their heights are determined using the following priority:
 • Option 1: From the associated Clutter Height raster, if available. This provides the most accurate,
 location-specific height information.
@@ -528,7 +574,9 @@ This chapter describes the Cellular Expert workspace functionality.
 Cellular Expert workspace is a geodatabase containing data tables, feature datasets, and the workspace
 definition table. After creating a new workspace database, the workspace definition table will be named
 
-![Screenshot p34](../assets/images/ce-pro/rlp-guide/p034-img1.png)
+![Image p34](../assets/images/ce-pro/rlp-guide/p034-img1.png)
+
+![Image p34](../assets/images/ce-pro/rlp-guide/p034-img2.png)
 CE_WORKSPACE and contain the information about the dataset.
 
 Data field types and values:
@@ -543,7 +591,9 @@ the workspace parameters by referencing the new paths to properly load the proje
 • Calculation Tasks Data Path – path for saving calculation tasks
 • Geodata Folder Path – path for geodata (prediction models do not have geodata options, topographical
 
-![Screenshot p35](../assets/images/ce-pro/rlp-guide/p035-img1.png)
+![Image p35](../assets/images/ce-pro/rlp-guide/p035-img1.png)
+
+![Image p35](../assets/images/ce-pro/rlp-guide/p035-img2.png)
 data are taken from the Geodata Folder Path)
 • Result Path – path for final results
 Workspace calculation paths and settings can be previewed in the dedicated tool, navigate to Workspace
@@ -557,6 +607,10 @@ Steps to create a new workspace:
 2. The Create dialogue will appear. Fill in the minimum required data:
 New workspace path
 It is automatically filled based on the ArcGIS Pro project location. The recommendation is to first save your
+
+![Image p36](../assets/images/ce-pro/rlp-guide/p036-img1.png)
+
+![Image p36](../assets/images/ce-pro/rlp-guide/p036-img2.png)
 ArcGIS Pro project, and then open the Workspace > Create tool. The project's workspace folder will be
 automatically created in the ArcGIS Pro project location catalog. This way, you will have both the ArcGIS
 Pro and CE workspace in the same location.
@@ -574,15 +628,21 @@ When creating a new workspace using geodata containing clutter classes raster, d
 be set by clicking Set Default Clutter Class IDs button. The default ID values are based on Living Atlas
 clutter. Clutter class IDs can also be set manually, either before or after the default values are set. To initiate
 
-![Screenshot p37](../assets/images/ce-pro/rlp-guide/p037-img1.png)
+![Image p37](../assets/images/ce-pro/rlp-guide/p037-img1.png)
 
-![Screenshot p37](../assets/images/ce-pro/rlp-guide/p037-img2.png)
+![Image p37](../assets/images/ce-pro/rlp-guide/p037-img2.png)
 the manual editing of clutter class IDs, click the Manually Set Clutter Class IDs button. Each clutter class
 can be edited to designate its used and unused types, also indicated by their distinct colors.
 
 Note: The projected Coordinate System has been filled automatically and taken from the defined Elevation
 
-![Screenshot p38](../assets/images/ce-pro/rlp-guide/p038-img1.png)
+![Image p38](../assets/images/ce-pro/rlp-guide/p038-img1.png)
+
+![Image p38](../assets/images/ce-pro/rlp-guide/p038-img2.png)
+
+![Image p38](../assets/images/ce-pro/rlp-guide/p038-img3.png)
+
+![Image p38](../assets/images/ce-pro/rlp-guide/p038-img4.png)
 grid. This means that this coordinate system will be assigned to your project feature layers.
 Several messages related to Geodata:
 • If only Elevation exists in Geodata catalog, then tool will be filled with such information:
@@ -599,12 +659,14 @@ Cellular Expert layer and geodata will be added to the project.
 
 Workspace geodatabase and required folders will be created within successful workspace creation
 
-![Screenshot p39](../assets/images/ce-pro/rlp-guide/p039-img1.png)
+![Image p39](../assets/images/ce-pro/rlp-guide/p039-img1.png)
 
-![Screenshot p39](../assets/images/ce-pro/rlp-guide/p039-img2.png)
+![Image p39](../assets/images/ce-pro/rlp-guide/p039-img2.png)
 procedure.
 
 The Project Paths will be filled in the Workspace Properties → Properties tab.
+
+![Image p40](../assets/images/ce-pro/rlp-guide/p040-img1.png)
 
 #### 6.1.3 Open Workspace
 Steps to open a workspace:
@@ -624,7 +686,7 @@ Workspace Upgrade is a tool that enables the user to update missing tables from 
 table. If the tables are toggled, they will be updated (upgraded) by the tool.
 Usually, with new versions of CE for ArcGIS Pro come changes to default data tables. This tool is especially
 
-![Screenshot p41](../assets/images/ce-pro/rlp-guide/p041-img1.png)
+![Image p41](../assets/images/ce-pro/rlp-guide/p041-img1.png)
 useful when checking if the newest version tables correspond to the current project tables.
 Workspace Upgrade automatically checks all these parameters and notifies the user upon the start-up of
 the project.
@@ -639,7 +701,7 @@ Upgrade Database
 Creates the missing tables and/or creates/adds back the missing fields from default tables.
 If a project with incompatible geodata is loaded, the Workspace Upgrade tool analyzes the current geodata,
 
-![Screenshot p42](../assets/images/ce-pro/rlp-guide/p042-img1.png)
+![Image p42](../assets/images/ce-pro/rlp-guide/p042-img1.png)
 as well as the owned user Esri Extension licenses to offer the optimal geodata upgrade path. This process
 is one-time only, and can be done by checking the Upgrade Geodata toggle.
 • If only elevation and buildingHeight rasters exist, the buildingHeight can automatically be renamed
@@ -652,7 +714,9 @@ rasters.
 clutterClasses rasters exist, raster calculations are performed to merge the buildingHeight and
 clutterHeight rasters, and modify the clutterClasses raster to add the building outlines with ID of 0.
 
-![Screenshot p43](../assets/images/ce-pro/rlp-guide/p043-img1.png)
+![Image p43](../assets/images/ce-pro/rlp-guide/p043-img1.png)
+
+![Image p43](../assets/images/ce-pro/rlp-guide/p043-img2.png)
 
 #### 6.1.6 Workspace Properties
 The Workspace properties dialogue shows all the workspace information from the “CE_WORKSPACE”
@@ -662,7 +726,7 @@ To open the Workspace Properties dialogue, click on the Workspace menu icon and 
 6.1.6.1 Parameters
 All information from the “CE_WORKSPACE” table is represented in the Parameters tab of the Workspace
 
-![Screenshot p44](../assets/images/ce-pro/rlp-guide/p044-img1.png)
+![Image p44](../assets/images/ce-pro/rlp-guide/p044-img1.png)
 Properties.
 OK
 Click this button to save any changes and close the dialogue.
@@ -714,6 +778,10 @@ Represents power value in dBm or Watts.
 
 Receiver/Transmitter Height Reference
 The reference raster for calculating the receiver’s and transmitter’s height for these calculations: Profile, RF
+
+![Image p46](../assets/images/ce-pro/rlp-guide/p046-img1.png)
+
+![Image p46](../assets/images/ce-pro/rlp-guide/p046-img2.png)
 Predictions, Quick Predictions, Visibility and other prediction tools. Possible values:
 • Elevation – reference layer will be used elevation.tif raster. This is a default parameter.
 • Clutter height – reference layer will be used clutterHeight.tif raster. Receiver/transmitter height will
@@ -742,7 +810,7 @@ Get helpful information about the dialogue.
 All visualization settings have the “Visible” option set to On by default. Suppose the Visible option is set to
 off, the next time a relevant calculation is performed. In that case, the rasters associated with the calculation
 
-![Screenshot p47](../assets/images/ce-pro/rlp-guide/p047-img1.png)
+![Image p47](../assets/images/ce-pro/rlp-guide/p047-img1.png)
 are added to the map with the visibility disabled. This is done only for the calculations performed after the
 setting is changed, and does not impact already added rasters on the map.
 The symbology is defined as a list of Layers and .lyr files:
@@ -786,14 +854,16 @@ When you use layer files for visualization, do not forget about them. Remember t
 workspace to another location, the location path settings can become incorrect. If Cellular Expert is not able
 to find your defined symbology file, it will use the default file from the location .../Cellular Expert/Layers.
 
+![Image p48](../assets/images/ce-pro/rlp-guide/p048-img1.png)
+
 ### 6.2 Docs Manager
 Docs Manager is a tool for managing Saved Profiles between the transmitter (Tx) and receiver (Rx), which
 are generated in the Profile tool, as well as saved Link Prediction results, Profile Reports, and Link
 Prediction Reports. When a profile is saved in the Profile tool, it is automatically stored in Docs Manager,
 
-![Screenshot p49](../assets/images/ce-pro/rlp-guide/p049-img1.png)
+![Image p49](../assets/images/ce-pro/rlp-guide/p049-img1.png)
 
-![Screenshot p49](../assets/images/ce-pro/rlp-guide/p049-img2.png)
+![Image p49](../assets/images/ce-pro/rlp-guide/p049-img2.png)
 allowing users to reopen it at any time. This ensures that all parameters and calculations related to Tx and
 Rx are preserved for future reference, eliminating the need to reconfigure settings repeatedly. The same
 applies for Link Prediction results, and the Reports can be opened if the original exported document is, for
@@ -815,23 +885,23 @@ accuracy in their Tx and Rx calculations.
 How to Open a Link Prediction
 A saved Link Prediction, just like Profile, can be accessed either by double-clicking the desired Link
 
-![Screenshot p50](../assets/images/ce-pro/rlp-guide/p050-img1.png)
+![Image p50](../assets/images/ce-pro/rlp-guide/p050-img1.png)
 Prediction result, or by select it and clicking Open.
 
 How to Save a Link Prediction
 Link Prediction result can be saved to Docs Manager by selecting Save result to Docs Manager in
 
-![Screenshot p51](../assets/images/ce-pro/rlp-guide/p051-img1.png)
+![Image p51](../assets/images/ce-pro/rlp-guide/p051-img1.png)
 
-![Screenshot p51](../assets/images/ce-pro/rlp-guide/p051-img2.png)
+![Image p51](../assets/images/ce-pro/rlp-guide/p051-img2.png)
 the Link Prediction tool.
 
 How to Open a Profile Report
 A Profile Report document can be accessed either by double-clicking the desired Profile Report, or by
 
-![Screenshot p52](../assets/images/ce-pro/rlp-guide/p052-img1.png)
+![Image p52](../assets/images/ce-pro/rlp-guide/p052-img1.png)
 
-![Screenshot p52](../assets/images/ce-pro/rlp-guide/p052-img2.png)
+![Image p52](../assets/images/ce-pro/rlp-guide/p052-img2.png)
 select it and clicking Open. The document will be opened using your default PDF document reader.
 How to Save a Profile Report
 Profile Report of the current drawn profile can be saved to Docs Manager by selecting Save result to
@@ -841,9 +911,9 @@ How to Open a Link Prediction Report
 A Link Prediction Report document can be accessed either by double-clicking the desired Link
 Prediction Report, or by select it and clicking Open. The document will be opened using your default
 
-![Screenshot p53](../assets/images/ce-pro/rlp-guide/p053-img1.png)
+![Image p53](../assets/images/ce-pro/rlp-guide/p053-img1.png)
 
-![Screenshot p53](../assets/images/ce-pro/rlp-guide/p053-img2.png)
+![Image p53](../assets/images/ce-pro/rlp-guide/p053-img2.png)
 PDF document reader.
 How to Save a Link Prediction Report
 Link Prediction Report can be saved to Docs Manager by selecting Save result to Docs Manager in
@@ -862,7 +932,9 @@ To connect to CE Server Express and get the list of workspaces, insert the Serve
 field. Then press the Get Workspaces button.
 If you select one of the appearing workspaces, the properties of that workspace will be saved to your current
 
-![Screenshot p54](../assets/images/ce-pro/rlp-guide/p054-img1.png)
+![Image p54](../assets/images/ce-pro/rlp-guide/p054-img1.png)
+
+![Image p54](../assets/images/ce-pro/rlp-guide/p054-img2.png)
 ArcGIS Pro project automatically.
 
 Server URL
@@ -878,7 +950,7 @@ Get Workspaces
 Establishes the connection between the provided Server URL and CE for ArcGIS Pro. Upon clicking the
 button, the user may be redirected to a browser window in which he will have to log in to the ArcGIS Portal.
 
-![Screenshot p55](../assets/images/ce-pro/rlp-guide/p055-img1.png)
+![Image p55](../assets/images/ce-pro/rlp-guide/p055-img1.png)
 After doing so, the workspaces will be retrieved.
 Import Features
 Imports the retrieved objects to the currently opened CE workspace.
@@ -888,6 +960,10 @@ Imports the retrieved objects to the currently opened CE workspace.
 ### 7.1 Network Objects
 Cellular Expert network objects are:
 Sites – represent the geographical location of a radio station. They are identified by the unique site ID and
+
+![Image p56](../assets/images/ce-pro/rlp-guide/p056-img1.png)
+
+![Image p56](../assets/images/ce-pro/rlp-guide/p056-img2.png)
 contain information about the geographical coordinates, ground altitude, and base height.
 Links – represents a radio connection between a transmitter and a receiver. It can be established between
 the selected transmitter and receiver. The link operates at a fixed frequency from the transmitter's carriers
@@ -911,7 +987,11 @@ calculated.
 
 2. Define the location of the new Site by pressing the mouse left button on the map. The new Site
 
-![Screenshot p57](../assets/images/ce-pro/rlp-guide/p057-img1.png)
+![Image p57](../assets/images/ce-pro/rlp-guide/p057-img1.png)
+
+![Image p57](../assets/images/ce-pro/rlp-guide/p057-img2.png)
+
+![Image p57](../assets/images/ce-pro/rlp-guide/p057-img3.png)
 will be placed right in that location.
 The Site object can be created by entering exact coordinates in:
 • Latitude (degrees) and Longitude (degrees) section.
@@ -943,6 +1023,10 @@ Y
 Coordinate in the projected coordinate system.
 Z
 3D dimensions representing an object's height above sea level, used for visualizing objects in a 3D scene.
+
+![Image p58](../assets/images/ce-pro/rlp-guide/p058-img1.png)
+
+![Image p58](../assets/images/ce-pro/rlp-guide/p058-img2.png)
 Height Above Ground
 Object’s height above the terrain.
 Ground Altitude
@@ -953,6 +1037,8 @@ The object represents a Microwave link that holds all the information about freq
 equipment, etc. Object type is a line feature class.
 Choose the button from the toolbar and select Links from the dropdown list.
 Define the location for the new Link by left-clicking on the map and selecting two distinct points, or two
+
+![Image p59](../assets/images/ce-pro/rlp-guide/p059-img1.png)
 existing Sites. The new Link will be created as a geometry between those two points.
 
 Save Changes
@@ -963,9 +1049,9 @@ Link Parameters
 Site (A, B)
 Sites that have been assigned for the transmitter and receiver points of the link. If upon link creation no
 
-![Screenshot p60](../assets/images/ce-pro/rlp-guide/p060-img1.png)
+![Image p60](../assets/images/ce-pro/rlp-guide/p060-img1.png)
 
-![Screenshot p60](../assets/images/ce-pro/rlp-guide/p060-img2.png)
+![Image p60](../assets/images/ce-pro/rlp-guide/p060-img2.png)
 sites were assigned, new sites will be created and assigned to the link.
 Latitude (degrees A, B)
 Latitude degrees, minutes, and seconds Y type coordinate in the WGS 1984 geographical coordinate
@@ -1026,7 +1112,7 @@ M:N
 Diversity
 Can be the following: space, frequency, space and frequency with two or four receivers, and angle diversity.
 
-![Screenshot p62](../assets/images/ce-pro/rlp-guide/p062-img1.png)
+![Image p62](../assets/images/ce-pro/rlp-guide/p062-img1.png)
 To define diversity options (antenna or frequency separation values) use the Diversity properties command.
 For space diversity options, the antenna can be selected, as well as the parameters for vertical separation
 (in meters), gain of diversity antenna, and misc. loss (in decibels).
@@ -1075,7 +1161,13 @@ from the selected link's properties dialog.
 To create a new performance objective, first select the required performance parameter, the target defining
 an objective for this parameter, and finally, the condition which applies to a given link, or a group of links.
 
-![Screenshot p64](../assets/images/ce-pro/rlp-guide/p064-img1.png)
+![Image p64](../assets/images/ce-pro/rlp-guide/p064-img1.png)
+
+![Image p64](../assets/images/ce-pro/rlp-guide/p064-img2.png)
+
+![Image p64](../assets/images/ce-pro/rlp-guide/p064-img3.png)
+
+![Image p64](../assets/images/ce-pro/rlp-guide/p064-img4.png)
 Add the performance objective by pressing the button.
 To delete the objective, select it in the table and press the button respectively.
 Value
@@ -1088,7 +1180,9 @@ a multiplication factor as a formatted string.
 #### 7.2.3 Add Mesh Node
 The object represents a node used in mesh network calculations and serves as an endpoint for Link objects.
 
-![Screenshot p65](../assets/images/ce-pro/rlp-guide/p065-img1.png)
+![Image p65](../assets/images/ce-pro/rlp-guide/p065-img1.png)
+
+![Image p65](../assets/images/ce-pro/rlp-guide/p065-img2.png)
 It includes several configurable parameters such as name, geographic coordinates, height, maximum
 number of connections, group affiliation, and additional technical attributes.
 Choose the button from the toolbar and select MeshNodes from the dropdown list.
@@ -1114,6 +1208,12 @@ Latitude degrees, minutes, and seconds Y type coordinate in the WGS 1984 geograp
 system.
 Longitude (degrees)
 Longitude degrees, minutes, and seconds X type coordinate in the WGS 1984 geographical coordinate
+
+![Image p66](../assets/images/ce-pro/rlp-guide/p066-img1.png)
+
+![Image p66](../assets/images/ce-pro/rlp-guide/p066-img2.png)
+
+![Image p66](../assets/images/ce-pro/rlp-guide/p066-img3.png)
 system.
 Latitude
 Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system.
@@ -1161,7 +1261,7 @@ Select objects by navigating to the ArcGIS Pro Edit → Selection section and ch
 selected objects will appear in the Object Editor in a tree hierarchy.
 To edit one of the selected objects, left-click on that object and the corresponding editing menu will open
 
-![Screenshot p68](../assets/images/ce-pro/rlp-guide/p068-img1.png)
+![Image p68](../assets/images/ce-pro/rlp-guide/p068-img1.png)
 below the list.
 
 Delete Object
@@ -1170,14 +1270,18 @@ Duplicate Object
 Select and right-click any object from the selection, then choose the Duplicate option from the popup. The
 duplicated object will retain all information from the original object including coordinates/meridians. If you
 
-![Screenshot p69](../assets/images/ce-pro/rlp-guide/p069-img1.png)
+![Image p69](../assets/images/ce-pro/rlp-guide/p069-img1.png)
+
+![Image p69](../assets/images/ce-pro/rlp-guide/p069-img2.png)
 want to duplicate objects and change their coordinates/meridians at the same time, use the separate
 Duplicate Objects button from above the selection tree.
 
 #### 7.3.1 Move Link Objects
 Choose the button to open the Object Editor dialogue. Select the desirable Link objects with the
 
-![Screenshot p70](../assets/images/ce-pro/rlp-guide/p070-img1.png)
+![Image p70](../assets/images/ce-pro/rlp-guide/p070-img1.png)
+
+![Image p70](../assets/images/ce-pro/rlp-guide/p070-img2.png)
 Select tool and press the Move Objects button in the Object Editor.
 The Links object has Transmitter parameters.
 And Receiver parameters.
@@ -1187,9 +1291,11 @@ The location of Transmitter and Receiver can be changed:
 • Using Select Tx and Select Rx buttons.
 If new location is defined, then potential link will be visible on the map.
 
-![Screenshot p71](../assets/images/ce-pro/rlp-guide/p071-img1.png)
+![Image p71](../assets/images/ce-pro/rlp-guide/p071-img1.png)
 
-![Screenshot p71](../assets/images/ce-pro/rlp-guide/p071-img2.png)
+![Image p71](../assets/images/ce-pro/rlp-guide/p071-img2.png)
+
+![Image p71](../assets/images/ce-pro/rlp-guide/p071-img3.png)
 
 By pressing Save Changes, Link and Site objects will be moved.
 Save Changes
@@ -1200,22 +1306,26 @@ Cancels the changes to the objects and closes the dialogue.
 #### 7.3.2 Duplicate Link Objects
 Choose the button to open the Object Editor dialogue. Select the Link object with the Select tool and
 
-![Screenshot p72](../assets/images/ce-pro/rlp-guide/p072-img1.png)
+![Image p72](../assets/images/ce-pro/rlp-guide/p072-img1.png)
+
+![Image p72](../assets/images/ce-pro/rlp-guide/p072-img2.png)
 press the Duplicate Objects button in the Object Editor dialogue.
+
+![Image p73](../assets/images/ce-pro/rlp-guide/p073-img1.png)
 The Links object has Transmitter parameters.
 
 And Receiver parameters.
-
-![Screenshot p73](../assets/images/ce-pro/rlp-guide/p073-img1.png)
 
 The location of Transmitter and Receiver can be changed:
 • By defining exact coordinates in Transmitter and Receiver section.
 • Using Select Tx and Select Rx buttons.
 If new location is defined, then potential link will be visible on the map.
 
-![Screenshot p74](../assets/images/ce-pro/rlp-guide/p074-img1.png)
+![Image p74](../assets/images/ce-pro/rlp-guide/p074-img1.png)
 
-![Screenshot p74](../assets/images/ce-pro/rlp-guide/p074-img2.png)
+![Image p74](../assets/images/ce-pro/rlp-guide/p074-img2.png)
+
+![Image p74](../assets/images/ce-pro/rlp-guide/p074-img3.png)
 
 By pressing Save Changes, Link and Site objects will be duplicated.
 Save Changes
@@ -1226,22 +1336,22 @@ Cancels the changes to the objects and closes the dialogue.
 #### 7.3.3 Move Site (Point) Objects
 Choose the button to open the Object Editor dialogue. Select the desirable objects with the Select
 
-![Screenshot p75](../assets/images/ce-pro/rlp-guide/p075-img1.png)
+![Image p75](../assets/images/ce-pro/rlp-guide/p075-img1.png)
 tool and press the Move Objects button in the Object Editor.
 
 There are multiple ways to move objects:
 • If multiple objects are selected, the move objects display will show the geospatial properties of the
 
-![Screenshot p76](../assets/images/ce-pro/rlp-guide/p076-img1.png)
+![Image p76](../assets/images/ce-pro/rlp-guide/p076-img1.png)
 center point between the objects denoted as the “Cursor point”.
 
 The "Cursor Point" functions as a reference marker depicted by a red dot on the map. This marker is
 centrally located among the objects on the map and shows where the cursor was placed. You can adjust
 the position of the Cursor Point either by entering new coordinates directly or by clicking “Select Point” and
 
-![Screenshot p77](../assets/images/ce-pro/rlp-guide/p077-img1.png)
+![Image p77](../assets/images/ce-pro/rlp-guide/p077-img1.png)
 
-![Screenshot p77](../assets/images/ce-pro/rlp-guide/p077-img2.png)
+![Image p77](../assets/images/ce-pro/rlp-guide/p077-img2.png)
 choosing a different location on the map. When you move the Cursor Point, all the objects on the map will
 shift their position to maintain their relative distances from this central point.
 • If a single point object is selected or several objects at the same location, the move objects display
@@ -1249,7 +1359,7 @@ shift their position to maintain their relative distances from this central poin
 will show the geospatial properties of these objects denoted as “Cursor Point”.
 If a single point object is selected on the map, the "Cursor Point" serves as its positional anchor. Positioned
 
-![Screenshot p78](../assets/images/ce-pro/rlp-guide/p078-img1.png)
+![Image p78](../assets/images/ce-pro/rlp-guide/p078-img1.png)
 as a red dot, the Cursor Point represents the current coordinates of the selected object and shows where
 the cursor was last placed. You can alter the location of the selected object by manually updating the Cursor
 Point's coordinates or by clicking “Select Point” and choosing a new location on the map. Any movement
@@ -1264,22 +1374,22 @@ Cancels the changes to the objects and closes the dialogue.
 #### 7.3.4 Duplicate Site (Point) Objects
 Choose the button to open the Object Editor dialogue. Select the object with the Select tool and
 
-![Screenshot p79](../assets/images/ce-pro/rlp-guide/p079-img1.png)
+![Image p79](../assets/images/ce-pro/rlp-guide/p079-img1.png)
 press the Duplicate Objects button in the Object Editor dialogue.
 
 There are multiple ways to duplicate objects:
 • If multiple objects are selected, the duplicate objects display will show the geospatial properties of
 
-![Screenshot p80](../assets/images/ce-pro/rlp-guide/p080-img1.png)
+![Image p80](../assets/images/ce-pro/rlp-guide/p080-img1.png)
 
-![Screenshot p80](../assets/images/ce-pro/rlp-guide/p080-img2.png)
+![Image p80](../assets/images/ce-pro/rlp-guide/p080-img2.png)
 the center point between the objects denoted as the “Cursor point”.
 
 The "Cursor Point" functions as a reference marker depicted by a red dot on the map. This marker is
 centrally located among the objects on the map and shows where the cursor was placed. You can adjust
 the position of the Cursor Point either by entering new coordinates directly or by clicking “Select Point” and
 
-![Screenshot p81](../assets/images/ce-pro/rlp-guide/p081-img1.png)
+![Image p81](../assets/images/ce-pro/rlp-guide/p081-img1.png)
 choosing a different location on the map. When you move the Cursor Point, all the objects on the map will
 shift their position to maintain their relative distances from this central point.
 • If a single point object or several objects on the same location are selected, the duplicate objects
@@ -1287,7 +1397,7 @@ display will show the geospatial properties of that object denoted as “Cursor 
 
 If a single point object is selected on the map, the "Cursor Point" serves as its positional anchor. Positioned
 
-![Screenshot p82](../assets/images/ce-pro/rlp-guide/p082-img1.png)
+![Image p82](../assets/images/ce-pro/rlp-guide/p082-img1.png)
 as a red dot, the Cursor Point represents the current coordinates of the selected object and also shows
 where the cursor was last placed. You can alter the location of the selected object by manually updating
 the Cursor Point's coordinates or by clicking “Select Point” and choosing a new location on the map. Any
@@ -1303,7 +1413,7 @@ Cancels the changes to the objects and closes the dialogue.
 The Clutter Classes tool is designed to manage categories describing different types of environments in
 telecommunication networks. It relies on the Clutter Classes raster used in the project. The raster values
 
-![Screenshot p83](../assets/images/ce-pro/rlp-guide/p083-img1.png)
+![Image p83](../assets/images/ce-pro/rlp-guide/p083-img1.png)
 must match the ID values in the Clutter Classes dialog. For example, if "Trees" has a value of 2 in the
 Clutter Classes raster, this ID must be defined in the Clutter Classes tool. By default, ESRI’s Sentinel-2
 Land Use values are used after workspace creation: ESRI Sentinel-2 Land Cover
@@ -1311,17 +1421,21 @@ Here is the table view of Clutter table, which comes with default database.
 
 Sentinel-2 clutter classes raster provides information about these classes:
 
-![Screenshot p84](../assets/images/ce-pro/rlp-guide/p084-img1.png)
+![Image p84](../assets/images/ce-pro/rlp-guide/p084-img1.png)
+
+![Image p84](../assets/images/ce-pro/rlp-guide/p084-img2.png)
+
+![Image p84](../assets/images/ce-pro/rlp-guide/p084-img3.png)
 Choose the button to open the Clutter Classes dialogue.
 
 Select one of the clutter classes to open their properties. Clutter class list can also be filtered by solid
 
-![Screenshot p85](../assets/images/ce-pro/rlp-guide/p085-img1.png)
+![Image p85](../assets/images/ce-pro/rlp-guide/p085-img1.png)
 obstacle and/or clutter obstacle categories.
 
 New mapping between land use raster and clutter class data should be done in Clutter Classes dialog.
 
-![Screenshot p86](../assets/images/ce-pro/rlp-guide/p086-img1.png)
+![Image p86](../assets/images/ce-pro/rlp-guide/p086-img1.png)
 Apply
 Saves changes made to clutter classes.
 OK
@@ -1348,14 +1462,20 @@ on the radio visibility condition between the transmitter antenna vis-à-vis a r
 given point in coverage area. The radio visibility is evaluated based on the DTM, Obstacles and Clutter
 path profile information, as described in previous section. This verification of radio visibility will result in the
 
-![Screenshot p87](../assets/images/ce-pro/rlp-guide/p087-img1.png)
+![Image p87](../assets/images/ce-pro/rlp-guide/p087-img1.png)
+
+![Image p87](../assets/images/ce-pro/rlp-guide/p087-img2.png)
+
+![Image p87](../assets/images/ce-pro/rlp-guide/p087-img3.png)
+
+![Image p87](../assets/images/ce-pro/rlp-guide/p087-img4.png)
 
 receiver antenna point assigned into one of three possible radio visibility conditions:
 • Line-of-Sight (LOS) – occurs when there are neither terrain irregularities, obstacles or clutter
 
-![Screenshot p88](../assets/images/ce-pro/rlp-guide/p088-img1.png)
+![Image p88](../assets/images/ce-pro/rlp-guide/p088-img1.png)
 
-![Screenshot p88](../assets/images/ce-pro/rlp-guide/p088-img2.png)
+![Image p88](../assets/images/ce-pro/rlp-guide/p088-img2.png)
 interposing the direct radio path between the transmitter and receiver antennas. The radio path is
 understood to include the 1st Fresnel zone around the direct line and account for Spherical Earth
 effect. The LOS condition is illustrated by the path profile depicted in Fig. 3(a).
@@ -1378,15 +1498,17 @@ applied in addition to basic path loss, as explained in the separate section at 
 Prediction models available in Cellular Expert support frequencies from 10kHz to 350 GHz.
 To open the Prediction Model Manager dialogue, click on the Prediction Model Manager tool in
 
-![Screenshot p89](../assets/images/ce-pro/rlp-guide/p089-img1.png)
+![Image p89](../assets/images/ce-pro/rlp-guide/p089-img1.png)
 
-![Screenshot p89](../assets/images/ce-pro/rlp-guide/p089-img2.png)
+![Image p89](../assets/images/ce-pro/rlp-guide/p089-img2.png)
+
+![Image p89](../assets/images/ce-pro/rlp-guide/p089-img3.png)
 the Data Management section.
 
 CEC ITU-R 3GPP Model (100MHz – 6GHz) is a combination model intended for use in a variety of different
 radiocommunication systems which is derived explicitly from ITU-R path loss modelling methods as follows:
 
-![Screenshot p90](../assets/images/ce-pro/rlp-guide/p090-img1.png)
+![Image p90](../assets/images/ce-pro/rlp-guide/p090-img1.png)
 a. Receive antenna in LOS condition – path loss calculated as FSL based on Recommendation ITU-
 R P.525 (ref URL).
 b. Receive antenna in OLOS condition – total path loss modelled as a combination of basic FSL
@@ -1541,7 +1663,9 @@ The Clutter Class option defines several predefined clutter categories, each wit
 diffraction loss, clutter loss, penetration loss, and receiver loss coefficients.
 These parameters describe how a signal is impacted when it passes through or terminates in a specific
 
-![Screenshot p94](../assets/images/ce-pro/rlp-guide/p094-img1.png)
+![Image p94](../assets/images/ce-pro/rlp-guide/p094-img1.png)
+
+![Image p94](../assets/images/ce-pro/rlp-guide/p094-img2.png)
 
 clutter class.
 Key Parameters:
@@ -1554,7 +1678,7 @@ lower, diffraction will be lower, if higher – then diffraction will be higher.
 class this parameter is higher then forest or other clutter classes.
 • Enclosed receiver loss offset, dB – the initial entry loss into the clutter class, expressed as an offset
 
-![Screenshot p95](../assets/images/ce-pro/rlp-guide/p095-img1.png)
+![Image p95](../assets/images/ce-pro/rlp-guide/p095-img1.png)
 in dB, which is added to the path loss grid.
 • Enclosed receiver loss scaling coefficient – represents additional signal loss as a function of the
 distance traveled within the clutter class. Higher values increase path loss.
@@ -1650,6 +1774,12 @@ These parameters describe how a signal is impacted when it passes through or ter
 clutter class.
 Key Parameters:
 • Penetration loss offset, dB – the initial entry loss into the clutter class, expressed as an offset in
+
+![Image p97](../assets/images/ce-pro/rlp-guide/p097-img1.png)
+
+![Image p97](../assets/images/ce-pro/rlp-guide/p097-img2.png)
+
+![Image p97](../assets/images/ce-pro/rlp-guide/p097-img3.png)
 dB, which is added to the path loss grid.
 
 • Penetration loss distance coefficient – represents additional signal loss as a function of the distance
@@ -1716,7 +1846,7 @@ High loss building
 Model application
 This model is designed for deterministic tracking of the main, strongest radio ray in Line of Sight (LOS)
 
-![Screenshot p99](../assets/images/ce-pro/rlp-guide/p099-img1.png)
+![Image p99](../assets/images/ce-pro/rlp-guide/p099-img1.png)
 areas, while propagation modeling in Obstructed Line of Sight (OLOS) and Non-Line of Sight (NLOS) areas
 uses empirically determined parameters defined in ITU-R and 3GPP recommendations. It also models the
 scattering of other rays around the receiver. The model applies empirically validated values for the 400
@@ -1758,7 +1888,9 @@ value 30.2.
 • Hata Loss: A2 - transmitter height influence coefficient. It is related to errors in DTM, real Earth
 curvature, etc. It regulates loss curve vertical position like the A0, but with respect to antenna height.
 
-![Screenshot p100](../assets/images/ce-pro/rlp-guide/p100-img1.png)
+![Image p100](../assets/images/ce-pro/rlp-guide/p100-img1.png)
+
+![Image p100](../assets/images/ce-pro/rlp-guide/p100-img2.png)
 Default value -12.
 • Hata Loss: A3 - Okumura-Hata type of multiplying factor for log(h )log(d). Default value 0.1.
 M
@@ -1768,7 +1900,7 @@ The Clutter Class option defines several predefined clutter categories, each wit
 diffraction loss, clutter loss, penetration loss, and receiver loss coefficients.
 These parameters describe how a signal is impacted when it passes through or terminates in a specific
 
-![Screenshot p101](../assets/images/ce-pro/rlp-guide/p101-img1.png)
+![Image p101](../assets/images/ce-pro/rlp-guide/p101-img1.png)
 clutter class.
 
 Key Parameters:
@@ -1779,7 +1911,7 @@ reduced diffraction loss, while higher values increase it. Typically, this coeff
 buildings compared to forests or other clutter types.ltiplier for diffraction calculations. If value is
 lower, diffraction will be lower, if higher – then diffraction will be higher. Usually, for buildings clutter
 
-![Screenshot p102](../assets/images/ce-pro/rlp-guide/p102-img1.png)
+![Image p102](../assets/images/ce-pro/rlp-guide/p102-img1.png)
 class this parameter is higher then forest or other clutter classes.
 • Penetration loss offset, dB – the initial entry loss into the clutter class, expressed as an offset in
 dB, which is added to the path loss grid.
@@ -1866,6 +1998,8 @@ MHz.
 This model is widely used in planning and designing long-distance communication systems, such as
 maritime, broadcasting, and low-frequency navigation systems, where ground-wave propagation plays a
 critical role. It accounts for factors such as terrain conductivity, dielectric properties, and surface roughness
+
+![Image p104](../assets/images/ce-pro/rlp-guide/p104-img1.png)
 to deliver accurate predictions of signal behavior.
 Default settings
 The general model parameters include the radius and receiver height. Additional parameters used for path
@@ -1934,7 +2068,7 @@ and target coverage region.
 • Description: Specifies the height of the receiving antenna above ground level, in meters.
 • Purpose: Receiver height impacts the predicted signal strength, especially in terrain with elevation
 
-![Screenshot p106](../assets/images/ce-pro/rlp-guide/p106-img1.png)
+![Image p106](../assets/images/ce-pro/rlp-guide/p106-img1.png)
 changes or obstacles.
 • Guidelines:
 o 1.5 to 2 m for handheld/mobile users (e.g., mobile phones, public safety devices).
@@ -2084,7 +2218,7 @@ Indicates the slope determined by the frequency value, with a default value of 2
 Penetration loss offset
 The initial entry loss applied when crossing an obstacle within the clutter class, expressed as an offset in
 
-![Screenshot p110](../assets/images/ce-pro/rlp-guide/p110-img1.png)
+![Image p110](../assets/images/ce-pro/rlp-guide/p110-img1.png)
 
 dB, which is added to the path loss grid.
 Penetration loss scaling coefficient
@@ -2249,7 +2383,9 @@ available parameters in network layer.
 #### 7.7.1 Edit Network Objects template
 Click the button to open the Template Manager dialogue. Select one of the opened templates to edit
 
-![Screenshot p114](../assets/images/ce-pro/rlp-guide/p114-img1.png)
+![Image p114](../assets/images/ce-pro/rlp-guide/p114-img1.png)
+
+![Image p114](../assets/images/ce-pro/rlp-guide/p114-img2.png)
 them.
 
 Save Changes
@@ -2260,7 +2396,7 @@ Cancels the changes to the objects and closes the dialogue.
 #### 7.7.2 Manage Network Object Template
 Right-click on a selected template to open the context menu with Duplicate and Delete options.
 
-![Screenshot p115](../assets/images/ce-pro/rlp-guide/p115-img1.png)
+![Image p115](../assets/images/ce-pro/rlp-guide/p115-img1.png)
 
 Duplicate will create a new template with the same parameters.
 Delete will remove this selected template.
@@ -2269,13 +2405,17 @@ Delete will remove this selected template.
 The modulations are used in MW link calculations and specifically can be defined for Radios. Instead of
 specifying Modulations one by one, the customer can create a set of them, and it is available in this tab.
 
-![Screenshot p116](../assets/images/ce-pro/rlp-guide/p116-img1.png)
+![Image p116](../assets/images/ce-pro/rlp-guide/p116-img1.png)
+
+![Image p116](../assets/images/ce-pro/rlp-guide/p116-img2.png)
 To preview and edit the Modulations template, click on it in the table.
 
 (top right)
 A new modulation with default values can be initialized.
 
-![Screenshot p117](../assets/images/ce-pro/rlp-guide/p117-img1.png)
+![Image p117](../assets/images/ce-pro/rlp-guide/p117-img1.png)
+
+![Image p117](../assets/images/ce-pro/rlp-guide/p117-img2.png)
 X
 Modulation can be removed.
 Save changes
@@ -2285,7 +2425,11 @@ Dismiss
 Remove changes.
 To create a new Modulation template, press button in the top right corner of the dialog to initialize a
 
-![Screenshot p118](../assets/images/ce-pro/rlp-guide/p118-img1.png)
+![Image p118](../assets/images/ce-pro/rlp-guide/p118-img1.png)
+
+![Image p118](../assets/images/ce-pro/rlp-guide/p118-img2.png)
+
+![Image p118](../assets/images/ce-pro/rlp-guide/p118-img3.png)
 new template.
 Template name
 The name of the modulation template.
@@ -2300,9 +2444,11 @@ The list of available modulations is taken from the Modulation Editor tab.
 
 To add a new modulation, click the at the top right of the Modulation Editor window to initialize a new
 
-![Screenshot p119](../assets/images/ce-pro/rlp-guide/p119-img1.png)
+![Image p119](../assets/images/ce-pro/rlp-guide/p119-img1.png)
 
-![Screenshot p119](../assets/images/ce-pro/rlp-guide/p119-img2.png)
+![Image p119](../assets/images/ce-pro/rlp-guide/p119-img2.png)
+
+![Image p119](../assets/images/ce-pro/rlp-guide/p119-img3.png)
 modulation with default values, and press the Create button at the bottom of the window. Alternatively, click
 on an existing one to edit its parameters.
 Create
@@ -2316,6 +2462,10 @@ Dismiss changes made to the modulation.
 ### 7.8 Import Objects
 The Import Objects feature further enhances efficiency by allowing users to bring in network objects from
 multiple external documents without manually creating them. This capability is invaluable when dealing with
+
+![Image p120](../assets/images/ce-pro/rlp-guide/p120-img1.png)
+
+![Image p120](../assets/images/ce-pro/rlp-guide/p120-img2.png)
 extensive or complex datasets. Cellular Expert for ArcGIS Pro supports the import of three widely used file
 formats: .xls, .xlsx, and .csv. Additionally, for mapping files, it supports the .json format.
 Key benefits of the Import Objects feature include:
@@ -2332,7 +2482,7 @@ The dialog will be filled with the options to define data and mapping files.
 #### 7.8.1 Import Cells
 The option enables possibility to import Cells in the Cellular Expert workspace. It has additional parameters
 
-![Screenshot p121](../assets/images/ce-pro/rlp-guide/p121-img1.png)
+![Image p121](../assets/images/ce-pro/rlp-guide/p121-img1.png)
 compared to other import options.
 Template
 Take necessary parameters from the template during the import. Template values are taken if some
@@ -2355,7 +2505,7 @@ Select Mapping File (Optional)
 Opens a dialogue window where the user can select a file that defines the data to be imported and the
 conditions under which said data is processed. The supported format is .json. Upon successful selection,
 
-![Screenshot p122](../assets/images/ce-pro/rlp-guide/p122-img1.png)
+![Image p122](../assets/images/ce-pro/rlp-guide/p122-img1.png)
 the button will light up green. More on mapping files are below.
 Steps.
 
@@ -2373,7 +2523,9 @@ name. It must be text data.
 7.8.1.1 Mapping file
 The data in the import files may have names, values, and units that do not match the data in the Cellular
 
-![Screenshot p123](../assets/images/ce-pro/rlp-guide/p123-img1.png)
+![Image p123](../assets/images/ce-pro/rlp-guide/p123-img1.png)
+
+![Image p123](../assets/images/ce-pro/rlp-guide/p123-img2.png)
 Expert database. To resolve such issues an additional Mapping file should be imported in which these data
 conflicts ought to be addressed.
 The empty mapping file can be found in the project’s workspace catalog, SystemFiles folder.
@@ -2390,6 +2542,10 @@ imported.
 database. This property will be checked when the mapping file is imported.
 “default_value” – value that will be used when an object in the data file has no value for a particular
 property. In this example, if “latitude” is not set, then it will by default be assigned the value of 41.258.
+
+![Image p124](../assets/images/ce-pro/rlp-guide/p124-img1.png)
+
+![Image p124](../assets/images/ce-pro/rlp-guide/p124-img2.png)
 Leaving the default to empty quotation marks (“”) means that no default value will be applied.
 
 #### 7.8.2 Import Sites, Radar, CPE, Repeaters, Links, or Mesh Nodes
@@ -2412,7 +2568,7 @@ the button will light up green.
 Click the toolbar button and select Import to import antenna patterns. The command opens a
 dialogue window where the user can select the antenna pattern files to be imported into the Cellular Expert
 
-![Screenshot p125](../assets/images/ce-pro/rlp-guide/p125-img1.png)
+![Image p125](../assets/images/ce-pro/rlp-guide/p125-img1.png)
 database. Select the antenna type in the dropdown list and proceed.
 Select Files
 This button opens a dialogue in which you can select one or more antenna pattern files to be imported. The
@@ -2441,7 +2597,7 @@ Click on the button and select Create to create antenna patterns. Various parame
 antenna can be entered, as well as horizontal and vertical beamwidth values or ranges. For the selected
 horizontal and vertical values or ranges, the horizontal and vertical attenuations are set to 0, while all other
 
-![Screenshot p126](../assets/images/ce-pro/rlp-guide/p126-img1.png)
+![Image p126](../assets/images/ce-pro/rlp-guide/p126-img1.png)
 attenuations are set to 1000. Based on the horizontal and vertical beamwidths, the horizontal and vertical
 antenna patterns are displayed.
 
@@ -2454,9 +2610,9 @@ Antenna frequency value in MHz.
 Gain
 Antenna gain value in dBi.
 Horizontal beamwidth
-
-![Screenshot p127](../assets/images/ce-pro/rlp-guide/p127-img1.png)
 Antenna’s horizontal beamwidth value or range in degrees. By default, the value is 60.
+
+![Image p127](../assets/images/ce-pro/rlp-guide/p127-img1.png)
 Vertical beamwidth
 Antenna’s vertical beamwidth value or range in degrees. By default, the value is 15.
 Create Antenna
@@ -2466,9 +2622,13 @@ Creates the antenna pattern in the database.
 Click the button to open the Radios Dockpane. The dock pane's Manager tab includes the
 functionality for creating new radios and deleting, editing, or duplicating existing ones. The Import tab allows
 
-![Screenshot p128](../assets/images/ce-pro/rlp-guide/p128-img1.png)
+![Image p128](../assets/images/ce-pro/rlp-guide/p128-img1.png)
 
-![Screenshot p128](../assets/images/ce-pro/rlp-guide/p128-img2.png)
+![Image p128](../assets/images/ce-pro/rlp-guide/p128-img2.png)
+
+![Image p128](../assets/images/ce-pro/rlp-guide/p128-img3.png)
+
+![Image p128](../assets/images/ce-pro/rlp-guide/p128-img4.png)
 for importing new antennas from supported format (.raf) files.
 Radios are specific to the CE for the ArcGIS Pro RLP license. The tool enables you to create radios that
 will be necessary to create a link and later be used in calculations.
@@ -2554,17 +2714,19 @@ Power value in dBm.
 Power Low, dBm
 The minimum power level at which the radio transmits, measured
 in decibels relative to 1 milliwatt (dBm).
-
-![Screenshot p131](../assets/images/ce-pro/rlp-guide/p131-img1.png)
 Power High, dBm
 The maximum power level at which the radio transmits, measured in decibels relative to 1 milliwatt (dBm).
+
+![Image p131](../assets/images/ce-pro/rlp-guide/p131-img1.png)
 Automatic Transfer Power Control Range, dB
 The range over which the radio can automatically adjust its transmission power, measured in dB.
 
 Selecting the Modulations tab allows you to assign a modulation to a radio. The adaptive modulations are
 displayed in the table by their ID and technology name. The modulations available for assigning to a radio
 
-![Screenshot p132](../assets/images/ce-pro/rlp-guide/p132-img1.png)
+![Image p132](../assets/images/ce-pro/rlp-guide/p132-img1.png)
+
+![Image p132](../assets/images/ce-pro/rlp-guide/p132-img2.png)
 are listed in a dropdown below the table. The selected modulation can be assigned to a radio by pressing
 the button. Several modulations can be assigned to a radio, and the parameters of the assigned
 modulations can be edited.
@@ -2584,9 +2746,11 @@ structure of the data will be different.
 Click the button to open the Spectrum Masks dialogue.
 Spectrum Masks are specific to the CE for ArcGIS Pro RLP license. The tool enables you to create spectrum
 
-![Screenshot p133](../assets/images/ce-pro/rlp-guide/p133-img1.png)
+![Image p133](../assets/images/ce-pro/rlp-guide/p133-img1.png)
 
-![Screenshot p133](../assets/images/ce-pro/rlp-guide/p133-img2.png)
+![Image p133](../assets/images/ce-pro/rlp-guide/p133-img2.png)
+
+![Image p133](../assets/images/ce-pro/rlp-guide/p133-img3.png)
 masks that will be necessary to be used in calculations.
 
 #### 7.11.1 View Spectrum Masks
@@ -2600,9 +2764,13 @@ Duplicate
 Create a copy of the selected spectrum mask.
 When you create a spectrum mask, you can see its visual representation as well as the values of each
 
-![Screenshot p134](../assets/images/ce-pro/rlp-guide/p134-img1.png)
+![Image p134](../assets/images/ce-pro/rlp-guide/p134-img1.png)
 
-![Screenshot p134](../assets/images/ce-pro/rlp-guide/p134-img2.png)
+![Image p134](../assets/images/ce-pro/rlp-guide/p134-img2.png)
+
+![Image p134](../assets/images/ce-pro/rlp-guide/p134-img3.png)
+
+![Image p134](../assets/images/ce-pro/rlp-guide/p134-img4.png)
 spectrum mask point (frequency and attenuation).
 You can change any values of these points and those changes will be reflected in the graph.
 Deletes the currently selected mask point. If none are selected, does nothing.
@@ -2616,7 +2784,7 @@ Cancel any changes made to the current spectrum mask.
 #### 7.11.2 Add Spectrum Mask
 You can add a spectrum mask by selecting the Add tab located on the Spectrum Masks dockpane.
 
-![Screenshot p135](../assets/images/ce-pro/rlp-guide/p135-img1.png)
+![Image p135](../assets/images/ce-pro/rlp-guide/p135-img1.png)
 Add Spectrum Mask
 Creates a new spectrum mask.
 Spectrum Mask Parameters
@@ -2632,11 +2800,11 @@ You can add a spectrum mask by importing it from a JSON format file.
 
 The selected spectrum mask can be visually inspected before importing, by clicking on the selection of the
 
-![Screenshot p136](../assets/images/ce-pro/rlp-guide/p136-img1.png)
+![Image p136](../assets/images/ce-pro/rlp-guide/p136-img1.png)
 
-![Screenshot p136](../assets/images/ce-pro/rlp-guide/p136-img2.png)
+![Image p136](../assets/images/ce-pro/rlp-guide/p136-img2.png)
 
-![Screenshot p136](../assets/images/ce-pro/rlp-guide/p136-img3.png)
+![Image p136](../assets/images/ce-pro/rlp-guide/p136-img3.png)
 spectrum mask in the container.
 
 #### 7.11.4 Export Spectrum Mask
@@ -2666,7 +2834,9 @@ Specific frequencies or waves used to modulate and transmit information over a c
 Once you create a frequency plan, you will be able to see its graphical representation as well as the
 frequencies of each frequency plan’s carrier. Select entries in the carrier table to highlight a specific carrier
 
-![Screenshot p137](../assets/images/ce-pro/rlp-guide/p137-img1.png)
+![Image p137](../assets/images/ce-pro/rlp-guide/p137-img1.png)
+
+![Image p137](../assets/images/ce-pro/rlp-guide/p137-img2.png)
 on the plot.
 
 Carriers with the prime symbol ( ‘ ) are for Upper carriers, and others are for Lower carriers.
@@ -2680,18 +2850,18 @@ Frequency plans can be imported into CE workspace as CSV format files. Press Sel
 navigate to the frequency plan data CSV format file.
 The frequency plan can also be edited before importing. Click Import to finalize the frequency plan import
 
-![Screenshot p138](../assets/images/ce-pro/rlp-guide/p138-img1.png)
+![Image p138](../assets/images/ce-pro/rlp-guide/p138-img1.png)
 
-![Screenshot p138](../assets/images/ce-pro/rlp-guide/p138-img2.png)
+![Image p138](../assets/images/ce-pro/rlp-guide/p138-img2.png)
 procedure.
 
 #### 7.12.3 Export Frequency Plan
 Selected frequency plan can be exported to CSV format file. Select the frequency plan in the table, then
 define the export path by clicking the Folder icon to open the path selection dialog, and click Export to save
 
-![Screenshot p139](../assets/images/ce-pro/rlp-guide/p139-img1.png)
+![Image p139](../assets/images/ce-pro/rlp-guide/p139-img1.png)
 
-![Screenshot p139](../assets/images/ce-pro/rlp-guide/p139-img2.png)
+![Image p139](../assets/images/ce-pro/rlp-guide/p139-img2.png)
 the frequency plan to CSV format file.
 
 #### 7.12.4 View Frequency Plans
@@ -2706,9 +2876,9 @@ Create a copy of the selected frequency plan.
 Edit
 Edit the currently selected frequency plan. When this button is pressed you will be redirected to a separate
 
-![Screenshot p140](../assets/images/ce-pro/rlp-guide/p140-img1.png)
+![Image p140](../assets/images/ce-pro/rlp-guide/p140-img1.png)
 
-![Screenshot p140](../assets/images/ce-pro/rlp-guide/p140-img2.png)
+![Image p140](../assets/images/ce-pro/rlp-guide/p140-img2.png)
 tab to make the edits. Keep in mind that any links that have this changed frequency plan will lose their
 carrier selection.
 Exit Edit Mode
@@ -2721,7 +2891,9 @@ to the Frequency Plans tab.
 A Profile in wireless communication represents the geographical and environmental characteristics of the
 path between a transmitter and a receiver. It includes detailed information such as elevation data, terrain
 
-![Screenshot p141](../assets/images/ce-pro/rlp-guide/p141-img1.png)
+![Image p141](../assets/images/ce-pro/rlp-guide/p141-img1.png)
+
+![Image p141](../assets/images/ce-pro/rlp-guide/p141-img2.png)
 heights, and any obstacles (e.g., buildings, trees, or mountains) that might impact signal propagation.
 All relevant calculations are already performed within the system. These include the power budget, which
 factors in the total power available for transmission and reception while accounting for system gains and
@@ -2753,7 +2925,9 @@ Profile: General
 Fresnel Minimal Clearance, %
 Percentage by which the primary Fresnel zones will be scaled up or down thus creating a secondary Fresnel
 
-![Screenshot p142](../assets/images/ce-pro/rlp-guide/p142-img1.png)
+![Image p142](../assets/images/ce-pro/rlp-guide/p142-img1.png)
+
+![Image p142](../assets/images/ce-pro/rlp-guide/p142-img2.png)
 zone. The percentage must be in the range of 1 to 200. The value can be changed either by inputting it
 manually or by using the slider.
 Transmitter Template
@@ -2786,7 +2960,7 @@ Electrical downtilt value for the transmitter, in degrees.
 
 The antenna for the transmitter can be selected from the table below the El. Downtilt, deg input. Its pattern
 
-![Screenshot p144](../assets/images/ce-pro/rlp-guide/p144-img1.png)
+![Image p144](../assets/images/ce-pro/rlp-guide/p144-img1.png)
 can be viewed by clicking the View Antenna button on the right side.
 Frequency, MHz
 Frequency of the transmitter.
@@ -2811,7 +2985,7 @@ Decimal degrees X type coordinate.
 Height, m
 Height above the ground in meters. The minimum value must be 1m.
 
-![Screenshot p145](../assets/images/ce-pro/rlp-guide/p145-img1.png)
+![Image p145](../assets/images/ce-pro/rlp-guide/p145-img1.png)
 Azimuth towards transmitter
 
 Enabled by default. When enabled, the receiver’s azimuth is towards the transmitter. Disabling this option
@@ -2819,6 +2993,8 @@ it would take azimuth value from the receiver (Cell) object, and use it for FWA 
 it also allows the user to enter a custom azimuth value for the receiver.
 Downtilt towards transmitter
 Enabled by default. When enabled, the receiver’s tilt is towards the transmitter. Disabling this option it would
+
+![Image p146](../assets/images/ce-pro/rlp-guide/p146-img1.png)
 take tilt value from the receiver (Cell) object, and use it for FWA Power Budget calculations, it allows the
 user to enter a custom tilt value for the receiver.
 Power, dBm
@@ -2850,14 +3026,20 @@ dockpane below. You can inspect the values at particular points by moving the cu
 cursor movement on the plot will be projected as a moving point on the map. If a cell is selected for the
 transmitter, the cell’s tilt (the sum of mechanical and electrical tilts) and vertical beamwidth are displayed
 
-![Screenshot p147](../assets/images/ce-pro/rlp-guide/p147-img1.png)
+![Image p147](../assets/images/ce-pro/rlp-guide/p147-img1.png)
+
+![Image p147](../assets/images/ce-pro/rlp-guide/p147-img2.png)
+
+![Image p147](../assets/images/ce-pro/rlp-guide/p147-img3.png)
 as additional symbols: a light blue line and a darker blue cone respectively. The length of the cell tilt and
 antenna vertical beamwidth symbols is the radius of the prediction model selected for the cell.
 The button allows you to see the Prediction Calculation results.
 
 You can change the colors of the profile by clicking the colored squares near the names of the parameters.
 
-![Screenshot p148](../assets/images/ce-pro/rlp-guide/p148-img1.png)
+![Image p148](../assets/images/ce-pro/rlp-guide/p148-img1.png)
+
+![Image p148](../assets/images/ce-pro/rlp-guide/p148-img2.png)
 The colors will be updated automatically. You can toggle the visibility of each separate parameter of the
 profile by clicking on the name of the element. Enabled elements are indicated by bold text, and disabled
 elements are indicated by regular text.
@@ -2865,17 +3047,17 @@ elements are indicated by regular text.
 You can change the height of the transmitter/receiver points by dragging their ends on the plot.
 Hovering the cursor over the plot displays a tooltip with the meter values for profile, building, clutter,
 
-![Screenshot p149](../assets/images/ce-pro/rlp-guide/p149-img1.png)
+![Image p149](../assets/images/ce-pro/rlp-guide/p149-img1.png)
 
-![Screenshot p149](../assets/images/ce-pro/rlp-guide/p149-img2.png)
+![Image p149](../assets/images/ce-pro/rlp-guide/p149-img2.png)
 elevation, distance, etc., as well as their representations in colors.
 
 8.1.2.1 Adjust Data
 Adjust data is found on the Profile Plot dockpane near the Results. The tool lets you change the elevation,
 
-![Screenshot p150](../assets/images/ce-pro/rlp-guide/p150-img1.png)
+![Image p150](../assets/images/ce-pro/rlp-guide/p150-img1.png)
 
-![Screenshot p150](../assets/images/ce-pro/rlp-guide/p150-img2.png)
+![Image p150](../assets/images/ce-pro/rlp-guide/p150-img2.png)
 building, and clutter data of the area visible in the profile plot.
 When the Adjust tab is opened, select a desirable range for the data adjustment on the plot.
 
@@ -2884,9 +3066,13 @@ dragging them. To adjust the values, click on one of the text boxes and insert t
 To change multiple values simultaneously, drag across the adjustment table and select multiple rows.
 Changing the value of a single text box will also change all the other chosen rows’ values in that text box.
 
-![Screenshot p151](../assets/images/ce-pro/rlp-guide/p151-img1.png)
+![Image p151](../assets/images/ce-pro/rlp-guide/p151-img1.png)
 
-![Screenshot p151](../assets/images/ce-pro/rlp-guide/p151-img2.png)
+![Image p151](../assets/images/ce-pro/rlp-guide/p151-img2.png)
+
+![Image p151](../assets/images/ce-pro/rlp-guide/p151-img3.png)
+
+![Image p151](../assets/images/ce-pro/rlp-guide/p151-img4.png)
 The selected area will be highlighted on the profile plot.
 To update the values, either select an unselected row or press the button.
 
@@ -2895,16 +3081,20 @@ Manual Profile
 If you want to insert specific coordinates and draw a profile that way, you can insert these values in the
 Profile pane and click the Manual Profile button.
 Dynamic Profile
-
-![Screenshot p152](../assets/images/ce-pro/rlp-guide/p152-img1.png)
-
-![Screenshot p152](../assets/images/ce-pro/rlp-guide/p152-img2.png)
 The button toggles the Dynamic Profile.
 Dynamic Profile lets you see Profile calculations and the plot be drawn in real-time as the cursor moves.
 Whenever the cursor stops momentarily – the profile gets drawn. The transmitter point needs to be entered
 for the dynamic profile to be activated. The previous transmitter point will be chosen if the point is not
 currently entered.
 If a second point is selected while the profile is being drawn, the dynamic profile will be disabled, and the
+
+![Image p152](../assets/images/ce-pro/rlp-guide/p152-img1.png)
+
+![Image p152](../assets/images/ce-pro/rlp-guide/p152-img2.png)
+
+![Image p152](../assets/images/ce-pro/rlp-guide/p152-img3.png)
+
+![Image p152](../assets/images/ce-pro/rlp-guide/p152-img4.png)
 LOS lines will appear on the map.
 
 #### 8.1.3 Tools
@@ -2916,9 +3106,9 @@ It is recommended to disable the Step Plot of the profile before using Reflectio
 Use Single Reflection
 Enable a reflection that will reflect straight from the transmitter to the receiver point with the smallest angle.
 
-![Screenshot p153](../assets/images/ce-pro/rlp-guide/p153-img1.png)
+![Image p153](../assets/images/ce-pro/rlp-guide/p153-img1.png)
 
-![Screenshot p153](../assets/images/ce-pro/rlp-guide/p153-img2.png)
+![Image p153](../assets/images/ce-pro/rlp-guide/p153-img2.png)
 Use Multipath Reflections
 
 Enable all reflections that happen along the profile line.
@@ -2932,7 +3122,9 @@ The polarization of reflections (vertical or horizontal).
 Use Clutter Classes
 Enables the use of default clutter classes for the reflection calculations (see Clutter Classes). If disabled,
 
-![Screenshot p154](../assets/images/ce-pro/rlp-guide/p154-img1.png)
+![Image p154](../assets/images/ce-pro/rlp-guide/p154-img1.png)
+
+![Image p154](../assets/images/ce-pro/rlp-guide/p154-img2.png)
 custom values may be used for conductivity and permittivity.
 Select Reflection Range
 Lets you set a range in which the reflection calculations should happen. This will affect both Single and
@@ -2946,7 +3138,7 @@ Reflection results will appear in the Profile Results table.
 8.1.3.1 Reflection Analysis
 The Reflection Analysis tool for Profile is designed to help analyze and visualize signal reflections based
 
-![Screenshot p155](../assets/images/ce-pro/rlp-guide/p155-img1.png)
+![Image p155](../assets/images/ce-pro/rlp-guide/p155-img1.png)
 on the changes in various profile parameters like frequency, transmitter height, receiver height, and K-
 factor. Reflections must be enabled to perform analysis, and the Single Reflection option is automatically
 enabled when the tool is selected.
@@ -2960,7 +3152,7 @@ Calculate reflection analysis based on transmitter height range (from m to m)
 Dependency on K-Factor
 Calculate reflection analysis based on K-factor range (from radius, km to radius, km)
 
-![Screenshot p156](../assets/images/ce-pro/rlp-guide/p156-img1.png)
+![Image p156](../assets/images/ce-pro/rlp-guide/p156-img1.png)
 
 The reflection analysis results for each type of dependency are displayed in the Reflection Analysis tab
 of the Calculated Profile window.
@@ -2968,7 +3160,7 @@ of the Calculated Profile window.
 #### 8.1.4 Import
 Import a profile by selecting a profile file in the Import section. Supported formats: .pl2 (path loss file).
 
-![Screenshot p157](../assets/images/ce-pro/rlp-guide/p157-img1.png)
+![Image p157](../assets/images/ce-pro/rlp-guide/p157-img1.png)
 Once imported successfully, the profile data may then be customized.
 
 Load Profile
@@ -2978,18 +3170,24 @@ Creates the profile with the provided data.
 The input data and calculation results can be automatically transferred into a Profile Report. This report
 will show transmitter/receiver input data, calculation results as well as the Profile plot and map view in which
 
-![Screenshot p158](../assets/images/ce-pro/rlp-guide/p158-img1.png)
+![Image p158](../assets/images/ce-pro/rlp-guide/p158-img1.png)
 
-![Screenshot p158](../assets/images/ce-pro/rlp-guide/p158-img2.png)
+![Image p158](../assets/images/ce-pro/rlp-guide/p158-img2.png)
 the profile was drawn. The report can be exported in PDF and PL2 formats. The Profile Report can also be
 saved to Docs Manager by selecting Save result to Docs Manager.
 
 The resulting Profile report will look similar to this example:
 
-![Screenshot p159](../assets/images/ce-pro/rlp-guide/p159-img1.png)
+![Image p159](../assets/images/ce-pro/rlp-guide/p159-img1.png)
 
 #### 8.1.6 Settings
 Currently, you can configure the profile’s visual properties and controls in profile settings. The settings can
+
+![Image p160](../assets/images/ce-pro/rlp-guide/p160-img1.png)
+
+![Image p160](../assets/images/ce-pro/rlp-guide/p160-img2.png)
+
+![Image p160](../assets/images/ce-pro/rlp-guide/p160-img3.png)
 be changed once a profile is drawn.
 Show Step Plot
 Display data points as a series of steps rather than a smooth line or individual points.
@@ -3011,7 +3209,17 @@ The task list refreshes automatically once calculation tasks are run. The task s
 main colors: blue (in progress), green (completed), and red (failed). Calculation tasks can be deleted
 from the task list by clicking on the right side of the task. To open a result raster, select it from the results
 
-![Screenshot p161](../assets/images/ce-pro/rlp-guide/p161-img1.png)
+![Image p161](../assets/images/ce-pro/rlp-guide/p161-img1.png)
+
+![Image p161](../assets/images/ce-pro/rlp-guide/p161-img2.png)
+
+![Image p161](../assets/images/ce-pro/rlp-guide/p161-img3.png)
+
+![Image p161](../assets/images/ce-pro/rlp-guide/p161-img4.png)
+
+![Image p161](../assets/images/ce-pro/rlp-guide/p161-img5.png)
+
+![Image p161](../assets/images/ce-pro/rlp-guide/p161-img6.png)
 dropdown and click Open Results. Filtering by calculation spans these types: Antenna Visibility Prediction,
 EMF Calculation, Link Prediction, Model Tuning, Optimal Site Positions Calculation, RF Prediction, Siren
 Sound Prediction, and Visibility Prediction.
@@ -3044,7 +3252,7 @@ A template that corresponds to the selected layers. When the layer changes the t
 Selected
 Network objects that are present on the selected network layer. The visibility prediction will be performed
 
-![Screenshot p162](../assets/images/ce-pro/rlp-guide/p162-img1.png)
+![Image p162](../assets/images/ce-pro/rlp-guide/p162-img1.png)
 on all of them.
 Run Calculations
 Starts the prediction calculation.
@@ -3053,16 +3261,16 @@ Results:
 • Minimum Receiver Height in meters
 • Line of Sight – either visible (1) by the network objects or not (0)
 
-![Screenshot p163](../assets/images/ce-pro/rlp-guide/p163-img1.png)
+![Image p163](../assets/images/ce-pro/rlp-guide/p163-img1.png)
 
-![Screenshot p163](../assets/images/ce-pro/rlp-guide/p163-img2.png)
+![Image p163](../assets/images/ce-pro/rlp-guide/p163-img2.png)
 • Clearance in meters
 
+![Image p164](../assets/images/ce-pro/rlp-guide/p164-img1.png)
+
+![Image p164](../assets/images/ce-pro/rlp-guide/p164-img2.png)
+
 • Best Server
-
-![Screenshot p164](../assets/images/ce-pro/rlp-guide/p164-img1.png)
-
-![Screenshot p164](../assets/images/ce-pro/rlp-guide/p164-img2.png)
 
 ## 10. Mesh Networks
 
@@ -3070,7 +3278,11 @@ Results:
 Click the button to open Mesh Connectivity dialogue.
 This tool enables rapid and accurate assessment of wireless peer-to-peer link quality during mesh network
 
-![Screenshot p165](../assets/images/ce-pro/rlp-guide/p165-img1.png)
+![Image p165](../assets/images/ce-pro/rlp-guide/p165-img1.png)
+
+![Image p165](../assets/images/ce-pro/rlp-guide/p165-img2.png)
+
+![Image p165](../assets/images/ce-pro/rlp-guide/p165-img3.png)
 planning and optimization.
 How It Works:
 • Select one or more Mesh Nodes in the workspace.
@@ -3092,7 +3304,7 @@ o Yellow: Uni-directional connectivity – only one node meets the RSL threshold
 other.
 o Red: No connectivity – RSL falls below the sensitivity threshold in both directions.
 
-![Screenshot p166](../assets/images/ce-pro/rlp-guide/p166-img1.png)
+![Image p166](../assets/images/ce-pro/rlp-guide/p166-img1.png)
 Result. All cominications
 It shows all possible combinations of Mesh network connections.
 Result. Connection lines
@@ -3100,9 +3312,9 @@ Shows Mesh connections where the tool will create Link object.
 
 To create a Links between Mesh Nodes, define Mesh connectivity results. Once result is selected, it will
 
-![Screenshot p167](../assets/images/ce-pro/rlp-guide/p167-img1.png)
+![Image p167](../assets/images/ce-pro/rlp-guide/p167-img1.png)
 
-![Screenshot p167](../assets/images/ce-pro/rlp-guide/p167-img2.png)
+![Image p167](../assets/images/ce-pro/rlp-guide/p167-img2.png)
 add possible options to create a links between Mesh Nodes.
 
 Delete existing links
@@ -3110,9 +3322,9 @@ If selected, existing links that have been created from mesh connectivity result
 Create only enabled links
 If checked, the links will be created only from the checked connectivity lines in the suggested list.
 
-![Screenshot p168](../assets/images/ce-pro/rlp-guide/p168-img1.png)
+![Image p168](../assets/images/ce-pro/rlp-guide/p168-img1.png)
 
-![Screenshot p168](../assets/images/ce-pro/rlp-guide/p168-img2.png)
+![Image p168](../assets/images/ce-pro/rlp-guide/p168-img2.png)
 Enable/Disable Links from the suggested list.
 Once parameters are set, press Create links button to create Links between Mesh objects.
 
@@ -3120,7 +3332,9 @@ Once parameters are set, press Create links button to create Links between Mesh 
 Click the button to open Quick Mesh Connectivity dialogue.
 To enhance the efficiency of early-stage planning and dynamic mesh layout, the Quick Mesh Connectivity
 
-![Screenshot p169](../assets/images/ce-pro/rlp-guide/p169-img1.png)
+![Image p169](../assets/images/ce-pro/rlp-guide/p169-img1.png)
+
+![Image p169](../assets/images/ce-pro/rlp-guide/p169-img2.png)
 tool offers a fast and intuitive way to assess connectivity potential.
 This lightweight yet powerful feature enables users to instantly evaluate whether a Mesh Node can
 connect to an existing mesh network based on either its current position or a proposed location.
@@ -3137,9 +3351,9 @@ Launch the tool from the menu or toolbar.
 3. Define the Proposed Node Location
 Choose the location of the new Mesh Node either by clicking directly on the map or by entering
 
-![Screenshot p170](../assets/images/ce-pro/rlp-guide/p170-img1.png)
+![Image p170](../assets/images/ce-pro/rlp-guide/p170-img1.png)
 
-![Screenshot p170](../assets/images/ce-pro/rlp-guide/p170-img2.png)
+![Image p170](../assets/images/ce-pro/rlp-guide/p170-img2.png)
 specific coordinates.
 
 4. Configure Node Parameters
@@ -3160,7 +3374,7 @@ Mesh node template
 The Mesh Node Object Template is automatically utilized whenever a Mesh object lacks the required
 parameters needed to complete connectivity calculations. This ensures that all essential data is available
 
-![Screenshot p171](../assets/images/ce-pro/rlp-guide/p171-img1.png)
+![Image p171](../assets/images/ce-pro/rlp-guide/p171-img1.png)
 for accurate simulation and evaluation, even if the original Mesh object is incomplete.
 Temporary mesh node template
 The Temporary Mesh Node Object Template is automatically utilized whenever a newly proposed Mesh
@@ -3198,11 +3412,15 @@ Receiving Signal Level threshold in dBm at Mesh Node.
 ### 11.1 Geoclimatic Data
 Click the button to open the Geoclimatic Data dialogue.
 Geoclimatic Data is a tool that lets you adjust the geoclimatic settings that will be used in certain calculations
+
+![Image p172](../assets/images/ce-pro/rlp-guide/p172-img1.png)
+
+![Image p172](../assets/images/ce-pro/rlp-guide/p172-img2.png)
 (e.g. Link Prediction).
 
-Save Changes
+![Image p173](../assets/images/ce-pro/rlp-guide/p173-img1.png)
 
-![Screenshot p173](../assets/images/ce-pro/rlp-guide/p173-img1.png)
+Save Changes
 Save changes to the settings.
 
 #### 11.1.1 Gaseous Absorption
@@ -3215,9 +3433,9 @@ hectopascals (hPa).
 Water Vapour Density
 The mass of water vapor present in a unit volume of air, typically measured in grams per cubic meter (g/m³).
 
-![Screenshot p174](../assets/images/ce-pro/rlp-guide/p174-img1.png)
+![Image p174](../assets/images/ce-pro/rlp-guide/p174-img1.png)
 
-![Screenshot p174](../assets/images/ce-pro/rlp-guide/p174-img2.png)
+![Image p174](../assets/images/ce-pro/rlp-guide/p174-img2.png)
 Water Vapour Density Data
 A dropdown menu that allows the user to select the source or type of data used to determine water vapor
 density.
@@ -3231,6 +3449,8 @@ A button that lets you see the visual representation of the absorption spectrum.
 
 Linear/Logarithmic
 Specifies how the axes values are calculated and displayed on the plot. Logarithmic is calculated as log .
+
+![Image p175](../assets/images/ce-pro/rlp-guide/p175-img1.png)
 Frequency From/To
 The frequency range of the absorption spectrum.
 Path Length
@@ -3257,7 +3477,7 @@ Worst month-to-annual statistics conversion can be performed according to ITU-R 
 methods.
 Refractivity gradient data is based on ITU-R P.453-9. Refractivity gradient data is used for multipath fading
 
-![Screenshot p176](../assets/images/ce-pro/rlp-guide/p176-img1.png)
+![Image p176](../assets/images/ce-pro/rlp-guide/p176-img1.png)
 analysis.
 ITU Method
 Enable/Disable the ITU Method
@@ -3320,7 +3540,7 @@ the ITU-R P.530 recommendation being applied.
 Rain rate exceeded for 0.01% of the time (mm/h)
 Options to use either default or custom values for the rain rate that is exceeded for 0.01% of the time, which
 
-![Screenshot p178](../assets/images/ce-pro/rlp-guide/p178-img1.png)
+![Image p178](../assets/images/ce-pro/rlp-guide/p178-img1.png)
 is a measure used to predict rain fading in telecommunications.
 Crane
 This is a model selection option related to the Crane model for calculating rain attenuation.
@@ -3339,14 +3559,16 @@ months.
 Beta
 An input field for the beta parameter, which may be part of the statistical model or conversion formula within
 
-![Screenshot p179](../assets/images/ce-pro/rlp-guide/p179-img1.png)
+![Image p179](../assets/images/ce-pro/rlp-guide/p179-img1.png)
 the ITU-R P.841 recommendation.
 
 ### 11.2 Link Prediction
 Click the button to open the Link Prediction dialogue.
 Link Predictions is a tool specific to CE for ArcGIS Pro RLP license. The tool enables you to calculate Link
 
-![Screenshot p180](../assets/images/ce-pro/rlp-guide/p180-img1.png)
+![Image p180](../assets/images/ce-pro/rlp-guide/p180-img1.png)
+
+![Image p180](../assets/images/ce-pro/rlp-guide/p180-img2.png)
 predictions.
 
 #### 11.2.1 Calculation
@@ -3361,7 +3583,9 @@ predictions.
 Calculate Interference
 If checked will calculate the interference of multiple links. If enabled, also allows to specify a certain radius
 
-![Screenshot p181](../assets/images/ce-pro/rlp-guide/p181-img1.png)
+![Image p181](../assets/images/ce-pro/rlp-guide/p181-img1.png)
+
+![Image p181](../assets/images/ce-pro/rlp-guide/p181-img2.png)
 from either link endpoint. Points outside this range will not be included in the calculation, speeding up the
 calculation process. If the radius is not specified, all links will be used in the calculations.
 The “From-To links” dropdown settings allows the selection of links used for interference calculations. The
@@ -3384,13 +3608,13 @@ different carriers to view the results for each one of them.
 Interference - the undesired impact of one signal on another, leading to potential signal degradation.
 Performance - assessments of key metrics like data rate, error rates, and signal-to-noise ratio, crucial for
 
-![Screenshot p182](../assets/images/ce-pro/rlp-guide/p182-img1.png)
+![Image p182](../assets/images/ce-pro/rlp-guide/p182-img1.png)
 
-![Screenshot p182](../assets/images/ce-pro/rlp-guide/p182-img2.png)
+![Image p182](../assets/images/ce-pro/rlp-guide/p182-img2.png)
 
-![Screenshot p182](../assets/images/ce-pro/rlp-guide/p182-img3.png)
+![Image p182](../assets/images/ce-pro/rlp-guide/p182-img3.png)
 
-![Screenshot p182](../assets/images/ce-pro/rlp-guide/p182-img4.png)
+![Image p182](../assets/images/ce-pro/rlp-guide/p182-img4.png)
 evaluating and optimizing a communication system's efficiency.
 
 Select different links to see these results for them.
@@ -3398,9 +3622,9 @@ Select different links to see these results for them.
 Navigate to the Interfering Links tab on the Link Prediction result dockpane.
 In this tab, you will be able to view interference Power Budget, Path Loss, Profile, and Spectrum Mask
 
-![Screenshot p183](../assets/images/ce-pro/rlp-guide/p183-img1.png)
+![Image p183](../assets/images/ce-pro/rlp-guide/p183-img1.png)
 
-![Screenshot p183](../assets/images/ce-pro/rlp-guide/p183-img2.png)
+![Image p183](../assets/images/ce-pro/rlp-guide/p183-img2.png)
 results in an unordered fashion.
 In this section, you can view Power Budget and Path Loss results. Change the selected site pair to see
 different results for each one of them
@@ -3410,9 +3634,13 @@ Path Loss - the reduction in signal strength as it travels from the transmitter 
 
 In this section, you can view Profile Plot and Spectrum Mask results. Change the selected site pair to see
 
-![Screenshot p184](../assets/images/ce-pro/rlp-guide/p184-img1.png)
+![Image p184](../assets/images/ce-pro/rlp-guide/p184-img1.png)
 
-![Screenshot p184](../assets/images/ce-pro/rlp-guide/p184-img2.png)
+![Image p184](../assets/images/ce-pro/rlp-guide/p184-img2.png)
+
+![Image p184](../assets/images/ce-pro/rlp-guide/p184-img3.png)
+
+![Image p184](../assets/images/ce-pro/rlp-guide/p184-img4.png)
 different results for each one of them
 Spectrum Mask - the method used to assess the usage efficiency of a frequency spectrum in a
 telecommunications system, involving the measurement of how much and how effectively different
@@ -3427,7 +3655,9 @@ Reflections are calculated in the same way as a regular Profile. Read more in To
 The calculation results can be automatically transferred into a Link Prediction Report. This report will
 show profile, prediction parameter and results, performance and propagation reliability. The report can be
 
-![Screenshot p185](../assets/images/ce-pro/rlp-guide/p185-img1.png)
+![Image p185](../assets/images/ce-pro/rlp-guide/p185-img1.png)
+
+![Image p185](../assets/images/ce-pro/rlp-guide/p185-img2.png)
 exported in PDF format. The Link Prediction Report can also be saved to Docs Manager by selecting Save
 result to Docs Manager.
 
@@ -3460,6 +3690,12 @@ Exclude Interference Links from Analysis Below Power
 The power threshold below which no links with lesser interference will be included in the analysis
 Tx/Rx Filter Discrimination
 The ability of filters in a duplex system to effectively separate and prevent interference between Tx and Rx
+
+![Image p186](../assets/images/ce-pro/rlp-guide/p186-img1.png)
+
+![Image p186](../assets/images/ce-pro/rlp-guide/p186-img2.png)
+
+![Image p186](../assets/images/ce-pro/rlp-guide/p186-img3.png)
 frequencies. No dBm greater than this will be accounted for in the calculation.
 
 Parameter
@@ -3481,7 +3717,9 @@ list. It accounts for inter-link interference, evaluates the signal-to-interfere
 carriers, and aims to maximize link performance while minimizing co-channel interference. The tool
 accounts for duplex link pairing, node-layer priority, and site location constraints (e.g., neighboring links and
 
-![Screenshot p187](../assets/images/ce-pro/rlp-guide/p187-img1.png)
+![Image p187](../assets/images/ce-pro/rlp-guide/p187-img1.png)
+
+![Image p187](../assets/images/ce-pro/rlp-guide/p187-img2.png)
 links sharing the same site). If automatic frequency planning is done with links created from Mesh Nodes,
 the tool avoids polarization conflicts by switching between horizontal and vertical polarizations for
 neighboring links sharing the same channel.
@@ -3493,7 +3731,11 @@ and later used in Link Prediction calculations.
 Recalculate already planned frequencies
 Where applicable, the tool respects existing channel assignments. If frequency recalculation is explicitly
 
-![Screenshot p188](../assets/images/ce-pro/rlp-guide/p188-img1.png)
+![Image p188](../assets/images/ce-pro/rlp-guide/p188-img1.png)
+
+![Image p188](../assets/images/ce-pro/rlp-guide/p188-img2.png)
+
+![Image p188](../assets/images/ce-pro/rlp-guide/p188-img3.png)
 enabled, i.e., the Recalculate already planned frequencies option is checked, the frequencies are
 reassigned for all links regardless of whether they have channel assignments.
 Run
@@ -3506,7 +3748,9 @@ Click the button to open the License Information dialogue.
 
 License information is a useful resource to see your current version of Cellular Expert for ArcGIS Pro, user
 
-![Screenshot p189](../assets/images/ce-pro/rlp-guide/p189-img1.png)
+![Image p189](../assets/images/ce-pro/rlp-guide/p189-img1.png)
+
+![Image p189](../assets/images/ce-pro/rlp-guide/p189-img2.png)
 key, currently active licenses, and their expiration dates. The license information window is also used when
 a user is enabling the CE for ArcGIS Pro extension on their computer. For more information about license
 activation see Activation.
@@ -3522,9 +3766,11 @@ when trying to figure out a problem.
 Click the button in the Help dropdown list to open the What’s New document. This document
 is updated for each new release of Cellular Expert for ArcGIS Pro, and here you will find the changelog for
 
-![Screenshot p190](../assets/images/ce-pro/rlp-guide/p190-img1.png)
+![Image p190](../assets/images/ce-pro/rlp-guide/p190-img1.png)
 
-![Screenshot p190](../assets/images/ce-pro/rlp-guide/p190-img2.png)
+![Image p190](../assets/images/ce-pro/rlp-guide/p190-img2.png)
+
+![Image p190](../assets/images/ce-pro/rlp-guide/p190-img3.png)
 the current installed version. This document serves as the introduction of added new features,
 enhancements, bug fixes, and other changes.
 
@@ -3539,7 +3785,11 @@ Click the button in the Help dropdown list to open the Error Log dialogue.
 Here you will find information about errors that have occurred during certain processes of the CE for ArcGIS
 Pro extension’s lifetime. These logs are crucial to improving the overall quality of the user experience. Thus,
 
-![Screenshot p191](../assets/images/ce-pro/rlp-guide/p191-img1.png)
+![Image p191](../assets/images/ce-pro/rlp-guide/p191-img1.png)
+
+![Image p191](../assets/images/ce-pro/rlp-guide/p191-img2.png)
+
+![Image p191](../assets/images/ce-pro/rlp-guide/p191-img3.png)
 when an error happens and you decide to contact a Cellular Expert, you will be asked to send these logs
 so that the problems you encounter can be patched as soon as possible.
 Copy

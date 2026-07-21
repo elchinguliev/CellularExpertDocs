@@ -1,5 +1,9 @@
 # 08. MW Prediction
 
+![Image p1](../../assets/images/ce-express/training-08/p001-img1.png)
+
+![Image p1](../../assets/images/ce-express/training-08/p001-img2.png)
+
 > **Version:** CE Express v7.2
 
 1. Objective
@@ -16,9 +20,7 @@ Prepared project with:
 3. Add Links
 The link objects can be imported or created manually using Add functionality. Open Add
 
-![Screenshot p2](../../assets/images/ce-express/training-08/p002-img1.png)
-
-![Screenshot p2](../../assets/images/ce-express/training-08/p002-img1.png)
+![Image p2](../../assets/images/ce-express/training-08/p002-img1.png)
 Object tool and select Link option from drop-down menu list.
 
 ---
@@ -28,9 +30,11 @@ It will fill general parameters automatically.
 Height, azimuth and other parameters are calculated automatically, leave them as it is.
 Press Show Profile button to preview topographical data between Site A and Site B, if there
 
-![Screenshot p3](../../assets/images/ce-express/training-08/p003-img1.png)
+![Image p3](../../assets/images/ce-express/training-08/p003-img1.png)
 
-![Screenshot p3](../../assets/images/ce-express/training-08/p003-img1.png)
+![Image p3](../../assets/images/ce-express/training-08/p003-img2.png)
+
+![Image p3](../../assets/images/ce-express/training-08/p003-img3.png)
 is LOS, what [Fresnel zone](#kw:fresnel-zone-clearance:ce-express-profile) percentage value, etc.
 Profile will be generated.
 
@@ -39,9 +43,9 @@ Profile will be generated.
 Close Profile windows.
 Define parameters are defined below:
 
-![Screenshot p4](../../assets/images/ce-express/training-08/p004-img1.png)
+![Image p4](../../assets/images/ce-express/training-08/p004-img1.png)
 
-![Screenshot p4](../../assets/images/ce-express/training-08/p004-img1.png)
+![Image p4](../../assets/images/ce-express/training-08/p004-img2.png)
 - Name: MW001
 - Radio Model: 2. Aurora 2400
 - Frequency Plan: 10GHz-CEPT12-05-3_5MHz-350MHz
@@ -53,14 +57,18 @@ Define parameters are defined below:
 Press Save Changes button.
 Do not close the dialog, create new links and define parameters:
 
-![Screenshot p5](../../assets/images/ce-express/training-08/p005-img1.png)
+![Image p5](../../assets/images/ce-express/training-08/p005-img1.png)
 
-![Screenshot p5](../../assets/images/ce-express/training-08/p005-img1.png)
+![Image p5](../../assets/images/ce-express/training-08/p005-img2.png)
 - Between D1 and E2
 o Name: MW002
 o SiteA: Lower
 o Radio Model: 2. Aurora 2400
 o Frequency Plan: 10GHz-CEPT12-05-3_5MHz-350MHz
+
+![Image p6](../../assets/images/ce-express/training-08/p006-img1.png)
+
+![Image p6](../../assets/images/ce-express/training-08/p006-img2.png)
 
 ---
 
@@ -83,26 +91,20 @@ The predictions are working between selected links and provides all necessary in
 about power budget, interference or availability.
 Select all links on the map and open Link Prediction tool. Before launching the predictions,
 
-![Screenshot p7](../../assets/images/ce-express/training-08/p007-img1.png)
+![Image p7](../../assets/images/ce-express/training-08/p007-img1.png)
 
-![Screenshot p7](../../assets/images/ce-express/training-08/p007-img1.png)
+![Image p7](../../assets/images/ce-express/training-08/p007-img2.png)
 enable Calculate Interference option.
 
 ---
 
 Press Run button and wait will prediction are completed and results loaded into your project.
 
-![Screenshot p8](../../assets/images/ce-express/training-08/p008-img1.png)
+![Image p8](../../assets/images/ce-express/training-08/p008-img1.png)
 
-![Screenshot p8](../../assets/images/ce-express/training-08/p008-img2.png)
+![Image p8](../../assets/images/ce-express/training-08/p008-img2.png)
 
-![Screenshot p8](../../assets/images/ce-express/training-08/p008-img3.png)
-
-![Screenshot p8](../../assets/images/ce-express/training-08/p008-img1.png)
-
-![Screenshot p8](../../assets/images/ce-express/training-08/p008-img2.png)
-
-![Screenshot p8](../../assets/images/ce-express/training-08/p008-img3.png)
+![Image p8](../../assets/images/ce-express/training-08/p008-img3.png)
 The primary results are Power Budget and Profile between Tx and Rx. On the left, select
 another link and results will be updated accordingly.
 
@@ -113,13 +115,11 @@ Click on Interference tab to display interfering links and interfered links info
 Total Interference is shown in Power Budget section.
 Interference link predictions can be previewed too. Click on Interfering Link in top left corner
 
-![Screenshot p9](../../assets/images/ce-express/training-08/p009-img1.png)
+![Image p9](../../assets/images/ce-express/training-08/p009-img1.png)
 
-![Screenshot p9](../../assets/images/ce-express/training-08/p009-img2.png)
+![Image p9](../../assets/images/ce-express/training-08/p009-img2.png)
 
-![Screenshot p9](../../assets/images/ce-express/training-08/p009-img1.png)
-
-![Screenshot p9](../../assets/images/ce-express/training-08/p009-img2.png)
+![Image p9](../../assets/images/ce-express/training-08/p009-img3.png)
 and it will display selected interfering link Power Budget, Path Loss and draw a line on the
 map.
 
@@ -128,17 +128,13 @@ map.
 Go back to Links section, select MW001 from T1 to D1, Carrier 1’H.
 Click on Interference tab, and analize Inteference From table. Link MW002, from Site: E2
 
-![Screenshot p10](../../assets/images/ce-express/training-08/p010-img1.png)
+![Image p10](../../assets/images/ce-express/training-08/p010-img1.png)
 
-![Screenshot p10](../../assets/images/ce-express/training-08/p010-img2.png)
+![Image p10](../../assets/images/ce-express/training-08/p010-img2.png)
 
-![Screenshot p10](../../assets/images/ce-express/training-08/p010-img3.png)
+![Image p10](../../assets/images/ce-express/training-08/p010-img3.png)
 
-![Screenshot p10](../../assets/images/ce-express/training-08/p010-img1.png)
-
-![Screenshot p10](../../assets/images/ce-express/training-08/p010-img2.png)
-
-![Screenshot p10](../../assets/images/ce-express/training-08/p010-img3.png)
+![Image p10](../../assets/images/ce-express/training-08/p010-img4.png)
 with Carrier 2’H interferes:
 - Interference, dBm: -100.248 dBm
 - FML, dB: 1.29E-10
@@ -166,6 +162,10 @@ propagation. Planners consider these effects to optimize link performance and ac
 temperature-related changes in their designs. Gaseous absorption, particularly by
 atmospheric water vapor and oxygen, is factored into link planning by selecting frequency
 bands less susceptible to absorption, particularly for long-distance links. Lastly, the impact
+
+![Image p11](../../assets/images/ce-express/training-08/p011-img1.png)
+
+![Image p11](../../assets/images/ce-express/training-08/p011-img2.png)
 of multipath fading is mitigated through strategies like antenna diversity and adaptive
 modulation, as well as terrain-aware antenna placement. By navigating these geoclimatic
 challenges, microwave link planners ensure robust and effective communication links in
@@ -176,13 +176,13 @@ The tool is located in CE RLP tab, Radio Links section.
 
 Run Link Predictions again. After successful calculations, leave MW001 (A-B) link selected,
 
-![Screenshot p12](../../assets/images/ce-express/training-08/p012-img1.png)
+![Image p12](../../assets/images/ce-express/training-08/p012-img1.png)
 
-![Screenshot p12](../../assets/images/ce-express/training-08/p012-img2.png)
+![Image p12](../../assets/images/ce-express/training-08/p012-img2.png)
 
-![Screenshot p12](../../assets/images/ce-express/training-08/p012-img1.png)
+![Image p12](../../assets/images/ce-express/training-08/p012-img3.png)
 
-![Screenshot p12](../../assets/images/ce-express/training-08/p012-img2.png)
+![Image p12](../../assets/images/ce-express/training-08/p012-img4.png)
 and click on Performance tab.
 Review Multipath ITU and Rain ITU percentage values.
 Close results, and open Geoclimatic Data tool.
@@ -194,9 +194,9 @@ Click on Multipath Fading tab, and define:
 Click on Rain Fading tab, and define:
 Press Save Changes. Close Geoclimatic Data tab, and run Link Predictions again. Review
 
-![Screenshot p13](../../assets/images/ce-express/training-08/p013-img1.png)
+![Image p13](../../assets/images/ce-express/training-08/p013-img1.png)
 
-![Screenshot p13](../../assets/images/ce-express/training-08/p013-img1.png)
+![Image p13](../../assets/images/ce-express/training-08/p013-img2.png)
 Performance tab calculations for MW001 (A-B) link. [Compare](#kw:98-compare-predictions:ce-pro-rcp) them with previous results.
 
 ---

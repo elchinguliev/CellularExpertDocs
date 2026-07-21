@@ -1,5 +1,17 @@
 # 02. Architecture
 
+![Screenshot p1](../../assets/images/ce-pro/training-02/p001-img1.png)
+
+![Screenshot p1](../../assets/images/ce-pro/training-02/p001-img2.png)
+
+![Screenshot p1](../../assets/images/ce-pro/training-02/p001-img3.png)
+
+![Screenshot p1](../../assets/images/ce-pro/training-02/p001-img1.png)
+
+![Screenshot p1](../../assets/images/ce-pro/training-02/p001-img2.png)
+
+![Screenshot p1](../../assets/images/ce-pro/training-02/p001-img3.png)
+
 > **Version:** CE Pro v4.9
 
 CE Products and Solutions
@@ -8,7 +20,27 @@ For ArcGIS Pro For ArcGIS Enterprise
 - Desktop, Single Use Radio Planning system • Web-based Radio Planning system
 - Wireless planning tools, together with • Server-based, Multi User system
 ArcGIS Pro functionality • Includes CE Inventory3D
+
+![Screenshot p2](../../assets/images/ce-pro/training-02/p002-img1.png)
+
+![Screenshot p2](../../assets/images/ce-pro/training-02/p002-img2.png)
+
+![Screenshot p2](../../assets/images/ce-pro/training-02/p002-img3.png)
+
+![Screenshot p2](../../assets/images/ce-pro/training-02/p002-img4.png)
+
+
+![Screenshot p3](../../assets/images/ce-pro/training-02/p003-img1.png)
+![Screenshot p2](../../assets/images/ce-pro/training-02/p002-img1.png)
+
+![Screenshot p2](../../assets/images/ce-pro/training-02/p002-img2.png)
+
+![Screenshot p2](../../assets/images/ce-pro/training-02/p002-img3.png)
+
+![Screenshot p2](../../assets/images/ce-pro/training-02/p002-img4.png)
 - Can be used as a client of CE Express system • Dashboard of Network Coverage Statistics
+
+![Screenshot p3](../../assets/images/ce-pro/training-02/p003-img1.png)
 CE Customized solutions
 ArcGIS CE COTS
 
@@ -34,6 +66,10 @@ Additional extensions are not
 required
 Local Database All files are saved in local disk
 
+![Screenshot p4](../../assets/images/ce-pro/training-02/p004-img1.png)
+
+![Screenshot p4](../../assets/images/ce-pro/training-02/p004-img1.png)
+
 ---
 
 Cellular Expert for ArcGIS Pro
@@ -45,6 +81,14 @@ License Structure
 ---
 
 Geospatial Information
+
+![Screenshot p6](../../assets/images/ce-pro/training-02/p006-img1.png)
+
+![Screenshot p6](../../assets/images/ce-pro/training-02/p006-img2.png)
+
+![Screenshot p6](../../assets/images/ce-pro/training-02/p006-img1.png)
+
+![Screenshot p6](../../assets/images/ce-pro/training-02/p006-img2.png)
 ✓ Field measurements
 ✓ Network coverage
 ✓ Network data
@@ -59,9 +103,21 @@ Geospatial Information
 Project files
 Project > Save Project/Save Project As
 
+![Screenshot p7](../../assets/images/ce-pro/training-02/p007-img1.png)
+
+![Screenshot p7](../../assets/images/ce-pro/training-02/p007-img2.png)
+
+![Screenshot p7](../../assets/images/ce-pro/training-02/p007-img1.png)
+
+![Screenshot p7](../../assets/images/ce-pro/training-02/p007-img2.png)
+
 ---
 
 Cellular Expert Project Structure
+
+![Screenshot p8](../../assets/images/ce-pro/training-02/p008-img1.png)
+
+![Screenshot p8](../../assets/images/ce-pro/training-02/p008-img1.png)
 - Predictions
 - Results
 - SystemFiles
@@ -74,6 +130,10 @@ Cellular Expert Project Structure
 
 Workspace database files
 
+![Screenshot p9](../../assets/images/ce-pro/training-02/p009-img1.png)
+
+![Screenshot p9](../../assets/images/ce-pro/training-02/p009-img1.png)
+
 ---
 
 Environment
@@ -85,9 +145,45 @@ Environment
 
 Cellular Expert Workspace
 
+![Screenshot p10](../../assets/images/ce-pro/training-02/p010-img1.png)
+
+
+![Screenshot p11](../../assets/images/ce-pro/training-02/p011-img1.png)
+![Screenshot p10](../../assets/images/ce-pro/training-02/p010-img1.png)
+
+![Screenshot p14](../../assets/images/ce-pro/training-02/p014-img1.png)
+
+![Screenshot p14](../../assets/images/ce-pro/training-02/p014-img2.png)
+
+
+![Screenshot p15](../../assets/images/ce-pro/training-02/p015-img1.png)
+
+![Screenshot p15](../../assets/images/ce-pro/training-02/p015-img2.png)
+
+![Screenshot p15](../../assets/images/ce-pro/training-02/p015-img3.png)
+
+
+![Screenshot p16](../../assets/images/ce-pro/training-02/p016-img1.png)
+
+![Screenshot p16](../../assets/images/ce-pro/training-02/p016-img2.png)
+![Screenshot p11](../../assets/images/ce-pro/training-02/p011-img1.png)
 ---
 
+![Screenshot p14](../../assets/images/ce-pro/training-02/p014-img1.png)
+
+![Screenshot p14](../../assets/images/ce-pro/training-02/p014-img2.png)
+
+
+![Screenshot p15](../../assets/images/ce-pro/training-02/p015-img1.png)
+
+![Screenshot p15](../../assets/images/ce-pro/training-02/p015-img2.png)
+
+![Screenshot p15](../../assets/images/ce-pro/training-02/p015-img3.png)
 Inside Workspace
+
+![Screenshot p16](../../assets/images/ce-pro/training-02/p016-img1.png)
+
+![Screenshot p16](../../assets/images/ce-pro/training-02/p016-img2.png)
 ➢ Network Data
 ➢ Equipment Data
 ➢ Modelling Settings
@@ -162,6 +258,34 @@ Recommendation ITU-R P.526 (ref URL) as well as clutter losses based on Rec. ITU
 
 CE prediction models
 
+![Screenshot p18](../../assets/images/ce-pro/training-02/p018-img1.png)
+
+![Screenshot p18](../../assets/images/ce-pro/training-02/p018-img2.png)
+
+
+![Screenshot p19](../../assets/images/ce-pro/training-02/p019-img1.png)
+
+![Screenshot p19](../../assets/images/ce-pro/training-02/p019-img2.png)
+
+![Screenshot p19](../../assets/images/ce-pro/training-02/p019-img3.png)
+
+![Screenshot p19](../../assets/images/ce-pro/training-02/p019-img4.png)
+
+![Screenshot p19](../../assets/images/ce-pro/training-02/p019-img5.png)
+![Screenshot p18](../../assets/images/ce-pro/training-02/p018-img1.png)
+
+![Screenshot p18](../../assets/images/ce-pro/training-02/p018-img2.png)
+
+
+![Screenshot p19](../../assets/images/ce-pro/training-02/p019-img1.png)
+
+![Screenshot p19](../../assets/images/ce-pro/training-02/p019-img2.png)
+
+![Screenshot p19](../../assets/images/ce-pro/training-02/p019-img3.png)
+
+![Screenshot p19](../../assets/images/ce-pro/training-02/p019-img4.png)
+
+![Screenshot p19](../../assets/images/ce-pro/training-02/p019-img5.png)
 ---
 
 Other

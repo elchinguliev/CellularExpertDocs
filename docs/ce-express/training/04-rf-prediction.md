@@ -72,9 +72,21 @@ o Hold Ctrl
 o Click on Cx002
 The tool automatically reads coordinates and key parameters from the snapped cell.
 
+![Screenshot p4](../../assets/images/ce-express/training-04/p004-img1.png)
+
+![Screenshot p4](../../assets/images/ce-express/training-04/p004-img1.png)
+
 ---
 
 4. Once parameters are populated, the calculation runs and results appear on the map.
+
+![Screenshot p5](../../assets/images/ce-express/training-04/p005-img1.png)
+
+![Screenshot p5](../../assets/images/ce-express/training-04/p005-img2.png)
+
+![Screenshot p5](../../assets/images/ce-express/training-04/p005-img1.png)
+
+![Screenshot p5](../../assets/images/ce-express/training-04/p005-img2.png)
 
 ---
 
@@ -86,6 +98,10 @@ This confirms the result is loaded and available for review.
 1. In the [Quick Prediction](#kw:quick-rf-prediction:ce-express-rf-prediction) tool, change Resolution from 10 to 5.
 2. The result updates automatically.
 Important behavior: By default, new results may replace/close previous results.
+
+![Screenshot p6](../../assets/images/ce-express/training-04/p006-img1.png)
+
+![Screenshot p6](../../assets/images/ce-express/training-04/p006-img1.png)
 3. Disable Close previous results to keep multiple variants for comparison.
 4.2.4 Run a Variant Prediction by Changing a Parameter (Azimuth Example)
 1. Change Azimuth from 160 to 90.
@@ -174,6 +190,10 @@ These parameters define how the environment is considered:
 - Model radius
 - Environmental assumptions
 They ensure calculations are aligned with the intended level of detail and scenario scope.
+
+![Screenshot p10](../../assets/images/ce-express/training-04/p010-img1.png)
+
+![Screenshot p10](../../assets/images/ce-express/training-04/p010-img1.png)
 4.3.2 Reviewing Parameters in the RF Prediction Tool
 1. Select Cx002 on the map.
 2. Open the RF Prediction tool.
@@ -196,6 +216,10 @@ All RF Predictions are tracked in [Prediction History](#kw:44-step-4-prediction-
 3. Review status and available results.
 4.4.1 Open a Result on the Map
 1. In Prediction History, find 5G 1800 Field Strength 1, dBm.
+
+![Screenshot p11](../../assets/images/ce-express/training-04/p011-img1.png)
+
+![Screenshot p11](../../assets/images/ce-express/training-04/p011-img1.png)
 2. Click Open.
 The raster is loaded on the map.
 
@@ -204,6 +228,10 @@ The raster is loaded on the map.
 ## 4.5 Step 5 – Visualizing Results and Creating Symbology Presets
 
 Visualization is a critical part of working with RF prediction results. While calculations produce
+
+![Screenshot p12](../../assets/images/ce-express/training-04/p012-img1.png)
+
+![Screenshot p12](../../assets/images/ce-express/training-04/p012-img1.png)
 numerical values, symbology determines how those values are translated into an
 understandable visual map. Well-designed visualization allows users to quickly interpret
 results, identify patterns, compare scenarios, and communicate findings clearly.
@@ -233,6 +261,10 @@ Adjusting thresholds allows users to:
 - Align visualization with internal guidelines or requirements
 - Highlight areas of interest or concern
 Threshold values can be edited directly, and new ranges can be added or removed as
+
+![Screenshot p13](../../assets/images/ce-express/training-04/p013-img1.png)
+
+![Screenshot p13](../../assets/images/ce-express/training-04/p013-img1.png)
 needed.
 Define new colors and thresholds based on the picture below.
 
@@ -298,6 +330,10 @@ Color indicators highlight visibility conditions along the path:
 - Clear sections indicate unobstructed paths
 - Obstructed sections show where terrain or structures block or reduce visibility
 This visual explanation clarifies why signal levels decrease in the selected area.
+
+![Screenshot p16](../../assets/images/ce-express/training-04/p016-img1.png)
+
+![Screenshot p16](../../assets/images/ce-express/training-04/p016-img1.png)
 Close [Profile tool](#kw:when-to-use-the-profile-tool:ce-express-profile) (click on [Profile tool](#kw:when-to-use-the-profile-tool:ce-express-profile)).
 Remove prediction results.
 
@@ -330,6 +366,10 @@ ensure correct results.
 
 3. Click Calculate.
 The system creates a single prediction task that includes all selected cells.
+
+![Screenshot p18](../../assets/images/ce-express/training-04/p018-img1.png)
+
+![Screenshot p18](../../assets/images/ce-express/training-04/p018-img1.png)
 4.7.4 Monitoring Calculation Progress
 1. Open Prediction History.
 2. Locate the newly created prediction task.
@@ -341,6 +381,10 @@ Prediction History displays:
 ---
 
 This allows users to monitor long or complex calculations without keeping the prediction tool
+
+![Screenshot p19](../../assets/images/ce-express/training-04/p019-img1.png)
+
+![Screenshot p19](../../assets/images/ce-express/training-04/p019-img1.png)
 open.
 4.7.5 Loading and Reviewing Multi-Cell Results
 Once the calculation is finished:
@@ -362,6 +406,10 @@ Using the same symbology preset ensures:
 ## 4.8 Step 8 – Throughput Predictions and Symbology
 
 1. In Prediction History, open 5G 1800 Throughput, Mbps.
+
+![Screenshot p20](../../assets/images/ce-express/training-04/p020-img1.png)
+
+![Screenshot p20](../../assets/images/ce-express/training-04/p020-img1.png)
 2. Review default symbology.
 
 ---
@@ -372,6 +420,14 @@ Using the same symbology preset ensures:
 ## 4.9 Step 9 – Editing Object Data and Re-Running Predictions
 
 To observe how configuration changes affect outputs, update key cell parameters, then re-
+
+![Screenshot p21](../../assets/images/ce-express/training-04/p021-img1.png)
+
+![Screenshot p21](../../assets/images/ce-express/training-04/p021-img2.png)
+
+![Screenshot p21](../../assets/images/ce-express/training-04/p021-img1.png)
+
+![Screenshot p21](../../assets/images/ce-express/training-04/p021-img2.png)
 run predictions.
 4.9.1 Edit Cell Parameters in the Attribute Table
 1. Open Features tool.
@@ -398,6 +454,14 @@ Active antenna effect 0
 2. Compare it with the previous throughput result.
 3. Use the [Identify tool](#kw:310-step-10-using-the-identify-tool:ce-express-tr-workspace) to inspect values at the same locations.
 This helps quantify changes rather than relying only on color differences.
+
+![Screenshot p23](../../assets/images/ce-express/training-04/p023-img1.png)
+
+![Screenshot p23](../../assets/images/ce-express/training-04/p023-img2.png)
+
+![Screenshot p23](../../assets/images/ce-express/training-04/p023-img1.png)
+
+![Screenshot p23](../../assets/images/ce-express/training-04/p023-img2.png)
 4. Close all results when finished.
 
 ---
@@ -432,6 +496,14 @@ Using Networks helps to:
 
 2. Click + New Network.
 3. Define network parameters as shown in the training reference.
+
+![Screenshot p25](../../assets/images/ce-express/training-04/p025-img1.png)
+
+![Screenshot p25](../../assets/images/ce-express/training-04/p025-img2.png)
+
+![Screenshot p25](../../assets/images/ce-express/training-04/p025-img1.png)
+
+![Screenshot p25](../../assets/images/ce-express/training-04/p025-img2.png)
 Typical configuration elements include:
 - Feature type: Cells
 - Attribute filter (technology)
@@ -450,6 +522,10 @@ Expanding the network shows:
 - Number of objects without results
 - Available [prediction outputs](#kw:prediction-outputs:ce-express-rf-prediction)
 These indicators help users quickly understand whether further action is required.
+
+![Screenshot p26](../../assets/images/ce-express/training-04/p026-img1.png)
+
+![Screenshot p26](../../assets/images/ce-express/training-04/p026-img1.png)
 4.10.4 Why Networks May Require Recalculation
 A network will require recalculation when:
 - Object parameters are modified
@@ -481,14 +557,46 @@ Network status changes:
 - Green = calculated
 A task is also created in Prediction History.
 
+![Screenshot p28](../../assets/images/ce-express/training-04/p028-img1.png)
+
+![Screenshot p28](../../assets/images/ce-express/training-04/p028-img2.png)
+
+![Screenshot p28](../../assets/images/ce-express/training-04/p028-img1.png)
+
+![Screenshot p28](../../assets/images/ce-express/training-04/p028-img2.png)
+
 ---
 
 5.1.1 Review Network Results Structure
 When finished, open the network results list.
 
+![Screenshot p29](../../assets/images/ce-express/training-04/p029-img1.png)
+
+![Screenshot p29](../../assets/images/ce-express/training-04/p029-img2.png)
+
+![Screenshot p29](../../assets/images/ce-express/training-04/p029-img1.png)
+
+![Screenshot p29](../../assets/images/ce-express/training-04/p029-img2.png)
+
 ---
 
 You may see multiple Field Strength results. This often indicates that the network contains
+
+![Screenshot p30](../../assets/images/ce-express/training-04/p030-img1.png)
+
+![Screenshot p30](../../assets/images/ce-express/training-04/p030-img2.png)
+
+![Screenshot p30](../../assets/images/ce-express/training-04/p030-img3.png)
+
+![Screenshot p30](../../assets/images/ce-express/training-04/p030-img4.png)
+
+![Screenshot p30](../../assets/images/ce-express/training-04/p030-img1.png)
+
+![Screenshot p30](../../assets/images/ce-express/training-04/p030-img2.png)
+
+![Screenshot p30](../../assets/images/ce-express/training-04/p030-img3.png)
+
+![Screenshot p30](../../assets/images/ce-express/training-04/p030-img4.png)
 multiple frequency groups, and CE Express splits calculations by group automatically.
 Example frequency groups:
 - 1800

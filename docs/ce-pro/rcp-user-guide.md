@@ -186,6 +186,8 @@ at support@cellular-expert.com. For more information, see the chapter Technical 
 
 ### 4.3 Tools
 The Cellular Expert tools are in the Cellular Expert add-on. They appear automatically after installation of
+
+![Screenshot p11](../assets/images/ce-pro/rcp-guide/p011-img1.png)
 CE for ArcGIS Pro and will be found in the menu ribbon.
 There are 5 types of licenses and therefore 5 different tabs with various tool configurations:
 • RCP
@@ -206,6 +208,8 @@ Source: https://livingatlas.arcgis.com/landcoverexplorer/
 By leveraging whatever data is available locally, CE Express performs nationwide calculations at the
 maximum feasible resolution, accurately modeling signal propagation even in dense urban environments.
 Support for 3D multi-height calculations ensures that coverage predictions reflect street-level, indoor, and
+
+![Screenshot p13](../assets/images/ce-pro/rcp-guide/p013-img1.png)
 rooftop conditions, providing regulators with a realistic representation of service availability.
 This flexibility ensures that NRAs can use their existing GIS assets, open datasets, or commercial data they
 already license, turning them into actionable broadband maps without additional data procurement
@@ -249,12 +253,16 @@ propagation pattern, including building-level shadowing and accurate street-by-s
 More information: https://blog.maxar.com/earth-intelligence/2022/benefits-of-using-maxars-precision3d-
 telco-suite-for-5g
 Cellular Expert can easily integrate and process 1 m or even sub-meter topographical data, providing highly
+
+![Screenshot p14](../assets/images/ce-pro/rcp-guide/p014-img1.png)
 detailed RF calculations. This level of precision is essential for:
 • Modeling 2G/3G/4G/5G, small cells and mmWave networks.
 • Identifying exact coverage gaps at the building and street level.
 
 • Supporting regulatory-grade broadband mapping and planning.
 By using high-resolution terrain and clutter data, Cellular Expert ensures that its calculations match real-
+
+![Screenshot p15](../assets/images/ce-pro/rcp-guide/p015-img1.png)
 world conditions as closely as possible — resulting in better network design decisions and more reliable
 broadband planning outcomes.
 
@@ -281,10 +289,18 @@ The Digital Terrain Model (DTM) has several requirements, which are listed below
 Projection
 The raster must use a Projected Coordinate System. To check the coordinate system of your raster, use
 the Properties function in ArcGIS Pro. Add the raster to your project, right-click on it, and select Properties.
+
+![Screenshot p16](../assets/images/ce-pro/rcp-guide/p016-img1.png)
+
+![Screenshot p16](../assets/images/ce-pro/rcp-guide/p016-img2.png)
 Then, go to the Source tab > Spatial Reference and check the Coordinate System type parameter to confirm
 it is in a Projected Coordinate System.
 
 If your raster is in a Geographic Coordinate System or needs a different projection, use the Geoprocessing
+
+![Screenshot p17](../assets/images/ce-pro/rcp-guide/p017-img1.png)
+
+![Screenshot p17](../assets/images/ce-pro/rcp-guide/p017-img2.png)
 > Project Raster tool to update it.
 In the Output Coordinate System, specify a new coordinate system. It is recommended to use a UTM
 coordinate system under the WGS 1984 projection.
@@ -293,6 +309,8 @@ https://www.arcgis.com/apps/mapviewer/index.html?layers=b294795270aa4fb3bd25286b
 
 Correct No Data value and raster name
 After setting the correct projection, assign the NoData attribute and specify the appropriate name for the
+
+![Screenshot p18](../assets/images/ce-pro/rcp-guide/p018-img1.png)
 DTM raster. To do this, use the Copy Raster tool in Geoprocessing.
 Configure the following settings:
 • Input Raster: Select your newly projected DTM raster.
@@ -304,6 +322,10 @@ Configure the following settings:
 #### 5.1.2 Clutter classes grid
 Land use or clutter refers to the classification of the earth’s surface into categories such as urban, suburban,
 rural, forest, water, and open land, each of which affects radio propagation differently. Clutter data is crucial
+
+![Screenshot p19](../assets/images/ce-pro/rcp-guide/p019-img1.png)
+
+![Screenshot p19](../assets/images/ce-pro/rcp-guide/p019-img2.png)
 because it determines how signals are absorbed, reflected, or diffracted by the environment, directly
 influencing coverage, interference, and quality of service. The naming and classification of land use types
 may vary. An example is the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2
@@ -314,9 +336,17 @@ created, a default clutter class table is automatically applied for each land us
 Table:
 These are standard clutter types in the default workspace database, which cannot be edited. You must
 map your clutter raster to these predefined clutter types. Standard mapping has already been configured
+
+![Screenshot p20](../assets/images/ce-pro/rcp-guide/p020-img1.png)
+
+![Screenshot p20](../assets/images/ce-pro/rcp-guide/p020-img2.png)
 for the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2 Land Cover
 
 If you have a different clutter class layer, it can be used for predictions by remapping it using the Clutter
+
+![Screenshot p21](../assets/images/ce-pro/rcp-guide/p021-img1.png)
+
+![Screenshot p21](../assets/images/ce-pro/rcp-guide/p021-img2.png)
 Classes tool and specifying the IDs in the geodata raster parameter. If multiple clutter classes correspond
 to a single default clutter type, separate the ID values with commas.
 This mapping can also be adjusted in the Clutter table.
@@ -328,6 +358,10 @@ prediction model.
 The Clutter Raster has several requirements, which are the same as for DTM raster listed above.
 Projection
 It must have the same coordinate system as your elevation.tif raster. If your raster has different coordinate
+
+![Screenshot p22](../assets/images/ce-pro/rcp-guide/p022-img1.png)
+
+![Screenshot p22](../assets/images/ce-pro/rcp-guide/p022-img2.png)
 system, then use the Geoprocessing tool → Project Raster to fix it.
 In the Output Coordinate System you would need to define the same coordinate system as your elevation.tif
 raster. Click on Select Coordinate System button.
@@ -335,6 +369,10 @@ And choose the same coordinate system as your elevation.tif.
 
 Correct No Data value and raster name
 After setting the correct projection, assign the NoData attribute and specify the appropriate name for the
+
+![Screenshot p23](../assets/images/ce-pro/rcp-guide/p023-img1.png)
+
+![Screenshot p23](../assets/images/ce-pro/rcp-guide/p023-img2.png)
 Clutter Class raster. To do this, use the Copy Raster tool in Geoprocessing.
 Configure the following settings:
 • Input Raster: Select your newly projected Clutter Class raster.
@@ -348,6 +386,10 @@ Represents actual clutter heights, which override the default heights specified 
 clutter heights raster requires the accompanying clutterClasses.tif raster and cannot be used
 independently.
 A clutter height raster can be derived from a Digital Surface Model (DSM) raster and a Digital Terrain Model
+
+![Screenshot p24](../assets/images/ce-pro/rcp-guide/p024-img1.png)
+
+![Screenshot p24](../assets/images/ce-pro/rcp-guide/p024-img2.png)
 (DTM) raster using the ArcGIS Raster Calculator tool. To access this tool, open Geoprocessing tools and
 navigate to Spatial Analyst > Map Algebra > Raster Calculator. Use the following formula:
 DSM – DTM
@@ -358,6 +400,8 @@ heights.
 The Clutter Height has several requirements, which are the same as for DTM raster listed above.
 Projection
 It must have the same coordinate system as your elevation.tif raster. If your raster has different coordinate
+
+![Screenshot p25](../assets/images/ce-pro/rcp-guide/p025-img1.png)
 system, then use the Geoprocessing tool → Project Raster to fix it.
 
 In the Output Coordinate System you would need to define the same coordinate system as your elevation.tif
@@ -365,17 +409,27 @@ raster. Click on Select Coordinate System button.
 And choose the same coordinate system as your elevation.tif.
 Correct No Data value and raster name
 After setting the correct projection, assign the NoData attribute and specify the appropriate name for the
+
+![Screenshot p26](../assets/images/ce-pro/rcp-guide/p026-img1.png)
+
+![Screenshot p26](../assets/images/ce-pro/rcp-guide/p026-img2.png)
 Clutter Height raster. To do this, use the Copy Raster tool in Geoprocessing.
 
 Configure the following settings:
 • Input Raster: Select your newly projected Clutter Height raster.
 • Output Raster Dataset: Specify the output location and set the raster name to clutterHeight.tif.
+
+![Screenshot p27](../assets/images/ce-pro/rcp-guide/p027-img1.png)
+
+![Screenshot p27](../assets/images/ce-pro/rcp-guide/p027-img2.png)
 • NoData Value: Enter -9999.
 • Pixel Type: Choose 32-bit signed or 32-bit float.
 • Format: This will automatically be set to TIFF.
 
 #### 5.1.4 Buildings
 Building features within the Clutter Classes raster are automatically identified and categorized using a range
+
+![Screenshot p28](../assets/images/ce-pro/rcp-guide/p028-img1.png)
 of dedicated building-specific clutter types. These clutter types are available within the Clutter Classes
 tool and are specifically designed to represent different architectural materials and structural
 characteristics.
@@ -391,6 +445,10 @@ you to enrich the clutter map with accurate building representations – essenti
 modeling.
 
 If your building data is in vector format (e.g., polygons), you’ll first need to convert it to raster before
+
+![Screenshot p29](../assets/images/ce-pro/rcp-guide/p029-img1.png)
+
+![Screenshot p29](../assets/images/ce-pro/rcp-guide/p029-img2.png)
 incorporating it into the Clutter Classes layer.
 
 1. Convert Vector to Raster
@@ -420,10 +478,16 @@ All propagation and prediction calculations reference clutter types defined in t
 Each building-related clutter class is assigned a unique ID value, which is used during modeling to apply
 the appropriate path loss parameters for solid structures.
 This ensures that Buildings are accurately represented in simulations, contributing to more realistic signal
+
+![Screenshot p30](../assets/images/ce-pro/rcp-guide/p030-img1.png)
 behavior in both indoor and outdoor environments.
 
 Building Height Determination in Clutter-Based Modeling
 Pixels assigned to a building clutter class ID will be automatically recognized as solid obstacle during
+
+![Screenshot p31](../assets/images/ce-pro/rcp-guide/p031-img1.png)
+
+![Screenshot p31](../assets/images/ce-pro/rcp-guide/p031-img2.png)
 prediction calculations. Their heights are determined using the following priority:
 • Option 1: From the associated Clutter Height raster, if available. This provides the most accurate,
 location-specific height information.
@@ -440,6 +504,8 @@ This chapter describes the Cellular Expert workspace functionality.
 #### 6.1.1 Workspace Table
 Cellular Expert workspace is a geodatabase containing data tables, feature datasets, and the workspace
 definition table. After creating a new workspace database, the workspace definition table will be named
+
+![Screenshot p32](../assets/images/ce-pro/rcp-guide/p032-img1.png)
 CE_WORKSPACE and contain the information about the dataset.
 
 Data field types and values:
@@ -453,6 +519,8 @@ the workspace parameters by referencing the new paths to properly load the proje
 • Calculation Path – path for temporary calculations
 • Calculation Tasks Data Path – path for saving calculation tasks
 • Geodata Folder Path – path for geodata (prediction models do not have geodata options, topographical
+
+![Screenshot p33](../assets/images/ce-pro/rcp-guide/p033-img1.png)
 data are taken from the Geodata Folder Path)
 • Result Path – path for final results
 Workspace calculation paths and settings can be previewed in the dedicated tool, navigate to Workspace
@@ -482,11 +550,17 @@ grid. This means that this coordinate system will be assigned to your project fe
 When creating a new workspace using geodata containing clutter classes raster, default class IDs can now
 be set by clicking Set Default Clutter Class IDs button. The default ID values are based on Living Atlas
 clutter. Clutter class IDs can also be set manually, either before or after the default values are set. To initiate
+
+![Screenshot p35](../assets/images/ce-pro/rcp-guide/p035-img1.png)
+
+![Screenshot p35](../assets/images/ce-pro/rcp-guide/p035-img2.png)
 the manual editing of clutter class IDs, click the Manually Set Clutter Class IDs button. Each clutter class
 can be edited to designate its used and unused types, also indicated by their distinct colors.
 
 Several messages related to Geodata:
 • If only Elevation exists in Geodata catalog, then tool will be filled with such information:
+
+![Screenshot p36](../assets/images/ce-pro/rcp-guide/p036-img1.png)
 Clutter Classes and Clutter Height are optional.
 • If coordinates mismatch between elevation and clutter, then it will provide this message:
 Please close Workspace Create tool and fix your geodata. You can use Geoprocessing tools,
@@ -499,6 +573,10 @@ Use the option to create a second scene for 3D visualization.
 Cellular Expert layer and geodata will be added to the project.
 
 Workspace geodatabase and required folders will be created within successful workspace creation
+
+![Screenshot p37](../assets/images/ce-pro/rcp-guide/p037-img1.png)
+
+![Screenshot p37](../assets/images/ce-pro/rcp-guide/p037-img2.png)
 procedure.
 
 The Project Paths will be filled in the Workspace Properties → Properties tab.
@@ -520,6 +598,8 @@ Workspace Upgrade is a tool that enables the user to update missing tables from 
 (default.gdb). If the table exists, Workspace Upgrade also checks if all default fields are present in that
 table. If the tables are toggled, they will be updated (upgraded) by the tool.
 Usually, with new versions of CE for ArcGIS Pro come changes to default data tables. This tool is especially
+
+![Screenshot p39](../assets/images/ce-pro/rcp-guide/p039-img1.png)
 useful when checking if the newest version tables correspond to the current project tables.
 Workspace Upgrade automatically checks all these parameters and notifies the user upon the start-up of
 the project.
@@ -535,10 +615,14 @@ Manually checks if the default tables and their fields exist in the project.
 Upgrade Database
 Creates the missing tables and/or creates/adds back the missing fields from default tables.
 If a project with incompatible geodata is loaded, the Workspace Upgrade tool analyzes the current geodata,
+
+![Screenshot p40](../assets/images/ce-pro/rcp-guide/p040-img1.png)
 as well as the owned user Esri Extension licenses to offer the optimal geodata upgrade path. This process
 is one-time only, and can be done by checking the Upgrade Geodata toggle.
 
 • If only elevation and buildingHeight rasters exist, the buildingHeight can automatically be renamed
+
+![Screenshot p41](../assets/images/ce-pro/rcp-guide/p041-img1.png)
 to clutterHeight.
 • (Image Analyst and Spatial Analyst licenses only) If elevation, buildingHeight and clutterHeight
 rasters exist, raster calculations are performed to merge the buildingHeight and clutterHeight
@@ -554,6 +638,8 @@ To open the Workspace Properties dialogue, click on the Workspace menu icon and 
 
 6.1.6.1 Parameters
 All information from the “CE_WORKSPACE” table is represented in the Parameters tab of the Workspace
+
+![Screenshot p42](../assets/images/ce-pro/rcp-guide/p042-img1.png)
 Properties.
 OK
 Click this button to save any changes and close the dialogue.
@@ -622,6 +708,8 @@ The rounding value for different parameters.
 
 6.1.6.2 Visualization
 The Cellular Expert network objects (Sites, Cells, OMEN) and calculation result rasters are represented in
+
+![Screenshot p45](../assets/images/ce-pro/rcp-guide/p045-img1.png)
 ArcGIS with the symbology as defined in the .lyr files, located in the Visualization tab (“CE_LAYERS”
 table).
 
@@ -677,6 +765,8 @@ When you use layer files for visualization, do not forget about them. Remember t
 workspace to another location, the location path settings can become incorrect. If Cellular Expert is not able
 to find your defined symbology file, it will use the default file from the location .../Cellular Expert/Layers.
 
+![Screenshot p47](../assets/images/ce-pro/rcp-guide/p047-img1.png)
+
 ### 6.2 Docs Manager
 Docs Manager is a tool for managing Saved Profiles between the transmitter (Tx) and receiver (Rx), which
 are generated in the Profile tool, as well as saved Link Prediction results, Profile Reports, and Link
@@ -698,10 +788,18 @@ Additional Functions
 • Delete: Removes the selected profile.
 • Close: Closes the Docs Manager dialog.
 By using Docs Manager, users can efficiently store and retrieve profiles, ensuring consistency and accuracy
+
+![Screenshot p48](../assets/images/ce-pro/rcp-guide/p048-img1.png)
+
+![Screenshot p48](../assets/images/ce-pro/rcp-guide/p048-img2.png)
 in their Tx and Rx calculations.
 
 How to Open a Link Prediction
 A saved Link Prediction, just like Profile, can be accessed either by double-clicking the desired Link
+
+![Screenshot p49](../assets/images/ce-pro/rcp-guide/p049-img1.png)
+
+![Screenshot p49](../assets/images/ce-pro/rcp-guide/p049-img2.png)
 Prediction result, or by select it and clicking Open.
 How to Save a Link Prediction
 Link Prediction result can be saved to Docs Manager by selecting Save result to Docs Manager in the
@@ -709,6 +807,10 @@ Link Prediction tool.
 
 How to Open a Profile Report
 A Profile Report document can be accessed either by double-clicking the desired Profile Report, or by select
+
+![Screenshot p50](../assets/images/ce-pro/rcp-guide/p050-img1.png)
+
+![Screenshot p50](../assets/images/ce-pro/rcp-guide/p050-img2.png)
 it and clicking Open. The document will be opened using your default PDF document reader.
 How to Save a Profile Report
 Profile Report of the current drawn profile can be saved to Docs Manager by selecting Save result to Docs
@@ -716,6 +818,10 @@ Manager in the Export tab of the Profile tool.
 
 How to Open a Link Prediction Report
 A Link Prediction Report document can be accessed either by double-clicking the desired Link Prediction
+
+![Screenshot p51](../assets/images/ce-pro/rcp-guide/p051-img1.png)
+
+![Screenshot p51](../assets/images/ce-pro/rcp-guide/p051-img2.png)
 Report, or by select it and clicking Open. The document will be opened using your default PDF document
 reader.
 How to Save a Link Prediction Report
@@ -734,6 +840,8 @@ Click the button and select the Properties tab to open the CE Express Connection
 To connect to CE Server Express and get the list of workspaces, insert the Server URL in the corresponding
 field. Then press the Get Workspaces button.
 If you select one of the appearing workspaces, the properties of that workspace will be saved to your current
+
+![Screenshot p52](../assets/images/ce-pro/rcp-guide/p052-img1.png)
 ArcGIS Pro project automatically.
 
 Server URL
@@ -748,6 +856,8 @@ The list of all workspaces was retrieved from the CE Express Database.
 Get Workspaces
 Establishes the connection between the provided Server URL and CE for ArcGIS Pro. Upon clicking the
 button, the user may be redirected to a browser window in which he will have to log in to the ArcGIS Portal.
+
+![Screenshot p53](../assets/images/ce-pro/rcp-guide/p053-img1.png)
 After doing so, the workspaces will be retrieved.
 Import Features
 Imports the retrieved objects to the currently opened CE workspace.
@@ -784,6 +894,10 @@ New network objects can be created in several ways. They can be:
 #### 7.2.1 Add Cell
 The object represents both physical parameters (e.g., height, antenna, azimuth) and logical parameters
 (e.g., bandwidth, frequency, technology). Essentially, it is similar to a Sector object but is referred to as a
+
+![Screenshot p55](../assets/images/ce-pro/rcp-guide/p055-img1.png)
+
+![Screenshot p55](../assets/images/ce-pro/rcp-guide/p055-img2.png)
 Cell and includes additional details about cell-specific parameters. This object serves as the primary
 element for performing coverage predictions and supports various technologies, including 2G, 3G, 4G, 5G,
 and WiFi. It is also utilized in critical networks like TETRA, APCO, P-25, and military applications to model
@@ -797,6 +911,10 @@ Cell objects are used for prediction calculations.
 1. Left-clicking on the map will define the location of the object. To define its direction, left-click a
 second time in your preferred direction.
 Add Object > Cell dialog will be filled with coordinates and parameters from default template, and azimuth
+
+![Screenshot p56](../assets/images/ce-pro/rcp-guide/p056-img1.png)
+
+![Screenshot p56](../assets/images/ce-pro/rcp-guide/p056-img2.png)
 value based on defined direction on the map.
 The Cell object can be created by entering exact coordinates in:
 • Latitude (degrees) and Longitude (degrees) section.
@@ -805,6 +923,8 @@ The Cell object can be created by entering exact coordinates in:
 • X and Y (projected coordinate system)
 
 2. The parameters can be changed at once by using different templates, which are available within
+
+![Screenshot p57](../assets/images/ce-pro/rcp-guide/p057-img1.png)
 the default database. More about template management in 7.8. Template Manager topic.
 
 3. Define Name for new Cell object.
@@ -905,11 +1025,15 @@ Select Model
 Prediction model for Path Loss simulation.
 7.2.1.1 Assign Cell object to Site
 The cell object can be created on top of Site object, or near it with the possibility to assign Site ID value for
+
+![Screenshot p60](../assets/images/ce-pro/rcp-guide/p060-img1.png)
 that Cell.
 Open Add Cell function.
 Moove mouse coursor on top of Site object, and mouse will be automatically snapped to that Site.
 
 Define direction, similary as creating Cell object on empty location. Site ID will be automatically assigned
+
+![Screenshot p61](../assets/images/ce-pro/rcp-guide/p061-img1.png)
 to this new Cell.
 7.2.1.2 Add several Cells in same position.
 Once Cell is created, do not close the dialog.
@@ -919,10 +1043,16 @@ Changes. New Cell object will be created on the same location.
 Do it again, if you required additional Cell objects in the same location.
 7.2.1.3 Add Cells on the corner of the buildings
 The cells can be created on the corner of the building and assigned to the same Site.
+
+![Screenshot p62](../assets/images/ce-pro/rcp-guide/p062-img1.png)
+
+![Screenshot p62](../assets/images/ce-pro/rcp-guide/p062-img2.png)
 Site ID parameter should be adjusted for every cell.
 
 #### 7.2.2 Add Site
 The object represents Tower or Site location. It carriers several parameters, such as Site Name, coordinate
+
+![Screenshot p63](../assets/images/ce-pro/rcp-guide/p063-img1.png)
 or height. It is used only in 4G or 5G carrier aggregation calculation, when Total Downlink Throughput is
 calculated.
 
@@ -989,6 +1119,8 @@ Cancels object creation and closes the dialogue.
 Radar Properties
 Template
 The template will fill all empty or not specified fields with default values that are not necessary for
+
+![Screenshot p67](../assets/images/ce-pro/rcp-guide/p067-img1.png)
 predictions.
 Name
 Radar identification.
@@ -1039,6 +1171,8 @@ Prediction model for Path Loss simulation.
 
 #### 7.2.4 Add Sirens
 A Siren object in the software represents a sound-emitting device used for warning and alerting purposes.
+
+![Screenshot p69](../assets/images/ce-pro/rcp-guide/p069-img1.png)
 The software calculates the siren's sound level based on parameters such as power, frequency,
 environmental conditions, and distance. It allows users to analyze sound propagation, ensuring effective
 coverage for emergency and safety applications.
@@ -1062,12 +1196,18 @@ Opens the Antenna Viewer with the corresponding antenna patterns.
 Siren Properties
 Template
 The template will fill all empty or not specified fields with default values that are not necessary for
+
+![Screenshot p70](../assets/images/ce-pro/rcp-guide/p070-img1.png)
+
+![Screenshot p70](../assets/images/ce-pro/rcp-guide/p070-img2.png)
 predictions.
 Name
 Siren identification.
 
 Latitude (degrees)
 Latitude degrees, minutes, and seconds Y type coordinate in the WGS 1984 geographical coordinate
+
+![Screenshot p73](../assets/images/ce-pro/rcp-guide/p073-img1.png)
 system.
 Longitude (degrees)
 Longitude degrees, minutes, and seconds X type coordinate in the WGS 1984 geographical coordinate
@@ -1123,6 +1263,8 @@ Cancels object creation and closes the dialogue.
 View Antenna
 
 Opens the Antenna Viewer with the corresponding antenna patterns.
+
+![Screenshot p76](../assets/images/ce-pro/rcp-guide/p076-img1.png)
 CPE Properties
 Name
 CPE identification.
@@ -1257,6 +1399,10 @@ Select objects by navigating to the ArcGIS Pro Edit → Selection section and ch
 selected objects will appear in the Object Editor in a tree hierarchy.
 
 To edit one of the selected objects, left-click on that object and the corresponding editing menu will open
+
+![Screenshot p79](../assets/images/ce-pro/rcp-guide/p079-img1.png)
+
+![Screenshot p79](../assets/images/ce-pro/rcp-guide/p079-img2.png)
 below the list.
 Delete Object
 Select and right-click any network object from the selection, then choose the Delete option from the popup.
@@ -1273,17 +1419,25 @@ tool and press the Move Objects button in the Object Editor.
 
 There are multiple ways to move objects:
 • If multiple objects are selected, the move objects display will show the geospatial properties of the
+
+![Screenshot p81](../assets/images/ce-pro/rcp-guide/p081-img1.png)
 center point between the objects denoted as the “Cursor point”.
 
 The "Cursor Point" functions as a reference marker depicted by a red dot on the map. This marker is
 centrally located among the objects on the map and shows where the cursor was placed. You can adjust
 the position of the Cursor Point either by entering new coordinates directly or by clicking “Select Point” and
+
+![Screenshot p82](../assets/images/ce-pro/rcp-guide/p082-img1.png)
+
+![Screenshot p82](../assets/images/ce-pro/rcp-guide/p082-img2.png)
 choosing a different location on the map. When you move the Cursor Point, all the objects on the map will
 shift their position to maintain their relative distances from this central point.
 • If a single point object is selected or several objects at the same location, the move objects display
 
 will show the geospatial properties of these objects denoted as “Cursor Point”.
 If a single point object is selected on the map, the "Cursor Point" serves as its positional anchor. Positioned
+
+![Screenshot p83](../assets/images/ce-pro/rcp-guide/p083-img1.png)
 as a red dot, the Cursor Point represents the current coordinates of the selected object and shows where
 the cursor was last placed. You can alter the location of the selected object by manually updating the Cursor
 Point's coordinates or by clicking “Select Point” and choosing a new location on the map. Any movement
@@ -1297,6 +1451,10 @@ Cancels the changes to the objects and closes the dialogue.
 
 #### 7.3.2 Duplicate Objects
 Choose the button to open the Object Editor dialogue. Select the object with the Select tool and
+
+![Screenshot p84](../assets/images/ce-pro/rcp-guide/p084-img1.png)
+
+![Screenshot p84](../assets/images/ce-pro/rcp-guide/p084-img2.png)
 press the Duplicate Objects button in the Object Editor dialogue.
 
 There are multiple ways to duplicate objects:
@@ -1305,13 +1463,21 @@ the center point between the objects denoted as the “Cursor point”.
 The "Cursor Point" functions as a reference marker depicted by a red dot on the map. This marker is
 centrally located among the objects on the map and shows where the cursor was placed. You can adjust
 the position of the Cursor Point either by entering new coordinates directly or by clicking “Select Point” and
+
+![Screenshot p85](../assets/images/ce-pro/rcp-guide/p085-img1.png)
 choosing a different location on the map. When you move the Cursor Point, all the objects on the map will
 shift their position to maintain their relative distances from this central point.
 
 • If a single point object or several objects on the same location are selected, the duplicate objects
+
+![Screenshot p86](../assets/images/ce-pro/rcp-guide/p086-img1.png)
+
+![Screenshot p86](../assets/images/ce-pro/rcp-guide/p086-img2.png)
 display will show the geospatial properties of that object denoted as “Cursor Point”.
 
 If a single point object is selected on the map, the "Cursor Point" serves as its positional anchor. Positioned
+
+![Screenshot p87](../assets/images/ce-pro/rcp-guide/p087-img1.png)
 as a red dot, the Cursor Point represents the current coordinates of the selected object and also shows
 where the cursor was last placed. You can alter the location of the selected object by manually updating
 the Cursor Point's coordinates or by clicking “Select Point” and choosing a new location on the map. Any
@@ -1331,6 +1497,10 @@ Choose the button to open the Calculate Cells Area tool.
 
 Select the cells which the calculations will be performed for, and press Run Calculation. The cell areas
 will be drawn on the map, in a separate layer CE Cell Area Results. In the results group layer, the servitude
+
+![Screenshot p88](../assets/images/ce-pro/rcp-guide/p088-img1.png)
+
+![Screenshot p88](../assets/images/ce-pro/rcp-guide/p088-img2.png)
 polygons can be toggled for each cell.
 The polygons represent the cell area where the antenna’s horizontal pattern’s attenuation at each angle is
 lower than the threshold of 3.
@@ -1341,18 +1511,28 @@ Using bigger radius:
 ### 7.5 Clutter Classes
 The Clutter Classes tool is designed to manage categories describing different types of environments in
 telecommunication networks. It relies on the Clutter Classes raster used in the project. The raster values
+
+![Screenshot p89](../assets/images/ce-pro/rcp-guide/p089-img1.png)
+
+![Screenshot p89](../assets/images/ce-pro/rcp-guide/p089-img2.png)
 must match the ID values in the Clutter Classes dialog. For example, if "Trees" has a value of 2 in the
 Clutter Classes raster, this ID must be defined in the Clutter Classes tool. By default, ESRI’s Sentinel-2
 Land Use values are used after workspace creation: ESRI Sentinel-2 Land Cover
 
 Here is the table view of Clutter table, which comes with default database.
+
+![Screenshot p90](../assets/images/ce-pro/rcp-guide/p090-img1.png)
 Sentinel-2 clutter classes raster provides information about these classes:
 Choose the button to open the Clutter Classes dialogue.
 
 Select one of the clutter classes to open their properties. Clutter class list can also be filtered by solid
+
+![Screenshot p91](../assets/images/ce-pro/rcp-guide/p091-img1.png)
 obstacle and/or clutter obstacle categories.
 
 New mapping between land use raster and clutter class data should be done in Clutter Classes dialog.
+
+![Screenshot p92](../assets/images/ce-pro/rcp-guide/p092-img1.png)
 Apply
 Saves changes made to clutter classes.
 OK
@@ -1362,6 +1542,8 @@ Cancels clutter class changes and closes the dialogue.
 
 ### 7.6 Antenna Viewer
 The Antenna Viewer enables the user to preview the default antennae, compare their vertical and horizontal
+
+![Screenshot p93](../assets/images/ce-pro/rcp-guide/p093-img1.png)
 patterns as well as view the values of these patterns in a table.
 Click the button to open the Antenna Viewer.
 You can filter the entries of the Antenna Table by pressing the Filter symbol near one of the field names
@@ -1380,6 +1562,12 @@ specific point (pixel) in the network’s target coverage area by applying selec
 on the radio visibility condition between the transmitter antenna vis-à-vis a receiver antenna located at a
 given point in coverage area. The radio visibility is evaluated based on the DTM, Obstacles and Clutter
 path profile information, as described in previous section. This verification of radio visibility will result in the
+
+![Screenshot p94](../assets/images/ce-pro/rcp-guide/p094-img1.png)
+
+![Screenshot p94](../assets/images/ce-pro/rcp-guide/p094-img2.png)
+
+![Screenshot p94](../assets/images/ce-pro/rcp-guide/p094-img3.png)
 receiver antenna point assigned into one of three possible radio visibility conditions:
 • Line-of-Sight (LOS) – occurs when there are neither terrain irregularities, obstacles or clutter
 interposing the direct radio path between the transmitter and receiver antennas. The radio path is
@@ -1396,6 +1584,12 @@ or obstacles, see illustration in Fig. 3(c).
 (d) Example of path profile with OLOS+NLOS condition (yellow+red segment of radio link path)
 Fig. 3. Illustration of different LOS conditions
 Depending on the LOS condition for the receive antenna at specific location (area map pixel), the CE tools
+
+![Screenshot p95](../assets/images/ce-pro/rcp-guide/p095-img1.png)
+
+![Screenshot p95](../assets/images/ce-pro/rcp-guide/p095-img2.png)
+
+![Screenshot p95](../assets/images/ce-pro/rcp-guide/p095-img3.png)
 will apply the specific sub-set of path loss prediction model, as explained in the following section.
 Note that when the receiver is located indoors, the special Outdoor-to-Indoor propagation function will be
 applied in addition to basic path loss, as explained in the separate section at the end of this chapter.
@@ -1404,6 +1598,8 @@ applied in addition to basic path loss, as explained in the separate section at 
 Prediction models available in Cellular Expert support frequencies from 10kHz to 350 GHz.
 
 To open the Prediction Model Manager dialogue, click on the Prediction Model Manager tool in
+
+![Screenshot p96](../assets/images/ce-pro/rcp-guide/p096-img1.png)
 the Data Management section.
 CEC ITU-R 3GPP Model (100MHz – 6GHz) is a combination model intended for use in a variety of different
 radiocommunication systems which is derived explicitly from ITU-R path loss modelling methods as follows:
@@ -1561,6 +1757,10 @@ The Clutter Class option defines several predefined clutter categories, each wit
 diffraction loss, clutter loss, penetration loss, and receiver loss coefficients.
 
 These parameters describe how a signal is impacted when it passes through or terminates in a specific
+
+![Screenshot p101](../assets/images/ce-pro/rcp-guide/p101-img1.png)
+
+![Screenshot p101](../assets/images/ce-pro/rcp-guide/p101-img2.png)
 clutter class.
 Key Parameters:
 • Nominal distance, m – the average distance between objects within the clutter class, ranging from
@@ -1649,6 +1849,10 @@ performance in a variety of environmental scenarios.
 Default settings
 General settings to calculate Model loss
 • Offset coefficient (dB) – represents the offset in decibels added to the path loss grid. The default
+
+![Screenshot p106](../assets/images/ce-pro/rcp-guide/p106-img1.png)
+
+![Screenshot p106](../assets/images/ce-pro/rcp-guide/p106-img2.png)
 value is 32 dB.
 • Distance coefficient – defines the slope based on the distance between the cell and the receiver
 location, with a default value of 20.
@@ -1664,6 +1868,10 @@ Possible values Yes or No.
 Clutter class to calculate penetration loss
 Clutter class option describes several fixed Clutter names with penetration loss coefficients.
 These parameters describe how a signal is impacted when it passes through or terminates in a specific
+
+![Screenshot p108](../assets/images/ce-pro/rcp-guide/p108-img1.png)
+
+![Screenshot p108](../assets/images/ce-pro/rcp-guide/p108-img2.png)
 clutter class.
 Key Parameters:
 • Penetration loss offset, dB – the initial entry loss into the clutter class, expressed as an offset in
@@ -1968,6 +2176,8 @@ distance, considering factors such as geometric spreading, atmospheric absorptio
 reflections, and obstacles.
 In the context of siren sound prediction, ISO 9613 helps determine the effective coverage area, ensuring
 that warning signals reach the intended audience with sufficient audibility. This standard is essential for
+
+![Screenshot p113](../assets/images/ce-pro/rcp-guide/p113-img1.png)
 optimizing siren placement, regulatory compliance, and designing effective emergency alert systems.
 The primary factors included in the standard are:
 
@@ -2058,6 +2268,8 @@ The CEC 3GPP TR Indoor Model (500 MHz – 100 GHz) is a robust, scalable predict
 ITU-R principles and 3GPP extensions, specifically engineered for indoor radiowave propagation. By
 
 supporting a wide range of scenarios — from clean LOS corridors to deeply obstructed NLOS paths — it
+
+![Screenshot p116](../assets/images/ce-pro/rcp-guide/p116-img1.png)
 enables highly accurate modeling of next-generation wireless systems, ensuring reliable, secure, and
 efficient communication in the most demanding indoor environments.
 Key Enhancements for Indoor Use
@@ -2221,6 +2433,8 @@ High loss building
 
 ### 7.8 Template Manager
 Template Manager allows the user to edit current project templates residing in the various Template tables
+
+![Screenshot p120](../assets/images/ce-pro/rcp-guide/p120-img1.png)
 of the default.gdb. The user may change the field values of the templates, create new or detele existing
 templates.
 Templates are essential tools designed to streamline and simplify the configuration process by predefining
@@ -2252,8 +2466,14 @@ available parameters in network layer.
 
 #### 7.8.1 Edit Network Objects template
 Click the button to open the Template Manager dialogue. Select one of the opened templates to edit
+
+![Screenshot p121](../assets/images/ce-pro/rcp-guide/p121-img1.png)
 them.
 Save Changes
+
+![Screenshot p122](../assets/images/ce-pro/rcp-guide/p122-img1.png)
+
+![Screenshot p122](../assets/images/ce-pro/rcp-guide/p122-img2.png)
 Saves the changes to the objects.
 Dismiss
 Cancels the changes to the objects and closes the dialogue.
@@ -2269,6 +2489,10 @@ at the end of network template list.
 7.8.2.2 Duplicate or Delete existing template
 Right-click on a selected template to open the context menu with Duplicate and Delete options.
 Duplicate will create a new template with the same parameters, and add it at the end of network template
+
+![Screenshot p123](../assets/images/ce-pro/rcp-guide/p123-img1.png)
+
+![Screenshot p123](../assets/images/ce-pro/rcp-guide/p123-img2.png)
 list.
 
 Delete will remove this selected template.
@@ -2276,10 +2500,14 @@ Delete will remove this selected template.
 #### 7.8.3 Modulations
 The modulations are used in MW link calculations and specifically can be defined for Radios. Instead of
 specifying Modulations one by one, the customer can create a set of them, and it is available in this tab.
+
+![Screenshot p124](../assets/images/ce-pro/rcp-guide/p124-img1.png)
 To preview and edit the Modulations template, click on it in the table.
 
 (top right)
 A new modulation with default values can be initialized.
+
+![Screenshot p125](../assets/images/ce-pro/rcp-guide/p125-img1.png)
 X
 Modulation can be removed.
 Save changes
@@ -2288,6 +2516,8 @@ Dismiss
 
 Remove changes.
 To create a new Modulation template, press button in the top right corner of the dialog to initialize a
+
+![Screenshot p126](../assets/images/ce-pro/rcp-guide/p126-img1.png)
 new template.
 Template name
 The name of the modulation template.
@@ -2301,6 +2531,10 @@ template.
 The list of available modulations is taken from the Modulation Editor tab.
 
 To add a new modulation, click the at the top right of the Modulation Editor window to initialize a new
+
+![Screenshot p127](../assets/images/ce-pro/rcp-guide/p127-img1.png)
+
+![Screenshot p127](../assets/images/ce-pro/rcp-guide/p127-img2.png)
 modulation with default values, and press the Create button at the bottom of the window. Alternatively, click
 on an existing one to edit its parameters.
 Create
@@ -2329,6 +2563,8 @@ The dialog will be filled with the options to define data and mapping files.
 
 #### 7.9.1 Import Cells
 The option enables possibility to import Cells in the Cellular Expert workspace. It has additional parameters
+
+![Screenshot p129](../assets/images/ce-pro/rcp-guide/p129-img1.png)
 compared to other import options.
 Template
 Take necessary parameters from the template during the import. Template values are taken if some
@@ -2350,6 +2586,8 @@ button will light up green.
 Select Mapping File (Optional)
 Opens a dialogue window where the user can select a file that defines the data to be imported and the
 conditions under which said data is processed. The supported format is .json. Upon successful selection,
+
+![Screenshot p130](../assets/images/ce-pro/rcp-guide/p130-img1.png)
 the button will light up green. More on mapping files are below.
 Steps.
 
@@ -2366,6 +2604,8 @@ name. It must be text data.
 • The mapping file is used, then the data should be mapped with site_id field. It must be text data.
 7.9.1.1 Mapping file
 The data in the import files may have names, values, and units that do not match the data in the Cellular
+
+![Screenshot p131](../assets/images/ce-pro/rcp-guide/p131-img1.png)
 Expert database. To resolve such issues an additional Mapping file should be imported in which these data
 conflicts ought to be addressed.
 The empty mapping file can be found in the project’s workspace catalog, SystemFiles folder.
@@ -2403,6 +2643,8 @@ the button will light up green.
 #### 7.10.1 Import Antennas
 Click the toolbar button and select Import to import antenna patterns. The command opens a
 dialogue window where the user can select the antenna pattern files to be imported into the Cellular Expert
+
+![Screenshot p133](../assets/images/ce-pro/rcp-guide/p133-img1.png)
 database. Select the antenna type in the dropdown list and proceed.
 Select Files
 This button opens a dialogue in which you can select one or more antenna pattern files to be imported. The
@@ -2430,6 +2672,8 @@ Create new antennas based on input parameters.
 Click on the button and select Create to create antenna patterns. Various parameters of the
 antenna can be entered, as well as horizontal and vertical beamwidth values or ranges. For the selected
 horizontal and vertical values or ranges, the horizontal and vertical attenuations are set to 0, while all other
+
+![Screenshot p134](../assets/images/ce-pro/rcp-guide/p134-img1.png)
 attenuations are set to 1000. Based on the horizontal and vertical beamwidths, the horizontal and vertical
 antenna patterns are displayed.
 
@@ -2442,6 +2686,8 @@ Antenna frequency value in MHz.
 Gain
 Antenna gain value in dBi.
 Horizontal beamwidth
+
+![Screenshot p135](../assets/images/ce-pro/rcp-guide/p135-img1.png)
 Antenna’s horizontal beamwidth value or range in degrees. By default, the value is 60.
 Vertical beamwidth
 Antenna’s vertical beamwidth value or range in degrees. By default, the value is 15.
@@ -2458,11 +2704,15 @@ The custom drive test feature layer (class) must have these fields:
 • Longitude
 • Cell_id (a field which binds the drive test to a cell network object)
 Upon the creation of the feature class, you should select the drive test layer. It is necessary to have cells
+
+![Screenshot p136](../assets/images/ce-pro/rcp-guide/p136-img1.png)
 on the map for the calculations to work. Their OBJECTID should correspond to the cell_id present in the
 feature class’s table.
 Select a Drive Test Layer and the following properties should become visible:
 
 Drive Test Layer
+
+![Screenshot p137](../assets/images/ce-pro/rcp-guide/p137-img1.png)
 The feature layer (class) that will be used to tune prediction model parameters.
 Cell Identification
 Cell name field name in drive test layer. The tool uses ObjectID value in Cells network objects to map drive
@@ -2489,6 +2739,8 @@ Calculation results will appear in the dockpane, which contains the general, pre
 values of the calculations.
 
 Measurement points can be reselected by visibility: LOS (line of sight), OLOS (obstructed line of sight), or
+
+![Screenshot p139](../assets/images/ce-pro/rcp-guide/p139-img1.png)
 NLOS (no line of sight). This allows for easy rerun of the tool with only relevant points to perform further
 tuning of the model.
 Untuned and Tuned statistics
@@ -2508,6 +2760,8 @@ influenced by sample variability, indicating improved model stability and confid
 performance.
 
 Statistiscs by visibility and by clutter class are also available. Untuned and tuned difference points are also
+
+![Screenshot p140](../assets/images/ce-pro/rcp-guide/p140-img1.png)
 now visualized on the map as part of the model tuning calculation result in separate layers.
 Suggested prediction model values
 Model coefficients that are recommended to be changed.
@@ -2537,6 +2791,8 @@ gains and losses, and the path loss, which measures the reduction in signal stre
 frequency, and environmental obstructions. The profile also provides the calculated angles, including
 the elevation angle (vertical angle between the transmitter and receiver) and the azimuth angle
 (horizontal direction). Additionally, it determines whether a direct line-of-sight exists between the two
+
+![Screenshot p141](../assets/images/ce-pro/rcp-guide/p141-img1.png)
 points.
 This comprehensive information is ready for use, enabling users to assess the feasibility and
 performance of a communication link for network planning, optimization, and troubleshooting.
@@ -2548,6 +2804,8 @@ on a map.
 Profile: Profile Selection
 
 Profile selection allows for quick switching between profiles while retaining the most recently defined
+
+![Screenshot p142](../assets/images/ce-pro/rcp-guide/p142-img1.png)
 parameters. This feature is especially useful for comparing and verifying calculations across different
 Tx and Rx configurations. When a new profile is created, it is automatically assigned a name and
 appears in the Profile Selection option.
@@ -2592,6 +2850,8 @@ El. Downtilt, deg.
 Electrical downtilt value for the transmitter, in degrees.
 
 The antenna for the transmitter can be selected from the table below the El. Downtilt, deg input. Its
+
+![Screenshot p144](../assets/images/ce-pro/rcp-guide/p144-img1.png)
 pattern can be viewed by clicking the View Antenna button on the right side.
 Frequency of the transmitter.
 Bandwidth, MHz
@@ -2616,6 +2876,8 @@ Height, m
 Height above the ground in meters. The minimum value must be 1m.
 Azimuth towards transmitter
 Enabled by default. When enabled, the receiver’s azimuth is towards the transmitter. Disabling this
+
+![Screenshot p145](../assets/images/ce-pro/rcp-guide/p145-img1.png)
 option it would take azimuth value from the receiver (Cell) object, and use it for FWA Power Budget
 
 calculations, it also allows the user to enter a custom azimuth value for the receiver.
@@ -2649,6 +2911,8 @@ Upon the selection of a second point, these geometries will be created between t
 • Fresnel (blue) – the Fresnel lines
 
 The Profile plot illustrating these geometries, obstacles (buildings), and the Fresnel zone will appear in
+
+![Screenshot p147](../assets/images/ce-pro/rcp-guide/p147-img1.png)
 a dockpane below. You can inspect the values at particular points by moving the cursor around the
 plot. The cursor movement on the plot will be projected as a moving point on the map. If a cell is
 selected for the transmitter, the cell’s tilt (the sum of mechanical and electrical tilts) and vertical
@@ -2658,20 +2922,34 @@ prediction model selected for the cell.
 The button allows you to see the Prediction Calculation results.
 
 You can change the colors of the profile by clicking the colored squares near the names of the parameters.
+
+![Screenshot p148](../assets/images/ce-pro/rcp-guide/p148-img1.png)
 The colors will be updated automatically. You can toggle the visibility of each separate parameter of
 the profile by clicking on the name of the element. Enabled elements are indicated by bold text,
 and disabled elements are indicated by regular text.
 
 You can change the height of the transmitter/receiver points by dragging their ends on the plot.
 Hovering the cursor over the plot displays a tooltip with the meter values for profile, building, clutter,
+
+![Screenshot p149](../assets/images/ce-pro/rcp-guide/p149-img1.png)
+
+![Screenshot p149](../assets/images/ce-pro/rcp-guide/p149-img2.png)
 elevation, distance, etc., as well as their representations in colors.
 
 8.1.2.1 Adjust Data
 Adjust data is found on the Profile Plot dockpane near the Results. The tool lets you change the
+
+![Screenshot p150](../assets/images/ce-pro/rcp-guide/p150-img1.png)
+
+![Screenshot p150](../assets/images/ce-pro/rcp-guide/p150-img2.png)
 elevation, building, and clutter data of the area visible in the profile plot.
 When the Adjust tab is opened, select a desirable range for the data adjustment on the plot.
 
 You can make slight changes to the range of the selection area by hovering over the area's edges and
+
+![Screenshot p151](../assets/images/ce-pro/rcp-guide/p151-img1.png)
+
+![Screenshot p151](../assets/images/ce-pro/rcp-guide/p151-img2.png)
 dragging them. To adjust the values, click on one of the text boxes and insert the value.
 To change multiple values simultaneously, drag across the adjustment table and select multiple rows.
 Changing the value of a single text box will also change all the other chosen rows’ values in that
@@ -2681,6 +2959,10 @@ To update the values, either select an unselected row or press the button.
 To reset the adjusted values to defaults, click the Refresh button .
 Manual Profile
 If you want to insert specific coordinates and draw a profile that way, you can insert these values in the
+
+![Screenshot p152](../assets/images/ce-pro/rcp-guide/p152-img1.png)
+
+![Screenshot p152](../assets/images/ce-pro/rcp-guide/p152-img2.png)
 Profile pane and click the Manual Profile button.
 Dynamic Profile
 The button toggles the Dynamic Profile.
@@ -2699,6 +2981,10 @@ visible you may need to adjust the height of the receiver/transmitter accordingl
 It is recommended to disable the Step Plot of the profile before using Reflections (see Settings).
 Use Single Reflection
 Enable a reflection that will reflect straight from the transmitter to the receiver point with the smallest
+
+![Screenshot p153](../assets/images/ce-pro/rcp-guide/p153-img1.png)
+
+![Screenshot p153](../assets/images/ce-pro/rcp-guide/p153-img2.png)
 angle.
 
 Use Multipath Reflections
@@ -2715,6 +3001,8 @@ Enables the use of default clutter classes for the reflection calculations (see 
 disabled, custom values may be used for conductivity and permittivity.
 Select Reflection Range
 Lets you set a range in which the reflection calculations should happen. This will affect both Single and
+
+![Screenshot p154](../assets/images/ce-pro/rcp-guide/p154-img1.png)
 Multipath reflections and help highlight specific important areas along the profile as well as speed
 up the calculation process.
 The range will be enabled as soon as a profile is drawn.
@@ -2724,6 +3012,8 @@ Reflection results will appear in the Profile Results table.
 
 8.1.3.1 Reflection Analysis
 The Reflection Analysis tool for Profile is designed to help analyze and visualize signal reflections based
+
+![Screenshot p155](../assets/images/ce-pro/rcp-guide/p155-img1.png)
 on the changes in various profile parameters like frequency, transmitter height, receiver height, and K-
 factor. Reflections must be enabled to perform analysis, and the Single Reflection option is automatically
 enabled when the tool is selected.
@@ -2737,11 +3027,17 @@ Calculate reflection analysis based on transmitter height range (from m to m)
 Dependency on K-Factor
 Calculate reflection analysis based on K-factor range (from radius, km to radius, km)
 
+![Screenshot p156](../assets/images/ce-pro/rcp-guide/p156-img1.png)
+
 The reflection analysis results for each type of dependency are displayed in the Reflection Analysis tab
 of the Calculated Profile window.
 
 #### 8.1.4 Import
 Import a profile by selecting a profile file in the Import section. Supported formats: .pl2 (path loss file).
+
+![Screenshot p157](../assets/images/ce-pro/rcp-guide/p157-img1.png)
+
+![Screenshot p157](../assets/images/ce-pro/rcp-guide/p157-img2.png)
 Once imported successfully, the profile data may then be customized.
 
 Load Profile
@@ -2750,9 +3046,15 @@ Creates the profile with the provided data.
 #### 8.1.5 Export (Profile Report)
 The input data and calculation results can be automatically transferred into a Profile Report. This report
 will show transmitter/receiver input data, calculation results as well as the Profile plot and map view in which
+
+![Screenshot p158](../assets/images/ce-pro/rcp-guide/p158-img1.png)
+
+![Screenshot p158](../assets/images/ce-pro/rcp-guide/p158-img2.png)
 the profile was drawn. The report can be exported in PDF and PL2 formats.
 
 The resulting Profile report will look similar to this example:
+
+![Screenshot p159](../assets/images/ce-pro/rcp-guide/p159-img1.png)
 
 #### 8.1.6 Settings
 Currently, you can configure the profile’s visual properties and controls in profile settings. The settings
@@ -2775,6 +3077,8 @@ Click on the button to open the CE Calculation Task List dialogue.
 The task list refreshes automatically once calculation tasks are run. The task status is indicated by three
 main colors: blue (in progress), green (completed), and red (failed). Calculation tasks can be deleted
 from the task list by clicking on the right side of the task. To open a result raster, select it from the results
+
+![Screenshot p161](../assets/images/ce-pro/rcp-guide/p161-img1.png)
 dropdown and click Open Results. Filtering by calculation spans these types: Antenna Visibility Prediction,
 EMF Calculation, Link Prediction, Model Tuning, Optimal Site Positions Calculation, RF Prediction, Siren
 Sound Prediction, and Visibility Prediction.
@@ -2806,6 +3110,8 @@ Review current X/Y and Longitude/Latitude values in selected Cells table, and co
 are different to object’s geometry.
 Calculate 3D
 Run calculations in different receiver heights and after completion creates single Voxel file to visualize Field
+
+![Screenshot p163](../assets/images/ce-pro/rcp-guide/p163-img1.png)
 Strength values in 3D scene.
 Run
 Starts the prediction calculation.
@@ -2815,6 +3121,8 @@ Resolution
 Resolution for raster calculations. The output rasters will be produced with the indicated cell size.
 Best server count
 Option to calculate up to 5 best servers. The prediction rasters show the 1st, 2nd, 3rd, and so on strongest
+
+![Screenshot p164](../assets/images/ce-pro/rcp-guide/p164-img1.png)
 signal sources.
 Cell Template
 Option to use the parameters from the template if the cell misses the required parameters.
@@ -2835,6 +3143,8 @@ The corresponding channel’s signal interference if the first and the second st
 than or equal to 10 dBm.
 C/A Max Field Margin, dB
 The neighboring channel’s signal interference if the first and the second strongest signals differ by less than
+
+![Screenshot p165](../assets/images/ce-pro/rcp-guide/p165-img1.png)
 or equal to 10 dBm.
 Calculate Neighbours
 Enable cell neighbour matrix calculation.
@@ -2856,6 +3166,8 @@ o Overlap percentage (%)
 Available coverage rasters
 • Received signal level raster in dBm, within the channel bandwidth appropriate to this technology.
 It is possible to calculate separately the rasters for the 1st, 2nd, 3rd, 4th, and 5th strongest signal levels,
+
+![Screenshot p166](../assets/images/ce-pro/rcp-guide/p166-img1.png)
 and it depends on the count defined in the Best server count option.
 • The best server raster shows the identification of cells generating the strongest signals at each
 pixel. Raster count depends on the Best server count parameter value specified by the user.
@@ -2875,6 +3187,8 @@ Resolution
 Resolution for raster calculations. The output rasters will be produced with the indicated cell size.
 Best server count
 Option to calculate up to 5 best servers. The prediction rasters show the 1st, 2nd, 3rd, and so on strongest
+
+![Screenshot p167](../assets/images/ce-pro/rcp-guide/p167-img1.png)
 signal sources.
 Cell Template
 Option to use the parameters from the template if the cell misses the required parameters.
@@ -2893,6 +3207,8 @@ BS RX Noise Floor refers to the minimum power level of unwanted noise or interfe
 the base station.
 Uplink Interference Ceiling
 the maximum allowable level of interference in the uplink direction of a wireless communication system
+
+![Screenshot p168](../assets/images/ce-pro/rcp-guide/p168-img1.png)
 before it adversely affects the system's performance or capacity.
 Calculate Neighbours
 Enable cell neighbour matrix calculation.
@@ -2913,6 +3229,8 @@ o Overlap area (in km²)
 o Overlap percentage (%)
 
 • The best server raster shows the identification of cells generating the strongest signals at each
+
+![Screenshot p169](../assets/images/ce-pro/rcp-guide/p169-img1.png)
 pixel. Raster count depends on the Best server count parameter value specified by the user.
 o 1st best server shows the serving cell with the strongest field strength.
 o 2nd best server shows the second strongest field strength cell identification.
@@ -2926,6 +3244,8 @@ Resolution
 Resolution for raster calculations. The output rasters will be produced with the indicated cell size.
 Best server count
 Option to calculate up to 5 best servers. The prediction rasters show the 1st, 2nd, 3rd, and so on strongest
+
+![Screenshot p170](../assets/images/ce-pro/rcp-guide/p170-img1.png)
 signal sources.
 Cell Template
 Option to use the parameters from the template if the cell misses the required parameters.
@@ -2981,6 +3301,8 @@ level.
 qualify as a neighbour.
 • Maximum neighbour count – limits the number of neighbours assigned to each cell.
 The results include a visual neighbour matrix showing connections between cells with coloured link
+
+![Screenshot p172](../assets/images/ce-pro/rcp-guide/p172-img1.png)
 lines.
 For each calculated cell:
 • Frequency group (MHz)
@@ -2995,10 +3317,16 @@ Available coverage rasters
 carrier bandwidth. It is possible to calculate the rasters separately for the 1st, 2nd, 3rd, 4th, and 5th
 strongest signal levels and depends on the count defined in the Best server count option.
 • The best server raster identifies cells that generate the strongest signals at each pixel. Raster count
+
+![Screenshot p173](../assets/images/ce-pro/rcp-guide/p173-img1.png)
+
+![Screenshot p173](../assets/images/ce-pro/rcp-guide/p173-img2.png)
 depends on the Best server count parameter value specified by the user.
 
 o 1st best server shows the serving cell with the strongest field strength.
 o 2nd best server shows the second strongest field strength cell identification.
+
+![Screenshot p174](../assets/images/ce-pro/rcp-guide/p174-img1.png)
 o 3rd best server shows the third strongest field strength cell identification.
 o 4th best server shows the fourth strongest field strength cell identification.
 o 5th best server shows the fifth strongest field strength cell identification.
@@ -3006,25 +3334,47 @@ o 5th best server shows the fifth strongest field strength cell identification.
 • Reference Signal Receive Quality (RSRQ) estimated values’ raster in dB.
 
 • Reference Signal’s – Signal to Interference and Noise Ratio (RS-SINR) estimated values’ raster in
+
+![Screenshot p175](../assets/images/ce-pro/rcp-guide/p175-img1.png)
+
+![Screenshot p175](../assets/images/ce-pro/rcp-guide/p175-img2.png)
 dB.
 • CQI identification values.
 
 • Estimated achievable (including Cell Load) Downlink Throughput values’ raster in Mbps.
+
+![Screenshot p176](../assets/images/ce-pro/rcp-guide/p176-img1.png)
+
+![Screenshot p176](../assets/images/ce-pro/rcp-guide/p176-img2.png)
 • Field Strength Overlap
 
 • Maximum (without Cell Load) Downlink Throughput values’ raster in Mbps.
 
+![Screenshot p177](../assets/images/ce-pro/rcp-guide/p177-img1.png)
+
+![Screenshot p177](../assets/images/ce-pro/rcp-guide/p177-img2.png)
+
 • Uplink Field strength raster in dBm.
+
+![Screenshot p178](../assets/images/ce-pro/rcp-guide/p178-img1.png)
+
+![Screenshot p178](../assets/images/ce-pro/rcp-guide/p178-img2.png)
 • Uplink SINR raster in dB
 • Uplink CQI identification.
 
 • Uplink Throughput in Mbps
+
+![Screenshot p179](../assets/images/ce-pro/rcp-guide/p179-img1.png)
+
+![Screenshot p179](../assets/images/ce-pro/rcp-guide/p179-img2.png)
 
 #### 9.3.4 Broadband 5G (NR/CBRS)
 Resolution
 Resolution for raster calculations. The output rasters will be produced with the indicated cell size.
 Best server count
 Option to calculate up to 5 best servers. The prediction rasters show the 1st, 2nd, 3rd, and so on strongest
+
+![Screenshot p180](../assets/images/ce-pro/rcp-guide/p180-img1.png)
 signal sources.
 Cell Template
 Option to use the parameters from the template if the cell misses the required parameters.
@@ -3089,10 +3439,14 @@ o Overlap percentage (%)
 Available coverage rasters
 • Equivalent Reference Signal Receive Power (RSRP) raster in dBm, as measured for a reference
 OFDMA sub-carrier bandwidth. It is possible to calculate separately the rasters for the 1st, 2nd, 3rd,
+
+![Screenshot p182](../assets/images/ce-pro/rcp-guide/p182-img1.png)
 4th, and 5th strongest signal levels and it depends on the count defined in the Best server count
 option.
 
 • The best server raster identifies cells that generate the strongest signals at each pixel. Raster count
+
+![Screenshot p183](../assets/images/ce-pro/rcp-guide/p183-img1.png)
 depends on the Best server count parameter value specified by the user.
 o 1st best server shows the serving cell with the strongest field strength.
 o 2nd best server shows the second strongest field strength cell identification.
@@ -3103,25 +3457,49 @@ o 5th best server shows the fifth strongest field strength cell identification.
 
 • Reference Signal Receive Quality (RSRQ) estimated values’ raster in dB.
 • Reference Signal’s – Signal to Interference and Noise Ratio (RS-SINR) estimated values’ raster in
+
+![Screenshot p184](../assets/images/ce-pro/rcp-guide/p184-img1.png)
+
+![Screenshot p184](../assets/images/ce-pro/rcp-guide/p184-img2.png)
 dB.
 
 • CQI identification values.
 • Estimated achievable (including Cell Load) Downlink Throughput values’ raster in Mbps.
 
+![Screenshot p185](../assets/images/ce-pro/rcp-guide/p185-img1.png)
+
+![Screenshot p185](../assets/images/ce-pro/rcp-guide/p185-img2.png)
+
 • Maximum (without Cell Load) Downlink Throughput values’ raster in Mbps.
+
+![Screenshot p186](../assets/images/ce-pro/rcp-guide/p186-img1.png)
+
+![Screenshot p186](../assets/images/ce-pro/rcp-guide/p186-img2.png)
 
 • Field Strength Overlap
 • Uplink Field strength raster in dBm.
+
+![Screenshot p187](../assets/images/ce-pro/rcp-guide/p187-img1.png)
+
+![Screenshot p187](../assets/images/ce-pro/rcp-guide/p187-img2.png)
 • Uplink SINR raster in dB
 
 • Uplink CQI identification.
+
+![Screenshot p188](../assets/images/ce-pro/rcp-guide/p188-img1.png)
+
+![Screenshot p188](../assets/images/ce-pro/rcp-guide/p188-img2.png)
 • Uplink Throughput in Mbps
+
+![Screenshot p189](../assets/images/ce-pro/rcp-guide/p189-img1.png)
 
 #### 9.3.5 WiFi
 Resolution
 Resolution for raster calculations. The output rasters will be produced with the indicated cell size.
 Best server count
 Option to calculate up to 5 best servers. The prediction rasters show the 1st, 2nd, 3rd, and so on strongest
+
+![Screenshot p190](../assets/images/ce-pro/rcp-guide/p190-img1.png)
 signal sources.
 Cell template
 Option to use the parameters from the template if the cell misses the required parameters.
@@ -3176,6 +3554,8 @@ o Overlap percentage (%)
 Available coverage rasters
 • Equivalent Reference Signal Receive Power (RSRP) raster in dBm, as measured for a reference
 OFDMA sub-carrier bandwidth. It is possible to calculate separately the rasters for the 1st, 2nd, 3rd,
+
+![Screenshot p192](../assets/images/ce-pro/rcp-guide/p192-img1.png)
 4th, and 5th strongest signal levels and it depends on the count defined in the Best server count
 option.
 
@@ -3191,6 +3571,8 @@ o 5th best server shows the fifth strongest field strength cell identification.
 ### 9.4 FWA RF Prediction
 The FWA RF Prediction tool enables batch radio profile calculations to quickly estimate link performance
 from a single transmitter to multiple CPEs or to a set of selected receiver points. For each receiver point,
+
+![Screenshot p193](../assets/images/ce-pro/rcp-guide/p193-img1.png)
 the tool computes and displays Downlink FS, Uplink FS, FWA Downlink RSL, and FWA Uplink RSL. These
 outputs enable a quick assessment of link viability and quality at each location. Results for each receiver
 point are listed in a structured table, allowing comparison of link performance across multiple points.
@@ -3206,6 +3588,8 @@ for calculations. A CPE template can be used to fill in missing values from the 
 Furthermore, receiver point fields can be mapped from the receiver point attributes, or alternatively, used
 from CPE template.
 Once all fields are selected, press the Run button to perform the calculations. The result is the table showing
+
+![Screenshot p194](../assets/images/ce-pro/rcp-guide/p194-img1.png)
 Downlink/Uplink FS, and FWA downlink/uplink RSL values for each receiver point.
 
 ### 9.5 Quick Prediction
@@ -3215,6 +3599,8 @@ create a cell. The selected point is represented as a brown dot on the map. Quic
 select a cell as the point, meaning that you can also make quick predictions with the created cells.
 
 When the Quick Prediction button is pressed, a map tool will be activated which will let you select a point
+
+![Screenshot p195](../assets/images/ce-pro/rcp-guide/p195-img1.png)
 on the map. Upon selecting this point and pressing the Calculate button, a visual representation of the
 calculation will be rendered on the map and the relevant data presented in the CE Calculation Task List.
 D
@@ -3262,11 +3648,15 @@ Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
 Results:
 • Field Strength raster in dBm
 
+![Screenshot p197](../assets/images/ce-pro/rcp-guide/p197-img1.png)
+
 ### 9.6 Radar Prediction
 Click the button to open the Radar Prediction dialogue.
 Radar Prediction is a tool that lets you calculate predictions on radars. Depending on the view angle and
 the size of the radar, Radar Predictions will show the reach of radar signals. Radar signals may differ on
 various objects: drones, planes, etc. For example, drones will be identified within a smaller distance than
+
+![Screenshot p198](../assets/images/ce-pro/rcp-guide/p198-img1.png)
 planes.
 Run Calculation
 Run the radar prediction calculations.
@@ -3289,6 +3679,8 @@ Results:
 
 ### 9.7 Visibility Prediction
 Visibility calculations refer to the determination of line-of-sight between transmitting and receiving antennas,
+
+![Screenshot p199](../assets/images/ce-pro/rcp-guide/p199-img1.png)
 assessing whether any obstructions might impede direct signal transmission.
 Visibility Prediction is a tool that calculates 4 different results:
 • Minimum Receiver Height – the minimum height of a receiver that could be visible to the transmitter
@@ -3312,6 +3704,8 @@ Template
 A template that corresponds to the selected layers. When the layer changes the templates change as well.
 Selected
 Network objects that are present on the selected network layer. The visibility prediction will be performed
+
+![Screenshot p200](../assets/images/ce-pro/rcp-guide/p200-img1.png)
 on all of them.
 Run Calculations
 Starts the prediction calculation.
@@ -3319,12 +3713,22 @@ Starts the prediction calculation.
 Results:
 • Minimum Receiver Height in meters
 • Line of Sight – either visible (1) by the network objects or not (0)
+
+![Screenshot p201](../assets/images/ce-pro/rcp-guide/p201-img1.png)
+
+![Screenshot p201](../assets/images/ce-pro/rcp-guide/p201-img2.png)
 • Clearance in meters
 
 • Best Server
 
+![Screenshot p202](../assets/images/ce-pro/rcp-guide/p202-img1.png)
+
+![Screenshot p202](../assets/images/ce-pro/rcp-guide/p202-img2.png)
+
 ### 9.8 Compare Predictions
 Compare Predictions is a tool that lets you compare the results of RF predictions with different parameters.
+
+![Screenshot p203](../assets/images/ce-pro/rcp-guide/p203-img1.png)
 There are 4 possible parameters to choose from: Antenna, Azimuth, Tilt, and Height. When a different
 parameter is selected, the selected parameter settings dialog also changes. This tool is extremely useful if
 the user wants to quickly check which parameter creates the best possible prediction coverage.
@@ -3353,6 +3757,8 @@ The increment by which the starting point will reach the destination
 Run Calculation
 Starts the prediction calculation.
 If the user selects one of the results from the results table, that result will be highlighted in the bar chart as
+
+![Screenshot p204](../assets/images/ce-pro/rcp-guide/p204-img1.png)
 well as the corresponding prediction layer on the map.
 Compare Predictions also provides the possibility to create a Difference Raster – a raster that is made
 from two RF Prediction rasters that shows the value differences between them. If the user wants to apply
@@ -3364,11 +3770,19 @@ Applies the selected parameter to the currently selected cell.
 Create Difference Raster
 Creates a raster that is made from two RF Prediction rasters. It shows the value differences between them.
 
+![Screenshot p205](../assets/images/ce-pro/rcp-guide/p205-img1.png)
+
 ### 9.9 Optimal Site Positions
 Optimal Site Positions is a tool that lets the user find optimal positions for a site based on specified
+
+![Screenshot p206](../assets/images/ce-pro/rcp-guide/p206-img1.png)
 parameters. The prediction produces two rasters:
 • Covered Points – defines what number of points are covered in a certain pixel
 • Coverage Percentage – the percentage by which the pixel is covered. Meaning that 100% is a fully
+
+![Screenshot p208](../assets/images/ce-pro/rcp-guide/p208-img1.png)
+
+![Screenshot p208](../assets/images/ce-pro/rcp-guide/p208-img2.png)
 covered point
 Click the button to open the Optimal Site Positions dialogue.
 
@@ -3404,6 +3818,8 @@ Results:
 
 ### 9.10 View Statistics
 View Statistics is a tool that calculates the total coverage of a polygon based on its overall coverage (signal
+
+![Screenshot p209](../assets/images/ce-pro/rcp-guide/p209-img1.png)
 strength, dl throughput, etc.).
 The resulting statistics include the total coverage and individual coverage of each polygon segment.
 Click the button to open the View Statistics dialogue. To Add Statistics, press the “Add Statistics”
@@ -3418,10 +3834,16 @@ You can also change the colors of the color bands by clicking the squares near t
 
 Table button
 View the details about the polygon areas and calculated data in a table. Also, export the table data in CSV
+
+![Screenshot p210](../assets/images/ce-pro/rcp-guide/p210-img1.png)
+
+![Screenshot p210](../assets/images/ce-pro/rcp-guide/p210-img2.png)
 format.
 
 The button lets you edit the selected statistic.
 To exit edit mode and cancel all changes, click the Exit Edit Mode button.
+
+![Screenshot p211](../assets/images/ce-pro/rcp-guide/p211-img1.png)
 
 #### 9.10.2 Add Statistics
 Add Statistic Parameters
@@ -3435,6 +3857,8 @@ Point Layer (Optional)
 Used to specify the calculation.
 Name Field
 Defines the names of territories that will be displayed in the results.
+
+![Screenshot p212](../assets/images/ce-pro/rcp-guide/p212-img1.png)
 Population Field (Optional)
 
 Establishes the population field that will be used to calculate the total coverage of the population.
@@ -3468,6 +3892,8 @@ The name of the network
 
 Technology
 The technology that the network will be based on. All network objects will be filtered by it in the network.
+
+![Screenshot p214](../assets/images/ce-pro/rcp-guide/p214-img1.png)
 Create Network
 Add network to the network list.
 Network Manager Parameters
@@ -3495,6 +3921,8 @@ Opens the RF calculation dialog with the selected network objects
 
 ### 9.12 Antenna Visibility
 The Antenna Visibility prediction tool is designed to calculate and visualize the coverage and visibility of
+
+![Screenshot p215](../assets/images/ce-pro/rcp-guide/p215-img1.png)
 selected antennas, based on cell parameters, input resolution, and attenuation threshold. This feature
 considers various factors such as antenna patterns, azimuth, and beamwidth to generate detailed visibility
 maps.
@@ -3510,6 +3938,10 @@ Attenuation threshold, db
 Maximum allowable signal loss for determining effective signal visibility.
 Select the cells on the map and press the Run button to perform the antenna visibility calculations. Once
 the calculations are performed, a new group layer is added with Line of Sight Clearance, Pattern Clearance,
+
+![Screenshot p216](../assets/images/ce-pro/rcp-guide/p216-img1.png)
+
+![Screenshot p216](../assets/images/ce-pro/rcp-guide/p216-img2.png)
 Line of Sight Clearance (underground), and Pattern Clearance (underground) layers.
 Toggling either the Line of Sight Clearance or Pattern Clearance layers shows the legend according to
 the values in the raster. Additional “underground” polygon groups are drawn with hatch fill to indicate the
@@ -3522,6 +3954,8 @@ Properties, under the Visualization tab and the Visibility category.
 ### 10.1 License information
 Click the button to open the License Information dialogue.
 License information is a useful resource to see your current version of Cellular Expert for ArcGIS Pro, user
+
+![Screenshot p217](../assets/images/ce-pro/rcp-guide/p217-img1.png)
 key, currently active licenses, and their expiration dates. The license information window is also used when
 a user is enabling the CE for ArcGIS Pro extension on their computer. For more information about license
 activation see Activation.
@@ -3536,6 +3970,8 @@ when trying to figure out a problem.
 #### 10.2.2 What’s New
 Click the button in the Help dropdown list to open the What’s New document. This document
 is updated for each new release of Cellular Expert for ArcGIS Pro, and here you will find the changelog for
+
+![Screenshot p218](../assets/images/ce-pro/rcp-guide/p218-img1.png)
 the current installed version. This document serves as the introduction of added new features,
 enhancements, bug fixes, and other changes.
 
@@ -3549,6 +3985,8 @@ project. Additionally, you can log in or sign up to submit a new support ticket.
 Click the button in the Help dropdown list to open the Error Log dialogue.
 Here you will find information about errors that have occurred during certain processes of the CE for ArcGIS
 Pro extension’s lifetime. These logs are crucial to improving the overall quality of the user experience. Thus,
+
+![Screenshot p219](../assets/images/ce-pro/rcp-guide/p219-img1.png)
 when an error happens and you decide to contact a Cellular Expert, you will be asked to send these logs
 so that the problems you encounter can be patched as soon as possible.
 
@@ -3562,6 +4000,8 @@ For any issues, e-mail support (support@cellular-expert.com) and we will registe
 When you contact us, please describe your issue precisely and completely. Please mention which steps
 you already tried, when the problem appears, etc. Attach a screenshot of the Cellular Expert log files.
 Note: all provided information remains confidential and is used only for solving your issue. Other users
+
+![Screenshot p220](../assets/images/ce-pro/rcp-guide/p220-img1.png)
 cannot see your ticket and it is not published in any other way.
 Thank you for using our software.
 Cellular Expert Team

@@ -131,3 +131,55 @@ See `C:\CE_Course\0. Descriptions\2. Import.pdf` for the full field mapping refe
 **Exercise:** `C:\CE_Course\0. Descriptions\3. Create Objects.pdf`
 
 **Contact:** info@cellular-expert.com | +370 5 2150575 | www.cellular-expert.com
+
+![Screenshot p1](../../assets/images/ce-pro/training-06/p001-img1.png)
+
+![Screenshot p1](../../assets/images/ce-pro/training-06/p001-img2.png)
+
+![Screenshot p1](../../assets/images/ce-pro/training-06/p001-img3.png)
+
+
+![Screenshot p2](../../assets/images/ce-pro/training-06/p002-img1.png)
+![Screenshot p1](../../assets/images/ce-pro/training-06/p001-img1.png)
+
+![Screenshot p3](../../assets/images/ce-pro/training-06/p003-img1.png)
+
+![Screenshot p3](../../assets/images/ce-pro/training-06/p003-img2.png)
+
+
+![Screenshot p4](../../assets/images/ce-pro/training-06/p004-img1.png)
+
+![Screenshot p4](../../assets/images/ce-pro/training-06/p004-img2.png)
+
+![Screenshot p4](../../assets/images/ce-pro/training-06/p004-img3.png)
+![Screenshot p1](../../assets/images/ce-pro/training-06/p001-img2.png)
+
+![Screenshot p6](../../assets/images/ce-pro/training-06/p006-img1.png)
+
+
+![Screenshot p9](../../assets/images/ce-pro/training-06/p009-img1.png)
+
+![Screenshot p9](../../assets/images/ce-pro/training-06/p009-img2.png)
+
+![Screenshot p9](../../assets/images/ce-pro/training-06/p009-img3.png)
+![Screenshot p1](../../assets/images/ce-pro/training-06/p001-img3.png)
+
+![Screenshot p2](../../assets/images/ce-pro/training-06/p002-img1.png)
+
+![Screenshot p3](../../assets/images/ce-pro/training-06/p003-img1.png)
+
+![Screenshot p3](../../assets/images/ce-pro/training-06/p003-img2.png)
+
+![Screenshot p4](../../assets/images/ce-pro/training-06/p004-img1.png)
+
+![Screenshot p4](../../assets/images/ce-pro/training-06/p004-img2.png)
+
+![Screenshot p4](../../assets/images/ce-pro/training-06/p004-img3.png)
+
+![Screenshot p6](../../assets/images/ce-pro/training-06/p006-img1.png)
+
+![Screenshot p9](../../assets/images/ce-pro/training-06/p009-img1.png)
+
+![Screenshot p9](../../assets/images/ce-pro/training-06/p009-img2.png)
+
+![Screenshot p9](../../assets/images/ce-pro/training-06/p009-img3.png)

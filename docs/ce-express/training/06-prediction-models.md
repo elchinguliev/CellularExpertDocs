@@ -27,6 +27,10 @@ explicitly considered for every calculation pixel.
 3. Prediction models
 The CE Path Loss Modelling aims to perform near-deterministic calculation of received signal
 levels at each specific point (pixel) in the network’s target coverage area by applying selective
+
+![Screenshot p3](../../assets/images/ce-express/training-06/p003-img1.png)
+
+![Screenshot p3](../../assets/images/ce-express/training-06/p003-img1.png)
 path loss model depending on the radio visibility condition between the transmitter antenna
 vis-à-vis a receiver antenna located at a given point in coverage area. The radio visibility is
 evaluated based on the DTM, Obstacles and [Clutter](#kw:clutter-classification-values:ce-express-geodata) path profile information, as described in
@@ -46,6 +50,18 @@ bulges or obstacles, see illustration in Fig. 1(c).
 
 (a) Example of path profile with LOS condition (green line of direct radio link)
 (b) Example of path profile with OLOS condition (yellow segment of radio link path)
+
+![Screenshot p4](../../assets/images/ce-express/training-06/p004-img1.png)
+
+![Screenshot p4](../../assets/images/ce-express/training-06/p004-img2.png)
+
+![Screenshot p4](../../assets/images/ce-express/training-06/p004-img3.png)
+
+![Screenshot p4](../../assets/images/ce-express/training-06/p004-img1.png)
+
+![Screenshot p4](../../assets/images/ce-express/training-06/p004-img2.png)
+
+![Screenshot p4](../../assets/images/ce-express/training-06/p004-img3.png)
 (c) Example of path profile with NLOS condition (red segment of radio link path)
 
 ---
@@ -58,6 +74,10 @@ CE tools will apply the specific sub-set of path loss prediction model, as expla
 section.
 2. Note that when the receiver is located indoors, the special Outdoor-to-Indoor propagation function
 will be applied in addition to basic path loss, as explained in the separate section at the end of this
+
+![Screenshot p5](../../assets/images/ce-express/training-06/p005-img1.png)
+
+![Screenshot p5](../../assets/images/ce-express/training-06/p005-img1.png)
 chapter.
 
 ## 3.1 Models
@@ -127,6 +147,14 @@ Open Prediction Models tool
 2. Browse available models and configurations.
 3. Select CEC ITU-R (100 MHz – 6 GHz) and review its parameters.
 
+![Screenshot p7](../../assets/images/ce-express/training-06/p007-img1.png)
+
+![Screenshot p7](../../assets/images/ce-express/training-06/p007-img2.png)
+
+![Screenshot p7](../../assets/images/ce-express/training-06/p007-img1.png)
+
+![Screenshot p7](../../assets/images/ce-express/training-06/p007-img2.png)
+
 ---
 
 ## 5.1 Step 3 – Assigning Prediction Models to Cells
@@ -134,6 +162,10 @@ Open Prediction Models tool
 Assigning a prediction model to a cell determines which propagation logic and parameter set
 will be used when calculations are performed. This step is critical because the selected model
 directly affects how terrain, clutter, distance, and frequency are interpreted during prediction.
+
+![Screenshot p8](../../assets/images/ce-express/training-06/p008-img1.png)
+
+![Screenshot p8](../../assets/images/ce-express/training-06/p008-img1.png)
 Prediction models are assigned at the cell level, which means different cells within the same
 workspace can use different models or different configurations of the same model.
 5.1.1 Selecting Cells for Model Assignment
@@ -151,6 +183,10 @@ Only selected cells will be affected by model assignment changes.
 2. Scroll to find the Prediction model parameter.
 3. Click on this parameter to open the context menu.
 The menu lists all available prediction model configurations defined in the workspace.
+
+![Screenshot p9](../../assets/images/ce-express/training-06/p009-img1.png)
+
+![Screenshot p9](../../assets/images/ce-express/training-06/p009-img1.png)
 5.1.3 Reviewing Available Models
 Before selecting a model, review the list and note:
 - Model name and configuration name
@@ -168,6 +204,10 @@ Repeat this process for NBa 02 and NBa 03.
 ## 5.2 Step 4 – Running Predictions and Comparing Results
 
 Once prediction models are correctly assigned to cells, the next step is to run RF predictions
+
+![Screenshot p10](../../assets/images/ce-express/training-06/p010-img1.png)
+
+![Screenshot p10](../../assets/images/ce-express/training-06/p010-img1.png)
 and systematically [compare](#kw:98-compare-predictions:ce-pro-rcp) the results. This step transforms model configuration into visual
 outputs and allows users to understand how different models and parameters influence
 calculated results.
@@ -187,6 +227,10 @@ A calculation task is created and executed in the background.
 ---
 
 The prediction raster is loaded on the map and listed under [Prediction Results](#kw:viewing-results:ce-express-rf-prediction) in the
+
+![Screenshot p11](../../assets/images/ce-express/training-06/p011-img1.png)
+
+![Screenshot p11](../../assets/images/ce-express/training-06/p011-img1.png)
 Layers panel.
 5.2.3 Establishing a Baseline Result
 The first prediction result acts as a baseline.
@@ -217,6 +261,10 @@ Compare the predictions using [Identify tool](#kw:310-step-10-using-the-identify
 ## 5.4 Step 6 – Understanding Building Clutter Parameters
 
 Building clutter parameters describe how man-made structures affect signal propagation.
+
+![Screenshot p12](../../assets/images/ce-express/training-06/p012-img1.png)
+
+![Screenshot p12](../../assets/images/ce-express/training-06/p012-img1.png)
 These parameters are critical in environments where buildings are a dominant factor
 influencing visibility, attenuation, and diffraction.
 
@@ -224,6 +272,10 @@ influencing visibility, attenuation, and diffraction.
 
 Rather than treating buildings as simple blockers, CE Express models their impact through
 a set of configurable parameters that control how loss is introduced as signals interact with
+
+![Screenshot p13](../../assets/images/ce-express/training-06/p013-img1.png)
+
+![Screenshot p13](../../assets/images/ce-express/training-06/p013-img1.png)
 built environments.
 5.4.1 Purpose of Building Clutter Modeling
 Building clutter modeling is used to:
@@ -276,6 +328,10 @@ These changes confirm the role of building clutter parameters in shaping predict
 
 Creating a [custom prediction model](#kw:55-step-7-creating-applying-and-evaluating-a-custom-prediction-model-configuration:none) configuration allows users to tailor propagation behavior
 to a specific scenario, environment, or analysis objective. This step combines model creation,
+
+![Screenshot p15](../../assets/images/ce-express/training-06/p015-img1.png)
+
+![Screenshot p15](../../assets/images/ce-express/training-06/p015-img1.png)
 model assignment, and result evaluation into a single, coherent workflow.
 Instead of modifying standard models directly, custom configurations preserve original
 references while enabling controlled experimentation and scenario-specific tuning.
@@ -297,6 +353,14 @@ Define the following parameters:
 
 5.5.2 Configuring Environmental Parameters
 Expand the following sections and configure values according to the training reference:
+
+![Screenshot p16](../../assets/images/ce-express/training-06/p016-img1.png)
+
+![Screenshot p16](../../assets/images/ce-express/training-06/p016-img2.png)
+
+![Screenshot p16](../../assets/images/ce-express/training-06/p016-img1.png)
+
+![Screenshot p16](../../assets/images/ce-express/training-06/p016-img2.png)
 - Building clutter values
 - Other clutter values
 These settings control how urban structures and non-building obstacles influence
@@ -312,6 +376,14 @@ Once all parameters are defined, click Accept to save the configuration.
 - NBa 03
 2. Open Edit Feature for each cell.
 3. Assign the newly created model configuration (PM 1km radius) as the prediction model.
+
+![Screenshot p17](../../assets/images/ce-express/training-06/p017-img1.png)
+
+![Screenshot p17](../../assets/images/ce-express/training-06/p017-img2.png)
+
+![Screenshot p17](../../assets/images/ce-express/training-06/p017-img1.png)
+
+![Screenshot p17](../../assets/images/ce-express/training-06/p017-img2.png)
 5.5.4 Running Predictions with the Custom Model
 1. Open the RF Prediction tool.
 2. Run predictions for the selected cells.
@@ -325,6 +397,10 @@ Close all prediction results in Layers tool.
 
 High-frequency systems, particularly in the millimeter-wave ([mmWave](#kw:56-step-8-losonly-prediction-for-mmwave:none)) range, behave very
 differently from lower-frequency deployments. At these frequencies, signal propagation is
+
+![Screenshot p18](../../assets/images/ce-express/training-06/p018-img1.png)
+
+![Screenshot p18](../../assets/images/ce-express/training-06/p018-img1.png)
 highly dependent on clear [Line of Sight](#kw:running-a-profile:ce-express-profile) (LOS), and even small obstructions can completely
 block connectivity.
 This step demonstrates how to use LOS-only prediction models in CE Express to accurately
@@ -347,12 +423,24 @@ Key characteristics to review:
 - Maximum calculation radius
 - Receiver height assumptions
 5.6.3 Running the LOS-Only Prediction
+
+![Screenshot p19](../../assets/images/ce-express/training-06/p019-img1.png)
+
+![Screenshot p19](../../assets/images/ce-express/training-06/p019-img2.png)
+
+![Screenshot p19](../../assets/images/ce-express/training-06/p019-img1.png)
+
+![Screenshot p19](../../assets/images/ce-express/training-06/p019-img2.png)
 1. Open the RF Prediction tool.
 2. Run the prediction for Cx002.
 
 ---
 
 3. Open the resulting Field Strength output from Prediction History.
+
+![Screenshot p20](../../assets/images/ce-express/training-06/p020-img1.png)
+
+![Screenshot p20](../../assets/images/ce-express/training-06/p020-img1.png)
 It will provide coverage results where only LOS condition exist.
 
 ---

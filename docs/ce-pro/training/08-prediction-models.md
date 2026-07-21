@@ -172,4 +172,60 @@ Navigate to: **Cellular Expert tab → Prediction Model Manager**
 ---
 
 *Reference: CE Desktop Training — 5. Prediction Models*
+
+![Screenshot p1](../../assets/images/ce-pro/training-08/p001-img1.png)
+
+![Screenshot p1](../../assets/images/ce-pro/training-08/p001-img2.png)
+
+![Screenshot p1](../../assets/images/ce-pro/training-08/p001-img3.png)
 *Contact: info@cellular-expert.com | +370 5 2150575*
+
+![Screenshot p3](../../assets/images/ce-pro/training-08/p003-img1.png)
+
+![Screenshot p5](../../assets/images/ce-pro/training-08/p005-img1.png)
+
+![Screenshot p5](../../assets/images/ce-pro/training-08/p005-img2.png)
+
+![Screenshot p6](../../assets/images/ce-pro/training-08/p006-img1.png)
+
+![Screenshot p9](../../assets/images/ce-pro/training-08/p009-img1.png)
+
+![Screenshot p9](../../assets/images/ce-pro/training-08/p009-img2.png)
+
+![Screenshot p10](../../assets/images/ce-pro/training-08/p010-img1.png)
+
+![Screenshot p12](../../assets/images/ce-pro/training-08/p012-img1.png)
+
+![Screenshot p12](../../assets/images/ce-pro/training-08/p012-img2.png)
+
+![Screenshot p13](../../assets/images/ce-pro/training-08/p013-img1.png)
+
+![Screenshot p13](../../assets/images/ce-pro/training-08/p013-img2.png)
+
+![Screenshot p15](../../assets/images/ce-pro/training-08/p015-img1.png)
+
+![Screenshot p18](../../assets/images/ce-pro/training-08/p018-img1.png)
+
+![Screenshot p20](../../assets/images/ce-pro/training-08/p020-img1.png)
+
+![Screenshot p20](../../assets/images/ce-pro/training-08/p020-img2.png)
+
+![Screenshot p21](../../assets/images/ce-pro/training-08/p021-img1.png)
+
+![Screenshot p24](../../assets/images/ce-pro/training-08/p024-img1.png)
+
+![Screenshot p33](../../assets/images/ce-pro/training-08/p033-img1.png)
+
+![Screenshot p35](../../assets/images/ce-pro/training-08/p035-img1.png)
+
+![Screenshot p35](../../assets/images/ce-pro/training-08/p035-img2.png)
+
+![Screenshot p36](../../assets/images/ce-pro/training-08/p036-img1.png)
+
+![Screenshot p36](../../assets/images/ce-pro/training-08/p036-img2.png)
+
+![Screenshot p38](../../assets/images/ce-pro/training-08/p038-img1.png)
+
+![Screenshot p38](../../assets/images/ce-pro/training-08/p038-img2.png)
+
+![Screenshot p38](../../assets/images/ce-pro/training-08/p038-img3.png)

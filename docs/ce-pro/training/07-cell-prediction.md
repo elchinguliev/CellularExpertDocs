@@ -108,4 +108,44 @@ Project/
 ---
 
 *Reference: CE Desktop Training — 4. Cell Prediction*
+
+![Screenshot p1](../../assets/images/ce-pro/training-07/p001-img1.png)
+
+![Screenshot p1](../../assets/images/ce-pro/training-07/p001-img2.png)
+
+![Screenshot p1](../../assets/images/ce-pro/training-07/p001-img3.png)
+
+
+![Screenshot p2](../../assets/images/ce-pro/training-07/p002-img1.png)
+
+![Screenshot p2](../../assets/images/ce-pro/training-07/p002-img2.png)
+![Screenshot p1](../../assets/images/ce-pro/training-07/p001-img1.png)
+
+![Screenshot p3](../../assets/images/ce-pro/training-07/p003-img1.png)
+
+
+![Screenshot p6](../../assets/images/ce-pro/training-07/p006-img1.png)
+![Screenshot p1](../../assets/images/ce-pro/training-07/p001-img2.png)
+
+![Screenshot p8](../../assets/images/ce-pro/training-07/p008-img1.png)
+
+![Screenshot p8](../../assets/images/ce-pro/training-07/p008-img2.png)
+
+![Screenshot p8](../../assets/images/ce-pro/training-07/p008-img3.png)
+
+![Screenshot p1](../../assets/images/ce-pro/training-07/p001-img3.png)
 *Contact: info@cellular-expert.com | +370 5 2150575*
+
+![Screenshot p2](../../assets/images/ce-pro/training-07/p002-img1.png)
+
+![Screenshot p2](../../assets/images/ce-pro/training-07/p002-img2.png)
+
+![Screenshot p3](../../assets/images/ce-pro/training-07/p003-img1.png)
+
+![Screenshot p6](../../assets/images/ce-pro/training-07/p006-img1.png)
+
+![Screenshot p8](../../assets/images/ce-pro/training-07/p008-img1.png)
+
+![Screenshot p8](../../assets/images/ce-pro/training-07/p008-img2.png)
+
+![Screenshot p8](../../assets/images/ce-pro/training-07/p008-img3.png)

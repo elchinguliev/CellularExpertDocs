@@ -115,6 +115,10 @@ Receiver MIMO configuration, with possible values of 1, 2, 4, 8, 16, 32, 64.
 If Mobile Operators cannot provide this parameter, a default value of 1 is typically used.
 2.2.12 Technology
 Antenna (cell) technology, with possible values including 2G, 3G, 4G, 5G, and WiFi. If the Mobile Operator
+
+![Screenshot p5](../assets/images/geodata/network-objects-requirements/p005-img1.png)
+
+![Screenshot p5](../assets/images/geodata/network-objects-requirements/p005-img2.png)
 cannot provide this parameter, we can:
 - Estimate the technology based on the frequency.
 - Default to 2G if only Signal Strength calculation is needed.
@@ -138,6 +142,10 @@ The text file in Planet format represents:
 Such files can be imported into Cellular Expert database.
 2.2.14 Site (Tower) identification
 Represents the Site (Tower) name in text format. This information enables the automatic creation of Site
+
+![Screenshot p6](../assets/images/geodata/network-objects-requirements/p006-img1.png)
+
+![Screenshot p6](../assets/images/geodata/network-objects-requirements/p006-img2.png)
 objects along with Cell objects. If the information is missing, it will be skipped.
 Confidential ©Cellular Expert, 2024 Page | 6
 

@@ -112,3 +112,59 @@ When you open a workspace created with an older CE version, CE Pro will detect a
 **Exercise:** `C:\CE_Course\0. Descriptions\1. Create workspace.pdf`
 
 **Contact:** info@cellular-expert.com | +370 5 2150575 | www.cellular-expert.com
+
+![Screenshot p1](../../assets/images/ce-pro/training-04/p001-img1.png)
+
+![Screenshot p1](../../assets/images/ce-pro/training-04/p001-img2.png)
+
+![Screenshot p1](../../assets/images/ce-pro/training-04/p001-img3.png)
+
+
+![Screenshot p2](../../assets/images/ce-pro/training-04/p002-img1.png)
+![Screenshot p1](../../assets/images/ce-pro/training-04/p001-img1.png)
+
+![Screenshot p4](../../assets/images/ce-pro/training-04/p004-img1.png)
+
+![Screenshot p4](../../assets/images/ce-pro/training-04/p004-img2.png)
+
+
+![Screenshot p5](../../assets/images/ce-pro/training-04/p005-img1.png)
+![Screenshot p1](../../assets/images/ce-pro/training-04/p001-img2.png)
+
+![Screenshot p7](../../assets/images/ce-pro/training-04/p007-img1.png)
+
+
+![Screenshot p8](../../assets/images/ce-pro/training-04/p008-img1.png)
+![Screenshot p1](../../assets/images/ce-pro/training-04/p001-img3.png)
+
+![Screenshot p9](../../assets/images/ce-pro/training-04/p009-img1.png)
+
+![Screenshot p9](../../assets/images/ce-pro/training-04/p009-img2.png)
+
+
+![Screenshot p11](../../assets/images/ce-pro/training-04/p011-img1.png)
+
+![Screenshot p11](../../assets/images/ce-pro/training-04/p011-img2.png)
+
+![Screenshot p11](../../assets/images/ce-pro/training-04/p011-img3.png)
+![Screenshot p2](../../assets/images/ce-pro/training-04/p002-img1.png)
+
+![Screenshot p4](../../assets/images/ce-pro/training-04/p004-img1.png)
+
+![Screenshot p4](../../assets/images/ce-pro/training-04/p004-img2.png)
+
+![Screenshot p5](../../assets/images/ce-pro/training-04/p005-img1.png)
+
+![Screenshot p7](../../assets/images/ce-pro/training-04/p007-img1.png)
+
+![Screenshot p8](../../assets/images/ce-pro/training-04/p008-img1.png)
+
+![Screenshot p9](../../assets/images/ce-pro/training-04/p009-img1.png)
+
+![Screenshot p9](../../assets/images/ce-pro/training-04/p009-img2.png)
+
+![Screenshot p11](../../assets/images/ce-pro/training-04/p011-img1.png)
+
+![Screenshot p11](../../assets/images/ce-pro/training-04/p011-img2.png)
+
+![Screenshot p11](../../assets/images/ce-pro/training-04/p011-img3.png)

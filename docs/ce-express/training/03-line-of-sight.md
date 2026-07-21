@@ -66,6 +66,14 @@ understanding of how the environment influences connectivity and visibility.
 https://cecom2.cellular-expert.com/ce_express/
 2. From the workspace list, select the workspace used in the previous exercise.
 
+![Screenshot p4](../../assets/images/ce-express/training-03/p004-img1.png)
+
+![Screenshot p4](../../assets/images/ce-express/training-03/p004-img2.png)
+
+![Screenshot p4](../../assets/images/ce-express/training-03/p004-img1.png)
+
+![Screenshot p4](../../assets/images/ce-express/training-03/p004-img2.png)
+
 ## 4.2 Step 2 – Profiling (Point-to-Point Analysis)
 
 4.2.1 Selecting the Transmitter and Receiver
@@ -89,6 +97,10 @@ Color indicators:
 - Yellow – Obstruction caused by vegetation
 - Red – Obstruction caused by terrain or buildings
 This visual representation allows quick assessment of whether visibility can be established.
+
+![Screenshot p5](../../assets/images/ce-express/training-03/p005-img1.png)
+
+![Screenshot p5](../../assets/images/ce-express/training-03/p005-img1.png)
 4.2.2 Exploring Profile Calculation Tabs
 The [Profile tool](#kw:when-to-use-the-profile-tool:ce-express-profile) provides several result sections:
 
@@ -102,6 +114,18 @@ Each tab offers additional context for understanding the profile outcome.
 4.2.3 Exploring Parameter Sensitivity
 Parameter sensitivity analysis helps users understand how changes in input values influence
 visibility results. Instead of treating calculations as fixed outcomes, this step encourages
+
+![Screenshot p6](../../assets/images/ce-express/training-03/p006-img1.png)
+
+![Screenshot p6](../../assets/images/ce-express/training-03/p006-img2.png)
+
+![Screenshot p6](../../assets/images/ce-express/training-03/p006-img3.png)
+
+![Screenshot p6](../../assets/images/ce-express/training-03/p006-img1.png)
+
+![Screenshot p6](../../assets/images/ce-express/training-03/p006-img2.png)
+
+![Screenshot p6](../../assets/images/ce-express/training-03/p006-img3.png)
 exploration and comparison, making it easier to understand cause-and-effect relationships.
 In CE Express, the Profile tool recalculates results automatically and instantly when key
 parameters are modified. This allows users to test different scenarios without repeating the
@@ -117,6 +141,10 @@ overall path conditions and calculated results.
 4.2.3.2 Receiver and Transmitter Heights
 - Change Receiver Height from 2 to 20
 Height is one of the most influential parameters in visibility analysis. Increasing height can:
+
+![Screenshot p7](../../assets/images/ce-express/training-03/p007-img1.png)
+
+![Screenshot p7](../../assets/images/ce-express/training-03/p007-img1.png)
 - Reduce the impact of terrain and obstacles
 - Improve clearance over buildings or vegetation
 - Change the visibility status from obstructed to visible
@@ -128,6 +156,10 @@ scenarios.
 4.2.3.3 Frequency
 - Change Frequency from 1800 to 700
 Different frequencies interact with the environment in different ways. Lower frequencies
+
+![Screenshot p8](../../assets/images/ce-express/training-03/p008-img1.png)
+
+![Screenshot p8](../../assets/images/ce-express/training-03/p008-img1.png)
 generally:
 - Are less sensitive to small obstacles
 - Provide better diffraction over terrain
@@ -169,6 +201,14 @@ As you move the mouse cursor:
 1. Move the cursor across different areas of the map.
 2. Observe how the [terrain profile](#kw:reading-the-profile-graph:ce-express-profile) preview changes along the grey path.
 3. When a point of interest is identified, left-click on the map to set the receiver location.
+
+![Screenshot p10](../../assets/images/ce-express/training-03/p010-img1.png)
+
+![Screenshot p10](../../assets/images/ce-express/training-03/p010-img2.png)
+
+![Screenshot p10](../../assets/images/ce-express/training-03/p010-img1.png)
+
+![Screenshot p10](../../assets/images/ce-express/training-03/p010-img2.png)
 The profile is recalculated and displayed for the selected path.
 
 ---
@@ -176,6 +216,14 @@ The profile is recalculated and displayed for the selected path.
 4.2.5 Profile Report
 1. Click Generate Report in the Profile tool.
 2. Define additional information and enable all report options.
+
+![Screenshot p11](../../assets/images/ce-express/training-03/p011-img1.png)
+
+![Screenshot p11](../../assets/images/ce-express/training-03/p011-img2.png)
+
+![Screenshot p11](../../assets/images/ce-express/training-03/p011-img1.png)
+
+![Screenshot p11](../../assets/images/ce-express/training-03/p011-img2.png)
 3. Click Accept.
 The report is generated automatically and downloaded.
 
@@ -188,6 +236,10 @@ Reports can be used for documentation, presentations, or decision support.
 
 [Visibility Prediction](#kw:43-step-3-visibility-prediction-pointtoarea-analysis:none) extends the concept of [line-of-sight](#kw:running-a-profile:ce-express-profile) analysis from a single path to an
 entire surrounding area. Instead of answering the question “Is this specific point visible?”,
+
+![Screenshot p12](../../assets/images/ce-express/training-03/p012-img1.png)
+
+![Screenshot p12](../../assets/images/ce-express/training-03/p012-img1.png)
 it helps answer “Which areas are visible, and under what conditions?”
 This type of analysis is particularly useful when exploring spatial feasibility, coverage
 potential, or environmental constraints over a broader region.
@@ -212,6 +264,10 @@ spatial overview in a single calculation.
 4.3.2 Running Visibility Prediction
 Running a visibility prediction is the step where configuration choices are converted into a
 spatial visibility map. Careful definition of parameters is important, as each setting directly
+
+![Screenshot p13](../../assets/images/ce-express/training-03/p013-img1.png)
+
+![Screenshot p13](../../assets/images/ce-express/training-03/p013-img1.png)
 influences how the calculation is performed and how the results should be interpreted.
 Before starting the calculation, confirm that the correct transmitter object is selected and
 clearly visible on the map.
@@ -251,6 +307,10 @@ Starting the Calculation
 2. Click Calculate to start the visibility prediction.
 A calculation progress window appears, indicating that the process is running.
 Depending on resolution, radius, and data density, the calculation may take several seconds.
+
+![Screenshot p15](../../assets/images/ce-express/training-03/p015-img1.png)
+
+![Screenshot p15](../../assets/images/ce-express/training-03/p015-img1.png)
 Accessing Calculation Results
 Once the calculation is complete:
 - Results can be opened directly from the progress window
@@ -270,6 +330,14 @@ Best Server – Cell Identification, which has highest Clearence value.
 4.3.3 Visualizing Results on the Map
 Once a visibility prediction is completed, results are presented as map layers that visually
 describe visibility conditions across the analyzed area. Proper visualization is essential for
+
+![Screenshot p16](../../assets/images/ce-express/training-03/p016-img1.png)
+
+![Screenshot p16](../../assets/images/ce-express/training-03/p016-img2.png)
+
+![Screenshot p16](../../assets/images/ce-express/training-03/p016-img1.png)
+
+![Screenshot p16](../../assets/images/ce-express/training-03/p016-img2.png)
 understanding patterns, identifying constraints, and communicating findings clearly.
 
 ---
@@ -279,6 +347,10 @@ Loading Visibility Results
 2. The result layer is automatically added to the map under [Prediction Results](#kw:viewing-results:ce-express-rf-prediction).
 3. Open the Layers tool to view all loaded prediction layers.
 Each visibility result is displayed as a raster or grid-based layer, covering the calculation area
+
+![Screenshot p17](../../assets/images/ce-express/training-03/p017-img1.png)
+
+![Screenshot p17](../../assets/images/ce-express/training-03/p017-img1.png)
 defined by the maximum radius.
 Understanding the Map Representation
 The map displays visibility information using color bands, where each color represents a
@@ -298,6 +370,10 @@ This representation allows users to quickly identify:
 - Areas where visibility is difficult or impractical
 Working with Multiple Result Layers
 Visibility prediction produces several complementary result layers, such as:
+
+![Screenshot p18](../../assets/images/ce-express/training-03/p018-img1.png)
+
+![Screenshot p18](../../assets/images/ce-express/training-03/p018-img1.png)
 - Line of Sight
 - Clearance
 - Best Server
@@ -315,6 +391,10 @@ Users can adjust visualization settings:
 - Click X to remove a threshold
 - Modify threshold values directly
 Custom symbology allows results to be tailored for analysis, reporting, or presentation needs.
+
+![Screenshot p19](../../assets/images/ce-express/training-03/p019-img1.png)
+
+![Screenshot p19](../../assets/images/ce-express/training-03/p019-img1.png)
 
 ## 4.4 Step 5 – Combining Profile and Visibility Analysis
 
@@ -342,6 +422,10 @@ This detailed view explains the visibility result observed on the map.
 5. Summary and Key Takeaways
 This module demonstrated how Line of Sight profiling and visibility prediction work
 together to provide a clear understanding of spatial conditions that influence connectivity and
+
+![Screenshot p20](../../assets/images/ce-express/training-03/p020-img1.png)
+
+![Screenshot p20](../../assets/images/ce-express/training-03/p020-img1.png)
 feasibility.
 Key points to remember:
 

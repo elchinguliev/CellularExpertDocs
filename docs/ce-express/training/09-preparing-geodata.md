@@ -26,6 +26,14 @@ The raster name must be elevation.tif
 
 Optional. [Clutter](#kw:clutter-classification-values:ce-express-geodata) height grid
 The Obstacle height (building, vegetation, etc) grid represents the objects on the ground
+
+![Screenshot p3](../../assets/images/ce-express/training-09/p003-img1.png)
+
+![Screenshot p3](../../assets/images/ce-express/training-09/p003-img2.png)
+
+![Screenshot p3](../../assets/images/ce-express/training-09/p003-img1.png)
+
+![Screenshot p3](../../assets/images/ce-express/training-09/p003-img2.png)
 with their height above the DTM grid. The raster name must be clutterHeight.tif
 Optional. Clutter class grid
 A Clutter class grid represents land use types. The data can be downloaded from here:
@@ -67,6 +75,10 @@ C:\CE_Course\PreparingGeodata\Initial\DTM
 - ASTGTMV003_N54E025_dem.tif
 4. Click OK.
 These files represent adjacent DTM tiles and must be merged into a single raster.
+
+![Screenshot p5](../../assets/images/ce-express/training-09/p005-img1.png)
+
+![Screenshot p5](../../assets/images/ce-express/training-09/p005-img1.png)
 3.2.2 Mosaic to New Raster
 1. Open Geoprocessing from the View tab.
 2. In Find Tools, search for Mosaic to New Raster.
@@ -83,6 +95,14 @@ This creates a single continuous elevation raster.
 ## 3.3 Project raster
 
 Projecting the Digital Terrain Model (DTM) is a critical GIS step that ensures the elevation
+
+![Screenshot p6](../../assets/images/ce-express/training-09/p006-img1.png)
+
+![Screenshot p6](../../assets/images/ce-express/training-09/p006-img2.png)
+
+![Screenshot p6](../../assets/images/ce-express/training-09/p006-img1.png)
+
+![Screenshot p6](../../assets/images/ce-express/training-09/p006-img2.png)
 data can be correctly interpreted and used by CE. Prediction engines require all geodata to
 
 ---
@@ -112,6 +132,10 @@ Configure the tool as follows:
 - Input raster: DTM_WGS.tif
 - Output Raster Dataset:
 C:\CE_Course\PreparingGeodata\Initial\Calculations\DTM_UTM.tif
+
+![Screenshot p8](../../assets/images/ce-express/training-09/p008-img1.png)
+
+![Screenshot p8](../../assets/images/ce-express/training-09/p008-img1.png)
 - LKS_1994_Lithuania_TM
 - Cell size:
 o X: 25
@@ -121,6 +145,10 @@ o Y: 25
 
 Run calculations.
 3.3.3 Finalizing the Elevation Raster
+
+![Screenshot p9](../../assets/images/ce-express/training-09/p009-img1.png)
+
+![Screenshot p9](../../assets/images/ce-express/training-09/p009-img1.png)
 1. Open Copy Raster.
 Define:
 - Input raster: projected DTM
@@ -140,6 +168,10 @@ The DTM is now ready for CE Express.
 
 The clutter class raster is downloaded from here:
 https://livingatlas.arcgis.com/landcoverexplorer/?hsamp_network=linkedin&hsamp=bMJ1Ld
+
+![Screenshot p10](../../assets/images/ce-express/training-09/p010-img1.png)
+
+![Screenshot p10](../../assets/images/ce-express/training-09/p010-img1.png)
 VdwXGW&adumkts=social&utm_source=social&aduc=social&adum=external&adusf=linke
 din&sf_id=7015x000000aYlKAAU&aduca=mi_employee_advocacy_hootsuite_amplify_soc
 _ex&adut=e621d967-b85a-4721-aa1e-d37a8f477f1b#mapCenter=-
@@ -158,6 +190,10 @@ C:\CE_Course\PreparingGeodata\Initial\Clutter
 This raster covers a much larger area than the DTM.
 3.4.2 Projecting and Clipping [Clutter Classes](#kw:clutter-classification-values:ce-express-geodata)
 Clutter class rasters must match the DTM in all spatial aspects. Any mismatch can lead to
+
+![Screenshot p11](../../assets/images/ce-express/training-09/p011-img1.png)
+
+![Screenshot p11](../../assets/images/ce-express/training-09/p011-img1.png)
 incorrect obstruction modeling and unstable [prediction results](#kw:viewing-results:ce-express-rf-prediction).
 Proper projection and clipping ensures:
 - Correct spatial alignment between terrain and clutter
@@ -195,5 +231,9 @@ Press Run.
 3. Click Run.
 4. Remove all intermediate clutter rasters from the map.
 The clutter class raster is now fully prepared and compliant with CE requirements.
+
+![Screenshot p13](../../assets/images/ce-express/training-09/p013-img1.png)
+
+![Screenshot p13](../../assets/images/ce-express/training-09/p013-img1.png)
 
 ---

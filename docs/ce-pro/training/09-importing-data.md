@@ -131,4 +131,24 @@ S.Konarskio g. 28A LT-03127 Vilnius
 Lithuania
 www.cellular-expert.com
 
+![Screenshot p1](../../assets/images/ce-pro/training-09/p001-img1.png)
+
+![Screenshot p1](../../assets/images/ce-pro/training-09/p001-img2.png)
+
+![Screenshot p1](../../assets/images/ce-pro/training-09/p001-img3.png)
+
+
+![Screenshot p2](../../assets/images/ce-pro/training-09/p002-img1.png)
 ---
+
+![Screenshot p3](../../assets/images/ce-pro/training-09/p003-img1.png)
+
+![Screenshot p4](../../assets/images/ce-pro/training-09/p004-img1.png)
+
+![Screenshot p4](../../assets/images/ce-pro/training-09/p004-img2.png)
+
+![Screenshot p12](../../assets/images/ce-pro/training-09/p012-img1.png)
+
+![Screenshot p12](../../assets/images/ce-pro/training-09/p012-img2.png)
+
+![Screenshot p12](../../assets/images/ce-pro/training-09/p012-img3.png)

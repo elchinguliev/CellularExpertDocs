@@ -138,4 +138,56 @@ Parabolic dish antennas are characterised by:
 ---
 
 *Reference: CE Desktop Training — 7. RL Introduction*
+
+![Screenshot p1](../../assets/images/ce-pro/training-10/p001-img1.png)
+
+![Screenshot p1](../../assets/images/ce-pro/training-10/p001-img2.png)
+
+![Screenshot p1](../../assets/images/ce-pro/training-10/p001-img3.png)
 *Contact: info@cellular-expert.com | +370 5 2150575*
+
+![Screenshot p3](../../assets/images/ce-pro/training-10/p003-img1.png)
+
+![Screenshot p4](../../assets/images/ce-pro/training-10/p004-img1.png)
+
+![Screenshot p4](../../assets/images/ce-pro/training-10/p004-img2.png)
+
+![Screenshot p4](../../assets/images/ce-pro/training-10/p004-img3.png)
+
+![Screenshot p5](../../assets/images/ce-pro/training-10/p005-img1.png)
+
+![Screenshot p6](../../assets/images/ce-pro/training-10/p006-img1.png)
+
+![Screenshot p7](../../assets/images/ce-pro/training-10/p007-img1.png)
+
+![Screenshot p8](../../assets/images/ce-pro/training-10/p008-img1.png)
+
+![Screenshot p9](../../assets/images/ce-pro/training-10/p009-img1.png)
+
+![Screenshot p9](../../assets/images/ce-pro/training-10/p009-img2.png)
+
+![Screenshot p10](../../assets/images/ce-pro/training-10/p010-img1.png)
+
+![Screenshot p11](../../assets/images/ce-pro/training-10/p011-img1.png)
+
+![Screenshot p12](../../assets/images/ce-pro/training-10/p012-img1.png)
+
+![Screenshot p13](../../assets/images/ce-pro/training-10/p013-img1.png)
+
+![Screenshot p13](../../assets/images/ce-pro/training-10/p013-img2.png)
+
+![Screenshot p13](../../assets/images/ce-pro/training-10/p013-img3.png)
+
+![Screenshot p13](../../assets/images/ce-pro/training-10/p013-img4.png)
+
+![Screenshot p13](../../assets/images/ce-pro/training-10/p013-img5.png)
+
+![Screenshot p14](../../assets/images/ce-pro/training-10/p014-img1.png)
+
+![Screenshot p14](../../assets/images/ce-pro/training-10/p014-img2.png)
+
+![Screenshot p16](../../assets/images/ce-pro/training-10/p016-img1.png)
+
+![Screenshot p16](../../assets/images/ce-pro/training-10/p016-img2.png)
+
+![Screenshot p16](../../assets/images/ce-pro/training-10/p016-img3.png)

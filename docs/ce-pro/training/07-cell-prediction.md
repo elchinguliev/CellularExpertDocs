@@ -1,53 +1,33 @@
 # 07. Cell Prediction
 
-![Image p1](../../assets/images/ce-pro/training-07/p001-img1.png)
-
-![Image p1](../../assets/images/ce-pro/training-07/p001-img2.png)
-
-![Image p1](../../assets/images/ce-pro/training-07/p001-img3.png)
-
-![Image p1](../../assets/images/ce-pro/training-07/p001-img4.png)
-
-![Image p1](../../assets/images/ce-pro/training-07/p001-img5.png)
-
-
-![Image p2](../../assets/images/ce-pro/training-07/p002-img1.png)
-
-![Image p2](../../assets/images/ce-pro/training-07/p002-img2.png)
 > **Version:** CE Pro v4.9
 
-![Image p3](../../assets/images/ce-pro/training-07/p003-img1.png)
-
-![Image p3](../../assets/images/ce-pro/training-07/p003-img2.png)
-
-
-![Image p4](../../assets/images/ce-pro/training-07/p004-img1.png)
 Cell prediction results are displayed as coverage rasters in the ArcGIS Pro map view:
 
-![Image p6](../../assets/images/ce-pro/training-07/p006-img1.png)
-
-![Image p6](../../assets/images/ce-pro/training-07/p006-img2.png)
-
-![Image p6](../../assets/images/ce-pro/training-07/p006-img3.png)
-
-
-![Image p8](../../assets/images/ce-pro/training-07/p008-img1.png)
-
-![Image p8](../../assets/images/ce-pro/training-07/p008-img2.png)
-
-![Image p8](../../assets/images/ce-pro/training-07/p008-img3.png)
-
-![Image p8](../../assets/images/ce-pro/training-07/p008-img4.png)
-
-![Image p8](../../assets/images/ce-pro/training-07/p008-img5.png)
 Configure prediction parameters in the CE Pro pane before running:
 
 ---
 
 ## Cell Structure
 
+![Image p2](../../assets/images/ce-pro/training-07/p002-img1.png)
+
+![Image p2](../../assets/images/ce-pro/training-07/p002-img2.png)
+
+
+![Image p3](../../assets/images/ce-pro/training-07/p003-img1.png)
+
+![Image p3](../../assets/images/ce-pro/training-07/p003-img2.png)
 Each cell in CE Pro has two categories of parameters:
 
+![Image p4](../../assets/images/ce-pro/training-07/p004-img1.png)
+
+
+![Image p6](../../assets/images/ce-pro/training-07/p006-img1.png)
+
+![Image p6](../../assets/images/ce-pro/training-07/p006-img2.png)
+
+![Image p6](../../assets/images/ce-pro/training-07/p006-img3.png)
 **Physical parameters:**
 - Coordinates (X/Y or Latitude/Longitude)
 - Height (above ground)

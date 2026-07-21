@@ -1,15 +1,5 @@
 # CE Desktop Sound User Guide
 
-![Image p1](../assets/images/ce-pro/sound-guide/p001-img1.png)
-
-![Image p1](../assets/images/ce-pro/sound-guide/p001-img2.png)
-
-![Image p1](../assets/images/ce-pro/sound-guide/p001-img3.png)
-
-
-![Image p5](../assets/images/ce-pro/sound-guide/p005-img1.png)
-
-![Image p5](../assets/images/ce-pro/sound-guide/p005-img2.png)
 > **Version:** CE Pro v4.9
 
 ## 1. Software Purpose and Functionality
@@ -2629,11 +2619,11 @@ Results:
 ![Image p133](../assets/images/ce-pro/sound-guide/p133-img2.png)
 • Clearance in meters
 
+• Best Server
+
 ![Image p134](../assets/images/ce-pro/sound-guide/p134-img1.png)
 
 ![Image p134](../assets/images/ce-pro/sound-guide/p134-img2.png)
-
-• Best Server
 
 ## 10. About
 

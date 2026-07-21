@@ -1,9 +1,5 @@
 # 01. Creating Workspace
 
-![Image p1](../../assets/images/ce-express/training-01/p001-img1.png)
-
-![Image p1](../../assets/images/ce-express/training-01/p001-img2.png)
-
 > **Version:** CE Express v7.2
 
 1. Objective

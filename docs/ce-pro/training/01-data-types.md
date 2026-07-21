@@ -1,16 +1,5 @@
 # 01. Data Types
 
-![Image p1](../../assets/images/ce-pro/training-01/p001-img1.png)
-
-![Image p1](../../assets/images/ce-pro/training-01/p001-img2.png)
-
-![Image p1](../../assets/images/ce-pro/training-01/p001-img3.png)
-
-![Image p1](../../assets/images/ce-pro/training-01/p001-img4.png)
-
-![Image p1](../../assets/images/ce-pro/training-01/p001-img5.png)
-
-
 ![Image p2](../../assets/images/ce-pro/training-01/p002-img1.png)
 
 ![Image p2](../../assets/images/ce-pro/training-01/p002-img2.png)
@@ -20,6 +9,7 @@
 ![Image p2](../../assets/images/ce-pro/training-01/p002-img4.png)
 
 ![Image p2](../../assets/images/ce-pro/training-01/p002-img5.png)
+
 > **Version:** CE Pro v4.9
 
 All CE Pro data — sites, cells, prediction rasters, and geodata layers — is displayed in the ArcGIS Pro map view:
@@ -91,23 +81,9 @@ The CE tools make use of three distinct GIS data layers to obtain high
 
 ![Image p3](../../assets/images/ce-pro/training-01/p003-img24.png)
 precision modelling of radio wave propagation losses:
-
-![Image p4](../../assets/images/ce-pro/training-01/p004-img1.png)
-
-![Image p4](../../assets/images/ce-pro/training-01/p004-img2.png)
 1. Digital Terrain Model (DTM), also known as Digital Elevation
-
-![Image p5](../../assets/images/ce-pro/training-01/p005-img1.png)
-
-![Image p5](../../assets/images/ce-pro/training-01/p005-img2.png)
 Model (DEM), which describes Earth surface, i.e., path terrain
-
-![Image p7](../../assets/images/ce-pro/training-01/p007-img1.png)
-
-![Image p7](../../assets/images/ce-pro/training-01/p007-img2.png)
 profile in terms of ground elevation above uniform sea level.
-
-![Image p8](../../assets/images/ce-pro/training-01/p008-img1.png)
 2. Obstacles layer, delineating buildings and other such objects
 above Earth surface that may be considered to be principal
 impediments for radio wave propagation.
@@ -127,6 +103,10 @@ DTM
 ---
 
 Raster Type Input: Elevation
+
+![Image p4](../../assets/images/ce-pro/training-01/p004-img1.png)
+
+![Image p4](../../assets/images/ce-pro/training-01/p004-img2.png)
 - Digital terrain model (DTM)
 - Represents Earth’s ground/water level above sea level
 - GeoTIFF raster format
@@ -138,6 +118,10 @@ Raster Type Input: Elevation
 ---
 
 Raster Type Input: Clutter height
+
+![Image p5](../../assets/images/ce-pro/training-01/p005-img1.png)
+
+![Image p5](../../assets/images/ce-pro/training-01/p005-img2.png)
 - Clutter height
 - Represents objects height above elevation raster.
 - GeoTIFF raster format
@@ -164,6 +148,10 @@ Elevation grid
 ---
 
 [Clutter classes](#kw:clutter-classification-values:ce-express-geodata)
+
+![Image p7](../../assets/images/ce-pro/training-01/p007-img1.png)
+
+![Image p7](../../assets/images/ce-pro/training-01/p007-img2.png)
 - [Clutter classes](#kw:clutter-classification-values:ce-express-geodata)
 - Represents land use classes.
 - GeoTIFF raster format
@@ -175,6 +163,8 @@ Elevation grid
 
 Clutter types
 Corine Land Cover
+
+![Image p8](../../assets/images/ce-pro/training-01/p008-img1.png)
 
 ---
 
@@ -191,6 +181,10 @@ Note: if some features in input layer are selected,
 ![Image p9](../../assets/images/ce-pro/training-01/p009-img3.png)
 only selected ones will be converted.
 
+---
+
+Environment Settings
+
 ![Image p10](../../assets/images/ce-pro/training-01/p010-img1.png)
 
 ![Image p10](../../assets/images/ce-pro/training-01/p010-img2.png)
@@ -199,34 +193,20 @@ only selected ones will be converted.
 
 ![Image p10](../../assets/images/ce-pro/training-01/p010-img4.png)
 
+---
+
+Raster Calculator
 
 ![Image p11](../../assets/images/ce-pro/training-01/p011-img1.png)
 
 ![Image p11](../../assets/images/ce-pro/training-01/p011-img2.png)
----
-
-![Image p12](../../assets/images/ce-pro/training-01/p012-img1.png)
-
-
-![Image p13](../../assets/images/ce-pro/training-01/p013-img1.png)
-
-![Image p13](../../assets/images/ce-pro/training-01/p013-img2.png)
-
-![Image p13](../../assets/images/ce-pro/training-01/p013-img3.png)
-
-![Image p13](../../assets/images/ce-pro/training-01/p013-img4.png)
-
-![Image p13](../../assets/images/ce-pro/training-01/p013-img5.png)
-Environment Settings
-
----
-
-Raster Calculator
 
 ---
 
 Model Builder
 Automate your GIS tasks
+
+![Image p12](../../assets/images/ce-pro/training-01/p012-img1.png)
 
 ---
 

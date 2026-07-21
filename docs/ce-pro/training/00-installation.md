@@ -1,16 +1,5 @@
 # 00. Software Installation
 
-![Image p1](../../assets/images/ce-pro/training-00/p001-img1.png)
-
-![Image p1](../../assets/images/ce-pro/training-00/p001-img2.png)
-
-![Image p1](../../assets/images/ce-pro/training-00/p001-img3.png)
-
-![Image p1](../../assets/images/ce-pro/training-00/p001-img4.png)
-
-![Image p1](../../assets/images/ce-pro/training-00/p001-img5.png)
-
-
 ![Image p3](../../assets/images/ce-pro/training-00/p003-img1.png)
 
 ![Image p3](../../assets/images/ce-pro/training-00/p003-img2.png)
@@ -18,29 +7,20 @@
 ![Image p3](../../assets/images/ce-pro/training-00/p003-img3.png)
 
 ![Image p3](../../assets/images/ce-pro/training-00/p003-img4.png)
-> **Version:** CE Pro v4.9
+
 
 ![Image p4](../../assets/images/ce-pro/training-00/p004-img1.png)
 
 ![Image p4](../../assets/images/ce-pro/training-00/p004-img2.png)
 
 ![Image p4](../../assets/images/ce-pro/training-00/p004-img3.png)
-
+> **Version:** CE Pro v4.9
 
 ![Image p5](../../assets/images/ce-pro/training-00/p005-img1.png)
 
 ![Image p5](../../assets/images/ce-pro/training-00/p005-img2.png)
+
 > **Version:** CE Pro v4.9
-
-![Image p6](../../assets/images/ce-pro/training-00/p006-img1.png)
-
-![Image p6](../../assets/images/ce-pro/training-00/p006-img2.png)
-
-![Image p6](../../assets/images/ce-pro/training-00/p006-img3.png)
-
-![Image p6](../../assets/images/ce-pro/training-00/p006-img4.png)
-
-![Image p6](../../assets/images/ce-pro/training-00/p006-img5.png)
 
 ## Prerequisites
 

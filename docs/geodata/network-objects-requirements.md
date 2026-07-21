@@ -1,7 +1,5 @@
 # Requirements for CE Network Objects
 
-![Image p1](../assets/images/geodata/network-objects-requirements/p001-img1.png)
-
 > **Version:** CE Pro v4.9 / CE Express v7.2
 
 Cellular Expert Network Requirements

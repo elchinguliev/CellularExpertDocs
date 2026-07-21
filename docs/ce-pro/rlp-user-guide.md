@@ -1,11 +1,5 @@
 # CE Desktop RLP User Guide
 
-![Image p1](../assets/images/ce-pro/rlp-guide/p001-img1.png)
-
-![Image p1](../assets/images/ce-pro/rlp-guide/p001-img2.png)
-
-![Image p1](../assets/images/ce-pro/rlp-guide/p001-img3.png)
-
 > **Version:** CE Pro v4.9
 
 RLP results — MW link paths and availability predictions — are displayed on the ArcGIS Pro map view:
@@ -20,10 +14,6 @@ propagation, communication systems deployment planning,
 and radio/optical visibility calculation software for ESRI’s
 ArcGIS mapping environment, which is widely used within
 Telecom, Defense, IoT, and other companies and
-
-![Image p6](../assets/images/ce-pro/rlp-guide/p006-img1.png)
-
-![Image p6](../assets/images/ce-pro/rlp-guide/p006-img2.png)
 organizations.
 CE’s communication network planning, network asset
 management, operational support software, and customer-
@@ -1310,11 +1300,11 @@ Choose the button to open the Object Editor dialogue. Select the Link object wit
 
 ![Image p72](../assets/images/ce-pro/rlp-guide/p072-img2.png)
 press the Duplicate Objects button in the Object Editor dialogue.
-
-![Image p73](../assets/images/ce-pro/rlp-guide/p073-img1.png)
 The Links object has Transmitter parameters.
 
 And Receiver parameters.
+
+![Image p73](../assets/images/ce-pro/rlp-guide/p073-img1.png)
 
 The location of Transmitter and Receiver can be changed:
 • By defining exact coordinates in Transmitter and Receiver section.
@@ -3266,11 +3256,11 @@ Results:
 ![Image p163](../assets/images/ce-pro/rlp-guide/p163-img2.png)
 • Clearance in meters
 
+• Best Server
+
 ![Image p164](../assets/images/ce-pro/rlp-guide/p164-img1.png)
 
 ![Image p164](../assets/images/ce-pro/rlp-guide/p164-img2.png)
-
-• Best Server
 
 ## 10. Mesh Networks
 
@@ -3418,10 +3408,10 @@ Geoclimatic Data is a tool that lets you adjust the geoclimatic settings that wi
 ![Image p172](../assets/images/ce-pro/rlp-guide/p172-img2.png)
 (e.g. Link Prediction).
 
-![Image p173](../assets/images/ce-pro/rlp-guide/p173-img1.png)
-
 Save Changes
 Save changes to the settings.
+
+![Image p173](../assets/images/ce-pro/rlp-guide/p173-img1.png)
 
 #### 11.1.1 Gaseous Absorption
 Gaseous absorption pages define values for dry air pressure and water vapour density. These values can

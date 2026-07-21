@@ -2,10 +2,6 @@
 
 ![Image p1](../assets/images/geodata/geodata-requirements/p001-img1.png)
 
-![Image p1](../assets/images/geodata/geodata-requirements/p001-img2.png)
-
-![Image p1](../assets/images/geodata/geodata-requirements/p001-img3.png)
-
 > **Version:** CE Pro v4.9 / CE Express v7.2
 
 Cellular Expert Technical Documentation

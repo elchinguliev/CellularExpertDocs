@@ -1,15 +1,5 @@
 # CE Desktop EMF User Guide
 
-![Image p1](../assets/images/ce-pro/emf-guide/p001-img1.png)
-
-![Image p1](../assets/images/ce-pro/emf-guide/p001-img2.png)
-
-![Image p1](../assets/images/ce-pro/emf-guide/p001-img3.png)
-
-
-![Image p5](../assets/images/ce-pro/emf-guide/p005-img1.png)
-
-![Image p5](../assets/images/ce-pro/emf-guide/p005-img2.png)
 > **Version:** CE Pro v4.9
 
 ## 1. Software Purpose and Functionality
@@ -2819,11 +2809,11 @@ Results:
 ![Image p138](../assets/images/ce-pro/emf-guide/p138-img2.png)
 • Clearance in meters
 
+• Best Server
+
 ![Image p139](../assets/images/ce-pro/emf-guide/p139-img1.png)
 
 ![Image p139](../assets/images/ce-pro/emf-guide/p139-img2.png)
-
-• Best Server
 
 ## 11. About
 

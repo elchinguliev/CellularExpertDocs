@@ -1,15 +1,5 @@
 # 02. Architecture
 
-![Image p1](../../assets/images/ce-pro/training-02/p001-img1.png)
-
-![Image p1](../../assets/images/ce-pro/training-02/p001-img2.png)
-
-![Image p1](../../assets/images/ce-pro/training-02/p001-img3.png)
-
-![Image p1](../../assets/images/ce-pro/training-02/p001-img4.png)
-
-![Image p1](../../assets/images/ce-pro/training-02/p001-img5.png)
-
 > **Version:** CE Pro v4.9
 
 CE Products and Solutions
@@ -64,19 +54,15 @@ Local Database All files are saved in local disk
 
 ![Image p4](../../assets/images/ce-pro/training-02/p004-img1.png)
 
+---
+
+Cellular Expert for ArcGIS Pro
 
 ![Image p5](../../assets/images/ce-pro/training-02/p005-img1.png)
 
 ![Image p5](../../assets/images/ce-pro/training-02/p005-img2.png)
 
 ![Image p5](../../assets/images/ce-pro/training-02/p005-img3.png)
----
-
-![Image p6](../../assets/images/ce-pro/training-02/p006-img1.png)
-
-![Image p6](../../assets/images/ce-pro/training-02/p006-img2.png)
-
-Cellular Expert for ArcGIS Pro
 License Structure
 - RCP – Radio Coverage Prediction
 - RLP – Radio Link Prediction
@@ -85,6 +71,10 @@ License Structure
 ---
 
 Geospatial Information
+
+![Image p6](../../assets/images/ce-pro/training-02/p006-img1.png)
+
+![Image p6](../../assets/images/ce-pro/training-02/p006-img2.png)
 ✓ Field measurements
 ✓ Network coverage
 ✓ Network data
@@ -103,6 +93,9 @@ Project > Save Project/Save Project As
 
 ![Image p7](../../assets/images/ce-pro/training-02/p007-img2.png)
 
+---
+
+Cellular Expert Project Structure
 
 ![Image p8](../../assets/images/ce-pro/training-02/p008-img1.png)
 
@@ -111,7 +104,17 @@ Project > Save Project/Save Project As
 ![Image p8](../../assets/images/ce-pro/training-02/p008-img3.png)
 
 ![Image p8](../../assets/images/ce-pro/training-02/p008-img4.png)
+- Predictions
+- Results
+- SystemFiles
+- Temp
+- VolatileResults
+- VolatileTemp
+- Workspace.gdb
+
 ---
+
+Workspace database files
 
 ![Image p9](../../assets/images/ce-pro/training-02/p009-img1.png)
 
@@ -123,14 +126,18 @@ Project > Save Project/Save Project As
 ![Image p10](../../assets/images/ce-pro/training-02/p010-img2.png)
 
 ![Image p10](../../assets/images/ce-pro/training-02/p010-img3.png)
-Cellular Expert Project Structure
+---
+
+Environment
+- Geographic data
+- Cellular Expert Workspace
 
 ![Image p11](../../assets/images/ce-pro/training-02/p011-img1.png)
 
 ![Image p11](../../assets/images/ce-pro/training-02/p011-img2.png)
 
 ![Image p11](../../assets/images/ce-pro/training-02/p011-img3.png)
-- Predictions
+- Results
 
 ![Image p14](../../assets/images/ce-pro/training-02/p014-img1.png)
 
@@ -139,7 +146,7 @@ Cellular Expert Project Structure
 ![Image p14](../../assets/images/ce-pro/training-02/p014-img3.png)
 
 ![Image p14](../../assets/images/ce-pro/training-02/p014-img4.png)
-- Results
+
 
 ![Image p15](../../assets/images/ce-pro/training-02/p015-img1.png)
 
@@ -148,44 +155,11 @@ Cellular Expert Project Structure
 ![Image p15](../../assets/images/ce-pro/training-02/p015-img3.png)
 
 ![Image p15](../../assets/images/ce-pro/training-02/p015-img4.png)
-- SystemFiles
+---
 
 ![Image p16](../../assets/images/ce-pro/training-02/p016-img1.png)
 
 ![Image p16](../../assets/images/ce-pro/training-02/p016-img2.png)
-- Temp
-
-![Image p18](../../assets/images/ce-pro/training-02/p018-img1.png)
-
-![Image p18](../../assets/images/ce-pro/training-02/p018-img2.png)
-
-![Image p18](../../assets/images/ce-pro/training-02/p018-img3.png)
-- VolatileResults
-
-![Image p19](../../assets/images/ce-pro/training-02/p019-img1.png)
-
-![Image p19](../../assets/images/ce-pro/training-02/p019-img2.png)
-
-![Image p19](../../assets/images/ce-pro/training-02/p019-img3.png)
-
-![Image p19](../../assets/images/ce-pro/training-02/p019-img4.png)
-
-![Image p19](../../assets/images/ce-pro/training-02/p019-img5.png)
-- VolatileTemp
-- Workspace.gdb
-
----
-
-Workspace database files
-
----
-
-Environment
-- Geographic data
-- Cellular Expert Workspace
-- Results
-
----
 
 Cellular Expert Workspace
 
@@ -266,6 +240,22 @@ Recommendation ITU-R P.526 (ref URL) as well as clutter losses based on Rec. ITU
 
 CE prediction models
 
+![Image p18](../../assets/images/ce-pro/training-02/p018-img1.png)
+
+![Image p18](../../assets/images/ce-pro/training-02/p018-img2.png)
+
+![Image p18](../../assets/images/ce-pro/training-02/p018-img3.png)
+
+
+![Image p19](../../assets/images/ce-pro/training-02/p019-img1.png)
+
+![Image p19](../../assets/images/ce-pro/training-02/p019-img2.png)
+
+![Image p19](../../assets/images/ce-pro/training-02/p019-img3.png)
+
+![Image p19](../../assets/images/ce-pro/training-02/p019-img4.png)
+
+![Image p19](../../assets/images/ce-pro/training-02/p019-img5.png)
 ---
 
 Other

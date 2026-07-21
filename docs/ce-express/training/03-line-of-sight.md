@@ -1,9 +1,5 @@
 # 03. Line of Sight (Profile)
 
-![Image p1](../../assets/images/ce-express/training-03/p001-img1.png)
-
-![Image p1](../../assets/images/ce-express/training-03/p001-img2.png)
-
 > **Version:** CE Express v7.2
 
 1. Objective

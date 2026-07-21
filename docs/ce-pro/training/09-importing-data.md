@@ -1,15 +1,5 @@
 # 09. Importing Data
 
-![Image p1](../../assets/images/ce-pro/training-09/p001-img1.png)
-
-![Image p1](../../assets/images/ce-pro/training-09/p001-img2.png)
-
-![Image p1](../../assets/images/ce-pro/training-09/p001-img3.png)
-
-![Image p1](../../assets/images/ce-pro/training-09/p001-img4.png)
-
-![Image p1](../../assets/images/ce-pro/training-09/p001-img5.png)
-
 > **Version:** CE Pro v4.9
 
 After import, network objects appear as feature classes in the geodatabase. View them in the **Contents** and **Catalog** panes:
@@ -22,13 +12,7 @@ Network import for CE for ArcGIS Pro
 
 ![Image p2](../../assets/images/ce-pro/training-09/p002-img2.png)
 - From:
-
-![Image p3](../../assets/images/ce-pro/training-09/p003-img1.png)
 - Excel
-
-![Image p4](../../assets/images/ce-pro/training-09/p004-img1.png)
-
-![Image p4](../../assets/images/ce-pro/training-09/p004-img2.png)
 - CSV
 - SDE table
 - To Cellular Expert Workspace:
@@ -37,7 +21,13 @@ Network import for CE for ArcGIS Pro
 ---
 
 [Network objects](#kw:object-types:ce-express-network-objects)
+
+![Image p3](../../assets/images/ce-pro/training-09/p003-img1.png)
 - Cells
+
+![Image p4](../../assets/images/ce-pro/training-09/p004-img1.png)
+
+![Image p4](../../assets/images/ce-pro/training-09/p004-img2.png)
 - Sites
 - Sites (if siteid
 parameter is
@@ -65,13 +55,11 @@ data file lacks a specific property. The same value will be applied for
 ![Image p5](../../assets/images/ce-pro/training-09/p005-img2.png)
 all imported objects.
 
-![Image p6](../../assets/images/ce-pro/training-09/p006-img1.png)
-
-
-![Image p7](../../assets/images/ce-pro/training-09/p007-img1.png)
 ---
 
 Cells: generate Cell Name
+
+![Image p6](../../assets/images/ce-pro/training-09/p006-img1.png)
 - Check option: Generate Cell Name
 - Latitude
 - Longitude
@@ -84,6 +72,8 @@ Cells: generate Cell Name
 ---
 
 Apply prediction model
+
+![Image p7](../../assets/images/ce-pro/training-09/p007-img1.png)
 - Polygon type feature class/shape file
 - ModelID and ConfigID is a must
 - Option appears when Import HCM patterns option is active.
@@ -156,16 +146,6 @@ Thank you!
 Tel.: +370 5 2150575
 Email: info@cellular-expert.com
 S.Konarskio g. 28A LT-03127 Vilnius
-
-![Image p12](../../assets/images/ce-pro/training-09/p012-img1.png)
-
-![Image p12](../../assets/images/ce-pro/training-09/p012-img2.png)
-
-![Image p12](../../assets/images/ce-pro/training-09/p012-img3.png)
-
-![Image p12](../../assets/images/ce-pro/training-09/p012-img4.png)
-
-![Image p12](../../assets/images/ce-pro/training-09/p012-img5.png)
 Lithuania
 www.cellular-expert.com
 

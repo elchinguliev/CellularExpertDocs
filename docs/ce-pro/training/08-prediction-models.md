@@ -1,18 +1,7 @@
 # 08. Prediction Models
 
-![Image p1](../../assets/images/ce-pro/training-08/p001-img1.png)
-
-![Image p1](../../assets/images/ce-pro/training-08/p001-img2.png)
-
-![Image p1](../../assets/images/ce-pro/training-08/p001-img3.png)
-
-![Image p1](../../assets/images/ce-pro/training-08/p001-img4.png)
-
-![Image p1](../../assets/images/ce-pro/training-08/p001-img5.png)
-
-
 ![Image p3](../../assets/images/ce-pro/training-08/p003-img1.png)
-> **Version:** CE Pro v4.9
+
 
 ![Image p5](../../assets/images/ce-pro/training-08/p005-img1.png)
 
@@ -23,7 +12,7 @@
 ![Image p5](../../assets/images/ce-pro/training-08/p005-img4.png)
 
 ![Image p5](../../assets/images/ce-pro/training-08/p005-img5.png)
-
+> **Version:** CE Pro v4.9
 
 ![Image p6](../../assets/images/ce-pro/training-08/p006-img1.png)
 
@@ -48,14 +37,9 @@
 ![Image p6](../../assets/images/ce-pro/training-08/p006-img11.png)
 
 ![Image p6](../../assets/images/ce-pro/training-08/p006-img12.png)
+
 Prediction model output is displayed as a coverage raster on the active map:
 
-![Image p9](../../assets/images/ce-pro/training-08/p009-img1.png)
-
-![Image p9](../../assets/images/ce-pro/training-08/p009-img2.png)
-
-
-![Image p10](../../assets/images/ce-pro/training-08/p010-img1.png)
 Select the prediction model from the contextual CE Desktop tab in the ArcGIS Pro ribbon:
 
 ---
@@ -94,6 +78,12 @@ Combination model for cellular networks. Distinguishes three radio visibility co
 
 ### Path Loss Equation (LOS / OLOS)
 
+![Image p9](../../assets/images/ce-pro/training-08/p009-img1.png)
+
+![Image p9](../../assets/images/ce-pro/training-08/p009-img2.png)
+
+
+![Image p10](../../assets/images/ce-pro/training-08/p010-img1.png)
 ```
 L = K_off + K_LogD × log(d) + K_LogF × log(f)
 ```
@@ -122,41 +112,13 @@ Estimated per **ITU-R P.2108** — Method 1: clutter shadowing loss with diffrac
 
 ![Image p12](../../assets/images/ce-pro/training-08/p012-img2.png)
 
-![Image p35](../../assets/images/ce-pro/training-08/p035-img1.png)
-
-![Image p35](../../assets/images/ce-pro/training-08/p035-img2.png)
-
-
-![Image p14](../../assets/images/ce-pro/training-08/p014-img1.png)
 Solid obstacle (building) diffraction uses **Single Knife Edge (SKE)** per ITU-R P.526:
 
-![Image p15](../../assets/images/ce-pro/training-08/p015-img1.png)
-
-
-![Image p18](../../assets/images/ce-pro/training-08/p018-img1.png)
 ```
-
-![Image p21](../../assets/images/ce-pro/training-08/p021-img1.png)
 Tx ---d1--- [obstacle h > 0] ---d2--- Rx
-
-![Image p24](../../assets/images/ce-pro/training-08/p024-img1.png)
 ```
 
-![Image p32](../../assets/images/ce-pro/training-08/p032-img1.png)
-
-
-![Image p33](../../assets/images/ce-pro/training-08/p033-img1.png)
 ### Penetration Loss (Outdoor → Indoor) — 3GPP TR 38.901
-
-![Image p38](../../assets/images/ce-pro/training-08/p038-img1.png)
-
-![Image p38](../../assets/images/ce-pro/training-08/p038-img2.png)
-
-![Image p38](../../assets/images/ce-pro/training-08/p038-img3.png)
-
-![Image p38](../../assets/images/ce-pro/training-08/p038-img4.png)
-
-![Image p38](../../assets/images/ce-pro/training-08/p038-img5.png)
 
 **Low-loss BEL Model** (traditional buildings):
 ```
@@ -235,12 +197,30 @@ Ground wave propagation for HF/VHF broadcast and land mobile systems.
 
 ## Prediction Model Manager
 
+![Image p14](../../assets/images/ce-pro/training-08/p014-img1.png)
+
+
+![Image p15](../../assets/images/ce-pro/training-08/p015-img1.png)
 Navigate to: **Cellular Expert tab → Prediction Model Manager**
 
+![Image p18](../../assets/images/ce-pro/training-08/p018-img1.png)
+
+
+![Image p21](../../assets/images/ce-pro/training-08/p021-img1.png)
 - The **Default** model cannot be deleted
+
+![Image p24](../../assets/images/ce-pro/training-08/p024-img1.png)
 - New models copy parameters from Default as a starting point
+
+![Image p32](../../assets/images/ce-pro/training-08/p032-img1.png)
 - Each model can be independently calibrated per environment
 
+![Image p33](../../assets/images/ce-pro/training-08/p033-img1.png)
+
+
+![Image p35](../../assets/images/ce-pro/training-08/p035-img1.png)
+
+![Image p35](../../assets/images/ce-pro/training-08/p035-img2.png)
 ---
 
 ## Required Input Data

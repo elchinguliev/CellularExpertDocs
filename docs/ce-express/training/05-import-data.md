@@ -1,9 +1,5 @@
 # 05. Import Data
 
-![Image p1](../../assets/images/ce-express/training-05/p001-img1.png)
-
-![Image p1](../../assets/images/ce-express/training-05/p001-img2.png)
-
 > **Version:** CE Express v7.2
 
 1. Objective
@@ -198,12 +194,12 @@ Verifying antenna data ensures it is ready for assignment to cells and use in pr
 
 ![Image p10](../../assets/images/ce-express/training-05/p010-img3.png)
 
-
-![Image p11](../../assets/images/ce-express/training-05/p011-img1.png)
 ---
 
 3. Close the Antennas tool.
 5. Summary and Key Takeaways
+
+![Image p11](../../assets/images/ce-express/training-05/p011-img1.png)
 - Data import enables rapid population of workspaces using external datasets
 - CSV import with explicit mapping ensures correct parameter assignment
 - Mapping templates provide repeatability and consistency

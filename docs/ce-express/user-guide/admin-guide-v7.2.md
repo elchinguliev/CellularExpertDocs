@@ -1,12 +1,12 @@
 # CE Express Administrator Guide v7.2
 
-![Image p1](../../assets/images/ce-express/admin-guide-v72/p001-img1.png)
-
-![Image p1](../../assets/images/ce-express/admin-guide-v72/p001-img2.png)
-
 > **Version:** CE Express v7.2
 
 Cellular Expert Express Administrator Guide 7.2
+
+![Image p1](../../assets/images/ce-express/admin-guide-v72/p001-img1.png)
+
+![Image p1](../../assets/images/ce-express/admin-guide-v72/p001-img2.png)
 
 ![Image p4](../../assets/images/ce-express/admin-guide-v72/p004-img1.png)
 

@@ -1,15 +1,5 @@
 # CE Desktop Indoor User Guide
 
-![Image p1](../assets/images/ce-pro/indoor-guide/p001-img1.png)
-
-![Image p1](../assets/images/ce-pro/indoor-guide/p001-img2.png)
-
-![Image p1](../assets/images/ce-pro/indoor-guide/p001-img3.png)
-
-
-![Image p5](../assets/images/ce-pro/indoor-guide/p005-img1.png)
-
-![Image p5](../assets/images/ce-pro/indoor-guide/p005-img2.png)
 > **Version:** CE Pro v4.9
 
 ## 1. Software Purpose and Functionality
@@ -2798,11 +2788,11 @@ Results:
 ![Image p139](../assets/images/ce-pro/indoor-guide/p139-img2.png)
 • Clearance in meters
 
+• Best Server
+
 ![Image p140](../assets/images/ce-pro/indoor-guide/p140-img1.png)
 
 ![Image p140](../assets/images/ce-pro/indoor-guide/p140-img2.png)
-
-• Best Server
 
 ## 10. About
 

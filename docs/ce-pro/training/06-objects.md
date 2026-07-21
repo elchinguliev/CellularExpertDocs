@@ -1,45 +1,9 @@
 # 06. Creating Objects
 
-![Image p1](../../assets/images/ce-pro/training-06/p001-img1.png)
-
-![Image p1](../../assets/images/ce-pro/training-06/p001-img2.png)
-
-![Image p1](../../assets/images/ce-pro/training-06/p001-img3.png)
-
-![Image p1](../../assets/images/ce-pro/training-06/p001-img4.png)
-
-![Image p1](../../assets/images/ce-pro/training-06/p001-img5.png)
-
-
-![Image p2](../../assets/images/ce-pro/training-06/p002-img1.png)
 > **Version:** CE Pro v4.9
 
-![Image p3](../../assets/images/ce-pro/training-06/p003-img1.png)
-
-![Image p3](../../assets/images/ce-pro/training-06/p003-img2.png)
-
-
-![Image p4](../../assets/images/ce-pro/training-06/p004-img1.png)
-
-![Image p4](../../assets/images/ce-pro/training-06/p004-img2.png)
-
-![Image p4](../../assets/images/ce-pro/training-06/p004-img3.png)
-
-![Image p4](../../assets/images/ce-pro/training-06/p004-img4.png)
 > **Version:** CE Pro v4.9
 
-![Image p6](../../assets/images/ce-pro/training-06/p006-img1.png)
-
-
-![Image p9](../../assets/images/ce-pro/training-06/p009-img1.png)
-
-![Image p9](../../assets/images/ce-pro/training-06/p009-img2.png)
-
-![Image p9](../../assets/images/ce-pro/training-06/p009-img3.png)
-
-![Image p9](../../assets/images/ce-pro/training-06/p009-img4.png)
-
-![Image p9](../../assets/images/ce-pro/training-06/p009-img5.png)
 ## Overview
 
 CE Pro objects (Cells, Sites, Links, etc.) are stored as feature classes in the Workspace geodatabase. You can create them in three ways: import from file, create manually on the map, or duplicate existing objects.
@@ -166,4 +130,20 @@ See `C:\CE_Course\0. Descriptions\2. Import.pdf` for the full field mapping refe
 
 **Exercise:** `C:\CE_Course\0. Descriptions\3. Create Objects.pdf`
 
+![Image p2](../../assets/images/ce-pro/training-06/p002-img1.png)
+
+
+![Image p3](../../assets/images/ce-pro/training-06/p003-img1.png)
+
+![Image p3](../../assets/images/ce-pro/training-06/p003-img2.png)
 **Contact:** info@cellular-expert.com | +370 5 2150575 | www.cellular-expert.com
+
+![Image p4](../../assets/images/ce-pro/training-06/p004-img1.png)
+
+![Image p4](../../assets/images/ce-pro/training-06/p004-img2.png)
+
+![Image p4](../../assets/images/ce-pro/training-06/p004-img3.png)
+
+![Image p4](../../assets/images/ce-pro/training-06/p004-img4.png)
+
+![Image p6](../../assets/images/ce-pro/training-06/p006-img1.png)

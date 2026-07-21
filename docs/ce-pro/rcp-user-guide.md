@@ -1,15 +1,5 @@
 # CE Desktop RCP User Guide
 
-![Image p1](../assets/images/ce-pro/rcp-guide/p001-img1.png)
-
-![Image p1](../assets/images/ce-pro/rcp-guide/p001-img2.png)
-
-![Image p1](../assets/images/ce-pro/rcp-guide/p001-img3.png)
-
-
-![Image p5](../assets/images/ce-pro/rcp-guide/p005-img1.png)
-
-![Image p5](../assets/images/ce-pro/rcp-guide/p005-img2.png)
 > **Version:** CE Pro v4.9
 
 ## 1. Software Purpose and Functionality
@@ -3568,13 +3558,13 @@ dB.
 
 ![Image p178](../assets/images/ce-pro/rcp-guide/p178-img2.png)
 • Uplink SINR raster in dB
+• Uplink CQI identification.
+
+• Uplink Throughput in Mbps
 
 ![Image p179](../assets/images/ce-pro/rcp-guide/p179-img1.png)
 
 ![Image p179](../assets/images/ce-pro/rcp-guide/p179-img2.png)
-• Uplink CQI identification.
-
-• Uplink Throughput in Mbps
 
 #### 9.3.4 Broadband 5G (NR/CBRS)
 Resolution
@@ -3690,14 +3680,14 @@ dB.
 ![Image p187](../assets/images/ce-pro/rcp-guide/p187-img2.png)
 • Uplink SINR raster in dB
 
+• Uplink CQI identification.
+
 ![Image p188](../assets/images/ce-pro/rcp-guide/p188-img1.png)
 
 ![Image p188](../assets/images/ce-pro/rcp-guide/p188-img2.png)
-
+• Uplink Throughput in Mbps
 
 ![Image p189](../assets/images/ce-pro/rcp-guide/p189-img1.png)
-• Uplink CQI identification.
-• Uplink Throughput in Mbps
 
 #### 9.3.5 WiFi
 Resolution
@@ -3810,8 +3800,6 @@ When the Quick Prediction button is pressed, a map tool will be activated which 
 
 ![Image p195](../assets/images/ce-pro/rcp-guide/p195-img1.png)
 on the map. Upon selecting this point and pressing the Calculate button, a visual representation of the
-
-![Image p197](../assets/images/ce-pro/rcp-guide/p197-img1.png)
 calculation will be rendered on the map and the relevant data presented in the CE Calculation Task List.
 D
 Quick Prediction Parameters
@@ -3857,6 +3845,8 @@ Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
 
 Results:
 • Field Strength raster in dBm
+
+![Image p197](../assets/images/ce-pro/rcp-guide/p197-img1.png)
 
 ### 9.6 Radar Prediction
 Click the button to open the Radar Prediction dialogue.
@@ -3931,11 +3921,11 @@ Results:
 ![Image p201](../assets/images/ce-pro/rcp-guide/p201-img2.png)
 • Clearance in meters
 
+• Best Server
+
 ![Image p202](../assets/images/ce-pro/rcp-guide/p202-img1.png)
 
 ![Image p202](../assets/images/ce-pro/rcp-guide/p202-img2.png)
-
-• Best Server
 
 ### 9.8 Compare Predictions
 Compare Predictions is a tool that lets you compare the results of RF predictions with different parameters.
@@ -3993,12 +3983,12 @@ Optimal Site Positions is a tool that lets the user find optimal positions for a
 
 ![Image p206](../assets/images/ce-pro/rcp-guide/p206-img2.png)
 parameters. The prediction produces two rasters:
+• Covered Points – defines what number of points are covered in a certain pixel
+• Coverage Percentage – the percentage by which the pixel is covered. Meaning that 100% is a fully
 
 ![Image p208](../assets/images/ce-pro/rcp-guide/p208-img1.png)
 
 ![Image p208](../assets/images/ce-pro/rcp-guide/p208-img2.png)
-• Covered Points – defines what number of points are covered in a certain pixel
-• Coverage Percentage – the percentage by which the pixel is covered. Meaning that 100% is a fully
 covered point
 Click the button to open the Optimal Site Positions dialogue.
 

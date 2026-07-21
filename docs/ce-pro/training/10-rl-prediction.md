@@ -1,77 +1,25 @@
 # 10. RL / Microwave Link Prediction
 
-![Image p1](../../assets/images/ce-pro/training-10/p001-img1.png)
-
-![Image p1](../../assets/images/ce-pro/training-10/p001-img2.png)
-
-![Image p1](../../assets/images/ce-pro/training-10/p001-img3.png)
-
-![Image p1](../../assets/images/ce-pro/training-10/p001-img4.png)
-
-![Image p1](../../assets/images/ce-pro/training-10/p001-img5.png)
-
-
 ![Image p3](../../assets/images/ce-pro/training-10/p003-img1.png)
-> **Version:** CE Pro v4.9
+
 
 ![Image p4](../../assets/images/ce-pro/training-10/p004-img1.png)
 
 ![Image p4](../../assets/images/ce-pro/training-10/p004-img2.png)
 
 ![Image p4](../../assets/images/ce-pro/training-10/p004-img3.png)
+> **Version:** CE Pro v4.9
 
-
-![Image p5](../../assets/images/ce-pro/training-10/p005-img1.png)
 ## Overview
 
-![Image p6](../../assets/images/ce-pro/training-10/p006-img1.png)
-
-
-![Image p7](../../assets/images/ce-pro/training-10/p007-img1.png)
 RL and MW link paths and prediction results are displayed on the active map view:
 
-![Image p8](../../assets/images/ce-pro/training-10/p008-img1.png)
-
-
-![Image p9](../../assets/images/ce-pro/training-10/p009-img1.png)
-
-![Image p9](../../assets/images/ce-pro/training-10/p009-img2.png)
 For RL planning, arrange your ArcGIS Pro panes to keep the map, Contents, and CE Pro pane all visible at once:
 
-![Image p10](../../assets/images/ce-pro/training-10/p010-img1.png)
-
-
-![Image p11](../../assets/images/ce-pro/training-10/p011-img1.png)
 ---
 
-![Image p12](../../assets/images/ce-pro/training-10/p012-img1.png)
-
-
-![Image p13](../../assets/images/ce-pro/training-10/p013-img1.png)
-
-![Image p13](../../assets/images/ce-pro/training-10/p013-img2.png)
-
-![Image p13](../../assets/images/ce-pro/training-10/p013-img3.png)
-
-![Image p13](../../assets/images/ce-pro/training-10/p013-img4.png)
-
-![Image p13](../../assets/images/ce-pro/training-10/p013-img5.png)
 CE Pro includes a full **Radio Link (RL) / Microwave planning** module for fixed point-to-point links. It covers power budget calculation, interference analysis, and geoclimatic availability.
 
-![Image p14](../../assets/images/ce-pro/training-10/p014-img1.png)
-
-![Image p14](../../assets/images/ce-pro/training-10/p014-img2.png)
-
-
-![Image p16](../../assets/images/ce-pro/training-10/p016-img1.png)
-
-![Image p16](../../assets/images/ce-pro/training-10/p016-img2.png)
-
-![Image p16](../../assets/images/ce-pro/training-10/p016-img3.png)
-
-![Image p16](../../assets/images/ce-pro/training-10/p016-img4.png)
-
-![Image p16](../../assets/images/ce-pro/training-10/p016-img5.png)
 ---
 
 ## Equipment Library
@@ -83,11 +31,19 @@ Before planning links, set up the equipment library:
 | **Antennas → Parabolic** | Parabolic dish antenna patterns |
 | **Radio Models** | Tx/Rx equipment specs (power, sensitivity, modulations) |
 | **Frequency Plans** | Channel plans and duplex spacing |
+
+![Image p5](../../assets/images/ce-pro/training-10/p005-img1.png)
 | **Spectrum Mask** | Out-of-band emission masks for interference checks |
+
+![Image p6](../../assets/images/ce-pro/training-10/p006-img1.png)
 
 ---
 
 ## Transmission Network
+
+![Image p7](../../assets/images/ce-pro/training-10/p007-img1.png)
+
+![Image p8](../../assets/images/ce-pro/training-10/p008-img1.png)
 
 A transmission network in CE Pro is a collection of microwave links connecting sites. Links are drawn on the map between two site objects.
 
@@ -95,10 +51,34 @@ A transmission network in CE Pro is a collection of microwave links connecting s
 
 ## Microwave Link Planning
 
+![Image p9](../../assets/images/ce-pro/training-10/p009-img1.png)
+
+![Image p9](../../assets/images/ce-pro/training-10/p009-img2.png)
+
+
+![Image p10](../../assets/images/ce-pro/training-10/p010-img1.png)
 Each link provides the following analysis:
 
+![Image p11](../../assets/images/ce-pro/training-10/p011-img1.png)
+
+
+![Image p12](../../assets/images/ce-pro/training-10/p012-img1.png)
 ### Power Budget
 
+![Image p13](../../assets/images/ce-pro/training-10/p013-img1.png)
+
+![Image p13](../../assets/images/ce-pro/training-10/p013-img2.png)
+
+![Image p13](../../assets/images/ce-pro/training-10/p013-img3.png)
+
+![Image p13](../../assets/images/ce-pro/training-10/p013-img4.png)
+
+![Image p13](../../assets/images/ce-pro/training-10/p013-img5.png)
+
+
+![Image p14](../../assets/images/ce-pro/training-10/p014-img1.png)
+
+![Image p14](../../assets/images/ce-pro/training-10/p014-img2.png)
 The received signal level (RSL) at each end of the link:
 
 ```

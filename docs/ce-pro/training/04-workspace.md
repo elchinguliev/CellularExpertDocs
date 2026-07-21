@@ -1,67 +1,21 @@
 # 04. Creating Workspace
 
-![Image p1](../../assets/images/ce-pro/training-04/p001-img1.png)
-
-![Image p1](../../assets/images/ce-pro/training-04/p001-img2.png)
-
-![Image p1](../../assets/images/ce-pro/training-04/p001-img3.png)
-
-![Image p1](../../assets/images/ce-pro/training-04/p001-img4.png)
-
-![Image p1](../../assets/images/ce-pro/training-04/p001-img5.png)
-
-
 ![Image p2](../../assets/images/ce-pro/training-04/p002-img1.png)
-> **Version:** CE Pro v4.9
+
 
 ![Image p3](../../assets/images/ce-pro/training-04/p003-img1.png)
 
 ![Image p3](../../assets/images/ce-pro/training-04/p003-img2.png)
 
 ![Image p3](../../assets/images/ce-pro/training-04/p003-img3.png)
-
-
-![Image p4](../../assets/images/ce-pro/training-04/p004-img1.png)
-
-![Image p4](../../assets/images/ce-pro/training-04/p004-img2.png)
-
-![Image p4](../../assets/images/ce-pro/training-04/p004-img3.png)
 > **Version:** CE Pro v4.9
 
-![Image p5](../../assets/images/ce-pro/training-04/p005-img1.png)
+> **Version:** CE Pro v4.9
 
-![Image p5](../../assets/images/ce-pro/training-04/p005-img2.png)
-
-![Image p5](../../assets/images/ce-pro/training-04/p005-img3.png)
-
-![Image p5](../../assets/images/ce-pro/training-04/p005-img4.png)
-
-
-![Image p6](../../assets/images/ce-pro/training-04/p006-img1.png)
 ## What Is a Workspace?
 
-![Image p7](../../assets/images/ce-pro/training-04/p007-img1.png)
-
-
-![Image p8](../../assets/images/ce-pro/training-04/p008-img1.png)
 A CE Pro Workspace is a geodatabase (`.gdb`) that stores all project data — cells, sites, antennas, links, and prediction results. Every CE Pro project must have one workspace before any RF work can begin.
 
-![Image p9](../../assets/images/ce-pro/training-04/p009-img1.png)
-
-![Image p9](../../assets/images/ce-pro/training-04/p009-img2.png)
-
-![Image p9](../../assets/images/ce-pro/training-04/p009-img3.png)
-
-
-![Image p11](../../assets/images/ce-pro/training-04/p011-img1.png)
-
-![Image p11](../../assets/images/ce-pro/training-04/p011-img2.png)
-
-![Image p11](../../assets/images/ce-pro/training-04/p011-img3.png)
-
-![Image p11](../../assets/images/ce-pro/training-04/p011-img4.png)
-
-![Image p11](../../assets/images/ce-pro/training-04/p011-img5.png)
 ---
 
 ## CE Tools State
@@ -83,6 +37,12 @@ When ArcGIS Pro opens, the start page lets you create a new project or open an e
 1. Open ArcGIS Pro and add a **Map** or **Local Scene** to your project
 2. Click the **CE Desktop** tab in the ribbon
 3. Click **Create Workspace**
+
+![Image p4](../../assets/images/ce-pro/training-04/p004-img1.png)
+
+![Image p4](../../assets/images/ce-pro/training-04/p004-img2.png)
+
+![Image p4](../../assets/images/ce-pro/training-04/p004-img3.png)
 4. Fill in the required fields:
 
 | Field | Description |
@@ -97,6 +57,14 @@ When ArcGIS Pro opens, the start page lets you create a new project or open an e
 ---
 
 ## Cellular Expert Project Structure
+
+![Image p5](../../assets/images/ce-pro/training-04/p005-img1.png)
+
+![Image p5](../../assets/images/ce-pro/training-04/p005-img2.png)
+
+![Image p5](../../assets/images/ce-pro/training-04/p005-img3.png)
+
+![Image p5](../../assets/images/ce-pro/training-04/p005-img4.png)
 
 After creation, the workspace folder contains:
 
@@ -115,6 +83,10 @@ MyProject/
 
 ## Cellular Expert Dataset Objects
 
+![Image p6](../../assets/images/ce-pro/training-04/p006-img1.png)
+
+
+![Image p7](../../assets/images/ce-pro/training-04/p007-img1.png)
 The `Workspace.gdb` contains the following feature classes:
 
 | Object | Description |
@@ -142,6 +114,8 @@ If you move the geodata folder or the workspace after creation:
 
 ## Project Settings and Rounding
 
+![Image p8](../../assets/images/ce-pro/training-04/p008-img1.png)
+
 Under **CE Desktop → Workspace → Project Settings** you can configure:
 
 - Coordinate display format (decimal degrees vs projected metres)
@@ -152,6 +126,12 @@ Under **CE Desktop → Workspace → Project Settings** you can configure:
 ---
 
 ## Workspace Upgrade
+
+![Image p9](../../assets/images/ce-pro/training-04/p009-img1.png)
+
+![Image p9](../../assets/images/ce-pro/training-04/p009-img2.png)
+
+![Image p9](../../assets/images/ce-pro/training-04/p009-img3.png)
 
 When you open a workspace created with an older CE version, CE Pro will detect a schema mismatch and prompt an upgrade:
 

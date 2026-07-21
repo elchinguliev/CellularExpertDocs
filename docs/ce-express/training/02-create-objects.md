@@ -1,9 +1,5 @@
 # 02. Create Objects
 
-![Image p1](../../assets/images/ce-express/training-02/p001-img1.png)
-
-![Image p1](../../assets/images/ce-express/training-02/p001-img2.png)
-
 > **Version:** CE Express v7.2
 
 1. Objective
@@ -292,10 +288,6 @@ technical users.
 
 ![Image p16](../../assets/images/ce-express/training-02/p016-img2.png)
 Well-designed symbology helps to:
-
-![Image p17](../../assets/images/ce-express/training-02/p017-img1.png)
-
-![Image p17](../../assets/images/ce-express/training-02/p017-img2.png)
 - Distinguish between technologies and frequency layers
 - Improve map readability in dense areas
 - Support presentations, reviews, and decision-making
@@ -322,5 +314,9 @@ Define:
 
 Press Accept button.
 Cells symbology will be updated
+
+![Image p17](../../assets/images/ce-express/training-02/p017-img1.png)
+
+![Image p17](../../assets/images/ce-express/training-02/p017-img2.png)
 
 ---

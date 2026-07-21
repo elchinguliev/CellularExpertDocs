@@ -1,14 +1,10 @@
 # CE Express User Guide v7.3
 
-![Image p1](../../assets/images/ce-express/user-guide-v73/p001-img1.png)
-
 > **Version:** CE Express v7.2
 
 Cellular Expert Express User Guide 7.3
 
 ![Image p6](../../assets/images/ce-express/user-guide-v73/p006-img1.png)
-
-![Image p6](../../assets/images/ce-express/user-guide-v73/p006-img2.png)
 Table of Contents
 1. Introduction 7
 2. CE Express application 7

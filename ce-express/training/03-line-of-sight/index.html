@@ -1,0 +1,2426 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Official documentation for CE Express, CE Pro, and Inventory3D">
+      
+      
+        <meta name="author" content="Cellular Expert UAB">
+      
+      
+        <link rel="canonical" href="https://elchinguliev.github.io/CellularExpertDocs/ce-express/training/03-line-of-sight/">
+      
+      
+        <link rel="prev" href="../02-create-objects/">
+      
+      
+        <link rel="next" href="../04-rf-prediction/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>03. Line of Sight - Cellular Expert Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#03-line-of-sight-profile" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Cellular Expert Documentation" class="md-header__button md-logo" aria-label="Cellular Expert Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cellular Expert Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              03. Line of Sight
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../index.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../overview.md" class="md-tabs__link">
+          
+  
+  
+  CE Express
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../ce-pro/rcp-user-guide/" class="md-tabs__link">
+          
+  
+  
+  CE Pro
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../inventory3d/user-guide/" class="md-tabs__link">
+          
+  
+  
+  Inventory3D
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../geodata/geodata-requirements/" class="md-tabs__link">
+          
+  
+  
+  Geodata
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Cellular Expert Documentation" class="md-nav__button md-logo" aria-label="Cellular Expert Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Cellular Expert Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CE Express
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CE Express
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../login.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Login Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../workspace.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../network-objects.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Network Objects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../antenna-patterns.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Antenna Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rf-prediction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RF Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../profile-tool.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Path Profile & LOS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../street-view.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Street View
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../geodata.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geodata & Rasters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_10" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_10" id="__nav_2_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Training
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_10_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Training
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-creating-workspace/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01. Creating Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-create-objects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02. Create Objects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03. Line of Sight
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03. Line of Sight
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#41-step-1-open-the-workspace" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Step 1 – Open the Workspace
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#42-step-2-profiling-point-to-point-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Step 2 – Profiling (Point-to-Point Analysis)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#43-step-3-visibility-prediction-point-to-area-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 Step 3 – Visibility Prediction (Point-to-Area Analysis)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#44-step-5-combining-profile-and-visibility-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4 Step 5 – Combining Profile and Visibility Analysis
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-rf-prediction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04. RF Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-import-data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05. Import Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-prediction-models/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06. Prediction Models
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-mw-equipment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07. MW Equipment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-mw-prediction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08. MW Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09-preparing-geodata/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09. Preparing Geodata
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_11" id="__nav_2_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guides
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    User Guides
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/user-guide-v7.3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guide v7.3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/admin-guide-v7.2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Administrator Guide v7.2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/admin-guide-only-v7.2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Admin Guide (Express Only)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CE Pro
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CE Pro
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/rcp-user-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RCP User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/rlp-user-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RLP User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/emf-user-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EMF User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/sound-user-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sound User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/indoor-user-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Indoor User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Training
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Training
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/training/00-installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    00. Installation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/training/01-data-types/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01. Data Types
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/training/02-architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02. Architecture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/training/03-agenda/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03. Agenda
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/training/04-workspace/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04. Creating Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/training/05-line-of-sight/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05. Line of Sight
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/training/06-objects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06. Creating Objects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/training/07-cell-prediction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07. Cell Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/training/08-prediction-models/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08. Prediction Models
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/training/09-importing-data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09. Importing Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/training/10-rl-prediction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10. RL Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventory3D
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Inventory3D
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inventory3d/user-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guide v4.6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geodata
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Geodata
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../geodata/geodata-requirements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geodata Requirements 2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../geodata/network-objects-requirements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Network Objects Requirements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="03-line-of-sight-profile">03. Line of Sight (Profile)</h1>
+<blockquote>
+<p><strong>Version:</strong> CE Express v7.2</p>
+</blockquote>
+<ol>
+<li>Objective
+This module introduces <a href="#kw:running-a-profile:ce-express-profile">Line of Sight</a> (LOS) and visibility analysis in CE Express. It
+demonstrates how to use <a href="#kw:42-step-2-profiling-pointtopoint-analysis:none">profiling</a> and visibility tools to evaluate spatial conditions between
+transmitters, receivers, terrain, vegetation, and buildings.
+The goal is to help participants build confidence in:</li>
+<li>Setting up correct analysis inputs (transmitter/receiver locations and key parameters)</li>
+<li>Interpreting graphical and numerical outputs</li>
+<li>Converting results into practical conclusions that support planning, feasibility
+assessment, and reporting
+By the end of this exercise, participants will be able to:</li>
+<li>Analyze <a href="#kw:running-a-profile:ce-express-profile">line-of-sight</a> conditions between two locations</li>
+<li>Interpret profile results and obstruction indicators</li>
+<li>Perform area-based visibility analysis</li>
+<li>Understand and visualize visibility results for decision support</li>
+<li>Initial data
+This exercise assumes a prepared workspace containing:</li>
+<li><a href="#kw:object-types:ce-express-network-objects">Network objects</a> created in the previous exercise</li>
+<li>Loaded geodata (terrain, obstacles and <a href="#kw:clutter-classification-values:ce-express-geodata">clutter</a>)</li>
+<li>Defined equipment and calculation <a href="#kw:31-models:ce-express-tr-models">models</a></li>
+<li>
+<p>Understanding <a href="#kw:running-a-profile:ce-express-profile">Line of Sight</a> and Visibility
+<a href="#kw:running-a-profile:ce-express-profile">Line of Sight</a> (LOS) describes whether a direct, unobstructed path exists between a
+transmitter and a receiver. Visibility analysis extends this concept by evaluating how terrain,
+vegetation, buildings, and other obstacles influence connectivity across space.
+Understanding LOS and visibility is important because it helps answer fundamental questions
+such as:</p>
+</li>
+<li>
+<p>Can two locations reliably communicate with each other?</p>
+</li>
+<li>What physical obstacles limit or block visibility?</li>
+<li>How do height, distance, and environment affect feasibility?</li>
+<li>Where are favorable and unfavorable areas for connectivity or observation?
+LOS and visibility analysis is widely applicable in many scenarios, including:</li>
+<li>Feasibility studies – determining whether a connection or observation path is
+possible before deployment</li>
+<li>Site selection and placement – identifying locations with the best visibility
+characteristics</li>
+<li>Operational planning – understanding terrain and obstruction impact on
+communication or sensing</li>
+<li>Risk and constraint assessment – recognizing areas where obstacles significantly
+limit performance
+In CE Express, LOS and visibility analysis are supported by two complementary tools:</li>
+<li><a href="#kw:when-to-use-the-profile-tool:ce-express-profile">Profile Tool</a> – analyzes visibility along a single path (point-to-point)</li>
+<li><a href="#kw:43-step-3-visibility-prediction-pointtoarea-analysis:none">Visibility Prediction</a> Tool – analyzes visibility across an area (point-to-area)
+Together, these tools help users move from simple visual checks to structured, data-driven
+assessment of spatial conditions.
+Both tools rely on:</li>
+<li>Terrain elevation</li>
+<li>Vegetation and <a href="#kw:clutter-classification-values:ce-express-geodata">clutter</a></li>
+<li>Buildings and structures</li>
+<li>
+<p>Equipment and configuration parameters (such as height and frequency)
+By combining detailed profiles with area-wide visibility results, users gain a clear and intuitive
+understanding of how the environment influences connectivity and visibility.</p>
+</li>
+<li>
+<p>Exercise</p>
+</li>
+</ol>
+<h2 id="41-step-1-open-the-workspace">4.1 Step 1 – Open the Workspace</h2>
+<ol>
+<li>Open the CE Express application:
+https://cecom2.cellular-expert.com/ce_express/</li>
+<li>From the workspace list, select the workspace used in the previous exercise.</li>
+</ol>
+<p><img alt="Image p4" src="../../../assets/images/ce-express/training-03/p004-img1.png" /></p>
+<p><img alt="Image p4" src="../../../assets/images/ce-express/training-03/p004-img2.png" /></p>
+<h2 id="42-step-2-profiling-point-to-point-analysis">4.2 Step 2 – Profiling (Point-to-Point Analysis)</h2>
+<p>4.2.1 Selecting the Transmitter and Receiver
+1. Find the cell with Cell Name: Cx002.
+2. Zoom to its location on the map.
+3. Open the <a href="#kw:when-to-use-the-profile-tool:ce-express-profile">Profile tool</a>.</p>
+<p>To define the transmitter:
+- Hold the Ctrl key
+- Click on Cx002 on the map
+To define the receiver location:
+- Enter coordinates manually:
+o X: 25.233984785
+o Y: 54.735268085
+The profile view and calculated results are displayed immediately.
+The graphical profile shows terrain, obstacles, and the signal path between the two points.
+Color indicators:
+- Green – Clear line of sight
+- Yellow – Obstruction caused by vegetation
+- Red – Obstruction caused by terrain or buildings
+This visual representation allows quick assessment of whether visibility can be established.</p>
+<p><img alt="Image p5" src="../../../assets/images/ce-express/training-03/p005-img1.png" />
+4.2.2 Exploring Profile Calculation Tabs
+The <a href="#kw:when-to-use-the-profile-tool:ce-express-profile">Profile tool</a> provides several result sections:</p>
+<ul>
+<li>General – Summary of path characteristics</li>
+<li>Power Budget – Transmit and receive power balance</li>
+<li>Path Loss – Signal attenuation along the path</li>
+<li>Angles – Vertical and horizontal angles between points
+Each tab offers additional context for understanding the profile outcome.
+4.2.3 Exploring Parameter Sensitivity
+Parameter sensitivity analysis helps users understand how changes in input values influence
+visibility results. Instead of treating calculations as fixed outcomes, this step encourages</li>
+</ul>
+<p><img alt="Image p6" src="../../../assets/images/ce-express/training-03/p006-img1.png" /></p>
+<p><img alt="Image p6" src="../../../assets/images/ce-express/training-03/p006-img2.png" /></p>
+<p><img alt="Image p6" src="../../../assets/images/ce-express/training-03/p006-img3.png" />
+exploration and comparison, making it easier to understand cause-and-effect relationships.
+In CE Express, the Profile tool recalculates results automatically and instantly when key
+parameters are modified. This allows users to test different scenarios without repeating the
+setup process.
+4.2.3.1 Transmitter Power
+- Increase Transmitter Power from 40 to 43
+- Observe how signal-related results are updated automatically
+Changing transmitter power helps illustrate how stronger or weaker signals affect the
+overall path conditions and calculated results.</p>
+<p>4.2.3.2 Receiver and Transmitter Heights
+- Change Receiver Height from 2 to 20
+Height is one of the most influential parameters in visibility analysis. Increasing height can:</p>
+<p><img alt="Image p7" src="../../../assets/images/ce-express/training-03/p007-img1.png" /></p>
+<p><img alt="Image p7" src="../../../assets/images/ce-express/training-03/p007-img2.png" />
+- Reduce the impact of terrain and obstacles
+- Improve clearance over buildings or vegetation
+- Change the visibility status from obstructed to visible
+This step helps users understand why height selection is critical in many real-world
+scenarios.</p>
+<p>4.2.3.3 Frequency
+- Change Frequency from 1800 to 700
+Different frequencies interact with the environment in different ways. Lower frequencies</p>
+<p><img alt="Image p8" src="../../../assets/images/ce-express/training-03/p008-img1.png" /></p>
+<p><img alt="Image p8" src="../../../assets/images/ce-express/training-03/p008-img2.png" />
+generally:
+- Are less sensitive to small obstacles
+- Provide better diffraction over terrain
+- Result in different clearance and path characteristics
+Observing these changes helps users understand how frequency choice affects visibility
+outcomes.
+4.2.3.4 Other parameters
+Experiment with additional parameters available in the Profile tool, such as:
+- Antenna orientation and angles
+- Environmental or model-related settings
+As parameters are modified, the profile updates immediately, allowing users to:
+- <a href="#kw:98-compare-predictions:ce-pro-rcp">Compare</a> scenarios side by side
+- Identify which parameters have the strongest impact
+- Build intuition about environmental and configuration dependencies</p>
+<p>This interactive exploration is a key part of understanding visibility analysis and interpreting</p>
+<p><img alt="Image p9" src="../../../assets/images/ce-express/training-03/p009-img1.png" />
+results with confidence.
+4.2.4 <a href="#kw:42-step-2-profiling-pointtopoint-analysis:none">Profiling</a> with fixed transmitter location
+Profiling with a fixed transmitter location allows users to systematically explore visibility
+conditions from a single source point to multiple potential receiver locations. This mode is
+especially useful when the transmitter position is known or fixed, and the goal is to
+understand how visibility changes across the surrounding area.
+By locking the transmitter, users can focus on:
+- Comparing multiple receiver locations quickly
+- Identifying directions with favorable or unfavorable visibility
+- Understanding how terrain and obstacles influence different paths
+4.2.4.1 Enabling Fixed Transmitter Mode
+1. In the Profile tool, enable Lock Transmitter Location.
+2. The selected transmitter remains fixed on the map.
+As you move the mouse cursor:
+- A grey line dynamically shows a potential profile path</p>
+<ul>
+<li>The path updates based on the cursor left click.
+4.2.4.2 Exploring Receiver Locations</li>
+<li>Move the cursor across different areas of the map.</li>
+<li>Observe how the <a href="#kw:reading-the-profile-graph:ce-express-profile">terrain profile</a> preview changes along the grey path.</li>
+<li>When a point of interest is identified, left-click on the map to set the receiver location.</li>
+</ul>
+<p><img alt="Image p10" src="../../../assets/images/ce-express/training-03/p010-img1.png" /></p>
+<p><img alt="Image p10" src="../../../assets/images/ce-express/training-03/p010-img2.png" />
+The profile is recalculated and displayed for the selected path.</p>
+<p>4.2.5 Profile Report
+1. Click Generate Report in the Profile tool.
+2. Define additional information and enable all report options.</p>
+<p><img alt="Image p11" src="../../../assets/images/ce-express/training-03/p011-img1.png" /></p>
+<p><img alt="Image p11" src="../../../assets/images/ce-express/training-03/p011-img2.png" />
+3. Click Accept.
+The report is generated automatically and downloaded.</p>
+<p>Reports can be used for documentation, presentations, or decision support.
+4. Close the Profile tool.</p>
+<h2 id="43-step-3-visibility-prediction-point-to-area-analysis">4.3 Step 3 – Visibility Prediction (Point-to-Area Analysis)</h2>
+<p><a href="#kw:43-step-3-visibility-prediction-pointtoarea-analysis:none">Visibility Prediction</a> extends the concept of <a href="#kw:running-a-profile:ce-express-profile">line-of-sight</a> analysis from a single path to an
+entire surrounding area. Instead of answering the question “Is this specific point visible?”,</p>
+<p><img alt="Image p12" src="../../../assets/images/ce-express/training-03/p012-img1.png" />
+it helps answer “Which areas are visible, and under what conditions?”
+This type of analysis is particularly useful when exploring spatial feasibility, coverage
+potential, or environmental constraints over a broader region.
+Visibility prediction evaluates visibility between a fixed transmitter and many potential
+receiver locations within a defined radius, taking into account:
+- Terrain elevation
+- Buildings and man-made structures
+- Vegetation and <a href="#kw:clutter-classification-values:ce-express-geodata">clutter</a>
+- Earth curvature and distance
+- Defined receiver height</p>
+<p>4.3.1 When to Use Visibility Prediction
+Visibility prediction is typically used when:
+- The area of interest is larger than a single point or path
+- Multiple potential receiver locations must be evaluated at once
+- Visual patterns and boundaries are more important than individual links
+- Early-stage feasibility or situational analysis is required
+Rather than manually checking many profiles, visibility prediction provides a comprehensive
+spatial overview in a single calculation.
+4.3.2 Running Visibility Prediction
+Running a visibility prediction is the step where configuration choices are converted into a
+spatial visibility map. Careful definition of parameters is important, as each setting directly</p>
+<p><img alt="Image p13" src="../../../assets/images/ce-express/training-03/p013-img1.png" />
+influences how the calculation is performed and how the results should be interpreted.
+Before starting the calculation, confirm that the correct transmitter object is selected and
+clearly visible on the map.
+Selecting the Transmitter
+1. Locate the cell Cx002 on the map.
+2. Ensure it is selected (highlighted).</p>
+<p>The selected object acts as the reference point from which visibility is evaluated in all
+directions.
+Opening the Visibility Prediction Tool
+1. With the transmitter selected, open the Visibility Prediction tool.
+2. The configuration panel appears, allowing definition of calculation parameters.
+This panel controls both the accuracy of the analysis and the scope of the evaluated area.
+Defining Calculation Parameters
+Set the following parameters carefully:
+- Resolution: 1
+Defines the spatial resolution of the output grid. Smaller values produce finer detail
+and smoother boundaries but increase computation time.
+- Max Radius: 2
+Defines the maximum distance (in kilometers) from the transmitter to be analyzed.
+This limits the calculation area and helps focus results on the region of interest.
+- Receiver Height: 1.5
+Represents the assumed height of the receiving point above ground.
+- Effective Earth Radius: 8500
+Adjusts how Earth curvature is considered in the calculation. This becomes more
+relevant as distance increases and helps ensure realistic geometric modeling.
+- Layer to Calculate: Cells
+Specifies which object layer acts as the transmitter source for the visibility calculation.
+- Template: Default</p>
+<p>Starting the Calculation
+1. Review all parameters for correctness.
+2. Click Calculate to start the visibility prediction.
+A calculation progress window appears, indicating that the process is running.
+Depending on resolution, radius, and data density, the calculation may take several seconds.</p>
+<p><img alt="Image p15" src="../../../assets/images/ce-express/training-03/p015-img1.png" /></p>
+<p><img alt="Image p15" src="../../../assets/images/ce-express/training-03/p015-img2.png" />
+Accessing Calculation Results
+Once the calculation is complete:
+- Results can be opened directly from the progress window
+- Results are also stored and accessible via the <a href="#kw:44-step-4-prediction-history-and-result-management:ce-express-tr-rf">Prediction History</a> tool
+This allows users to revisit, <a href="#kw:98-compare-predictions:ce-pro-rcp">compare</a>, or reload previous visibility predictions without
+recalculating.</p>
+<p>Preview the results:
+Minimum Receiver Height – the receiver height in meters, which ensure visibility between
+transmitter and receiver.
+Line of Sight – Visibility condition, if value 1 – Visible, if value 0 – Not Visible.
+Clearance – <a href="#kw:fresnel-zone-clearance:ce-express-profile">Fresnel zone</a> obstruction in meters, if value is negative – <a href="#kw:fresnel-zone-clearance:ce-express-profile">Fresnel zone</a> is
+obstructed by X meters.
+Best Server – Cell Identification, which has highest Clearence value.
+4.3.3 Visualizing Results on the Map
+Once a visibility prediction is completed, results are presented as map layers that visually
+describe visibility conditions across the analyzed area. Proper visualization is essential for</p>
+<p><img alt="Image p16" src="../../../assets/images/ce-express/training-03/p016-img1.png" /></p>
+<p><img alt="Image p16" src="../../../assets/images/ce-express/training-03/p016-img2.png" /></p>
+<p><img alt="Image p16" src="../../../assets/images/ce-express/training-03/p016-img3.png" />
+understanding patterns, identifying constraints, and communicating findings clearly.</p>
+<p>Loading Visibility Results
+1. Open the Minimum Receiver Height result.
+2. The result layer is automatically added to the map under <a href="#kw:viewing-results:ce-express-rf-prediction">Prediction Results</a>.
+3. Open the Layers tool to view all loaded prediction layers.
+Each visibility result is displayed as a raster or grid-based layer, covering the calculation area</p>
+<p><img alt="Image p17" src="../../../assets/images/ce-express/training-03/p017-img1.png" /></p>
+<p><img alt="Image p17" src="../../../assets/images/ce-express/training-03/p017-img2.png" />
+defined by the maximum radius.
+Understanding the Map Representation
+The map displays visibility information using color bands, where each color represents a
+specific range of values.
+For the Minimum Receiver Height result:
+- Dark green areas indicate locations where visibility can be achieved with a low receiver
+height (e.g. 0–5 m)
+- Lighter green areas indicate moderate height requirements (e.g. 5–20 m)</p>
+<ul>
+<li>Yellow or red areas indicate increasingly challenging conditions, where higher receiver
+positions are required
+This representation allows users to quickly identify:</li>
+<li>Favorable areas with good visibility</li>
+<li>Marginal areas that require elevated positions</li>
+<li>Areas where visibility is difficult or impractical
+Working with Multiple Result Layers
+Visibility prediction produces several complementary result layers, such as:</li>
+</ul>
+<p><img alt="Image p18" src="../../../assets/images/ce-express/training-03/p018-img1.png" />
+- Line of Sight
+- Clearance
+- Best Server
+Users can:
+- Toggle layers on and off to compare results
+- Overlay results with other map layers (buildings, terrain, objects)
+- Combine visual information to form a complete understanding of visibility conditions
+Customizing Result Symbology</p>
+<p>Users can adjust visualization settings:
+- Click on a color band to change its color
+- Click Add color band to create a new threshold
+- Click X to remove a threshold
+- Modify threshold values directly
+Custom symbology allows results to be tailored for analysis, reporting, or presentation needs.</p>
+<p><img alt="Image p19" src="../../../assets/images/ce-express/training-03/p019-img1.png" /></p>
+<h2 id="44-step-5-combining-profile-and-visibility-analysis">4.4 Step 5 – Combining Profile and Visibility Analysis</h2>
+<p>Profile analysis and visibility prediction are most powerful when used together. Each tool
+answers a different type of question, and combining them provides a deeper and more
+reliable understanding of spatial conditions.
+- Profile analysis explains why visibility exists or is blocked along a specific path
+- Visibility prediction shows where visibility is possible or limited across an area
+Using both tools together allows users to move from a broad overview to detailed, point-
+specific investigation.
+4.4.1.1 Practical Workflow Example
+1. Load the Minimum Receiver Height visibility result.
+2. Identify an area displayed in red, indicating high receiver height requirements.
+3. Open the Profile tool.</p>
+<ol>
+<li>Snap the transmitter to Cx002.</li>
+<li>Select a receiver point inside the red area.
+The resulting profile reveals:</li>
+<li>Where the path is obstructed</li>
+<li>Which objects or terrain features cause the obstruction</li>
+<li>How much clearance is missing
+This detailed view explains the visibility result observed on the map.</li>
+<li>Summary and Key Takeaways
+This module demonstrated how Line of Sight profiling and visibility prediction work
+together to provide a clear understanding of spatial conditions that influence connectivity and</li>
+</ol>
+<p><img alt="Image p20" src="../../../assets/images/ce-express/training-03/p020-img1.png" />
+feasibility.
+Key points to remember:</p>
+<ul>
+<li>Line of Sight (Profile) analysis is used to examine visibility along a single, specific
+path. It helps identify exactly where and why visibility is clear or obstructed.</li>
+<li>Visibility prediction extends this analysis to an entire area, allowing users to quickly
+identify favorable, marginal, and constrained zones around a transmitter.</li>
+<li>Parameter sensitivity exploration shows how changes in power, height, frequency,
+and other inputs influence results. This builds understanding of cause-and-effect rather
+than relying on static outputs.</li>
+<li>Fixed transmitter profiling enables fast, interactive exploration of multiple receiver
+locations from a single source point, supporting comparative analysis.</li>
+<li>Map-based visualization transforms complex calculations into intuitive visual outputs
+that are easy to review, explain, and present.</li>
+<li><a href="#kw:44-step-5-combining-profile-and-visibility-analysis:none">Combining profile</a> and visibility tools provides both overview and detail:
+o Visibility maps show where conditions change
+o Profiles explain why those changes occur
+Together, these tools support confident interpretation of spatial constraints, transparent
+communication of results, and well-informed decision-making based on terrain,
+environment, and configuration.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "search.suggest", "toc.integrate"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

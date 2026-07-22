@@ -1,0 +1,2640 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Official documentation for CE Express, CE Pro, and Inventory3D">
+      
+      
+        <meta name="author" content="Cellular Expert UAB">
+      
+      
+        <link rel="canonical" href="https://elchinguliev.github.io/CellularExpertDocs/ce-express/training/04-rf-prediction/">
+      
+      
+        <link rel="prev" href="../03-line-of-sight/">
+      
+      
+        <link rel="next" href="../05-import-data/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>04. RF Prediction - Cellular Expert Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#04-rf-prediction" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Cellular Expert Documentation" class="md-header__button md-logo" aria-label="Cellular Expert Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cellular Expert Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              04. RF Prediction
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../index.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../overview.md" class="md-tabs__link">
+          
+  
+  
+  CE Express
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../ce-pro/rcp-user-guide/" class="md-tabs__link">
+          
+  
+  
+  CE Pro
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../inventory3d/user-guide/" class="md-tabs__link">
+          
+  
+  
+  Inventory3D
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../geodata/geodata-requirements/" class="md-tabs__link">
+          
+  
+  
+  Geodata
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Cellular Expert Documentation" class="md-nav__button md-logo" aria-label="Cellular Expert Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Cellular Expert Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CE Express
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CE Express
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../login.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Login Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../workspace.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../network-objects.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Network Objects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../antenna-patterns.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Antenna Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rf-prediction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RF Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../profile-tool.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Path Profile & LOS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../street-view.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Street View
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../geodata.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geodata & Rasters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_10" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_10" id="__nav_2_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Training
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_10_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Training
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-creating-workspace/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01. Creating Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-create-objects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02. Create Objects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-line-of-sight/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03. Line of Sight
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04. RF Prediction
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04. RF Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#41-step-1-open-the-workspace" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Step 1 – Open the Workspace
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#42-step-2-quick-rf-prediction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Step 2 – Quick RF Prediction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#43-step-3-understanding-cell-parameters-used-in-predictions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 Step 3 – Understanding Cell Parameters Used in Predictions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#44-step-4-prediction-history-and-result-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4 Step 4 – Prediction History and Result Management
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#45-step-5-visualizing-results-and-creating-symbology-presets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5 Step 5 – Visualizing Results and Creating Symbology Presets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#46-step-6-using-profiles-to-investigate-weak-or-marginal-areas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.6 Step 6 – Using Profiles to Investigate Weak or Marginal Areas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#47-step-7-rf-prediction-for-multiple-cells" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.7 Step 7 – RF Prediction for Multiple Cells
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#48-step-8-throughput-predictions-and-symbology" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.8 Step 8 – Throughput Predictions and Symbology
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#49-step-9-editing-object-data-and-re-running-predictions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.9 Step 9 – Editing Object Data and Re-Running Predictions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#410-step-10-managing-predictions-using-networks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.10 Step 10 – Managing Predictions Using Networks
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-import-data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05. Import Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-prediction-models/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06. Prediction Models
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-mw-equipment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07. MW Equipment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-mw-prediction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08. MW Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09-preparing-geodata/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09. Preparing Geodata
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_11" id="__nav_2_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guides
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    User Guides
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/user-guide-v7.3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guide v7.3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/admin-guide-v7.2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Administrator Guide v7.2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/admin-guide-only-v7.2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Admin Guide (Express Only)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CE Pro
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CE Pro
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/rcp-user-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RCP User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/rlp-user-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RLP User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/emf-user-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EMF User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/sound-user-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sound User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/indoor-user-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Indoor User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Training
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Training
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/training/00-installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    00. Installation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/training/01-data-types/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01. Data Types
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/training/02-architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02. Architecture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/training/03-agenda/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03. Agenda
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/training/04-workspace/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04. Creating Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/training/05-line-of-sight/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05. Line of Sight
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/training/06-objects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06. Creating Objects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/training/07-cell-prediction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07. Cell Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/training/08-prediction-models/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08. Prediction Models
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/training/09-importing-data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09. Importing Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-pro/training/10-rl-prediction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10. RL Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventory3D
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Inventory3D
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inventory3d/user-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guide v4.6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geodata
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Geodata
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../geodata/geodata-requirements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geodata Requirements 2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../geodata/network-objects-requirements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Network Objects Requirements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="04-rf-prediction">04. RF Prediction</h1>
+<blockquote>
+<p><strong>Version:</strong> CE Express v7.2</p>
+</blockquote>
+<ol>
+<li>Objective
+This module explains how to run RF predictions in CE Express and how to interpret and
+manage results. It covers both rapid “what-if” checks and full project predictions, including
+result visualization, comparison, and network-based calculation workflows.
+By the end of this exercise, participants will be able to:</li>
+<li>Run Quick RF Predictions to test configuration changes without modifying the
+database</li>
+<li>Run full RF Prediction calculations for one or <a href="#kw:47-step-7-rf-prediction-for-multiple-cells:none">multiple cells</a></li>
+<li>Understand how geodata is used in prediction calculations</li>
+<li>Visualize results on the map, customize symbology, and create reusable symbology
+presets</li>
+<li><a href="#kw:98-compare-predictions:ce-pro-rcp">Compare</a> multiple <a href="#kw:prediction-outputs:ce-express-rf-prediction">prediction outputs</a> and interpret differences</li>
+<li>Use Networks to calculate predictions without manual object selection and track
+calculation status</li>
+<li><a href="#kw:key-concepts:ce-express-overview">Key Concepts</a>
+2.1.1 What Is an RF Prediction in CE Express?
+An RF prediction is a calculation that produces map-based outputs (rasters) representing
+expected signal or performance across an area. Predictions are influenced by:</li>
+<li><a href="#kw:object-types:ce-express-network-objects">Network objects</a> (cells, sites, antennas)</li>
+<li>Configuration parameters (frequency, power, height, downtilt, bandwidth, MIMO,
+etc.)</li>
+<li>Geodata (terrain elevation, <a href="#kw:clutter-classification-values:ce-express-geodata">clutter</a>/land use, obstacles)</li>
+<li>Equipment definitions and <a href="#kw:31-models:ce-express-tr-models">models</a> (<a href="#kw:importing-antenna-patterns:ce-express-antenna">antenna patterns</a>, propagation <a href="#kw:31-models:ce-express-tr-models">models</a>,
+calculation templates)
+The outputs can be used to:</li>
+<li>Evaluate scenarios and alternatives</li>
+<li>Support planning and feasibility assessments</li>
+<li>Produce documentation and map products</li>
+<li><a href="#kw:98-compare-predictions:ce-pro-rcp">Compare</a> configurations before and after parameter changes</li>
+</ol>
+<p>2.1.2 <a href="#kw:quick-rf-prediction:ce-express-rf-prediction">Quick Prediction</a> vs Full RF Prediction
+CE Express provides two complementary calculation approaches:
+- <a href="#kw:quick-rf-prediction:ce-express-rf-prediction">Quick RF Prediction</a>
+o Designed for rapid “what-if” testing
+o Uses object values as a starting point but does not write changes back to the
+database
+o Ideal for comparing parameter variants (e.g., different azimuths or tilts)
+- RF Prediction
+o Runs full calculations based on project configuration and selected objects
+o Results are tracked in <a href="#kw:44-step-4-prediction-history-and-result-management:none">Prediction History</a>
+o Supports multi-object predictions and more structured workflows
+3. Initial Data and Prerequisites
+This exercise assumes a prepared workspace containing:
+- <a href="#kw:object-types:ce-express-network-objects">Network objects</a> created in previous exercises
+- Loaded geodata (terrain, <a href="#kw:clutter-classification-values:ce-express-geodata">clutter</a>/obstacles)
+- Defined equipment and calculation models
+4. Exercise</p>
+<h2 id="41-step-1-open-the-workspace">4.1 Step 1 – Open the Workspace</h2>
+<ol>
+<li>Open the CE Express application:
+https://cecom2.cellular-expert.com/ce_express/</li>
+<li>From the workspace list, select the workspace used in the previous exercise.</li>
+</ol>
+<h2 id="42-step-2-quick-rf-prediction">4.2 Step 2 – Quick RF Prediction</h2>
+<p><a href="#kw:quick-rf-prediction:ce-express-rf-prediction">Quick RF Prediction</a> enables rapid calculations without permanently changing object
+parameters. This is useful for fast scenario testing and side-by-side comparison.
+4.2.1 Run a <a href="#kw:quick-rf-prediction:ce-express-rf-prediction">Quick Prediction</a> for a Specific Cell
+1. Zoom to the cell Cx002.
+2. Open the <a href="#kw:quick-rf-prediction:ce-express-rf-prediction">Quick RF Prediction</a> tool.
+3. To snap the cell:
+o Hold Ctrl
+o Click on Cx002
+The tool automatically reads coordinates and key parameters from the snapped cell.</p>
+<p><img alt="Image p4" src="../../../assets/images/ce-express/training-04/p004-img1.png" /></p>
+<ol>
+<li>Once parameters are populated, the calculation runs and results appear on the map.</li>
+</ol>
+<p><img alt="Image p5" src="../../../assets/images/ce-express/training-04/p005-img1.png" /></p>
+<p><img alt="Image p5" src="../../../assets/images/ce-express/training-04/p005-img2.png" /></p>
+<p>4.2.2 Verify Results in Layers
+1. Open the Layers tool.
+2. The newly generated coverage layer is listed under <a href="#kw:viewing-results:ce-express-rf-prediction">Prediction Results</a>.
+This confirms the result is loaded and available for review.
+4.2.3 Adjust Resolution and Manage Result Handling
+1. In the <a href="#kw:quick-rf-prediction:ce-express-rf-prediction">Quick Prediction</a> tool, change Resolution from 10 to 5.
+2. The result updates automatically.
+Important behavior: By default, new results may replace/close previous results.</p>
+<p><img alt="Image p6" src="../../../assets/images/ce-express/training-04/p006-img1.png" /></p>
+<p><img alt="Image p6" src="../../../assets/images/ce-express/training-04/p006-img2.png" />
+3. Disable Close previous results to keep multiple variants for comparison.
+4.2.4 Run a Variant Prediction by Changing a Parameter (Azimuth Example)
+1. Change Azimuth from 160 to 90.
+2. A new result is generated and added to Layers as a separate output.</p>
+<p>4.2.5 Compare Two Results Using Swipe
+<a href="#kw:52-step-4-running-predictions-and-comparing-results:ce-express-tr-models">Comparing results</a> is essential when evaluating alternatives.
+1. In Layers, locate the Azimuth 90 QP FS, dBm quick prediction layer.
+2. Hover over the layer and click Compare.
+3. Do the same for the Resolution 5 quick prediction result.
+A swipe tool appears on the map, allowing visual comparison between two rasters.
+4. Review differences across the area.
+5. Disable Compare for both layers when finished.
+4.2.6 Run Additional “What-If” Scenarios
+Run several additional quick predictions by changing one parameter at a time. Use the</p>
+<p><img alt="Image p7" src="../../../assets/images/ce-express/training-04/p007-img1.png" /></p>
+<p><img alt="Image p7" src="../../../assets/images/ce-express/training-04/p007-img2.png" /></p>
+<p><img alt="Image p7" src="../../../assets/images/ce-express/training-04/p007-img3.png" />
+following test values:
+Parameter name New Value
+Height above ground 40
+Downtilt 5</p>
+<p>Tx MIMO 8
+Power 45
+Frequency 3500
+6. Close the Quick Prediction tool.
+7. Close all quick <a href="#kw:viewing-results:ce-express-rf-prediction">prediction results</a> when done.</p>
+<h2 id="43-step-3-understanding-cell-parameters-used-in-predictions">4.3 Step 3 – Understanding Cell Parameters Used in Predictions</h2>
+<p>RF <a href="#kw:viewing-results:ce-express-rf-prediction">prediction results</a> are directly influenced by the parameters defined at the cell level.
+Understanding which parameters are used in calculations is essential for interpreting results</p>
+<p><img alt="Image p8" src="../../../assets/images/ce-express/training-04/p008-img1.png" />
+correctly and ensuring consistency across different prediction runs.
+Before running or comparing predictions, it is important to review these parameters and
+confirm that they reflect the intended scenario.
+4.3.1 Why <a href="#kw:43-step-3-understanding-cell-parameters-used-in-predictions:none">Cell Parameters</a> Matter
+Each prediction uses the active values stored in the selected cell objects. Even small
+differences in configuration can lead to noticeable changes in map outputs.
+<a href="#kw:43-step-3-understanding-cell-parameters-used-in-predictions:none">Cell parameters</a> influence:
+- Signal strength distribution
+- Coverage extent and shape
+- Throughput and capacity estimates
+- Comparison validity between different scenarios
+Ensuring parameter clarity helps avoid misinterpretation of results and unintended
+differences between calculations.
+4.3.1.1 Geometry and Positioning Parameters
+These parameters define the spatial behavior of the cell:</p>
+<ul>
+<li>Geographic location (X, Y)</li>
+<li>Height above ground</li>
+<li>Azimuth</li>
+<li>Mechanical and electrical downtilt
+They directly influence:</li>
+<li>Directional coverage</li>
+<li>Main lobe orientation</li>
+<li>Shadowing and overshoot effects
+4.3.1.2 Transmission and Radio Parameters
+These parameters control how energy is transmitted:</li>
+<li>Frequency</li>
+<li>Bandwidth</li>
+<li>Transmit power</li>
+<li>Duplex mode</li>
+<li>Subcarrier spacing
+They affect:</li>
+<li>Propagation behavior</li>
+<li>Signal attenuation</li>
+<li>Throughput potential
+4.3.1.3 Antenna and Equipment Parameters
+These parameters describe how the signal is shaped:</li>
+<li>Antenna model and pattern</li>
+<li>MIMO configuration</li>
+<li>Active antenna effects
+They influence:</li>
+<li>Beam shape and directionality</li>
+<li>Spatial distribution of signal strength</li>
+</ul>
+<p>4.3.1.4 Environmental and Model Parameters
+These parameters define how the environment is considered:
+- Propagation model
+- Model radius
+- Environmental assumptions
+They ensure calculations are aligned with the intended level of detail and scenario scope.</p>
+<p><img alt="Image p10" src="../../../assets/images/ce-express/training-04/p010-img1.png" /></p>
+<p><img alt="Image p10" src="../../../assets/images/ce-express/training-04/p010-img2.png" />
+4.3.2 Reviewing Parameters in the RF Prediction Tool
+1. Select Cx002 on the map.
+2. Open the RF Prediction tool.
+3. Enable 5G calculations.
+The RF Prediction tool reads all relevant parameters directly from the selected cell.
+Expand its parameters (click on arrow) and run calculations with the same parameters as
+defined in the picture below.</p>
+<h2 id="44-step-4-prediction-history-and-result-management">4.4 Step 4 – Prediction History and Result Management</h2>
+<p>All RF Predictions are tracked in <a href="#kw:44-step-4-prediction-history-and-result-management:none">Prediction History</a>, where users can:
+- Monitor status (queued, running, finished)
+- Open results
+- Export outputs
+- Keep a record of scenario runs
+1. Open Prediction History.
+2. Locate the most recent calculation.
+3. Review status and available results.
+4.4.1 Open a Result on the Map
+1. In Prediction History, find 5G 1800 Field Strength 1, dBm.</p>
+<p><img alt="Image p11" src="../../../assets/images/ce-express/training-04/p011-img1.png" />
+2. Click Open.
+The raster is loaded on the map.</p>
+<h2 id="45-step-5-visualizing-results-and-creating-symbology-presets">4.5 Step 5 – Visualizing Results and Creating Symbology Presets</h2>
+<p>Visualization is a critical part of working with RF prediction results. While calculations produce</p>
+<p><img alt="Image p12" src="../../../assets/images/ce-express/training-04/p012-img1.png" />
+numerical values, symbology determines how those values are translated into an
+understandable visual map. Well-designed visualization allows users to quickly interpret
+results, identify patterns, compare scenarios, and communicate findings clearly.
+In CE Express, prediction results are displayed as raster layers, and each raster can be fully
+customized using symbology settings.
+4.5.1 Why Visualization Matters
+Effective visualization helps users to:
+- Understand spatial distribution of signal or performance
+- Quickly identify strong, moderate, and weak areas
+- Compare multiple prediction results consistently
+- Prepare maps for reporting, reviews, and presentations
+Without consistent symbology, identical results may appear very different, leading to
+confusion or misinterpretation.
+4.5.2 Editing Raster Symbology
+1. Open the Layers tool.
+2. Locate the loaded RF prediction raster under Prediction Results.</p>
+<ol>
+<li>Click on the raster symbology icon to open visualization settings.
+4.5.2.1 Thresholds and Value Ranges
+Thresholds define how continuous values are grouped into ranges.</li>
+<li>Each threshold represents a minimum and maximum value</li>
+<li>Each range is displayed using a distinct color
+Adjusting thresholds allows users to:</li>
+<li>Emphasize specific value ranges</li>
+<li>Align visualization with internal guidelines or requirements</li>
+<li>Highlight areas of interest or concern
+Threshold values can be edited directly, and new ranges can be added or removed as</li>
+</ol>
+<p><img alt="Image p13" src="../../../assets/images/ce-express/training-04/p013-img1.png" /></p>
+<p><img alt="Image p13" src="../../../assets/images/ce-express/training-04/p013-img2.png" />
+needed.
+Define new colors and thresholds based on the picture below.</p>
+<p>4.5.2.2 Adjusting Opacity
+Opacity controls layer transparency.
+Adjust opacity to:
+- View prediction results together with buildings, terrain, or roads
+- Overlay multiple prediction results
+- Reduce visual dominance of a single raster
+Balancing opacity helps maintain spatial context while still highlighting prediction values.</p>
+<p><img alt="Image p14" src="../../../assets/images/ce-express/training-04/p014-img1.png" /></p>
+<p><img alt="Image p14" src="../../../assets/images/ce-express/training-04/p014-img2.png" /></p>
+<p><img alt="Image p14" src="../../../assets/images/ce-express/training-04/p014-img3.png" /></p>
+<p><img alt="Image p14" src="../../../assets/images/ce-express/training-04/p014-img4.png" />
+Change opacity value to 40%
+4.5.3 Creating a Symbology Template (Preset)
+Symbology presets allow users to save and reuse visualization settings, ensuring
+consistency across different predictions, projects, and users.
+1. In the symbology panel, click + New color band preset.
+2. Define:
+- Template name: 5G <a href="#kw:typical-rsrp-thresholds:ce-express-rf-prediction">RSRP</a> Symbology
+3. Click Save preset.
+4. Define technology:</p>
+<h2 id="46-step-6-using-profiles-to-investigate-weak-or-marginal-areas">4.6 Step 6 – Using Profiles to Investigate Weak or Marginal Areas</h2>
+<p>RF prediction maps often reveal areas with lower values or gradual degradation toward the
+cell edge. While map colors indicate where weaker or marginal areas are located, the Profile
+tool helps explain why those areas appear weak by providing a detailed view along a specific
+path.</p>
+<p>This step connects area-based prediction results with path-based inspection, allowing
+users to move from visual observation to deeper understanding.
+4.6.1 Purpose of Using Profiles with Prediction Results
+Using profiles in combination with prediction maps helps to:
+- Identify physical causes of weak signal areas
+- Understand whether <a href="#kw:limitations:ce-express-street-view">limitations</a> are caused by terrain, buildings, or vegetation
+- Verify whether weak areas are expected or abnormal
+- Support explanation of results during reviews and discussions
+Profiles provide a clear, intuitive cross-section of the environment between a transmitter
+and a selected location.
+4.6.2 Selecting an Area of Interest
+1. Review the RF prediction raster on the map.
+2. Identify areas shown in lower-value colors (for our case – blue color).
+These areas typically represent:
+- Greater distance from the transmitter
+- Increased obstruction by terrain or buildings
+- Reduced <a href="#kw:running-a-profile:ce-express-profile">line-of-sight</a> conditions
+4.6.3 Running a Profile for a Weak Location
+1. Open the <a href="#kw:when-to-use-the-profile-tool:ce-express-profile">Profile tool</a>.
+2. Hold Ctrl and snap the transmitter to Cx002.
+3. Select a receiver point inside a weak or marginal area identified on the map.
+Once the receiver is defined, the profile is calculated and displayed immediately.</p>
+<p>4.6.4 Interpreting the Profile Output
+The profile view shows:
+- Terrain elevation along the path
+- Buildings and vegetation intersecting the path
+- The direct path between transmitter and receiver
+Color indicators highlight visibility conditions along the path:
+- Clear sections indicate unobstructed paths
+- Obstructed sections show where terrain or structures block or reduce visibility
+This visual explanation clarifies why signal levels decrease in the selected area.</p>
+<p><img alt="Image p16" src="../../../assets/images/ce-express/training-04/p016-img1.png" /></p>
+<p><img alt="Image p16" src="../../../assets/images/ce-express/training-04/p016-img2.png" />
+Close <a href="#kw:when-to-use-the-profile-tool:ce-express-profile">Profile tool</a> (click on <a href="#kw:when-to-use-the-profile-tool:ce-express-profile">Profile tool</a>).
+Remove prediction results.</p>
+<h2 id="47-step-7-rf-prediction-for-multiple-cells">4.7 Step 7 – RF Prediction for Multiple Cells</h2>
+<p>Single-cell predictions are useful for focused analysis, but many real scenarios require
+understanding the combined effect of <a href="#kw:47-step-7-rf-prediction-for-multiple-cells:none">multiple cells</a> operating together. Multi-cell RF
+prediction allows users to evaluate how several transmitters interact across an area and how
+their combined influence shapes overall results.
+4.7.1 Purpose of Multi-Cell Predictions
+Running predictions for multiple cells helps to:
+- Understand combined coverage from several transmitters
+- Identify overlapping areas and coverage continuity
+- Observe how different directions and configurations interact spatially
+- Produce results that better represent real operational conditions
+Compared to single-cell predictions, multi-cell results provide a broader and more realistic
+picture of the environment.
+4.7.2 Selecting Multiple Cells
+1. On the map, select Cx001, Cx002, and Cx003.
+2. Verify that all selected cells are highlighted.
+Only selected objects will be included in the calculation, so careful selection is important to
+ensure correct results.
+4.7.3 Running the RF Prediction
+1. With all three cells selected, open the RF Prediction tool.
+2. Review and confirm calculation parameters as defined in the training reference.</p>
+<ol>
+<li>Click Calculate.
+The system creates a single prediction task that includes all selected cells.</li>
+</ol>
+<p><img alt="Image p18" src="../../../assets/images/ce-express/training-04/p018-img1.png" />
+4.7.4 Monitoring Calculation Progress
+1. Open Prediction History.
+2. Locate the newly created prediction task.
+Prediction History displays:
+- Current calculation status (queued, running, finished)
+- Associated <a href="#kw:prediction-outputs:ce-express-rf-prediction">prediction outputs</a>
+- Time and configuration context</p>
+<p>This allows users to monitor long or complex calculations without keeping the prediction tool</p>
+<p><img alt="Image p19" src="../../../assets/images/ce-express/training-04/p019-img1.png" />
+open.
+4.7.5 Loading and Reviewing Multi-Cell Results
+Once the calculation is finished:
+1. In Prediction History, open 5G 1800 Field Strength 1, dBm.
+2. The raster result is loaded on the map.
+The displayed map now represents the combined field strength contribution from all
+selected cells.</p>
+<p>4.7.6 Applying Consistent Symbology
+1. Open the Layers tool.
+2. Apply the saved 5G <a href="#kw:typical-rsrp-thresholds:ce-express-rf-prediction">RSRP</a> Symbology preset to the multi-cell raster.
+Using the same symbology preset ensures:
+- Consistent interpretation across single-cell and multi-cell results
+- Reliable visual comparison between scenarios
+- Clear communication of results in reviews and reports</p>
+<h2 id="48-step-8-throughput-predictions-and-symbology">4.8 Step 8 – Throughput Predictions and Symbology</h2>
+<ol>
+<li>In Prediction History, open 5G 1800 Throughput, Mbps.</li>
+</ol>
+<p><img alt="Image p20" src="../../../assets/images/ce-express/training-04/p020-img1.png" />
+2. Review default symbology.</p>
+<ol>
+<li>Apply updated symbology based on the training reference.</li>
+<li>Save the symbology if it will be reused.</li>
+</ol>
+<h2 id="49-step-9-editing-object-data-and-re-running-predictions">4.9 Step 9 – Editing Object Data and Re-Running Predictions</h2>
+<p>To observe how configuration changes affect outputs, update key cell parameters, then re-</p>
+<p><img alt="Image p21" src="../../../assets/images/ce-express/training-04/p021-img1.png" /></p>
+<p><img alt="Image p21" src="../../../assets/images/ce-express/training-04/p021-img2.png" />
+run predictions.
+4.9.1 Edit Cell Parameters in the Attribute Table
+1. Open Features tool.
+2. Open the Cells attribute table.</p>
+<ol>
+<li>Change the following parameters:
+| Parameter | New Value |
+|---|---|
+| Bandwidth | 20 |
+| Subcarrier_spacing | 15 |
+| Tx_mimo | 4 |
+| Rx_mimo | 4 |
+| Active antenna effect | 0 |</li>
+<li>Return to full map screen using map overlay controls.</li>
+</ol>
+<p><img alt="Image p22" src="../../../assets/images/ce-express/training-04/p022-img1.png" /></p>
+<p><img alt="Image p22" src="../../../assets/images/ce-express/training-04/p022-img2.png" />
+4.9.2 Re-Run Predictions
+1. Select Cx001, Cx002, Cx003.
+2. Run RF Predictions again.</p>
+<p>4.9.3 Compare New vs Previous Results
+1. Open the newly calculated 5G 1800 Throughput layer.
+2. Compare it with the previous throughput result.
+3. Use the <a href="#kw:310-step-10-using-the-identify-tool:ce-express-tr-workspace">Identify tool</a> to inspect values at the same locations.
+This helps quantify changes rather than relying only on color differences.</p>
+<p><img alt="Image p23" src="../../../assets/images/ce-express/training-04/p023-img1.png" /></p>
+<p><img alt="Image p23" src="../../../assets/images/ce-express/training-04/p023-img2.png" />
+4. Close all results when finished.</p>
+<h2 id="410-step-10-managing-predictions-using-networks">4.10 Step 10 – Managing Predictions Using Networks</h2>
+<p>As projects grow in size and complexity, manually <a href="#kw:selecting-multiple-objects:ce-express-network-objects">selecting objects</a> for every prediction
+becomes inefficient and error-prone. Networks provide a structured and scalable way to
+manage RF predictions by grouping objects automatically based on defined rules and
+attributes.
+A Network in CE Express acts as a dynamic selection and calculation container. Instead of
+<a href="#kw:selecting-multiple-objects:ce-express-network-objects">selecting objects</a> on the map, users define what should be included, and the system
+maintains that selection automatically.
+4.10.1 Why Use Networks
+Networks are especially useful when:
+- Working with a large number of cells
+- Repeating predictions regularly
+- Automatically publish coverage results and network featuresto ArcGIS Enterprise Portal
+or ArcGIS Online
+- Automatically calculate statistic
+- Managing multi-band or multi-layer configurations
+- Ensuring consistency across prediction runs
+Using Networks helps to:
+- Reduce manual selection errors
+- Ensure repeatable and auditable calculations
+- Clearly identify when results are missing or outdated
+- Support long-term project maintenance
+4.10.2 Creating a Network
+1. Open the Networks tool.</p>
+<ol>
+<li>Click + New Network.</li>
+<li>Define network parameters as shown in the training reference.</li>
+</ol>
+<p><img alt="Image p25" src="../../../assets/images/ce-express/training-04/p025-img1.png" /></p>
+<p><img alt="Image p25" src="../../../assets/images/ce-express/training-04/p025-img2.png" />
+Typical configuration elements include:
+- Feature type: Cells
+- Attribute filter (technology)
+4. Click Accept.
+The network is created and listed in the Networks panel.</p>
+<p>4.10.3 Interpreting Network Status
+Each network displays status indicators that provide immediate feedback:
+- Red – The network has not been calculated or results are outdated
+- Yellow – Calculation is in progress
+- Green – Network results are up to date
+Expanding the network shows:
+- Number of included objects
+- Number of objects without results
+- Available <a href="#kw:prediction-outputs:ce-express-rf-prediction">prediction outputs</a>
+These indicators help users quickly understand whether further action is required.</p>
+<p><img alt="Image p26" src="../../../assets/images/ce-express/training-04/p026-img1.png" /></p>
+<p><img alt="Image p26" src="../../../assets/images/ce-express/training-04/p026-img2.png" />
+4.10.4 Why Networks May Require Recalculation
+A network will require recalculation when:
+- Object parameters are modified
+- New objects matching the network rules are added</p>
+<ul>
+<li>Prediction settings are changed
+The status indicator changes accordingly, ensuring users are aware that results no longer
+reflect the current configuration.
+4.10.5 Benefits of Network-Based Prediction Management
+Using Networks provides several advantages:</li>
+<li>Centralized management of prediction scope</li>
+<li>Clear separation between object configuration and calculation execution</li>
+<li>Improved traceability of results</li>
+<li>Easier collaboration across teams
+Networks transform prediction workflows from manual, one-time actions into repeatable, rule-</li>
+</ul>
+<p><img alt="Image p27" src="../../../assets/images/ce-express/training-04/p027-img1.png" />
+driven processes.
+5. Step 11 – Calculate a Network
+1. In the Network tab, click Calculate.
+2. The RF Prediction tool opens.
+3. Configure parameters as shown in the training reference.</p>
+<ol>
+<li>Click Calculate network.
+Network status changes:</li>
+<li>Yellow = calculating</li>
+<li>Green = calculated
+A task is also created in Prediction History.</li>
+</ol>
+<p><img alt="Image p28" src="../../../assets/images/ce-express/training-04/p028-img1.png" /></p>
+<p><img alt="Image p28" src="../../../assets/images/ce-express/training-04/p028-img2.png" /></p>
+<p>5.1.1 Review Network Results Structure
+When finished, open the network results list.</p>
+<p><img alt="Image p29" src="../../../assets/images/ce-express/training-04/p029-img1.png" /></p>
+<p><img alt="Image p29" src="../../../assets/images/ce-express/training-04/p029-img2.png" /></p>
+<p>You may see multiple Field Strength results. This often indicates that the network contains</p>
+<p><img alt="Image p30" src="../../../assets/images/ce-express/training-04/p030-img1.png" /></p>
+<p><img alt="Image p30" src="../../../assets/images/ce-express/training-04/p030-img2.png" /></p>
+<p><img alt="Image p30" src="../../../assets/images/ce-express/training-04/p030-img3.png" /></p>
+<p><img alt="Image p30" src="../../../assets/images/ce-express/training-04/p030-img4.png" />
+multiple frequency groups, and CE Express splits calculations by group automatically.
+Example frequency groups:
+- 1800
+- 3500
+Load results for each group to compare outputs and understand multi-layer behavior.
+6. Summary and Key Takeaways
+This module provided a complete walkthrough of RF prediction workflows in CE Express,
+from quick exploratory checks to structured, multi-cell and network-based calculations.
+The focus was on understanding not only how to run predictions, but also how to interpret,
+compare, and manage results in a clear and repeatable way.
+Key takeaways from this module include:
+- RF predictions transform configuration and environment data into spatial
+insight. Prediction results reflect the combined influence of object parameters,
+geodata, equipment models, and calculation settings.</p>
+<ul>
+<li>Quick RF Prediction is best suited for rapid exploration and comparison. It allows
+users to test changes without modifying stored object parameters and is ideal for early
+analysis and scenario evaluation.</li>
+<li>Full RF Prediction provides structured, traceable results stored in Prediction
+History, making it suitable for formal analysis, documentation, and repeatable
+workflows.</li>
+<li>Prediction History serves as a central record of calculations, enabling users to track
+progress, reopen results, and compare scenarios over time.</li>
+<li>Visualization and symbology play a critical role in interpreting results. Clear
+thresholds, meaningful colors, and consistent symbology presets ensure results are
+easy to understand and communicate.</li>
+<li>Profiles complement prediction maps by explaining why certain areas appear weak
+or strong. Combining area-based predictions with path-based inspection increases
+confidence in conclusions.</li>
+<li>Multi-cell predictions reveal the combined influence of several transmitters and
+provide a more realistic view of overall behavior than single-cell analysis alone.</li>
+<li>Frequency-group separation allows users to analyze each layer independently.
+Loading and <a href="#kw:52-step-4-running-predictions-and-comparing-results:ce-express-tr-models">comparing results</a> per group helps explain multi-layer behavior and
+avoids ambiguous interpretations.</li>
+<li>Networks enable scalable and reliable workflows. Rule-based grouping, status
+indicators, and automated recalculation support long-term project maintenance and
+reduce manual effort.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "search.suggest", "toc.integrate"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

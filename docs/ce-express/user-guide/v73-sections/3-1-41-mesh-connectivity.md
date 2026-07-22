@@ -1,9 +1,7 @@
 # 3.1.41 Mesh connectivity
 
-Click this button to open Mesh connectivity tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p227-img1.png) to open Mesh connectivity tool.
 This tool enables rapid and accurate assessment of wireless peer-to-peer link quality during mesh network
-
-![Image p227](../../../assets/images/ce-express/user-guide-v73/p227-img1.png)
 
 ![Image p227](../../../assets/images/ce-express/user-guide-v73/p227-img2.png)
 planning and optimization.

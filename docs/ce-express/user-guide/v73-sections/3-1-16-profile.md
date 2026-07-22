@@ -1,9 +1,7 @@
 # 3.1.16 Profile
 
-Click this button to open [Profile tool](#kw:when-to-use-the-profile-tool:ce-express-profile).
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p142-img1.png) to open [Profile tool](#kw:when-to-use-the-profile-tool:ce-express-profile).
 This tool generates a detailed profile between two points. The locations From (transmitter) and To (receiver)
-
-![Image p142](../../../assets/images/ce-express/user-guide-v73/p142-img1.png)
 
 ![Image p142](../../../assets/images/ce-express/user-guide-v73/p142-img2.png)
 

@@ -1,10 +1,8 @@
 # 3.1.28 Utilities
 
-Click this button to open Utilities tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p186-img1.png) to open Utilities tool.
 3.1.28.1 Beamwidth to HCM code
 Used to generate HCM pattern codes from vertical & horizontal beamwidth values. Useful when you do not
-
-![Image p186](../../../assets/images/ce-express/user-guide-v73/p186-img1.png)
 
 ![Image p186](../../../assets/images/ce-express/user-guide-v73/p186-img2.png)
 know the exact antenna model for your cells, and only have beamwidth values assigned to them.

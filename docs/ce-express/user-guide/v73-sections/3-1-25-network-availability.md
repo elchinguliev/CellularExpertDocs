@@ -1,10 +1,8 @@
 # 3.1.25 Network availability
 
-Click this button to open Network availability tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p177-img1.png) to open Network availability tool.
 This tool is designed to check if coverage exists at a chosen location. Define the exact coordinates in the
 dialog or click on the map to fill the coordinate fields automatically and the tool automatically provides the
-
-![Image p177](../../../assets/images/ce-express/user-guide-v73/p177-img1.png)
 
 ![Image p177](../../../assets/images/ce-express/user-guide-v73/p177-img2.png)
 information about possible networks at this location.

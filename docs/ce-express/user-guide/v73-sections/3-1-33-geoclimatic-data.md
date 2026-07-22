@@ -1,9 +1,7 @@
 # 3.1.33 Geoclimatic data
 
-Click this button to open Geoclimatic data tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p191-img1.png) to open Geoclimatic data tool.
 Geoclimatic Data is a tool that lets you adjust the geoclimatic settings that will be used in certain calculations
-
-![Image p191](../../../assets/images/ce-express/user-guide-v73/p191-img1.png)
 
 ![Image p191](../../../assets/images/ce-express/user-guide-v73/p191-img2.png)
 

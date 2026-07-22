@@ -1,9 +1,7 @@
 # 3.1.11 Identify
 
-Click this button to open [Identify tool](#kw:310-step-10-using-the-identify-tool:ce-express-tr-workspace).
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p124-img1.png) to open [Identify tool](#kw:310-step-10-using-the-identify-tool:ce-express-tr-workspace).
 Shows the signal values at an exact location for loaded predictions in the Map view. The dialog is empty if
-
-![Image p124](../../../assets/images/ce-express/user-guide-v73/p124-img1.png)
 there are no loaded prediction rasters in the Layers tool.
 
 If the Layer tool has loaded prediction rasters,

@@ -1,9 +1,7 @@
 # 3.1.15 Feature report
 
-Click this button to open Feature report tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p135-img1.png) to open Feature report tool.
 This tool allows you to create PDF reports of selected features with attribute tables, as well as a page with
-
-![Image p135](../../../assets/images/ce-express/user-guide-v73/p135-img1.png)
 
 ![Image p135](../../../assets/images/ce-express/user-guide-v73/p135-img2.png)
 

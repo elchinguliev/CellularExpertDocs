@@ -1,8 +1,6 @@
 # 3.1.10 Settings
 
-Click this button to open Settings tool.
-
-![Image p121](../../../assets/images/ce-express/user-guide-v73/p121-img1.png)
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p121-img1.png) to open Settings tool.
 
 ![Image p122](../../../assets/images/ce-express/user-guide-v73/p122-img1.png)
 

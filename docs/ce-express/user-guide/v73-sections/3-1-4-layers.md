@@ -1,12 +1,10 @@
 # 3.1.4 Layers
 
-Click this button to open Layers tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p059-img1.png) to open Layers tool.
 Manages the visualization of features and calculation results in the Map view. Displays and manages all
 layers in the workspace, grouped into categories such as Features, Geodata, Prediction results, and
 Other. Each layer can be shown, hidden, or reordered.
 You can reorder the entire group or toggle its visibility to show or hide all layers within it at once.
-
-![Image p59](../../../assets/images/ce-express/user-guide-v73/p059-img1.png)
 
 ![Image p59](../../../assets/images/ce-express/user-guide-v73/p059-img2.png)
 

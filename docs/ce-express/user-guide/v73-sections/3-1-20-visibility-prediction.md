@@ -1,9 +1,7 @@
 # 3.1.20 Visibility prediction
 
-Click this button to open Visibility prediction tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p170-img1.png) to open Visibility prediction tool.
 Visibility calculations refer to the determination of line-of-sight between transmitting and receiving antennas,
-
-![Image p170](../../../assets/images/ce-express/user-guide-v73/p170-img1.png)
 
 ![Image p170](../../../assets/images/ce-express/user-guide-v73/p170-img2.png)
 assessing whether any obstructions might impede direct signal transmission.

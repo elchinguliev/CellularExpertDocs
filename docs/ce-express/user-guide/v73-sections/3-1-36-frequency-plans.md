@@ -1,9 +1,7 @@
 # 3.1.36 Frequency plans
 
-Click this button to open Frequency plans tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p207-img1.png) to open Frequency plans tool.
 The tool enables you to create frequency plans that will be necessary to create a link and later be used in
-
-![Image p207](../../../assets/images/ce-express/user-guide-v73/p207-img1.png)
 
 ![Image p207](../../../assets/images/ce-express/user-guide-v73/p207-img2.png)
 

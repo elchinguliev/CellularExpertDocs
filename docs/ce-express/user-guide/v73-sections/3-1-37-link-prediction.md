@@ -1,13 +1,11 @@
 # 3.1.37 Link prediction
 
-Click this button to open Link prediction tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p211-img1.png) to open Link prediction tool.
 Calculation settings
 Calculation Name
 Link Prediction identification.
 Link Template
 The template will fill all empty or not specified fields with default values that are not necessary for
-
-![Image p211](../../../assets/images/ce-express/user-guide-v73/p211-img1.png)
 
 ![Image p211](../../../assets/images/ce-express/user-guide-v73/p211-img2.png)
 predictions.

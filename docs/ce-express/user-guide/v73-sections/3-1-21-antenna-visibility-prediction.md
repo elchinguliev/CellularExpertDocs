@@ -1,9 +1,7 @@
 # 3.1.21 Antenna visibility prediction
 
-Click this button to open Antenna visibility prediction tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p171-img1.png) to open Antenna visibility prediction tool.
 The Antenna Visibility prediction tool is designed to calculate and visualize the feature’s Line-of-sight
-
-![Image p171](../../../assets/images/ce-express/user-guide-v73/p171-img1.png)
 
 ![Image p171](../../../assets/images/ce-express/user-guide-v73/p171-img2.png)
 clearance for features based on their azimuth, tilt and selected antenna pattern.

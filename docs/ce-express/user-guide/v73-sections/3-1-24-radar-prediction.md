@@ -1,9 +1,7 @@
 # 3.1.24 Radar prediction
 
-Click this button to open Radar prediction tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p176-img1.png) to open Radar prediction tool.
 Radar Prediction is a tool that lets you calculate predictions on radars. Depending on the view angle and
-
-![Image p176](../../../assets/images/ce-express/user-guide-v73/p176-img1.png)
 
 ![Image p176](../../../assets/images/ce-express/user-guide-v73/p176-img2.png)
 the size of the radar, Radar Predictions will show the reach of radar signals.

@@ -28,8 +28,6 @@ vegetation, buildings, and other obstacles influence connectivity across space.
 Understanding LOS and visibility is important because it helps answer fundamental questions
 such as:
 
----
-
 - Can two locations reliably communicate with each other?
 - What physical obstacles limit or block visibility?
 - How do height, distance, and environment affect feasibility?
@@ -56,8 +54,6 @@ Both tools rely on:
 By combining detailed profiles with area-wide visibility results, users gain a clear and intuitive
 understanding of how the environment influences connectivity and visibility.
 
----
-
 4. Exercise
 
 ## 4.1 Step 1 – Open the Workspace
@@ -77,8 +73,6 @@ https://cecom2.cellular-expert.com/ce_express/
 2. Zoom to its location on the map.
 3. Open the [Profile tool](#kw:when-to-use-the-profile-tool:ce-express-profile).
 
----
-
 To define the transmitter:
 - Hold the Ctrl key
 - Click on Cx002 on the map
@@ -97,8 +91,6 @@ This visual representation allows quick assessment of whether visibility can be 
 ![Image p5](../../assets/images/ce-express/training-03/p005-img1.png)
 4.2.2 Exploring Profile Calculation Tabs
 The [Profile tool](#kw:when-to-use-the-profile-tool:ce-express-profile) provides several result sections:
-
----
 
 - General – Summary of path characteristics
 - Power Budget – Transmit and receive power balance
@@ -124,8 +116,6 @@ setup process.
 Changing transmitter power helps illustrate how stronger or weaker signals affect the
 overall path conditions and calculated results.
 
----
-
 4.2.3.2 Receiver and Transmitter Heights
 - Change Receiver Height from 2 to 20
 Height is one of the most influential parameters in visibility analysis. Increasing height can:
@@ -138,8 +128,6 @@ Height is one of the most influential parameters in visibility analysis. Increas
 - Change the visibility status from obstructed to visible
 This step helps users understand why height selection is critical in many real-world
 scenarios.
-
----
 
 4.2.3.3 Frequency
 - Change Frequency from 1800 to 700
@@ -163,8 +151,6 @@ As parameters are modified, the profile updates immediately, allowing users to:
 - Identify which parameters have the strongest impact
 - Build intuition about environmental and configuration dependencies
 
----
-
 This interactive exploration is a key part of understanding visibility analysis and interpreting
 
 ![Image p9](../../assets/images/ce-express/training-03/p009-img1.png)
@@ -184,8 +170,6 @@ By locking the transmitter, users can focus on:
 As you move the mouse cursor:
 - A grey line dynamically shows a potential profile path
 
----
-
 - The path updates based on the cursor left click.
 4.2.4.2 Exploring Receiver Locations
 1. Move the cursor across different areas of the map.
@@ -197,8 +181,6 @@ As you move the mouse cursor:
 ![Image p10](../../assets/images/ce-express/training-03/p010-img2.png)
 The profile is recalculated and displayed for the selected path.
 
----
-
 4.2.5 Profile Report
 1. Click Generate Report in the Profile tool.
 2. Define additional information and enable all report options.
@@ -208,8 +190,6 @@ The profile is recalculated and displayed for the selected path.
 ![Image p11](../../assets/images/ce-express/training-03/p011-img2.png)
 3. Click Accept.
 The report is generated automatically and downloaded.
-
----
 
 Reports can be used for documentation, presentations, or decision support.
 4. Close the Profile tool.
@@ -231,8 +211,6 @@ receiver locations within a defined radius, taking into account:
 - Earth curvature and distance
 - Defined receiver height
 
----
-
 4.3.1 When to Use Visibility Prediction
 Visibility prediction is typically used when:
 - The area of interest is larger than a single point or path
@@ -252,8 +230,6 @@ clearly visible on the map.
 Selecting the Transmitter
 1. Locate the cell Cx002 on the map.
 2. Ensure it is selected (highlighted).
-
----
 
 The selected object acts as the reference point from which visibility is evaluated in all
 directions.
@@ -278,8 +254,6 @@ relevant as distance increases and helps ensure realistic geometric modeling.
 Specifies which object layer acts as the transmitter source for the visibility calculation.
 - Template: Default
 
----
-
 Starting the Calculation
 1. Review all parameters for correctness.
 2. Click Calculate to start the visibility prediction.
@@ -295,8 +269,6 @@ Once the calculation is complete:
 - Results are also stored and accessible via the [Prediction History](#kw:44-step-4-prediction-history-and-result-management:ce-express-tr-rf) tool
 This allows users to revisit, [compare](#kw:98-compare-predictions:ce-pro-rcp), or reload previous visibility predictions without
 recalculating.
-
----
 
 Preview the results:
 Minimum Receiver Height – the receiver height in meters, which ensure visibility between
@@ -316,8 +288,6 @@ describe visibility conditions across the analyzed area. Proper visualization is
 ![Image p16](../../assets/images/ce-express/training-03/p016-img3.png)
 understanding patterns, identifying constraints, and communicating findings clearly.
 
----
-
 Loading Visibility Results
 1. Open the Minimum Receiver Height result.
 2. The result layer is automatically added to the map under [Prediction Results](#kw:viewing-results:ce-express-rf-prediction).
@@ -335,8 +305,6 @@ For the Minimum Receiver Height result:
 - Dark green areas indicate locations where visibility can be achieved with a low receiver
 height (e.g. 0–5 m)
 - Lighter green areas indicate moderate height requirements (e.g. 5–20 m)
-
----
 
 - Yellow or red areas indicate increasingly challenging conditions, where higher receiver
 positions are required
@@ -356,8 +324,6 @@ Users can:
 - Overlay results with other map layers (buildings, terrain, objects)
 - Combine visual information to form a complete understanding of visibility conditions
 Customizing Result Symbology
-
----
 
 Users can adjust visualization settings:
 - Click on a color band to change its color
@@ -382,8 +348,6 @@ specific investigation.
 2. Identify an area displayed in red, indicating high receiver height requirements.
 3. Open the Profile tool.
 
----
-
 4. Snap the transmitter to Cx002.
 5. Select a receiver point inside the red area.
 The resulting profile reveals:
@@ -398,8 +362,6 @@ together to provide a clear understanding of spatial conditions that influence c
 ![Image p20](../../assets/images/ce-express/training-03/p020-img1.png)
 feasibility.
 Key points to remember:
-
----
 
 - Line of Sight (Profile) analysis is used to examine visibility along a single, specific
 path. It helps identify exactly where and why visibility is clear or obstructed.
@@ -418,5 +380,3 @@ o Profiles explain why those changes occur
 Together, these tools support confident interpretation of spatial constraints, transparent
 communication of results, and well-informed decision-making based on terrain,
 environment, and configuration.
-
----

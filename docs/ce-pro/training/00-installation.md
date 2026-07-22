@@ -8,7 +8,6 @@
 
 ![Image p3](../../assets/images/ce-pro/training-00/p003-img4.png)
 
-
 ![Image p4](../../assets/images/ce-pro/training-00/p004-img1.png)
 
 ![Image p4](../../assets/images/ce-pro/training-00/p004-img2.png)
@@ -34,16 +33,12 @@ Before installing Cellular Expert, ensure the following are in place:
 | Disk Space | Minimum 10 GB free |
 | Administrator Rights | Required for installation |
 
----
-
 ## Installation Order
 
 Always install in this sequence — installing CE before ArcGIS Pro will fail:
 
 1. **ArcGIS Pro** — install and activate with your Esri licence
 2. **Cellular Expert** — run the CE installer (`.msi`) as Administrator
-
----
 
 ## Installing Cellular Expert
 
@@ -52,8 +47,6 @@ Always install in this sequence — installing CE before ArcGIS Pro will fail:
 3. Choose the installation directory (default: `C:\Program Files\CellularExpert`)
 4. Click **Install** and wait for completion
 5. Click **Finish**
-
----
 
 ## Activating the Licence
 
@@ -70,8 +63,6 @@ You can also sign in from within an open project using the sign-in menu in the t
 6. Click **Activate**
 
 The CE tab will appear in the ArcGIS Pro ribbon once activation succeeds.
-
----
 
 ## Upgrading Cellular Expert
 
@@ -91,8 +82,6 @@ When upgrading ArcGIS Pro to a newer version:
 2. After the ArcGIS upgrade, open ArcGIS Pro and verify the CE tab is still visible
 3. If CE tab is missing, repair the CE installation via **Add or Remove Programs → Cellular Expert → Change**
 
----
-
 ## Uninstalling
 
 To fully remove the software:
@@ -100,8 +89,6 @@ To fully remove the software:
 1. Open **Add or Remove Programs**
 2. Uninstall **Cellular Expert** first
 3. Then uninstall **ArcGIS Pro** if required
-
----
 
 ## Troubleshooting
 
@@ -111,7 +98,5 @@ To fully remove the software:
 | Licence activation fails | Check internet connectivity; contact info@cellular-expert.com for a new key |
 | Installer blocked by Windows | Right-click → Run as administrator |
 | Workspace not found after upgrade | Use **Workspace → Upgrade** to update the database schema |
-
----
 
 **Contact:** info@cellular-expert.com | +370 5 2150575 | www.cellular-expert.com

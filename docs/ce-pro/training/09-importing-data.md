@@ -4,8 +4,6 @@
 
 After import, network objects appear as feature classes in the geodatabase. View them in the **Contents** and **Catalog** panes:
 
----
-
 Network import for CE for ArcGIS Pro
 
 ![Image p2](../../assets/images/ce-pro/training-09/p002-img1.png)
@@ -17,8 +15,6 @@ Network import for CE for ArcGIS Pro
 - SDE table
 - To Cellular Expert Workspace:
 - gdb database
-
----
 
 [Network objects](#kw:object-types:ce-express-network-objects)
 
@@ -33,12 +29,8 @@ Network import for CE for ArcGIS Pro
 parameter is
 defined)
 
----
-
 Mapping file
 - Json type file, can be edited with Notepad
-
----
 
 Mapping file structure
 - “current_name” - name of the value that is written in the data file.
@@ -55,8 +47,6 @@ data file lacks a specific property. The same value will be applied for
 ![Image p5](../../assets/images/ce-pro/training-09/p005-img2.png)
 all imported objects.
 
----
-
 Cells: generate Cell Name
 
 ![Image p6](../../assets/images/ce-pro/training-09/p006-img1.png)
@@ -69,16 +59,12 @@ Cells: generate Cell Name
 - Height
 - Antenna gain
 
----
-
 Apply prediction model
 
 ![Image p7](../../assets/images/ce-pro/training-09/p007-img1.png)
 - Polygon type feature class/shape file
 - ModelID and ConfigID is a must
 - Option appears when Import HCM patterns option is active.
-
----
 
 Parameters for Cell object
 cell_name – cell identifier (recommended unique value).
@@ -93,8 +79,6 @@ frequency - Frequency value in MHz.
 power - Power value in dBm.
 antenna_gain - Antenna gain value from the applied antenna.
 misc_loss - Miscellaneous loss value in dB.
-
----
 
 Parameters for Cell object
 bandwidth - Value in MHz. Required for 4G and 5G technologies. For other technologies
@@ -112,8 +96,6 @@ interference and boost throughput. Recommended
 values:
 For MIMO 32x32 – value 6.
 For MIMO 64x64 – value 9.
-
----
 
 Parameters for Cell object
 cell_load - The parameter is described in percentages and varies from 0 to 100. It describes how the cell is loaded.
@@ -134,13 +116,9 @@ antenna_id- antenna identification in the database.
 duplex_mode - Required for 4G and 5G technologies, possible values FDD or TDD.
 site_id – to automatically create Site object for cells, define site name field here. Must be a text format.
 
----
-
 Exercise
 Description: C:\CE_Course\0. Descriptions
 Name: 6. Importing data.pdf
-
----
 
 Thank you!
 Tel.: +370 5 2150575
@@ -148,5 +126,3 @@ Email: info@cellular-expert.com
 S.Konarskio g. 28A LT-03127 Vilnius
 Lithuania
 www.cellular-expert.com
-
----

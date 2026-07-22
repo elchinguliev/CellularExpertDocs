@@ -2,7 +2,6 @@
 
 ![Image p2](../../assets/images/ce-pro/training-04/p002-img1.png)
 
-
 ![Image p3](../../assets/images/ce-pro/training-04/p003-img1.png)
 
 ![Image p3](../../assets/images/ce-pro/training-04/p003-img2.png)
@@ -16,8 +15,6 @@
 
 A CE Pro Workspace is a geodatabase (`.gdb`) that stores all project data — cells, sites, antennas, links, and prediction results. Every CE Pro project must have one workspace before any RF work can begin.
 
----
-
 ## CE Tools State
 
 The **CE Tools** tab in the ArcGIS Pro ribbon shows one of three states:
@@ -27,8 +24,6 @@ The **CE Tools** tab in the ArcGIS Pro ribbon shows one of three states:
 | Workspace is not added | No workspace linked to this project yet |
 | Workspace is added | Workspace found and geodata path is valid |
 | Workspace is added, but Geodata is missing | Workspace exists but the geodata folder path is broken |
-
----
 
 ## Creating a New Workspace
 
@@ -54,8 +49,6 @@ When ArcGIS Pro opens, the start page lets you create a new project or open an e
 
 5. Click **Create** — CE Pro will build the geodatabase and populate it with the default schema
 
----
-
 ## Cellular Expert Project Structure
 
 ![Image p5](../../assets/images/ce-pro/training-04/p005-img1.png)
@@ -79,12 +72,9 @@ MyProject/
 └── Workspace.gdb/        ← Main geodatabase (cells, sites, antennas, links)
 ```
 
----
-
 ## Cellular Expert Dataset Objects
 
 ![Image p6](../../assets/images/ce-pro/training-04/p006-img1.png)
-
 
 ![Image p7](../../assets/images/ce-pro/training-04/p007-img1.png)
 The `Workspace.gdb` contains the following feature classes:
@@ -99,8 +89,6 @@ The `Workspace.gdb` contains the following feature classes:
 | OMEN | Omni-directional microwave node |
 | Link | Point-to-point microwave or RL link |
 
----
-
 ## Changing Project Paths
 
 If you move the geodata folder or the workspace after creation:
@@ -109,8 +97,6 @@ If you move the geodata folder or the workspace after creation:
 2. Update the **Geodata path** to the new location
 3. Update **Calculation paths** (Predictions, Results, Temp) if needed
 4. Click **Apply**
-
----
 
 ## Project Settings and Rounding
 
@@ -122,8 +108,6 @@ Under **CE Desktop → Workspace → Project Settings** you can configure:
 - Power units (dBm / dBW)
 - Distance units (km / miles)
 - Rounding precision for displayed values
-
----
 
 ## Workspace Upgrade
 
@@ -140,8 +124,6 @@ When you open a workspace created with an older CE version, CE Pro will detect a
 3. Click **Upgrade Database**
 
 > Upgrade is non-destructive — existing data is preserved. Always back up the `.gdb` before upgrading.
-
----
 
 **Exercise:** `C:\CE_Course\0. Descriptions\1. Create workspace.pdf`
 

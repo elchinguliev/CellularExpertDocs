@@ -22,11 +22,7 @@ reserved. Cellular Expert and Cellular Expert logo are
 registered trademarks, @cellular-expert.com and
 www.cellular-expert.com are service marks of UAB
 CELLULAR EXPERT in Lithuania and some other countries.
-Confidential ©Cellular Expert, 2026 Page | 6
 
----
-
-Cellular Expert Express User Guide 7.3
 1. Introduction
 In this User Guide, we introduce the Cellular Expert Express application. Express is the merged Inventory
 3D and Cellular Expert Express solution in one product. Inventory 3D is responsible for [data management](#kw:31-data-management-tools:inventory3d-user-guide).
@@ -58,11 +54,7 @@ Please note that for security reasons the application uses only HTTPS.
 
 Users can log in with the organization account of ArcGIS Enterprise or Cellular Expert Express and are
 identified by a Username and a Password.
-Confidential ©Cellular Expert, 2026 Page | 7
 
----
-
-Cellular Expert Express User Guide 7.3
 Use the Login as ArcGIS button to log in with an ArcGIS Enterprise account. It will allow to access the
 Network Data Management view for database management and the [Map view](#kw:switching-between-views:ce-express-login) for analysis, calculations,
 etc.
@@ -73,11 +65,7 @@ Use log in with Express account to login with a Cellular Expert Express account.
 ![Image p8](../../assets/images/ce-express/user-guide-v73/p008-img2.png)
 the Network Data Management view. To reach Map view you will be able to log in with an ArcGIS Enterprise
 account later.
-Confidential ©Cellular Expert, 2026 Page | 8
 
----
-
-Cellular Expert Express User Guide 7.3
 For the option Login with ArcGIS an ArcGIS Portal account is required and the user gains access to the
 application map widgets. The second option, Login with Express account, enables only access to view and
 
@@ -87,11 +75,7 @@ application map widgets. The second option, Login with Express account, enables 
 manage tables, data and so on.
 Registered users may change their Cellular Expert password any time by clicking Reset password.
 Note: before using the Reset Password feature the server should be configured as a mail server and have
-Confidential ©Cellular Expert, 2026 Page | 9
 
----
-
-Cellular Expert Express User Guide 7.3
 the possibility to send email. The Cellular Expert Express Network Data Management view opens.
 To recover an ArcGIS Enterprise account, use the Forgot password button.
 
@@ -103,11 +87,7 @@ In the Network Data Management view the map and the database are connected. Feat
 
 ![Image p10](../../assets/images/ce-express/user-guide-v73/p010-img2.png)
 the tables, are displayed on the map. Select a workspace.
-Confidential ©Cellular Expert, 2026 Page | 10
 
----
-
-Cellular Expert Express User Guide 7.3
 Map view and features are visible only for the selected workspace.
 
 ## 2.3 Log out
@@ -127,11 +107,7 @@ The Map view has a predefined layout divided into:
 2. Data management and visualization tools
 3. Map view, graphical data management
 4. Table view, attribute data management
-Confidential ©Cellular Expert, 2026 Page | 11
 
----
-
-Cellular Expert Express User Guide 7.3
 5. Data analysis tools and calculation results
 6. Calculation result graphs and tables, additional analysis tools
 1. Invetory3D window
@@ -161,11 +137,7 @@ be automatically zoomed to the selected workspace extent and only objects define
 be visible.
 A workspace is a project-based view in which objects are displayed. Workspaces can be assigned
 individually for each user group.
-Confidential ©Cellular Expert, 2026 Page | 12
 
----
-
-Cellular Expert Express User Guide 7.3
 Show only workspaces in view
 When enabled, this option filters the workspace list to display only the workspaces currently visible within
 
@@ -174,11 +146,7 @@ the map’s viewport.
 Upon hovering the mouse over a workspace item, options for it appear.
 Edit Workspace
 Duplicate Workspace
-Confidential ©Cellular Expert, 2026 Page | 13
 
----
-
-Cellular Expert Express User Guide 7.3
 Delete Workspace
 3.1.1.1 Add workspace
 To create a workspace, press the New workspace button.
@@ -191,11 +159,6 @@ will be saved in this coordinate system. This does not affect the geodata used w
 
 ![Image p14](../../assets/images/ce-express/user-guide-v73/p014-img1.png)
 is 4326 ([WGS84](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata)).
-Confidential ©Cellular Expert, 2026 Page | 14
-
----
-
-Cellular Expert Express User Guide 7.3
 
 ![Image p15](../../assets/images/ce-express/user-guide-v73/p015-img1.png)
 
@@ -219,11 +182,7 @@ Max. X
 Maximum x (rightmost) coordinate of the workspace extent (in workspace epsg)
 Max. Y
 Maximum y (topmost) coordinate of the workspace extent (in workspace epsg)
-Confidential ©Cellular Expert, 2026 Page | 15
 
----
-
-Cellular Expert Express User Guide 7.3
 Coordinate origin
 Origin point from which coordinates are calculated from in the user interface. Global coordinates are
 saved in the database regardless of this setting.
@@ -242,11 +201,7 @@ transmitter height is set to 10 m, the absolute transmitter height is calculated
 ![Image p16](../../assets/images/ce-express/user-guide-v73/p016-img2.png)
 used within CE calculations.
 Available options:
-Confidential ©Cellular Expert, 2026 Page | 16
 
----
-
-Cellular Expert Express User Guide 7.3
 - Elevation
 - [Clutter](#kw:clutter-classification-values:ce-express-geodata) height (buildings only)
 - Clutter height
@@ -271,11 +226,7 @@ Extra layers
 | Title | The title field defines the name displayed for a layer in the layer list |
 | Opacity | Adjusts layer transparency. |
 Visible
-Confidential ©Cellular Expert, 2026 Page | 17
 
----
-
-Cellular Expert Express User Guide 7.3
 Turns the layer’s display on or off.
 Group
 Specifies the group assignment for the layer. You can select an existing group, create a new one, or
@@ -291,11 +242,7 @@ next placed cell in add features tool will automatically have the name set to 4.
 3.1.2 Features
 Click this button to open Features tool.
 Use this tool to import or add features, select and visualize them.
-Confidential ©Cellular Expert, 2026 Page | 18
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.2.1 Import
 The widget allows the creation of objects from a text file. To start importing new objects press the Import
 
@@ -307,11 +254,7 @@ Select the object type.
 A new dialog on the right side of the window will appear. The widget imports object data to the database.
 The imported objects will be displayed automatically on the map. The supported file formats are CSV and
 KMZ.
-Confidential ©Cellular Expert, 2026 Page | 19
 
----
-
-Cellular Expert Express User Guide 7.3
 To start the import process, select or drag and drop a CSV or KMZ file.
 3.1.2.1.1 Mapping
 The data in the import files may have names, values and units which do not match the data in the Cellular
@@ -320,22 +263,14 @@ The data in the import files may have names, values and units which do not match
 
 ![Image p20](../../assets/images/ce-express/user-guide-v73/p020-img2.png)
 Expert database. To resolve such issues, check Use mapping button.
-Confidential ©Cellular Expert, 2026 Page | 20
 
----
-
-Cellular Expert Express User Guide 7.3
 Source - the name of the value that is written in the data file.
 Fill - value which will be used when an object in the data file has no value for a particular property. In this
 
 ![Image p21](../../assets/images/ce-express/user-guide-v73/p021-img1.png)
 example, if “Azimuth” is not set, then it will by default be assigned the value of 0. Leaving the default to
 empty means that no default value will be applied.
-Confidential ©Cellular Expert, 2026 Page | 21
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.2.1.2 Mapping presets
 It is possible to create import presets.
 To create a preset, first define source or fill value, then press New mapping preset button.
@@ -346,7 +281,6 @@ Applies a mapping preset for importing file.
 Delete
 Deletes a preset.
 3.1.2.2 Add features
-Confidential ©Cellular Expert, 2026 Page | 22
 
 ![Image p22](../../assets/images/ce-express/user-guide-v73/p022-img1.png)
 
@@ -356,23 +290,16 @@ Confidential ©Cellular Expert, 2026 Page | 22
 
 ![Image p22](../../assets/images/ce-express/user-guide-v73/p022-img4.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Select the object type.
 A new dialog on the right side of the window will appear.
 New objects can be created in several ways. They can be:
 - Created from templates
 - Created with Cellular Expert tools from zero (define all parameters in the process)
-Confidential ©Cellular Expert, 2026 Page | 23
 
 ![Image p23](../../assets/images/ce-express/user-guide-v73/p023-img1.png)
 
 ![Image p23](../../assets/images/ce-express/user-guide-v73/p023-img2.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.2.2.1 Feature set template
 Allows for saving a group of features as a “feature set template”, with one of the features acting as the
 origin for the feature set coordinates. The entire feature set can then be placed with a single operation via
@@ -382,11 +309,7 @@ origin for the feature set coordinates. The entire feature set can then be place
 ![Image p24](../../assets/images/ce-express/user-guide-v73/p024-img2.png)
 the add features tool. Coordinates relative to the origin feature are maintained by the other features in the
 set.
-Confidential ©Cellular Expert, 2026 Page | 24
 
----
-
-Cellular Expert Express User Guide 7.3
 General
 Feature set template name
 Name of the feature set template
@@ -399,11 +322,7 @@ this feature will be at the mouse click point.
 Feature parameters
 Parameters of the features saved in the feature set template. The placed feature parameters will be
 automatically filled with the saved values.
-Confidential ©Cellular Expert, 2026 Page | 25
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.2.2.2 Add Site
 Required parameters
 | Parameter | Description |
@@ -413,13 +332,9 @@ Required parameters
 | Y | Coordinate in the projected coordinate system. |
 Azimuth
 Cell direction from the North in degrees.
-Confidential ©Cellular Expert, 2026 Page | 29
 
 ![Image p29](../../assets/images/ce-express/user-guide-v73/p029-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Optional parameters
 | Parameter | Description |
 |---|---|
@@ -448,11 +363,7 @@ Recommended values:
 - For MIMO 64x64 – value 9.
 Cell load, %
 The parameter is described in percentages and varies from 0 to 100. It describes how the cell is loaded.
-Confidential ©Cellular Expert, 2026 Page | 30
 
----
-
-Cellular Expert Express User Guide 7.3
 The Cell load affects RSSI, RSRQ, and DL Throughput calculations. For example, if the Cell load is higher,
 the DL Throughput is lower.
 Color index
@@ -483,11 +394,7 @@ there is no carrier information, the brackets are left empty [].
 | Duplex mode | Available values FDD or TDD. Required for 4G and 5G technologies. For other technologies define value FDD. |
 | Status | Free-form text. |
 | Type | Free-form text. 3.1.2.2.6 Add Repeater |
-Confidential ©Cellular Expert, 2026 Page | 31
 
----
-
-Cellular Expert Express User Guide 7.3
 Required parameters
 | Parameter | Description |
 |---|---|
@@ -495,13 +402,9 @@ Required parameters
 | X | Coordinate in the projected coordinate system. |
 | Y | Coordinate in the projected coordinate system. |
 | Azimuth | Direction from the North in degrees. |
-Confidential ©Cellular Expert, 2026 Page | 32
 
 ![Image p32](../../assets/images/ce-express/user-guide-v73/p032-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Optional parameters
 | Parameter | Description |
 |---|---|
@@ -533,11 +436,7 @@ Lets the user select which prediction model and configuration should be used for
 Frequency group
 Used to divide calculations into parts. If the selection range includes two or more different frequency group
 values, the cells won’t be predicted together.
-Confidential ©Cellular Expert, 2026 Page | 33
 
----
-
-Cellular Expert Express User Guide 7.3
 Antenna
 Antenna name for Repeater object.
 3.1.2.2.7 Add Radar
@@ -550,13 +449,9 @@ Required parameters
 Optional parameters
 Height
 Object’s height above the terrain.
-Confidential ©Cellular Expert, 2026 Page | 34
 
 ![Image p34](../../assets/images/ce-express/user-guide-v73/p034-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Downtilt | Mechanical tilt value. |
@@ -565,13 +460,9 @@ Cellular Expert Express User Guide 7.3
 | Misc Loss | Miscellaneous loss value in dB. |
 | View Angle | Visible field (vertical angle) of the radar in degrees. |
 | Prediction Model | Prediction model for Path Loss simulation. 3.1.2.2.8 Add CPE |
-Confidential ©Cellular Expert, 2026 Page | 35
 
 ![Image p35](../../assets/images/ce-express/user-guide-v73/p035-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Required parameters
 | Parameter | Description |
 |---|---|
@@ -598,11 +489,7 @@ Current status of the [network object](#kw:object-types:ce-express-network-objec
 Notes
 Additional information for network predictions can be noted here.
 3.1.2.2.9 Add Measurements
-Confidential ©Cellular Expert, 2026 Page | 36
 
----
-
-Cellular Expert Express User Guide 7.3
 Required parameters
 | Parameter | Description |
 |---|---|
@@ -611,15 +498,11 @@ Required parameters
 | Y | Coordinate in the projected coordinate system. |
 | Cell ID | A field which binds the measurement to a cell network object. 3.1.2.2.10 Add Omen |
 3.1.2.2.10 Add Omen
-Confidential ©Cellular Expert, 2026 Page | 37
 
 ![Image p37](../../assets/images/ce-express/user-guide-v73/p037-img1.png)
 
 ![Image p37](../../assets/images/ce-express/user-guide-v73/p037-img2.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Required parameters
 | Parameter | Description |
 |---|---|
@@ -632,13 +515,9 @@ Height above the terrain.
 Notes
 Free-form text.
 3.1.2.2.11 Add Sirens
-Confidential ©Cellular Expert, 2026 Page | 38
 
 ![Image p38](../../assets/images/ce-express/user-guide-v73/p038-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Required parameters
 | Parameter | Description |
 |---|---|
@@ -658,11 +537,7 @@ Optional parameters
 | Antenna | Antenna name for Siren object. |
 | Status | Free-form text. |
 | Type | Free-form text. 3.1.2.2.12 Add Lights |
-Confidential ©Cellular Expert, 2026 Page | 39
 
----
-
-Cellular Expert Express User Guide 7.3
 Required parameters
 | Parameter | Description |
 |---|---|
@@ -675,13 +550,9 @@ Height, m
 Height above the terrain.
 Downtilt
 Mechanical tilt value.
-Confidential ©Cellular Expert, 2026 Page | 40
 
 ![Image p40](../../assets/images/ce-express/user-guide-v73/p040-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Antenna
 Antenna name for Light object.
 3.1.2.2.13 Add Mesh nodes
@@ -691,13 +562,9 @@ Required parameters
 | Mesh node name | Mesh node identification. |
 | X | Coordinate in the projected coordinate system. |
 | Y | Coordinate in the projected coordinate system. |
-Confidential ©Cellular Expert, 2026 Page | 41
 
 ![Image p41](../../assets/images/ce-express/user-guide-v73/p041-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Optional parameters
 Height, m
 Height above the terrain.
@@ -727,11 +594,7 @@ Free-form text.
 Type
 Free-form text.
 3.1.2.3 Selecting
-Confidential ©Cellular Expert, 2026 Page | 42
 
----
-
-Cellular Expert Express User Guide 7.3
 Selection settings
 Show only selected features
 Only the selected features will be displayed in the feature list. When the switch off, all features are visible
@@ -749,11 +612,7 @@ There are several different modes for [selecting objects](#kw:selecting-multiple
 To start the selection process, click once on the map, then move the mouse cursor to define an
 area, click a second time to finish the selection process.
 - Single click. Click once on an object to select it.
-Confidential ©Cellular Expert, 2026 Page | 43
 
----
-
-Cellular Expert Express User Guide 7.3
 - Radius.
 Set the desired distance, then click on the map and the surrounding objects within the set distance will
 
@@ -764,11 +623,7 @@ Set the desired distance, then click on the map and the surrounding objects with
 ![Image p44](../../assets/images/ce-express/user-guide-v73/p044-img3.png)
 be selected.
 - Polygon.
-Confidential ©Cellular Expert, 2026 Page | 44
 
----
-
-Cellular Expert Express User Guide 7.3
 Click once on the map to create the vertices of the polygon. Double-click to close the polygon and select
 
 ![Image p45](../../assets/images/ce-express/user-guide-v73/p045-img1.png)
@@ -779,21 +634,13 @@ the feature.
 To use the polygon layer selection, choose a predefined polygon layer from the dropdown list. Then,
 click on the map. All features located within the selected polygon boundary will be highlighted and
 displayed in the feature list.
-Confidential ©Cellular Expert, 2026 Page | 45
 
----
-
-Cellular Expert Express User Guide 7.3
 Selected objects will be highlighted on the map and listed in the tool.
-Confidential ©Cellular Expert, 2026 Page | 46
 
 ![Image p46](../../assets/images/ce-express/user-guide-v73/p046-img1.png)
 
 ![Image p46](../../assets/images/ce-express/user-guide-v73/p046-img2.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Clear selection
 Clears a objects selection on the map.
 Search
@@ -811,11 +658,7 @@ Select the features you want to publish to portal as a feature layer, then click
 
 ![Image p47](../../assets/images/ce-express/user-guide-v73/p047-img3.png)
 An option menu then appears to let you select who the newly created feature layer will be shared to:
-Confidential ©Cellular Expert, 2026 Page | 47
 
----
-
-Cellular Expert Express User Guide 7.3
 Press OK to start the publishing process.
 Move
 Select the objects which shall be moved and choose the Move tool. The Move selected features dialog will
@@ -832,11 +675,7 @@ will appear. Hold the left mouse button and drag the object to the preferred loc
 
 ![Image p48](../../assets/images/ce-express/user-guide-v73/p048-img3.png)
 be duplicated to another workspace.
-Confidential ©Cellular Expert, 2026 Page | 48
 
----
-
-Cellular Expert Express User Guide 7.3
 Press Accept to save changes.
 Delete
 Select the objects on the map, then press the Delete button to remove them from the Map view and
@@ -849,33 +688,21 @@ Object attributes can be edited using the Cellular Expert graphical interface. M
 
 ![Image p49](../../assets/images/ce-express/user-guide-v73/p049-img2.png)
 required object in the Features tool and click on it to edit object attributes.
-Confidential ©Cellular Expert, 2026 Page | 49
 
----
-
-Cellular Expert Express User Guide 7.3
 A new dialog opens on the right side with the most important attributes.
-Confidential ©Cellular Expert, 2026 Page | 50
 
 ![Image p50](../../assets/images/ce-express/user-guide-v73/p050-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Accept
 Saves all changes.
 Cancel
 Discards all changes and closes the dialog.
 Upon hovering the mouse over a feature item, options for it appear.
-Confidential ©Cellular Expert, 2026 Page | 51
 
 ![Image p51](../../assets/images/ce-express/user-guide-v73/p051-img1.png)
 
 ![Image p51](../../assets/images/ce-express/user-guide-v73/p051-img2.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | View from perspective | Viewpoint from the position of cell. |
@@ -907,11 +734,7 @@ applied. This can be done in 2 ways:
 applied
 - Drag and drop the feature template on the map to quickly add a new feature to the desired location
 with only having the enter the feature name in a popup.
-Confidential ©Cellular Expert, 2026 Page | 52
 
----
-
-Cellular Expert Express User Guide 7.3
 ## 3.1.3 Networks
 Click this button to open Networks tool.
 The networks tool allows for easy management of multiple objects, grouped into networks. Networks can
@@ -924,11 +747,6 @@ be defined by feature attribute or via the selection of the features required. T
 ![Image p53](../../assets/images/ce-express/user-guide-v73/p053-img3.png)
 tracking and calculations can be performed for each network without the need for selection.
 Once expanded, an existing network item displays the following information:
-Confidential ©Cellular Expert, 2026 Page | 53
-
----
-
-Cellular Expert Express User Guide 7.3
 
 ![Image p54](../../assets/images/ce-express/user-guide-v73/p054-img1.png)
 Feature type
@@ -943,11 +761,7 @@ Last calculated
 The last time the calculation was started.
 Results
 Select which [prediction results](#kw:viewing-results:ce-express-rf-prediction) you want to add to the Map view and manage in the layers tool.
-Confidential ©Cellular Expert, 2026 Page | 54
 
----
-
-Cellular Expert Express User Guide 7.3
 Export
 Exports the selected [prediction results](#kw:viewing-results:ce-express-rf-prediction) layer as a TIF raster.
 Open
@@ -958,11 +772,7 @@ Network publishing settings
 Delete Network
 3.1.3.1 Add network
 To create a network press the New network button.
-Confidential ©Cellular Expert, 2026 Page | 55
 
----
-
-Cellular Expert Express User Guide 7.3
 Network name
 The name of the network
 Feature type
@@ -982,19 +792,11 @@ If you would like the calculation results to be automatically published when the
 you may set it up in the network publishing settings menu.
 First open the calculation result layer you would like to be automatically published, and set up the color
 band values as per your preference:
-Confidential ©Cellular Expert, 2026 Page | 56
 
----
-
-Cellular Expert Express User Guide 7.3
 Then, options for your layer‘s publishing will appear under the calculation results section:
-Confidential ©Cellular Expert, 2026 Page | 57
 
 ![Image p57](../../assets/images/ce-express/user-guide-v73/p057-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 You may enable automatic publishing and select who the results are shared to for this layer.
 The same options are also available for the features that are associated with the network.
 After setting up the automatic publishing options, click Accept to save. The publishing is then executed
@@ -1003,26 +805,18 @@ After setting up the automatic publishing options, click Accept to save. The pub
 
 ![Image p58](../../assets/images/ce-express/user-guide-v73/p058-img2.png)
 the next time the network calculation is run.
-Confidential ©Cellular Expert, 2026 Page | 58
 
----
-
-Cellular Expert Express User Guide 7.3
 ## 3.1.4 Layers
 Click this button to open Layers tool.
 Manages the visualization of features and calculation results in the Map view. Displays and manages all
 layers in the workspace, grouped into categories such as Features, Geodata, Prediction results, and
 Other. Each layer can be shown, hidden, or reordered.
 You can reorder the entire group or toggle its visibility to show or hide all layers within it at once.
-Confidential ©Cellular Expert, 2026 Page | 59
 
 ![Image p59](../../assets/images/ce-express/user-guide-v73/p059-img1.png)
 
 ![Image p59](../../assets/images/ce-express/user-guide-v73/p059-img2.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Layers can also be organized by dragging them into existing groups or dropping them into New layer group
 
 ![Image p60](../../assets/images/ce-express/user-guide-v73/p060-img1.png)
@@ -1032,30 +826,21 @@ to create a custom group.
 3.1.4.1 Add layer
 Layers added from this panel are visible only to you. Other users who open the same workspace will not
 see these layers unless they also add them manually.
-Confidential ©Cellular Expert, 2026 Page | 60
 
----
-
-Cellular Expert Express User Guide 7.3
 From URL / Portal ItemID
 Allows you to add a layer directly by entering its URL or Portal Item ID, then selecting Add.
 Search criteria
 My organization
 Limits search results to layers shared within your organization.
-Confidential ©Cellular Expert, 2026 Page | 61
 
 ![Image p61](../../assets/images/ce-express/user-guide-v73/p061-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Owned by me | Shows only layers you own. |
 | Sort by | Determines the order of search results (e.g., by view count or date). 3.1.4.2 Features |
 | Rearrange layers | Allows you to reorder layers by dragging. |
 | Turn on/off the layer | Turn on or off a layer in the Map view • The layer is visible - The layer is not visible - • |
-Confidential ©Cellular Expert, 2026 Page | 62
 
 ![Image p62](../../assets/images/ce-express/user-guide-v73/p062-img1.png)
 
@@ -1065,16 +850,12 @@ Confidential ©Cellular Expert, 2026 Page | 62
 
 ![Image p62](../../assets/images/ce-express/user-guide-v73/p062-img4.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Layer symbol
 Preview layer symbol. Click on it to edit the symbol.
 Expand layer
 Previews and manages the layer opacity and map scale .
 3.1.4.2.1 Edit symbolization
 Click on the layer symbol to edit it. A new dialog opens on the right side.
-Confidential ©Cellular Expert, 2026 Page | 63
 
 ![Image p63](../../assets/images/ce-express/user-guide-v73/p063-img1.png)
 
@@ -1082,9 +863,6 @@ Confidential ©Cellular Expert, 2026 Page | 63
 
 ![Image p63](../../assets/images/ce-express/user-guide-v73/p063-img3.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 In layer symbolization it is possible to change:
 - Shape.
 o if a path is selected in shape, svg path can be changed.
@@ -1094,13 +872,9 @@ o if a path is selected in shape, svg path can be changed.
 - Outline color.
 - Turn on and off offset.
 - X/Y offset.
-Confidential ©Cellular Expert, 2026 Page | 64
 
 ![Image p64](../../assets/images/ce-express/user-guide-v73/p064-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 There is an option to use 3d symbol. The following parameters can be changed in the 3d symbol:
 - Shape
 - Color
@@ -1113,11 +887,7 @@ Visual variables can be added for each layer. Add visual variables to a layer us
 
 ![Image p65](../../assets/images/ce-express/user-guide-v73/p065-img2.png)
 dropdown.
-Confidential ©Cellular Expert, 2026 Page | 65
 
----
-
-Cellular Expert Express User Guide 7.3
 Choose a visual variable. The choices are:
 - Color.
 - Size.
@@ -1127,13 +897,9 @@ Accept
 Saves all changes.
 Cancel
 Discards all changes and closes the dialog.
-Confidential ©Cellular Expert, 2026 Page | 66
 
 ![Image p66](../../assets/images/ce-express/user-guide-v73/p066-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.4.3 Prediction results
 The prediction rasters calculated in Cellular Expert Express and loaded in the map view will appear in the
 
@@ -1150,11 +916,7 @@ Layers tool.
 | Rearrange layers | Allows you to reorder layers by dragging. |
 | Turn on/off the layer | Turn on or off a layer in the Map view The layer is visible - • The layer is not visible - • |
 | Expand layer | Expand the layer so you can see and edit the symbology. |
-Confidential ©Cellular Expert, 2026 Page | 67
 
----
-
-Cellular Expert Express User Guide 7.3
 For these types of layers, the visualization can be edited in the following ways:
 - Add threshold using Add color band button
 - Adjust threshold value
@@ -1162,7 +924,6 @@ For these types of layers, the visualization can be edited in the following ways
 - Adjust color opacity
 - Delete threshold using Delete band button
 Upon hovering the mouse over a prediction result item, options for it appear.
-Confidential ©Cellular Expert, 2026 Page | 68
 
 ![Image p68](../../assets/images/ce-express/user-guide-v73/p068-img1.png)
 
@@ -1174,9 +935,6 @@ Confidential ©Cellular Expert, 2026 Page | 68
 
 ![Image p68](../../assets/images/ce-express/user-guide-v73/p068-img5.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Rename layer
 Publish to portal
 Zoom to layer
@@ -1185,11 +943,7 @@ Remove layer
 3.1.4.3.1 Presets
 It is possible to create symbology presets. This means that when a prediction raster is loaded, a symbology
 preset can be used:
-Confidential ©Cellular Expert, 2026 Page | 69
 
----
-
-Cellular Expert Express User Guide 7.3
 To create a preset, first define the bands and colors, then press New color band preset button.
 Define a preset name.
 A new preset will be created.
@@ -1215,11 +969,7 @@ When the first and second layers are selected for comparison, a swipe widget wil
 
 ![Image p70](../../assets/images/ce-express/user-guide-v73/p070-img7.png)
 the map. Slide the swipe tool to compare different layers.
-Confidential ©Cellular Expert, 2026 Page | 70
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.4.3.3 Publish to portal
 Raster prediction results may be individually published to portal by using the publish to portal button.
 
@@ -1230,14 +980,9 @@ Upon clicking this button, publishing settings will appear:
 Set up the publishing options and click OK to start the publishing process.
 3.1.4.4 Geodata
 This section appears when enabled in the settings.
-Confidential ©Cellular Expert, 2026 Page | 71
 
----
-
-Cellular Expert Express User Guide 7.3
 Section contains geodata raster layers from the geodata set assigned to the current workspace.
 - Elevation:
-Confidential ©Cellular Expert, 2026 Page | 72
 
 ![Image p72](../../assets/images/ce-express/user-guide-v73/p072-img1.png)
 
@@ -1245,14 +990,10 @@ Confidential ©Cellular Expert, 2026 Page | 72
 
 ![Image p72](../../assets/images/ce-express/user-guide-v73/p072-img3.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 - Clutter height:
 - [Clutter classes](#kw:clutter-classification-values:ce-express-geodata):
 ## 3.1.5 Prediction history
 Click this button to open Prediction history tool.
-Confidential ©Cellular Expert, 2026 Page | 73
 
 ![Image p73](../../assets/images/ce-express/user-guide-v73/p073-img1.png)
 
@@ -1260,9 +1001,6 @@ Confidential ©Cellular Expert, 2026 Page | 73
 
 ![Image p73](../../assets/images/ce-express/user-guide-v73/p073-img3.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 All calculations performed in Cellular Expert Express are loaded in this tool. This includes failed and
 successful calculations. The accessibility of prediction rasters is user specific. This means that users can
 
@@ -1276,11 +1014,7 @@ the organization.
 | Results | Select which prediction results you want to add to the Map view and manage in the layers tool. |
 | Export | Exports the selected prediction results layer as a TIF raster. |
 | Open | Opens the selected prediction results layer. Upon hovering the mouse over a prediction result item, options for it appear. |
-Confidential ©Cellular Expert, 2026 Page | 74
 
----
-
-Cellular Expert Express User Guide 7.3
 Rename layer
 Share
 Mouse over the calculation you want to share with the organization members and click Share calculation
@@ -1294,39 +1028,27 @@ Preview the list of available antennas in the project. The antennas are used for
 ![Image p75](../../assets/images/ce-express/user-guide-v73/p075-img1.png)
 
 ![Image p75](../../assets/images/ce-express/user-guide-v73/p075-img2.png)
-Confidential ©Cellular Expert, 2026 Page | 75
 
----
-
-Cellular Expert Express User Guide 7.3
 Search
 Initiates the search procedure in the antennas list.
 Delete antenna
 Delete antenna using Delete button.
 Click on an antenna to preview the [antenna patterns](#kw:importing-antenna-patterns:ce-express-antenna).
-Confidential ©Cellular Expert, 2026 Page | 76
 
 ![Image p76](../../assets/images/ce-express/user-guide-v73/p076-img1.png)
 
 ![Image p76](../../assets/images/ce-express/user-guide-v73/p076-img2.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Adjust vertical pattern
 In the case where you have an electrically tilted vertical [antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) imported, you might want to tilt it
 back so it is essentially a 0 tilt [antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) (recommended if you use electrical tilt field in cell attributes).
 You may use the adjust vertical pattern tool to do this. Find the center of the main lobe of the vertical
 [antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) using the “main lobe center” slider, then click accept.
-Confidential ©Cellular Expert, 2026 Page | 77
 
 ![Image p77](../../assets/images/ce-express/user-guide-v73/p077-img1.png)
 
 ![Image p77](../../assets/images/ce-express/user-guide-v73/p077-img2.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.6.1 Import Antennas
 To import new antennas, click the New Antenna button
 and then select Import Files.
@@ -1340,11 +1062,7 @@ To start the import procedure, select or drag and drop the antenna pattern file.
 
 ![Image p78](../../assets/images/ce-express/user-guide-v73/p078-img4.png)
 pattern files are supported. Here is an example:
-Confidential ©Cellular Expert, 2026 Page | 78
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.6.1 Import HCM code file
 To import HCM code patterns as antennas, you may use this import option. The required file is a CSV with
 3 fields, antenna gain, horizontal HCM code and vertical HCM code. These are then combined and imported
@@ -1358,11 +1076,7 @@ If you have separate pattern files for a multibeam antenna, you may use this imp
 
 ![Image p79](../../assets/images/ce-express/user-guide-v73/p079-img2.png)
 into a single cell array antenna pattern.
-Confidential ©Cellular Expert, 2026 Page | 79
 
----
-
-Cellular Expert Express User Guide 7.3
 Antenna parameters
 | Parameter | Description |
 |---|---|
@@ -1370,17 +1084,12 @@ Antenna parameters
 | Model | Antenna name. |
 | Frequency | Antenna frequency value in MHz. |
 | Gain | Antenna gain value in dBi. |
-Confidential ©Cellular Expert, 2026 Page | 80
 
 ![Image p80](../../assets/images/ce-express/user-guide-v73/p080-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.6.3 Create manually
 To manually create an antenna, click the New Antenna button
 and then select Create Manually.
-Confidential ©Cellular Expert, 2026 Page | 81
 
 ![Image p81](../../assets/images/ce-express/user-guide-v73/p081-img1.png)
 
@@ -1388,21 +1097,14 @@ Confidential ©Cellular Expert, 2026 Page | 81
 
 ![Image p81](../../assets/images/ce-express/user-guide-v73/p081-img3.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Antenna parameters
 Manufacturer
 Antenna manufacturer (company or entity).
 Model
 Antenna name.
-Confidential ©Cellular Expert, 2026 Page | 82
 
 ![Image p82](../../assets/images/ce-express/user-guide-v73/p082-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Frequency | Antenna frequency value in MHz. |
@@ -1416,11 +1118,7 @@ Horizontal pattern
 | Angle offset | Transition width between attenuated and non-attenuated parts of the antenna pattern in degrees. The attenuation values are linearly interpolated between 0 and the max attenuation value within this transition range. |
 | Mirror pattern | Ability to mirror the vertical attenuation pattern. |
 Pattern preview
-Confidential ©Cellular Expert, 2026 Page | 83
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.7 Geodata sets
 Click this button to open Geodata sets tool.
 Geodata sets are collections of geographical raster data that is used in CE calculations. Geodata sets are
@@ -1438,11 +1136,7 @@ classes raster must have building outlines separated into their own class ID.
 To edit a geodata set, click the desired geodata set name from the list. To create a new one, click “+ New
 geodata set”.
 When creating a new geodata set, some general details, like the geodata set name, must be entered and
-Confidential ©Cellular Expert, 2026 Page | 84
 
----
-
-Cellular Expert Express User Guide 7.3
 saved. Only then you may then upload the geodata rasters to the set after selecting it from the list.
 Under the rasters section, there are 3 File upload squares for uploading the rasters. Click to select a file
 
@@ -1456,11 +1150,7 @@ Uploaded rasters have the following requirements:
 After uploading rasters, the file upload squares change to green, and show some metadata, like upload
 date and resolution, about the uploaded raster files.
 The data extent is also outlined in green on the map when a geodata set is selected:
-Confidential ©Cellular Expert, 2026 Page | 85
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.7.1 [Clutter classes](#kw:clutter-classification-values:ce-express-geodata)
 If a clutter class raster is available in the geodata set, the clutter classes section should be set up to
 represent the data in the file.
@@ -1476,11 +1166,7 @@ Height – Nominal height for clutter class if it is not represented in the clut
 
 ![Image p86](../../assets/images/ce-express/user-guide-v73/p086-img2.png)
 have heights for this class in the clutter height raster, this should be set to 0.
-Confidential ©Cellular Expert, 2026 Page | 86
 
----
-
-Cellular Expert Express User Guide 7.3
 Color – the color by which the clutter class is represented in different UI elements, for example – the profile
 
 ![Image p87](../../assets/images/ce-express/user-guide-v73/p087-img1.png)
@@ -1491,11 +1177,7 @@ saved data. In the case of feature creation, you can fill out the parameters by 
 in the add features tool. In the case of starting some calculations, you may pick a template from which
 missing feature parameters will be filled during the calculation. The feature templates tool allows you to set
 up these templates before using them.
-Confidential ©Cellular Expert, 2026 Page | 87
 
----
-
-Cellular Expert Express User Guide 7.3
 After opening the tool, you get to choose which feature type you want to manage templates for.
 After selecting the feature type, a list of existing feature templates is shown, click an existing feature
 
@@ -1503,11 +1185,7 @@ After selecting the feature type, a list of existing feature templates is shown,
 
 ![Image p88](../../assets/images/ce-express/user-guide-v73/p088-img2.png)
 template to edit it, or click new feature template to create a new one.
-Confidential ©Cellular Expert, 2026 Page | 88
 
----
-
-Cellular Expert Express User Guide 7.3
 Upon hovering the mouse over a feature template, options for it appear.
 Mark as favorite
 Delete Feature template
@@ -1533,15 +1211,10 @@ effect. The LOS condition is illustrated by the path profile depicted in Fig. 3(
 see illustration in Fig. 3(b).
 - Non-LOS (NLOS) – occurs when the direct radio propagation line is interposed by terrain bulges
 or obstacles, see illustration in Fig. 3(c).
-Confidential ©Cellular Expert, 2026 Page | 89
 
----
-
-Cellular Expert Express User Guide 7.3
 a. Example of path profile with LOS condition (green line of direct radio link)
 b. Example of path profile with OLOS condition (yellow segment of radio link path)
 (c) Example of path profile with NLOS condition (red segment of radio link path)
-Confidential ©Cellular Expert, 2026 Page | 90
 
 ![Image p90](../../assets/images/ce-express/user-guide-v73/p090-img1.png)
 
@@ -1549,9 +1222,6 @@ Confidential ©Cellular Expert, 2026 Page | 90
 
 ![Image p90](../../assets/images/ce-express/user-guide-v73/p090-img3.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 (d) Example of path profile with OLOS+NLOS condition (yellow+red segment of radio link path)
 Depending on the LOS condition for the receive antenna at specific location (area map pixel), the CE tools
 
@@ -1560,11 +1230,7 @@ Depending on the LOS condition for the receive antenna at specific location (are
 ![Image p91](../../assets/images/ce-express/user-guide-v73/p091-img2.png)
 will apply the specific sub-set of path loss prediction model, as explained in the following section.
 Prediction models available in Cellular Expert support frequencies from 10kHz to 350 GHz.
-Confidential ©Cellular Expert, 2026 Page | 91
 
----
-
-Cellular Expert Express User Guide 7.3
 CEC ITU-R Model (100MHz – 6GHz) is a combination model intended for use in a variety of different
 radiocommunication systems which is derived explicitly from ITU-R path loss modelling methods as
 follows:
@@ -1611,11 +1277,7 @@ Use in Cellular Expert
 In the Cellular Expert software, the ITU-R P.1546 model is implemented to support real-world coverage
 planning and regulatory studies. Users can configure environmental parameters and resolution settings
 to match local conditions and improve prediction accuracy.
-Confidential ©Cellular Expert, 2026 Page | 92
 
----
-
-Cellular Expert Express User Guide 7.3
 LOS ITU-R P.525 Model (6GHz – 100GHz) is the FSL path loss calculated based on the method in
 Recommendation ITU-R P.525 (ref URL). As such it could be used for modelling radio links where LOS is
 considered a necessary condition, e.g., for Fixed (Point-to-Point) Links or Mobile Systems in [mmWave](#kw:56-step-8-losonly-prediction-for-mmwave:ce-express-tr-models)
@@ -1659,11 +1321,7 @@ The surface over which the wave propagates critically affects signal strength:
 - Dry land or desert: Low conductivity, high loss
 - Typical values range from:
 o Conductivity: 10⁻⁴ to 5 S/m
-Confidential ©Cellular Expert, 2026 Page | 93
 
----
-
-Cellular Expert Express User Guide 7.3
 o Relative permittivity: 4 to 81
 ISO 9613 standard provides a validated, practical method for predicting the outdoor propagation of sound,
 and is increasingly applied in siren sound modeling within public security, emergency warning systems, and
@@ -1694,11 +1352,7 @@ technical report, which specifies channel models for frequencies from 0.5 GHz to
 version requires to convert CAD drawing into a clutter height raster file which is imported to workspace. By
 toggle ON “Load geodata when opening workspace” this raster file becomes visible, allowing for accurate
 placement and planning new transmitters as indoor antennas.
-Confidential ©Cellular Expert, 2026 Page | 94
 
----
-
-Cellular Expert Express User Guide 7.3
 In the left ribbon, navigate to Layers → Geodata, expand Clutter Heights, and set the opacity to 100% to
 enhance building visibility. For more accurate RF prediction, use a high-resolution grid of 0.1 meters in
 the prediction model to account for wall thickness and fine structural details.
@@ -1718,11 +1372,7 @@ When building data and their heights are not available, and only DTM and clutter
 meters or lower are accessible, the UniMacro Model should be considered for wide-area propagation and
 coverage modeling in a slightly narrower frequency range of 400 MHz to 3 GHz.
 3.1.9.1.1 CEC ITU-R Model settings
-Confidential ©Cellular Expert, 2026 Page | 95
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Configuration name | Name of the prediction configuration name. |
@@ -1733,11 +1383,7 @@ Cellular Expert Express User Guide 7.3
 | Distance coefficient | Defines the slope based on the distance between the cell and the receiver location, with a default value of 20. |
 | Distance coefficient obstructed | Represents the slope based on the obstructed distance between the cell and the receiver location. The default value is 30. |
 | Frequency coefficient | Indicates the slope determined by the frequency value, with a default value of 20. |
-Confidential ©Cellular Expert, 2026 Page | 96
 
----
-
-Cellular Expert Express User Guide 7.3
 The Clutter Class option defines several predefined clutter categories, each with unique values for
 diffraction loss, clutter loss, penetration loss, and receiver loss coefficients. These parameters describe
 how a signal is impacted when it passes through or terminates in a specific clutter class.
@@ -1748,11 +1394,7 @@ A multiplier used in diffraction calculations. Lower values result in reduced di
 
 ![Image p97](../../assets/images/ce-express/user-guide-v73/p097-img1.png)
 values increase it. Typically, this coefficient is higher for buildings compared to forests or other clutter
-Confidential ©Cellular Expert, 2026 Page | 97
 
----
-
-Cellular Expert Express User Guide 7.3
 types.ltiplier for diffraction calculations. If value is lower, diffraction will be lower, if higher – then diffraction
 will be higher. Usually, for buildings clutter class this parameter is higher then forest or other clutter classes.
 Enclosed receiver loss offset
@@ -1800,11 +1442,7 @@ Medium density urban
 (High buildings)
 10 0.7 0 0.89 0.65 0
 High density urban
-Confidential ©Cellular Expert, 2026 Page | 98
 
----
-
-Cellular Expert Express User Guide 7.3
 (Low buildings)
 10 0.7 0 0.89 0.65 0
 High density urban
@@ -1838,11 +1476,7 @@ analysis in fixed and mobile radio communication systems. By accounting for the 
 atmospheric conditions, and other factors, it helps engineers assess link reliability and optimize network
 performance in a variety of environmental scenarios.
 3.1.9.2.1 ITU R. P452 Model settings
-Confidential ©Cellular Expert, 2026 Page | 99
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Configuration name | Name of the prediction configuration name. |
@@ -1859,11 +1493,7 @@ Indicates the slope determined by the frequency value, with a default value of 2
 Clutter class option describes several fixed Clutter names with penetration loss coefficients. These
 parameters describe how a signal is impacted when it passes through or terminates in a specific clutter
 class.
-Confidential ©Cellular Expert, 2026 Page | 100
 
----
-
-Cellular Expert Express User Guide 7.3
 Enclosed receiver loss offset
 The initial entry loss into an obstacle within the clutter class, expressed as an offset in dB, which is added
 
@@ -1875,11 +1505,7 @@ Represents additional signal loss as a function of the distance travelled in an 
 class. Higher values increase path loss. Applies when receiver point ends up enclosed within an obstacle
 within this clutter class.
 Enclosed receiver loss frequency exponent coefficient
-Confidential ©Cellular Expert, 2026 Page | 101
 
----
-
-Cellular Expert Express User Guide 7.3
 Reflects additional loss inside an obstacle within the clutter class based on frequency. Higher values
 increase path loss, particularly at higher frequencies. Applies when receiver point ends up enclosed within
 an obstacle within this clutter class.
@@ -1920,11 +1546,6 @@ High density urban (Very high
 | Concrete building | 2 0.25 1 |
 | Glass building | 2 0.25 1 |
 Wood building
-Confidential ©Cellular Expert, 2026 Page | 102
-
----
-
-Cellular Expert Express User Guide 7.3
 
 ## 8.5 0.25 1
 
@@ -1960,11 +1581,7 @@ precision in dense urban and high-frequency applications.
 | Offset coefficient | Represents the offset in decibels added to the path loss grid. The default value is 37 dB. |
 | Distance coefficient | Defines the slope based on the distance between the cell and the receiver location, with a default value of 20. |
 | Frequency coefficient | Indicates the slope determined by the frequency value, with a default value of 20. |
-Confidential ©Cellular Expert, 2026 Page | 105
 
----
-
-Cellular Expert Express User Guide 7.3
 Receiver height
 Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main
 
@@ -1983,11 +1600,7 @@ accessible.
 For accurate wide-area propagation and coverage modeling where building data and their heights are
 available, the CEC ITU-R 3GPP Model is recommended, offering a broader application frequency range of
 100 MHz to 6 GHz.
-Confidential ©Cellular Expert, 2026 Page | 106
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.9.5.1 UniMacro Model settings
 | Parameter | Description |
 |---|---|
@@ -1995,13 +1608,9 @@ Cellular Expert Express User Guide 7.3
 | Radius | Maximum prediction radius in kilometers to calculate path loss. |
 | Receiver height | Receiver height above the receiver reference height selected in the workspace settings. |
 | Effective earth radius | Earth radius in kilometers, used for the calculations. |
-Confidential ©Cellular Expert, 2026 Page | 107
 
 ![Image p107](../../assets/images/ce-express/user-guide-v73/p107-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Offset coefficient | Represents the offset in decibels added to the path loss grid. The default value is 37 dB. |
@@ -2017,11 +1626,7 @@ M
 The Clutter Class option defines several predefined clutter categories, each with unique values for
 diffraction loss, clutter loss, penetration loss, and receiver loss coefficients. These parameters describe
 how a signal is impacted when it passes through or terminates in a specific clutter class.
-Confidential ©Cellular Expert, 2026 Page | 108
 
----
-
-Cellular Expert Express User Guide 7.3
 Nominal distance
 The average distance between objects within the clutter class, ranging from 1 to 100 meters.
 Diffraction loss coefficient
@@ -2033,11 +1638,7 @@ types.ltiplier for diffraction calculations. If value is lower, diffraction will
 will be higher. Usually, for buildings clutter class this parameter is higher then forest or other clutter classes.
 Enclosed receiver loss offset
 The initial entry loss into an obstacle within the clutter class, expressed as an offset in dB, which is added
-Confidential ©Cellular Expert, 2026 Page | 109
 
----
-
-Cellular Expert Express User Guide 7.3
 to the path loss grid. Applies when receiver point ends up enclosed within an obstacle within this clutter
 class.
 Enclosed receiver loss scaling coefficient
@@ -2088,11 +1689,7 @@ High density urban
 10 0.7 0 0.89 0.65 0
 High density urban
 (Very high buildings)
-Confidential ©Cellular Expert, 2026 Page | 110
 
----
-
-Cellular Expert Express User Guide 7.3
 15 0.6 0 0.89 0.65 0
 | Parameter | Description |
 |---|---|
@@ -2120,11 +1717,7 @@ critical role. It accounts for factors such as terrain conductivity, dielectric 
 ![Image p111](../../assets/images/ce-express/user-guide-v73/p111-img1.png)
 to deliver accurate predictions of signal behavior.
 3.1.9.6.1 ITU-R P368 Model settings
-Confidential ©Cellular Expert, 2026 Page | 111
 
----
-
-Cellular Expert Express User Guide 7.3
 Configuration name
 Name of the prediction configuration name.
 Radius
@@ -2136,11 +1729,7 @@ The general model parameters include the radius and receiver height. Additional 
 ![Image p112](../../assets/images/ce-express/user-guide-v73/p112-img1.png)
 loss calculations are derived from the clutter classes. Each clutter class has its own unique set of
 parameters:
-Confidential ©Cellular Expert, 2026 Page | 112
 
----
-
-Cellular Expert Express User Guide 7.3
 Surface refractivity
 A measure of the refractive index's influence on electromagnetic wave propagation, particularly in the lower
 atmosphere close to the Earth's surface. It is expressed as a dimensionless value, typically dependent on
@@ -2205,11 +1794,7 @@ spherical spreading) or other forms depending on terrain.
 considered in the calculation of sound levels at various receiver points.
 𝐴𝑑𝑖𝑣=20∗𝐿𝑂𝐺10(𝑑)+11
 2. Atmospheric Absorption
-Confidential ©Cellular Expert, 2026 Page | 114
 
----
-
-Cellular Expert Express User Guide 7.3
 - Sound is absorbed by the atmosphere as it travels, particularly at higher frequencies. The
 absorption depends on factors like temperature, humidity, and air pressure, and is often more
 significant over longer distances.
@@ -2235,11 +1820,7 @@ more by humid air.
 - These conditions are integrated into the model to adjust the calculations of sound attenuation,
 ensuring more accurate predictions for different weather scenarios.
 3.1.9.7.1 ISO9613 Model settings
-Confidential ©Cellular Expert, 2026 Page | 115
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Configuration name | Name of the prediction configuration name. |
@@ -2258,11 +1839,7 @@ Temperature
 Air temperature in Celsius.
 Humidity
 Air humidity in percentage.
-Confidential ©Cellular Expert, 2026 Page | 116
 
----
-
-Cellular Expert Express User Guide 7.3
 Receiver height
 Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main
 receiver height value defined in the prediction model is used.
@@ -2276,11 +1853,7 @@ represent open space and Clutter Class 1 for obstacles. Additional clutter class
 the wall material properties during the CAD-to-clutter conversion process. These classifications are then
 specified within the Geodata Set, enabling more precise indoor propagation modeling.
 3.1.9.8.1 CEC 3GPP TR Model settings
-Confidential ©Cellular Expert, 2026 Page | 117
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Configuration name | Name of the prediction configuration name. |
@@ -2291,11 +1864,7 @@ Cellular Expert Express User Guide 7.3
 | Distance coefficient | Defines the slope based on the distance between the cell and the receiver location, with a default value of 20. |
 | Distance coefficient obstructed | Represents the slope based on the obstructed distance between the cell and the receiver location. The default value is 20. |
 default value is 20.
-Confidential ©Cellular Expert, 2026 Page | 118
 
----
-
-Cellular Expert Express User Guide 7.3
 Frequency coefficient
 Indicates the slope determined by the frequency value, with a default value of 20.
 Penetration loss offset
@@ -2306,11 +1875,7 @@ dB, which is added to the path loss grid.
 Penetration loss scaling coefficient
 Represents additional signal loss as a function of the distance travelled in an obstacle within the clutter
 class. Higher values increase path loss.
-Confidential ©Cellular Expert, 2026 Page | 119
 
----
-
-Cellular Expert Express User Guide 7.3
 Penetration loss frequency exponent coefficient
 Reflects additional loss inside an obstacle within the clutter class based on frequency. Higher values
 increase path loss, particularly at higher frequencies.
@@ -2351,31 +1916,18 @@ High density urban (Very high
 | Inland water | 5 0.25 1 |
 | Concrete building | 2 0.25 1 |
 Glass building
-Confidential ©Cellular Expert, 2026 Page | 120
 
----
-
-Cellular Expert Express User Guide 7.3
 2 0.25 1
 | Parameter | Description |
 |---|---|
 | Wood building | 8.5 0.25 1 |
 | Low loss building | 17 0.25 1 |
 | High loss building | 3.1.10 Settings Click this button to open Settings tool. |
-Confidential ©Cellular Expert, 2026 Page | 121
 
 ![Image p121](../../assets/images/ce-express/user-guide-v73/p121-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
-Confidential ©Cellular Expert, 2026 Page | 122
-
 ![Image p122](../../assets/images/ce-express/user-guide-v73/p122-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Application
 | Parameter | Description |
 |---|---|
@@ -2393,11 +1945,7 @@ Theme
 Change application theme:
 - Dark
 - Light
-Confidential ©Cellular Expert, 2026 Page | 123
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Toolbar location | Change the location of the tools: Split • • Left • Right |
@@ -2429,14 +1977,9 @@ Shows the signal values at an exact location for loaded predictions in the Map v
 
 ![Image p124](../../assets/images/ce-express/user-guide-v73/p124-img1.png)
 there are no loaded prediction rasters in the Layers tool.
-Confidential ©Cellular Expert, 2026 Page | 124
 
----
-
-Cellular Expert Express User Guide 7.3
 If the Layer tool has loaded prediction rasters,
 this will be shown in the [Identify tool](#kw:310-step-10-using-the-identify-tool:ce-express-tr-workspace).
-Confidential ©Cellular Expert, 2026 Page | 125
 
 ![Image p125](../../assets/images/ce-express/user-guide-v73/p125-img1.png)
 
@@ -2444,9 +1987,6 @@ Confidential ©Cellular Expert, 2026 Page | 125
 
 ![Image p125](../../assets/images/ce-express/user-guide-v73/p125-img3.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Click on the map to preview the signal value.
 Identify settings
 Real time
@@ -2464,11 +2004,7 @@ The Measurement Tool allows users to calculate spatial properties. It provides t
 
 ![Image p126](../../assets/images/ce-express/user-guide-v73/p126-img3.png)
 Distance, Area, and Offset.
-Confidential ©Cellular Expert, 2026 Page | 126
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.12.1 Distance
 Measure the distance between two or more points.
 Click once to finish line segment. Double click to finish drawing.
@@ -2478,27 +2014,19 @@ Total length of all line segments.
 Segment X
 Shows the length of the line segment.
 Angles
-Confidential ©Cellular Expert, 2026 Page | 127
 
 ![Image p127](../../assets/images/ce-express/user-guide-v73/p127-img1.png)
 
 ![Image p127](../../assets/images/ce-express/user-guide-v73/p127-img2.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Segment 1 → 2 | Angles between line segments. 3.1.12.2 Area Calculates the surface area and perimeter of the area. |
 | Area | Total enclosed surface. |
 | Perimeter | Total boundary length. 3.1.12.3 Offset Helps find the shortest distance from a line to a point on the map. |
-Confidential ©Cellular Expert, 2026 Page | 128
 
 ![Image p128](../../assets/images/ce-express/user-guide-v73/p128-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Click once to start drawing the reference line, then once again – to finish. Then, click on the map to select
 
 ![Image p129](../../assets/images/ce-express/user-guide-v73/p129-img1.png)
@@ -2508,11 +2036,7 @@ the offset point, towards which you would like the find the distance.
 Distance from segment
 Distance from the line segment to the offset point.
 3.1.12.4 Point
-Confidential ©Cellular Expert, 2026 Page | 129
 
----
-
-Cellular Expert Express User Guide 7.3
 Coordinates
 To display the coordinates, click on your desired location on the map.
 3.1.13 Network statistics
@@ -2525,18 +2049,10 @@ Network Statistics is a tool that calculates the total coverage of a polygon bas
 (signal strength, dl throughput, etc.). The resulting statistics include the total coverage and individual
 coverage of each polygon segment.
 Upon hovering the mouse over a statistic item, options for it appear.
-Confidential ©Cellular Expert, 2026 Page | 130
 
----
-
-Cellular Expert Express User Guide 7.3
 Edit statistic
 Delete statistic
-Confidential ©Cellular Expert, 2026 Page | 131
 
----
-
-Cellular Expert Express User Guide 7.3
 A statistics item may be clicked to reveal detailed statistic.
 Display settings
 Statistic
@@ -2551,13 +2067,9 @@ weighted points covered by each color band.
 | Ascending order | Sort in descending/ascending order. |
 | Show as table | View the results in tabular view. |
 | Row count | Defines the maximum number of rows displayed. |
-Confidential ©Cellular Expert, 2026 Page | 132
 
 ![Image p132](../../assets/images/ce-express/user-guide-v73/p132-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Export
 Download as CSV
 Download statistic results as csv file.
@@ -2575,11 +2087,7 @@ The calculation result layer that will be used as the source for statistics item
 Band
 The color of each segment in the statistics. The color bands are automatically retrieved from the raster
 layer.
-Confidential ©Cellular Expert, 2026 Page | 133
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Polygon layer | Workspace ‘extra layer’ (polygon feature layer) that is used to divide statistics item into areas by polygon. |
@@ -2597,11 +2105,7 @@ Click this button to open [Street view](#kw:navigating-street-view:ce-express-st
 This interface links a 2D map with a street-level view. The map shows spatial context and landmarks. The
 street view shows the real-world appearance of the same location. Both panels update together when you
 select a place.
-Confidential ©Cellular Expert, 2026 Page | 134
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.15 Feature report
 Click this button to open Feature report tool.
 This tool allows you to create PDF reports of selected features with attribute tables, as well as a page with
@@ -2616,11 +2120,7 @@ Report options
 General options related to report
 Map page
 Whether to add a page with a view of the map to the PDF report output.
-Confidential ©Cellular Expert, 2026 Page | 135
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Download map as image | If this is enabled, an additional image file of the map will be downloaded upon report generation. |
@@ -2629,15 +2129,11 @@ Cellular Expert Express User Guide 7.3
 | Filename | Report file name. |
 | Title | Title for the front page of the report. |
 | Report info | Contact data of the report generating person / organization. Displayed in the final report. |
-Confidential ©Cellular Expert, 2026 Page | 136
 
 ![Image p136](../../assets/images/ce-express/user-guide-v73/p136-img1.png)
 
 ![Image p136](../../assets/images/ce-express/user-guide-v73/p136-img2.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Table data
 Enable / disable fields that will be added to the feature tables within the report. Only selected features are
 
@@ -2645,11 +2141,7 @@ Enable / disable fields that will be added to the feature tables within the repo
 
 ![Image p137](../../assets/images/ce-express/user-guide-v73/p137-img2.png)
 added to the table data.
-Confidential ©Cellular Expert, 2026 Page | 137
 
----
-
-Cellular Expert Express User Guide 7.3
 EMF options
 Options pertaining to the EMF module. Only visible when EMF module is active.
 Cell arrows
@@ -2662,13 +2154,9 @@ Enable
 Whether to draw perimeter circles around selected features
 Feature type
 Feature type which is used as the origin for perimeter circles
-Confidential ©Cellular Expert, 2026 Page | 138
 
 ![Image p138](../../assets/images/ce-express/user-guide-v73/p138-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Draw radius line
 Whether to draw a line within the circles marking the radius of the circle. A label of the radius length is
 
@@ -2685,28 +2173,15 @@ Name prefix
 Each placed point is numbered with 1 – n in the name (1, 2, 3, …, n). This prefix is added to each name.
 For example, if the prefix is defined as “omen”, the created omen points will be named as “omen 1”, “omen
 2”, “omen n”.
-Confidential ©Cellular Expert, 2026 Page | 139
 
----
-
-Cellular Expert Express User Guide 7.3
 Report example:
-Confidential ©Cellular Expert, 2026 Page | 140
 
 ![Image p140](../../assets/images/ce-express/user-guide-v73/p140-img1.png)
-
----
-
-Cellular Expert Express User Guide 7.3
-Confidential ©Cellular Expert, 2026 Page | 141
 
 ![Image p141](../../assets/images/ce-express/user-guide-v73/p141-img1.png)
 
 ![Image p141](../../assets/images/ce-express/user-guide-v73/p141-img3.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.16 Profile
 Click this button to open [Profile tool](#kw:when-to-use-the-profile-tool:ce-express-profile).
 This tool generates a detailed profile between two points. The locations From (transmitter) and To (receiver)
@@ -2722,11 +2197,7 @@ Calculation settings
 Reference Fresnel clearance
 Percentage by which the primary Fresnel zones will be scaled up or down thus creating a secondary Fresnel
 zone. The percentage must be in the range of 1 to 200 %.
-Confidential ©Cellular Expert, 2026 Page | 142
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Lock transmitter location | Toggling the switch will enable the Locked Transmitter location, which will modify only the receiver’s positioning when drawing the profile on the map. |
@@ -2739,11 +2210,7 @@ A feature from which the profile will be drawn. The parameters of the feature wi
 
 ![Image p143](../../assets/images/ce-express/user-guide-v73/p143-img1.png)
 if the feature is snapped to by the [profile tool](#kw:when-to-use-the-profile-tool:ce-express-profile).
-Confidential ©Cellular Expert, 2026 Page | 143
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | X | X coordinate of the transmitter. |
@@ -2760,11 +2227,7 @@ Cellular Expert Express User Guide 7.3
 | TX MIMO | Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64. |
 | RX MIMO | Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64. |
 | Subcarrier spacing | Value in kHz. Required for 4G and 5G technologies. For other technologies define value 15. |
-Confidential ©Cellular Expert, 2026 Page | 144
 
----
-
-Cellular Expert Express User Guide 7.3
 Receiver
 X
 X coordinate of the receiver.
@@ -2784,11 +2247,7 @@ Antenna
 Antenna that will be used in the prediction calculations.
 Power
 A power that the receiver possesses.
-Confidential ©Cellular Expert, 2026 Page | 145
 
----
-
-Cellular Expert Express User Guide 7.3
 Misc. loss
 Miscellaneous loss value in dB.
 3.1.16.2 Draw profile
@@ -2811,14 +2270,9 @@ Upon the selection of a second point, these geometries will be created between t
 - Fresnel (blue) – the Fresnel lines
 You can inspect the values at particular points by moving the cursor around the plot. The cursor movement
 on the plot will be projected as a moving point on the map.
-Confidential ©Cellular Expert, 2026 Page | 146
 
----
-
-Cellular Expert Express User Guide 7.3
 Zoom in/out in the profile view.
 Click on button to view the see the Calculation results.
-Confidential ©Cellular Expert, 2026 Page | 147
 
 ![Image p147](../../assets/images/ce-express/user-guide-v73/p147-img1.png)
 
@@ -2826,9 +2280,6 @@ Confidential ©Cellular Expert, 2026 Page | 147
 
 ![Image p147](../../assets/images/ce-express/user-guide-v73/p147-img3.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.16.3 Profile report
 The input data and calculation results can be automatically transferred into a Profile Report. This report
 will show transmitter/receiver input data, calculation results as well as the Profile plot and map view in which
@@ -2838,18 +2289,9 @@ will show transmitter/receiver input data, calculation results as well as the Pr
 ![Image p148](../../assets/images/ce-express/user-guide-v73/p148-img2.png)
 the profile was drawn.
 The resulting Profile report will look similar to this example:
-Confidential ©Cellular Expert, 2026 Page | 148
-
----
-
-Cellular Expert Express User Guide 7.3
-Confidential ©Cellular Expert, 2026 Page | 149
 
 ![Image p149](../../assets/images/ce-express/user-guide-v73/p149-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.17 Quick RF Prediction
 Click this button to open Quic RF Prediction tool.
 The Quick RF Prediction is a tool that lets you select a point on the map and make a prediction without the
@@ -2864,11 +2306,7 @@ make quick predictions with the created cells. The Quick RF Prediction tool calc
 coverage.
 - To select a cell, hold the CTRL key and click to snap to the required cell. Snapped cells will be
 visible in the dialog.
-Confidential ©Cellular Expert, 2026 Page | 150
 
----
-
-Cellular Expert Express User Guide 7.3
 - To predict a preferred location without a cell, define the exact coordinates in the X/Y fields or click
 on the map to fill the coordinate fields automatically.
 Calculation settings
@@ -2885,11 +2323,7 @@ Prediction models that will be used in the prediction calculations.
 Cell template
 If a snapped cell does not have all the required parameters or no cell is snapped, the parameters will be
 taken from the template.
-Confidential ©Cellular Expert, 2026 Page | 151
 
----
-
-Cellular Expert Express User Guide 7.3
 Cell
 | Parameter | Description |
 |---|---|
@@ -2912,11 +2346,7 @@ Click on the map to start the calculation. The results will be loaded automatica
 be added to the Layer list tool.
 Results:
 - Field Strength raster in dBm.
-Confidential ©Cellular Expert, 2026 Page | 152
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.18 RF Prediction
 Click this button to open RF Prediction tool.
 This tool allows to perform predictions for cell objects selected on the map. Calculations can be performed
@@ -2927,11 +2357,7 @@ This tool allows to perform predictions for cell objects selected on the map. Ca
 
 ![Image p153](../../assets/images/ce-express/user-guide-v73/p153-img3.png)
 for more than one cell at the same time. Use the Features tool to select cells on the map.
-Confidential ©Cellular Expert, 2026 Page | 153
 
----
-
-Cellular Expert Express User Guide 7.3
 The selected cell count is visible in the RF Prediction dialog.
 The cells are split into technologies automatically. The cell’s technology is defined by the attributes in the
 
@@ -2942,20 +2368,12 @@ The cells are split into technologies automatically. The cell’s technology is 
 ![Image p154](../../assets/images/ce-express/user-guide-v73/p154-img3.png)
 technology field.
 To preview the calculation parameters, use the expand option for the technology.
-Confidential ©Cellular Expert, 2026 Page | 154
 
----
-
-Cellular Expert Express User Guide 7.3
 Select the technology with the switch button and press Calculate to initiate the predictions. The prediction
 
 ![Image p155](../../assets/images/ce-express/user-guide-v73/p155-img1.png)
 will be added to the Prediction History dialog.
-Confidential ©Cellular Expert, 2026 Page | 155
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.18.1 2G technology (GSM/CDMA-850/TETRA/P-25)
 Resolution
 Prediction raster cell size in meters.
@@ -2983,11 +2401,7 @@ C/I Max Field Margin, dB
 The corresponding channel’s signal interference if the first and the second strongest signals differ by less
 than or equal to 10 dBm.
 C/A Max Field Margin, dB
-Confidential ©Cellular Expert, 2026 Page | 156
 
----
-
-Cellular Expert Express User Guide 7.3
 The neighboring channel’s signal interference if the first and the second strongest signals differ by less than
 or equal to 10 dBm.
 | Parameter | Description |
@@ -3021,11 +2435,7 @@ cells that utilise the same carrier.
 - C/A raster show Carrier-to-Adjacent interference ratio in dB, to account for inter-cell interference
 from nearby cells that operate the adjacent carrier (adjacent frequency channel).
 - Uplink Field Strength raster shows receiver signal strength in dBm.
-Confidential ©Cellular Expert, 2026 Page | 157
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.18.2 3G technology (UMTS/CDMA)
 | Parameter | Description |
 |---|---|
@@ -3034,11 +2444,7 @@ Cellular Expert Express User Guide 7.3
 | Cell template | If the cell is missing the required parameters, the parameters from the template will be used. |
 | Repeater template | If the repeater is missing the required parameters, the parameters from the template will be used. |
 Calculate FS overlap
-Confidential ©Cellular Expert, 2026 Page | 158
 
----
-
-Cellular Expert Express User Guide 7.3
 This calculation in Cellular Expert calculates the geographical areas where two different cells provide similar
 signal strength. Specifically, it identifies regions where the absolute difference between the field strengths
 of Cell 1 and Cell 2 is less than a defined threshold (e.g., 10 dB). This analysis is useful for understanding
@@ -3072,11 +2478,7 @@ o 3rd best server shows third shows the strongest field strength cell identifica
 o 4th best server fourth show the strongest field strength cell identification.
 o 5th best server shows the fifth shows the strongest field strength cell identification.
 - Uplink Field Strength raster shows receiver signal strength in dBm.
-Confidential ©Cellular Expert, 2026 Page | 159
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.18.3 4G technology (LTE/BWA/WiMAX)
 Resolution
 Prediction raster cell size in meters.
@@ -3084,11 +2486,7 @@ Best server count
 There is the possibility to calculate up to 5 best servers. The prediction rasters show the 1st, 2nd, 3rd, and so
 on strongest signal sources. We recommend to use at least 3 best servers for more precise RSRQ, RSSI,
 SINR, and Throughput calculations.
-Confidential ©Cellular Expert, 2026 Page | 160
 
----
-
-Cellular Expert Express User Guide 7.3
 Cell template
 If the cell is missing the required parameters, the parameters from the template will be used.
 Repeater template
@@ -3115,11 +2513,7 @@ threshold is used for calculating whether a cell’s potential neighboring cell 
 only overlap where both of their coverage field strength values are above this threshold.
 Neighbour minimum coverage
 Coverage area overlap percentage above which a cell is considered a neighbour.
-Confidential ©Cellular Expert, 2026 Page | 161
 
----
-
-Cellular Expert Express User Guide 7.3
 Maximum neighbour count
 Maximum number of neighbours a cell can have. If a cell has more potential neighbours than this number,
 only the ones with the highest overlap are returned.
@@ -3142,11 +2536,7 @@ dB.
 - Uplink Field strength raster in dBm.
 - Uplink SINR raster
 - Uplink Throughput
-Confidential ©Cellular Expert, 2026 Page | 162
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.18.4 5G technology (NR/CBRS)
 Resolution
 Prediction raster cell size in meters.
@@ -3156,11 +2546,7 @@ on strongest signal sources. We recommend to use at least 3 best servers for mor
 SINR, and Throughput calculations.
 Cell template
 If the cell is missing the required parameters, the parameters from the template will be used.
-Confidential ©Cellular Expert, 2026 Page | 163
 
----
-
-Cellular Expert Express User Guide 7.3
 Repeater template
 If the repeater is missing the required parameters, the parameters from the template will be used.
 Calculate FS overlap
@@ -3188,11 +2574,7 @@ Coverage area overlap percentage above which a cell is considered a neighbour.
 Maximum neighbour count
 Maximum number of neighbours a cell can have. If a cell has more potential neighbours than this number,
 only the ones with the highest overlap are returned.
-Confidential ©Cellular Expert, 2026 Page | 164
 
----
-
-Cellular Expert Express User Guide 7.3
 Available coverage rasters:
 - Equivalent Reference Signal Receive Power ([RSRP](#kw:typical-rsrp-thresholds:ce-express-rf-prediction)) raster in dBm, as measured for a reference
 OFDMA sub-carrier bandwidth. It is possible to calculate separately the rasters for the 1st, 2nd, 3rd,
@@ -3213,11 +2595,7 @@ dB.
 - Uplink Field strength raster in dBm.
 - Uplink SINR.
 - Uplink Throughput.
-Confidential ©Cellular Expert, 2026 Page | 165
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.18.5 WiFi technology
 Resolution
 Prediction raster cell size in meters.
@@ -3225,11 +2603,7 @@ Best server count
 There is the possibility to calculate up to 5 best servers. The prediction rasters show the 1st, 2nd, 3rd, and so
 on strongest signal sources. We recommend to use at least 3 best servers for more precise RSRQ, RSSI,
 SINR, and Throughput calculations.
-Confidential ©Cellular Expert, 2026 Page | 166
 
----
-
-Cellular Expert Express User Guide 7.3
 Cell template
 If the cell is missing the required parameters, the parameters from the template will be used.
 Repeater template
@@ -3256,11 +2630,7 @@ threshold is used for calculating whether a cell’s potential neighboring cell 
 only overlap where both of their coverage field strength values are above this threshold.
 Neighbour minimum coverage
 Coverage area overlap percentage above which a cell is considered a neighbour.
-Confidential ©Cellular Expert, 2026 Page | 167
 
----
-
-Cellular Expert Express User Guide 7.3
 Maximum neighbour count
 Maximum number of neighbours a cell can have. If a cell has more potential neighbours than this number,
 only the ones with the highest overlap are returned.
@@ -3293,11 +2663,7 @@ performed for more than one cell at the same time. Use the Features tool to sele
 
 ![Image p168](../../assets/images/ce-express/user-guide-v73/p168-img2.png)
 map.
-Confidential ©Cellular Expert, 2026 Page | 168
 
----
-
-Cellular Expert Express User Guide 7.3
 Color bands
 You can set custom colors for your polygon using color bands. After the calculation, you can still change
 
@@ -3309,11 +2675,7 @@ Vertical resolution
 Vertical prediction step size in meters.
 Min Z
 Lowest height level, in meters, at which the prediction is calculated.
-Confidential ©Cellular Expert, 2026 Page | 169
 
----
-
-Cellular Expert Express User Guide 7.3
 Max Z
 Highest height level, in meters, up to which the prediction is calculated.
 Cell template
@@ -3332,11 +2694,7 @@ Calculation name
 Name of the calculation that will be displayed in the Prediction history.
 Resolution
 Prediction raster cell size in meters.
-Confidential ©Cellular Expert, 2026 Page | 170
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Max radius | Maximum calculation radius in kilometers. |
@@ -3359,11 +2717,7 @@ The Antenna Visibility prediction tool is designed to calculate and visualize th
 
 ![Image p171](../../assets/images/ce-express/user-guide-v73/p171-img2.png)
 clearance for features based on their azimuth, tilt and selected antenna pattern.
-Confidential ©Cellular Expert, 2026 Page | 171
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Calculation Name | Name of the calculation that will be displayed in Prediction history. |
@@ -3378,15 +2732,11 @@ antenna pattern that’s above the set threshold.
 3.1.22 Minimum receiver height
 Click this button to open Minimum receiver height tool.
 Calculates the minimum receiver height required to satisfy LOS condition for selected features.
-Confidential ©Cellular Expert, 2026 Page | 172
 
 ![Image p172](../../assets/images/ce-express/user-guide-v73/p172-img1.png)
 
 ![Image p172](../../assets/images/ce-express/user-guide-v73/p172-img2.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Calculation settings
 | Parameter | Description |
 |---|---|
@@ -3400,13 +2750,9 @@ Value priority in places where multiple feature calculations overlap
 - Highest (Reach all) – maximum value will be used
 Results:
 - Minimum receiver height, m - minimum receiver height required to satisfy LOS condition
-Confidential ©Cellular Expert, 2026 Page | 173
 
 ![Image p173](../../assets/images/ce-express/user-guide-v73/p173-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 - Best Server – Object id of the feature which has the value priority in each pixel. E.g.: In the case of
 “lowest” priority setting, pixels have the object id of the feature which has the lowest available
 minimum receiver height (best visibility).
@@ -3419,11 +2765,7 @@ parameters are defined in the tool input fields, therefore it may be a theorical
 
 ![Image p174](../../assets/images/ce-express/user-guide-v73/p174-img2.png)
 the database.
-Confidential ©Cellular Expert, 2026 Page | 174
 
----
-
-Cellular Expert Express User Guide 7.3
 Calculation settings
 | Parameter | Description |
 |---|---|
@@ -3442,11 +2784,7 @@ Feature
 | X | X coordinate of the Feature. |
 | Y | Y coordinate of the Feature. |
 | Height | Feature height above the ground in meters. |
-Confidential ©Cellular Expert, 2026 Page | 175
 
----
-
-Cellular Expert Express User Guide 7.3
 ## 3.1.24 Radar prediction
 Click this button to open Radar prediction tool.
 Radar Prediction is a tool that lets you calculate predictions on radars. Depending on the view angle and
@@ -3466,11 +2804,7 @@ Calculation settings
 | Selected | Current amount of selected radars. |
 Results:
 - Field Strength raster in dBm
-Confidential ©Cellular Expert, 2026 Page | 176
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.25 Network availability
 Click this button to open Network availability tool.
 This tool is designed to check if coverage exists at a chosen location. Define the exact coordinates in the
@@ -3490,11 +2824,7 @@ information about possible connections is displayed:
 - CPE throughput – total cpe throughput in a cell.
 - Calculate profile – option to open a detailed profile between Transmitter and Receiver.
 In addition, the lines between Transmitter and Receiver are displayed on the map.
-Confidential ©Cellular Expert, 2026 Page | 177
 
----
-
-Cellular Expert Express User Guide 7.3
 The lines on the map can be visualized in different ways. Move the mouse cursor on the calculate profile
 
 ![Image p178](../../assets/images/ce-express/user-guide-v73/p178-img1.png)
@@ -3502,11 +2832,7 @@ The lines on the map can be visualized in different ways. Move the mouse cursor 
 ![Image p178](../../assets/images/ce-express/user-guide-v73/p178-img2.png)
 button in tabular view.
 Then the appropriate line will be visualized differently.
-Confidential ©Cellular Expert, 2026 Page | 178
 
----
-
-Cellular Expert Express User Guide 7.3
 It is possible to draw a profile from the provided results. Press the Calculate profile button to open the
 
 ![Image p179](../../assets/images/ce-express/user-guide-v73/p179-img1.png)
@@ -3518,11 +2844,7 @@ profile.
 ## 3.1.26 Model Tuning
 Click this button to open Model tuning tool.
 Model Tuning is a tool to optimize prediction model parameters based on test points. These test points
-Confidential ©Cellular Expert, 2026 Page | 179
 
----
-
-Cellular Expert Express User Guide 7.3
 must be bound to cells by their cell id.
 | Parameter | Description |
 |---|---|
@@ -3539,19 +2861,11 @@ Press Calculate to initiate the model tuning. The model tuning task will be adde
 
 ![Image p180](../../assets/images/ce-express/user-guide-v73/p180-img2.png)
 dialog.
-Confidential ©Cellular Expert, 2026 Page | 180
 
----
-
-Cellular Expert Express User Guide 7.3
 Click the open button next to the tuning data to open results.
-Confidential ©Cellular Expert, 2026 Page | 181
 
 ![Image p181](../../assets/images/ce-express/user-guide-v73/p181-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Reselect measurements by visibility
 Enable the visibility types of your choosing, then click apply selection to select only the measurement points,
 
@@ -3564,11 +2878,7 @@ visibility types.
 The comparison between the untuned and tuned prediction models is presented by highlighting the
 differences in their mean values, standard deviations, and standard errors.
 - Difference Mean during model tuning measures how the average prediction accuracy or
-Confidential ©Cellular Expert, 2026 Page | 182
 
----
-
-Cellular Expert Express User Guide 7.3
 performance improves after optimizing model parameters compared to the default settings. For
 example, tuning might reduce the average prediction error, leading to more accurate coverage or
 signal estimations.
@@ -3586,13 +2896,9 @@ Model coefficients that are recommended to be changed.
 receiver location.
 - Slope coefficient distance obstructed – represents the slope based on the obstructed distance
 between the cell and the receiver location.
-Confidential ©Cellular Expert, 2026 Page | 183
 
 ![Image p183](../../assets/images/ce-express/user-guide-v73/p183-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Clutter classes
 Recommended clutter loss values
 3.1.27 Optimal placement
@@ -3602,11 +2908,7 @@ Optimal placement is a tool that lets the user find optimal positions for a site
 ![Image p184](../../assets/images/ce-express/user-guide-v73/p184-img1.png)
 
 ![Image p184](../../assets/images/ce-express/user-guide-v73/p184-img2.png)
-Confidential ©Cellular Expert, 2026 Page | 184
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Calculation Name | Name of the calculation that will be displayed in the Prediction history. |
@@ -3617,13 +2919,9 @@ Cellular Expert Express User Guide 7.3
 | Frequency | The frequency value in MHz. |
 | TX power | Transmitter power in dBm. |
 | TX antenna gain | Transmitter gain in dBi. |
-Confidential ©Cellular Expert, 2026 Page | 185
 
 ![Image p185](../../assets/images/ce-express/user-guide-v73/p185-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 RX antenna gain
 Receiver gain in dBi.
 RX sensitivity
@@ -3646,11 +2944,7 @@ know the exact antenna model for your cells, and only have beamwidth values assi
 After uploading the CSV file you are prompted to assign the CSV fields to the required parameters:
 3.1.28.2 Feature name to object ID
 Used to extract feature object_id values given their names in the csv. Useful when you want to import
-Confidential ©Cellular Expert, 2026 Page | 186
 
----
-
-Cellular Expert Express User Guide 7.3
 features with object_id references to other already existing features. E.g.: assign cell_id field to
 measurements given cell_name.
 3.1.28.3 Assign antennas to cells by name
@@ -3669,11 +2963,7 @@ Exports selected or all features to a KMZ file.
 3.1.29 Points to DXF
 Click this button to open Points to DXF tool.
 Allows for easy reference point transfer between the CE Express interface and CAD applications.
-Confidential ©Cellular Expert, 2026 Page | 187
 
----
-
-Cellular Expert Express User Guide 7.3
 DXF options
 | Parameter | Description |
 |---|---|
@@ -3693,11 +2983,7 @@ layer may be changed after the fact within the line for each point in the UI.
 3.1.30 EMF
 Click this button to open EMF tool.
 Used for calculating the electromagnetic field, or non-ionising radiation for regulatory purposes.
-Confidential ©Cellular Expert, 2026 Page | 188
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Calculation name | Name of the calculation that will be displayed in the Prediction history. |
@@ -3711,15 +2997,11 @@ Results:
 - EMF, mV/m – EMF value in mV/m
 3.1.31 Audibility
 Click this button to open Audibility tool.
-Confidential ©Cellular Expert, 2026 Page | 189
 
 ![Image p189](../../assets/images/ce-express/user-guide-v73/p189-img1.png)
 
 ![Image p189](../../assets/images/ce-express/user-guide-v73/p189-img2.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Calculation name | Name of the calculation that will be displayed in Prediction history. |
@@ -3748,11 +3030,7 @@ o Higher frequencies (treble) attenuate faster than lower frequencies (bass).
 o The tool might calculate the overall SPL or provide frequency-specific results.
 - The best server raster shows the identification of siren generating the strongest sound value at
 each pixel.
-Confidential ©Cellular Expert, 2026 Page | 190
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.32 Lux calculation
 Click this button to open Lux calculation tool.
 Calculation name
@@ -3773,11 +3051,7 @@ Geoclimatic Data is a tool that lets you adjust the geoclimatic settings that wi
 
 ![Image p191](../../assets/images/ce-express/user-guide-v73/p191-img3.png)
 (e.g. Link Prediction).
-Confidential ©Cellular Expert, 2026 Page | 191
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.33.1 Gaseous Absorption
 Gaseous absorption define values for dry air pressure and water vapour density. These values can be
 obtained from predefined geoclimatic data maps. Water vapour density data according to ITU-R P.836-3.
@@ -3791,11 +3065,7 @@ The mass of water vapor present in a unit volume of air, typically measured in g
 ![Image p192](../../assets/images/ce-express/user-guide-v73/p192-img1.png)
 
 ![Image p192](../../assets/images/ce-express/user-guide-v73/p192-img2.png)
-Confidential ©Cellular Expert, 2026 Page | 192
 
----
-
-Cellular Expert Express User Guide 7.3
 Use Geoclimatic Data
 Enable/Disable this Geoclimatic data
 Water Vapour Density Data
@@ -3820,22 +3090,14 @@ Refractivity gradient data is based on ITU-R P.453-9. Refractivity gradient data
 
 ![Image p193](../../assets/images/ce-express/user-guide-v73/p193-img1.png)
 analysis.
-Confidential ©Cellular Expert, 2026 Page | 193
 
----
-
-Cellular Expert Express User Guide 7.3
 ITU Method
 Enable/Disable the ITU Method
 ITU-R P.530 version
 A dropdown menu allowing the user to select the ITU-R P.530 version.
-Confidential ©Cellular Expert, 2026 Page | 194
 
 ![Image p194](../../assets/images/ce-express/user-guide-v73/p194-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Use Geoclimatic Data
 Enable/Disable this Geoclimatic data.
 Geoclimatic Factor (Define value manually)
@@ -3862,11 +3124,7 @@ focusing effects.
 The rain fading page defines rain regions (ITU and Crane) for rain rate statistics and calculation methods
 (ITU and Crane). The rain rate exceedance parameter for 0.01% of the time can be set manually or
 automatically according to the rain zone.
-Confidential ©Cellular Expert, 2026 Page | 195
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Geoclimatic data - ESA rain rate data / ESA rain rate | Options to select the dataset (such as "ESARAIN_V5") and the specific field within that dataset (like "MT") for rain rate data, used for calculating rain attenuation. |
@@ -3880,11 +3138,7 @@ involve multiple hops or two-way transmission.
 3.1.33.5 Statistics
 These settings are used to handle statistical conversions for telecommunication planning, ensuring that
 systems are designed to cope with the worst-case scenarios based on historical data and predictive models.
-Confidential ©Cellular Expert, 2026 Page | 196
 
----
-
-Cellular Expert Express User Guide 7.3
 Define
 Options to either define a fixed conversion factor or to calculate it based on additional inputs.
 Q1 (1...12)
@@ -3900,11 +3154,7 @@ the ITU-R P.841 recommendation.
 3.1.34 [Spectrum masks](#kw:711-spectrum-masks:ce-pro-rlp)
 Click this button to open Spectrum masks tool.
 The tool enables you to create spectrum masks that will be necessary to be used in calculations.
-Confidential ©Cellular Expert, 2026 Page | 197
 
----
-
-Cellular Expert Express User Guide 7.3
 Move the mouse cursor over the spectrum mask and delete it using Delete button.
 By selecting a spectrum mask you can view its properties and change them. Changes in the mask point
 
@@ -3914,11 +3164,7 @@ By selecting a spectrum mask you can view its properties and change them. Change
 values will be reflected in the graph.
 3.1.34.1 Add spectrum mask
 To create a spectrum mask, press the New spectrum mask button.
-Confidential ©Cellular Expert, 2026 Page | 198
 
----
-
-Cellular Expert Express User Guide 7.3
 Mask attributes
 Mask Name
 Spectrum mask identification.
@@ -3933,19 +3179,11 @@ When you create a spectrum mask, you can see its visual representation as well a
 
 ![Image p199](../../assets/images/ce-express/user-guide-v73/p199-img2.png)
 spectrum mask point (frequency and attenuation)
-Confidential ©Cellular Expert, 2026 Page | 199
 
----
-
-Cellular Expert Express User Guide 7.3
 You can change any values of these points and those changes will be reflected in the graph.
-Confidential ©Cellular Expert, 2026 Page | 200
 
 ![Image p200](../../assets/images/ce-express/user-guide-v73/p200-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 ## 3.1.35 Radios
 Click this button to open Radios tool.
 The tool enables you to create and preview radios that will be necessary to create a link and later be used
@@ -3954,31 +3192,19 @@ The tool enables you to create and preview radios that will be necessary to crea
 
 ![Image p201](../../assets/images/ce-express/user-guide-v73/p201-img2.png)
 in calculations.
-Confidential ©Cellular Expert, 2026 Page | 201
 
----
-
-Cellular Expert Express User Guide 7.3
 Move the mouse cursor over the radio and delete radio using Delete button.
 By clicking an already existing radio, you can edit its properties and save them.
-Confidential ©Cellular Expert, 2026 Page | 202
 
 ![Image p202](../../assets/images/ce-express/user-guide-v73/p202-img1.png)
 
 ![Image p202](../../assets/images/ce-express/user-guide-v73/p202-img2.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.35.1 Add new radio
 To create a radio press the New radio button.
-Confidential ©Cellular Expert, 2026 Page | 203
 
 ![Image p203](../../assets/images/ce-express/user-guide-v73/p203-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 General
 Model
 Radio identification or name.
@@ -4000,11 +3226,7 @@ system, measured in dB.
 Emission Designator
 Code describing the characteristics of the radio emission, including modulation type, signal nature, and
 bandwidth.
-Confidential ©Cellular Expert, 2026 Page | 204
 
----
-
-Cellular Expert Express User Guide 7.3
 Receiver
 BER 10-3 Threshold, dBm
 Receiver sensitivity threshold for BER = 10-6.
@@ -4022,11 +3244,7 @@ The sum of Noise Floor and Noise Figure.
 Residual BER
 The remaining bit error rate after all error correction methods have been applied.
 XPIF, dB
-Confidential ©Cellular Expert, 2026 Page | 205
 
----
-
-Cellular Expert Express User Guide 7.3
 Cross-polarization interference factor: interference caused by signal components with orthogonal
 polarization states, indicating the impact of cross-polarization on system performance, expressed in
 decibels (dB). The default value is 20. The value should be higher than 0 for rain ITU fading calculations to
@@ -4046,11 +3264,7 @@ Power, dBm
 Power value in dBm.
 Automatic Transfer Power Control Range (ATPC), dB
 The range over which the radio can automatically adjust its transmission power, measured in dB.
-Confidential ©Cellular Expert, 2026 Page | 206
 
----
-
-Cellular Expert Express User Guide 7.3
 The modulations are used in MW link calculations and specifically can be defined for Radios.
 Modulations
 Add modulation
@@ -4070,11 +3284,7 @@ calculations.
 Move the mouse cursor over the frequency plan and delete it using Delete button.
 3.1.36.1 Import frequency plan
 To import a frequency plan press the New frequency plan button
-Confidential ©Cellular Expert, 2026 Page | 207
 
----
-
-Cellular Expert Express User Guide 7.3
 and then select Import channels CVS.
 To start the import procedure, select or drag and drop the frequency channel csv file. Here is an example:
 
@@ -4083,11 +3293,7 @@ To start the import procedure, select or drag and drop the frequency channel csv
 ![Image p208](../../assets/images/ce-express/user-guide-v73/p208-img2.png)
 
 ![Image p208](../../assets/images/ce-express/user-guide-v73/p208-img3.png)
-Confidential ©Cellular Expert, 2026 Page | 208
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.36.2 Add frequency plan manually
 To add manually a frequency plan press the New frequency plan button
 and then select Create manually.
@@ -4104,11 +3310,7 @@ Specifies whether the signal can be transmitted and received simultaneously. Cha
 ![Image p209](../../assets/images/ce-express/user-guide-v73/p209-img3.png)
 will affect the carrier selection.
 Generate channels
-Confidential ©Cellular Expert, 2026 Page | 209
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Low/high frequency | Frequencies in MHz. |
@@ -4122,11 +3324,7 @@ Channels
 | Add channel | Allows manual addition of individual channels to the frequency plan. |
 | Channel | Channel identifier. |
 | Frequency | Channel ’s frequency value in MHz. Add channel using Add channel below button |
-Confidential ©Cellular Expert, 2026 Page | 210
 
----
-
-Cellular Expert Express User Guide 7.3
 Delete channel using Delete channel button
 3.1.37 Link prediction
 Click this button to open Link prediction tool.
@@ -4140,11 +3338,7 @@ The template will fill all empty or not specified fields with default values tha
 
 ![Image p211](../../assets/images/ce-express/user-guide-v73/p211-img2.png)
 predictions.
-Confidential ©Cellular Expert, 2026 Page | 211
 
----
-
-Cellular Expert Express User Guide 7.3
 Interference
 Calculate Interference
 If checked will calculate the interference of multiple links.
@@ -4159,11 +3353,7 @@ calculations.
 | Interference creation limit | The power threshold below which no interference for links will be calculated. |
 | Interference analysis limit | The power threshold below which no links with lesser interference will be included in the analysis. |
 | Tx/Rx filter discrimination | The ability of filters in a duplex system to effectively separate and prevent interference between Tx and Rx frequencies. No dBm greater than this will be accounted for in the calculation. |
-Confidential ©Cellular Expert, 2026 Page | 212
 
----
-
-Cellular Expert Express User Guide 7.3
 Field Margin
 Include Field Margin in Power Budget
 If checked, it will take into account the specified field margin for Power Budget calculations.
@@ -4174,15 +3364,11 @@ Calculate Tropospheric Scatter
 Enable/Disable this option.
 Troposcatter time percentage
 Time Percentage in %.
-Confidential ©Cellular Expert, 2026 Page | 213
 
 ![Image p213](../../assets/images/ce-express/user-guide-v73/p213-img1.png)
 
 ![Image p213](../../assets/images/ce-express/user-guide-v73/p213-img2.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Method
 The standard used to calculate the performance metric.
 Statistics
@@ -4193,23 +3379,15 @@ poorest performance.
 3.1.37.1 Link prediction results
 After calculations, you will be able to view Profile, Interference, Performance and Capacity calculation
 results.
-Confidential ©Cellular Expert, 2026 Page | 214
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Carrier | Select different carriers to view the results for each one of them. |
 | Diversity improvement | To alleviate the effect of multipath fading, various propagation diversity techniques are employed. |
 | Protection improvement | The protection improvement factor is a ratio between unprotected and protected unavailability. Profile - The Link Profile behaves in virtually the same way as a regular profile. |
-Confidential ©Cellular Expert, 2026 Page | 215
 
 ![Image p215](../../assets/images/ce-express/user-guide-v73/p215-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Power Budget - the calculation of the balance between transmitted power, power losses in the system,
 and receiver sensitivity in a communication system.
 Path Loss - the reduction in signal strength as it travels from the transmitter to the receiver.
@@ -4220,11 +3398,7 @@ Performance - assessments of key metrics like data rate, error rates, and signal
 
 ![Image p216](../../assets/images/ce-express/user-guide-v73/p216-img2.png)
 evaluating and optimizing a communication system's efficiency.
-Confidential ©Cellular Expert, 2026 Page | 216
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.37.2 Interfering links
 In this tab, you will be able to view interference Power Budget, Path Loss, Profile, and Spectrum Mask
 
@@ -4236,11 +3410,7 @@ In this tab, you will be able to view interference Power Budget, Path Loss, Prof
 results in an unordered fashion.
 Profile - The Link Profile behaves in virtually the same way as a regular profile.
 Power Budget - the calculation of the balance between transmitted power, power losses in the system,
-Confidential ©Cellular Expert, 2026 Page | 217
 
----
-
-Cellular Expert Express User Guide 7.3
 and receiver sensitivity in a communication system.
 Path Loss - the reduction in signal strength as it travels from the transmitter to the receiver.
 Spectrum Mask - the method used to assess the usage efficiency of a frequency spectrum in a
@@ -4254,21 +3424,13 @@ show profile, prediction parameter and results, performance and propagation reli
 
 ![Image p218](../../assets/images/ce-express/user-guide-v73/p218-img2.png)
 exported in PDF format.
-Confidential ©Cellular Expert, 2026 Page | 218
 
----
-
-Cellular Expert Express User Guide 7.3
 Report example:
-Confidential ©Cellular Expert, 2026 Page | 219
 
 ![Image p219](../../assets/images/ce-express/user-guide-v73/p219-img1.png)
 
 ![Image p219](../../assets/images/ce-express/user-guide-v73/p219-img2.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.38 Automatic frequency planning
 Click this button to open Automatic frequency planning tool.
 The automatic frequency planning tool for each selected link suggests the best channel from the chosen
@@ -4280,11 +3442,7 @@ interference ratio (SIR) across available carriers, and aims to maximize link pe
 ![Image p220](../../assets/images/ce-express/user-guide-v73/p220-img2.png)
 co-channel interference. The tool accounts for duplex link pairing, node-layer priority, and site location
 constraints (e.g., neighboring links and links sharing the same site).
-Confidential ©Cellular Expert, 2026 Page | 220
 
----
-
-Cellular Expert Express User Guide 7.3
 Automatic frequency planning
 Calculation name
 Name of the calculation that will be displayed in Prediction history.
@@ -4301,18 +3459,13 @@ enabled, i.e., the Recalculate already planned frequencies option is checked, th
 reassigned for all links regardless of whether they have channel assignments.
 The resulting plan includes the assigned frequency, polarization, best available modulation and SIR
 score.
-Confidential ©Cellular Expert, 2026 Page | 221
 
----
-
-Cellular Expert Express User Guide 7.3
 Assign channels
 Assign suggested channel & polarization values to link objects.
 3.1.39 Link HCM-FS prediction
 Click this button to open Link HCM-FS prediction tool.
 This calculates interference between selected links and HCM-FS records available in the database.
 Calculation settings
-Confidential ©Cellular Expert, 2026 Page | 222
 
 ![Image p222](../../assets/images/ce-express/user-guide-v73/p222-img1.png)
 
@@ -4320,9 +3473,6 @@ Confidential ©Cellular Expert, 2026 Page | 222
 
 ![Image p222](../../assets/images/ce-express/user-guide-v73/p222-img3.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Calculation name
 Name of the calculation.
 Link template
@@ -4343,11 +3493,7 @@ Distance between passive transmitter and receiver. In the case of passive receiv
 performed only if distance between passive transmitter and receiver is less than defined. Decision
 whether to include this calculation into the report will additionally depend on the rest of Trigger options.
 3.1.39.1 Link HCM-FS prediction results
-Confidential ©Cellular Expert, 2026 Page | 223
 
----
-
-Cellular Expert Express User Guide 7.3
 Report lists all the selected links and following parameters:
 - Maximum outgoing TD, dB. Maximum interference (threshold degradation) to a single HCM-FS
 receiver caused by the link.
@@ -4356,7 +3502,6 @@ transmitter to the receiver of the link.
 Show incoming interference.
 Displays list of HCM-FS transmitters calculated against receivers of the link.
 List shows site of the affected link, HCM-FS parameters and interference calculation result.
-Confidential ©Cellular Expert, 2026 Page | 224
 
 ![Image p224](../../assets/images/ce-express/user-guide-v73/p224-img1.png)
 
@@ -4364,23 +3509,16 @@ Confidential ©Cellular Expert, 2026 Page | 224
 
 ![Image p224](../../assets/images/ce-express/user-guide-v73/p224-img3.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.40 Mesh topology builder
 The mesh topology builder tool optimizes the process of making a connection between 2 desired mesh
 nodes.
 The tool first analyzes the possible link between the 2 selected nodes, and if a direct connection is
 possible, it prompts you to create the link object between them.:
-Confidential ©Cellular Expert, 2026 Page | 225
 
 ![Image p225](../../assets/images/ce-express/user-guide-v73/p225-img1.png)
 
 ![Image p225](../../assets/images/ce-express/user-guide-v73/p225-img2.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 If a direct connection is not possible, the tool will automatically run an optimal placement prediction
 between the 2 nodes and show you the resulting raster. You are then prompted to select a location for an
 intermediate mesh node with the help of the displayed optimal placement layer, and quick mesh
@@ -4393,11 +3531,7 @@ connections are possible, the tool prompts you to create links for the multi-nod
 
 ![Image p226](../../assets/images/ce-express/user-guide-v73/p226-img2.png)
 originally selected mesh nodes are connected through a series of intermediate mesh nodes.
-Confidential ©Cellular Expert, 2026 Page | 226
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.41 Mesh connectivity
 Click this button to open Mesh connectivity tool.
 This tool enables rapid and accurate assessment of wireless peer-to-peer link quality during mesh network
@@ -4412,11 +3546,7 @@ Mesh node template
 Mesh node template if selected features won’t have all necessary parameters.
 How It Works:
 - Select one or more Mesh Nodes in the workspace.
-Confidential ©Cellular Expert, 2026 Page | 227
 
----
-
-Cellular Expert Express User Guide 7.3
 - Open Mesh Connectivity tool.
 - Define:
 o Calculation name
@@ -4425,21 +3555,16 @@ o Mesh node template
 - The tool calculates the RSL between each node pair and compares it against the configured RSL
 sensitivity threshold defined for the Mesh Node object.
 - Open Prediction history tool.
-Confidential ©Cellular Expert, 2026 Page | 228
 
 ![Image p228](../../assets/images/ce-express/user-guide-v73/p228-img1.png)
 
 ![Image p228](../../assets/images/ce-express/user-guide-v73/p228-img2.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Connectivity status is then visually rendered using a clear, color-coded scheme:
 o Green : Bi-directional connectivity – both nodes meet or exceed the RSL sensitivity for each
 other.
 o Yellow: Uni-directional connectivity – only one node meets the RSL threshold for the other.
 o Red: No connectivity – RSL falls below the sensitivity threshold in both directions
-Confidential ©Cellular Expert, 2026 Page | 229
 
 ![Image p229](../../assets/images/ce-express/user-guide-v73/p229-img1.png)
 
@@ -4449,9 +3574,6 @@ Confidential ©Cellular Expert, 2026 Page | 229
 
 ![Image p229](../../assets/images/ce-express/user-guide-v73/p229-img4.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Results:
 - All results – It shows all possible combinations of Mesh network connections.
 - Connections – opens new dock on the right where you can create links.
@@ -4460,11 +3582,6 @@ To create a Links between Mesh Nodes, define Mesh connectivity results. Once res
 
 ![Image p230](../../assets/images/ce-express/user-guide-v73/p230-img1.png)
 add possible options to create a links between Mesh Nodes
-Confidential ©Cellular Expert, 2026 Page | 230
-
----
-
-Cellular Expert Express User Guide 7.3
 
 ![Image p231](../../assets/images/ce-express/user-guide-v73/p231-img1.png)
 
@@ -4475,11 +3592,7 @@ If selected, existing links that have been created from mesh connectivity result
 Create only enabled links
 If checked, the links will be created only from the checked connectivity lines in the suggested list.
 Enable/Disable Links from the suggested list
-Confidential ©Cellular Expert, 2026 Page | 231
 
----
-
-Cellular Expert Express User Guide 7.3
 Once parameters are set, press Create links button to create Links between Mesh objects.
 3.1.42 Quick mesh connectivity
 Click this button to open Quick mesh connectivity tool.
@@ -4493,11 +3606,7 @@ Mesh Connectivity streamlines the decision-making process by providing immediate
 ![Image p232](../../assets/images/ce-express/user-guide-v73/p232-img1.png)
 
 ![Image p232](../../assets/images/ce-express/user-guide-v73/p232-img2.png)
-Confidential ©Cellular Expert, 2026 Page | 232
 
----
-
-Cellular Expert Express User Guide 7.3
 Calculation settings
 Mesh node template
 The Mesh Node Object Template is automatically utilized whenever a Mesh object lacks the required
@@ -4513,11 +3622,7 @@ incomplete.
 Temporary mesh node
 X
 Coordinate in the projected coordinate system.
-Confidential ©Cellular Expert, 2026 Page | 233
 
----
-
-Cellular Expert Express User Guide 7.3
 Y
 Coordinate in the projected coordinate system.
 Height
@@ -4537,11 +3642,7 @@ Receiving Signal Level threshold in dBm at Mesh Node.
 3.1.42.1 Calculate Quick mesh connectivity
 - Select Existing Mesh Nodes
 On the map interface, select the Mesh Nodes that should be included in the connectivity calculation.
-Confidential ©Cellular Expert, 2026 Page | 234
 
----
-
-Cellular Expert Express User Guide 7.3
 - Open the Quick Mesh Connectivity Tool
 - Configure Node Parameters
 Input the required parameters for the proposed Mesh Node (e.g., transmission power, antenna type,
@@ -4550,11 +3651,7 @@ Input the required parameters for the proposed Mesh Node (e.g., transmission pow
 
 ![Image p235](../../assets/images/ce-express/user-guide-v73/p235-img2.png)
 height).
-Confidential ©Cellular Expert, 2026 Page | 235
 
----
-
-Cellular Expert Express User Guide 7.3
 - Define the Proposed Node Location
 Choose the location of the new Mesh Node either by clicking directly on the map or by entering specific
 
@@ -4574,11 +3671,7 @@ Click this button to open Quick HCM-FS prediction tool.
 This performs calculations between two HCM-FS files.
 Calculation name
 Name of the calculation.
-Confidential ©Cellular Expert, 2026 Page | 236
 
----
-
-Cellular Expert Express User Guide 7.3
 Trigger options are used to limit the size of calculation report. If all trigger options are disabled, calculation
 
 ![Image p237](../../assets/images/ce-express/user-guide-v73/p237-img1.png)
@@ -4605,11 +3698,7 @@ options.
 Reference file
 File against which test calculations are performed.
 Test file
-Confidential ©Cellular Expert, 2026 Page | 237
 
----
-
-Cellular Expert Express User Guide 7.3
 File that is tested against reference file.
 There is no substantial difference between test and reference file. Calculations will be performed in the
 same way but the calculation report always lists records of test file.
@@ -4629,11 +3718,7 @@ caused by the transmitter to a receiver of the reference file. In case of test R
 ![Image p238](../../assets/images/ce-express/user-guide-v73/p238-img1.png)
 degradation of this particular receiver. For PTX or PRX test record, it shows maximum threshold
 degradation of either test or reference receiver.
-Confidential ©Cellular Expert, 2026 Page | 238
 
----
-
-Cellular Expert Express User Guide 7.3
 Show interference list - shows list of calculated stations against particular test record.
 Clicking on Profile button allows user to perform detailed HCM calculations.
 3.1.44 HCM requests
@@ -4642,7 +3727,6 @@ This is the main component used for HCM calculations. Main functionality:
 - To list and process all the incoming and outgoing coordination requests
 - Create new incoming coordination request
 - Create outgoing coordination request
-Confidential ©Cellular Expert, 2026 Page | 239
 
 ![Image p239](../../assets/images/ce-express/user-guide-v73/p239-img1.png)
 
@@ -4652,9 +3736,6 @@ Confidential ©Cellular Expert, 2026 Page | 239
 
 ![Image p239](../../assets/images/ce-express/user-guide-v73/p239-img4.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 3.1.44.1 List coordination requests
 Own requests
 This lists all outgoing coordination requests (sent to other countries).
@@ -4662,15 +3743,10 @@ Starts the process of creating a new outgoing request
 The list of Own requests contains following parameters:
 - Destination country
 - File contents code (from file header)
-Confidential ©Cellular Expert, 2026 Page | 240
 
 ![Image p240](../../assets/images/ce-express/user-guide-v73/p240-img1.png)
 
 ![Image p240](../../assets/images/ce-express/user-guide-v73/p240-img2.png)
-
----
-
-Cellular Expert Express User Guide 7.3
 
 ![Image p241](../../assets/images/ce-express/user-guide-v73/p241-img1.png)
 - Date of coordination request (from file header)
@@ -4686,11 +3762,7 @@ The list of Foreign requests contains following parameters:
 - You assigned reference number (used for your convenience)
 - Status of coordination request
 Each coordination request contains detailed information about the request and/or the answer.
-Confidential ©Cellular Expert, 2026 Page | 241
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Country from | Country of origin |
@@ -4700,13 +3772,9 @@ Cellular Expert Express User Guide 7.3
 | Responsible person | Name of the responsible person (from HCM request file header) |
 | Phone | Phone number from HCM request file header |
 | Telefax | Telefax number from HCM request file header |
-Confidential ©Cellular Expert, 2026 Page | 242
 
 ![Image p242](../../assets/images/ce-express/user-guide-v73/p242-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Email | Email from HCM request file header |
@@ -4740,26 +3808,18 @@ When coordination file is loaded map displays the records of the file with addit
 
 ![Image p243](../../assets/images/ce-express/user-guide-v73/p243-img1.png)
 content of HCM file header, registration data, and Trigger options.
-Confidential ©Cellular Expert, 2026 Page | 243
 
----
-
-Cellular Expert Express User Guide 7.3
 Your data
 | Parameter | Description |
 |---|---|
 | Calculation Name | Name of the calculation that will be displayed in Prediction history. |
 | Registration Number | You can assign registration number for the coordination request. Optional. |
 | Registration Date | You can assign here registration date for the coordination request. Optional. |
-Confidential ©Cellular Expert, 2026 Page | 244
 
 ![Image p244](../../assets/images/ce-express/user-guide-v73/p244-img1.png)
 
 ![Image p244](../../assets/images/ce-express/user-guide-v73/p244-img2.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 File content section contains header information of the file as it is defined in Annex 2B of HCM-
 Agreement.
 Trigger options
@@ -4770,11 +3830,7 @@ Trigger options
 | Limit Interference | If enabled, calculation case is logged into the report only if interference level is greater than defined. Can be used along with TD limit. |
 | Interference level, dBW | Value of interference level used as a trigger for logging calculation case into the report. |
 | Distance PTX to RX [km] | Distance between passive transmitter and receiver. In the case of passive receiver, calculation will be |
-Confidential ©Cellular Expert, 2026 Page | 245
 
----
-
-Cellular Expert Express User Guide 7.3
 performed only if distance between passive transmitter and receiver is less than defined. Decision
 whether to include this calculation into the report will additionally depend on the rest of Trigger options.
 Please note that all calculation cases resulted in errors will be logged into the report regardless of Trigger
@@ -4806,11 +3862,7 @@ of the coordination request: C, E, F, G, H, P
 3.1.44.3 Display processing results
 View processing results displays calculations performed on an incoming request file of type N or O.
 File containing new entries (N)
-Confidential ©Cellular Expert, 2026 Page | 246
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Type | Type of station of the test record |
@@ -4832,26 +3884,18 @@ If Max TD is lower than 1 dB and original coordination status is B, software aut
 coordination status to C. This value will be inserted into the answer file.
 Remarks
 User can write separate remarks for each HCM record. This information will be added to the answer file.
-Confidential ©Cellular Expert, 2026 Page | 247
 
----
-
-Cellular Expert Express User Guide 7.3
 Shows list of calculated stations against particulat test record.
 Profile and calculation values are extracted from HCM calculation report file.
 File containing overall list (O)
 Differences in records
 Shows records that have at least one different parameter value. By clicking on the record, detailed
 comparison widget is displayed:
-Confidential ©Cellular Expert, 2026 Page | 248
 
 ![Image p248](../../assets/images/ce-express/user-guide-v73/p248-img1.png)
 
 ![Image p248](../../assets/images/ce-express/user-guide-v73/p248-img2.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Parameter name | Name of the parameter defined in Annex 2B of HCM-Agreement. |
@@ -4859,15 +3903,11 @@ Cellular Expert Express User Guide 7.3
 | Received value | Value of the record in the received request file. |
 | Error | Contains error message if error occurs while processing the record. |
 | Download report as CSV file | Downloads report containing all the records of this section |
-Confidential ©Cellular Expert, 2026 Page | 249
 
 ![Image p249](../../assets/images/ce-express/user-guide-v73/p249-img1.png)
 
 ![Image p249](../../assets/images/ce-express/user-guide-v73/p249-img2.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Section “Missing in database” lists all the records that are present in the received file but missing in the
 
 ![Image p250](../../assets/images/ce-express/user-guide-v73/p250-img1.png)
@@ -4879,11 +3919,7 @@ database. By clicking on the record, a detailed comparison widget is displayed w
 parameters of the record:
 Download report as CSV file
 Downloads report containing all the records of this section
-Confidential ©Cellular Expert, 2026 Page | 250
 
----
-
-Cellular Expert Express User Guide 7.3
 Section “Missing in received list” displays all the records that are present in the database but missing in
 the received file. By clicking on the record, a detailed comparison widget is displayed with a few additional
 
@@ -4898,11 +3934,7 @@ Downloads report containing all the records of this section
 3.1.44.4 Create new outgoing coordination request
 New outgoing (own) coordination request is created by clicking New own request (in HCM requests). This
 opens a new widget:
-Confidential ©Cellular Expert, 2026 Page | 251
 
----
-
-Cellular Expert Express User Guide 7.3
 Request type N
 For new coordination request (New entries) user must select at least one link that is going to be sent for
 
@@ -4919,11 +3951,7 @@ Request type O
 This creates a coordination request containing an overall list of coordinated HCM records with the defined
 target country. Only records with coordination status C, E, F, G, H, and P will be included.
 Created coordination request
-Confidential ©Cellular Expert, 2026 Page | 252
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Country from | Country of origin. It is defined in the settings of the user. |
@@ -4933,11 +3961,7 @@ Cellular Expert Express User Guide 7.3
 | Responsible person | Name, as defined in Annex 2B of HCM-Agreement. This field is automatically filled with information from user settings. |
 | Phone | Phone number, as defined in Annex 2B of HCM-Agreement. This field is automatically filled with information from user settings. |
 information from user settings.
-Confidential ©Cellular Expert, 2026 Page | 253
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Telefax | Telefax number, as defined in Annex 2B of HCM-Agreement. There is no such parameter in the user settings therefore it is not filled in automatically. |
@@ -4964,11 +3988,7 @@ the user.
 
 3.2.1 Search bar
 Allows searching for an address, place, or location.
-Confidential ©Cellular Expert, 2026 Page | 254
 
----
-
-Cellular Expert Express User Guide 7.3
 3.2.2 Zoom in
 Zooms in on the map.
 3.2.3 Zoom out
@@ -4990,11 +4010,7 @@ when more precision is needed.
 Shows the current map orientation and allows resetting north-up.
 3.2.6 3D/2D Button
 Switches between 2D and 3D map view.
-Confidential ©Cellular Expert, 2026 Page | 255
 
----
-
-Cellular Expert Express User Guide 7.3
 3.2.7 Legend
 Opens the legend panel showing all visible layers and their symbols.
 3.2.8 Home
@@ -5015,11 +4031,7 @@ and Profile tool on the right. When the active side switch is flipped to the lef
 
 ![Image p256](../../assets/images/ce-express/user-guide-v73/p256-img4.png)
 feature selection, rather than draw a profile.
-Confidential ©Cellular Expert, 2026 Page | 256
 
----
-
-Cellular Expert Express User Guide 7.3
 3.2.11 Quick menu
 The quick menu opens when middle-clicking on the map. If the click is on a feature, it provides actions such
 as copying coordinates, adding, editing, moving, duplicating, or deleting the feature. If the click is not on a
@@ -5055,11 +4067,7 @@ Available tools for this section:
 - Link prediction
 - Network availability
 - Model tuning
-Confidential ©Cellular Expert, 2026 Page | 257
 
----
-
-Cellular Expert Express User Guide 7.3
 - Optimal placement
 - EMF
 The dialogs are pinned and can not be moved to another location. If one tool is active and visible in the
@@ -5082,11 +4090,7 @@ both of them, etc.
 3.5.1 Map view
 Map view widget.
 Turns on the map view.
-Confidential ©Cellular Expert, 2026 Page | 258
 
----
-
-Cellular Expert Express User Guide 7.3
 3.5.2 Display data table full screen
 Turns on the Network Data Management view in full screen.
 3.5.3 Split window vertically
@@ -5098,11 +4102,7 @@ The screen can be divided into Map view and Table view. In the previous options,
 
 ![Image p259](../../assets/images/ce-express/user-guide-v73/p259-img3.png)
 on top of the Map view. This means that the tables cover the widgets.
-Confidential ©Cellular Expert, 2026 Page | 259
 
----
-
-Cellular Expert Express User Guide 7.3
 Users can adjust the Table and Map view proportions by using the slider function: Move the mouse cursor
 
 ![Image p260](../../assets/images/ce-express/user-guide-v73/p260-img1.png)
@@ -5112,11 +4112,7 @@ on top of the blue line, click on it and change the proportions.
 3.5.4 Split window horizontally
 The screen can be divided into Map view and Table view. In the previous options, the tables were placed
 on top of the Map view. This means that the tables cover the widgets
-Confidential ©Cellular Expert, 2026 Page | 260
 
----
-
-Cellular Expert Express User Guide 7.3
 Users can adjust the Table and Map view proportions by using the slider function: Move the mouse cursor
 on top of the blue line, click on it and change the proportions.
 4. Database structure
@@ -5133,11 +4129,7 @@ Describes the tower's location and its identification. An object is not used for
 to add additional fields, but here are the main fields used for this object.
 site_name
 Object identification.
-Confidential ©Cellular Expert, 2026 Page | 261
 
----
-
-Cellular Expert Express User Guide 7.3
 | Parameter | Description |
 |---|---|
 | Y | Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system. |
@@ -5154,11 +4146,7 @@ Cellular Expert Express User Guide 7.3
 | power | Power value in dBm. |
 | misc_loss | Miscellaneous loss value in dB. |
 bandwidth
-Confidential ©Cellular Expert, 2026 Page | 262
 
----
-
-Cellular Expert Express User Guide 7.3
 Value in MHz. Required for 4G and 5G technologies. For other technologies define the value as 0.015.
 | Parameter | Description |
 |---|---|
@@ -5194,11 +4182,7 @@ Describes the cell technology. Possible values are 2G, 3G, 4G, and 5G.
 prediction_model_configuration_id
 Defines the prediction model configuration to be used in the model table. The objectID value is taken from
 the prediction model table.
-Confidential ©Cellular Expert, 2026 Page | 263
 
----
-
-Cellular Expert Express User Guide 7.3
 frequency_group
 Used to divide calculations into parts. If the selection range includes two or more different frequency group
 values, the cells won’t be predicted together.
@@ -5222,11 +4206,7 @@ there is no carrier information, the brackets are left empty [].
 | azimuth | Cell direction from the North in degrees. |
 | tilt | Mechanical tilt value, negative numbers tilt up. |
 | frequency | Frequency value in MHz. |
-Confidential ©Cellular Expert, 2026 Page | 264
 
----
-
-Cellular Expert Express User Guide 7.3
 threshold 1-3
 The minimum field strength in dB at repeater location at which power of the corresponding index (1-3) will
 be applied. Values should be in ascending order. If a higher threshold is satisfied, the power corresponding
@@ -5246,11 +4226,6 @@ to it will be used.
 | antenna_id | Describes the antenna ID from the antennas table. The objectID is used. |
 | workspace_id | ID for the workspace. The field value is used to filter objects based on a chosen workspace. The parameter is filled automatically. |
 | electrical_tilt | Electrical tilt value, negative numbers tilt up |
-Confidential ©Cellular Expert, 2026 Page | 265
-
----
-
-Cellular Expert Express User Guide 7.3
 
 ## 4.4 Radars
 
@@ -5271,11 +4246,7 @@ Cellular Expert Express User Guide 7.3
 | Cpe_name | Object identification. |
 | Y | Decimal degrees Y type coordinate in the WGS 1984 geographical coordinate system. |
 X
-Confidential ©Cellular Expert, 2026 Page | 266
 
----
-
-Cellular Expert Express User Guide 7.3
 Decimal degrees X type coordinate in the WGS 1984 geographical coordinate system.
 | Parameter | Description |
 |---|---|
@@ -5295,11 +4266,6 @@ Decimal degrees X type coordinate in the WGS 1984 geographical coordinate system
 | Cell_id | Cell identification. |
 | Workspace_id | ID for the workspace. The field value is used to filter objects based on a chosen workspace. The parameter is filled automatically. |
 is filled automatically.
-Confidential ©Cellular Expert, 2026 Page | 267
-
----
-
-Cellular Expert Express User Guide 7.3
 
 ## 4.7 Workspace
 
@@ -5323,11 +4289,7 @@ The Network Data Management view is divided into four sections:
 - User administration tasks.
 - Table for data editing.
 - [View options](#kw:64-view-options:none).
-Confidential ©Cellular Expert, 2026 Page | 268
 
----
-
-Cellular Expert Express User Guide 7.3
 2. [View options](#kw:64-view-options:none) and
 1. Data management User adminstration
 
@@ -5343,11 +4305,7 @@ To select a record, click on a record with the left mouse button. Selected recor
 ## 6.1 Data management tools
 
 The Data management tools are found at the top of the screen:
-Confidential ©Cellular Expert, 2026 Page | 269
 
----
-
-Cellular Expert Express User Guide 7.3
 6.1.1 Table view
 Load data from the previously configured server location and open the Table view. Here, several functions
 can be performed, e.g., sorting or filtering data.
@@ -5379,11 +4337,7 @@ on the View attachments button and a dialog will open with the respective attach
 attachment in a separate browser tab simply click on the attachment of choice
 6.1.6 Synchronize changes
 Synchronize the previously selected server database with changes performed in the Table view.
-Confidential ©Cellular Expert, 2026 Page | 270
 
----
-
-Cellular Expert Express User Guide 7.3
 6.1.7 Select/unselect all
 Select/unselect all currently shown database records.
 6.1.8 Show selected/Show all
@@ -5417,11 +4371,7 @@ child objects. Attachments are not duplicated.
 Add a new record to the Table view. Note that the newly added record will appear in orange writing.
 6.1.12 CE API
 Call CE API tool. Note: The administrator has to configure the tool.
-Confidential ©Cellular Expert, 2026 Page | 271
 
----
-
-Cellular Expert Express User Guide 7.3
 6.1.13 Export selected
 Export selected items.
 6.1.14 Delete record
@@ -5445,11 +4395,7 @@ Removes selected objects.
 6.2.1 Import Export
 Opens the menu for exploring and importing data:
 See section 6 for details.
-Confidential ©Cellular Expert, 2026 Page | 272
 
----
-
-Cellular Expert Express User Guide 7.3
 6.2.2 Settings
 Opens the menu for administrator functions:
 Please view Administration Guide for details.
@@ -5465,7 +4411,6 @@ above).
 ## 6.4 View Options
 
 Click on one of the buttons to choose a view of the data table aligned with the map (section 3.2).
-Confidential ©Cellular Expert, 2026 Page | 273
 
 ![Image p273](../../assets/images/ce-express/user-guide-v73/p273-img1.png)
 
@@ -5475,9 +4420,6 @@ Confidential ©Cellular Expert, 2026 Page | 273
 
 ![Image p273](../../assets/images/ce-express/user-guide-v73/p273-img4.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 7. Database organization
 
 ## 7.1 Page setup and navigation
@@ -5500,11 +4442,7 @@ scroll through the pages using the commands in the bottom middle and bottom righ
 applies a filter:
 7.1.2 Organization of columns
 The column order can be adjusted by clicking on in the top right corner.
-Confidential ©Cellular Expert, 2026 Page | 274
 
----
-
-Cellular Expert Express User Guide 7.3
 A menu opens in which the position of the columns can be sorted by clicking the arrow symbols. Individual
 columns are switched visible/invisible by clicking on the eye symbols.
 The columns can be sorted alphabetically from A>Z or from Z>A using the up and down arrow symbols
@@ -5520,11 +4458,6 @@ There are 2 ways to change from one table to another. Either click on the table 
 
 ![Image p275](../../assets/images/ce-express/user-guide-v73/p275-img4.png)
 cells) and a menu opens with all available tables.
-Confidential ©Cellular Expert, 2026 Page | 275
-
----
-
-Cellular Expert Express User Guide 7.3
 
 ## 7.2 Filtering, sorting, editing, and linking database records
 
@@ -5537,11 +4470,7 @@ Alternatively, and more convenient for simple searches, columns can be filtered 
 
 ![Image p276](../../assets/images/ce-express/user-guide-v73/p276-img2.png)
 below the column names:
-Confidential ©Cellular Expert, 2026 Page | 276
 
----
-
-Cellular Expert Express User Guide 7.3
 Users can use star symbol “*” as wildcard. Possible filtering options:
 *- any non-null value
 !* - null value
@@ -5560,13 +4489,9 @@ Filtering options for numeric values:
 >=n - greater than or equal to n
 The Filter function can be used on several columns simultaneously. The headers of columns with active
 Filter function are marked in pink color:
-Confidential ©Cellular Expert, 2026 Page | 277
 
 ![Image p277](../../assets/images/ce-express/user-guide-v73/p277-img1.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Filters can be cleared by clicking on Clear all filters.
 7.2.1 Set selected
 This feature allows bulk editing of several records at once: Select the respective records, click on the column
@@ -5582,11 +4507,7 @@ records with the database using the Synchronize changes Tool.
 1. Select the records
 2. Click on the required column header (here:tilt)
 and choose Set selected
-Confidential ©Cellular Expert, 2026 Page | 278
 
----
-
-Cellular Expert Express User Guide 7.3
 3. Define the new value and click Change
 7.2.2 Add link
 Each database record may comprise reference links to other database records. This means that a link can
@@ -5603,17 +4524,12 @@ want to link to. Choose the component and confirm the selection. A new link has 
 1. Select the record
 2. Click on the required column header (here:miscloss)
 and choose Add link
-Confidential ©Cellular Expert, 2026 Page | 279
 
----
-
-Cellular Expert Express User Guide 7.3
 3. Click on Add new reference ...
 4. Select the type of component you want to link to (here: calculation tasks)
 5. Choose the repeaters(s) you want to link to and confirm the selection with in
 the top left corner
 6. The link has been created
-Confidential ©Cellular Expert, 2026 Page | 280
 
 ![Image p280](../../assets/images/ce-express/user-guide-v73/p280-img1.png)
 
@@ -5624,10 +4540,6 @@ Confidential ©Cellular Expert, 2026 Page | 280
 ![Image p280](../../assets/images/ce-express/user-guide-v73/p280-img4.png)
 
 ![Image p280](../../assets/images/ce-express/user-guide-v73/p280-img5.png)
-
----
-
-Cellular Expert Express User Guide 7.3
 
 ## 7.3 Adding, viewing, downloading and deleting attachments
 
@@ -5641,11 +4553,7 @@ dialog opens that allows you to browse your computer for the attachment of your 
 ![Image p281](../../assets/images/ce-express/user-guide-v73/p281-img1.png)
 
 ![Image p281](../../assets/images/ce-express/user-guide-v73/p281-img2.png)
-Confidential ©Cellular Expert, 2026 Page | 281
 
----
-
-Cellular Expert Express User Guide 7.3
 Viewing, downloading and deleting attachments:
 To view the list of attachments connected to an entry, select the respective entry and click on in the
 
@@ -5659,11 +4567,7 @@ To view the list of attachments connected to an entry, select the respective ent
 toolbar:
 In the attachments the listed images are shown as thumbs. Select an attachment from the list and it opens
 in a separate browser tab.
-Confidential ©Cellular Expert, 2026 Page | 282
 
----
-
-Cellular Expert Express User Guide 7.3
 Another way to view an attachment list is to move the pointer over the check symbol in the column “Inc.”
 and to click the right mouse button.
 The selected attachments can also be downloaded.
@@ -5686,11 +4590,7 @@ operation “OR”, not “AND”. Thus, the result of two filters will show all
 the second search term in their attributes.
 For example, do you want to sieve the table asites for records starting with defined characters? Then the
 Sieve tool will help.
-Confidential ©Cellular Expert, 2026 Page | 283
 
----
-
-Cellular Expert Express User Guide 7.3
 Click Add rule in order to add another search term, or click Clear all to remove all active searches.
 To start the sieve process, click OK.
 Results
@@ -5713,11 +4613,7 @@ This tool is integrated into the “CE API” tool. It is possible to import dat
 ![Image p284](../../assets/images/ce-express/user-guide-v73/p284-img4.png)
 with the administrator before import.
 “Import CSV” opens a new window:
-Confidential ©Cellular Expert, 2026 Page | 284
 
----
-
-Cellular Expert Express User Guide 7.3
 Data can be imported either as a new table (level 0), or added as a child table to a parent table (level 1).
 
 ![Image p285](../../assets/images/ce-express/user-guide-v73/p285-img1.png)
@@ -5733,11 +4629,7 @@ Requirements:
 parent_id value equal to the object_id of the parent table
 When adding a child table to a parent table, choose the parent table from the dropdown menu:
 Partial Import
-Confidential ©Cellular Expert, 2026 Page | 285
 
----
-
-Cellular Expert Express User Guide 7.3
 The Partial Import feature allows to add records to an already existing table. If the box "Partial import” is
 
 ![Image p286](../../assets/images/ce-express/user-guide-v73/p286-img1.png)
@@ -5763,11 +4655,7 @@ Note that hidden columns are not exported.
 A PDF report summarizes information associated with one or more objects. For generating a report, first
 select the objects of choice. Then open the Import Export menu with and choose “Generate report as
 PDF”
-Confidential ©Cellular Expert, 2026 Page | 286
 
----
-
-Cellular Expert Express User Guide 7.3
 A new dialog appears. Open the PDF report by clicking “here”:
 Note that the administrator has to prepare the template for the PDF report. Please inform the administrator
 
@@ -5784,18 +4672,13 @@ in case of problems with generating PDF reports.
 
 Open the Data Export menu with and choose “File Browser”:
 View attached files, download or delete files:
-Confidential ©Cellular Expert, 2026 Page | 287
 
----
-
-Cellular Expert Express User Guide 7.3
 Images are shown as thumbs. Note that it is possible to rotate the images.
 File Browser Toolbar:
 Open the Data View Panel
 Go one step back
 Select / unselect all files and folders
 Download selected files
-Confidential ©Cellular Expert, 2026 Page | 288
 
 ![Image p288](../../assets/images/ce-express/user-guide-v73/p288-img1.png)
 
@@ -5807,14 +4690,10 @@ Confidential ©Cellular Expert, 2026 Page | 288
 
 ![Image p288](../../assets/images/ce-express/user-guide-v73/p288-img5.png)
 
----
-
-Cellular Expert Express User Guide 7.3
 Delete selected files
 Restore selected files
 When an image is deleted, said image is marked as strikethrough on the File Server:
 You can restore the image by selecting the strikethrough object and clicking :
-Confidential ©Cellular Expert, 2026 Page | 289
 
 ![Image p289](../../assets/images/ce-express/user-guide-v73/p289-img1.png)
 
@@ -5823,10 +4702,6 @@ Confidential ©Cellular Expert, 2026 Page | 289
 ![Image p289](../../assets/images/ce-express/user-guide-v73/p289-img3.png)
 
 ![Image p289](../../assets/images/ce-express/user-guide-v73/p289-img4.png)
-
----
-
-Cellular Expert Express User Guide 7.3
 
 ## 8.4 Quick references
 
@@ -5840,17 +4715,9 @@ browser tab. If Quick references are enabled, the respective column is marked wi
 ![Image p290](../../assets/images/ce-express/user-guide-v73/p290-img3.png)
 To open a reference link, select it in edit mode (right click on it) and click “here” in the opened dialog.
 The referenced object is opened in a separate browser tab.
-Confidential ©Cellular Expert, 2026 Page | 290
-
----
-
-Cellular Expert Express User Guide 7.3
 
 ## 8.5 Default editing and manual editing
 
 If the administrator has defined default values (Administrator Guide: "Set Defaults"), editing column
 information may include selecting values from a drop-down menu. If the menu does not comprise the
 desired value, users may manually edit the information or clear the value:
-Confidential ©Cellular Expert, 2026 Page | 291
-
----

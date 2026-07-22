@@ -19,8 +19,6 @@ The link objects can be imported or created manually using Add functionality. Op
 ![Image p2](../../assets/images/ce-express/training-08/p002-img1.png)
 Object tool and select Link option from drop-down menu list.
 
----
-
 Click once on T1 site and second time to D1 site.
 It will fill general parameters automatically.
 Height, azimuth and other parameters are calculated automatically, leave them as it is.
@@ -34,8 +32,6 @@ Press Show Profile button to preview topographical data between Site A and Site 
 is LOS, what [Fresnel zone](#kw:fresnel-zone-clearance:ce-express-profile) percentage value, etc.
 Profile will be generated.
 
----
-
 Close Profile windows.
 Define parameters are defined below:
 
@@ -47,8 +43,6 @@ Define parameters are defined below:
 - Frequency Plan: 10GHz-CEPT12-05-3_5MHz-350MHz
 - Carriers: 1 and 3 (1’ and 3’ will be automatically assigned).
 - Go to Antenna section and change antenna to Antenna 10MHz
-
----
 
 Press Save Changes button.
 Do not close the dialog, create new links and define parameters:
@@ -66,8 +60,6 @@ o Frequency Plan: 10GHz-CEPT12-05-3_5MHz-350MHz
 
 ![Image p6](../../assets/images/ce-express/training-08/p006-img2.png)
 
----
-
 o Carriers: 2 and 4
 o Antenna for Site A and Site B: Antenna 10MHz
 Press Save Changes
@@ -77,8 +69,6 @@ o SiteA: Lower
 o Radio Model: 2. Aurora 2400
 o Frequency Plan: 10GHz-CEPT12-05-3_5MHz-350MHz
 o Carriers: 1 and 4
-
----
 
 o Antenna for Site A and Site B: Antenna 10MHz
 Press Save Changes
@@ -92,8 +82,6 @@ Select all links on the map and open Link Prediction tool. Before launching the 
 ![Image p7](../../assets/images/ce-express/training-08/p007-img2.png)
 enable Calculate Interference option.
 
----
-
 Press Run button and wait will prediction are completed and results loaded into your project.
 
 ![Image p8](../../assets/images/ce-express/training-08/p008-img1.png)
@@ -103,8 +91,6 @@ Press Run button and wait will prediction are completed and results loaded into 
 ![Image p8](../../assets/images/ce-express/training-08/p008-img3.png)
 The primary results are Power Budget and Profile between Tx and Rx. On the left, select
 another link and results will be updated accordingly.
-
----
 
 Selected Link can have several carriers, to preview the results expand Carrier option.
 Click on Interference tab to display interfering links and interfered links information.
@@ -118,8 +104,6 @@ Interference link predictions can be previewed too. Click on Interfering Link in
 ![Image p9](../../assets/images/ce-express/training-08/p009-img3.png)
 and it will display selected interfering link Power Budget, Path Loss and draw a line on the
 map.
-
----
 
 Go back to Links section, select MW001 from T1 to D1, Carrier 1’H.
 Click on Interference tab, and analize Inteference From table. Link MW002, from Site: E2
@@ -136,8 +120,6 @@ with Carrier 2’H interferes:
 - FML, dB: 1.29E-10
 Close Link [Prediction results](#kw:viewing-results:ce-express-rf-prediction), select MW002 link on the map and open [Object Editor](#kw:73-object-editor:ce-pro-emf).
 Double click on the link.
-
----
 
 Find Frequency Plan table, select Upper and change carrier 2’ polarization to Vertical.
 Save Changes.
@@ -168,8 +150,6 @@ challenges, microwave link planners ensure robust and effective communication li
 diverse environmental conditions.
 The tool is located in CE RLP tab, Radio Links section.
 
----
-
 Run Link Predictions again. After successful calculations, leave MW001 (A-B) link selected,
 
 ![Image p12](../../assets/images/ce-express/training-08/p012-img1.png)
@@ -185,8 +165,6 @@ Close results, and open Geoclimatic Data tool.
 Click on Multipath Fading tab, and define:
 - ITU-R P.530 version: 17
 
----
-
 Click on Rain Fading tab, and define:
 Press Save Changes. Close Geoclimatic Data tab, and run Link Predictions again. Review
 
@@ -194,5 +172,3 @@ Press Save Changes. Close Geoclimatic Data tab, and run Link Predictions again. 
 
 ![Image p13](../../assets/images/ce-express/training-08/p013-img2.png)
 Performance tab calculations for MW001 (A-B) link. [Compare](#kw:98-compare-predictions:ce-pro-rcp) them with previous results.
-
----

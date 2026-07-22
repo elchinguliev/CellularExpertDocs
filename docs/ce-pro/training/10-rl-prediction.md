@@ -2,7 +2,6 @@
 
 ![Image p3](../../assets/images/ce-pro/training-10/p003-img1.png)
 
-
 ![Image p4](../../assets/images/ce-pro/training-10/p004-img1.png)
 
 ![Image p4](../../assets/images/ce-pro/training-10/p004-img2.png)
@@ -16,11 +15,7 @@ RL and MW link paths and prediction results are displayed on the active map view
 
 For RL planning, arrange your ArcGIS Pro panes to keep the map, Contents, and CE Pro pane all visible at once:
 
----
-
 CE Pro includes a full **Radio Link (RL) / Microwave planning** module for fixed point-to-point links. It covers power budget calculation, interference analysis, and geoclimatic availability.
-
----
 
 ## Equipment Library
 
@@ -37,8 +32,6 @@ Before planning links, set up the equipment library:
 
 ![Image p6](../../assets/images/ce-pro/training-10/p006-img1.png)
 
----
-
 ## Transmission Network
 
 ![Image p7](../../assets/images/ce-pro/training-10/p007-img1.png)
@@ -47,20 +40,16 @@ Before planning links, set up the equipment library:
 
 A transmission network in CE Pro is a collection of microwave links connecting sites. Links are drawn on the map between two site objects.
 
----
-
 ## Microwave Link Planning
 
 ![Image p9](../../assets/images/ce-pro/training-10/p009-img1.png)
 
 ![Image p9](../../assets/images/ce-pro/training-10/p009-img2.png)
 
-
 ![Image p10](../../assets/images/ce-pro/training-10/p010-img1.png)
 Each link provides the following analysis:
 
 ![Image p11](../../assets/images/ce-pro/training-10/p011-img1.png)
-
 
 ![Image p12](../../assets/images/ce-pro/training-10/p012-img1.png)
 ### Power Budget
@@ -74,7 +63,6 @@ Each link provides the following analysis:
 ![Image p13](../../assets/images/ce-pro/training-10/p013-img4.png)
 
 ![Image p13](../../assets/images/ce-pro/training-10/p013-img5.png)
-
 
 ![Image p14](../../assets/images/ce-pro/training-10/p014-img1.png)
 
@@ -114,8 +102,6 @@ Graphical view showing:
 - LOS line and Fresnel zone clearance
 - Obstacle heights and clearance margins
 
----
-
 ## Geoclimatic Data
 
 CE Pro uses geoclimatic data per **ITU-R P.530** to calculate:
@@ -126,8 +112,6 @@ CE Pro uses geoclimatic data per **ITU-R P.530** to calculate:
 | Multipath fading | Flat/dispersive fade probability |
 | Availability | % annual availability based on fade margin |
 | Outage seconds | Expected downtime per year |
-
----
 
 ## Interference Analysis
 
@@ -145,8 +129,6 @@ The interfering link view shows:
 - Path loss and profile of the interference path
 - Spectrum mask overlap check
 
----
-
 ## Modulation Adaptive Thresholds
 
 Modern microwave radios support adaptive modulation (AM). The radio model defines RSL thresholds for each modulation:
@@ -161,8 +143,6 @@ Modern microwave radios support adaptive modulation (AM). The radio model define
 
 *(Exact values depend on radio model and bandwidth)*
 
----
-
 ## Antenna Selection
 
 Parabolic dish antennas are characterised by:
@@ -174,8 +154,6 @@ Parabolic dish antennas are characterised by:
 | Beamwidth (°) | 3 dB beamwidth in azimuth and elevation |
 | Front-to-Back ratio (dB) | Rejection of rear interference |
 | Cross-polarisation (dB) | Isolation between polarisations |
-
----
 
 *Reference: CE Desktop Training — 7. RL Introduction*
 *Contact: info@cellular-expert.com | +370 5 2150575*

@@ -6,8 +6,6 @@ RLP results — MW link paths and availability predictions — are displayed on 
 
 Arrange your ArcGIS Pro panes for an efficient RLP workflow:
 
----
-
 About Cellular Expert
 Cellular Expert UAB (CE) developed ultra-fast wave
 propagation, communication systems deployment planning,

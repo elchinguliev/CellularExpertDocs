@@ -37,11 +37,7 @@ identification name.
 2.2.1 Height
 Antenna (cell) height in meters above ground level. If the Mobile Operator cannot provide this information,
 a default value can be applied based on land use types. For example, in rural areas where towers are
-Confidential ©Cellular Expert, 2024 Page | 3
 
----
-
-Cellular Expert Network Requirements
 commonly used, the height might be set to 60 meters.
 2.2.2 Azimuth
 Antenna (cell) direction relative to true north, with values ranging from 0 to 359 degrees. If the Mobile
@@ -71,11 +67,7 @@ and frequency band.
 Especially required for 5G, while 4G uses constant value – 15. Units are in kHz.
 If Mobile Operators cannot provide this parameter for 5G technology, then we can apply default value based
 on frequency band.
-Confidential ©Cellular Expert, 2024 Page | 4
 
----
-
-Cellular Expert Network Requirements
 2.2.10 TX MIMO
 Transmitter MIMO configuration, with possible values of 1, 2, 4, 8, 16, 32, 64.
 If Mobile Operators cannot provide this parameter, a default value of 1 is typically used.
@@ -97,11 +89,7 @@ If Mobile Operators cannot provide specific antenna names and patterns, a worst-
 applied using typical antennas generated according to 3GPP standards.
 Typical 65deg Horizontal and 7deg vertical antenna
 Typical 90deg Horizontal and 10deg vertical antenna
-Confidential ©Cellular Expert, 2024 Page | 5
 
----
-
-Cellular Expert Network Requirements
 Typical Omni 360deg antenna
 2.2.13.1 [Antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) file structure
 The text file in Planet format represents:
@@ -116,11 +104,7 @@ Represents the Site (Tower) name in text format. This information enables the au
 
 ![Image p6](../assets/images/geodata/network-objects-requirements/p006-img2.png)
 objects along with Cell objects. If the information is missing, it will be skipped.
-Confidential ©Cellular Expert, 2024 Page | 6
 
----
-
-Cellular Expert Network Requirements
 3. Sites (optional)
 Sites as an object can be imported and visualized in the project.
 Value CE Field Units Example Description
@@ -132,6 +116,3 @@ and in WGS 1984 geographical
 coordinate system.
 Site identification site_name [text] Site 55 ID Represents site identification, usually
 name.
-Confidential ©Cellular Expert, 2024 Page | 7
-
----

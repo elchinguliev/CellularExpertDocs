@@ -27,8 +27,6 @@ CE Express supports structured import workflows to ensure that imported data is:
 3. Initial Data and Prerequisites
 This exercise assumes:
 
----
-
 - A prepared workspace created in previous exercises
 - Prepared geodata loaded in the workspace
 - Access to import files stored locally on the computer
@@ -53,8 +51,6 @@ existing datasets or migrating data between systems.
 2. Click Import Features.
 3. Select Cells.
 
----
-
 The Import dialog opens on the right side of the screen.
 
 ![Image p4](../../assets/images/ce-express/training-05/p004-img1.png)
@@ -72,8 +68,6 @@ The CSV file is uploaded and ready for mapping.
 4.2.4 Defining Import Options
 Enable the following options:
 - Create Sites – automatically creates site objects based on site-related fields
-
----
 
 - Use Mapping – allows explicit mapping between CSV fields and CE Express
 attributes
@@ -102,8 +96,6 @@ For each attribute, define the following mappings:
 | Downlink duplex factor | Leave empty | 0.6 |
 | Subcarrier spacing | Leave empty | 30 |
 
----
-
 TX MIMO TxMIMO Leave empty
 RX MIMO RxMIMO Leave empty
 Active antenna effect Leave empty 6
@@ -121,8 +113,6 @@ antenna_id Leave empty 515
 carriers Leave empty []
 site_id Leave empty Leave empty
 duplex_mode Duplex Leave empty
-
----
 
 4.2.6 Saving a Mapping Template
 Before importing, save the mapping configuration:
@@ -143,8 +133,6 @@ for future imports.
 2. Wait until the import process completes.
 3. Close the Import tool.
 
----
-
 4.2.8 Verifying Imported Objects
 1. Ensure the Features tool is active.
 2. Click once on the map to select imported objects.
@@ -154,8 +142,6 @@ This confirms that cells and sites were successfully created and loaded into the
 ![Image p8](../../assets/images/ce-express/training-05/p008-img1.png)
 
 ![Image p8](../../assets/images/ce-express/training-05/p008-img2.png)
-
----
 
 ## 4.3 Step 3 – Importing Antenna Patterns
 
@@ -176,8 +162,6 @@ This format is supported for direct import into CE Express.
 4.3.3 Importing the Antenna File
 1. Open the Antennas tool.
 
----
-
 2. Click + New Antenna.
 3. Click Import files.
 4. Drag and drop the antenna text file into the import area.
@@ -195,8 +179,6 @@ Verifying antenna data ensures it is ready for assignment to cells and use in pr
 
 ![Image p10](../../assets/images/ce-express/training-05/p010-img3.png)
 
----
-
 3. Close the Antennas tool.
 5. Summary and Key Takeaways
 
@@ -206,5 +188,3 @@ Verifying antenna data ensures it is ready for assignment to cells and use in pr
 - Mapping templates provide repeatability and consistency
 - [Antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) import allows use of real equipment characteristics
 - Verifying imported data is essential before running predictions or further analysis
-
----

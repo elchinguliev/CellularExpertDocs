@@ -22,8 +22,6 @@ LPCLOUD&q=aster&lat=54.10244930917067&long=26.561757102638634&zoom=6.73700
 5077561119
 The raster name must be elevation.tif
 
----
-
 Optional. [Clutter](#kw:clutter-classification-values:ce-express-geodata) height grid
 The Obstacle height (building, vegetation, etc) grid represents the objects on the ground
 
@@ -34,8 +32,6 @@ with their height above the DTM grid. The raster name must be clutterHeight.tif
 Optional. Clutter class grid
 A Clutter class grid represents land use types. The data can be downloaded from here:
 Livingatlas ArcGIS Sentinel-2 Land Use
-
----
 
 Possible land use types:
 - Water
@@ -67,8 +63,6 @@ exercise.
 C:\CE_Course\PreparingGeodata\Initial\DTM
 3. Select the following files:
 
----
-
 - ASTGTMV003_N54E024_dem.tif
 - ASTGTMV003_N54E025_dem.tif
 4. Click OK.
@@ -85,8 +79,6 @@ These files represent adjacent DTM tiles and must be merged into a single raster
 - Output location: calculation directory
 - Output raster name: temporary DTM
 
----
-
 4. Click Run.
 This creates a single continuous elevation raster.
 
@@ -98,8 +90,6 @@ Projecting the Digital Terrain Model (DTM) is a critical GIS step that ensures t
 
 ![Image p6](../../assets/images/ce-express/training-09/p006-img2.png)
 data can be correctly interpreted and used by CE. Prediction engines require all geodata to
-
----
 
 be in a [projected coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) system so that distances, angles, and areas are calculated
 accurately.
@@ -119,8 +109,6 @@ When using [UTM](#kw:what-is-a-projected-crs:ce-express-geodata):
 Which zone should be used can be checked https://hub.arcgis.com/datasets/esri::world-utm-grid/explore
 Consistency across all geodata layers is mandatory.
 
----
-
 3.3.2 Running the [Project Raster](#kw:33-project-raster:none) Tool
 1. Open Geoprocessing from the View tab.
 2. Search for [Project Raster](#kw:33-project-raster:none).
@@ -137,8 +125,6 @@ C:\CE_Course\PreparingGeodata\Initial\Calculations\DTM_UTM.tif
 o X: 25
 o Y: 25
 
----
-
 Run calculations.
 3.3.3 Finalizing the Elevation Raster
 
@@ -154,8 +140,6 @@ Define:
 3. Click Run.
 4. Remove all other layers except:
 - elevation.tif
-
----
 
 - Topographic [basemap](#kw:37-step-7-basemap-configuration:ce-express-tr-workspace)
 The DTM is now ready for CE Express.
@@ -178,8 +162,6 @@ C:\CE_Course\PreparingGeodata\Initial\Clutter
 3. Select:
 35U_20240101-20241231.tif
 
----
-
 4. Click OK.
 This raster covers a much larger area than the DTM.
 3.4.2 Projecting and Clipping [Clutter Classes](#kw:clutter-classification-values:ce-express-geodata)
@@ -200,8 +182,6 @@ Configure the tool as follows:
 - Output Raster: C:\CE_Course\PreparingGeodata\Initial\Calculations\clutter_UTM.tif
 - Output Coordinate System: Same projected system used for elevation.tif
 
----
-
 3.4.4 Enforcing Spatial Alignment (Environment Settings)
 To ensure perfect alignment with the DTM, configure the Environment settings before
 
@@ -219,8 +199,6 @@ These settings force ArcGIS Pro to:
 - Clip the raster to the exact DTM extent
 - Align pixel boundaries exactly with the DTM grid
 
----
-
 Press Run.
 3.4.5 Finalizing the Clutter Class Raster
 1. Open Copy Raster.
@@ -233,5 +211,3 @@ Press Run.
 The clutter class raster is now fully prepared and compliant with CE requirements.
 
 ![Image p13](../../assets/images/ce-express/training-09/p013-img1.png)
-
----

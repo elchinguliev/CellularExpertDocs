@@ -28,8 +28,6 @@ Network objects typically include:
 These objects are tightly coupled with:
 - Geodata (terrain, [clutter](#kw:clutter-classification-values:ce-express-geodata), obstacles), which influences propagation behavior
 
----
-
 - Technology definitions (LTE, 5G NR, TDD/FDD)
 - Templates, which standardize configuration and reduce engineering errors
 Why Templates Matter
@@ -50,8 +48,6 @@ https://cecom2.cellular-expert.com/ce_express/
 
 ![Image p3](../../assets/images/ce-express/training-02/p003-img1.png)
 
----
-
 Best practice: Always confirm the active workspace before object creation to avoid placing
 
 ![Image p4](../../assets/images/ce-express/training-02/p004-img1.png)
@@ -70,8 +66,6 @@ Define the following parameters:
 - Y (Latitude): 54.7398379
 - Height (m): 30
 
----
-
 3. Click Accept to create the site.
 RF note: Site height represents the average antenna mounting height above ground and
 
@@ -86,8 +80,6 @@ directly impacts coverage and LOS conditions.
 2. Select Cells.
 3. In the template selection window, choose:
 5G 3500 – Band n78
-
----
 
 Templates pre-fill technology-specific parameters, ensuring consistency and reducing
 configuration errors.
@@ -119,8 +111,6 @@ Parameter Value
 | Prediction model | CEC ITU-R: 3km radius | CEC ITU-R: 3km radius | CEC ITU-R: 3km radius |
 | Frequency group | 3500 | 3500 | 3500 |
 
----
-
 Antenna S4-90M-R1- S4-90M-R1- S4-90M-R1-
 
 ![Image p7](../../assets/images/ce-express/training-02/p007-img1.png)
@@ -138,8 +128,6 @@ Duplex Mode TDD TDD TDD
 
 1. Select the newly created site and cells on the map.
 2. Verify their placement and orientation.
-
----
 
 ## 3.4 Step 4 – Duplicating Network Objects
 
@@ -161,8 +149,6 @@ All selected objects are duplicated at the new location.
 
 ![Image p8](../../assets/images/ce-express/training-02/p008-img2.png)
 
----
-
 ## 3.5 Step 5 – Moving Individual Objects
 
 Objects can be repositioned individually or as a group.
@@ -175,8 +161,6 @@ In this exercise, cells will be placed at different corners of a building.
 1. Select duplicated objects.
 2. Remove all but Cx01 from the selection.
 3. Click the Move tool.
-
----
 
 Define new coordinates:
 - X: 25.2222847
@@ -197,8 +181,6 @@ parameters. Correct parameters ensure that objects are clearly identified, consi
 configured, and ready for further analysis, visualization, or reporting across different user
 roles.
 
----
-
 CE Express provides two complementary ways to modify object parameters:
 
 ![Image p11](../../assets/images/ce-express/training-02/p011-img1.png)
@@ -212,8 +194,6 @@ Both methods are commonly used together in real projects.
 2. Click on the duplicated ST01 site in Features tool.
 3. In the Features tool, change the site name to: ST02
 4. Click Accept.
-
----
 
 Clear and unique object names help all users quickly understand the network structure and
 
@@ -233,8 +213,6 @@ Table view is especially useful when working with multiple objects or large proj
 1. In the Features tool, click Show in Table.
 2. Select Cells.
 
----
-
 The table and the map are synchronized:
 - Selecting an object in the table highlights it on the map
 - Selecting an object on the map highlights it in the table
@@ -251,8 +229,6 @@ This approach makes it easy to review and adjust values while maintaining full s
 awareness.
 3.6.3 Bulk Editing Multiple Objects
 1. Select [multiple cells](#kw:47-step-7-rf-prediction-for-multiple-cells:ce-express-tr-rf) in the table (left click on them).
-
----
 
 2. Left click on the Frequency field.
 3. From the context menu, choose Set selected.
@@ -271,8 +247,6 @@ awareness.
 ![Image p14](../../assets/images/ce-express/training-02/p014-img5.png)
 
 ![Image p14](../../assets/images/ce-express/training-02/p014-img6.png)
-
----
 
 ## 3.7 Step 7 – Managing Network Symbology
 
@@ -301,15 +275,11 @@ Define:
 - Order: descending
 - Visual variables: Color
 
----
-
 - Technology
 - Stops: define as in the picture below
 - In Visual variables add a new parameter: Size
 - Field: frequency
 - Stops: define as in the picture below
-
----
 
 Press Accept button.
 Cells symbology will be updated
@@ -317,5 +287,3 @@ Cells symbology will be updated
 ![Image p17](../../assets/images/ce-express/training-02/p017-img1.png)
 
 ![Image p17](../../assets/images/ce-express/training-02/p017-img2.png)
-
----

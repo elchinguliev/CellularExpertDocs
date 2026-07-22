@@ -38,9 +38,6 @@ reserved. Cellular Expert and Cellular Expert logo are
 registered trademarks, @cellular-expert.com and
 www.cellular-expert.com are service marks of UAB
 CELLULAR EXPERT in Lithuania and some other countries.
-Confidential Cellular Expert, 2026 Page | 3
-
----
 
 Cellular Expert Express Administrator Guide 5.8
 1. System requirements
@@ -78,9 +75,6 @@ ArcGIS included) with:
  IIS webserver (or Apache server) with SSL enabled: required for ArcGIS server and CE Express
  SQL Database management system PostgreSQL (download from my.esri.com)
  Microsoft Visual C++ 2015-202x for ESRI products
-Confidential Cellular Expert, 2026 Page | 4
-
----
 
 Cellular Expert Express Administrator Guide 5.8
 
@@ -117,10 +111,7 @@ Recommended 16 GB
 Optimal 32 GB
 Storage:
 Minimum 500 GB of free space
-Confidential Cellular Expert, 2026 Page | 5
 SPTTH
-
----
 
 Cellular Expert Express Administrator Guide 5.8
 Recommended 2TB (Note 1)
@@ -154,7 +145,6 @@ Users PostgreSQL
 6: CE
 Frontend
 (IIS)
-Confidential Cellular Expert, 2026 Page | 6
 
 ![Image p6](../../assets/images/ce-express/admin-guide-only-v72/p006-img4.png)
 
@@ -178,8 +168,6 @@ Confidential Cellular Expert, 2026 Page | 6
 
 ![Image p6](../../assets/images/ce-express/admin-guide-only-v72/p006-img18.png)
 SPTTH
-
----
 
 Cellular Expert Express Administrator Guide 5.8
 Technical requirements:
@@ -225,9 +213,6 @@ installation, configuration, data loading path and steps to setup and start Cell
 ## 2.1 Installation files
 
 1. CE Express Setup file provided “CE_Express_7.2_winInstall(x64).exe”. It will automatically install:
-Confidential Cellular Expert, 2026 Page | 7
-
----
 
 Cellular Expert Express Administrator Guide 5.8
  CE Express DB schema
@@ -252,9 +237,6 @@ Execute the provided CE Express installation file (“CE_Express_6.0_winInstall(
 ![Image p8](../../assets/images/ce-express/admin-guide-only-v72/p008-img1.png)
 following the instructions displayed on the screen.
 2.3.1 Accept the software terms and conditions
-Confidential Cellular Expert, 2026 Page | 8
-
----
 
 Cellular Expert Express Administrator Guide 5.8
 2.3.2 Prepare installation folders
@@ -273,9 +255,6 @@ be assigned to the administrator group.
  Enter CE express server port. It could be changed if 6062 will be occupied after verification.
  Enter CE express frontend host URL (http(s)://[hostname]) or leave the “*”
  Click verify and wait for the messages:
-Confidential Cellular Expert, 2026 Page | 9
-
----
 
 Cellular Expert Express Administrator Guide 5.8
  Click “Next”
@@ -291,9 +270,6 @@ Cellular Expert Express Administrator Guide 5.8
  Enter the password for the admin user of the PostgreSQL database.
  Enter the maintenance database of the PostgreSQL database. Usually it is “postgres”.
  Click on the “Verify” button and wait for the messages:
-Confidential Cellular Expert, 2026 Page | 10
-
----
 
 Cellular Expert Express Administrator Guide 5.8
 If a database schema named "ce_express" exists, you will be notified during the installation process. In
@@ -309,9 +285,6 @@ such a case, the tables will be copied with the postfix "_date" to avoid conflic
  Click “Next”. Installation will continue till finish:
 2.3.5 Check Installation and the licence of the CE Express software.
 Check windows services and there should be 3 CE Express services running:
-Confidential Cellular Expert, 2026 Page | 11
-
----
 
 Cellular Expert Express Administrator Guide 5.8
 If windows services are running, open web browser and start CE Express administrator tool:
@@ -332,9 +305,6 @@ the URL of CE Express to the insecure content list. It could be done using the b
  Chrome: chrome://settings/content/insecureContent
  Edge: edge://settings/content/insecureContent
 Another way is to enable SSL support on CE Express (see chapter “Enable SSL support (optional)).
-Confidential Cellular Expert, 2026 Page | 12
-
----
 
 Cellular Expert Express Administrator Guide 5.8
 2.3.6 Enable SSL support (optional)
@@ -361,9 +331,6 @@ https://CE_express_hostname/ceexpressfrontenfolder (Example: https://localhost/c
 2.3.7 Configure CE Express to publish objects to the Portal for ArcGIS (optional)
 2.3.7.1 Option: Arcgis Server without Image Server
  Publish provided geoprocessing tool "publishTif.sd" using Arcgis Server manager. The published
-Confidential Cellular Expert, 2026 Page | 13
-
----
 
 Cellular Expert Express Administrator Guide 5.8
 GP tool example view:
@@ -389,9 +356,6 @@ required for publishing:
 USERNAME and PASSWORD are Portal’s for Arcgis user's username and password. This user will be
 used to publish, and the published objects (raster or features) will be visible under this user's content.
  Restart Windows CE services. The “Coordinator” service must be started last.
-Confidential Cellular Expert, 2026 Page | 14
-
----
 
 Cellular Expert Express Administrator Guide 5.8
 2.3.8 Configure CE Express to send notifications (optional)
@@ -418,9 +382,6 @@ to your email provider’s requirements.
 
 In this chapter, you will find a description of the geographical file types that are used in Cellular Expert.
 Use the “Geodata sets” tool to upload all the required data to the CE Express:
-Confidential Cellular Expert, 2026 Page | 15
-
----
 
 Cellular Expert Express Administrator Guide 5.8
 How to prepare geodata tif files is described below in this CE Express Administrator Guide.
@@ -441,9 +402,6 @@ These types of GIS data describing the radio wave propagation path are illustrat
 ![Image p16](../../assets/images/ce-express/admin-guide-only-v72/p016-img2.png)
 the key propagation effects with corresponding types of path loss components: Free Space Loss (FSL),
 losses due to diffraction over terrain protrusions and obstacles, and losses due to clutter penetration.
-Confidential Cellular Expert, 2026 Page | 16
-
----
 
 Cellular Expert Express Administrator Guide 5.8
 Sometimes users may have the Digital Surface Model (DSM) elevation data to represent the path profile.
@@ -472,9 +430,6 @@ other derivative operational parameters.
 All three layers could be prepared using ArcGIS Pro tools: Projection, Copy Raster and Raster Calculator.
 3.1.2 Geographic data
 Supported geographical data types:
-Confidential Cellular Expert, 2026 Page | 17
-
----
 
 Cellular Expert Express Administrator Guide 5.8
 Only GeoTIFF is supported.
@@ -502,9 +457,6 @@ the Properties function in ArcGIS Pro. Add the raster to your project, right-cli
 ![Image p18](../../assets/images/ce-express/admin-guide-only-v72/p018-img2.png)
 Then, go to the Source tab > Spatial Reference and check the Coordinate System type parameter to confirm
 it is in a [Projected Coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) System.
-Confidential Cellular Expert, 2026 Page | 18
-
----
 
 Cellular Expert Express Administrator Guide 5.8
 If your raster is in a Geographic Coordinate System or needs a different projection, use the Geoprocessing
@@ -515,9 +467,6 @@ If your raster is in a Geographic Coordinate System or needs a different project
 > [Project Raster](#kw:33-project-raster:ce-express-tr-geodata) tool to update it.
 In the Output Coordinate System, specify a new coordinate system. It is recommended to use a [UTM](#kw:what-is-a-projected-crs:ce-express-geodata)
 coordinate system under the WGS 1984 projection.
-Confidential Cellular Expert, 2026 Page | 19
-
----
 
 Cellular Expert Express Administrator Guide 5.8
 You can find the appropriate [UTM](#kw:what-is-a-projected-crs:ce-express-geodata) zone for your area here:
@@ -530,9 +479,6 @@ This raster type provides information about land use. The naming and classificat
 ![Image p20](../../assets/images/ce-express/admin-guide-only-v72/p020-img2.png)
 vary. An example is the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2 Land
 Cover
-Confidential Cellular Expert, 2026 Page | 20
-
----
 
 Cellular Expert Express Administrator Guide 5.8
 This data is freely available worldwide.
@@ -546,9 +492,6 @@ It must have the same coordinate system as your elevation.tif raster. If your ra
 
 ![Image p21](../../assets/images/ce-express/admin-guide-only-v72/p021-img3.png)
 system, then use the Geoprocessing tool → [Project Raster](#kw:33-project-raster:ce-express-tr-geodata) to fix it.
-Confidential Cellular Expert, 2026 Page | 21
-
----
 
 Cellular Expert Express Administrator Guide 5.8
 In the Output Coordinate System you would need to define the same coordinate system as your elevation.tif
@@ -561,9 +504,6 @@ And choose the same coordinate system as your elevation.tif.
 3.1.2.3 Clutter height
 Represents actual clutter heights, which override the default heights specified in the Clutter table. The
 clutter heights raster requires the accompanying [clutter classes](#kw:clutter-classification-values:ce-express-geodata) raster and cannot be used independently.
-Confidential Cellular Expert, 2026 Page | 22
-
----
 
 Cellular Expert Express Administrator Guide 5.8
 A clutter height raster can be derived from a Digital Surface Model (DSM) raster and a Digital Terrain Model
@@ -572,9 +512,6 @@ A clutter height raster can be derived from a Digital Surface Model (DSM) raster
 (DTM) raster using the ArcGIS Raster Calculator tool. To access this tool, open Geoprocessing tools and
 navigate to Spatial Analyst > Map Algebra > Raster Calculator. Use the following formula:
 DSM – DTM
-Confidential Cellular Expert, 2026 Page | 23
-
----
 
 Cellular Expert Express Administrator Guide 5.8
 The calculation output will be the difference between the DSM and DTM grids, representing the clutter
@@ -587,9 +524,6 @@ It must have the same coordinate system as your elevation.tif raster. If your ra
 
 ![Image p24](../../assets/images/ce-express/admin-guide-only-v72/p024-img2.png)
 system, then use the Geoprocessing tool → Project Raster to fix it.
-Confidential Cellular Expert, 2026 Page | 24
-
----
 
 Cellular Expert Express Administrator Guide 5.8
 In the Output Coordinate System you would need to define the same coordinate system as your elevation.tif
@@ -599,9 +533,6 @@ In the Output Coordinate System you would need to define the same coordinate sys
 ![Image p25](../../assets/images/ce-express/admin-guide-only-v72/p025-img2.png)
 raster. Click on Select Coordinate System button.
 And choose the same coordinate system as your elevation.tif.
-Confidential Cellular Expert, 2026 Page | 25
-
----
 
 Cellular Expert Express Administrator Guide 5.8
 3.1.3 Antennas
@@ -613,9 +544,6 @@ using the CE Express antenna import tool. The CE Express application uses the Pl
 ![Image p26](../../assets/images/ce-express/admin-guide-only-v72/p026-img2.png)
 format. This format consists of a header, horizontal and vertical records. Example:
 After import of the antenna, the antenna id could be used in the cells data table.
-Confidential Cellular Expert, 2026 Page | 26
-
----
 
 Cellular Expert Express Administrator Guide 5.8
 
@@ -638,12 +566,6 @@ Extent: describe the extent of the workspace.
 Calculations: enable or disable parameters if they are not used.
 Extra layers: add additional layers form the other sources to be visualized in this new workspace.
 For the administrators the new workspace will be visible after creation.
-Confidential Cellular Expert, 2026 Page | 27
-
----
 
 Cellular Expert Express Administrator Guide 5.8
 Antennas or cells for the new workspace could be loaded using CE Express environment and tools.
-Confidential Cellular Expert, 2026 Page | 28
-
----

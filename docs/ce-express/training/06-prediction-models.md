@@ -22,8 +22,6 @@ appropriate loss calculation for that condition.
 This approach allows near-deterministic modeling, where terrain, obstacles, and [clutter](#kw:clutter-classification-values:ce-express-geodata) are
 explicitly considered for every calculation pixel.
 
----
-
 3. Prediction models
 The CE Path Loss Modelling aims to perform near-deterministic calculation of received signal
 levels at each specific point (pixel) in the network’s target coverage area by applying selective
@@ -44,8 +42,6 @@ clutter, see illustration in Fig. 1(b).
 - Non-LOS (NLOS) – occurs when the direct radio propagation line is interposed by terrain
 bulges or obstacles, see illustration in Fig. 1(c).
 
----
-
 (a) Example of path profile with LOS condition (green line of direct radio link)
 (b) Example of path profile with OLOS condition (yellow segment of radio link path)
 
@@ -55,8 +51,6 @@ bulges or obstacles, see illustration in Fig. 1(c).
 
 ![Image p4](../../assets/images/ce-express/training-06/p004-img3.png)
 (c) Example of path profile with NLOS condition (red segment of radio link path)
-
----
 
 (d) Example of path profile with OLOS+NLOS condition (yellow+red segment of radio link
 path)
@@ -93,8 +87,6 @@ simulate Outdoor-to-Indoor scenario which is based on ITU-R P.833 recommendation
 is in vegetation type clutter) or based on 3GPP TR 38.901 (ref URL) (if receiver is in a building).
 ITU-R P.452 Model (6GHz – 50GHz) is provided as a universally applicable model with a very wide
 
----
-
 frequency range from 0.1-50 GHz. Its implementation is based on the methodology described in the
 Recommendation ITU-R P.452 (ref URL). This model does not provide for definition of OLOS
 visibility condition; instead, it considers clutter as part of the general obstacles category and
@@ -129,8 +121,6 @@ is in vegetation type clutter) or based on 3GPP TR 38.901 (ref URL) (if receiver
 https://cecom2.cellular-expert.com/ce_express/
 2. From the workspace list, select the workspace used in the previous exercise.
 
----
-
 5. Step 2 – Reviewing Prediction Models
 Open Prediction Models tool
 1. Open the Prediction Models tool.
@@ -140,8 +130,6 @@ Open Prediction Models tool
 ![Image p7](../../assets/images/ce-express/training-06/p007-img1.png)
 
 ![Image p7](../../assets/images/ce-express/training-06/p007-img2.png)
-
----
 
 ## 5.1 Step 3 – Assigning Prediction Models to Cells
 
@@ -162,8 +150,6 @@ Only selected cells will be affected by model assignment changes.
 5.1.2 Assigning a Prediction Model to a Cell
 1. Click on NBa 01 in Features tool to open the Edit Feature panel.
 
----
-
 2. Scroll to find the Prediction model parameter.
 3. Click on this parameter to open the context menu.
 The menu lists all available prediction model configurations defined in the workspace.
@@ -182,8 +168,6 @@ This review helps ensure the selected model matches the intended scenario.
 1. Select the appropriate prediction model configuration from the list.
 2. Click Accept to apply the change.
 Repeat this process for NBa 02 and NBa 03.
-
----
 
 ## 5.2 Step 4 – Running Predictions and Comparing Results
 
@@ -206,8 +190,6 @@ A calculation task is created and executed in the background.
 2. Locate the most recent prediction task.
 3. Open 5G 3500 Field Strength 1, dBm.
 
----
-
 The prediction raster is loaded on the map and listed under [Prediction Results](#kw:viewing-results:ce-express-rf-prediction) in the
 
 ![Image p11](../../assets/images/ce-express/training-06/p011-img1.png)
@@ -227,8 +209,6 @@ This baseline is essential for understanding the impact of later changes.
 3. Run predictions again.
 After successful calculation, open 5G 3500 Field Strength 1, dBm prediction results.
 Now, we have two layers loaded to Prediction results.
-
----
 
 Compare them visually. Then open [Identify tool](#kw:310-step-10-using-the-identify-tool:ce-express-tr-workspace) and click on the map.
 Field Strength for second prediction is higher by 13 (because we defined lower Offset
@@ -250,8 +230,6 @@ Building clutter parameters describe how man-made structures affect signal propa
 These parameters are critical in environments where buildings are a dominant factor
 influencing visibility, attenuation, and diffraction.
 
----
-
 Rather than treating buildings as simple blockers, CE Express models their impact through
 a set of configurable parameters that control how loss is introduced as signals interact with
 
@@ -271,8 +249,6 @@ behavior rather than idealized free-space conditions.
 3. Expand Building clutter values.
 This section contains parameters that specifically control how buildings influence the path
 loss calculation.
-
----
 
 Key Parameters:
 - Nominal distance, m – the average distance between objects within the clutter class,
@@ -306,8 +282,6 @@ After recalculation, observe:
 - Greater contrast between open and built-up areas
 These changes confirm the role of building clutter parameters in shaping prediction results.
 
----
-
 ## 5.5 Step 7 – Creating, Applying, and Evaluating a Custom Prediction Model Configuration
 
 Creating a [custom prediction model](#kw:55-step-7-creating-applying-and-evaluating-a-custom-prediction-model-configuration:none) configuration allows users to tailor propagation behavior
@@ -333,8 +307,6 @@ Define the following parameters:
 - Distance Coefficient (Obstructed): 30
 - Frequency Coefficient: 20
 
----
-
 5.5.2 Configuring Environmental Parameters
 Expand the following sections and configure values according to the training reference:
 
@@ -346,8 +318,6 @@ Expand the following sections and configure values according to the training ref
 These settings control how urban structures and non-building obstacles influence
 propagation behavior.
 Once all parameters are defined, click Accept to save the configuration.
-
----
 
 5.5.3 Applying the Custom Model to Cells
 1. Select the cells:
@@ -364,8 +334,6 @@ Once all parameters are defined, click Accept to save the configuration.
 1. Open the RF Prediction tool.
 2. Run predictions for the selected cells.
 3. Open the resulting Field Strength output from [Prediction History](#kw:44-step-4-prediction-history-and-result-management:ce-express-tr-rf).
-
----
 
 Close all prediction results in Layers tool.
 
@@ -390,8 +358,6 @@ LOS conditions are met.
 1. Open the Prediction Models tool.
 2. Select LOS ITU-R P.525 – mmWave Band 1km radius.
 
----
-
 Key characteristics to review:
 - Free Space Loss formulation
 - Maximum calculation radius
@@ -404,11 +370,7 @@ Key characteristics to review:
 1. Open the RF Prediction tool.
 2. Run the prediction for Cx002.
 
----
-
 3. Open the resulting Field Strength output from Prediction History.
 
 ![Image p20](../../assets/images/ce-express/training-06/p020-img1.png)
 It will provide coverage results where only LOS condition exist.
-
----

@@ -6,14 +6,11 @@ Cell prediction results are displayed as coverage rasters in the ArcGIS Pro map 
 
 Configure prediction parameters in the CE Pro pane before running:
 
----
-
 ## Cell Structure
 
 ![Image p2](../../assets/images/ce-pro/training-07/p002-img1.png)
 
 ![Image p2](../../assets/images/ce-pro/training-07/p002-img2.png)
-
 
 ![Image p3](../../assets/images/ce-pro/training-07/p003-img1.png)
 
@@ -21,7 +18,6 @@ Configure prediction parameters in the CE Pro pane before running:
 Each cell in CE Pro has two categories of parameters:
 
 ![Image p4](../../assets/images/ce-pro/training-07/p004-img1.png)
-
 
 ![Image p6](../../assets/images/ce-pro/training-07/p006-img1.png)
 
@@ -39,8 +35,6 @@ Each cell in CE Pro has two categories of parameters:
 - Frequency (MHz)
 - Technology (2G/3G/4G/5G)
 
----
-
 ## Cell Coordinates
 
 CE Pro supports two coordinate systems:
@@ -52,8 +46,6 @@ CE Pro supports two coordinate systems:
 | Z — total height above sea level | | Calculated from site height + cell height |
 
 > **Note:** Cell name is a unique parameter per project. Best Server prediction also uses the cell name as identifier.
-
----
 
 ## Cell Parameters Reference
 
@@ -83,8 +75,6 @@ CE Pro supports two coordinate systems:
 - If workspace parameter **Calculate EIRP = Yes**: enter cell transmit power — EIRP is calculated from power + antenna gain − misc loss
 - If workspace parameter **Calculate EIRP = No**: `power` field represents EIRP directly
 
----
-
 ## RF Prediction Output Structure
 
 CE Pro stores prediction results in a defined folder structure within the project:
@@ -95,8 +85,6 @@ Project/
 ├── Results/          — output raster layers (coverage maps)
 ├── Temp/             — temporary calculation files
 ```
-
----
 
 ## Running a Cell Prediction
 
@@ -110,8 +98,6 @@ Project/
 4. Set radius (km), resolution (m), and prediction model
 5. Click **Run** — results appear as raster layers in the Contents pane
 
----
-
 ## Prediction Types Explained
 
 | Type | Unit | Use Case |
@@ -120,8 +106,6 @@ Project/
 | Best Server | cell name | Frequency planning, handover zones |
 | SINR | dB | Interference analysis |
 | Throughput | Mbps | Capacity and QoS planning |
-
----
 
 *Reference: CE Desktop Training — 4. Cell Prediction*
 *Contact: info@cellular-expert.com | +370 5 2150575*

@@ -27,8 +27,6 @@ how to create and, if necessary, import this data into the project.
 Open Antenna Viewer in CE RLP tab, and change antenna type from Sector to Parabolic.
 All parabolic antennas will be displayed.
 
----
-
 Close Antenna Viewer tool. To import a new parabolic antenna, open Import/Export Antenna
 
 ![Image p3](../../assets/images/ce-express/training-07/p003-img1.png)
@@ -37,8 +35,6 @@ Close Antenna Viewer tool. To import a new parabolic antenna, open Import/Export
 Files tool. Parabolic antenna import supports:
 - Andrew format:
 - NSMA format:
-
----
 
 Select Parabolic (NSMA Format).
 Click on Select Antenna Model Files
@@ -62,16 +58,12 @@ Browse to C:\CE_Course\RL_Prediction\Equipment\Antennas, select Antenna10GHz.txt
 and press OK button. It will appear in Import/Export Antenna Files dialog.
 Select Check box near the antenna and press Import Antennas button.
 
----
-
 Antenna will be imported successfully. Now choose Andrew format.
 Click on Select Antenna Model Files
 Browse to C:\CE_Course\RL_Prediction\Equipment\Antennas, select a2119.adf antenna
 and press OK button to add it.
 Select Check box near the antenna and press Import Antennas button.
 Now open Antenna Viewer tool to review these antennas.
-
----
 
 Close Antenna Viewer and Import tools.
 
@@ -86,8 +78,6 @@ links. It comprises information on transmitter power, receiver sensitivity, nois
 nonlinearity characteristics, and maximum data capacity.
 Open [Radios](#kw:710-radios:ce-pro-rlp) tool in CE RLP tab and preview available Radio within default CE workspace.
 
----
-
 It has parameter section, and Modulations section.
 Click on Add button in top right corner of the dialog.
 
@@ -99,8 +89,6 @@ Click on Add button in top right corner of the dialog.
 Define the same parameters as defined below:
 - Model: RL Radio
 - Manufacture: CE
-
----
 
 - Frequency From, MHz: 9500
 - Frequency To, MHz: 10500
@@ -123,8 +111,6 @@ Define the same parameters as defined below:
 - Power High, dBm: 26
 - Automatic Transfer Power Control Range, dB: 20
 
----
-
 Click on Modulations tab, and include these modulations:
 You can do it simply selecting modulation from the list and press + button to add it for the
 
@@ -136,8 +122,6 @@ You can do it simply selecting modulation from the list and press + button to ad
 radio.
 Each modulation has its own default parameters.
 
----
-
 Leave default parameters and press Create button. The new radio will be added in the list.
 
 ![Image p10](../../assets/images/ce-express/training-07/p010-img1.png)
@@ -148,8 +132,6 @@ Leave default parameters and press Create button. The new radio will be added in
 Click on Import tab.
 Click on Seleted Data File and navigate to C:\CE_Course\MW_Equipment\Equipment\Radio,
 select Aur24_1E1.raf and press OK button.
-
----
 
 New radio with the parameters will be added to the dialog. Press Import button to import it
 to the database.
@@ -170,8 +152,6 @@ Frequency plans can be imported from a text file, or created manually.
 3.3.1 Create manually
 Open Frequency Plans tool in CE RLP tab.
 
----
-
 Click on Add section and define:
 - Frequency Plan Name: FP 10MHz 8 Carriers
 - Low Frequency, MHz: 9800
@@ -190,8 +170,6 @@ The new frequency plan will appear in the main dialog.
 3.3.2 Import
 Click on Import option, and then on Select Data Files.
 
----
-
 Navigate to C:\CE_Course\RL_Prediction\Equipment\FrequencyPlans, select all files and
 
 ![Image p13](../../assets/images/ce-express/training-07/p013-img1.png)
@@ -202,11 +180,7 @@ Navigate to C:\CE_Course\RL_Prediction\Equipment\FrequencyPlans, select all file
 press OK button.
 Frequency Plans will be added to the preview.
 
----
-
 Press Import button and they will be imported to the database.
 
 ![Image p14](../../assets/images/ce-express/training-07/p014-img1.png)
 Close Frequency Plans dialog.
-
----

@@ -14,16 +14,12 @@ Trainings 11.40-12.50
 Break 12.50-13.00
 Trainings 13.00-14.00
 
----
-
 Exercises for CE Desktop
 DAY 1 DAY 2
 1 0. Introduction slides 4. Cell Prediction
 2 1. Creating Workspace 5. Prediction [Models](#kw:31-models:ce-express-tr-models)
 3 2. [Line of Sight](#kw:running-a-profile:ce-express-profile) 6. Importing Network
 4 3. Create Objects 7. Site Positioning
-
----
 
 Course Materials
 ❑
@@ -33,8 +29,6 @@ C:\CE_COURSE
 Exercise descriptions
 C:\CE_COURSE\0.Descriptions
 
----
-
 Today
 1. Introduction:
 ➢ Architecture
@@ -43,5 +37,3 @@ Today
 ➢ Creating Workspace
 ➢ [Line of Sight](#kw:running-a-profile:ce-express-profile)
 ➢ Creating Objects
-
----

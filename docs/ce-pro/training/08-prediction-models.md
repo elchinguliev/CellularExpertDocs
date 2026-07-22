@@ -39,8 +39,6 @@ Prediction model output is displayed as a coverage raster on the active map:
 
 Select the prediction model from the contextual CE Desktop tab in the ArcGIS Pro ribbon:
 
----
-
 ## Overview — Path Loss
 
 The fundamental relationship used in CE Pro predictions:
@@ -51,8 +49,6 @@ Field Strength (dBm) = EIRP – Antenna Attenuation – Path Loss
 
 CE Pro supports five path loss models covering 10 kHz – 100 GHz. Choose the model based on frequency band and environment.
 
----
-
 ## CE Path Loss Models
 
 | Model | Frequency Range | Best For |
@@ -62,8 +58,6 @@ CE Pro supports five path loss models covering 10 kHz – 100 GHz. Choose the mo
 | LOS ITU-R P.525 | 6 GHz – 100 GHz | Fixed point-to-point links |
 | UniMacro | 400 MHz – 3 GHz | CE proprietary cellular model |
 | ITU-R P.368 | 10 kHz – 30 MHz | HF/VHF ground wave |
-
----
 
 ## 1. CEC ITU-R Model (100 MHz – 6 GHz)
 
@@ -125,16 +119,12 @@ L_IIR_glass = 23.0 + 0.3f        (f = frequency in GHz)
 
 **High-loss BEL Model** (modern thermally insulated buildings) uses higher wall penetration coefficients for the same materials.
 
----
-
 ## 2. ITU-R P.452 Model (6 GHz – 50 GHz)
 
 Universal model (0.1–50 GHz) per **Recommendation ITU-R P.452**. Treats clutter as part of general obstacles — only LOS and NLOS are distinguished (no separate OLOS).
 
 - **LOS** — Free Space Loss
 - **NLOS** — Basic transmission loss + diffraction losses
-
----
 
 ## 3. LOS ITU-R P.525 Model (6 GHz – 100 GHz)
 
@@ -146,8 +136,6 @@ L = K_off + K_LogD × log(d) + K_LogF × log(f)
 (Defaults: K_off = 32, K_LogD = 20, K_LogF = 20)
 
 Use for fixed microwave links and 5G NR mmWave (FR2).
-
----
 
 ## 4. UniMacro Model (400 MHz – 3 GHz)
 
@@ -183,13 +171,9 @@ g(f) = 44.49×log(f) – 4.78×[log(f)]²
 - **a2** — adjusts loss relative to base station height
 - **a3** — fine-tunes height-distance interaction
 
----
-
 ## 5. ITU-R P.368 (10 kHz – 30 MHz)
 
 Ground wave propagation for HF/VHF broadcast and land mobile systems.
-
----
 
 ## Prediction Model Manager
 
@@ -214,7 +198,6 @@ Navigate to: **Cellular Expert tab → Prediction Model Manager**
 ![Image p35](../../assets/images/ce-pro/training-08/p035-img1.png)
 
 ![Image p35](../../assets/images/ce-pro/training-08/p035-img2.png)
----
 
 ## Required Input Data
 
@@ -225,8 +208,6 @@ Navigate to: **Cellular Expert tab → Prediction Model Manager**
 | Clutter height grid | Optional | Required for P.2108 |
 | Receiver height | ✅ Yes | UE height above ground |
 | Model coefficients | ✅ Yes | K_off, K_LogD, K_LogF |
-
----
 
 *Reference: CE Desktop Training — 5. Prediction Models*
 *Contact: info@cellular-expert.com | +370 5 2150575*

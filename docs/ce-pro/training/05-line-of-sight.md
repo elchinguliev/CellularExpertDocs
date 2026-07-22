@@ -6,8 +6,6 @@ LOS and profile results are displayed in the ArcGIS Pro map view. The map canvas
 
 The **Contents** and **Catalog** panes show the DEM, clutter, and obstacle layers required for LOS calculation:
 
----
-
 ## Geodata Layers Used
 
 CE Pro uses three GIS data layers for precise RF propagation modelling:
@@ -22,8 +20,6 @@ Together these layers form the **DSM (Digital Surface Model)**:
 ```
 DSM = DTM + Obstacles (buildings/vegetation)
 ```
-
----
 
 ## Point-to-Point Profile
 
@@ -71,8 +67,6 @@ DSM = DTM + Obstacles (buildings/vegetation)
 **Angles:**
 - Elevation angle of the LOS path (degrees)
 
----
-
 ## Fresnel Zone Clearance
 
 The Fresnel zone radius at distance d from transmitter:
@@ -87,8 +81,6 @@ where:
 ```
 
 Recommended minimum clearance: **60% of 1st Fresnel zone radius** to avoid significant diffraction loss.
-
----
 
 ## Visibility (Point-to-Area) Prediction
 
@@ -113,8 +105,6 @@ Recommended minimum clearance: **60% of 1st Fresnel zone radius** to avoid signi
 
 **Example:** If Clearance = 6.5 m, the LOS line passes 6.5 m above the highest obstacle at that location.
 
----
-
 ## Surface Models Compared
 
 ```
@@ -130,16 +120,12 @@ Tx ──── [building] ─ Rx  (NLOS — building blocks path)
 Tx ──── [trees] ─── Rx   (OLOS — partially penetrable)
 ```
 
----
-
 ## Dynamic Profile Mode
 
 ![Image p5](../../assets/images/ce-pro/training-05/p005-img1.png)
 
 - **Fix transmitter** — anchor one end of the profile at a fixed cell/antenna location
 - **Dynamic option** — move the receiver endpoint interactively on the map; profile updates in real time
-
----
 
 ## Profile Symbology
 
@@ -180,7 +166,6 @@ Define custom colours for each element displayed in the profile view:
 ![Image p14](../../assets/images/ce-pro/training-05/p014-img1.png)
 
 ![Image p14](../../assets/images/ce-pro/training-05/p014-img2.png)
----
 
 ![Image p15](../../assets/images/ce-pro/training-05/p015-img1.png)
 
@@ -193,8 +178,6 @@ Define custom colours for each element displayed in the profile view:
 
 ![Image p18](../../assets/images/ce-pro/training-05/p018-img1.png)
 CE Pro can display the terrain profile in 3D, showing the transmitter, receiver, terrain, obstacles, and the LOS path in a three-dimensional view.
-
----
 
 *Reference: CE Desktop Training — 2. Line of Sight (Profile)*
 *Contact: info@cellular-expert.com | +370 5 2150575*

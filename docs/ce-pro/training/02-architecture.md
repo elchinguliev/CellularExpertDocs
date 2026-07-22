@@ -26,17 +26,11 @@ ArcGIS Pro functionality • Includes CE Inventory3D
 CE Customized solutions
 ArcGIS CE COTS
 
----
-
 CE Pro
-
----
 
 CE Pro runs inside ArcGIS Pro. The image below shows a typical project with map view, Contents pane, and Catalog pane — the core layout you will use throughout all CE Pro work:
 
 CE Pro tools appear as contextual tabs in the ArcGIS Pro ribbon:
-
----
 
 Cellular Expert for ArcGIS Pro Architecture
 Cellular Expert for ArcGIS Pro
@@ -50,8 +44,6 @@ Local Database All files are saved in local disk
 
 ![Image p4](../../assets/images/ce-pro/training-02/p004-img1.png)
 
----
-
 Cellular Expert for ArcGIS Pro
 
 ![Image p5](../../assets/images/ce-pro/training-02/p005-img1.png)
@@ -63,8 +55,6 @@ License Structure
 - RCP – Radio Coverage Prediction
 - RLP – Radio Link Prediction
 - EMF – Electromagnetic Field
-
----
 
 Geospatial Information
 
@@ -80,16 +70,12 @@ Geospatial Information
 ✓ Elevation
 ✓ Surface
 
----
-
 Project files
 Project > Save Project/Save Project As
 
 ![Image p7](../../assets/images/ce-pro/training-02/p007-img1.png)
 
 ![Image p7](../../assets/images/ce-pro/training-02/p007-img2.png)
-
----
 
 Cellular Expert Project Structure
 
@@ -108,8 +94,6 @@ Cellular Expert Project Structure
 - VolatileTemp
 - Workspace.gdb
 
----
-
 Workspace database files
 
 ![Image p9](../../assets/images/ce-pro/training-02/p009-img1.png)
@@ -121,7 +105,6 @@ Workspace database files
 ![Image p10](../../assets/images/ce-pro/training-02/p010-img2.png)
 
 ![Image p10](../../assets/images/ce-pro/training-02/p010-img3.png)
----
 
 Environment
 - Geographic data
@@ -149,7 +132,6 @@ Environment
 ![Image p15](../../assets/images/ce-pro/training-02/p015-img3.png)
 
 ![Image p15](../../assets/images/ce-pro/training-02/p015-img4.png)
----
 
 ![Image p16](../../assets/images/ce-pro/training-02/p016-img1.png)
 
@@ -157,14 +139,10 @@ Environment
 
 Cellular Expert Workspace
 
----
-
 Inside Workspace
 ➢ Network Data
 ➢ Equipment Data
 ➢ Modelling Settings
-
----
 
 Network Data Structure
 RF prediction does not require Site
@@ -186,22 +164,14 @@ Site Base station SiteID must be Integer.
 Site name is defined for Site object.
 Cells
 
----
-
 Cell
 ➢ 800 MHz
 ➢ 1800 MHz
 ➢ 2100 MHz
 
----
-
 Site
 
----
-
 Antenna
-
----
 
 CE Path Loss [models](#kw:31-models:ce-express-tr-models) (10kHz - 350 GHz)
 1. CEC ITU-R Model (100MHz – 6GHz) is a combination model intended for use in a variety of different radiocommunication systems which is derived explicitly
@@ -230,8 +200,6 @@ c. Receive antenna in NLOS condition – path loss modelled using Extended Hata 
 Recommendation ITU-R P.526 (ref URL) as well as clutter losses based on Rec. ITU-R P.2108 (ref URL).
 5. ITU-R P.368 Model (10kHz – 30MHz)
 
----
-
 CE prediction models
 
 ![Image p18](../../assets/images/ce-pro/training-02/p018-img1.png)
@@ -249,8 +217,5 @@ CE prediction models
 ![Image p19](../../assets/images/ce-pro/training-02/p019-img4.png)
 
 ![Image p19](../../assets/images/ce-pro/training-02/p019-img5.png)
----
 
 Other
-
----

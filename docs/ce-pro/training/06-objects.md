@@ -8,8 +8,6 @@
 
 CE Pro objects (Cells, Sites, Links, etc.) are stored as feature classes in the Workspace geodatabase. You can create them in three ways: import from file, create manually on the map, or duplicate existing objects.
 
----
-
 ## Methods for Creating Objects
 
 | Method | Best For |
@@ -18,8 +16,6 @@ CE Pro objects (Cells, Sites, Links, etc.) are stored as feature classes in the 
 | Add Object tool (manual) | One-off additions directly on the map |
 | Duplicate existing object | Copying an object with similar parameters |
 | Move existing object | Relocating a cell or site to a new position |
-
----
 
 ## Manual Creation — Steps to Create a Cell
 
@@ -42,8 +38,6 @@ The **Cell Name** must be unique within the project. It is also used as the Best
 - **Template**: select a pre-configured template that auto-fills standard RF parameters (frequency, power, antenna, etc.)
 - **Manual**: fill in each parameter individually
 
----
-
 ## Templates
 
 Templates speed up object creation by pre-populating common parameter sets.
@@ -52,11 +46,7 @@ Templates speed up object creation by pre-populating common parameter sets.
 - Can be stored in the workspace or in a shared table
 - Once applied, individual parameters can still be overridden per object
 
----
-
 After creating objects, use the **Symbology** pane to style how sites and cells appear on the map:
-
----
 
 ## Creating a Cell — Key Parameters
 
@@ -77,16 +67,12 @@ After creating objects, use the **Symbology** pane to style how sites and cells 
 
 > **Note:** RF prediction does **not** require a Site object — a Cell can exist independently. Sites are used for grouping and visual organisation.
 
----
-
 ## Creating a Site
 
 1. Click **Add Object → Site**
 2. Place the site on the map or enter coordinates
 3. Enter a unique **Site Name**
 4. Optionally link existing cells to this site via the **site_name** field on each cell
-
----
 
 ## Creating a Link (Microwave / RL)
 
@@ -96,8 +82,6 @@ After creating objects, use the **Symbology** pane to style how sites and cells 
 4. Enter link parameters: frequency, Tx power, antenna types, feeder losses
 5. Click **Create**
 
----
-
 ## Duplicating Objects
 
 1. Select one or more objects on the map
@@ -105,15 +89,11 @@ After creating objects, use the **Symbology** pane to style how sites and cells 
 3. The duplicate is placed at the same location with all parameters copied
 4. Move it to the new position and update the name
 
----
-
 ## Moving Objects
 
 1. Select the object on the map
 2. Click **Move Object** in the CE toolbar, or drag the object directly
 3. The coordinates are updated automatically in the attribute table
-
----
 
 ## Import from Text / CSV
 
@@ -126,12 +106,9 @@ For bulk import:
 
 See `C:\CE_Course\0. Descriptions\2. Import.pdf` for the full field mapping reference.
 
----
-
 **Exercise:** `C:\CE_Course\0. Descriptions\3. Create Objects.pdf`
 
 ![Image p2](../../assets/images/ce-pro/training-06/p002-img1.png)
-
 
 ![Image p3](../../assets/images/ce-pro/training-06/p003-img1.png)
 

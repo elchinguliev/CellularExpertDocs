@@ -29,9 +29,6 @@ levels.
 for multi-operator, multi-technology environments.
 ©Cellular Expert, 2025 Page | 3
 
----
-
-Cellular Expert Technical Documentation
 Diffractio Free Space Loss
 n
 Diffractio
@@ -66,9 +63,6 @@ detailed RF calculations. This level of precision is essential for:
 - Identifying exact coverage gaps at the building and street level.
 ©Cellular Expert, 2025 Page | 4
 
----
-
-Cellular Expert Technical Documentation
 - Supporting regulatory-grade broadband mapping and planning.
 By using high-resolution terrain and clutter data, Cellular Expert ensures that its calculations match real-
 
@@ -95,9 +89,6 @@ A sample DTM raster is presented below. Each pixel represents height value above
 within a one-pixel area, the height is not the same everywhere. Thus, the pixel’s height value is the height
 ©Cellular Expert, 2025 Page | 5
 
----
-
-Cellular Expert Technical Documentation
 in its center or the maximum. The smaller the pixels, the more accurate is the grid - but also more data to
 calculate.
 2.1.1 Projection
@@ -114,10 +105,6 @@ the DTM raster.
 16-bit signed, or 32-bit signed or 32-bit float
 ©Cellular Expert, 2025 Page | 6
 
----
-
-Cellular Expert Technical Documentation
-
 ## 2.2 Clutter classes grid (optional)
 
 Land use or clutter refers to the classification of the earth’s surface into categories such as urban, suburban,
@@ -132,9 +119,6 @@ may vary. An example is the Sentinel-2 Land Cover dataset from the Living Atlas:
 Land Cover
 ©Cellular Expert, 2025 Page | 7
 
----
-
-Cellular Expert Technical Documentation
 2.2.1 Projection
 The raster must use a [Projected Coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) System. To check the coordinate system of your raster, use
 the Properties function in ArcGIS Pro. Add the raster to your project, right-click on it, and select Properties.
@@ -157,9 +141,6 @@ The clutter heights raster requires the accompanying clutterClasses.tif raster a
 independently.
 ©Cellular Expert, 2025 Page | 8
 
----
-
-Cellular Expert Technical Documentation
 A clutter height raster can be derived from a Digital Surface Model (DSM) raster and a Digital Terrain Model
 
 ![Image p9](../assets/images/geodata/geodata-requirements/p009-img1.png)
@@ -170,9 +151,6 @@ The calculation output will be the difference between the DSM and DTM grids, rep
 heights.
 ©Cellular Expert, 2025 Page | 9
 
----
-
-Cellular Expert Technical Documentation
 2.3.1 Projection
 The raster must use a Projected Coordinate System. To check the coordinate system of your raster, use
 the Properties function in ArcGIS Pro. Add the raster to your project, right-click on it, and select Properties.
@@ -186,5 +164,3 @@ the DTM raster.
 2.3.3 Pixel type
 16-bit signed, or 32-bit signed or 32-bit float
 ©Cellular Expert, 2025 Page | 10
-
----

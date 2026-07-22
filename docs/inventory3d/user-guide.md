@@ -33,8 +33,6 @@ Login with User and password combination
 Select one or more database records
 Click on a record using the left mouse button. Selected records are blue:
 
----
-
 Open dataset
 Select a site, click on the Record`s Details Tool and the list of objects opens:
 [Sieve](#kw:74-sieve:ce-express-user-guide)
@@ -56,8 +54,6 @@ Select a respective entry while holding the CTRL key on the keyboard or right mo
 
 ![Image p6](../assets/images/inventory3d/user-guide/p006-img7.png)
 
----
-
 information. After editing changes will be saved automatically.
 3. [Data Management](#kw:31-data-management-tools:none)
 The Network [Data Management](#kw:31-data-management-tools:none) view is divided into four sections:
@@ -73,8 +69,6 @@ The Network [Data Management](#kw:31-data-management-tools:none) view is divided
 ![Image p7](../assets/images/inventory3d/user-guide/p007-img2.png)
 3. Table
 To navigate through the tables, click on the table name at the top right corner.
-
----
 
 To select a record, click on a record with the left mouse button. Selected records are colored in blue:
 
@@ -102,8 +96,6 @@ Go one step back and show previous data.
 Sieve the data in the currently opened table for one or more filter terms.
 3.1.4 Multiple table view
 View and edit all tables from one site simultaneously in one window.
-
----
 
 3.1.5 View attachments
 View the list of attachments associated with a given record. To do so, select a record of choice, then click
@@ -136,8 +128,6 @@ if the selected record to be duplicated has child objects, Copy Record will dupl
 ![Image p9](../assets/images/inventory3d/user-guide/p009-img5.png)
 child objects. Attachments are not duplicated.
 
----
-
 3.1.11 Add new record
 Add a new record to the Table view. Note that the newly added record will appear in orange writing.
 3.1.12 CE API
@@ -163,8 +153,6 @@ Only administrators can delete a removed record from the database permanently (o
 Removes selected objects.
 
 ## 3.2 View options and User administration
-
----
 
 3.2.1 Map overlay
 Opens [map view](#kw:switching-between-views:ce-express-login)
@@ -193,8 +181,6 @@ Help - Displays the User Guide for quick help.
 ![Image p11](../assets/images/inventory3d/user-guide/p011-img8.png)
 Logout – Logoff the user from CE Inventory3D
 
----
-
 ## 3.3 Table
 
 The table comprises all network data. The data can be managed with the Data Management tools (see
@@ -214,8 +200,6 @@ scroll through the pages using the commands in the bottom middle and bottom righ
 0) are shown on the top right corner. Note that the number of filtered records will be shown, if the user
 applies a filter:
 
----
-
 4.1.2 Organization of columns
 The column order can be adjusted by clicking on in the top right corner.
 A menu opens in which the position of the columns can be sorted by clicking the arrow symbols. Individual
@@ -234,8 +218,6 @@ There are 2 ways to change from one table to another. Either click on the table 
 ![Image p13](../assets/images/inventory3d/user-guide/p013-img4.png)
 cells) and a menu opens with all available tables.
 
----
-
 ## 4.2 Filtering, sorting, editing, and linking database records
 
 The database entries can be sorted according to their individual values. To do so, click on the column
@@ -247,8 +229,6 @@ Alternatively, and more convenient for simple searches, columns can be filtered 
 
 ![Image p14](../assets/images/inventory3d/user-guide/p014-img2.png)
 below the column names:
-
----
 
 Users can use star symbol “*” as wildcard. Possible filtering options:
 *- any non-null value
@@ -271,8 +251,6 @@ The Filter function can be used on several columns simultaneously. The headers o
 ![Image p15](../assets/images/inventory3d/user-guide/p015-img1.png)
 Filter function are marked in pink color:
 
----
-
 Filters can be cleared by clicking on Clear all filters.
 4.2.1 Set selected
 This feature allows bulk editing of several records at once: Select the respective records, click on the column
@@ -290,8 +268,6 @@ you want the selected database records to be changed to. Then click on “Change
 2. Click on the required column header (here:tilt)
 and choose Set selected
 3. Define the new value and click Change
-
----
 
 4.2.2 Add link
 Each database record may comprise reference links to other database records. This means that a link can
@@ -311,8 +287,6 @@ and choose Add link
 3. Click on Add new reference ...
 4. Select the type of component you want to link to (here: calculation tasks)
 
----
-
 5. Choose the repeaters(s) you want to link to and confirm the selection with in
 the top left corner
 6. The link has been created
@@ -331,8 +305,6 @@ Each database entry can be connected with any type of attachment, for example, a
 Entries with connected attachments have a blue check symbol next to the paper clip symbol in the column
 “Inc.”, while entries without attachment have only the paper clip.
 
----
-
 Adding attachments
 To connect a database entry with an attachment, click on the paper clip symbol in the column “Inc.”. A
 dialog opens that allows you to browse your computer for the attachment of your choice or to take a photo.
@@ -344,8 +316,6 @@ To view the list of attachments connected to an entry, select the respective ent
 ![Image p19](../assets/images/inventory3d/user-guide/p019-img2.png)
 
 ![Image p19](../assets/images/inventory3d/user-guide/p019-img3.png)
-
----
 
 toolbar:
 In the attachments the listed images are shown as thumbs. Select an attachment from the list and it opens
@@ -365,8 +335,6 @@ To delete an attachment, click on the red cross symbol.
 
 It is possible to display only selected data from an open table. Click on the button in the toolbar.
 
----
-
 And a dialog will open:
 Note that by clicking “Add rule” you may search (sieve) with two or more filter terms that are connected via
 the operation “OR”, not “AND”. Thus, the result of two filters will show all items that comprise either the first
@@ -382,8 +350,6 @@ Search tool will help.
 Click Add rule in order to add another search term, or click Clear all to remove all active searches.
 To start the sieve process, click OK.
 Results
-
----
 
 ## 4.5 CE API
 
@@ -413,8 +379,6 @@ Requirements:
 parent_id value equal to the object_id of the parent table
 When adding a child table to a parent table, choose the parent table from the dropdown menu:
 
----
-
 2.
 3.
 Partial Import
@@ -436,8 +400,6 @@ checked, the new records will be added to the defined table:
 Data subsets can be exported as .xls or .csv files. Select the database records of choice, then click Export
 Selected button:
 A pop up window opens.
-
----
 
 Click on the links to choose between .xls or .csv file formats.
 Note that hidden columns are not exported.
@@ -463,8 +425,6 @@ in case of problems with generating PDF reports.
 
 Open the Data Export menu with and choose “File Browser”:
 
----
-
 View attached files, download or delete files:
 Images are shown as thumbs. Note that it is possible to rotate the images.
 
@@ -475,8 +435,6 @@ Images are shown as thumbs. Note that it is possible to rotate the images.
 ![Image p25](../assets/images/inventory3d/user-guide/p025-img3.png)
 File Browser Toolbar:
 Open the Data View Panel
-
----
 
 Go one step back
 Select / unselect all files and folders
@@ -500,8 +458,6 @@ When an image is deleted, said image is marked as strikethrough on the File Serv
 ![Image p26](../assets/images/inventory3d/user-guide/p026-img7.png)
 You can restore the image by selecting the strikethrough object and clicking :
 
----
-
 ## 5.4 Quick references
 
 Quick references are defined by the administrator and allow users to open a reference object in a separate
@@ -511,8 +467,6 @@ browser tab. If Quick references are enabled, the respective column is marked wi
 
 ![Image p27](../assets/images/inventory3d/user-guide/p027-img2.png)
 To open a reference link, select it in edit mode (right click on it) and click “here” in the opened dialog.
-
----
 
 The referenced object is opened in a separate browser tab.
 
@@ -539,8 +493,6 @@ It is possible to display raster type of data, similar to graphical layers, on t
 ![Image p28](../assets/images/inventory3d/user-guide/p028-img4.png)
 the administrator, but users may also access and configure the table map_rasters:
 
----
-
 If the raster is a PNG or JPG file, users can edit the coordinates of the top-left and bottom-right corners of
 
 ![Image p29](../assets/images/inventory3d/user-guide/p029-img1.png)
@@ -558,8 +510,6 @@ mean green color. The color value can be acquired from the picture using any sof
 tool, e.g. Microsoft Paint or Free Color Picker.
 The legend labels are defined in the field Label of the table ”map_raster_legend”.
 
----
-
 Rasters and Raster legends are shown in the list Layers.
 6. MAP functionality
 Users can work with maps only after prior configuration by the administrator. Select a site and open the
@@ -568,8 +518,6 @@ Users can work with maps only after prior configuration by the administrator. Se
 
 ![Image p30](../assets/images/inventory3d/user-guide/p030-img2.png)
 map:
-
----
 
 Map viewing options
 On the right side of the screen, you find the commands
@@ -598,8 +546,6 @@ Link to database
 Map and database are functionally connected. Select the info tool . Then click on a site in the
 map (here: Abava), and a popup window opens:
 
----
-
 The popup window comprises links to the site ( ) and to the attachments file browser ( ).
 
 ![Image p32](../assets/images/inventory3d/user-guide/p032-img1.png)
@@ -617,8 +563,6 @@ Display local weather conditions by clicking on and then on a custom position on
 popup window opens with the local weather information. Users may choose from daily, weekly,
 and monthly data:
 
----
-
 Address search
 Use the field “Search in Google Maps” to search an address and zoom to the defined address.
 Print map
@@ -634,15 +578,11 @@ A popup window opens with the possibility to enter a document header. Then send 
 ![Image p33](../assets/images/inventory3d/user-guide/p033-img4.png)
 map view to the printer with or :
 
----
-
 Vectors, Rasters and Weather layers
 
 ![Image p34](../assets/images/inventory3d/user-guide/p034-img1.png)
 
 ![Image p34](../assets/images/inventory3d/user-guide/p034-img2.png)
-
----
 
 The map functionality allows to show or hide vectors (points, lines), rasters or weather layers.
 
@@ -658,8 +598,6 @@ The map functionality allows to show or hide vectors (points, lines), rasters or
 Use and to show or hide objects
 Further, it is possible to select the child objects shown on the map:
 Additional map functions are shown after clicking on
-
----
 
 “Reload” allows to reload the layer.
 Edit an object and click “Reload” to show the map with the edited features.
@@ -689,8 +627,6 @@ be displayed.
 “Clear Filter” allows to clear a preset filter.
 “Select Object” allows to select one object from the map.
 To select an object, first click “Select Object” and then on the object on the map.
-
----
 
 “Select Circular Area” and “Select Rectangular Area” allow to select multiple objects on the map.
 1. Click “Select Circular Area” or “Select Rectangular Area”.
@@ -722,8 +658,6 @@ appears in the toolbar.
  creating and editing records in the tables “Diagram_items“ and “Diagram_links“
  To make a diagram, add a new record in the table “Diagrams“:
 
----
-
 then
  select the record, press the button and create the diagram using the graphical drawing
 interface (method A)
@@ -749,8 +683,6 @@ in those tables.
  Method BUsing the table interface, the diagram can be created by adding records in the diagrams data
 tables “Diagram_items" and “Diagram_links“.
 
----
-
  The table “Diagram_items" contains the information about the displayed items. For example, in the mobile
 
 ![Image p39](../assets/images/inventory3d/user-guide/p039-img1.png)
@@ -771,8 +703,6 @@ The table “Diagram_links” comprises the information about the connections be
  Model – type of a connection/cable. For example, RF_cable
 Following successful table configuration, the diagram can be shown in the graphical editor interface. Simply
 go to the table “Diagrams“, select the diagram record, and press the button . Example:
-
----
 
 For follow up diagram modifications, both the graphical and the table interface can be used. The changes
 
@@ -801,8 +731,6 @@ open as SVG / PNG in a pop-up window
 open print dialog
 toggle full-screen mode
 bring object to front / send object to back
-
----
 
 auto-layout graph
 zoom to fit
@@ -834,8 +762,6 @@ There is the possibility to integrate one or more tables from Google Sheets into
 First, the Google Sheet should be prepared with CE Inventory3D configuration and Google script. Then an
 extra button “Inv3D” will appear on the Google Sheets toolbar:
 
----
-
 Clicking this button opens a dropdown menu with the commands “Connect” for connecting to the
 Inventory3D database on the server, “Sync” for synchronizing data from Google Sheets with CE
 Inventory3D, and “Help”:
@@ -849,5 +775,3 @@ Any changes in the Google Sheets are synchronized with CE Inventory3D by clickin
 Synchronize from the dropdown menu.
 Note: Google Sheets must have additional configuration to connect to the CE Inventory3D database and
 to choose which tables can be accessed. A prepared script should be there, too.
-
----

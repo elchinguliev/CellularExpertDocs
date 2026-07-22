@@ -16,8 +16,6 @@ All CE Pro data — sites, cells, prediction rasters, and geodata layers — is 
 
 Geodata layers and network feature classes are managed in the **Contents** and **Catalog** panes:
 
----
-
 Data Types
 Data can be:
 1. Vector
@@ -27,8 +25,6 @@ Data can be:
 2. Raster
 - GeoTIFF
 3. Tabular
-
----
 
 Modelling Outdoor coverage
 The CE tools make use of three distinct GIS data layers to obtain high
@@ -84,8 +80,6 @@ H
 UE
 DTM
 
----
-
 Raster Type Input: Elevation
 
 ![Image p4](../../assets/images/ce-pro/training-01/p004-img1.png)
@@ -98,8 +92,6 @@ Raster Type Input: Elevation
 - Coordinate system – projected
 - Resolution (cell size) – centimeter level
 - Raster name: elevation.tif
-
----
 
 Raster Type Input: Clutter height
 
@@ -114,8 +106,6 @@ Raster Type Input: Clutter height
 - Resolution (cell size) – centimeter level
 - Raster name: clutterHeight.tif
 
----
-
 DTM vs. Surface
 Tx
 Visible
@@ -129,8 +119,6 @@ Visible Not visible
 Rx Rx
 Elevation grid
 
----
-
 [Clutter classes](#kw:clutter-classification-values:ce-express-geodata)
 
 ![Image p7](../../assets/images/ce-pro/training-01/p007-img1.png)
@@ -143,14 +131,10 @@ Elevation grid
 - Resolution (cell size) – centimeter level
 - Raster name: clutterClasses.tif
 
----
-
 Clutter types
 Corine Land Cover
 
 ![Image p8](../../assets/images/ce-pro/training-01/p008-img1.png)
-
----
 
 Raster from vector data
 Following should be defined: input layer,
@@ -165,8 +149,6 @@ Note: if some features in input layer are selected,
 ![Image p9](../../assets/images/ce-pro/training-01/p009-img3.png)
 only selected ones will be converted.
 
----
-
 Environment Settings
 
 ![Image p10](../../assets/images/ce-pro/training-01/p010-img1.png)
@@ -177,24 +159,16 @@ Environment Settings
 
 ![Image p10](../../assets/images/ce-pro/training-01/p010-img4.png)
 
----
-
 Raster Calculator
 
 ![Image p11](../../assets/images/ce-pro/training-01/p011-img1.png)
 
 ![Image p11](../../assets/images/ce-pro/training-01/p011-img2.png)
 
----
-
 Model Builder
 Automate your GIS tasks
 
 ![Image p12](../../assets/images/ce-pro/training-01/p012-img1.png)
 
----
-
 Questions?
 www.cellular-expert.com
-
----

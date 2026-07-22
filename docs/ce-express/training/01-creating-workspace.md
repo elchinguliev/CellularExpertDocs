@@ -29,8 +29,6 @@ Workspaces can be:
 - Used collaboratively by RF planners, optimization engineers, and managers
 - Reused as templates for similar geographic areas
 
----
-
 ## 3.1 Step 1 – Accessing CE Express
 
 1. Open the following URL in your web browser: https://cecom2.cellular-expert.com/ce_express/
@@ -43,8 +41,6 @@ student)
 
 ![Image p3](../../assets/images/ce-express/training-01/p003-img2.png)
 user group.
-
----
 
 Best practice: Always verify you are working in the correct workspace before making
 changes to avoid unintended modifications.
@@ -66,8 +62,6 @@ conventions, layer organization, and visualization standards.
 1. Open the Workspaces tool.
 2. Click + New Workspace.
 
----
-
 3. In the dialog window, define the following parameters:
 Workspace Parameters
 - Workspace Name: Use your name (e.g., John_Smith_Training)
@@ -83,8 +77,6 @@ o Ensures spatial alignment between workspace and terrain data
 Click + Add layer and include the following services:
 - Administrative regions:
 
----
-
 https://cecom2.cellular-expert.com/server/rest/services/Hosted/Regions/FeatureServer/0
 - Google 3D Mesh:
 https://tile.googleapis.com/v1/3dtiles/root.json
@@ -99,8 +91,6 @@ _v1/SceneServer
 
 1. Return to the Workspaces tool.
 2. Use the Search function to find your newly created workspace.
-
----
 
 3. Click on it to load.
 The map zooms to the workspace area. Blue contours indicate the workspace extent.
@@ -118,8 +108,6 @@ Open the Layers tool. It is divided into logical sections:
 - Includes sites, cells, links, and other RF elements
 2. Geodata
 - Terrain, [clutter](#kw:clutter-classification-values:ce-express-geodata), and elevation data
-
----
 
 - Used directly in propagation calculations
 3. Other
@@ -139,8 +127,6 @@ The map now displays the Google 3D Mesh, which provides realistic urban morpholo
 
 ![Image p8](../../assets/images/ce-express/training-01/p008-img2.png)
 
----
-
 RF planning value: 3D meshes help validate antenna heights, LOS conditions, and urban
 
 ![Image p9](../../assets/images/ce-express/training-01/p009-img1.png)
@@ -151,8 +137,6 @@ canyon effects.
 5. Enable OpenStreetMap3D Buildings again.
 You can also visualize 3D objects, such as polygons, lines and zones.
 6. Return to 2D view.
-
----
 
 ## 3.7 Step 7 – Basemap Configuration
 
@@ -168,8 +152,6 @@ You can also visualize 3D objects, such as polygons, lines and zones.
 ![Image p10](../../assets/images/ce-express/training-01/p010-img1.png)
 
 ![Image p10](../../assets/images/ce-express/training-01/p010-img2.png)
-
----
 
 This layer:
 - Visualizes terrain height
@@ -188,8 +170,6 @@ This layer:
 o Open Workspaces tool
 o Click on your workspace again
 
----
-
 4. Return to Layers and verify geodata visibility.
 
 ## 3.9 Step 9 – Editing an Existing Workspace
@@ -207,8 +187,6 @@ Add the following service:
 
 ![Image p12](../../assets/images/ce-express/training-01/p012-img3.png)
 
----
-
 4. Click Accept.
 5. Verify the new layer (Adresai Vilnius) is visible on the map.
 
@@ -225,5 +203,3 @@ Add the following service:
 - A well-configured workspace is the foundation of reliable RF planning
 - [Layer management](#kw:35-step-5-layer-management-overview:none) improves clarity and performance
 - 3D visualization enhances understanding of real-world propagation challenges
-
----

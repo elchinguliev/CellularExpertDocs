@@ -8,4 +8,4 @@ The Map view has a predefined layout divided into:
 5. Data analysis tools and calculation results
 6. Calculation result graphs and tables, additional analysis tools
 
-![Image p12](../../../assets/images/ce-express/user-guide-v73/p012-img1.png)
+![Image p12](../../../assets/images/ce-express/user-guide-v73/p012-img3.png)

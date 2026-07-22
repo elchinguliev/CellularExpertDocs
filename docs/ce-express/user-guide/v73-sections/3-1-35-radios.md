@@ -1,11 +1,9 @@
 # 3.1.35 Radios
 
-Click this button to open Radios tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p201-img2.png) to open Radios tool.
 The tool enables you to create and preview radios that will be necessary to create a link and later be used
 
 ![Image p201](../../../assets/images/ce-express/user-guide-v73/p201-img1.png)
-
-![Image p201](../../../assets/images/ce-express/user-guide-v73/p201-img2.png)
 in calculations.
 
 Move the mouse cursor over the radio and delete radio using Delete button.

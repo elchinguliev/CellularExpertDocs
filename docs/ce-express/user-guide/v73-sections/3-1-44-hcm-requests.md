@@ -1,6 +1,6 @@
 # 3.1.44 HCM requests
 
-Click this button to open HCM requests tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p239-img4.png) to open HCM requests tool.
 This is the main component used for HCM calculations. Main functionality:
 - To list and process all the incoming and outgoing coordination requests
 - Create new incoming coordination request
@@ -11,8 +11,6 @@ This is the main component used for HCM calculations. Main functionality:
 ![Image p239](../../../assets/images/ce-express/user-guide-v73/p239-img2.png)
 
 ![Image p239](../../../assets/images/ce-express/user-guide-v73/p239-img3.png)
-
-![Image p239](../../../assets/images/ce-express/user-guide-v73/p239-img4.png)
 
 3.1.44.1 List coordination requests
 Own requests

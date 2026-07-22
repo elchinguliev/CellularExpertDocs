@@ -1,7 +1,7 @@
 # 8.2 PDF report
 
 A PDF report summarizes information associated with one or more objects. For generating a report, first
-select the objects of choice. Then open the Import Export menu with and choose “Generate report as
+select the objects of choice. Then open the Import Export menu with ![icon](../../../assets/images/ce-express/user-guide-v73/p286-img4.png) and choose “Generate report as
 PDF”
 
 A new dialog appears. Open the PDF report by clicking “here”:

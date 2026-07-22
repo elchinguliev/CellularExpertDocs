@@ -1,13 +1,11 @@
 # 3.1.12 Measurement tool
 
-Click this button to open Measurement tool tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p126-img3.png) to open Measurement tool tool.
 The Measurement Tool allows users to calculate spatial properties. It provides three measurement modes:
 
 ![Image p126](../../../assets/images/ce-express/user-guide-v73/p126-img1.png)
 
 ![Image p126](../../../assets/images/ce-express/user-guide-v73/p126-img2.png)
-
-![Image p126](../../../assets/images/ce-express/user-guide-v73/p126-img3.png)
 Distance, Area, and Offset.
 
 3.1.12.1 Distance

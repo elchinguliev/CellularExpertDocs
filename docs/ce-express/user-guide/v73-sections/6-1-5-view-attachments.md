@@ -1,6 +1,6 @@
 # 6.1.5 View attachments
 
-View the list of attachments associated with a given record. To do so, select a record of choice, then click
+![icon](../../../assets/images/ce-express/user-guide-v73/p270-img13.png) View the list of attachments associated with a given record. To do so, select a record of choice, then click
 
 ![Image p270](../../../assets/images/ce-express/user-guide-v73/p270-img1.png)
 

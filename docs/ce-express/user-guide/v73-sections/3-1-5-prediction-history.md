@@ -1,12 +1,10 @@
 # 3.1.5 Prediction history
 
-Click this button to open Prediction history tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p073-img3.png) to open Prediction history tool.
 
 ![Image p73](../../../assets/images/ce-express/user-guide-v73/p073-img1.png)
 
 ![Image p73](../../../assets/images/ce-express/user-guide-v73/p073-img2.png)
-
-![Image p73](../../../assets/images/ce-express/user-guide-v73/p073-img3.png)
 
 All calculations performed in Cellular Expert Express are loaded in this tool. This includes failed and
 successful calculations. The accessibility of prediction rasters is user specific. This means that users can

@@ -1,13 +1,11 @@
 # 3.1.38 Automatic frequency planning
 
-Click this button to open Automatic frequency planning tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p220-img2.png) to open Automatic frequency planning tool.
 The automatic frequency planning tool for each selected link suggests the best channel from the chosen
 frequency plan and the selected channel list. It considers inter-link interference, evaluates signal-to-
 interference ratio (SIR) across available carriers, and aims to maximize link performance while minimizing
 
 ![Image p220](../../../assets/images/ce-express/user-guide-v73/p220-img1.png)
-
-![Image p220](../../../assets/images/ce-express/user-guide-v73/p220-img2.png)
 co-channel interference. The tool accounts for duplex link pairing, node-layer priority, and site location
 constraints (e.g., neighboring links and links sharing the same site).
 

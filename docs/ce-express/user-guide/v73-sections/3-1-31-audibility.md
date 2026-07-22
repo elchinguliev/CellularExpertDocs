@@ -1,10 +1,8 @@
 # 3.1.31 Audibility
 
-Click this button to open Audibility tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p189-img2.png) to open Audibility tool.
 
 ![Image p189](../../../assets/images/ce-express/user-guide-v73/p189-img1.png)
-
-![Image p189](../../../assets/images/ce-express/user-guide-v73/p189-img2.png)
 
 | Parameter | Description |
 |---|---|

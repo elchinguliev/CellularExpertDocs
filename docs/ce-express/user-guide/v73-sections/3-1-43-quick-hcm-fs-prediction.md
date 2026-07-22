@@ -1,6 +1,6 @@
 # 3.1.43 Quick HCM-FS prediction
 
-Click this button to open Quick HCM-FS prediction tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p236-img4.png) to open Quick HCM-FS prediction tool.
 This performs calculations between two HCM-FS files.
 Calculation name
 Name of the calculation.

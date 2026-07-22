@@ -1,6 +1,6 @@
 # 6.1.14 Delete record
 
-Remove a selected record from the current view. Note that removed records will be hidden from the user.
+![icon](../../../assets/images/ce-express/user-guide-v73/p272-img8.png) Remove a selected record from the current view. Note that removed records will be hidden from the user.
 
 ![Image p272](../../../assets/images/ce-express/user-guide-v73/p272-img1.png)
 

@@ -1,6 +1,6 @@
 # 3.1.42 Quick mesh connectivity
 
-Click this button to open Quick mesh connectivity tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p232-img2.png) to open Quick mesh connectivity tool.
 To enhance the efficiency of early-stage planning and dynamic mesh layout, the Quick Mesh
 Connectivity tool offers a fast and intuitive way to assess connectivity potential.
 This lightweight yet powerful feature enables users to instantly evaluate whether a Mesh Node can
@@ -9,8 +9,6 @@ Whether you are planning the deployment of a single node or simulating a mobile 
 Mesh Connectivity streamlines the decision-making process by providing immediate, actionable feedback.
 
 ![Image p232](../../../assets/images/ce-express/user-guide-v73/p232-img1.png)
-
-![Image p232](../../../assets/images/ce-express/user-guide-v73/p232-img2.png)
 
 Calculation settings
 Mesh node template

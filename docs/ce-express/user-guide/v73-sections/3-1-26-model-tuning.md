@@ -1,6 +1,6 @@
 # 3.1.26 Model Tuning
 
-Click this button to open Model tuning tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p179-img4.png) to open Model tuning tool.
 Model Tuning is a tool to optimize prediction model parameters based on test points. These test points
 
 must be bound to cells by their cell id.

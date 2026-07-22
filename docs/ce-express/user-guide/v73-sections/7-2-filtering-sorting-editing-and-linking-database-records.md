@@ -3,12 +3,13 @@
 The database entries can be sorted according to their individual values. To do so, click on the column
 header and a dropdown menu opens with the following functions: “Set selected”, “Add link”, ”Clear this
 filter”, “Clear all filters”, “Set defaults” and “Set as default sort field”:
-Alternatively, and more convenient for simple searches, columns can be filtered using the “quick filter” fields
-
-![Image p276](../../../assets/images/ce-express/user-guide-v73/p276-img1.png)
 
 ![Image p276](../../../assets/images/ce-express/user-guide-v73/p276-img2.png)
+
+Alternatively, and more convenient for simple searches, columns can be filtered using the “quick filter” fields
 below the column names:
+
+![Image p277](../../../assets/images/ce-express/user-guide-v73/p277-img1.png)
 
 Users can use star symbol “*” as wildcard. Possible filtering options:
 *- any non-null value
@@ -29,6 +30,6 @@ Filtering options for numeric values:
 The Filter function can be used on several columns simultaneously. The headers of columns with active
 Filter function are marked in pink color:
 
-![Image p277](../../../assets/images/ce-express/user-guide-v73/p277-img1.png)
+![Image p278](../../../assets/images/ce-express/user-guide-v73/p278-img1.png)
 
 Filters can be cleared by clicking on Clear all filters.

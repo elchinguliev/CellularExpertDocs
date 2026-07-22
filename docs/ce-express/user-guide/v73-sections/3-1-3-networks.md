@@ -1,12 +1,10 @@
 # 3.1.3 Networks
 
-Click this button to open Networks tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p053-img2.png) to open Networks tool.
 The networks tool allows for easy management of multiple objects, grouped into networks. Networks can
 be defined by feature attribute or via the selection of the features required. Then, feature attribute change
 
 ![Image p53](../../../assets/images/ce-express/user-guide-v73/p053-img1.png)
-
-![Image p53](../../../assets/images/ce-express/user-guide-v73/p053-img2.png)
 
 ![Image p53](../../../assets/images/ce-express/user-guide-v73/p053-img3.png)
 tracking and calculations can be performed for each network without the need for selection.

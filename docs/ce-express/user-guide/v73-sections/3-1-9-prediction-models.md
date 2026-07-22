@@ -1,7 +1,7 @@
 # 3.1.9 Prediction models
 
 3.1.9 Prediction [models](#kw:31-models:ce-express-tr-models)
-Click this button to open Prediction models tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p089-img3.png) to open Prediction models tool.
 The CE Path Loss Modelling aims to perform near-deterministic calculation of received signal levels at each
 specific point (pixel) in the network’s target coverage area by applying selective path loss model depending
 on the radio visibility condition between the transmitter antenna vis-à-vis a receiver antenna located at a
@@ -11,8 +11,6 @@ path profile information. This verification of radio visibility will result in t
 ![Image p89](../../../assets/images/ce-express/user-guide-v73/p089-img1.png)
 
 ![Image p89](../../../assets/images/ce-express/user-guide-v73/p089-img2.png)
-
-![Image p89](../../../assets/images/ce-express/user-guide-v73/p089-img3.png)
 into one of three possible radio visibility conditions:
 - [Line-of-Sight](#kw:running-a-profile:ce-express-profile) (LOS) – occurs when there are neither terrain irregularities, obstacles or clutter
 interposing the direct radio path between the transmitter and receiver antennas. The radio path is

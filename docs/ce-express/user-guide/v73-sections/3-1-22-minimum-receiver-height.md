@@ -1,11 +1,9 @@
 # 3.1.22 Minimum receiver height
 
-Click this button to open Minimum receiver height tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p172-img2.png) to open Minimum receiver height tool.
 Calculates the minimum receiver height required to satisfy LOS condition for selected features.
 
 ![Image p172](../../../assets/images/ce-express/user-guide-v73/p172-img1.png)
-
-![Image p172](../../../assets/images/ce-express/user-guide-v73/p172-img2.png)
 
 Calculation settings
 | Parameter | Description |

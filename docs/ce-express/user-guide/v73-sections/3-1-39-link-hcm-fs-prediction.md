@@ -1,12 +1,10 @@
 # 3.1.39 Link HCM-FS prediction
 
-Click this button to open Link HCM-FS prediction tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p222-img2.png) to open Link HCM-FS prediction tool.
 This calculates interference between selected links and HCM-FS records available in the database.
 Calculation settings
 
 ![Image p222](../../../assets/images/ce-express/user-guide-v73/p222-img1.png)
-
-![Image p222](../../../assets/images/ce-express/user-guide-v73/p222-img2.png)
 
 ![Image p222](../../../assets/images/ce-express/user-guide-v73/p222-img3.png)
 

@@ -1,11 +1,9 @@
 # 3.1.6 Antennas
 
-Click this button to open Antennas tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p075-img2.png) to open Antennas tool.
 Preview the list of available antennas in the project. The antennas are used for point-to-area calculations.
 
 ![Image p75](../../../assets/images/ce-express/user-guide-v73/p075-img1.png)
-
-![Image p75](../../../assets/images/ce-express/user-guide-v73/p075-img2.png)
 
 Search
 Initiates the search procedure in the antennas list.

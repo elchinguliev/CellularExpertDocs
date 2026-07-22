@@ -3,39 +3,6 @@
 > **Version:** CE Pro v4.9 / CE Express v7.2
 
 Cellular Expert Network Requirements
-Table of Contents
-1. Primary Data Structure 3
-
-1.1 Import from CSV file 3
-
-1.2 Import from Organization’s Portal 3
-
-2. Cells 3
-
-2.1 Minimum requirements 3
-
-2.2 Optional information 3
-
-2.2.1 Height 3
-2.2.2 Azimuth 4
-2.2.3 Mechanical tilt 4
-2.2.4 Frequency 4
-2.2.5 Power 4
-2.2.6 Antenna gain 4
-2.2.7 Losses 4
-2.2.8 Bandwidth 4
-2.2.9 Subcarrier spacing 4
-2.2.10 TX MIMO 5
-2.2.11 RX MIMO 5
-2.2.12 Technology 5
-2.2.13 Antenna name 5
-2.2.14 Site (Tower) identification 6
-3. Sites (optional) 7
-Confidential ©Cellular Expert, 2024 Page | 2
-
----
-
-Cellular Expert Network Requirements
 1. Primary Data Structure
 
 ## 1.1 Import from CSV file

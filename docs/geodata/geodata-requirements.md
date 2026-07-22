@@ -5,32 +5,6 @@
 > **Version:** CE Pro v4.9 / CE Express v7.2
 
 Cellular Expert Technical Documentation
-Table of Contents
-1. High-Precision Inputs and Next-Generation Propagation 3
-2. Geographic data requirements 5
-
-2.1 Digital Terrain Model (DTM) Grid (Mandatory) 5
-
-2.1.1 Projection 6
-2.1.2 Correct No Data value and raster name 6
-2.1.3 Pixel type 6
-
-2.2 Clutter classes grid (optional) 7
-
-2.2.1 Projection 8
-2.2.2 Correct No Data value and raster name 8
-2.2.3 Pixel type 8
-
-2.3 Clutter heights (optional) 8
-
-2.3.1 Projection 10
-2.3.2 Correct No Data value and raster name 10
-2.3.3 Pixel type 10
-©Cellular Expert, 2025 Page | 2
-
----
-
-Cellular Expert Technical Documentation
 1. High-Precision Inputs and Next-Generation Propagation
 CE Express is designed to work with any geospatial data available to the customer and fully exploit its
 precision for the most accurate coverage and QoS calculations. The platform supports multi-resolution input

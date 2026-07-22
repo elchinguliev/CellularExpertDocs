@@ -7,51 +7,6 @@ Cellular Expert Express Administrator Guide 7.2
 ![Image p1](../../assets/images/ce-express/admin-guide-only-v72/p001-img1.png)
 
 ![Image p1](../../assets/images/ce-express/admin-guide-only-v72/p001-img2.png)
-Table of Contents
-1. System requirements 4
-
-1.1 Minimum hardware requirements 4
-
-1.2 Minimum requirements for software 4
-
-1.3 CE Express architecture examples 5
-
-1.3.1 ArcGIS Enterprise & CE Server-Express on premises deployment simplified architecture 5
-1.3.2 ArcGIS Enterprise & CE Server-Express on-premises or cloud deployment architecture 6
-2. Installation Guide 7
-
-2.1 Installation files 7
-
-2.2 Prerequisites 8
-
-2.2.1 ArcGIS Server 8
-2.2.2 PostgreSQL 8
-
-2.3 Install CE Express 8
-
-2.3.1 Accept the software terms and conditions 8
-2.3.2 Prepare installation folders 9
-2.3.3 Prepare CE Express server configuration: 9
-2.3.4 Prepare CE Express server DB configuration. 10
-2.3.5 Check Installation and the licence of the CE Express software. 11
-2.3.6 Enable SSL support (optional) 13
-2.3.7 Configure CE Express to publish objects to the Portal for ArcGIS (optional) 13
-3. Prepare the application with own data 15
-
-3.1 Prepare data files 15
-
-3.1.1 General information 16
-3.1.2 Geographic data 17
-3.1.3 Antennas 26
-
-3.2 Create new workspace in CE Express 27
-
-Confidential Cellular Expert, 2026 Page | 2
-
----
-
-Cellular Expert Express Administrator Guide 5.8
-
 ![Image p3](../../assets/images/ce-express/admin-guide-only-v72/p003-img1.png)
 
 ![Image p5](../../assets/images/ce-express/admin-guide-only-v72/p005-img1.png)

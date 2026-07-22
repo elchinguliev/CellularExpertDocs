@@ -1,45 +1,6 @@
 # 05. Line of Sight (Profile)
 
-![Image p2](../../assets/images/ce-pro/training-05/p002-img2.png)
-
-![Image p2](../../assets/images/ce-pro/training-05/p002-img3.png)
-
-![Image p2](../../assets/images/ce-pro/training-05/p002-img4.png)
-
-![Image p2](../../assets/images/ce-pro/training-05/p002-img6.png)
-
-![Image p2](../../assets/images/ce-pro/training-05/p002-img7.png)
-
-![Image p2](../../assets/images/ce-pro/training-05/p002-img8.png)
-
-![Image p2](../../assets/images/ce-pro/training-05/p002-img9.png)
-
-![Image p2](../../assets/images/ce-pro/training-05/p002-img11.png)
-
-![Image p2](../../assets/images/ce-pro/training-05/p002-img12.png)
-
-![Image p2](../../assets/images/ce-pro/training-05/p002-img13.png)
-
-![Image p2](../../assets/images/ce-pro/training-05/p002-img14.png)
-
-![Image p2](../../assets/images/ce-pro/training-05/p002-img16.png)
-
-![Image p2](../../assets/images/ce-pro/training-05/p002-img17.png)
-
-![Image p2](../../assets/images/ce-pro/training-05/p002-img19.png)
-
-![Image p2](../../assets/images/ce-pro/training-05/p002-img21.png)
-
-![Image p2](../../assets/images/ce-pro/training-05/p002-img24.png)
-
-![Image p3](../../assets/images/ce-pro/training-05/p003-img1.png)
 > **Version:** CE Pro v4.9
-
-![Image p4](../../assets/images/ce-pro/training-05/p004-img1.png)
-
-![Image p4](../../assets/images/ce-pro/training-05/p004-img2.png)
-
-![Image p4](../../assets/images/ce-pro/training-05/p004-img3.png)
 
 LOS and profile results are displayed in the ArcGIS Pro map view. The map canvas shows the terrain cross-section and any obstruction points:
 

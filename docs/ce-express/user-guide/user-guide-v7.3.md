@@ -121,7 +121,7 @@ To exit the Express Network Data Management application, click on the User menu 
 ![Image p11](../../assets/images/ce-express/user-guide-v73/p011-img3.png)
 corner.
 And click on the Logout button.
-3. Map view
+## 3. Map view
 The Map view has a predefined layout divided into:
 1. Invetory3D window layout, settings, user
 2. Data management and visualization tools
@@ -912,7 +912,7 @@ Confidential ©Cellular Expert, 2026 Page | 52
 ---
 
 Cellular Expert Express User Guide 7.3
-3.1.3 Networks
+## 3.1.3 Networks
 Click this button to open Networks tool.
 The networks tool allows for easy management of multiple objects, grouped into networks. Networks can
 be defined by feature attribute or via the selection of the features required. Then, feature attribute change
@@ -1008,7 +1008,7 @@ Confidential ©Cellular Expert, 2026 Page | 58
 ---
 
 Cellular Expert Express User Guide 7.3
-3.1.4 Layers
+## 3.1.4 Layers
 Click this button to open Layers tool.
 Manages the visualization of features and calculation results in the Map view. Displays and manages all
 layers in the workspace, grouped into categories such as Features, Geodata, Prediction results, and
@@ -1250,7 +1250,7 @@ Confidential ©Cellular Expert, 2026 Page | 72
 Cellular Expert Express User Guide 7.3
 - Clutter height:
 - [Clutter classes](#kw:clutter-classification-values:ce-express-geodata):
-3.1.5 [Prediction history](#kw:44-step-4-prediction-history-and-result-management:ce-express-tr-rf)
+## 3.1.5 Prediction history
 Click this button to open Prediction history tool.
 Confidential ©Cellular Expert, 2026 Page | 73
 
@@ -1287,7 +1287,7 @@ Mouse over the calculation you want to share with the organization members and c
 task button.
 Delete
 Deletes the calculation from the Prediction History widget.
-3.1.6 Antennas
+## 3.1.6 Antennas
 Click this button to open Antennas tool.
 Preview the list of available antennas in the project. The antennas are used for point-to-area calculations.
 
@@ -1485,7 +1485,7 @@ Color – the color by which the clutter class is represented in different UI el
 
 ![Image p87](../../assets/images/ce-express/user-guide-v73/p087-img1.png)
 chart.
-3.1.8 Feature templates
+## 3.1.8 Feature templates
 Feature templates serve the purpose of allowing the user to quickly fill out feature parameters from pre-
 saved data. In the case of feature creation, you can fill out the parameters by selecting a feature template
 in the add features tool. In the case of starting some calculations, you may pick a template from which
@@ -3320,7 +3320,7 @@ Cell template
 If the cell is missing the required parameters, the parameters from the template will be used.
 Repeater template
 If the repeater is missing the required parameters, the parameters from the template will be used.
-3.1.20 Visibility prediction
+## 3.1.20 Visibility prediction
 Click this button to open Visibility prediction tool.
 Visibility calculations refer to the determination of line-of-sight between transmitting and receiving antennas,
 
@@ -3447,7 +3447,7 @@ Confidential ©Cellular Expert, 2026 Page | 175
 ---
 
 Cellular Expert Express User Guide 7.3
-3.1.24 Radar prediction
+## 3.1.24 Radar prediction
 Click this button to open Radar prediction tool.
 Radar Prediction is a tool that lets you calculate predictions on radars. Depending on the view angle and
 
@@ -3515,7 +3515,7 @@ It is possible to draw a profile from the provided results. Press the Calculate 
 
 ![Image p179](../../assets/images/ce-express/user-guide-v73/p179-img3.png)
 profile.
-3.1.26 Model Tuning
+## 3.1.26 Model Tuning
 Click this button to open Model tuning tool.
 Model Tuning is a tool to optimize prediction model parameters based on test points. These test points
 Confidential ©Cellular Expert, 2026 Page | 179
@@ -3946,7 +3946,7 @@ Confidential ©Cellular Expert, 2026 Page | 200
 ---
 
 Cellular Expert Express User Guide 7.3
-3.1.35 [Radios](#kw:710-radios:ce-pro-rlp)
+## 3.1.35 Radios
 Click this button to open Radios tool.
 The tool enables you to create and preview radios that will be necessary to create a link and later be used
 

@@ -26,3 +26,5 @@ Note: before using the Reset Password feature the server should be configured as
 
 the possibility to send email. The Cellular Expert Express Network Data Management view opens.
 To recover an ArcGIS Enterprise account, use the Forgot password button.
+
+![Image p10](../../../assets/images/ce-express/user-guide-v73/p010-img1.png)

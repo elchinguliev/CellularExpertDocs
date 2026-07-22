@@ -38,25 +38,25 @@ Cellular Expert Express Administrator Guide 7.2
 Table of Contents
 1. System requirements 5
 
-## 1.1 Minimum hardware requirements 5
+1.1 Minimum hardware requirements 5
 
-## 1.2 Minimum requirements for software 5
+1.2 Minimum requirements for software 5
 
-## 1.3 CE Express architecture examples 6
+1.3 CE Express architecture examples 6
 
 1.3.1 ArcGIS Enterprise & CE Server-Express on premises deployment simplified architecture 6
 1.3.2 ArcGIS Enterprise & CE Server-Express on premises or cloud deployment architecture 7
 2. Installation Guide 8
 
-## 2.1 Installation files 8
+2.1 Installation files 8
 
-## 2.2 Prerequisites 9
+2.2 Prerequisites 9
 
 2.2.1 ArcGIS Server 9
 2.2.2 PostgreSQL 9
 2.2.3 PHP server 9
 
-## 2.3 Install CE Express 11
+2.3 Install CE Express 11
 
 2.3.1 Accept the software terms and conditions 11
 2.3.2 Prepare installation folders 12
@@ -71,14 +71,14 @@ Table of Contents
 2.3.11 Webapplication in Portal for ArcGIS 19
 2.3.12 CE Inventory3D folder structure 20
 
-## 2.4 Information about CE Express Inventory3D database 23
+2.4 Information about CE Express Inventory3D database 23
 
 2.4.1 Tables structure 23
 2.4.2 Register licence for the CE Inventory3D 28
 2.4.3 Testing the CE Inventory3D webview installation 28
 3. Prepare the application with own data 29
 
-## 3.1 Prepare data files 29
+3.1 Prepare data files 29
 
 Confidential Cellular Expert, 2026 Page | 2
 
@@ -89,31 +89,31 @@ Cellular Expert Express Administrator Guide 7.2
 3.1.2 Geographic data 31
 3.1.3 Antennas 40
 
-## 3.2 Create new workspace in CE Express 41
+3.2 Create new workspace in CE Express 41
 
 4. CE Inventory3D webapplication functions for administrators 42
 
-## 4.1 Set defaults 42
+4.1 Set defaults 42
 
-## 4.2 Generate PDF reports 42
+4.2 Generate PDF reports 42
 
-## 4.3 Run script 43
+4.3 Run script 43
 
-## 4.4 Import CSV 43
+4.4 Import CSV 43
 
-## 4.5 History 45
+4.5 History 45
 
-## 4.6 User Management 46
+4.6 User Management 46
 
-## 4.7 System tables 52
+4.7 System tables 52
 
-## 4.8 Delete object permanently 52
+4.8 Delete object permanently 52
 
-## 4.9 Restore deleted image 52
+4.9 Restore deleted image 52
 
-## 4.10 Column and table aliasing 53
+4.10 Column and table aliasing 53
 
-## 4.11 Reset password 53
+4.11 Reset password 53
 
 Confidential Cellular Expert, 2026 Page | 3
 

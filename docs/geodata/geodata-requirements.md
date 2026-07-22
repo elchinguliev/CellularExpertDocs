@@ -9,19 +9,19 @@ Table of Contents
 1. High-Precision Inputs and Next-Generation Propagation 3
 2. Geographic data requirements 5
 
-## 2.1 Digital Terrain Model (DTM) Grid (Mandatory) 5
+2.1 Digital Terrain Model (DTM) Grid (Mandatory) 5
 
 2.1.1 Projection 6
 2.1.2 Correct No Data value and raster name 6
 2.1.3 Pixel type 6
 
-## 2.2 Clutter classes grid (optional) 7
+2.2 Clutter classes grid (optional) 7
 
 2.2.1 Projection 8
 2.2.2 Correct No Data value and raster name 8
 2.2.3 Pixel type 8
 
-## 2.3 Clutter heights (optional) 8
+2.3 Clutter heights (optional) 8
 
 2.3.1 Projection 10
 2.3.2 Correct No Data value and raster name 10

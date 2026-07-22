@@ -9,15 +9,15 @@ Table of Contents
 1. Introduction 7
 2. CE Express application 7
 
-## 2.1 Log in to the Express Network Data Management application 7
+2.1 Log in to the Express Network Data Management application 7
 
-## 2.2 Open the Express Map view 10
+2.2 Open the Express Map view 10
 
-## 2.3 Log out 11
+2.3 Log out 11
 
 3. [Map view](#kw:switching-between-views:ce-express-login) 11
 
-## 3.1 Cellular Expert Express tools 12
+3.1 Cellular Expert Express tools 12
 
 3.1.1 Workspaces 12
 3.1.2 Features 18
@@ -69,7 +69,7 @@ Cellular Expert Express User Guide 7.3
 3.1.43 Quick HCM-FS prediction 236
 3.1.44 HCM requests 239
 
-## 3.2 Map 254
+3.2 Map 254
 
 3.2.1 Search bar 254
 3.2.2 Zoom in 255
@@ -83,9 +83,9 @@ Cellular Expert Express User Guide 7.3
 3.2.10 Active side switch 256
 3.2.11 Quick menu 257
 
-## 3.3 Data management and visualization section 257
+3.3 Data management and visualization section 257
 
-## 3.4 Calculation section 257
+3.4 Calculation section 257
 
 Confidential ©Cellular Expert, 2026 Page | 3
 
@@ -93,7 +93,7 @@ Confidential ©Cellular Expert, 2026 Page | 3
 
 Cellular Expert Express User Guide 7.3
 
-## 3.5 Map/table view modes 258
+3.5 Map/table view modes 258
 
 3.5.1 [Map view](#kw:switching-between-views:ce-express-login) 258
 3.5.2 Display data table full screen 259
@@ -101,24 +101,24 @@ Cellular Expert Express User Guide 7.3
 3.5.4 Split window horizontally 260
 4. Database structure 261
 
-## 4.1 Sites 261
+4.1 Sites 261
 
 ## 4.2 Cells 262
 
 ## 4.3 Repeaters 264
 
-## 4.4 Radars 266
+4.4 Radars 266
 
 ## 4.5 CPE 266
 
 ## 4.6 Measurements 267
 
-## 4.7 Workspace 268
+4.7 Workspace 268
 
 5. CE Express API 268
 6. Network [Data Management](#kw:31-data-management-tools:inventory3d-user-guide) 268
 
-## 6.1 Data management tools 269
+6.1 Data management tools 269
 
 6.1.1 Table view 270
 6.1.2 Back 270
@@ -136,7 +136,7 @@ Cellular Expert Express User Guide 7.3
 6.1.14 Delete record 272
 6.1.15 Remove selected 272
 
-## 6.2 View options and User administration 272
+6.2 View options and User administration 272
 
 6.2.1 Import Export 272
 Confidential ©Cellular Expert, 2026 Page | 4
@@ -147,42 +147,42 @@ Cellular Expert Express User Guide 7.3
 6.2.2 Settings 273
 6.2.3 User name/ Help/ Logout 273
 
-## 6.3 Table 273
+6.3 Table 273
 
-## 6.4 View Options 273
+6.4 View Options 273
 
 7. Database organization 274
 
-## 7.1 Page setup and navigation 274
+7.1 Page setup and navigation 274
 
 7.1.1 Organization of single and multiple tables 274
 7.1.2 Organization of columns 274
 7.1.3 Navigation across tables 275
 
-## 7.2 Filtering, sorting, editing, and linking database records 276
+7.2 Filtering, sorting, editing, and linking database records 276
 
 7.2.1 Set selected 278
 7.2.2 Add link 279
 
-## 7.3 Adding, viewing, downloading and deleting attachments 281
+7.3 Adding, viewing, downloading and deleting attachments 281
 
-## 7.4 Sieve 283
+7.4 Sieve 283
 
-## 7.5 CE API 284
+7.5 CE API 284
 
-## 7.6 Import CSV 284
+7.6 Import CSV 284
 
 8. Exploring data 286
 
-## 8.1 Export selected 286
+8.1 Export selected 286
 
-## 8.2 PDF report 286
+8.2 PDF report 286
 
-## 8.3 File browser 287
+8.3 File browser 287
 
-## 8.4 Quick references 290
+8.4 Quick references 290
 
-## 8.5 Default editing and manual editing 291
+8.5 Default editing and manual editing 291
 
 Confidential ©Cellular Expert, 2026 Page | 5
 

@@ -6,15 +6,15 @@ Cellular Expert Network Requirements
 Table of Contents
 1. Primary Data Structure 3
 
-## 1.1 Import from CSV file 3
+1.1 Import from CSV file 3
 
-## 1.2 Import from Organization’s Portal 3
+1.2 Import from Organization’s Portal 3
 
 2. Cells 3
 
-## 2.1 Minimum requirements 3
+2.1 Minimum requirements 3
 
-## 2.2 Optional information 3
+2.2 Optional information 3
 
 2.2.1 Height 3
 2.2.2 Azimuth 4

@@ -1,3 +1,0 @@
-# 7 Database organization
-
-

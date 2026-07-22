@@ -1,7 +1,5 @@
 # Geodata Requirements 2025
 
-![Image p1](../assets/images/geodata/geodata-requirements/p001-img1.png)
-
 > **Version:** CE Pro v4.9 / CE Express v7.2
 
 Cellular Expert Technical Documentation
@@ -63,25 +61,6 @@ Cellular Expert can easily integrate and process 1 m or even sub-meter topograph
 
 ![Image p4](../assets/images/geodata/geodata-requirements/p004-img1.png)
 
-![Image p4](../assets/images/geodata/geodata-requirements/p004-img2.png)
-
-![Image p4](../assets/images/geodata/geodata-requirements/p004-img3.png)
-
-![Image p4](../assets/images/geodata/geodata-requirements/p004-img4.png)
-
-![Image p4](../assets/images/geodata/geodata-requirements/p004-img5.png)
-
-![Image p4](../assets/images/geodata/geodata-requirements/p004-img6.png)
-
-![Image p4](../assets/images/geodata/geodata-requirements/p004-img7.png)
-
-![Image p4](../assets/images/geodata/geodata-requirements/p004-img8.png)
-
-![Image p4](../assets/images/geodata/geodata-requirements/p004-img9.png)
-
-![Image p4](../assets/images/geodata/geodata-requirements/p004-img10.png)
-
-![Image p4](../assets/images/geodata/geodata-requirements/p004-img11.png)
 detailed RF calculations. This level of precision is essential for:
 - Modeling 2G/3G/4G/5G, small cells and [mmWave](#kw:56-step-8-losonly-prediction-for-mmwave:ce-express-tr-models) networks.
 - Identifying exact coverage gaps at the building and street level.

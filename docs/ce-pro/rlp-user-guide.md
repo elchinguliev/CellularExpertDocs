@@ -278,25 +278,6 @@ The CE tools make use of three distinct GIS data layers to obtain high precision
 
 ![Image p15](../assets/images/ce-pro/rlp-guide/p015-img1.png)
 
-![Image p15](../assets/images/ce-pro/rlp-guide/p015-img2.png)
-
-![Image p15](../assets/images/ce-pro/rlp-guide/p015-img3.png)
-
-![Image p15](../assets/images/ce-pro/rlp-guide/p015-img4.png)
-
-![Image p15](../assets/images/ce-pro/rlp-guide/p015-img5.png)
-
-![Image p15](../assets/images/ce-pro/rlp-guide/p015-img6.png)
-
-![Image p15](../assets/images/ce-pro/rlp-guide/p015-img7.png)
-
-![Image p15](../assets/images/ce-pro/rlp-guide/p015-img8.png)
-
-![Image p15](../assets/images/ce-pro/rlp-guide/p015-img9.png)
-
-![Image p15](../assets/images/ce-pro/rlp-guide/p015-img10.png)
-
-![Image p15](../assets/images/ce-pro/rlp-guide/p015-img11.png)
 propagation losses:
 
 1. Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), which describes

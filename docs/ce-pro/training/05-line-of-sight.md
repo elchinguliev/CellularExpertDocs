@@ -1,14 +1,10 @@
 # 05. Line of Sight (Profile)
 
-![Image p2](../../assets/images/ce-pro/training-05/p002-img1.png)
-
 ![Image p2](../../assets/images/ce-pro/training-05/p002-img2.png)
 
 ![Image p2](../../assets/images/ce-pro/training-05/p002-img3.png)
 
 ![Image p2](../../assets/images/ce-pro/training-05/p002-img4.png)
-
-![Image p2](../../assets/images/ce-pro/training-05/p002-img5.png)
 
 ![Image p2](../../assets/images/ce-pro/training-05/p002-img6.png)
 
@@ -18,8 +14,6 @@
 
 ![Image p2](../../assets/images/ce-pro/training-05/p002-img9.png)
 
-![Image p2](../../assets/images/ce-pro/training-05/p002-img10.png)
-
 ![Image p2](../../assets/images/ce-pro/training-05/p002-img11.png)
 
 ![Image p2](../../assets/images/ce-pro/training-05/p002-img12.png)
@@ -28,26 +22,15 @@
 
 ![Image p2](../../assets/images/ce-pro/training-05/p002-img14.png)
 
-![Image p2](../../assets/images/ce-pro/training-05/p002-img15.png)
-
 ![Image p2](../../assets/images/ce-pro/training-05/p002-img16.png)
 
 ![Image p2](../../assets/images/ce-pro/training-05/p002-img17.png)
 
-![Image p2](../../assets/images/ce-pro/training-05/p002-img18.png)
-
 ![Image p2](../../assets/images/ce-pro/training-05/p002-img19.png)
-
-![Image p2](../../assets/images/ce-pro/training-05/p002-img20.png)
 
 ![Image p2](../../assets/images/ce-pro/training-05/p002-img21.png)
 
-![Image p2](../../assets/images/ce-pro/training-05/p002-img22.png)
-
-![Image p2](../../assets/images/ce-pro/training-05/p002-img23.png)
-
 ![Image p2](../../assets/images/ce-pro/training-05/p002-img24.png)
-
 
 ![Image p3](../../assets/images/ce-pro/training-05/p003-img1.png)
 > **Version:** CE Pro v4.9
@@ -201,7 +184,6 @@ Tx ──── [trees] ─── Rx   (OLOS — partially penetrable)
 
 ![Image p6](../../assets/images/ce-pro/training-05/p006-img1.png)
 
-
 ![Image p7](../../assets/images/ce-pro/training-05/p007-img1.png)
 
 ![Image p7](../../assets/images/ce-pro/training-05/p007-img2.png)
@@ -234,7 +216,6 @@ Define custom colours for each element displayed in the profile view:
 
 ![Image p13](../../assets/images/ce-pro/training-05/p013-img2.png)
 
-
 ![Image p14](../../assets/images/ce-pro/training-05/p014-img1.png)
 
 ![Image p14](../../assets/images/ce-pro/training-05/p014-img2.png)
@@ -244,12 +225,10 @@ Define custom colours for each element displayed in the profile view:
 
 ![Image p15](../../assets/images/ce-pro/training-05/p015-img2.png)
 
-
 ![Image p16](../../assets/images/ce-pro/training-05/p016-img1.png)
 ## 3D Profile View
 
 ![Image p17](../../assets/images/ce-pro/training-05/p017-img1.png)
-
 
 ![Image p18](../../assets/images/ce-pro/training-05/p018-img1.png)
 CE Pro can display the terrain profile in 3D, showing the transmitter, receiver, terrain, obstacles, and the LOS path in a three-dimensional view.

@@ -4,7 +4,6 @@
 
 Cellular Expert Express User Guide 7.3
 
-![Image p6](../../assets/images/ce-express/user-guide-v73/p006-img1.png)
 About Cellular Expert
 Cellular Expert UAB (CE) developed ultra-fast wave
 propagation, communication systems deployment planning
@@ -2675,7 +2674,6 @@ Whether to draw a line within the circles marking the radius of the circle. A la
 
 ![Image p139](../../assets/images/ce-express/user-guide-v73/p139-img1.png)
 
-![Image p139](../../assets/images/ce-express/user-guide-v73/p139-img2.png)
 displayed above the dashed line.
 Perimeter radius lengths
 Multiple perimeters around each feature may be drawn. This list allows you to define the length of each
@@ -2697,8 +2695,6 @@ Confidential ©Cellular Expert, 2026 Page | 140
 
 ![Image p140](../../assets/images/ce-express/user-guide-v73/p140-img1.png)
 
-![Image p140](../../assets/images/ce-express/user-guide-v73/p140-img2.png)
-
 ---
 
 Cellular Expert Express User Guide 7.3
@@ -2706,11 +2702,7 @@ Confidential ©Cellular Expert, 2026 Page | 141
 
 ![Image p141](../../assets/images/ce-express/user-guide-v73/p141-img1.png)
 
-![Image p141](../../assets/images/ce-express/user-guide-v73/p141-img2.png)
-
 ![Image p141](../../assets/images/ce-express/user-guide-v73/p141-img3.png)
-
-![Image p141](../../assets/images/ce-express/user-guide-v73/p141-img4.png)
 
 ---
 
@@ -5442,8 +5434,6 @@ Remove a selected record from the current view. Note that removed records will b
 ![Image p272](../../assets/images/ce-express/user-guide-v73/p272-img3.png)
 
 ![Image p272](../../assets/images/ce-express/user-guide-v73/p272-img4.png)
-
-![Image p272](../../assets/images/ce-express/user-guide-v73/p272-img5.png)
 
 ![Image p272](../../assets/images/ce-express/user-guide-v73/p272-img6.png)
 Only administrators can delete a removed record from the database permanently (or restore it).

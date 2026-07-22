@@ -4,33 +4,15 @@
 
 Cellular Expert Express Administrator Guide 7.2
 
-![Image p1](../../assets/images/ce-express/admin-guide-v72/p001-img1.png)
-
-![Image p1](../../assets/images/ce-express/admin-guide-v72/p001-img2.png)
-
-![Image p4](../../assets/images/ce-express/admin-guide-v72/p004-img1.png)
-
-![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img1.png)
-
-![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img2.png)
-
-![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img3.png)
-
 ![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img4.png)
 
-![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img5.png)
-
 ![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img6.png)
-
-![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img7.png)
 
 ![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img8.png)
 
 ![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img9.png)
 
 ![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img10.png)
-
-![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img11.png)
 
 ![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img12.png)
 
@@ -172,21 +154,11 @@ Frontend
 (IIS+PHP)
 Confidential Cellular Expert, 2026 Page | 7
 
-![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img1.png)
-
-![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img2.png)
-
-![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img3.png)
-
 ![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img4.png)
 
 ![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img5.png)
 
-![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img6.png)
-
 ![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img7.png)
-
-![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img8.png)
 
 ![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img9.png)
 
@@ -194,15 +166,11 @@ Confidential Cellular Expert, 2026 Page | 7
 
 ![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img11.png)
 
-![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img12.png)
-
 ![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img13.png)
 
 ![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img14.png)
 
 ![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img15.png)
-
-![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img16.png)
 
 ![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img17.png)
 

@@ -4,7 +4,6 @@
 
 ![Image p1](../assets/images/inventory3d/user-guide/p001-img2.png)
 
-
 ![Image p4](../assets/images/inventory3d/user-guide/p004-img1.png)
 > **Version:** Inventory 3D
 
@@ -182,8 +181,6 @@ Help - Displays the User Guide for quick help.
 ![Image p11](../assets/images/inventory3d/user-guide/p011-img1.png)
 
 ![Image p11](../assets/images/inventory3d/user-guide/p011-img2.png)
-
-![Image p11](../assets/images/inventory3d/user-guide/p011-img3.png)
 
 ![Image p11](../assets/images/inventory3d/user-guide/p011-img4.png)
 

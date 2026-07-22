@@ -11,11 +11,7 @@ ArcGIS Pro functionality • Includes CE Inventory3D
 
 ![Image p2](../../assets/images/ce-pro/training-02/p002-img1.png)
 
-![Image p2](../../assets/images/ce-pro/training-02/p002-img2.png)
-
 ![Image p2](../../assets/images/ce-pro/training-02/p002-img3.png)
-
-![Image p2](../../assets/images/ce-pro/training-02/p002-img4.png)
 
 ![Image p2](../../assets/images/ce-pro/training-02/p002-img5.png)
 
@@ -120,7 +116,6 @@ Workspace database files
 
 ![Image p9](../../assets/images/ce-pro/training-02/p009-img2.png)
 
-
 ![Image p10](../../assets/images/ce-pro/training-02/p010-img1.png)
 
 ![Image p10](../../assets/images/ce-pro/training-02/p010-img2.png)
@@ -146,7 +141,6 @@ Environment
 ![Image p14](../../assets/images/ce-pro/training-02/p014-img3.png)
 
 ![Image p14](../../assets/images/ce-pro/training-02/p014-img4.png)
-
 
 ![Image p15](../../assets/images/ce-pro/training-02/p015-img1.png)
 
@@ -245,7 +239,6 @@ CE prediction models
 ![Image p18](../../assets/images/ce-pro/training-02/p018-img2.png)
 
 ![Image p18](../../assets/images/ce-pro/training-02/p018-img3.png)
-
 
 ![Image p19](../../assets/images/ce-pro/training-02/p019-img1.png)
 

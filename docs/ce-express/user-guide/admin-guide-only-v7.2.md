@@ -4,32 +4,18 @@
 
 Cellular Expert Express Administrator Guide 7.2
 
-![Image p1](../../assets/images/ce-express/admin-guide-only-v72/p001-img1.png)
-
 ![Image p1](../../assets/images/ce-express/admin-guide-only-v72/p001-img2.png)
 ![Image p3](../../assets/images/ce-express/admin-guide-only-v72/p003-img1.png)
 
-![Image p5](../../assets/images/ce-express/admin-guide-only-v72/p005-img1.png)
-
-![Image p5](../../assets/images/ce-express/admin-guide-only-v72/p005-img2.png)
-
-![Image p5](../../assets/images/ce-express/admin-guide-only-v72/p005-img3.png)
-
 ![Image p5](../../assets/images/ce-express/admin-guide-only-v72/p005-img4.png)
 
-![Image p5](../../assets/images/ce-express/admin-guide-only-v72/p005-img5.png)
-
 ![Image p5](../../assets/images/ce-express/admin-guide-only-v72/p005-img6.png)
-
-![Image p5](../../assets/images/ce-express/admin-guide-only-v72/p005-img7.png)
 
 ![Image p5](../../assets/images/ce-express/admin-guide-only-v72/p005-img8.png)
 
 ![Image p5](../../assets/images/ce-express/admin-guide-only-v72/p005-img9.png)
 
 ![Image p5](../../assets/images/ce-express/admin-guide-only-v72/p005-img10.png)
-
-![Image p5](../../assets/images/ce-express/admin-guide-only-v72/p005-img11.png)
 
 ![Image p5](../../assets/images/ce-express/admin-guide-only-v72/p005-img12.png)
 
@@ -170,21 +156,11 @@ Frontend
 (IIS)
 Confidential Cellular Expert, 2026 Page | 6
 
-![Image p6](../../assets/images/ce-express/admin-guide-only-v72/p006-img1.png)
-
-![Image p6](../../assets/images/ce-express/admin-guide-only-v72/p006-img2.png)
-
-![Image p6](../../assets/images/ce-express/admin-guide-only-v72/p006-img3.png)
-
 ![Image p6](../../assets/images/ce-express/admin-guide-only-v72/p006-img4.png)
 
 ![Image p6](../../assets/images/ce-express/admin-guide-only-v72/p006-img5.png)
 
-![Image p6](../../assets/images/ce-express/admin-guide-only-v72/p006-img6.png)
-
 ![Image p6](../../assets/images/ce-express/admin-guide-only-v72/p006-img7.png)
-
-![Image p6](../../assets/images/ce-express/admin-guide-only-v72/p006-img8.png)
 
 ![Image p6](../../assets/images/ce-express/admin-guide-only-v72/p006-img9.png)
 
@@ -192,15 +168,11 @@ Confidential Cellular Expert, 2026 Page | 6
 
 ![Image p6](../../assets/images/ce-express/admin-guide-only-v72/p006-img11.png)
 
-![Image p6](../../assets/images/ce-express/admin-guide-only-v72/p006-img12.png)
-
 ![Image p6](../../assets/images/ce-express/admin-guide-only-v72/p006-img13.png)
 
 ![Image p6](../../assets/images/ce-express/admin-guide-only-v72/p006-img14.png)
 
 ![Image p6](../../assets/images/ce-express/admin-guide-only-v72/p006-img15.png)
-
-![Image p6](../../assets/images/ce-express/admin-guide-only-v72/p006-img16.png)
 
 ![Image p6](../../assets/images/ce-express/admin-guide-only-v72/p006-img17.png)
 

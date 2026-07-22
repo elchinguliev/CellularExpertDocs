@@ -33,15 +33,11 @@ Data can be:
 Modelling Outdoor coverage
 The CE tools make use of three distinct GIS data layers to obtain high
 
-![Image p3](../../assets/images/ce-pro/training-01/p003-img1.png)
-
 ![Image p3](../../assets/images/ce-pro/training-01/p003-img2.png)
 
 ![Image p3](../../assets/images/ce-pro/training-01/p003-img3.png)
 
 ![Image p3](../../assets/images/ce-pro/training-01/p003-img4.png)
-
-![Image p3](../../assets/images/ce-pro/training-01/p003-img5.png)
 
 ![Image p3](../../assets/images/ce-pro/training-01/p003-img6.png)
 
@@ -51,8 +47,6 @@ The CE tools make use of three distinct GIS data layers to obtain high
 
 ![Image p3](../../assets/images/ce-pro/training-01/p003-img9.png)
 
-![Image p3](../../assets/images/ce-pro/training-01/p003-img10.png)
-
 ![Image p3](../../assets/images/ce-pro/training-01/p003-img11.png)
 
 ![Image p3](../../assets/images/ce-pro/training-01/p003-img12.png)
@@ -61,23 +55,13 @@ The CE tools make use of three distinct GIS data layers to obtain high
 
 ![Image p3](../../assets/images/ce-pro/training-01/p003-img14.png)
 
-![Image p3](../../assets/images/ce-pro/training-01/p003-img15.png)
-
 ![Image p3](../../assets/images/ce-pro/training-01/p003-img16.png)
 
 ![Image p3](../../assets/images/ce-pro/training-01/p003-img17.png)
 
-![Image p3](../../assets/images/ce-pro/training-01/p003-img18.png)
-
 ![Image p3](../../assets/images/ce-pro/training-01/p003-img19.png)
 
-![Image p3](../../assets/images/ce-pro/training-01/p003-img20.png)
-
 ![Image p3](../../assets/images/ce-pro/training-01/p003-img21.png)
-
-![Image p3](../../assets/images/ce-pro/training-01/p003-img22.png)
-
-![Image p3](../../assets/images/ce-pro/training-01/p003-img23.png)
 
 ![Image p3](../../assets/images/ce-pro/training-01/p003-img24.png)
 precision modelling of radio wave propagation losses:

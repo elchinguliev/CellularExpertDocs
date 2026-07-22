@@ -2,7 +2,6 @@
 
 ![Image p3](../../assets/images/ce-pro/training-08/p003-img1.png)
 
-
 ![Image p5](../../assets/images/ce-pro/training-08/p005-img1.png)
 
 ![Image p5](../../assets/images/ce-pro/training-08/p005-img2.png)
@@ -33,8 +32,6 @@
 ![Image p6](../../assets/images/ce-pro/training-08/p006-img9.png)
 
 ![Image p6](../../assets/images/ce-pro/training-08/p006-img10.png)
-
-![Image p6](../../assets/images/ce-pro/training-08/p006-img11.png)
 
 ![Image p6](../../assets/images/ce-pro/training-08/p006-img12.png)
 
@@ -81,7 +78,6 @@ Combination model for cellular networks. Distinguishes three radio visibility co
 ![Image p9](../../assets/images/ce-pro/training-08/p009-img1.png)
 
 ![Image p9](../../assets/images/ce-pro/training-08/p009-img2.png)
-
 
 ![Image p10](../../assets/images/ce-pro/training-08/p010-img1.png)
 ```
@@ -199,12 +195,10 @@ Ground wave propagation for HF/VHF broadcast and land mobile systems.
 
 ![Image p14](../../assets/images/ce-pro/training-08/p014-img1.png)
 
-
 ![Image p15](../../assets/images/ce-pro/training-08/p015-img1.png)
 Navigate to: **Cellular Expert tab → Prediction Model Manager**
 
 ![Image p18](../../assets/images/ce-pro/training-08/p018-img1.png)
-
 
 ![Image p21](../../assets/images/ce-pro/training-08/p021-img1.png)
 - The **Default** model cannot be deleted
@@ -216,7 +210,6 @@ Navigate to: **Cellular Expert tab → Prediction Model Manager**
 - Each model can be independently calibrated per environment
 
 ![Image p33](../../assets/images/ce-pro/training-08/p033-img1.png)
-
 
 ![Image p35](../../assets/images/ce-pro/training-08/p035-img1.png)
 

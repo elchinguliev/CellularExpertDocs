@@ -426,6 +426,8 @@ Antenna name for Repeater object.
 
 3.1.2.2.7 Add Radar
 
+![Image p034](../../../assets/images/ce-express/user-guide-v73/p034-img1.png)
+
 **Required parameters**
 
 **Radar name**
@@ -445,8 +447,6 @@ Coordinate in the projected coordinate system.
 **Height**
 
 Object's height above the terrain.
-
-![Image p034](../../../assets/images/ce-express/user-guide-v73/p034-img1.png)
 
 **Downtilt**
 
@@ -530,6 +530,8 @@ Additional information for network predictions can be noted here.
 
 3.1.2.2.9 Add Measurements
 
+![Image p037](../../../assets/images/ce-express/user-guide-v73/p037-img1.png)
+
 **Required parameters**
 
 **Field strength, dB**
@@ -549,8 +551,6 @@ Coordinate in the projected coordinate system.
 A field which binds the measurement to a cell network object.
 
 3.1.2.2.10 Add Omen
-
-![Image p037](../../../assets/images/ce-express/user-guide-v73/p037-img1.png)
 
 ![Image p037](../../../assets/images/ce-express/user-guide-v73/p037-img2.png)
 
@@ -640,6 +640,8 @@ Free-form text.
 
 3.1.2.2.12 Add Lights
 
+![Image p040](../../../assets/images/ce-express/user-guide-v73/p040-img1.png)
+
 **Required parameters**
 
 **Light name**
@@ -668,13 +670,13 @@ Height above the terrain.
 
 Mechanical tilt value.
 
-![Image p040](../../../assets/images/ce-express/user-guide-v73/p040-img1.png)
-
 **Antenna**
 
 Antenna name for Light object.
 
 3.1.2.2.13 Add Mesh nodes
+
+![Image p041](../../../assets/images/ce-express/user-guide-v73/p041-img1.png)
 
 **Required parameters**
 
@@ -689,8 +691,6 @@ Coordinate in the projected coordinate system.
 **Y**
 
 Coordinate in the projected coordinate system.
-
-![Image p041](../../../assets/images/ce-express/user-guide-v73/p041-img1.png)
 
 **Optional parameters**
 
@@ -731,8 +731,6 @@ The maximum number of connections the mesh node can have (used for mesh connecti
 
 The layer of the mesh node (number value). Used for priority calculations in Automatic Frequency Planning.
 
-![Image p042](../../../assets/images/ce-express/user-guide-v73/p042-img1.png)
-
 **Group name**
 
 The group name of the mesh node (text description). Several mesh nodes may belong to the same group.
@@ -745,4 +743,6 @@ Free-form text.
 
 Free-form text.
 Free-form text.
+
+![Image p042](../../../assets/images/ce-express/user-guide-v73/p042-img1.png)
 

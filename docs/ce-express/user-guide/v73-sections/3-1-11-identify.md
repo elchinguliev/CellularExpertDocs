@@ -18,6 +18,8 @@ this will be shown in the [Identify tool](#kw:310-step-10-using-the-identify-too
 
 Click on the map to preview the signal value.
 
+![Image p126](../../../assets/images/ce-express/user-guide-v73/p126-img1.png)
+
 **Identify settings**
 
 **Real time**
@@ -27,3 +29,5 @@ When enabled – you do not need to click on the map to identify the value of th
 **Coordinates**
 
 To display the coordinates, click on your desired location on the map.
+
+![Image p126](../../../assets/images/ce-express/user-guide-v73/p126-img2.png)

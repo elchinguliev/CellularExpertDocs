@@ -84,7 +84,3 @@ If selected, adds a population calculation to statistics item.
 **Point layer (optional)**
 
 Workspace ‘extra layer’ (point feature layer). If selected, the statistics will be calculated not by total polygon area coverage, but by point coverage (% and #) within each polygon.
-
-![Image p134](../../../assets/images/ce-express/user-guide-v73/p134-img1.png)
-
-![Image p134](../../../assets/images/ce-express/user-guide-v73/p134-img2.png)

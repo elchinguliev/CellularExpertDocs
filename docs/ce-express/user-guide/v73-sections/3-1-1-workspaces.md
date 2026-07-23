@@ -48,24 +48,20 @@ will be saved in this coordinate system. This does not affect the geodata used w
 is 4326 (WGS84).
 
 **Group**
-
 Workspaces are grouped based on the value in this field. To group workspaces, set this field to the
 same value for multiple workspaces.
 
 **Locked**
-
 Locks feature editing within the workspace. Useful when you want to keep a workspace for archiving
 purposes. Only an admin user can disable this for a locked workspace.
 
 ![Image p15](../../../assets/images/ce-express/user-guide-v73/p015-img1.png)
 
 **Extent**
-
 Workspace extent defines where the map gets zoomed to when the workspace is loaded. It is also used
 as a zoom reference for the home button ![icon](../../../assets/images/ce-express/user-guide-v73/p015-img2.png).
 
 **Draw on map**
-
 Enabling this allows for clicking on the map to draw a desired square for workspace extent.
 
 **Min. X**

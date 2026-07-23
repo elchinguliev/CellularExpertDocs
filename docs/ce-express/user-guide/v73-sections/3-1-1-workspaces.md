@@ -48,10 +48,12 @@ will be saved in this coordinate system. This does not affect the geodata used w
 is 4326 (WGS84).
 
 **Group**
+
 Workspaces are grouped based on the value in this field. To group workspaces, set this field to the
 same value for multiple workspaces.
 
 **Locked**
+
 Locks feature editing within the workspace. Useful when you want to keep a workspace for archiving
 purposes. Only an admin user can disable this for a locked workspace.
 

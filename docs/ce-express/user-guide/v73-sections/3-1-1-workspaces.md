@@ -35,6 +35,7 @@ To create a workspace, press the New workspace button.
 ![Image p14](../../../assets/images/ce-express/user-guide-v73/p014-img1.png)
 
 **General**
+
 **Workspace name**
 Workspace identification.
 

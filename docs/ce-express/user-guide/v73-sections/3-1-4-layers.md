@@ -135,6 +135,8 @@ For these types of layers, the visualization can be edited in the following ways
 
 Upon hovering the mouse over a prediction result item, options for it appear.
 
+![Image p068](../../../assets/images/ce-express/user-guide-v73/p068-img6.png)
+
 **Rename layer**
 
 ![Image p069](../../../assets/images/ce-express/user-guide-v73/p069-img1.png)

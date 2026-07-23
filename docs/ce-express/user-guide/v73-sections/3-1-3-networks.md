@@ -7,6 +7,9 @@ Once expanded, an existing network item displays the following information:
 
 ![Image p53](../../../assets/images/ce-express/user-guide-v73/p053-img1.png)
 
+Once expanded, an existing network item displays the following information:
+
+
 ![Image p53](../../../assets/images/ce-express/user-guide-v73/p053-img3.png)
 
 

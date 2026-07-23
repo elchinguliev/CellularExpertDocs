@@ -44,11 +44,13 @@ May be enabled or disabled.
 May be enabled or disabled.
 
 **Show mini calculation task window for newly created tasks**
+
 When enabled, a small calculation window appears upon creating a calculation task. The window shows the calculation log while the task is executing, then switches to showing the result list once the task is finished. Results may also be opened from this window.
 
 **Calculations**
 
 **Calculation result raster interpolation mode**
+
 Allows you to select the interpolation mode for calculation result raster layers.
 Available options:
 - Nearest (default)

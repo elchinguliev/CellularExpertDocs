@@ -171,3 +171,6 @@ The input data and calculation results can be automatically transferred into a P
 The resulting Profile report will look similar to this example:
 
 ![Image p149](../../../assets/images/ce-express/user-guide-v73/p149-img1.png)
+
+![Image p150](../../../assets/images/ce-express/user-guide-v73/p150-img1.png)
+

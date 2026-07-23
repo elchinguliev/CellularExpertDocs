@@ -16,15 +16,15 @@ Upon hovering the mouse over a workspace item, options for it appear.
 
 ![Image p13](../../../assets/images/ce-express/user-guide-v73/p013-img2.png)
 
-Edit Workspace
+**Edit Workspace**
 
 ![Image p13](../../../assets/images/ce-express/user-guide-v73/p013-img3.png)
 
-Duplicate Workspace
+**Duplicate Workspace**
 
 ![Image p14](../../../assets/images/ce-express/user-guide-v73/p014-img2.png)
 
-Delete Workspace
+**Delete Workspace**
 
 ![Image p14](../../../assets/images/ce-express/user-guide-v73/p014-img3.png)
 

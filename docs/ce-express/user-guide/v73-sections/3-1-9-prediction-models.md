@@ -11,31 +11,29 @@ The CE Path Loss Modelling aims to perform near-deterministic calculation of rec
 
 **- Non-LOS (NLOS) –** occurs when the direct radio propagation line is interposed by terrain bulges or obstacles, see illustration in Fig. 3(c).
 
-![Image p89](../../../assets/images/ce-express/user-guide-v73/p089-img1.png)
+![Image p90](../../../assets/images/ce-express/user-guide-v73/p090-img1.png)
 
 a. Example of path profile with LOS condition (green line of direct radio link)
 
-![Image p89](../../../assets/images/ce-express/user-guide-v73/p089-img2.png)
+![Image p90](../../../assets/images/ce-express/user-guide-v73/p090-img2.png)
 
 b. Example of path profile with OLOS condition (yellow segment of radio link path)
 
-![Image p90](../../../assets/images/ce-express/user-guide-v73/p090-img1.png)
+![Image p90](../../../assets/images/ce-express/user-guide-v73/p090-img3.png)
 
 (c) Example of path profile with NLOS condition (red segment of radio link path)
 
-![Image p90](../../../assets/images/ce-express/user-guide-v73/p090-img2.png)
+![Image p90](../../../assets/images/ce-express/user-guide-v73/p090-img3.png)
 
 (d) Example of path profile with OLOS+NLOS condition (yellow+red segment of radio link path)
 
-![Image p90](../../../assets/images/ce-express/user-guide-v73/p090-img3.png)
+Depending on the LOS condition for the receive antenna at specific location (area map pixel), the CE tools will apply the specific sub-set of path loss prediction model, as explained in the following section.
 
-Depending on the LOS condition for the receive antenna at specific location (area map pixel), the CE tools
+Prediction models available in Cellular Expert support frequencies from 10kHz to 350 GHz.
 
 ![Image p91](../../../assets/images/ce-express/user-guide-v73/p091-img1.png)
 
 ![Image p91](../../../assets/images/ce-express/user-guide-v73/p091-img2.png)
-will apply the specific sub-set of path loss prediction model, as explained in the following section.
-Prediction models available in Cellular Expert support frequencies from 10kHz to 350 GHz.
 
 CEC ITU-R Model (100MHz – 6GHz) is a combination model intended for use in a variety of different
 radiocommunication systems which is derived explicitly from ITU-R path loss modelling methods as

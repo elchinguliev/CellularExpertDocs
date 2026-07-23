@@ -52,6 +52,8 @@ Click once to start drawing the reference line, then once again – to finish. T
 
 Distance from the line segment to the offset point.
 
+3.1.12.4 Point
+
 ![Image p129](../../../assets/images/ce-express/user-guide-v73/p129-img2.png)
 
 **Coordinates**

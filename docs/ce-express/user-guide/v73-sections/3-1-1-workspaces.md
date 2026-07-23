@@ -29,6 +29,7 @@ Delete Workspace
 ![Image p14](../../../assets/images/ce-express/user-guide-v73/p014-img3.png)
 
 3.1.1.1 Add workspace
+
 To create a workspace, press the New workspace button.
 
 ![Image p14](../../../assets/images/ce-express/user-guide-v73/p014-img1.png)

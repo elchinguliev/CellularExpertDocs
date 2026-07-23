@@ -159,18 +159,15 @@ Zoom in/out in the profile view.
 
 ![Image p147](../../../assets/images/ce-express/user-guide-v73/p147-img2.png)
 
-Click on button to view the see the Calculation results.
-
-![Image p147](../../../assets/images/ce-express/user-guide-v73/p147-img3.png)
-
-3.1.16.3 Profile report
-The input data and calculation results can be automatically transferred into a Profile Report. This report
-will show transmitter/receiver input data, calculation results as well as the Profile plot and map view in which
+Click on![Image p147](../../../assets/images/ce-express/user-guide-v73/p147-img3.png) button to view the see the Calculation results.
 
 ![Image p148](../../../assets/images/ce-express/user-guide-v73/p148-img1.png)
 
+3.1.16.3 Profile report
+The input data and calculation results can be automatically transferred into a Profile Report. This report will show transmitter/receiver input data, calculation results as well as the Profile plot and map view in which the profile was drawn.
+
 ![Image p148](../../../assets/images/ce-express/user-guide-v73/p148-img2.png)
-the profile was drawn.
+
 The resulting Profile report will look similar to this example:
 
 ![Image p149](../../../assets/images/ce-express/user-guide-v73/p149-img1.png)

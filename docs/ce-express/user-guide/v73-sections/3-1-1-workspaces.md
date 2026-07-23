@@ -156,7 +156,6 @@ Specifies the group assignment for the layer. You can select an existing group, 
 
 ![Image p18](../../../assets/images/ce-express/user-guide-v73/p018-img1.png)
 
-Feature naming schemes
-Allows for automatic feature name setting depending on features already existent in workspace. For
-example: Cells feature naming scheme set to "1,2,3.." → Cells 1, 2, and 3 already exist in workspace →
-next placed cell in add features tool will automatically have the name set to 4.
+**Feature naming schemes**
+
+Allows for automatic feature name setting depending on features already existent in workspace. For example: Cells feature naming scheme set to "1,2,3.." → Cells 1, 2, and 3 already exist in workspace → next placed cell in add features tool will automatically have the name set to 4.

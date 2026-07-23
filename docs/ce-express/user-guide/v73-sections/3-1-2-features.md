@@ -742,7 +742,3 @@ Free-form text.
 **Type**
 
 Free-form text.
-Free-form text.
-
-![Image p042](../../../assets/images/ce-express/user-guide-v73/p042-img1.png)
-

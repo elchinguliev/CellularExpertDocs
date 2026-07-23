@@ -742,3 +742,182 @@ Free-form text.
 **Type**
 
 Free-form text.
+
+3.1.2.3 Selecting
+
+**Selection settings**
+
+**Show only selected features**
+
+Only the selected features will be displayed in the feature list. When the switch off, all features are visible
+regardless of selection. When it is on non-selected features are hidden, so you see only what you have
+selected.
+
+**Mode**
+
+There are several different modes for selecting objects:
+
+- Rectangle.
+
+![Image p043](../../../assets/images/ce-express/user-guide-v73/p043-img1.png)
+
+To start the selection process, click once on the map, then move the mouse cursor to define an
+area, click a second time to finish the selection process.
+
+![Image p043](../../../assets/images/ce-express/user-guide-v73/p043-img2.png)
+
+- Single click. Click once on an object to select it.
+
+![Image p043](../../../assets/images/ce-express/user-guide-v73/p043-img3.png)
+
+- Radius.
+
+![Image p044](../../../assets/images/ce-express/user-guide-v73/p044-img1.png)
+
+Set the desired distance, then click on the map and the surrounding objects within the set distance will
+be selected.
+
+![Image p044](../../../assets/images/ce-express/user-guide-v73/p044-img2.png)
+
+- Polygon.
+
+![Image p044](../../../assets/images/ce-express/user-guide-v73/p044-img3.png)
+
+Click once on the map to create the vertices of the polygon. Double-click to close the polygon and select
+the feature.
+
+![Image p045](../../../assets/images/ce-express/user-guide-v73/p045-img1.png)
+
+- Polygon layer.
+
+![Image p045](../../../assets/images/ce-express/user-guide-v73/p045-img2.png)
+
+To use the polygon layer selection, choose a predefined polygon layer from the dropdown list. Then,
+click on the map. All features located within the selected polygon boundary will be highlighted and
+displayed in the feature list.
+
+![Image p046](../../../assets/images/ce-express/user-guide-v73/p046-img1.png)
+
+Selected objects will be highlighted on the map and listed in the tool.
+
+![Image p046](../../../assets/images/ce-express/user-guide-v73/p046-img2.png)
+
+**Clear selection**
+
+Clears a objects selection on the map.
+
+**Search**
+
+Initiates the search procedure in the selected objects list.
+
+**Show in table**
+
+Opens the selected objects attribute table ![icon](../../../assets/images/ce-express/user-guide-v73/p047-img1.png)
+
+![Image p047](../../../assets/images/ce-express/user-guide-v73/p047-img2.png)
+
+3.1.2.4 Move/Duplicate/Delete/Publish selected objects
+
+Select objects on the map to start the Publish, Move, Duplicate or Delete functionality.
+
+![Image p047](../../../assets/images/ce-express/user-guide-v73/p047-img3.png)
+
+**Publish**
+
+Select the features you want to publish to portal as a feature layer, then click the publish button.
+An option menu then appears to let you select who the newly created feature layer will be shared to:
+
+![Image p048](../../../assets/images/ce-express/user-guide-v73/p048-img1.png)
+
+Press OK to start the publishing process.
+
+**Move**
+
+Select the objects which shall be moved and choose the Move tool. The Move selected features dialog will
+appear.
+
+![Image p048](../../../assets/images/ce-express/user-guide-v73/p048-img2.png)
+
+Hold the left mouse button and drag the object to the preferred location.
+
+![Image p048](../../../assets/images/ce-express/user-guide-v73/p048-img3.png)
+
+Press Accept to save changes.
+
+**Duplicate**
+
+Select the objects which shall be duplicated and choose the Duplicate tool. The Duplicate features dialog
+will appear. Hold the left mouse button and drag the object to the preferred location. Selected objects can
+be duplicated to another workspace.
+
+![Image p049](../../../assets/images/ce-express/user-guide-v73/p049-img1.png)
+
+Press Accept to save changes.
+
+**Delete**
+
+Select the objects on the map, then press the Delete button to remove them from the Map view and
+database tables.
+
+![Image p049](../../../assets/images/ce-express/user-guide-v73/p049-img2.png)
+
+Press Accept to save changes.
+
+3.1.2.5 Edit objects
+
+Object attributes can be edited using the Cellular Expert graphical interface. Move the mouse cursor to the
+required object in the Features tool and click on it to edit object attributes.
+
+![Image p050](../../../assets/images/ce-express/user-guide-v73/p050-img1.png)
+
+A new dialog opens on the right side with the most important attributes.
+
+![Image p051](../../../assets/images/ce-express/user-guide-v73/p051-img1.png)
+
+**Accept**
+
+Saves all changes.
+
+**Cancel**
+
+Discards all changes and closes the dialog.
+
+Upon hovering the mouse over a feature item, options for it appear.
+
+![Image p051](../../../assets/images/ce-express/user-guide-v73/p051-img2.png)
+
+**View from perspective** ![icon](../../../assets/images/ce-express/user-guide-v73/p052-img1.png)
+
+Viewpoint from the position of cell.
+
+**Highlight feature** ![icon](../../../assets/images/ce-express/user-guide-v73/p052-img2.png)
+
+Highlights feature on the map.
+
+**Duplicate feature** ![icon](../../../assets/images/ce-express/user-guide-v73/p052-img3.png)
+
+Creates a copy of the feature.
+
+**Delete feature** ![icon](../../../assets/images/ce-express/user-guide-v73/p052-img4.png)
+
+Deletes feature.
+
+**Remove from selection** ![icon](../../../assets/images/ce-express/user-guide-v73/p052-img5.png)
+
+Removes feature from the selected features list.
+
+**Add to selection** ![icon](../../../assets/images/ce-express/user-guide-v73/p052-img6.png)
+
+Adds feature to selected features list.
+
+3.1.2.6 Quick add
+
+If you have feature templates favorited, the quick add section will appear under the feature type in the
+features list. You may then use the listed favorite feature templates to quickly add features with the template
+applied. This can be done in 2 ways:
+- Click the feature template name to automatically open the add features tool and have the template
+applied
+- Drag and drop the feature template on the map to quickly add a new feature to the desired location
+with only having the enter the feature name in a popup.
+
+![Image p052](../../../assets/images/ce-express/user-guide-v73/p052-img7.png)

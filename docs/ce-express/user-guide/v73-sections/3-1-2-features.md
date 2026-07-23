@@ -745,6 +745,8 @@ Free-form text.
 
 3.1.2.3 Selecting
 
+![Image p043](../../../assets/images/ce-express/user-guide-v73/p043-img1.png)
+
 **Selection settings**
 
 **Show only selected features**
@@ -774,8 +776,7 @@ area, click a second time to finish the selection process.
 
 ![Image p044](../../../assets/images/ce-express/user-guide-v73/p044-img1.png)
 
-Set the desired distance, then click on the map and the surrounding objects within the set distance will
-be selected.
+Set the desired distance, then click on the map and the surrounding objects within the set distance will be selected.
 
 ![Image p044](../../../assets/images/ce-express/user-guide-v73/p044-img2.png)
 
@@ -783,8 +784,7 @@ be selected.
 
 ![Image p044](../../../assets/images/ce-express/user-guide-v73/p044-img3.png)
 
-Click once on the map to create the vertices of the polygon. Double-click to close the polygon and select
-the feature.
+Click once on the map to create the vertices of the polygon. Double-click to close the polygon and select the feature.
 
 ![Image p045](../../../assets/images/ce-express/user-guide-v73/p045-img1.png)
 
@@ -792,9 +792,7 @@ the feature.
 
 ![Image p045](../../../assets/images/ce-express/user-guide-v73/p045-img2.png)
 
-To use the polygon layer selection, choose a predefined polygon layer from the dropdown list. Then,
-click on the map. All features located within the selected polygon boundary will be highlighted and
-displayed in the feature list.
+To use the polygon layer selection, choose a predefined polygon layer from the dropdown list. Then, click on the map. All features located within the selected polygon boundary will be highlighted and displayed in the feature list.
 
 ![Image p046](../../../assets/images/ce-express/user-guide-v73/p046-img1.png)
 
@@ -846,9 +844,7 @@ Press Accept to save changes.
 
 **Duplicate**
 
-Select the objects which shall be duplicated and choose the Duplicate tool. The Duplicate features dialog
-will appear. Hold the left mouse button and drag the object to the preferred location. Selected objects can
-be duplicated to another workspace.
+Select the objects which shall be duplicated and choose the Duplicate tool. The Duplicate features dialog will appear. Hold the left mouse button and drag the object to the preferred location. Selected objects can be duplicated to another workspace.
 
 ![Image p049](../../../assets/images/ce-express/user-guide-v73/p049-img1.png)
 
@@ -921,3 +917,5 @@ applied
 with only having the enter the feature name in a popup.
 
 ![Image p052](../../../assets/images/ce-express/user-guide-v73/p052-img7.png)
+
+

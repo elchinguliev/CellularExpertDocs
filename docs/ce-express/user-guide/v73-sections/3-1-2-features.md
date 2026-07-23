@@ -32,80 +32,99 @@ The data in the import files may have names, values and units which do not match
 
 **Source**   the name of the value that is written in the data file.
 
-**Fill** value which will be used when an object in the data file has no value for a particular property. In this
-
-
-example, if “Azimuth” is not set, then it will by default be assigned the value of 0. Leaving the default to
-empty means that no default value will be applied.
-
-3.1.2.1.2 Mapping presets
-It is possible to create import presets.
-To create a preset, first define source or fill value, then press New mapping preset button.
-A new preset will be created.
-Define a preset name. The defined preset will be applied the next time for importing.
-Apply
-Applies a mapping preset for importing file.
-Delete
-Deletes a preset.
-3.1.2.2 Add features
+**Fill** value which will be used when an object in the data file has no value for a particular property. In this example, if “Azimuth” is not set, then it will by default be assigned the value of 0. Leaving the default to empty means that no default value will be applied.
 
 ![Image p22](../../../assets/images/ce-express/user-guide-v73/p022-img1.png)
 
+3.1.2.1.2 Mapping presets
+
+It is possible to create import presets.
+
 ![Image p22](../../../assets/images/ce-express/user-guide-v73/p022-img2.png)
+
+To create a preset, first define source or fill value, then press New mapping preset button.
 
 ![Image p22](../../../assets/images/ce-express/user-guide-v73/p022-img3.png)
 
+A new preset will be created.
+
 ![Image p22](../../../assets/images/ce-express/user-guide-v73/p022-img4.png)
 
+Define a preset name. The defined preset will be applied the next time for importing.
+
+**Apply**
+
+Applies a mapping preset for importing file.
+
+**Delete**
+
+Deletes a preset.
+
+
+3.1.2.2 Add features
+
+
+![Image p23](../../../assets/images/ce-express/user-guide-v73/p023-img1.png)
+
 Select the object type.
+
+![Image p23](../../../assets/images/ce-express/user-guide-v73/p023-img2.png)
+
 A new dialog on the right side of the window will appear.
+
 New objects can be created in several ways. They can be:
 - Created from templates
 - Created with Cellular Expert tools from zero (define all parameters in the process)
 
-![Image p23](../../../assets/images/ce-express/user-guide-v73/p023-img1.png)
-
-![Image p23](../../../assets/images/ce-express/user-guide-v73/p023-img2.png)
-
-3.1.2.2.1 Feature set template
-Allows for saving a group of features as a “feature set template”, with one of the features acting as the
-origin for the feature set coordinates. The entire feature set can then be placed with a single operation via
-
 ![Image p24](../../../assets/images/ce-express/user-guide-v73/p024-img1.png)
 
-![Image p24](../../../assets/images/ce-express/user-guide-v73/p024-img2.png)
-the add features tool. Coordinates relative to the origin feature are maintained by the other features in the
-set.
+3.1.2.2.1 Feature set template
 
-General
-Feature set template name
-Name of the feature set template
-Features
-Coordinate origin feature
-Feature which will be used as the coordinate origin point for the feature set. When the feature set is placed,
+Allows for saving a group of features as a “feature set template”, with one of the features acting as the origin for the feature set coordinates. The entire feature set can then be placed with a single operation via the add features tool. Coordinates relative to the origin feature are maintained by the other features in the set.
+
+![Image p24](../../../assets/images/ce-express/user-guide-v73/p024-img2.png)
 
 ![Image p25](../../../assets/images/ce-express/user-guide-v73/p025-img1.png)
-this feature will be at the mouse click point.
+
+**General**
+
+**Feature set template name**
+
+Name of the feature set template
+
+**Features**
+
+**Coordinate origin feature**
+
+Feature which will be used as the coordinate origin point for the feature set. When the feature set is placed, this feature will be at the mouse click point.
+
 Feature parameters
-Parameters of the features saved in the feature set template. The placed feature parameters will be
-automatically filled with the saved values.
+
+Parameters of the features saved in the feature set template. The placed feature parameters will be automatically filled with the saved values.
 
 3.1.2.2.2 Add Site
-Required parameters
-| Parameter | Description |
-|---|---|
-| Site name | Site identification. |
-| X | Coordinate in the projected coordinate system. |
-| Y | Coordinate in the projected coordinate system. |
-Azimuth
-Cell direction from the North in degrees.
 
 ![Image p29](../../../assets/images/ce-express/user-guide-v73/p029-img1.png)
 
-Optional parameters
-| Parameter | Description |
-|---|---|
-| Height, m | Height above the terrain. |
+**Required parameters**
+
+**Site name**
+
+Site identification.
+
+
+**X**
+
+Coordinate in the projected coordinate system. 
+
+**Y**
+
+Coordinate in the projected coordinate system.
+
+**Optional parameters**
+**Height**
+
+Height above the terrain.
 | Downtilt | Mechanical tilt value. |
 | El. Downtilt, deg | Electrical tilt value |
 | Frequency | Frequency value in MHz. |

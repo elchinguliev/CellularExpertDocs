@@ -18,19 +18,22 @@ A new dialog on the right side of the window will appear. The widget imports obj
 The imported objects will be displayed automatically on the map. The supported file formats are CSV and
 KMZ.
 
-To start the import process, select or drag and drop a CSV or KMZ file.
-3.1.2.1.1 Mapping
-The data in the import files may have names, values and units which do not match the data in the Cellular
-
 ![Image p20](../../../assets/images/ce-express/user-guide-v73/p020-img1.png)
 
-![Image p20](../../../assets/images/ce-express/user-guide-v73/p020-img2.png)
-Expert database. To resolve such issues, check Use mapping button.
+To start the import process, select or drag and drop a CSV or KMZ file.
 
-Source - the name of the value that is written in the data file.
-Fill - value which will be used when an object in the data file has no value for a particular property. In this
+![Image p20](../../../assets/images/ce-express/user-guide-v73/p020-img2.png)
+
+3.1.2.1.1 Mapping
+The data in the import files may have names, values and units which do not match the data in the Cellular Expert database. To resolve such issues, check Use mapping button.
 
 ![Image p21](../../../assets/images/ce-express/user-guide-v73/p021-img1.png)
+
+**Source**   the name of the value that is written in the data file.
+
+**Fill** value which will be used when an object in the data file has no value for a particular property. In this
+
+
 example, if “Azimuth” is not set, then it will by default be assigned the value of 0. Leaving the default to
 empty means that no default value will be applied.
 

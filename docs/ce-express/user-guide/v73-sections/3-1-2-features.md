@@ -25,6 +25,7 @@ To start the import process, select or drag and drop a CSV or KMZ file.
 ![Image p20](../../../assets/images/ce-express/user-guide-v73/p020-img2.png)
 
 3.1.2.1.1 Mapping
+
 The data in the import files may have names, values and units which do not match the data in the Cellular Expert database. To resolve such issues, check Use mapping button.
 
 ![Image p21](../../../assets/images/ce-express/user-guide-v73/p021-img1.png)

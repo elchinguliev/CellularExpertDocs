@@ -3,6 +3,7 @@
 Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p012-img2.png) to open Workspaces tool.
 Shows an active workspace.
 The tool allows to switch between available workspaces. The Map view will be automatically zoomed to the selected workspace extent and only objects defined for that workspace will be visible.
+
 A workspace is a project-based view in which objects are displayed. Workspaces can be assigned individually for each user group.
 
 ![Image p13](../../../assets/images/ce-express/user-guide-v73/p013-img1.png)

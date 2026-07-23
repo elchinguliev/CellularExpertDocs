@@ -122,9 +122,11 @@ Coordinate in the projected coordinate system.
 Coordinate in the projected coordinate system.
 
 **Optional parameters**
+
 **Height**
 
 Height above the terrain.
+
 | Downtilt | Mechanical tilt value. |
 | El. Downtilt, deg | Electrical tilt value |
 | Frequency | Frequency value in MHz. |

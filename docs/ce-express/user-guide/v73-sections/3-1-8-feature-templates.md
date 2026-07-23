@@ -6,13 +6,13 @@ in the add features tool. In the case of starting some calculations, you may pic
 missing feature parameters will be filled during the calculation. The feature templates tool allows you to set
 up these templates before using them.
 
-After opening the tool, you get to choose which feature type you want to manage templates for.
-After selecting the feature type, a list of existing feature templates is shown, click an existing feature
-
 ![Image p88](../../../assets/images/ce-express/user-guide-v73/p088-img1.png)
 
+After opening the tool, you get to choose which feature type you want to manage templates for.
+
 ![Image p88](../../../assets/images/ce-express/user-guide-v73/p088-img2.png)
-template to edit it, or click new feature template to create a new one.
+
+After selecting the feature type, a list of existing feature templates is shown, click an existing feature template to edit it, or click new feature template to create a new one.
 
 Upon hovering the mouse over a feature template, options for it appear.
 Mark as favorite

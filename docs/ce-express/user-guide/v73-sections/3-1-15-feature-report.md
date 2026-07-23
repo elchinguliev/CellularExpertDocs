@@ -1,25 +1,40 @@
 # 3.1.15 Feature report
 
 Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p135-img1.png) to open Feature report tool.
-This tool allows you to create PDF reports of selected features with attribute tables, as well as a page with
+
+This tool allows you to create PDF reports of selected features with attribute tables, as well as a page with a view of the map.
 
 ![Image p135](../../../assets/images/ce-express/user-guide-v73/p135-img2.png)
 
 ![Image p135](../../../assets/images/ce-express/user-guide-v73/p135-img3.png)
-a view of the map.
-Report options
+
+**Report options**
+
 General options related to report
-Map page
+
+**Map page**
+
 Whether to add a page with a view of the map to the PDF report output.
 
-| Parameter | Description |
-|---|---|
-| Download map as image | If this is enabled, an additional image file of the map will be downloaded upon report generation. |
-| Preliminary report | Whether to add “Preliminary report” notice at the front page of the report. |
-| Table styling (disable for printing) | Enable / disable colors applied to table. |
-| Filename | Report file name. |
-| Title | Title for the front page of the report. |
-| Report info | Contact data of the report generating person / organization. Displayed in the final report. |
+**Download map as image**
+
+If this is enabled, an additional image file of the map will be downloaded upon report generation.
+
+**Preliminary report**
+
+Whether to add “Preliminary report” notice at the front page of the report.
+
+**Table styling (disable for printing)**
+
+Enable / disable colors applied to table.
+
+**Filename**
+
+Report file name.
+
+**Title**
+
+Title for the front page of the report.
 
 ![Image p136](../../../assets/images/ce-express/user-guide-v73/p136-img1.png)
 

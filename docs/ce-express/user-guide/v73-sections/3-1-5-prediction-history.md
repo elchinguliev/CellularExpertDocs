@@ -26,6 +26,8 @@ Opens the selected prediction results layer.
 
 Upon hovering the mouse over a prediction result item, options for it appear.
 
+![Image p075](../../../assets/images/ce-express/user-guide-v73/p075-img5.png)
+
 **Rename layer**
 
 ![Image p075](../../../assets/images/ce-express/user-guide-v73/p075-img3.png)

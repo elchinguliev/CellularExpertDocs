@@ -1,11 +1,15 @@
 # 3.1.7 Geodata sets
 
 Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p084-img1.png) to open Geodata sets tool.
+
 Geodata sets are collections of geographical raster data that is used in CE calculations. Geodata sets are
 comprised of the following raster types:
-Elevation – DTM (Digital terrain model), each pixel defines the absolute terrain height above sea level. No
+
+**Elevation** – DTM (Digital terrain model), each pixel defines the absolute terrain height above sea level. No
 buildings or other obstacles are included in this height.
-Clutter height (optional) – Relative height of obstructions (buildings, forests, etc.) above elevation.
+
+**Clutter height (optional)** – Relative height of obstructions (buildings, forests, etc.) above elevation.
+
 [Clutter classes](#kw:clutter-classification-values:ce-express-geodata) (optional) – Each pixel defines the ID of the clutter class, which the area belongs to.
 Usually derived from land use data. If building heights are included in the clutter height raster, the clutter
 

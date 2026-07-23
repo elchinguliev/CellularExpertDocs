@@ -33,23 +33,24 @@ After uploading rasters, the file upload squares change to green, and show some 
 
 The data extent is also outlined in green on the map when a geodata set is selected:
 
-3.1.7.1 [Clutter classes](#kw:clutter-classification-values:ce-express-geodata)
-If a clutter class raster is available in the geodata set, the clutter classes section should be set up to
-represent the data in the file.
-All available clutter class raster values are listed under the “Used” and “Unused” categories.
-Each relevant clutter class needs these fields filled out:
-IDs in geodata raster – clutter class IDs from your uploaded clutter classes raster need to be assigned to
-predefined clutter classes within CE. For example if your clutter classes raster has buildings outlined with
-the ID of 2, you would need to assign “2” to the buildings clutter class in the menu. Multiple IDs may be
-assigned to each class.
-Height – Nominal height for clutter class if it is not represented in the clutter height raster. If you already
-
 ![Image p86](../../../assets/images/ce-express/user-guide-v73/p086-img1.png)
 
-![Image p86](../../../assets/images/ce-express/user-guide-v73/p086-img2.png)
-have heights for this class in the clutter height raster, this should be set to 0.
+3.1.7.1 [Clutter classes](#kw:clutter-classification-values:ce-express-geodata)
 
-Color – the color by which the clutter class is represented in different UI elements, for example – the profile
+If a clutter class raster is available in the geodata set, the clutter classes section should be set up to
+represent the data in the file.
+
+All available clutter class raster values are listed under the “Used” and “Unused” categories.
+
+![Image p86](../../../assets/images/ce-express/user-guide-v73/p086-img2.png)
+
+Each relevant clutter class needs these fields filled out:
+
+**IDs in geodata raster** – clutter class IDs from your uploaded clutter classes raster need to be assigned to predefined clutter classes within CE. For example if your clutter classes raster has buildings outlined with the ID of 2, you would need to assign “2” to the buildings clutter class in the menu. Multiple IDs may be assigned to each class.
+
+**Height** – Nominal height for clutter class if it is not represented in the clutter height raster. If you already have heights for this class in the clutter height raster, this should be set to 0.
+
+**Color** – the color by which the clutter class is represented in different UI elements, for example – the profile chart.
 
 ![Image p87](../../../assets/images/ce-express/user-guide-v73/p087-img1.png)
-chart.
+

@@ -23,15 +23,13 @@ b. Example of path profile with OLOS condition (yellow segment of radio link pat
 
 (c) Example of path profile with NLOS condition (red segment of radio link path)
 
-![Image p90](../../../assets/images/ce-express/user-guide-v73/p090-img3.png)
+![Image p91](../../../assets/images/ce-express/user-guide-v73/p091-img1.png)
 
 (d) Example of path profile with OLOS+NLOS condition (yellow+red segment of radio link path)
 
 Depending on the LOS condition for the receive antenna at specific location (area map pixel), the CE tools will apply the specific sub-set of path loss prediction model, as explained in the following section.
 
 Prediction models available in Cellular Expert support frequencies from 10kHz to 350 GHz.
-
-![Image p91](../../../assets/images/ce-express/user-guide-v73/p091-img1.png)
 
 ![Image p91](../../../assets/images/ce-express/user-guide-v73/p091-img2.png)
 

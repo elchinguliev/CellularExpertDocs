@@ -29,7 +29,7 @@ Shows the length of the line segment.
 **Segment 1 → 2**
 Angles between line segments.
 
-**3.1.12.2 Area**
+3.1.12.2 Area
 
 Calculates the surface area and perimeter of the area.
 
@@ -40,7 +40,7 @@ Total enclosed surface.
 **Perimeter**
 Total boundary length.
 
-**3.1.12.3 Offset** 
+3.1.12.3 Offset
 
 Helps find the shortest distance from a line to a point on the map.
 

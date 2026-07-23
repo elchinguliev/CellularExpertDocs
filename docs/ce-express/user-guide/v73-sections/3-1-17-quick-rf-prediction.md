@@ -5,7 +5,6 @@ The Quick RF Prediction is a tool that lets you select a point on the map and ma
 need to create a cell. [Quick prediction](#kw:quick-rf-prediction:ce-express-rf-prediction) also lets you select a cell as the point, meaning that you can also
 make quick predictions with the created cells. The Quick RF Prediction tool calculates only the field strength
 
-![Image p150](../../../assets/images/ce-express/user-guide-v73/p150-img1.png)
 
 ![Image p150](../../../assets/images/ce-express/user-guide-v73/p150-img3.png)
 coverage.

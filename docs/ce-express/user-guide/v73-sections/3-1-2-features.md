@@ -5,13 +5,15 @@ Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p018-
 Use this tool to import or add features, select and visualize them.
 
 3.1.2.1 Import
-The widget allows the creation of objects from a text file. To start importing new objects press the Import
+
+The widget allows the creation of objects from a text file. To start importing new objects press the Import features button.
 
 ![Image p19](../../../assets/images/ce-express/user-guide-v73/p019-img1.png)
 
-![Image p19](../../../assets/images/ce-express/user-guide-v73/p019-img2.png)
-features button.
 Select the object type.
+
+![Image p19](../../../assets/images/ce-express/user-guide-v73/p019-img2.png)
+
 A new dialog on the right side of the window will appear. The widget imports object data to the database.
 The imported objects will be displayed automatically on the map. The supported file formats are CSV and
 KMZ.

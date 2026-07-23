@@ -87,7 +87,6 @@ Maximum y (topmost) coordinate of the workspace extent (in workspace epsg)
 ![Image p16](../../../assets/images/ce-express/user-guide-v73/p016-img1.png)
 
 **Coordinate origin**
-
 Origin point from which coordinates are calculated from in the user interface. Global coordinates are
 saved in the database regardless of this setting.
 
@@ -96,16 +95,13 @@ saved in the database regardless of this setting.
 **Calculations**
 
 **Calculate EIRP**
-
 Enabled – EIRP is calculated with the formula: power – misc. loss + antenna gain.
 Disabled – power value is used as EIRP.
 
 **Use clutter**
-
 Determines whether clutter Loss is used in prediction calculations.
 
 **Transmitter height reference**
-
 The height above which the absolute transmitter height is calculated, e.g. if "elevation" is selected, and
 transmitter height is set to 10 m, the absolute transmitter height is calculated as elevation + 10. This is
 used within CE calculations.
@@ -116,7 +112,6 @@ Available options:
 - Absolute
   
 **Receiver height reference**
-
 The height above which the absolute receiver height is calculated, e.g. if "elevation" is selected, and
 receiver height is set to 10 m, the absolute receiver height is calculated as elevation + 10. This is used
 within CE calculations.
@@ -127,7 +122,6 @@ Available options:
 - Absolute
   
 **Geodata set**
-
 Geodata set used in calculations launched within the workspace.
 
 ![Image p17](../../../assets/images/ce-express/user-guide-v73/p017-img1.png)
@@ -135,23 +129,18 @@ Geodata set used in calculations launched within the workspace.
 **Extra layers**
 
 **URL / Portal ItemID**
-
 Specifies the source of the layer. Accepts either a direct URL or an ArcGIS Portal Item ID.
 
 **Title**
-
 The title field defines the name displayed for a layer in the layer list 
 
 **Opacity**
-
 Adjusts layer transparency. 
 
 **Visible**
-
 Turns the layer's display on or off.
 
 **Group**
-
 Specifies the group assignment for the layer. You can select an existing group, create a new one, or leave the field blank to place the layer in the default group Other.
 
 ![Image p18](../../../assets/images/ce-express/user-guide-v73/p018-img1.png)

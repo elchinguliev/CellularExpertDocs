@@ -10,27 +10,27 @@ buildings or other obstacles are included in this height.
 
 **Clutter height (optional)** – Relative height of obstructions (buildings, forests, etc.) above elevation.
 
-[Clutter classes](#kw:clutter-classification-values:ce-express-geodata) (optional) – Each pixel defines the ID of the clutter class, which the area belongs to.
-Usually derived from land use data. If building heights are included in the clutter height raster, the clutter
+**[Clutter classes](#kw:clutter-classification-values:ce-express-geodata) (optional)** – Each pixel defines the ID of the clutter class, which the area belongs to. Usually derived from land use data. If building heights are included in the clutter height raster, the clutter classes raster must have building outlines separated into their own class ID.
 
-![Image p84](../../../assets/images/ce-express/user-guide-v73/p084-img2.png)
-classes raster must have building outlines separated into their own class ID.
 To edit a geodata set, click the desired geodata set name from the list. To create a new one, click “+ New
 geodata set”.
-When creating a new geodata set, some general details, like the geodata set name, must be entered and
 
-saved. Only then you may then upload the geodata rasters to the set after selecting it from the list.
-Under the rasters section, there are 3 File upload squares for uploading the rasters. Click to select a file
+![Image p84](../../../assets/images/ce-express/user-guide-v73/p084-img2.png)
+
+When creating a new geodata set, some general details, like the geodata set name, must be entered andsaved. Only then you may then upload the geodata rasters to the set after selecting it from the list.
 
 ![Image p85](../../../assets/images/ce-express/user-guide-v73/p085-img1.png)
-or drag & drop to upload a raster file.
+
+Under the rasters section, there are 3 File upload squares for uploading the rasters. Click to select a file or drag & drop to upload a raster file.
+
 Uploaded rasters have the following requirements:
 - Must be in projected coordinate system
 - Coordinate system units must be meters
 - All rasters must have the same coordinate system
 - Raster resolution in X and Y axis must match
-After uploading rasters, the file upload squares change to green, and show some metadata, like upload
-date and resolution, about the uploaded raster files.
+- 
+After uploading rasters, the file upload squares change to green, and show some metadata, like upload date and resolution, about the uploaded raster files.
+
 The data extent is also outlined in green on the map when a geodata set is selected:
 
 3.1.7.1 [Clutter classes](#kw:clutter-classification-values:ce-express-geodata)

@@ -96,6 +96,8 @@ and then select *Create Manually*.
 
 ![Image p081](../../../assets/images/ce-express/user-guide-v73/p081-img3.png)
 
+![Image p082](../../../assets/images/ce-express/user-guide-v73/p082-img1.png)
+
 **Antenna parameters**
 
 **Manufacturer**
@@ -105,8 +107,6 @@ Antenna manufacturer (company or entity).
 **Model**
 
 Antenna name.
-
-![Image p082](../../../assets/images/ce-express/user-guide-v73/p082-img1.png)
 
 **Frequency**
 
@@ -135,6 +135,16 @@ Transition width between attenuated and non-attenuated parts of the antenna patt
 **Beamwidth**
 
 Antenna's vertical beamwidth value in degrees. Used for generating the antenna pattern.
+
+**Smoothing degree count**
+
+Transition width between attenuated and non-attenuated parts of the antenna pattern in degrees. The attenuation values are linearly interpolated between 0 and the max attenuation value within this transition range.
+
+**Vertical pattern**
+
+**Beamwidth**
+
+Antenna’s vertical beamwidth value in degrees. Used for generating the antenna pattern.
 
 **Smoothing degree count**
 

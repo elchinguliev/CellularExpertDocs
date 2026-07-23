@@ -2,43 +2,36 @@
 
 3.1.9 Prediction [models](#kw:31-models:ce-express-tr-models)
 Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p089-img3.png) to open Prediction models tool.
-The CE Path Loss Modelling aims to perform near-deterministic calculation of received signal levels at each
-specific point (pixel) in the network’s target coverage area by applying selective path loss model depending
-on the radio visibility condition between the transmitter antenna vis-à-vis a receiver antenna located at a
-given point in coverage area. The radio visibility is evaluated based on the DTM, Obstacles and Clutter
-path profile information. This verification of radio visibility will result in the receiver antenna point assigned
 
-![Image p89](../../../assets/images/ce-express/user-guide-v73/p089-img1.png)
+The CE Path Loss Modelling aims to perform near-deterministic calculation of received signal levels at each specific point (pixel) in the network’s target coverage area by applying selective path loss model depending on the radio visibility condition between the transmitter antenna vis-à-vis a receiver antenna located at a given point in coverage area. The radio visibility is evaluated based on the DTM, Obstacles and Clutter path profile information. This verification of radio visibility will result in the receiver antenna point assigned into one of three possible radio visibility conditions:
 
-![Image p89](../../../assets/images/ce-express/user-guide-v73/p089-img2.png)
-into one of three possible radio visibility conditions:
-- [Line-of-Sight](#kw:running-a-profile:ce-express-profile) (LOS) – occurs when there are neither terrain irregularities, obstacles or clutter
-interposing the direct radio path between the transmitter and receiver antennas. The radio path is
-understood to include the 1st [Fresnel zone](#kw:fresnel-zone-clearance:ce-express-profile) around the direct line and account for Spherical Earth
-effect. The LOS condition is illustrated by the path profile depicted in Fig. 3(a).
-- Obstructed LOS (OLOS) – occurs when the direct radio propagation line is interposed by clutter,
-see illustration in Fig. 3(b).
-- Non-LOS (NLOS) – occurs when the direct radio propagation line is interposed by terrain bulges
-or obstacles, see illustration in Fig. 3(c).
+**- [Line-of-Sight](#kw:running-a-profile:ce-express-profile) (LOS)** – occurs when there are neither terrain irregularities, obstacles or clutter interposing the direct radio path between the transmitter and receiver antennas. The radio path is understood to include the 1st [Fresnel zone](#kw:fresnel-zone-clearance:ce-express-profile) around the direct line and account for Spherical Earth effect. The LOS condition is illustrated by the path profile depicted in Fig. 3(a).
 
-a. Example of path profile with LOS condition (green line of direct radio link)
-b. Example of path profile with OLOS condition (yellow segment of radio link path)
-(c) Example of path profile with NLOS condition (red segment of radio link path)
+**-Obstructed LOS (OLOS) –** occurs when the direct radio propagation line is interposed by clutter, see illustration in Fig. 3(b).
+
+**- Non-LOS (NLOS) –** occurs when the direct radio propagation line is interposed by terrain bulges or obstacles, see illustration in Fig. 3(c).
 
 ![Image p90](../../../assets/images/ce-express/user-guide-v73/p090-img1.png)
 
+a. Example of path profile with LOS condition (green line of direct radio link)
+
 ![Image p90](../../../assets/images/ce-express/user-guide-v73/p090-img2.png)
+
+b. Example of path profile with OLOS condition (yellow segment of radio link path)
 
 ![Image p90](../../../assets/images/ce-express/user-guide-v73/p090-img3.png)
 
-(d) Example of path profile with OLOS+NLOS condition (yellow+red segment of radio link path)
-Depending on the LOS condition for the receive antenna at specific location (area map pixel), the CE tools
+(c) Example of path profile with NLOS condition (red segment of radio link path)
 
 ![Image p91](../../../assets/images/ce-express/user-guide-v73/p091-img1.png)
 
-![Image p91](../../../assets/images/ce-express/user-guide-v73/p091-img2.png)
-will apply the specific sub-set of path loss prediction model, as explained in the following section.
+(d) Example of path profile with OLOS+NLOS condition (yellow+red segment of radio link path)
+
+Depending on the LOS condition for the receive antenna at specific location (area map pixel), the CE tools will apply the specific sub-set of path loss prediction model, as explained in the following section.
+
 Prediction models available in Cellular Expert support frequencies from 10kHz to 350 GHz.
+
+![Image p91](../../../assets/images/ce-express/user-guide-v73/p091-img2.png)
 
 CEC ITU-R Model (100MHz – 6GHz) is a combination model intended for use in a variety of different
 radiocommunication systems which is derived explicitly from ITU-R path loss modelling methods as

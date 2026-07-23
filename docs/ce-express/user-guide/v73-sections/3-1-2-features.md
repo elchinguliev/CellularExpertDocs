@@ -1,6 +1,7 @@
 # 3.1.2 Features
 
 Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p018-img2.png) to open Features tool.
+
 Use this tool to import or add features, select and visualize them.
 
 3.1.2.1 Import

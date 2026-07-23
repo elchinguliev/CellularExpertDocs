@@ -8,6 +8,7 @@ A workspace is a project-based view in which objects are displayed. Workspaces c
 ![Image p13](../../../assets/images/ce-express/user-guide-v73/p013-img1.png)
 
 **Show only workspaces in view**
+
 When enabled, this option filters the workspace list to display only the workspaces currently visible within
 the map's viewport.
 

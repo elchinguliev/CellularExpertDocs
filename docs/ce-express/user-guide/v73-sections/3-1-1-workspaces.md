@@ -121,18 +121,24 @@ Geodata set used in calculations launched within the workspace.
 **Extra layers**
 
 **URL / Portal ItemID**
+
 Specifies the source of the layer. Accepts either a direct URL or an ArcGIS Portal Item ID.
 
 **Title**
+
 The title field defines the name displayed for a layer in the layer list 
 
 **Opacity**
-Adjusts layer transparency. |
-Visible
+
+Adjusts layer transparency. 
+
+**Visible**
+
 Turns the layer's display on or off.
-Group
-Specifies the group assignment for the layer. You can select an existing group, create a new one, or
-leave the field blank to place the layer in the default group Other.
+
+**Group**
+
+Specifies the group assignment for the layer. You can select an existing group, create a new one, or leave the field blank to place the layer in the default group Other.
 
 ![Image p18](../../../assets/images/ce-express/user-guide-v73/p018-img1.png)
 

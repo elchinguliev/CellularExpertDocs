@@ -1,15 +1,13 @@
 # 3.1.1 Workspaces
 
 Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p012-img2.png) to open Workspaces tool.
-Shows an active workspace. The tool allows to switch between available workspaces. The Map view will
-be automatically zoomed to the selected workspace extent and only objects defined for that workspace will
-be visible.
-A workspace is a project-based view in which objects are displayed. Workspaces can be assigned
-individually for each user group.
+Shows an active workspace.
+The tool allows to switch between available workspaces. The Map view will be automatically zoomed to the selected workspace extent and only objects defined for that workspace will be visible.
+A workspace is a project-based view in which objects are displayed. Workspaces can be assigned individually for each user group.
 
 ![Image p13](../../../assets/images/ce-express/user-guide-v73/p013-img1.png)
 
-Show only workspaces in view
+**Show only workspaces in view**
 When enabled, this option filters the workspace list to display only the workspaces currently visible within
 the map's viewport.
 
@@ -34,10 +32,11 @@ To create a workspace, press the New workspace button.
 
 ![Image p14](../../../assets/images/ce-express/user-guide-v73/p014-img1.png)
 
-General
-Workspace name
+**General**
+**Workspace name**
 Workspace identification.
-Coordinate system [EPSG](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata)
+
+**Coordinate system [EPSG]** (#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata)
 [EPSG](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) code of the coordinate system (spatial reference) used within workspace. Feature coordinates
 will be saved in this coordinate system. This does not affect the geodata used within calculations. Default
 is 4326 ([WGS84](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata)).

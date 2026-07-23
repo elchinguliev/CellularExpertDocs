@@ -124,7 +124,8 @@ Geodata set used in calculations launched within the workspace.
 Specifies the source of the layer. Accepts either a direct URL or an ArcGIS Portal Item ID.
 
 **Title**
-The title field defines the name displayed for a layer in the layer list |
+The title field defines the name displayed for a layer in the layer list 
+
 **Opacity**
 Adjusts layer transparency. |
 Visible

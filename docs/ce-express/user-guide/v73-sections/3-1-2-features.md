@@ -127,6 +127,175 @@ Coordinate in the projected coordinate system.
 
 Height above the terrain.
 
+## 3.1.2.2.3 Add Candidate sites
+
+![Image p027](../../../assets/images/ce-express/user-guide-v73/p027-img1.png)
+
+**Required parameters**
+
+**Site name**
+Site identification.
+
+**X**
+Coordinate in the projected coordinate system.
+
+**Y**
+Coordinate in the projected coordinate system.
+
+**Optional parameters**
+
+**Max Site Height**
+Maximum site height above the terrain in meters.
+
+**City**
+City where the site is located.
+
+**Street**
+Street address of the site.
+
+**Status**
+Free-form text.
+
+**Type**
+Free-form text.
+
+**Notes**
+Free-form text.
+
+## 3.1.2.2.4 Add Site search areas
+
+![Image p028](../../../assets/images/ce-express/user-guide-v73/p028-img1.png)
+
+**Required parameters**
+
+**Area Name**
+Area identification.
+
+**Draw mode**
+Method used to draw the area geometry:
+- Polygon
+- Circle
+
+**Circle radius**
+Radius of the circle, in meters.
+
+**Geometry segments**
+Number of segments used to approximate the geometry.
+
+**Group**
+Group to which the area belongs.
+
+## 3.1.2.2.5 Add Cell
+
+![Image p029](../../../assets/images/ce-express/user-guide-v73/p029-img1.png)
+
+**Required parameters**
+
+**Cell name**
+Cell identification.
+
+**X**
+Coordinate in the projected coordinate system.
+
+**Y**
+Coordinate in the projected coordinate system.
+
+**Azimuth**
+Cell direction from the North in degrees.
+
+**Optional parameters**
+
+**Height, m**
+Height above the terrain.
+
+**Downtilt**
+Mechanical tilt value.
+
+**El. Downtilt, deg**
+Electrical tilt value.
+
+**Frequency**
+Frequency value in MHz.
+
+**Power**
+Power value in dBm.
+
+**Misc. loss, dB**
+Miscellaneous loss value in dB.
+
+**Bandwidth, MHz**
+Value in MHz. Required for 4G and 5G technologies. For other technologies define the value as 0.015.
+
+**Noise figure, dB**
+Value in dB. Required for 4G and 5G technologies.
+
+**Downlink duplex factor**
+Value range from 0 to 1. Required for Duplex mode TDD, which is applicable for 4G and 5G technologies,
+and used for Downlink Throughput calculations. For example, if defined value is 0.7, then 70% of available
+bandwidth will be dedicated to Downlink, and 30% - for Uplink.
+
+**Subcarrier spacing, kHz**
+Value in kHz. Required for 4G and 5G technologies. For other technologies define value 15.
+
+**Tx Mimo**
+Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
+
+**Rx Mimo**
+Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
+
+**Active antenna effect**
+The parameter is dedicated to smart antenna modeling. The default value is 0, but if massive MIMO is
+used, a smart antenna effect can be included to lower the interference and boost throughput.
+Recommended values:
+- For MIMO 32x32 – value 6.
+- For MIMO 64x64 – value 9.
+
+**Cell load, %**
+The parameter is described in percentages and varies from 0 to 100. It describes how the cell is loaded.
+
+The Cell load affects RSSI, RSRQ, and DL Throughput calculations. For example, if the Cell load is higher,
+the DL Throughput is lower.
+
+**Color index**
+Describes the cell visualization. Available values:
+- None – blue color.
+- 1 – red color.
+- 2 – light green color.
+- 3 – dark green color.
+- 4 – light blue color.
+- 5 – dark blue color.
+- 6 – purple color.
+
+**Technology**
+Describes the technology of the network object. Possible values are 2G, 3G, 4G, and 5G.
+
+**Prediction model**
+Prediction model for Path Loss simulation.
+
+**Frequency group**
+Used to divide calculations into parts. If the selection range includes two or more different frequency group
+values, the cells won't be predicted together.
+
+**Antenna**
+Define antenna patterns for the Cell object.
+
+**Carriers**
+Describes the carrier values used for 2G calculations: C/I interference and C/A interference. The values
+are written in brackets, […]. If more than one value is defined, the values are separated by a comma. If
+there is no carrier information, the brackets are left empty [].
+
+**Site ID**
+Describes to which Site the Cell belongs.
+
+**Duplex mode**
+Available values FDD or TDD. Required for 4G and 5G technologies. For other technologies define value FDD.
+
+**Status**
+Free-form text.
+
+**Type**
+Free-form text.
+
 3.1.2.2.6 Add Repeater
 
 Required parameters

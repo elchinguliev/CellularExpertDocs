@@ -7,9 +7,11 @@ Preview the list of available antennas in the project. The antennas are used for
 ![Image p076](../../../assets/images/ce-express/user-guide-v73/p076-img1.png)
 
 **Search**
+
 Initiates the search procedure in the antennas list.
 
 **Delete antenna**
+
 Delete antenna using *Delete* button.
 
 ![Image p076](../../../assets/images/ce-express/user-guide-v73/p076-img2.png)
@@ -19,6 +21,7 @@ Click on an antenna to preview the [antenna patterns](#kw:importing-antenna-patt
 ![Image p077](../../../assets/images/ce-express/user-guide-v73/p077-img1.png)
 
 **Adjust vertical pattern**
+
 In the case where you have an electrically tilted vertical [antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) imported, you might want to tilt it
 back so it is essentially a 0 tilt [antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) (recommended if you use electrical tilt field in cell attributes).
 You may use the adjust vertical pattern tool to do this. Find the center of the main lobe of the vertical
@@ -66,15 +69,19 @@ into a single cell array antenna pattern.
 **Antenna parameters**
 
 **Manufacturer**
+
 Antenna manufacturer.
 
 **Model**
+
 Antenna name.
 
 **Frequency**
+
 Antenna frequency value in MHz.
 
 **Gain**
+
 Antenna gain value in dBi.
 
 ![Image p081](../../../assets/images/ce-express/user-guide-v73/p081-img1.png)
@@ -92,34 +99,55 @@ and then select *Create Manually*.
 **Antenna parameters**
 
 **Manufacturer**
+
 Antenna manufacturer (company or entity).
 
 **Model**
+
 Antenna name.
 
 ![Image p082](../../../assets/images/ce-express/user-guide-v73/p082-img1.png)
 
 **Frequency**
+
 Antenna frequency value in MHz.
 
 **Gain**
+
 Antenna gain value in dBi.
 
 **Max attenuation**
+
 Attenuation value assigned to the attenuated parts of the antenna pattern.
 
 **Horizontal pattern**
 
 **Beamwidth**
+
+Antenna's horizontal beamwidth value in degrees. Used for generating the antenna pattern.
+
+**Smoothing degree count**
+
+Transition width between attenuated and non-attenuated parts of the antenna pattern in degrees. The attenuation values are linearly interpolated between 0 and the max attenuation value within this transition range.
+
+**Vertical pattern**
+
+**Beamwidth**
+
 Antenna's vertical beamwidth value in degrees. Used for generating the antenna pattern.
 
 **Smoothing degree count**
+
 Transition width between attenuated and non-attenuated parts of the antenna pattern in degrees. The attenuation values are linearly interpolated between 0 and the max attenuation value within this transition range.
 
 **Angle offset**
+
 Transition width between attenuated and non-attenuated parts of the antenna pattern in degrees. The attenuation values are linearly interpolated between 0 and the max attenuation value within this transition range.
 
 **Mirror pattern**
+
 Ability to mirror the vertical attenuation pattern.
 
 **Pattern preview**
+
+![Image p083](../../../assets/images/ce-express/user-guide-v73/p083-img1.png)

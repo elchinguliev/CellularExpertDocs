@@ -7,13 +7,19 @@ missing feature parameters will be filled during the calculation. The feature te
 up these templates before using them.
 
 After opening the tool, you get to choose which feature type you want to manage templates for.
-After selecting the feature type, a list of existing feature templates is shown, click an existing feature
 
 ![Image p88](../../../assets/images/ce-express/user-guide-v73/p088-img1.png)
 
+After selecting the feature type, a list of existing feature templates is shown, click an existing feature template to edit it, or click new feature template to create a new one.
+
 ![Image p88](../../../assets/images/ce-express/user-guide-v73/p088-img2.png)
-template to edit it, or click new feature template to create a new one.
 
 Upon hovering the mouse over a feature template, options for it appear.
-Mark as favorite
-Delete Feature template
+
+**Mark as favorite**
+
+![Image p089](../../../assets/images/ce-express/user-guide-v73/p089-img4.png)
+
+**Delete Feature template**
+
+![Image p089](../../../assets/images/ce-express/user-guide-v73/p089-img2.png)

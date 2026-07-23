@@ -1,11 +1,11 @@
 # 3.1.13 Network statistics
 
 Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p130-img1.png) to open Network statistics tool.
-Network Statistics is a tool that calculates the total coverage of a polygon based on its overall coverage
+
+Network Statistics is a tool that calculates the total coverage of a polygon based on its overall coverage (signal strength, dl throughput, etc.). The resulting statistics include the total coverage and individual coverage of each polygon segment.
 
 ![Image p130](../../../assets/images/ce-express/user-guide-v73/p130-img2.png)
-(signal strength, dl throughput, etc.). The resulting statistics include the total coverage and individual
-coverage of each polygon segment.
+
 Upon hovering the mouse over a statistic item, options for it appear.
 
 Edit statistic

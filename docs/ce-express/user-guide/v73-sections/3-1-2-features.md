@@ -415,6 +415,8 @@ Antenna name for Repeater object.
 
 3.1.2.2.7 Add Radar
 
+![Image p034](../../../assets/images/ce-express/user-guide-v73/p034-img1.png)
+
 **Required parameters**
 
 **Radar name**
@@ -434,8 +436,6 @@ Coordinate in the projected coordinate system.
 **Height**
 
 Object's height above the terrain.
-
-![Image p034](../../../assets/images/ce-express/user-guide-v73/p034-img1.png)
 
 **Downtilt**
 

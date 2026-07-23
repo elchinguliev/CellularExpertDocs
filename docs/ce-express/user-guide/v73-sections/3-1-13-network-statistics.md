@@ -8,8 +8,15 @@ Network Statistics is a tool that calculates the total coverage of a polygon bas
 
 Upon hovering the mouse over a statistic item, options for it appear.
 
+![Image p130](../../../assets/images/ce-express/user-guide-v73/p131-img1.png)
+
 Edit statistic
+
+![Image p130](../../../assets/images/ce-express/user-guide-v73/p131-img2.png)
+
 Delete statistic
+
+![Image p130](../../../assets/images/ce-express/user-guide-v73/p131-img3.png)
 
 A statistics item may be clicked to reveal detailed statistic.
 Display settings

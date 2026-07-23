@@ -25,20 +25,13 @@ Select the technology with the switch button and press Calculate to initiate the
 will be added to the Prediction History dialog.
 
 3.1.18.1 2G technology (GSM/CDMA-850/TETRA/P-25)
+
+![Image p156](../../../assets/images/ce-express/user-guide-v73/p156-img1.png)
+
 Resolution
 Prediction raster cell size in meters.
 Best server count
 There is the possibility to calculate up to 5 best servers. The prediction rasters show the 1st, 2nd, 3rd, and so
-
-![Image p156](../../../assets/images/ce-express/user-guide-v73/p156-img1.png)
-
-![Image p158](../../../assets/images/ce-express/user-guide-v73/p158-img1.png)
-
-![Image p160](../../../assets/images/ce-express/user-guide-v73/p160-img1.png)
-
-![Image p163](../../../assets/images/ce-express/user-guide-v73/p163-img1.png)
-
-![Image p166](../../../assets/images/ce-express/user-guide-v73/p166-img1.png)
 on strongest signal sources.
 Cell template
 If the cell is missing the required parameters, the parameters from the template will be used.
@@ -87,6 +80,9 @@ from nearby cells that operate the adjacent carrier (adjacent frequency channel)
 - Uplink Field Strength raster shows receiver signal strength in dBm.
 
 3.1.18.2 3G technology (UMTS/CDMA)
+
+![Image p158](../../../assets/images/ce-express/user-guide-v73/p158-img1.png)
+
 | Parameter | Description |
 |---|---|
 | Resolution | Prediction raster cell size in meters. |
@@ -130,6 +126,9 @@ o 5th best server shows the fifth shows the strongest field strength cell identi
 - Uplink Field Strength raster shows receiver signal strength in dBm.
 
 3.1.18.3 4G technology (LTE/BWA/WiMAX)
+
+![Image p160](../../../assets/images/ce-express/user-guide-v73/p160-img1.png)
+
 Resolution
 Prediction raster cell size in meters.
 Best server count
@@ -188,6 +187,9 @@ dB.
 - Uplink Throughput
 
 3.1.18.4 5G technology (NR/CBRS)
+
+![Image p163](../../../assets/images/ce-express/user-guide-v73/p163-img1.png)
+
 Resolution
 Prediction raster cell size in meters.
 Best server count
@@ -247,6 +249,9 @@ dB.
 - Uplink Throughput.
 
 3.1.18.5 WiFi technology
+
+![Image p166](../../../assets/images/ce-express/user-guide-v73/p166-img1.png)
+
 Resolution
 Prediction raster cell size in meters.
 Best server count

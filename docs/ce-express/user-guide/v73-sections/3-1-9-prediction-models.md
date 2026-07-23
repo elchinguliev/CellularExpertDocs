@@ -64,8 +64,6 @@ This model is especially suitable for broadcasting, land mobile, and fixed servi
 - **Time and Location Variability:** Predictions can be tailored for different statistical reliability levels (e.g., 50% or 10% time availability).
   
 - **Clutter and Terrain Handling:** The model can incorporate detailed digital elevation models (DEM) and clutter data for more accurate predictions, reflecting the influence of buildings, forests, and other surface features.
-  
-**Use in Cellular Expert**
 
 In the Cellular Expert software, the ITU-R P.1546 model is implemented to support real-world coverage planning and regulatory studies. Users can configure environmental parameters and resolution settings to match local conditions and improve prediction accuracy.
 
@@ -130,67 +128,84 @@ safety margin planning.
 
 **CEC 3GPP TR Indoor** is used in indoor environments (in building) for wireless communication simulations. This model is standardized by 3GPP (3rd Generation Partnership Project) and is part of the TR 38.901 technical report, which specifies channel models for frequencies from 0.5 GHz to 100 GHz. Cellular expert version requires to convert CAD drawing into a clutter height raster file which is imported to workspace. By toggle ON “Load geodata when opening workspace” this raster file becomes visible, allowing for accurate placement and planning new transmitters as indoor antennas.
 
-In the left ribbon, navigate to Layers → Geodata, expand Clutter Heights, and set the opacity to 100% to
-enhance building visibility. For more accurate RF prediction, use a high-resolution grid of 0.1 meters in
-the prediction model to account for wall thickness and fine structural details.
-3.1.9.1 CEC ITU-R Model
-This deterministic model is designed for precise tracking of the main, strongest radio ray, while also
-empirically modeling the scattering of other rays around the receiver. It applies to all ranges of cellular
-mobile and public safety networks, including 2G, 3G, 4G, and 5G, within the 100 MHz to 6 GHz frequency
-range.
-The model is recommended for accurate wide-area propagation and coverage modeling, especially when
-precise and up-to-date topographic data are available. This includes Digital Terrain Models (DTM), building
-data (including height information), and vegetation data (with height details) derived from a Digital Surface
-
 ![Image p95](../../../assets/images/ce-express/user-guide-v73/p095-img1.png)
-Model (DSM). Ideally, these data should be created with LiDAR or similar methods, at a resolution of at
-least 10 meters, though 5, 2, or even 1 meter or higher is preferable for optimal accuracy.
-When building data and their heights are not available, and only DTM and clutter data at a resolution of 10
-meters or lower are accessible, the UniMacro Model should be considered for wide-area propagation and
-coverage modeling in a slightly narrower frequency range of 400 MHz to 3 GHz.
-3.1.9.1.1 CEC ITU-R Model settings
 
-| Parameter | Description |
-|---|---|
-| Configuration name | Name of the prediction configuration name. |
-| Radius | Maximum prediction radius in kilometers to calculate path loss. |
-| Receiver height | Receiver height above the receiver reference height selected in the workspace settings. |
-| Effective earth radius | Earth radius in kilometers, used for the calculations. |
-| Offset coefficient | Represents the offset in decibels added to the path loss grid. The default value is 37 dB. |
-| Distance coefficient | Defines the slope based on the distance between the cell and the receiver location, with a default value of 20. |
-| Distance coefficient obstructed | Represents the slope based on the obstructed distance between the cell and the receiver location. The default value is 30. |
-| Frequency coefficient | Indicates the slope determined by the frequency value, with a default value of 20. |
+In the left ribbon, navigate to Layers → Geodata, expand Clutter Heights, and set the opacity to 100% to enhance building visibility. For more accurate RF prediction, use a high-resolution grid of 0.1 meters in the prediction model to account for wall thickness and fine structural details.
 
-The Clutter Class option defines several predefined clutter categories, each with unique values for
-diffraction loss, clutter loss, penetration loss, and receiver loss coefficients. These parameters describe
-how a signal is impacted when it passes through or terminates in a specific clutter class.
-Nominal distance
-The average distance between objects within the clutter class, ranging from 1 to 100 meters.
-Diffraction loss coefficient
-A multiplier used in diffraction calculations. Lower values result in reduced diffraction loss, while higher
+**3.1.9.1 CEC ITU-R Model**
+
+This deterministic model is designed for precise tracking of the main, strongest radio ray, while also empirically modeling the scattering of other rays around the receiver. It applies to all ranges of cellular mobile and public safety networks, including 2G, 3G, 4G, and 5G, within the 100 MHz to 6 GHz frequency range.
+
+The model is recommended for accurate wide-area propagation and coverage modeling, especially when precise and up-to-date topographic data are available. This includes Digital Terrain Models (DTM), building data (including height information), and vegetation data (with height details) derived from a Digital Surface Model (DSM). Ideally, these data should be created with LiDAR or similar methods, at a resolution of at least 10 meters, though 5, 2, or even 1 meter or higher is preferable for optimal accuracy.
+
+When building data and their heights are not available, and only DTM and clutter data at a resolution of 10 meters or lower are accessible, the UniMacro Model should be considered for wide-area propagation and coverage modeling in a slightly narrower frequency range of 400 MHz to 3 GHz.
+
+**3.1.9.1.1 CEC ITU-R Model settings**
+  
+**Configuration name**
+
+Name of the prediction configuration name.
+
+**Radius**
+
+Maximum prediction radius in kilometers to calculate path loss.
+
+**Receiver height**
+
+Receiver height above the receiver reference height selected in the workspace settings.
+
+**Effective earth radius**
+
+Earth radius in kilometers, used for the calculations.
+
+**Offset coefficient** 
+
+Represents the offset in decibels added to the path loss grid. The default value is 37 dB.
+
+**Distance coefficient**
+
+Defines the slope based on the distance between the cell and the receiver location, with a default value of 20. 
+
+**Distance coefficient obstructed**
+
+Represents the slope based on the obstructed distance between the cell and the receiver location. The default value is 30.
+
+**Frequency coefficient**
+
+Indicates the slope determined by the frequency value, with a default value of 20.
+
+The Clutter Class option defines several predefined clutter categories, each with unique values for diffraction loss, clutter loss, penetration loss, and receiver loss coefficients. These parameters describe how a signal is impacted when it passes through or terminates in a specific clutter class.
 
 ![Image p97](../../../assets/images/ce-express/user-guide-v73/p097-img1.png)
-values increase it. Typically, this coefficient is higher for buildings compared to forests or other clutter
 
-types.ltiplier for diffraction calculations. If value is lower, diffraction will be lower, if higher – then diffraction
-will be higher. Usually, for buildings clutter class this parameter is higher then forest or other clutter classes.
-Enclosed receiver loss offset
-The initial entry loss into an obstacle within the clutter class, expressed as an offset in dB, which is added
-to the path loss grid. Applies when receiver point ends up enclosed within an obstacle within this clutter
-class.
-Enclosed receiver loss scaling coefficient
-Represents additional signal loss as a function of the distance travelled in an obstacle within the clutter
-class. Higher values increase path loss. Applies when receiver point ends up enclosed within an obstacle
-within this clutter class.
-Enclosed receiver loss frequency exponent coefficient
-Reflects additional loss inside an obstacle within the clutter class based on frequency. Higher values
-increase path loss, particularly at higher frequencies. Applies when receiver point ends up enclosed within
-an obstacle within this clutter class.
-Receiver point loss offset
+**Nominal distance**
+
+The average distance between objects within the clutter class, ranging from 1 to 100 meters.
+
+**Diffraction loss coefficient**
+
+A multiplier used in diffraction calculations. Lower values result in reduced diffraction loss, while higher values increase it. Typically, this coefficient is higher for buildings compared to forests or other clutter types.ltiplier for diffraction calculations. If value is lower, diffraction will be lower, if higher – then diffraction will be higher. Usually, for buildings clutter class this parameter is higher then forest or other clutter classes.
+
+**Enclosed receiver loss offset**
+
+The initial entry loss into an obstacle within the clutter class, expressed as an offset in dB, which is added to the path loss grid. Applies when receiver point ends up enclosed within an obstacle within this clutter class.
+
+**Enclosed receiver loss scaling coefficient**
+
+Represents additional signal loss as a function of the distance travelled in an obstacle within the clutter class. Higher values increase path loss. Applies when receiver point ends up enclosed within an obstacle within this clutter class.
+
+**Enclosed receiver loss frequency exponent coefficient**
+
+Reflects additional loss inside an obstacle within the clutter class based on frequency. Higher values increase path loss, particularly at higher frequencies. Applies when receiver point ends up enclosed within an obstacle within this clutter class.
+
+**Receiver point loss offset**
+
 An additional loss offset in dB applied to the path loss grid, representing user equipment (UE) losses.
-Receiver height
-Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main
-receiver height value defined in the prediction model is used.
+
+**Receiver height**
+
+Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used.
+
 Clutter Classes default values
 Nominal Diffraction Enclosed Enclosed Enclosed Receiver
 Distance loss receiver receiver receiver point loss
@@ -242,53 +257,65 @@ High density urban
 | Wood building | 1 1 8.5 0.25 1 0 |
 | Low loss building | 1 1 17 0.25 1 0 |
 High loss building
-3.1.9.2 ITU-R P.452 Model
-This model is designed to estimate radio signal propagation over long distances, including terrestrial paths.
-It is specifically designed to predict signal attenuation caused by various mechanisms, such as diffraction,
-tropospheric scatter, ducting, and reflections from the Earth's surface, across frequencies ranging from 0.1
-GHz to 50 GHz. While other prediction model covers frequencies from 100MHz to 6GHz, we recommend
-to use it from 6GHz to 50GHz frequencies.
-This model is particularly well-suited for microwave links and is widely used for planning and interference
-analysis in fixed and mobile radio communication systems. By accounting for the effects of terrain,
-atmospheric conditions, and other factors, it helps engineers assess link reliability and optimize network
-performance in a variety of environmental scenarios.
-3.1.9.2.1 ITU R. P452 Model settings
 
-| Parameter | Description |
-|---|---|
-| Configuration name | Name of the prediction configuration name. |
-| Radius | Maximum prediction radius in kilometers to calculate path loss. |
-| Receiver height | Receiver height above the receiver reference height selected in the workspace settings. |
-| Effective earth radius | Earth radius in kilometers, used for the calculations. |
-| Offset coefficient | Represents the offset in decibels added to the path loss grid. The default value is 37 dB. |
-| Distance coefficient | Defines the slope based on the distance between the cell and the receiver location, with a default value of 20. |
+**3.1.9.2 ITU-R P.452 Model**
+
+This model is designed to estimate radio signal propagation over long distances, including terrestrial paths. It is specifically designed to predict signal attenuation caused by various mechanisms, such as diffraction tropospheric scatter, ducting, and reflections from the Earth's surface, across frequencies ranging from 0.1 GHz to 50 GHz. While other prediction model covers frequencies from 100MHz to 6GHz, we recommend to use it from 6GHz to 50GHz frequencies.
+
+This model is particularly well-suited for microwave links and is widely used for planning and interference analysis in fixed and mobile radio communication systems. By accounting for the effects of terrain, atmospheric conditions, and other factors, it helps engineers assess link reliability and optimize network performance in a variety of environmental scenarios.
+
+**3.1.9.2.1 ITU R. P452 Model settings**
 
 ![Image p100](../../../assets/images/ce-express/user-guide-v73/p100-img1.png)
-20.
-Frequency coefficient
-Indicates the slope determined by the frequency value, with a default value of 20.
-Clutter class option describes several fixed Clutter names with penetration loss coefficients. These
-parameters describe how a signal is impacted when it passes through or terminates in a specific clutter
-class.
 
-Enclosed receiver loss offset
-The initial entry loss into an obstacle within the clutter class, expressed as an offset in dB, which is added
+**Configuration name**
+
+Name of the prediction configuration name.
+
+**Radius**
+
+Maximum prediction radius in kilometers to calculate path loss.
+
+**Receiver height**
+
+Receiver height above the receiver reference height selected in the workspace settings.
+
+**Effective earth radius**
+
+Earth radius in kilometers, used for the calculations.
+
+**Offset coefficient**
+
+Represents the offset in decibels added to the path loss grid. The default value is 37 dB.
+
+**Distance coefficient**
+
+Defines the slope based on the distance between the cell and the receiver location, with a default value of
+20.
+
+**Frequency coefficient**
+
+Indicates the slope determined by the frequency value, with a default value of 20.
+
+Clutter class option describes several fixed Clutter names with penetration loss coefficients. These parameters describe how a signal is impacted when it passes through or terminates in a specific clutter class.
 
 ![Image p101](../../../assets/images/ce-express/user-guide-v73/p101-img1.png)
-to the path loss grid. Applies when receiver point ends up enclosed within an obstacle within this clutter
-class.
-Enclosed receiver loss scaling coefficient
-Represents additional signal loss as a function of the distance travelled in an obstacle within the clutter
-class. Higher values increase path loss. Applies when receiver point ends up enclosed within an obstacle
-within this clutter class.
-Enclosed receiver loss frequency exponent coefficient
 
-Reflects additional loss inside an obstacle within the clutter class based on frequency. Higher values
-increase path loss, particularly at higher frequencies. Applies when receiver point ends up enclosed within
-an obstacle within this clutter class.
-Receiver height
-Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main
-receiver height value defined in the prediction model is used.
+**Enclosed receiver loss offset**
+
+The initial entry loss into an obstacle within the clutter class, expressed as an offset in dB, which is added to the path loss grid. Applies when receiver point ends up enclosed within an obstacle within this clutter class.
+
+**Enclosed receiver loss scaling coefficient**
+
+Represents additional signal loss as a function of the distance travelled in an obstacle within the clutter class. Higher values increase path loss. Applies when receiver point ends up enclosed within an obstacle within this clutter class.
+
+**Enclosed receiver loss frequency exponent coefficient**
+
+Reflects additional loss inside an obstacle within the clutter class based on frequency. Higher values increase path loss, particularly at higher frequencies. Applies when receiver point ends up enclosed within an obstacle within this clutter class.
+
+**Receiver height**
+Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used.
+
 Clutter Classes default values
 Enclosed Enclosed receiver Enclosed receiver
 receiver loss loss scaling loss frequency
@@ -329,26 +356,23 @@ Wood building
 Low loss building
 17 0.25 1
 High loss building
-3.1.9.3 ITU-R P.1546 Model
-This model is designed for wide-area radio propagation prediction based on empirical data and statistical
-analysis of measured field strengths. It provides path loss estimations over land, sea, and mixed terrain for
-frequencies ranging from 30 MHz to 3 GHz, using parameters defined in ITU-R Recommendation P.1546.
-The model is applicable to terrestrial broadcasting, mobile, and public safety networks, including
-technologies such as 2G, 3G, and 4G, within its frequency range.
-The ITU-R P.1546 model accounts for antenna heights, terrain elevation (DTM), land cover types (clutter),
-and environmental conditions, incorporating corrections for time variability and location-specific effects. It
-is particularly suitable for modeling [line-of-sight](#kw:running-a-profile:ce-express-profile) (LOS) and non-[line-of-sight](#kw:running-a-profile:ce-express-profile) (NLOS) propagation over long
-distances where detailed building data is not available.
-This model is recommended for national or regional coverage planning, especially in cases where high-
-resolution DTM (e.g., 30m) and clutter data (e.g., 10m resolution) are available, but building heights and
-detailed 3D structures are not. Its statistical approach allows for reliable estimations of field strength in both
+
+**3.1.9.3 ITU-R P.1546 Model**
+
+This model is designed for wide-area radio propagation prediction based on empirical data and statistical analysis of measured field strengths. It provides path loss estimations over land, sea, and mixed terrain for frequencies ranging from 30 MHz to 3 GHz, using parameters defined in ITU-R Recommendation P.1546.
+
+The model is applicable to terrestrial broadcasting, mobile, and public safety networks, including technologies such as 2G, 3G, and 4G, within its frequency range.
+
+The ITU-R P.1546 model accounts for antenna heights, terrain elevation (DTM), land cover types (clutter), and environmental conditions, incorporating corrections for time variability and location-specific effects. It is particularly suitable for modeling [line-of-sight](#kw:running-a-profile:ce-express-profile) (LOS) and non-[line-of-sight](#kw:running-a-profile:ce-express-profile) (NLOS) propagation over long distances where detailed building data is not available.
+
+This model is recommended for national or regional coverage planning, especially in cases where high- resolution DTM (e.g., 30m) and clutter data (e.g., 10m resolution) are available, but building heights and detailed 3D structures are not. Its statistical approach allows for reliable estimations of field strength in both urban and rural environments, without requiring ray-tracing or detailed geometry-based modeling.
+
+For scenarios where accurate building geometry and heights are available and a higher modeling frequency range (up to 6 GHz) is required, the CEC ITU-R 3GPP Model is recommended instead, offering greater precision in dense urban and high-frequency applications.
+
+**3.1.9.3.1 ITU R. P1546 Model settings**
 
 ![Image p103](../../../assets/images/ce-express/user-guide-v73/p103-img1.png)
-urban and rural environments, without requiring ray-tracing or detailed geometry-based modeling.
-For scenarios where accurate building geometry and heights are available and a higher modeling frequency
-range (up to 6 GHz) is required, the CEC ITU-R 3GPP Model is recommended instead, offering greater
-precision in dense urban and high-frequency applications.
-3.1.9.3.1 ITU R. P1546 Model settings
+
 | Parameter | Description |
 |---|---|
 | Configuration name | Name of the prediction configuration name. |

@@ -92,3 +92,6 @@ be added to the Layer list tool.
 
 **Results:**
 - Field Strength raster in dBm.
+
+![Image p153](../../../assets/images/ce-express/user-guide-v73/p153-img1.png)
+

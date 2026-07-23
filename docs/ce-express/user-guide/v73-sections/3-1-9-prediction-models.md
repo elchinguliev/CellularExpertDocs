@@ -33,127 +33,102 @@ Prediction models available in Cellular Expert support frequencies from 10kHz to
 
 ![Image p91](../../../assets/images/ce-express/user-guide-v73/p091-img2.png)
 
-CEC ITU-R Model (100MHz – 6GHz) is a combination model intended for use in a variety of different
-radiocommunication systems which is derived explicitly from ITU-R path loss modelling methods as
-follows:
-a. Receive antenna in LOS condition – path loss calculated as FSL based on Recommendation ITU-
-R P.525 (ref URL).
-b. Receive antenna in OLOS condition – total path loss modelled as a combination of basic FSL
-calculated based on Recommendation ITU-R P.525 (ref URL) with included dual slope option and
-CE combined clutter loss modelling, which is the combination of Recommendation ITU-R P.2108
-(ref URL) and ITU-R P.833 (2015) Attenuation in vegetation.
-c. Receive antenna in NLOS condition – path loss as a combination of basic FSL calculated based
-on Recommendation ITU-R P.525 (ref URL) with included dual slope option, additional losses due
-to diffraction calculated based on Recommendation ITU-R P.526 (ref URL).
-d. Receive antenna in OLOS+NLOS condition – path loss as a combination of basic FSL calculated
-based on Recommendation ITU-R P.525 (ref URL) with included dual slope option, additional
-losses due to diffraction calculated based on Recommendation ITU-R P.526 (ref URL), and CE
-combined clutter loss modelling, which is the combination of Recommendation ITU-R P.2108 (ref
-URL) and Single Knife-Edge diffraction.
-e. Receive antenna in the clutter (building, vegetation, etc) – path loss is calculated as described
-above based on LOS, OLOS and NLOS conditions, and additional penetration loss is added to
-simulate Outdoor-to-Indoor scenario which is based on ITU-R P.833 recommendation.
-ITU-R P.452 Model (6GHz – 50GHz) is provided as a universally applicable model with a very wide
-frequency range from 0.1-50 GHz. Its implementation is based on the methodology described in the
-Recommendation ITU-R P.452 (ref URL). This model does not provide for definition of OLOS visibility
-condition; instead, it considers clutter as part of the general obstacles category and accordingly
-distinguishes only two radio visibility cases:
-a. Receive antenna in LOS condition – path loss model based on FSL principle.
-b. Receive antenna in NLOS condition – total path loss modelled using a combination of basic
-transmission losses and losses due to diffraction.
-ITU-R P.1546 Model (30MHz – 4GHz) (ref URL) is a widely recognized radio propagation prediction method
-developed by the International Telecommunication Union (ITU). It is primarily used for estimating point-
-to-area radio signal coverage in the frequency range from 30 MHz to 4000 MHz over terrestrial paths.
-This model is especially suitable for broadcasting, land mobile, and fixed services.
-Key Features
-- Versatile Application: Supports predictions over land, sea, and mixed paths, making it adaptable
-to various geographic conditions.
-- Input Parameters: Takes into account factors such as transmitter and receiver heights, terrain
-profile, clutter (buildings, vegetation), climate, and time/location variability.
-- Time and Location Variability: Predictions can be tailored for different statistical reliability levels
-(e.g., 50% or 10% time availability).
-- Clutter and Terrain Handling: The model can incorporate detailed digital elevation models
-(DEM) and clutter data for more accurate predictions, reflecting the influence of buildings, forests,
-and other surface features.
-Use in Cellular Expert
-In the Cellular Expert software, the ITU-R P.1546 model is implemented to support real-world coverage
-planning and regulatory studies. Users can configure environmental parameters and resolution settings
-to match local conditions and improve prediction accuracy.
+**CEC ITU-R Model (100MHz – 6GHz)** is a combination model intended for use in a variety of different radiocommunication systems which is derived explicitly from ITU-R path loss modelling methods as follows:
 
-LOS ITU-R P.525 Model (6GHz – 100GHz) is the FSL path loss calculated based on the method in
-Recommendation ITU-R P.525 (ref URL). As such it could be used for modelling radio links where LOS is
-considered a necessary condition, e.g., for Fixed (Point-to-Point) Links or Mobile Systems in [mmWave](#kw:56-step-8-losonly-prediction-for-mmwave:ce-express-tr-models)
+a. Receive antenna in LOS condition – path loss calculated as FSL based on Recommendation ITU-R P.525 (ref URL).
+
+b. Receive antenna in OLOS condition – total path loss modelled as a combination of basic FSL calculated based on Recommendation ITU-R P.525 (ref URL) with included dual slope option and CE combined clutter loss modelling, which is the combination of Recommendation ITU-R P.2108 (ref URL) and ITU-R P.833 (2015) Attenuation in vegetation.
+
+c. Receive antenna in NLOS condition – path loss as a combination of basic FSL calculated based on Recommendation ITU-R P.525 (ref URL) with included dual slope option, additional losses due to diffraction calculated based on Recommendation ITU-R P.526 (ref URL).
+
+d. Receive antenna in OLOS+NLOS condition – path loss as a combination of basic FSL calculated based on Recommendation ITU-R P.525 (ref URL) with included dual slope option, additional losses due to diffraction calculated based on Recommendation ITU-R P.526 (ref URL), and CE
+combined clutter loss modelling, which is the combination of Recommendation ITU-R P.2108 (ref URL) and Single Knife-Edge diffraction.
+
+e. Receive antenna in the clutter (building, vegetation, etc) – path loss is calculated as described above based on LOS, OLOS and NLOS conditions, and additional penetration loss is added to simulate Outdoor-to-Indoor scenario which is based on ITU-R P.833 recommendation.
+
+**ITU-R P.452 Model (6GHz – 50GHz)** is provided as a universally applicable model with a very wide frequency range from 0.1-50 GHz. Its implementation is based on the methodology described in the Recommendation. ITU-R P.452 (ref URL). This model does not provide for definition of OLOS visibility condition; instead, it considers clutter as part of the general obstacles category and accordingly distinguishes only two radio visibility cases:
+
+a. Receive antenna in LOS condition – path loss model based on FSL principle.
+
+b. Receive antenna in NLOS condition – total path loss modelled using a combination of basic transmission losses and losses due to diffraction.
+
+**ITU-R P.1546 Model (30MHz – 4GHz)** (ref URL) is a widely recognized radio propagation prediction method developed by the International Telecommunication Union (ITU). It is primarily used for estimating point- to-area radio signal coverage in the frequency range from 30 MHz to 4000 MHz over terrestrial paths.
+This model is especially suitable for broadcasting, land mobile, and fixed services.
+
+**Key Features**
+
+- **Versatile Application:** Supports predictions over land, sea, and mixed paths, making it adaptable to various geographic conditions.
+  
+- I**nput Parameters:** Takes into account factors such as transmitter and receiver heights, terrain profile, clutter (buildings, vegetation), climate, and time/location variability.
+  
+- **Time and Location Variability:** Predictions can be tailored for different statistical reliability levels (e.g., 50% or 10% time availability).
+  
+- **Clutter and Terrain Handling:** The model can incorporate detailed digital elevation models (DEM) and clutter data for more accurate predictions, reflecting the influence of buildings, forests, and other surface features.
+  
+**Use in Cellular Expert**
+
+In the Cellular Expert software, the ITU-R P.1546 model is implemented to support real-world coverage planning and regulatory studies. Users can configure environmental parameters and resolution settings to match local conditions and improve prediction accuracy.
+
+**LOS ITU-R P.525 Model (6GHz – 100GHz)** is the FSL path loss calculated based on the method in Recommendation ITU-R P.525 (ref URL). As such it could be used for modelling radio links where LOS is considered a necessary condition, e.g., for Fixed (Point-to-Point) Links or Mobile Systems in [mmWave](#kw:56-step-8-losonly-prediction-for-mmwave:ce-express-tr-models)
 bands.
-UniMacro Model (400MHz – 3GHz) is the CE’s proprietary combination model developed over the years
-of practical experience with the operational planning of cellular mobile networks in the frequency ranges
-from 400-3000 MHz. It had been fine-tuned to produce coverage predictions that are most closely aligned
-with what could be expected to be experienced by the actual mobile network users in the field. The model
-will model different path losses depending on radio visibility conditions as follows:
-a. Receive antenna in LOS condition – path loss model based on FSL principle and dual slope based
-on breakpoint distance.
-b. Receive antenna in OLOS condition – path loss modelled using Extended Hata (Open Area) model
-and CE combined clutter loss modelling, which is the combination of Recommendation ITU-R
-P.2108 (ref URL) and ITU-R P.833 (2015) Attenuation in vegetation.
-c. Receive antenna in NLOS condition – path loss modelled using Extended Hata model with
-additional losses due to diffraction calculated based on Recommendation ITU-R P.526 (ref URL).
-d. Receive antenna in OLOS+NLOS condition – path loss modelled using Extended Hata (Open Area)
-model with additional losses due to diffraction calculated based on Recommendation ITU-R P.526
-(ref URL), and CE combined clutter loss modelling, which is the combination of Recommendation
-ITU-R P.2108 (ref URL) and Single Knife-Edge diffraction.
-e. Receive antenna in the clutter (building, vegetation, etc) – path loss is calculated as described
-above based on LOS, OLOS and NLOS conditions, and additional penetration loss is added to
-simulate Outdoor-to-Indoor scenario which is based on ITU-R P.833 recommendation.
-ITU-R P.368 (10kHz – 30MHz) provides a standardized prediction method for assessing the ground-wave
-field strength of radio waves in the 10 kHz to 30 MHz frequency range. This frequency band is primarily
-associated with long-range communication systems using amplitude modulation (AM) and shortwave
-bands, often for maritime, aeronautical, military, and broadcasting services.
-This model offers guidance for engineers, planners, and researchers working on system design and
-analysis in the MF (Medium Frequency) and HF (High Frequency) bands.
-The ITU-R P.368 model calculates signal strength based on several key environmental and system
-parameters:
-- Frequency (f)
-Higher frequencies tend to attenuate more rapidly over ground. The attenuation rate increases
-significantly above 3 MHz.
-- Distance (d)
-Field strength diminishes with increasing distance due to geometrical spreading and absorption by
-the ground and atmosphere.
-- Surface refractivity, Surface Conductivity (σ) and Relative Permittivity (εᵣ)
-The surface over which the wave propagates critically affects signal strength:
+
+**UniMacro Model (400MHz – 3GHz)** is the CE’s proprietary combination model developed over the years of practical experience with the operational planning of cellular mobile networks in the frequency ranges from 400-3000 MHz. It had been fine-tuned to produce coverage predictions that are most closely aligned with what could be expected to be experienced by the actual mobile network users in the field. The model will model different path losses depending on radio visibility conditions as follows:
+
+a. Receive antenna in LOS condition – path loss model based on FSL principle and dual slope based on breakpoint distance.
+
+b. Receive antenna in OLOS condition – path loss modelled using Extended Hata (Open Area) model and CE combined clutter loss modelling, which is the combination of Recommendation ITU-R P.2108 (ref URL) and ITU-R P.833 (2015) Attenuation in vegetation.
+
+c. Receive antenna in NLOS condition – path loss modelled using Extended Hata model with additional losses due to diffraction calculated based on Recommendation ITU-R P.526 (ref URL).
+
+d. Receive antenna in OLOS+NLOS condition – path loss modelled using Extended Hata (Open Area) model with additional losses due to diffraction calculated based on Recommendation ITU-R P.526 (ref URL), and CE combined clutter loss modelling, which is the combination of Recommendation ITU-R P.2108 (ref URL) and Single Knife-Edge diffraction.
+
+e. Receive antenna in the clutter (building, vegetation, etc) – path loss is calculated as described above based on LOS, OLOS and NLOS conditions, and additional penetration loss is added to simulate Outdoor-to-Indoor scenario which is based on ITU-R P.833 recommendation.
+ITU-R P.368 (10kHz – 30MHz) provides a standardized prediction method for assessing the ground-wave field strength of radio waves in the 10 kHz to 30 MHz frequency range. This frequency band is primarily associated with long-range communication systems using amplitude modulation (AM) and shortwave bands, often for maritime, aeronautical, military, and broadcasting services.
+
+This model offers guidance for engineers, planners, and researchers working on system design and analysis in the MF (Medium Frequency) and HF (High Frequency) bands. The ITU-R P.368 model calculates signal strength based on several key environmental and system parameters:
+
+- **Frequency (f)**
+Higher frequencies tend to attenuate more rapidly over ground. The attenuation rate increases significantly above 3 MHz.
+
+- **Distance (d)**
+Field strength diminishes with increasing distance due to geometrical spreading and absorption bythe ground and atmosphere.
+
+- **Surface refractivity, Surface Conductivity (σ) and Relative Permittivity (εᵣ)**
+  The surface over which the wave propagates critically affects signal strength:
+  
 - Sea water: High conductivity, minimal loss
 - Dry land or desert: Low conductivity, high loss
 - Typical values range from:
 o Conductivity: 10⁻⁴ to 5 S/m
-
 o Relative permittivity: 4 to 81
-ISO 9613 standard provides a validated, practical method for predicting the outdoor propagation of sound,
-and is increasingly applied in siren sound modeling within public security, emergency warning systems, and
-defense operations. This modeling ensures that acoustic alert systems (e.g. civil defense sirens, disaster
-warnings, military alert signals) achieve their intended coverage, intelligibility, and effectiveness across
-various terrain and urban environments.
-Purpose in the Public Security Context
+
+**ISO 9613** standard provides a validated, practical method for predicting the outdoor propagation of sound, and is increasingly applied in siren sound modeling within public security, emergency warning systems, and defense operations. This modeling ensures that acoustic alert systems (e.g. civil defense sirens, disaster warnings, military alert signals) achieve their intended coverage, intelligibility, and effectiveness across various terrain and urban environments.
+
+**Purpose in the Public Security Context**
+
 In emergency and defense scenarios, reliable audibility of sirens is critical for:
 - Civil alert and evacuation systems
 - Military base perimeter alarms
 - Air raid or missile defense warning networks
 - Disaster alert systems (e.g. earthquakes, tsunamis, nuclear incidents)
-By applying ISO 9613-2, engineers can model how far a siren can be heard under specific environmental
-conditions, optimizing:
+  
+By applying ISO 9613-2, engineers can model how far a siren can be heard under specific environmental conditions, optimizing:
+
 - Placement and spacing of sirens
 - Sound power selection
 - Minimization of acoustic shadow zones
 - Compliance with national safety and civil defense regulations
+  
 The model assumes standard favorable propagation:
+
 - Downwind or moderate inversion conditions
 - Ambient temperature ~10 °C
 - Relative humidity ~70%
+  
 These are conservative conditions ensuring that siren reach is never overestimated, supporting public
 safety margin planning.
-CEC 3GPP TR Indoor is used in indoor environments (in building) for wireless communication simulations.
-This model is standardized by 3GPP (3rd Generation Partnership Project) and is part of the TR 38.901
-technical report, which specifies channel models for frequencies from 0.5 GHz to 100 GHz. Cellular expert
-version requires to convert CAD drawing into a clutter height raster file which is imported to workspace. By
-toggle ON “Load geodata when opening workspace” this raster file becomes visible, allowing for accurate
-placement and planning new transmitters as indoor antennas.
+
+**CEC 3GPP TR Indoor** is used in indoor environments (in building) for wireless communication simulations. This model is standardized by 3GPP (3rd Generation Partnership Project) and is part of the TR 38.901 technical report, which specifies channel models for frequencies from 0.5 GHz to 100 GHz. Cellular expert version requires to convert CAD drawing into a clutter height raster file which is imported to workspace. By toggle ON “Load geodata when opening workspace” this raster file becomes visible, allowing for accurate placement and planning new transmitters as indoor antennas.
 
 In the left ribbon, navigate to Layers → Geodata, expand Clutter Heights, and set the opacity to 100% to
 enhance building visibility. For more accurate RF prediction, use a high-resolution grid of 0.1 meters in

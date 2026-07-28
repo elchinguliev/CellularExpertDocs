@@ -1,27 +1,26 @@
 # 3.1.18 RF Prediction
 
 Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p153-img2.png) to open RF Prediction tool.
-This tool allows to perform predictions for cell objects selected on the map. Calculations can be performed
 
+This tool allows to perform predictions for cell objects selected on the map. Calculations can be performed for more than one cell at the same time. Use the Features tool to select cells on the map.
 
 ![Image p153](../../../assets/images/ce-express/user-guide-v73/p153-img3.png)
-for more than one cell at the same time. Use the Features tool to select cells on the map.
 
 The selected cell count is visible in the RF Prediction dialog.
-The cells are split into technologies automatically. The cell’s technology is defined by the attributes in the
 
 ![Image p154](../../../assets/images/ce-express/user-guide-v73/p154-img1.png)
 
+The cells are split into technologies automatically. The cell’s technology is defined by the attributes in the technology field.
+
 ![Image p154](../../../assets/images/ce-express/user-guide-v73/p154-img2.png)
 
-![Image p154](../../../assets/images/ce-express/user-guide-v73/p154-img3.png)
-technology field.
 To preview the calculation parameters, use the expand option for the technology.
 
-Select the technology with the switch button and press Calculate to initiate the predictions. The prediction
+![Image p154](../../../assets/images/ce-express/user-guide-v73/p154-img3.png)
+
+Select the technology with the switch button and press Calculate to initiate the predictions. The prediction will be added to the Prediction History dialog.
 
 ![Image p155](../../../assets/images/ce-express/user-guide-v73/p155-img1.png)
-will be added to the Prediction History dialog.
 
 3.1.18.1 2G technology (GSM/CDMA-850/TETRA/P-25)
 

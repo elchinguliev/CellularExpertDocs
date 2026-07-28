@@ -1,37 +1,42 @@
 # 3.1.44 HCM requests
 
 Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p239-img4.png) to open HCM requests tool.
+
 This is the main component used for HCM calculations. Main functionality:
 - To list and process all the incoming and outgoing coordination requests
 - Create new incoming coordination request
 - Create outgoing coordination request
 
-![Image p239](../../../assets/images/ce-express/user-guide-v73/p239-img1.png)
-
-![Image p239](../../../assets/images/ce-express/user-guide-v73/p239-img2.png)
-
-![Image p239](../../../assets/images/ce-express/user-guide-v73/p239-img3.png)
-
 3.1.44.1 List coordination requests
-Own requests
-This lists all outgoing coordination requests (sent to other countries).
-Starts the process of creating a new outgoing request
-The list of Own requests contains following parameters:
-- Destination country
-- File contents code (from file header)
 
 ![Image p240](../../../assets/images/ce-express/user-guide-v73/p240-img1.png)
 
+**Own requests**
+
+This lists all outgoing coordination requests (sent to other countries).
+
 ![Image p240](../../../assets/images/ce-express/user-guide-v73/p240-img2.png)
 
-![Image p241](../../../assets/images/ce-express/user-guide-v73/p241-img1.png)
+Starts the process of creating a new outgoing request
+
+The list of Own requests contains following parameters:
+
+- Destination country
+- File contents code (from file header)
 - Date of coordination request (from file header)
 - You assigned reference number (used for your convenience)
 - Status of coordination request
-Foreign requests
+
+**Foreign requests**
+
 This lists all incoming coordination requests (received from other countries).
+
+![Image p241](../../../assets/images/ce-express/user-guide-v73/p241-img1.png)
+
 Starts the process of importing a new incoming request
+
 The list of Foreign requests contains following parameters:
+
 - Country of the origin
 - File contents code (from file header)
 - Date of coordination request (from file header)
@@ -39,62 +44,94 @@ The list of Foreign requests contains following parameters:
 - Status of coordination request
 Each coordination request contains detailed information about the request and/or the answer.
 
-| Parameter | Description |
-|---|---|
-| Country from | Country of origin |
-| Country to | Destination country |
-| Registration number | Your assigned registration number used for your convenience (optional) |
-| Registration date | Your date of registration of the coordination request, used for your convenience (optional) |
-| Responsible person | Name of the responsible person (from HCM request file header) |
-| Phone | Phone number from HCM request file header |
-| Telefax | Telefax number from HCM request file header |
-
 ![Image p242](../../../assets/images/ce-express/user-guide-v73/p242-img1.png)
 
-| Parameter | Description |
-|---|---|
-| Email | Email from HCM request file header |
-| Number of records | Number of records from HCM request file header |
-| Writing date | Writing date from HCM request file header |
-Status
+**Country from**
+
+Country of origin
+
+**Country to**
+
+Destination country
+
+**Registration number**
+
+Your assigned registration number used for your convenience (optional)
+
+**Registration date**
+
+Your date of registration of the coordination request, used for your convenience (optional)
+
+**Responsible person**
+
+Name of the responsible person (from HCM request file header)
+
+**Phone**
+
+Phone number from HCM request file header
+
+**Telefax**
+
+Telefax number from HCM request file header
+
+**Email**
+
+Email from HCM request file header
+
+**Number of records**
+
+Number of records from HCM request file header
+
+**Writing date**
+
+Writing date from HCM request file header
+
+**Status**
+
 Current status of the coordination request. Different statuses are available:
+
 - Processing.
 - Processing ended.
 - Processing error. This shows that processing resulted in error.
-- Ready to send. This shows that outgoing request is ready to be sent. Usually, user may need to enter
-additional parameters required for coordination request or edit defaults before finishing coordination
-request.
+- Ready to send. This shows that outgoing request is ready to be sent. Usually, user may need to enter additional parameters required for coordination request or edit defaults before finishing coordination request.
 - Finished
+  
 Each request contains a toolbar of the following tools:
+
 - Download request file. downloads original coordination request file.
 - View request file. Shows content of the original request file.
-- View associated records. Shows current records associated with the request file. Usually, when
-incoming request is processed, all records are imported into the internal database but with time
-they may be deleted by another request, or changed. The same is valid for the records of outgoing
-requests – they may later be changed or deleted. This functionality shows current parameters of
+- View associated records. Shows current records associated with the request file. Usually, when incoming request is processed, all records are imported into the internal database but with time they may be deleted by another request, or changed. The same is valid for the records of outgoing requests – they may later be changed or deleted. This functionality shows current parameters of
 the imported (or exported) data.
 - View processing results. Opens calculation results that have been performed for the selected
 coordination request.
 - Recalculate. Restarts calculations for the selected coordination request.
+  
 Answer to coordination request contains the same parameters as the request.
+
 3.1.44.2 Create new incoming coordination request
-New incoming (foreign) coordination request is created by clicking New foreign request in HCM requests.
-Initially this displays area where received coordination file can be dropped.
-When coordination file is loaded map displays the records of the file with additional information, such as
+New incoming (foreign) coordination request is created by clicking New foreign request in HCM requests. Initially this displays area where received coordination file can be dropped.
 
 ![Image p243](../../../assets/images/ce-express/user-guide-v73/p243-img1.png)
-content of HCM file header, registration data, and Trigger options.
 
-Your data
-| Parameter | Description |
-|---|---|
-| Calculation Name | Name of the calculation that will be displayed in Prediction history. |
-| Registration Number | You can assign registration number for the coordination request. Optional. |
-| Registration Date | You can assign here registration date for the coordination request. Optional. |
+When coordination file is loaded map displays the records of the file with additional information, such as content of HCM file header, registration data, and Trigger options.
 
 ![Image p244](../../../assets/images/ce-express/user-guide-v73/p244-img1.png)
 
 ![Image p244](../../../assets/images/ce-express/user-guide-v73/p244-img2.png)
+
+**Your data**
+
+**Calculation Name**
+
+Name of the calculation that will be displayed in Prediction history.
+
+**Registration Number**
+
+You can assign registration number for the coordination request. Optional.
+
+**Registration Date**
+
+You can assign here registration date for the coordination request. Optional.
 
 ![Image p245](../../../assets/images/ce-express/user-guide-v73/p245-img1.png)
 

@@ -134,7 +134,3 @@ An input field likely used to define a conversion factor or another parameter fo
 
 **Beta**
 An input field for the beta parameter, which may be part of the statistical model or conversion formula within the ITU-R P.841 recommendation.
-
-
-![Image p197](../../../assets/images/ce-express/user-guide-v73/p197-img2.png)
-the ITU-R P.841 recommendation.

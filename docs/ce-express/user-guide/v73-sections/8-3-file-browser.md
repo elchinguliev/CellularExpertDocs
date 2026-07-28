@@ -1,6 +1,9 @@
 # 8.3 File browser
 
-Open the Data Export menu with and choose “File Browser”:
+Open the Data Export menu with ![icon](../../../assets/images/ce-express/user-guide-v73/p287-img3.png) and choose “File Browser”:
+
+![Image p287](../../../assets/images/ce-express/user-guide-v73/p287-img4.png)
+
 View attached files, download or delete files:
 
 Images are shown as thumbs. Note that it is possible to rotate the images.

@@ -1,14 +1,6 @@
 # 4.1 Sites
 
-Describes the tower's location and its identification. An object is not used for the calculations. It is possible
-
-![Image p261](../../../assets/images/ce-express/user-guide-v73/p261-img1.png)
-
-![Image p261](../../../assets/images/ce-express/user-guide-v73/p261-img2.png)
-
-![Image p261](../../../assets/images/ce-express/user-guide-v73/p261-img3.png)
-
-to add additional fields, but here are the main fields used for this object.
+Describes the tower's location and its identification. An object is not used for the calculations. It is possible to add additional fields, but here are the main fields used for this object.
 
 **site_name**
 Object identification.

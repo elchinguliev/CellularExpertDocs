@@ -130,7 +130,9 @@ These settings are used to handle statistical conversions for telecommunication 
 Options to either define a fixed conversion factor or to calculate it based on additional inputs.
 
 **Q1 (1...12)**
+
 An input field likely used to define a conversion factor or another parameter for a specific month or set of months.
 
 **Beta**
+
 An input field for the beta parameter, which may be part of the statistical model or conversion formula within the ITU-R P.841 recommendation.

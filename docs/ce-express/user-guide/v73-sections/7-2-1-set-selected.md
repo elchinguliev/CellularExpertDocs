@@ -16,15 +16,3 @@ records with the database using the Synchronize changes Tool.
 3. Define the new value and click Change
 
 ![Image p279](../../../assets/images/ce-express/user-guide-v73/p279-img1.png)
-
-4. Select the type of component you want to link to (here: calculation tasks)
-
-![Image p280](../../../assets/images/ce-express/user-guide-v73/p280-img2.png)
-
-5. Choose the repeaters(s) you want to link to and confirm the selection with ![icon](../../../assets/images/ce-express/user-guide-v73/p280-img5.png) in the top left corner
-
-![Image p280](../../../assets/images/ce-express/user-guide-v73/p280-img3.png)
-
-6. The link has been created
-
-![Image p280](../../../assets/images/ce-express/user-guide-v73/p280-img4.png)

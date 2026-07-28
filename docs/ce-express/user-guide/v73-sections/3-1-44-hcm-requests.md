@@ -187,127 +187,187 @@ For file with contents code O, the following steps are performed:
 - Own records for the database are selected that have coordination following status with the country
 of the coordination request: C, E, F, G, H, P
 - File content is compared against the selected records and comparison report is created.
-3.1.44.3 Display processing results
-View processing results displays calculations performed on an incoming request file of type N or O.
-File containing new entries (N)
 
-| Parameter | Description |
-|---|---|
-| Type | Type of station of the test record |
-| Name | Name of station of the test record |
-| Frequency | Combines frequency and frequency unit of the test record |
-| Reference | Coordination reference of the test record |
-| Original status | Status of coordination of the test record |
-Max TD
-Maximum threshold degradation. In case of test TX record, it shows maximum threshold degradation
-cause by the transmitter to a receiver of the reference file. In case of test RX record, it shows threshold
+3.1.44.3 Display processing results
+
+View processing results displays calculations performed on an incoming request file of type N or O.
+
+**File containing new entries (N)**
 
 ![Image p247](../../../assets/images/ce-express/user-guide-v73/p247-img1.png)
 
-![Image p247](../../../assets/images/ce-express/user-guide-v73/p247-img2.png)
-degradation of this particular receiver. For PTX or PRX test record, it shows maximum threshold
-degradation of either test or reference receiver.
-Proposed Coord. Status
-If Max TD is lower than 1 dB and original coordination status is B, software automatically sets proposed
-coordination status to C. This value will be inserted into the answer file.
-Remarks
+**Type**
+
+Type of station of the test record
+
+**Name**
+
+Name of station of the test record
+
+**Frequency**
+
+Combines frequency and frequency unit of the test record
+
+**Reference**
+
+Coordination reference of the test record
+
+**Original status**
+
+Status of coordination of the test record
+
+**Max TD**
+
+Maximum threshold degradation. In case of test TX record, it shows maximum threshold degradation cause by the transmitter to a receiver of the reference file. In case of test RX record, it shows threshold degradation of this particular receiver. For PTX or PRX test record, it shows maximum threshold degradation of either test or reference receiver.
+
+**Proposed Coord. Status**
+
+If Max TD is lower than 1 dB and original coordination status is B, software automatically sets proposed coordination status to C. This value will be inserted into the answer file.
+
+**Remarks**
+
 User can write separate remarks for each HCM record. This information will be added to the answer file.
 
+![Image p247](../../../assets/images/ce-express/user-guide-v73/p247-img2.png)
+
 Shows list of calculated stations against particulat test record.
-Profile and calculation values are extracted from HCM calculation report file.
-File containing overall list (O)
-Differences in records
-Shows records that have at least one different parameter value. By clicking on the record, detailed
-comparison widget is displayed:
 
 ![Image p248](../../../assets/images/ce-express/user-guide-v73/p248-img1.png)
 
+Profile and calculation values are extracted from HCM calculation report file.
+
+**File containing overall list (O)**
+
 ![Image p248](../../../assets/images/ce-express/user-guide-v73/p248-img2.png)
 
-| Parameter | Description |
-|---|---|
-| Parameter name | Name of the parameter defined in Annex 2B of HCM-Agreement. |
-| Database value | Value of the record stored in the database. |
-| Received value | Value of the record in the received request file. |
-| Error | Contains error message if error occurs while processing the record. |
-| Download report as CSV file | Downloads report containing all the records of this section |
+**Differences in records**
+
+Shows records that have at least one different parameter value. By clicking on the record, detailed comparison widget is displayed:
 
 ![Image p249](../../../assets/images/ce-express/user-guide-v73/p249-img1.png)
 
+**Parameter name**
+
+Name of the parameter defined in Annex 2B of HCM-Agreement.
+
+**Database value**
+
+Value of the record stored in the database.
+
+**Received value**
+
+Value of the record in the received request file.
+
+**Error**
+
+Contains error message if error occurs while processing the record.
+
 ![Image p249](../../../assets/images/ce-express/user-guide-v73/p249-img2.png)
 
-Section “Missing in database” lists all the records that are present in the received file but missing in the
+**Download report as CSV file**
+
+Downloads report containing all the records of this section
 
 ![Image p250](../../../assets/images/ce-express/user-guide-v73/p250-img1.png)
+
+Section "Missing in database" lists all the records that are present in the received file but missing in the database. By clicking on the record, a detailed comparison widget is displayed with a few additional parameters of the record:
 
 ![Image p250](../../../assets/images/ce-express/user-guide-v73/p250-img2.png)
 
 ![Image p250](../../../assets/images/ce-express/user-guide-v73/p250-img3.png)
-database. By clicking on the record, a detailed comparison widget is displayed with a few additional
-parameters of the record:
-Download report as CSV file
+
+**Download report as CSV file**
+
 Downloads report containing all the records of this section
 
-Section “Missing in received list” displays all the records that are present in the database but missing in
-the received file. By clicking on the record, a detailed comparison widget is displayed with a few additional
-
 ![Image p251](../../../assets/images/ce-express/user-guide-v73/p251-img1.png)
+
+Section "Missing in received list" displays all the records that are present in the database but missing in the received file. By clicking on the record, a detailed comparison widget is displayed with a few additional parameters of the record:
 
 ![Image p251](../../../assets/images/ce-express/user-guide-v73/p251-img2.png)
 
 ![Image p251](../../../assets/images/ce-express/user-guide-v73/p251-img3.png)
-parameters of the record:
-Download report as CSV file
-Downloads report containing all the records of this section
-3.1.44.4 Create new outgoing coordination request
-New outgoing (own) coordination request is created by clicking New own request (in HCM requests). This
-opens a new widget:
 
-Request type N
-For new coordination request (New entries) user must select at least one link that is going to be sent for
+**Download report as CSV file**
+
+Downloads report containing all the records of this section
+
+3.1.44.4 Create new outgoing coordination request
+
+New outgoing (own) coordination request is created by clicking New own request (in HCM requests). This opens a new widget:
 
 ![Image p252](../../../assets/images/ce-express/user-guide-v73/p252-img1.png)
-coordination to a country set under “Send to country” and link template, in case one is used.
-By clicking Create button new outgoing coordination request is created and displayed in the list of Own
-requests, containing status “Ready to send”. The request contains entries of selected link, converted to
-HCM Annex 2B format. HCM entries are stored in the database.
-Request type D
-This creates coordination request containing a list of deleted HCM records. The records to be deleted
-must be selected by the user. If the selected HCM records have been coordinated by different
-administrations, several coordination requests will be created.
-Request type O
-This creates a coordination request containing an overall list of coordinated HCM records with the defined
-target country. Only records with coordination status C, E, F, G, H, and P will be included.
-Created coordination request
 
-| Parameter | Description |
-|---|---|
-| Country from | Country of origin. It is defined in the settings of the user. |
-| Country to | Target country, to which coordination request is to be sent. |
-| Registration number | Optional identification of the coordination request. |
-| Registration date | Optional registration date of the request. |
-| Responsible person | Name, as defined in Annex 2B of HCM-Agreement. This field is automatically filled with information from user settings. |
-| Phone | Phone number, as defined in Annex 2B of HCM-Agreement. This field is automatically filled with information from user settings. |
-information from user settings.
+**Request type N**
 
-| Parameter | Description |
-|---|---|
-| Telefax | Telefax number, as defined in Annex 2B of HCM-Agreement. There is no such parameter in the user settings therefore it is not filled in automatically. |
-| Email | Email, as defined in Annex 2B of HCM-Agreement. This field is automatically filled with information from user settings. |
-| Number of records | Defined in Annex 2B of HCM-Agreement. This field is automatically calculated. |
-| Writing date | Writing date, as defined in Annex 2B of HCM-Agreement. Date of the creation of coordination request is automatically written to this field. |
-| Status | Status of coordination request |
-Send email
-If enabled, email is automatically sent to the contact person of the target country. For this to work, the
-following conditions have to be fulfilled:
+For new coordination request (New entries) user must select at least one link that is going to be sent for coordination to a country set under "Send to country" and link template, in case one is used.
+
+By clicking Create button new outgoing coordination request is created and displayed in the list of Own requests, containing status "Ready to send". The request contains entries of selected link, converted to HCM Annex 2B format. HCM entries are stored in the database.
+
+**Request type D**
+
+This creates coordination request containing a list of deleted HCM records. The records to be deleted must be selected by the user. If the selected HCM records have been coordinated by different administrations, several coordination requests will be created.
+
+**Request type O**
+
+This creates a coordination request containing an overall list of coordinated HCM records with the defined target country. Only records with coordination status C, E, F, G, H, and P will be included.
+
+**Created coordination request**
+
+![Image p253](../../../assets/images/ce-express/user-guide-v73/p253-img1.png)
+
+**Country from**
+
+Country of origin. It is defined in the settings of the user.
+
+**Country to**
+
+Target country, to which coordination request is to be sent.
+
+**Registration number**
+
+Optional identification of the coordination request.
+
+**Registration date**
+
+Optional registration date of the request.
+
+**Responsible person**
+
+Name, as defined in Annex 2B of HCM-Agreement. This field is automatically filled with information from user settings.
+
+**Phone**
+
+Phone number, as defined in Annex 2B of HCM-Agreement. This field is automatically filled with information from user settings.
+
+**Telefax**
+
+Telefax number, as defined in Annex 2B of HCM-Agreement. There is no such parameter in the user settings therefore it is not filled in automatically.
+
+**Email**
+
+Email, as defined in Annex 2B of HCM-Agreement. This field is automatically filled with information from user settings.
+
+**Number of records**
+
+Defined in Annex 2B of HCM-Agreement. This field is automatically calculated.
+
+**Writing date**
+
+Writing date, as defined in Annex 2B of HCM-Agreement. Date of the creation of coordination request is automatically written to this field.
+
+**Status**
+
+Status of coordination request
+
+**Send email**
+
+If enabled, email is automatically sent to the contact person of the target country. For this to work, the following conditions have to be fulfilled:
 - SMTP server defined in Express settings.
 - Email of the contact person of the target country set in the table hcm_countries.
-If this option is not enabled, coordination request file is prepared but not sent automatically. User must
-send it manually.
-Finish
-It updates coordination request with the data and creates content of Annex 2B data exchange file. If
-“Send email” is enabled, coordination request is automatically sent to the target administration, otherwise
 
-![Image p254](../../../assets/images/ce-express/user-guide-v73/p254-img1.png)
-prepared Annex 2B exchange file can be downloaded using “Download request file” and sent manually by
-the user.
+If this option is not enabled, coordination request file is prepared but not sent automatically. User must send it manually.
+
+**Finish**
+
+It updates coordination request with the data and creates content of Annex 2B data exchange file. If "Send email" is enabled, coordination request is automatically sent to the target administration, otherwise prepared Annex 2B exchange file can be downloaded using "Download request file" and sent manually by the user.

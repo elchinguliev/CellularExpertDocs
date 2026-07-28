@@ -96,21 +96,35 @@ Your data
 
 ![Image p244](../../../assets/images/ce-express/user-guide-v73/p244-img2.png)
 
-File content section contains header information of the file as it is defined in Annex 2B of HCM-
-Agreement.
-Trigger options
-| Parameter | Description |
-|---|---|
-| Limit TD | If enabled, calculation case is logged into the report only if threshold degradation is greater than defined. |
-| TD, dB > | Value of threshold degradation used as a trigger for logging calculation case into the report. |
-| Limit Interference | If enabled, calculation case is logged into the report only if interference level is greater than defined. Can be used along with TD limit. |
-| Interference level, dBW | Value of interference level used as a trigger for logging calculation case into the report. |
-| Distance PTX to RX [km] | Distance between passive transmitter and receiver. In the case of passive receiver, calculation will be |
+![Image p245](../../../assets/images/ce-express/user-guide-v73/p245-img1.png)
 
-performed only if distance between passive transmitter and receiver is less than defined. Decision
-whether to include this calculation into the report will additionally depend on the rest of Trigger options.
-Please note that all calculation cases resulted in errors will be logged into the report regardless of Trigger
-options.
+File content section contains header information of the file as it is defined in Annex 2B of HCM-Agreement.
+
+![Image p245](../../../assets/images/ce-express/user-guide-v73/p245-img2.png)
+
+**Trigger options**
+
+**Limit TD**
+
+If enabled, calculation case is logged into the report only if threshold degradation is greater than defined.
+
+**TD, dB >**
+
+Value of threshold degradation used as a trigger for logging calculation case into the report.
+
+**Limit Interference**
+
+If enabled, calculation case is logged into the report only if interference level is greater than defined. Can be used along with TD limit.
+
+**Interference level, dBW**
+
+Value of interference level used as a trigger for logging calculation case into the report.
+
+**Distance PTX to RX [km]**
+
+Distance between passive transmitter and receiver. In the case of passive receiver, calculation will be performed only if distance between passive transmitter and receiver is less than defined. Decision whether to include this calculation into the report will additionally depend on the rest of Trigger options.
+
+Please note that all calculation cases resulted in errors will be logged into the report regardless of Trigger options.
 For file with contents code N, following steps are performed:
 - Coordination reference data of submitted HCM records are tested to make sure that no records
 with such references already exist in the database.

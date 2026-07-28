@@ -46,11 +46,22 @@ Generate channels
 | Duplex spacing | Frequency separation between the transmit and receive bands in a two-way communication system. |
 | Index of first channel | The numbering start point for generated channels. |
 | Generate channels | Creates a list of channels based on the inputs. |
-Channels
-| Parameter | Description |
-|---|---|
-| Add channel | Allows manual addition of individual channels to the frequency plan. |
-| Channel | Channel identifier. |
-| Frequency | Channel ’s frequency value in MHz. Add channel using Add channel below button |
+**Channels**
 
-Delete channel using Delete channel button
+**Add channel**
+
+Allows manual addition of individual channels to the frequency plan.
+
+![Image p210](../../../assets/images/ce-express/user-guide-v73/p210-img1.png)
+
+**Channel**
+
+Channel identifier.
+
+**Frequency**
+
+Channel's frequency value in MHz.
+
+Add channel using *Add channel below* button ![icon](../../../assets/images/ce-express/user-guide-v73/p210-img2.png)
+
+Delete channel using *Delete channel* button ![icon](../../../assets/images/ce-express/user-guide-v73/p211-img3.png)

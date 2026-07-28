@@ -2,9 +2,8 @@
 
 Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p153-img2.png) to open RF Prediction tool.
 
-This tool allows to perform predictions for cell objects selected on the map. Calculations can be performed for more than one cell at the same time. Use the Features tool to select cells on the map.
-
-![Image p153](../../../assets/images/ce-express/user-guide-v73/p153-img3.png)
+This tool allows to perform predictions for cell objects selected on the map. Calculations can be performed for more than one cell at the same time. Use the Features tool ![Image p153](../../../assets/images/ce-express/user-guide-v73/p153-img3.png)
+ to select cells on the map.
 
 The selected cell count is visible in the RF Prediction dialog.
 

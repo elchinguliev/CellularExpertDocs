@@ -40,3 +40,5 @@ When you create a spectrum mask, you can see its visual representation as well a
 ![Image p200](../../../assets/images/ce-express/user-guide-v73/p200-img1.png)
 
 You can change any values of these points and those changes will be reflected in the graph.
+
+![Image p201](../../../assets/images/ce-express/user-guide-v73/p201-img1.png)

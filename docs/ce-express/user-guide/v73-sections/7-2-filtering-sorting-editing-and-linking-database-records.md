@@ -13,13 +13,21 @@ below the column names:
 
 Users can use star symbol “*” as wildcard. Possible filtering options:
 *- any non-null value
+
 !* - null value
+
 [text] - anything that contains the [text] value at the beginning. The same as [text]*
+
 [text]*
+
 *[text]
+
 [text]*[text]
+
 ![text] - anything but the defined [text] value
+
 ”[text]” - for exact match of value
+
 Filtering options for numeric values:
 =n - exact match of n
 <>n - anything else but n

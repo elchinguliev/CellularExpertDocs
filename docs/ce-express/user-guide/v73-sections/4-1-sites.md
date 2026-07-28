@@ -19,4 +19,5 @@ Decimal degrees X type coordinate in the WGS 1984 geographical coordinate system
 ID for the workspace. This field value is used to filter objects based on a chosen workspace. The parameter is filled automatically.
 
 **height**
+
 Height of the site in meters.

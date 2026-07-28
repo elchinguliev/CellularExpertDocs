@@ -1,14 +1,15 @@
 # 3.1.33 Geoclimatic data
 
 Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p191-img1.png) to open Geoclimatic data tool.
-Geoclimatic Data is a tool that lets you adjust the geoclimatic settings that will be used in certain calculations
+
+Geoclimatic Data is a tool that lets you adjust the geoclimatic settings that will be used in certain calculations (e.g. Link Prediction).
 
 ![Image p191](../../../assets/images/ce-express/user-guide-v73/p191-img2.png)
 
-![Image p191](../../../assets/images/ce-express/user-guide-v73/p191-img3.png)
-(e.g. Link Prediction).
-
 3.1.33.1 Gaseous Absorption
+
+![Image p191](../../../assets/images/ce-express/user-guide-v73/p191-img3.png)
+
 Gaseous absorption define values for dry air pressure and water vapour density. These values can be
 obtained from predefined geoclimatic data maps. Water vapour density data according to ITU-R P.836-3.
 It is used in gaseous absorption evaluation.

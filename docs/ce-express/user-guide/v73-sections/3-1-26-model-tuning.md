@@ -48,14 +48,17 @@ The comparison between the untuned and tuned prediction models is presented by h
 - **Difference Mean** during model tuning measures how the average prediction accuracy or performance improves after optimizing model parameters compared to the default settings. For example, tuning might reduce the average prediction error, leading to more accurate coverage or signal estimations.
 - **Standard Deviation** reflects the variability in prediction performance. Comparing standard deviations between untuned and tuned models shows whether tuning makes predictions more consistent and reliable. For example, lower standard deviation after tuning indicates the model's predictions are less scattered and more stable.
 - **Standard Error** during model tuning quantifies the precision of the mean prediction. A lower standard error in the tuned model suggests that the average prediction is more reliable and less influenced by sample variability, indicating improved model stability and confidence in its performance.
-Model coefficients that are recommended to be changed.
-- Offset coefficient – represents the offset in decibels added to the path loss grid.
-- Slope coefficient distance – defines the slope based on the distance between the cell and the
-receiver location.
-- Slope coefficient distance obstructed – represents the slope based on the obstructed distance
-between the cell and the receiver location.
 
 ![Image p183](../../../assets/images/ce-express/user-guide-v73/p183-img1.png)
 
-Clutter classes
+Model coefficients that are recommended to be changed.
+- **Offset coefficient** – represents the offset in decibels added to the path loss grid.
+- **Slope coefficient distance** – defines the slope based on the distance between the cell and the
+receiver location.
+- **Slope coefficient distance obstructed** – represents the slope based on the obstructed distance
+between the cell and the receiver location.
+
+
+**Clutter classes**
+
 Recommended clutter loss values

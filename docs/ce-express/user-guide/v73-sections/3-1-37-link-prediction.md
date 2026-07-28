@@ -134,3 +134,5 @@ Report example:
 ![Image p219](../../../assets/images/ce-express/user-guide-v73/p219-img1.png)
 
 ![Image p219](../../../assets/images/ce-express/user-guide-v73/p219-img2.png)
+
+![Image p220](../../../assets/images/ce-express/user-guide-v73/p220-img1.png)

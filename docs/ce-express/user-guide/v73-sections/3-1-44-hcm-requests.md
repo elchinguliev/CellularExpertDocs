@@ -6,11 +6,7 @@ This is the main component used for HCM calculations. Main functionality:
 - Create new incoming coordination request
 - Create outgoing coordination request
 
-![Image p239](../../../assets/images/ce-express/user-guide-v73/p239-img1.png)
 
-![Image p239](../../../assets/images/ce-express/user-guide-v73/p239-img2.png)
-
-![Image p239](../../../assets/images/ce-express/user-guide-v73/p239-img3.png)
 
 3.1.44.1 List coordination requests
 Own requests

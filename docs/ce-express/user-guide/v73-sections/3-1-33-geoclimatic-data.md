@@ -4,8 +4,6 @@ Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p191-
 
 Geoclimatic Data is a tool that lets you adjust the geoclimatic settings that will be used in certain calculations (e.g. Link Prediction).
 
-![Image p191](../../../assets/images/ce-express/user-guide-v73/p191-img2.png)
-
 3.1.33.1 Gaseous Absorption
 
 ![Image p191](../../../assets/images/ce-express/user-guide-v73/p191-img3.png)

@@ -68,3 +68,5 @@ Enable/Disable Links from the suggested list
 ![Image p231](../../../assets/images/ce-express/user-guide-v73/p231-img2.png)
 
 Once parameters are set, press Create links button to create Links between Mesh objects.
+
+![Image p232](../../../assets/images/ce-express/user-guide-v73/p232-img1.png)

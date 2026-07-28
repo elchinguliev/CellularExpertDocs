@@ -2,7 +2,6 @@
 
 Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p189-img2.png) to open Audibility tool.
 
-![Image p189](../../../assets/images/ce-express/user-guide-v73/p189-img1.png)
 
 | Parameter | Description |
 |---|---|

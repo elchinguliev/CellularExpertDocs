@@ -42,6 +42,7 @@ The list of Foreign requests contains following parameters:
 - Date of coordination request (from file header)
 - You assigned reference number (used for your convenience)
 - Status of coordination request
+
 Each coordination request contains detailed information about the request and/or the answer.
 
 ![Image p242](../../../assets/images/ce-express/user-guide-v73/p242-img1.png)
@@ -163,7 +164,9 @@ Value of interference level used as a trigger for logging calculation case into 
 Distance between passive transmitter and receiver. In the case of passive receiver, calculation will be performed only if distance between passive transmitter and receiver is less than defined. Decision whether to include this calculation into the report will additionally depend on the rest of Trigger options.
 
 Please note that all calculation cases resulted in errors will be logged into the report regardless of Trigger options.
+
 For file with contents code N, following steps are performed:
+
 - Coordination reference data of submitted HCM records are tested to make sure that no records
 with such references already exist in the database.
 - New record of coordination request is created and all HCM records of the request file are
@@ -172,17 +175,23 @@ imported into the database.
 P received by the administration which new entries are tested against.
 - Calculations are performed: new coordination request data against selected own HCM records,
 taking into account Trigger options.
+
 For file with contents code A, the following steps are performed:
+
 - New coordination request record (answer) is created.
 - Appropriate HCM records in the database are updated (that match coordination reference). Only
 following parameters are updated: coordination status, date of achieving coordination, and
 remarks.
+
 For file with contents code D, the following steps are performed:
+
 - Received HCM records are tested to contain coordination statuses W and R only.
 - Search for records in the database that have the same coordination reference.
 - Delete found records in the database.
 - Create new coordination request record (answer).
+  
 For file with contents code O, the following steps are performed:
+
 - New coordination request record is created.
 - Own records for the database are selected that have coordination following status with the country
 of the coordination request: C, E, F, G, H, P

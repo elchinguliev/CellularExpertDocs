@@ -4,7 +4,6 @@ Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p222-
 This calculates interference between selected links and HCM-FS records available in the database.
 Calculation settings
 
-![Image p222](../../../assets/images/ce-express/user-guide-v73/p222-img1.png)
 
 ![Image p222](../../../assets/images/ce-express/user-guide-v73/p222-img3.png)
 

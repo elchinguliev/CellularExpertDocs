@@ -31,6 +31,9 @@ Value priority in places where multiple feature calculations overlap
 **Results:**
 
 - Minimum receiver height, m - minimum receiver height required to satisfy LOS condition
+  
+  ![Image p174](../../../assets/images/ce-express/user-guide-v73/p174-img1.png)
+
 - Best Server – Object id of the feature which has the value priority in each pixel. E.g.: In the case of
 “lowest” priority setting, pixels have the object id of the feature which has the lowest available
 minimum receiver height (best visibility).

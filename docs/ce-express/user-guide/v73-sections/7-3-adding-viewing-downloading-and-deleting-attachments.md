@@ -25,7 +25,8 @@ toolbar:
 In the attachments the listed images are shown as thumbs. Select an attachment from the list and it opens
 in a separate browser tab.
 
-Another way to view an attachment list is to move the pointer over the check symbol in the column “Inc.”
-and to click the right mouse button.
+Another way to view an attachment list is to move the pointer over the check symbol in the column “Inc.” and to click the right mouse button.
+
 The selected attachments can also be downloaded.
+
 To delete an attachment click on the red cross symbol.

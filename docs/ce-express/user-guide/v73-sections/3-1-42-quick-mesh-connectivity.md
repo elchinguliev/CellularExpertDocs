@@ -8,7 +8,6 @@ connect to an existing mesh network based on either its current position or a pr
 Whether you are planning the deployment of a single node or simulating a mobile mesh scenario, Quick
 Mesh Connectivity streamlines the decision-making process by providing immediate, actionable feedback.
 
-![Image p232](../../../assets/images/ce-express/user-guide-v73/p232-img1.png)
 
 Calculation settings
 Mesh node template

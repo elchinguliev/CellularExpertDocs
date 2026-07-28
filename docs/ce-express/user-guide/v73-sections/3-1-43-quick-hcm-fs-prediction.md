@@ -78,6 +78,12 @@ Status of coordination of the test record
 
 Maximum threshold degradation. In case of test TX record, it shows maximum threshold degradation caused by the transmitter to a receiver of the reference file. In case of test RX record, it shows threshold degradation of this particular receiver. For PTX or PRX test record, it shows maximum threshold degradation of either test or reference receiver.
 
+![Image p239](../../../assets/images/ce-express/user-guide-v73/p239-img1.png)
+
 **Show interference list** - shows list of calculated stations against particular test record.
 
+![Image p239](../../../assets/images/ce-express/user-guide-v73/p239-img2.png)
+
 Clicking on Profile button allows user to perform detailed HCM calculations.
+
+![Image p239](../../../assets/images/ce-express/user-guide-v73/p239-img3.png)

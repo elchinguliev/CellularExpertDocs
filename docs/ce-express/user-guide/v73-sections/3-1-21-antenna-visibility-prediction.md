@@ -25,3 +25,5 @@ Maximum allowable signal loss for determining effective signal visibility.
 **Results:**
 - Line of Sight (LOS) clearance – height difference between the receiver point and feature’s straight line-of-sight based on tilt and azimuth.
 - Pattern clearance – Height difference between the receiver point and the lowest point of the antenna pattern that’s above the set threshold.
+
+![Image p172](../../../assets/images/ce-express/user-guide-v73/p172-img1.png)

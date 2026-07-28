@@ -9,7 +9,3 @@ A new dialog appears. Open the PDF report by clicking “here”:
 ![Image p287](../../../assets/images/ce-express/user-guide-v73/p287-img2.png)
 
 Note that the administrator has to prepare the template for the PDF report. Please inform the administrator in case of problems with generating PDF reports.
-
-![Image p287](../../../assets/images/ce-express/user-guide-v73/p287-img3.png)
-
-![Image p287](../../../assets/images/ce-express/user-guide-v73/p287-img4.png)

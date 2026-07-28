@@ -57,5 +57,8 @@ between the cell and the receiver location.
 
 ![Image p183](../../../assets/images/ce-express/user-guide-v73/p183-img1.png)
 
-Clutter classes
+![Image p184](../../../assets/images/ce-express/user-guide-v73/p184-img1.png)
+
+**Clutter classes**
+
 Recommended clutter loss values

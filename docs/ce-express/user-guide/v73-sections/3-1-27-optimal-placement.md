@@ -3,8 +3,6 @@
 Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p184-img2.png) to open Optimal placement tool.
 Optimal placement is a tool that lets the user find optimal positions for a site based on specified parameters.
 
-![Image p184](../../../assets/images/ce-express/user-guide-v73/p184-img1.png)
-
 | Parameter | Description |
 |---|---|
 | Calculation Name | Name of the calculation that will be displayed in the Prediction history. |

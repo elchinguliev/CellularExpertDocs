@@ -109,6 +109,7 @@ coordination request.
 Answer to coordination request contains the same parameters as the request.
 
 3.1.44.2 Create new incoming coordination request
+
 New incoming (foreign) coordination request is created by clicking New foreign request in HCM requests. Initially this displays area where received coordination file can be dropped.
 
 ![Image p243](../../../assets/images/ce-express/user-guide-v73/p243-img1.png)

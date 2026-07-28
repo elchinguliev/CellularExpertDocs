@@ -28,5 +28,7 @@ Where applicable, the tool respects existing channel assignments. If frequency r
 
 The resulting plan includes the assigned frequency, polarization, best available modulation and SIR score.
 
+![Image p222](../../../assets/images/ce-express/user-guide-v73/p222-img1.png)
+
 **Assign channels**
 Assign suggested channel & polarization values to link objects.

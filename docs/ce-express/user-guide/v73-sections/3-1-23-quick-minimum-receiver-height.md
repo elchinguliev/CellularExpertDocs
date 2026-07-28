@@ -4,7 +4,6 @@ Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p174-
 Calculates the minimum receiver height required to satisfy LOS condition for a single feature. Feature
 parameters are defined in the tool input fields, therefore it may be a theorical feature that does not exist in
 
-![Image p174](../../../assets/images/ce-express/user-guide-v73/p174-img1.png)
 the database.
 
 Calculation settings

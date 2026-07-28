@@ -30,5 +30,3 @@ Then the appropriate line will be visualized differently.
 It is possible to draw a profile from the provided results. Press the Calculate profile button to open the profile.
 
 ![Image p179](../../../assets/images/ce-express/user-guide-v73/p179-img2.png)
-
-![Image p179](../../../assets/images/ce-express/user-guide-v73/p179-img3.png)

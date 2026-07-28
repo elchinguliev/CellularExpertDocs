@@ -43,6 +43,7 @@ Filtering options for numeric values:
 >=n - greater than or equal to n
 
 The Filter function can be used on several columns simultaneously. The headers of columns with active Filter function are marked in pink color:
+
 ![Image p278](../../../assets/images/ce-express/user-guide-v73/p278-img1.png)
 
 Filters can be cleared by clicking on Clear all filters.

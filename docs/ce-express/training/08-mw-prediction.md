@@ -46,7 +46,13 @@ Close Profile windows.
 Define parameters are defined below:
 - Name: MW001
 - Radio Model: 2. Aurora 2400
+
+![Image p4](../../assets/images/ce-express/training-08/p004-img3.png)
+
 - Frequency Plan: 10GHz-CEPT12-05-3_5MHz-350MHz
+
+![Image p4](../../assets/images/ce-express/training-08/p004-img4.png)
+
 - Carriers: 1 and 3 (1' and 3' will be automatically assigned).
 
 ![Image p4](../../assets/images/ce-express/training-08/p004-img2.png)
@@ -64,7 +70,13 @@ Do not close the dialog, create new links and define parameters:
 ![Image p5](../../assets/images/ce-express/training-08/p005-img2.png)
 
   - Radio Model: 2. Aurora 2400
+
+![Image p4](../../assets/images/ce-express/training-08/p004-img3.png)
+
   - Frequency Plan: 10GHz-CEPT12-05-3_5MHz-350MHz
+
+![Image p4](../../assets/images/ce-express/training-08/p004-img4.png)
+
   - Carriers: 2 and 4
 
 ![Image p6](../../assets/images/ce-express/training-08/p006-img1.png)
@@ -79,7 +91,13 @@ Press Save Changes
 ![Image p6](../../assets/images/ce-express/training-08/p006-img2.png)
 
   - Radio Model: 2. Aurora 2400
+
+![Image p4](../../assets/images/ce-express/training-08/p004-img3.png)
+
   - Frequency Plan: 10GHz-CEPT12-05-3_5MHz-350MHz
+
+![Image p4](../../assets/images/ce-express/training-08/p004-img4.png)
+
   - Carriers: 1 and 4
 
 ![Image p7](../../assets/images/ce-express/training-08/p007-img1.png)

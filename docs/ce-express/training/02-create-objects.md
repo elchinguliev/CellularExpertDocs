@@ -17,28 +17,28 @@ By the end of this exercise, participants will be able to:
 **2. Initial Data and Prerequisites**
 
 The following prerequisites are assumed:
-- A prepared workspace created in: 01. CE Express – Creating Workspace
+- A prepared workspace created in: **01. CE Express – Creating Workspace**
 - Available geodata (terrain, obstacles and [clutter](#kw:clutter-classification-values:ce-express-geodata))
 - User permissions to create and edit [network objects](#kw:object-types:ce-express-network-objects)
 
 **3. Understanding the [Network Objects](#kw:object-types:ce-express-network-objects) Concept**
 
-In CE Express, network objects represent the physical and logical elements of a radio
+In CE Express, **network objects** represent the physical and logical elements of a radio
 network. They form the foundation for all RF planning, simulation, and optimization activities
 performed in the workspace.
 
 Network objects typically include:
-- Sites – physical locations where radio equipment is installed
-- Cells / Sectors – logical radio entities defining coverage and capacity
-- Antennas – radiation characteristics, patterns, and beamforming behavior
-- Links and relations – logical associations between network elements
+- **Sites** – physical locations where radio equipment is installed
+- **Cells / Sectors** – logical radio entities defining coverage and capacity
+- **Antennas** – radiation characteristics, patterns, and beamforming behavior
+- **Links and relations** – logical associations between network elements
 
 These objects are tightly coupled with:
-- Geodata (terrain, [clutter](#kw:clutter-classification-values:ce-express-geodata), obstacles), which influences propagation behavior
-- Technology definitions (LTE, 5G NR, TDD/FDD)
-- Templates, which standardize configuration and reduce engineering errors
+- **Geodata** (terrain, [clutter](#kw:clutter-classification-values:ce-express-geodata), obstacles), which influences propagation behavior
+- **Technology definitions** (LTE, 5G NR, TDD/FDD)
+- **Templates**, which standardize configuration and reduce engineering errors
 
-Why Templates Matter
+**Why Templates Matter**
 
 Object templates encapsulate best-practice RF configurations, such as:
 - Standard power levels and bandwidths
@@ -98,14 +98,11 @@ directly impacts coverage and LOS conditions.
 
 ![Image p5](../../assets/images/ce-express/training-02/p005-img3.png)
 
-Templates pre-fill technology-specific parameters, ensuring consistency and reducing
-configuration errors.
+Templates pre-fill technology-specific parameters, ensuring consistency and reducing configuration errors.
 
 ### 3.2.3 Creating a 3-Sector 5G Site
 
-Then create three new cells based on table below (once you enter all parameters for one
-cell object press Accept button, then change parameters for second cell and press Accept
-button, and do it for third cell).
+Then create three new cells based on table below (once you enter all parameters for one cell object press Accept button, then change parameters for second cell and press Accept button, and do it for third cell).
 
 | Parameter | Value | Value | Value |
 |---|---|---|---|
@@ -138,15 +135,13 @@ button, and do it for third cell).
 
 ![Image p7](../../assets/images/ce-express/training-02/p007-img1.png)
 
-![Image p7](../../assets/images/ce-express/training-02/p007-img2.png)
-
 4. After creating all three cells, click Cancel to close the Add Feature tool.
-
+   
 ## 3.3 Step 3 – Selecting and Reviewing Objects
 
 1. Select the newly created site and cells on the map.
 
-![Image p8](../../assets/images/ce-express/training-02/p008-img1.png)
+![Image p7](../../assets/images/ce-express/training-02/p007-img2.png)
 
 2. Verify their placement and orientation.
 
@@ -162,12 +157,14 @@ button, and do it for third cell).
 1. Keep all created objects selected.
 2. In the Features tool, click Duplicate.
 
-![Image p8](../../assets/images/ce-express/training-02/p008-img2.png)
+![Image p8](../../assets/images/ce-express/training-02/p008-img1.png)
 
 3. In the Duplicate dialog, define:
 - Workspace: current workspace
 - X: 25.2221667
 - Y: 54.7357602
+
+![Image p8](../../assets/images/ce-express/training-02/p008-img2.png)
 
 4. Click Accept.
 
@@ -206,9 +203,7 @@ Repeat the process for:
 
 ## 3.6 Step 6 – Modifying Object Parameters
 
-After objects are created and positioned, the next important task is updating and refining their
-parameters. Correct parameters ensure that objects are clearly identified, consistently
-configured, and ready for further analysis, visualization, or reporting across different user
+After objects are created and positioned, the next important task is updating and refining their parameters. Correct parameters ensure that objects are clearly identified, consistently configured, and ready for further analysis, visualization, or reporting across different user
 roles.
 
 CE Express provides two complementary ways to modify object parameters:
@@ -290,11 +285,7 @@ awareness.
 5. Click Change.
 6. Select Cells again and do the same for frequency_group field. Define value 1800.
 
-![Image p14](../../assets/images/ce-express/training-02/p014-img4.png)
-
-![Image p14](../../assets/images/ce-express/training-02/p014-img5.png)
-
-![Image p14](../../assets/images/ce-express/training-02/p014-img6.png)
+![Image p14](../../assets/images/ce-express/training-02/p014-img4.png) ![Image p14](../../assets/images/ce-express/training-02/p014-img5.png) ![Image p14](../../assets/images/ce-express/training-02/p014-img6.png)
 
 ## 3.7 Step 7 – Managing Network Symbology
 

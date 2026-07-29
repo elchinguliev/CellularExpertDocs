@@ -64,7 +64,7 @@ bulges or obstacles, see illustration in Fig. 1(c).
 
 *(d) Example of path profile with OLOS+NLOS condition (yellow+red segment of radio link path)*
 
-*Fig. 1. Illustration of different LOS conditions*
+***Fig. 1. Illustration of different LOS conditions***
 
 1. Depending on the LOS condition for the receive antenna at specific location (area map pixel), the
 CE tools will apply the specific sub-set of path loss prediction model, as explained in the following
@@ -255,10 +255,9 @@ Now, we have two layers loaded to Prediction results.
 
 Compare them visually. Then open [Identify tool](#kw:310-step-10-using-the-identify-tool:ce-express-tr-workspace) and click on the map.
 
-![Image p12](../../assets/images/ce-express/training-06/p012-img2.png)
+Field Strength for second prediction is higher by 13  (because we defined lower Offset Coefficient value by 13).
 
-Field Strength for second prediction is higher by 13 (because we defined lower Offset
-Coefficient value by 13).
+![Image p12](../../assets/images/ce-express/training-06/p012-img2.png)
 
 Now change Distance coefficient value from 20 to 30.
 

@@ -258,9 +258,9 @@ All RF Predictions are tracked in [Prediction History](#kw:44-step-4-prediction-
 
 The raster is loaded on the map.
 
-## 4.5 Step 5 – Visualizing Results and Creating Symbology Presets
-
 ![Image p12](../../assets/images/ce-express/training-04/p012-img1.png)
+
+## 4.5 Step 5 – Visualizing Results and Creating Symbology Presets
 
 Visualization is a critical part of working with RF prediction results. While calculations produce
 numerical values, symbology determines how those values are translated into an
@@ -333,13 +333,9 @@ consistency across different predictions, projects, and users.
 
 ![Image p14](../../assets/images/ce-express/training-04/p014-img2.png)
 
-3. Click Save preset.
+3. Click Save preset. ![Image p14](../../assets/images/ce-express/training-04/p014-img3.png)
 
-![Image p14](../../assets/images/ce-express/training-04/p014-img3.png)
-
-4. Define technology:
-
-![Image p14](../../assets/images/ce-express/training-04/p014-img4.png)
+4. Define technology: ![Image p14](../../assets/images/ce-express/training-04/p014-img4.png)
 
 ## 4.6 Step 6 – Using Profiles to Investigate Weak or Marginal Areas
 
@@ -443,12 +439,12 @@ The system creates a single prediction task that includes all selected cells.
 1. Open Prediction History.
 2. Locate the newly created prediction task.
 
-![Image p19](../../assets/images/ce-express/training-04/p019-img1.png)
-
 Prediction History displays:
 - Current calculation status (queued, running, finished)
 - Associated [prediction outputs](#kw:prediction-outputs:ce-express-rf-prediction)
 - Time and configuration context
+
+![Image p19](../../assets/images/ce-express/training-04/p019-img1.png)
 
 This allows users to monitor long or complex calculations without keeping the prediction tool
 open.
@@ -655,15 +651,11 @@ Example frequency groups:
 - 1800
 - 3500
 
-![Image p30](../../assets/images/ce-express/training-04/p030-img1.png)
-
-![Image p30](../../assets/images/ce-express/training-04/p030-img2.png)
+![Image p30](../../assets/images/ce-express/training-04/p030-img1.png) ![Image p30](../../assets/images/ce-express/training-04/p030-img2.png)
 
 Load results for each group to compare outputs and understand multi-layer behavior.
 
-![Image p30](../../assets/images/ce-express/training-04/p030-img3.png)
-
-![Image p30](../../assets/images/ce-express/training-04/p030-img4.png)
+![Image p30](../../assets/images/ce-express/training-04/p030-img3.png) ![Image p30](../../assets/images/ce-express/training-04/p030-img4.png)
 
 **6. Summary and Key Takeaways**
 
@@ -673,28 +665,28 @@ The focus was on understanding not only how to run predictions, but also how to 
 compare, and manage results in a clear and repeatable way.
 
 Key takeaways from this module include:
-- RF predictions transform configuration and environment data into spatial
-insight. Prediction results reflect the combined influence of object parameters,
+- **RF predictions transform configuration and environment data into spatial
+insight**. Prediction results reflect the combined influence of object parameters,
 geodata, equipment models, and calculation settings.
-- Quick RF Prediction is best suited for rapid exploration and comparison. It allows
+- **Quick RF Prediction** is best suited for rapid exploration and comparison. It allows
 users to test changes without modifying stored object parameters and is ideal for early
 analysis and scenario evaluation.
-- Full RF Prediction provides structured, traceable results stored in Prediction
-History, making it suitable for formal analysis, documentation, and repeatable
+- **Full RF Prediction** provides structured, traceable results stored in P**rediction
+History**, making it suitable for formal analysis, documentation, and repeatable
 workflows.
-- Prediction History serves as a central record of calculations, enabling users to track
+- **Prediction History** serves as a central record of calculations, enabling users to track
 progress, reopen results, and compare scenarios over time.
-- Visualization and symbology play a critical role in interpreting results. Clear
+- **Visualization and symbology** play a critical role in interpreting results. Clear
 thresholds, meaningful colors, and consistent symbology presets ensure results are
 easy to understand and communicate.
-- Profiles complement prediction maps by explaining why certain areas appear weak
+- **Profiles complement prediction maps** by explaining why certain areas appear weak
 or strong. Combining area-based predictions with path-based inspection increases
 confidence in conclusions.
-- Multi-cell predictions reveal the combined influence of several transmitters and
+- **Multi-cell predictions** reveal the combined influence of several transmitters and
 provide a more realistic view of overall behavior than single-cell analysis alone.
-- Frequency-group separation allows users to analyze each layer independently.
+- **Frequency-group separation**  allows users to analyze each layer independently.
 Loading and [comparing results](#kw:52-step-4-running-predictions-and-comparing-results:ce-express-tr-models) per group helps explain multi-layer behavior and
 avoids ambiguous interpretations.
-- Networks enable scalable and reliable workflows. Rule-based grouping, status
+- **Networks enable scalable and reliable workflows.** Rule-based grouping, status
 indicators, and automated recalculation support long-term project maintenance and
 reduce manual effort.

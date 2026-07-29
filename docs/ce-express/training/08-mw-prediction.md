@@ -28,6 +28,7 @@ Object tool and select Link option from drop-down menu list.
 ![Image p3](../../assets/images/ce-express/training-08/p003-img1.png)
 
 Click once on T1 site and second time to D1 site.
+
 It will fill general parameters automatically.
 
 ![Image p3](../../assets/images/ce-express/training-08/p003-img2.png)

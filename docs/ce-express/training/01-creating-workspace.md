@@ -52,6 +52,8 @@ student)
 4. After successful authentication, the system displays all workspaces available to your
 user group.
 
+![Image p4](../../assets/images/ce-express/training-01/p004-img1.png)
+
 *Best practice:* Always verify you are working in the correct workspace before making
 changes to avoid unintended modifications.
 
@@ -59,12 +61,10 @@ changes to avoid unintended modifications.
 
 1. From the workspace list, click on a provided workspace.
 
-![Image p4](../../assets/images/ce-express/training-01/p004-img1.png)
+![Image p4](../../assets/images/ce-express/training-01/p004-img2.png)
 
 2. The map automatically zooms to the workspace extent.
 3. Review visible objects and layers.
-
-![Image p4](../../assets/images/ce-express/training-01/p004-img2.png)
 
 *Trainer insight:* Encourage users to explore existing workspaces to understand naming
 conventions, layer organization, and visualization standards.
@@ -133,37 +133,42 @@ Open the Layers tool. It is divided into logical sections:
 
 2. In the Other section, switch OFF the Regions layer.
 
+![Image p8](../../assets/images/ce-express/training-01/p008-img1.png)
+
 Observe changes on the map.
 
 ## 3.6 Step 6 – Switching Between 2D and 3D Views
 
 1. Click the 3D button to switch from 2D to 3D view.
+
+![Image p8](../../assets/images/ce-express/training-01/p008-img2.png)
+
 2. Zoom into the workspace area.
 3. Switch OFF the OpenStreetMap3D Buildings layer.
 
 The map now displays the Google 3D Mesh, which provides realistic urban morphology.
 
-![Image p8](../../assets/images/ce-express/training-01/p008-img1.png)
-
-![Image p8](../../assets/images/ce-express/training-01/p008-img2.png)
-
-RF planning value: 3D meshes help validate antenna heights, LOS conditions, and urban
-canyon effects.
-
 ![Image p9](../../assets/images/ce-express/training-01/p009-img1.png)
 
-![Image p9](../../assets/images/ce-express/training-01/p009-img2.png)
+RF planning value: 3D meshes help validate antenna heights, LOS conditions, and urban canyon effects.
 
 4. Switch OFF Google 3D tiles.
 5. Enable OpenStreetMap3D Buildings again.
+
+![Image p9](../../assets/images/ce-express/training-01/p009-img2.png)
 
 You can also visualize 3D objects, such as polygons, lines and zones.
 
 6. Return to 2D view.
 
+![Image p10](../../assets/images/ce-express/training-01/p010-img1.png)
+
 ## 3.7 Step 7 – Basemap Configuration
 
 1. Expand the [Basemap](#kw:37-step-7-basemap-configuration:none) options in Layers tool.
+
+![Image p10](../../assets/images/ce-express/training-01/p010-img2.png)
+   
 2. Review available ESRI basemaps.
 3. Enable each [basemap](#kw:37-step-7-basemap-configuration:none) briefly to understand differences.
 4. Leave Topographic basemap enabled.
@@ -172,9 +177,7 @@ You can also visualize 3D objects, such as polygons, lines and zones.
 
 1. In the Geodata section, enable the Elevation layer.
 
-![Image p10](../../assets/images/ce-express/training-01/p010-img1.png)
-
-![Image p10](../../assets/images/ce-express/training-01/p010-img2.png)
+![Image p11](../../assets/images/ce-express/training-01/p011-img1.png)
 
 This layer:
 - Visualizes terrain height
@@ -183,17 +186,19 @@ This layer:
 2. Review [Clutter](#kw:clutter-classification-values:ce-express-geodata) height and [Clutter classes](#kw:clutter-classification-values:ce-express-geodata) layers.
 3. If Geodata Is Not Visible
    1. Open Settings.
-   2. Enable Load geodata when opening workspace.
-
-![Image p11](../../assets/images/ce-express/training-01/p011-img1.png)
 
 ![Image p11](../../assets/images/ce-express/training-01/p011-img2.png)
 
+2. Enable Load geodata when opening workspace.
+
 ![Image p11](../../assets/images/ce-express/training-01/p011-img3.png)
 
-   3. Refresh the workspace:
+3. Refresh the workspace:
       - Open Workspaces tool
       - Click on your workspace again
+  
+![Image p12](../../assets/images/ce-express/training-01/p012-img1.png)
+
 4. Return to Layers and verify geodata visibility.
 
 ## 3.9 Step 9 – Editing an Existing Workspace
@@ -202,14 +207,12 @@ This layer:
 2. Hover over your workspace name to reveal options.
 3. Click Edit workspace.
 
+![Image p12](../../assets/images/ce-express/training-01/p012-img2.png)
+
 Adding an Additional Layer
 
 Add the following service:
 - https://cecom2.cellular-expert.com/server/rest/services/Hosted/Adresai_Vilnius/FeatureServer/82
-
-![Image p12](../../assets/images/ce-express/training-01/p012-img1.png)
-
-![Image p12](../../assets/images/ce-express/training-01/p012-img2.png)
 
 ![Image p12](../../assets/images/ce-express/training-01/p012-img3.png)
 

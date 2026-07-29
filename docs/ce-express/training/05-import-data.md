@@ -57,13 +57,13 @@ existing datasets or migrating data between systems.
 
 ### 4.2.2 Opening the Import Tool
 
-1. Open the Features tool.
-2. Click Import Features.
-3. Select Cells.
-
-The Import dialog opens on the right side of the screen.
+1. Open the **Features tool**.
+2. Click **Import Features**.
+3. Select **Cells.**
 
 ![Image p4](../../assets/images/ce-express/training-05/p004-img1.png)
+
+The Import dialog opens on the right side of the screen.
 
 ### 4.2.3 Loading the CSV File
 
@@ -73,9 +73,7 @@ C:\CE_Course\ImportingData\Network
 3. Select the file Cells_CE_Express.csv.
 4. Drag and drop the file into the Import dialog.
 
-![Image p4](../../assets/images/ce-express/training-05/p004-img2.png)
-
-![Image p4](../../assets/images/ce-express/training-05/p004-img3.png)
+![Image p4](../../assets/images/ce-express/training-05/p004-img2.png) ![Image p4](../../assets/images/ce-express/training-05/p004-img3.png)
 
 The CSV file is uploaded and ready for mapping.
 
@@ -128,9 +126,7 @@ For each attribute, define the following mappings:
 | site_id | Leave empty | Leave empty |
 | duplex_mode | Duplex | Leave empty |
 
-![Image p6](../../assets/images/ce-express/training-05/p006-img1.png)
-
-![Image p6](../../assets/images/ce-express/training-05/p006-img2.png)
+![Image p6](../../assets/images/ce-express/training-05/p006-img1.png) ![Image p6](../../assets/images/ce-express/training-05/p006-img2.png)
 
 ### 4.2.6 Saving a Mapping Template
 

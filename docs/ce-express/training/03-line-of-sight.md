@@ -4,7 +4,7 @@
 
 **1. Objective**
 
-This module introduces [Line of Sight](#kw:running-a-profile:ce-express-profile) (LOS) and visibility analysis in CE Express. It
+This module introduces **[Line of Sight]**(#kw:running-a-profile:ce-express-profile) **(LOS) and visibility analysis** in CE Express. It
 demonstrates how to use [profiling](#kw:42-step-2-profiling-pointtopoint-analysis:none) and visibility tools to evaluate spatial conditions between
 transmitters, receivers, terrain, vegetation, and buildings.
 
@@ -41,18 +41,18 @@ such as:
 - Where are favorable and unfavorable areas for connectivity or observation?
 
 LOS and visibility analysis is widely applicable in many scenarios, including:
-- Feasibility studies – determining whether a connection or observation path is
+- **Feasibility studies** – determining whether a connection or observation path is
 possible before deployment
-- Site selection and placement – identifying locations with the best visibility
+- **Site selection and placement** – identifying locations with the best visibility
 characteristics
-- Operational planning – understanding terrain and obstruction impact on
+- **Operational planning** – understanding terrain and obstruction impact on
 communication or sensing
-- Risk and constraint assessment – recognizing areas where obstacles significantly
+- **Risk and constraint assessment** – recognizing areas where obstacles significantly
 limit performance
 
 In CE Express, LOS and visibility analysis are supported by two complementary tools:
-- [Profile Tool](#kw:when-to-use-the-profile-tool:ce-express-profile) – analyzes visibility along a single path (point-to-point)
-- [Visibility Prediction](#kw:43-step-3-visibility-prediction-pointtoarea-analysis:none) Tool – analyzes visibility across an area (point-to-area)
+- **[Profile Tool]**(#kw:when-to-use-the-profile-tool:ce-express-profile) – analyzes visibility along a single path (point-to-point)
+- **[Visibility Prediction]** (#kw:43-step-3-visibility-prediction-pointtoarea-analysis:none) Tool – analyzes visibility across an area (point-to-area)
 
 Together, these tools help users move from simple visual checks to structured, data-driven
 assessment of spatial conditions.
@@ -142,11 +142,13 @@ setup process.
 Changing transmitter power helps illustrate how stronger or weaker signals affect the
 overall path conditions and calculated results.
 
+![Image p7](../../assets/images/ce-express/training-03/p007-img1.png)
+
 #### 4.2.3.2 Receiver and Transmitter Heights
 
 - Change Receiver Height from 2 to 20
 
-![Image p7](../../assets/images/ce-express/training-03/p007-img1.png)
+![Image p7](../../assets/images/ce-express/training-03/p007-img2.png)
 
 Height is one of the most influential parameters in visibility analysis. Increasing height can:
 - Reduce the impact of terrain and obstacles
@@ -160,7 +162,7 @@ scenarios.
 
 - Change Frequency from 1800 to 700
 
-![Image p7](../../assets/images/ce-express/training-03/p007-img2.png)
+![Image p8](../../assets/images/ce-express/training-03/p008-img1.png)
 
 Different frequencies interact with the environment in different ways. Lower frequencies
 generally:
@@ -176,7 +178,7 @@ outcomes.
 Experiment with additional parameters available in the Profile tool, such as:
 - Antenna orientation and angles
 
-![Image p8](../../assets/images/ce-express/training-03/p008-img1.png)
+![Image p8](../../assets/images/ce-express/training-03/p008-img2.png)
 
 - Environmental or model-related settings
 
@@ -203,8 +205,6 @@ By locking the transmitter, users can focus on:
 #### 4.2.4.1 Enabling Fixed Transmitter Mode
 
 1. In the Profile tool, enable Lock Transmitter Location.
-
-![Image p8](../../assets/images/ce-express/training-03/p008-img2.png)
 
 ![Image p9](../../assets/images/ce-express/training-03/p009-img1.png)
 
@@ -303,20 +303,20 @@ This panel controls both the accuracy of the analysis and the scope of the evalu
 **Defining Calculation Parameters**
 
 Set the following parameters carefully:
-- Resolution: 1
+**- Resolution: 1**
 Defines the spatial resolution of the output grid. Smaller values produce finer detail
 and smoother boundaries but increase computation time.
-- Max Radius: 2
+**- Max Radius: 2**
 Defines the maximum distance (in kilometers) from the transmitter to be analyzed.
 This limits the calculation area and helps focus results on the region of interest.
-- Receiver Height: 1.5
+**- Receiver Height: 1.5**
 Represents the assumed height of the receiving point above ground.
-- Effective Earth Radius: 8500
+**- Effective Earth Radius: 8500**
 Adjusts how Earth curvature is considered in the calculation. This becomes more
 relevant as distance increases and helps ensure realistic geometric modeling.
-- Layer to Calculate: Cells
+**- Layer to Calculate: Cells**
 Specifies which object layer acts as the transmitter source for the visibility calculation.
-- Template: Default
+**- Template: Default**
 
 ![Image p15](../../assets/images/ce-express/training-03/p015-img1.png)
 

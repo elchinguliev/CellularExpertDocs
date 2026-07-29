@@ -28,6 +28,7 @@ Object tool and select Link option from drop-down menu list.
 ![Image p3](../../assets/images/ce-express/training-08/p003-img1.png)
 
 Click once on T1 site and second time to D1 site.
+
 It will fill general parameters automatically.
 
 ![Image p3](../../assets/images/ce-express/training-08/p003-img2.png)
@@ -46,14 +47,17 @@ Close Profile windows.
 Define parameters are defined below:
 - Name: MW001
 - Radio Model: 2. Aurora 2400
-- Frequency Plan: 10GHz-CEPT12-05-3_5MHz-350MHz
-- Carriers: 1 and 3 (1' and 3' will be automatically assigned).
 
 ![Image p4](../../assets/images/ce-express/training-08/p004-img2.png)
 
-- Go to Antenna section and change antenna to Antenna 10MHz
+- Frequency Plan: 10GHz-CEPT12-05-3_5MHz-350MHz
 
 ![Image p5](../../assets/images/ce-express/training-08/p005-img1.png)
+
+- Carriers: 1 and 3 (1' and 3' will be automatically assigned).
+
+- Go to Antenna section and change antenna to Antenna 10MHz
+
 
 Press Save Changes button.
 Do not close the dialog, create new links and define parameters:

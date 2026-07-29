@@ -285,11 +285,7 @@ awareness.
 5. Click Change.
 6. Select Cells again and do the same for frequency_group field. Define value 1800.
 
-![Image p14](../../assets/images/ce-express/training-02/p014-img4.png)
-
-![Image p14](../../assets/images/ce-express/training-02/p014-img5.png)
-
-![Image p14](../../assets/images/ce-express/training-02/p014-img6.png)
+![Image p14](../../assets/images/ce-express/training-02/p014-img4.png) ![Image p14](../../assets/images/ce-express/training-02/p014-img5.png) ![Image p14](../../assets/images/ce-express/training-02/p014-img6.png)
 
 ## 3.7 Step 7 – Managing Network Symbology
 

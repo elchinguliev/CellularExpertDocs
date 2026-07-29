@@ -4,91 +4,75 @@
 
 Cellular Expert Express Administrator Guide 7.2
 
-![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img4.png)
+**About Cellular Expert**
 
-![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img6.png)
+![Image p4](../../assets/images/ce-express/admin-guide-v72/p004-img1.png)
 
-![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img8.png)
-
-![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img9.png)
-
-![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img10.png)
-
-![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img12.png)
-
-![Image p6](../../assets/images/ce-express/admin-guide-v72/p006-img13.png)
-About Cellular Expert
 Cellular Expert UAB (CE) developed ultra-fast wave
 propagation, communication systems deployment planning
-and radio/optical visibility calculation software for ESRI’s
+and radio/optical visibility calculation software for ESRI's
 ArcGIS mapping environment, which is widely used within
 Telecom, Defense, IoT, and other companies and
 organizations.
-CE’s communication network planning, network asset
+
+CE's communication network planning, network asset
 management, operational support software and customer-
 tailored solutions enhance the intelligence and business
 efficiency of more than 170 communication network
 companies, regulators, and defense organizations in more
 than 50 countries.
+
 Copyright © 2026 UAB CELLULAR EXPERT. All rights
 reserved. Cellular Expert and Cellular Expert logo are
 registered trademarks, @cellular-expert.com and
 www.cellular-expert.com are service marks of UAB
 CELLULAR EXPERT in Lithuania and some other countries.
 
-1. System requirements
+**1. System requirements**
+
 Welcome to Cellular Expert. This chapter will guide you through the minimal hardware and software
 requirements.
+
 Note: requirements can vary significantly, depending on acceptable calculation time task complexity, and
 size of the database.
 
 ## 1.1 Minimum hardware requirements
 
 Processor (CPU):
- Minimum: 8 cores, hyperthreaded
- Recommended: 16 cores
- Optimal: 32 cores
+- Minimum: 8 cores, hyperthreaded
+- Recommended: 16 cores
+- Optimal: 32 cores
 Optional Requirements for GPU-accelerated calculations
- GPU – any NVIDIA GPU with CUDA capabilities (https://developer.nvidia.com/cuda-gpus)
- Driver version: 456.38 or later
- CUDA Toolkit 11.0 to 12.4 (recommended)
+- GPU – any NVIDIA GPU with CUDA capabilities (https://developer.nvidia.com/cuda-gpus)
+- Driver version: 456.38 or later
+- CUDA Toolkit 11.0 to 12.4 (recommended)
 Memory/RAM
- Minimum: 16 GB
- Recommended: 32 GB
- Optimal: 64 GB or more
+- Minimum: 16 GB
+- Recommended: 32 GB
+- Optimal: 64 GB or more
 Storage
- Minimum: 500 GB to 1TB of free space
- Recommended: 2TB or more of free space on a solid-state drive (SSD)
+- Minimum: 500 GB to 1TB of free space
+- Recommended: 2TB or more of free space on a solid-state drive (SSD)
 
 ## 1.2 Minimum requirements for software
 
 Cellular Expert Express runs on Microsoft Windows Server 2016 or higher. It requires:
- ArcGIS Enterprise server 10.8.1 or later (11.5 supported) Standard or Advanced licence (Portal for
+- ArcGIS Enterprise server 10.8.1 or later (11.5 supported) Standard or Advanced licence (Portal for
 ArcGIS included) with:
 - ArcGIS DataStore
 - WebAdapter for IIS to configure ArcGIS server
 - WebAdapter for IIS to configure ArcGIS portal
- IIS webserver (or Apache server) with SSL enabled: required for ArcGIS server and CE Express
- PHP server for IIS(or for Apache server) version 8.5 or less
- SQL Database management system PostgreSQL (download from my.esri.com)
- Microsoft Visual C++ 2015-202x for ESRI products
+- IIS webserver (or Apache server) with SSL enabled: required for ArcGIS server and CE Express
+- PHP server for IIS(or for Apache server) version 8.5 or less
+- SQL Database management system PostgreSQL (download from my.esri.com)
+- Microsoft Visual C++ 2015-202x for ESRI products
 
 ## 1.3 CE Express architecture examples
 
-1.3.1 ArcGIS Enterprise & CE Server-Express on premises deployment simplified architecture
-Clients Servers
-1: ArcGIS Web Adaptor
-ArcGIS Portal
-Web Browser ArcGIS GIS Server
-Users (Editors &
-ArcGIS Datastore
-Viewers)
-CE Express Frontend+PHP
-3. ArcGIS Pro
-+ CE Desktop 2. CE Express backend, API
-for Advanced
-PostgreSQL
-Users
+### 1.3.1 ArcGIS Enterprise & CE Server-Express on premises deployment simplified architecture
+
+![Diagram: ArcGIS Enterprise and CE Server-Express on-premises deployment (simplified)](../../assets/images/ce-express/admin-guide-v72/p006-diagram.png)
+
 Technical requirements:
 1. Server for ArcGIS SW:
 ArcGIS Web Adaptor (Esri ref URL);
@@ -120,48 +104,11 @@ Storage: 1 TB
 Optional Requirements for GPU-accelerated calculations:
 GPU – any NVIDIA GPU with CUDA capabilities (https://developer.nvidia.com/cuda-gpus)
 Driver version: 456.38 or later
- CUDA Toolkit 11.0 to 12
-1.3.2 ArcGIS Enterprise & CE Server-Express on premises or cloud deployment architecture
-Clients Servers
-2. Portal for
-ArcGIS
-1: ArcGIS
-Web Browser
-WebAdaptor
-Users (Editors &
-Viewers)
-3. ArcGIS 4. ArcGIS
-GIS Server DataStore
-7. ArcGIS Pro 5. CE
-+ CE Desktop Express
-for Advanced backend +
-Users PostgreSQL
-6: CE
-Frontend
-(IIS+PHP)
+CUDA Toolkit 11.0 to 12
 
-![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img4.png)
+### 1.3.2 ArcGIS Enterprise & CE Server-Express on premises or cloud deployment architecture
 
-![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img5.png)
-
-![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img7.png)
-
-![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img9.png)
-
-![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img10.png)
-
-![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img11.png)
-
-![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img13.png)
-
-![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img14.png)
-
-![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img15.png)
-
-![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img17.png)
-
-![Image p7](../../assets/images/ce-express/admin-guide-v72/p007-img18.png)
-SPTTH
+![Diagram: ArcGIS Enterprise and CE Server-Express on-premises or cloud deployment architecture](../../assets/images/ce-express/admin-guide-v72/p007-diagram.png)
 
 Technical requirements:
 1. ArcGIS Web Adaptor (Esri ref URL):
@@ -207,9 +154,9 @@ installation, configuration, data loading path and steps to setup and start Cell
 
 1. CE Express Setup file provided “CE_Express_7.2_winInstall(x64).exe”. It will automatically install:
 
- CE Express DB schema
- CE Express (frontend and backend)
- CE Express demo data
+- CE Express DB schema
+- CE Express (frontend and backend)
+- CE Express demo data
 2. Zip file (ceexp_db.zip) with Cellular Expert Inventory3D web application - frontend
 3. Zip file (ceexp_db_scripts.zip) with Cellular Expert Inventory3D installation DB scripts
 
@@ -236,9 +183,9 @@ After PHP for IIS installation check the php.ini file under PHP installation fol
 could be two files php.ini-development and php.ini-production. Copy one of them to “php.ini and then edit
 the new php.ini to configure it for the CE Inventory3D.
 Create missing folders under C:\php:
- temp (ex c:\php\temp)
- logs
- sessions
+- temp (ex c:\php\temp)
+- logs
+- sessions
 2.2.3.1 PHP server configuration
 Open the php.ini configuration file with the text editor and edit it.
 
@@ -285,11 +232,11 @@ If the IIS is installed on the server, double-check if the CGI feature is instal
 
 ![Image p11](../../assets/images/ce-express/admin-guide-v72/p011-img1.png)
 installed open the Server Manager and:
- Select Manage > Add roles and features
- Select Role Webserver (IIS) > Application Development > check CGI
- Click “Install”
+- Select Manage > Add roles and features
+- Select Role Webserver (IIS) > Application Development > check CGI
+- Click “Install”
 When the CGI role is installed, open the IIS Manager and
- Select Site > Handler Mappings > Add Module Mapping:
+- Select Site > Handler Mappings > Add Module Mapping:
 o Set Request Path - *.php
 o Set Module – FastCGIModule
 o Set Executable – C:\php\php-cgi.exe
@@ -298,136 +245,158 @@ o Click Request Restriction button:
 o Select “File or Folder”
 o Click “OK”
 o Click OK > Yes
- Select Site > Default Documents > Add
+- Select Site > Default Documents > Add
 o Set index.php
- Restart IIS server
+- Restart IIS server
 
 ## 2.3 Install CE Express
 
 Execute the provided CE Express installation file (“CE_Express_6.0_winInstall(x64).exe”) and proceed by
 following the instructions displayed on the screen.
-2.3.1 Accept the software terms and conditions
+### 2.3.1 Accept the software terms and conditions
 
-2.3.2 Prepare installation folders
- CE express server installation and CE Express data folders could be left as default.
- CE Express frontend folder could be set under IIS webserver, usually “C:/inetpub/wwwroot”. The
-folder "ceexp" needs to be created manually if it doesn't exist.
-2.3.3 Prepare CE Express server configuration:
- Enter Portal for ArcGIS URL.
- Enter Portal for ArcGIS username, which will be used to login into CE Express. The same user will
+![Image p11](../../assets/images/ce-express/admin-guide-v72/p011-img1.png)
+
+### 2.3.2 Prepare installation folders
 
 ![Image p12](../../assets/images/ce-express/admin-guide-v72/p012-img1.png)
 
-![Image p12](../../assets/images/ce-express/admin-guide-v72/p012-img2.png)
-be assigned to the administrator group.
- Enter CE Express server hostname. Use FQDN or leave “localhost” if SSL is not enabled.
- Enter CE express server port. It could be changed if 6062 will be occupied after verification.
- Enter CE express frontend host URL (http(s)://[hostname]) or leave the “*”
- Click verify and wait for the messages:
+- CE express server installation and CE Express data folders could be left as default.
+- CE Express frontend folder could be set under IIS webserver, usually "C:/inetpub/wwwroot". The
+folder "ceexp" needs to be created manually if it doesn't exist.
 
- Click “Next”
-2.3.4 Prepare CE Express server DB configuration.
- Enter the hostname of PostgreSQL database. If the database is on the same server, could be left
+### 2.3.3 Prepare CE Express server configuration
+
+![Image p12](../../assets/images/ce-express/admin-guide-v72/p012-img2.png)
+
+- Enter Portal for ArcGIS URL.
+- Enter Portal for ArcGIS username, which will be used to login into CE Express. The same user will
+be assigned to the administrator group.
+- Enter CE Express server hostname. Use FQDN or leave "localhost" if SSL is not enabled.
+- Enter CE express server port. It could be changed if 6062 will be occupied after verification.
+- Enter CE express frontend host URL (http(s)://[hostname]) or leave the "*"
+- Click verify and wait for the messages:
 
 ![Image p13](../../assets/images/ce-express/admin-guide-v72/p013-img1.png)
 
-![Image p13](../../assets/images/ce-express/admin-guide-v72/p013-img2.png)
-“localhost”.
- Enter the port of the PostgreSQL database. Usually, it is 5432.
- Enter admin user of PostgreSQL database. Usually, it is “postgres”.
- Enter the password for the admin user of the PostgreSQL database.
- Enter the maintenance database of the PostgreSQL database. Usually it is “postgres”.
- Click on the “Verify” button and wait for the messages:
+- Click "Next"
 
-If a database schema named "ce_express" exists, you will be notified during the installation process. In
+### 2.3.4 Prepare CE Express server DB configuration
+
+![Image p13](../../assets/images/ce-express/admin-guide-v72/p013-img2.png)
+
+- Enter the hostname of PostgreSQL database. If the database is on the same server, could be left
+"localhost".
+- Enter the port of the PostgreSQL database. Usually, it is 5432.
+- Enter admin user of PostgreSQL database. Usually, it is "postgres".
+- Enter the password for the admin user of the PostgreSQL database.
+- Enter the maintenance database of the PostgreSQL database. Usually it is "postgres".
+- Click on the "Verify" button and wait for the messages:
 
 ![Image p14](../../assets/images/ce-express/admin-guide-v72/p014-img1.png)
 
+If a database schema named "ce_express" exists, you will be notified during the installation process. In
+such a case, the tables will be copied with the postfix "_date" to avoid conflicts:
+
 ![Image p14](../../assets/images/ce-express/admin-guide-v72/p014-img2.png)
+
+- Click "Next". Installation will continue till finish:
 
 ![Image p14](../../assets/images/ce-express/admin-guide-v72/p014-img3.png)
 
-![Image p14](../../assets/images/ce-express/admin-guide-v72/p014-img4.png)
-such a case, the tables will be copied with the postfix "_date" to avoid conflicts:
- Click “Next”. Installation will continue till finish:
-2.3.5 Check Installation and the licence of the CE Express software.
+### 2.3.5 Check Installation and the licence of the CE Express software
+
 Check windows services and there should be 3 CE Express services running:
+
+![Image p14](../../assets/images/ce-express/admin-guide-v72/p014-img4.png)
 
 If windows services are running, open web browser and start CE Express administrator tool:
 http://CE_express_hostname/ceexpressfrontenfolder/?admin=true
 (Example: http://localhost/ceexp/?admin=true)
- Obtain the licence request file by clicking on the designated section.
- Send the obtained file to Cellular Expert support.
- Once you receive the license file, apply it by either clicking on the "Import License File" section or
 
 ![Image p15](../../assets/images/ce-express/admin-guide-v72/p015-img1.png)
 
+- Obtain the licence request file by clicking on the designated section.
+- Send the obtained file to Cellular Expert support.
+- Once you receive the license file, apply it by either clicking on the "Import License File" section or
+by dragging and dropping the file into that section:
+
 ![Image p15](../../assets/images/ce-express/admin-guide-v72/p015-img2.png)
 
-![Image p15](../../assets/images/ce-express/admin-guide-v72/p015-img3.png)
-by dragging and dropping the file into that section:
 Note: The browser could always redirect to https instead of using http. The administrator needs to include
-the URL of CE Express to the insecure content list. It could be done using the browser’s settings:
- Chrome: chrome://settings/content/insecureContent
- Edge: edge://settings/content/insecureContent
-Another way is to enable SSL support on CE Express (see chapter “Enable SSL support (optional)).
+the URL of CE Express to the insecure content list. It could be done using the browser's settings:
+- Chrome: chrome://settings/content/insecureContent
+- Edge: edge://settings/content/insecureContent
 
-2.3.6 Enable SSL support (optional)
+![Image p15](../../assets/images/ce-express/admin-guide-v72/p015-img3.png)
+
+Another way is to enable SSL support on CE Express (see chapter "Enable SSL support (optional)).
+
+### 2.3.6 Enable SSL support (optional)
+
 To enable SSL support prepare SSL certificate files. Into CE Express could be imported the pfx file
 (password required) (Optional: ssl.crt and ssl_pem.key could be imported).
 To import SSL files for CE Express open the CE admin tool using URL:
 http://CE_express_hostname/ceexpressfrontenfolder/?admin=true
- Open SSL tab:
- Import prepared SSL pfx file using “Import .pfx certificate file” section.
- After importing the SSL certificate, it needs to edit the configuration file located under CE Express
-frontend folder as described in section 2.3.2. Example “C:/inetpub/wwwroot/ceexp”
- Open “config.json” file with the text editor and change from “http” to “https” in the parameter
-“ceApiUrl”. Example:
-From "ceApiUrl": "http://[CE_express_hostname]:6062"
-To "ceApiUrl": "https://[CE_express_hostname]:6062"
- Restart Windows services:
-The “Coordinator” service must be started the last.
-When SSL is enabled use https protocol to access the CE Express application
+- Open SSL tab:
 
 ![Image p16](../../assets/images/ce-express/admin-guide-v72/p016-img1.png)
 
-![Image p16](../../assets/images/ce-express/admin-guide-v72/p016-img2.png)
-https://CE_express_hostname/ceexpressfrontenfolder (Example: https://localhost/ceexp ).
-2.3.7 Configure CE Express to publish objects to the Portal for ArcGIS (optional)
-2.3.7.1 Option: Arcgis Server without Image Server
- Publish provided geoprocessing tool "publishTif.sd" using Arcgis Server manager. The published
+- Import prepared SSL pfx file using "Import .pfx certificate file" section.
+- After importing the SSL certificate, it needs to edit the configuration file located under CE Express
+frontend folder as described in section 2.3.2. Example "C:/inetpub/wwwroot/ceexp"
+- Open "config.json" file with the text editor and change from "http" to "https" in the parameter
+"ceApiUrl". Example:
+From "ceApiUrl": "http://[CE_express_hostname]:6062"
+To "ceApiUrl": "https://[CE_express_hostname]:6062"
+- Restart Windows services:
 
+![Image p16](../../assets/images/ce-express/admin-guide-v72/p016-img2.png)
+
+The "Coordinator" service must be started the last.
+When SSL is enabled use https protocol to access the CE Express application
+https://CE_express_hostname/ceexpressfrontenfolder (Example: https://localhost/ceexp ).
+
+### 2.3.7 Configure CE Express to publish objects to the Portal for ArcGIS (optional)
+
+#### 2.3.7.1 Option: Arcgis Server without Image Server
+
+- Publish provided geoprocessing tool "publishTif.sd" using Arcgis Server manager. The published
 GP tool example view:
- Find and copy the GP tool's Rest URL:
- Edit C:\Program Files\Cellular Expert\Express\config.json and change the three (3) parameters
+
+![Image p17](../../assets/images/ce-express/admin-guide-v72/p017-img1.png)
+
+- Find and copy the GP tool's Rest URL:
+
+![Image p17](../../assets/images/ce-express/admin-guide-v72/p017-img2.png)
+
+- Edit C:\Program Files\Cellular Expert\Express\config.json and change the three (3) parameters
 required for publishing:
 "PUBLISH_GEOPROCESSOR": "https://<CE Server hostname>/server/rest/services/publishTif/GPServer",
 "PUBLISH_USERNAME": "USERNAME",
 "PUBLISH_PASSWORD": "PASSWORD"
-USERNAME and PASSWORD are Portal’s for Arcgis user's username and password. This user will be
+USERNAME and PASSWORD are Portal's for Arcgis user's username and password. This user will be
 used to publish, and the published objects (raster or features) will be visible under this user's content.
+- Restart Windows services. The "Coordinator" service must be started last.
 
-![Image p17](../../assets/images/ce-express/admin-guide-v72/p017-img1.png)
+#### 2.3.7.2 Option: Arcgis Server with Image Server
 
-![Image p17](../../assets/images/ce-express/admin-guide-v72/p017-img2.png)
- Restart Windows services. The “Coordinator” service must be started last.
-2.3.7.2 Option: Arcgis Server with Image Server
- Edit C:\Program Files\Cellular Expert\Express\config.json and change the two (2) parameters
+- Edit C:\Program Files\Cellular Expert\Express\config.json and change the two (2) parameters
 required for publishing:
 "PUBLISH_GEOPROCESSOR": "",
 "PUBLISH_USERNAME": "USERNAME",
 "PUBLISH_PASSWORD": "PASSWORD"
-USERNAME and PASSWORD are Portal’s for Arcgis user's username and password. This user will be
+USERNAME and PASSWORD are Portal's for Arcgis user's username and password. This user will be
 used to publish, and the published objects (raster or features) will be visible under this user's content.
- Restart Windows CE services. The “Coordinator” service must be started last.
+- Restart Windows CE services. The "Coordinator" service must be started last.
 
-2.3.8 Configure CE Express to send notifications (optional)
+### 2.3.8 Configure CE Express to send notifications (optional)
+
 You can enable email notifications to alert recipients when changes occur in the database. This feature is
-
-![Image p18](../../assets/images/ce-express/admin-guide-v72/p018-img1.png)
 managed through the configuration file.
- Open the configuration file C:\Program Files\Cellular Expert\Express\config.json
- Locate and edit the following parameters to match your email service or SMTP server settings:
+
+- Open the configuration file C:\Program Files\Cellular Expert\Express\config.json
+- Locate and edit the following parameters to match your email service or SMTP server settings:
 "EMAIL_SERVICE_PROVIDER": "",
 "EMAIL_USERNAME": "",
 "EMAIL_PASSWORD": "",
@@ -440,71 +409,89 @@ Leave "EMAIL_SERVICE_PROVIDER" empty if you are configuring notifications using 
 server.
 Ensure the remaining SMTP parameters (SMTP_HOST, SMTP_PORT, etc.) are correctly filled in
 according to your email provider’s requirements.
- Restart Windows CE services. The “Coordinator” service must be started last.
-2.3.9 Creating the Inventory3D Database structure and insert initial data
+- Restart Windows CE services. The "Coordinator" service must be started last.
+
+### 2.3.9 Creating the Inventory3D Database structure and insert initial data
+
 1. Unzip ceexp_db_scripts.zip file somewhere on computer
 2. Start the PostgreSQL pgAdmin app (or another PostgreSQL database management tool)
 3. Connect as CE Express admin user provided during CE Express setup (section 2.3.4).
 4. Open the DB schema (ce_express) prepared during CE Express setup (section 2.3.4).
-5. Click the “Open File” button and select “ce7.2_inventory3d_create_table.sql”
+5. Click the "Open File" button and select "ce7.2_inventory3d_create_table.sql"
+
+![Image p18](../../assets/images/ce-express/admin-guide-v72/p018-img1.png)
+
 6. Execute script and create Inventory3D tables
-7. Click the “Open File” button and select “ce7.2_inventory3d_insert_data.sql”
+7. Click the "Open File" button and select "ce7.2_inventory3d_insert_data.sql"
 8. Execute script to insert Inventory3D initial data
-2.3.10 Installing Inventory3D webapplication package
+
+### 2.3.10 Installing Inventory3D webapplication package
+
 To install Inventory3D express webapplication copy the two folders from the provided zip file
 (ceexp_db.zip) to C:\inetpub\wwwroot if IIS will be used and a PHP server has been configured (or under
 C:\wampXX\\www for Apache server from WAMP package). If IIS will be used, grant write permissions for
-
-“IIS_IUSRS” user to the “ceexp_db” folder.
+"IIS_IUSRS" user to the "ceexp_db" folder.
 Example of folders structure:
-The folder “ceexp_server” is required for Inventory3D logics.
-The folder “ceexp_db” is the Inventory3D folder described below.
-The “ceexp” folder is already created under C:\inetpub\wwwroot during CE Express setup (section
 
 ![Image p19](../../assets/images/ce-express/admin-guide-v72/p019-img1.png)
 
+The folder "ceexp_server" is required for Inventory3D logics.
+The folder "ceexp_db" is the Inventory3D folder described below.
+The "ceexp" folder is already created under C:\inetpub\wwwroot during CE Express setup (section
+2.3.3).
+
+### 2.3.11 Webapplication in Portal for ArcGIS
+
+It is a required webapplication in Portal for ArcGIS to use ArcGIS login in the Inventory3D.
+- Login to Portal for ArcGIS and go to "Content"
+- New Item > Application
+
 ![Image p19](../../assets/images/ce-express/admin-guide-v72/p019-img2.png)
 
-![Image p19](../../assets/images/ce-express/admin-guide-v72/p019-img3.png)
-2.3.3).
-2.3.11 Webapplication in Portal for ArcGIS
-It is a required webapplication in Portal for ArcGIS to use ArcGIS login in the Inventory3D.
- Login to Portal for ArcGIS and go to “Content”
- New Item > Application
- Select “Web mapping”
- URL: enter the CE Express application URL and click “Next”:
- Name the new application and describe it. Click “Save”:
+- Select "Web mapping"
+- URL: enter the CE Express application URL and click "Next":
 
- Choose “Settings”:
- Go to the “Credentials” and click “Register application”:
- Add CE Express Inventory3D URL into to section “Redirect URLs” and click “Register”:
- The “Client ID” is required for the Inventory3D configuration.
-2.3.12 CE Inventory3D folder structure
-Example of “ceexp_db” folder structure:
+![Image p19](../../assets/images/ce-express/admin-guide-v72/p019-img3.png)
+
+- Name the new application and describe it. Click "Save":
 
 ![Image p20](../../assets/images/ce-express/admin-guide-v72/p020-img1.png)
 
+- Choose "Settings":
+
 ![Image p20](../../assets/images/ce-express/admin-guide-v72/p020-img2.png)
+
+- Go to the "Credentials" and click "Register application":
 
 ![Image p20](../../assets/images/ce-express/admin-guide-v72/p020-img3.png)
 
+- Add CE Express Inventory3D URL into to section "Redirect URLs" and click "Register":
+
 ![Image p20](../../assets/images/ce-express/admin-guide-v72/p020-img4.png)
 
-The main folders and files are:
-Folders “images” or “data” – for attachments and images taken from mobile devices
-Folder “deleted” – for files that were attached to objects and have been removed by a user with the Remove
-Record Tool
-Folder “logs” – here log files will be created for debugging, and debugging will be enabled in the conf.inc
+- The "Client ID" is required for the Inventory3D configuration.
+
+### 2.3.12 CE Inventory3D folder structure
+
+Example of "ceexp_db" folder structure:
 
 ![Image p21](../../assets/images/ce-express/admin-guide-v72/p021-img1.png)
-file
-Folder “exporttemplates” – for configuration files for creating
-Folder “plugins” – for CE Inventory3D plugins like “Map”
-Folder “scripts” – for scripts that can be run manually by the administrator
-Folder “temp” – temporary folder that can be cleaned periodically
 
-Folder “thumbs” – for the thumb image files
-File “conf.inc “ – configuration file. This file is very important and contains the credentials for the connection
+The main folders and files are:
+Folders "images" or "data" – for attachments and images taken from mobile devices
+Folder "deleted" – for files that were attached to objects and have been removed by a user with the Remove
+Record Tool
+Folder "logs" – here log files will be created for debugging, and debugging will be enabled in the conf.inc
+file
+Folder "exporttemplates" – for configuration files for creating
+Folder "plugins" – for CE Inventory3D plugins like "Map"
+Folder "scripts" – for scripts that can be run manually by the administrator
+Folder "temp" – temporary folder that can be cleaned periodically
+Folder "thumbs" – for the thumb image files
+
+File "conf.inc " – configuration file. This file is very important and contains the credentials for the connection
+to the database as well as other important information related to the database. The credentials can be
+changed according to the database server information.
 
 ![Image p22](../../assets/images/ce-express/admin-guide-v72/p022-img1.png)
 
@@ -515,8 +502,6 @@ File “conf.inc “ – configuration file. This file is very important and con
 ![Image p22](../../assets/images/ce-express/admin-guide-v72/p022-img4.png)
 
 ![Image p22](../../assets/images/ce-express/admin-guide-v72/p022-img5.png)
-to the database as well as other important information related to the database. The credentials can be
-changed according to the database server information.
 
 The main parameters to change for the other installations are:
 $inv3dLicenceHolder = "/*YOUR Company Name*/";
@@ -708,8 +693,8 @@ Another important factor defining the precision of path loss modelling is the re
 represent DTM and clutter, or the DSM. For instance, based on our practical experience with available GIS
 data sets and the modern computational capabilities of our tools, CE recommends using the following
 resolution of path [profiling](#kw:42-step-2-profiling-pointtopoint-analysis:ce-express-tr-los) data for modelling coverage of 4G/5G cellular networks:
- Rural areas: preferably 10 m, and at most 25 m,
- Urban areas: preferably 1 m, and at most 5 m.
+- Rural areas: preferably 10 m, and at most 25 m,
+- Urban areas: preferably 1 m, and at most 5 m.
 The comparative precision of modelling signal coverage in dense urban conditions when using respectively
 25 m resolution ASTER DSM data and 1 m resolution Maxar DTM & Buildings data is shown in Fig. 2.
 
@@ -724,10 +709,10 @@ Only GeoTIFF is supported.
 Mandatory geographical data:
 Elevation, or Digital Terrain Model (DTM) grid.
 Uploaded rasters have the following requirements:
- Must be in [projected coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) system
- Coordinate system units must be meters
- All rasters must have the same coordinate system
- Raster resolution in X and Y axis must match
+- Must be in [projected coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) system
+- Coordinate system units must be meters
+- All rasters must have the same coordinate system
+- Raster resolution in X and Y axis must match
 3.1.2.1 Elevation, or Digital Terrain Model (DTM) Grid (Mandatory)
 The Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), represents the Earth’s
 ground level above sea level. Each raster pixel has its height value.
@@ -760,86 +745,92 @@ coordinate system under the WGS 1984 projection.
 
 You can find the appropriate [UTM](#kw:what-is-a-projected-crs:ce-express-geodata) zone for your area here:
 https://www.arcgis.com/apps/mapviewer/index.html?layers=b294795270aa4fb3bd25286bf09edc51
-3.1.2.2 [Clutter classes](#kw:clutter-classification-values:ce-express-geodata) grid
+### 3.1.2.2 [Clutter classes](#kw:clutter-classification-values:ce-express-geodata) grid
+
 This raster type provides information about land use. The naming and classification of land use types may
-
-![Image p34](../../assets/images/ce-express/admin-guide-v72/p034-img1.png)
-
-![Image p34](../../assets/images/ce-express/admin-guide-v72/p034-img2.png)
 vary. An example is the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2 Land
 Cover
 
-This data is freely available worldwide.
-Prepare [Clutter Classes](#kw:clutter-classification-values:ce-express-geodata) raster
-3.1.2.2.1.1 Projection
-It must have the same coordinate system as your elevation.tif raster. If your raster has different coordinate
-
 ![Image p35](../../assets/images/ce-express/admin-guide-v72/p035-img1.png)
 
-![Image p35](../../assets/images/ce-express/admin-guide-v72/p035-img2.png)
+This data is freely available worldwide.
 
-![Image p35](../../assets/images/ce-express/admin-guide-v72/p035-img3.png)
+#### Prepare [Clutter Classes](#kw:clutter-classification-values:ce-express-geodata) raster
+
+##### 3.1.2.2.1.1 Projection
+
+It must have the same coordinate system as your elevation.tif raster. If your raster has different coordinate
 system, then use the Geoprocessing tool → [Project Raster](#kw:33-project-raster:ce-express-tr-geodata) to fix it.
 
+![Image p35](../../assets/images/ce-express/admin-guide-v72/p035-img3.png)
+
 In the Output Coordinate System you would need to define the same coordinate system as your elevation.tif
+raster. Click on Select Coordinate System button.
 
 ![Image p36](../../assets/images/ce-express/admin-guide-v72/p036-img1.png)
 
-![Image p36](../../assets/images/ce-express/admin-guide-v72/p036-img2.png)
-raster. Click on Select Coordinate System button.
 And choose the same coordinate system as your elevation.tif.
-3.1.2.3 Clutter height
+
+![Image p36](../../assets/images/ce-express/admin-guide-v72/p036-img2.png)
+
+### 3.1.2.3 Clutter height
+
 Represents actual clutter heights, which override the default heights specified in the Clutter table. The
 clutter heights raster requires the accompanying [clutter classes](#kw:clutter-classification-values:ce-express-geodata) raster and cannot be used independently.
 
-A clutter height raster can be derived from a Digital Surface Model (DSM) raster and a Digital Terrain Model
-
 ![Image p37](../../assets/images/ce-express/admin-guide-v72/p037-img1.png)
+
+A clutter height raster can be derived from a Digital Surface Model (DSM) raster and a Digital Terrain Model
 (DTM) raster using the ArcGIS Raster Calculator tool. To access this tool, open Geoprocessing tools and
 navigate to Spatial Analyst > Map Algebra > Raster Calculator. Use the following formula:
 DSM – DTM
 
-The calculation output will be the difference between the DSM and DTM grids, representing the clutter
-heights.
-Prepare Clutter Height raster
-3.1.2.3.1.1 Projection
-It must have the same coordinate system as your elevation.tif raster. If your raster has different coordinate
-
 ![Image p38](../../assets/images/ce-express/admin-guide-v72/p038-img1.png)
 
-![Image p38](../../assets/images/ce-express/admin-guide-v72/p038-img2.png)
-system, then use the Geoprocessing tool → Project Raster to fix it.
+The calculation output will be the difference between the DSM and DTM grids, representing the clutter
+heights.
 
-In the Output Coordinate System you would need to define the same coordinate system as your elevation.tif
+#### Prepare Clutter Height raster
+
+##### 3.1.2.3.1.1 Projection
+
+It must have the same coordinate system as your elevation.tif raster. If your raster has different coordinate
+system, then use the Geoprocessing tool → Project Raster to fix it.
 
 ![Image p39](../../assets/images/ce-express/admin-guide-v72/p039-img1.png)
 
-![Image p39](../../assets/images/ce-express/admin-guide-v72/p039-img2.png)
+In the Output Coordinate System you would need to define the same coordinate system as your elevation.tif
 raster. Click on Select Coordinate System button.
-And choose the same coordinate system as your elevation.tif.
 
-3.1.3 Antennas
-The [Antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) files in .txt format should be prepared and could be imported into the CE database
-using the CE Express antenna import tool. The CE Express application uses the Planet [antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna)
+![Image p39](../../assets/images/ce-express/admin-guide-v72/p039-img2.png)
+
+And choose the same coordinate system as your elevation.tif.
 
 ![Image p40](../../assets/images/ce-express/admin-guide-v72/p040-img1.png)
 
-![Image p40](../../assets/images/ce-express/admin-guide-v72/p040-img2.png)
+### 3.1.3 Antennas
+
+The [Antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) files in .txt format should be prepared and could be imported into the CE database
+using the CE Express antenna import tool. The CE Express application uses the Planet [antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna)
 format. This format consists of a header, horizontal and vertical records. Example:
+
+![Image p40](../../assets/images/ce-express/admin-guide-v72/p040-img2.png)
+
 After import of the antenna, the antenna id could be used in the cells data table.
 
 ## 3.2 Create new workspace in CE Express
 
 To create a new workspace using start CE Express using URL
+http://CE_express_hostname/ceexpressfrontenfolder
+(Example: http://localhost/ceexp )
+- Login as user with administrator rights (user provided during setup)
+- In the workspace list click “+ new Workspace” button:
 
 ![Image p41](../../assets/images/ce-express/admin-guide-v72/p041-img1.png)
 
+- In the window describe the workspace:
+
 ![Image p41](../../assets/images/ce-express/admin-guide-v72/p041-img2.png)
-http://CE_express_hostname/ceexpressfrontenfolder
-(Example: http://localhost/ceexp )
- Login as user with administrator rights (user provided during setup)
- In the workspace list click “+ new Workspace” button:
- In the window describe the workspace:
 Workspace name: must be the name of a newly created folder.
 Geodata folder path: must be the physical path of the newly created folder.
 Coordinate system [EPSG](#kw:what-is-a-projected-crs:ce-express-geodata): enter coordinate system’s code. 4326 is [WGS84](#kw:what-is-a-projected-crs:ce-express-geodata).
@@ -849,20 +840,16 @@ Extra layers: add additional layers form the other sources to be visualized in t
 For the administrators the new workspace will be visible after creation.
 
 Antennas or cells for the new workspace could be loaded using CE Express environment and tools.
-4. CE Inventory3D webapplication functions for administrators
+## 4. CE Inventory3D webapplication functions for administrators
 
-## 4.1 Set defaults
+### 4.1 Set defaults
 
 Columns can be designed in a way that their record contents do not have to be entered by hand but are
 chosen from a list of defaults, eg active/inactive or planned/active/closed. To do so, click on a column
-
-![Image p42](../../assets/images/ce-express/admin-guide-v72/p042-img1.png)
-
-![Image p42](../../assets/images/ce-express/admin-guide-v72/p042-img2.png)
 header, and select “Set defaults” from the dropdown menu. A new window opens with the currently active
 default values. Enter at least 2 defaults and click OK.
 
-## 4.2 Generate PDF reports
+### 4.2 Generate PDF reports
 
 Prior to using the PDF report feature, the administrator has to prepare a template json file. An example
 “default.json” file and a “readme” file with explanation can be found in the folder
@@ -872,22 +859,27 @@ Example:
 site.json
 site_1.json
 site_new.json
-All three template files are prepared for the table “site”:
-After the selection of the template, a dialog will open:
 
-Click “here” to open a new window with the PDF report.
-The report configuration including the text with the header, description and/or signature field can be
-configured by the administrator in the template json file.
-If there are errors in the template json file and the json syntax is invalid, the webapp application will inform
+![Image p42](../../assets/images/ce-express/admin-guide-v72/p042-img1.png)
+
+All three template files are prepared for the table “site”:
+
+![Image p42](../../assets/images/ce-express/admin-guide-v72/p042-img2.png)
+
+After the selection of the template, a dialog will open:
 
 ![Image p43](../../assets/images/ce-express/admin-guide-v72/p043-img1.png)
 
-![Image p43](../../assets/images/ce-express/admin-guide-v72/p043-img2.png)
+Click “here” to open a new window with the PDF report.
 
-![Image p43](../../assets/images/ce-express/admin-guide-v72/p043-img3.png)
+The report configuration including the text with the header, description and/or signature field can be
+configured by the administrator in the template json file.
+If there are errors in the template json file and the json syntax is invalid, the webapp application will inform
 the user:
 
-## 4.3 Run script
+![Image p43](../../assets/images/ce-express/admin-guide-v72/p043-img2.png)
+
+### 4.3 Run script
 
 It is possible to run a script on the server and load updated data to the tables. The “Run Script” tool could
 be configured into “CE API tool”
@@ -895,17 +887,20 @@ Important Note (!): This action is not secure. Before performing this action, th
 administrator. Otherwise, it could destroy the database.
 The script should be described in the conf.inc configuration file section $enableExternalScripts = true; and
 the scripts placed into the “scripts” folder on the server.
+
 The parameter $inv3dCustomScript is deprecated.
 
-## 4.4 Import CSV
+### 4.4 Import CSV
 
 Administrators can create a new table (level 0) or add a child table to an existing parent table (level 1) with
 the tool “Import CSV”. This tool could be configured into “CE API tool”.
 Clicking the “Import CSV” tool opens a new window.
 Level 0 table - define the name for the new table (do not use space or other special symbols), and click the
-icon to select the CSV file
+icon ![csv icon](../../assets/images/ce-express/admin-guide-v72/p043-img3.png) to select the CSV file
 Level 1 table – define the name for the new table, enter the name of the parent table and select the CSV
 file
+
+![Image p44](../../assets/images/ce-express/admin-guide-v72/p044-img1.png)
 
 Requirements:
 The data in the CSV file should be separated by the symbol “;”
@@ -913,99 +908,103 @@ Level 0 table – CSV file must comprise a column object_id
 Level 1 table – CSV file must comprise a column object_id and a column parent_id, with the parent_id value
 equal to the object_id of the parent table
 If it is required to upload data to an existing table, there will be a table menu to choose from:
+
+![Image p44](../../assets/images/ce-express/admin-guide-v72/p044-img2.png)
+
 Partial Import:
 The Partial Import feature allows to add records to an already existing table.
 If the checkbox "Partial import” is ticked, the imported records will be added to the defined table:
 
-![Image p44](../../assets/images/ce-express/admin-guide-v72/p044-img1.png)
+![Image p45](../../assets/images/ce-express/admin-guide-v72/p045-img1.png)
 
-![Image p44](../../assets/images/ce-express/admin-guide-v72/p044-img2.png)
-
-## 4.5 History
+### 4.5 History
 
 Admins can monitor the changes made in the database, more precisely, the records that were changed.
 Select an object and click on the “History” button from the “Settings” menu:
-The log tab will open. It shows when an object’s parameter was changed and what was changed:
-If no object is selected and the “History” button is clicked, all actions made within the application are shown:
-
-![Image p45](../../assets/images/ce-express/admin-guide-v72/p045-img1.png)
 
 ![Image p45](../../assets/images/ce-express/admin-guide-v72/p045-img2.png)
 
+The log tab will open. It shows when an object’s parameter was changed and what was changed:
+
 ![Image p45](../../assets/images/ce-express/admin-guide-v72/p045-img3.png)
+
+If no object is selected and the “History” button is clicked, all actions made within the application are shown:
 
 ![Image p45](../../assets/images/ce-express/admin-guide-v72/p045-img4.png)
 
-## 4.6 User Management
+### 4.6 User Management
 
 Administrators may restrict access to tables and attributes for individual users and user groups. The User
 Management is opened from the “Settings” menu:
-The user list opens in a separate window and comprises the fields User name, e-mail, Name and Group:
-To change from user list to groups list (and vice versa) click on the tab:
-User groups:
-A new user group can be added by clicking on (Note that new users are added only directly in the
-database)
-For editing user group restrictions, enter the edit mode in the column “Restrictions”. For example, for editing
 
 ![Image p46](../../assets/images/ce-express/admin-guide-v72/p046-img1.png)
 
+The user list opens in a separate window and comprises the fields User name, e-mail, Name and Group:
+
 ![Image p46](../../assets/images/ce-express/admin-guide-v72/p046-img2.png)
+
+To change from user list to groups list (and vice versa) click on the tab:
 
 ![Image p46](../../assets/images/ce-express/admin-guide-v72/p046-img3.png)
 
+User groups:
+
 ![Image p46](../../assets/images/ce-express/admin-guide-v72/p046-img4.png)
 
-![Image p46](../../assets/images/ce-express/admin-guide-v72/p046-img5.png)
+A new user group can be added by clicking on ![add group icon](../../assets/images/ce-express/admin-guide-v72/p046-img5.png) (Note that new users are added only directly in the
+database)
+
+For editing user group restrictions, enter the edit mode in the column “Restrictions”. For example, for editing
 the restrictions of the group “users” hold the ctrl key and right mouse click here:
 a) Restricting access of the group “users” to all tables
 Determine the visibility/editability of newly added items here:
 
-Select one of the three options from the dropdown menu:
-Everybody: New items are visible / editable for everybody
-User group: New items are visible / editable for the members of the group “users” (note: the users in a
-
 ![Image p47](../../assets/images/ce-express/admin-guide-v72/p047-img1.png)
 
+Select one of the three options from the dropdown menu:
+
 ![Image p47](../../assets/images/ce-express/admin-guide-v72/p047-img2.png)
+
+Everybody: New items are visible / editable for everybody
+User group: New items are visible / editable for the members of the group “users” (note: the users in a
 group may change and restrictions to all elements are inherited)
 User: New items are visible / editable only for the user who created them
 Determine the access of the group “users” here:
 
+![Image p48](../../assets/images/ce-express/admin-guide-v72/p048-img1.png)
+
 Select one of three options from the dropdown menu:
+
+![Image p48](../../assets/images/ce-express/admin-guide-v72/p048-img2.png)
+
 Restrict: Enables restrictions posed by other groups
 Read: Enables the members of the group “users” to view items
 Modify: Enables the members of the group “users” to view and edit items
 Note that the selection “access for this group” may override the per item access rights. For the
-
-![Image p48](../../assets/images/ce-express/admin-guide-v72/p048-img1.png)
-
-![Image p48](../../assets/images/ce-express/admin-guide-v72/p048-img2.png)
 restrictions posed by other groups, this value must be set to “Restrict”.
+
 b) Restricting access of the group “users” to selected tables and attributes
 For example, table “checklist”:
 
-Edit restrictions of the group “users” for table “checklist”:
-Choose option “entire table” or select the attributes that shall be restricted. Using the eye and lock symbols,
-
 ![Image p49](../../assets/images/ce-express/admin-guide-v72/p049-img1.png)
+
+Edit restrictions of the group “users” for table “checklist”:
 
 ![Image p49](../../assets/images/ce-express/admin-guide-v72/p049-img2.png)
 
-![Image p49](../../assets/images/ce-express/admin-guide-v72/p049-img3.png)
+Choose option “entire table” or select the attributes that shall be restricted. Using the eye and lock symbols,
 
-![Image p49](../../assets/images/ce-express/admin-guide-v72/p049-img4.png)
+![Image p49](../../assets/images/ce-express/admin-guide-v72/p049-img3.png) visible
+![Image p49](../../assets/images/ce-express/admin-guide-v72/p049-img4.png) invisible
 
-![Image p49](../../assets/images/ce-express/admin-guide-v72/p049-img5.png)
+![Image p49](../../assets/images/ce-express/admin-guide-v72/p049-img5.png) editable
+![Image p49](../../assets/images/ce-express/admin-guide-v72/p049-img6.png) not editable
 
-![Image p49](../../assets/images/ce-express/admin-guide-v72/p049-img6.png)
-restrictions can be set for visibility and editability:
-visible invisible
-editable not editable
 Restrict the visibility / editability of newly added items:
 
-Choose from dropdown menu:
-
 ![Image p50](../../assets/images/ce-express/admin-guide-v72/p050-img1.png)
+
+Choose from dropdown menu:
 
 ![Image p50](../../assets/images/ce-express/admin-guide-v72/p050-img2.png)
 

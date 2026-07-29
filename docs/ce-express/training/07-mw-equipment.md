@@ -2,90 +2,108 @@
 
 > **Version:** CE Express v7.2
 
-1. Objective
+**1. Objective**
+
 This tutorial will show you how to add new MW links, manage and do predictions.
+
 At the end of the exercise you will be able to:
 - Create and import MW equipment.
 - Create MW links in the project.
 - Do MW Predictions.
-2. Initial data
+
+**2. Initial data**
+
 Prepared project with:
 - Geodata.
 - Equipment and [models](#kw:31-models:ce-express-tr-models).
-3. Manage MW equipment
+
+**3. Manage MW equipment**
+
 Navigate to C:\CE_Course\MW_Equipment\Project and run Project.aprx file to open the
 prepared project for RL Introduction exercise.
+
 Microwave links involve additional equipment settings compared to point-to-area predictions.
 These settings include frequency plans, radio equipment, and parabolic antennas, which are
 used for predicting power budget, interference, or availability. In this section, we will cover
-
-![Image p2](../../assets/images/ce-express/training-07/p002-img1.png)
 how to create and, if necessary, import this data into the project.
 
 ## 3.1 Parabolic antennas
 
 Open Antenna Viewer in CE RLP tab, and change antenna type from Sector to Parabolic.
-All parabolic antennas will be displayed.
 
-Close Antenna Viewer tool. To import a new parabolic antenna, open Import/Export Antenna
+![Image p2](../../assets/images/ce-express/training-07/p002-img1.png)
+
+All parabolic antennas will be displayed.
 
 ![Image p3](../../assets/images/ce-express/training-07/p003-img1.png)
 
-![Image p3](../../assets/images/ce-express/training-07/p003-img2.png)
+Close Antenna Viewer tool. To import a new parabolic antenna, open Import/Export Antenna
 Files tool. Parabolic antenna import supports:
 - Andrew format:
-- NSMA format:
 
-Select Parabolic (NSMA Format).
-Click on Select Antenna Model Files
-Browse to C:\CE_Course\RL_Prediction\Equipment\Antennas, select Antenna10GHz.txt file
+![Image p3](../../assets/images/ce-express/training-07/p003-img2.png)
+
+- NSMA format:
 
 ![Image p4](../../assets/images/ce-express/training-07/p004-img1.png)
 
+Select Parabolic (NSMA Format).
+
 ![Image p4](../../assets/images/ce-express/training-07/p004-img2.png)
+
+Click on Select Antenna Model Files
 
 ![Image p4](../../assets/images/ce-express/training-07/p004-img3.png)
 
+Browse to C:\CE_Course\RL_Prediction\Equipment\Antennas, select Antenna10GHz.txt file
+and press OK button. It will appear in Import/Export Antenna Files dialog.
+
 ![Image p4](../../assets/images/ce-express/training-07/p004-img4.png)
+
+Select Check box near the antenna and press Import Antennas button.
 
 ![Image p5](../../assets/images/ce-express/training-07/p005-img1.png)
 
+Antenna will be imported successfully. Now choose Andrew format.
+
 ![Image p5](../../assets/images/ce-express/training-07/p005-img2.png)
+
+Click on Select Antenna Model Files
 
 ![Image p5](../../assets/images/ce-express/training-07/p005-img3.png)
 
-![Image p5](../../assets/images/ce-express/training-07/p005-img4.png)
-and press OK button. It will appear in Import/Export Antenna Files dialog.
-Select Check box near the antenna and press Import Antennas button.
-
-Antenna will be imported successfully. Now choose Andrew format.
-Click on Select Antenna Model Files
 Browse to C:\CE_Course\RL_Prediction\Equipment\Antennas, select a2119.adf antenna
 and press OK button to add it.
+
+![Image p5](../../assets/images/ce-express/training-07/p005-img4.png)
+
 Select Check box near the antenna and press Import Antennas button.
 Now open Antenna Viewer tool to review these antennas.
+
+![Image p6](../../assets/images/ce-express/training-07/p006-img1.png)
+
+![Image p6](../../assets/images/ce-express/training-07/p006-img2.png)
 
 Close Antenna Viewer and Import tools.
 
 ## 3.2 Radios
 
 This equipment category encompasses details about radio transceivers utilized in microwave
-
-![Image p6](../../assets/images/ce-express/training-07/p006-img1.png)
-
-![Image p6](../../assets/images/ce-express/training-07/p006-img2.png)
 links. It comprises information on transmitter power, receiver sensitivity, noise figure,
 nonlinearity characteristics, and maximum data capacity.
-Open [Radios](#kw:710-radios:ce-pro-rlp) tool in CE RLP tab and preview available Radio within default CE workspace.
 
-It has parameter section, and Modulations section.
-Click on Add button in top right corner of the dialog.
+Open [Radios](#kw:710-radios:ce-pro-rlp) tool in CE RLP tab and preview available Radio within default CE workspace.
 
 ![Image p7](../../assets/images/ce-express/training-07/p007-img1.png)
 
+It has parameter section, and Modulations section.
+
 ![Image p7](../../assets/images/ce-express/training-07/p007-img2.png)
 
+Click on Add button in top right corner of the dialog.
+
 ![Image p7](../../assets/images/ce-express/training-07/p007-img3.png)
+
 Define the same parameters as defined below:
 - Model: RL Radio
 - Manufacture: CE
@@ -111,46 +129,55 @@ Define the same parameters as defined below:
 - Power High, dBm: 26
 - Automatic Transfer Power Control Range, dB: 20
 
-Click on Modulations tab, and include these modulations:
-You can do it simply selecting modulation from the list and press + button to add it for the
-
 ![Image p9](../../assets/images/ce-express/training-07/p009-img1.png)
 
 ![Image p9](../../assets/images/ce-express/training-07/p009-img2.png)
 
+Click on Modulations tab, and include these modulations:
+
 ![Image p9](../../assets/images/ce-express/training-07/p009-img3.png)
+
+You can do it simply selecting modulation from the list and press + button to add it for the
 radio.
 Each modulation has its own default parameters.
 
-Leave default parameters and press Create button. The new radio will be added in the list.
-
 ![Image p10](../../assets/images/ce-express/training-07/p010-img1.png)
+
+Leave default parameters and press Create button. The new radio will be added in the list.
 
 ![Image p10](../../assets/images/ce-express/training-07/p010-img2.png)
 
-![Image p10](../../assets/images/ce-express/training-07/p010-img3.png)
 Click on Import tab.
+
+![Image p10](../../assets/images/ce-express/training-07/p010-img3.png)
+
 Click on Seleted Data File and navigate to C:\CE_Course\MW_Equipment\Equipment\Radio,
 select Aur24_1E1.raf and press OK button.
 
+![Image p11](../../assets/images/ce-express/training-07/p011-img1.png)
+
 New radio with the parameters will be added to the dialog. Press Import button to import it
 to the database.
+
+![Image p11](../../assets/images/ce-express/training-07/p011-img2.png)
+
 Close Radio tool.
 
 ## 3.3 Frequency plans
 
 Frequency planning is important for microwave link design, optimizing spectrum use, and
 preventing interference. By strategically allocating frequency bands, it enhances efficiency,
-
-![Image p11](../../assets/images/ce-express/training-07/p011-img1.png)
-
-![Image p11](../../assets/images/ce-express/training-07/p011-img2.png)
 complies with regulations, and coordinates with other services. This planning considers
 propagation characteristics and facilitates scalability, ensuring optimal performance for
 microwave links in various environments and supporting future technology upgrades.
+
 Frequency plans can be imported from a text file, or created manually.
-3.3.1 Create manually
+
+### 3.3.1 Create manually
+
 Open Frequency Plans tool in CE RLP tab.
+
+![Image p12](../../assets/images/ce-express/training-07/p012-img1.png)
 
 Click on Add section and define:
 - Frequency Plan Name: FP 10MHz 8 Carriers
@@ -158,29 +185,34 @@ Click on Add section and define:
 - Carrier Spacing, MHz: 50
 - Duplex Spacing, MHz: 300
 - Carriers: 8
-High Frequency, MHz will be filled automatically.
-Press Add Frequency Plan button.
-The new frequency plan will appear in the main dialog.
 
-![Image p12](../../assets/images/ce-express/training-07/p012-img1.png)
+High Frequency, MHz will be filled automatically.
 
 ![Image p12](../../assets/images/ce-express/training-07/p012-img2.png)
 
-![Image p12](../../assets/images/ce-express/training-07/p012-img3.png)
-3.3.2 Import
-Click on Import option, and then on Select Data Files.
+Press Add Frequency Plan button.
 
-Navigate to C:\CE_Course\RL_Prediction\Equipment\FrequencyPlans, select all files and
+The new frequency plan will appear in the main dialog.
+
+![Image p12](../../assets/images/ce-express/training-07/p012-img3.png)
+
+### 3.3.2 Import
+
+Click on Import option, and then on Select Data Files.
 
 ![Image p13](../../assets/images/ce-express/training-07/p013-img1.png)
 
+Navigate to C:\CE_Course\RL_Prediction\Equipment\FrequencyPlans, select all files and
+press OK button.
+
 ![Image p13](../../assets/images/ce-express/training-07/p013-img2.png)
 
-![Image p13](../../assets/images/ce-express/training-07/p013-img3.png)
-press OK button.
 Frequency Plans will be added to the preview.
+
+![Image p13](../../assets/images/ce-express/training-07/p013-img3.png)
 
 Press Import button and they will be imported to the database.
 
 ![Image p14](../../assets/images/ce-express/training-07/p014-img1.png)
+
 Close Frequency Plans dialog.

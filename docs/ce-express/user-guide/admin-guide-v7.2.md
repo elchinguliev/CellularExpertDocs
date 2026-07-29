@@ -1,33 +1,3 @@
-# CE Express Administrator Guide v7.2
-
-> **Version:** CE Express v7.2
-
-Cellular Expert Express Administrator Guide 7.2
-
-**About Cellular Expert**
-
-![Image p4](../../assets/images/ce-express/admin-guide-v72/p004-img1.png)
-
-Cellular Expert UAB (CE) developed ultra-fast wave
-propagation, communication systems deployment planning
-and radio/optical visibility calculation software for ESRI's
-ArcGIS mapping environment, which is widely used within
-Telecom, Defense, IoT, and other companies and
-organizations.
-
-CE's communication network planning, network asset
-management, operational support software and customer-
-tailored solutions enhance the intelligence and business
-efficiency of more than 170 communication network
-companies, regulators, and defense organizations in more
-than 50 countries.
-
-Copyright © 2026 UAB CELLULAR EXPERT. All rights
-reserved. Cellular Expert and Cellular Expert logo are
-registered trademarks, @cellular-expert.com and
-www.cellular-expert.com are service marks of UAB
-CELLULAR EXPERT in Lithuania and some other countries.
-
 **1. System requirements**
 
 Welcome to Cellular Expert. This chapter will guide you through the minimal hardware and software

@@ -1,8 +1,3 @@
-**Cellular Expert**
-
-**2. Line of Sight (Profile)**
-
-**\**
 
 # Objective
 

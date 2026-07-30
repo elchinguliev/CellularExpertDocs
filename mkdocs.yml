@@ -50,13 +50,13 @@ nav:
     - Sound User Guide: ce-pro/sound-user-guide.md
     - Indoor User Guide: ce-pro/indoor-user-guide.md
     - Training:
-      - 04. Creating Workspace: ce-pro/training/doc/04-workspace.md
-      - 05. Line of Sight: ce-pro/training/doc/05-line-of-sight.md
-      - 06. Creating Objects: ce-pro/training/doc/06-objects.md
-      - 07. Cell Prediction: ce-pro/training/doc/07-cell-prediction.md
-      - 08. Prediction Models: ce-pro/training/doc/08-prediction-models.md
-      - 09. Importing Data: ce-pro/training/doc/09-importing-data.md
-      - 10. RL Prediction: ce-pro/training/doc/10-rl-prediction.md
+      - 01. Creating Workspace: ce-pro/training/doc/01-workspace.md
+      - 02. Line of Sight: ce-pro/training/doc/02-line-of-sight.md
+      - 03. Creating Objects: ce-pro/training/doc/03-objects.md
+      - 04. Cell Prediction: ce-pro/training/doc/04-cell-prediction.md
+      - 05. Prediction Models: ce-pro/training/doc/05-prediction-models.md
+      - 06. Importing Data: ce-pro/training/doc/06-importing-data.md
+      - 07. RL Prediction: ce-pro/training/doc/07-rl-prediction.md
   - Inventory3D:
     - User Guide v4.6: inventory3d/user-guide.md
   - Geodata:

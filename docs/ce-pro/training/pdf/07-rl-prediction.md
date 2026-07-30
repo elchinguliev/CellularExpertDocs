@@ -10,7 +10,6 @@
 
 - Spectrum Mask
 
-![Slide 2](../../../assets/images/ce-pro/training-pdf-07-rl-prediction/page-02.png)
 
 ## Antennas
 

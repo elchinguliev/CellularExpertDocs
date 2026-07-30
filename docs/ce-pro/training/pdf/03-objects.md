@@ -89,5 +89,3 @@ Cells
 - Select point / Define coordinates
 
 - Save
-
-![Slide 7](../../../assets/images/ce-pro/training-pdf-03-objects/page-7.png)

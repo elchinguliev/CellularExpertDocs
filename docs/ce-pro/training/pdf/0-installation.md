@@ -6,7 +6,6 @@
 
 - Uninstallation       • ArcGIS upgrade 1. Cellular Expert     1. Run ArcGIS Pro upgrade (Cellular Expert 2. ArcGIS Pro              uninstallation is not required)
 
-![Slide 2](../../../assets/images/ce-pro/training-pdf-0-installation/page-2.png)
 
 ## Installation (requires administration rights)
 

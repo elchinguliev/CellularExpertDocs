@@ -284,7 +284,6 @@ UE DTM
 
 - Single Knife Edge Diffraction
 
-![Slide 26](../../../assets/images/ce-pro/training-pdf-05-prediction-models/page-26.png)
 
 ## Path Loss Equation: 9999 Ericsson
 

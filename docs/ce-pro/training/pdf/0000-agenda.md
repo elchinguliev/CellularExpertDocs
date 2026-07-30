@@ -36,7 +36,6 @@ DAY 1                    DAY 2
 
 ❑ Exercise descriptions C:\CE_COURSE\0.Descriptions
 
-![Slide 4](../../../assets/images/ce-pro/training-pdf-0000-agenda/page-4.png)
 
 ## Today
 
@@ -44,4 +43,3 @@ DAY 1                    DAY 2
 
 2. Exercises ➢ Creating Workspace ➢ Line of Sight ➢ Creating Objects
 
-![Slide 5](../../../assets/images/ce-pro/training-pdf-0000-agenda/page-5.png)

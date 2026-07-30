@@ -94,7 +94,6 @@ Project > Save Project/Save Project As
 
 ➢ Network Data ➢ Equipment Data ➢ Modelling Settings
 
-![Slide 12](../../../assets/images/ce-pro/training-pdf-000-architecture/page-12.png)
 
 ## Network Data Structure
 

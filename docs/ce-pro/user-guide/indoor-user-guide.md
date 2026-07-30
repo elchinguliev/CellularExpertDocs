@@ -1,10 +1,10 @@
-# CE Desktop EMF User Guide
+# CE Desktop Indoor User Guide
 
 > **Version:** CE Pro v4.9
 
 ## 1. Software Purpose and Functionality
 
-EMF prediction results are displayed as raster layers in the ArcGIS Pro map view. Use the Contents pane to toggle visibility of EMF exposure zones:
+Indoor prediction results are displayed as floor-level rasters inside building footprints on the ArcGIS Pro map:
 
 Cellular Expert Desktop for ArcGIS Pro (CE Pro) is a professional radio coverage planning software tool
 designed on top of the Esri ArcGIS Pro environment. The CE Pro is a highly versatile and functional tool,
@@ -187,13 +187,13 @@ at support@cellular-expert.com. For more information, see the chapter Technical 
 ### 4.3 Tools
 The Cellular Expert tools are in the Cellular Expert add-on. They appear automatically after installation of
 
-![Image p11](../assets/images/ce-pro/emf-guide/p011-img1.png)
+![Image p11](../../assets/images/ce-pro/indoor-guide/p011-img1.png)
 
-![Image p11](../assets/images/ce-pro/emf-guide/p011-img2.png)
+![Image p11](../../assets/images/ce-pro/indoor-guide/p011-img2.png)
 
-![Image p11](../assets/images/ce-pro/emf-guide/p011-img3.png)
+![Image p11](../../assets/images/ce-pro/indoor-guide/p011-img3.png)
 
-![Image p11](../assets/images/ce-pro/emf-guide/p011-img4.png)
+![Image p11](../../assets/images/ce-pro/indoor-guide/p011-img4.png)
 CE for ArcGIS Pro and will be found in the menu ribbon.
 There are 5 types of licenses and therefore 5 different tabs with various tool configurations:
 • RCP
@@ -202,21 +202,21 @@ There are 5 types of licenses and therefore 5 different tabs with various tool c
 • EMF
 • Sound
 • Indoor
-This User Guide describes EMF tools.
+This User Guide describes Indoor tools.
 
-![Image p12](../assets/images/ce-pro/emf-guide/p012-img1.png)
+![Image p12](../../assets/images/ce-pro/indoor-guide/p012-img1.png)
 
-![Image p12](../assets/images/ce-pro/emf-guide/p012-img2.png)
+![Image p12](../../assets/images/ce-pro/indoor-guide/p012-img2.png)
 
-![Image p12](../assets/images/ce-pro/emf-guide/p012-img3.png)
+![Image p12](../../assets/images/ce-pro/indoor-guide/p012-img3.png)
 
-![Image p12](../assets/images/ce-pro/emf-guide/p012-img4.png)
+![Image p12](../../assets/images/ce-pro/indoor-guide/p012-img4.png)
 
-![Image p12](../assets/images/ce-pro/emf-guide/p012-img5.png)
+![Image p12](../../assets/images/ce-pro/indoor-guide/p012-img5.png)
 
-![Image p12](../assets/images/ce-pro/emf-guide/p012-img6.png)
+![Image p12](../../assets/images/ce-pro/indoor-guide/p012-img6.png)
 
-![Image p12](../assets/images/ce-pro/emf-guide/p012-img7.png)
+![Image p12](../../assets/images/ce-pro/indoor-guide/p012-img7.png)
 
 ## 5. Geographic data
 CE Desktop is designed to work with any geospatial data available to the customer and fully exploit its
@@ -229,7 +229,7 @@ By leveraging whatever data is available locally, CE Express performs nationwide
 maximum feasible resolution, accurately modeling signal propagation even in dense urban environments.
 Support for 3D multi-height calculations ensures that coverage predictions reflect street-level, indoor, and
 
-![Image p13](../assets/images/ce-pro/emf-guide/p013-img1.png)
+![Image p13](../../assets/images/ce-pro/indoor-guide/p013-img1.png)
 rooftop conditions, providing regulators with a realistic representation of service availability.
 This flexibility ensures that NRAs can use their existing GIS assets, open datasets, or commercial data they
 already license, turning them into actionable broadband maps without additional data procurement
@@ -274,7 +274,7 @@ More information: https://blog.maxar.com/earth-intelligence/2022/benefits-of-usi
 telco-suite-for-5g
 Cellular Expert can easily integrate and process 1 m or even sub-meter topographical data, providing highly
 
-![Image p14](../assets/images/ce-pro/emf-guide/p014-img1.png)
+![Image p14](../../assets/images/ce-pro/indoor-guide/p014-img1.png)
 
 detailed RF calculations. This level of precision is essential for:
 • Modeling 2G/3G/4G/5G, small cells and mmWave networks.
@@ -283,9 +283,9 @@ detailed RF calculations. This level of precision is essential for:
 • Supporting regulatory-grade broadband mapping and planning.
 By using high-resolution terrain and clutter data, Cellular Expert ensures that its calculations match real-
 
-![Image p15](../assets/images/ce-pro/emf-guide/p015-img1.png)
+![Image p15](../../assets/images/ce-pro/indoor-guide/p015-img1.png)
 
-![Image p15](../assets/images/ce-pro/emf-guide/p015-img2.png)
+![Image p15](../../assets/images/ce-pro/indoor-guide/p015-img2.png)
 world conditions as closely as possible — resulting in better network design decisions and more reliable
 broadband planning outcomes.
 
@@ -313,15 +313,15 @@ Projection
 The raster must use a Projected Coordinate System. To check the coordinate system of your raster, use
 the Properties function in ArcGIS Pro. Add the raster to your project, right-click on it, and select Properties.
 
-![Image p16](../assets/images/ce-pro/emf-guide/p016-img1.png)
+![Image p16](../../assets/images/ce-pro/indoor-guide/p016-img1.png)
 
-![Image p16](../assets/images/ce-pro/emf-guide/p016-img2.png)
+![Image p16](../../assets/images/ce-pro/indoor-guide/p016-img2.png)
 Then, go to the Source tab > Spatial Reference and check the Coordinate System type parameter to confirm
 it is in a Projected Coordinate System.
 
 If your raster is in a Geographic Coordinate System or needs a different projection, use the Geoprocessing
 
-![Image p17](../assets/images/ce-pro/emf-guide/p017-img1.png)
+![Image p17](../../assets/images/ce-pro/indoor-guide/p017-img1.png)
 > Project Raster tool to update it.
 In the Output Coordinate System, specify a new coordinate system. It is recommended to use a UTM
 coordinate system under the WGS 1984 projection.
@@ -342,9 +342,9 @@ Configure the following settings:
 Land use or clutter refers to the classification of the earth’s surface into categories such as urban, suburban,
 rural, forest, water, and open land, each of which affects radio propagation differently. Clutter data is crucial
 
-![Image p19](../assets/images/ce-pro/emf-guide/p019-img1.png)
+![Image p19](../../assets/images/ce-pro/indoor-guide/p019-img1.png)
 
-![Image p19](../assets/images/ce-pro/emf-guide/p019-img2.png)
+![Image p19](../../assets/images/ce-pro/indoor-guide/p019-img2.png)
 because it determines how signals are absorbed, reflected, or diffracted by the environment, directly
 influencing coverage, interference, and quality of service. The naming and classification of land use types
 may vary. An example is the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2
@@ -356,18 +356,18 @@ Table:
 These are standard clutter types in the default workspace database, which cannot be edited. You must
 map your clutter raster to these predefined clutter types. Standard mapping has already been configured
 
-![Image p20](../assets/images/ce-pro/emf-guide/p020-img1.png)
+![Image p20](../../assets/images/ce-pro/indoor-guide/p020-img1.png)
 
-![Image p20](../assets/images/ce-pro/emf-guide/p020-img2.png)
+![Image p20](../../assets/images/ce-pro/indoor-guide/p020-img2.png)
 for the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2 Land Cover
 
 If you have a different clutter class layer, it can be used for predictions by remapping it using the Clutter
 
-![Image p21](../assets/images/ce-pro/emf-guide/p021-img1.png)
+![Image p21](../../assets/images/ce-pro/indoor-guide/p021-img1.png)
 
-![Image p21](../assets/images/ce-pro/emf-guide/p021-img2.png)
+![Image p21](../../assets/images/ce-pro/indoor-guide/p021-img2.png)
 
-![Image p21](../assets/images/ce-pro/emf-guide/p021-img3.png)
+![Image p21](../../assets/images/ce-pro/indoor-guide/p021-img3.png)
 Classes tool and specifying the IDs in the geodata raster parameter. If multiple clutter classes correspond
 to a single default clutter type, separate the ID values with commas.
 This mapping can also be adjusted in the Clutter table.
@@ -380,9 +380,9 @@ The Clutter Raster has several requirements, which are the same as for DTM raste
 Projection
 It must have the same coordinate system as your elevation.tif raster. If your raster has different coordinate
 
-![Image p22](../assets/images/ce-pro/emf-guide/p022-img1.png)
+![Image p22](../../assets/images/ce-pro/indoor-guide/p022-img1.png)
 
-![Image p22](../assets/images/ce-pro/emf-guide/p022-img2.png)
+![Image p22](../../assets/images/ce-pro/indoor-guide/p022-img2.png)
 system, then use the Geoprocessing tool → Project Raster to fix it.
 In the Output Coordinate System you would need to define the same coordinate system as your elevation.tif
 raster. Click on Select Coordinate System button.
@@ -391,7 +391,7 @@ And choose the same coordinate system as your elevation.tif.
 Correct No Data value and raster name
 After setting the correct projection, assign the NoData attribute and specify the appropriate name for the
 
-![Image p23](../assets/images/ce-pro/emf-guide/p023-img1.png)
+![Image p23](../../assets/images/ce-pro/indoor-guide/p023-img1.png)
 Clutter Class raster. To do this, use the Copy Raster tool in Geoprocessing.
 Configure the following settings:
 • Input Raster: Select your newly projected Clutter Class raster.
@@ -406,9 +406,9 @@ clutter heights raster requires the accompanying clutterClasses.tif raster and c
 independently.
 A clutter height raster can be derived from a Digital Surface Model (DSM) raster and a Digital Terrain Model
 
-![Image p24](../assets/images/ce-pro/emf-guide/p024-img1.png)
+![Image p24](../../assets/images/ce-pro/indoor-guide/p024-img1.png)
 
-![Image p24](../assets/images/ce-pro/emf-guide/p024-img2.png)
+![Image p24](../../assets/images/ce-pro/indoor-guide/p024-img2.png)
 (DTM) raster using the ArcGIS Raster Calculator tool. To access this tool, open Geoprocessing tools and
 navigate to Spatial Analyst > Map Algebra > Raster Calculator. Use the following formula:
 DSM – DTM
@@ -420,7 +420,7 @@ The Clutter Height has several requirements, which are the same as for DTM raste
 Projection
 It must have the same coordinate system as your elevation.tif raster. If your raster has different coordinate
 
-![Image p25](../assets/images/ce-pro/emf-guide/p025-img1.png)
+![Image p25](../../assets/images/ce-pro/indoor-guide/p025-img1.png)
 system, then use the Geoprocessing tool → Project Raster to fix it.
 
 In the Output Coordinate System you would need to define the same coordinate system as your elevation.tif
@@ -429,16 +429,16 @@ And choose the same coordinate system as your elevation.tif.
 Correct No Data value and raster name
 After setting the correct projection, assign the NoData attribute and specify the appropriate name for the
 
-![Image p26](../assets/images/ce-pro/emf-guide/p026-img1.png)
+![Image p26](../../assets/images/ce-pro/indoor-guide/p026-img1.png)
 
-![Image p26](../assets/images/ce-pro/emf-guide/p026-img2.png)
+![Image p26](../../assets/images/ce-pro/indoor-guide/p026-img2.png)
 Clutter Height raster. To do this, use the Copy Raster tool in Geoprocessing.
 
 Configure the following settings:
 • Input Raster: Select your newly projected Clutter Height raster.
 • Output Raster Dataset: Specify the output location and set the raster name to clutterHeight.tif.
 
-![Image p27](../assets/images/ce-pro/emf-guide/p027-img1.png)
+![Image p27](../../assets/images/ce-pro/indoor-guide/p027-img1.png)
 • NoData Value: Enter -9999.
 • Pixel Type: Choose 32-bit signed or 32-bit float.
 • Format: This will automatically be set to TIFF.
@@ -446,7 +446,7 @@ Configure the following settings:
 #### 5.1.4 Buildings
 Building features within the Clutter Classes raster are automatically identified and categorized using a range
 
-![Image p28](../assets/images/ce-pro/emf-guide/p028-img1.png)
+![Image p28](../../assets/images/ce-pro/indoor-guide/p028-img1.png)
 of dedicated building-specific clutter types. These clutter types are available within the Clutter Classes
 tool and are specifically designed to represent different architectural materials and structural
 characteristics.
@@ -463,9 +463,9 @@ modeling.
 
 If your building data is in vector format (e.g., polygons), you’ll first need to convert it to raster before
 
-![Image p29](../assets/images/ce-pro/emf-guide/p029-img1.png)
+![Image p29](../../assets/images/ce-pro/indoor-guide/p029-img1.png)
 
-![Image p29](../assets/images/ce-pro/emf-guide/p029-img2.png)
+![Image p29](../../assets/images/ce-pro/indoor-guide/p029-img2.png)
 incorporating it into the Clutter Classes layer.
 
 1. Convert Vector to Raster
@@ -496,15 +496,15 @@ Each building-related clutter class is assigned a unique ID value, which is used
 the appropriate path loss parameters for solid structures.
 This ensures that Buildings are accurately represented in simulations, contributing to more realistic signal
 
-![Image p30](../assets/images/ce-pro/emf-guide/p030-img1.png)
+![Image p30](../../assets/images/ce-pro/indoor-guide/p030-img1.png)
 behavior in both indoor and outdoor environments.
 
 Building Height Determination in Clutter-Based Modeling
 Pixels assigned to a building clutter class ID will be automatically recognized as solid obstacle during
 
-![Image p31](../assets/images/ce-pro/emf-guide/p031-img1.png)
+![Image p31](../../assets/images/ce-pro/indoor-guide/p031-img1.png)
 
-![Image p31](../assets/images/ce-pro/emf-guide/p031-img2.png)
+![Image p31](../../assets/images/ce-pro/indoor-guide/p031-img2.png)
 prediction calculations. Their heights are determined using the following priority:
 • Option 1: From the associated Clutter Height raster, if available. This provides the most accurate,
 location-specific height information.
@@ -522,7 +522,7 @@ This chapter describes the Cellular Expert workspace functionality.
 Cellular Expert workspace is a geodatabase containing data tables, feature datasets, and the workspace
 definition table. After creating a new workspace database, the workspace definition table will be named
 
-![Image p32](../assets/images/ce-pro/emf-guide/p032-img1.png)
+![Image p32](../../assets/images/ce-pro/indoor-guide/p032-img1.png)
 CE_WORKSPACE and contain the information about the dataset.
 
 Data field types and values:
@@ -537,9 +537,9 @@ the workspace parameters by referencing the new paths to properly load the proje
 • Calculation Tasks Data Path – path for saving calculation tasks
 • Geodata Folder Path – path for geodata (prediction models do not have geodata options, topographical
 
-![Image p33](../assets/images/ce-pro/emf-guide/p033-img1.png)
+![Image p33](../../assets/images/ce-pro/indoor-guide/p033-img1.png)
 
-![Image p33](../assets/images/ce-pro/emf-guide/p033-img2.png)
+![Image p33](../../assets/images/ce-pro/indoor-guide/p033-img2.png)
 data are taken from the Geodata Folder Path)
 • Result Path – path for final results
 Workspace calculation paths and settings can be previewed in the dedicated tool, navigate to Workspace
@@ -554,9 +554,9 @@ Steps to create a new workspace:
 New workspace path
 It is automatically filled based on the ArcGIS Pro project location. The recommendation is to first save your
 
-![Image p34](../assets/images/ce-pro/emf-guide/p034-img1.png)
+![Image p34](../../assets/images/ce-pro/indoor-guide/p034-img1.png)
 
-![Image p34](../assets/images/ce-pro/emf-guide/p034-img2.png)
+![Image p34](../../assets/images/ce-pro/indoor-guide/p034-img2.png)
 ArcGIS Pro project, and then open the Workspace > Create tool. The project's workspace folder will be
 automatically created in the ArcGIS Pro project location catalog. This way, you will have both the ArcGIS
 Pro and CE workspace in the same location.
@@ -574,21 +574,21 @@ When creating a new workspace using geodata containing clutter classes raster, d
 be set by clicking Set Default Clutter Class IDs button. The default ID values are based on Living Atlas
 clutter. Clutter class IDs can also be set manually, either before or after the default values are set. To initiate
 
-![Image p35](../assets/images/ce-pro/emf-guide/p035-img1.png)
+![Image p35](../../assets/images/ce-pro/indoor-guide/p035-img1.png)
 
-![Image p35](../assets/images/ce-pro/emf-guide/p035-img2.png)
+![Image p35](../../assets/images/ce-pro/indoor-guide/p035-img2.png)
 the manual editing of clutter class IDs, click the Manually Set Clutter Class IDs button. Each clutter class
 can be edited to designate its used and unused types, also indicated by their distinct colors.
 
 Note: The projected Coordinate System has been filled automatically and taken from the defined Elevation
 
-![Image p36](../assets/images/ce-pro/emf-guide/p036-img1.png)
+![Image p36](../../assets/images/ce-pro/indoor-guide/p036-img1.png)
 
-![Image p36](../assets/images/ce-pro/emf-guide/p036-img2.png)
+![Image p36](../../assets/images/ce-pro/indoor-guide/p036-img2.png)
 
-![Image p36](../assets/images/ce-pro/emf-guide/p036-img3.png)
+![Image p36](../../assets/images/ce-pro/indoor-guide/p036-img3.png)
 
-![Image p36](../assets/images/ce-pro/emf-guide/p036-img4.png)
+![Image p36](../../assets/images/ce-pro/indoor-guide/p036-img4.png)
 grid. This means that this coordinate system will be assigned to your project feature layers.
 Several messages related to Geodata:
 • If only Elevation exists in Geodata catalog, then tool will be filled with such information:
@@ -605,34 +605,104 @@ Cellular Expert layer and geodata will be added to the project.
 
 Workspace geodatabase and required folders will be created within successful workspace creation
 
-![Image p37](../assets/images/ce-pro/emf-guide/p037-img1.png)
+![Image p37](../../assets/images/ce-pro/indoor-guide/p037-img1.png)
 
-![Image p37](../assets/images/ce-pro/emf-guide/p037-img2.png)
+![Image p37](../../assets/images/ce-pro/indoor-guide/p037-img2.png)
 procedure.
 
 The Project Paths will be filled in the Workspace Properties → Properties tab.
 
-![Image p38](../assets/images/ce-pro/emf-guide/p038-img1.png)
+#### 6.1.3 Create Indoor Workspace
+Steps to create a workspace from a CAD drawing:
 
-#### 6.1.3 Open Workspace
+1. Click the Create Indoor Workspace button in the Cellular Expert Workspace menu.
+
+2. The Create Indoor Workspace dockpane will appear. A new workspace path with a new directory is
+automatically created, but can also be changed with the browse button. Select the projected coordinate
+
+![Image p38](../../assets/images/ce-pro/indoor-guide/p038-img1.png)
+
+![Image p38](../../assets/images/ce-pro/indoor-guide/p038-img2.png)
+
+![Image p38](../../assets/images/ce-pro/indoor-guide/p038-img3.png)
+system by clicking the button with the globe icon.
+
+3. Before selecting the building data, if the data is not georeferenced, the Center the drawing in current
+
+![Image p39](../../assets/images/ce-pro/indoor-guide/p039-img1.png)
+
+![Image p39](../../assets/images/ce-pro/indoor-guide/p039-img2.png)
+viewport can be selected (ON by default). This adjusts the drawing to the current map viewport (centers
+and scales the building drawing). If the building data is georeferenced, the option can be turned off to
+place it in its intended location on the map.
+
+4. Once the projected coordinate system is selected, the building data can be selected. Click the folder
+button and select the building data. Formats supported: .DWG, .DXF, .SHP (line shapefile), .PDF (raster
+and vector documents)
+If CAD drawing (.DXF, .DWG format files) is selected:
+• Once the CAD drawing is selected, it is added to the map, and the properties can be adjusted. The
+default selected feature type is Polyline (i.e., the polyline layer, or group, is used for selecting the
+features that will be transformed into the geodata). The wall height represents the values in the to-
+be-created clutterHeight.tif raster. The resolution also affects the width of the drawing lines (e.g.,
+walls will be thicker or thinner depending on the resolution).
+
+If line shapefile data (.SHP format files) is selected:
+• The same procedure applies as for CAD files; however, several .SHP files can be selected in the
+file selection dialog. If more than one .SHP files are selected, they are treated as a single building
+
+![Image p40](../../assets/images/ce-pro/indoor-guide/p040-img1.png)
+data unit.
+If a PDF document (.PDF format file) is selected:
+• There are two options for converting PDF documents to a building plan drawing (DXF format):
+o Vector: Select this option if your PDF document contains the building plan in vector lines.
+o Raster: Select this option of your building plan is an image in the PDF document.
+
+If Vector document type is selected, an option to filter text in the PDF document appears. If on
+(default), the text in the document will be filtered, keeping the building drawing only. If off, the text
+present in the document will be retained in the building drawing. If Raster document type is
+selected, an option to define PDF document DPI appears. Selecting a higher DPI will result in a
+more accurate building plan conversion, however, this procedure will take a longer time.
+For PDF documents, the page which contains the building plan data must be selected (by default,
+it is the first page.)
+Make the selection on the map with Select tool to specify which features will be used for workspace creation
+(for instance, if only some features are required). Clutter classes for each layer can also be edited (by
+default, they are incremented from 1 to the amount of layers selected), or a single clutter class value can
+be set for all layers by clicking the Set Class for All Features button. If you need to scale, move, or rotate
+the selected section of the building, it can be done so using the Move tool.
+Once you have done the selected territory transformation with the Move tool (or Scale/Rotate) and
+confirmed the location of the selection, click the Create Workspace button to initiate the workspace creation
+procedure. The workspace will be activated automatically. If Keep tool open after workspace creation is
+selected, the dockpane will remain open, and the created polylines will be retained, should you wish to
+reposition the drawing and recreate the geodata again.
+The created clutterHeight.tif, clutterClasses.tif, elevation.tif rasters are stored in the Geodata folder, which
+
+![Image p41](../../assets/images/ce-pro/indoor-guide/p041-img1.png)
+is located in the workspace folder.
+
+#### 6.1.4 Open Workspace
 Steps to open a workspace:
 
 1. Click the Open option in the Workspace menu of the Cellular Expert toolbar.
 
+![Image p42](../../assets/images/ce-pro/indoor-guide/p042-img1.png)
+
+![Image p42](../../assets/images/ce-pro/indoor-guide/p042-img2.png)
+
 2. Specify the workspace name and click the OK button.
+
 The specified workspace will be activated automatically.
 
-#### 6.1.4 Remove Workspace
+#### 6.1.5 Remove Workspace
 Upon selecting Remove in the Workspace dropdown menu, the workspace will be removed from the
 currently open ArcGIS Pro project.
 
-#### 6.1.5 Workspace Upgrade
+#### 6.1.6 Workspace Upgrade
 Workspace Upgrade is a tool that enables the user to update missing tables from the default database
 (default.gdb). If the table exists, Workspace Upgrade also checks if all default fields are present in that
 table. If the tables are toggled, they will be updated (upgraded) by the tool.
 Usually, with new versions of CE for ArcGIS Pro come changes to default data tables. This tool is especially
 
-![Image p39](../assets/images/ce-pro/emf-guide/p039-img1.png)
+![Image p43](../../assets/images/ce-pro/indoor-guide/p043-img1.png)
 useful when checking if the newest version tables correspond to the current project tables.
 Workspace Upgrade automatically checks all these parameters and notifies the user upon the start-up of
 the project.
@@ -646,7 +716,7 @@ Upgrade Database
 Creates the missing tables and/or creates/adds back the missing fields from default tables.
 If a project with incompatible geodata is loaded, the Workspace Upgrade tool analyzes the current geodata,
 
-![Image p40](../assets/images/ce-pro/emf-guide/p040-img1.png)
+![Image p44](../../assets/images/ce-pro/indoor-guide/p044-img1.png)
 as well as the owned user Esri Extension licenses to offer the optimal geodata upgrade path. This process
 is one-time only, and can be done by checking the Upgrade Geodata toggle.
 • If only elevation and buildingHeight rasters exist, the buildingHeight can automatically be renamed
@@ -655,37 +725,31 @@ to clutterHeight.
 rasters exist, raster calculations are performed to merge the buildingHeight and clutterHeight
 rasters.
 • (Image Analyst and Spatial Analyst licenses only) If elevation, buildingHeight, clutterHeight and
-
 clutterClasses rasters exist, raster calculations are performed to merge the buildingHeight and
 clutterHeight rasters, and modify the clutterClasses raster to add the building outlines with ID of 0.
 
-![Image p41](../assets/images/ce-pro/emf-guide/p041-img1.png)
-
-![Image p41](../assets/images/ce-pro/emf-guide/p041-img2.png)
-
-#### 6.1.6 Workspace Properties
+#### 6.1.7 Workspace Properties
 The Workspace properties dialogue shows all the workspace information from the “CE_WORKSPACE”
 data table. It also enables the user to customize the symbol visualization.
 To open the Workspace Properties dialogue, click on the Workspace menu icon and choose Properties.
-
-6.1.6.1 Parameters
+6.1.7.1 Parameters
 All information from the “CE_WORKSPACE” table is represented in the Parameters tab of the Workspace
 
-![Image p42](../assets/images/ce-pro/emf-guide/p042-img1.png)
+![Image p45](../../assets/images/ce-pro/indoor-guide/p045-img1.png)
+
+![Image p45](../../assets/images/ce-pro/indoor-guide/p045-img2.png)
 Properties.
+
 | Parameter | Description |
 |---|---|
 | OK | Click this button to save any changes and close the dialogue. |
 | Cancel | Click this button to cancel any changes and close the dialogue. |
 | Help | Get helpful information about the dialogue. |
 CE Server Parameters
-ArcGIS Portal URL
-Connection URL to the ArcGIS Portal website.
-CE Server API
-Connection URL to Cellular Expert Server API.
-
 | Parameter | Description |
 |---|---|
+| ArcGIS Portal URL | Connection URL to the ArcGIS Portal website. |
+| CE Server API | Connection URL to Cellular Expert Server API. |
 | CE Server Environment | Cellular Expert Server environment in which it is run. |
 | CE Server URL | Connection URL to Cellular Expert Server. |
 | CE Server Workspace | The workspace used in the Cellular Expert Server. |
@@ -698,9 +762,13 @@ Project Paths Parameters
 | Geodata Folder Path | Path to a folder in which the geodata from the Cellular Expert Workspace is stored. |
 | Prediction Path | Path for storing prediction grids. |
 | Result Path | Path for storing the final calculation results |
-| Volatile Calculation Path | Path for temporary Quick Prediction calculation results. |
-| Volatile Result Path | Path for storing the final Quick Prediction calculation results |
-| Volatile Tasks Data Path | Path for the Quick Prediction calculation results that will be displayed in the Calculation Task List. |
+Volatile Calculation Path
+
+Path for temporary Quick Prediction calculation results.
+Volatile Result Path
+Path for storing the final Quick Prediction calculation results
+Volatile Tasks Data Path
+Path for the Quick Prediction calculation results that will be displayed in the Calculation Task List.
 Project Settings Parameters
 Calculate EIRP
 Determines whether calculate EIRP or no in the prediction calculations.
@@ -711,13 +779,10 @@ Enables GPU Accelerations that optimizes the prediction calculations and makes t
 values Yes/No.
 Transmit Power Units
 Represents power value in dBm or Watts.
-
 Receiver/Transmitter Height Reference
 The reference raster for calculating the receiver’s and transmitter’s height for these calculations: Profile, RF
 
-![Image p44](../assets/images/ce-pro/emf-guide/p044-img1.png)
-
-![Image p44](../assets/images/ce-pro/emf-guide/p044-img2.png)
+![Image p47](../../assets/images/ce-pro/indoor-guide/p047-img1.png)
 Predictions, Quick Predictions, Visibility and other prediction tools. Possible values:
 • Elevation – reference layer will be used elevation.tif raster. This is a default parameter.
 • Clutter height – reference layer will be used clutterHeight.tif raster. Receiver/transmitter height will
@@ -732,8 +797,11 @@ Determines whether clutterClasses.tif and clutterHeight.tif rasters are used in 
 Possible values Yes/No.
 Rounding
 The rounding value for different parameters.
-6.1.6.2 Visualization
+
+6.1.7.2 Visualization
 The Cellular Expert network objects (Sites, Cells, OMEN) and calculation result rasters are represented in
+
+![Image p48](../../assets/images/ce-pro/indoor-guide/p048-img1.png)
 ArcGIS with the symbology as defined in the .lyr files, located in the Visualization tab (“CE_LAYERS”
 table).
 
@@ -746,14 +814,14 @@ Get helpful information about the dialogue.
 All visualization settings have the “Visible” option set to On by default. Suppose the Visible option is set to
 off, the next time a relevant calculation is performed. In that case, the rasters associated with the calculation
 
-![Image p45](../assets/images/ce-pro/emf-guide/p045-img1.png)
+![Image p49](../../assets/images/ce-pro/indoor-guide/p049-img1.png)
 are added to the map with the visibility disabled. This is done only for the calculations performed after the
 setting is changed, and does not impact already added rasters on the map.
 The symbology is defined as a list of Layers and .lyr files:
 • Narrowband 2G (GSM/CDMA-850/TETRA/P-25) – second generation network (like GSM) calculations
-
 or technology-independent calculations (for example, the symbology for antenna loss by tilt is defined
 by the same file for WiMAX, LTE, and other technology)
+
 • Broadband 3G (UMTS/HSDPA) – results for UMTS, HSDPA and other 3 - 3.5 generation technologies
 • Broadband 4G (LTE, BWA/WiMAX) – results of LTE technology calculations
 • Broadband 5G (NR, CBRS) – results of 5G-NR technology calculations
@@ -790,16 +858,16 @@ When you use layer files for visualization, do not forget about them. Remember t
 workspace to another location, the location path settings can become incorrect. If Cellular Expert is not able
 to find your defined symbology file, it will use the default file from the location .../Cellular Expert/Layers.
 
-![Image p46](../assets/images/ce-pro/emf-guide/p046-img1.png)
+![Image p50](../../assets/images/ce-pro/indoor-guide/p050-img1.png)
 
 ### 6.2 Docs Manager
 Docs Manager is a tool for managing Saved Profiles between the transmitter (Tx) and receiver (Rx), which
 are generated in the Profile tool, as well as saved Link Prediction results, Profile Reports, and Link
 Prediction Reports. When a profile is saved in the Profile tool, it is automatically stored in Docs Manager,
 
-![Image p47](../assets/images/ce-pro/emf-guide/p047-img1.png)
+![Image p51](../../assets/images/ce-pro/indoor-guide/p051-img1.png)
 
-![Image p47](../assets/images/ce-pro/emf-guide/p047-img2.png)
+![Image p51](../../assets/images/ce-pro/indoor-guide/p051-img2.png)
 allowing users to reopen it at any time. This ensures that all parameters and calculations related to Tx and
 Rx are preserved for future reference, eliminating the need to reconfigure settings repeatedly. The same
 applies for Link Prediction results, and the Reports can be opened if the original exported document is, for
@@ -821,34 +889,34 @@ accuracy in their Tx and Rx calculations.
 How to Open a Link Prediction
 A saved Link Prediction, just like Profile, can be accessed either by double-clicking the desired Link
 
-![Image p48](../assets/images/ce-pro/emf-guide/p048-img1.png)
+![Image p52](../../assets/images/ce-pro/indoor-guide/p052-img1.png)
 Prediction result, or by select it and clicking Open.
 
 How to Save a Link Prediction
 Link Prediction result can be saved to Docs Manager by selecting Save result to Docs Manager in
 
-![Image p49](../assets/images/ce-pro/emf-guide/p049-img1.png)
+![Image p53](../../assets/images/ce-pro/indoor-guide/p053-img1.png)
 
-![Image p49](../assets/images/ce-pro/emf-guide/p049-img2.png)
+![Image p53](../../assets/images/ce-pro/indoor-guide/p053-img2.png)
 the Link Prediction tool.
 
 How to Open a Profile Report
-A Profile Report document can be accessed either by double-clicking the desired Profile Report, or by
-select it and clicking Open. The document will be opened using your default PDF document reader.
+A Profile Report document can be accessed either by double-clicking the desired Profile Report, or by select
+
+![Image p54](../../assets/images/ce-pro/indoor-guide/p054-img1.png)
+
+![Image p54](../../assets/images/ce-pro/indoor-guide/p054-img2.png)
+it and clicking Open. The document will be opened using your default PDF document reader.
 How to Save a Profile Report
 Profile Report of the current drawn profile can be saved to Docs Manager by selecting Save result to Docs
-
-![Image p50](../assets/images/ce-pro/emf-guide/p050-img1.png)
-
-![Image p50](../assets/images/ce-pro/emf-guide/p050-img2.png)
 Manager in the Export tab of the Profile tool.
 
 How to Open a Link Prediction Report
 A Link Prediction Report document can be accessed either by double-clicking the desired Link Prediction
 
-![Image p51](../assets/images/ce-pro/emf-guide/p051-img1.png)
+![Image p55](../../assets/images/ce-pro/indoor-guide/p055-img1.png)
 
-![Image p51](../assets/images/ce-pro/emf-guide/p051-img2.png)
+![Image p55](../../assets/images/ce-pro/indoor-guide/p055-img2.png)
 Report, or by select it and clicking Open. The document will be opened using your default PDF document
 reader.
 How to Save a Link Prediction Report
@@ -868,9 +936,9 @@ To connect to CE Server Express and get the list of workspaces, insert the Serve
 field. Then press the Get Workspaces button.
 If you select one of the appearing workspaces, the properties of that workspace will be saved to your current
 
-![Image p52](../assets/images/ce-pro/emf-guide/p052-img1.png)
+![Image p56](../../assets/images/ce-pro/indoor-guide/p056-img1.png)
 
-![Image p52](../assets/images/ce-pro/emf-guide/p052-img2.png)
+![Image p56](../../assets/images/ce-pro/indoor-guide/p056-img2.png)
 ArcGIS Pro project automatically.
 
 | Parameter | Description |
@@ -883,7 +951,7 @@ Get Workspaces
 Establishes the connection between the provided Server URL and CE for ArcGIS Pro. Upon clicking the
 button, the user may be redirected to a browser window in which he will have to log in to the ArcGIS Portal.
 
-![Image p53](../assets/images/ce-pro/emf-guide/p053-img1.png)
+![Image p57](../../assets/images/ce-pro/indoor-guide/p057-img1.png)
 After doing so, the workspaces will be retrieved.
 Import Features
 Imports the retrieved objects to the currently opened CE workspace.
@@ -908,7 +976,7 @@ New network objects can be created in several ways. They can be:
 The object represents both physical parameters (e.g., height, antenna, azimuth) and logical parameters
 (e.g., bandwidth, frequency, technology). Essentially, it is similar to a Sector object but is referred to as a
 
-![Image p54](../assets/images/ce-pro/emf-guide/p054-img1.png)
+![Image p58](../../assets/images/ce-pro/indoor-guide/p058-img1.png)
 Cell and includes additional details about cell-specific parameters. This object serves as the primary
 element for performing coverage predictions and supports various technologies, including 2G, 3G, 4G, 5G,
 and WiFi. It is also utilized in critical networks like TETRA, APCO, P-25, and military applications to model
@@ -921,28 +989,28 @@ Cell objects are used for prediction calculations.
 
 1. Left-clicking on the map will define the location of the object. To define its direction, left-click a
 
-![Image p55](../assets/images/ce-pro/emf-guide/p055-img1.png)
+![Image p59](../../assets/images/ce-pro/indoor-guide/p059-img1.png)
 
-![Image p55](../assets/images/ce-pro/emf-guide/p055-img2.png)
+![Image p59](../../assets/images/ce-pro/indoor-guide/p059-img2.png)
 
-![Image p55](../assets/images/ce-pro/emf-guide/p055-img3.png)
+![Image p59](../../assets/images/ce-pro/indoor-guide/p059-img3.png)
 
-![Image p55](../assets/images/ce-pro/emf-guide/p055-img4.png)
+![Image p59](../../assets/images/ce-pro/indoor-guide/p059-img4.png)
 second time in your preferred direction.
 Add Object > Cell dialog will be filled with coordinates and parameters from default template, and
 
 azimuth value based on defined direction on the map.
 The Cell object can be created by entering exact coordinates in:
 
-![Image p56](../assets/images/ce-pro/emf-guide/p056-img1.png)
+![Image p60](../../assets/images/ce-pro/indoor-guide/p060-img1.png)
 
-![Image p56](../assets/images/ce-pro/emf-guide/p056-img2.png)
+![Image p60](../../assets/images/ce-pro/indoor-guide/p060-img2.png)
 
-![Image p56](../assets/images/ce-pro/emf-guide/p056-img3.png)
+![Image p60](../../assets/images/ce-pro/indoor-guide/p060-img3.png)
 
-![Image p56](../assets/images/ce-pro/emf-guide/p056-img4.png)
+![Image p60](../../assets/images/ce-pro/indoor-guide/p060-img4.png)
 
-![Image p56](../assets/images/ce-pro/emf-guide/p056-img5.png)
+![Image p60](../../assets/images/ce-pro/indoor-guide/p060-img5.png)
 • Latitude (degrees) and Longitude (degrees) section.
 • Latitude and Longitude
 • X and Y (projected coordinate system)
@@ -1024,20 +1092,20 @@ Open Add Cell function.
 Moove mouse coursor on top of Site object, and mouse will be automatically snapped to that Site.
 Define direction, similary as creating Cell object on empty location. Site ID will be automatically
 
-![Image p60](../assets/images/ce-pro/emf-guide/p060-img1.png)
+![Image p64](../../assets/images/ce-pro/indoor-guide/p064-img1.png)
 
-![Image p60](../assets/images/ce-pro/emf-guide/p060-img2.png)
+![Image p64](../../assets/images/ce-pro/indoor-guide/p064-img2.png)
 
-![Image p60](../assets/images/ce-pro/emf-guide/p060-img3.png)
+![Image p64](../../assets/images/ce-pro/indoor-guide/p064-img3.png)
 assigned to this new Cell.
 7.2.1.2 Add several Cells in same position.
 Once Cell is created, do not close the dialog.
 
 Simply change Name and Azimuth parameters (and if required, adjust other parameters), and press
 
-![Image p61](../assets/images/ce-pro/emf-guide/p061-img1.png)
+![Image p65](../../assets/images/ce-pro/indoor-guide/p065-img1.png)
 
-![Image p61](../assets/images/ce-pro/emf-guide/p061-img2.png)
+![Image p65](../../assets/images/ce-pro/indoor-guide/p065-img2.png)
 Save Changes. New Cell object will be created on the same location.
 Do it again, if you required additional Cell objects in the same location.
 
@@ -1051,16 +1119,16 @@ the map.
 Choose the button to open the Object Editor dialogue.
 Select objects by navigating to the ArcGIS Pro Edit → Selection section and choosing the Select tool. The
 
-![Image p62](../assets/images/ce-pro/emf-guide/p062-img1.png)
+![Image p66](../../assets/images/ce-pro/indoor-guide/p066-img1.png)
 
-![Image p62](../assets/images/ce-pro/emf-guide/p062-img2.png)
+![Image p66](../../assets/images/ce-pro/indoor-guide/p066-img2.png)
 selected objects will appear in the Object Editor in a tree hierarchy.
 
 To edit one of the selected objects, left-click on that object and the corresponding editing menu will open
 
-![Image p63](../assets/images/ce-pro/emf-guide/p063-img1.png)
+![Image p67](../../assets/images/ce-pro/indoor-guide/p067-img1.png)
 
-![Image p63](../assets/images/ce-pro/emf-guide/p063-img2.png)
+![Image p67](../../assets/images/ce-pro/indoor-guide/p067-img2.png)
 below the list.
 Delete Object
 Select and right-click any network object from the selection, then choose the Delete option from the popup.
@@ -1069,9 +1137,9 @@ Duplicate Object
 Select and right-click any object from the selection, then choose the Duplicate option from the popup. The
 duplicated object will retain all information from the original object including coordinates/meridians. If you
 
-![Image p64](../assets/images/ce-pro/emf-guide/p064-img1.png)
+![Image p68](../../assets/images/ce-pro/indoor-guide/p068-img1.png)
 
-![Image p64](../assets/images/ce-pro/emf-guide/p064-img2.png)
+![Image p68](../../assets/images/ce-pro/indoor-guide/p068-img2.png)
 want to duplicate objects and change their coordinates/meridians at the same time, use the separate
 Duplicate Objects button from above the selection tree.
 
@@ -1082,16 +1150,16 @@ tool and press the Move Objects button in the Object Editor.
 There are multiple ways to move objects:
 • If multiple objects are selected, the move objects display will show the geospatial properties of the
 
-![Image p65](../assets/images/ce-pro/emf-guide/p065-img1.png)
+![Image p69](../../assets/images/ce-pro/indoor-guide/p069-img1.png)
 center point between the objects denoted as the “Cursor point”.
 
 The "Cursor Point" functions as a reference marker depicted by a red dot on the map. This marker is
 centrally located among the objects on the map and shows where the cursor was placed. You can adjust
 the position of the Cursor Point either by entering new coordinates directly or by clicking “Select Point” and
 
-![Image p66](../assets/images/ce-pro/emf-guide/p066-img1.png)
+![Image p70](../../assets/images/ce-pro/indoor-guide/p070-img1.png)
 
-![Image p66](../assets/images/ce-pro/emf-guide/p066-img2.png)
+![Image p70](../../assets/images/ce-pro/indoor-guide/p070-img2.png)
 choosing a different location on the map. When you move the Cursor Point, all the objects on the map will
 shift their position to maintain their relative distances from this central point.
 • If a single point object is selected or several objects at the same location, the move objects display
@@ -1099,7 +1167,7 @@ shift their position to maintain their relative distances from this central poin
 will show the geospatial properties of these objects denoted as “Cursor Point”.
 If a single point object is selected on the map, the "Cursor Point" serves as its positional anchor. Positioned
 
-![Image p67](../assets/images/ce-pro/emf-guide/p067-img1.png)
+![Image p71](../../assets/images/ce-pro/indoor-guide/p071-img1.png)
 as a red dot, the Cursor Point represents the current coordinates of the selected object and shows where
 the cursor was last placed. You can alter the location of the selected object by manually updating the Cursor
 Point's coordinates or by clicking “Select Point” and choosing a new location on the map. Any movement
@@ -1114,15 +1182,15 @@ Cancels the changes to the objects and closes the dialogue.
 #### 7.3.2 Duplicate Objects
 Choose the button to open the Object Editor dialogue. Select the object with the Select tool and
 
-![Image p68](../assets/images/ce-pro/emf-guide/p068-img1.png)
+![Image p72](../../assets/images/ce-pro/indoor-guide/p072-img1.png)
 
-![Image p68](../assets/images/ce-pro/emf-guide/p068-img2.png)
+![Image p72](../../assets/images/ce-pro/indoor-guide/p072-img2.png)
 press the Duplicate Objects button in the Object Editor dialogue.
 
 There are multiple ways to duplicate objects:
 • If multiple objects are selected, the duplicate objects display will show the geospatial properties of
 
-![Image p69](../assets/images/ce-pro/emf-guide/p069-img1.png)
+![Image p73](../../assets/images/ce-pro/indoor-guide/p073-img1.png)
 the center point between the objects denoted as the “Cursor point”.
 The "Cursor Point" functions as a reference marker depicted by a red dot on the map. This marker is
 centrally located among the objects on the map and shows where the cursor was placed. You can
@@ -1133,9 +1201,9 @@ point.
 
 • If a single point object or several objects on the same location are selected, the duplicate objects
 
-![Image p70](../assets/images/ce-pro/emf-guide/p070-img1.png)
+![Image p74](../../assets/images/ce-pro/indoor-guide/p074-img1.png)
 
-![Image p70](../assets/images/ce-pro/emf-guide/p070-img2.png)
+![Image p74](../../assets/images/ce-pro/indoor-guide/p074-img2.png)
 display will show the geospatial properties of that object denoted as “Cursor Point”.
 
 If a single point object is selected on the map, the "Cursor Point" serves as its positional anchor.
@@ -1154,7 +1222,7 @@ Cancels the changes to the objects and closes the dialogue.
 The Clutter Classes tool is designed to manage categories describing different types of environments in
 telecommunication networks. It relies on the Clutter Classes raster used in the project. The raster values
 
-![Image p71](../assets/images/ce-pro/emf-guide/p071-img1.png)
+![Image p75](../../assets/images/ce-pro/indoor-guide/p075-img1.png)
 must match the ID values in the Clutter Classes dialog. For example, if "Trees" has a value of 2 in the
 Clutter Classes raster, this ID must be defined in the Clutter Classes tool. By default, ESRI’s Sentinel-2
 Land Use values are used after workspace creation: ESRI Sentinel-2 Land Cover
@@ -1162,21 +1230,21 @@ Here is the table view of Clutter table, which comes with default database.
 
 Sentinel-2 clutter classes raster provides information about these classes:
 
-![Image p72](../assets/images/ce-pro/emf-guide/p072-img1.png)
+![Image p76](../../assets/images/ce-pro/indoor-guide/p076-img1.png)
 
-![Image p72](../assets/images/ce-pro/emf-guide/p072-img2.png)
+![Image p76](../../assets/images/ce-pro/indoor-guide/p076-img2.png)
 
-![Image p72](../assets/images/ce-pro/emf-guide/p072-img3.png)
+![Image p76](../../assets/images/ce-pro/indoor-guide/p076-img3.png)
 Choose the button to open the Clutter Classes dialogue.
 
 Select one of the clutter classes to open their properties. Clutter class list can also be filtered by solid
 
-![Image p73](../assets/images/ce-pro/emf-guide/p073-img1.png)
+![Image p77](../../assets/images/ce-pro/indoor-guide/p077-img1.png)
 obstacle and/or clutter obstacle categories.
 
 New mapping between land use raster and clutter class data should be done in Clutter Classes dialog.
 
-![Image p74](../assets/images/ce-pro/emf-guide/p074-img1.png)
+![Image p78](../../assets/images/ce-pro/indoor-guide/p078-img1.png)
 | Parameter | Description |
 |---|---|
 | Apply | Saves changes made to clutter classes. |
@@ -1202,20 +1270,22 @@ on the radio visibility condition between the transmitter antenna vis-à-vis a r
 given point in coverage area. The radio visibility is evaluated based on the DTM, Obstacles and Clutter
 path profile information, as described in previous section. This verification of radio visibility will result in the
 
-![Image p75](../assets/images/ce-pro/emf-guide/p075-img1.png)
+![Image p79](../../assets/images/ce-pro/indoor-guide/p079-img1.png)
 
-![Image p75](../assets/images/ce-pro/emf-guide/p075-img2.png)
+![Image p79](../../assets/images/ce-pro/indoor-guide/p079-img2.png)
 
-![Image p75](../assets/images/ce-pro/emf-guide/p075-img3.png)
+![Image p79](../../assets/images/ce-pro/indoor-guide/p079-img3.png)
 
-![Image p75](../assets/images/ce-pro/emf-guide/p075-img4.png)
+![Image p79](../../assets/images/ce-pro/indoor-guide/p079-img4.png)
 
 receiver antenna point assigned into one of three possible radio visibility conditions:
 • Line-of-Sight (LOS) – occurs when there are neither terrain irregularities, obstacles or clutter
 
-![Image p76](../assets/images/ce-pro/emf-guide/p076-img1.png)
+![Image p80](../../assets/images/ce-pro/indoor-guide/p080-img1.png)
 
-![Image p76](../assets/images/ce-pro/emf-guide/p076-img2.png)
+![Image p80](../../assets/images/ce-pro/indoor-guide/p080-img2.png)
+
+![Image p80](../../assets/images/ce-pro/indoor-guide/p080-img3.png)
 interposing the direct radio path between the transmitter and receiver antennas. The radio path is
 understood to include the 1st Fresnel zone around the direct line and account for Spherical Earth
 effect. The LOS condition is illustrated by the path profile depicted in Fig. 3(a).
@@ -1225,30 +1295,29 @@ see illustration in Fig. 3(b).
 or obstacles, see illustration in Fig. 3(c).
 (a) Example of path profile with LOS condition (green line of direct radio link)
 (b) Example of path profile with OLOS condition (yellow segment of radio link path)
-
 (c) Example of path profile with NLOS condition (red segment of radio link path)
+
 (d) Example of path profile with OLOS+NLOS condition (yellow+red segment of radio link path)
 Fig. 3. Illustration of different LOS conditions
-Depending on the LOS condition for the receive antenna at specific location (area map pixel), the CE tools
-will apply the specific sub-set of path loss prediction model, as explained in the following section.
-Note that when the receiver is located indoors, the special Outdoor-to-Indoor propagation function will be
-applied in addition to basic path loss, as explained in the separate section at the end of this chapter.
+Depending on the LOS condition for the receive antenna at specific location (area map pixel), the CE
+tools will apply the specific sub-set of path loss prediction model, as explained in the following
+section.
+Note that when the receiver is located indoors, the special Outdoor-to-Indoor propagation function will
+be applied in addition to basic path loss, as explained in the separate section at the end of this
+chapter.
 
 #### 7.6.1 Models
 Prediction models available in Cellular Expert support frequencies from 10kHz to 350 GHz.
 To open the Prediction Model Manager dialogue, click on the Prediction Model Manager tool in
 
-![Image p77](../assets/images/ce-pro/emf-guide/p077-img1.png)
+![Image p81](../../assets/images/ce-pro/indoor-guide/p081-img1.png)
 
-![Image p77](../assets/images/ce-pro/emf-guide/p077-img2.png)
-
-![Image p77](../assets/images/ce-pro/emf-guide/p077-img3.png)
+![Image p81](../../assets/images/ce-pro/indoor-guide/p081-img2.png)
 the Data Management section.
 
-CEC ITU-R 3GPP Model (100MHz – 6GHz) is a combination model intended for use in a variety of different
-radiocommunication systems which is derived explicitly from ITU-R path loss modelling methods as follows:
-
-![Image p78](../assets/images/ce-pro/emf-guide/p078-img1.png)
+CEC ITU-R 3GPP Model (100MHz – 6GHz) is a combination model intended for use in a variety of
+different radiocommunication systems which is derived explicitly from ITU-R path loss modelling
+methods as follows:
 a. Receive antenna in LOS condition – path loss calculated as FSL based on Recommendation ITU-
 R P.525 (ref URL).
 b. Receive antenna in OLOS condition – total path loss modelled as a combination of basic FSL
@@ -1262,22 +1331,25 @@ based on Recommendation ITU-R P.525 (ref URL) with included dual slope option, a
 losses due to diffraction calculated based on Recommendation ITU-R P.526 (ref URL), and clutter
 loss modelling based on Recommendation ITU-R P.2108 (ref URL).
 e. Receive antenna in the clutter (building, vegetation, etc) – path loss is calculated as described
+
+![Image p82](../../assets/images/ce-pro/indoor-guide/p082-img1.png)
 above based on LOS, OLOS and NLOS conditions, and additional penetration loss is added to
 simulate Outdoor-to-Indoor scenario which is based on ITU-R P.833 recommendation (if receiver
 is in vegetation type clutter) or based on 3GPP TR 38.901 (ref URL) (if receiver is in a building).
 ITU-R P.452 Model (6GHz – 50GHz) is provided as a universally applicable model with a very wide
-frequency range from 0.1-50 GHz. Its implementation is based on the methodology described in the
-Recommendation ITU-R P.452 (ref URL). This model does not provide for definition of OLOS visibility
-condition; instead, it considers clutter as part of the general obstacles category and accordingly
-distinguishes only two radio visibility cases:
+frequency range from 0.1-50 GHz. Its implementation is based on the methodology described in
+the Recommendation ITU-R P.452 (ref URL). This model does not provide for definition of OLOS
+visibility condition; instead, it considers clutter as part of the general obstacles category and
+accordingly distinguishes only two radio visibility cases:
 a. Receive antenna in LOS condition – path loss model based on FSL principle.
 b. Receive antenna in NLOS condition – total path loss modelled using a combination of basic
 transmission losses and losses due to diffraction.
 
-ITU-R P.1546 Model (30MHz – 4GHz) (ref URL) is a widely recognized radio propagation prediction method
-developed by the International Telecommunication Union (ITU). It is primarily used for estimating point-
-to-area radio signal coverage in the frequency range from 30 MHz to 4000 MHz over terrestrial paths.
-This model is especially suitable for broadcasting, land mobile, and fixed services.
+ITU-R P.1546 Model (30MHz – 4GHz) (ref URL) is a widely recognized radio propagation prediction
+method developed by the International Telecommunication Union (ITU). It is primarily used for
+estimating point-to-area radio signal coverage in the frequency range from 30 MHz to 4000 MHz
+over terrestrial paths. This model is especially suitable for broadcasting, land mobile, and fixed
+services.
 Key Features
 • Versatile Application: Supports predictions over land, sea, and mixed paths, making it adaptable
 to various geographic conditions.
@@ -1289,18 +1361,19 @@ profile, clutter (buildings, vegetation), climate, and time/location variability
 (DEM) and clutter data for more accurate predictions, reflecting the influence of buildings, forests,
 and other surface features.
 Use in Cellular Expert
-In the Cellular Expert software, the ITU-R P.1546 model is implemented to support real-world
-coverage planning and regulatory studies. Users can configure environmental parameters and
-resolution settings to match local conditions and improve prediction accuracy.
+In the Cellular Expert software, the ITU-R P.1546 model is implemented to support real-world coverage
+planning and regulatory studies. Users can configure environmental parameters and resolution
+settings to match local conditions and improve prediction accuracy.
 LOS ITU-R P.525 Model (6GHz – 100GHz) is the FSL path loss calculated based on the method in
-Recommendation ITU-R P.525 (ref URL). As such it could be used for modelling radio links where LOS is
-considered a necessary condition, e.g., for Fixed (Point-to-Point) Links or Mobile Systems in mmWave
-bands.
-UniMacro Model (400MHz – 3GHz) is the CE’s proprietary combination model developed over the years
-of practical experience with the operational planning of cellular mobile networks in the frequency ranges
-from 400-3000 MHz. It had been fine-tuned to produce coverage predictions that are most closely aligned
-with what could be expected to be experienced by the actual mobile network users in the field. The model
-will model different path losses depending on radio visibility conditions as follows:
+Recommendation ITU-R P.525 (ref URL). As such it could be used for modelling radio links where
+LOS is considered a necessary condition, e.g., for Fixed (Point-to-Point) Links or Mobile Systems
+in mmWave bands.
+UniMacro Model (400MHz – 3GHz) is the CE’s proprietary combination model developed over the
+years of practical experience with the operational planning of cellular mobile networks in the
+frequency ranges from 400-3000 MHz. It had been fine-tuned to produce coverage predictions that
+are most closely aligned with what could be expected to be experienced by the actual mobile
+network users in the field. The model will model different path losses depending on radio visibility
+conditions as follows:
 a. Receive antenna in LOS condition – path loss model based on FSL principle and dual slope based
 on breakpoint distance.
 b. Receive antenna in OLOS, or NLOS condition – path loss modelled using Extended Hata (Open
@@ -1310,21 +1383,21 @@ c. Receive antenna in the clutter (building, vegetation, etc) – path loss is c
 above based on LOS, OLOS and NLOS conditions, and additional penetration loss is added to
 simulate Outdoor-to-Indoor scenario which is based on ITU-R P.833 recommendation (if receiver
 is in vegetation type clutter) or based on 3GPP TR 38.901 (ref URL) (if receiver is in a building).
-ITU-R P.368 (10kHz – 30MHz) provides a standardized prediction method for assessing the ground-wave
-field strength of radio waves in the 10 kHz to 30 MHz frequency range. This frequency band is primarily
-associated with long-range communication systems using amplitude modulation (AM) and shortwave
-bands, often for maritime, aeronautical, military, and broadcasting services.
+ITU-R P.368 (10kHz – 30MHz) provides a standardized prediction method for assessing the ground-
+wave field strength of radio waves in the 10 kHz to 30 MHz frequency range. This frequency band
+is primarily associated with long-range communication systems using amplitude modulation (AM)
+and shortwave bands, often for maritime, aeronautical, military, and broadcasting services.
 This model offers guidance for engineers, planners, and researchers working on system design and
-analysis in the MF (Medium Frequency) and HF (High Frequency) bands.
 
+analysis in the MF (Medium Frequency) and HF (High Frequency) bands.
 The ITU-R P.368 model calculates signal strength based on several key environmental and system
 parameters:
 Frequency (f)
 Higher frequencies tend to attenuate more rapidly over ground. The attenuation rate increases
 significantly above 3 MHz.
 Distance (d)
-Field strength diminishes with increasing distance due to geometrical spreading and absorption by
-the ground and atmosphere.
+Field strength diminishes with increasing distance due to geometrical spreading and absorption by the
+ground and atmosphere.
 Surface refractivity, Surface Conductivity (σ) and Relative Permittivity (εᵣ)
 The surface over which the wave propagates critically affects signal strength:
 • Sea water: High conductivity, minimal loss
@@ -1332,19 +1405,19 @@ The surface over which the wave propagates critically affects signal strength:
 • Typical values range from:
 o Conductivity: 10⁻⁴ to 5 S/m
 o Relative permittivity: 4 to 81
-ISO 9613 standard provides a validated, practical method for predicting the outdoor propagation of sound,
-and is increasingly applied in siren sound modeling within public security, emergency warning systems, and
-defense operations. This modeling ensures that acoustic alert systems (e.g. civil defense sirens, disaster
-warnings, military alert signals) achieve their intended coverage, intelligibility, and effectiveness across
-various terrain and urban environments.
+ISO 9613 standard provides a validated, practical method for predicting the outdoor propagation of
+sound, and is increasingly applied in siren sound modeling within public security, emergency
+warning systems, and defense operations. This modeling ensures that acoustic alert systems (e.g.
+civil defense sirens, disaster warnings, military alert signals) achieve their intended coverage,
+intelligibility, and effectiveness across various terrain and urban environments.
 Purpose in the Public Security Context
 In emergency and defense scenarios, reliable audibility of sirens is critical for:
 • Civil alert and evacuation systems
 • Military base perimeter alarms
 • Air raid or missile defense warning networks
 • Disaster alert systems (e.g. earthquakes, tsunamis, nuclear incidents)
-By applying ISO 9613-2, engineers can model how far a siren can be heard under specific environmental
-conditions, optimizing:
+By applying ISO 9613-2, engineers can model how far a siren can be heard under specific
+environmental conditions, optimizing:
 • Placement and spacing of sirens
 • Sound power selection
 • Minimization of acoustic shadow zones
@@ -1356,17 +1429,17 @@ The model assumes standard favorable propagation:
 These are conservative conditions ensuring that siren reach is never overestimated, supporting public
 safety margin planning.
 CEC 3GPP TR Indoor (500MHz – 100GHz) Propagation Model is a high-frequency path loss model
-designed for indoor radiocommunication systems operating within the 500 MHz to 100 GHz range. It builds
-upon the CEC ITU-R 3GPP model (100 MHz – 6 GHz) by adapting it to complex indoor environments, such
+designed for indoor radiocommunication systems operating within the 500 MHz to 100 GHz range.
 
-as:
+It builds upon the CEC ITU-R 3GPP model (100 MHz – 6 GHz) by adapting it to complex indoor
+environments, such as:
 • Office buildings
 • Residential units
 • Shopping centers
 • Industrial halls
 This model integrates core ITU-R recommendations for free-space loss and penetration effects, while
-leveraging 3GPP-specific methods for accurate simulation of indoor multipath, wall attenuation, and
-frequency-dependent fading.
+leveraging 3GPP-specific methods for accurate simulation of indoor multipath, wall attenuation,
+and frequency-dependent fading.
 Purpose and Use Cases
 The model is intended for:
 • Indoor wireless access network design (e.g., Wi-Fi, 5G NR, mmWave)
@@ -1376,17 +1449,18 @@ The model is intended for:
 7.6.1.1 CEC ITU-R 3GPP Model
 Model application
 This deterministic model is designed for precise tracking of the main, strongest radio ray, while also
-empirically modeling the scattering of other rays around the receiver. It applies to all ranges of cellular
-mobile and public safety networks, including 2G, 3G, 4G, and 5G, within the 30 MHz to 6 GHz frequency
-range.
-The model is recommended for accurate wide-area propagation and coverage modeling, especially when
-precise and up-to-date topographic data are available. This includes Digital Terrain Models (DTM), building
-data (including height information), and vegetation data (with height details) derived from a Digital Surface
-Model (DSM). Ideally, these data should be created with LiDAR or similar methods, at a resolution of at
-least 10 meters, though 5, 2, or even 1 meter or higher is preferable for optimal accuracy.
-When building data and their heights are not available, and only DTM and clutter data at a resolution of 10
-meters or lower are accessible, the UniMacro Model should be considered for wide-area propagation and
-coverage modeling in a slightly narrower frequency range of 400 MHz to 3 GHz.
+empirically modeling the scattering of other rays around the receiver. It applies to all ranges of
+cellular mobile and public safety networks, including 2G, 3G, 4G, and 5G, within the 30 MHz to 6
+GHz frequency range.
+The model is recommended for accurate wide-area propagation and coverage modeling, especially
+when precise and up-to-date topographic data are available. This includes Digital Terrain Models
+(DTM), building data (including height information), and vegetation data (with height details) derived
+from a Digital Surface Model (DSM). Ideally, these data should be created with LiDAR or similar
+methods, at a resolution of at least 10 meters, though 5, 2, or even 1 meter or higher is preferable
+for optimal accuracy.
+When building data and their heights are not available, and only DTM and clutter data at a resolution
+of 10 meters or lower are accessible, the UniMacro Model should be considered for wide-area
+propagation and coverage modeling in a slightly narrower frequency range of 400 MHz to 3 GHz.
 Default settings
 General settings to calculate Model loss
 • Offset coefficient (dB) – represents the offset in decibels added to the path loss grid. The default
@@ -1395,17 +1469,17 @@ value is 32 dB.
 location, with a default value of 20.
 • Distance coefficient obstructed – represents the slope based on the obstructed distance between
 the cell and the receiver location. The default value is 40.
+
 • Frequency coefficient – indicates the slope determined by the frequency value, with a default value
 
+![Image p86](../../assets/images/ce-pro/indoor-guide/p086-img1.png)
+
+![Image p86](../../assets/images/ce-pro/indoor-guide/p086-img2.png)
 of 20.
 Clutter class to calculate diffraction, clutter loss, penetration loss and receiver loss
 The Clutter Class option defines several predefined clutter categories, each with unique values for
 diffraction loss, clutter loss, penetration loss, and receiver loss coefficients.
 These parameters describe how a signal is impacted when it passes through or terminates in a specific
-
-![Image p82](../assets/images/ce-pro/emf-guide/p082-img1.png)
-
-![Image p82](../assets/images/ce-pro/emf-guide/p082-img2.png)
 
 clutter class.
 Key Parameters:
@@ -1415,10 +1489,10 @@ Key Parameters:
 reduced diffraction loss, while higher values increase it. Typically, this coefficient is higher for
 buildings compared to forests or other clutter types.ltiplier for diffraction calculations. If value is
 lower, diffraction will be lower, if higher – then diffraction will be higher. Usually, for buildings clutter
+
+![Image p87](../../assets/images/ce-pro/indoor-guide/p087-img1.png)
 class this parameter is higher then forest or other clutter classes.
 • Enclosed receiver loss offset, dB – the initial entry loss into the clutter class, expressed as an offset
-
-![Image p83](../assets/images/ce-pro/emf-guide/p083-img1.png)
 in dB, which is added to the path loss grid.
 • Enclosed receiver loss scaling coefficient – represents additional signal loss as a function of the
 distance traveled within the clutter class. Higher values increase path loss.
@@ -1427,32 +1501,99 @@ class based on frequency. Higher values increase path loss, particularly at high
 • Receiver point loss offset, dB – an additional loss offset in dB applied to the path loss grid,
 representing user equipment (UE) losses.
 Clutter Classes default values
-Penetration Penetration receiver Penetration receiver
-receiver loss loss scaling loss frequency
-offset coefficient exponent coefficient
-17 0.25 1
-Open / Terrain
-0 0.82 0.65
-Grassland
-0 0.82 0.65
-Sparse forest
-0 0.89 0.65
-Medium dense forest
-0 0.95 0.65
-Very dense forest
-0 0.89 0.65
-Low density urban (Low buildings)
-0 0.89 0.65
-Low density urban (High buildings)
-0 0.89 0.65
-Medium density urban (Low buildings)
+Penetration Penetration Penetration
+receiver receiver receiver loss
+loss loss scaling frequency
+offset coefficient exponent
+coefficient
+Open / Terrain 17 0.25 1
+Grassland 0 0.82 0.65
+Sparse forest 0 0.82 0.65
+Medium dense forest 0 0.89 0.65
+Very dense forest 0 0.95 0.65
+Low density urban (Low buildings) 0 0.89 0.65
+Low density urban (High buildings) 0 0.89 0.65
+Medium density urban (Low 0 0.89 0.65
+buildings)
+Medium density urban (High 0 0.89 0.65
+buildings)
+High density urban (Low buildings) 0 0.89 0.65
+High density urban (High buildings) 0 0.89 0.65
 
-0 0.89 0.65
-Medium density urban (High buildings)
-0 0.89 0.65
-High density urban (Low buildings)
-| Medium density urban (High buildings) | 0 | 0.89 | 0.65 |
+| High density urban (Very high buildings) | 0 | 0.89 | 0.65 |
 |---|---|---|---|
+| Building blocks | 0 | 0.89 | 0.65 |
+| Transportation | 0 | 0.89 | 0.65 |
+| Agriculture | 0 | 0.89 | 0.65 |
+| Plantation | 0 | 0.89 | 0.65 |
+| Parks | 0 | 0.89 | 0.65 |
+| Airport | 0 | 0.89 | 0.65 |
+| Sea | 0 | 0.89 | 0.65 |
+| Inland water | 0 | 0.89 | 0.65 |
+| Concrete building | 5 | 0.25 | 1 |
+| Glass building | 2 | 0.25 | 1 |
+| Wood building | 2 | 0.25 | 1 |
+| Low loss building | 8.5 | 0.25 | 1 |
+| High loss building | 17 | 0.25 | 1 |
+7.6.1.2 ITU-R P.452 Model
+Model application
+This model is designed to estimate radio signal propagation over long distances, including terrestrial
+paths. It is specifically designed to predict signal attenuation caused by various mechanisms, such
+as diffraction, tropospheric scatter, ducting, and reflections from the Earth's surface, across
+frequencies ranging from 0.1 GHz to 50 GHz. While other prediction model covers frequencies from
+100MHz to 6GHz, we recommend to use it from 6GHz to 50GHz frequencies.
+This model is particularly well-suited for microwave links and is widely used for planning and
+interference analysis in fixed and mobile radio communication systems. By accounting for the
+effects of terrain, atmospheric conditions, and other factors, it helps engineers assess link reliability
+and optimize network performance in a variety of environmental scenarios.
+Default settings
+General settings to calculate Model loss
+• Offset coefficient (dB) – represents the offset in decibels added to the path loss grid. The default
+value is 32 dB.
+• Distance coefficient – defines the slope based on the distance between the cell and the receiver
+location, with a default value of 20.
+• Frequency coefficient – indicates the slope determined by the frequency value, with a default value
+of 20.
+
+Multipath and focusing
+In ITU-R P.452, the correction for multipath and focusing effects accounts for signal enhancements caused
+by constructive interference and atmospheric focusing. This adjustment reduces the total path loss under
+favorable conditions, such as over-water paths or specific atmospheric gradients, ensuring more accurate
+signal predictions.
+Possible values Yes or No.
+Clutter class to calculate penetration loss
+Clutter class option describes several fixed Clutter names with penetration loss coefficients.
+These parameters describe how a signal is impacted when it passes through or terminates in a specific
+clutter class.
+Key Parameters:
+• Penetration loss offset, dB – the initial entry loss into the clutter class, expressed as an offset in
+
+![Image p89](../../assets/images/ce-pro/indoor-guide/p089-img1.png)
+
+![Image p89](../../assets/images/ce-pro/indoor-guide/p089-img2.png)
+
+![Image p89](../../assets/images/ce-pro/indoor-guide/p089-img3.png)
+dB, which is added to the path loss grid.
+• Penetration loss distance coefficient – represents additional signal loss as a function of the distance
+traveled within the clutter class. Higher values increase path loss.
+• Penetration loss frequency coefficient – reflects additional loss inside the clutter class based on
+frequency. Higher values increase path loss, particularly at higher frequencies.
+Clutter Classes default values
+Penetration Penetration Penetration
+receiver receiver receiver loss
+loss loss scaling frequency
+
+|  | offset | coefficient | exponent coefficient |
+|---|---|---|---|
+| Open / Terrain | 17 | 0.25 | 1 |
+| Grassland | 0 | 0.82 | 0.65 |
+| Sparse forest | 0 | 0.82 | 0.65 |
+| Medium dense forest | 0 | 0.89 | 0.65 |
+| Very dense forest | 0 | 0.95 | 0.65 |
+| Low density urban (Low buildings) | 0 | 0.89 | 0.65 |
+| Low density urban (High buildings) | 0 | 0.89 | 0.65 |
+| Medium density urban (Low buildings) | 0 | 0.89 | 0.65 |
+| Medium density urban (High buildings) | 0 | 0.89 | 0.65 |
 | High density urban (Low buildings) | 0 | 0.89 | 0.65 |
 | High density urban (High buildings) | 0 | 0.89 | 0.65 |
 | High density urban (Very high buildings) | 0 | 0.89 | 0.65 |
@@ -1469,121 +1610,23 @@ High density urban (Low buildings)
 | Wood building | 2 | 0.25 | 1 |
 | Low loss building | 8.5 | 0.25 | 1 |
 | High loss building | 17 | 0.25 | 1 |
-High loss building
-7.6.1.2 ITU-R P.452 Model
-Model application
-This model is designed to estimate radio signal propagation over long distances, including terrestrial paths.
-It is specifically designed to predict signal attenuation caused by various mechanisms, such as diffraction,
-tropospheric scatter, ducting, and reflections from the Earth's surface, across frequencies ranging from 0.1
-GHz to 50 GHz. While other prediction model covers frequencies from 100MHz to 6GHz, we recommend
-to use it from 6GHz to 50GHz frequencies.
-This model is particularly well-suited for microwave links and is widely used for planning and interference
-analysis in fixed and mobile radio communication systems. By accounting for the effects of terrain,
-atmospheric conditions, and other factors, it helps engineers assess link reliability and optimize network
-performance in a variety of environmental scenarios.
-Default settings
-General settings to calculate Model loss
-• Offset coefficient (dB) – represents the offset in decibels added to the path loss grid. The default
-value is 32 dB.
-
-• Distance coefficient – defines the slope based on the distance between the cell and the receiver
-location, with a default value of 20.
-• Frequency coefficient – indicates the slope determined by the frequency value, with a default value
-of 20.
-Multipath and focusing
-In ITU-R P.452, the correction for multipath and focusing effects accounts for signal enhancements caused
-by constructive interference and atmospheric focusing. This adjustment reduces the total path loss under
-favorable conditions, such as over-water paths or specific atmospheric gradients, ensuring more accurate
-signal predictions.
-Possible values Yes or No.
-Clutter class to calculate penetration loss
-Clutter class option describes several fixed Clutter names with penetration loss coefficients.
-These parameters describe how a signal is impacted when it passes through or terminates in a specific
-clutter class.
-Key Parameters:
-• Penetration loss offset, dB – the initial entry loss into the clutter class, expressed as an offset in
-
-![Image p85](../assets/images/ce-pro/emf-guide/p085-img1.png)
-
-![Image p85](../assets/images/ce-pro/emf-guide/p085-img2.png)
-
-![Image p85](../assets/images/ce-pro/emf-guide/p085-img3.png)
-dB, which is added to the path loss grid.
-
-• Penetration loss distance coefficient – represents additional signal loss as a function of the distance
-traveled within the clutter class. Higher values increase path loss.
-• Penetration loss frequency coefficient – reflects additional loss inside the clutter class based on
-frequency. Higher values increase path loss, particularly at higher frequencies.
-Clutter Classes default values
-Penetration Penetration receiver Penetration receiver
-receiver loss loss scaling loss frequency
-offset coefficient exponent coefficient
-17 0.25 1
-Open / Terrain
-0 0.82 0.65
-Grassland
-0 0.82 0.65
-Sparse forest
-0 0.89 0.65
-Medium dense forest
-0 0.95 0.65
-Very dense forest
-0 0.89 0.65
-Low density urban (Low buildings)
-0 0.89 0.65
-Low density urban (High buildings)
-0 0.89 0.65
-Medium density urban (Low buildings)
-0 0.89 0.65
-Medium density urban (High buildings)
-0 0.89 0.65
-High density urban (Low buildings)
-0 0.89 0.65
-High density urban (High buildings)
-0 0.89 0.65
-High density urban (Very high
-buildings)
-0 0.89 0.65
-Building blocks
-0 0.89 0.65
-Transportation
-0 0.89 0.65
-Agriculture
-0 0.89 0.65
-Plantation
-0 0.89 0.65
-Parks
-0 0.89 0.65
-Airport
-0 0.89 0.65
-Sea
-0 0.89 0.65
-| Inland water | 0 | 0.89 | 0.65 |
-|---|---|---|---|
-| Concrete building | 5 | 0.25 | 1 |
-| Glass building | 2 | 0.25 | 1 |
-| Wood building | 2 | 0.25 | 1 |
-| Low loss building | 8.5 | 0.25 | 1 |
-| High loss building | 17 | 0.25 | 1 |
-High loss building
-
 7.6.1.3 UniMacro Model
 Model application
 This model is designed for deterministic tracking of the main, strongest radio ray in Line of Sight (LOS)
-
-![Image p87](../assets/images/ce-pro/emf-guide/p087-img1.png)
-areas, while propagation modeling in Obstructed Line of Sight (OLOS) and Non-Line of Sight (NLOS) areas
-uses empirically determined parameters defined in ITU-R and 3GPP recommendations. It also models the
-scattering of other rays around the receiver. The model applies empirically validated values for the 400
-MHz to 3 GHz frequency range and is suitable for modeling all cellular mobile and public safety networks,
-including 2G, 3G, 4G, and 5G, within that frequency range.
+areas, while propagation modeling in Obstructed Line of Sight (OLOS) and Non-Line of Sight
+(NLOS) areas uses empirically determined parameters defined in ITU-R and 3GPP
+recommendations. It also models the scattering of other rays around the receiver. The model
+applies empirically validated values for the 400 MHz to 3 GHz frequency range and is suitable for
+modeling all cellular mobile and public safety networks, including 2G, 3G, 4G, and 5G, within that
+frequency range.
 This model is recommended for wide-area propagation and coverage modeling when building data and
-their heights are unavailable, and only DTM and clutter data at a resolution of 10 meters or lower are
-accessible.
+their heights are unavailable, and only DTM and clutter data at a resolution of 10 meters or lower
+are accessible.
 For accurate wide-area propagation and coverage modeling where building data and their heights are
-available, the CEC ITU-R 3GPP Model is recommended, offering a broader application frequency range of
-100 MHz to 6 GHz.
+available, the CEC ITU-R 3GPP Model is recommended, offering a broader application frequency
+range of 100 MHz to 6 GHz.
 Default settings
+
 General settings to calculate Model loss
 If Tx and Rx is in LOS condition:
 Fig. 4. Illustration of LOS conditions
@@ -1596,42 +1639,43 @@ receiver location, with a default value of 20.
 the receiver location. The default value is 40.
 • Frequency coefficient – indicates the slope determined by the frequency value, with a default value
 of 20.
-
 If Tx and Rx is in OLOS or NLOS condition, then Hata 9999 equation is used. 9999 Model is the Ericsson’s
 implementation of Hata Model. Ericsson provides the steering parameters of 9999 Model for different
 environments; therefore it’s very convenient just to apply in this form as the default parameters.
 • Hata Loss: A0 - constant offset in dB this value simply added to loss grid. Adjusting this value, you
+
+![Image p91](../../assets/images/ce-pro/indoor-guide/p091-img1.png)
+
+![Image p91](../../assets/images/ce-pro/indoor-guide/p091-img2.png)
 can minimize mean error. It regulates the absolute level of the loss curve. Default value 36.2.
 • Hata Loss: A1 - distance influence coefficient. Physically it represents loss dependant on distance
 such as atmospheric (dust, hydrometeors, etc...) losses. It regulates slope of the curve. Default
 value 30.2.
+
 • Hata Loss: A2 - transmitter height influence coefficient. It is related to errors in DTM, real Earth
 curvature, etc. It regulates loss curve vertical position like the A0, but with respect to antenna height.
 
-![Image p88](../assets/images/ce-pro/emf-guide/p088-img1.png)
+![Image p92](../../assets/images/ce-pro/indoor-guide/p092-img1.png)
 
-![Image p88](../assets/images/ce-pro/emf-guide/p088-img2.png)
+![Image p92](../../assets/images/ce-pro/indoor-guide/p092-img2.png)
 Default value -12.
 • Hata Loss: A3 - Okumura-Hata type of multiplying factor for log(h )log(d). Default value 0.1.
 M
 Clutter class to calculate diffraction, clutter loss, penetration loss and receiver loss
 The Clutter Class option defines several predefined clutter categories, each with unique values for
 diffraction loss, clutter loss, penetration loss, and receiver loss coefficients.
-
 These parameters describe how a signal is impacted when it passes through or terminates in a specific
 
-![Image p89](../assets/images/ce-pro/emf-guide/p089-img1.png)
-
-![Image p89](../assets/images/ce-pro/emf-guide/p089-img2.png)
 clutter class.
 Key Parameters:
-
 • Nominal distance, m – the average distance between objects within the clutter class, ranging from
 1 to 100 meters.
 • Diffraction loss coefficient – a multiplier used in diffraction calculations. Lower values result in
 reduced diffraction loss, while higher values increase it. Typically, this coefficient is higher for
 buildings compared to forests or other clutter types.ltiplier for diffraction calculations. If value is
 lower, diffraction will be lower, if higher – then diffraction will be higher. Usually, for buildings clutter
+
+![Image p93](../../assets/images/ce-pro/indoor-guide/p093-img1.png)
 class this parameter is higher then forest or other clutter classes.
 • Penetration loss offset, dB – the initial entry loss into the clutter class, expressed as an offset in
 dB, which is added to the path loss grid.
@@ -1642,33 +1686,25 @@ frequency. Higher values increase path loss, particularly at higher frequencies.
 • Receiver point loss offset, dB – an additional loss offset in dB applied to the path loss grid,
 representing user equipment (UE) losses.
 Clutter Classes default values
-Penetration Penetration receiver Penetration receiver
-receiver loss loss scaling loss frequency
-offset coefficient exponent coefficient
-17 0.25 1
-Open / Terrain
-0 0.82 0.65
-Grassland
-0 0.82 0.65
-Sparse forest
-0 0.89 0.65
-Medium dense forest
-0 0.95 0.65
-Very dense forest
-0 0.89 0.65
-Low density urban (Low buildings)
-0 0.89 0.65
-Low density urban (High buildings)
-0 0.89 0.65
-Medium density urban (Low buildings)
-0 0.89 0.65
-Medium density urban (High buildings)
-0 0.89 0.65
-High density urban (Low buildings)
-0 0.89 0.65
-High density urban (High buildings)
-| High density urban (Very high buildings) | 0 | 0.89 | 0.65 |
+Penetration Penetration Penetration
+receiver receiver receiver loss
+loss loss scaling frequency
+offset coefficient exponent
+coefficient
+Open / Terrain 17 0.25 1
+Grassland 0 0.82 0.65
+Sparse forest 0 0.82 0.65
+Medium dense forest 0 0.89 0.65
+Very dense forest 0 0.95 0.65
+Low density urban (Low buildings) 0 0.89 0.65
+Low density urban (High buildings) 0 0.89 0.65
+Medium density urban (Low 0 0.89 0.65
+buildings)
+Medium density urban (High 0 0.89 0.65
+| High density urban (Low buildings) | 0 | 0.89 | 0.65 |
 |---|---|---|---|
+| High density urban (High buildings) | 0 | 0.89 | 0.65 |
+| High density urban (Very high buildings) | 0 | 0.89 | 0.65 |
 | Building blocks | 0 | 0.89 | 0.65 |
 | Transportation | 0 | 0.89 | 0.65 |
 | Agriculture | 0 | 0.89 | 0.65 |
@@ -1682,35 +1718,34 @@ High density urban (High buildings)
 | Wood building | 2 | 0.25 | 1 |
 | Low loss building | 8.5 | 0.25 | 1 |
 | High loss building | 17 | 0.25 | 1 |
-High loss building
 7.6.1.4 LOS ITU-R Model
 Model application
-Line of Sight model is typically used for mmWave band frequencies within the 6 GHz – 100 GHz frequency
-range and provides results only for line-of-sight areas.
+Line of Sight model is typically used for mmWave band frequencies within the 6 GHz – 100 GHz
+frequency range and provides results only for line-of-sight areas.
 Default settings
 General settings to calculate Model loss
 • Offset coefficient (dB) – represents the offset in decibels added to the path loss grid. The default
+
+![Image p94](../../assets/images/ce-pro/indoor-guide/p094-img1.png)
 value is 32 dB.
 • Distance coefficient – defines the slope based on the distance between the cell and the receiver
 location, with a default value of 20.
 • Frequency coefficient – indicates the slope determined by the frequency value, with a default value
 of 20.
+
 7.6.1.5 ITU-R P.368 Model
 Model application
-ITU-R P.368 is ground-wave propagation of radio signals model. It is specifically designed to estimate the
-field strength and attenuation of radio waves over the Earth's surface, particularly for frequencies below 30
-
-![Image p91](../assets/images/ce-pro/emf-guide/p091-img1.png)
-MHz.
+ITU-R P.368 is ground-wave propagation of radio signals model. It is specifically designed to estimate
+the field strength and attenuation of radio waves over the Earth's surface, particularly for
+frequencies below 30 MHz.
 This model is widely used in planning and designing long-distance communication systems, such as
-
-maritime, broadcasting, and low-frequency navigation systems, where ground-wave propagation plays a
-critical role. It accounts for factors such as terrain conductivity, dielectric properties, and surface roughness
-to deliver accurate predictions of signal behavior.
+maritime, broadcasting, and low-frequency navigation systems, where ground-wave propagation
+plays a critical role. It accounts for factors such as terrain conductivity, dielectric properties, and
+surface roughness to deliver accurate predictions of signal behavior.
 Default settings
-The general model parameters include the radius and receiver height. Additional parameters used for path
-loss calculations are derived from the clutter classes. Each clutter class has its own unique set of
-parameters:
+The general model parameters include the radius and receiver height. Additional parameters used for
+path loss calculations are derived from the clutter classes. Each clutter class has its own unique
+set of parameters:
 • Surface refractivity - a measure of the refractive index's influence on electromagnetic wave
 propagation, particularly in the lower atmosphere close to the Earth's surface. It is expressed as a
 dimensionless value, typically dependent on atmospheric pressure, temperature, and humidity.
@@ -1719,14 +1754,14 @@ ducting or anomalous refraction.
 • Relative permittivity - quantifies a material's ability to permit electric field propagation relative to
 vacuum. It is a complex quantity with the real part representing energy storage capability and the
 imaginary part representing energy dissipation within the material.
-ITU-R P.368 uses relative permittivity to model how radio waves interact with various surface
-materials, such as soil, water, or vegetation. These interactions influence reflection, refraction, and
-absorption phenomena at the surface.
+ITU-R P.368 uses relative permittivity to model how radio waves interact with various surface materials,
+such as soil, water, or vegetation. These interactions influence reflection, refraction, and absorption
+phenomena at the surface.
 • Surface conductivity - refers to a material's ability to conduct electrical currents across its surface.
 It is measured in siemens per meter (S/m). Higher conductivity indicates that a surface can easily
 allow current flow, affecting the reflection and absorption of radio waves.
-According to ITU-R P.368, surface conductivity is a critical factor in determining the reflective
-properties of surfaces, such as dry versus wet soil, or metallic versus dielectric surfaces.
+According to ITU-R P.368, surface conductivity is a critical factor in determining the reflective properties
+of surfaces, such as dry versus wet soil, or metallic versus dielectric surfaces.
 Buildings Forest Dense Urban Dense Bare Crops Water Road
 forest urban ground
 Surface
@@ -1738,25 +1773,26 @@ permittivity
 Surface
 conductivity, 0.001 0.004 0.004 0.001 0.001 0.002 0.03 1 0.002
 S/m
+
 7.6.1.6 ITU-R P.1546 Model
 Model application
-This model is designed for wide-area radio propagation prediction based on empirical data and statistical
-analysis of measured field strengths. It provides path loss estimations over land, sea, and mixed terrain for
-frequencies ranging from 30 MHz to 3 GHz, using parameters defined in ITU-R Recommendation P.1546.
-The model is applicable to terrestrial broadcasting, mobile, and public safety networks, including
-technologies such as 2G, 3G, and 4G, within its frequency range.
-
-The ITU-R P.1546 model accounts for antenna heights, terrain elevation (DTM), land cover types (clutter),
-and environmental conditions, incorporating corrections for time variability and location-specific effects. It
-is particularly suitable for modeling line-of-sight (LOS) and non-line-of-sight (NLOS) propagation over long
-distances where detailed building data is not available.
+This model is designed for wide-area radio propagation prediction based on empirical data and
+statistical analysis of measured field strengths. It provides path loss estimations over land, sea,
+and mixed terrain for frequencies ranging from 30 MHz to 3 GHz, using parameters defined in ITU-
+R Recommendation P.1546. The model is applicable to terrestrial broadcasting, mobile, and public
+safety networks, including technologies such as 2G, 3G, and 4G, within its frequency range.
+The ITU-R P.1546 model accounts for antenna heights, terrain elevation (DTM), land cover types
+(clutter), and environmental conditions, incorporating corrections for time variability and location-
+specific effects. It is particularly suitable for modeling line-of-sight (LOS) and non-line-of-sight
+(NLOS) propagation over long distances where detailed building data is not available.
 This model is recommended for national or regional coverage planning, especially in cases where high-
-resolution DTM (e.g., 30m) and clutter data (e.g., 10m resolution) are available, but building heights and
-detailed 3D structures are not. Its statistical approach allows for reliable estimations of field strength in both
-urban and rural environments, without requiring ray-tracing or detailed geometry-based modeling.
-For scenarios where accurate building geometry and heights are available and a higher modeling frequency
-range (up to 6 GHz) is required, the CEC ITU-R 3GPP Model is recommended instead, offering greater
-precision in dense urban and high-frequency applications.
+resolution DTM (e.g., 30m) and clutter data (e.g., 10m resolution) are available, but building heights
+and detailed 3D structures are not. Its statistical approach allows for reliable estimations of field
+strength in both urban and rural environments, without requiring ray-tracing or detailed geometry-
+based modeling.
+For scenarios where accurate building geometry and heights are available and a higher modeling
+frequency range (up to 6 GHz) is required, the CEC ITU-R 3GPP Model is recommended instead,
+offering greater precision in dense urban and high-frequency applications.
 Default settings
 The following key parameters are used to configure the ITU-R P.1546 radio propagation predictions within
 the software. These settings directly influence the coverage calculation and modeling accuracy:
@@ -1779,12 +1815,12 @@ o 10 m or higher for fixed installations (e.g., rooftop or vehicular antennas).
 • Note: Accurate setting of receiver height is essential for meaningful signal level predictions.
 
 ### Time Percentage (%)
+
 • Description: Indicates the percentage of time during which the predicted field strength is expected
 to be met or exceeded.
 • Purpose: Reflects the statistical variability of signal propagation due to atmospheric and
 environmental effects.
 • Common Use Cases:
-
 o 50% time: Typical for general service coverage maps (median conditions).
 o 10% time: Used for high-reliability or interference studies, ensuring signal presence under
 less favorable conditions.
@@ -1800,7 +1836,7 @@ reflections, and obstacles.
 In the context of siren sound prediction, ISO 9613 helps determine the effective coverage area, ensuring
 that warning signals reach the intended audience with sufficient audibility. This standard is essential for
 
-![Image p94](../assets/images/ce-pro/emf-guide/p094-img1.png)
+![Image p97](../../assets/images/ce-pro/indoor-guide/p097-img1.png)
 optimizing siren placement, regulatory compliance, and designing effective emergency alert systems.
 The primary factors included in the standard are:
 
@@ -1810,12 +1846,12 @@ as the distance from the source increases, following the inverse square law (wit
 spreading) or other forms depending on terrain.
 • As the distance from the sound source increases, the intensity of sound diminishes, which is
 considered in the calculation of sound levels at various receiver points.
+
 𝐴 =20∗𝐿𝑂𝐺10(𝑑)+11
 𝑑𝑖𝑣
 
 2. Atmospheric Absorption
 • Sound is absorbed by the atmosphere as it travels, particularly at higher frequencies. The
-
 absorption depends on factors like temperature, humidity, and air pressure, and is often more
 significant over longer distances.
 • Atmospheric absorption reduces the intensity of sound as it propagates, especially at higher
@@ -1843,8 +1879,7 @@ by humid air.
 ensuring more accurate predictions for different weather scenarios.
 Default settings
 • Distance coefficient: 20.
-Describes slope coefficient based on distance. Value is included in Geometric spreading
-calculations.
+Describes slope coefficient based on distance. Value is included in Geometric spreading calculations.
 • Temperature: 20 Co
 • Humidity: 50%
 • Meteorological conditions: 3 dB. It is a factor, in decibels, which depends on local meteorological
@@ -1854,8 +1889,8 @@ of Meteorological conditions (C0) in practice are limited to the range from zero
 Ground factor parameter for the ISO9613-2 model’s clutter classes allows users to define the acoustic
 reflectivity (from 0 to 1, indicating hard-soft respectively) of the ground surface for more accurate sound
 level predictions.
-
 Clutter Classes default values
+
 Ground factor
 Open / Terrain
 Grassland
@@ -1887,19 +1922,17 @@ Low loss building
 High loss building
 7.6.1.8 CEC 3GPP TR Indoor (500MHz – 100GHz)
 Model application
-The CEC 3GPP TR Indoor Model (500 MHz – 100 GHz) is a robust, scalable prediction method based on
-ITU-R principles and 3GPP extensions, specifically engineered for indoor radiowave propagation. By
+The CEC 3GPP TR Indoor Model (500 MHz – 100 GHz) is a robust, scalable prediction method based
+on ITU-R principles and 3GPP extensions, specifically engineered for indoor radiowave
+propagation. By supporting a wide range of scenarios — from clean LOS corridors to deeply
+obstructed NLOS paths — it enables highly accurate modeling of next-generation wireless systems,
+ensuring reliable, secure, and efficient communication in the most demanding indoor environments.
 
-supporting a wide range of scenarios — from clean LOS corridors to deeply obstructed NLOS paths — it
-
-![Image p97](../assets/images/ce-pro/emf-guide/p097-img1.png)
-enables highly accurate modeling of next-generation wireless systems, ensuring reliable, secure, and
-efficient communication in the most demanding indoor environments.
 Key Enhancements for Indoor Use
 • Frequency scaling up to 100 GHz supports mmWave and terahertz
 • Wall material database from 3GPP TR 38.901:
-o Standard drywall: ~2–8 dB per wall
-o Concrete: 5–15 dB
+o Standard drywall: ~5–10 dB per wall
+o Concrete: 15–35 dB
 o Glass: 2–10 dB
 • Multi-floor attenuation (floor penetration factor)
 • Path loss floors: ensures minimum attenuation beyond near field
@@ -1911,10 +1944,12 @@ Default settings
 | Radius | Maximum prediction radius in kilometers to calculate path loss. |
 | Receiver height | Receiver height above the receiver reference height selected in the workspace settings. |
 | Effective earth radius | Earth radius in kilometers, used for the calculations. |
+| Offset coefficient | Represents the offset in decibels added to the path loss grid. The default value is 37 dB. |
+
+![Image p100](../../assets/images/ce-pro/indoor-guide/p100-img1.png)
 
 | Parameter | Description |
 |---|---|
-| Offset coefficient | Represents the offset in decibels added to the path loss grid. The default value is 37 dB. |
 | Distance coefficient | Defines the slope based on the distance between the cell and the receiver location, with a default value of 20. |
 | Distance coefficient obstructed | Represents the slope based on the obstructed distance between the cell and the receiver location. The default value is 30. |
 | Frequency coefficient | Indicates the slope determined by the frequency value, with a default value of 20. |
@@ -1950,35 +1985,25 @@ Medium density urban (High buildings)
 High density urban (Low buildings)
 0 0.89 0.65
 High density urban (High buildings)
-
 0 0.89 0.65
 High density urban (Very high
 buildings)
 0 0.89 0.65
 Building blocks
-0 0.89 0.65
-Transportation
-0 0.89 0.65
-Agriculture
-0 0.89 0.65
-Plantation
-0 0.89 0.65
-Parks
-0 0.89 0.65
-Airport
-0 0.89 0.65
-Sea
-0 0.89 0.65
-Inland water
-5 0.25 1
-Concrete building
-2 0.25 1
-Glass building
-2 0.25 1
-Wood building
-8.5 0.25 1
-Low loss building
-17 0.25 1
+
+| Transportation | 0 | 0.89 | 0.65 |
+|---|---|---|---|
+| Agriculture | 0 | 0.89 | 0.65 |
+| Plantation | 0 | 0.89 | 0.65 |
+| Parks | 0 | 0.89 | 0.65 |
+| Airport | 0 | 0.89 | 0.65 |
+| Sea | 0 | 0.89 | 0.65 |
+| Inland water | 0 | 0.89 | 0.65 |
+| Concrete building | 5 | 0.25 | 1 |
+| Glass building | 2 | 0.25 | 1 |
+| Wood building | 2 | 0.25 | 1 |
+| Low loss building | 8.5 | 0.25 | 1 |
+| High loss building | 17 | 0.25 | 1 |
 High loss building
 7.6.1.9 CNOSSOS-EU Model
 Model application
@@ -2002,11 +2027,11 @@ geometry consistent with the CNOSSOS-EU specification, and terrain profiles, clu
 building data from the workspace are used directly in the calculation. The primary factors included in the
 standard are:
 Default settings
-
 • Distance coefficient: 20.
 Describes slope coefficient based on distance. Value is included in Geometric spreading calculations.
 • Temperature: 15 Co
 • Humidity: 70%
+
 • Favourable conditions occurrence: 0.25: Probability or fraction of time during which
 meteorological conditions are "favourable" for sound propagation from a source to a receiver.
 Ground factor parameter for the CNOSSOS-EU model’s clutter classes allows users to define the acoustic
@@ -2040,13 +2065,14 @@ Sea
 Inland water
 Concrete building
 Glass building
-
 Wood building
 Low loss building
 High loss building
 
 ### 7.7 Template Manager
 Template Manager allows the user to edit current project templates residing in the various Template tables
+
+![Image p104](../../assets/images/ce-pro/indoor-guide/p104-img1.png)
 of the default.gdb. The user may change the field values of the templates, create new or detele existing
 templates.
 Templates are essential tools designed to streamline and simplify the configuration process by predefining
@@ -2079,13 +2105,10 @@ available parameters in network layer.
 #### 7.7.1 Edit Network Objects template
 Click the button to open the Template Manager dialogue. Select one of the opened templates to edit
 
-![Image p102](../assets/images/ce-pro/emf-guide/p102-img1.png)
+![Image p105](../../assets/images/ce-pro/indoor-guide/p105-img1.png)
 
-![Image p102](../assets/images/ce-pro/emf-guide/p102-img2.png)
-
-![Image p102](../assets/images/ce-pro/emf-guide/p102-img3.png)
+![Image p105](../../assets/images/ce-pro/indoor-guide/p105-img2.png)
 them.
-
 Save Changes
 Saves the changes to the objects.
 Dismiss
@@ -2093,6 +2116,7 @@ Cancels the changes to the objects and closes the dialogue.
 
 #### 7.7.2 Manage Network Object Template
 Right-click on a selected template to open the context menu with Duplicate and Delete options.
+
 Duplicate will create a new template with the same parameters.
 Delete will remove this selected template.
 
@@ -2100,17 +2124,17 @@ Delete will remove this selected template.
 The modulations are used in MW link calculations and specifically can be defined for Radios. Instead of
 specifying Modulations one by one, the customer can create a set of them, and it is available in this tab.
 
-![Image p103](../assets/images/ce-pro/emf-guide/p103-img1.png)
+![Image p106](../../assets/images/ce-pro/indoor-guide/p106-img1.png)
 
-![Image p103](../assets/images/ce-pro/emf-guide/p103-img2.png)
+![Image p106](../../assets/images/ce-pro/indoor-guide/p106-img2.png)
 To preview and edit the Modulations template, click on it in the table.
 
 (top right)
 A new modulation with default values can be initialized.
 
-![Image p104](../assets/images/ce-pro/emf-guide/p104-img1.png)
+![Image p107](../../assets/images/ce-pro/indoor-guide/p107-img1.png)
 
-![Image p104](../assets/images/ce-pro/emf-guide/p104-img2.png)
+![Image p107](../../assets/images/ce-pro/indoor-guide/p107-img2.png)
 X
 Modulation can be removed.
 Save changes
@@ -2120,11 +2144,11 @@ Dismiss
 Remove changes.
 To create a new Modulation template, press button in the top right corner of the dialog to initialize a
 
-![Image p105](../assets/images/ce-pro/emf-guide/p105-img1.png)
+![Image p108](../../assets/images/ce-pro/indoor-guide/p108-img1.png)
 
-![Image p105](../assets/images/ce-pro/emf-guide/p105-img2.png)
+![Image p108](../../assets/images/ce-pro/indoor-guide/p108-img2.png)
 
-![Image p105](../assets/images/ce-pro/emf-guide/p105-img3.png)
+![Image p108](../../assets/images/ce-pro/indoor-guide/p108-img3.png)
 new template.
 Template name
 The name of the modulation template.
@@ -2139,11 +2163,11 @@ The list of available modulations is taken from the Modulation Editor tab.
 
 To add a new modulation, click the at the top right of the Modulation Editor window to initialize a new
 
-![Image p106](../assets/images/ce-pro/emf-guide/p106-img1.png)
+![Image p109](../../assets/images/ce-pro/indoor-guide/p109-img1.png)
 
-![Image p106](../assets/images/ce-pro/emf-guide/p106-img2.png)
+![Image p109](../../assets/images/ce-pro/indoor-guide/p109-img2.png)
 
-![Image p106](../assets/images/ce-pro/emf-guide/p106-img3.png)
+![Image p109](../../assets/images/ce-pro/indoor-guide/p109-img3.png)
 modulation with default values, and press the Create button at the bottom of the window. Alternatively, click
 on an existing one to edit its parameters.
 Create
@@ -2158,9 +2182,9 @@ Dismiss changes made to the modulation.
 The Import Objects feature further enhances efficiency by allowing users to bring in network objects from
 multiple external documents without manually creating them. This capability is invaluable when dealing with
 
-![Image p107](../assets/images/ce-pro/emf-guide/p107-img1.png)
+![Image p110](../../assets/images/ce-pro/indoor-guide/p110-img1.png)
 
-![Image p107](../assets/images/ce-pro/emf-guide/p107-img2.png)
+![Image p110](../../assets/images/ce-pro/indoor-guide/p110-img2.png)
 extensive or complex datasets. Cellular Expert for ArcGIS Pro supports the import of three widely used file
 formats: .xls, .xlsx, and .csv. Additionally, for mapping files, it supports the .json format.
 Key benefits of the Import Objects feature include:
@@ -2177,7 +2201,7 @@ The dialog will be filled with the options to define data and mapping files.
 #### 7.8.1 Import Cells
 The option enables possibility to import Cells in the Cellular Expert workspace. It has additional parameters
 
-![Image p108](../assets/images/ce-pro/emf-guide/p108-img1.png)
+![Image p111](../../assets/images/ce-pro/indoor-guide/p111-img1.png)
 compared to other import options.
 Template
 Take necessary parameters from the template during the import. Template values are taken if some
@@ -2200,7 +2224,7 @@ Select Mapping File (Optional)
 Opens a dialogue window where the user can select a file that defines the data to be imported and the
 conditions under which said data is processed. The supported format is .json. Upon successful selection,
 
-![Image p109](../assets/images/ce-pro/emf-guide/p109-img1.png)
+![Image p112](../../assets/images/ce-pro/indoor-guide/p112-img1.png)
 the button will light up green. More on mapping files are below.
 Steps.
 
@@ -2218,9 +2242,9 @@ name. It must be text data.
 7.8.1.1 Mapping file
 The data in the import files may have names, values, and units that do not match the data in the Cellular
 
-![Image p110](../assets/images/ce-pro/emf-guide/p110-img1.png)
+![Image p113](../../assets/images/ce-pro/indoor-guide/p113-img1.png)
 
-![Image p110](../assets/images/ce-pro/emf-guide/p110-img2.png)
+![Image p113](../../assets/images/ce-pro/indoor-guide/p113-img2.png)
 Expert database. To resolve such issues an additional Mapping file should be imported in which these data
 conflicts ought to be addressed.
 The empty mapping file can be found in the project’s workspace catalog, SystemFiles folder.
@@ -2238,9 +2262,9 @@ database. This property will be checked when the mapping file is imported.
 “default_value” – value that will be used when an object in the data file has no value for a particular
 property. In this example, if “latitude” is not set, then it will by default be assigned the value of 41.258.
 
-![Image p111](../assets/images/ce-pro/emf-guide/p111-img1.png)
+![Image p114](../../assets/images/ce-pro/indoor-guide/p114-img1.png)
 
-![Image p111](../assets/images/ce-pro/emf-guide/p111-img2.png)
+![Image p114](../../assets/images/ce-pro/indoor-guide/p114-img2.png)
 Leaving the default to empty quotation marks (“”) means that no default value will be applied.
 
 #### 7.8.2 Import Sites, Radar, CPE, or Repeaters
@@ -2263,7 +2287,7 @@ the button will light up green.
 Click the toolbar button and select Import to import antenna patterns. The command opens a
 dialogue window where the user can select the antenna pattern files to be imported into the Cellular Expert
 
-![Image p112](../assets/images/ce-pro/emf-guide/p112-img1.png)
+![Image p115](../../assets/images/ce-pro/indoor-guide/p115-img1.png)
 database. Select the antenna type in the dropdown list and proceed.
 Select Files
 This button opens a dialogue in which you can select one or more antenna pattern files to be imported. The
@@ -2292,7 +2316,7 @@ Click on the button and select Create to create antenna patterns. Various parame
 antenna can be entered, as well as horizontal and vertical beamwidth values or ranges. For the selected
 horizontal and vertical values or ranges, the horizontal and vertical attenuations are set to 0, while all other
 
-![Image p113](../assets/images/ce-pro/emf-guide/p113-img1.png)
+![Image p116](../../assets/images/ce-pro/indoor-guide/p116-img1.png)
 attenuations are set to 1000. Based on the horizontal and vertical beamwidths, the horizontal and vertical
 antenna patterns are displayed.
 
@@ -2306,36 +2330,9 @@ antenna patterns are displayed.
 | Vertical beamwidth | Antenna’s vertical beamwidth value or range in degrees. By default, the value is 15. |
 | Create Antenna | Creates the antenna pattern in the database. |
 
-## 8. EMF Calculations
+## 8. Profile
 
-### 8.1 EMF
-The EMF Calculation Tool analyzes and visualizes electromagnetic field (EMF) exposure based on various
-environmental and technical parameters, such as resolution, cell template, reflection factor, and receiver
-height. This tool allows users to perform EMF calculations for selected cells by specifying these parameters.
-
-![Image p115](../assets/images/ce-pro/emf-guide/p115-img1.png)
-These are then processed to provide results for EMF limit usage (%), EMF in mV/m, and EMF in mW/m².
-The results are displayed on the map, highlighting areas with varying levels of EMF exposure, and the
-values are explained in the legend under the newly created calculation layer.
-| Parameter | Description |
-|---|---|
-| Calculation Name | Name of the calculation that will be displayed in the CE Calculation Task List. |
-| Resolution | Resolution for raster calculations. The output rasters will be produced with the indicated cell size. |
-| Cell template | Cell template that will be used in the prediction calculations. |
-| Reflection factor | Reflection factor, used for the electromagnetic field exposure prediction calculations. Available selections: no reflection, realistic reflection, or full reflection. |
-| Reflection factor | Receiver height in meters. |
-
-The results are displayed in newly added rasters of the calculation – electromagnetic field exposure results
-
-![Image p116](../assets/images/ce-pro/emf-guide/p116-img1.png)
-
-![Image p116](../assets/images/ce-pro/emf-guide/p116-img2.png)
-in mV/m and mW/m2. For example, the green indicates where mV/m exposure values are less than 50, and
-red indicates where they are higher than 100.
-
-## 9. Profile
-
-### 9.1 Profile Tool
+### 8.1 Profile Tool
 A Profile in wireless communication represents the geographical and environmental characteristics of
 the path between a transmitter and a receiver. It includes detailed information such as elevation
 data, terrain heights, and any obstacles (e.g., buildings, trees, or mountains) that might impact
@@ -2346,6 +2343,10 @@ system gains and losses, and the path loss, which measures the reduction in sign
 to distance, frequency, and environmental obstructions. The profile also provides the calculated
 angles, including the elevation angle (vertical angle between the transmitter and receiver) and the
 azimuth angle (horizontal direction). Additionally, it determines whether a direct line-of-sight exists
+
+![Image p118](../../assets/images/ce-pro/indoor-guide/p118-img1.png)
+
+![Image p118](../../assets/images/ce-pro/indoor-guide/p118-img2.png)
 between the two points.
 This comprehensive information is ready for use, enabling users to assess the feasibility and
 performance of a communication link for network planning, optimization, and troubleshooting.
@@ -2353,7 +2354,7 @@ Click the button to open the Profile dialogue.
 Profile tool enables you to determine the obstructions, elevation, and Fresnel zones between two points
 on a map.
 
-#### 9.1.1 Properties
+#### 8.1.1 Properties
 Profile: General
 Fresnel Minimal Clearance, %
 Percentage by which the primary Fresnel zones will be scaled up or down thus creating a secondary
@@ -2361,24 +2362,23 @@ Fresnel zone. The percentage must be in the range of 1 to 200. The value can be 
 by inputting it manually or by using the slider.
 Transmitter Template
 The template that is used for transmitter’s default values.
+
 Receiver Template
 The template that is used for receiver’s default values.
 Profile: Transmitter
 Toggling the switch to the left of Transmitter will enable the Fixed Transmitter functionality, which will
 
-![Image p117](../assets/images/ce-pro/emf-guide/p117-img1.png)
-
-![Image p117](../assets/images/ce-pro/emf-guide/p117-img2.png)
+![Image p119](../../assets/images/ce-pro/indoor-guide/p119-img1.png)
 modify only the receiver’s positioning when drawing the profile on the map.
 Cell
 A cell from which the profile will be drawn. The parameters of the cell will be taken into calculation if
-
 the cell is snapped to by the profile tool.
-| Parameter | Description |
-|---|---|
-| Latitude | Decimal degrees Y type coordinate. |
-| Longitude | Decimal degrees X type coordinate. |
-| Height, m | Height above the ground in meters. The minimum value must be 1m. |
+Latitude
+Decimal degrees Y type coordinate.
+Longitude
+Decimal degrees X type coordinate.
+Height, m
+Height above the ground in meters. The minimum value must be 1m.
 Azimuth towards receiver
 Enabled by default. When enabled, the transmitter’s azimuth is towards the receiver. Disabling this
 option it would take azimuth value from the Cell object, and use it for FWA Power Budget
@@ -2392,7 +2392,7 @@ Electrical downtilt value for the transmitter, in degrees.
 
 The antenna for the transmitter can be selected from the table below the El. Downtilt, deg input. Its
 
-![Image p119](../assets/images/ce-pro/emf-guide/p119-img1.png)
+![Image p120](../../assets/images/ce-pro/indoor-guide/p120-img1.png)
 pattern can be viewed by clicking the View Antenna button on the right side.
 | Parameter | Description |
 |---|---|
@@ -2412,7 +2412,7 @@ Profile: Receiver
 | Longitude | Decimal degrees X type coordinate. |
 | Height, m | Height above the ground in meters. The minimum value must be 1m. |
 
-![Image p120](../assets/images/ce-pro/emf-guide/p120-img1.png)
+![Image p121](../../assets/images/ce-pro/indoor-guide/p121-img1.png)
 Azimuth towards transmitter
 
 Enabled by default. When enabled, the receiver’s azimuth is towards the transmitter. Disabling this
@@ -2421,7 +2421,7 @@ calculations, it also allows the user to enter a custom azimuth value for the re
 Downtilt towards transmitter
 Enabled by default. When enabled, the receiver’s tilt is towards the transmitter. Disabling this option it
 
-![Image p121](../assets/images/ce-pro/emf-guide/p121-img1.png)
+![Image p122](../../assets/images/ce-pro/indoor-guide/p122-img1.png)
 would take tilt value from the receiver (Cell) object, and use it for FWA Power Budget calculations,
 it allows the user to enter a custom tilt value for the receiver.
 Power, dBm
@@ -2431,7 +2431,7 @@ Miscellaneous loss value in dB. Value is not required.
 Profile: Prediction Model
 Double-click the prediction model from the list to select it for the profile.
 
-#### 9.1.2 Draw Profile
+#### 8.1.2 Draw Profile
 When the Profile tool is selected and enabled, you will be able to select two points on the map in turn
 creating a Profile line.
 The profile also lets you snap to different Cellular Expert network objects. If the object to which the
@@ -2451,11 +2451,11 @@ Upon the selection of a second point, these geometries will be created between t
 
 The Profile plot illustrating these geometries, obstacles (buildings), and the Fresnel zone will appear in
 
-![Image p122](../assets/images/ce-pro/emf-guide/p122-img1.png)
+![Image p123](../../assets/images/ce-pro/indoor-guide/p123-img1.png)
 
-![Image p122](../assets/images/ce-pro/emf-guide/p122-img2.png)
+![Image p123](../../assets/images/ce-pro/indoor-guide/p123-img2.png)
 
-![Image p122](../assets/images/ce-pro/emf-guide/p122-img3.png)
+![Image p123](../../assets/images/ce-pro/indoor-guide/p123-img3.png)
 a dockpane below. You can inspect the values at particular points by moving the cursor around the
 plot. The cursor movement on the plot will be projected as a moving point on the map. If a cell is
 selected for the transmitter, the cell’s tilt (the sum of mechanical and electrical tilts) and vertical
@@ -2466,9 +2466,9 @@ The button allows you to see the Prediction Calculation results.
 
 You can change the colors of the profile by clicking the colored squares near the names of the parameters.
 
-![Image p123](../assets/images/ce-pro/emf-guide/p123-img1.png)
+![Image p124](../../assets/images/ce-pro/indoor-guide/p124-img1.png)
 
-![Image p123](../assets/images/ce-pro/emf-guide/p123-img2.png)
+![Image p124](../../assets/images/ce-pro/indoor-guide/p124-img2.png)
 The colors will be updated automatically. You can toggle the visibility of each separate parameter of
 the profile by clicking on the name of the element. Enabled elements are indicated by bold text,
 and disabled elements are indicated by regular text.
@@ -2476,29 +2476,29 @@ and disabled elements are indicated by regular text.
 You can change the height of the transmitter/receiver points by dragging their ends on the plot.
 Hovering the cursor over the plot displays a tooltip with the meter values for profile, building, clutter,
 
-![Image p124](../assets/images/ce-pro/emf-guide/p124-img1.png)
+![Image p125](../../assets/images/ce-pro/indoor-guide/p125-img1.png)
 
-![Image p124](../assets/images/ce-pro/emf-guide/p124-img2.png)
+![Image p125](../../assets/images/ce-pro/indoor-guide/p125-img2.png)
 elevation, distance, etc., as well as their representations in colors.
 
-9.1.2.1 Adjust Data
+8.1.2.1 Adjust Data
 Adjust data is found on the Profile Plot dockpane near the Results. The tool lets you change the
 
-![Image p125](../assets/images/ce-pro/emf-guide/p125-img1.png)
+![Image p126](../../assets/images/ce-pro/indoor-guide/p126-img1.png)
 
-![Image p125](../assets/images/ce-pro/emf-guide/p125-img2.png)
+![Image p126](../../assets/images/ce-pro/indoor-guide/p126-img2.png)
 elevation, building, and clutter data of the area visible in the profile plot.
 When the Adjust tab is opened, select a desirable range for the data adjustment on the plot.
 
 You can make slight changes to the range of the selection area by hovering over the area's edges and
 
-![Image p126](../assets/images/ce-pro/emf-guide/p126-img1.png)
+![Image p127](../../assets/images/ce-pro/indoor-guide/p127-img1.png)
 
-![Image p126](../assets/images/ce-pro/emf-guide/p126-img2.png)
+![Image p127](../../assets/images/ce-pro/indoor-guide/p127-img2.png)
 
-![Image p126](../assets/images/ce-pro/emf-guide/p126-img3.png)
+![Image p127](../../assets/images/ce-pro/indoor-guide/p127-img3.png)
 
-![Image p126](../assets/images/ce-pro/emf-guide/p126-img4.png)
+![Image p127](../../assets/images/ce-pro/indoor-guide/p127-img4.png)
 dragging them. To adjust the values, click on one of the text boxes and insert the value.
 To change multiple values simultaneously, drag across the adjustment table and select multiple rows.
 Changing the value of a single text box will also change all the other chosen rows’ values in that
@@ -2509,13 +2509,13 @@ To reset the adjusted values to defaults, click the Refresh button .
 Manual Profile
 If you want to insert specific coordinates and draw a profile that way, you can insert these values in the
 
-![Image p127](../assets/images/ce-pro/emf-guide/p127-img1.png)
+![Image p128](../../assets/images/ce-pro/indoor-guide/p128-img1.png)
 
-![Image p127](../assets/images/ce-pro/emf-guide/p127-img2.png)
+![Image p128](../../assets/images/ce-pro/indoor-guide/p128-img2.png)
 
-![Image p127](../assets/images/ce-pro/emf-guide/p127-img3.png)
+![Image p128](../../assets/images/ce-pro/indoor-guide/p128-img3.png)
 
-![Image p127](../assets/images/ce-pro/emf-guide/p127-img4.png)
+![Image p128](../../assets/images/ce-pro/indoor-guide/p128-img4.png)
 Profile pane and click the Manual Profile button.
 Dynamic Profile
 The button toggles the Dynamic Profile.
@@ -2526,7 +2526,7 @@ chosen if the point is not currently entered.
 If a second point is selected while the profile is being drawn, the dynamic profile will be disabled, and
 the LOS lines will appear on the map.
 
-#### 9.1.3 Tools
+#### 8.1.3 Tools
 Reflections are considered in profile and RF calculations to assess how radio waves bounce off
 surfaces, affecting signal path and strength.
 To enable reflections select either Single or Multipath Reflection. Be aware that if reflections are not
@@ -2535,9 +2535,9 @@ It is recommended to disable the Step Plot of the profile before using Reflectio
 Use Single Reflection
 Enable a reflection that will reflect straight from the transmitter to the receiver point with the smallest
 
-![Image p128](../assets/images/ce-pro/emf-guide/p128-img1.png)
+![Image p129](../../assets/images/ce-pro/indoor-guide/p129-img1.png)
 
-![Image p128](../assets/images/ce-pro/emf-guide/p128-img2.png)
+![Image p129](../../assets/images/ce-pro/indoor-guide/p129-img2.png)
 angle.
 
 | Parameter | Description |
@@ -2550,9 +2550,9 @@ angle.
 Select Reflection Range
 Lets you set a range in which the reflection calculations should happen. This will affect both Single and
 
-![Image p129](../assets/images/ce-pro/emf-guide/p129-img1.png)
+![Image p130](../../assets/images/ce-pro/indoor-guide/p130-img1.png)
 
-![Image p129](../assets/images/ce-pro/emf-guide/p129-img2.png)
+![Image p130](../../assets/images/ce-pro/indoor-guide/p130-img2.png)
 Multipath reflections and help highlight specific important areas along the profile as well as speed
 up the calculation process.
 The range will be enabled as soon as a profile is drawn.
@@ -2560,10 +2560,10 @@ You can select this range on the plot, by holding down the left mouse button and
 screen.
 Reflection results will appear in the Profile Results table.
 
-9.1.3.1 Reflection Analysis
+8.1.3.1 Reflection Analysis
 The Reflection Analysis tool for Profile is designed to help analyze and visualize signal reflections based
 
-![Image p130](../assets/images/ce-pro/emf-guide/p130-img1.png)
+![Image p131](../../assets/images/ce-pro/indoor-guide/p131-img1.png)
 on the changes in various profile parameters like frequency, transmitter height, receiver height, and K-
 factor. Reflections must be enabled to perform analysis, and the Single Reflection option is automatically
 enabled when the tool is selected.
@@ -2575,39 +2575,38 @@ enabled when the tool is selected.
 | Dependency on Transmitter height | Calculate reflection analysis based on transmitter height range (from m to m) |
 | Dependency on K-Factor | Calculate reflection analysis based on K-factor range (from radius, km to radius, km) |
 
-![Image p131](../assets/images/ce-pro/emf-guide/p131-img1.png)
+![Image p132](../../assets/images/ce-pro/indoor-guide/p132-img1.png)
 
 The reflection analysis results for each type of dependency are displayed in the Reflection Analysis
 tab of the Calculated Profile window.
 
-#### 9.1.4 Import
+#### 8.1.4 Import
 Import a profile by selecting a profile file in the Import section. Supported formats: .pl2 (path loss file).
 
-![Image p132](../assets/images/ce-pro/emf-guide/p132-img1.png)
+![Image p133](../../assets/images/ce-pro/indoor-guide/p133-img1.png)
 Once imported successfully, the profile data may then be customized.
 
 Load Profile
 Creates the profile with the provided data.
 
-#### 9.1.5 Export (Profile Report)
+#### 8.1.5 Export (Profile Report)
 The input data and calculation results can be automatically transferred into a Profile Report. This report
 will show transmitter/receiver input data, calculation results as well as the Profile plot and map view in which
 
-![Image p133](../assets/images/ce-pro/emf-guide/p133-img1.png)
+![Image p134](../../assets/images/ce-pro/indoor-guide/p134-img1.png)
 
-![Image p133](../assets/images/ce-pro/emf-guide/p133-img2.png)
-the profile was drawn. The report can be exported in PDF and PL2 formats. The Profile Report can also be
-saved to Docs Manager by selecting Save result to Docs Manager.
+![Image p134](../../assets/images/ce-pro/indoor-guide/p134-img2.png)
+the profile was drawn. The report can be exported in PDF and PL2 formats.
 
 The resulting Profile report will look similar to this example:
 
-![Image p134](../assets/images/ce-pro/emf-guide/p134-img1.png)
+![Image p135](../../assets/images/ce-pro/indoor-guide/p135-img1.png)
 
-#### 9.1.6 Settings
-Currently, you can configure the profile’s visual properties and controls in profile settings. The settings can
+#### 8.1.6 Settings
+Currently, you can configure the profile’s visual properties and controls in profile settings. The settings
 
-![Image p135](../assets/images/ce-pro/emf-guide/p135-img1.png)
-be changed once a profile is drawn.
+![Image p136](../../assets/images/ce-pro/indoor-guide/p136-img1.png)
+can be changed once a profile is drawn.
 | Parameter | Description |
 |---|---|
 | Show Step Plot | Display data points as a series of steps rather than a smooth line or individual points. |
@@ -2615,9 +2614,9 @@ be changed once a profile is drawn.
 | Receiver height change step | The step (in meters) for changing the receiver height when dragging it in the Profile graph. The default value is 0.5 meters. |
 value is 0.5 meters.
 
-## 10. Coverage Prediction
+## 9. Coverage Prediction
 
-### 10.1 CE Calculation Task List
+### 9.1 CE Calculation Task List
 All results of the prediction calculations can be found in the CE Calculation Task List tab. This includes
 failed and successful calculations.
 Click on the button to open the CE Calculation Task List dialogue.
@@ -2625,24 +2624,24 @@ The task list refreshes automatically once calculation tasks are run. The task s
 main colors: blue (in progress), green (completed), and red (failed). Calculation tasks can be deleted
 from the task list by clicking on the right side of the task. To open a result raster, select it from the results
 
-![Image p136](../assets/images/ce-pro/emf-guide/p136-img1.png)
+![Image p137](../../assets/images/ce-pro/indoor-guide/p137-img1.png)
 
-![Image p136](../assets/images/ce-pro/emf-guide/p136-img2.png)
+![Image p137](../../assets/images/ce-pro/indoor-guide/p137-img2.png)
 
-![Image p136](../assets/images/ce-pro/emf-guide/p136-img3.png)
+![Image p137](../../assets/images/ce-pro/indoor-guide/p137-img3.png)
 
-![Image p136](../assets/images/ce-pro/emf-guide/p136-img4.png)
+![Image p137](../../assets/images/ce-pro/indoor-guide/p137-img4.png)
 
-![Image p136](../assets/images/ce-pro/emf-guide/p136-img5.png)
+![Image p137](../../assets/images/ce-pro/indoor-guide/p137-img5.png)
 
-![Image p136](../assets/images/ce-pro/emf-guide/p136-img6.png)
+![Image p137](../../assets/images/ce-pro/indoor-guide/p137-img6.png)
 dropdown and click Open Results. Filtering by calculation spans these types: Antenna Visibility Prediction,
 EMF Calculation, Link Prediction, Model Tuning, Optimal Site Positions Calculation, RF Prediction, Siren
 Sound Prediction, and Visibility Prediction.
 
-### 10.2 Visibility Prediction
-Visibility calculations refer to the determination of line-of-sight between transmitting and receiving antennas,
-assessing whether any obstructions might impede direct signal transmission.
+### 9.2 Visibility Prediction
+Visibility calculations refer to the determination of line-of-sight between transmitting and receiving
+antennas, assessing whether any obstructions might impede direct signal transmission.
 Visibility Prediction is a tool that calculates 4 different results:
 • Minimum Receiver Height – the minimum height of a receiver that could be visible to the transmitter
 • Line of Sight – confirms whether visibility exists between the receiver and transmitter with the
@@ -2666,67 +2665,67 @@ Results:
 • Minimum Receiver Height in meters
 • Line of Sight – either visible (1) by the network objects or not (0)
 
-![Image p138](../assets/images/ce-pro/emf-guide/p138-img1.png)
+![Image p139](../../assets/images/ce-pro/indoor-guide/p139-img1.png)
 
-![Image p138](../assets/images/ce-pro/emf-guide/p138-img2.png)
+![Image p139](../../assets/images/ce-pro/indoor-guide/p139-img2.png)
 • Clearance in meters
 
 • Best Server
 
-![Image p139](../assets/images/ce-pro/emf-guide/p139-img1.png)
+![Image p140](../../assets/images/ce-pro/indoor-guide/p140-img1.png)
 
-![Image p139](../assets/images/ce-pro/emf-guide/p139-img2.png)
+![Image p140](../../assets/images/ce-pro/indoor-guide/p140-img2.png)
 
-## 11. About
+## 10. About
 
-### 11.1 License information
+### 10.1 License information
 Click the button to open the License Information dialogue.
 License information is a useful resource to see your current version of Cellular Expert for ArcGIS Pro, user
 
-![Image p140](../assets/images/ce-pro/emf-guide/p140-img1.png)
+![Image p141](../../assets/images/ce-pro/indoor-guide/p141-img1.png)
 
-![Image p140](../assets/images/ce-pro/emf-guide/p140-img2.png)
+![Image p141](../../assets/images/ce-pro/indoor-guide/p141-img2.png)
 
-![Image p140](../assets/images/ce-pro/emf-guide/p140-img3.png)
+![Image p141](../../assets/images/ce-pro/indoor-guide/p141-img3.png)
 key, currently active licenses, and their expiration dates. The license information window is also used when
 a user is enabling the CE for ArcGIS Pro extension on their computer. For more information about license
 activation see Activation.
 
-### 11.2 Help
+### 10.2 Help
 
-#### 11.2.1 Documentation
+#### 10.2.1 Documentation
 Click the button in the Help dropdown list to open the Documentation of CE for ArcGIS Pro.
 Here you will find extensive documentation of the add-on. Also, this should be the first place you check
 when trying to figure out a problem.
 
-#### 11.2.2 What’s New
+#### 10.2.2 What’s New
 Click the button in the Help dropdown list to open the What’s New document. This document
 is updated for each new release of Cellular Expert for ArcGIS Pro, and here you will find the changelog for
 
-![Image p141](../assets/images/ce-pro/emf-guide/p141-img1.png)
+![Image p142](../../assets/images/ce-pro/indoor-guide/p142-img1.png)
 
-![Image p141](../assets/images/ce-pro/emf-guide/p141-img2.png)
+![Image p142](../../assets/images/ce-pro/indoor-guide/p142-img2.png)
 
-![Image p141](../assets/images/ce-pro/emf-guide/p141-img3.png)
+![Image p142](../../assets/images/ce-pro/indoor-guide/p142-img3.png)
 the current installed version. This document serves as the introduction of added new features,
 enhancements, bug fixes, and other changes.
 
-#### 11.2.3 Technical Support
+#### 10.2.3 Technical Support
 Click the button in the Help dropdown list to open the Technical Support page in your
 default Internet browser. In the Cellular Expert Support page, you can browse the Knowledge base for
 instructions and solutions related to Cellular Expert for ArcGIS Pro, such as how to prepare geodata for a
 project. Additionally, you can log in or sign up to submit a new support ticket.
 
-#### 11.2.4 Error log
+#### 10.2.4 Error log
 Click the button in the Help dropdown list to open the Error Log dialogue.
 Here you will find information about errors that have occurred during certain processes of the CE for ArcGIS
 Pro extension’s lifetime. These logs are crucial to improving the overall quality of the user experience. Thus,
 
-![Image p142](../assets/images/ce-pro/emf-guide/p142-img1.png)
+![Image p143](../../assets/images/ce-pro/indoor-guide/p143-img1.png)
 
-![Image p142](../assets/images/ce-pro/emf-guide/p142-img2.png)
+![Image p143](../../assets/images/ce-pro/indoor-guide/p143-img2.png)
 
-![Image p142](../assets/images/ce-pro/emf-guide/p142-img3.png)
+![Image p143](../../assets/images/ce-pro/indoor-guide/p143-img3.png)
 when an error happens and you decide to contact a Cellular Expert, you will be asked to send these logs
 so that the problems you encounter can be patched as soon as possible.
 Copy
@@ -2734,7 +2733,7 @@ Copy the necessary error information into your clipboard and send it to Cellular
 Delete All
 If the error log ever gets too crowded, you can delete all errors from it.
 
-## 12. Technical Support
+## 11. Technical Support
 For any issues, e-mail support (support@cellular-expert.com) and we will register your ticket.
 When you contact us, please describe your issue precisely and completely. Please mention which steps
 you already tried, when the problem appears, etc. Attach a screenshot of the Cellular Expert log files.

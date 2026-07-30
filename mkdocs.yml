@@ -44,11 +44,12 @@ nav:
       - Administrator Guide v7.2: ce-express/user-guide/admin-guide-v7.2.md
       - Admin Guide (Express Only): ce-express/user-guide/admin-guide-only-v7.2.md
   - CE Pro:
-    - RCP User Guide: ce-pro/rcp-user-guide.md
-    - RLP User Guide: ce-pro/rlp-user-guide.md
-    - EMF User Guide: ce-pro/emf-user-guide.md
-    - Sound User Guide: ce-pro/sound-user-guide.md
-    - Indoor User Guide: ce-pro/indoor-user-guide.md
+    - User Guide:
+      - RCP User Guide: ce-pro/user-guide/rcp-user-guide.md
+      - RLP User Guide: ce-pro/user-guide/rlp-user-guide.md
+      - EMF User Guide: ce-pro/user-guide/emf-user-guide.md
+      - Sound User Guide: ce-pro/user-guide/sound-user-guide.md
+      - Indoor User Guide: ce-pro/user-guide/indoor-user-guide.md
     - Training:
       - 01. Creating Workspace: ce-pro/training/doc/01-workspace.md
       - 02. Line of Sight: ce-pro/training/doc/02-line-of-sight.md

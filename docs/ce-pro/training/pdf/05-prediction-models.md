@@ -399,11 +399,3 @@ For general purpose modelling of typical building entry losses, two types of los
 Where: Lglass = 2 + 0.2 f          Lconcrete = 5 + 4 f     LIIRglass = 23 + 0.3 f        f – frequency in GHz.    36
 
 ![Slide 36](../../../assets/images/ce-pro/training-pdf-05-prediction-models/page-36.png)
-
-## Exercise
-
-Description: C:\CE_Course\0. Descriptions
-
-Name: 5. Prediction models.pdf
-
-![Slide 37](../../../assets/images/ce-pro/training-pdf-05-prediction-models/page-37.png)

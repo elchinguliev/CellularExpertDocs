@@ -79,11 +79,3 @@
 ❑ Spectrum Mask
 
 ![Slide 14](../../../assets/images/ce-pro/training-pdf-07-rl-prediction/page-14.png)
-
-## Exercise
-
-Description: C:\CE_Course\0. Descriptions
-
-Name: 7. RL Introduction.pdf
-
-![Slide 15](../../../assets/images/ce-pro/training-pdf-07-rl-prediction/page-15.png)

@@ -187,11 +187,3 @@ Obstacles grid Visible        Not visible Rx               Rx Elevation grid
 ## DTM + Buildings + Vegetation
 
 ![Slide 18](../../../assets/images/ce-pro/training-pdf-02-line-of-sight/page-18.png)
-
-## Exercise
-
-Description: C:\CE_Course\0. Descriptions
-
-Name: 2. Line of Sight (Profile).pdf
-
-![Slide 19](../../../assets/images/ce-pro/training-pdf-02-line-of-sight/page-19.png)

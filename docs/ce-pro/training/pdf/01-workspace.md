@@ -85,11 +85,3 @@
 - Upgrade Database
 
 ![Slide 9](../../../assets/images/ce-pro/training-pdf-01-workspace/page-09.png)
-
-## Exercise
-
-Description: C:\CE_Course\0. Descriptions
-
-Name: 1. Create workspace.pdf
-
-![Slide 10](../../../assets/images/ce-pro/training-pdf-01-workspace/page-10.png)

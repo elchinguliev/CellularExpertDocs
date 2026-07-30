@@ -75,11 +75,3 @@ Antenna name          antenna_id           Number 1                Represents An
 - Temp
 
 ![Slide 6](../../../assets/images/ce-pro/training-pdf-04-cell-prediction/page-6.png)
-
-## Exercise
-
-Description: C:\CE_Course\0. Descriptions
-
-Name: 4. Cell Prediction.pdf
-
-![Slide 7](../../../assets/images/ce-pro/training-pdf-04-cell-prediction/page-7.png)

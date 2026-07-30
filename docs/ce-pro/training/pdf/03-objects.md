@@ -91,11 +91,3 @@ Cells
 - Save
 
 ![Slide 7](../../../assets/images/ce-pro/training-pdf-03-objects/page-7.png)
-
-## Exercise
-
-Description: C:\CE_Course\0. Descriptions
-
-Name: 3. Creating Objects.pdf
-
-![Slide 8](../../../assets/images/ce-pro/training-pdf-03-objects/page-8.png)

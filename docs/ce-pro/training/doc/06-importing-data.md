@@ -1,9 +1,5 @@
-**Cellular Expert**
 
 **6. Importing data**
-
-\
-=
 
 # Objective
 

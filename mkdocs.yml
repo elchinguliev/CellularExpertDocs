@@ -58,6 +58,18 @@ nav:
       - 05. Prediction Models: ce-pro/training/doc/05-prediction-models.md
       - 06. Importing Data: ce-pro/training/doc/06-importing-data.md
       - 07. RL Prediction: ce-pro/training/doc/07-rl-prediction.md
+      - PDF Slides:
+        - Agenda: ce-pro/training/pdf-md/0000-agenda.md
+        - Architecture: ce-pro/training/pdf-md/000-architecture.md
+        - Data Types: ce-pro/training/pdf-md/00-data-types.md
+        - Installation & Upgrades: ce-pro/training/pdf-md/0-installation.md
+        - 01. Creating Workspace: ce-pro/training/pdf-md/01-workspace.md
+        - 02. Line of Sight: ce-pro/training/pdf-md/02-line-of-sight.md
+        - 03. Creating Objects: ce-pro/training/pdf-md/03-objects.md
+        - 04. Cell Prediction: ce-pro/training/pdf-md/04-cell-prediction.md
+        - 05. Prediction Models: ce-pro/training/pdf-md/05-prediction-models.md
+        - 06. Importing Data: ce-pro/training/pdf-md/06-importing-data.md
+        - 07. RL Prediction: ce-pro/training/pdf-md/07-rl-prediction.md
   - Inventory3D:
     - User Guide v4.6: inventory3d/user-guide.md
   - Geodata:

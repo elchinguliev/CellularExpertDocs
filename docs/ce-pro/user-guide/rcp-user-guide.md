@@ -1025,9 +1025,7 @@ The parameter is described in percentages and varies from 0 to 100. It describes
 The Cell load affects RSSI, RSRQ, and DL Throughput calculations. For example, if the Cell load is higher,
 the DL Throughput is lower.
 Network Name
-Divides cells into networks. Helps to manage different technologies and frequencies in the project, and
-
-automatically tracks changes for cells.
+Divides cells into networks. Helps to manage different technologies and frequencies in the project, and automatically tracks changes for cells.
 | Parameter | Description |
 |---|---|
 | Technology | Describes the technology of the network object. Possible values are 2G, 3G, 4G, and 5G. |
@@ -1227,9 +1225,11 @@ Siren identification.
 | Antenna | Antenna name for Siren object. |
 | Power | A power value in W. |
 | Misc loss | Miscellaneous loss value in dB. |
-| Prediction Model | Only ISO9613 can be applied to calculate sound loss for the siren. 7.2.5 Add CPE The object represents customer locations. It carrries information about customer location, name, height or |
+| Prediction Model | Only ISO9613 can be applied to calculate sound loss for the siren. |
 
-installed antenna.
+#### 7.2.5 Add CPE
+
+The object represents customer locations. It carries information about customer location, name, height or installed antenna.
 
 1. Choose the button from the toolbar and select CPE from the dropdown list.
 
@@ -1383,9 +1383,7 @@ the position of the Cursor Point either by entering new coordinates directly or 
 ![Image p82](../../assets/images/ce-pro/rcp-guide/p082-img2.png)
 choosing a different location on the map. When you move the Cursor Point, all the objects on the map will
 shift their position to maintain their relative distances from this central point.
-• If a single point object is selected or several objects at the same location, the move objects display
-
-will show the geospatial properties of these objects denoted as “Cursor Point”.
+• If a single point object is selected or several objects at the same location, the move objects display will show the geospatial properties of these objects denoted as “Cursor Point”.
 If a single point object is selected on the map, the "Cursor Point" serves as its positional anchor. Positioned
 
 ![Image p83](../../assets/images/ce-pro/rcp-guide/p083-img1.png)
@@ -1715,9 +1713,7 @@ General settings to calculate Model loss
 value is 32 dB.
 • Distance coefficient – defines the slope based on the distance between the cell and the receiver
 location, with a default value of 20.
-• Distance coefficient obstructed – represents the slope based on the obstructed distance between
-
-the cell and the receiver location. The default value is 40.
+• Distance coefficient obstructed – represents the slope based on the obstructed distance between the cell and the receiver location. The default value is 40.
 • Frequency coefficient – indicates the slope determined by the frequency value, with a default value
 
 ![Image p100](../../assets/images/ce-pro/rcp-guide/p100-img1.png)
@@ -1738,9 +1734,7 @@ Key Parameters:
 
 • Diffraction loss coefficient – a multiplier used in diffraction calculations. Lower values result in
 reduced diffraction loss, while higher values increase it. Typically, this coefficient is higher for
-buildings compared to forests or other clutter types.ltiplier for diffraction calculations. If value is
-lower, diffraction will be lower, if higher – then diffraction will be higher. Usually, for buildings clutter
-class this parameter is higher then forest or other clutter classes.
+buildings compared to forests or other clutter types.
 • Enclosed receiver loss offset, dB – the initial entry loss into the clutter class, expressed as an offset
 in dB, which is added to the path loss grid.
 • Enclosed receiver loss scaling coefficient – represents additional signal loss as a function of the
@@ -1827,9 +1821,7 @@ location, with a default value of 20.
 of 20.
 Multipath and focusing
 In ITU-R P.452, the correction for multipath and focusing effects accounts for signal enhancements caused
-by constructive interference and atmospheric focusing. This adjustment reduces the total path loss under
-
-favorable conditions, such as over-water paths or specific atmospheric gradients, ensuring more accurate
+by constructive interference and atmospheric focusing. This adjustment reduces the total path loss under favorable conditions, such as over-water paths or specific atmospheric gradients, ensuring more accurate
 signal predictions.
 Possible values Yes or No.
 Clutter class to calculate penetration loss
@@ -1959,9 +1951,7 @@ Key Parameters:
 1 to 100 meters.
 • Diffraction loss coefficient – a multiplier used in diffraction calculations. Lower values result in
 reduced diffraction loss, while higher values increase it. Typically, this coefficient is higher for
-buildings compared to forests or other clutter types.ltiplier for diffraction calculations. If value is
-lower, diffraction will be lower, if higher – then diffraction will be higher. Usually, for buildings clutter
-class this parameter is higher then forest or other clutter classes.
+buildings compared to forests or other clutter types.
 • Penetration loss offset, dB – the initial entry loss into the clutter class, expressed as an offset in
 dB, which is added to the path loss grid.
 • Penetration loss distance coefficient – represents additional signal loss as a function of the distance
@@ -2042,9 +2032,7 @@ field strength and attenuation of radio waves over the Earth's surface, particul
 
 ![Image p110](../../assets/images/ce-pro/rcp-guide/p110-img1.png)
 MHz.
-This model is widely used in planning and designing long-distance communication systems, such as
-
-maritime, broadcasting, and low-frequency navigation systems, where ground-wave propagation plays a
+This model is widely used in planning and designing long-distance communication systems, such as maritime, broadcasting, and low-frequency navigation systems, where ground-wave propagation plays a
 critical role. It accounts for factors such as terrain conductivity, dielectric properties, and surface roughness
 to deliver accurate predictions of signal behavior.
 Default settings
@@ -2154,9 +2142,7 @@ considered in the calculation of sound levels at various receiver points.
 𝑑𝑖𝑣
 
 2. Atmospheric Absorption
-• Sound is absorbed by the atmosphere as it travels, particularly at higher frequencies. The
-
-absorption depends on factors like temperature, humidity, and air pressure, and is often more
+• Sound is absorbed by the atmosphere as it travels, particularly at higher frequencies. The absorption depends on factors like temperature, humidity, and air pressure, and is often more
 significant over longer distances.
 • Atmospheric absorption reduces the intensity of sound as it propagates, especially at higher
 frequencies. The standard takes into account these effects to calculate the reduction in sound level.
@@ -2228,9 +2214,7 @@ High loss building
 7.7.1.8 CEC 3GPP TR Indoor (500MHz – 100GHz)
 Model application
 The CEC 3GPP TR Indoor Model (500 MHz – 100 GHz) is a robust, scalable prediction method based on
-ITU-R principles and 3GPP extensions, specifically engineered for indoor radiowave propagation. By
-
-supporting a wide range of scenarios — from clean LOS corridors to deeply obstructed NLOS paths — it
+ITU-R principles and 3GPP extensions, specifically engineered for indoor radiowave propagation. By supporting a wide range of scenarios — from clean LOS corridors to deeply obstructed NLOS paths — it
 
 ![Image p116](../../assets/images/ce-pro/rcp-guide/p116-img1.png)
 enables highly accurate modeling of next-generation wireless systems, ensuring reliable, secure, and
@@ -2819,9 +2803,7 @@ Profile: Receiver
 | Latitude | Decimal degrees Y type coordinate. |
 | Longitude | Decimal degrees X type coordinate. |
 | Height, m | Height above the ground in meters. The minimum value must be 1m. |
-| Azimuth towards transmitter | Enabled by default. When enabled, the receiver’s azimuth is towards the transmitter. Disabling this option it would take azimuth value from the receiver (Cell) object, and use it for FWA Power Budget |
-
-calculations, it also allows the user to enter a custom azimuth value for the receiver.
+| Azimuth towards transmitter | Enabled by default. When enabled, the receiver’s azimuth is towards the transmitter. Disabling this option it would take azimuth value from the receiver (Cell) object, and use it for FWA Power Budget calculations, it also allows the user to enter a custom azimuth value for the receiver. |
 Downtilt towards transmitter
 Enabled by default. When enabled, the receiver’s tilt is towards the transmitter. Disabling this option it
 
@@ -3049,9 +3031,7 @@ Sound Prediction, and Visibility Prediction.
 
 ### 9.2 Best Server Visualization
 This tool is designed to generate network object names for the Best Server raster. Loading the Best Server
-raster with attribute information into the Table of Contents can be time-consuming after RF prediction,
-
-audibility prediction, or other analyses. To streamline this process, we have introduced a separate tool that
+raster with attribute information into the Table of Contents can be time-consuming after RF prediction, audibility prediction, or other analyses. To streamline this process, we have introduced a separate tool that
 
 ![Image p162](../../assets/images/ce-pro/rcp-guide/p162-img1.png)
 
@@ -3163,9 +3143,7 @@ Option to calculate the Uplink signal strength.
 RX EIRP, dBm
 The power that the receiving antenna can capture from the transmitted signal in dBm.
 BS RX Noise Floor
-BS RX Noise Floor refers to the minimum power level of unwanted noise or interference at the receiver at
-
-the base station.
+BS RX Noise Floor refers to the minimum power level of unwanted noise or interference at the receiver at the base station.
 Uplink Interference Ceiling
 the maximum allowable level of interference in the uplink direction of a wireless communication system
 before it adversely affects the system's performance or capacity.
@@ -3380,9 +3358,7 @@ Enable cell neighbour matrix calculation.
 Neighbour relationships between cells are determined based on:
 • Minimum FS threshold (dBm) – ensures neighbours are only counted if they meet a minimum signal
 level.
-• Neighbour minimum coverage (%) – sets the minimum overlap percentage required for a cell to
-
-qualify as a neighbour.
+• Neighbour minimum coverage (%) – sets the minimum overlap percentage required for a cell to qualify as a neighbour.
 • Maximum neighbour count – limits the number of neighbours assigned to each cell.
 The results include a visual neighbour matrix showing connections between cells with coloured link
 lines.

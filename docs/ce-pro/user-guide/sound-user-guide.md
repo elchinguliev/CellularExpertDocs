@@ -228,8 +228,6 @@ Source: https://livingatlas.arcgis.com/landcoverexplorer/
 By leveraging whatever data is available locally, CE Express performs nationwide calculations at the
 maximum feasible resolution, accurately modeling signal propagation even in dense urban environments.
 Support for 3D multi-height calculations ensures that coverage predictions reflect street-level, indoor, and
-
-![Image p13](../../assets/images/ce-pro/sound-guide/p013-img1.png)
 rooftop conditions, providing regulators with a realistic representation of service availability.
 This flexibility ensures that NRAs can use their existing GIS assets, open datasets, or commercial data they
 already license, turning them into actionable broadband maps without additional data procurement
@@ -242,6 +240,8 @@ shadowing effects over hills, valleys, and urban obstacles.
 levels.
 • Capacity and Interference Analysis – Modeling realistic signal overlaps and interference zones
 for multi-operator, multi-technology environments.
+
+![Image p13](../../assets/images/ce-pro/sound-guide/p013-img1.png)
 
 Diffractio Free Space Loss
 n
@@ -273,21 +273,19 @@ propagation pattern, including building-level shadowing and accurate street-by-s
 More information: https://blog.maxar.com/earth-intelligence/2022/benefits-of-using-maxars-precision3d-
 telco-suite-for-5g
 Cellular Expert can easily integrate and process 1 m or even sub-meter topographical data, providing highly
-
-![Image p14](../../assets/images/ce-pro/sound-guide/p014-img1.png)
-
 detailed RF calculations. This level of precision is essential for:
 • Modeling 2G/3G/4G/5G, small cells and mmWave networks.
 • Identifying exact coverage gaps at the building and street level.
 
+![Image p14](../../assets/images/ce-pro/sound-guide/p014-img1.png)
+
 • Supporting regulatory-grade broadband mapping and planning.
 By using high-resolution terrain and clutter data, Cellular Expert ensures that its calculations match real-
-
-![Image p15](../../assets/images/ce-pro/sound-guide/p015-img1.png)
-
-![Image p15](../../assets/images/ce-pro/sound-guide/p015-img2.png)
 world conditions as closely as possible — resulting in better network design decisions and more reliable
 broadband planning outcomes.
+
+![Image p15](../../assets/images/ce-pro/sound-guide/p015-img1.png)
+![Image p15](../../assets/images/ce-pro/sound-guide/p015-img2.png)
 
 ### 5.1 Geographic data requirements
 The supported geographical data types:
@@ -341,10 +339,6 @@ Configure the following settings:
 #### 5.1.2 Clutter classes grid
 Land use or clutter refers to the classification of the earth’s surface into categories such as urban, suburban,
 rural, forest, water, and open land, each of which affects radio propagation differently. Clutter data is crucial
-
-![Image p19](../../assets/images/ce-pro/sound-guide/p019-img1.png)
-
-![Image p19](../../assets/images/ce-pro/sound-guide/p019-img2.png)
 because it determines how signals are absorbed, reflected, or diffracted by the environment, directly
 influencing coverage, interference, and quality of service. The naming and classification of land use types
 may vary. An example is the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2
@@ -352,14 +346,16 @@ Land Cover
 This data is freely available worldwide and is detailed in Cellular Expert databases. Once the workspace is
 created, a default clutter class table is automatically applied for each land use class.
 
+![Image p19](../../assets/images/ce-pro/sound-guide/p019-img1.png)
+![Image p19](../../assets/images/ce-pro/sound-guide/p019-img2.png)
+
 Table:
 These are standard clutter types in the default workspace database, which cannot be edited. You must
 map your clutter raster to these predefined clutter types. Standard mapping has already been configured
+for the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2 Land Cover
 
 ![Image p20](../../assets/images/ce-pro/sound-guide/p020-img1.png)
-
 ![Image p20](../../assets/images/ce-pro/sound-guide/p020-img2.png)
-for the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2 Land Cover
 
 If you have a different clutter class layer, it can be used for predictions by remapping it using the Clutter
 
@@ -379,14 +375,13 @@ prediction model.
 The Clutter Raster has several requirements, which are the same as for DTM raster listed above.
 Projection
 It must have the same coordinate system as your elevation.tif raster. If your raster has different coordinate
-
-![Image p22](../../assets/images/ce-pro/sound-guide/p022-img1.png)
-
-![Image p22](../../assets/images/ce-pro/sound-guide/p022-img2.png)
 system, then use the Geoprocessing tool → Project Raster to fix it.
 In the Output Coordinate System you would need to define the same coordinate system as your elevation.tif
 raster. Click on Select Coordinate System button.
 And choose the same coordinate system as your elevation.tif.
+
+![Image p22](../../assets/images/ce-pro/sound-guide/p022-img1.png)
+![Image p22](../../assets/images/ce-pro/sound-guide/p022-img2.png)
 
 Correct No Data value and raster name
 After setting the correct projection, assign the NoData attribute and specify the appropriate name for the
@@ -419,9 +414,9 @@ heights.
 The Clutter Height has several requirements, which are the same as for DTM raster listed above.
 Projection
 It must have the same coordinate system as your elevation.tif raster. If your raster has different coordinate
+system, then use the Geoprocessing tool → Project Raster to fix it.
 
 ![Image p25](../../assets/images/ce-pro/sound-guide/p025-img1.png)
-system, then use the Geoprocessing tool → Project Raster to fix it.
 
 In the Output Coordinate System you would need to define the same coordinate system as your elevation.tif
 raster. Click on Select Coordinate System button.
@@ -445,8 +440,6 @@ Configure the following settings:
 
 #### 5.1.4 Buildings
 Building features within the Clutter Classes raster are automatically identified and categorized using a range
-
-![Image p28](../../assets/images/ce-pro/sound-guide/p028-img1.png)
 of dedicated building-specific clutter types. These clutter types are available within the Clutter Classes
 tool and are specifically designed to represent different architectural materials and structural
 characteristics.
@@ -461,12 +454,13 @@ source. Whether you're working with CAD-derived vectors or pre-classified raster
 you to enrich the clutter map with accurate building representations – essential for high-fidelity propagation
 modeling.
 
+![Image p28](../../assets/images/ce-pro/sound-guide/p028-img1.png)
+
 If your building data is in vector format (e.g., polygons), you’ll first need to convert it to raster before
+incorporating it into the Clutter Classes layer.
 
 ![Image p29](../../assets/images/ce-pro/sound-guide/p029-img1.png)
-
 ![Image p29](../../assets/images/ce-pro/sound-guide/p029-img2.png)
-incorporating it into the Clutter Classes layer.
 
 1. Convert Vector to Raster
 Use the Polygon to Raster tool available in the Geoprocessing pane. This will transform your
@@ -495,21 +489,20 @@ All propagation and prediction calculations reference clutter types defined in t
 Each building-related clutter class is assigned a unique ID value, which is used during modeling to apply
 the appropriate path loss parameters for solid structures.
 This ensures that Buildings are accurately represented in simulations, contributing to more realistic signal
+behavior in both indoor and outdoor environments.
 
 ![Image p30](../../assets/images/ce-pro/sound-guide/p030-img1.png)
-behavior in both indoor and outdoor environments.
 
 Building Height Determination in Clutter-Based Modeling
 Pixels assigned to a building clutter class ID will be automatically recognized as solid obstacle during
-
-![Image p31](../../assets/images/ce-pro/sound-guide/p031-img1.png)
-
-![Image p31](../../assets/images/ce-pro/sound-guide/p031-img2.png)
 prediction calculations. Their heights are determined using the following priority:
 • Option 1: From the associated Clutter Height raster, if available. This provides the most accurate,
 location-specific height information.
 • Option 2: If no Clutter Height raster is present, the system will default to the height value defined
 in the Clutter Classes table for the corresponding clutter ID.
+
+![Image p31](../../assets/images/ce-pro/sound-guide/p031-img1.png)
+![Image p31](../../assets/images/ce-pro/sound-guide/p031-img2.png)
 
 The result:
 
@@ -536,14 +529,13 @@ the workspace parameters by referencing the new paths to properly load the proje
 • Calculation Path – path for temporary calculations
 • Calculation Tasks Data Path – path for saving calculation tasks
 • Geodata Folder Path – path for geodata (prediction models do not have geodata options, topographical
-
-![Image p33](../../assets/images/ce-pro/sound-guide/p033-img1.png)
-
-![Image p33](../../assets/images/ce-pro/sound-guide/p033-img2.png)
 data are taken from the Geodata Folder Path)
 • Result Path – path for final results
 Workspace calculation paths and settings can be previewed in the dedicated tool, navigate to Workspace
 > Properties. It would show all parameters listed in CE_WORKSPACE table.
+
+![Image p33](../../assets/images/ce-pro/sound-guide/p033-img1.png)
+![Image p33](../../assets/images/ce-pro/sound-guide/p033-img2.png)
 
 #### 6.1.2 Create Workspace
 Steps to create a new workspace:
@@ -573,22 +565,13 @@ grid. This means that this coordinate system will be assigned to your project fe
 When creating a new workspace using geodata containing clutter classes raster, default class IDs can now
 be set by clicking Set Default Clutter Class IDs button. The default ID values are based on Living Atlas
 clutter. Clutter class IDs can also be set manually, either before or after the default values are set. To initiate
-
-![Image p35](../../assets/images/ce-pro/sound-guide/p035-img1.png)
-
-![Image p35](../../assets/images/ce-pro/sound-guide/p035-img2.png)
 the manual editing of clutter class IDs, click the Manually Set Clutter Class IDs button. Each clutter class
 can be edited to designate its used and unused types, also indicated by their distinct colors.
 
+![Image p35](../../assets/images/ce-pro/sound-guide/p035-img1.png)
+![Image p35](../../assets/images/ce-pro/sound-guide/p035-img2.png)
+
 Note: The projected Coordinate System has been filled automatically and taken from the defined Elevation
-
-![Image p36](../../assets/images/ce-pro/sound-guide/p036-img1.png)
-
-![Image p36](../../assets/images/ce-pro/sound-guide/p036-img2.png)
-
-![Image p36](../../assets/images/ce-pro/sound-guide/p036-img3.png)
-
-![Image p36](../../assets/images/ce-pro/sound-guide/p036-img4.png)
 grid. This means that this coordinate system will be assigned to your project feature layers.
 Several messages related to Geodata:
 • If only Elevation exists in Geodata catalog, then tool will be filled with such information:
@@ -600,15 +583,19 @@ clutterClasses.tif and if available, clutterHeight.tif rasters.
 Also Create Local Scene
 Use the option to create a second scene for 3D visualization.
 
+![Image p36](../../assets/images/ce-pro/sound-guide/p036-img1.png)
+![Image p36](../../assets/images/ce-pro/sound-guide/p036-img2.png)
+![Image p36](../../assets/images/ce-pro/sound-guide/p036-img3.png)
+![Image p36](../../assets/images/ce-pro/sound-guide/p036-img4.png)
+
 3. Press OK button to start workspace creation procedure.
 Cellular Expert layer and geodata will be added to the project.
 
 Workspace geodatabase and required folders will be created within successful workspace creation
+procedure.
 
 ![Image p37](../../assets/images/ce-pro/sound-guide/p037-img1.png)
-
 ![Image p37](../../assets/images/ce-pro/sound-guide/p037-img2.png)
-procedure.
 
 The Project Paths will be filled in the Workspace Properties → Properties tab.
 
@@ -631,11 +618,11 @@ Workspace Upgrade is a tool that enables the user to update missing tables from 
 (default.gdb). If the table exists, Workspace Upgrade also checks if all default fields are present in that
 table. If the tables are toggled, they will be updated (upgraded) by the tool.
 Usually, with new versions of CE for ArcGIS Pro come changes to default data tables. This tool is especially
-
-![Image p39](../../assets/images/ce-pro/sound-guide/p039-img1.png)
 useful when checking if the newest version tables correspond to the current project tables.
 Workspace Upgrade automatically checks all these parameters and notifies the user upon the start-up of
 the project.
+
+![Image p39](../../assets/images/ce-pro/sound-guide/p039-img1.png)
 
 | Parameter | Description |
 |---|---|
@@ -645,8 +632,6 @@ the project.
 Upgrade Database
 Creates the missing tables and/or creates/adds back the missing fields from default tables.
 If a project with incompatible geodata is loaded, the Workspace Upgrade tool analyzes the current geodata,
-
-![Image p40](../../assets/images/ce-pro/sound-guide/p040-img1.png)
 as well as the owned user Esri Extension licenses to offer the optimal geodata upgrade path. This process
 is one-time only, and can be done by checking the Upgrade Geodata toggle.
 • If only elevation and buildingHeight rasters exist, the buildingHeight can automatically be renamed
@@ -655,9 +640,10 @@ to clutterHeight.
 rasters exist, raster calculations are performed to merge the buildingHeight and clutterHeight
 rasters.
 • (Image Analyst and Spatial Analyst licenses only) If elevation, buildingHeight, clutterHeight and
-
 clutterClasses rasters exist, raster calculations are performed to merge the buildingHeight and
 clutterHeight rasters, and modify the clutterClasses raster to add the building outlines with ID of 0.
+
+![Image p40](../../assets/images/ce-pro/sound-guide/p040-img1.png)
 
 ![Image p41](../../assets/images/ce-pro/sound-guide/p041-img1.png)
 
@@ -745,15 +731,14 @@ Help
 Get helpful information about the dialogue.
 All visualization settings have the “Visible” option set to On by default. Suppose the Visible option is set to
 off, the next time a relevant calculation is performed. In that case, the rasters associated with the calculation
-
-![Image p45](../../assets/images/ce-pro/sound-guide/p045-img1.png)
 are added to the map with the visibility disabled. This is done only for the calculations performed after the
 setting is changed, and does not impact already added rasters on the map.
 The symbology is defined as a list of Layers and .lyr files:
 • Narrowband 2G (GSM/CDMA-850/TETRA/P-25) – second generation network (like GSM) calculations
-
 or technology-independent calculations (for example, the symbology for antenna loss by tilt is defined
 by the same file for WiMAX, LTE, and other technology)
+
+![Image p45](../../assets/images/ce-pro/sound-guide/p045-img1.png)
 • Broadband 3G (UMTS/HSDPA) – results for UMTS, HSDPA and other 3 - 3.5 generation technologies
 • Broadband 4G (LTE, BWA/WiMAX) – results of LTE technology calculations
 • Broadband 5G (NR, CBRS) – results of 5G-NR technology calculations
@@ -796,10 +781,6 @@ to find your defined symbology file, it will use the default file from the locat
 Docs Manager is a tool for managing Saved Profiles between the transmitter (Tx) and receiver (Rx), which
 are generated in the Profile tool, as well as saved Link Prediction results, Profile Reports, and Link
 Prediction Reports. When a profile is saved in the Profile tool, it is automatically stored in Docs Manager,
-
-![Image p47](../../assets/images/ce-pro/sound-guide/p047-img1.png)
-
-![Image p47](../../assets/images/ce-pro/sound-guide/p047-img2.png)
 allowing users to reopen it at any time. This ensures that all parameters and calculations related to Tx and
 Rx are preserved for future reference, eliminating the need to reconfigure settings repeatedly. The same
 applies for Link Prediction results, and the Reports can be opened if the original exported document is, for
@@ -808,6 +789,9 @@ How to Find a Saved Profile
 Use the filter option for each field to quickly locate the required profile from the list.
 How to Open a Profile
 A saved profile can be accessed in two ways:
+
+![Image p47](../../assets/images/ce-pro/sound-guide/p047-img1.png)
+![Image p47](../../assets/images/ce-pro/sound-guide/p047-img2.png)
 
 1. Double-click on the desired profile.
 
@@ -834,14 +818,13 @@ Link Prediction tool.
 
 How to Open a Profile Report
 A Profile Report document can be accessed either by double-clicking the desired Profile Report, or by select
-
-![Image p50](../../assets/images/ce-pro/sound-guide/p050-img1.png)
-
-![Image p50](../../assets/images/ce-pro/sound-guide/p050-img2.png)
 it and clicking Open. The document will be opened using your default PDF document reader.
 How to Save a Profile Report
 Profile Report of the current drawn profile can be saved to Docs Manager by selecting Save result to Docs
 Manager in the Export tab of the Profile tool.
+
+![Image p50](../../assets/images/ce-pro/sound-guide/p050-img1.png)
+![Image p50](../../assets/images/ce-pro/sound-guide/p050-img2.png)
 
 How to Open a Link Prediction Report
 A Link Prediction Report document can be accessed either by double-clicking the desired Link Prediction
@@ -920,18 +903,14 @@ should be created in CE database. For example:
 Cell objects are used for prediction calculations.
 
 1. Left-clicking on the map will define the location of the object. To define its direction, left-click a
-
-![Image p55](../../assets/images/ce-pro/sound-guide/p055-img1.png)
-
-![Image p55](../../assets/images/ce-pro/sound-guide/p055-img2.png)
-
-![Image p55](../../assets/images/ce-pro/sound-guide/p055-img3.png)
-
-![Image p55](../../assets/images/ce-pro/sound-guide/p055-img4.png)
 second time in your preferred direction.
 Add Object > Cell dialog will be filled with coordinates and parameters from default template, and
-
 azimuth value based on defined direction on the map.
+
+![Image p55](../../assets/images/ce-pro/sound-guide/p055-img1.png)
+![Image p55](../../assets/images/ce-pro/sound-guide/p055-img2.png)
+![Image p55](../../assets/images/ce-pro/sound-guide/p055-img3.png)
+![Image p55](../../assets/images/ce-pro/sound-guide/p055-img4.png)
 The Cell object can be created by entering exact coordinates in:
 
 ![Image p56](../../assets/images/ce-pro/sound-guide/p056-img1.png)
@@ -985,12 +964,7 @@ system.
 | Misc Loss | Miscellaneous loss value in dB. |
 | Bandwidth | Value in MHz. Required for 4G and 5G technologies. For other technologies define the value as 0.015. |
 | Noise Figure | Value in dB. Required for 4G and 5G technologies. |
-| Downlink Duplex Factor | Value range from 0 to 1. Required for Duplex mode TDD, which is applicable for 4G and 5G |
-
-technologies, and used for Downlink Throughput calculations. For example, if defined value is 0.7,
-then 70% of available bandwidth will be dedicated to Downlink, and 30% - for Uplink.
-| Parameter | Description |
-|---|---|
+| Downlink Duplex Factor | Value range from 0 to 1. Required for Duplex mode TDD, which is applicable for 4G and 5G technologies, and used for Downlink Throughput calculations. For example, if defined value is 0.7, then 70% of available bandwidth will be dedicated to Downlink, and 30% - for Uplink. |
 | Subcarrier Spacing | Value in kHz. Required for 4G and 5G technologies. For other technologies define value 15. |
 | Tx Mimo | Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64. |
 | Rx Mimo | Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64. |
@@ -1023,15 +997,13 @@ that Cell.
 Open Add Cell function.
 Moove mouse coursor on top of Site object, and mouse will be automatically snapped to that Site.
 Define direction, similary as creating Cell object on empty location. Site ID will be automatically
-
-![Image p60](../../assets/images/ce-pro/sound-guide/p060-img1.png)
-
-![Image p60](../../assets/images/ce-pro/sound-guide/p060-img2.png)
-
-![Image p60](../../assets/images/ce-pro/sound-guide/p060-img3.png)
 assigned to this new Cell.
 7.2.1.2 Add several Cells in same position.
 Once Cell is created, do not close the dialog.
+
+![Image p60](../../assets/images/ce-pro/sound-guide/p060-img1.png)
+![Image p60](../../assets/images/ce-pro/sound-guide/p060-img2.png)
+![Image p60](../../assets/images/ce-pro/sound-guide/p060-img3.png)
 
 Simply change Name and Azimuth parameters (and if required, adjust other parameters), and press
 
@@ -1050,30 +1022,27 @@ The Object Editor enables the user to make changes to a network object after it 
 the map.
 Choose the button to open the Object Editor dialogue.
 Select objects by navigating to the ArcGIS Pro Edit → Selection section and choosing the Select tool. The
-
-![Image p62](../../assets/images/ce-pro/sound-guide/p062-img1.png)
-
-![Image p62](../../assets/images/ce-pro/sound-guide/p062-img2.png)
 selected objects will appear in the Object Editor in a tree hierarchy.
 
+![Image p62](../../assets/images/ce-pro/sound-guide/p062-img1.png)
+![Image p62](../../assets/images/ce-pro/sound-guide/p062-img2.png)
+
 To edit one of the selected objects, left-click on that object and the corresponding editing menu will open
-
-![Image p63](../../assets/images/ce-pro/sound-guide/p063-img1.png)
-
-![Image p63](../../assets/images/ce-pro/sound-guide/p063-img2.png)
 below the list.
 Delete Object
 Select and right-click any network object from the selection, then choose the Delete option from the popup.
 
+![Image p63](../../assets/images/ce-pro/sound-guide/p063-img1.png)
+![Image p63](../../assets/images/ce-pro/sound-guide/p063-img2.png)
+
 Duplicate Object
 Select and right-click any object from the selection, then choose the Duplicate option from the popup. The
 duplicated object will retain all information from the original object including coordinates/meridians. If you
-
-![Image p64](../../assets/images/ce-pro/sound-guide/p064-img1.png)
-
-![Image p64](../../assets/images/ce-pro/sound-guide/p064-img2.png)
 want to duplicate objects and change their coordinates/meridians at the same time, use the separate
 Duplicate Objects button from above the selection tree.
+
+![Image p64](../../assets/images/ce-pro/sound-guide/p064-img1.png)
+![Image p64](../../assets/images/ce-pro/sound-guide/p064-img2.png)
 
 #### 7.3.1 Move Objects
 Choose the button to open the Object Editor dialogue. Select the desirable objects with the Select
@@ -1081,30 +1050,28 @@ tool and press the Move Objects button in the Object Editor.
 
 There are multiple ways to move objects:
 • If multiple objects are selected, the move objects display will show the geospatial properties of the
+center point between the objects denoted as the “Cursor point”.
 
 ![Image p65](../../assets/images/ce-pro/sound-guide/p065-img1.png)
-center point between the objects denoted as the “Cursor point”.
 
 The "Cursor Point" functions as a reference marker depicted by a red dot on the map. This marker is
 centrally located among the objects on the map and shows where the cursor was placed. You can adjust
 the position of the Cursor Point either by entering new coordinates directly or by clicking “Select Point” and
-
-![Image p66](../../assets/images/ce-pro/sound-guide/p066-img1.png)
-
-![Image p66](../../assets/images/ce-pro/sound-guide/p066-img2.png)
 choosing a different location on the map. When you move the Cursor Point, all the objects on the map will
 shift their position to maintain their relative distances from this central point.
 • If a single point object is selected or several objects at the same location, the move objects display
-
 will show the geospatial properties of these objects denoted as “Cursor Point”.
-If a single point object is selected on the map, the "Cursor Point" serves as its positional anchor. Positioned
 
-![Image p67](../../assets/images/ce-pro/sound-guide/p067-img1.png)
+![Image p66](../../assets/images/ce-pro/sound-guide/p066-img1.png)
+![Image p66](../../assets/images/ce-pro/sound-guide/p066-img2.png)
+If a single point object is selected on the map, the "Cursor Point" serves as its positional anchor. Positioned
 as a red dot, the Cursor Point represents the current coordinates of the selected object and shows where
 the cursor was last placed. You can alter the location of the selected object by manually updating the Cursor
 Point's coordinates or by clicking “Select Point” and choosing a new location on the map. Any movement
 of the Cursor Point will directly translate the selected object to the corresponding new location while keeping
 its spatial relationship with the Cursor Point consistent.
+
+![Image p67](../../assets/images/ce-pro/sound-guide/p067-img1.png)
 
 Save Changes
 Saves the changes to the objects.
@@ -1113,16 +1080,13 @@ Cancels the changes to the objects and closes the dialogue.
 
 #### 7.3.2 Duplicate Objects
 Choose the button to open the Object Editor dialogue. Select the object with the Select tool and
+press the Duplicate Objects button in the Object Editor dialogue.
 
 ![Image p68](../../assets/images/ce-pro/sound-guide/p068-img1.png)
-
 ![Image p68](../../assets/images/ce-pro/sound-guide/p068-img2.png)
-press the Duplicate Objects button in the Object Editor dialogue.
 
 There are multiple ways to duplicate objects:
 • If multiple objects are selected, the duplicate objects display will show the geospatial properties of
-
-![Image p69](../../assets/images/ce-pro/sound-guide/p069-img1.png)
 the center point between the objects denoted as the “Cursor point”.
 The "Cursor Point" functions as a reference marker depicted by a red dot on the map. This marker is
 centrally located among the objects on the map and shows where the cursor was placed. You can
@@ -1131,12 +1095,13 @@ adjust the position of the Cursor Point either by entering new coordinates direc
 the objects on the map will shift their position to maintain their relative distances from this central
 point.
 
+![Image p69](../../assets/images/ce-pro/sound-guide/p069-img1.png)
+
 • If a single point object or several objects on the same location are selected, the duplicate objects
+display will show the geospatial properties of that object denoted as “Cursor Point”.
 
 ![Image p70](../../assets/images/ce-pro/sound-guide/p070-img1.png)
-
 ![Image p70](../../assets/images/ce-pro/sound-guide/p070-img2.png)
-display will show the geospatial properties of that object denoted as “Cursor Point”.
 
 If a single point object is selected on the map, the "Cursor Point" serves as its positional anchor.
 Positioned as a red dot, the Cursor Point represents the current coordinates of the selected object
@@ -1154,11 +1119,11 @@ Cancels the changes to the objects and closes the dialogue.
 The Clutter Classes tool is designed to manage categories describing different types of environments
 in telecommunication networks. It relies on the Clutter Classes raster used in the project. The raster
 values must match the ID values in the Clutter Classes dialog. For example, if "Trees" has a value of 2
-
-![Image p71](../../assets/images/ce-pro/sound-guide/p071-img1.png)
 in the Clutter Classes raster, this ID must be defined in the Clutter Classes tool. By default, ESRI’s
 Sentinel-2 Land Use values are used after workspace creation: ESRI Sentinel-2 Land Cover
 Here is the table view of Clutter table, which comes with default database.
+
+![Image p71](../../assets/images/ce-pro/sound-guide/p071-img1.png)
 
 Sentinel-2 clutter classes raster provides information about these classes:
 
@@ -1170,9 +1135,9 @@ Sentinel-2 clutter classes raster provides information about these classes:
 Choose the button to open the Clutter Classes dialogue.
 
 Select one of the clutter classes to open their properties. Clutter class list can also be filtered by solid
+obstacle and/or clutter obstacle categories.
 
 ![Image p73](../../assets/images/ce-pro/sound-guide/p073-img1.png)
-obstacle and/or clutter obstacle categories.
 
 New mapping between land use raster and clutter class data should be done in Clutter Classes dialog.
 
@@ -1201,26 +1166,16 @@ specific point (pixel) in the network’s target coverage area by applying selec
 on the radio visibility condition between the transmitter antenna vis-à-vis a receiver antenna located at a
 given point in coverage area. The radio visibility is evaluated based on the DTM, Obstacles and Clutter
 path profile information, as described in previous section. This verification of radio visibility will result in the
-
-![Image p75](../../assets/images/ce-pro/sound-guide/p075-img1.png)
-
-![Image p75](../../assets/images/ce-pro/sound-guide/p075-img2.png)
-
-![Image p75](../../assets/images/ce-pro/sound-guide/p075-img3.png)
-
-![Image p75](../../assets/images/ce-pro/sound-guide/p075-img4.png)
-
 receiver antenna point assigned into one of three possible radio visibility conditions:
 • Line-of-Sight (LOS) – occurs when there are neither terrain irregularities, obstacles or clutter
-
-![Image p76](../../assets/images/ce-pro/sound-guide/p076-img1.png)
-
-![Image p76](../../assets/images/ce-pro/sound-guide/p076-img2.png)
-
-![Image p76](../../assets/images/ce-pro/sound-guide/p076-img3.png)
 interposing the direct radio path between the transmitter and receiver antennas. The radio path is
 understood to include the 1st Fresnel zone around the direct line and account for Spherical Earth
 effect. The LOS condition is illustrated by the path profile depicted in Fig. 3(a).
+
+![Image p75](../../assets/images/ce-pro/sound-guide/p075-img1.png)
+![Image p75](../../assets/images/ce-pro/sound-guide/p075-img2.png)
+![Image p75](../../assets/images/ce-pro/sound-guide/p075-img3.png)
+![Image p75](../../assets/images/ce-pro/sound-guide/p075-img4.png)
 • Obstructed LOS (OLOS) – occurs when the direct radio propagation line is interposed by clutter,
 see illustration in Fig. 3(b).
 • Non-LOS (NLOS) – occurs when the direct radio propagation line is interposed by terrain bulges
@@ -1228,6 +1183,10 @@ or obstacles, see illustration in Fig. 3(c).
 (a) Example of path profile with LOS condition (green line of direct radio link)
 (b) Example of path profile with OLOS condition (yellow segment of radio link path)
 (c) Example of path profile with NLOS condition (red segment of radio link path)
+
+![Image p76](../../assets/images/ce-pro/sound-guide/p076-img1.png)
+![Image p76](../../assets/images/ce-pro/sound-guide/p076-img2.png)
+![Image p76](../../assets/images/ce-pro/sound-guide/p076-img3.png)
 
 (d) Example of path profile with OLOS+NLOS condition (yellow+red segment of radio link path)
 Fig. 3. Illustration of different LOS conditions
@@ -1241,11 +1200,10 @@ chapter.
 #### 7.6.1 Models
 Prediction models available in Cellular Expert support frequencies from 10kHz to 350 GHz.
 To open the Prediction Model Manager dialogue, click on the Prediction Model Manager tool in
+the Data Management section.
 
 ![Image p77](../../assets/images/ce-pro/sound-guide/p077-img1.png)
-
 ![Image p77](../../assets/images/ce-pro/sound-guide/p077-img2.png)
-the Data Management section.
 
 CEC ITU-R 3GPP Model (100MHz – 6GHz) is a combination model intended for use in a variety of
 different radiocommunication systems which is derived explicitly from ITU-R path loss modelling
@@ -1263,8 +1221,6 @@ based on Recommendation ITU-R P.525 (ref URL) with included dual slope option, a
 losses due to diffraction calculated based on Recommendation ITU-R P.526 (ref URL), and clutter
 loss modelling based on Recommendation ITU-R P.2108 (ref URL).
 e. Receive antenna in the clutter (building, vegetation, etc) – path loss is calculated as described
-
-![Image p78](../../assets/images/ce-pro/sound-guide/p078-img1.png)
 above based on LOS, OLOS and NLOS conditions, and additional penetration loss is added to
 simulate Outdoor-to-Indoor scenario which is based on ITU-R P.833 recommendation (if receiver
 is in vegetation type clutter) or based on 3GPP TR 38.901 (ref URL) (if receiver is in a building).
@@ -1276,6 +1232,8 @@ accordingly distinguishes only two radio visibility cases:
 a. Receive antenna in LOS condition – path loss model based on FSL principle.
 b. Receive antenna in NLOS condition – total path loss modelled using a combination of basic
 transmission losses and losses due to diffraction.
+
+![Image p78](../../assets/images/ce-pro/sound-guide/p078-img1.png)
 
 ITU-R P.1546 Model (30MHz – 4GHz) (ref URL) is a widely recognized radio propagation prediction
 method developed by the International Telecommunication Union (ITU). It is primarily used for
@@ -1320,7 +1278,6 @@ wave field strength of radio waves in the 10 kHz to 30 MHz frequency range. This
 is primarily associated with long-range communication systems using amplitude modulation (AM)
 and shortwave bands, often for maritime, aeronautical, military, and broadcasting services.
 This model offers guidance for engineers, planners, and researchers working on system design and
-
 analysis in the MF (Medium Frequency) and HF (High Frequency) bands.
 The ITU-R P.368 model calculates signal strength based on several key environmental and system
 parameters:
@@ -1403,28 +1360,23 @@ location, with a default value of 20.
 the cell and the receiver location. The default value is 40.
 
 • Frequency coefficient – indicates the slope determined by the frequency value, with a default value
-
-![Image p82](../../assets/images/ce-pro/sound-guide/p082-img1.png)
-
-![Image p82](../../assets/images/ce-pro/sound-guide/p082-img2.png)
 of 20.
 Clutter class to calculate diffraction, clutter loss, penetration loss and receiver loss
 The Clutter Class option defines several predefined clutter categories, each with unique values for
 diffraction loss, clutter loss, penetration loss, and receiver loss coefficients.
 These parameters describe how a signal is impacted when it passes through or terminates in a specific
-
 clutter class.
+
+![Image p82](../../assets/images/ce-pro/sound-guide/p082-img1.png)
+![Image p82](../../assets/images/ce-pro/sound-guide/p082-img2.png)
+
 Key Parameters:
 • Nominal distance, m – the average distance between objects within the clutter class, ranging from
 1 to 100 meters.
 • Diffraction loss coefficient – a multiplier used in diffraction calculations. Lower values result in
 reduced diffraction loss, while higher values increase it. Typically, this coefficient is higher for
-buildings compared to forests or other clutter types.ltiplier for diffraction calculations. If value is
-lower, diffraction will be lower, if higher – then diffraction will be higher. Usually, for buildings clutter
-class this parameter is higher then forest or other clutter classes.
+buildings compared to forests or other clutter types.
 • Enclosed receiver loss offset, dB – the initial entry loss into the clutter class, expressed as an offset
-
-![Image p83](../../assets/images/ce-pro/sound-guide/p083-img1.png)
 in dB, which is added to the path loss grid.
 • Enclosed receiver loss scaling coefficient – represents additional signal loss as a function of the
 distance traveled within the clutter class. Higher values increase path loss.
@@ -1445,6 +1397,8 @@ effects of terrain, atmospheric conditions, and other factors, it helps engineer
 and optimize network performance in a variety of environmental scenarios.
 Default settings
 
+![Image p83](../../assets/images/ce-pro/sound-guide/p083-img1.png)
+
 General settings to calculate Model loss
 • Offset coefficient (dB) – represents the offset in decibels added to the path loss grid. The default
 value is 32 dB.
@@ -1454,12 +1408,6 @@ location, with a default value of 20.
 of 20.
 Multipath and focusing
 In ITU-R P.452, the correction for multipath and focusing effects accounts for signal enhancements caused
-
-![Image p84](../../assets/images/ce-pro/sound-guide/p084-img1.png)
-
-![Image p84](../../assets/images/ce-pro/sound-guide/p084-img2.png)
-
-![Image p84](../../assets/images/ce-pro/sound-guide/p084-img3.png)
 by constructive interference and atmospheric focusing. This adjustment reduces the total path loss under
 favorable conditions, such as over-water paths or specific atmospheric gradients, ensuring more accurate
 signal predictions.
@@ -1470,11 +1418,13 @@ These parameters describe how a signal is impacted when it passes through or ter
 clutter class.
 Key Parameters:
 
+![Image p84](../../assets/images/ce-pro/sound-guide/p084-img1.png)
+![Image p84](../../assets/images/ce-pro/sound-guide/p084-img2.png)
+![Image p84](../../assets/images/ce-pro/sound-guide/p084-img3.png)
+
 • Penetration loss offset, dB – the initial entry loss into the clutter class, expressed as an offset in
 dB, which is added to the path loss grid.
 • Penetration loss distance coefficient – represents additional signal loss as a function of the distance
-
-![Image p85](../../assets/images/ce-pro/sound-guide/p085-img1.png)
 traveled within the clutter class. Higher values increase path loss.
 • Penetration loss frequency coefficient – reflects additional loss inside the clutter class based on
 frequency. Higher values increase path loss, particularly at higher frequencies.
@@ -1500,6 +1450,8 @@ Fig. 4. Illustration of LOS conditions
 Line of Sight coefficients are used to calculate general model loss.
 • Offset coefficient (dB) – represents the offset in decibels added to the path loss grid. The default
 value is 32 dB.
+
+![Image p85](../../assets/images/ce-pro/sound-guide/p085-img1.png)
 
 • Distance coefficient near – defines the slope based on the distance between the cell and the
 receiver location, with a default value of 20.
@@ -1529,22 +1481,17 @@ The Clutter Class option defines several predefined clutter categories, each wit
 diffraction loss, clutter loss, penetration loss, and receiver loss coefficients.
 
 These parameters describe how a signal is impacted when it passes through or terminates in a specific
-
-![Image p87](../../assets/images/ce-pro/sound-guide/p087-img1.png)
-
-![Image p87](../../assets/images/ce-pro/sound-guide/p087-img2.png)
 clutter class.
 Key Parameters:
+
+![Image p87](../../assets/images/ce-pro/sound-guide/p087-img1.png)
+![Image p87](../../assets/images/ce-pro/sound-guide/p087-img2.png)
 
 • Nominal distance, m – the average distance between objects within the clutter class, ranging from
 1 to 100 meters.
 • Diffraction loss coefficient – a multiplier used in diffraction calculations. Lower values result in
 reduced diffraction loss, while higher values increase it. Typically, this coefficient is higher for
-buildings compared to forests or other clutter types.ltiplier for diffraction calculations. If value is
-lower, diffraction will be lower, if higher – then diffraction will be higher. Usually, for buildings clutter
-
-![Image p88](../../assets/images/ce-pro/sound-guide/p088-img1.png)
-class this parameter is higher then forest or other clutter classes.
+buildings compared to forests or other clutter types.
 • Penetration loss offset, dB – the initial entry loss into the clutter class, expressed as an offset in
 dB, which is added to the path loss grid.
 • Penetration loss distance coefficient – represents additional signal loss as a function of the distance
@@ -1565,6 +1512,8 @@ value is 32 dB.
 location, with a default value of 20.
 • Frequency coefficient – indicates the slope determined by the frequency value, with a default value
 of 20.
+
+![Image p88](../../assets/images/ce-pro/sound-guide/p088-img1.png)
 
 7.6.1.5 ITU-R P.368 Model
 Model application
@@ -1638,7 +1587,7 @@ usage.
 • Typical Values: Often set between 10 km to 100 km, depending on the transmitter's power, terrain,
 and target coverage region.
 
-### Receiver Height (m)
+2. Receiver Height (m)
 • Description: Specifies the height of the receiving antenna above ground level, in meters.
 • Purpose: Receiver height impacts the predicted signal strength, especially in terrain with elevation
 changes or obstacles.
@@ -1647,7 +1596,7 @@ o 1.5 to 2 m for handheld/mobile users (e.g., mobile phones, public safety devic
 o 10 m or higher for fixed installations (e.g., rooftop or vehicular antennas).
 • Note: Accurate setting of receiver height is essential for meaningful signal level predictions.
 
-### Time Percentage (%)
+3. Time Percentage (%)
 
 • Description: Indicates the percentage of time during which the predicted field strength is expected
 to be met or exceeded.
@@ -1668,10 +1617,10 @@ distance, considering factors such as geometric spreading, atmospheric absorptio
 reflections, and obstacles.
 In the context of siren sound prediction, ISO 9613 helps determine the effective coverage area, ensuring
 that warning signals reach the intended audience with sufficient audibility. This standard is essential for
-
-![Image p91](../../assets/images/ce-pro/sound-guide/p091-img1.png)
 optimizing siren placement, regulatory compliance, and designing effective emergency alert systems.
 The primary factors included in the standard are:
+
+![Image p91](../../assets/images/ce-pro/sound-guide/p091-img1.png)
 
 1. Geometric Spreading
 • This refers to how sound spreads out as it moves away from its source. Sound intensity decreases
@@ -1756,7 +1705,6 @@ High loss building
 7.6.1.8 CEC 3GPP TR Indoor (500MHz – 100GHz)
 Model application
 The CEC 3GPP TR Indoor Model (500 MHz – 100 GHz) is a robust, scalable prediction method based
-
 on ITU-R principles and 3GPP extensions, specifically engineered for indoor radiowave
 propagation. By supporting a wide range of scenarios — from clean LOS corridors to deeply
 obstructed NLOS paths — it enables highly accurate modeling of next-generation wireless systems,
@@ -1933,13 +1881,11 @@ available parameters in network layer.
 
 #### 7.7.1 Edit Network Objects template
 Click the button to open the Template Manager dialogue. Select one of the opened templates to edit
+them.
 
 ![Image p99](../../assets/images/ce-pro/sound-guide/p099-img1.png)
-
 ![Image p99](../../assets/images/ce-pro/sound-guide/p099-img2.png)
-
 ![Image p99](../../assets/images/ce-pro/sound-guide/p099-img3.png)
-them.
 
 Save Changes
 Saves the changes to the objects.
@@ -1974,12 +1920,6 @@ Dismiss
 
 Remove changes.
 To create a new Modulation template, press button in the top right corner of the dialog to initialize a
-
-![Image p102](../../assets/images/ce-pro/sound-guide/p102-img1.png)
-
-![Image p102](../../assets/images/ce-pro/sound-guide/p102-img2.png)
-
-![Image p102](../../assets/images/ce-pro/sound-guide/p102-img3.png)
 new template.
 Template name
 The name of the modulation template.
@@ -1989,20 +1929,22 @@ Use the modulation drop-down list menu to apply and include the modulations.
 Once the changes are made, click the Create button at the bottom of the window to create a new modulation
 template.
 
+![Image p102](../../assets/images/ce-pro/sound-guide/p102-img1.png)
+![Image p102](../../assets/images/ce-pro/sound-guide/p102-img2.png)
+![Image p102](../../assets/images/ce-pro/sound-guide/p102-img3.png)
+
 #### 7.7.4 Modulation Editor
 The list of available modulations is taken from the Modulation Editor tab.
 
 To add a new modulation, click the at the top right of the Modulation Editor window to initialize a new
-
-![Image p103](../../assets/images/ce-pro/sound-guide/p103-img1.png)
-
-![Image p103](../../assets/images/ce-pro/sound-guide/p103-img2.png)
-
-![Image p103](../../assets/images/ce-pro/sound-guide/p103-img3.png)
 modulation with default values, and press the Create button at the bottom of the window. Alternatively, click
 on an existing one to edit its parameters.
 Create
 Create a new modulation with the specified parameters.
+
+![Image p103](../../assets/images/ce-pro/sound-guide/p103-img1.png)
+![Image p103](../../assets/images/ce-pro/sound-guide/p103-img2.png)
+![Image p103](../../assets/images/ce-pro/sound-guide/p103-img3.png)
 
 Save Changes
 Apply changes to a currently selected modulation. The button is disabled if the modulation is not created.
@@ -2012,10 +1954,6 @@ Dismiss changes made to the modulation.
 ### 7.8 Import Objects
 The Import Objects feature further enhances efficiency by allowing users to bring in network objects from
 multiple external documents without manually creating them. This capability is invaluable when dealing with
-
-![Image p104](../../assets/images/ce-pro/sound-guide/p104-img1.png)
-
-![Image p104](../../assets/images/ce-pro/sound-guide/p104-img2.png)
 extensive or complex datasets. Cellular Expert for ArcGIS Pro supports the import of three widely used file
 formats: .xls, .xlsx, and .csv. Additionally, for mapping files, it supports the .json format.
 Key benefits of the Import Objects feature include:
@@ -2029,10 +1967,11 @@ Click the button to open the Import Objects dialogue. Expand Import drop-down me
 the object, which should be imported.
 The dialog will be filled with the options to define data and mapping files.
 
+![Image p104](../../assets/images/ce-pro/sound-guide/p104-img1.png)
+![Image p104](../../assets/images/ce-pro/sound-guide/p104-img2.png)
+
 #### 7.8.1 Import Cells
 The option enables possibility to import Cells in the Cellular Expert workspace. It has additional parameters
-
-![Image p105](../../assets/images/ce-pro/sound-guide/p105-img1.png)
 compared to other import options.
 Template
 Take necessary parameters from the template during the import. Template values are taken if some
@@ -2051,13 +1990,15 @@ Opens a dialogue window where the user can select the files that define the netw
 The supported formats: .xls, .xlsx,.csv, and tables from .sde connection. Upon successful selection, the
 button will light up green.
 
+![Image p105](../../assets/images/ce-pro/sound-guide/p105-img1.png)
+
 Select Mapping File (Optional)
 Opens a dialogue window where the user can select a file that defines the data to be imported and the
 conditions under which said data is processed. The supported format is .json. Upon successful selection,
-
-![Image p106](../../assets/images/ce-pro/sound-guide/p106-img1.png)
 the button will light up green. More on mapping files are below.
 Steps.
+
+![Image p106](../../assets/images/ce-pro/sound-guide/p106-img1.png)
 
 1. Click on Select Data Files, and define your text file. The file will be loaded into the dialog.
 
@@ -2117,8 +2058,6 @@ the button will light up green.
 #### 7.9.1 Import Antennas
 Click the toolbar button and select Import to import antenna patterns. The command opens a
 dialogue window where the user can select the antenna pattern files to be imported into the Cellular Expert
-
-![Image p109](../../assets/images/ce-pro/sound-guide/p109-img1.png)
 database. Select the antenna type in the dropdown list and proceed.
 Select Files
 This button opens a dialogue in which you can select one or more antenna pattern files to be imported. The
@@ -2127,6 +2066,8 @@ Import Antennas
 Imports the selected Antenna pattern files to the Cellular Expert database.
 Import Antennas
 Refreshes the data table if changes have been made to it.
+
+![Image p109](../../assets/images/ce-pro/sound-guide/p109-img1.png)
 
 #### 7.9.2 Export Antennas
 Exports selected antennas to a desired format.
@@ -2146,10 +2087,10 @@ Create new antennas based on input parameters.
 Click on the button and select Create to create antenna patterns. Various parameters of the
 antenna can be entered, as well as horizontal and vertical beamwidth values or ranges. For the selected
 horizontal and vertical values or ranges, the horizontal and vertical attenuations are set to 0, while all other
-
-![Image p110](../../assets/images/ce-pro/sound-guide/p110-img1.png)
 attenuations are set to 1000. Based on the horizontal and vertical beamwidths, the horizontal and vertical
 antenna patterns are displayed.
+
+![Image p110](../../assets/images/ce-pro/sound-guide/p110-img1.png)
 
 | Parameter | Description |
 |---|---|
@@ -2174,16 +2115,15 @@ system gains and losses, and the path loss, which measures the reduction in sign
 to distance, frequency, and environmental obstructions. The profile also provides the calculated
 angles, including the elevation angle (vertical angle between the transmitter and receiver) and the
 azimuth angle (horizontal direction). Additionally, it determines whether a direct line-of-sight exists
-
-![Image p112](../../assets/images/ce-pro/sound-guide/p112-img1.png)
-
-![Image p112](../../assets/images/ce-pro/sound-guide/p112-img2.png)
 between the two points.
 This comprehensive information is ready for use, enabling users to assess the feasibility and
 performance of a communication link for network planning, optimization, and troubleshooting.
 Click the button to open the Profile dialogue.
 Profile tool enables you to determine the obstructions, elevation, and Fresnel zones between two points
 on a map.
+
+![Image p112](../../assets/images/ce-pro/sound-guide/p112-img1.png)
+![Image p112](../../assets/images/ce-pro/sound-guide/p112-img2.png)
 
 #### 8.1.1 Properties
 Profile: General
@@ -2198,8 +2138,6 @@ Receiver Template
 The template that is used for receiver’s default values.
 Profile: Transmitter
 Toggling the switch to the left of Transmitter will enable the Fixed Transmitter functionality, which will
-
-![Image p113](../../assets/images/ce-pro/sound-guide/p113-img1.png)
 modify only the receiver’s positioning when drawing the profile on the map.
 Cell
 A cell from which the profile will be drawn. The parameters of the cell will be taken into calculation if
@@ -2221,10 +2159,12 @@ the user to enter a custom tilt value for the transmitter.
 El. Downtilt, deg.
 Electrical downtilt value for the transmitter, in degrees.
 
+![Image p113](../../assets/images/ce-pro/sound-guide/p113-img1.png)
+
 The antenna for the transmitter can be selected from the table below the El. Downtilt, deg input. Its
+pattern can be viewed by clicking the View Antenna button on the right side.
 
 ![Image p114](../../assets/images/ce-pro/sound-guide/p114-img1.png)
-pattern can be viewed by clicking the View Antenna button on the right side.
 | Parameter | Description |
 |---|---|
 | Frequency, MHz | Frequency of the transmitter. |
@@ -2251,8 +2191,6 @@ option it would take azimuth value from the receiver (Cell) object, and use it f
 calculations, it also allows the user to enter a custom azimuth value for the receiver.
 Downtilt towards transmitter
 Enabled by default. When enabled, the receiver’s tilt is towards the transmitter. Disabling this option it
-
-![Image p116](../../assets/images/ce-pro/sound-guide/p116-img1.png)
 would take tilt value from the receiver (Cell) object, and use it for FWA Power Budget calculations,
 it allows the user to enter a custom tilt value for the receiver.
 Power, dBm
@@ -2261,6 +2199,8 @@ Misc Loss, dB
 Miscellaneous loss value in dB. Value is not required.
 Profile: Prediction Model
 Double-click the prediction model from the list to select it for the profile.
+
+![Image p116](../../assets/images/ce-pro/sound-guide/p116-img1.png)
 
 #### 8.1.2 Draw Profile
 When the Profile tool is selected and enabled, you will be able to select two points on the map in turn
@@ -2281,12 +2221,6 @@ Upon the selection of a second point, these geometries will be created between t
 • Fresnel (blue) – the Fresnel lines
 
 The Profile plot illustrating these geometries, obstacles (buildings), and the Fresnel zone will appear in
-
-![Image p117](../../assets/images/ce-pro/sound-guide/p117-img1.png)
-
-![Image p117](../../assets/images/ce-pro/sound-guide/p117-img2.png)
-
-![Image p117](../../assets/images/ce-pro/sound-guide/p117-img3.png)
 a dockpane below. You can inspect the values at particular points by moving the cursor around the
 plot. The cursor movement on the plot will be projected as a moving point on the map. If a cell is
 selected for the transmitter, the cell’s tilt (the sum of mechanical and electrical tilts) and vertical
@@ -2294,6 +2228,10 @@ beamwidth are displayed as additional symbols: a light blue line and a darker bl
 respectively. The length of the cell tilt and antenna vertical beamwidth symbols is the radius of the
 prediction model selected for the cell.
 The button allows you to see the Prediction Calculation results.
+
+![Image p117](../../assets/images/ce-pro/sound-guide/p117-img1.png)
+![Image p117](../../assets/images/ce-pro/sound-guide/p117-img2.png)
+![Image p117](../../assets/images/ce-pro/sound-guide/p117-img3.png)
 
 You can change the colors of the profile by clicking the colored squares near the names of the parameters.
 
@@ -2306,35 +2244,30 @@ and disabled elements are indicated by regular text.
 
 You can change the height of the transmitter/receiver points by dragging their ends on the plot.
 Hovering the cursor over the plot displays a tooltip with the meter values for profile, building, clutter,
+elevation, distance, etc., as well as their representations in colors.
 
 ![Image p119](../../assets/images/ce-pro/sound-guide/p119-img1.png)
-
 ![Image p119](../../assets/images/ce-pro/sound-guide/p119-img2.png)
-elevation, distance, etc., as well as their representations in colors.
 
 8.1.2.1 Adjust Data
 Adjust data is found on the Profile Plot dockpane near the Results. The tool lets you change the
-
-![Image p120](../../assets/images/ce-pro/sound-guide/p120-img1.png)
-
-![Image p120](../../assets/images/ce-pro/sound-guide/p120-img2.png)
 elevation, building, and clutter data of the area visible in the profile plot.
 When the Adjust tab is opened, select a desirable range for the data adjustment on the plot.
 
+![Image p120](../../assets/images/ce-pro/sound-guide/p120-img1.png)
+![Image p120](../../assets/images/ce-pro/sound-guide/p120-img2.png)
+
 You can make slight changes to the range of the selection area by hovering over the area's edges and
-
-![Image p121](../../assets/images/ce-pro/sound-guide/p121-img1.png)
-
-![Image p121](../../assets/images/ce-pro/sound-guide/p121-img2.png)
-
-![Image p121](../../assets/images/ce-pro/sound-guide/p121-img3.png)
-
-![Image p121](../../assets/images/ce-pro/sound-guide/p121-img4.png)
 dragging them. To adjust the values, click on one of the text boxes and insert the value.
 To change multiple values simultaneously, drag across the adjustment table and select multiple rows.
 Changing the value of a single text box will also change all the other chosen rows’ values in that
 text box. The selected area will be highlighted on the profile plot.
 To update the values, either select an unselected row or press the button.
+
+![Image p121](../../assets/images/ce-pro/sound-guide/p121-img1.png)
+![Image p121](../../assets/images/ce-pro/sound-guide/p121-img2.png)
+![Image p121](../../assets/images/ce-pro/sound-guide/p121-img3.png)
+![Image p121](../../assets/images/ce-pro/sound-guide/p121-img4.png)
 
 To reset the adjusted values to defaults, click the Refresh button .
 Manual Profile
@@ -2365,11 +2298,10 @@ visible you may need to adjust the height of the receiver/transmitter accordingl
 It is recommended to disable the Step Plot of the profile before using Reflections (see Settings).
 Use Single Reflection
 Enable a reflection that will reflect straight from the transmitter to the receiver point with the smallest
+angle.
 
 ![Image p123](../../assets/images/ce-pro/sound-guide/p123-img1.png)
-
 ![Image p123](../../assets/images/ce-pro/sound-guide/p123-img2.png)
-angle.
 
 | Parameter | Description |
 |---|---|
@@ -2393,11 +2325,11 @@ Reflection results will appear in the Profile Results table.
 
 8.1.3.1 Reflection Analysis
 The Reflection Analysis tool for Profile is designed to help analyze and visualize signal reflections based
-
-![Image p125](../../assets/images/ce-pro/sound-guide/p125-img1.png)
 on the changes in various profile parameters like frequency, transmitter height, receiver height, and K-
 factor. Reflections must be enabled to perform analysis, and the Single Reflection option is automatically
 enabled when the tool is selected.
+
+![Image p125](../../assets/images/ce-pro/sound-guide/p125-img1.png)
 
 | Parameter | Description |
 |---|---|
@@ -2423,12 +2355,11 @@ Creates the profile with the provided data.
 #### 8.1.5 Export (Profile Report)
 The input data and calculation results can be automatically transferred into a Profile Report. This report
 will show transmitter/receiver input data, calculation results as well as the Profile plot and map view in which
-
-![Image p128](../../assets/images/ce-pro/sound-guide/p128-img1.png)
-
-![Image p128](../../assets/images/ce-pro/sound-guide/p128-img2.png)
 the profile was drawn. The report can be exported in PDF and PL2 formats. The Profile Report can also be
 saved to Docs Manager by selecting Save result to Docs Manager.
+
+![Image p128](../../assets/images/ce-pro/sound-guide/p128-img1.png)
+![Image p128](../../assets/images/ce-pro/sound-guide/p128-img2.png)
 
 The resulting Profile report will look similar to this example:
 
@@ -2436,15 +2367,14 @@ The resulting Profile report will look similar to this example:
 
 #### 8.1.6 Settings
 Currently, you can configure the profile’s visual properties and controls in profile settings. The settings
+can be changed once a profile is drawn.
 
 ![Image p130](../../assets/images/ce-pro/sound-guide/p130-img1.png)
-can be changed once a profile is drawn.
 | Parameter | Description |
 |---|---|
 | Show Step Plot | Display data points as a series of steps rather than a smooth line or individual points. |
-| Transmitter height change stepnter | The step (in meters) for changing the transmitter height when dragging it in the Profile graph. The default value is 0.5 meters. |
+| Transmitter height change step | The step (in meters) for changing the transmitter height when dragging it in the Profile graph. The default value is 0.5 meters. |
 | Receiver height change step | The step (in meters) for changing the receiver height when dragging it in the Profile graph. The default value is 0.5 meters. |
-value is 0.5 meters.
 
 ## 9. Coverage Prediction
 
@@ -2455,21 +2385,16 @@ Click on the button to open the CE Calculation Task List dialogue.
 The task list refreshes automatically once calculation tasks are run. The task status is indicated by three
 main colors: blue (in progress), green (completed), and red (failed). Calculation tasks can be deleted
 from the task list by clicking on the right side of the task. To open a result raster, select it from the results
-
-![Image p131](../../assets/images/ce-pro/sound-guide/p131-img1.png)
-
-![Image p131](../../assets/images/ce-pro/sound-guide/p131-img2.png)
-
-![Image p131](../../assets/images/ce-pro/sound-guide/p131-img3.png)
-
-![Image p131](../../assets/images/ce-pro/sound-guide/p131-img4.png)
-
-![Image p131](../../assets/images/ce-pro/sound-guide/p131-img5.png)
-
-![Image p131](../../assets/images/ce-pro/sound-guide/p131-img6.png)
 dropdown and click Open Results. Filtering by calculation spans these types: Antenna Visibility Prediction,
 EMF Calculation, Link Prediction, Model Tuning, Optimal Site Positions Calculation, RF Prediction, Siren
 Sound Prediction, and Visibility Prediction.
+
+![Image p131](../../assets/images/ce-pro/sound-guide/p131-img1.png)
+![Image p131](../../assets/images/ce-pro/sound-guide/p131-img2.png)
+![Image p131](../../assets/images/ce-pro/sound-guide/p131-img3.png)
+![Image p131](../../assets/images/ce-pro/sound-guide/p131-img4.png)
+![Image p131](../../assets/images/ce-pro/sound-guide/p131-img5.png)
+![Image p131](../../assets/images/ce-pro/sound-guide/p131-img6.png)
 
 ### 9.2 Visibility Prediction
 Visibility calculations refer to the determination of line-of-sight between transmitting and receiving
@@ -2513,15 +2438,13 @@ Results:
 ### 10.1 License information
 Click the button to open the License Information dialogue.
 License information is a useful resource to see your current version of Cellular Expert for ArcGIS Pro, user
-
-![Image p135](../../assets/images/ce-pro/sound-guide/p135-img1.png)
-
-![Image p135](../../assets/images/ce-pro/sound-guide/p135-img2.png)
-
-![Image p135](../../assets/images/ce-pro/sound-guide/p135-img3.png)
 key, currently active licenses, and their expiration dates. The license information window is also used when
 a user is enabling the CE for ArcGIS Pro extension on their computer. For more information about license
 activation see Activation.
+
+![Image p135](../../assets/images/ce-pro/sound-guide/p135-img1.png)
+![Image p135](../../assets/images/ce-pro/sound-guide/p135-img2.png)
+![Image p135](../../assets/images/ce-pro/sound-guide/p135-img3.png)
 
 ### 10.2 Help
 
@@ -2533,14 +2456,12 @@ when trying to figure out a problem.
 #### 10.2.2 What’s New
 Click the button in the Help dropdown list to open the What’s New document. This document
 is updated for each new release of Cellular Expert for ArcGIS Pro, and here you will find the changelog for
-
-![Image p136](../../assets/images/ce-pro/sound-guide/p136-img1.png)
-
-![Image p136](../../assets/images/ce-pro/sound-guide/p136-img2.png)
-
-![Image p136](../../assets/images/ce-pro/sound-guide/p136-img3.png)
 the current installed version. This document serves as the introduction of added new features,
 enhancements, bug fixes, and other changes.
+
+![Image p136](../../assets/images/ce-pro/sound-guide/p136-img1.png)
+![Image p136](../../assets/images/ce-pro/sound-guide/p136-img2.png)
+![Image p136](../../assets/images/ce-pro/sound-guide/p136-img3.png)
 
 #### 10.2.3 Technical Support
 Click the button in the Help dropdown list to open the Technical Support page in your
@@ -2552,15 +2473,13 @@ project. Additionally, you can log in or sign up to submit a new support ticket.
 Click the button in the Help dropdown list to open the Error Log dialogue.
 Here you will find information about errors that have occurred during certain processes of the CE for ArcGIS
 Pro extension’s lifetime. These logs are crucial to improving the overall quality of the user experience. Thus,
-
-![Image p137](../../assets/images/ce-pro/sound-guide/p137-img1.png)
-
-![Image p137](../../assets/images/ce-pro/sound-guide/p137-img2.png)
-
-![Image p137](../../assets/images/ce-pro/sound-guide/p137-img3.png)
 when an error happens and you decide to contact a Cellular Expert, you will be asked to send these logs
 so that the problems you encounter can be patched as soon as possible.
 Copy
+
+![Image p137](../../assets/images/ce-pro/sound-guide/p137-img1.png)
+![Image p137](../../assets/images/ce-pro/sound-guide/p137-img2.png)
+![Image p137](../../assets/images/ce-pro/sound-guide/p137-img3.png)
 
 Copy the necessary error information into your clipboard and send it to Cellular Expert.
 Delete All

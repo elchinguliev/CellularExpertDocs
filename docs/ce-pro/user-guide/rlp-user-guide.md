@@ -256,9 +256,7 @@ already license, turning them into actionable broadband maps without additional 
 requirements from the solution provider.
 By using terrain elevation, obstacles, and clutter classification in every calculation, Cellular Expert
 accurately models:
-• Line-of-Sight and Non-Line-of-Sight Conditions – Determining diffraction, reflection, and
-
-shadowing effects over hills, valleys, and urban obstacles.
+• Line-of-Sight and Non-Line-of-Sight Conditions – Determining diffraction, reflection, and shadowing effects over hills, valleys, and urban obstacles.
 • Coverage Footprints – Generating precise signal strength maps at national, regional, and local
 levels.
 • Capacity and Interference Analysis – Modeling realistic signal overlaps and interference zones
@@ -293,9 +291,7 @@ significantly improve coverage prediction accuracy.
 of signal distribution but with limited detail, especially in dense urban areas.
 • Right image: Coverage calculated using 1 m resolution data, revealing a much more precise
 propagation pattern, including building-level shadowing and accurate street-by-street coverage.
-More information: https://blog.maxar.com/earth-intelligence/2022/benefits-of-using-maxars-precision3d-
-
-telco-suite-for-5g
+More information: https://blog.maxar.com/earth-intelligence/2022/benefits-of-using-maxars-precision3d- telco-suite-for-5g
 Cellular Expert can easily integrate and process 1 m or even sub-meter topographical data, providing highly
 detailed RF calculations. This level of precision is essential for:
 • Modeling 2G/3G/4G/5G, small cells and mmWave networks.
@@ -363,9 +359,7 @@ Land use or clutter refers to the classification of the earth’s surface into c
 rural, forest, water, and open land, each of which affects radio propagation differently. Clutter data is crucial
 
 ![Image p20](../../assets/images/ce-pro/rlp-guide/p020-img1.png)
-because it determines how signals are absorbed, reflected, or diffracted by the environment, directly
-
-influencing coverage, interference, and quality of service. The naming and classification of land use types
+because it determines how signals are absorbed, reflected, or diffracted by the environment, directly influencing coverage, interference, and quality of service. The naming and classification of land use types
 
 ![Image p21](../../assets/images/ce-pro/rlp-guide/p021-img1.png)
 may vary. An example is the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2
@@ -677,9 +671,7 @@ to clutterHeight.
 • (Image Analyst and Spatial Analyst licenses only) If elevation, buildingHeight and clutterHeight
 rasters exist, raster calculations are performed to merge the buildingHeight and clutterHeight
 rasters.
-• (Image Analyst and Spatial Analyst licenses only) If elevation, buildingHeight, clutterHeight and
-
-clutterClasses rasters exist, raster calculations are performed to merge the buildingHeight and
+• (Image Analyst and Spatial Analyst licenses only) If elevation, buildingHeight, clutterHeight and clutterClasses rasters exist, raster calculations are performed to merge the buildingHeight and
 clutterHeight rasters, and modify the clutterClasses raster to add the building outlines with ID of 0.
 
 ![Image p43](../../assets/images/ce-pro/rlp-guide/p043-img1.png)
@@ -773,9 +765,7 @@ off, the next time a relevant calculation is performed. In that case, the raster
 are added to the map with the visibility disabled. This is done only for the calculations performed after the
 setting is changed, and does not impact already added rasters on the map.
 The symbology is defined as a list of Layers and .lyr files:
-• Narrowband 2G (GSM/CDMA-850/TETRA/P-25) – second generation network (like GSM) calculations
-
-or technology-independent calculations (for example, the symbology for antenna loss by tilt is defined
+• Narrowband 2G (GSM/CDMA-850/TETRA/P-25) – second generation network (like GSM) calculations or technology-independent calculations (for example, the symbology for antenna loss by tilt is defined
 by the same file for WiMAX, LTE, and other technology)
 • Broadband 3G (UMTS/HSDPA) – results for UMTS, HSDPA and other 3 - 3.5 generation technologies
 • Broadband 4G (LTE, BWA/WiMAX) – results of LTE technology calculations
@@ -1025,9 +1015,7 @@ duplex mode is enabled, the user will be able to edit both Upper and Lower band 
 one carrier will result in the selection of both Upper and Lower carriers based on their ID.
 Protection configuration
 1+1 or M:N protection configuration.
-Based on the selected protection configuration the following transmitter and receiver switching schemes
-
-are displayed:
+Based on the selected protection configuration the following transmitter and receiver switching schemes are displayed:
 Link configuration Tx combining Rx combining
 Hot standby Combining/Switching
 1+1
@@ -1249,9 +1237,7 @@ the position of the Cursor Point either by entering new coordinates directly or 
 ![Image p77](../../assets/images/ce-pro/rlp-guide/p077-img2.png)
 choosing a different location on the map. When you move the Cursor Point, all the objects on the map will
 shift their position to maintain their relative distances from this central point.
-• If a single point object is selected or several objects at the same location, the move objects display
-
-will show the geospatial properties of these objects denoted as “Cursor Point”.
+• If a single point object is selected or several objects at the same location, the move objects display will show the geospatial properties of these objects denoted as “Cursor Point”.
 If a single point object is selected on the map, the "Cursor Point" serves as its positional anchor. Positioned
 
 ![Image p78](../../assets/images/ce-pro/rlp-guide/p078-img1.png)
@@ -1511,9 +1497,7 @@ These are conservative conditions ensuring that siren reach is never overestimat
 safety margin planning.
 CEC 3GPP TR Indoor (500MHz – 100GHz) Propagation Model is a high-frequency path loss model
 designed for indoor radiocommunication systems operating within the 500 MHz to 100 GHz range. It builds
-upon the CEC ITU-R 3GPP model (100 MHz – 6 GHz) by adapting it to complex indoor environments, such
-
-as:
+upon the CEC ITU-R 3GPP model (100 MHz – 6 GHz) by adapting it to complex indoor environments, such as:
 • Office buildings
 • Residential units
 • Shopping centers
@@ -1549,9 +1533,7 @@ value is 32 dB.
 location, with a default value of 20.
 • Distance coefficient obstructed – represents the slope based on the obstructed distance between
 the cell and the receiver location. The default value is 40.
-• Frequency coefficient – indicates the slope determined by the frequency value, with a default value
-
-of 20.
+• Frequency coefficient – indicates the slope determined by the frequency value, with a default value of 20.
 Clutter class to calculate diffraction, clutter loss, penetration loss and receiver loss
 The Clutter Class option defines several predefined clutter categories, each with unique values for
 diffraction loss, clutter loss, penetration loss, and receiver loss coefficients.
@@ -1567,12 +1549,11 @@ Key Parameters:
 1 to 100 meters.
 • Diffraction loss coefficient – a multiplier used in diffraction calculations. Lower values result in
 reduced diffraction loss, while higher values increase it. Typically, this coefficient is higher for
-buildings compared to forests or other clutter types.ltiplier for diffraction calculations. If value is
-lower, diffraction will be lower, if higher – then diffraction will be higher. Usually, for buildings clutter
-class this parameter is higher then forest or other clutter classes.
-• Enclosed receiver loss offset, dB – the initial entry loss into the clutter class, expressed as an offset
+buildings compared to forests or other clutter types.
 
 ![Image p95](../../assets/images/ce-pro/rlp-guide/p095-img1.png)
+
+• Enclosed receiver loss offset, dB – the initial entry loss into the clutter class, expressed as an offset
 in dB, which is added to the path loss grid.
 • Enclosed receiver loss scaling coefficient – represents additional signal loss as a function of the
 distance traveled within the clutter class. Higher values increase path loss.
@@ -1739,9 +1720,7 @@ receiver location, with a default value of 20.
 • Distance coefficient far – represents the slope based on breakpoint distance between the cell and
 the receiver location. The default value is 40.
 • Use custom break distance – if value Yes, enables custom Fresnel breakpoint distance value. The
-path loss dependence on the distance is split into near and far zones by the breakpoint distance
-
-and the effect is only applied for Line of Sight condition.
+path loss dependence on the distance is split into near and far zones by the breakpoint distance and the effect is only applied for Line of Sight condition.
 • Custom break distance, km – Fresnel breakpoint distance then path loss is calculated using
 Distance coefficient far parameter.
 • Frequency coefficient – indicates the slope determined by the frequency value, with a default value
@@ -1777,11 +1756,9 @@ Key Parameters:
 1 to 100 meters.
 • Diffraction loss coefficient – a multiplier used in diffraction calculations. Lower values result in
 reduced diffraction loss, while higher values increase it. Typically, this coefficient is higher for
-buildings compared to forests or other clutter types.ltiplier for diffraction calculations. If value is
-lower, diffraction will be lower, if higher – then diffraction will be higher. Usually, for buildings clutter
+buildings compared to forests or other clutter types.
 
 ![Image p102](../../assets/images/ce-pro/rlp-guide/p102-img1.png)
-class this parameter is higher then forest or other clutter classes.
 • Penetration loss offset, dB – the initial entry loss into the clutter class, expressed as an offset in
 dB, which is added to the path loss grid.
 • Penetration loss distance coefficient – represents additional signal loss as a function of the distance
@@ -2213,9 +2190,7 @@ parameters automatically. Their primary purpose is to save time and reduce the r
 setup, particularly in complex scenarios like wireless network configuration.
 Here’s why templates are beneficial:
 
-1. Automatic Parameter Filling: Templates automatically populate required parameters, eliminating
-
-the need for users to input them one by one. This ensures consistency and speeds up the setup
+1. Automatic Parameter Filling: Templates automatically populate required parameters, eliminating the need for users to input them one by one. This ensures consistency and speeds up the setup
 process, especially when working with large datasets or multiple network layers, such as cells,
 sites, or CPEs.
 
@@ -2727,9 +2702,7 @@ a map.
 #### 8.1.1 Properties
 Profile: Profile Selection
 Profile selection allows for quick switching between profiles while retaining the most recently defined
-parameters. This feature is especially useful for comparing and verifying calculations across differentTx
-
-and Rx configurations. When a new profile is created, it is automatically assigned a name and appears in
+parameters. This feature is especially useful for comparing and verifying calculations across differentTx and Rx configurations. When a new profile is created, it is automatically assigned a name and appears in
 the Profile Selection option.
 Profile can be saved or removed from the list.
 | Parameter | Description |
@@ -3093,9 +3066,7 @@ sensitivity threshold defined for the Mesh Node object.
 • Connectivity status is then visually rendered using a clear, color-coded scheme:
 o Green: Bi-directional connectivity – both nodes meet or exceed the RSL sensitivity for
 each other.
-o Yellow: Uni-directional connectivity – only one node meets the RSL threshold for the
-
-other.
+o Yellow: Uni-directional connectivity – only one node meets the RSL threshold for the other.
 o Red: No connectivity – RSL falls below the sensitivity threshold in both directions.
 
 ![Image p166](../../assets/images/ce-pro/rlp-guide/p166-img1.png)

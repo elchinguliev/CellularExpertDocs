@@ -997,9 +997,7 @@ Cell objects are used for prediction calculations.
 
 ![Image p59](../../assets/images/ce-pro/indoor-guide/p059-img4.png)
 second time in your preferred direction.
-Add Object > Cell dialog will be filled with coordinates and parameters from default template, and
-
-azimuth value based on defined direction on the map.
+Add Object > Cell dialog will be filled with coordinates and parameters from default template, and azimuth value based on defined direction on the map.
 The Cell object can be created by entering exact coordinates in:
 
 ![Image p60](../../assets/images/ce-pro/indoor-guide/p060-img1.png)
@@ -1053,12 +1051,7 @@ system.
 | Misc Loss | Miscellaneous loss value in dB. |
 | Bandwidth | Value in MHz. Required for 4G and 5G technologies. For other technologies define the value as 0.015. |
 | Noise Figure | Value in dB. Required for 4G and 5G technologies. |
-| Downlink Duplex Factor | Value range from 0 to 1. Required for Duplex mode TDD, which is applicable for 4G and 5G |
-
-technologies, and used for Downlink Throughput calculations. For example, if defined value is 0.7,
-then 70% of available bandwidth will be dedicated to Downlink, and 30% - for Uplink.
-| Parameter | Description |
-|---|---|
+| Downlink Duplex Factor | Value range from 0 to 1. Required for Duplex mode TDD, which is applicable for 4G and 5G technologies, and used for Downlink Throughput calculations. For example, if defined value is 0.7, then 70% of available bandwidth will be dedicated to Downlink, and 30% - for Uplink. |
 | Subcarrier Spacing | Value in kHz. Required for 4G and 5G technologies. For other technologies define value 15. |
 | Tx Mimo | Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64. |
 | Rx Mimo | Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64. |
@@ -1162,9 +1155,7 @@ the position of the Cursor Point either by entering new coordinates directly or 
 ![Image p70](../../assets/images/ce-pro/indoor-guide/p070-img2.png)
 choosing a different location on the map. When you move the Cursor Point, all the objects on the map will
 shift their position to maintain their relative distances from this central point.
-• If a single point object is selected or several objects at the same location, the move objects display
-
-will show the geospatial properties of these objects denoted as “Cursor Point”.
+• If a single point object is selected or several objects at the same location, the move objects display will show the geospatial properties of these objects denoted as “Cursor Point”.
 If a single point object is selected on the map, the "Cursor Point" serves as its positional anchor. Positioned
 
 ![Image p71](../../assets/images/ce-pro/indoor-guide/p071-img1.png)
@@ -1387,9 +1378,7 @@ ITU-R P.368 (10kHz – 30MHz) provides a standardized prediction method for asse
 wave field strength of radio waves in the 10 kHz to 30 MHz frequency range. This frequency band
 is primarily associated with long-range communication systems using amplitude modulation (AM)
 and shortwave bands, often for maritime, aeronautical, military, and broadcasting services.
-This model offers guidance for engineers, planners, and researchers working on system design and
-
-analysis in the MF (Medium Frequency) and HF (High Frequency) bands.
+This model offers guidance for engineers, planners, and researchers working on system design and analysis in the MF (Medium Frequency) and HF (High Frequency) bands.
 The ITU-R P.368 model calculates signal strength based on several key environmental and system
 parameters:
 Frequency (f)
@@ -1479,19 +1468,15 @@ of 20.
 Clutter class to calculate diffraction, clutter loss, penetration loss and receiver loss
 The Clutter Class option defines several predefined clutter categories, each with unique values for
 diffraction loss, clutter loss, penetration loss, and receiver loss coefficients.
-These parameters describe how a signal is impacted when it passes through or terminates in a specific
-
-clutter class.
+These parameters describe how a signal is impacted when it passes through or terminates in a specific clutter class.
 Key Parameters:
 • Nominal distance, m – the average distance between objects within the clutter class, ranging from
 1 to 100 meters.
 • Diffraction loss coefficient – a multiplier used in diffraction calculations. Lower values result in
 reduced diffraction loss, while higher values increase it. Typically, this coefficient is higher for
-buildings compared to forests or other clutter types.ltiplier for diffraction calculations. If value is
-lower, diffraction will be lower, if higher – then diffraction will be higher. Usually, for buildings clutter
+buildings compared to forests or other clutter types.
 
 ![Image p87](../../assets/images/ce-pro/indoor-guide/p087-img1.png)
-class this parameter is higher then forest or other clutter classes.
 • Enclosed receiver loss offset, dB – the initial entry loss into the clutter class, expressed as an offset
 in dB, which is added to the path loss grid.
 • Enclosed receiver loss scaling coefficient – represents additional signal loss as a function of the
@@ -1664,19 +1649,15 @@ M
 Clutter class to calculate diffraction, clutter loss, penetration loss and receiver loss
 The Clutter Class option defines several predefined clutter categories, each with unique values for
 diffraction loss, clutter loss, penetration loss, and receiver loss coefficients.
-These parameters describe how a signal is impacted when it passes through or terminates in a specific
-
-clutter class.
+These parameters describe how a signal is impacted when it passes through or terminates in a specific clutter class.
 Key Parameters:
 • Nominal distance, m – the average distance between objects within the clutter class, ranging from
 1 to 100 meters.
 • Diffraction loss coefficient – a multiplier used in diffraction calculations. Lower values result in
 reduced diffraction loss, while higher values increase it. Typically, this coefficient is higher for
-buildings compared to forests or other clutter types.ltiplier for diffraction calculations. If value is
-lower, diffraction will be lower, if higher – then diffraction will be higher. Usually, for buildings clutter
+buildings compared to forests or other clutter types.
 
 ![Image p93](../../assets/images/ce-pro/indoor-guide/p093-img1.png)
-class this parameter is higher then forest or other clutter classes.
 • Penetration loss offset, dB – the initial entry loss into the clutter class, expressed as an offset in
 dB, which is added to the path loss grid.
 • Penetration loss distance coefficient – represents additional signal loss as a function of the distance

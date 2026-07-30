@@ -1,159 +1,128 @@
-# 10. RL / Microwave Link Prediction
+# 07. RL Introduction
 
-![Image p3](../../../assets/images/ce-pro/training-10/p003-img1.png)
-
-![Image p4](../../../assets/images/ce-pro/training-10/p004-img1.png)
-
-![Image p4](../../../assets/images/ce-pro/training-10/p004-img2.png)
-
-![Image p4](../../../assets/images/ce-pro/training-10/p004-img3.png)
 > **Version:** CE Pro v4.9
-
-## Overview
-
-RL and MW link paths and prediction results are displayed on the active map view:
-
-For RL planning, arrange your ArcGIS Pro panes to keep the map, Contents, and CE Pro pane all visible at once:
 
 CE Pro includes a full **Radio Link (RL) / Microwave planning** module for fixed point-to-point links. It covers power budget calculation, interference analysis, and geoclimatic availability.
 
-## Equipment Library
+## Equipment
 
 Before planning links, set up the equipment library:
 
-| Library Item | Description |
-|---|---|
-| **Antennas → Parabolic** | Parabolic dish antenna patterns |
-| **Radio Models** | Tx/Rx equipment specs (power, sensitivity, modulations) |
-| **Frequency Plans** | Channel plans and duplex spacing |
+- **Antennas → Parabolic**
+- **Radio Models**
+- **Frequency Plans**
+- **Spectrum Mask**
 
-![Image p5](../../../assets/images/ce-pro/training-10/p005-img1.png)
-| **Spectrum Mask** | Out-of-band emission masks for interference checks |
+### Antennas
 
-![Image p6](../../../assets/images/ce-pro/training-10/p006-img1.png)
+The **Antenna Viewer** shows the parabolic antenna radiation pattern (H/H, H/V, V/V, V/H polarisation planes) alongside the antenna table (manufacturer, model, frequency, gain):
+
+![Antenna Viewer with parabolic radiation pattern chart and antenna table](../../../assets/images/ce-pro/training-07/p003-img1.png)
+
+### Radio Models
+
+The **Radios** manager defines equipment specs across three tabs: general radio parameters (model, manufacturer, capacity, frequency range, bandwidth, bit rate), receiver/transmitter parameters (BER thresholds, noise figure, power), and adaptive modulation (per-modulation sensitivity, SNR, throughput):
+
+![Radios manager — General, Radio/Modulations, and Adaptive Modulation panels](../../../assets/images/ce-pro/training-07/p004-img1.png)
+
+![Radios manager — detail](../../../assets/images/ce-pro/training-07/p004-img2.png)
+
+![Radios manager — detail](../../../assets/images/ce-pro/training-07/p004-img3.png)
+
+### Frequency Plans
+
+Define channel plans — low/center/high frequency, carrier spacing, duplex spacing, and the resulting carrier list:
+
+![Frequency Plans manager with carrier frequency chart and table](../../../assets/images/ce-pro/training-07/p005-img1.png)
+
+### Spectrum Mask
+
+Defines out-of-band emission attenuation vs. frequency offset, used for interference checks between links:
+
+![Spectrum Density Mask chart and attenuation table](../../../assets/images/ce-pro/training-07/p006-img1.png)
 
 ## Transmission Network
 
-![Image p7](../../../assets/images/ce-pro/training-10/p007-img1.png)
+A transmission (microwave) network breaks down into three parts: **Transmitter → Cable → Antenna**, **radio wave propagation** through the environment, and **Antenna → Cable → Receiver**:
 
-![Image p8](../../../assets/images/ce-pro/training-10/p008-img1.png)
+![Transmission network diagram: transmitter, propagation, receiver](../../../assets/images/ce-pro/training-07/p007-img1.png)
 
-A transmission network in CE Pro is a collection of microwave links connecting sites. Links are drawn on the map between two site objects.
+A transmission network in CE Pro is a collection of microwave links connecting sites, drawn on the map between site objects:
+
+![Network of microwave links connecting multiple sites](../../../assets/images/ce-pro/training-07/p008-img1.png)
 
 ## Microwave Link Planning
 
-![Image p9](../../../assets/images/ce-pro/training-10/p009-img1.png)
-
-![Image p9](../../../assets/images/ce-pro/training-10/p009-img2.png)
-
-![Image p10](../../../assets/images/ce-pro/training-10/p010-img1.png)
 Each link provides the following analysis:
 
-![Image p11](../../../assets/images/ce-pro/training-10/p011-img1.png)
+- Power budget
+- Path loss
+- Profile graphical view
+- Interference From
+- Interference To
 
-![Image p12](../../../assets/images/ce-pro/training-10/p012-img1.png)
+The **Link Prediction** panel combines the map view, calculation settings, and results — including the path/elevation profile chart and the Interference From / Interference To tables:
+
+![Link Prediction panel: map, calculation settings, profile chart, and interference tables](../../../assets/images/ce-pro/training-07/p009-img1.png)
+
+![Link Prediction panel — detail](../../../assets/images/ce-pro/training-07/p009-img2.png)
+
 ### Power Budget
 
-![Image p13](../../../assets/images/ce-pro/training-10/p013-img1.png)
+The power budget diagram plots the key levels for a link, from the noise floor up to the received signal level:
 
-![Image p13](../../../assets/images/ce-pro/training-10/p013-img2.png)
+- **kTB** — noise floor (thermal noise level at the receiver input)
+- **F** — receiver noise factor
+- **N** — receiver noise
+- **T** — receiver threshold
+- **P⁽⁰⁾ᵣₓ** — receiver sensitivity without interference (at a given BER, e.g. BER 10⁻⁶ or 10⁻³ — a BER of 10⁻⁶ means 1 out of every 1,000,000 bits transmitted has an error)
+- **TFM** — thermal fade margin
+- **RSL** — Received Signal Level
 
-![Image p13](../../../assets/images/ce-pro/training-10/p013-img3.png)
+![Power budget diagram: RSL, TFM, receiver threshold, noise floor](../../../assets/images/ce-pro/training-07/p010-img1.png)
 
-![Image p13](../../../assets/images/ce-pro/training-10/p013-img4.png)
+When interference is present, the diagram adds:
 
-![Image p13](../../../assets/images/ce-pro/training-10/p013-img5.png)
+- **I** — interference
+- **N+I** — noise plus interference
+- **P⁽ᴵ⁾ᵣₓ** — receiver sensitivity with interference
+- **FML** — fade margin loss (≈ threshold degradation, TD)
+- **C/I** — carrier-to-interference ratio
 
-![Image p14](../../../assets/images/ce-pro/training-10/p014-img1.png)
+![Power budget diagram with interference: C/I, FML, N+I](../../../assets/images/ce-pro/training-07/p011-img1.png)
 
-![Image p14](../../../assets/images/ce-pro/training-10/p014-img2.png)
-The received signal level (RSL) at each end of the link:
+The same diagram populated with calculated values from a real link (Receiver Signal Level, Thermal/Composite Fade Margin, SIR, SINR, total interference, noise floor):
 
-```
-RSL = Tx Power + Tx Antenna Gain – Feeder Loss(Tx)
-      – Free Space Path Loss
-      – Atmospheric Absorption
-      – Feeder Loss(Rx) + Rx Antenna Gain
-```
+![Power budget diagram with calculated values](../../../assets/images/ce-pro/training-07/p012-img1.png)
 
-Key indicators shown in the power budget panel:
+### Geoclimatic Data
 
-| Indicator | Description |
-|-----------|-------------|
-| RSL (dBm) | Received Signal Level at each end |
-| Threshold (dBm) | Minimum RSL for given modulation / BER |
-| Fade Margin (dB) | RSL – Threshold (higher = better reliability) |
-| EIRP (dBm) | Effective Isotropic Radiated Power |
+CE Pro uses geoclimatic data across several panels — **Gaseous Absorption**, **Temperature**, **Multipath Fading** and **Rain Fading** (per **ITU-R P.530**), and **Statistics** (ITU-R P.841 worst-month-to-annual conversion):
 
-### Free Space Path Loss
+![Geoclimatic Data panels: Gaseous Absorption, Temperature, Rain Fading, Multipath Fading, Statistics](../../../assets/images/ce-pro/training-07/p013-img1.png)
 
-```
-FSL (dB) = 20×log(d) + 20×log(f) + 92.45
+![Geoclimatic Data panels — detail](../../../assets/images/ce-pro/training-07/p013-img2.png)
 
-where:
-  d = distance in km
-  f = frequency in GHz
-```
+![Geoclimatic Data panels — detail](../../../assets/images/ce-pro/training-07/p013-img3.png)
 
-### Path Loss Profile
+![Geoclimatic Data panels — detail](../../../assets/images/ce-pro/training-07/p013-img4.png)
 
-Graphical view showing:
-- Terrain cross-section between two link ends
-- LOS line and Fresnel zone clearance
-- Obstacle heights and clearance margins
+![Geoclimatic Data panels — detail](../../../assets/images/ce-pro/training-07/p013-img5.png)
 
-## Geoclimatic Data
+### Interfering Links
 
-CE Pro uses geoclimatic data per **ITU-R P.530** to calculate:
+For each link, CE Pro also shows:
 
-| Parameter | Description |
-|-----------|-------------|
-| Rain attenuation | Rain fade probability (ITU-R P.838) |
-| Multipath fading | Flat/dispersive fade probability |
-| Availability | % annual availability based on fade margin |
-| Outage seconds | Expected downtime per year |
+- Interfering link on the map
+- Power budget
+- Path loss
+- Profile graphical view
+- Spectrum mask overlap
 
-## Interference Analysis
+![Interfering link on the map, power budget/path loss panel, profile chart, and spectrum mask overlap](../../../assets/images/ce-pro/training-07/p014-img1.png)
 
-For each link, CE Pro calculates:
+![Interfering link — spectrum mask chart detail](../../../assets/images/ce-pro/training-07/p014-img2.png)
 
-| Analysis | Description |
-|----------|-------------|
-| **Interference From** | Signals from other links interfering into this receiver |
-| **Interference To** | This link's signal interfering into other receivers |
+**Exercise:** `C:\CE_Course\0. Descriptions\7. RL Introduction.pdf`
 
-The interfering link view shows:
-- Interfering link drawn on the map
-- Carrier-to-Interference ratio (C/I)
-- Power budget at the interfered receiver
-- Path loss and profile of the interference path
-- Spectrum mask overlap check
-
-## Modulation Adaptive Thresholds
-
-Modern microwave radios support adaptive modulation (AM). The radio model defines RSL thresholds for each modulation:
-
-| Modulation | Typical RSL Threshold |
-|-----------|----------------------|
-| QPSK | −90 dBm |
-| 16QAM | −84 dBm |
-| 64QAM | −78 dBm |
-| 256QAM | −72 dBm |
-| 1024QAM | −65 dBm |
-
-*(Exact values depend on radio model and bandwidth)*
-
-## Antenna Selection
-
-Parabolic dish antennas are characterised by:
-
-| Parameter | Description |
-|-----------|-------------|
-| Diameter (m) | Dish size — affects gain and beamwidth |
-| Gain (dBi) | Antenna gain at centre frequency |
-| Beamwidth (°) | 3 dB beamwidth in azimuth and elevation |
-| Front-to-Back ratio (dB) | Rejection of rear interference |
-| Cross-polarisation (dB) | Isolation between polarisations |
-
-*Reference: CE Desktop Training — 7. RL Introduction*
-*Contact: info@cellular-expert.com | +370 5 2150575*
+**Contact:** info@cellular-expert.com | +370 5 2150575 | www.cellular-expert.com

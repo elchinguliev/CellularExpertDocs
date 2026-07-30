@@ -1,33 +1,3 @@
-# CE Express Administrator Guide v7.2
-
-> **Version:** CE Express v7.2
-
-Cellular Expert Express Administrator Guide 7.2
-
-**About Cellular Expert**
-
-![Image p4](../../assets/images/ce-express/admin-guide-v72/p004-img1.png)
-
-Cellular Expert UAB (CE) developed ultra-fast wave
-propagation, communication systems deployment planning
-and radio/optical visibility calculation software for ESRI's
-ArcGIS mapping environment, which is widely used within
-Telecom, Defense, IoT, and other companies and
-organizations.
-
-CE's communication network planning, network asset
-management, operational support software and customer-
-tailored solutions enhance the intelligence and business
-efficiency of more than 170 communication network
-companies, regulators, and defense organizations in more
-than 50 countries.
-
-Copyright © 2026 UAB CELLULAR EXPERT. All rights
-reserved. Cellular Expert and Cellular Expert logo are
-registered trademarks, @cellular-expert.com and
-www.cellular-expert.com are service marks of UAB
-CELLULAR EXPERT in Lithuania and some other countries.
-
 **1. System requirements**
 
 Welcome to Cellular Expert. This chapter will guide you through the minimal hardware and software
@@ -74,12 +44,17 @@ ArcGIS included) with:
 ![Diagram: ArcGIS Enterprise and CE Server-Express on-premises deployment (simplified)](../../assets/images/ce-express/admin-guide-v72/p006-diagram.png)
 
 Technical requirements:
-1. Server for ArcGIS SW:
-ArcGIS Web Adaptor (Esri ref URL);
-ArcGIS Portal (Esri ref URL);
-ArcGIS GIS Server (Esri ref URL);
-ArcGIS Data Store (Esri ref URL);
-CE Frontend (it could be installed together with the CE Express backend)
+**1. Server for ArcGIS SW:**
+
+**ArcGIS Web Adaptor** (Esri ref URL);
+
+**ArcGIS Portal** (Esri ref URL);
+
+**ArcGIS GIS Server** (Esri ref URL);
+
+**ArcGIS Data Store** (Esri ref URL);
+
+**CE Frontend (it could be installed together with the CE Express backend)**
 CPU:
 Minimum 1 core
 Recommended 8 cores
@@ -90,13 +65,11 @@ Recommended 16 GB
 Optimal 32 GB
 Storage:
 Minimum 500 GB of free space
-SPTTH
-
-Recommended 2TB (Note 1)
+Recommended 2TB (**Note 1**)
 2. CE Express:
 CPU: 32cores
 RAM: 64 GB
-Storage: 1+ TB (Note 2)
+Storage: 1+ TB (**Note 2**)
 3. ArcGIS Pro:
 CPU: 4 cores
 RAM: 16 GB
@@ -111,37 +84,37 @@ CUDA Toolkit 11.0 to 12
 ![Diagram: ArcGIS Enterprise and CE Server-Express on-premises or cloud deployment architecture](../../assets/images/ce-express/admin-guide-v72/p007-diagram.png)
 
 Technical requirements:
-1. ArcGIS Web Adaptor (Esri ref URL):
+1. **ArcGIS Web Adaptor** (Esri ref URL):
 CPU: 1 core
 RAM: 32 GB
 Storage: 512 GB
-2. ArcGIS Portal (Esri ref URL):
+2. **ArcGIS Portal** (Esri ref URL):
 CPU: 4 cores
 RAM: 32 GB
 Storage: 1 TB
-3. ArcGIS GIS Server (Esri ref URL):
+3. **ArcGIS GIS Server** (Esri ref URL):
 CPU: 4 cores
 RAM: 32 GB
 Storage: 512 GB
-4. ArcGIS Data Store (Esri ref URL):
+4. **ArcGIS Data Store** (Esri ref URL):
 CPU: 1 core
 RAM: 32 GB
 Storage: 1+ TB (Note 1)
-5. CE Server-Express:
+5. **CE Server-Express**:
 CPU: 16 cores
 RAM: 64 GB
 Storage: 1+ TB (Note 2)
-6. CE Frontend (it could be installed together with the ArcGIS Webadaptor):
+6. **CE Frontend** (it could be installed together with the ArcGIS Webadaptor):
 CPU: 1 core
 RAM: 8 GB
 Storage: 128 GB
-7. ArcGIS Pro:
+7. **ArcGIS Pro:**
 CPU: 4 cores
 RAM: 16 GB
 Storage: 1 TB
-Note 1: ArcGIS Data Store shall contain the background maps, imaging and other general GIS data. The
+**Note 1:** ArcGIS Data Store shall contain the background maps, imaging and other general GIS data. The
 required storage capacity is to be confirmed in consultation with the client and/or GIS data vendor.
-Note 2: CE Server-Express shall store locally the GIS raster data (GeoTIFF) needed for calculations (DEM,
+**Note 2:** CE Server-Express shall store locally the GIS raster data (GeoTIFF) needed for calculations (DEM,
 DSM, DHM). The required storage capacity to be confirmed in consultation with the client and/or GIS data
 vendor and dependent on the ultimate choice for GIS resolution: 0.2/0.5/1/2 m. or lower. Likely some
 combination of resolutions may be logical (e.g. 1 m or below for urban/suburban areas, and 2 m or 5 m for

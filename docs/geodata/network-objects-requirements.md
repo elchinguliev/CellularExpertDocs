@@ -36,9 +36,7 @@ identification name.
 
 2.2.1 Height
 Antenna (cell) height in meters above ground level. If the Mobile Operator cannot provide this information,
-a default value can be applied based on land use types. For example, in rural areas where towers are
-
-commonly used, the height might be set to 60 meters.
+a default value can be applied based on land use types. For example, in rural areas where towers are commonly used, the height might be set to 60 meters.
 2.2.2 Azimuth
 Antenna (cell) direction relative to true north, with values ranging from 0 to 359 degrees. If the Mobile
 Operator cannot provide the cell azimuth value, the following can be applied:

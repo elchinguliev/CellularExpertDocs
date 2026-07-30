@@ -93,11 +93,3 @@ Description: C:\CE_Course\0. Descriptions
 Name: 1. Create workspace.pdf
 
 ![Slide 10](../../../assets/images/ce-pro/training-pdf-01-workspace/page-10.png)
-
-## Thank you!
-
-Tel.: +370 5 2150575
-
-S.Konarskio g. 28A LT-03127 Vilnius Lithuania
-
-![Slide 11](../../../assets/images/ce-pro/training-pdf-01-workspace/page-11.png)

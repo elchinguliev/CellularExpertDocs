@@ -83,11 +83,3 @@ Description: C:\CE_Course\0. Descriptions
 Name: 4. Cell Prediction.pdf
 
 ![Slide 7](../../../assets/images/ce-pro/training-pdf-04-cell-prediction/page-7.png)
-
-## Thank you!
-
-Tel.: +370 5 2150575
-
-S.Konarskio g. 28A LT-03127 Vilnius Lithuania
-
-![Slide 8](../../../assets/images/ce-pro/training-pdf-04-cell-prediction/page-8.png)

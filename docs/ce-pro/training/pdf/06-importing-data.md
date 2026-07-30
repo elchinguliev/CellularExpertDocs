@@ -97,11 +97,3 @@ Description: C:\CE_Course\0. Descriptions
 Name: 6. Importing data.pdf
 
 ![Slide 11](../../../assets/images/ce-pro/training-pdf-06-importing-data/page-11.png)
-
-## Thank you!
-
-Tel.: +370 5 2150575
-
-S.Konarskio g. 28A LT-03127 Vilnius Lithuania
-
-![Slide 12](../../../assets/images/ce-pro/training-pdf-06-importing-data/page-12.png)

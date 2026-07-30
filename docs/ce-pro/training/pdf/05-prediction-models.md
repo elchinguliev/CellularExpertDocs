@@ -407,11 +407,3 @@ Description: C:\CE_Course\0. Descriptions
 Name: 5. Prediction models.pdf
 
 ![Slide 37](../../../assets/images/ce-pro/training-pdf-05-prediction-models/page-37.png)
-
-## Thank you!
-
-Tel.: +370 5 2150575
-
-S.Konarskio g. 28A LT-03127 Vilnius Lithuania
-
-![Slide 38](../../../assets/images/ce-pro/training-pdf-05-prediction-models/page-38.png)

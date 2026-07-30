@@ -99,11 +99,3 @@ Description: C:\CE_Course\0. Descriptions
 Name: 3. Creating Objects.pdf
 
 ![Slide 8](../../../assets/images/ce-pro/training-pdf-03-objects/page-8.png)
-
-## Thank you!
-
-Tel.: +370 5 2150575
-
-S.Konarskio g. 28A LT-03127 Vilnius Lithuania
-
-![Slide 9](../../../assets/images/ce-pro/training-pdf-03-objects/page-9.png)

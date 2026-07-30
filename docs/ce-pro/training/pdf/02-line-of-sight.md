@@ -195,11 +195,3 @@ Description: C:\CE_Course\0. Descriptions
 Name: 2. Line of Sight (Profile).pdf
 
 ![Slide 19](../../../assets/images/ce-pro/training-pdf-02-line-of-sight/page-19.png)
-
-## Thank you!
-
-Tel.: +370 5 2150575
-
-S.Konarskio g. 28A LT-03127 Vilnius Lithuania
-
-![Slide 20](../../../assets/images/ce-pro/training-pdf-02-line-of-sight/page-20.png)

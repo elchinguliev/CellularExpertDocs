@@ -33,7 +33,3 @@
 - License information
 
 ![Slide 5](../../../assets/images/ce-pro/training-pdf-0-installation/page-5.png)
-
-## Questions?
-
-![Slide 6](../../../assets/images/ce-pro/training-pdf-0-installation/page-6.png)

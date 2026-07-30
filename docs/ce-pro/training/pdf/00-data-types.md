@@ -113,7 +113,3 @@ Following should be defined: input layer, output raster cell size, data field th
 Automate your GIS tasks
 
 ![Slide 12](../../../assets/images/ce-pro/training-pdf-00-data-types/page-12.png)
-
-## Questions?
-
-![Slide 13](../../../assets/images/ce-pro/training-pdf-00-data-types/page-13.png)

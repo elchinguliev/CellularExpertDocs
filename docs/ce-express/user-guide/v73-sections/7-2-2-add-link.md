@@ -23,8 +23,7 @@ want to link to. Choose the component and confirm the selection. A new link has 
 
 ![Image p280](../../../assets/images/ce-express/user-guide-v73/p280-img2.png)
 
-5. Choose the repeaters(s) you want to link to and confirm the selection with ![icon](../../../assets/images/ce-express/user-guide-v73/p280-img5.png) in
-the top left corner
+5. Choose the repeater(s) you want to link to and confirm the selection with ![icon](../../../assets/images/ce-express/user-guide-v73/p280-img5.png) in the top left corner
 
 ![Image p280](../../../assets/images/ce-express/user-guide-v73/p280-img3.png)
 

@@ -13,22 +13,36 @@ below the column names:
 
 Users can use star symbol “*” as wildcard. Possible filtering options:
 *- any non-null value
+
 !* - null value
+
 [text] - anything that contains the [text] value at the beginning. The same as [text]*
+
 [text]*
+
 *[text]
+
 [text]*[text]
+
 ![text] - anything but the defined [text] value
+
 ”[text]” - for exact match of value
+
 Filtering options for numeric values:
+
 =n - exact match of n
+
 <>n - anything else but n
+
 <n - less than n
+
 >n - greater than n
+
 <=n - less than or equal to n
+
 >=n - greater than or equal to n
-The Filter function can be used on several columns simultaneously. The headers of columns with active
-Filter function are marked in pink color:
+
+The Filter function can be used on several columns simultaneously. The headers of columns with active Filter function are marked in pink color:
 
 ![Image p278](../../../assets/images/ce-express/user-guide-v73/p278-img1.png)
 

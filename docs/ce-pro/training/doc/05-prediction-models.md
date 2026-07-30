@@ -1,231 +1,341 @@
-# 05. Prediction Models
+**Cellular Expert**
 
-> **Version:** CE Pro v4.9
+**5. Prediction Models Exercise**
 
-## Path Loss
+**\**
 
-The fundamental relationship used in CE Pro predictions:
+# Objective
 
-```
-Field Strength = EIRP – Antenna Attenuation – Path Loss
-```
+Do calculations with different prediction models and analyze their differences.
 
-## Prediction Models Overview
+At the end of exercise, you will be able to:
 
-CE Pro ships with five path loss models, managed in the **Prediction Model Manager**:
+- Create prediction model.
 
-- **ITU-R P.452** (6 GHz – 50 GHz)
-- **UniMacro** (400 MHz – 3 GHz)
-- **CEC ITU-R** (100 MHz – 6 GHz)
-- **LOS ITU-R P.525** (6 GHz – 100 GHz)
-- **ITU-R P.368** (10 kHz – 30 MHz)
+- Change predictions model.
 
-![Prediction Model Manager tree listing all five models](../../../assets/images/ce-pro/training-05/p003-img1.png)
+- Get familiar with prediction model parameters.
 
-## CE Path Loss Models
+# Initial data
 
-1. **CEC ITU-R Model** (100 MHz – 6 GHz) is a combination model intended for use in a variety of different radiocommunication systems, derived explicitly from ITU-R path loss modelling methods:
-   - Receive antenna in **LOS** condition — path loss calculated as FSL based on Recommendation ITU-R P.525
-   - Receive antenna in **OLOS** condition — total path loss modelled as a combination of basic FSL (ITU-R P.525) and clutter loss (ITU-R P.2108)
-   - Receive antenna in **NLOS** condition — path loss as a combination of basic FSL (ITU-R P.525), additional losses due to diffraction (ITU-R P.526), and clutter losses (ITU-R P.2108)
-2. **ITU-R P.452 Model** (6 GHz – 50 GHz) is a universally applicable model with a very wide frequency range from 0.1–50 GHz, based on the methodology in Recommendation ITU-R P.452. It does not define an OLOS visibility condition — clutter is treated as part of the general obstacles category, so only two radio visibility cases are distinguished:
-   - Receive antenna in **LOS** condition — path loss modelled based on the FSL principle
-   - Receive antenna in **NLOS** condition — total path loss modelled using a combination of basic transmission losses and losses due to diffraction
-3. **LOS ITU-R P.525 Model** (6 GHz – 100 GHz) is the FSL path loss calculated based on the method in Recommendation ITU-R P.525. It could be used for modelling radio links where LOS is considered a necessary condition, e.g. for fixed (point-to-point) links or mobile systems in mmWave bands.
-4. **UniMacro Model** (400 MHz – 3 GHz) is CE's proprietary combination model developed over the years of practical experience with the operational planning of cellular mobile networks in the 400–2600 MHz range. It has been fine-tuned to produce coverage predictions most closely aligned with actual mobile network user experience in the field, modelling different path losses depending on radio visibility conditions:
-   - Receive antenna in **LOS** condition — path loss modelled based on the FSL principle
-   - Receive antenna in **OLOS** condition — path loss modelled using Extended Hata (Open Area) with additional clutter loss based on Recommendation ITU-R P.2108
-   - Receive antenna in **NLOS** condition — path loss modelled using Extended Hata with additional diffraction losses (ITU-R P.526) as well as clutter losses (ITU-R P.2108)
-5. **ITU-R P.368** (10 kHz – 30 MHz)
+Prepared project with:
 
-Every model can be configured with multiple named calibrations — for example, the built-in **ITU-R P.525** model ships with `mmWave Band 300m/500m/1km/2km radius` presets, and **ITU-R P.368** ships with radius presets from `1km` up to `100km`, plus `Small Cell` and `WiFi` presets:
+- Network objects.
 
-![Prediction Model Manager with each model's default and preset calibrations expanded](../../../assets/images/ce-pro/training-05/p005-img1.png)
+- Geodata.
 
-![Prediction Model Manager — detail](../../../assets/images/ce-pro/training-05/p005-img2.png)
+- Equipment and models.
 
-![Prediction Model Manager — detail](../../../assets/images/ce-pro/training-05/p005-img3.png)
+<img src="../../../assets/images/ce-pro/training-05/image1.png" style="width:6.5in;height:3.3875in" alt="A screenshot of a map Description automatically generated" />
 
-![Prediction Model Manager — detail](../../../assets/images/ce-pro/training-05/p005-img4.png)
+# CEC ITU-R Model (100MHz – 6GHz)
 
-![Prediction Model Manager — detail](../../../assets/images/ce-pro/training-05/p005-img5.png)
+Open a project from C:\CE_Course\PredictionModels\Project location.
 
-## Common Input Data
+Open Prediction Model Manager tool and preview each Default prediction model. These models will be automatically created with new workspace.
 
-Every model draws on the same three categories of input:
+<img src="../../../assets/images/ce-pro/training-05/image33.png" style="width:6.16495in;height:0.95833in" />
 
-| Category | Inputs |
-|---|---|
-| **Geographic data** | Elevation, Clutter classes*, Clutter height grid* |
-| **Network data** | Receiver settings |
-| **Algorithm** | Prediction model settings |
+<img src="../../../assets/images/ce-pro/training-05/image2.png" style="width:2.2in;height:2.27in" alt="A screenshot of a computer Description automatically generated" />
 
-\* Optional — improves OLOS/NLOS accuracy but is not required.
+Find cells by cell name attribute on the map:
 
-## 1. CEC ITU-R (100 MHz – 6 GHz)
+- NBa 01
 
-For frequencies from about 30 MHz to about 6 GHz. Modelling distinguishes three radio visibility conditions — **LOS**, **OLOS**, **NLOS**:
+- NBa 02
 
-![CEC ITU-R terrain cross-section diagram](../../../assets/images/ce-pro/training-05/p006-diagram.png)
+- NBa 03
 
-![CEC ITU-R map and calculated profile](../../../assets/images/ce-pro/training-05/p006-mapprofile.png)
+<img src="../../../assets/images/ce-pro/training-05/image3.png" style="width:2.625in;height:2.33129in" alt="A map of a city Description automatically generated" />
 
-### Path Loss Equation (LOS / OLOS)
+Select these cells and open Object Editor tool. Double click on first cell to open its attribute, then scroll down in parameters option to find Prediction model parameter.
 
-```
-L = K_off + K_LogD × log(d) + K_LogF × log(f)
-```
+<img src="../../../assets/images/ce-pro/training-05/image4.png" style="width:4.83in;height:2.62in" alt="A screenshot of a computer Description automatically generated" />
 
-| Parameter | Description | Default |
-|-----------|-------------|---------|
-| K_off | Constant offset (dB) | 32 |
-| K_LogD | Distance influence coefficient | 20 |
-| K_LogF | Frequency influence coefficient | 20 |
-| d | Distance (km) | — |
-| f | Frequency (MHz) | — |
+The heading shows which type and model is applied for the cell.
 
-![Path loss equation parameters panel](../../../assets/images/ce-pro/training-05/p009-img1.png)
+<img src="../../../assets/images/ce-pro/training-05/image5.png" style="width:4.9in;height:0.58in" />
 
-![Path loss equation parameters panel — obstructed distance coefficient highlighted](../../../assets/images/ce-pro/training-05/p009-img2.png)
+Preview other cells’ prediction model. Then open Prediction Model Manager tool again and find this model there.
 
-### Path Loss Equation (NLOS)
+Double click to open it attributes.
 
-```
-L = K_off + K_LogD_obs × log(d) + K_LogF × log(f)
-```
+<img src="../../../assets/images/ce-pro/training-05/image6.png" style="width:2.71in;height:7.09in" alt="A screenshot of a computer Description automatically generated" />
 
-K_LogD_obs (obstructed distance coefficient) default = **30**
+Then open RF Prediction tool and run the calculations with defined parameters in the picture below.
 
-### Clutter Loss
+<img src="../../../assets/images/ce-pro/training-05/image7.png" style="width:4.86in;height:2.82in" alt="A screenshot of a computer Description automatically generated" />
 
-- **Diffraction loss** for solid obstacles, based on the building clutter class and elevation
-- **Clutter loss** — based on the diffraction calculation, per **ITU-R P.2108**
-- **Penetration loss** (Outdoor → Indoor)
-- **Receiver loss**
+After successful calculation, preview the results.
 
-![Clutter class table and clutter/penetration loss coefficients panel](../../../assets/images/ce-pro/training-05/p010-img1.png)
+<img src="../../../assets/images/ce-pro/training-05/image8.png" style="width:6.5in;height:3.40486in" alt="A screenshot of a computer screen Description automatically generated" />
 
-Solid obstacle (building) diffraction uses **Single Knife Edge (SKE)** per ITU-R P.526 — an idealised model of diffraction over a single obstruction:
+If prediction model provides too optimistical output to all conditions: LOS, OLOS and NLOS, then open ***3km radius*** prediction model parameters and change Offset coefficient, dB from 32 to 45. It simply works as a offset in Field Strength calculations, and would add additional 13dB loss (45 – 32 = 13 dB).
 
-```
-Tx ---d1--- [obstacle h > 0] ---d2--- Rx
-```
+<img src="../../../assets/images/ce-pro/training-05/image9.png" style="width:3.24003in;height:0.50007in" />
 
-**ITU-R P.2108 clutter loss estimation** (Method 1: additional clutter shadowing loss with diffraction as the dominant effect) — worked example at 2.1 GHz, 1.5 m antenna height, 27 m street width, 10 m representative clutter height:
+Press Apply button. Run RF Predictions with the same parameters.
 
-| Result | Value |
-|---|---|
-| Clutter loss for open area scenarios | 22.4 dB |
-| Clutter loss for obstructed area scenarios | 19.6 dB |
+Leave enabled only Field Strength 1 layers from both predictions.
 
-![Clutter LOS estimation table and clutter feature class](../../../assets/images/ce-pro/training-05/p012-img1.png)
+<img src="../../../assets/images/ce-pro/training-05/image10.png" style="width:2.09in;height:3.8in" alt="A screenshot of a computer Description automatically generated" />
 
-![Clutter LOS estimation table and clutter feature class — detail](../../../assets/images/ce-pro/training-05/p012-img2.png)
+Click on Map \> Explore, and then click once on the map. The tool will provide information about raster values on this location.
 
-### Penetration Loss (Outdoor → Indoor) — 3GPP TR 38.901
+<img src="../../../assets/images/ce-pro/training-05/image11.png" style="width:6.04251in;height:1.10432in" alt="A screenshot of a computer Description automatically generated" />
 
-CE's outdoor-to-indoor path loss calculation is based on the method recommended in 3GPP TR 38.901, which accounts for the indoor portion of the total radio signal propagation path. Two building-entry loss profiles are assumed:
+Field Strength for second prediction is lower by 13 (because we defined higher Offset value by 13).
 
-- **Low-loss BEL Model** — average traditional buildings
-- **High-loss BEL Model** — modern, thermally insulated buildings (higher wall penetration coefficients)
+If Path Loss should slope higher or slower depend on distance, we can adjust two parameters:
 
-```
-L_glass     = 2.0 + 0.2f
-L_concrete  = 5.0 + 4.0f
-L_IIR_glass = 23.0 + 0.3f        (f = frequency in GHz)
-```
+- Distance coefficient – it affects only Line of Sight areas.
 
-![Penetration loss result maps](../../../assets/images/ce-pro/training-05/p014-img1.png)
+- Distance coefficient obstructed – it affects only NLOS and OLOS areas.
 
-## 2. ITU-R P.452 (6 GHz – 50 GHz)
+There is possibility to define different slope coeficients how radio wave would slope when it goes through obstacle. Change Distance coefiecient obstructed value from 40 to 30.
 
-For frequencies from about 6 GHz to about 50 GHz. Only **LOS** and **NLOS** are distinguished (no separate OLOS — clutter is treated as part of general obstacles):
+<img src="../../../assets/images/ce-pro/training-05/image12.png" style="width:3.15669in;height:0.39589in" />
 
-![ITU-R P.452 terrain cross-section diagram and settings panel](../../../assets/images/ce-pro/training-05/p015-img1.png)
+Press Apply and RF run predictions again. Compare the predictions using Explore tool. It gives higher effect in higher distance from Cell location. So signal value provides higher signal near transmitter.
 
-Uses the same Input Data, Path Loss Equation, Clutter, SKE Diffraction, and Penetration Loss methodology described above for CEC ITU-R.
+<img src="../../../assets/images/ce-pro/training-05/image13.png" style="width:1.60439in;height:0.81261in" alt="A screenshot of a computer Description automatically generated" />
 
-## 3. LOS ITU-R P.525 (6 GHz – 100 GHz)
+And lower signal after 1km.
 
-For frequencies from about 6 GHz to about 100 GHz. Pure Free Space Loss — use when LOS is guaranteed, such as fixed microwave links or 5G NR mmWave (FR2):
+<img src="../../../assets/images/ce-pro/training-05/image14.png" style="width:1.04181in;height:0.77094in" alt="A screenshot of a computer Description automatically generated" />
 
-![LOS ITU-R P.525 terrain cross-section diagram and settings panel](../../../assets/images/ce-pro/training-05/p021-img1.png)
+Open 3km radius prediction model parameters again, and change other parameters:
 
-## 4. UniMacro (400 MHz – 3 GHz)
+- Frequency coefficient: from 20 to 15
 
-Frequency range approximately 100 MHz – 2 GHz (up to 3 GHz), for distances up to 100 km. Based on the **9999 Ericsson** model:
+- Receiver height: from 1.5 to 10
 
-![UniMacro terrain cross-section diagram and settings panel](../../../assets/images/ce-pro/training-05/p024-img1.png)
+## Clutter
 
-### Path Loss Equation: 9999 Ericsson
+Open the Clutter Classes tool to preview the available clutter types. These represent the default clutter categories within the project. Here, you should map your clutter classes raster and define ID values for each clutter class. If multiple clutter classes apply, separate them with a comma.
 
-```
-L_H = a0 + a1×log(d) + a2×log(hB) + a3×log(hB)×log(d)
-        + 3.2×[log(11.75×hM)]² + g(f)
+<img src="../../../assets/images/ce-pro/training-05/image15.png" style="width:4.97986in;height:0.41672in" />
 
-g(f) = 44.49×log(f) – 4.78×[log(f)]²
-```
+For this project, we use the Sentinel-2 land raster, with its clutter types mapped in the Clutter Classes dialog. Below is the clutter classes raster table:
 
-| Parameter | Description | Default |
-|-----------|-------------|---------|
-| a0 | Constant offset (dB). Simply added to the loss grid — adjusting it minimises mean error and regulates the absolute level of the loss curve | 36.8 |
-| a1 | Distance influence coefficient — loss dependent on distance (atmospheric losses etc.); regulates the slope of the curve | 30.2 |
-| a2 | Transmitter height influence coefficient — related to errors in DTM, real Earth curvature, etc.; regulates the curve's vertical position like a0, but with respect to antenna height | -12.0 |
-| a3 | Okumura-Hata type multiplying factor for log(hB)×log(d) | 0.1 |
-| hB | Base station antenna height (m) | — |
-| hM | Mobile (UE) antenna height (m) | — |
-| d | Distance (km) | — |
-| f | Frequency (MHz) | — |
+<img src="../../../assets/images/ce-pro/training-05/image16.png" style="width:1.40645in;height:2.57328in" alt="A screenshot of a computer Description automatically generated" />
 
-The 9999 model is convenient for calibration: parameters **a0–a3** can be deduced from measured path loss dependence on distance (drive tests).
+Value 2 corresponds to the *Trees* class and is assigned as *Forest*.
 
-- **a0** — constant offset of the path loss curve (mean-error correction)
-- **a1** — regulates the slope of the curve with distance
-- **a2** — regulates the curve's vertical position with respect to antenna height (h)
-- **a3** — defines the slope of the curve for different base station antenna heights
+<img src="../../../assets/images/ce-pro/training-05/image17.png" style="width:4.2in;height:2.93in" />
 
-## 5. ITU-R P.368 (10 kHz – 30 MHz)
+Clutter classes has additional information – buildings.
 
-Ground wave propagation model for HF/VHF broadcast and land mobile systems. Unlike the other models, its path loss equation distinguishes **near** and **far** distance coefficients rather than a single obstructed/unobstructed pair:
+<img src="../../../assets/images/ce-pro/training-05/image18.png" style="width:6.5in;height:1.86458in" />
 
-```
-L = K_off + K_LogD × log(d) + K_LogF × log(f)
-```
+That can be added separately to each clutter class raster, and buildings data ID value applied in Clutter Classes dialog.
 
-| Parameter | Description | Default |
-|-----------|-------------|---------|
-| K_off | Constant offset (dB) | 32 |
-| Distance coefficient (near) | K_LogD | 20 |
-| Distance coefficient (far) | K_LogD | 40 |
-| K_LogF | Frequency influence coefficient | 20 |
+<img src="../../../assets/images/ce-pro/training-05/image19.png" style="width:4.14in;height:2.88in" />
 
-![ITU-R P.368 path loss equation parameters](../../../assets/images/ce-pro/training-05/p032-img1.png)
+This is done already, preview this data.
 
-Uses the same Clutter, SKE Diffraction, and Penetration Loss methodology described above.
+Open 3km radius prediction model and double click on Buildings clutter class.
 
-![Clutter class table and coefficients panel](../../../assets/images/ce-pro/training-05/p033-img1.png)
+<img src="../../../assets/images/ce-pro/training-05/image20.png" style="width:2.32292in;height:3.98582in" alt="A screenshot of a computer Description automatically generated" />
 
-![Clutter LOS estimation example](../../../assets/images/ce-pro/training-05/p035-img1.png)
+It provides additional parameters for how the prediction model behaves when encountering this obstacle. By default, Buildings data is treated as a solid obstacle and will be recognized in any CE prediction.
 
-![Clutter LOS estimation example — detail](../../../assets/images/ce-pro/training-05/p035-img2.png)
+Generate a profile from NBa 02 cell object to Rx location:
 
-## Prediction Model Manager
+- Latitude: 54.7272125
 
-Navigate to: **Cellular Expert tab → Prediction Model Manager**
+- Longitude: 25.2291091
 
-- The **Default** calibration cannot be deleted, and new calibrations copy their parameters from Default as a starting point
-- Each model/calibration can be independently tuned per environment
+<img src="../../../assets/images/ce-pro/training-05/image21.png" style="width:6.5in;height:3.98681in" alt="A screenshot of a computer Description automatically generated" />
 
-## Required Input Data
+The Path Loss option displays the Total Path Loss, which includes both model loss and diffraction loss.
 
-| Data | Required | Notes |
-|------|----------|-------|
-| DTM / DEM | ✅ Yes | Terrain elevation grid |
-| Clutter classes | Optional | Improves OLOS/NLOS |
-| Clutter height grid | Optional | Required for P.2108 |
-| Receiver height | ✅ Yes | UE height above ground |
-| Model coefficients | ✅ Yes | K_off, K_LogD, K_LogF |
+<img src="../../../assets/images/ce-pro/training-05/image22.png" style="width:2.68788in;height:1.4377in" alt="A white background with black text Description automatically generated" />
 
-**Exercise:** `C:\CE_Course\0. Descriptions\5. Prediction models.pdf`
+The Buildings clutter class is specifically used to define building locations. If the path crosses this clutter class, it will be identified as a solid obstacle, and diffraction loss will be added to the final path loss value.
 
-**Contact:** info@cellular-expert.com | +370 5 2150575 | www.cellular-expert.com
+### Diffraction coefficient
+
+Open Prediction Model Manager, then CEC ITU-R prediction model and 3km radius configuration. Double click on Buildings layer, and change Diffraction loss coefficient to 0.6.
+
+<img src="../../../assets/images/ce-pro/training-05/image23.png" style="width:3.22962in;height:0.44798in" />
+
+A lower coefficient can be applied for lower frequencies, where the signal is less affected.
+
+- Press Apply button and draw a profile from the same cell to the same Rx location as previously. (54.7272125; 25.2291091)
+
+<img src="../../../assets/images/ce-pro/training-05/image24.png" style="width:6.5in;height:4.00069in" alt="A screenshot of a computer Description automatically generated" />
+
+Compare results, previously it was 34.3 dB loss, and now 20.58 dB.
+
+<img src="../../../assets/images/ce-pro/training-05/image25.png" style="width:2.72955in;height:1.45854in" alt="A white background with black text Description automatically generated" />
+
+Do the same for other clutter classes, as an example Forest clutter class with Diffraction loss coefficient 0.5:
+
+<img src="../../../assets/images/ce-pro/training-05/image26.png" style="width:6.5in;height:4.02014in" alt="A screenshot of a computer Description automatically generated" />
+
+And using Diffraction loss coefficient – 0.7, it will change Clutter loss value from 16.81 dB to 20.6 dB.
+
+<img src="../../../assets/images/ce-pro/training-05/image27.png" style="width:6.5in;height:4.025in" alt="A screenshot of a computer Description automatically generated" />
+
+### Penetration loss
+
+Penetration loss describes how a signal is affected as it enters an obstacle and attenuates within it, as in an Outdoor-to-Indoor scenario. This loss includes several parameters and is only applied when the RX location falls within the specified clutter class.
+
+- Penetration loss offset – the entry loss to clutter object.
+
+- Penetration loss distance coefficient – how signal slope inside clutter class object.
+
+- Penetration loss frequency coefficient – how signal slope inside clutter class based on frequency.
+
+Draw a profile from NBb 01 cell to RX location:
+
+- Latitude: 54.7349136
+
+- Longitude: 25.2857285
+
+<img src="../../../assets/images/ce-pro/training-05/image28.png" style="width:6.5in;height:3.99722in" alt="A screenshot of a computer Description automatically generated" />
+
+Leave profile open, and open Prediction Model Manager, then CEC ITU-R prediction model and 3km radius configuration. Double click on Buildings layer, and change Penetration loss coefficient from 0 to 8 dB.
+
+<img src="../../../assets/images/ce-pro/training-05/image29.png" style="width:3.14627in;height:0.43756in" />
+
+Press Apply button and click Manual Profile button in Profile.
+
+<img src="../../../assets/images/ce-pro/training-05/image30.png" style="width:4.37561in;height:0.35422in" />
+
+Profile will be regenerated with updated Path Loss values. Penetration loss is now 8 dB higher than previously.
+
+<img src="../../../assets/images/ce-pro/training-05/image31.png" style="width:2.68788in;height:1.48979in" alt="A white background with black text Description automatically generated" />
+
+Change other penetration values and regenerate profile.
+
+<img src="../../../assets/images/ce-pro/training-05/image32.png" style="width:3.16711in;height:0.84387in" alt="A screenshot of a computer Description automatically generated" />
+
+And result is now:
+
+<img src="../../../assets/images/ce-pro/training-05/image33.png" style="width:2.71913in;height:1.44812in" alt="A white background with black text Description automatically generated" />
+
+Close Profile tool.
+
+## New Prediction Model
+
+Open Prediction Model Manager, right click on CEC ITU-R (100MHz – 6GHz) model and choose Create New.
+
+<img src="../../../assets/images/ce-pro/training-05/image34.png" style="width:3.39in;height:1.58in" alt="A screenshot of a computer Description automatically generated" />
+
+Define:
+
+- Model Name: PM 1km radius
+
+- Maximum Radius (km): 1
+
+- Effective Earth Radius: 8500
+
+- Receiver Height: 1.5
+
+- Offset coefficient: 45
+
+- Distance coefficient: 30
+
+- Distance coefficient obstructed: 40
+
+- Frequency coefficient: 20
+
+- Leave clutter values as it is.
+
+Press Apply.
+
+<img src="../../../assets/images/ce-pro/training-05/image35.png" style="width:2.65in;height:4.68in" alt="A screenshot of a computer Description automatically generated" />
+
+Open Object Editor for Cells NBa 01, NBa 02, NBa 03 and change prediction model to PM 1km radius for these Cells.
+
+<img src="../../../assets/images/ce-pro/training-05/image36.png" style="width:4.81in;height:2.08in" alt="A screenshot of a computer Description automatically generated" />
+
+Run RF predictions and preview results loaded in the Contents.
+
+<img src="../../../assets/images/ce-pro/training-05/image37.png" style="width:3.58in;height:2.81in" alt="A screenshot of a computer Description automatically generated" />
+
+Prediction radius will be limited to 1 kilometer.
+
+<img src="../../../assets/images/ce-pro/training-05/image38.png" style="width:5.35in;height:4.43in" alt="A map with a colorful circle Description automatically generated with medium confidence" />
+
+# UniMacro
+
+UniMacro model acts similary to CEC – ITU model, just here it has additional 9999 model coefficients.
+
+<img src="../../../assets/images/ce-pro/training-05/image39.png" style="width:3.11502in;height:1.68774in" alt="A screenshot of a computer Description automatically generated" />
+
+Open prediction dialog, expand UniMacro model and double click on Default prediction model. Preview parameters.
+
+<img src="../../../assets/images/ce-pro/training-05/image40.png" style="width:2.73in;height:5.15in" alt="A screenshot of a computer Description automatically generated" />
+
+Select NBb 01, 02 and 03 cells, then right click on Cells in the contents and open Attribute Table.
+
+Find Prediction model type ID field, right click on and choose Calculate Field.
+
+<img src="../../../assets/images/ce-pro/training-05/image41.png" style="width:2.49in;height:1.96in" alt="A screenshot of a computer Description automatically generated" />
+
+Define value 2 and press OK. By defining value 2, we change prediction model type for selected cells. If prediction model type is 2 – then it is UniMacro model. Here is prediction model table:
+
+<img src="../../../assets/images/ce-pro/training-05/image42.png" style="width:4.34436in;height:1.81275in" alt="A screenshot of a computer Description automatically generated" />
+
+Find prediction_model_configuration_id field and calculate value 1 for selected Cells.
+
+<img src="../../../assets/images/ce-pro/training-05/image43.png" style="width:4.17in;height:0.44in" alt="A white rectangle with a black stripe Description automatically generated" />
+
+Open Object Editor for selected Cells, double click on any cell in Object Editor and preview assigned prediction model.
+
+<img src="../../../assets/images/ce-pro/training-05/image44.png" style="width:4.63in;height:0.37in" />
+
+Open RF Prediction tool, and run predictions with defined parameters.
+
+<img src="../../../assets/images/ce-pro/training-05/image45.png" style="width:3.54in;height:2.81in" alt="A screenshot of a computer Description automatically generated" />
+
+Preview loaded results.
+
+<img src="../../../assets/images/ce-pro/training-05/image46.png" style="width:4.9in;height:4.27in" alt="A map with a colorful explosion Description automatically generated with medium confidence" />
+
+Open Prediction Model Manager, UniMacro model \> Default and one by one change:
+
+- Define A0: 45, and run RF Prediction.
+
+- Define A1: 40, and run RF Prediction.
+
+After that, compare all three predictions using Explore tool.
+
+<img src="../../../assets/images/ce-pro/training-05/image47.png" style="width:4.79in;height:1.15in" alt="A blue line on a white background Description automatically generated" />
+
+# LOS ITU-R P.525 (6GHz – 100GHz)
+
+The prediction model is dedicated to higher frequencies, usually for mmWave 5G bands. It gives the results for only LOS areas. Leave the same cells selected and open Cells Attribute Table (right click on Cells \> Attribute Table).
+
+- Find Prediction model type ID field and using Calculate field change value from 2 to 4.
+
+- For prediction_model_configuration_id define value 3.
+
+- Change:
+
+  - Power to 25;
+
+  - Frequency to 26000;
+
+  - Bandwidth to 200;
+
+  - Subcarrier spacing to 60;
+
+  - TxMIMO to 32
+
+  - RxMIMO to 32
+
+  - Active antenna effect to 6;
+
+  - Frequency group: mmWave Band.
+
+Open RF Prediction tool. Run predictions with the same parameters.
+
+<img src="../../../assets/images/ce-pro/training-05/image48.png" style="width:4.8in;height:2.85in" alt="A screenshot of a computer Description automatically generated" />
+
+It will provide coverage results where only LOS condition exist. Additionally, each cell will have signal strength value.
+
+<img src="../../../assets/images/ce-pro/training-05/image49.png" style="width:6.5in;height:3.40347in" alt="A screenshot of a computer screen Description automatically generated" />

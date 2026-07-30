@@ -1,145 +1,163 @@
-# 04. Creating Workspace
+**Cellular Expert**
 
-> **Version:** CE Pro v4.9
+**1. Creating Workspace**
 
-## CE Pro Project Architecture
+\
+=
 
-![Image p2](../../../assets/images/ce-pro/training-01/p002-img1.png)
+# Objective
 
-A CE Pro project connects **ArcGIS Pro** to the Cellular Expert add-in and to your local workstation files:
+This tutorial demonstrates how to create a personal geodatabase for use with Cellular Expert in a single-use configuration and introduces basic functions. By the end of the exercise, you will be able to:
 
-- **Database** — the CE Pro workspace geodatabase
-- **Geodata** — DTM, clutter, and obstacle rasters
-- **Results** — prediction and analysis outputs
+- Create ArcGIS Pro project.
 
-External data (ArcGIS Online, local files, or services) feeds into ArcGIS Pro, which the Cellular Expert add-in extends with RF planning tools.
+- Create a new Cellular Expert database.
 
-## What Is a Workspace?
+- Add and manage topographical data.
 
-A CE Pro Workspace is a geodatabase (`.gdb`) that stores all project data — cells, sites, antennas, links, and prediction results. Every CE Pro project must have one workspace before any RF work can begin.
+## Single-User Environment
 
-## CE Tools State
+For the Single-User configuration of Cellular Expert, all information about radio network objects is stored in a personal geodatabase (GDB format) or locally on the disc (calculation results, raster data in GeoTIFF format, etc.).
 
-The **CE Tools** tab in the ArcGIS Pro ribbon shows one of three states:
+# Create CE Workspace
 
-**Workspace is not added** — no workspace linked to this project yet:
+## Create ArcGIS Pro project
 
-![Image p3](../../../assets/images/ce-pro/training-01/p003-img1.png)
+This guide outlines the steps for creating and saving an ArcGIS Pro project, where we will store CE Workspace feature layer paths and layer visualizations. This will allow you to reopen the saved project at any time, view the added layers in the Contents pane, and continue working with them.
 
-**Workspace is added** — workspace found and geodata path is valid:
+Start ArcGIS Pro application. Click on *Start without a template* option.
 
-![Image p3](../../../assets/images/ce-pro/training-01/p003-img2.png)
+<img src="../../../assets/images/ce-pro/training-01/image1.png" style="width:6.5in;height:1.67569in" alt="A group of icons with text Description automatically generated" />
 
-**Workspace is added, but Geodata is missing** — workspace exists but the geodata folder path is broken:
+In the opened window, click on *New Map \> New Map*.
 
-![Image p3](../../../assets/images/ce-pro/training-01/p003-img3.png)
+<img src="../../../assets/images/ce-pro/training-01/image2.png" style="width:1.31132in;height:2.24086in" alt="Graphical user interface, application Description automatically generated" />
 
-## Creating a New Workspace
+A new map with basemaps layers will be added to the project. Click on *Project, Save Project*.
 
-When ArcGIS Pro opens, the start page lets you create a new project or open an existing one:
+<img src="../../../assets/images/ce-pro/training-01/image3.png" style="width:1.48in;height:2.15in" alt="A screenshot of a blue screen Description automatically generated" />
 
-1. Open ArcGIS Pro and add a **Map** or **Local Scene** to your project
-2. Click the **CE Desktop** tab in the ribbon
-3. Click **Create Workspace**
+In the new opened dialog, navigate to *C:\CE_Course\CreateWorkspace*
 
-![Image p4](../../../assets/images/ce-pro/training-01/p004-img1.png)
+<img src="../../../assets/images/ce-pro/training-01/image4.png" style="width:4.72917in;height:3.09771in" alt="A screenshot of a computer Description automatically generated" />
 
-4. Fill in the required fields:
+- If you are using ArcGIS Pro 3.3 version, just type **Project** in Name section.
 
-| Field | Description |
-|---|---|
-| New workspace path | Folder where the `.gdb` will be created |
-| Geodata folder path | Path to your DTM / clutter / obstacle rasters |
-| Projected coordinate system | Must match your geodata CRS (e.g., EPSG:3346 for Lithuania) |
-| Also create Local Scene | Tick to add a 3D scene view automatically |
+- If you are using ArcGIS Pro 3.1, or 3.2 version, click on New Item and select Folder
 
-CE Pro validates the geodata as you enter the path — matched rasters and coordinate systems are confirmed in green, mismatches are flagged in red:
+<img src="../../../assets/images/ce-pro/training-01/image5.png" style="width:2.80247in;height:1.75024in" alt="A screenshot of a computer Description automatically generated" />
 
-![Image p4](../../../assets/images/ce-pro/training-01/p004-img2.png)
+> Type Project.
+>
+> <img src="../../../assets/images/ce-pro/training-01/image6.png" style="width:2.21906in;height:0.66676in" alt="A screenshot of a computer Description automatically generated" />
+>
+> Click on any location to deactivate folder name section, and select this newly created folder.
+>
+> <img src="../../../assets/images/ce-pro/training-01/image7.png" style="width:1.83359in;height:0.54174in" alt="A blue rectangle with black text Description automatically generated" />
 
-![Image p4](../../../assets/images/ce-pro/training-01/p004-img3.png)
+Press *Save* button and it will create all necessary ArcGIS Pro folders and files in this location.
 
-5. Click **Create** — CE Pro will build the geodatabase and populate it with the default schema
+<img src="../../../assets/images/ce-pro/training-01/image8.png" style="width:6.10502in;height:2.81289in" alt="A screenshot of a computer Description automatically generated" />
 
-## Cellular Expert Project Structure
+## Create CE database
 
-After creation, the workspace folder contains:
+Click on **CE RCP** tab and open *Workspace \> Create*.
 
-```
-MyProject/
-├── Predictions/          ← RF prediction output rasters
-├── Results/               ← Processed result layers
-├── SystemFiles/          ← Internal CE configuration files
-├── Temp/                  ← Temporary calculation files
-├── VolatileResults/      ← Short-lived result cache
-├── VolatileTemp/          ← Short-lived temp cache
-└── Workspace.gdb/         ← Main geodatabase (cells, sites, antennas, links)
-```
+<img src="../../../assets/images/ce-pro/training-01/image9.png" style="width:1.87526in;height:1.47937in" />
 
-The screenshots below show a populated workspace folder, including its Predictions, Results, and Temp job subfolders:
+The *Create New Workspace* dialog will appear.
 
-![Image p5](../../../assets/images/ce-pro/training-01/p005-img1.png)
+***New workspace path** –* it will be automatically filled based on ArcGIS Pro project location. Leave it as it is.
 
-![Image p5](../../../assets/images/ce-pro/training-01/p005-img2.png)
+<img src="../../../assets/images/ce-pro/training-01/image10.png" style="width:6.5in;height:1.09167in" />
 
-![Image p5](../../../assets/images/ce-pro/training-01/p005-img3.png)
+***Geodata folder path** -* catalog where geodata are stored. Click on <img src="../../../assets/images/ce-pro/training-01/image11.png" style="width:0.2087in;height:0.2087in" /> *Browse* button and navigate to *C:\CE_Course\Geodata* directory, and select **Vilnius** catalog.
 
-![Image p5](../../../assets/images/ce-pro/training-01/p005-img4.png)
+<img src="../../../assets/images/ce-pro/training-01/image12.png" style="width:4.83333in;height:2.98882in" alt="A screenshot of a computer Description automatically generated" />
 
-## Cellular Expert Dataset Objects
+Press *Select Folder* button.
 
-![Image p6](../../../assets/images/ce-pro/training-01/p006-img1.png)
+<img src="../../../assets/images/ce-pro/training-01/image13.png" style="width:6.5in;height:1.91597in" alt="A screenshot of a computer Description automatically generated" />
 
-The `Workspace.gdb` contains the following feature classes:
+<u>*Note*:</u> *Projected Coordinate System* is filled automatically and taken from the defined *Elevation grid*. The purpose of this parameter is that the created workspace and geodata would have the same coordinate system.
 
-| Object | Description |
-|---|---|
-| Cell | Radio cell with RF parameters (frequency, power, antenna, technology) |
-| Site | Physical mast or rooftop location grouping one or more cells |
-| Radar | Radar interference source object |
-| Repeater | Signal repeater / booster |
-| CPE | Customer Premises Equipment (fixed wireless terminal) |
-| OMEN | Omni-directional microwave node |
-| Link | Point-to-point microwave or RL link |
+***Also create Local Scene*** – check to create a second scene for 3D visualization.
 
-## Changing Project Paths
+<img src="../../../assets/images/ce-pro/training-01/image14.png" style="width:6.5in;height:0.44722in" />
 
-If you move the geodata folder or the workspace after creation:
+Click *OK* button to create a new workspace. It will create Cellular Expert tables, feature datasets and add the new Cellular Expert workspace to the project. This procedure may take a few seconds to complete.
 
-1. Click **CE Desktop → Workspace → Settings**
-2. Update the **Geodata path** to the new location
-3. Update **Calculation paths** (Predictions, Results, Temp) if needed
-4. Click **Apply**
+As the results Workspace folder will be created in the same location as ArcGIS Pro project.
 
-![Image p7](../../../assets/images/ce-pro/training-01/p007-img1.png)
+<img src="../../../assets/images/ce-pro/training-01/image15.png" style="width:4.48in;height:2.83in" alt="A screenshot of a computer Description automatically generated" />
 
-## Project Settings and Rounding
+This folder contains all necessary information for CE project.
 
-Under **CE Desktop → Workspace → Project Settings** you can configure:
+<img src="../../../assets/images/ce-pro/training-01/image16.png" style="width:4.82in;height:3.07in" alt="A screenshot of a computer Description automatically generated" />
 
-- Coordinate display format (decimal degrees vs projected metres)
-- Power units (dBm / dBW)
-- Distance units (km / miles)
-- Rounding precision for displayed values
+Get back to ArcGIS Pro and preview that two tabs were created in ArcGIS Pro view.
 
-![Image p8](../../../assets/images/ce-pro/training-01/p008-img1.png)
+<img src="../../../assets/images/ce-pro/training-01/image17.png" style="width:2.10446in;height:0.9793in" alt="A picture containing graphical user interface Description automatically generated" />
 
-## Workspace Upgrade
+- Map_3D is Local Scene where you can work in 3D environment.
 
-CE Pro automatically tracks the workspace database structure. When you open a workspace created with an older CE version, CE Pro detects a schema mismatch and prompts an upgrade:
+- Map is 2D map.
 
-1. Go to **CE Desktop → Workspace → Upgrade**
-2. Review the list of new tables and fields that will be added
-3. Click **Upgrade Database**
+Click on Map view and continue to work with the project.
 
-![Image p9](../../../assets/images/ce-pro/training-01/p009-img1.png)
+<img src="../../../assets/images/ce-pro/training-01/image18.png" style="width:2.00028in;height:1.02098in" alt="A picture containing graphical user interface Description automatically generated" />
 
-![Image p9](../../../assets/images/ce-pro/training-01/p009-img2.png)
+The created workspace and topograhical data will appear on the Table of Contents. Move elevation.tif raster above Topographic layer, and switch on/off layers above it.
 
-![Image p9](../../../assets/images/ce-pro/training-01/p009-img3.png)
+<img src="../../../assets/images/ce-pro/training-01/image19.png" style="width:2.58in;height:1.25in" alt="A screenshot of a computer Description automatically generated" />
 
-> Upgrade is non-destructive — existing data is preserved. Always back up the `.gdb` before upgrading.
+<img src="../../../assets/images/ce-pro/training-01/image20.png" style="width:6.5in;height:4.00139in" alt="A screenshot of a map Description automatically generated" />
 
-**Exercise:** `C:\CE_Course\0. Descriptions\1. Create workspace.pdf`
+Adjust added rasters symbology by your requirements. Right click on the layer in Contents and choose Symbology.
 
-**Contact:** info@cellular-expert.com | +370 5 2150575 | www.cellular-expert.com
+<img src="../../../assets/images/ce-pro/training-01/image21.png" style="width:3.21in;height:3.42in" alt="A screenshot of a computer Description automatically generated" />
+
+<img src="../../../assets/images/ce-pro/training-01/image22.png" style="width:6.5in;height:4.08264in" alt="A screenshot of a map Description automatically generated" />
+
+# Profile
+
+Go to CE RCP tab, and open *Profile* tool. Here enter:
+
+For Transmitter:
+
+Latitude: 54.7539217
+
+Longitude: 25.2326465
+
+For Receiver
+
+Latitude: 54.7461165\
+Longitude: 25.2600037
+
+Then Click on *Manual Profile* button. Preview profile and involved geodata.
+
+Close Profile windows.
+
+# 3D View
+
+Right click on Map_3D and choose New Vertical Tab Group option.
+
+<img src="../../../assets/images/ce-pro/training-01/image23.png" style="width:3.37547in;height:2.63578in" alt="A screenshot of a computer Description automatically generated" />
+
+The project will be split into two windows.
+
+<img src="../../../assets/images/ce-pro/training-01/image24.png" style="width:5.875in;height:3.05864in" alt="A screenshot of a computer Description automatically generated" />
+
+Navigate in the map, 2D and 3D maps will move simultaneously.
+
+Using Explore button switch view angle on the 3D Map.
+
+<img src="../../../assets/images/ce-pro/training-01/image25.png" style="width:0.60425in;height:0.85429in" alt="A screenshot of a phone Description automatically generated" />
+
+<img src="../../../assets/images/ce-pro/training-01/image26.png" style="width:6.5in;height:3.55556in" alt="A screenshot of a computer screen Description automatically generated" />
+
+3D buildings can be added and visualized in Map_3D scene, as an example OpenStreetMap Buildings data can be added from LivingAtlas to the project.
+
+<img src="../../../assets/images/ce-pro/training-01/image27.png" style="width:4.64in;height:2.75in" alt="A screenshot of a computer Description automatically generated" />
+
+<img src="../../../assets/images/ce-pro/training-01/image28.png" style="width:6.5in;height:3.39236in" alt="A screenshot of a computer Description automatically generated" />

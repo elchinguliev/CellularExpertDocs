@@ -1,9 +1,5 @@
-**Cellular Expert**
 
 **3. Object Creation**
-
-\
-=
 
 # Objective
 

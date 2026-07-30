@@ -1,8 +1,5 @@
-**Cellular Expert**
 
 **4. Cell Prediction Exercise**
-
-**\**
 
 # Objective
 

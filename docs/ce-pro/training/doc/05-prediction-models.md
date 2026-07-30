@@ -1,8 +1,5 @@
-**Cellular Expert**
 
 **5. Prediction Models Exercise**
-
-**\**
 
 # Objective
 

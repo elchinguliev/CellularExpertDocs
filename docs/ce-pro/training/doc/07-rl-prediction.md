@@ -1,8 +1,5 @@
-**Cellular Expert**
 
 **7. RL Introduction**
-
-**\**
 
 # Objective
 

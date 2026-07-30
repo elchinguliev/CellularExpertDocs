@@ -342,8 +342,12 @@ to your email provider’s requirements.
 In this chapter, you will find a description of the geographical file types that are used in Cellular Expert.
 Use the “Geodata sets” tool to upload all the required data to the CE Express:
 
+![Image p16](../../assets/images/ce-express/admin-guide-only-v72/p016-img1.png)
+
 How to prepare geodata tif files is described below in this CE Express Administrator Guide.
-3.1.1 General information
+
+### 3.1.1 General information
+
 The CE tools make use of three distinct GIS data layers to obtain high precision modelling of radio wave
 propagation losses:
 1. Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), which describes Earth
@@ -354,18 +358,14 @@ be considered to be principal impediments for radio wave propagation.
 derived from land use data. If building heights are included in the clutter height raster, the clutter
 classes raster must have building outlines separated into their own class ID.
 These types of GIS data describing the radio wave propagation path are illustrated in Fig. 1, which shows
-
-![Image p16](../../assets/images/ce-express/admin-guide-only-v72/p016-img1.png)
-
-![Image p16](../../assets/images/ce-express/admin-guide-only-v72/p016-img2.png)
 the key propagation effects with corresponding types of path loss components: Free Space Loss (FSL),
 losses due to diffraction over terrain protrusions and obstacles, and losses due to clutter penetration.
+
+![Image p16](../../assets/images/ce-express/admin-guide-only-v72/p016-img2.png)
 
 Sometimes users may have the Digital Surface Model (DSM) elevation data to represent the path profile.
 The DSM is usually obtained by air-based scanning of surface of the Earth that cannot distinguish between
 the actual terrain level and the elevation due to buildings, forests, or other types of ground cover. The well
-
-![Image p17](../../assets/images/ce-express/admin-guide-only-v72/p017-img1.png)
 known and widely available sets of global DSM data include the USGS SRTM-1 and SRTM-3 as well as
 ASTER. Although a single path profile layer with DSM data could be used to model radio wave propagation,
 the path loss model will interpret it as a pure DTM, i.e., as if representing the homogeneous (and
@@ -380,131 +380,155 @@ resolution of path [profiling](#kw:42-step-2-profiling-pointtopoint-analysis:ce-
 - Urban areas: preferably 1 m, and at most 5 m.
 The comparative precision of modelling signal coverage in dense urban conditions when using respectively
 25 m resolution ASTER DSM data and 1 m resolution Maxar DTM & Buildings data is shown in Fig. 2.
+
+![Image p17](../../assets/images/ce-express/admin-guide-only-v72/p017-img1.png)
+
 To summarize, it is of critical importance to gather, configure and use suitable types of path [profiling](#kw:42-step-2-profiling-pointtopoint-analysis:ce-express-tr-los) data
 with appropriate resolution to obtain reliable results of network coverage simulations. Only then the user
 may be confident in simulated results of network coverage in terms of calculated received signal levels and
 other derivative operational parameters.
 All three layers could be prepared using ArcGIS Pro tools: Projection, Copy Raster and Raster Calculator.
-3.1.2 Geographic data
-Supported geographical data types:
+
+### 3.1.2 Geographic data
+
+**Supported geographical data types:**
 
 Only GeoTIFF is supported.
-Mandatory geographical data:
+
+**Mandatory geographical data:**
+
 Elevation, or Digital Terrain Model (DTM) grid.
-Uploaded rasters have the following requirements:
+
+**Uploaded rasters have the following requirements:**
 - Must be in [projected coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) system
 - Coordinate system units must be meters
 - All rasters must have the same coordinate system
 - Raster resolution in X and Y axis must match
-3.1.2.1 Elevation, or Digital Terrain Model (DTM) Grid (Mandatory)
+
+#### 3.1.2.1 Elevation, or Digital Terrain Model (DTM) Grid (Mandatory)
+
 The Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), represents the Earth’s
 ground level above sea level. Each raster pixel has its height value.
 A sample DTM raster is presented below. Each pixel represents 5 square meters with its height value. In
 reality, within a one-pixel area, the height is not the same everywhere. Thus, the pixel’s height value is the
 height in its center or the maximum. The smaller the pixels, the more accurate is the grid - but also more
 data to calculate.
-Prepare DTM raster
-3.1.2.1.1.1 Projection
-The raster must use a [Projected Coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) System. To check the coordinate system of your raster, use
-the Properties function in ArcGIS Pro. Add the raster to your project, right-click on it, and select Properties.
 
 ![Image p18](../../assets/images/ce-express/admin-guide-only-v72/p018-img1.png)
 
-![Image p18](../../assets/images/ce-express/admin-guide-only-v72/p018-img2.png)
+##### Prepare DTM raster
+
+###### 3.1.2.1.1.1 Projection
+
+The raster must use a [Projected Coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) System. To check the coordinate system of your raster, use
+the Properties function in ArcGIS Pro. Add the raster to your project, right-click on it, and select Properties.
 Then, go to the Source tab > Spatial Reference and check the Coordinate System type parameter to confirm
 it is in a [Projected Coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) System.
 
+![Image p18](../../assets/images/ce-express/admin-guide-only-v72/p018-img2.png)
+
 If your raster is in a Geographic Coordinate System or needs a different projection, use the Geoprocessing
+> [Project Raster](#kw:33-project-raster:ce-express-tr-geodata) tool to update it.
 
 ![Image p19](../../assets/images/ce-express/admin-guide-only-v72/p019-img1.png)
 
-![Image p19](../../assets/images/ce-express/admin-guide-only-v72/p019-img2.png)
-> [Project Raster](#kw:33-project-raster:ce-express-tr-geodata) tool to update it.
 In the Output Coordinate System, specify a new coordinate system. It is recommended to use a [UTM](#kw:what-is-a-projected-crs:ce-express-geodata)
 coordinate system under the WGS 1984 projection.
 
 You can find the appropriate [UTM](#kw:what-is-a-projected-crs:ce-express-geodata) zone for your area here:
 https://www.arcgis.com/apps/mapviewer/index.html?layers=b294795270aa4fb3bd25286bf09edc51
-3.1.2.2 [Clutter classes](#kw:clutter-classification-values:ce-express-geodata) grid
+### 3.1.2.2 [Clutter classes](#kw:clutter-classification-values:ce-express-geodata) grid
+
 This raster type provides information about land use. The naming and classification of land use types may
 
 ![Image p20](../../assets/images/ce-express/admin-guide-only-v72/p020-img1.png)
 
-![Image p20](../../assets/images/ce-express/admin-guide-only-v72/p020-img2.png)
 vary. An example is the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2 Land
 Cover
 
 This data is freely available worldwide.
-Prepare [Clutter Classes](#kw:clutter-classification-values:ce-express-geodata) raster
-3.1.2.2.1.1 Projection
+
+#### Prepare [Clutter Classes](#kw:clutter-classification-values:ce-express-geodata) raster
+
+##### 3.1.2.2.1.1 Projection
+
 It must have the same coordinate system as your elevation.tif raster. If your raster has different coordinate
+system, then use the Geoprocessing tool → [Project Raster](#kw:33-project-raster:ce-express-tr-geodata) to fix it.
 
 ![Image p21](../../assets/images/ce-express/admin-guide-only-v72/p021-img1.png)
 
+In the Output Coordinate System you would need to define the same coordinate system as your elevation.tif
+
 ![Image p21](../../assets/images/ce-express/admin-guide-only-v72/p021-img2.png)
 
-![Image p21](../../assets/images/ce-express/admin-guide-only-v72/p021-img3.png)
-system, then use the Geoprocessing tool → [Project Raster](#kw:33-project-raster:ce-express-tr-geodata) to fix it.
-
-In the Output Coordinate System you would need to define the same coordinate system as your elevation.tif
+raster. Click on Select Coordinate System button.
 
 ![Image p22](../../assets/images/ce-express/admin-guide-only-v72/p022-img1.png)
 
-![Image p22](../../assets/images/ce-express/admin-guide-only-v72/p022-img2.png)
-raster. Click on Select Coordinate System button.
 And choose the same coordinate system as your elevation.tif.
-3.1.2.3 Clutter height
+
+![Image p22](../../assets/images/ce-express/admin-guide-only-v72/p022-img2.png)
+
+### 3.1.2.3 Clutter height
+
 Represents actual clutter heights, which override the default heights specified in the Clutter table. The
 clutter heights raster requires the accompanying [clutter classes](#kw:clutter-classification-values:ce-express-geodata) raster and cannot be used independently.
 
-A clutter height raster can be derived from a Digital Surface Model (DSM) raster and a Digital Terrain Model
-
 ![Image p23](../../assets/images/ce-express/admin-guide-only-v72/p023-img1.png)
+
+A clutter height raster can be derived from a Digital Surface Model (DSM) raster and a Digital Terrain Model
 (DTM) raster using the ArcGIS Raster Calculator tool. To access this tool, open Geoprocessing tools and
 navigate to Spatial Analyst > Map Algebra > Raster Calculator. Use the following formula:
 DSM – DTM
 
-The calculation output will be the difference between the DSM and DTM grids, representing the clutter
-heights.
-Prepare Clutter Height raster
-3.1.2.3.1.1 Projection
-It must have the same coordinate system as your elevation.tif raster. If your raster has different coordinate
-
 ![Image p24](../../assets/images/ce-express/admin-guide-only-v72/p024-img1.png)
 
-![Image p24](../../assets/images/ce-express/admin-guide-only-v72/p024-img2.png)
-system, then use the Geoprocessing tool → Project Raster to fix it.
+The calculation output will be the difference between the DSM and DTM grids, representing the clutter
+heights.
 
-In the Output Coordinate System you would need to define the same coordinate system as your elevation.tif
+#### Prepare Clutter Height raster
+
+##### 3.1.2.3.1.1 Projection
+
+It must have the same coordinate system as your elevation.tif raster. If your raster has different coordinate
+system, then use the Geoprocessing tool → Project Raster to fix it.
 
 ![Image p25](../../assets/images/ce-express/admin-guide-only-v72/p025-img1.png)
 
-![Image p25](../../assets/images/ce-express/admin-guide-only-v72/p025-img2.png)
-raster. Click on Select Coordinate System button.
-And choose the same coordinate system as your elevation.tif.
+In the Output Coordinate System you would need to define the same coordinate system as your elevation.tif
 
-3.1.3 Antennas
-The [Antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) files in .txt format should be prepared and could be imported into the CE database
-using the CE Express antenna import tool. The CE Express application uses the Planet [antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna)
+![Image p25](../../assets/images/ce-express/admin-guide-only-v72/p025-img2.png)
+
+raster. Click on Select Coordinate System button.
 
 ![Image p26](../../assets/images/ce-express/admin-guide-only-v72/p026-img1.png)
 
-![Image p26](../../assets/images/ce-express/admin-guide-only-v72/p026-img2.png)
+And choose the same coordinate system as your elevation.tif.
+
+### 3.1.3 Antennas
+
+The [Antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) files in .txt format should be prepared and could be imported into the CE database
+using the CE Express antenna import tool. The CE Express application uses the Planet [antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna)
 format. This format consists of a header, horizontal and vertical records. Example:
+
+![Image p26](../../assets/images/ce-express/admin-guide-only-v72/p026-img2.png)
+
 After import of the antenna, the antenna id could be used in the cells data table.
 
 ## 3.2 Create new workspace in CE Express
 
 To create a new workspace using start CE Express using URL
-
-![Image p27](../../assets/images/ce-express/admin-guide-only-v72/p027-img1.png)
-
-![Image p27](../../assets/images/ce-express/admin-guide-only-v72/p027-img2.png)
 http://CE_express_hostname/ceexpressfrontenfolder
 (Example: http://localhost/ceexp )
 - Login as user with administrator rights (user provided during setup)
 - In the workspace list click “+ new Workspace” button:
+
+![Image p27](../../assets/images/ce-express/admin-guide-only-v72/p027-img1.png)
+
 - In the window describe the workspace:
+
+![Image p27](../../assets/images/ce-express/admin-guide-only-v72/p027-img2.png)
+
 Workspace name: must be the name of a newly created folder.
 Geodata folder path: must be the physical path of the newly created folder.
 Coordinate system [EPSG](#kw:what-is-a-projected-crs:ce-express-geodata): enter coordinate system’s code. 4326 is [WGS84](#kw:what-is-a-projected-crs:ce-express-geodata).

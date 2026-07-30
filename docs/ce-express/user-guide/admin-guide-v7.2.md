@@ -703,17 +703,26 @@ with appropriate resolution to obtain reliable results of network coverage simul
 may be confident in simulated results of network coverage in terms of calculated received signal levels and
 other derivative operational parameters.
 All three layers could be prepared using ArcGIS Pro tools: Projection, Copy Raster and Raster Calculator.
-3.1.2 Geographic data
-Supported geographical data types:
+
+### 3.1.2 Geographic data
+
+**Supported geographical data types:**
+
 Only GeoTIFF is supported.
-Mandatory geographical data:
+
+**Mandatory geographical data:**
+
 Elevation, or Digital Terrain Model (DTM) grid.
-Uploaded rasters have the following requirements:
+
+**Uploaded rasters have the following requirements:**
+
 - Must be in [projected coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) system
 - Coordinate system units must be meters
 - All rasters must have the same coordinate system
 - Raster resolution in X and Y axis must match
-3.1.2.1 Elevation, or Digital Terrain Model (DTM) Grid (Mandatory)
+
+#### 3.1.2.1 Elevation, or Digital Terrain Model (DTM) Grid (Mandatory)
+
 The Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), represents the Earth’s
 ground level above sea level. Each raster pixel has its height value.
 A sample DTM raster is presented below. Each pixel represents 5 square meters with its height value. In
@@ -738,10 +747,12 @@ it is in a [Projected Coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce
 If your raster is in a Geographic Coordinate System or needs a different projection, use the Geoprocessing
 > [Project Raster](#kw:33-project-raster:ce-express-tr-geodata) tool to update it.
 
-In the Output Coordinate System, specify a new coordinate system. It is recommended to use a [UTM](#kw:what-is-a-projected-crs:ce-express-geodata)
-
 ![Image p33](../../assets/images/ce-express/admin-guide-v72/p033-img1.png)
+
+In the Output Coordinate System, specify a new coordinate system. It is recommended to use a [UTM](#kw:what-is-a-projected-crs:ce-express-geodata)
 coordinate system under the WGS 1984 projection.
+
+![Image p34](../../assets/images/ce-express/admin-guide-v72/p034-img1.png)
 
 You can find the appropriate [UTM](#kw:what-is-a-projected-crs:ce-express-geodata) zone for your area here:
 https://www.arcgis.com/apps/mapviewer/index.html?layers=b294795270aa4fb3bd25286bf09edc51
@@ -1029,35 +1040,37 @@ A write restriction is not applied during runtime, only after synchronization. A
 discarded during the sync operation.
 Users of the 'admin' group have no restrictions
 
-## 4.7 System tables
+### 4.7 System tables
 
 If tables are marked as System Tables, administrators can edit the tables in the webapp using the tool
 “System Tables” from the settings menu:
-System Tables can be tables for additional features implemented in the CE Inventory3D:
-Via the function System Tables the administrator can add, edit or delete records from predefined tables
-directly from the webapplication.
-
-## 4.8 Delete object permanently
-
-Users can remove objects from the database, but only an administrator can delete a removed object
-permanently. When a user removes an object, said object is marked as strikethrough. Administrators delete
 
 ![Image p52](../../assets/images/ce-express/admin-guide-v72/p052-img1.png)
 
+System Tables can be tables for additional features implemented in the CE Inventory3D:
+
 ![Image p52](../../assets/images/ce-express/admin-guide-v72/p052-img2.png)
 
-![Image p52](../../assets/images/ce-express/admin-guide-v72/p052-img3.png)
+Via the function System Tables the administrator can add, edit or delete records from predefined tables
+directly from the webapplication.
+
+### 4.8 Delete object permanently
+
+Users can remove objects from the database, but only an administrator can delete a removed object
+permanently. When a user removes an object, said object is marked as strikethrough. Administrators delete
+the object permanently by selecting the strikethrough object and clicking ![delete icon](../../assets/images/ce-express/admin-guide-v72/p052-img3.png):
 
 ![Image p52](../../assets/images/ce-express/admin-guide-v72/p052-img4.png)
-the object permanently by selecting the strikethrough object and clicking :
 
-## 4.9 Restore deleted image
+### 4.9 Restore deleted image
 
 When a user deletes an image, said image is marked as strikethrough on the File Server:
 
-Administrators may restore the image by selecting the strikethrough object and clicking .
+![Image p53](../../assets/images/ce-express/admin-guide-v72/p053-img1.png)
 
-## 4.10 Column and table aliasing
+Administrators may restore the image by selecting the strikethrough object and clicking the restore icon.
+
+### 4.10 Column and table aliasing
 
 Table and column names are displayed as specified in the table requirements. However, sometimes it is
 preferred to display a different table name in the application.
@@ -1065,26 +1078,28 @@ Therefore, administrators may add table or column aliases, and those aliases wil
 application.
 For this feature to work it is required that the administrator has configured the System Table inv3d_aliases:
 
-![Image p53](../../assets/images/ce-express/admin-guide-v72/p053-img1.png)
-
 ![Image p53](../../assets/images/ce-express/admin-guide-v72/p053-img2.png)
 
-![Image p53](../../assets/images/ce-express/admin-guide-v72/p053-img3.png)
 Table inv3d_aliases comprises the columns table_name, field_name, table_alias and field_alias.
 
-## 4.11 Reset password
+### 4.11 Reset password
 
 Users login with their user name and password combination. The user information is stored in the System
 Table user_info:
+
+![Image p53](../../assets/images/ce-express/admin-guide-v72/p053-img3.png)
+
 Note: Before using the “Reset Password feature” the server should be configured as mail server and have
 the possibility to send Emails.
 
 Once users are registered with their Email address they may change their password for login as CE Express
+account any time by clicking “Reset password”:
 
 ![Image p54](../../assets/images/ce-express/admin-guide-v72/p054-img1.png)
 
-![Image p54](../../assets/images/ce-express/admin-guide-v72/p054-img2.png)
-account any time by clicking “Reset password”:
 Users can ask an Inventory3D administrator to reset their password. The administrator can set a temporary
 password using the CE Inventory3D application and send it to the user:
+
+![Image p54](../../assets/images/ce-express/admin-guide-v72/p054-img2.png)
+
 The user will be asked to change the password during the first login with the temporary password.

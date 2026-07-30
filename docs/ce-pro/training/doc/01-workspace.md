@@ -1,9 +1,6 @@
-**Cellular Expert**
 
 **1. Creating Workspace**
 
-\
-=
 
 # Objective
 

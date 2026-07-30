@@ -1,12 +1,10 @@
 # RCP Coverage Tools
 
-> **Note:** RCP-specific coverage prediction tools: Best Server Visualization, RF Prediction (Narrowband/Broadband/WiFi), FWA RF Prediction, Quick Prediction, Radar Prediction, Compare Predictions, Optimal Site Positions, View Statistics, Network Manager.
+> **Note:** RCP-specific coverage prediction tools: Best Server Visualization, RF Prediction, FWA RF Prediction, Quick Prediction, Radar Prediction, Visibility Prediction, Compare Predictions, Optimal Site Positions, View Statistics, Network Manager.
 
 ### 9.2 Best Server Visualization
 This tool is designed to generate network object names for the Best Server raster. Loading the Best Server
-raster with attribute information into the Table of Contents can be time-consuming after RF prediction,
-
-audibility prediction, or other analyses. To streamline this process, we have introduced a separate tool that
+raster with attribute information into the Table of Contents can be time-consuming after RF prediction, audibility prediction, or other analyses. To streamline this process, we have introduced a separate tool that
 
 ![Image p162](../assets/images/ce-pro/rcp-guide/p162-img1.png)
 
@@ -118,9 +116,7 @@ Option to calculate the Uplink signal strength.
 RX EIRP, dBm
 The power that the receiving antenna can capture from the transmitted signal in dBm.
 BS RX Noise Floor
-BS RX Noise Floor refers to the minimum power level of unwanted noise or interference at the receiver at
-
-the base station.
+BS RX Noise Floor refers to the minimum power level of unwanted noise or interference at the receiver at the base station.
 Uplink Interference Ceiling
 the maximum allowable level of interference in the uplink direction of a wireless communication system
 before it adversely affects the system's performance or capacity.
@@ -335,9 +331,7 @@ Enable cell neighbour matrix calculation.
 Neighbour relationships between cells are determined based on:
 • Minimum FS threshold (dBm) – ensures neighbours are only counted if they meet a minimum signal
 level.
-• Neighbour minimum coverage (%) – sets the minimum overlap percentage required for a cell to
-
-qualify as a neighbour.
+• Neighbour minimum coverage (%) – sets the minimum overlap percentage required for a cell to qualify as a neighbour.
 • Maximum neighbour count – limits the number of neighbours assigned to each cell.
 The results include a visual neighbour matrix showing connections between cells with coloured link
 lines.

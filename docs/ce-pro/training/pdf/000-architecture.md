@@ -1,0 +1,134 @@
+# Architecture
+
+## CE Products and Solutions
+
+CE Desktop                                       CE Express For ArcGIS Pro                                For ArcGIS Enterprise
+
+- Desktop, Single Use Radio Planning system       • Web-based Radio Planning system
+
+- Wireless planning tools, together with          • Server-based, Multi User system ArcGIS Pro functionality                        • Includes CE Inventory3D
+
+- Can be used as a client of CE Express system    • Dashboard of Network Coverage Statistics
+
+CE Customized solutions
+
+ArcGIS            CE COTS
+
+![Slide 2](../../../assets/images/ce-pro/training-pdf-000-architecture/page-02.png)
+
+## CE Pro
+
+![Slide 3](../../../assets/images/ce-pro/training-pdf-000-architecture/page-03.png)
+
+## Cellular Expert for ArcGIS Pro Architecture
+
+Cellular Expert for ArcGIS Pro RCP | RLP | EMF
+
+Basic or higher license ArcGIS Pro 3.1 and above Additional extensions are not required
+
+Local Database         All files are saved in local disk
+
+![Slide 4](../../../assets/images/ce-pro/training-pdf-000-architecture/page-04.png)
+
+## Cellular Expert for ArcGIS Pro
+
+License Structure
+
+- RCP – Radio Coverage Prediction
+
+- RLP – Radio Link Prediction
+
+- EMF – Electromagnetic Field
+
+![Slide 5](../../../assets/images/ce-pro/training-pdf-000-architecture/page-05.png)
+
+## Geospatial Information
+
+✓   Field measurements ✓   Network coverage ✓   Network data ✓   Demography ✓   Land cover / use ✓   Obstacles ✓   Elevation ✓   Surface
+
+![Slide 6](../../../assets/images/ce-pro/training-pdf-000-architecture/page-06.png)
+
+## Project files
+
+Project > Save Project/Save Project As
+
+![Slide 7](../../../assets/images/ce-pro/training-pdf-000-architecture/page-07.png)
+
+## Cellular Expert Project Structure
+
+- Predictions
+
+- Results
+
+- SystemFiles
+
+- Temp
+
+- VolatileResults
+
+- VolatileTemp
+
+- Workspace.gdb
+
+![Slide 8](../../../assets/images/ce-pro/training-pdf-000-architecture/page-08.png)
+
+## Workspace database files
+
+![Slide 9](../../../assets/images/ce-pro/training-pdf-000-architecture/page-09.png)
+
+## Environment
+
+- Geographic data
+
+- Cellular Expert Workspace
+
+- Results
+
+![Slide 10](../../../assets/images/ce-pro/training-pdf-000-architecture/page-10.png)
+
+## Cellular Expert Workspace
+
+![Slide 11](../../../assets/images/ce-pro/training-pdf-000-architecture/page-11.png)
+
+## Inside Workspace
+
+➢ Network Data ➢ Equipment Data ➢ Modelling Settings
+
+
+## Network Data Structure
+
+RF prediction does not require Site Cell – logical               object. Cells can be created information                  without Site object. Cells           about sector:                Cell still has SiteID value, which a set of channels            can be define in the attributes. SiteID is used for Carrier Aggregation.
+
+Site and Cell is connected through Site – location point with   SiteID value. unique identifier: Site             Base station                 SiteID must be Integer. Site name is defined for Site object.
+
+Cells
+
+![Slide 13](../../../assets/images/ce-pro/training-pdf-000-architecture/page-13.png)
+
+## Cell
+
+➢ 800 MHz ➢ 1800 MHz ➢ 2100 MHz
+
+![Slide 14](../../../assets/images/ce-pro/training-pdf-000-architecture/page-14.png)
+
+## Site
+
+![Slide 15](../../../assets/images/ce-pro/training-pdf-000-architecture/page-15.png)
+
+## Antenna
+
+![Slide 16](../../../assets/images/ce-pro/training-pdf-000-architecture/page-16.png)
+
+## CE Path Loss models (10kHz - 350 GHz)
+
+1.   CEC ITU-R Model (100MHz – 6GHz) is a combination model intended for use in a variety of different radiocommunication systems which is derived explicitly from ITU-R path loss modelling methods as follows: a. Receive antenna in LOS condition – path loss calculated as FSL based on Recommendation ITU-R P.525 (ref URL); b. Receive antenna in OLOS condition – total path loss modelled as a combination of basic FSL calculated based on Recommendation ITU-R P.525 (ref URL) and clutter loss calculated based on Recommendation ITU-R P.2108 (ref URL); c. Receive antenna in NLOS condition – path loss as a combination of basic FSL calculated based on Recommendation ITU-R P.525 (ref URL), additional losses due to diffraction calculated based on Recommendation ITU-R P.526 (ref URL) and the clutter losses calculated based on Rec. ITU-R P.2108 (ref URL). 2.   ITU-R P.452 Model (6GHz – 50GHz) is provided as a universally applicable model with very wide frequency range from 0.1-50 GHz. Its implementation is based on the methodology described in the Recommendation ITU-R P.452 (ref URL). This model does not provide for definition of OLOS visibility condition; instead it considers clutter as part of general obstacles category and accordingly distinguishes only two radio visibility cases: a. Receive antenna in LOS condition – path loss modelled based on FSL principle; b. Receive antenna in NLOS condition – total path loss modelled using a combination of basic transmission losses and losses due to diffraction. 3.   LOS ITU-R P.525 Model (6GHz – 100GHz) is the FSL path loss calculated based on method in Recommendation ITU-R P.525 (ref URL). As such it could be used for modelling of radio links where LOS is considered a necessary condition, e.g., for Fixed (Point-to-Point) Links or Mobile Systems in mmWave bands. 4.   UniMacro Model (400MHz – 3GHz) is the CE’s proprietary combination model developed over the years of practical experience with the operational planning of cellular mobile networks in the frequency ranges from 400-2600 MHz. It had been fine tuned to produce coverage predictions that are most closely aligned with what could be expected to be experienced by the actual mobile network users in the field. The model will model different path losses depending on radio visibility conditions as follows: a. Receive antenna in LOS condition – path loss modelled based on FSL principle; b. Receive antenna in OLOS condition – path loss modelled using Extended Hata (Open Area) model with additional clutter loss calculated based on Recommendation ITU-R P.2108 (ref URL); c. Receive antenna in NLOS condition – path loss modelled using Extended Hata model with additional losses due to diffraction calculated based on Recommendation ITU-R P.526 (ref URL) as well as clutter losses based on Rec. ITU-R P.2108 (ref URL). 5.   ITU-R P.368 Model (10kHz – 30MHz)
+
+![Slide 17](../../../assets/images/ce-pro/training-pdf-000-architecture/page-17.png)
+
+## CE prediction models
+
+![Slide 18](../../../assets/images/ce-pro/training-pdf-000-architecture/page-18.png)
+
+## Other
+
+![Slide 19](../../../assets/images/ce-pro/training-pdf-000-architecture/page-19.png)

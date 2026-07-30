@@ -17,12 +17,11 @@ values are explained in the legend under the newly created calculation layer.
 | Resolution | Resolution for raster calculations. The output rasters will be produced with the indicated cell size. |
 | Cell template | Cell template that will be used in the prediction calculations. |
 | Reflection factor | Reflection factor, used for the electromagnetic field exposure prediction calculations. Available selections: no reflection, realistic reflection, or full reflection. |
-| Reflection factor | Receiver height in meters. |
+| Receiver height | Receiver height in meters. |
 
 The results are displayed in newly added rasters of the calculation – electromagnetic field exposure results
-
-![Image p116](../assets/images/ce-pro/emf-guide/p116-img1.png)
-
-![Image p116](../assets/images/ce-pro/emf-guide/p116-img2.png)
 in mV/m and mW/m2. For example, the green indicates where mV/m exposure values are less than 50, and
 red indicates where they are higher than 100.
+
+![Image p116](../assets/images/ce-pro/emf-guide/p116-img1.png)
+![Image p116](../assets/images/ce-pro/emf-guide/p116-img2.png)

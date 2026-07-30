@@ -2,7 +2,7 @@
 
 > **Note:** Indoor-specific workspace creation flow. Everything else about workspaces is covered on the shared Workspace page.
 
-## 6.1.3 Create Indoor Workspace
+#### 6.1.3 Create Indoor Workspace
 Steps to create a workspace from a CAD drawing:
 
 1. Click the Create Indoor Workspace button in the Cellular Expert Workspace menu.

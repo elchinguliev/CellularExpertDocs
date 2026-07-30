@@ -27,7 +27,6 @@ shadowing effects over hills, valleys, and urban obstacles.
 levels.
 - Capacity and Interference Analysis – Modeling realistic signal overlaps and interference zones
 for multi-operator, multi-technology environments.
-©Cellular Expert, 2025 Page | 3
 
 Diffractio Free Space Loss
 n
@@ -61,7 +60,6 @@ Cellular Expert can easily integrate and process 1 m or even sub-meter topograph
 detailed RF calculations. This level of precision is essential for:
 - Modeling 2G/3G/4G/5G, small cells and [mmWave](#kw:56-step-8-losonly-prediction-for-mmwave:ce-express-tr-models) networks.
 - Identifying exact coverage gaps at the building and street level.
-©Cellular Expert, 2025 Page | 4
 
 - Supporting regulatory-grade broadband mapping and planning.
 By using high-resolution terrain and clutter data, Cellular Expert ensures that its calculations match real-
@@ -86,11 +84,7 @@ All geodata must be located in one catalog.
 The Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), represents the Earth’s
 ground level above sea level. Each raster pixel has its height value.
 A sample DTM raster is presented below. Each pixel represents height value above the sea level. In reality,
-within a one-pixel area, the height is not the same everywhere. Thus, the pixel’s height value is the height
-©Cellular Expert, 2025 Page | 5
-
-in its center or the maximum. The smaller the pixels, the more accurate is the grid - but also more data to
-calculate.
+within a one-pixel area, the height is not the same everywhere. Thus, the pixel’s height value is the height in its center or the maximum. The smaller the pixels, the more accurate is the grid - but also more data to calculate.
 2.1.1 Projection
 The raster must use a [Projected Coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) System. To check the coordinate system of your raster, use
 the Properties function in ArcGIS Pro. Add the raster to your project, right-click on it, and select Properties.
@@ -103,7 +97,6 @@ After setting the correct projection, assign the [NoData](#kw:check-and-set-noda
 the DTM raster.
 2.1.3 Pixel type
 16-bit signed, or 32-bit signed or 32-bit float
-©Cellular Expert, 2025 Page | 6
 
 ## 2.2 Clutter classes grid (optional)
 
@@ -117,7 +110,6 @@ because it determines how signals are absorbed, reflected, or diffracted by the 
 influencing coverage, interference, and quality of service. The naming and classification of land use types
 may vary. An example is the Sentinel-2 Land Cover dataset from the Living Atlas: Living Atlas Sentinel-2
 Land Cover
-©Cellular Expert, 2025 Page | 7
 
 2.2.1 Projection
 The raster must use a [Projected Coordinate](#kw:what-is-a-projected-[crs](#kw:check-crs:ce-express-geodata):ce-express-geodata) System. To check the coordinate system of your raster, use
@@ -139,7 +131,6 @@ features above the digital terrain model (DTM). While the DTM provides the bare-
 heights add the true 3D profile of the environment by capturing how high objects rise above the ground.
 The clutter heights raster requires the accompanying clutterClasses.tif raster and cannot be used
 independently.
-©Cellular Expert, 2025 Page | 8
 
 A clutter height raster can be derived from a Digital Surface Model (DSM) raster and a Digital Terrain Model
 
@@ -149,7 +140,6 @@ A clutter height raster can be derived from a Digital Surface Model (DSM) raster
 (DTM) raster using the ArcGIS Raster Calculator tool.
 The calculation output will be the difference between the DSM and DTM grids, representing the clutter
 heights.
-©Cellular Expert, 2025 Page | 9
 
 2.3.1 Projection
 The raster must use a Projected Coordinate System. To check the coordinate system of your raster, use
@@ -163,4 +153,3 @@ After setting the correct projection, assign the [NoData](#kw:check-and-set-noda
 the DTM raster.
 2.3.3 Pixel type
 16-bit signed, or 32-bit signed or 32-bit float
-©Cellular Expert, 2025 Page | 10

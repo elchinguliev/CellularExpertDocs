@@ -1,6 +1,6 @@
 # CE Desktop Pro — Overview / Getting Started
 
-> **Note:** Applies to: RCP, RLP, EMF, Indoor, and Sound. If a module has a small difference, see the module-specific tools page.
+> **Note:** Applies to: RCP, RLP, EMF, Indoor, and Sound.
 
 ## 1. Software Purpose and Functionality
 

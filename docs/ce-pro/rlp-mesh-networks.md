@@ -27,9 +27,7 @@ sensitivity threshold defined for the Mesh Node object.
 • Connectivity status is then visually rendered using a clear, color-coded scheme:
 o Green: Bi-directional connectivity – both nodes meet or exceed the RSL sensitivity for
 each other.
-o Yellow: Uni-directional connectivity – only one node meets the RSL threshold for the
-
-other.
+o Yellow: Uni-directional connectivity – only one node meets the RSL threshold for the other.
 o Red: No connectivity – RSL falls below the sensitivity threshold in both directions.
 
 ![Image p166](../assets/images/ce-pro/rlp-guide/p166-img1.png)

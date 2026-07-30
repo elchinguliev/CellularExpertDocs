@@ -1,6 +1,6 @@
 # Data Management — Object Editor
 
-> **Note:** RLP has additional link-specific object editor actions (Move/Duplicate Link Objects, Move/Duplicate Site Objects) — see the RLP guide content if this differs on your build. "Calculate Cells Area" below is an RCP-only feature.
+> **Note:** "Calculate Cells Area" below is an RCP-only feature.
 
 ### 7.3 Object Editor
 The Object Editor enables the user to make changes to a network object after it is created and placed on
@@ -47,9 +47,7 @@ the position of the Cursor Point either by entering new coordinates directly or 
 ![Image p82](../assets/images/ce-pro/rcp-guide/p082-img2.png)
 choosing a different location on the map. When you move the Cursor Point, all the objects on the map will
 shift their position to maintain their relative distances from this central point.
-• If a single point object is selected or several objects at the same location, the move objects display
-
-will show the geospatial properties of these objects denoted as “Cursor Point”.
+• If a single point object is selected or several objects at the same location, the move objects display will show the geospatial properties of these objects denoted as “Cursor Point”.
 If a single point object is selected on the map, the "Cursor Point" serves as its positional anchor. Positioned
 
 ![Image p83](../assets/images/ce-pro/rcp-guide/p083-img1.png)

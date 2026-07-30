@@ -195,9 +195,7 @@ General settings to calculate Model loss
 value is 32 dB.
 • Distance coefficient – defines the slope based on the distance between the cell and the receiver
 location, with a default value of 20.
-• Distance coefficient obstructed – represents the slope based on the obstructed distance between
-
-the cell and the receiver location. The default value is 40.
+• Distance coefficient obstructed – represents the slope based on the obstructed distance between the cell and the receiver location. The default value is 40.
 • Frequency coefficient – indicates the slope determined by the frequency value, with a default value
 
 ![Image p100](../assets/images/ce-pro/rcp-guide/p100-img1.png)
@@ -218,9 +216,7 @@ Key Parameters:
 
 • Diffraction loss coefficient – a multiplier used in diffraction calculations. Lower values result in
 reduced diffraction loss, while higher values increase it. Typically, this coefficient is higher for
-buildings compared to forests or other clutter types.ltiplier for diffraction calculations. If value is
-lower, diffraction will be lower, if higher – then diffraction will be higher. Usually, for buildings clutter
-class this parameter is higher then forest or other clutter classes.
+buildings compared to forests or other clutter types.
 • Enclosed receiver loss offset, dB – the initial entry loss into the clutter class, expressed as an offset
 in dB, which is added to the path loss grid.
 • Enclosed receiver loss scaling coefficient – represents additional signal loss as a function of the
@@ -307,9 +303,7 @@ location, with a default value of 20.
 of 20.
 Multipath and focusing
 In ITU-R P.452, the correction for multipath and focusing effects accounts for signal enhancements caused
-by constructive interference and atmospheric focusing. This adjustment reduces the total path loss under
-
-favorable conditions, such as over-water paths or specific atmospheric gradients, ensuring more accurate
+by constructive interference and atmospheric focusing. This adjustment reduces the total path loss under favorable conditions, such as over-water paths or specific atmospheric gradients, ensuring more accurate
 signal predictions.
 Possible values Yes or No.
 Clutter class to calculate penetration loss
@@ -439,9 +433,7 @@ Key Parameters:
 1 to 100 meters.
 • Diffraction loss coefficient – a multiplier used in diffraction calculations. Lower values result in
 reduced diffraction loss, while higher values increase it. Typically, this coefficient is higher for
-buildings compared to forests or other clutter types.ltiplier for diffraction calculations. If value is
-lower, diffraction will be lower, if higher – then diffraction will be higher. Usually, for buildings clutter
-class this parameter is higher then forest or other clutter classes.
+buildings compared to forests or other clutter types.
 • Penetration loss offset, dB – the initial entry loss into the clutter class, expressed as an offset in
 dB, which is added to the path loss grid.
 • Penetration loss distance coefficient – represents additional signal loss as a function of the distance
@@ -522,9 +514,7 @@ field strength and attenuation of radio waves over the Earth's surface, particul
 
 ![Image p110](../assets/images/ce-pro/rcp-guide/p110-img1.png)
 MHz.
-This model is widely used in planning and designing long-distance communication systems, such as
-
-maritime, broadcasting, and low-frequency navigation systems, where ground-wave propagation plays a
+This model is widely used in planning and designing long-distance communication systems, such as maritime, broadcasting, and low-frequency navigation systems, where ground-wave propagation plays a
 critical role. It accounts for factors such as terrain conductivity, dielectric properties, and surface roughness
 to deliver accurate predictions of signal behavior.
 Default settings
@@ -634,9 +624,7 @@ considered in the calculation of sound levels at various receiver points.
 𝑑𝑖𝑣
 
 2. Atmospheric Absorption
-• Sound is absorbed by the atmosphere as it travels, particularly at higher frequencies. The
-
-absorption depends on factors like temperature, humidity, and air pressure, and is often more
+• Sound is absorbed by the atmosphere as it travels, particularly at higher frequencies. The absorption depends on factors like temperature, humidity, and air pressure, and is often more
 significant over longer distances.
 • Atmospheric absorption reduces the intensity of sound as it propagates, especially at higher
 frequencies. The standard takes into account these effects to calculate the reduction in sound level.
@@ -708,9 +696,7 @@ High loss building
 7.7.1.8 CEC 3GPP TR Indoor (500MHz – 100GHz)
 Model application
 The CEC 3GPP TR Indoor Model (500 MHz – 100 GHz) is a robust, scalable prediction method based on
-ITU-R principles and 3GPP extensions, specifically engineered for indoor radiowave propagation. By
-
-supporting a wide range of scenarios — from clean LOS corridors to deeply obstructed NLOS paths — it
+ITU-R principles and 3GPP extensions, specifically engineered for indoor radiowave propagation. By supporting a wide range of scenarios — from clean LOS corridors to deeply obstructed NLOS paths — it
 
 ![Image p116](../assets/images/ce-pro/rcp-guide/p116-img1.png)
 enables highly accurate modeling of next-generation wireless systems, ensuring reliable, secure, and

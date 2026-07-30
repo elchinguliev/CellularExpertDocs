@@ -1,6 +1,6 @@
 # Data Management — Network Objects
 
-> **Note:** Not every object type applies to every module — RCP: Cell, Site, Radar, Sirens, CPE, Repeater. RLP: Site, Link, Mesh Node. EMF / Indoor / Sound: mainly Cell and common objects.
+> **Note:** RCP: Cell, Site, Radar, Sirens, CPE, Repeater. RLP: Site, Link, Mesh Node. EMF/Indoor/Sound: mainly Cell and common objects.
 
 ## 7. Data Management
 
@@ -137,9 +137,7 @@ The parameter is described in percentages and varies from 0 to 100. It describes
 The Cell load affects RSSI, RSRQ, and DL Throughput calculations. For example, if the Cell load is higher,
 the DL Throughput is lower.
 Network Name
-Divides cells into networks. Helps to manage different technologies and frequencies in the project, and
-
-automatically tracks changes for cells.
+Divides cells into networks. Helps to manage different technologies and frequencies in the project, and automatically tracks changes for cells.
 | Parameter | Description |
 |---|---|
 | Technology | Describes the technology of the network object. Possible values are 2G, 3G, 4G, and 5G. |
@@ -339,9 +337,11 @@ Siren identification.
 | Antenna | Antenna name for Siren object. |
 | Power | A power value in W. |
 | Misc loss | Miscellaneous loss value in dB. |
-| Prediction Model | Only ISO9613 can be applied to calculate sound loss for the siren. 7.2.5 Add CPE The object represents customer locations. It carrries information about customer location, name, height or |
+| Prediction Model | Only ISO9613 can be applied to calculate sound loss for the siren. |
 
-installed antenna.
+#### 7.2.5 Add CPE
+
+The object represents customer locations. It carries information about customer location, name, height or installed antenna.
 
 1. Choose the button from the toolbar and select CPE from the dropdown list.
 

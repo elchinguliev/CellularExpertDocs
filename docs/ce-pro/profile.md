@@ -91,9 +91,7 @@ Profile: Receiver
 | Latitude | Decimal degrees Y type coordinate. |
 | Longitude | Decimal degrees X type coordinate. |
 | Height, m | Height above the ground in meters. The minimum value must be 1m. |
-| Azimuth towards transmitter | Enabled by default. When enabled, the receiver’s azimuth is towards the transmitter. Disabling this option it would take azimuth value from the receiver (Cell) object, and use it for FWA Power Budget |
-
-calculations, it also allows the user to enter a custom azimuth value for the receiver.
+| Azimuth towards transmitter | Enabled by default. When enabled, the receiver’s azimuth is towards the transmitter. Disabling this option it would take azimuth value from the receiver (Cell) object, and use it for FWA Power Budget calculations, it also allows the user to enter a custom azimuth value for the receiver. |
 Downtilt towards transmitter
 Enabled by default. When enabled, the receiver’s tilt is towards the transmitter. Disabling this option it
 

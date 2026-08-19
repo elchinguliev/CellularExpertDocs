@@ -5,8 +5,9 @@ Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p168-
 This tool allows to perform 3D predictions for cell objects selected on the map. Calculations can be
 performed for more than one cell at the same time. Use the Features tool ![Image p168](../../../assets/images/ce-express/user-guide-v73/p168-img2.png) to select cells on the map.
 
-**Color bands
-**You can set custom colors for your polygon using color bands. After the calculation, you can still change the colors, but you cannot change the values.
+**Color bands**
+
+You can set custom colors for your polygon using color bands. After the calculation, you can still change the colors, but you cannot change the values.
 
 ![Image p169](../../../assets/images/ce-express/user-guide-v73/p169-img1.png)
 

@@ -1,0 +1,2237 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Official documentation for CE Express, CE Pro, and Inventory3D">
+      
+      
+        <meta name="author" content="Cellular Expert UAB">
+      
+      
+        <link rel="canonical" href="https://elchinguliev.github.io/CellularExpertDocs/ce-pro/training/doc/06-importing-data/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>06 importing data - Cellular Expert Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#objective" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Cellular Expert Documentation" class="md-header__button md-logo" aria-label="Cellular Expert Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cellular Expert Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              06 importing data
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../index.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../ce-express/overview.md" class="md-tabs__link">
+          
+  
+  
+  CE Express
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../rcp-user-guide/" class="md-tabs__link">
+          
+  
+  
+  CE Pro
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../inventory3d/user-guide/" class="md-tabs__link">
+          
+  
+  
+  Inventory3D
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../geodata/geodata-requirements/" class="md-tabs__link">
+          
+  
+  
+  Geodata
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Cellular Expert Documentation" class="md-nav__button md-logo" aria-label="Cellular Expert Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Cellular Expert Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CE Express
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CE Express
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/overview.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/login.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Login Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/workspace.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/network-objects.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Network Objects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/antenna-patterns.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Antenna Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/rf-prediction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RF Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/profile-tool.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Path Profile & LOS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/street-view.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Street View
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/geodata.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geodata & Rasters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_10" id="__nav_2_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Training
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Training
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/01-creating-workspace/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01. Creating Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/02-create-objects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02. Create Objects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/03-line-of-sight/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03. Line of Sight
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/04-rf-prediction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04. RF Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/05-import-data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05. Import Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/06-prediction-models/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06. Prediction Models
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/07-mw-equipment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07. MW Equipment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/08-mw-prediction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08. MW Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/09-preparing-geodata/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09. Preparing Geodata
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_11" id="__nav_2_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guides
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    User Guides
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/user-guide/user-guide-v7.3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guide v7.3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/user-guide/admin-guide-v7.2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Administrator Guide v7.2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/user-guide/admin-guide-only-v7.2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Admin Guide (Express Only)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CE Pro
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CE Pro
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rcp-user-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RCP User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rlp-user-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RLP User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../emf-user-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EMF User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sound-user-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sound User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../indoor-user-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Indoor User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Training
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Training
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00-installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    00. Installation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-data-types/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01. Data Types
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02. Architecture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-agenda/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03. Agenda
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-workspace/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04. Creating Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-line-of-sight/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05. Line of Sight
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06-objects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06. Creating Objects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07-cell-prediction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07. Cell Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08-prediction-models/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08. Prediction Models
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09-importing-data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09. Importing Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10-rl-prediction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10. RL Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventory3D
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Inventory3D
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../inventory3d/user-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guide v4.6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geodata
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Geodata
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../geodata/geodata-requirements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geodata Requirements 2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../geodata/network-objects-requirements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Network Objects Requirements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p><strong>6. Importing data</strong></p>
+<h1 id="objective">Objective</h1>
+<p>This tutorial will show you how to import network objects using different data structures to Cellular Expert workspace.</p>
+<p>At the end of exercise you will be able to:</p>
+<ul>
+<li>
+<p>Create Json mapping file.</p>
+</li>
+<li>
+<p>Import objects.</p>
+</li>
+</ul>
+<h1 id="initial-data">Initial data</h1>
+<p>Prepared project with:</p>
+<ul>
+<li>Geodata.</li>
+</ul>
+<h1 id="excelcsv-file">Excel/CSV file</h1>
+<p>Navigate to C:\CE_Course\ImportingData\Project location and run Project.aprx to open the prepared project for this exercise.</p>
+<p>Right-click on Cells layer in Contents window and choose Attribute Table, preview table structure, and fields.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image1.png" style="width:6.5in;height:0.40625in" /></p>
+<p>Click on Table Options button and select Field View.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image20.png" style="width:3.09108in;height:1.72917in" /></p>
+<p>It will provide more detailed information about table structure.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image3.png" style="width:6.5in;height:1.82708in" alt="A screenshot of a computer Description automatically generated" /></p>
+<p>Close tables.</p>
+<h1 id="mapping-file">Mapping file</h1>
+<p>An Excel or CSV file can be imported directly into the CE workspace without a mapping file, provided that the text file has the same field names as the Cells table in the CE workspace.</p>
+<p>The Excel/CSV file might contain discrepancies in names, values, and units compared to the Cellular Expert database. To tackle these conflicts, an extra Mapping file is recommended to address these discrepancies.</p>
+<p>If the import file aligns perfectly with the Cellular Expert database, a Mapping file isn't needed. However, when there are disparities, using mapping files becomes essential for a successful import. Here is a structure of one field in a mapping file.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image4.png" style="width:3.55258in;height:0.69801in" alt="A close-up of a clock Description automatically generated" /></p>
+<p><strong>“current_name”</strong> - name of the value that is written in the data file. As an example “freq_mhz” is a column name in the data file and will be changed to “frequency” when the mapping file is applied and objects are imported.</p>
+<p><strong>“destination_name”</strong> - the proper name of the property (table column name) in the Cellular</p>
+<p><strong>“default_value”</strong> – The default value applies when an object in the data file lacks a specific property. The same value will be applied for all imported objects.</p>
+<p>On your computer, navigate to C:\CE_Course\ImportingData\Network and open the cells_mapping.json file. Review the contents of the file. Then, from the same Network folder, open the Cells.csv file and review it as well. Keep both files open. Your next step is to create a mapping file that will be used during the import process.</p>
+<p>Define values in the mapping file based on this table:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>current_name</strong></th>
+<th style="text-align: right;"><strong>destination_name</strong></th>
+<th style="text-align: right;"><strong>default_value</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">cell_name</td>
+<td style="text-align: right;">Cell Name</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">latitude</td>
+<td style="text-align: right;">latitude</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">longitude</td>
+<td style="text-align: right;">longitude</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">height</td>
+<td style="text-align: right;">Height Above Ground</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">azimuth</td>
+<td style="text-align: right;">Azimuth</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">tilt</td>
+<td style="text-align: right;">Tilt</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">frequency</td>
+<td style="text-align: right;">Frequency</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">power</td>
+<td style="text-align: right;">Cell Power</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">misc_loss</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">eirp</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">bandwidth</td>
+<td style="text-align: right;">Bandwidth</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">noise_figure</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr>
+<td style="text-align: center;">downlink_duplex_factor</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+<td style="text-align: right;">0.6</td>
+</tr>
+<tr>
+<td style="text-align: center;">subcarrier_spacing</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+<td style="text-align: right;">30</td>
+</tr>
+<tr>
+<td style="text-align: center;">tx_mimo</td>
+<td style="text-align: right;">TxMIMO</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">rx_mimo</td>
+<td style="text-align: right;">RxMIMO</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">active_antenna_effect</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td style="text-align: center;">cell_load</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+<td style="text-align: right;">30</td>
+</tr>
+<tr>
+<td style="text-align: center;">network_name</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">color_index</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">technology</td>
+<td style="text-align: right;">Tech</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">prediction_model_id</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td style="text-align: center;">prediction_model_configuration_id</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr>
+<td style="text-align: center;">frequency_group</td>
+<td style="text-align: right;">Frequency</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">antenna_id</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+<td style="text-align: right;">514</td>
+</tr>
+<tr>
+<td style="text-align: center;">carriers</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+<td style="text-align: right;">[]</td>
+</tr>
+<tr>
+<td style="text-align: center;">electrical_tilt</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">site_id</td>
+<td style="text-align: right;">Tower Name</td>
+<td style="text-align: right;"><em>Leave empty</em></td>
+</tr>
+</tbody>
+</table>
+<p><img src="../../../assets/images/ce-pro/training-06/image5.png" style="width:2.88542in;height:4.99599in" alt="A screenshot of a computer Description automatically generated" /> <img src="../../../assets/images/ce-pro/training-06/image6.png" style="width:3.02847in;height:4.94444in" alt="A screenshot of a computer program Description automatically generated" /></p>
+<p>When the fields are filled, save the .json file. Close json and excel files.</p>
+<h1 id="importing">Importing</h1>
+<p>In CE RCP toolbar open <em>Import Objects from Files</em> <img src="../../../assets/images/ce-pro/training-06/image7.png" style="width:0.42529in;height:0.35606in" alt="A blue and white logo Description automatically generated" /> <em>.</em> Choose Import Cells from the dropdown menu.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image8.png" style="width:3.81in;height:1.23in" alt="A screenshot of a computer Description automatically generated" /></p>
+<p>Choose <em>5G 3500 Band n48</em> template. Values from this template will be taken during the import process, if mapping_file would be missing some parameters.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image9.png" style="width:3.87in;height:1.82in" alt="A screenshot of a computer Description automatically generated" /></p>
+<p>Click Select Data Files button.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image10.png" style="width:4.62565in;height:0.42714in" /></p>
+<p>Navigate to <em>C:\CE_Course\ImportingData\Network.</em> Switch from Microsoft Excel files to Comma-separated value files (.csv).</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image11.png" style="width:2.46909in;height:1.18767in" alt="A screenshot of a computer Description automatically generated" /></p>
+<p>Select Cells CSV file and click OK.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image12.png" style="width:5.61in;height:1.14in" alt="A screenshot of a computer Description automatically generated" /></p>
+<p>View the imported data fields. The column names should be the same as in the .csv file.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image13.png" style="width:3.92in;height:3.34in" alt="A screenshot of a data Description automatically generated" /></p>
+<p>Click Select Mapping File button.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image14.png" style="width:5.15697in;height:0.50007in" /></p>
+<p>Navigate to <em>C:\CE_Course\ImportingData\Network.</em> Select cells_mapping JSON file and click OK.</p>
+<p>Click Yes in the Information window.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image15.png" style="width:3.2in;height:1.23in" alt="A screenshot of a computer error Description automatically generated" /></p>
+<p>Press Import Cells button.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image16.png" style="width:6.5in;height:0.40694in" /></p>
+<p>All imported cells and sites should appear on the map.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image17.png" style="width:6.5in;height:3.54653in" /></p>
+<h1 id="antennas">Antennas</h1>
+<p>Navigate to C:\CE_Course\ImportingData\Antenna. Open ADU4518R6v06_2655.txt antenna file with Notepad.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image18.png" style="width:2.47in;height:2.98in" alt="A screenshot of a computer Description automatically generated" /></p>
+<p>The antenna pattern file is in Planet format and its structure:</p>
+<ul>
+<li>
+<p>General information.</p>
+</li>
+<li>
+<p>HORIZONTAL patterns.</p>
+</li>
+<li>
+<p>VERTICAL patterns.</p>
+</li>
+</ul>
+<p>Such kind of antenna pattern format can be imported into Cellular Expert database.</p>
+<p>Open Import/Export Antenna Files tool. Then click on Select Antenna Model Files</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image19.png" style="width:4.41in;height:1.37in" alt="A screenshot of a computer Description automatically generated" /></p>
+<p>Navigate to C:\CE_Course\ImportingData\Antenna, select ADU4518R6v06_2655.txt file and press Open. It will be added to the import tool.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image20.png" style="width:4.38in;height:1.48in" alt="A screenshot of a computer Description automatically generated" /></p>
+<p>Press Import Antennas button. After that you will get the message, that the antenna was imported successfully.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image21.png" style="width:4.48in;height:0.62in" alt="A screen shot of a computer Description automatically generated" /></p>
+<p>Close this tool, then open Antenna Viewer tool, using the scroll bar go to the bottom and double click on the imported antenna.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image22.png" style="width:6.5in;height:1.50833in" alt="A screenshot of a computer screen Description automatically generated" /></p>
+<h1 id="cell-import-with-minimum-required-information">Cell import with minimum required information</h1>
+<p>Minimum required data to import Cell object is:</p>
+<ul>
+<li>
+<p>Name;</p>
+</li>
+<li>
+<p>Latitude;</p>
+</li>
+<li>
+<p>Longitude.</p>
+</li>
+</ul>
+<p><img src="../../../assets/images/ce-pro/training-06/image23.png" style="width:2.39617in;height:0.76052in" alt="A screenshot of a computer Description automatically generated" /></p>
+<p>Navigate to C:\CE_Course\ImportingData\Network and open Cells_small.csv file to preview it. Also, open cells_mapping_small.json file to preview the parameters and default values, which would be applied to this cell object.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image24.png" style="width:2.7in;height:3.48in" alt="A screenshot of a computer program Description automatically generated" /></p>
+<p>Close csv and json files.</p>
+<p>Refresh Import tool, choose Import Sites.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image25.png" style="width:4.78192in;height:1.17725in" alt="A screenshot of a computer Description automatically generated" /></p>
+<p>Then go back to Import Cells.</p>
+<p>Define template: 5G 3500 Band n48 is set.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image26.png" style="width:4.87568in;height:1.08348in" alt="A screenshot of a computer Description automatically generated" /></p>
+<p>Click on Select Data Files button.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image27.png" style="width:4.78192in;height:0.3438in" /></p>
+<p>Switch from Microsoft Excel files to Comma-separated value files (.csv).</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image11.png" style="width:2.46909in;height:1.18767in" alt="A screenshot of a computer Description automatically generated" /></p>
+<p>Select Cells_small.csv file and press OK to add it.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image28.png" style="width:3.9in;height:0.98in" alt="A screenshot of a computer Description automatically generated" /></p>
+<p>Click on Select Mapping file and define mapping_cells_small.json file.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image29.png" style="width:4.87568in;height:1.36477in" alt="A screenshot of a computer Description automatically generated" /></p>
+<p>Press Import Cells button. New objects will be imported into the northern region.</p>
+<p><img src="../../../assets/images/ce-pro/training-06/image30.png" style="width:4.24017in;height:1.46895in" alt="A map of a city Description automatically generated" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "search.suggest", "toc.integrate"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

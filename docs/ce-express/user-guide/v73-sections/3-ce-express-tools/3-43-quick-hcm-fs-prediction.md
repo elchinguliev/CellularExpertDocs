@@ -1,16 +1,16 @@
 # 3.1.43 Quick HCM-FS prediction
 
-Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p236-img4.png) to open Quick HCM-FS prediction tool.
+Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p236-img4.png) to open Quick HCM-FS prediction tool.
 
 This performs calculations between two HCM-FS files.
 
-![Image p236](../../../assets/images/ce-express/user-guide-v73/p236-img3.png)
+![Image p236](../../../../assets/images/ce-express/user-guide-v73/p236-img3.png)
 
 **Calculation name**
 
 Name of the calculation.
 
-![Image p237](../../../assets/images/ce-express/user-guide-v73/p237-img1.png)
+![Image p237](../../../../assets/images/ce-express/user-guide-v73/p237-img1.png)
 
 Trigger options are used to limit the size of calculation report. If all trigger options are disabled, calculation report may become very huge since all calculation cases will be logged into the report.
 
@@ -36,13 +36,13 @@ Distance between passive transmitter and receiver. In the case of passive receiv
 
 Please note that all calculation cases resulted in errors will be logged into the report regardless of Trigger options.
 
-![Image p237](../../../assets/images/ce-express/user-guide-v73/p237-img2.png)
+![Image p237](../../../../assets/images/ce-express/user-guide-v73/p237-img2.png)
 
 **Reference file**
 
 File against which test calculations are performed.
 
-![Image p237](../../../assets/images/ce-express/user-guide-v73/p237-img3.png)
+![Image p237](../../../../assets/images/ce-express/user-guide-v73/p237-img3.png)
 
 **Test file**
 
@@ -52,7 +52,7 @@ There is no substantial difference between test and reference file. Calculations
 
 When calculation report is opened it shows all the records from test file along with maximum value of threshold degradation.
 
-![Image p238](../../../assets/images/ce-express/user-guide-v73/p238-img1.png)
+![Image p238](../../../../assets/images/ce-express/user-guide-v73/p238-img1.png)
 
 **Type**
 
@@ -78,12 +78,12 @@ Status of coordination of the test record
 
 Maximum threshold degradation. In case of test TX record, it shows maximum threshold degradation caused by the transmitter to a receiver of the reference file. In case of test RX record, it shows threshold degradation of this particular receiver. For PTX or PRX test record, it shows maximum threshold degradation of either test or reference receiver.
 
-![Image p239](../../../assets/images/ce-express/user-guide-v73/p239-img1.png)
+![Image p239](../../../../assets/images/ce-express/user-guide-v73/p239-img1.png)
 
 **Show interference list** - shows list of calculated stations against particular test record.
 
-![Image p239](../../../assets/images/ce-express/user-guide-v73/p239-img2.png)
+![Image p239](../../../../assets/images/ce-express/user-guide-v73/p239-img2.png)
 
 Clicking on Profile button allows user to perform detailed HCM calculations.
 
-![Image p239](../../../assets/images/ce-express/user-guide-v73/p239-img3.png)
+![Image p239](../../../../assets/images/ce-express/user-guide-v73/p239-img3.png)

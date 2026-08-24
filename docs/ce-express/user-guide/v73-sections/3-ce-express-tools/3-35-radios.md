@@ -1,24 +1,24 @@
 # 3.1.35 Radios
 
-Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p201-img2.png) to open Radios tool.
+Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p201-img2.png) to open Radios tool.
 
 The tool enables you to create and preview radios that will be necessary to create a link and later be used in calculations.
 
-![Image p202](../../../assets/images/ce-express/user-guide-v73/p202-img1.png)
+![Image p202](../../../../assets/images/ce-express/user-guide-v73/p202-img1.png)
 
 Move the mouse cursor over the radio and delete radio using Delete button.
 
-![Image p202](../../../assets/images/ce-express/user-guide-v73/p202-img2.png)
+![Image p202](../../../../assets/images/ce-express/user-guide-v73/p202-img2.png)
 
 By clicking an already existing radio, you can edit its properties and save them.
 
-![Image p203](../../../assets/images/ce-express/user-guide-v73/p203-img1.png)
+![Image p203](../../../../assets/images/ce-express/user-guide-v73/p203-img1.png)
 
-3.1.35.1 Add new radio
+### 3.1.35.1 Add new radio
 
 To create a radio press the New radio button.
 
-![Image p204](../../../assets/images/ce-express/user-guide-v73/p204-img1.png)
+![Image p204](../../../../assets/images/ce-express/user-guide-v73/p204-img1.png)
 
 **General**
 
@@ -50,7 +50,7 @@ Additional signal strength required to overcome dispersion and fading effects in
 
 Code describing the characteristics of the radio emission, including modulation type, signal nature, and bandwidth.
 
-![Image p205](../../../assets/images/ce-express/user-guide-v73/p205-img1.png)
+![Image p205](../../../../assets/images/ce-express/user-guide-v73/p205-img1.png)
 
 **Receiver**
 
@@ -90,7 +90,7 @@ The manufacturer’s guaranteed minimum cross-polar discrimination, expressed in
 
 Carrier-to-interference ratio for a reference bit error rate, expressed in decibels (dB). The default value is 35.
 
-![Image p206](../../../assets/images/ce-express/user-guide-v73/p206-img1.png)
+![Image p206](../../../../assets/images/ce-express/user-guide-v73/p206-img1.png)
 
 **Transmitter**
 
@@ -102,7 +102,7 @@ Power value in dBm.
 
 The range over which the radio can automatically adjust its transmission power, measured in dB.
 
-![Image p206](../../../assets/images/ce-express/user-guide-v73/p206-img2.png)
+![Image p206](../../../../assets/images/ce-express/user-guide-v73/p206-img2.png)
 
 The modulations are used in MW link calculations and specifically can be defined for Radios.
 

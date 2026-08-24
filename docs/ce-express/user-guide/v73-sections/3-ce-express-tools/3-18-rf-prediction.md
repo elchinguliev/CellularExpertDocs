@@ -1,29 +1,29 @@
 # 3.1.18 RF Prediction
 
-Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p153-img2.png) to open RF Prediction tool.
+Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p153-img2.png) to open RF Prediction tool.
 
-This tool allows to perform predictions for cell objects selected on the map. Calculations can be performed for more than one cell at the same time. Use the Features tool ![Image p153](../../../assets/images/ce-express/user-guide-v73/p153-img3.png)
+This tool allows to perform predictions for cell objects selected on the map. Calculations can be performed for more than one cell at the same time. Use the Features tool ![Image p153](../../../../assets/images/ce-express/user-guide-v73/p153-img3.png)
  to select cells on the map.
 
-![Image p154](../../../assets/images/ce-express/user-guide-v73/p154-img1.png)
+![Image p154](../../../../assets/images/ce-express/user-guide-v73/p154-img1.png)
 
 The selected cell count is visible in the RF Prediction dialog.
 
-![Image p154](../../../assets/images/ce-express/user-guide-v73/p154-img2.png)
+![Image p154](../../../../assets/images/ce-express/user-guide-v73/p154-img2.png)
 
 The cells are split into technologies automatically. The cell’s technology is defined by the attributes in the technology field.
 
-![Image p154](../../../assets/images/ce-express/user-guide-v73/p154-img3.png)
+![Image p154](../../../../assets/images/ce-express/user-guide-v73/p154-img3.png)
 
 To preview the calculation parameters, use the expand option for the technology.
 
-![Image p155](../../../assets/images/ce-express/user-guide-v73/p155-img1.png)
+![Image p155](../../../../assets/images/ce-express/user-guide-v73/p155-img1.png)
 
 Select the technology with the switch button and press Calculate to initiate the predictions. The prediction will be added to the Prediction History dialog.
 
 3.1.18.1 2G technology (GSM/CDMA-850/TETRA/P-25)
 
-![Image p156](../../../assets/images/ce-express/user-guide-v73/p156-img1.png)
+![Image p156](../../../../assets/images/ce-express/user-guide-v73/p156-img1.png)
 
 **Resolution**
 
@@ -92,7 +92,7 @@ from nearby cells that operate the adjacent carrier (adjacent frequency channel)
 
 3.1.18.2 3G technology (UMTS/CDMA)
 
-![Image p158](../../../assets/images/ce-express/user-guide-v73/p158-img1.png)
+![Image p158](../../../../assets/images/ce-express/user-guide-v73/p158-img1.png)
 
 **Resolution**
 
@@ -165,7 +165,7 @@ o 5th best server shows the fifth shows the strongest field strength cell identi
 
 3.1.18.3 4G technology (LTE/BWA/WiMAX)
 
-![Image p160](../../../assets/images/ce-express/user-guide-v73/p160-img1.png)
+![Image p160](../../../../assets/images/ce-express/user-guide-v73/p160-img1.png)
 
 **Resolution**
 
@@ -273,7 +273,7 @@ dB.
 
 3.1.18.4 5G technology (NR/CBRS)
 
-![Image p163](../../../assets/images/ce-express/user-guide-v73/p163-img1.png)
+![Image p163](../../../../assets/images/ce-express/user-guide-v73/p163-img1.png)
 
 **Resolution**
 
@@ -368,7 +368,7 @@ dB.
 
 3.1.18.5 WiFi technology
 
-![Image p166](../../../assets/images/ce-express/user-guide-v73/p166-img1.png)
+![Image p166](../../../../assets/images/ce-express/user-guide-v73/p166-img1.png)
 
 **Resolution**
 

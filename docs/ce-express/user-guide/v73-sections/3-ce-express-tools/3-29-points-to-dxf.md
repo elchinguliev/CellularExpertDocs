@@ -1,10 +1,10 @@
 # 3.1.29 Points to DXF
 
-Click this button ![Image p187](../../../assets/images/ce-express/user-guide-v73/p187-img1.png) to open Points to DXF tool.
+Click this button ![Image p187](../../../../assets/images/ce-express/user-guide-v73/p187-img1.png) to open Points to DXF tool.
 
 Allows for easy reference point transfer between the CE Express interface and CAD applications.
 
-![Image p187](../../../assets/images/ce-express/user-guide-v73/p187-img2.png)
+![Image p187](../../../../assets/images/ce-express/user-guide-v73/p187-img2.png)
 
 **DXF options**
 
@@ -33,4 +33,4 @@ How far to place the labels from the points
 **Layer name**
 Output points are placed into different layers. New points are placed into this layer upon map click. Point layer may be changed after the fact within the line for each point in the UI.
 
-![Image p188](../../../assets/images/ce-express/user-guide-v73/p188-img1.png)
+![Image p188](../../../../assets/images/ce-express/user-guide-v73/p188-img1.png)

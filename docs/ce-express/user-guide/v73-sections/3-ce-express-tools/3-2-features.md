@@ -1,6 +1,6 @@
 # 3.1.2 Features
 
-Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p018-img2.png) to open Features tool.
+Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p018-img2.png) to open Features tool.
 
 Use this tool to import or add features, select and visualize them.
 
@@ -9,28 +9,28 @@ Use this tool to import or add features, select and visualize them.
 The widget allows the creation of objects from a text file. To start importing new objects press the Import
 features button.
 
-![Image p19](../../../assets/images/ce-express/user-guide-v73/p019-img1.png)
+![Image p19](../../../../assets/images/ce-express/user-guide-v73/p019-img1.png)
 
 Select the object type.
 
-![Image p19](../../../assets/images/ce-express/user-guide-v73/p019-img2.png)
+![Image p19](../../../../assets/images/ce-express/user-guide-v73/p019-img2.png)
 
 A new dialog on the right side of the window will appear. The widget imports object data to the database.
 The imported objects will be displayed automatically on the map. The supported file formats are CSV and
 KMZ.
 
-![Image p20](../../../assets/images/ce-express/user-guide-v73/p020-img1.png)
+![Image p20](../../../../assets/images/ce-express/user-guide-v73/p020-img1.png)
 
 To start the import process, select or drag and drop a CSV or KMZ file.
 
-![Image p020](../../../assets/images/ce-express/user-guide-v73/p020-img2.png)
+![Image p020](../../../../assets/images/ce-express/user-guide-v73/p020-img2.png)
 
 3.1.2.1.1 Mapping
 
 The data in the import files may have names, values and units which do not match the data in the Cellular
 Expert database. To resolve such issues, check Use mapping button.
 
-![Image p021](../../../assets/images/ce-express/user-guide-v73/p021-img1.png)
+![Image p021](../../../../assets/images/ce-express/user-guide-v73/p021-img1.png)
 
 **Source**
 
@@ -42,21 +42,21 @@ Value which will be used when an object in the data file has no value for a part
 example, if "Azimuth" is not set, then it will by default be assigned the value of 0. Leaving the default to
 empty means that no default value will be applied.
 
-![Image p022](../../../assets/images/ce-express/user-guide-v73/p022-img1.png)
+![Image p022](../../../../assets/images/ce-express/user-guide-v73/p022-img1.png)
 
 3.1.2.1.2 Mapping presets
 
 It is possible to create import presets.
 
-![Image p022](../../../assets/images/ce-express/user-guide-v73/p022-img2.png)
+![Image p022](../../../../assets/images/ce-express/user-guide-v73/p022-img2.png)
 
 To create a preset, first define source or fill value, then press New mapping preset button.
 
-![Image p022](../../../assets/images/ce-express/user-guide-v73/p022-img3.png)
+![Image p022](../../../../assets/images/ce-express/user-guide-v73/p022-img3.png)
 
 A new preset will be created.
 
-![Image p022](../../../assets/images/ce-express/user-guide-v73/p022-img4.png)
+![Image p022](../../../../assets/images/ce-express/user-guide-v73/p022-img4.png)
 
 Define a preset name. The defined preset will be applied the next time for importing.
 
@@ -70,11 +70,11 @@ Deletes a preset.
 
 3.1.2.2 Add features
 
-![Image p023](../../../assets/images/ce-express/user-guide-v73/p023-img1.png)
+![Image p023](../../../../assets/images/ce-express/user-guide-v73/p023-img1.png)
 
 Select the object type.
 
-![Image p23](../../../assets/images/ce-express/user-guide-v73/p023-img2.png)
+![Image p23](../../../../assets/images/ce-express/user-guide-v73/p023-img2.png)
 
 A new dialog on the right side of the window will appear.
 
@@ -82,15 +82,15 @@ New objects can be created in several ways. They can be:
 - Created from templates
 - Created with Cellular Expert tools from zero (define all parameters in the process)
 
-![Image p24](../../../assets/images/ce-express/user-guide-v73/p024-img1.png)
+![Image p24](../../../../assets/images/ce-express/user-guide-v73/p024-img1.png)
 
 3.1.2.2.1 Feature set template
 
 Allows for saving a group of features as a “feature set template”, with one of the features acting as the origin for the feature set coordinates. The entire feature set can then be placed with a single operation via the add features tool. Coordinates relative to the origin feature are maintained by the other features in the set.
 
-![Image p24](../../../assets/images/ce-express/user-guide-v73/p024-img2.png)
+![Image p24](../../../../assets/images/ce-express/user-guide-v73/p024-img2.png)
 
-![Image p25](../../../assets/images/ce-express/user-guide-v73/p025-img1.png)
+![Image p25](../../../../assets/images/ce-express/user-guide-v73/p025-img1.png)
 
 **General**
 
@@ -110,7 +110,7 @@ Parameters of the features saved in the feature set template. The placed feature
 
 3.1.2.2.2 Add Site
 
-![Image p026](../../../assets/images/ce-express/user-guide-v73/p026-img1.png)
+![Image p026](../../../../assets/images/ce-express/user-guide-v73/p026-img1.png)
 
 **Required parameters**
 
@@ -134,7 +134,7 @@ Height above the terrain.
 
 3.1.2.2.3 Add Candidate sites
 
-![Image p027](../../../assets/images/ce-express/user-guide-v73/p027-img1.png)
+![Image p027](../../../../assets/images/ce-express/user-guide-v73/p027-img1.png)
 
 **Required parameters**
 
@@ -178,7 +178,7 @@ Free-form text.
 
 3.1.2.2.4 Add Site search areas
 
-![Image p028](../../../assets/images/ce-express/user-guide-v73/p028-img1.png)
+![Image p028](../../../../assets/images/ce-express/user-guide-v73/p028-img1.png)
 
 **Required parameters**
 
@@ -206,7 +206,7 @@ Group to which the area belongs.
 
 3.1.2.2.5 Add Cell
 
-![Image p029](../../../assets/images/ce-express/user-guide-v73/p029-img1.png)
+![Image p029](../../../../assets/images/ce-express/user-guide-v73/p029-img1.png)
 
 **Required parameters**
 
@@ -345,7 +345,7 @@ Free-form text.
 
 3.1.2.2.6 Add Repeater
 
-![Image p032](../../../assets/images/ce-express/user-guide-v73/p032-img1.png)
+![Image p032](../../../../assets/images/ce-express/user-guide-v73/p032-img1.png)
 
 **Required parameters**
 
@@ -433,7 +433,7 @@ Antenna name for Repeater object.
 
 3.1.2.2.7 Add Radar
 
-![Image p034](../../../assets/images/ce-express/user-guide-v73/p034-img1.png)
+![Image p034](../../../../assets/images/ce-express/user-guide-v73/p034-img1.png)
 
 **Required parameters**
 
@@ -481,7 +481,7 @@ Prediction model for Path Loss simulation.
 
 3.1.2.2.8 Add CPE
 
-![Image p035](../../../assets/images/ce-express/user-guide-v73/p035-img1.png)
+![Image p035](../../../../assets/images/ce-express/user-guide-v73/p035-img1.png)
 
 **Required parameters**
 
@@ -557,9 +557,9 @@ A field which binds the measurement to a cell network object.
 
 3.1.2.2.10 Add Omen
 
-![Image p037](../../../assets/images/ce-express/user-guide-v73/p037-img1.png)
+![Image p037](../../../../assets/images/ce-express/user-guide-v73/p037-img1.png)
 
-![Image p037](../../../assets/images/ce-express/user-guide-v73/p037-img2.png)
+![Image p037](../../../../assets/images/ce-express/user-guide-v73/p037-img2.png)
 
 **Required parameters**
 
@@ -587,7 +587,7 @@ Free-form text.
 
 3.1.2.2.11 Add Sirens
 
-![Image p038](../../../assets/images/ce-express/user-guide-v73/p038-img1.png)
+![Image p038](../../../../assets/images/ce-express/user-guide-v73/p038-img1.png)
 
 **Required parameters**
 
@@ -675,7 +675,7 @@ Height above the terrain.
 
 Mechanical tilt value.
 
-![Image p040](../../../assets/images/ce-express/user-guide-v73/p040-img1.png)
+![Image p040](../../../../assets/images/ce-express/user-guide-v73/p040-img1.png)
 
 **Antenna**
 
@@ -697,7 +697,7 @@ Coordinate in the projected coordinate system.
 
 Coordinate in the projected coordinate system.
 
-![Image p041](../../../assets/images/ce-express/user-guide-v73/p041-img1.png)
+![Image p041](../../../../assets/images/ce-express/user-guide-v73/p041-img1.png)
 
 **Optional parameters**
 
@@ -738,7 +738,7 @@ The maximum number of connections the mesh node can have (used for mesh connecti
 
 The layer of the mesh node (number value). Used for priority calculations in Automatic Frequency Planning.
 
-![Image p042](../../../assets/images/ce-express/user-guide-v73/p042-img1.png)
+![Image p042](../../../../assets/images/ce-express/user-guide-v73/p042-img1.png)
 
 **Group name**
 
@@ -768,48 +768,48 @@ There are several different modes for [selecting objects](#kw:selecting-multiple
 
 - Rectangle.
 
-![Image p043](../../../assets/images/ce-express/user-guide-v73/p043-img1.png)
+![Image p043](../../../../assets/images/ce-express/user-guide-v73/p043-img1.png)
 
 To start the selection process, click once on the map, then move the mouse cursor to define an
 area, click a second time to finish the selection process.
 
-![Image p043](../../../assets/images/ce-express/user-guide-v73/p043-img2.png)
+![Image p043](../../../../assets/images/ce-express/user-guide-v73/p043-img2.png)
 
 - Single click. Click once on an object to select it.
 
-![Image p043](../../../assets/images/ce-express/user-guide-v73/p043-img3.png)
+![Image p043](../../../../assets/images/ce-express/user-guide-v73/p043-img3.png)
 
 - Radius.
 
-![Image p044](../../../assets/images/ce-express/user-guide-v73/p044-img1.png)
+![Image p044](../../../../assets/images/ce-express/user-guide-v73/p044-img1.png)
 
 Set the desired distance, then click on the map and the surrounding objects within the set distance will
 be selected.
 
-![Image p044](../../../assets/images/ce-express/user-guide-v73/p044-img2.png)
+![Image p044](../../../../assets/images/ce-express/user-guide-v73/p044-img2.png)
 
 - Polygon.
 
-![Image p044](../../../assets/images/ce-express/user-guide-v73/p044-img3.png)
+![Image p044](../../../../assets/images/ce-express/user-guide-v73/p044-img3.png)
 
 Click once on the map to create the vertices of the polygon. Double-click to close the polygon and select
 the feature.
 
-![Image p045](../../../assets/images/ce-express/user-guide-v73/p045-img1.png)
+![Image p045](../../../../assets/images/ce-express/user-guide-v73/p045-img1.png)
 
 - Polygon layer.
 
-![Image p045](../../../assets/images/ce-express/user-guide-v73/p045-img2.png)
+![Image p045](../../../../assets/images/ce-express/user-guide-v73/p045-img2.png)
 
 To use the polygon layer selection, choose a predefined polygon layer from the dropdown list. Then,
 click on the map. All features located within the selected polygon boundary will be highlighted and
 displayed in the feature list.
 
-![Image p046](../../../assets/images/ce-express/user-guide-v73/p046-img1.png)
+![Image p046](../../../../assets/images/ce-express/user-guide-v73/p046-img1.png)
 
 Selected objects will be highlighted on the map and listed in the tool.
 
-![Image p046](../../../assets/images/ce-express/user-guide-v73/p046-img2.png)
+![Image p046](../../../../assets/images/ce-express/user-guide-v73/p046-img2.png)
 
 **Clear selection**
 
@@ -821,22 +821,22 @@ Initiates the search procedure in the selected objects list.
 
 **Show in table**
 
-Opens the selected objects attribute table ![icon](../../../assets/images/ce-express/user-guide-v73/p047-img1.png)
+Opens the selected objects attribute table ![icon](../../../../assets/images/ce-express/user-guide-v73/p047-img1.png)
 
-![Image p047](../../../assets/images/ce-express/user-guide-v73/p047-img2.png)
+![Image p047](../../../../assets/images/ce-express/user-guide-v73/p047-img2.png)
 
 3.1.2.4 Move/Duplicate/Delete/Publish selected objects
 
 Select objects on the map to start the Publish, Move, Duplicate or Delete functionality.
 
-![Image p047](../../../assets/images/ce-express/user-guide-v73/p047-img3.png)
+![Image p047](../../../../assets/images/ce-express/user-guide-v73/p047-img3.png)
 
 **Publish**
 
 Select the features you want to publish to portal as a feature layer, then click the publish button.
 An option menu then appears to let you select who the newly created feature layer will be shared to:
 
-![Image p048](../../../assets/images/ce-express/user-guide-v73/p048-img1.png)
+![Image p048](../../../../assets/images/ce-express/user-guide-v73/p048-img1.png)
 
 Press OK to start the publishing process.
 
@@ -845,11 +845,11 @@ Press OK to start the publishing process.
 Select the objects which shall be moved and choose the Move tool. The Move selected features dialog will
 appear.
 
-![Image p048](../../../assets/images/ce-express/user-guide-v73/p048-img2.png)
+![Image p048](../../../../assets/images/ce-express/user-guide-v73/p048-img2.png)
 
 Hold the left mouse button and drag the object to the preferred location.
 
-![Image p048](../../../assets/images/ce-express/user-guide-v73/p048-img3.png)
+![Image p048](../../../../assets/images/ce-express/user-guide-v73/p048-img3.png)
 
 Press Accept to save changes.
 
@@ -859,7 +859,7 @@ Select the objects which shall be duplicated and choose the Duplicate tool. The 
 will appear. Hold the left mouse button and drag the object to the preferred location. Selected objects can
 be duplicated to another workspace.
 
-![Image p049](../../../assets/images/ce-express/user-guide-v73/p049-img1.png)
+![Image p049](../../../../assets/images/ce-express/user-guide-v73/p049-img1.png)
 
 Press Accept to save changes.
 
@@ -868,7 +868,7 @@ Press Accept to save changes.
 Select the objects on the map, then press the Delete button to remove them from the Map view and
 database tables.
 
-![Image p049](../../../assets/images/ce-express/user-guide-v73/p049-img2.png)
+![Image p049](../../../../assets/images/ce-express/user-guide-v73/p049-img2.png)
 
 Press Accept to save changes.
 
@@ -877,11 +877,11 @@ Press Accept to save changes.
 Object attributes can be edited using the Cellular Expert graphical interface. Move the mouse cursor to the
 required object in the Features tool and click on it to edit object attributes.
 
-![Image p050](../../../assets/images/ce-express/user-guide-v73/p050-img1.png)
+![Image p050](../../../../assets/images/ce-express/user-guide-v73/p050-img1.png)
 
 A new dialog opens on the right side with the most important attributes.
 
-![Image p051](../../../assets/images/ce-express/user-guide-v73/p051-img1.png)
+![Image p051](../../../../assets/images/ce-express/user-guide-v73/p051-img1.png)
 
 **Accept**
 
@@ -893,29 +893,29 @@ Discards all changes and closes the dialog.
 
 Upon hovering the mouse over a feature item, options for it appear.
 
-![Image p051](../../../assets/images/ce-express/user-guide-v73/p051-img2.png)
+![Image p051](../../../../assets/images/ce-express/user-guide-v73/p051-img2.png)
 
-**View from perspective** ![icon](../../../assets/images/ce-express/user-guide-v73/p052-img1.png)
+**View from perspective** ![icon](../../../../assets/images/ce-express/user-guide-v73/p052-img1.png)
 
 Viewpoint from the position of cell.
 
-**Highlight feature** ![icon](../../../assets/images/ce-express/user-guide-v73/p052-img2.png)
+**Highlight feature** ![icon](../../../../assets/images/ce-express/user-guide-v73/p052-img2.png)
 
 Highlights feature on the map.
 
-**Duplicate feature** ![icon](../../../assets/images/ce-express/user-guide-v73/p052-img3.png)
+**Duplicate feature** ![icon](../../../../assets/images/ce-express/user-guide-v73/p052-img3.png)
 
 Creates a copy of the feature.
 
-**Delete feature** ![icon](../../../assets/images/ce-express/user-guide-v73/p052-img4.png)
+**Delete feature** ![icon](../../../../assets/images/ce-express/user-guide-v73/p052-img4.png)
 
 Deletes feature.
 
-**Remove from selection** ![icon](../../../assets/images/ce-express/user-guide-v73/p052-img5.png)
+**Remove from selection** ![icon](../../../../assets/images/ce-express/user-guide-v73/p052-img5.png)
 
 Removes feature from the selected features list.
 
-**Add to selection** ![icon](../../../assets/images/ce-express/user-guide-v73/p052-img6.png)
+**Add to selection** ![icon](../../../../assets/images/ce-express/user-guide-v73/p052-img6.png)
 
 Adds feature to selected features list.
 
@@ -929,6 +929,6 @@ applied
 - Drag and drop the feature template on the map to quickly add a new feature to the desired location
 with only having the enter the feature name in a popup.
 
-![Image p052](../../../assets/images/ce-express/user-guide-v73/p052-img7.png)
+![Image p052](../../../../assets/images/ce-express/user-guide-v73/p052-img7.png)
 
-![Image p053](../../../assets/images/ce-express/user-guide-v73/p053-img1.png)
+![Image p053](../../../../assets/images/ce-express/user-guide-v73/p053-img1.png)

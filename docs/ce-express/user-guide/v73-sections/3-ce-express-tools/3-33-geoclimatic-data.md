@@ -1,16 +1,16 @@
 # 3.1.33 Geoclimatic data
 
-Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p191-img1.png) to open Geoclimatic data tool.
+Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p191-img1.png) to open Geoclimatic data tool.
 
 Geoclimatic Data is a tool that lets you adjust the geoclimatic settings that will be used in certain calculations (e.g. Link Prediction).
 
-![Image p192](../../../assets/images/ce-express/user-guide-v73/p192-img1.png)
+![Image p192](../../../../assets/images/ce-express/user-guide-v73/p192-img1.png)
 
 3.1.33.1 Gaseous Absorption
 
 Gaseous absorption define values for dry air pressure and water vapour density. These values can be obtained from predefined geoclimatic data maps. Water vapour density data according to ITU-R P.836-3. It is used in gaseous absorption evaluation.
 
-![Image p191](../../../assets/images/ce-express/user-guide-v73/p191-img3.png)
+![Image p191](../../../../assets/images/ce-express/user-guide-v73/p191-img3.png)
 
 **Dry Air Pressure**
 
@@ -20,7 +20,7 @@ The atmospheric pressure contributed by air that contains no water vapor, typica
 
 The mass of water vapor present in a unit volume of air, typically measured in grams per cubic meter (g/m³).
 
-![Image p192](../../../assets/images/ce-express/user-guide-v73/p192-img2.png)
+![Image p192](../../../../assets/images/ce-express/user-guide-v73/p192-img2.png)
 
 **Use Geoclimatic Data**
 
@@ -34,7 +34,7 @@ A dropdown menu that allows the user to select the source or type of data used t
 
 Annual mean surface temperature at 2m above the surface of the Earth according to ITU-R P.1510. The data is used to evaluate the thermal noise of a receiver.
 
-![Image p193](../../../assets/images/ce-express/user-guide-v73/p193-img1.png)
+![Image p193](../../../../assets/images/ce-express/user-guide-v73/p193-img1.png)
 
 **Annual Temperature**
 
@@ -56,7 +56,7 @@ Worst month-to-annual statistics conversion can be performed according to ITU-R 
 
 Refractivity gradient data is based on ITU-R P.453-9. Refractivity gradient data is used for multipath fading analysis.
 
-![Image p194](../../../assets/images/ce-express/user-guide-v73/p194-img1.png)
+![Image p194](../../../../assets/images/ce-express/user-guide-v73/p194-img1.png)
 
 **ITU Method**
 
@@ -101,7 +101,7 @@ Input for the percentage of time to apply an interference correction factor to a
 3.1.33.4 Rain Fading
 The rain fading page defines rain regions (ITU and Crane) for rain rate statistics and calculation methods (ITU and Crane). The rain rate exceedance parameter for 0.01% of the time can be set manually or automatically according to the rain zone.
 
-![Image p196](../../../assets/images/ce-express/user-guide-v73/p196-img1.png)
+![Image p196](../../../../assets/images/ce-express/user-guide-v73/p196-img1.png)
 
 **Geoclimatic data - ESA rain rate data / ESA rain rate**
 
@@ -123,7 +123,7 @@ Selection options for the method of calculating the reliability of a signal in a
 
 These settings are used to handle statistical conversions for telecommunication planning, ensuring that systems are designed to cope with the worst-case scenarios based on historical data and predictive models.
 
-![Image p197](../../../assets/images/ce-express/user-guide-v73/p197-img1.png)
+![Image p197](../../../../assets/images/ce-express/user-guide-v73/p197-img1.png)
 
 **Define**
 

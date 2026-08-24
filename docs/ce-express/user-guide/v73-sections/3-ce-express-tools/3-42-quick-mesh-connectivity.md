@@ -1,6 +1,6 @@
 # 3.1.42 Quick mesh connectivity
 
-Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p232-img2.png) to open Quick mesh connectivity tool.
+Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p232-img2.png) to open Quick mesh connectivity tool.
 
 To enhance the efficiency of early-stage planning and dynamic mesh layout, the **Quick Mesh Connectivity** tool offers a fast and intuitive way to assess connectivity potential.
 
@@ -8,7 +8,7 @@ This lightweight yet powerful feature enables users to **instantly evaluate whet
 
 Whether you are planning the deployment of a single node or simulating a mobile mesh scenario, **Quick Mesh Connectivity** streamlines the decision-making process by providing immediate, actionable feedback.
 
-![Image p233](../../../assets/images/ce-express/user-guide-v73/p233-img1.png)
+![Image p233](../../../../assets/images/ce-express/user-guide-v73/p233-img1.png)
 
 **Calculation settings**
 
@@ -64,11 +64,11 @@ Receiving Signal Level threshold in dBm at Mesh Node.
 
 On the map interface, select the Mesh Nodes that should be included in the connectivity calculation.
 
-![Image p235](../../../assets/images/ce-express/user-guide-v73/p235-img1.png)
+![Image p235](../../../../assets/images/ce-express/user-guide-v73/p235-img1.png)
 
 - **Open the Quick Mesh Connectivity Tool**
 
-![Image p235](../../../assets/images/ce-express/user-guide-v73/p235-img2.png)
+![Image p235](../../../../assets/images/ce-express/user-guide-v73/p235-img2.png)
   
 - **Configure Node Parameters** 
 Input the required parameters for the proposed Mesh Node (e.g., transmission power, antenna type, height).
@@ -83,4 +83,4 @@ Once the analysis is complete, the results will appear on the map:
 - Yellow shows one-way connectivity.
 - Red marks areas with no connectivity.
 
-![Image p236](../../../assets/images/ce-express/user-guide-v73/p236-img1.png)
+![Image p236](../../../../assets/images/ce-express/user-guide-v73/p236-img1.png)

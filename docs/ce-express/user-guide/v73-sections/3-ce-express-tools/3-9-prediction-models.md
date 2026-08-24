@@ -1,6 +1,6 @@
 # 3.1.9 Prediction models
 
-Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p089-img3.png) to open Prediction models tool.
+Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p089-img3.png) to open Prediction models tool.
 
 The CE Path Loss Modelling aims to perform near-deterministic calculation of received signal levels at each specific point (pixel) in the network's target coverage area by applying selective path loss model depending on the radio visibility condition between the transmitter antenna vis-à-vis a receiver antenna located at a given point in coverage area. The radio visibility is evaluated based on the DTM, Obstacles and Clutter path profile information. This verification of radio visibility will result in the receiver antenna point assigned into one of three possible radio visibility conditions:
 
@@ -8,19 +8,19 @@ The CE Path Loss Modelling aims to perform near-deterministic calculation of rec
 - **Obstructed LOS (OLOS)** – occurs when the direct radio propagation line is interposed by clutter, see illustration in Fig. 3(b).
 - **Non-LOS (NLOS)** – occurs when the direct radio propagation line is interposed by terrain bulges or obstacles, see illustration in Fig. 3(c).
 
-![Image p090](../../../assets/images/ce-express/user-guide-v73/p090-img1.png)
+![Image p090](../../../../assets/images/ce-express/user-guide-v73/p090-img1.png)
 
 a. Example of path profile with LOS condition (green line of direct radio link)
 
-![Image p090](../../../assets/images/ce-express/user-guide-v73/p090-img2.png)
+![Image p090](../../../../assets/images/ce-express/user-guide-v73/p090-img2.png)
 
 b. Example of path profile with OLOS condition (yellow segment of radio link path)
 
-![Image p090](../../../assets/images/ce-express/user-guide-v73/p090-img3.png)
+![Image p090](../../../../assets/images/ce-express/user-guide-v73/p090-img3.png)
 
 (c) Example of path profile with NLOS condition (red segment of radio link path)
 
-![Image p091](../../../assets/images/ce-express/user-guide-v73/p091-img1.png)
+![Image p091](../../../../assets/images/ce-express/user-guide-v73/p091-img1.png)
 
 (d) Example of path profile with OLOS+NLOS condition (yellow+red segment of radio link path)
 
@@ -28,7 +28,7 @@ Depending on the LOS condition for the receive antenna at specific location (are
 
 Prediction models available in Cellular Expert support frequencies from 10kHz to 350 GHz.
 
-![Image p091](../../../assets/images/ce-express/user-guide-v73/p091-img2.png)
+![Image p091](../../../../assets/images/ce-express/user-guide-v73/p091-img2.png)
 
 **CEC ITU-R Model (100MHz – 6GHz)** is a combination model intended for use in a variety of different radiocommunication systems which is derived explicitly from ITU-R path loss modelling methods as follows:
 
@@ -109,7 +109,7 @@ These are conservative conditions ensuring that siren reach is never overestimat
 
 **CEC 3GPP TR Indoor** is used in indoor environments (in building) for wireless communication simulations. This model is standardized by 3GPP (3rd Generation Partnership Project) and is part of the TR 38.901 technical report, which specifies channel models for frequencies from 0.5 GHz to 100 GHz. Cellular expert version requires to convert CAD drawing into a clutter height raster file which is imported to workspace. By toggle ON "Load geodata when opening workspace" this raster file becomes visible, allowing for accurate placement and planning new transmitters as indoor antennas.
 
-![Image p095](../../../assets/images/ce-express/user-guide-v73/p095-img1.png)
+![Image p095](../../../../assets/images/ce-express/user-guide-v73/p095-img1.png)
 
 In the left ribbon, navigate to Layers → Geodata, expand Clutter Heights, and set the opacity to 100% to enhance building visibility. For more accurate RF prediction, use a high-resolution grid of 0.1 meters in the prediction model to account for wall thickness and fine structural details.
 
@@ -123,7 +123,7 @@ When building data and their heights are not available, and only DTM and clutter
 
 3.1.9.1.1 CEC ITU-R Model settings
 
-![Image p096](../../../assets/images/ce-express/user-guide-v73/p096-img1.png)
+![Image p096](../../../../assets/images/ce-express/user-guide-v73/p096-img1.png)
 
 **Configuration name**
 
@@ -159,7 +159,7 @@ Indicates the slope determined by the frequency value, with a default value of 2
 
 The Clutter Class option defines several predefined clutter categories, each with unique values for diffraction loss, clutter loss, penetration loss, and receiver loss coefficients. These parameters describe how a signal is impacted when it passes through or terminates in a specific clutter class.
 
-![Image p097](../../../assets/images/ce-express/user-guide-v73/p097-img1.png)
+![Image p097](../../../../assets/images/ce-express/user-guide-v73/p097-img1.png)
 
 **Nominal distance**
 
@@ -227,7 +227,7 @@ This model is particularly well-suited for microwave links and is widely used fo
 
 3.1.9.2.1 ITU R. P452 Model settings
 
-![Image p100](../../../assets/images/ce-express/user-guide-v73/p100-img1.png)
+![Image p100](../../../../assets/images/ce-express/user-guide-v73/p100-img1.png)
 
 **Configuration name**
 
@@ -259,7 +259,7 @@ Indicates the slope determined by the frequency value, with a default value of 2
 
 Clutter class option describes several fixed Clutter names with penetration loss coefficients. These parameters describe how a signal is impacted when it passes through or terminates in a specific clutter class.
 
-![Image p101](../../../assets/images/ce-express/user-guide-v73/p101-img1.png)
+![Image p101](../../../../assets/images/ce-express/user-guide-v73/p101-img1.png)
 
 **Enclosed receiver loss offset**
 
@@ -319,7 +319,7 @@ For scenarios where accurate building geometry and heights are available and a h
 
 3.1.9.3.1 ITU R. P1546 Model settings
 
-![Image p103](../../../assets/images/ce-express/user-guide-v73/p103-img1.png)
+![Image p103](../../../../assets/images/ce-express/user-guide-v73/p103-img1.png)
 
 **Configuration name**
 
@@ -337,7 +337,7 @@ Receiver height above the receiver reference height selected in the workspace se
 
 How radio signal levels fluctuate over time due to changes in atmospheric conditions, tropospheric refraction, and diffraction. This effect is represented as a statistical factor in the model, which allows predictions for different time percentages. Should not exceed outside the range from 1% to 50%.
 
-![Image p104](../../../assets/images/ce-express/user-guide-v73/p104-img1.png)
+![Image p104](../../../../assets/images/ce-express/user-guide-v73/p104-img1.png)
 
 **Receiver height**
 
@@ -349,7 +349,7 @@ Line of Sight model is typically used for mmWave band frequencies within the 6 G
 
 3.1.9.4.1 ITU-R P525 Model settings
 
-![Image p105](../../../assets/images/ce-express/user-guide-v73/p105-img1.png)
+![Image p105](../../../../assets/images/ce-express/user-guide-v73/p105-img1.png)
 
 **Configuration name**
 
@@ -379,7 +379,7 @@ Defines the slope based on the distance between the cell and the receiver locati
 
 Indicates the slope determined by the frequency value, with a default value of 20.
 
-![Image p106](../../../assets/images/ce-express/user-guide-v73/p106-img1.png)
+![Image p106](../../../../assets/images/ce-express/user-guide-v73/p106-img1.png)
 
 **Receiver height**
 
@@ -395,7 +395,7 @@ For accurate wide-area propagation and coverage modeling where building data and
 
 3.1.9.5.1 UniMacro Model settings
 
-![Image p107](../../../assets/images/ce-express/user-guide-v73/p107-img1.png)
+![Image p107](../../../../assets/images/ce-express/user-guide-v73/p107-img1.png)
 
 **Configuration name**
 
@@ -447,7 +447,7 @@ Okumura-Hata type of multiplying factor for log(hM)log(d). Default value 0.1.
 
 The Clutter Class option defines several predefined clutter categories, each with unique values for diffraction loss, clutter loss, penetration loss, and receiver loss coefficients. These parameters describe how a signal is impacted when it passes through or terminates in a specific clutter class.
 
-![Image p109](../../../assets/images/ce-express/user-guide-v73/p109-img1.png)
+![Image p109](../../../../assets/images/ce-express/user-guide-v73/p109-img1.png)
 
 **Nominal distance**
 
@@ -515,7 +515,7 @@ This model is widely used in planning and designing long-distance communication 
 
 3.1.9.6.1 ITU-R P368 Model settings
 
-![Image p111](../../../assets/images/ce-express/user-guide-v73/p111-img1.png)
+![Image p111](../../../../assets/images/ce-express/user-guide-v73/p111-img1.png)
 
 **Configuration name**
 
@@ -531,7 +531,7 @@ Receiver height above the receiver reference height selected in the workspace se
 
 The general model parameters include the radius and receiver height. Additional parameters used for path loss calculations are derived from the clutter classes. Each clutter class has its own unique set of parameters:
 
-![Image p112](../../../assets/images/ce-express/user-guide-v73/p112-img1.png)
+![Image p112](../../../../assets/images/ce-express/user-guide-v73/p112-img1.png)
 
 **Surface refractivity**
 
@@ -611,7 +611,7 @@ The primary factors included in the standard are:
 
 3.1.9.7.1 ISO9613 Model settings
 
-![Image p116](../../../assets/images/ce-express/user-guide-v73/p116-img1.png)
+![Image p116](../../../../assets/images/ce-express/user-guide-v73/p116-img1.png)
 
 **Configuration name**
 
@@ -645,7 +645,7 @@ Air temperature in Celsius.
 
 Air humidity in percentage.
 
-![Image p117](../../../assets/images/ce-express/user-guide-v73/p117-img1.png)
+![Image p117](../../../../assets/images/ce-express/user-guide-v73/p117-img1.png)
 
 **Receiver height**
 
@@ -657,7 +657,7 @@ In the current version, each transmitter must be defined individually as a separ
 
 3.1.9.8.1 CEC 3GPP TR Model settings
 
-![Image p118](../../../assets/images/ce-express/user-guide-v73/p118-img1.png)
+![Image p118](../../../../assets/images/ce-express/user-guide-v73/p118-img1.png)
 
 **Configuration name**
 
@@ -695,7 +695,7 @@ Indicates the slope determined by the frequency value, with a default value of 2
 
 The initial entry loss applied when crossing an obstacle within the clutter class, expressed as an offset in dB, which is added to the path loss grid.
 
-![Image p119](../../../assets/images/ce-express/user-guide-v73/p119-img1.png)
+![Image p119](../../../../assets/images/ce-express/user-guide-v73/p119-img1.png)
 
 **Penetration loss scaling coefficient**
 

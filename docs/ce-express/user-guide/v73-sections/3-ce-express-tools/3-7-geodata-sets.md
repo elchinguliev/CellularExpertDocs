@@ -1,6 +1,6 @@
 # 3.1.7 Geodata sets
 
-Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p084-img1.png) to open Geodata sets tool.
+Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p084-img1.png) to open Geodata sets tool.
 
 Geodata sets are collections of geographical raster data that is used in CE calculations. Geodata sets are comprised of the following raster types:
 
@@ -18,11 +18,11 @@ Each pixel defines the ID of the clutter class, which the area belongs to. Usual
 
 To edit a geodata set, click the desired geodata set name from the list. To create a new one, click "+ New geodata set".
 
-![Image p084](../../../assets/images/ce-express/user-guide-v73/p084-img2.png)
+![Image p084](../../../../assets/images/ce-express/user-guide-v73/p084-img2.png)
 
 When creating a new geodata set, some general details, like the geodata set name, must be entered and saved. Only then you may then upload the geodata rasters to the set after selecting it from the list.
 
-![Image p085](../../../assets/images/ce-express/user-guide-v73/p085-img1.png)
+![Image p085](../../../../assets/images/ce-express/user-guide-v73/p085-img1.png)
 
 Under the rasters section, there are 3 File upload squares for uploading the rasters. Click to select a file or drag & drop to upload a raster file.
 
@@ -36,7 +36,7 @@ After uploading rasters, the file upload squares change to green, and show some 
 
 The data extent is also outlined in green on the map when a geodata set is selected:
 
-![Image p086](../../../assets/images/ce-express/user-guide-v73/p086-img1.png)
+![Image p086](../../../../assets/images/ce-express/user-guide-v73/p086-img1.png)
 
 3.1.7.1 [Clutter classes](#kw:clutter-classification-values:ce-express-geodata)
 
@@ -44,7 +44,7 @@ If a clutter class raster is available in the geodata set, the clutter classes s
 
 All available clutter class raster values are listed under the "Used" and "Unused" categories.
 
-![Image p086](../../../assets/images/ce-express/user-guide-v73/p086-img2.png)
+![Image p086](../../../../assets/images/ce-express/user-guide-v73/p086-img2.png)
 
 Each relevant clutter class needs these fields filled out:
 
@@ -60,4 +60,4 @@ Nominal height for clutter class if it is not represented in the clutter height 
 
 The color by which the clutter class is represented in different UI elements, for example – the profile chart.
 
-![Image p087](../../../assets/images/ce-express/user-guide-v73/p087-img1.png)
+![Image p087](../../../../assets/images/ce-express/user-guide-v73/p087-img1.png)

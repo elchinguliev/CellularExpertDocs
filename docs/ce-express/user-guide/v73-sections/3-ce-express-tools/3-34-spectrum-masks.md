@@ -1,15 +1,15 @@
 # 3.1.34 Spectrum masks
 
 [Spectrum masks](#kw:711-spectrum-masks:ce-pro-rlp)
-Click this button ![Image p197](../../../assets/images/ce-express/user-guide-v73/p197-img2.png) to open Spectrum masks tool.
+Click this button ![Image p197](../../../../assets/images/ce-express/user-guide-v73/p197-img2.png) to open Spectrum masks tool.
 
 The tool enables you to create spectrum masks that will be necessary to be used in calculations.
 
-![Image p198](../../../assets/images/ce-express/user-guide-v73/p198-img1.png)
+![Image p198](../../../../assets/images/ce-express/user-guide-v73/p198-img1.png)
 
 Move the mouse cursor over the spectrum mask and delete it using Delete button.
 
-![Image p198](../../../assets/images/ce-express/user-guide-v73/p198-img2.png)
+![Image p198](../../../../assets/images/ce-express/user-guide-v73/p198-img2.png)
 
 By selecting a spectrum mask you can view its properties and change them. Changes in the mask point values will be reflected in the graph.
 
@@ -17,7 +17,7 @@ By selecting a spectrum mask you can view its properties and change them. Change
 
 To create a spectrum mask, press the New spectrum mask button.
 
-![Image p199](../../../assets/images/ce-express/user-guide-v73/p199-img1.png)
+![Image p199](../../../../assets/images/ce-express/user-guide-v73/p199-img1.png)
 
 **Mask attributes**
 
@@ -37,8 +37,8 @@ Deletes mask point.
 
 When you create a spectrum mask, you can see its visual representation as well as the values of each spectrum mask point (frequency and attenuation)
 
-![Image p200](../../../assets/images/ce-express/user-guide-v73/p200-img1.png)
+![Image p200](../../../../assets/images/ce-express/user-guide-v73/p200-img1.png)
 
 You can change any values of these points and those changes will be reflected in the graph.
 
-![Image p201](../../../assets/images/ce-express/user-guide-v73/p201-img1.png)
+![Image p201](../../../../assets/images/ce-express/user-guide-v73/p201-img1.png)

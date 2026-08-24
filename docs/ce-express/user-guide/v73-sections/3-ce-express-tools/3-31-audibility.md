@@ -1,8 +1,8 @@
 # 3.1.31 Audibility
 
-Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p189-img2.png) to open Audibility tool.
+Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p189-img2.png) to open Audibility tool.
 
-![Image p190](../../../assets/images/ce-express/user-guide-v73/p190-img1.png)
+![Image p190](../../../../assets/images/ce-express/user-guide-v73/p190-img1.png)
 
 **Calculation name**
 

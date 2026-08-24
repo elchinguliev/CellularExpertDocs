@@ -1,8 +1,8 @@
 # 3.1.10 Settings
 
-Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p121-img1.png) to open Settings tool.
+Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p121-img1.png) to open Settings tool.
 
-![Image p122](../../../assets/images/ce-express/user-guide-v73/p122-img1.png)
+![Image p122](../../../../assets/images/ce-express/user-guide-v73/p122-img1.png)
 
 **Application**
 
@@ -23,11 +23,11 @@ Theme
 Change application theme:
 - Dark
 
-![Image p123](../../../assets/images/ce-express/user-guide-v73/p123-img1.png)
+![Image p123](../../../../assets/images/ce-express/user-guide-v73/p123-img1.png)
 
 - Light
 
-![Image p123](../../../assets/images/ce-express/user-guide-v73/p123-img2.png)
+![Image p123](../../../../assets/images/ce-express/user-guide-v73/p123-img2.png)
 etc.
 
 **Toolbar location**

@@ -1,8 +1,8 @@
 # 3.1.37 Link prediction
 
-Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p211-img1.png) to open Link prediction tool.
+Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p211-img1.png) to open Link prediction tool.
 
-![Image p211](../../../assets/images/ce-express/user-guide-v73/p211-img2.png)
+![Image p211](../../../../assets/images/ce-express/user-guide-v73/p211-img2.png)
 
 **Calculation settings**
 
@@ -14,7 +14,7 @@ Link Prediction identification.
 
 The template will fill all empty or not specified fields with default values that are not necessary for predictions.
 
-![Image p212](../../../assets/images/ce-express/user-guide-v73/p212-img1.png)
+![Image p212](../../../../assets/images/ce-express/user-guide-v73/p212-img1.png)
 
 **Interference**
 
@@ -38,7 +38,7 @@ The power threshold below which no links with lesser interference will be includ
 
 The ability of filters in a duplex system to effectively separate and prevent interference between Tx and Rx frequencies. No dBm greater than this will be accounted for in the calculation
 
-![Image p213](../../../assets/images/ce-express/user-guide-v73/p213-img1.png)
+![Image p213](../../../../assets/images/ce-express/user-guide-v73/p213-img1.png)
 
 **Field Margin**
 
@@ -50,7 +50,7 @@ If checked, it will take into account the specified field margin for Power Budge
 
 The threshold below which thermal fade will not be calculated
 
-![Image p213](../../../assets/images/ce-express/user-guide-v73/p213-img2.png)
+![Image p213](../../../../assets/images/ce-express/user-guide-v73/p213-img2.png)
 
 **Tropospheric scatter**
 
@@ -62,7 +62,7 @@ Enable/Disable this option.
 
 Time Percentage in %.
 
-![Image p214](../../../assets/images/ce-express/user-guide-v73/p214-img1.png)
+![Image p214](../../../../assets/images/ce-express/user-guide-v73/p214-img1.png)
 
 **Method**
 
@@ -76,7 +76,7 @@ A selection indicating if the metric is calculated based on yearly data or the d
 
 After calculations, you will be able to view Profile, Interference, Performance and Capacity calculation results.
 
-![Image p215](../../../assets/images/ce-express/user-guide-v73/p215-img1.png)
+![Image p215](../../../../assets/images/ce-express/user-guide-v73/p215-img1.png)
 
 **Carrier**
 
@@ -92,7 +92,7 @@ The protection improvement factor is a ratio between unprotected and protected u
 
 **Profile** - The Link Profile behaves in virtually the same way as a regular profile.
 
-![Image p216](../../../assets/images/ce-express/user-guide-v73/p216-img1.png)
+![Image p216](../../../../assets/images/ce-express/user-guide-v73/p216-img1.png)
 
 **Power Budget** - the calculation of the balance between transmitted power, power losses in the system, and receiver sensitivity in a communication system.
 
@@ -100,20 +100,20 @@ The protection improvement factor is a ratio between unprotected and protected u
 
 **Interference** - the undesired impact of one signal on another, leading to potential signal degradation. 
 
-![Image p216](../../../assets/images/ce-express/user-guide-v73/p216-img2.png)
+![Image p216](../../../../assets/images/ce-express/user-guide-v73/p216-img2.png)
 
 **Performance** - assessments of key metrics like data rate, error rates, and signal-to-noise ratio, crucial for evaluating and optimizing a communication system's efficiency.
 
-![Image p217](../../../assets/images/ce-express/user-guide-v73/p217-img1.png)
+![Image p217](../../../../assets/images/ce-express/user-guide-v73/p217-img1.png)
 
 3.1.37.2 Interfering links
 In this tab, you will be able to view interference Power Budget, Path Loss, Profile, and Spectrum Mask results in an unordered fashion.
 
-![Image p217](../../../assets/images/ce-express/user-guide-v73/p217-img2.png)
+![Image p217](../../../../assets/images/ce-express/user-guide-v73/p217-img2.png)
 
 **Profile** - The Link Profile behaves in virtually the same way as a regular profile.
 
-![Image p217](../../../assets/images/ce-express/user-guide-v73/p217-img3.png)
+![Image p217](../../../../assets/images/ce-express/user-guide-v73/p217-img3.png)
 
 **Power Budget** - the calculation of the balance between transmitted power, power losses in the system, and receiver sensitivity in a communication system.
 
@@ -121,18 +121,18 @@ In this tab, you will be able to view interference Power Budget, Path Loss, Prof
 
 **Spectrum Mask** - the method used to assess the usage efficiency of a frequency spectrum in a telecommunications system, involving the measurement of how much and how effectively different frequencies are being utilized.
 
-![Image p218](../../../assets/images/ce-express/user-guide-v73/p218-img1.png)
+![Image p218](../../../../assets/images/ce-express/user-guide-v73/p218-img1.png)
 
 3.1.37.3 Generate report
 
 The calculation results can be automatically transferred into a Link Prediction Report. This report will show profile, prediction parameter and results, performance and propagation reliability. The report can be exported in PDF format.
 
-![Image p218](../../../assets/images/ce-express/user-guide-v73/p218-img2.png)
+![Image p218](../../../../assets/images/ce-express/user-guide-v73/p218-img2.png)
 
 Report example:
 
-![Image p219](../../../assets/images/ce-express/user-guide-v73/p219-img1.png)
+![Image p219](../../../../assets/images/ce-express/user-guide-v73/p219-img1.png)
 
-![Image p219](../../../assets/images/ce-express/user-guide-v73/p219-img2.png)
+![Image p219](../../../../assets/images/ce-express/user-guide-v73/p219-img2.png)
 
-![Image p220](../../../assets/images/ce-express/user-guide-v73/p220-img1.png)
+![Image p220](../../../../assets/images/ce-express/user-guide-v73/p220-img1.png)

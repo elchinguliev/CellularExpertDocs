@@ -1,10 +1,10 @@
 # 3.1.6 Antennas
 
-Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p075-img2.png) to open Antennas tool.
+Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p075-img2.png) to open Antennas tool.
 
 Preview the list of available antennas in the project. The antennas are used for point-to-area calculations.
 
-![Image p076](../../../assets/images/ce-express/user-guide-v73/p076-img1.png)
+![Image p076](../../../../assets/images/ce-express/user-guide-v73/p076-img1.png)
 
 **Search**
 
@@ -14,11 +14,11 @@ Initiates the search procedure in the antennas list.
 
 Delete antenna using *Delete* button.
 
-![Image p076](../../../assets/images/ce-express/user-guide-v73/p076-img2.png)
+![Image p076](../../../../assets/images/ce-express/user-guide-v73/p076-img2.png)
 
 Click on an antenna to preview the [antenna patterns](#kw:importing-antenna-patterns:ce-express-antenna).
 
-![Image p077](../../../assets/images/ce-express/user-guide-v73/p077-img1.png)
+![Image p077](../../../../assets/images/ce-express/user-guide-v73/p077-img1.png)
 
 **Adjust vertical pattern**
 
@@ -27,24 +27,24 @@ back so it is essentially a 0 tilt [antenna pattern](#kw:managing-the-antenna-li
 You may use the adjust vertical pattern tool to do this. Find the center of the main lobe of the vertical
 [antenna pattern](#kw:managing-the-antenna-library:ce-express-antenna) using the "main lobe center" slider, then click accept.
 
-![Image p077](../../../assets/images/ce-express/user-guide-v73/p077-img2.png)
+![Image p077](../../../../assets/images/ce-express/user-guide-v73/p077-img2.png)
 
 ## 3.1.6.1 Import Antennas
 
 To import new antennas, click the *New Antenna* button
 
-![Image p078](../../../assets/images/ce-express/user-guide-v73/p078-img1.png)
+![Image p078](../../../../assets/images/ce-express/user-guide-v73/p078-img1.png)
 
 and then select *Import Files*.
 
-![Image p078](../../../assets/images/ce-express/user-guide-v73/p078-img2.png)
+![Image p078](../../../../assets/images/ce-express/user-guide-v73/p078-img2.png)
 
-![Image p078](../../../assets/images/ce-express/user-guide-v73/p078-img3.png)
+![Image p078](../../../../assets/images/ce-express/user-guide-v73/p078-img3.png)
 
 To start the import procedure, select or drag and drop the antenna pattern file. Planet format antenna
 pattern files are supported. Here is an example:
 
-![Image p078](../../../assets/images/ce-express/user-guide-v73/p078-img4.png)
+![Image p078](../../../../assets/images/ce-express/user-guide-v73/p078-img4.png)
 
 ## 3.1.6.2 Import HCM code file
 To import HCM code patterns as antennas, you may use this import option. The required file is a CSV with
@@ -53,18 +53,18 @@ as antenna patterns under the HCM manufacturer group. Multiple lines are allowed
 
 CSV file example:
 
-![Image p079](../../../assets/images/ce-express/user-guide-v73/p079-img1.png)
+![Image p079](../../../../assets/images/ce-express/user-guide-v73/p079-img1.png)
 
 After file upload, you are prompted to assign which CSV field corresponds to the required parameters:
 
-![Image p079](../../../assets/images/ce-express/user-guide-v73/p079-img2.png)
+![Image p079](../../../../assets/images/ce-express/user-guide-v73/p079-img2.png)
 
 ## 3.1.6.3 Import cell array antenna
 
 If you have separate pattern files for a multibeam antenna, you may use this import option to combine them
 into a single cell array antenna pattern.
 
-![Image p080](../../../assets/images/ce-express/user-guide-v73/p080-img1.png)
+![Image p080](../../../../assets/images/ce-express/user-guide-v73/p080-img1.png)
 
 **Antenna parameters**
 
@@ -84,19 +84,19 @@ Antenna frequency value in MHz.
 
 Antenna gain value in dBi.
 
-![Image p081](../../../assets/images/ce-express/user-guide-v73/p081-img1.png)
+![Image p081](../../../../assets/images/ce-express/user-guide-v73/p081-img1.png)
 
 ## 3.1.6.4 Create manually
 
 To manually create an antenna, click the *New Antenna* button
 
-![Image p081](../../../assets/images/ce-express/user-guide-v73/p081-img2.png)
+![Image p081](../../../../assets/images/ce-express/user-guide-v73/p081-img2.png)
 
 and then select *Create Manually*.
 
-![Image p081](../../../assets/images/ce-express/user-guide-v73/p081-img3.png)
+![Image p081](../../../../assets/images/ce-express/user-guide-v73/p081-img3.png)
 
-![Image p082](../../../assets/images/ce-express/user-guide-v73/p082-img1.png)
+![Image p082](../../../../assets/images/ce-express/user-guide-v73/p082-img1.png)
 
 **Antenna parameters**
 
@@ -160,4 +160,4 @@ Ability to mirror the vertical attenuation pattern.
 
 **Pattern preview**
 
-![Image p083](../../../assets/images/ce-express/user-guide-v73/p083-img1.png)
+![Image p083](../../../../assets/images/ce-express/user-guide-v73/p083-img1.png)

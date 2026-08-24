@@ -1,10 +1,10 @@
 # 3.1.15 Feature report
 
-Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p135-img1.png) to open Feature report tool.
+Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p135-img1.png) to open Feature report tool.
 
 This tool allows you to create PDF reports of selected features with attribute tables, as well as a page with a view of the map.
 
-![Image p135](../../../assets/images/ce-express/user-guide-v73/p135-img2.png)
+![Image p135](../../../../assets/images/ce-express/user-guide-v73/p135-img2.png)
 
 **Report options**
 
@@ -34,18 +34,18 @@ Report file name.
 
 Title for the front page of the report.
 
-![Image p136](../../../assets/images/ce-express/user-guide-v73/p136-img1.png)
+![Image p136](../../../../assets/images/ce-express/user-guide-v73/p136-img1.png)
 
 **Report info**
 
 Contact data of the report generating person / organization. Displayed in the final report.
 
-![Image p137](../../../assets/images/ce-express/user-guide-v73/p137-img1.png)
+![Image p137](../../../../assets/images/ce-express/user-guide-v73/p137-img1.png)
 
 **Table data**
 Enable / disable fields that will be added to the feature tables within the report. Only selected features are added to the table data.
 
-![Image p138](../../../assets/images/ce-express/user-guide-v73/p138-img1.png)
+![Image p138](../../../../assets/images/ce-express/user-guide-v73/p138-img1.png)
 
 **EMF options**
 
@@ -75,7 +75,7 @@ Feature type which is used as the origin for perimeter circles
 
 Whether to draw a line within the circles marking the radius of the circle. A label of the radius length is displayed above the dashed line.
 
-![Image p139](../../../assets/images/ce-express/user-guide-v73/p139-img1.png)
+![Image p139](../../../../assets/images/ce-express/user-guide-v73/p139-img1.png)
 
 **Perimeter radius lengths**
 
@@ -93,8 +93,8 @@ Each placed point is numbered with 1 – n in the name (1, 2, 3, …, n). This p
 
 Report example:
 
-![Image p140](../../../assets/images/ce-express/user-guide-v73/p140-img1.png)
+![Image p140](../../../../assets/images/ce-express/user-guide-v73/p140-img1.png)
 
-![Image p141](../../../assets/images/ce-express/user-guide-v73/p141-img1.png)
+![Image p141](../../../../assets/images/ce-express/user-guide-v73/p141-img1.png)
 
-![Image p141](../../../assets/images/ce-express/user-guide-v73/p141-img3.png)
+![Image p141](../../../../assets/images/ce-express/user-guide-v73/p141-img3.png)

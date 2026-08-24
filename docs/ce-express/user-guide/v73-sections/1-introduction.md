@@ -53,7 +53,7 @@ The URL depends on the installation and initial configuration:
 
 Please note that for security reasons the application uses only HTTPS.
 
-# 1.2 Log in to the Express Network Data Management application
+## 1.2 Log in to the Express Network Data Management application
 
 Users can log in with the organization account of ArcGIS Enterprise or Cellular Expert Express and are identified by a Username and a Password.
 

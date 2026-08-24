@@ -1,9 +1,9 @@
-# 3.5 Map/table view modes
+# 2.3 Map/table view modes
 
 In this section, users can adjust the data view. For example, turn on the Map view, Table view, or turn on
 both of them, etc.
 
-## 3.5.1 Map view
+## 2.3.1 Map view
 
 Map view widget.
 
@@ -13,7 +13,7 @@ Turns on the map view.
 
 ![Image p258](../../../assets/images/ce-express/user-guide-v73/p258-img2.png)
 
-## 3.5.2 Display data table full screen
+## 2.3.2 Display data table full screen
 
 Turns on the Network Data Management view in full screen.
 
@@ -22,7 +22,7 @@ Turns on the Network Data Management view in full screen.
 ![Image p259](../../../assets/images/ce-express/user-guide-v73/p259-img2.png)
 
 
-## 3.5.3 Split window vertically
+## 2.3.3 Split window vertically
 
 The screen can be divided into Map view and Table view. In the previous options, the tables were placed on top of the Map view. This means that the tables cover the widgets.
 
@@ -35,7 +35,7 @@ Users can adjust the Table and Map view proportions by using the slider function
 ![Image p260](../../../assets/images/ce-express/user-guide-v73/p260-img2.png)
 
 
-## 3.5.4 Split window horizontally
+## 2.3.4 Split window horizontally
 
 The screen can be divided into Map view and Table view. In the previous options, the tables were placed
 on top of the Map view. This means that the tables cover the widgets

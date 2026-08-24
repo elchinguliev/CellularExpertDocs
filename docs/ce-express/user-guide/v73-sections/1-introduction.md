@@ -53,7 +53,7 @@ The URL depends on the installation and initial configuration:
 
 Please note that for security reasons the application uses only HTTPS.
 
-# 2.1 Log in to the Express Network Data Management application
+# 1.2 Log in to the Express Network Data Management application
 
 Users can log in with the organization account of ArcGIS Enterprise or Cellular Expert Express and are identified by a Username and a Password.
 
@@ -78,7 +78,7 @@ To recover an ArcGIS Enterprise account, use the Forgot password button.
 
 ![Image p10](../../../assets/images/ce-express/user-guide-v73/p010-img1.png)
 
-## 1.2 Open the Express Map view
+## 1.3 Open the Express Map view
 
 In the Network Data Management view the map and the database are connected. Features, described in the tables, are displayed on the map. Select a workspace.
 
@@ -88,7 +88,7 @@ Map view and features are visible only for the selected workspace.
 
 ![Image p11](../../../assets/images/ce-express/user-guide-v73/p011-img1.png)
 
-## 1.3 Log out
+## 1.4 Log out
 
 To exit the Express Network Data Management application, click on the User menu button at the top right corner. And click on the Logout button.
 

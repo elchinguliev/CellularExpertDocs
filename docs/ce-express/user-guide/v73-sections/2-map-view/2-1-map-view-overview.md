@@ -1,4 +1,6 @@
-# Map View Overview
+# 2 Map view overview
+
+## 2.1 Overview
 
 The Map view has a predefined layout divided into:
 1. Inventory3D window layout, settings, user
@@ -10,19 +12,20 @@ The Map view has a predefined layout divided into:
 
 ![Image p12](../../../assets/images/ce-express/user-guide-v73/p012-img3.png)
 
-## 3.3 Data management and visualization section
+## 2.2 Data management and visualization section
 
 Available tools for this section:
+
 - Workspace
 - Features
 - Networks
 - Layers
 - Prediction history
 - Antennas
-The dialogs are pinned and can not be moved to another location. If one tool is active and visible in the
-window and a second one is turned on, the first tool is closed and the new one is opened.
 
-## 3.4 Calculation section
+The dialogs are pinned and can not be moved to another location. If one tool is active and visible in the window and a second one is turned on, the first tool is closed and the new one is opened.
+
+## 2.3 Calculation section
 
 Available tools for this section:
 - Settings
@@ -38,12 +41,13 @@ Available tools for this section:
 - Link prediction
 - Network availability
 - Model tuning
-
 - Optimal placement
 - EMF
-The dialogs are pinned and can not be moved to another location. If one tool is active and visible in the
-window and a second one is turned on, the first tool is closed and the new one is opened.
+  
+The dialogs are pinned and can not be moved to another location. If one tool is active and visible in the window and a second one is turned on, the first tool is closed and the new one is opened.
+
 There are additional tools that open on the right side and can be accessed from the Features tool:
+
 - Move
 - Duplicate
 - Delete

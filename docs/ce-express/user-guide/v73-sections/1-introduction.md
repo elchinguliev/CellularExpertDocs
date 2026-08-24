@@ -42,7 +42,7 @@ registered trademarks, @cellular-expert.com and
 www.cellular-expert.com are service marks of UAB
 CELLULAR EXPERT in Lithuania and some other countries.
 
-# 1.1 CE Express application
+## 1.1 CE Express application
 
 To access the Cellular Expert Express web application, type its URL in the address field of a web browser.
 You can use any web browser, however, we recommend the up-to-date Google Chrome web browser.
@@ -78,7 +78,7 @@ To recover an ArcGIS Enterprise account, use the Forgot password button.
 
 ![Image p10](../../../assets/images/ce-express/user-guide-v73/p010-img1.png)
 
-# 1.2 Open the Express Map view
+## 1.2 Open the Express Map view
 
 In the Network Data Management view the map and the database are connected. Features, described in the tables, are displayed on the map. Select a workspace.
 
@@ -88,7 +88,7 @@ Map view and features are visible only for the selected workspace.
 
 ![Image p11](../../../assets/images/ce-express/user-guide-v73/p011-img1.png)
 
-# 1.3 Log out
+## 1.3 Log out
 
 To exit the Express Network Data Management application, click on the User menu button at the top right corner. And click on the Logout button.
 

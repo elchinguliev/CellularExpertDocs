@@ -1,6 +1,6 @@
 # 8 Exploring data
 
-# 8.1 Export selected
+## 8.1 Export selected
 
 Data subsets can be exported as .xls or .csv files. Select the database records of choice, then click Export
 
@@ -14,7 +14,7 @@ Click on the links to choose between .xls or.csv file formats:
 
 Note that hidden columns are not exported.
 
-# 8.2 PDF report
+## 8.2 PDF report
 
 A PDF report summarizes information associated with one or more objects. For generating a report, first select the objects of choice. Then open the Import Export menu with ![icon](../../../assets/images/ce-express/user-guide-v73/p286-img4.png) and choose “Generate report as PDF”
 
@@ -26,7 +26,7 @@ A new dialog appears. Open the PDF report by clicking “here”:
 
 Note that the administrator has to prepare the template for the PDF report. Please inform the administrator in case of problems with generating PDF reports.
 
-# 8.3 File browser
+## 8.3 File browser
 
 Open the Data Export menu with ![icon](../../../assets/images/ce-express/user-guide-v73/p287-img3.png) and choose “File Browser”:
 
@@ -60,7 +60,7 @@ You can restore the image by selecting the strikethrough object and clicking ![i
 
 ![Image p290](../../../assets/images/ce-express/user-guide-v73/p290-img1.png)
 
-# 8.4 Quick references
+## 8.4 Quick references
 
 Quick references are defined by the administrator and allow users to open a reference object in a separate
 browser tab. If Quick references are enabled, the respective column is marked with “*”, for example “siteid”:
@@ -73,7 +73,7 @@ To open a reference link, select it in edit mode (right click on it) and click �
 
 The referenced object is opened in a separate browser tab.
 
-# 8.5 Default editing and manual editing
+## 8.5 Default editing and manual editing
 
 If the administrator has defined default values (Administrator Guide: "Set Defaults"), editing column
 information may include selecting values from a drop-down menu. If the menu does not comprise the

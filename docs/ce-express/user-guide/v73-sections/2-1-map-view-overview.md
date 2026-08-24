@@ -10,7 +10,7 @@ The Map view has a predefined layout divided into:
 
 ![Image p12](../../../assets/images/ce-express/user-guide-v73/p012-img3.png)
 
-# 3.1 Data management and visualization section
+## 3.1 Data management and visualization section
 
 Available tools for this section:
 
@@ -23,7 +23,7 @@ Available tools for this section:
 
 The dialogs are pinned and can not be moved to another location. If one tool is active and visible in the window and a second one is turned on, the first tool is closed and the new one is opened.
 
-# 3.4 Calculation section
+## 3.2 Calculation section
 
 Available tools for this section:
 - Settings

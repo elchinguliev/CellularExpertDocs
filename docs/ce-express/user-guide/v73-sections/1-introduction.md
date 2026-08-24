@@ -41,3 +41,57 @@ reserved. Cellular Expert and Cellular Expert logo are
 registered trademarks, @cellular-expert.com and
 www.cellular-expert.com are service marks of UAB
 CELLULAR EXPERT in Lithuania and some other countries.
+
+# 2 CE Express application
+
+To access the Cellular Expert Express web application, type its URL in the address field of a web browser.
+You can use any web browser, however, we recommend the up-to-date Google Chrome web browser.
+
+The URL depends on the installation and initial configuration:
+  1. Web address, as an example: https://<yourdomain>/ceexp
+  2. An address can be configured by the administrator.
+
+Please note that for security reasons the application uses only HTTPS.
+
+# 2.1 Log in to the Express Network Data Management application
+
+Users can log in with the organization account of ArcGIS Enterprise or Cellular Expert Express and are identified by a Username and a Password.
+
+![Image p8](../../../assets/images/ce-express/user-guide-v73/p008-img1.png)
+
+Use the Login as ArcGIS button to log in with an ArcGIS Enterprise account. It will allow to access the Network Data Management view for database management and the [Map view](#kw:switching-between-views:ce-express-login) for analysis, calculations, etc.
+
+![Image p8](../../../assets/images/ce-express/user-guide-v73/p008-img2.png)
+
+Use log in with Express account to login with a Cellular Expert Express account. It will allow to access only the Network Data Management view. To reach Map view you will be able to log in with an ArcGIS Enterprise account later.
+
+![Image p9](../../../assets/images/ce-express/user-guide-v73/p009-img1.png)
+
+For the option Login with ArcGIS an ArcGIS Portal account is required and the user gains access to the application map widgets. The second option, Login with Express account, enables only access to view and manage tables, data and so on.
+
+Registered users may change their Cellular Expert password any time by clicking Reset password.
+
+![Image p9](../../../assets/images/ce-express/user-guide-v73/p009-img2.png)
+
+Note: before using the Reset Password feature the server should be configured as a mail server and have the possibility to send email. The Cellular Expert Express Network Data Management view opens.
+To recover an ArcGIS Enterprise account, use the Forgot password button.
+
+![Image p10](../../../assets/images/ce-express/user-guide-v73/p010-img1.png)
+
+# 2.2 Open the Express Map view
+
+In the Network Data Management view the map and the database are connected. Features, described in the tables, are displayed on the map. Select a workspace.
+
+![Image p10](../../../assets/images/ce-express/user-guide-v73/p010-img2.png)
+
+Map view and features are visible only for the selected workspace.
+
+![Image p11](../../../assets/images/ce-express/user-guide-v73/p011-img1.png)
+
+# 2.3 Log out
+
+To exit the Express Network Data Management application, click on the User menu button at the top right corner. And click on the Logout button.
+
+![Image p11](../../../assets/images/ce-express/user-guide-v73/p011-img2.png)
+
+![Image p11](../../../assets/images/ce-express/user-guide-v73/p011-img3.png)

@@ -6,7 +6,7 @@ This tool generates a detailed profile between two points. The locations From (t
 
 ![Image p142](../../../../assets/images/ce-express/user-guide-v73/p142-img2.png)
 
-3.1.16.1 Properties
+## 3.1.16.1 Properties
 
 ![Image p142](../../../../assets/images/ce-express/user-guide-v73/p142-img3.png)
 
@@ -134,7 +134,7 @@ A power that the receiver possesses.
 
 Miscellaneous loss value in dB.
 
-3.1.16.2 Draw profile
+## 3.1.16.2 Draw profile
 
 When the [Profile tool](#kw:when-to-use-the-profile-tool:ce-express-profile) is selected you will be able to select two points on the map in turn creating a Profile line.
 
@@ -163,7 +163,7 @@ Click on![Image p147](../../../../assets/images/ce-express/user-guide-v73/p147-i
 
 ![Image p148](../../../../assets/images/ce-express/user-guide-v73/p148-img1.png)
 
-3.1.16.3 Profile report
+## 3.1.16.3 Profile report
 The input data and calculation results can be automatically transferred into a Profile Report. This report will show transmitter/receiver input data, calculation results as well as the Profile plot and map view in which the profile was drawn.
 
 ![Image p148](../../../../assets/images/ce-express/user-guide-v73/p148-img2.png)

@@ -4,7 +4,7 @@ Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p0
 
 Use this tool to import or add features, select and visualize them.
 
-3.1.2.1 Import
+## 3.1.2.1 Import
 
 The widget allows the creation of objects from a text file. To start importing new objects press the Import
 features button.
@@ -25,7 +25,7 @@ To start the import process, select or drag and drop a CSV or KMZ file.
 
 ![Image p020](../../../../assets/images/ce-express/user-guide-v73/p020-img2.png)
 
-3.1.2.1.1 Mapping
+### 3.1.2.1.1 Mapping
 
 The data in the import files may have names, values and units which do not match the data in the Cellular
 Expert database. To resolve such issues, check Use mapping button.
@@ -44,7 +44,7 @@ empty means that no default value will be applied.
 
 ![Image p022](../../../../assets/images/ce-express/user-guide-v73/p022-img1.png)
 
-3.1.2.1.2 Mapping presets
+### 3.1.2.1.2 Mapping presets
 
 It is possible to create import presets.
 
@@ -68,7 +68,7 @@ Applies a mapping preset for importing file.
 
 Deletes a preset.
 
-3.1.2.2 Add features
+## 3.1.2.2 Add features
 
 ![Image p023](../../../../assets/images/ce-express/user-guide-v73/p023-img1.png)
 
@@ -84,7 +84,7 @@ New objects can be created in several ways. They can be:
 
 ![Image p24](../../../../assets/images/ce-express/user-guide-v73/p024-img1.png)
 
-3.1.2.2.1 Feature set template
+### 3.1.2.2.1 Feature set template
 
 Allows for saving a group of features as a “feature set template”, with one of the features acting as the origin for the feature set coordinates. The entire feature set can then be placed with a single operation via the add features tool. Coordinates relative to the origin feature are maintained by the other features in the set.
 
@@ -108,7 +108,7 @@ Feature parameters
 
 Parameters of the features saved in the feature set template. The placed feature parameters will be automatically filled with the saved values.
 
-3.1.2.2.2 Add Site
+### 3.1.2.2.2 Add Site
 
 ![Image p026](../../../../assets/images/ce-express/user-guide-v73/p026-img1.png)
 
@@ -132,7 +132,7 @@ Coordinate in the projected coordinate system.
 
 Height above the terrain.
 
-3.1.2.2.3 Add Candidate sites
+### 3.1.2.2.3 Add Candidate sites
 
 ![Image p027](../../../../assets/images/ce-express/user-guide-v73/p027-img1.png)
 
@@ -176,7 +176,7 @@ Free-form text.
 
 Free-form text.
 
-3.1.2.2.4 Add Site search areas
+### 3.1.2.2.4 Add Site search areas
 
 ![Image p028](../../../../assets/images/ce-express/user-guide-v73/p028-img1.png)
 
@@ -204,7 +204,7 @@ Number of segments used to approximate the geometry.
 
 Group to which the area belongs.
 
-3.1.2.2.5 Add Cell
+### 3.1.2.2.5 Add Cell
 
 ![Image p029](../../../../assets/images/ce-express/user-guide-v73/p029-img1.png)
 
@@ -343,7 +343,7 @@ Free-form text.
 
 Free-form text.
 
-3.1.2.2.6 Add Repeater
+### 3.1.2.2.6 Add Repeater
 
 ![Image p032](../../../../assets/images/ce-express/user-guide-v73/p032-img1.png)
 
@@ -431,7 +431,7 @@ values, the cells won't be predicted together.
 
 Antenna name for Repeater object.
 
-3.1.2.2.7 Add Radar
+### 3.1.2.2.7 Add Radar
 
 ![Image p034](../../../../assets/images/ce-express/user-guide-v73/p034-img1.png)
 
@@ -479,7 +479,7 @@ Visible field (vertical angle) of the radar in degrees.
 
 Prediction model for Path Loss simulation.
 
-3.1.2.2.8 Add CPE
+### 3.1.2.2.8 Add CPE
 
 ![Image p035](../../../../assets/images/ce-express/user-guide-v73/p035-img1.png)
 
@@ -535,7 +535,7 @@ Current status of the [network object](#kw:object-types:ce-express-network-objec
 
 Additional information for network predictions can be noted here.
 
-3.1.2.2.9 Add Measurements
+### 3.1.2.2.9 Add Measurements
 
 **Required parameters**
 
@@ -555,7 +555,7 @@ Coordinate in the projected coordinate system.
 
 A field which binds the measurement to a cell network object.
 
-3.1.2.2.10 Add Omen
+### 3.1.2.2.10 Add Omen
 
 ![Image p037](../../../../assets/images/ce-express/user-guide-v73/p037-img1.png)
 
@@ -585,7 +585,7 @@ Height above the terrain.
 
 Free-form text.
 
-3.1.2.2.11 Add Sirens
+### 3.1.2.2.11 Add Sirens
 
 ![Image p038](../../../../assets/images/ce-express/user-guide-v73/p038-img1.png)
 
@@ -645,7 +645,7 @@ Free-form text.
 
 Free-form text.
 
-3.1.2.2.12 Add Lights
+### 3.1.2.2.12 Add Lights
 
 **Required parameters**
 
@@ -681,7 +681,7 @@ Mechanical tilt value.
 
 Antenna name for Light object.
 
-3.1.2.2.13 Add Mesh nodes
+### 3.1.2.2.13 Add Mesh nodes
 
 **Required parameters**
 
@@ -752,7 +752,7 @@ Free-form text.
 
 Free-form text.
 
-3.1.2.3 Selecting
+## 3.1.2.3 Selecting
 
 **Selection settings**
 
@@ -825,7 +825,7 @@ Opens the selected objects attribute table ![icon](../../../../assets/images/ce-
 
 ![Image p047](../../../../assets/images/ce-express/user-guide-v73/p047-img2.png)
 
-3.1.2.4 Move/Duplicate/Delete/Publish selected objects
+## 3.1.2.4 Move/Duplicate/Delete/Publish selected objects
 
 Select objects on the map to start the Publish, Move, Duplicate or Delete functionality.
 
@@ -872,7 +872,7 @@ database tables.
 
 Press Accept to save changes.
 
-3.1.2.5 Edit objects
+## 3.1.2.5 Edit objects
 
 Object attributes can be edited using the Cellular Expert graphical interface. Move the mouse cursor to the
 required object in the Features tool and click on it to edit object attributes.
@@ -919,7 +919,7 @@ Removes feature from the selected features list.
 
 Adds feature to selected features list.
 
-3.1.2.6 Quick add
+## 3.1.2.6 Quick add
 
 If you have feature templates favorited, the quick add section will appear under the feature type in the
 features list. You may then use the listed favorite feature templates to quickly add features with the template

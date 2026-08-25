@@ -113,7 +113,7 @@ These are conservative conditions ensuring that siren reach is never overestimat
 
 In the left ribbon, navigate to Layers → Geodata, expand Clutter Heights, and set the opacity to 100% to enhance building visibility. For more accurate RF prediction, use a high-resolution grid of 0.1 meters in the prediction model to account for wall thickness and fine structural details.
 
-3.1.9.1 CEC ITU-R Model
+## 3.1.9.1 CEC ITU-R Model
 
 This deterministic model is designed for precise tracking of the main, strongest radio ray, while also empirically modeling the scattering of other rays around the receiver. It applies to all ranges of cellular mobile and public safety networks, including 2G, 3G, 4G, and 5G, within the 100 MHz to 6 GHz frequency range.
 
@@ -121,7 +121,7 @@ The model is recommended for accurate wide-area propagation and coverage modelin
 
 When building data and their heights are not available, and only DTM and clutter data at a resolution of 10 meters or lower are accessible, the UniMacro Model should be considered for wide-area propagation and coverage modeling in a slightly narrower frequency range of 400 MHz to 3 GHz.
 
-3.1.9.1.1 CEC ITU-R Model settings
+### 3.1.9.1.1 CEC ITU-R Model settings
 
 ![Image p096](../../../../assets/images/ce-express/user-guide-v73/p096-img1.png)
 
@@ -219,13 +219,13 @@ Receiver height value used when receiver lands on this clutter class. If this va
 | Low loss building | 1 | 1 | 8.5 | 0.25 | 1 | 0 |
 | High loss building | 1 | 1 | 17 | 0.25 | 1 | 0 |
 
-3.1.9.2 ITU-R P.452 Model
+## 3.1.9.2 ITU-R P.452 Model
 
 This model is designed to estimate radio signal propagation over long distances, including terrestrial paths. It is specifically designed to predict signal attenuation caused by various mechanisms, such as diffraction, tropospheric scatter, ducting, and reflections from the Earth's surface, across frequencies ranging from 0.1 GHz to 50 GHz. While other prediction model covers frequencies from 100MHz to 6GHz, we recommend to use it from 6GHz to 50GHz frequencies.
 
 This model is particularly well-suited for microwave links and is widely used for planning and interference analysis in fixed and mobile radio communication systems. By accounting for the effects of terrain, atmospheric conditions, and other factors, it helps engineers assess link reliability and optimize network performance in a variety of environmental scenarios.
 
-3.1.9.2.1 ITU R. P452 Model settings
+### 3.1.9.2.1 ITU R. P452 Model settings
 
 ![Image p100](../../../../assets/images/ce-express/user-guide-v73/p100-img1.png)
 
@@ -307,7 +307,7 @@ Receiver height value used when receiver lands on this clutter class. If this va
 | Low loss building | 8.5 | 0.25 | 1 |
 | High loss building | 17 | 0.25 | 1 |
 
-3.1.9.3 ITU-R P.1546 Model
+## 3.1.9.3 ITU-R P.1546 Model
 
 This model is designed for wide-area radio propagation prediction based on empirical data and statistical analysis of measured field strengths. It provides path loss estimations over land, sea, and mixed terrain for frequencies ranging from 30 MHz to 3 GHz, using parameters defined in ITU-R Recommendation P.1546. The model is applicable to terrestrial broadcasting, mobile, and public safety networks, including technologies such as 2G, 3G, and 4G, within its frequency range.
 
@@ -317,7 +317,7 @@ This model is recommended for national or regional coverage planning, especially
 
 For scenarios where accurate building geometry and heights are available and a higher modeling frequency range (up to 6 GHz) is required, the CEC ITU-R 3GPP Model is recommended instead, offering greater precision in dense urban and high-frequency applications.
 
-3.1.9.3.1 ITU R. P1546 Model settings
+### 3.1.9.3.1 ITU R. P1546 Model settings
 
 ![Image p103](../../../../assets/images/ce-express/user-guide-v73/p103-img1.png)
 
@@ -343,11 +343,11 @@ How radio signal levels fluctuate over time due to changes in atmospheric condit
 
 Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used.
 
-3.1.9.4 ITU-R P525 Model
+## 3.1.9.4 ITU-R P525 Model
 
 Line of Sight model is typically used for mmWave band frequencies within the 6 GHz – 100 GHz frequency range and provides results only for line-of-sight areas.
 
-3.1.9.4.1 ITU-R P525 Model settings
+### 3.1.9.4.1 ITU-R P525 Model settings
 
 ![Image p105](../../../../assets/images/ce-express/user-guide-v73/p105-img1.png)
 
@@ -385,7 +385,7 @@ Indicates the slope determined by the frequency value, with a default value of 2
 
 Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used.
 
-3.1.9.5 UniMacro Model
+## 3.1.9.5 UniMacro Model
 
 This model is designed for deterministic tracking of the main, strongest radio ray in [Line of Sight](#kw:running-a-profile:ce-express-profile) (LOS) areas, while propagation modeling in Obstructed [Line of Sight](#kw:running-a-profile:ce-express-profile) (OLOS) and Non-Line of Sight (NLOS) areas uses empirically determined parameters defined in ITU-R and 3GPP recommendations. It also models the scattering of other rays around the receiver. The model applies empirically validated values for the 400 MHz to 3 GHz frequency range and is suitable for modeling all cellular mobile and public safety networks, including 2G, 3G, 4G, and 5G, within that frequency range.
 
@@ -393,7 +393,7 @@ This model is recommended for wide-area propagation and coverage modeling when b
 
 For accurate wide-area propagation and coverage modeling where building data and their heights are available, the CEC ITU-R 3GPP Model is recommended, offering a broader application frequency range of 100 MHz to 6 GHz.
 
-3.1.9.5.1 UniMacro Model settings
+### 3.1.9.5.1 UniMacro Model settings
 
 ![Image p107](../../../../assets/images/ce-express/user-guide-v73/p107-img1.png)
 
@@ -507,13 +507,13 @@ Receiver height value used when receiver lands on this clutter class. If this va
 | Low loss building | 1 | 1 | 8.5 | 0.25 | 1 | 0 |
 | High loss building | 1 | 1 | 17 | 0.25 | 1 | 0 |
 
-3.1.9.6 ITU-R P368 Model
+## 3.1.9.6 ITU-R P368 Model
 
 ITU-R P.368 is ground-wave propagation of radio signals model. It is specifically designed to estimate the field strength and attenuation of radio waves over the Earth's surface, particularly for frequencies below 30 MHz.
 
 This model is widely used in planning and designing long-distance communication systems, such as maritime, broadcasting, and low-frequency navigation systems, where ground-wave propagation plays a critical role. It accounts for factors such as terrain conductivity, dielectric properties, and surface roughness to deliver accurate predictions of signal behavior.
 
-3.1.9.6.1 ITU-R P368 Model settings
+### 3.1.9.6.1 ITU-R P368 Model settings
 
 ![Image p111](../../../../assets/images/ce-express/user-guide-v73/p111-img1.png)
 
@@ -579,7 +579,7 @@ Receiver height value used when receiver lands on this clutter class. If this va
 | Low loss building | 1 | 1 | 8.5 |
 | High loss building | 1 | 1 | 17 |
 
-3.1.9.7 ISO9613 Model
+## 3.1.9.7 ISO9613 Model
 
 ISO 9613 is an international standard used for predicting outdoor sound propagation, including the assessment of siren noise levels. It provides a structured method for calculating sound attenuation over distance, considering factors such as geometric spreading, atmospheric absorption, ground effects, reflections, and obstacles.
 
@@ -609,7 +609,7 @@ The primary factors included in the standard are:
    - Weather conditions such as wind speed, temperature gradients, and humidity can significantly affect sound propagation. For example, sound may travel farther downwind or be absorbed more by humid air.
    - These conditions are integrated into the model to adjust the calculations of sound attenuation, ensuring more accurate predictions for different weather scenarios.
 
-3.1.9.7.1 ISO9613 Model settings
+### 3.1.9.7.1 ISO9613 Model settings
 
 ![Image p116](../../../../assets/images/ce-express/user-guide-v73/p116-img1.png)
 
@@ -651,11 +651,11 @@ Air humidity in percentage.
 
 Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used.
 
-3.1.9.8 CEC 3GPP TR Indoor model
+## 3.1.9.8 CEC 3GPP TR Indoor model
 
 In the current version, each transmitter must be defined individually as a separate indoor antenna, including its specific attributes such as transmit power. When importing the building wall layout from a CAD drawing, it is converted into both Clutter Heights and a Clutter Class raster. You can assign Clutter Class 0 to represent open space and Clutter Class 1 for obstacles. Additional clutter classes can be defined based on the wall material properties during the CAD-to-clutter conversion process. These classifications are then specified within the Geodata Set, enabling more precise indoor propagation modeling.
 
-3.1.9.8.1 CEC 3GPP TR Model settings
+### 3.1.9.8.1 CEC 3GPP TR Model settings
 
 ![Image p118](../../../../assets/images/ce-express/user-guide-v73/p118-img1.png)
 

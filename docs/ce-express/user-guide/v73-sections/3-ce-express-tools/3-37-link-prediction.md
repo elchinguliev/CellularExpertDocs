@@ -72,7 +72,7 @@ The standard used to calculate the performance metric.
 
 A selection indicating if the metric is calculated based on yearly data or the data from the month with the poorest performance.
 
-3.1.37.1 Link prediction results
+## 3.1.37.1 Link prediction results
 
 After calculations, you will be able to view Profile, Interference, Performance and Capacity calculation results.
 
@@ -106,7 +106,7 @@ The protection improvement factor is a ratio between unprotected and protected u
 
 ![Image p217](../../../../assets/images/ce-express/user-guide-v73/p217-img1.png)
 
-3.1.37.2 Interfering links
+## 3.1.37.2 Interfering links
 In this tab, you will be able to view interference Power Budget, Path Loss, Profile, and Spectrum Mask results in an unordered fashion.
 
 ![Image p217](../../../../assets/images/ce-express/user-guide-v73/p217-img2.png)
@@ -123,7 +123,7 @@ In this tab, you will be able to view interference Power Budget, Path Loss, Prof
 
 ![Image p218](../../../../assets/images/ce-express/user-guide-v73/p218-img1.png)
 
-3.1.37.3 Generate report
+## 3.1.37.3 Generate report
 
 The calculation results can be automatically transferred into a Link Prediction Report. This report will show profile, prediction parameter and results, performance and propagation reliability. The report can be exported in PDF format.
 

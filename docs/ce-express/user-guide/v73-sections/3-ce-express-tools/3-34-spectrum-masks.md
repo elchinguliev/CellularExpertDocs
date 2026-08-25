@@ -1,7 +1,6 @@
 # 3.1.34 Spectrum masks
 
-[Spectrum masks](#kw:711-spectrum-masks:ce-pro-rlp)
-Click this button ![Image p197](../../../../assets/images/ce-express/user-guide-v73/p197-img2.png) to open Spectrum masks tool.
+Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p197-img2.png) to open Spectrum masks tool.
 
 The tool enables you to create spectrum masks that will be necessary to be used in calculations.
 

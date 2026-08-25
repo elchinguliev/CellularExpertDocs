@@ -29,17 +29,18 @@ o Calculation name
 o Mesh node template
 
 - **Press Calculate button to start simulation.**
-- 
 - The tool calculates the RSL between each node pair and compares it against the configured RSL sensitivity threshold defined for the Mesh Node object.
-- 
 - Open Prediction history tool.
 
 ![Image p229](../../../../assets/images/ce-express/user-guide-v73/p229-img1.png)
 
 Connectivity status is then visually rendered using a clear, color-coded scheme:
-o ![Image p229](../../../../assets/images/ce-express/user-guide-v73/p229-img2.png) Green : Bi-directional connectivity – both nodes meet or exceed the RSL sensitivity for each other.
-o ![Image p229](../../../../assets/images/ce-express/user-guide-v73/p229-img3.png) Yellow: Uni-directional connectivity – only one node meets the RSL threshold for the other.
-o ![Image p229](../../../../assets/images/ce-express/user-guide-v73/p229-img4.png) Red: No connectivity – RSL falls below the sensitivity threshold in both directions.
+
+![Image p229](../../../../assets/images/ce-express/user-guide-v73/p229-img2.png) - Green : Bi-directional connectivity – both nodes meet or exceed the RSL sensitivity for each other.
+
+![Image p229](../../../../assets/images/ce-express/user-guide-v73/p229-img3.png) - Yellow: Uni-directional connectivity – only one node meets the RSL threshold for the other.
+
+![Image p229](../../../../assets/images/ce-express/user-guide-v73/p229-img4.png) - Red: No connectivity – RSL falls below the sensitivity threshold in both directions.
 
 ![Image p230](../../../../assets/images/ce-express/user-guide-v73/p230-img1.png)
 

@@ -7,7 +7,7 @@ This is the main component used for HCM calculations. Main functionality:
 - Create new incoming coordination request
 - Create outgoing coordination request
 
-3.1.44.1 List coordination requests
+## 3.1.44.1 List coordination requests
 
 ![Image p240](../../../../assets/images/ce-express/user-guide-v73/p240-img1.png)
 
@@ -109,7 +109,7 @@ coordination request.
   
 Answer to coordination request contains the same parameters as the request.
 
-3.1.44.2 Create new incoming coordination request
+## 3.1.44.2 Create new incoming coordination request
 
 New incoming (foreign) coordination request is created by clicking New foreign request in HCM requests. Initially this displays area where received coordination file can be dropped.
 
@@ -197,7 +197,7 @@ For file with contents code O, the following steps are performed:
 of the coordination request: C, E, F, G, H, P
 - File content is compared against the selected records and comparison report is created.
 
-3.1.44.3 Display processing results
+## 3.1.44.3 Display processing results
 
 View processing results displays calculations performed on an incoming request file of type N or O.
 
@@ -301,7 +301,7 @@ Section "Missing in received list" displays all the records that are present in 
 
 Downloads report containing all the records of this section
 
-3.1.44.4 Create new outgoing coordination request
+## 3.1.44.4 Create new outgoing coordination request
 
 New outgoing (own) coordination request is created by clicking New own request (in HCM requests). This opens a new widget:
 

@@ -150,7 +150,6 @@ Upon hovering the mouse over a prediction result item, options for it appear.
 ![Image p069](../../../../assets/images/ce-express/user-guide-v73/p069-img3.png)
 
 **Compare**
-[Compare](#kw:98-compare-predictions:ce-pro-rcp)
 
 ![Image p069](../../../../assets/images/ce-express/user-guide-v73/p069-img4.png)
 

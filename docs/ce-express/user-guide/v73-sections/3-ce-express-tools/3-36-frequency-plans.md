@@ -10,7 +10,7 @@ Move the mouse cursor over the frequency plan and delete it using Delete button.
 
 ![Image p207](../../../../assets/images/ce-express/user-guide-v73/p207-img3.png)
 
-3.1.36.1 Import frequency plan
+## 3.1.36.1 Import frequency plan
 
 To import a frequency plan press the New frequency plan button
 
@@ -26,7 +26,7 @@ To start the import procedure, select or drag and drop the frequency channel csv
 
 ![Image p208](../../../../assets/images/ce-express/user-guide-v73/p208-img3.png)
 
-3.1.36.2 Add frequency plan manually
+## 3.1.36.2 Add frequency plan manually
 
 To add manually a frequency plan press the New frequency plan button
 

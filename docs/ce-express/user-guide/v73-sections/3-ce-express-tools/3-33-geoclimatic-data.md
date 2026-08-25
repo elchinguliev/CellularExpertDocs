@@ -6,7 +6,7 @@ Geoclimatic Data is a tool that lets you adjust the geoclimatic settings that wi
 
 ![Image p192](../../../../assets/images/ce-express/user-guide-v73/p192-img1.png)
 
-3.1.33.1 Gaseous Absorption
+## 3.1.33.1 Gaseous Absorption
 
 Gaseous absorption define values for dry air pressure and water vapour density. These values can be obtained from predefined geoclimatic data maps. Water vapour density data according to ITU-R P.836-3. It is used in gaseous absorption evaluation.
 
@@ -30,7 +30,7 @@ Enable/Disable this Geoclimatic data
 
 A dropdown menu that allows the user to select the source or type of data used to determine water vapor density.
 
-3.1.33.2 Temperature
+## 3.1.33.2 Temperature
 
 Annual mean surface temperature at 2m above the surface of the Earth according to ITU-R P.1510. The data is used to evaluate the thermal noise of a receiver.
 
@@ -48,7 +48,7 @@ Enable/Disable this Geoclimatic data
 
 A dropdown menu allowing the user to select the dataset from which the annual temperature data should be sourced.
 
-3.1.33.3 Multipath Fading
+## 3.1.33.3 Multipath Fading
 
 The Multipath Fading page defines refractivity data and calculation parameters for ITU and Vigants-Barnett methods.
 
@@ -98,7 +98,7 @@ A section to select the ITU recommendation (either ITU-R P.530 or ITU-R P.841) f
 
 Input for the percentage of time to apply an interference correction factor to account for multipath and focusing effects.
 
-3.1.33.4 Rain Fading
+## 3.1.33.4 Rain Fading
 The rain fading page defines rain regions (ITU and Crane) for rain rate statistics and calculation methods (ITU and Crane). The rain rate exceedance parameter for 0.01% of the time can be set manually or automatically according to the rain zone.
 
 ![Image p196](../../../../assets/images/ce-express/user-guide-v73/p196-img1.png)
@@ -119,7 +119,7 @@ This is a model selection option related to the Crane model for calculating rain
 
 Selection options for the method of calculating the reliability of a signal in a communication path that may involve multiple hops or two-way transmission.
 
-3.1.33.5 Statistics
+## 3.1.33.5 Statistics
 
 These settings are used to handle statistical conversions for telecommunication planning, ensuring that systems are designed to cope with the worst-case scenarios based on historical data and predictive models.
 

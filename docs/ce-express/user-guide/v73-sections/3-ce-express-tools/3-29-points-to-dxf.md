@@ -1,6 +1,6 @@
 # 3.1.29 Points to DXF
 
-Click this button ![Image p187](../../../../assets/images/ce-express/user-guide-v73/p187-img1.png) to open Points to DXF tool.
+Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p187-img1.png) to open Points to DXF tool.
 
 Allows for easy reference point transfer between the CE Express interface and CAD applications.
 

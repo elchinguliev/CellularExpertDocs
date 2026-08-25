@@ -6,6 +6,8 @@ Click the Quick Mesh Connectivity button to open the dialog. To enhance the effi
 
 This lightweight yet powerful feature enables users to instantly evaluate whether a Mesh Node can connect to an existing mesh network based on either its current position or a proposed location. Whether you are planning the deployment of a single node or simulating a mobile mesh scenario, Quick Mesh Connectivity streamlines the decision-making process by providing immediate, actionable feedback.
 
+![Quick Mesh Connectivity dockpane — Calculation Settings and Temporary mesh node parameters](../../../../assets/images/ce-pro/v5.0/quick-mesh-connectivity-panel.png)
+
 ## Workflow
 
 1. **Select Existing Mesh Nodes** — on the map interface, select the Mesh Nodes that should be included in the connectivity calculation.
@@ -17,6 +19,8 @@ This lightweight yet powerful feature enables users to instantly evaluate whethe
    - Green indicates areas with successful two-way connectivity.
    - Yellow shows one-way connectivity.
    - Red marks areas with no connectivity.
+
+![Quick Mesh Connectivity results — Contents panel with the Valid / Valid one way / Invalid legend, and the corresponding colored connection lines on the map](../../../../assets/images/ce-pro/v5.0/quick-mesh-connectivity-results-legend.png)
 
 ## Parameters
 

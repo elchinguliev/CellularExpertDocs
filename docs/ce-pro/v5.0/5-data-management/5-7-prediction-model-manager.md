@@ -28,7 +28,7 @@ c. **NLOS condition** — path loss as a combination of basic FSL (ITU-R P.525, 
 d. **OLOS+NLOS condition** — path loss as a combination of basic FSL (with dual slope option), diffraction losses (ITU-R P.526), and clutter loss modelling (ITU-R P.2108).
 e. **In clutter (building, vegetation, etc.)** — path loss is calculated as above for LOS/OLOS/NLOS, plus an additional penetration loss to simulate an Outdoor-to-Indoor scenario, based on ITU-R P.833 (vegetation clutter) or 3GPP TR 38.901 (buildings).
 
-**Model application**
+#### Model application
 
 This deterministic model precisely tracks the main, strongest radio ray, while empirically modeling the scattering of other rays around the receiver. It applies to all ranges of cellular mobile and public safety networks — 2G, 3G, 4G, and 5G — within the 30 MHz to 6 GHz frequency range.
 
@@ -36,9 +36,9 @@ Recommended for accurate wide-area propagation and coverage modeling when precis
 
 When building data and heights are unavailable, and only DTM and clutter data at 10 m resolution or lower are accessible, use the [UniMacro Model](#unimacro-model-400-mhz-3-ghz) instead, for the narrower 400 MHz to 3 GHz range.
 
-**Default settings**
+#### Default settings
 
-*General settings to calculate model loss*
+##### General settings to calculate model loss
 
 | Parameter | Description |
 |---|---|
@@ -49,7 +49,7 @@ When building data and heights are unavailable, and only DTM and clutter data at
 
 ![CEC ITU-R 3GPP — General settings fields](../../../assets/images/ce-pro/v5.0/cec-itu-r-general-settings.png)
 
-*Clutter class settings — diffraction, clutter loss, penetration loss, and receiver loss*
+##### Clutter class settings — diffraction, clutter loss, penetration loss, and receiver loss
 
 The Clutter Class option defines predefined clutter categories, each with unique values for diffraction loss, clutter loss, penetration loss, and receiver loss coefficients — describing how a signal is affected when it passes through or terminates in a specific clutter class.
 
@@ -64,7 +64,7 @@ The Clutter Class option defines predefined clutter categories, each with unique
 | Enclosed receiver loss frequency exponent coefficient | Additional loss inside the clutter class based on frequency. Higher values increase path loss, particularly at higher frequencies. |
 | Receiver point loss offset, dB | Additional loss offset applied to the path loss grid, representing UE losses. |
 
-*Clutter Classes default values*
+##### Clutter Classes default values
 
 | Clutter class | Penetration receiver loss offset | Penetration receiver loss scaling coefficient | Penetration receiver loss frequency exponent coefficient |
 |---|---|---|---|
@@ -101,15 +101,15 @@ Provided as a universally applicable model with a very wide frequency range from
 a. **LOS condition** — path loss model based on the FSL principle.
 b. **NLOS condition** — total path loss modelled as a combination of basic transmission losses and diffraction losses.
 
-**Model application**
+#### Model application
 
 Estimates radio signal propagation over long distances, including terrestrial paths, predicting attenuation from diffraction, tropospheric scatter, ducting, and reflections from the Earth's surface, across 0.1–50 GHz. While the CEC ITU-R 3GPP model above covers 100 MHz–6 GHz, this model is recommended for 6 GHz–50 GHz.
 
 Particularly well-suited for microwave links, and widely used for planning and interference analysis in fixed and mobile radio communication systems.
 
-**Default settings**
+#### Default settings
 
-*General settings to calculate model loss*
+##### General settings to calculate model loss
 
 | Parameter | Description |
 |---|---|
@@ -117,11 +117,11 @@ Particularly well-suited for microwave links, and widely used for planning and i
 | Distance coefficient | Slope based on distance between the cell and receiver location. Default: `20`. |
 | Frequency coefficient | Slope determined by the frequency value. Default: `20`. |
 
-*Multipath and focusing*
+##### Multipath and focusing
 
 The correction for multipath and focusing effects accounts for signal enhancements caused by constructive interference and atmospheric focusing. This adjustment reduces total path loss under favorable conditions, such as over-water paths or specific atmospheric gradients. Possible values: Yes or No.
 
-*Clutter class settings — penetration loss*
+##### Clutter class settings — penetration loss
 
 | Parameter | Description |
 |---|---|
@@ -129,7 +129,7 @@ The correction for multipath and focusing effects accounts for signal enhancemen
 | Penetration loss distance coefficient | Additional signal loss as a function of distance traveled within the clutter class. Higher values increase path loss. |
 | Penetration loss frequency coefficient | Additional loss inside the clutter class based on frequency. Higher values increase path loss, particularly at higher frequencies. |
 
-*Clutter Classes default values*
+##### Clutter Classes default values
 
 | Clutter class | Penetration receiver loss offset | Penetration receiver loss scaling coefficient | Penetration receiver loss frequency exponent coefficient |
 |---|---|---|---|
@@ -167,15 +167,15 @@ a. **LOS condition** — path loss model based on the FSL principle and dual slo
 b. **OLOS or NLOS condition** — path loss modelled using the Extended Hata (Open Area) model with additional diffraction losses based on Recommendation ITU-R P.526.
 c. **In clutter (building, vegetation, etc.)** — path loss is calculated as above for LOS/OLOS/NLOS, plus an additional penetration loss to simulate an Outdoor-to-Indoor scenario, based on ITU-R P.833 (vegetation clutter) or 3GPP TR 38.901 (buildings).
 
-**Model application**
+#### Model application
 
 Deterministically tracks the main, strongest radio ray in LOS areas, while OLOS and NLOS propagation uses empirically determined parameters from ITU-R and 3GPP recommendations; it also models scattering of other rays around the receiver. Applies empirically validated values for 400 MHz–3 GHz, suitable for all cellular mobile and public safety networks (2G, 3G, 4G, 5G) in that range.
 
 Recommended for wide-area propagation and coverage modeling when building data and heights are unavailable, and only DTM and clutter data at 10 m resolution or lower are accessible. When accurate building geometry/heights are available, and a higher modeling frequency (up to 6 GHz) is needed, use the [CEC ITU-R 3GPP Model](#cec-itu-r-3gpp-model-100-mhz-6-ghz) instead.
 
-**Default settings**
+#### Default settings
 
-*Line of Sight coefficients (used to calculate general model loss when Tx and Rx are in LOS condition)*
+##### Line of Sight coefficients (used to calculate general model loss when Tx and Rx are in LOS condition)
 
 | Parameter | Description |
 |---|---|
@@ -186,7 +186,7 @@ Recommended for wide-area propagation and coverage modeling when building data a
 | Custom break distance, km | Fresnel breakpoint distance beyond which path loss is calculated using the Distance coefficient far parameter. |
 | Frequency coefficient | Slope determined by the frequency value. Default: `20`. |
 
-*Hata 9999 equation (used when Tx and Rx are in OLOS or NLOS condition)*
+##### Hata 9999 equation (used when Tx and Rx are in OLOS or NLOS condition)
 
 9999 Model is Ericsson's implementation of the Hata Model. Ericsson provides steering parameters of the 9999 Model for different environments, making it convenient to apply as default parameters.
 
@@ -197,7 +197,7 @@ Recommended for wide-area propagation and coverage modeling when building data a
 | Hata Loss: A2 | Transmitter height influence coefficient — related to DTM errors, real Earth curvature, etc.; regulates the loss curve's vertical position with respect to antenna height. Default: `-12`. |
 | Hata Loss: A3 | Okumura-Hata type multiplying factor for log(h_M)·log(d). Default: `0.1`. |
 
-*Clutter class settings — diffraction, clutter loss, penetration loss, and receiver loss*
+##### Clutter class settings — diffraction, clutter loss, penetration loss, and receiver loss
 
 | Parameter | Description |
 |---|---|
@@ -208,7 +208,7 @@ Recommended for wide-area propagation and coverage modeling when building data a
 | Penetration loss frequency coefficient | Additional loss inside the clutter class based on frequency. |
 | Receiver point loss offset, dB | Additional loss offset applied to the path loss grid, representing UE losses. |
 
-*Clutter Classes default values*
+##### Clutter Classes default values
 
 | Clutter class | Penetration receiver loss offset | Penetration receiver loss scaling coefficient | Penetration receiver loss frequency exponent coefficient |
 |---|---|---|---|
@@ -242,11 +242,11 @@ Recommended for wide-area propagation and coverage modeling when building data a
 
 FSL path loss calculated based on the method in Recommendation ITU-R P.525. Suitable for modelling radio links where LOS is a necessary condition — e.g. Fixed (Point-to-Point) Links or Mobile Systems in mmWave bands.
 
-**Model application**
+#### Model application
 
 Typically used for mmWave band frequencies in the 6 GHz–100 GHz range, and provides results only for line-of-sight areas.
 
-**Default settings**
+#### Default settings
 
 | Parameter | Description |
 |---|---|
@@ -258,7 +258,7 @@ Typically used for mmWave band frequencies in the 6 GHz–100 GHz range, and pro
 
 Provides a standardized prediction method for assessing the ground-wave field strength of radio waves from 10 kHz to 30 MHz — a band primarily associated with long-range AM and shortwave communication, often for maritime, aeronautical, military, and broadcasting services. Offers guidance for engineers, planners, and researchers working in the MF and HF bands.
 
-**Model application**
+#### Model application
 
 Estimates ground-wave propagation field strength and attenuation over the Earth's surface, particularly below 30 MHz. Widely used for planning long-distance communication systems (maritime, broadcasting, low-frequency navigation) where ground-wave propagation is critical. Accounts for terrain conductivity, dielectric properties, and surface roughness.
 
@@ -268,7 +268,7 @@ The model calculates signal strength based on:
 - **Distance (d)** — field strength diminishes with increasing distance due to geometrical spreading and absorption by the ground and atmosphere.
 - **Surface refractivity, Surface Conductivity (σ), and Relative Permittivity (εᵣ)** — the surface over which the wave propagates critically affects signal strength (sea water: high conductivity, minimal loss; dry land/desert: low conductivity, high loss). Typical conductivity ranges from 10⁻⁴ to 5 S/m; relative permittivity from 4 to 81.
 
-**Default settings**
+#### Default settings
 
 The general model parameters are radius and receiver height. Additional path loss parameters are derived per clutter class:
 
@@ -288,14 +288,14 @@ The general model parameters are radius and receiver height. Additional path los
 
 A widely recognized radio propagation prediction method developed by the ITU, primarily used for estimating point-to-area radio signal coverage from 30 MHz to 4000 MHz over terrestrial paths. Especially suitable for broadcasting, land mobile, and fixed services.
 
-**Key features**
+#### Key features
 
 - **Versatile application** — supports predictions over land, sea, and mixed paths.
 - **Input parameters** — transmitter/receiver heights, terrain profile, clutter (buildings, vegetation), climate, and time/location variability.
 - **Time and location variability** — predictions can be tailored for different statistical reliability levels (e.g. 50% or 10% time availability).
 - **Clutter and terrain handling** — can incorporate detailed DEMs and clutter data, reflecting buildings, forests, and other surface features.
 
-**Model application**
+#### Model application
 
 Designed for wide-area radio propagation prediction based on empirical data and statistical analysis of measured field strengths, providing path loss estimations over land, sea, and mixed terrain for 30 MHz–3 GHz, per ITU-R Recommendation P.1546. Applicable to terrestrial broadcasting, mobile, and public safety networks (2G, 3G, 4G).
 
@@ -303,7 +303,7 @@ Accounts for antenna heights, terrain elevation (DTM), land cover types (clutter
 
 Recommended for national or regional coverage planning, especially where high-resolution DTM (e.g. 30 m) and clutter data (e.g. 10 m resolution) are available but building heights and detailed 3D structures are not. Where accurate building geometry/heights are available and a higher frequency range (up to 6 GHz) is required, use the [CEC ITU-R 3GPP Model](#cec-itu-r-3gpp-model-100-mhz-6-ghz) instead.
 
-**Default settings**
+#### Default settings
 
 | Parameter | Description |
 |---|---|
@@ -321,7 +321,7 @@ ISO 9613 is an international standard for predicting outdoor sound propagation, 
 
 For siren sound prediction, ISO 9613 helps determine the effective coverage area, ensuring warning signals reach the intended audience with sufficient audibility — essential for optimizing siren placement, regulatory compliance, and designing effective emergency alert systems.
 
-**Model application**
+#### Model application
 
 Used in siren sound prediction to determine effective coverage, supporting siren placement optimization, regulatory compliance, and emergency alert system design. The primary factors:
 
@@ -336,7 +336,7 @@ Used in siren sound prediction to determine effective coverage, supporting siren
 4. **Directivity of the Source** — accounts for the directionality of the sound source; sirens may focus sound output in certain directions.
 5. **Meteorological Conditions** — wind speed, temperature gradients, and humidity affect sound propagation (e.g. sound travels farther downwind, or is absorbed more by humid air).
 
-**Default settings**
+#### Default settings
 
 | Parameter | Description |
 |---|---|
@@ -379,18 +379,18 @@ The **Ground factor** parameter defines the acoustic reflectivity (0 to 1, hard 
 
 A high-frequency path loss model for indoor radiocommunication systems from 500 MHz to 100 GHz. Builds on the [CEC ITU-R 3GPP Model](#cec-itu-r-3gpp-model-100-mhz-6-ghz) by adapting it to complex indoor environments — office buildings, residential units, shopping centers, industrial halls. Integrates core ITU-R free-space loss and penetration recommendations with 3GPP-specific methods for indoor multipath, wall attenuation, and frequency-dependent fading.
 
-**Purpose and use cases**
+#### Purpose and use cases
 
 - Indoor wireless access network design (Wi-Fi, 5G NR, mmWave)
 - System-level simulations for indoor coverage planning
 - Performance evaluation of in-building penetration for outdoor base stations
 - Integration with dual-slope and multi-scenario path loss modeling frameworks
 
-**Model application**
+#### Model application
 
 A robust, scalable prediction method based on ITU-R principles and 3GPP extensions, engineered for indoor radiowave propagation from clean LOS corridors to deeply obstructed NLOS paths.
 
-**Key enhancements for indoor use**
+#### Key enhancements for indoor use
 
 - Frequency scaling up to 100 GHz supports mmWave and terahertz.
 - Wall material database from 3GPP TR 38.901: standard drywall ~2–8 dB per wall; concrete 5–15 dB; glass 2–10 dB.
@@ -398,7 +398,7 @@ A robust, scalable prediction method based on ITU-R principles and 3GPP extensio
 - Path loss floors, ensuring minimum attenuation beyond the near field.
 - LOS probability models — stochastic treatment of LOS in large buildings.
 
-**Default settings**
+#### Default settings
 
 | Parameter | Description |
 |---|---|
@@ -418,7 +418,7 @@ A robust, scalable prediction method based on ITU-R principles and 3GPP extensio
 
 > **Note:** Penetration losses stack when multiple obstacles are crossed.
 
-*Clutter Classes default values*
+##### Clutter Classes default values
 
 | Clutter class | Penetration receiver loss offset | Penetration receiver loss scaling coefficient | Penetration receiver loss frequency exponent coefficient |
 |---|---|---|---|
@@ -454,13 +454,13 @@ A robust, scalable prediction method based on ITU-R principles and 3GPP extensio
 
 Developed by the European Commission's Joint Research Centre as the Common Noise Assessment Methods in Europe, CNOSSOS-EU is the reference methodology adopted under the Environmental Noise Directive (2002/49/EC) for strategic noise mapping across EU Member States — the preferred choice for projects that must align with European regulatory requirements.
 
-**Model application**
+#### Model application
 
 Unlike ISO 9613-2, which assumes downwind or moderate temperature inversion conditions throughout, CNOSSOS-EU evaluates sound propagation under two distinct meteorological scenarios — **favourable conditions** (downwind or temperature inversion, enhancing propagation toward the receiver) and **homogeneous conditions** (neutral atmosphere) — and combines the two results using the long-term occurrence probability of favourable conditions for the given direction. This produces long-term average sound pressure levels that more realistically reflect the variability of outdoor propagation over extended periods.
 
 The model also features more refined calculations of geometrical divergence, atmospheric absorption, ground effect, diffraction over obstacles and around vertical edges, and reflections from building façades and other vertical surfaces. Ground effect is handled separately for the source-side, middle, and receiver-side regions of the propagation path, with acoustic reflectivity defined per clutter class via the **Ground factor** parameter shared with the ISO 9613-2 model. Diffraction is computed using path-difference geometry consistent with the CNOSSOS-EU specification; terrain profiles, clutter classification, and building data from the workspace are used directly in the calculation.
 
-**Default settings**
+#### Default settings
 
 | Parameter | Description |
 |---|---|

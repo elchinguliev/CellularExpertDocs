@@ -18,7 +18,7 @@ Steps to create a workspace from a CAD drawing:
 
 ![Create Indoor Workspace dockpane with a CAD drawing loaded](../../../assets/images/ce-pro/v5.0/create-indoor-workspace-dockpane.png)
 
-**If a CAD drawing (`.DXF`, `.DWG`) is selected**
+## If a CAD Drawing (`.DXF`, `.DWG`) Is Selected
 
 Once the CAD drawing is selected, it is added to the map and its properties can be adjusted:
 
@@ -28,11 +28,11 @@ Once the CAD drawing is selected, it is added to the map and its properties can 
 | Wall height, m | The value used in the resulting `clutterHeight.tif` raster. |
 | Resolution, m | Also affects the width of the drawing lines — e.g. walls are thicker or thinner depending on the resolution. |
 
-**If line shapefile data (`.SHP`) is selected**
+## If Line Shapefile Data (`.SHP`) Is Selected
 
 The same procedure applies as for CAD files. However, several `.SHP` files can be selected in the file selection dialog — if more than one is selected, they are treated as a single building data unit.
 
-**If a PDF document (`.PDF`) is selected**
+## If a PDF Document (`.PDF`) Is Selected
 
 There are two options for converting a PDF document into a building plan drawing (DXF format):
 
@@ -45,7 +45,7 @@ If **Raster** is selected, an option to define the PDF document DPI appears. A h
 
 For PDF documents, the page containing the building plan data must be selected (by default, the first page).
 
-**Finishing the workspace**
+## Finishing the Workspace
 
 Use the **Select** tool on the map to specify which features are used for workspace creation (for instance, if only some features are required). Clutter classes for each layer can also be edited — by default they are incremented from 1 to the number of layers selected — or a single clutter class value can be applied to all layers by clicking **Set Class for All Features**.
 

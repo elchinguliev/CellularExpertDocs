@@ -28,7 +28,7 @@ Importing Cells has additional parameters compared to other import options.
 | Select Mapping File (Optional) | Opens a dialog to select the file (`.json`) that defines the data to import and the conditions under which it is processed. The button turns green on a successful selection. See [Mapping file](#mapping-file) below. |
 | Select Territory Polygon (Optional) | Restricts the import to objects within a selected polygon area. |
 
-**Steps**
+### Steps
 
 1. Click **Select Data Files** and choose your text file — it loads into the dialog.
 

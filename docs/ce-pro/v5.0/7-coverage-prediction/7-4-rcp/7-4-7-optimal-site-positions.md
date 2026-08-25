@@ -32,7 +32,7 @@ Click the Optimal Site Positions button to open the dialog.
 
 ![Optimal Site Positions result — Coverage Percentage raster](../../../../assets/images/ce-pro/v5.0/optimal-site-positions-result.png)
 
-**Results:**
+## Results
 
 - Covered Points.
 - Coverage Percentage.

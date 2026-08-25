@@ -108,7 +108,8 @@ New versions of CE for ArcGIS Pro usually bring changes to the default data tabl
 | Generate Antenna Type | Based on the Antenna data, assigns antennas a type if they are missing one. |
 | Run Analysis | Manually checks whether the default tables and their fields exist in the project. |
 
-**Upgrade Database**
+#### Upgrade Database
+
 Creates the missing tables and/or adds back the missing fields from the default tables.
 
 If a project with incompatible geodata is loaded, the Workspace Upgrade tool analyzes the current geodata as well as the owned Esri Extension licenses to offer the optimal geodata upgrade path. This process is one-time only and is triggered by checking the **Upgrade Geodata** toggle:
@@ -121,13 +122,19 @@ If a project with incompatible geodata is loaded, the Workspace Upgrade tool ana
 
 The Workspace Properties dialog shows all workspace information from the `CE_WORKSPACE` data table and lets you customize the symbol visualization. To open it, click the **Workspace** menu icon and choose **Properties**.
 
-**Parameters**
+| Button | Description |
+|---|---|
+| OK | Saves any changes and closes the dialog. |
+| Cancel | Cancels any changes and closes the dialog. |
+| Help | Opens helpful information about the dialog. |
+
+#### Parameters
 
 All information from the `CE_WORKSPACE` table is represented in the **Parameters** tab.
 
 ![Workspace Properties — Parameters tab](../../../assets/images/ce-pro/v5.0/workspace-properties-parameters.png)
 
-*CE Server Parameters*
+##### CE Server Parameters
 
 | Parameter | Description |
 |---|---|
@@ -138,7 +145,7 @@ All information from the `CE_WORKSPACE` table is represented in the **Parameters
 | CE Server Workspace | The workspace used in the Cellular Expert Server. |
 | CE Server Workspace ID | The ID of the workspace used in the Cellular Expert Server. |
 
-*Project Paths Parameters*
+##### Project Paths Parameters
 
 | Parameter | Description |
 |---|---|
@@ -151,36 +158,20 @@ All information from the `CE_WORKSPACE` table is represented in the **Parameters
 | Volatile Result Path | Path for storing the final Quick Prediction calculation results. |
 | Volatile Tasks Data Path | Path for the Quick Prediction calculation results displayed in the CE Calculation Task List. |
 
-*Project Settings Parameters*
+##### Project Settings Parameters
 
 ![Workspace Properties — Project Settings (Calculate EIRP, Enable GPU Acceleration, Height References, Use Clutter Loss)](../../../assets/images/ce-pro/v5.0/workspace-properties-project-settings.png)
 
-**Calculate EIRP**
-Determines whether EIRP is calculated in prediction calculations.
-- **Yes** — EIRP is calculated based on Power, Antenna Gain, and Misc. Loss values.
-- **No** — EIRP is taken as the single value defined in the Power field.
+| Parameter | Description |
+|---|---|
+| Calculate EIRP | Determines whether EIRP is calculated in prediction calculations.<br>• **Yes** — EIRP is calculated based on Power, Antenna Gain, and Misc. Loss values.<br>• **No** — EIRP is taken as the single value defined in the Power field. |
+| Enable GPU Acceleration | Enables GPU acceleration, which optimizes prediction calculations and makes them run faster. Possible values: Yes/No. |
+| Transmit Power Units | Represents the power value in dBm or Watts. |
+| Receiver/Transmitter Height Reference | The reference raster for calculating the receiver's and transmitter's height for Profile, RF Predictions, Quick Predictions, Visibility, and other prediction tools. Possible values:<br>• **Elevation** — the reference layer is the `elevation.tif` raster. Default.<br>• **Clutter height** — the reference layer is the `clutterHeight.tif` raster; receiver/transmitter height is calculated over the Clutter Height raster. A `clutterHeight.tif` raster is required to enable this option.<br>• **Clutter height (buildings only)** — height reference is calculated using the Building class from the `clutterClasses.tif` raster. The Building class is defined in the Clutter Classes dialog and linked to a specific clutter class ID in the `clutterClasses.tif` raster.<br>• **Absolute** — the receiver's and/or transmitter's absolute height (relative to sea level) is used in relevant calculations. |
+| Use Clutter Loss | Determines whether `clutterClasses.tif` and `clutterHeight.tif` rasters are used in prediction calculations. Possible values: Yes/No. |
+| Rounding | The rounding value applied to different parameters (Azimuth and Tilt, Default Rounding, Frequency, Geographic Coordinates, Power, Projected Coordinates). |
 
-**Enable GPU Acceleration**
-Enables GPU acceleration, which optimizes prediction calculations and makes them run faster. Possible values: Yes/No.
-
-**Transmit Power Units**
-Represents the power value in dBm or Watts.
-
-**Receiver/Transmitter Height Reference**
-The reference raster for calculating the receiver's and transmitter's height for Profile, RF Predictions, Quick Predictions, Visibility, and other prediction tools. Possible values:
-
-- **Elevation** — the reference layer is the `elevation.tif` raster. Default.
-- **Clutter height** — the reference layer is the `clutterHeight.tif` raster; receiver/transmitter height is calculated over the Clutter Height raster. A `clutterHeight.tif` raster is required to enable this option.
-- **Clutter height (buildings only)** — height reference is calculated using the Building class from the `clutterClasses.tif` raster. The Building class is defined in the Clutter Classes dialog and linked to a specific clutter class ID in the `clutterClasses.tif` raster.
-- **Absolute** — the receiver's and/or transmitter's absolute height (relative to sea level) is used in relevant calculations.
-
-**Use Clutter Loss**
-Determines whether `clutterClasses.tif` and `clutterHeight.tif` rasters are used in prediction calculations. Possible values: Yes/No.
-
-**Rounding**
-The rounding value applied to different parameters (Azimuth and Tilt, Default Rounding, Frequency, Geographic Coordinates, Power, Projected Coordinates).
-
-**Visualization**
+#### Visualization
 
 The Cellular Expert network objects (Sites, Cells, OMEN) and calculation result rasters are represented in ArcGIS with the symbology defined in `.lyr` files, located in the **Visualization** tab (`CE_LAYERS` table).
 
@@ -231,38 +222,52 @@ Docs Manager manages saved Profiles between the transmitter (Tx) and receiver (R
 
 ![Docs Manager filtered by Saved Profiles](../../../assets/images/ce-pro/v5.0/docs-manager-saved-profiles.png)
 
-**How to find a saved profile**
+### How to Find a Saved Profile
+
 Use the filter option on each column to quickly locate the required item from the list.
 
-**How to open a Profile**
+![Docs Manager — Profile Name column filtered to locate a specific saved profile](../../../assets/images/ce-pro/v5.0/docs-manager-filter-example.png)
+
+### How to Open a Profile
+
 A saved profile can be accessed in two ways:
 
 1. Double-click the desired profile.
 2. Select the profile and click **Open**.
 
-**Additional functions**
+### Additional Functions
 
 - **Delete** — removes the selected item.
 - **Close** — closes the Docs Manager dialog.
 
-**How to open a Link Prediction**
+### How to Open a Link Prediction
+
 A saved Link Prediction, like a Profile, can be accessed either by double-clicking the desired result, or by selecting it and clicking **Open**.
 
 ![Docs Manager filtered by Saved Link Predictions](../../../assets/images/ce-pro/v5.0/docs-manager-saved-link-predictions.png)
 
-**How to save a Link Prediction**
+### How to Save a Link Prediction
+
 A Link Prediction result can be saved to Docs Manager by enabling **Save result to Docs Manager** in the Link Prediction tool.
 
-**How to open a Profile Report**
+### How to Open a Profile Report
+
 A Profile Report document can be accessed either by double-clicking the desired Profile Report, or by selecting it and clicking **Open**. It opens in your default PDF document reader.
 
-**How to save a Profile Report**
+![Docs Manager filtered by Saved Profile Reports](../../../assets/images/ce-pro/v5.0/docs-manager-saved-profile-reports.png)
+
+### How to Save a Profile Report
+
 A Profile Report of the currently drawn profile can be saved to Docs Manager by enabling **Save result to Docs Manager** in the **Export** tab of the Profile tool.
 
-**How to open a Link Prediction Report**
+### How to Open a Link Prediction Report
+
 A Link Prediction Report document can be accessed either by double-clicking the desired report, or by selecting it and clicking **Open**. It opens in your default PDF document reader.
 
-**How to save a Link Prediction Report**
+![Docs Manager filtered by Saved Link Prediction Reports](../../../assets/images/ce-pro/v5.0/docs-manager-saved-link-prediction-reports.png)
+
+### How to Save a Link Prediction Report
+
 A Link Prediction Report can be saved to Docs Manager by enabling **Save result to Docs Manager** in the **Export** tab of the Link Prediction tool.
 
 ## CE Express Connection
@@ -284,8 +289,7 @@ Click the CE Express Connection button and select the **Properties** tab to open
 | Server API URL | The API used in the connection process (filled in automatically). |
 | Selected Workspace | The list of all workspaces retrieved from the CE Express database. |
 
-**Get Workspaces**
-Establishes the connection between the provided Server URL and CE for ArcGIS Pro. You may be redirected to a browser window to log in to ArcGIS Portal — after doing so, the workspaces are retrieved.
-
-**Import Features**
-Imports the retrieved objects into the currently open CE workspace.
+| Button | Description |
+|---|---|
+| Get Workspaces | Establishes the connection between the provided Server URL and CE for ArcGIS Pro. You may be redirected to a browser window to log in to ArcGIS Portal — after doing so, the workspaces are retrieved. |
+| Import Features | Imports the retrieved objects into the currently open CE workspace. |

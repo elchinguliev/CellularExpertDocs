@@ -12,6 +12,8 @@ By using terrain elevation, obstacles, and clutter classification in every calcu
 - **Coverage Footprints** — generating precise signal strength maps at national, regional, and local levels.
 - **Capacity and Interference Analysis** — modeling realistic signal overlaps and interference zones for multi-operator, multi-technology environments.
 
+![Propagation loss diagram — free space loss, diffraction over terrain, clutter losses (H clutter), and obstacle losses (H obstacles) relative to the DTM and DSM](../../assets/images/ce-pro/v5.0/propagation-loss-diagram.png)
+
 The CE tools make use of three distinct GIS data layers to obtain high-precision modeling of radio wave propagation losses:
 
 1. **Digital Terrain Model (DTM)**, also known as Digital Elevation Model (DEM) — describes the Earth's surface, i.e. the path terrain profile in terms of ground elevation above uniform sea level.
@@ -57,11 +59,11 @@ A sample DTM raster represents, for example, 5 square meters per pixel with its 
 
 ![Sample DTM raster rendered as a hillshade](../../assets/images/ce-pro/v5.0/dtm-hillshade-example.png)
 
-**Prepare DTM raster**
+### Prepare DTM raster
 
 The Digital Terrain Model (DTM) has the following requirements.
 
-**Projection**
+#### Projection
 
 The raster must use a Projected Coordinate System. To check the coordinate system of your raster, use the Properties function in ArcGIS Pro: add the raster to your project, right-click it, and select **Properties**. Then go to the **Source** tab **> Spatial Reference** and check the **Coordinate System Type** parameter to confirm it is a Projected Coordinate System.
 
@@ -75,7 +77,7 @@ In the **Output Coordinate System**, specify a new coordinate system. It is reco
 
 ![Projected Coordinate System picker showing UTM zones](../../assets/images/ce-pro/v5.0/projected-coordinate-system-tree.png)
 
-**Correct NoData value and raster name**
+#### Correct NoData value and raster name
 
 After setting the correct projection, assign the NoData attribute and specify the appropriate name for the DTM raster using the **Copy Raster** tool in Geoprocessing:
 
@@ -99,7 +101,11 @@ The naming and classification of land use types varies by source. One example is
 
 These are the standard clutter types in the default workspace database and cannot be edited. You must map your clutter raster to these predefined clutter types. Standard mapping has already been configured for the Sentinel-2 Land Cover dataset from the Living Atlas.
 
-If you have a different clutter class layer, it can be used for predictions by remapping it in the [Clutter Classes](5-data-management/5-5-clutter-classes.md) tool and specifying the IDs in the geodata raster parameter. If multiple clutter classes correspond to a single default clutter type, separate the ID values with commas. This mapping can also be adjusted in the Clutter table.
+![Clutter Classes dialog — clutter class filtering, used/unused geodata clutter class IDs, and the clutter class list](../../assets/images/ce-pro/v5.0/clutter-classes-dialog-window.png)
+
+If you have a different clutter class layer, it can be used for predictions by remapping it in the [Clutter Classes](5-data-management/5-5-clutter-classes.md) tool and specifying the IDs in the geodata raster parameter — the **Used geodata clutter class IDs** and **Unused geodata clutter class IDs** lists shown above confirm which raster IDs are currently mapped. If multiple clutter classes correspond to a single default clutter type, separate the ID values with commas. This mapping can also be adjusted in the Clutter table.
+
+![Clutter attribute table — clutter_class_name, height, nominal_distance, surface_refractivity, relative_permittivity, surface_conductivity, express_id, color, ids, and clutter_class_alias fields](../../assets/images/ce-pro/v5.0/clutter-table-attributes.png)
 
 Once clutter classes are successfully mapped, the prediction algorithms recognize the clutter types, apply distinct symbols, and adjust path loss calculations accordingly, based on the parameters set in the prediction model.
 
@@ -107,11 +113,11 @@ Once clutter classes are successfully mapped, the prediction algorithms recogniz
 
 The Clutter Classes raster has the same requirements as the DTM raster above.
 
-*Projection*
+#### Projection
 
 It must have the same coordinate system as your `elevation.tif` raster. If it has a different coordinate system, use **Geoprocessing > Project Raster** to fix it. In the Output Coordinate System, click the **Select Coordinate System** button and choose the same coordinate system as your `elevation.tif`.
 
-*Correct NoData value and raster name*
+#### Correct NoData value and raster name
 
 After setting the correct projection, assign the NoData attribute and specify the appropriate name for the Clutter Class raster using the **Copy Raster** tool in Geoprocessing:
 
@@ -139,11 +145,11 @@ The calculation output is the difference between the DSM and DTM grids, represen
 
 The Clutter Height raster has the same requirements as the DTM raster above.
 
-**Projection**
+#### Projection
 
 It must have the same coordinate system as your `elevation.tif` raster. If it has a different coordinate system, use **Geoprocessing > Project Raster** to fix it. In the Output Coordinate System, click the **Select Coordinate System** button and choose the same coordinate system as your `elevation.tif`.
 
-**Correct NoData value and raster name**
+#### Correct NoData value and raster name
 
 After setting the correct projection, assign the NoData attribute and specify the appropriate name for the Clutter Height raster using the **Copy Raster** tool in Geoprocessing:
 
@@ -180,7 +186,7 @@ Con(IsNull("building raster"), "Clutter_classes.tif", 0)
 
 All propagation and prediction calculations reference the clutter types defined in the Clutter Classes table. Each building-related clutter class is assigned a unique ID value, which is used during modeling to apply the appropriate path loss parameters for solid structures — ensuring buildings are accurately represented in simulations and contribute to more realistic signal behavior in both indoor and outdoor environments.
 
-**Building height determination in clutter-based modeling**
+#### Building height determination in clutter-based modeling
 
 Pixels assigned to a building clutter class ID are automatically recognized as a solid obstacle during prediction calculations. Their heights are determined using the following priority:
 

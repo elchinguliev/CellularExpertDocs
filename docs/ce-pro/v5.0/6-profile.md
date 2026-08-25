@@ -24,7 +24,7 @@ Click the Profile button to open the Profile dialog. The Profile tool enables yo
 >
 > The PDF manuals document Profile Selection explicitly for SAT, RCP, and RLP. This does not establish that Sound, EMF, or Indoor lack the underlying functionality — their absence from those manuals is treated as unresolved documentation information, not a confirmed limitation.
 
-**Profile: General**
+#### General
 
 ![Profile — Properties tab: Profile Selection and General section, with Dynamic Profile toggle](../../assets/images/ce-pro/v5.0/profile-properties-general.png)
 
@@ -34,7 +34,7 @@ Click the Profile button to open the Profile dialog. The Profile tool enables yo
 | Transmitter Template | The template that is used for the transmitter's default values. |
 | Receiver Template | The template that is used for the receiver's default values. |
 
-**Profile: Transmitter**
+#### Transmitter
 
 ![Profile — Properties tab: Transmitter section expanded](../../assets/images/ce-pro/v5.0/profile-properties-transmitter.png)
 
@@ -63,7 +63,7 @@ The antenna for the transmitter can be selected from the table below the El. Dow
 | Rx Mimo | Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32, 64. |
 | Subcarrier Spacing | Value in kHz. |
 
-**Profile: Receiver**
+#### Receiver
 
 ![Profile — Properties tab: Receiver section expanded, with antenna table and Prediction Model](../../assets/images/ce-pro/v5.0/profile-properties-panel.png)
 
@@ -77,7 +77,7 @@ The antenna for the transmitter can be selected from the table below the El. Dow
 | Power, dBm | A power that the receiver possesses. |
 | Misc Loss, dB | Miscellaneous loss value in dB. Value is not required. |
 
-**Profile: Prediction Model**
+#### Prediction Model
 
 Double-click the prediction model from the list to select it for the profile.
 
@@ -119,7 +119,7 @@ Hovering the cursor over the plot displays a tooltip with the meter values for p
 
 ![Profile plot tooltip showing profile, Fresnel, forest, and elevation values at the cursor position](../../assets/images/ce-pro/v5.0/profile-plot-tooltip.png)
 
-**Profile Results**
+#### Profile Results
 
 Clicking the Results tab of the Calculated Profile dockpane shows the full prediction calculation output for the drawn profile:
 

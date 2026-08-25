@@ -24,7 +24,7 @@ After calculations, a new dockpane opens. In the **Links** tab, you can view Pow
 
 The Link Profile behaves in virtually the same way as a regular profile (you cannot adjust Link Profile data) — see [Profile](../../6-profile.md).
 
-**Power Budget and Path Loss**
+#### Power Budget and Path Loss
 
 This section of the results contains Power Budget and Path Loss results. Select different carriers to view the results for each one of them.
 
@@ -72,7 +72,7 @@ This section of the results contains Power Budget and Path Loss results. Select 
 | Refractivity gradient, % | The refractivity gradient, as a percentage. |
 | Rain rate P0.01 | Rain rate exceeded for 0.01% of the time. |
 
-**Profile Plot, Interference, and Performance**
+#### Profile Plot, Interference, and Performance
 
 This section of the results contains the Profile Plot, Interference, and Performance results. Select different carriers to view the results for each one of them.
 
@@ -89,7 +89,7 @@ The Performance results table reports Unavailability %, Availability %, Objectiv
 
 Navigate to the **Interfering Links** tab on the Link Prediction result dockpane. In this tab, you can view interference Power Budget, Path Loss, Profile, and Spectrum Mask results.
 
-**Power Budget and Path Loss**
+#### Power Budget and Path Loss
 
 In this section, you can view Power Budget and Path Loss results. Change the selected site pair to see different results for each one of them.
 
@@ -116,7 +116,7 @@ In this section, you can view Power Budget and Path Loss results. Change the sel
 | Signal to Interference ratio, dB | The signal-to-interference ratio. |
 | Fade margin loss | The fade margin loss. |
 
-**Profile Plot and Spectrum Mask**
+#### Profile Plot and Spectrum Mask
 
 In this section, you can view Profile Plot and Spectrum Mask results. Change the selected site pair to see different results for each one of them.
 
@@ -162,7 +162,7 @@ The Options tab is found on the Link Prediction dockpane. Here you can see addit
 | Exclude Interference Links from Analysis Below Power | The power threshold below which links with lesser interference are excluded from the analysis. |
 | Tx/Rx Filter Discrimination | The ability of filters in a duplex system to effectively separate and prevent interference between Tx and Rx frequencies. No dBm greater than this value is accounted for in the calculation. |
 
-**Performance parameters**
+### Performance Parameters
 
 ![Link Prediction Options — Performance parameters table (ESR, SESR, UATR, Total)](../../../../assets/images/ce-pro/v5.0/link-prediction-performance-options.png)
 

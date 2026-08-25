@@ -25,7 +25,7 @@ The calculation includes free-space path loss, atmospheric absorption according 
 | Receiver bandwidth, MHz | Channel bandwidth. |
 | Required C/N, dB | Minimum carrier-to-noise ratio needed for the link to close. |
 
-**Results panel:**
+## Results Panel
 
 | Group | Field | Description |
 |---|---|---|

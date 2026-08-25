@@ -24,7 +24,7 @@ Cells must be present on the map for the calculation to work — their Object ID
 | Prediction Model | The prediction model name and type whose parameters will be tuned. |
 | Selected | The count of all measurement points. |
 
-**Involved Cells**
+## Involved Cells
 
 Information about each cell — name, cell ID, and number of measurements assigned to it. Measuring for a single cell at a time is supported.
 

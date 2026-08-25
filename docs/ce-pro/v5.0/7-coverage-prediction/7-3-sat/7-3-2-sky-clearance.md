@@ -42,5 +42,8 @@ Results depend on the selected satellite type mode:
 
 - **GEO** — a geostationary satellite occupies a single fixed direction in the sky. The tool reports the clearance angle to that satellite at every point: positive where the dish sees it, negative where terrain or clutter blocks the line of sight.
 - **LEO** — constellations such as Starlink and OneWeb use the whole sky above a minimum elevation angle. The tool reports the percentage of that usable sky which is unobstructed.
+- **GNSS** — for satellite navigation, the tool sweeps every direction around each point and reports the required clearance angle: the elevation above which the sky is open in all directions.
+
+Indicative throughput is also produced for the GEO and LEO modes, combining the link budget with the local obstruction. All rasters are added to the map with Cellular Expert result symbology.
 
 ![Sky Clearance result (GEO mode) — clearance angle raster with legend, and satellite orbital longitude / EIRP settings](../../../../assets/images/ce-pro/v5.0/sky-clearance-result-geo.png)

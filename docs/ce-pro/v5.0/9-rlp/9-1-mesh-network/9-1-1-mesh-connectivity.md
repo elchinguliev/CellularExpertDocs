@@ -24,12 +24,14 @@ The tool calculates the RSL between each node pair and compares it against the c
 
 ## Results
 
-**All combinations**
+### All Combinations
+
 Shows all possible combinations of Mesh network connections.
 
 ![Mesh Connectivity — All combinations result, showing Valid, Valid one way, and Invalid connections](../../../../assets/images/ce-pro/v5.0/mesh-connectivity-all-combinations.png)
 
-**Connection lines**
+### Connection Lines
+
 Shows the Mesh connections for which the tool will create a Link object.
 
 ![Mesh Connectivity — Connection lines result](../../../../assets/images/ce-pro/v5.0/mesh-connectivity-connection-lines.png)

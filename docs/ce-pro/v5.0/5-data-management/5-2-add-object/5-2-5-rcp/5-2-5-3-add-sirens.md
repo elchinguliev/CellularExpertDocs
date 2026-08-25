@@ -20,6 +20,8 @@ A Siren object represents a sound-emitting device used for warning and alerting 
 | Dismiss | Cancels object creation and closes the dialog. |
 | View Antenna | Opens the [Antenna Viewer](../../5-6-antenna-viewer.md) with the corresponding antenna patterns. |
 
+![Add Object — Siren Properties panel](../../../../../assets/images/ce-pro/v5.0/add-siren-properties.png)
+
 ## Siren Properties
 
 | Parameter | Description |
@@ -42,5 +44,7 @@ A Siren object represents a sound-emitting device used for warning and alerting 
 | Power | Power value in W. |
 | Misc Loss | Miscellaneous loss value in dB. |
 | Prediction Model | Only **ISO9613** can be applied to calculate sound loss for the siren. |
+
+![Siren Properties — Antenna table and Prediction Model list, with ISO9613 as the only available option](../../../../../assets/images/ce-pro/v5.0/add-siren-antenna-model.png)
 
 > **Note:** Siren sound-level prediction is based on the ISO9613 standard for outdoor sound propagation attenuation — it is the only prediction model available for Siren objects.

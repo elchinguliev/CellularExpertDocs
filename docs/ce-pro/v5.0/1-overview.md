@@ -24,11 +24,11 @@ Calculated results of coverage predictions can be presented as coverage raster m
 
 The key functionalities of the tool are summarized below.
 
-**Data Management**
+### Data Management
 
 The tool allows the importation, storage, and management of detailed technical data on network nodes, such as sites, cells, RF transmitters, and antennas.
 
-**Signal Strength Prediction**
+### Signal Strength Prediction
 
 The tool contains several in-built path loss prediction models that allow the user to easily start simulations based on the evaluation of the most essential pathloss contributing factors. The following two models constitute the starting set:
 
@@ -37,11 +37,11 @@ The tool contains several in-built path loss prediction models that allow the us
 
 Further details on path loss models and their configuration options are provided in [Prediction Model Manager](5-data-management/5-7-prediction-model-manager.md).
 
-**Model Tuning**
+### Model Tuning
 
 The tool provides an automated method for fine-tuning propagation model parameters to fit the specific scenario and type of area of network deployment based on analyzing real field strength measurement results.
 
-**Radio Coverage Calculation for Different Mobile Technologies**
+### Radio Coverage Calculation for Different Mobile Technologies
 
 Radio coverage calculation is assisted in the tool by the possibility to use pre-loaded cell configuration templates that are tailored to typical technical parameters of base stations in different Radio Access Technologies. Accordingly, the model settings and outputs are adjusted to suit the scenario pertinent to that technology:
 
@@ -50,7 +50,8 @@ Radio coverage calculation is assisted in the tool by the possibility to use pre
 - **4G/5G** — radio coverage is calculated in dBm as the equivalent RSRP of a single sub-carrier component in the complex OFDM broadband signal.
 - **Wi-Fi** — wireless communication technology based on the IEEE 802.11 standards, used for setting up local area networks (WLANs) and providing internet access without requiring cable connections.
 
-**Profile Analysis**
+### Profile Analysis
+
 The tool provides powerful GIS analytical features to analyze the terrain and clutter on the fixed link path, allowing the estimation of Fresnel zone clearance condition, Power Budget, Path loss, and Angles between Tx and Rx.
 
 ## License Types

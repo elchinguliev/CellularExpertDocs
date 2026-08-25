@@ -18,7 +18,9 @@ The default database includes a table view of the clutter classes, with a row pe
 | surface_refractivity | Surface refractivity, in N-units. |
 | relative_permittivity | Relative permittivity of the surface material. |
 | surface_conductivity | Surface conductivity, in S/m. |
+| express_id | Internal identifier column; its exact purpose is not further documented in the source manuals. |
 | color | Display color for the class (hex value). |
+| ids | The raster ID value(s) mapped to this clutter class — the same value(s) as **IDs in geodata raster** in the Clutter Class Properties dialog below. `<Null>` means no raster ID is currently mapped to that class. |
 | clutter_class_alias | Human-readable class name shown in the Clutter Classes tool. |
 
 The Sentinel-2 clutter classes raster provides classes such as Open/Terrain, Grassland, Sparse/Medium/Very Dense Forest, Low/Medium/High Density Urban (Low/High/Very High Buildings), Building Blocks, Transportation, Agriculture, Plantation, Parks, Airport, Sea, Inland Water, and Concrete/Glass/Wood/Low Loss/High Loss Building.

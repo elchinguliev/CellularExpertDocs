@@ -27,7 +27,7 @@ Click the Visibility Prediction button to open the dialog.
 | Selected | Network objects that are present on the selected network layer. The visibility prediction will be performed on all of them. |
 | Run Calculations | Starts the prediction calculation. |
 
-**Results:**
+## Results
 
 - Minimum Receiver Height, in meters.
 - Line of Sight — either visible (`1`) by the network objects or not (`0`).

@@ -32,6 +32,6 @@ When the Quick Prediction button is pressed, a map tool is activated which lets 
 | Tx MIMO | Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32, 64. |
 | Rx MIMO | Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32, 64. |
 
-**Results:**
+## Results
 
 - Field Strength raster in dBm.

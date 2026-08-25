@@ -19,7 +19,7 @@ Gaseous absorption pages define values for dry air pressure and water vapour den
 | Use Geoclimatic Data | Enable/disable this geoclimatic data. |
 | Absorption Spectrum | A button that lets you see the visual representation of the absorption spectrum. |
 
-**Absorption Spectrum plot settings:**
+### Absorption Spectrum Plot Settings
 
 | Parameter | Description |
 |---|---|

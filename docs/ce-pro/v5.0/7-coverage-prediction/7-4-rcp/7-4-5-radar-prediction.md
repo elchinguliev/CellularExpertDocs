@@ -18,6 +18,6 @@ Click the Radar Prediction button to open the dialog. Radar Prediction is a tool
 | Selected | Current number of selected radars. |
 | Run Calculation | Runs the radar prediction calculations. |
 
-**Results:**
+## Results
 
 - Field Strength raster in dBm.

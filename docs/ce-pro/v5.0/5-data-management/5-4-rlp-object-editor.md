@@ -8,10 +8,12 @@ Choose the Object Editor button to open the dialog. Select objects by navigating
 
 ![RLP Object Editor tree with a Duplicate/Delete context menu on a Link object](../../../assets/images/ce-pro/v5.0/rlp-object-editor-tree.png)
 
-**Delete Object**
+## Delete Object
+
 Select and right-click any network object from the selection, then choose **Delete** from the popup.
 
-**Duplicate Object**
+## Duplicate Object
+
 Select and right-click any object from the selection, then choose **Duplicate** from the popup. The duplicated object retains all information from the original, including coordinates/meridians. To duplicate objects and change their coordinates/meridians at the same time, use the separate **Duplicate Objects** button above the selection tree.
 
 ## Move Link Objects

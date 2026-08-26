@@ -10,7 +10,9 @@ Key benefits:
 
 Click the Import Objects button to open the dialog. Expand the **Import** dropdown menu and select the object to import — the dialog is filled with options to define the data and mapping files.
 
-> **Note:** The exact object types available in the Import dropdown depend on the module — for example, RCP's dialog offers Sites, Radar, CPE, Sirens, and Repeaters (in addition to Cells); RLP's offers Sites, Radar, CPE, Repeaters, Links, and Mesh Nodes. Only the object types with a documented [dedicated Add Object workflow](5-1-network-objects-overview.md#object-availability-by-module) for a given module are confirmed as fully supported end-to-end for that module.
+![Import dropdown — Import Cells, Import Sites, Import Radar, Import CPE, Import Repeaters, Import Links, Import OMEN](../../../assets/images/ce-pro/v5.0/import-objects-type-dropdown.png)
+
+> **Note:** The exact object types available in the Import dropdown depend on the module. The screenshot above (as shown identically in the RCP and RLP manuals) does not list Mesh Nodes, but RLP's own chapter heading is explicitly titled "Import Sites, Radar, CPE, Repeaters, Links, or Mesh Nodes" — so Mesh Nodes are importable for RLP even though this particular screenshot does not show that entry. Only the object types with a documented [dedicated Add Object workflow](5-1-network-objects-overview.md#object-availability-by-module) for a given module are confirmed as fully supported end-to-end for that module.
 
 ## Import Cells
 

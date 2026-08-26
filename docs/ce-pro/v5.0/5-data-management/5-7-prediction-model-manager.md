@@ -3,10 +3,18 @@
 CE Path Loss Modelling performs a near-deterministic calculation of received signal levels at each specific point (pixel) in the network's target coverage area, applying a selective path loss model depending on the radio visibility condition between the transmitter antenna and a receiver antenna located at a given point in the coverage area. Radio visibility is evaluated from the DTM, Obstacles, and Clutter path profile information (see [Geographic Data](../3-geographic-data.md)). This evaluation assigns the receiver antenna point to one of three radio visibility conditions:
 
 - **Line-of-Sight (LOS)** — occurs when no terrain irregularities, obstacles, or clutter interpose the direct radio path between the transmitter and receiver antennas. The radio path is understood to include the 1st Fresnel zone around the direct line and accounts for the Spherical Earth effect.
+
+  ![(a) Example path profile with LOS condition — clear direct profile line, no obstructing clutter or terrain](../../../assets/images/ce-pro/v5.0/los-condition-example-los.png)
+
 - **Obstructed LOS (OLOS)** — occurs when the direct radio propagation line is interposed by clutter.
+
+  ![(b) Example path profile with OLOS condition — clutter (green) obstructing the direct profile line](../../../assets/images/ce-pro/v5.0/los-condition-example-olos.png)
+
 - **Non-LOS (NLOS)** — occurs when the direct radio propagation line is interposed by terrain bulges or obstacles.
 
-![Example profile with elevation, clutter, direct profile line, and Fresnel zone](../../../assets/images/ce-pro/v5.0/los-condition-profile-example.png)
+  ![(c) Example path profile with NLOS condition — terrain/obstacle obstruction shown as a red profile segment](../../../assets/images/ce-pro/v5.0/los-condition-example-nlos.png)
+
+  ![(d) Example path profile with combined OLOS+NLOS condition](../../../assets/images/ce-pro/v5.0/los-condition-example-olos-nlos.png)
 
 Depending on the LOS condition at a specific location, the CE tools apply the relevant sub-set of the path loss prediction model, as described below.
 
@@ -111,6 +119,8 @@ Particularly well-suited for microwave links, and widely used for planning and i
 
 ##### General settings to calculate model loss
 
+![ITU-R P.452 — General settings (Offset coefficient, Distance coefficient, Frequency coefficient)](../../../assets/images/ce-pro/v5.0/itu-r-p452-general-settings.png)
+
 | Parameter | Description |
 |---|---|
 | Offset coefficient (dB) | Offset in decibels added to the path loss grid. Default: `32` dB. |
@@ -121,7 +131,11 @@ Particularly well-suited for microwave links, and widely used for planning and i
 
 The correction for multipath and focusing effects accounts for signal enhancements caused by constructive interference and atmospheric focusing. This adjustment reduces total path loss under favorable conditions, such as over-water paths or specific atmospheric gradients. Possible values: Yes or No.
 
+![ITU-R P.452 — Use Multipath Focusing dropdown](../../../assets/images/ce-pro/v5.0/itu-r-p452-multipath-focusing.png)
+
 ##### Clutter class settings — penetration loss
+
+![ITU-R P.452 — Penetration loss offset/distance/frequency coefficient settings](../../../assets/images/ce-pro/v5.0/itu-r-p452-penetration-loss-settings.png)
 
 | Parameter | Description |
 |---|---|
@@ -176,6 +190,8 @@ Recommended for wide-area propagation and coverage modeling when building data a
 #### Default settings
 
 ##### Line of Sight coefficients (used to calculate general model loss when Tx and Rx are in LOS condition)
+
+![UniMacro — Line of Sight coefficients settings](../../../assets/images/ce-pro/v5.0/unimacro-los-coefficients-settings.png)
 
 | Parameter | Description |
 |---|---|
@@ -247,6 +263,8 @@ FSL path loss calculated based on the method in Recommendation ITU-R P.525. Suit
 Typically used for mmWave band frequencies in the 6 GHz–100 GHz range, and provides results only for line-of-sight areas.
 
 #### Default settings
+
+![LOS ITU-R P.525 — General settings (Offset coefficient, Distance coefficient, Frequency coefficient)](../../../assets/images/ce-pro/v5.0/los-itu-r-p525-settings.png)
 
 | Parameter | Description |
 |---|---|

@@ -8,11 +8,19 @@ The Cell object represents both physical parameters (e.g. height, antenna, azimu
 
 For a mobile operator, if one sector has several carriers — for example, 3 carriers — then 3 Cells should be created in the CE database.
 
+![Example: a single sector site with 3 carriers (800/1800/2100 MHz), requiring 3 Cell objects](../../../../assets/images/ce-pro/v5.0/add-cell-carriers-example.png)
+
 1. Choose the **Add Object** button from the toolbar and select **Cells** from the dropdown list.
 
-   ![Add Object type dropdown — Cells, Sirens, Sites, Radar, CPE, Repeaters, Links](../../../../assets/images/ce-pro/v5.0/add-object-type-dropdown.png)
+   ![Add Object type dropdown (RCP) — Cells, Sirens, Sites, Radar, CPE, Repeaters, Links](../../../../assets/images/ce-pro/v5.0/add-object-type-dropdown-rcp.png)
+
+   ![Add Object type dropdown (Sound, EMF, Indoor) — Cells, Sites, Radar, CPE, Repeaters, Links, OMEN](../../../../assets/images/ce-pro/v5.0/add-object-type-dropdown-sound-emf-indoor.png)
+
+   > **Note:** The Sound, EMF, and Indoor dropdown lists **OMEN** instead of **Sirens** — Sirens is created only through the dedicated [Add Sirens](5-2-5-rcp/5-2-5-3-add-sirens.md) workflow in RCP.
 
 2. Left-click on the map to define the location of the object. Left-click a second time in your preferred direction to define its azimuth. The Add Object > Cell dialog is filled with coordinates and parameters from the default template, and an azimuth value based on the direction defined on the map.
+
+   ![Defining a Cell's location with a first left-click, then its direction with a second left-click](../../../../assets/images/ce-pro/v5.0/add-cell-click-location-direction.png)
 
    The Cell object can also be created by entering exact coordinates in:
    - Latitude (degrees) and Longitude (degrees)

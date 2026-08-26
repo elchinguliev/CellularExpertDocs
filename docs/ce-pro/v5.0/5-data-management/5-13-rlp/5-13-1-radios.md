@@ -68,10 +68,16 @@ Click an existing radio in the table at the top of the dockpane to edit its prop
 
 Selecting the **Modulations** tab lets you assign a modulation to a radio. Adaptive modulations are displayed in a table by ID and technology name. The modulations available for assignment are listed in a dropdown below the table — press the assign button to add the selected modulation to the radio. Several modulations can be assigned to a radio, and their parameters can be edited.
 
+![Radios — Modulations tab, with the Adaptive Modulation table and an assigned modulation's parameters (Technology, Name, Sensitivity, SNR, Code Rate, Bps, Downlink/Uplink Throughput and Bitrate)](../../../../assets/images/ce-pro/v5.0/radios-modulations-tab.png)
+
 ## Import Tab
 
 Selecting the **Import** tab shows a **Select Data File** button for importing radio data files (RAF format supported). Once a supported radio file is selected, its parameters can be edited (General, Receiver, and Transmitter categories). The message "Radio file has been uploaded successfully" appears at the bottom of the dockpane, and the **Import** button becomes enabled. Clicking **Import** adds the radio to the database — it also appears in the Manager tab.
 
+![Radios — Import tab, with a successfully loaded radio data file and its General properties](../../../../assets/images/ce-pro/v5.0/radios-import-tab-example.png)
+
 ## Export Tab
 
 Radios can be exported to RAF data files, version 4 or 5. Depending on the selected file version, the structure of the exported data differs.
+
+![Radios — Export tab, with the Radio Pathloss Data File Version selector](../../../../assets/images/ce-pro/v5.0/radios-export-tab.png)

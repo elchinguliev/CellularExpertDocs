@@ -8,6 +8,8 @@ Click the Frequency Plans button to open the Frequency Plans dialog. Frequency P
 
 Add a frequency plan from the **Add** tab on the Frequency Plans dockpane.
 
+![Frequency Plans — Add tab, with Frequency Plan Name, Low/Center/High Frequency, Carrier Spacing, Duplex Spacing, and Carriers fields](../../../../assets/images/ce-pro/v5.0/add-frequency-plan-panel.png)
+
 | Parameter | Description |
 |---|---|
 | Frequency Plan Name | Frequency plan identification. |
@@ -31,10 +33,18 @@ Carriers with a prime symbol (`'`) are Upper carriers; the others are Lower carr
 
 Frequency plans can be imported into the CE workspace as CSV format files. Press **Select Data Files**, then navigate to the frequency plan CSV file. The frequency plan can be edited before importing. Click **Import** to finalize the import.
 
+![Frequency Plans — Import tab, with a successfully loaded frequency plan CSV file and its carrier graph](../../../../assets/images/ce-pro/v5.0/import-frequency-plan-example.png)
+
 ## Export Frequency Plan
 
 Select the frequency plan in the table, define the export path by clicking the folder icon to open the path selection dialog, then click **Export** to save the frequency plan as a CSV file.
 
+![Frequency Plans — Export tab, with the frequency plan table and Export Path field](../../../../assets/images/ce-pro/v5.0/export-frequency-plan-tab.png)
+
 ## View Frequency Plans
 
 View, edit, and delete all frequency plans from the **Frequency Plans** tab on the Frequency Plans dockpane.
+
+> **Note:** If any changes are made to a frequency plan, the carriers on the Links that use it are deselected.
+
+![Frequency Plans — editing an existing plan, with the carrier-deselection warning and Save Changes / Exit Edit Mode buttons](../../../../assets/images/ce-pro/v5.0/view-frequency-plans-edit-mode.png)

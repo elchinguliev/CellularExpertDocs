@@ -47,9 +47,11 @@ The comparison between the untuned and tuned prediction models is presented by h
 
 Statistics by visibility and by clutter class are also available. Untuned and tuned difference points are also visualized on the map, as part of the model tuning calculation result, in separate layers.
 
+![Model Tuning — expanded Statistics by visibility (LOS/NLOS/OLOS) and Statistics by clutter class panels, with Suggested prediction model values](../../../assets/images/ce-pro/v5.0/model-tuning-expanded-statistics.png)
+
 The results panel also reports:
 
-- **Suggested prediction model values** — model coefficients recommended for change, e.g. Offset coefficient (default `32` dB), Slope coefficient distance (default `20`), Slope coefficient distance obstructed (default `40`).
+- **Suggested prediction model values** — model coefficients recommended for change, e.g. Offset coefficient (default `32` dB), Slope coefficient distance near (default `20`), Slope coefficient distance far/obstructed (default `40`), and (for models that use them) the `A0`–`A3` coefficients.
 - **Suggested clutter class values** — recommended clutter loss values.
 - **Skipped measurements** — points excluded for reasons such as distance too high, falling outside the raster calculation, or pixel standard deviation too high.
 

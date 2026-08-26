@@ -20,7 +20,9 @@ The templates are divided into categories:
 
 ## Edit Network Objects Template
 
-Click the Template Manager button to open the dialog, then select one of the listed templates to edit it.
+Click the Template Manager button to open the dialog, then select one of the listed templates to edit it. The parameters shown depend on the selected template's network layer — for example, a Link template exposes Frequency Plan, Antenna, Equipment, Pred. Models, and Performance tabs.
+
+![Template Manager — editing a favorited Link template, with Frequency Plan tab (Site A/B Radio Model, Duplex, Frequency Plans, and Selected carriers table) expanded](../../../assets/images/ce-pro/v5.0/template-manager-link-template-editing.png)
 
 | Button | Description |
 |---|---|

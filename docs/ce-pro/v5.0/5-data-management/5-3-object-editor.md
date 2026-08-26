@@ -4,9 +4,13 @@
 
 The Object Editor lets you change a network object after it has been created and placed on the map.
 
-Choose the Object Editor button to open the Object Editor dialog. Select objects by navigating to the ArcGIS Pro **Edit > Selection** section and choosing the Select tool — the selected objects appear in the Object Editor as a tree hierarchy. To edit one of the selected objects, left-click on it and the corresponding editing menu opens below the list.
+Choose the Object Editor button to open the Object Editor dialog. Select objects by navigating to the ArcGIS Pro **Edit > Selection** section and choosing the Select tool — the selected objects appear in the Object Editor as a tree hierarchy, grouped by object type (Sites, Cells, OMEN, Links, etc., depending on the module and selection).
 
-![Object Editor panel with Move Objects / Duplicate Objects buttons and a selection tree](../../../assets/images/ce-pro/v5.0/object-editor-tree.png)
+![Object Editor — selection tree grouped by object type (Sites, Cells, OMEN, Links)](../../../assets/images/ce-pro/v5.0/object-editor-tree-multi-type.png)
+
+To edit one of the selected objects, left-click on it and the corresponding editing menu opens below the list.
+
+![Object Editor panel with Move Objects / Duplicate Objects buttons, a single selected Cell, and its editing fields below](../../../assets/images/ce-pro/v5.0/object-editor-tree.png)
 
 ## Delete Object
 

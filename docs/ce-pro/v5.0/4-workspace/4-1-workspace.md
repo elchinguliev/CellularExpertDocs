@@ -4,8 +4,6 @@ This chapter describes the Cellular Expert workspace functionality, shared acros
 
 ## Workspace Tool
 
-![Workspace menu — Create, Open, Remove, Upgrade, Properties](../../../assets/images/ce-pro/v5.0/workspace-menu-dropdown.png)
-
 ### Workspace Table
 
 A Cellular Expert workspace is a geodatabase containing data tables, feature datasets, and the workspace definition table. After creating a new workspace database, the workspace definition table is named `CE_WORKSPACE` and contains information about the dataset.
@@ -38,6 +36,9 @@ Workspace calculation paths and settings can be previewed in **Workspace > Prope
 Steps to create a new workspace:
 
 1. Click the **Create** button in the Cellular Expert **Workspace** menu.
+
+![Workspace menu — Create, Open, Remove, Upgrade, Properties](../../../assets/images/ce-pro/v5.0/workspace-menu-dropdown.png)
+
 2. The **Create** dialog appears. Fill in the minimum required data:
 
    **New workspace path**

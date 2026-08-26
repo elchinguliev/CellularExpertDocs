@@ -5,6 +5,11 @@
 The CPE (Customer Premises Equipment) object represents a customer location. It carries information about the customer's location, name, height, and installed antenna.
 
 1. Choose the **Add Object** button from the toolbar and select **CPE** from the dropdown list.
+
+   ![Add Object type dropdown with CPE selected](../../../../../assets/images/ce-pro/v5.0/add-object-type-dropdown-cpe-selected.png)
+
+   > **Note:** This dropdown lists **OMEN** rather than **Sirens** — see the equivalent note on [Add Cell](../5-2-1-add-cell.md).
+
 2. Left-click on the map to define the location of the object. Left-click a second time in your preferred direction to define its antenna direction.
 
    The CPE object can also be created by entering exact coordinates in:
@@ -20,7 +25,7 @@ The CPE (Customer Premises Equipment) object represents a customer location. It 
 | Dismiss | Cancels object creation and closes the dialog. |
 | View Antenna | Opens the [Antenna Viewer](../../5-6-antenna-viewer.md) with the corresponding antenna patterns. |
 
-![Add Object — CPE Properties panel with antenna selection table](../../../../../assets/images/ce-pro/v5.0/add-cpe-properties.png)
+![Add Object — CPE Properties X/Y coordinate fields](../../../../../assets/images/ce-pro/v5.0/add-cpe-properties.png)
 
 ## CPE Properties
 

@@ -106,11 +106,27 @@ Each tab exposes the Workspace, Data Management, Profile, and Coverage Predictio
 
 ![Cellular Expert ribbon — Modulations, Profile, Coverage Prediction (CE Calculation Task List, Quick SAT Link Budget, Sky Clearance), and About groups (SAT)](../../assets/images/ce-pro/v5.0/ribbon-sat-coverage-prediction.png)
 
-### Sound / Indoor
+### Sound
 
-Sound and Indoor share the same base Data Management tool set and expose no license-specific Coverage Prediction tool of their own — only the shared [CE Calculation Task List](7-coverage-prediction/7-1-ce-calculation-task-list.md) and [Visibility Prediction](7-coverage-prediction/7-2-visibility-prediction.md) tools. Indoor additionally exposes [Create Indoor Workspace](4-workspace/4-2-create-indoor-workspace.md) in the Workspace group.
+Sound's Coverage Prediction group includes **Siren Sound Prediction** alongside the shared [CE Calculation Task List](7-coverage-prediction/7-1-ce-calculation-task-list.md) and [Visibility Prediction](7-coverage-prediction/7-2-visibility-prediction.md) tools.
 
-![Cellular Expert ribbon — Workspace and Data Management groups (Sound / Indoor)](../../assets/images/ce-pro/v5.0/ribbon-sound-indoor-workspace-data-management.png)
+![Cellular Expert ribbon — Workspace and Data Management groups (Sound)](../../assets/images/ce-pro/v5.0/ribbon-sound-workspace-data-management.png)
+
+![Cellular Expert ribbon — Profile, Coverage Prediction (Siren Sound Prediction, CE Calculation Task List, Visibility Prediction), and About groups (Sound)](../../assets/images/ce-pro/v5.0/ribbon-sound-coverage-prediction.png)
+
+> **Note:** The Sound manual's own dedicated chapters document only Cells, CE Calculation Task List, and Visibility Prediction for this license — there is no dedicated "Add Sirens" or "Siren Sound Prediction" section anywhere in the Sound manual. **Siren Sound Prediction** appearing in this ribbon screenshot is preserved here exactly as shown in the source PDF; it is not otherwise described or confirmed as a supported Sound workflow.
+
+### Indoor
+
+![Cellular Expert ribbon — Workspace and Data Management groups (Indoor)](../../assets/images/ce-pro/v5.0/ribbon-indoor-workspace-data-management.png)
+
+![Cellular Expert ribbon — Coverage Prediction and About groups (Indoor)](../../assets/images/ce-pro/v5.0/ribbon-indoor-coverage-prediction.png)
+
+> **Note:** As rendered in the source PDF, Indoor's ribbon screenshot is identical to RCP's — including **Calculate Cells Area**, **Model Tuning**, **Modulations**, and the full RCP Coverage Prediction tool set (Best Server Visualization, RF Prediction, FWA RF Prediction, Radar Prediction, Compare Predictions, Optimal Site Positions, Network Manager, View Statistics, Antenna Visibility). This contradicts the rest of the Indoor manual, which documents none of these tools for Indoor — it is preserved here exactly as shown in the source PDF rather than silently corrected, and should be treated as an unresolved source inconsistency, not a confirmed Indoor capability.
+
+Indoor's **Workspace** menu additionally exposes [Create Indoor Workspace](4-workspace/4-2-create-indoor-workspace.md):
+
+![Workspace menu — Indoor's Create Indoor Workspace entry, not present on the other license tabs](../../assets/images/ce-pro/v5.0/create-indoor-workspace-menu.png)
 
 ### EMF
 

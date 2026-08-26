@@ -1,6 +1,6 @@
 # 3.1.28 Utilities
 
-Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p186-img1.png) to open Utilities tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p186-img1.png) to open Utilities tool.
 
 ## 3.1.28.1 Beamwidth to HCM code
 
@@ -8,7 +8,7 @@ Used to generate HCM pattern codes from vertical & horizontal beamwidth values. 
 
 After uploading the CSV file you are prompted to assign the CSV fields to the required parameters:
 
-![Image p186](../../../../assets/images/ce-express/user-guide-v73/p186-img2.png)
+![Image p186](../../../assets/images/ce-express/user-guide-v73/p186-img2.png)
 
 ## 3.1.28.2 Feature name to object ID
 

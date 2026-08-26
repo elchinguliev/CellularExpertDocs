@@ -1,10 +1,10 @@
 # 3.1.21 Antenna visibility prediction
 
-Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p171-img1.png) to open Antenna visibility prediction tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p171-img1.png) to open Antenna visibility prediction tool.
 
 The Antenna Visibility prediction tool is designed to calculate and visualize the feature’s Line-of-sight clearance for features based on their azimuth, tilt and selected antenna pattern.
 
-![Image p171](../../../../assets/images/ce-express/user-guide-v73/p171-img2.png)
+![Image p171](../../../assets/images/ce-express/user-guide-v73/p171-img2.png)
 
 **Calculation Name**
 
@@ -26,4 +26,4 @@ Maximum allowable signal loss for determining effective signal visibility.
 - Line of Sight (LOS) clearance – height difference between the receiver point and feature’s straight line-of-sight based on tilt and azimuth.
 - Pattern clearance – Height difference between the receiver point and the lowest point of the antenna pattern that’s above the set threshold.
 
-![Image p172](../../../../assets/images/ce-express/user-guide-v73/p172-img1.png)
+![Image p172](../../../assets/images/ce-express/user-guide-v73/p172-img1.png)

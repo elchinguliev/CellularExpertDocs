@@ -1,26 +1,26 @@
 # 3.1.13 Network statistics
 
-Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p130-img1.png) to open Network statistics tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p130-img1.png) to open Network statistics tool.
 
 Network Statistics is a tool that calculates the total coverage of a polygon based on its overall coverage (signal strength, dl throughput, etc.). The resulting statistics include the total coverage and individual coverage of each polygon segment.
 
-![Image p130](../../../../assets/images/ce-express/user-guide-v73/p130-img2.png)
+![Image p130](../../../assets/images/ce-express/user-guide-v73/p130-img2.png)
 
 Upon hovering the mouse over a statistic item, options for it appear.
 
-![Image p131](../../../../assets/images/ce-express/user-guide-v73/p131-img1.png)
+![Image p131](../../../assets/images/ce-express/user-guide-v73/p131-img1.png)
 
 **Edit statistic**
 
-![Image p131](../../../../assets/images/ce-express/user-guide-v73/p131-img2.png)
+![Image p131](../../../assets/images/ce-express/user-guide-v73/p131-img2.png)
 
 **Delete statistic**
 
-![Image p131](../../../../assets/images/ce-express/user-guide-v73/p131-img3.png)
+![Image p131](../../../assets/images/ce-express/user-guide-v73/p131-img3.png)
 
 A statistics item may be clicked to reveal detailed statistic.
 
-![Image p132](../../../../assets/images/ce-express/user-guide-v73/p132-img1.png)
+![Image p132](../../../assets/images/ce-express/user-guide-v73/p132-img1.png)
 
 **Display settings**
 
@@ -55,7 +55,7 @@ Publish statistic polygons as an ArcGIS layer. The output polygons will have the
 
 Used for adding new statistics items to the main screen.
 
-![Image p133](../../../../assets/images/ce-express/user-guide-v73/p133-img1.png)
+![Image p133](../../../assets/images/ce-express/user-guide-v73/p133-img1.png)
 
 **Statistic name**
 

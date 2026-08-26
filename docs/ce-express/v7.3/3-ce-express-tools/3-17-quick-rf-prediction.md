@@ -1,16 +1,16 @@
 # 3.1.17 Quick RF Prediction
 
-Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p150-img2.png) to open Quic RF Prediction tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p150-img2.png) to open Quic RF Prediction tool.
 
 The Quick RF Prediction is a tool that lets you select a point on the map and make a prediction without the need to create a cell. [Quick prediction](#kw:quick-rf-prediction:ce-express-rf-prediction) also lets you select a cell as the point, meaning that you can also make quick predictions with the created cells. The Quick RF Prediction tool calculates only the field strength coverage.
 
 - To select a cell, hold the CTRL key and click to snap to the required cell. Snapped cells will be visible in the dialog.
 
-![Image p150](../../../../assets/images/ce-express/user-guide-v73/p150-img3.png)
+![Image p150](../../../assets/images/ce-express/user-guide-v73/p150-img3.png)
 
 - To predict a preferred location without a cell, define the exact coordinates in the X/Y fields or click on the map to fill the coordinate fields automatically.
 
-![Image p151](../../../../assets/images/ce-express/user-guide-v73/p151-img1.png)
+![Image p151](../../../assets/images/ce-express/user-guide-v73/p151-img1.png)
 
 **Calculation settings**
 
@@ -93,5 +93,5 @@ be added to the Layer list tool.
 **Results:**
 - Field Strength raster in dBm.
 
-![Image p153](../../../../assets/images/ce-express/user-guide-v73/p153-img1.png)
+![Image p153](../../../assets/images/ce-express/user-guide-v73/p153-img1.png)
 

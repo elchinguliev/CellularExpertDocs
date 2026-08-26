@@ -5,7 +5,7 @@
 
 ### 7.1.1 Organization of single and multiple tables
 
-![Image p274](../../../assets/images/ce-express/user-guide-v73/p274-img1.png)
+![Image p274](../../assets/images/ce-express/user-guide-v73/p274-img1.png)
 
 The number of records displayed per page can be set on the bottom left corner. Furthermore, you may
 scroll through the pages using the commands in the bottom middle and bottom right corner. The table name
@@ -13,30 +13,30 @@ scroll through the pages using the commands in the bottom middle and bottom righ
 0) are shown on the top right corner. Note that the number of filtered records will be shown, if the user
 applies a filter:
 
-![Image p274](../../../assets/images/ce-express/user-guide-v73/p274-img3.png)
+![Image p274](../../assets/images/ce-express/user-guide-v73/p274-img3.png)
 
 ### 7.1.2 Organization of columns
 
-The column order can be adjusted by clicking on ![icon](../../../assets/images/ce-express/user-guide-v73/p274-img5.png) in the top right corner.
+The column order can be adjusted by clicking on ![icon](../../assets/images/ce-express/user-guide-v73/p274-img5.png) in the top right corner.
 
-![Image p275](../../../assets/images/ce-express/user-guide-v73/p275-img1.png)
+![Image p275](../../assets/images/ce-express/user-guide-v73/p275-img1.png)
 
 A menu opens in which the position of the columns can be sorted by clicking the arrow symbols. Individual
 columns are switched visible/invisible by clicking on the eye symbols.
 
-![Image p275](../../../assets/images/ce-express/user-guide-v73/p275-img3.png)
+![Image p275](../../assets/images/ce-express/user-guide-v73/p275-img3.png)
 
 The columns can be sorted alphabetically from A>Z or from Z>A using the up and down arrow symbols
 within the column headers:
 
-![Image p275](../../../assets/images/ce-express/user-guide-v73/p275-img4.png)
+![Image p275](../../assets/images/ce-express/user-guide-v73/p275-img4.png)
 
 ### 7.1.3 Navigation across tables
 
 There are 2 ways to change from one table to another. Either click on the table name in the top right (here:
 cells) and a menu opens with all available tables.
 
-![Image p276](../../../assets/images/ce-express/user-guide-v73/p276-img1.png)
+![Image p276](../../assets/images/ce-express/user-guide-v73/p276-img1.png)
 
 
 ## 7.2 Filtering, sorting, editing, and linking database records
@@ -45,12 +45,12 @@ The database entries can be sorted according to their individual values. To do s
 header and a dropdown menu opens with the following functions: “Set selected”, “Add link”, ”Clear this
 filter”, “Clear all filters”, “Set defaults” and “Set as default sort field”:
 
-![Image p276](../../../assets/images/ce-express/user-guide-v73/p276-img2.png)
+![Image p276](../../assets/images/ce-express/user-guide-v73/p276-img2.png)
 
 Alternatively, and more convenient for simple searches, columns can be filtered using the “quick filter” fields
 below the column names:
 
-![Image p277](../../../assets/images/ce-express/user-guide-v73/p277-img1.png)
+![Image p277](../../assets/images/ce-express/user-guide-v73/p277-img1.png)
 
 Users can use star symbol “*” as wildcard. Possible filtering options:
 *- any non-null value
@@ -85,7 +85,7 @@ Filtering options for numeric values:
 
 The Filter function can be used on several columns simultaneously. The headers of columns with active Filter function are marked in pink color:
 
-![Image p278](../../../assets/images/ce-express/user-guide-v73/p278-img1.png)
+![Image p278](../../assets/images/ce-express/user-guide-v73/p278-img1.png)
 
 Filters can be cleared by clicking on Clear all filters.
 
@@ -98,15 +98,15 @@ records with the database using the Synchronize changes Tool.
 
 1. Select the records
 
-![Image p278](../../../assets/images/ce-express/user-guide-v73/p278-img2.png)
+![Image p278](../../assets/images/ce-express/user-guide-v73/p278-img2.png)
 
 2. Click on the required column header (here:tilt) and choose Set selected
 
-![Image p278](../../../assets/images/ce-express/user-guide-v73/p278-img3.png)
+![Image p278](../../assets/images/ce-express/user-guide-v73/p278-img3.png)
 
 3. Define the new value and click Change
 
-![Image p279](../../../assets/images/ce-express/user-guide-v73/p279-img1.png)
+![Image p279](../../assets/images/ce-express/user-guide-v73/p279-img1.png)
 
 ### 7.2.2 Add link
 
@@ -119,27 +119,27 @@ want to link to. Choose the component and confirm the selection. A new link has 
 
 1. Select the record
 
-![Image p279](../../../assets/images/ce-express/user-guide-v73/p279-img2.png)
+![Image p279](../../assets/images/ce-express/user-guide-v73/p279-img2.png)
 
 2. Click on the required column header (here:miscloss) and choose Add link
 
-![Image p279](../../../assets/images/ce-express/user-guide-v73/p279-img3.png)
+![Image p279](../../assets/images/ce-express/user-guide-v73/p279-img3.png)
 
 3. Click on Add new reference ...
 
-![Image p280](../../../assets/images/ce-express/user-guide-v73/p280-img1.png)
+![Image p280](../../assets/images/ce-express/user-guide-v73/p280-img1.png)
 
 4. Select the type of component you want to link to (here: calculation tasks)
 
-![Image p280](../../../assets/images/ce-express/user-guide-v73/p280-img2.png)
+![Image p280](../../assets/images/ce-express/user-guide-v73/p280-img2.png)
 
-5. Choose the repeater(s) you want to link to and confirm the selection with ![icon](../../../assets/images/ce-express/user-guide-v73/p280-img5.png) in the top left corner
+5. Choose the repeater(s) you want to link to and confirm the selection with ![icon](../../assets/images/ce-express/user-guide-v73/p280-img5.png) in the top left corner
 
-![Image p280](../../../assets/images/ce-express/user-guide-v73/p280-img3.png)
+![Image p280](../../assets/images/ce-express/user-guide-v73/p280-img3.png)
 
 6. The link has been created
 
-![Image p280](../../../assets/images/ce-express/user-guide-v73/p280-img4.png)
+![Image p280](../../assets/images/ce-express/user-guide-v73/p280-img4.png)
 
 ## 7.3 Adding, viewing, downloading and deleting attachments
 
@@ -147,23 +147,23 @@ Each database entry can be connected with any type of attachment, for example, a
 Entries with connected attachments have a blue check symbol next to the paper clip symbol in the column
 “Inc.”, while entries without attachment have only the paper clip.
 
-![Image p281](../../../assets/images/ce-express/user-guide-v73/p281-img1.png)
+![Image p281](../../assets/images/ce-express/user-guide-v73/p281-img1.png)
 
 **Adding attachments**
 
 To connect a database entry with an attachment, click on the paper clip symbol in the column “Inc.”. A
 dialog opens that allows you to browse your computer for the attachment of your choice or to take a photo.
 
-![Image p282](../../../assets/images/ce-express/user-guide-v73/p282-img1.png)
+![Image p282](../../assets/images/ce-express/user-guide-v73/p282-img1.png)
 
 **Viewing, downloading and deleting attachments:**
 
-To view the list of attachments connected to an entry, select the respective entry and click on ![icon](../../../assets/images/ce-express/user-guide-v73/p282-img2.png) in the
+To view the list of attachments connected to an entry, select the respective entry and click on ![icon](../../assets/images/ce-express/user-guide-v73/p282-img2.png) in the
 toolbar:
 
-![Image p282](../../../assets/images/ce-express/user-guide-v73/p282-img3.png)
+![Image p282](../../assets/images/ce-express/user-guide-v73/p282-img3.png)
 
-![Image p282](../../../assets/images/ce-express/user-guide-v73/p282-img4.png)
+![Image p282](../../assets/images/ce-express/user-guide-v73/p282-img4.png)
 
 In the attachments the listed images are shown as thumbs. Select an attachment from the list and it opens
 in a separate browser tab.
@@ -176,13 +176,13 @@ To delete an attachment click on the red cross symbol.
 
 ## 7.4 Sieve
 
-It is possible to display only selected data from an open table. Click on the button ![icon](../../../assets/images/ce-express/user-guide-v73/p283-img1.png) in the toolbar.
+It is possible to display only selected data from an open table. Click on the button ![icon](../../assets/images/ce-express/user-guide-v73/p283-img1.png) in the toolbar.
 
-![Image p283](../../../assets/images/ce-express/user-guide-v73/p283-img3.png)
+![Image p283](../../assets/images/ce-express/user-guide-v73/p283-img3.png)
 
 And a dialog will open:
 
-![Image p283](../../../assets/images/ce-express/user-guide-v73/p283-img4.png)
+![Image p283](../../assets/images/ce-express/user-guide-v73/p283-img4.png)
 
 Note that by clicking “Add rule” you may sieve with two or more filter terms that are connected via the
 operation “OR”, not “AND”. Thus, the result of two filters will show all items that comprise either the first or
@@ -190,19 +190,19 @@ the second search term in their attributes.
 For example, do you want to sieve the table asites for records starting with defined characters? Then the
 Sieve tool will help.
 
-![Image p284](../../../assets/images/ce-express/user-guide-v73/p284-img1.png)
+![Image p284](../../assets/images/ce-express/user-guide-v73/p284-img1.png)
 
 Click Add rule in order to add another search term, or click Clear all to remove all active searches.
 To start the sieve process, click OK.
 
 **Results**
 
-![Image p284](../../../assets/images/ce-express/user-guide-v73/p284-img2.png)
+![Image p284](../../assets/images/ce-express/user-guide-v73/p284-img2.png)
 
 ## 7.5 CE API
 
 It is possible to call other tools configured by the administrator. For every table a different tool can be
-configured. To start tool selection, click on the button ![icon](../../../assets/images/ce-express/user-guide-v73/p284-img3.png) in the toolbar.
+configured. To start tool selection, click on the button ![icon](../../assets/images/ce-express/user-guide-v73/p284-img3.png) in the toolbar.
 
 ## 7.6 Import CSV
 
@@ -211,7 +211,7 @@ with the administrator before import.
 
 “Import CSV” opens a new window:
 
-![Image p285](../../../assets/images/ce-express/user-guide-v73/p285-img1.png)
+![Image p285](../../assets/images/ce-express/user-guide-v73/p285-img1.png)
 
 Data can be imported either as a new table (level 0), or added as a child table to a parent table (level 1).
 When adding a new table, it is required to define the table name. When adding a child table to a parent
@@ -226,11 +226,11 @@ parent_id value equal to the object_id of the parent table
 
 When adding a child table to a parent table, choose the parent table from the dropdown menu:
 
-![Image p285](../../../assets/images/ce-express/user-guide-v73/p285-img2.png)
+![Image p285](../../assets/images/ce-express/user-guide-v73/p285-img2.png)
 
 **Partial Import**
 
 The Partial Import feature allows to add records to an already existing table. If the box "Partial import” is
 checked, the new records will be added to the defined table:
 
-![Image p286](../../../assets/images/ce-express/user-guide-v73/p286-img1.png)
+![Image p286](../../assets/images/ce-express/user-guide-v73/p286-img1.png)

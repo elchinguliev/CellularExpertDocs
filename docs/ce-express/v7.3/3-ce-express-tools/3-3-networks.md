@@ -1,16 +1,16 @@
 # 3.1.3 Networks
 
-Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p053-img2.png) to open Networks tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p053-img2.png) to open Networks tool.
 
 The networks tool allows for easy management of multiple objects, grouped into networks. Networks can
 be defined by feature attribute or via the selection of the features required. Then, feature attribute change
 tracking and calculations can be performed for each network without the need for selection.
 
-![Image p053](../../../../assets/images/ce-express/user-guide-v73/p053-img3.png)
+![Image p053](../../../assets/images/ce-express/user-guide-v73/p053-img3.png)
 
 Once expanded, an existing network item displays the following information:
 
-![Image p054](../../../../assets/images/ce-express/user-guide-v73/p054-img1.png)
+![Image p054](../../../assets/images/ce-express/user-guide-v73/p054-img1.png)
 
 **Feature type**
 
@@ -46,25 +46,25 @@ Opens the selected [prediction results](#kw:viewing-results:ce-express-rf-predic
 
 Upon hovering the mouse over a network item, options for it appear.
 
-![Image p055](../../../../assets/images/ce-express/user-guide-v73/p055-img1.png)
+![Image p055](../../../assets/images/ce-express/user-guide-v73/p055-img1.png)
 
 **Edit Network**
 
-![Image p055](../../../../assets/images/ce-express/user-guide-v73/p055-img2.png)
+![Image p055](../../../assets/images/ce-express/user-guide-v73/p055-img2.png)
 
 **Network publishing settings**
 
-![Image p055](../../../../assets/images/ce-express/user-guide-v73/p055-img3.png)
+![Image p055](../../../assets/images/ce-express/user-guide-v73/p055-img3.png)
 
 **Delete Network**
 
-![Image p055](../../../../assets/images/ce-express/user-guide-v73/p055-img4.png)
+![Image p055](../../../assets/images/ce-express/user-guide-v73/p055-img4.png)
 
 3.1.3.1 Add network
 
 To create a network press the *New network* button.
 
-![Image p056](../../../../assets/images/ce-express/user-guide-v73/p056-img1.png)
+![Image p056](../../../assets/images/ce-express/user-guide-v73/p056-img1.png)
 
 **Network name**
 
@@ -96,17 +96,17 @@ you may set it up in the network publishing settings menu.
 First open the calculation result layer you would like to be automatically published, and set up the color
 band values as per your preference:
 
-![Image p057](../../../../assets/images/ce-express/user-guide-v73/p057-img1.png)
+![Image p057](../../../assets/images/ce-express/user-guide-v73/p057-img1.png)
 
 Then, options for your layer's publishing will appear under the calculation results section:
 
-![Image p058](../../../../assets/images/ce-express/user-guide-v73/p058-img1.png)
+![Image p058](../../../assets/images/ce-express/user-guide-v73/p058-img1.png)
 
 You may enable automatic publishing and select who the results are shared to for this layer.
 
 The same options are also available for the features that are associated with the network.
 
-![Image p058](../../../../assets/images/ce-express/user-guide-v73/p058-img2.png)
+![Image p058](../../../assets/images/ce-express/user-guide-v73/p058-img2.png)
 
 After setting up the automatic publishing options, click Accept to save. The publishing is then executed
 the next time the network calculation is run.

@@ -1,6 +1,6 @@
 # 3.1.44 HCM requests
 
-Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p239-img4.png) to open HCM requests tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p239-img4.png) to open HCM requests tool.
 
 This is the main component used for HCM calculations. Main functionality:
 - To list and process all the incoming and outgoing coordination requests
@@ -9,13 +9,13 @@ This is the main component used for HCM calculations. Main functionality:
 
 ## 3.1.44.1 List coordination requests
 
-![Image p240](../../../../assets/images/ce-express/user-guide-v73/p240-img1.png)
+![Image p240](../../../assets/images/ce-express/user-guide-v73/p240-img1.png)
 
 **Own requests**
 
 This lists all outgoing coordination requests (sent to other countries).
 
-![Image p240](../../../../assets/images/ce-express/user-guide-v73/p240-img2.png)
+![Image p240](../../../assets/images/ce-express/user-guide-v73/p240-img2.png)
 
 Starts the process of creating a new outgoing request
 
@@ -31,7 +31,7 @@ The list of Own requests contains following parameters:
 
 This lists all incoming coordination requests (received from other countries).
 
-![Image p241](../../../../assets/images/ce-express/user-guide-v73/p241-img1.png)
+![Image p241](../../../assets/images/ce-express/user-guide-v73/p241-img1.png)
 
 Starts the process of importing a new incoming request
 
@@ -45,7 +45,7 @@ The list of Foreign requests contains following parameters:
 
 Each coordination request contains detailed information about the request and/or the answer.
 
-![Image p242](../../../../assets/images/ce-express/user-guide-v73/p242-img1.png)
+![Image p242](../../../assets/images/ce-express/user-guide-v73/p242-img1.png)
 
 **Country from**
 
@@ -113,13 +113,13 @@ Answer to coordination request contains the same parameters as the request.
 
 New incoming (foreign) coordination request is created by clicking New foreign request in HCM requests. Initially this displays area where received coordination file can be dropped.
 
-![Image p243](../../../../assets/images/ce-express/user-guide-v73/p243-img1.png)
+![Image p243](../../../assets/images/ce-express/user-guide-v73/p243-img1.png)
 
 When coordination file is loaded map displays the records of the file with additional information, such as content of HCM file header, registration data, and Trigger options.
 
-![Image p244](../../../../assets/images/ce-express/user-guide-v73/p244-img1.png)
+![Image p244](../../../assets/images/ce-express/user-guide-v73/p244-img1.png)
 
-![Image p244](../../../../assets/images/ce-express/user-guide-v73/p244-img2.png)
+![Image p244](../../../assets/images/ce-express/user-guide-v73/p244-img2.png)
 
 **Your data**
 
@@ -135,11 +135,11 @@ You can assign registration number for the coordination request. Optional.
 
 You can assign here registration date for the coordination request. Optional.
 
-![Image p245](../../../../assets/images/ce-express/user-guide-v73/p245-img1.png)
+![Image p245](../../../assets/images/ce-express/user-guide-v73/p245-img1.png)
 
 File content section contains header information of the file as it is defined in Annex 2B of HCM-Agreement.
 
-![Image p245](../../../../assets/images/ce-express/user-guide-v73/p245-img2.png)
+![Image p245](../../../assets/images/ce-express/user-guide-v73/p245-img2.png)
 
 **Trigger options**
 
@@ -203,7 +203,7 @@ View processing results displays calculations performed on an incoming request f
 
 **File containing new entries (N)**
 
-![Image p247](../../../../assets/images/ce-express/user-guide-v73/p247-img1.png)
+![Image p247](../../../assets/images/ce-express/user-guide-v73/p247-img1.png)
 
 **Type**
 
@@ -237,23 +237,23 @@ If Max TD is lower than 1 dB and original coordination status is B, software aut
 
 User can write separate remarks for each HCM record. This information will be added to the answer file.
 
-![Image p247](../../../../assets/images/ce-express/user-guide-v73/p247-img2.png)
+![Image p247](../../../assets/images/ce-express/user-guide-v73/p247-img2.png)
 
 Shows list of calculated stations against particulat test record.
 
-![Image p248](../../../../assets/images/ce-express/user-guide-v73/p248-img1.png)
+![Image p248](../../../assets/images/ce-express/user-guide-v73/p248-img1.png)
 
 Profile and calculation values are extracted from HCM calculation report file.
 
 **File containing overall list (O)**
 
-![Image p248](../../../../assets/images/ce-express/user-guide-v73/p248-img2.png)
+![Image p248](../../../assets/images/ce-express/user-guide-v73/p248-img2.png)
 
 **Differences in records**
 
 Shows records that have at least one different parameter value. By clicking on the record, detailed comparison widget is displayed:
 
-![Image p249](../../../../assets/images/ce-express/user-guide-v73/p249-img1.png)
+![Image p249](../../../assets/images/ce-express/user-guide-v73/p249-img1.png)
 
 **Parameter name**
 
@@ -271,31 +271,31 @@ Value of the record in the received request file.
 
 Contains error message if error occurs while processing the record.
 
-![Image p249](../../../../assets/images/ce-express/user-guide-v73/p249-img2.png)
+![Image p249](../../../assets/images/ce-express/user-guide-v73/p249-img2.png)
 
 **Download report as CSV file**
 
 Downloads report containing all the records of this section
 
-![Image p250](../../../../assets/images/ce-express/user-guide-v73/p250-img1.png)
+![Image p250](../../../assets/images/ce-express/user-guide-v73/p250-img1.png)
 
 Section "Missing in database" lists all the records that are present in the received file but missing in the database. By clicking on the record, a detailed comparison widget is displayed with a few additional parameters of the record:
 
-![Image p250](../../../../assets/images/ce-express/user-guide-v73/p250-img2.png)
+![Image p250](../../../assets/images/ce-express/user-guide-v73/p250-img2.png)
 
-![Image p250](../../../../assets/images/ce-express/user-guide-v73/p250-img3.png)
+![Image p250](../../../assets/images/ce-express/user-guide-v73/p250-img3.png)
 
 **Download report as CSV file**
 
 Downloads report containing all the records of this section
 
-![Image p251](../../../../assets/images/ce-express/user-guide-v73/p251-img1.png)
+![Image p251](../../../assets/images/ce-express/user-guide-v73/p251-img1.png)
 
 Section "Missing in received list" displays all the records that are present in the database but missing in the received file. By clicking on the record, a detailed comparison widget is displayed with a few additional parameters of the record:
 
-![Image p251](../../../../assets/images/ce-express/user-guide-v73/p251-img2.png)
+![Image p251](../../../assets/images/ce-express/user-guide-v73/p251-img2.png)
 
-![Image p251](../../../../assets/images/ce-express/user-guide-v73/p251-img3.png)
+![Image p251](../../../assets/images/ce-express/user-guide-v73/p251-img3.png)
 
 **Download report as CSV file**
 
@@ -305,7 +305,7 @@ Downloads report containing all the records of this section
 
 New outgoing (own) coordination request is created by clicking New own request (in HCM requests). This opens a new widget:
 
-![Image p252](../../../../assets/images/ce-express/user-guide-v73/p252-img1.png)
+![Image p252](../../../assets/images/ce-express/user-guide-v73/p252-img1.png)
 
 **Request type N**
 
@@ -323,7 +323,7 @@ This creates a coordination request containing an overall list of coordinated HC
 
 **Created coordination request**
 
-![Image p253](../../../../assets/images/ce-express/user-guide-v73/p253-img1.png)
+![Image p253](../../../assets/images/ce-express/user-guide-v73/p253-img1.png)
 
 **Country from**
 

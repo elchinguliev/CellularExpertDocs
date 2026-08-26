@@ -1,12 +1,12 @@
 # 3.1.1 Workspaces
 
-Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p012-img2.png) to open Workspaces tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p012-img2.png) to open Workspaces tool.
 Shows an active workspace.
 The tool allows to switch between available workspaces. The Map view will be automatically zoomed to the selected workspace extent and only objects defined for that workspace will be visible.
 
 A workspace is a project-based view in which objects are displayed. Workspaces can be assigned individually for each user group.
 
-![Image p13](../../../../assets/images/ce-express/user-guide-v73/p013-img1.png)
+![Image p13](../../../assets/images/ce-express/user-guide-v73/p013-img1.png)
 
 **Show only workspaces in view**
 
@@ -15,25 +15,25 @@ the map's viewport.
 
 Upon hovering the mouse over a workspace item, options for it appear.
 
-![Image p13](../../../../assets/images/ce-express/user-guide-v73/p013-img2.png)
+![Image p13](../../../assets/images/ce-express/user-guide-v73/p013-img2.png)
 
 **Edit Workspace**
 
-![Image p13](../../../../assets/images/ce-express/user-guide-v73/p013-img3.png)
+![Image p13](../../../assets/images/ce-express/user-guide-v73/p013-img3.png)
 
 **Duplicate Workspace**
 
-![Image p14](../../../../assets/images/ce-express/user-guide-v73/p014-img2.png)
+![Image p14](../../../assets/images/ce-express/user-guide-v73/p014-img2.png)
 
 **Delete Workspace**
 
-![Image p14](../../../../assets/images/ce-express/user-guide-v73/p014-img3.png)
+![Image p14](../../../assets/images/ce-express/user-guide-v73/p014-img3.png)
 
 3.1.1.1 Add workspace
 
 To create a workspace, press the New workspace button.
 
-![Image p14](../../../../assets/images/ce-express/user-guide-v73/p014-img1.png)
+![Image p14](../../../assets/images/ce-express/user-guide-v73/p014-img1.png)
 
 **General**
 
@@ -57,12 +57,12 @@ same value for multiple workspaces.
 Locks feature editing within the workspace. Useful when you want to keep a workspace for archiving
 purposes. Only an admin user can disable this for a locked workspace.
 
-![Image p15](../../../../assets/images/ce-express/user-guide-v73/p015-img1.png)
+![Image p15](../../../assets/images/ce-express/user-guide-v73/p015-img1.png)
 
 **Extent**
 
 Workspace extent defines where the map gets zoomed to when the workspace is loaded. It is also used
-as a zoom reference for the home button ![icon](../../../../assets/images/ce-express/user-guide-v73/p015-img2.png).
+as a zoom reference for the home button ![icon](../../../assets/images/ce-express/user-guide-v73/p015-img2.png).
 
 **Draw on map**
 
@@ -84,14 +84,14 @@ Maximum x (rightmost) coordinate of the workspace extent (in workspace epsg)
 
 Maximum y (topmost) coordinate of the workspace extent (in workspace epsg)
 
-![Image p16](../../../../assets/images/ce-express/user-guide-v73/p016-img1.png)
+![Image p16](../../../assets/images/ce-express/user-guide-v73/p016-img1.png)
 
 **Coordinate origin**
 
 Origin point from which coordinates are calculated from in the user interface. Global coordinates are
 saved in the database regardless of this setting.
 
-![Image p16](../../../../assets/images/ce-express/user-guide-v73/p016-img2.png)
+![Image p16](../../../assets/images/ce-express/user-guide-v73/p016-img2.png)
 
 **Calculations**
 
@@ -130,7 +130,7 @@ Available options:
 
 Geodata set used in calculations launched within the workspace.
 
-![Image p17](../../../../assets/images/ce-express/user-guide-v73/p017-img1.png)
+![Image p17](../../../assets/images/ce-express/user-guide-v73/p017-img1.png)
 
 **Extra layers**
 
@@ -154,7 +154,7 @@ Turns the layer's display on or off.
 
 Specifies the group assignment for the layer. You can select an existing group, create a new one, or leave the field blank to place the layer in the default group Other.
 
-![Image p18](../../../../assets/images/ce-express/user-guide-v73/p018-img1.png)
+![Image p18](../../../assets/images/ce-express/user-guide-v73/p018-img1.png)
 
 **Feature naming schemes**
 

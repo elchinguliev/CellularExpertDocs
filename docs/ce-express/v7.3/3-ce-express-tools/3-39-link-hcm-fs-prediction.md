@@ -1,10 +1,10 @@
 # 3.1.39 Link HCM-FS prediction
 
-Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p222-img2.png) to open Link HCM-FS prediction tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p222-img2.png) to open Link HCM-FS prediction tool.
 
 This calculates interference between selected links and HCM-FS records available in the database.
 
-![Image p222](../../../../assets/images/ce-express/user-guide-v73/p222-img3.png)
+![Image p222](../../../assets/images/ce-express/user-guide-v73/p222-img3.png)
 
 **Calculation settings**
 
@@ -16,7 +16,7 @@ Name of the calculation.
 
 Template to be used for filling up missing parameters of the link.
 
-![Image p223](../../../../assets/images/ce-express/user-guide-v73/p223-img1.png)
+![Image p223](../../../assets/images/ce-express/user-guide-v73/p223-img1.png)
 
 **Trigger options**
 
@@ -48,17 +48,17 @@ Distance between passive transmitter and receiver. In the case of passive receiv
 
 3.1.39.1 Link HCM-FS prediction results
 
-![Image p224](../../../../assets/images/ce-express/user-guide-v73/p224-img1.png)
+![Image p224](../../../assets/images/ce-express/user-guide-v73/p224-img1.png)
 
 Report lists all the selected links and following parameters:
 - **Maximum outgoing TD, dB**. Maximum interference (threshold degradation) to a single HCM-FS receiver caused by the link.
 - **Maximum incoming TD, dB.** Maximum interference (threshold degradation) from HCM-FS transmitter to the receiver of the link.
 
-![Image p224](../../../../assets/images/ce-express/user-guide-v73/p224-img2.png)
+![Image p224](../../../assets/images/ce-express/user-guide-v73/p224-img2.png)
 
 **Show incoming interference.**
 Displays list of HCM-FS transmitters calculated against receivers of the link.
 
-![Image p224](../../../../assets/images/ce-express/user-guide-v73/p224-img3.png)
+![Image p224](../../../assets/images/ce-express/user-guide-v73/p224-img3.png)
 
 List shows site of the affected link, HCM-FS parameters and interference calculation result.

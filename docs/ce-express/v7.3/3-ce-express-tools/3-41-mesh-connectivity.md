@@ -1,10 +1,10 @@
 # 3.1.41 Mesh connectivity
 
-Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p227-img1.png) to open Mesh connectivity tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p227-img1.png) to open Mesh connectivity tool.
 
 This tool enables rapid and accurate assessment of wireless peer-to-peer link quality during mesh network planning and optimization.
 
-![Image p227](../../../../assets/images/ce-express/user-guide-v73/p227-img2.png)
+![Image p227](../../../assets/images/ce-express/user-guide-v73/p227-img2.png)
 
 **Calculation name**
 
@@ -17,11 +17,11 @@ Mesh node template if selected features won’t have all necessary parameters.
 **How It Works:**
 - Select one or more Mesh Nodes in the workspace.
 
-![Image p228](../../../../assets/images/ce-express/user-guide-v73/p228-img1.png)
+![Image p228](../../../assets/images/ce-express/user-guide-v73/p228-img1.png)
 
 - Open Mesh Connectivity tool.
 
-![Image p228](../../../../assets/images/ce-express/user-guide-v73/p228-img2.png)
+![Image p228](../../../assets/images/ce-express/user-guide-v73/p228-img2.png)
 
 - **Define:**
   
@@ -32,17 +32,17 @@ o Mesh node template
 - The tool calculates the RSL between each node pair and compares it against the configured RSL sensitivity threshold defined for the Mesh Node object.
 - Open Prediction history tool.
 
-![Image p229](../../../../assets/images/ce-express/user-guide-v73/p229-img1.png)
+![Image p229](../../../assets/images/ce-express/user-guide-v73/p229-img1.png)
 
 Connectivity status is then visually rendered using a clear, color-coded scheme:
 
-![Image p229](../../../../assets/images/ce-express/user-guide-v73/p229-img2.png) - Green : Bi-directional connectivity – both nodes meet or exceed the RSL sensitivity for each other.
+![Image p229](../../../assets/images/ce-express/user-guide-v73/p229-img2.png) - Green : Bi-directional connectivity – both nodes meet or exceed the RSL sensitivity for each other.
 
-![Image p229](../../../../assets/images/ce-express/user-guide-v73/p229-img3.png) - Yellow: Uni-directional connectivity – only one node meets the RSL threshold for the other.
+![Image p229](../../../assets/images/ce-express/user-guide-v73/p229-img3.png) - Yellow: Uni-directional connectivity – only one node meets the RSL threshold for the other.
 
-![Image p229](../../../../assets/images/ce-express/user-guide-v73/p229-img4.png) - Red: No connectivity – RSL falls below the sensitivity threshold in both directions.
+![Image p229](../../../assets/images/ce-express/user-guide-v73/p229-img4.png) - Red: No connectivity – RSL falls below the sensitivity threshold in both directions.
 
-![Image p230](../../../../assets/images/ce-express/user-guide-v73/p230-img1.png)
+![Image p230](../../../assets/images/ce-express/user-guide-v73/p230-img1.png)
 
 **Results:**
 
@@ -52,7 +52,7 @@ Connectivity status is then visually rendered using a clear, color-coded scheme:
 
 To create a Links between Mesh Nodes, define Mesh connectivity results. Once result is selected, it will add possible options to create a links between Mesh Nodes
 
-![Image p231](../../../../assets/images/ce-express/user-guide-v73/p231-img1.png)
+![Image p231](../../../assets/images/ce-express/user-guide-v73/p231-img1.png)
 
 **Links creation**
 
@@ -66,8 +66,8 @@ If checked, the links will be created only from the checked connectivity lines i
 
 Enable/Disable Links from the suggested list
 
-![Image p231](../../../../assets/images/ce-express/user-guide-v73/p231-img2.png)
+![Image p231](../../../assets/images/ce-express/user-guide-v73/p231-img2.png)
 
 Once parameters are set, press Create links button to create Links between Mesh objects.
 
-![Image p232](../../../../assets/images/ce-express/user-guide-v73/p232-img1.png)
+![Image p232](../../../assets/images/ce-express/user-guide-v73/p232-img1.png)

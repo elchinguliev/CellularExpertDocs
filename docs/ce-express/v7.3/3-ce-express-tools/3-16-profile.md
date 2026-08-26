@@ -1,14 +1,14 @@
 # 3.1.16 Profile
 
-Click this button ![icon](../../../../assets/images/ce-express/user-guide-v73/p142-img1.png) to open [Profile tool](#kw:when-to-use-the-profile-tool:ce-express-profile).
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p142-img1.png) to open [Profile tool](#kw:when-to-use-the-profile-tool:ce-express-profile).
 
 This tool generates a detailed profile between two points. The locations From (transmitter) and To (receiver) can be chosen by clicking on the map. The first click defines the transmitter, the second one the receiver.
 
-![Image p142](../../../../assets/images/ce-express/user-guide-v73/p142-img2.png)
+![Image p142](../../../assets/images/ce-express/user-guide-v73/p142-img2.png)
 
 ## 3.1.16.1 Properties
 
-![Image p142](../../../../assets/images/ce-express/user-guide-v73/p142-img3.png)
+![Image p142](../../../assets/images/ce-express/user-guide-v73/p142-img3.png)
 
 **Calculation settings**
 
@@ -32,7 +32,7 @@ The template that is used for transmitter’s default values.
 
 The template that is used for receiver’s default values.
 
-![Image p143](../../../../assets/images/ce-express/user-guide-v73/p143-img1.png)
+![Image p143](../../../assets/images/ce-express/user-guide-v73/p143-img1.png)
 
 **Transmitter**
 
@@ -96,7 +96,7 @@ Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
 
 Value in kHz. Required for 4G and 5G technologies. For other technologies define value 15.
 
-![Image p145](../../../../assets/images/ce-express/user-guide-v73/p145-img1.png)
+![Image p145](../../../assets/images/ce-express/user-guide-v73/p145-img1.png)
 
 **Receiver**
 
@@ -149,28 +149,28 @@ Upon the selection of a second point, these geometries will be created between t
 - Tx (green) – the transmitter point
 - Fresnel (blue) – the Fresnel lines
 
-![Image p146](../../../../assets/images/ce-express/user-guide-v73/p146-img1.png)
+![Image p146](../../../assets/images/ce-express/user-guide-v73/p146-img1.png)
 
 You can inspect the values at particular points by moving the cursor around the plot. The cursor movement on the plot will be projected as a moving point on the map.
 
-![Image p147](../../../../assets/images/ce-express/user-guide-v73/p147-img1.png)
+![Image p147](../../../assets/images/ce-express/user-guide-v73/p147-img1.png)
 
 Zoom in/out in the profile view.
 
-![Image p147](../../../../assets/images/ce-express/user-guide-v73/p147-img2.png)
+![Image p147](../../../assets/images/ce-express/user-guide-v73/p147-img2.png)
 
-Click on![Image p147](../../../../assets/images/ce-express/user-guide-v73/p147-img3.png) button to view the see the Calculation results.
+Click on![Image p147](../../../assets/images/ce-express/user-guide-v73/p147-img3.png) button to view the see the Calculation results.
 
-![Image p148](../../../../assets/images/ce-express/user-guide-v73/p148-img1.png)
+![Image p148](../../../assets/images/ce-express/user-guide-v73/p148-img1.png)
 
 ## 3.1.16.3 Profile report
 The input data and calculation results can be automatically transferred into a Profile Report. This report will show transmitter/receiver input data, calculation results as well as the Profile plot and map view in which the profile was drawn.
 
-![Image p148](../../../../assets/images/ce-express/user-guide-v73/p148-img2.png)
+![Image p148](../../../assets/images/ce-express/user-guide-v73/p148-img2.png)
 
 The resulting Profile report will look similar to this example:
 
-![Image p149](../../../../assets/images/ce-express/user-guide-v73/p149-img1.png)
+![Image p149](../../../assets/images/ce-express/user-guide-v73/p149-img1.png)
 
-![Image p150](../../../../assets/images/ce-express/user-guide-v73/p150-img1.png)
+![Image p150](../../../assets/images/ce-express/user-guide-v73/p150-img1.png)
 

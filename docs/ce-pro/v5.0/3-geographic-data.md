@@ -63,7 +63,7 @@ A sample DTM raster represents, for example, 5 square meters per pixel with its 
 
 The Digital Terrain Model (DTM) has the following requirements.
 
-#### Projection
+**Projection**
 
 The raster must use a Projected Coordinate System. To check the coordinate system of your raster, use the Properties function in ArcGIS Pro: add the raster to your project, right-click it, and select **Properties**. Then go to the **Source** tab **> Spatial Reference** and check the **Coordinate System Type** parameter to confirm it is a Projected Coordinate System.
 
@@ -77,7 +77,7 @@ In the **Output Coordinate System**, specify a new coordinate system. It is reco
 
 ![Projected Coordinate System picker showing UTM zones](../../assets/images/ce-pro/v5.0/projected-coordinate-system-tree.png)
 
-#### Correct NoData value and raster name
+**Correct NoData value and raster name**
 
 After setting the correct projection, assign the NoData attribute and specify the appropriate name for the DTM raster using the **Copy Raster** tool in Geoprocessing:
 
@@ -113,11 +113,11 @@ Once clutter classes are successfully mapped, the prediction algorithms recogniz
 
 The Clutter Classes raster has the same requirements as the DTM raster above.
 
-#### Projection
+**Projection**
 
 It must have the same coordinate system as your `elevation.tif` raster. If it has a different coordinate system, use **Geoprocessing > Project Raster** to fix it. In the Output Coordinate System, click the **Select Coordinate System** button and choose the same coordinate system as your `elevation.tif`.
 
-#### Correct NoData value and raster name
+**Correct NoData value and raster name**
 
 After setting the correct projection, assign the NoData attribute and specify the appropriate name for the Clutter Class raster using the **Copy Raster** tool in Geoprocessing:
 
@@ -145,11 +145,11 @@ The calculation output is the difference between the DSM and DTM grids, represen
 
 The Clutter Height raster has the same requirements as the DTM raster above.
 
-#### Projection
+**Projection**
 
 It must have the same coordinate system as your `elevation.tif` raster. If it has a different coordinate system, use **Geoprocessing > Project Raster** to fix it. In the Output Coordinate System, click the **Select Coordinate System** button and choose the same coordinate system as your `elevation.tif`.
 
-#### Correct NoData value and raster name
+**Correct NoData value and raster name**
 
 After setting the correct projection, assign the NoData attribute and specify the appropriate name for the Clutter Height raster using the **Copy Raster** tool in Geoprocessing:
 
@@ -186,7 +186,7 @@ Con(IsNull("building raster"), "Clutter_classes.tif", 0)
 
 All propagation and prediction calculations reference the clutter types defined in the Clutter Classes table. Each building-related clutter class is assigned a unique ID value, which is used during modeling to apply the appropriate path loss parameters for solid structures — ensuring buildings are accurately represented in simulations and contribute to more realistic signal behavior in both indoor and outdoor environments.
 
-#### Building height determination in clutter-based modeling
+**Building height determination in clutter-based modeling**
 
 Pixels assigned to a building clutter class ID are automatically recognized as a solid obstacle during prediction calculations. Their heights are determined using the following priority:
 

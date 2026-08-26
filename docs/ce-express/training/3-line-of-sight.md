@@ -134,7 +134,7 @@ In CE Express, the Profile tool recalculates results automatically and instantly
 parameters are modified. This allows users to test different scenarios without repeating the
 setup process.
 
-#### 4.2.3.1 Transmitter Power
+**4.2.3.1 Transmitter Power**
 
 - Increase Transmitter Power from 40 to 43
 - Observe how signal-related results are updated automatically
@@ -144,7 +144,7 @@ overall path conditions and calculated results.
 
 ![Image p7](../../assets/images/ce-express/training-03/p007-img1.png)
 
-#### 4.2.3.2 Receiver and Transmitter Heights
+**4.2.3.2 Receiver and Transmitter Heights**
 
 - Change Receiver Height from 2 to 20
 
@@ -158,7 +158,7 @@ Height is one of the most influential parameters in visibility analysis. Increas
 This step helps users understand why height selection is critical in many real-world
 scenarios.
 
-#### 4.2.3.3 Frequency
+**4.2.3.3 Frequency**
 
 - Change Frequency from 1800 to 700
 
@@ -173,7 +173,7 @@ generally:
 Observing these changes helps users understand how frequency choice affects visibility
 outcomes.
 
-#### 4.2.3.4 Other parameters
+**4.2.3.4 Other parameters**
 
 Experiment with additional parameters available in the Profile tool, such as:
 - Antenna orientation and angles
@@ -202,7 +202,7 @@ By locking the transmitter, users can focus on:
 - Identifying directions with favorable or unfavorable visibility
 - Understanding how terrain and obstacles influence different paths
 
-#### 4.2.4.1 Enabling Fixed Transmitter Mode
+**4.2.4.1 Enabling Fixed Transmitter Mode**
 
 1. In the Profile tool, enable Lock Transmitter Location.
 
@@ -219,7 +219,7 @@ As you move the mouse cursor:
 
 ![Image p10](../../assets/images/ce-express/training-03/p010-img2.png)
 
-#### 4.2.4.2 Exploring Receiver Locations
+**4.2.4.2 Exploring Receiver Locations**
 
 1. Move the cursor across different areas of the map.
 2. Observe how the [terrain profile](#kw:reading-the-profile-graph:ce-express-profile) preview changes along the grey path.
@@ -303,19 +303,30 @@ This panel controls both the accuracy of the analysis and the scope of the evalu
 **Defining Calculation Parameters**
 
 Set the following parameters carefully:
+
 **- Resolution: 1**
+
 Defines the spatial resolution of the output grid. Smaller values produce finer detail
 and smoother boundaries but increase computation time.
+
 **- Max Radius: 2**
+
 Defines the maximum distance (in kilometers) from the transmitter to be analyzed.
 This limits the calculation area and helps focus results on the region of interest.
+
 **- Receiver Height: 1.5**
+
 Represents the assumed height of the receiving point above ground.
+
 **- Effective Earth Radius: 8500**
+
 Adjusts how Earth curvature is considered in the calculation. This becomes more
 relevant as distance increases and helps ensure realistic geometric modeling.
+
 **- Layer to Calculate: Cells**
+
 Specifies which object layer acts as the transmitter source for the visibility calculation.
+
 **- Template: Default**
 
 ![Image p15](../../assets/images/ce-express/training-03/p015-img1.png)
@@ -432,7 +443,7 @@ reliable understanding of spatial conditions.
 Using both tools together allows users to move from a broad overview to detailed, point-
 specific investigation.
 
-#### 4.4.1.1 Practical Workflow Example
+**4.4.1.1 Practical Workflow Example**
 
 1. Load the Minimum Receiver Height visibility result.
 2. Identify an area displayed in red, indicating high receiver height requirements.

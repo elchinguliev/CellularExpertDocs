@@ -8,7 +8,7 @@ Requirements can vary significantly, depending on the acceptable calculation tim
 
 ### Minimal Requirements for Hardware
 
-#### Processor (CPU)
+**Processor (CPU)**
 
 | Level | Requirement |
 |---|---|
@@ -21,14 +21,14 @@ Requirements can vary significantly, depending on the acceptable calculation tim
 - Driver version: 456.38 or later
 - CUDA Toolkit 11.0 or later
 
-#### Memory/RAM
+**Memory/RAM**
 
 | Level | Requirement |
 |---|---|
 | Minimum | 16 GB |
 | Recommended | 32 GB |
 
-#### Storage
+**Storage**
 
 | Level | Requirement |
 |---|---|

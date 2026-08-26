@@ -175,7 +175,7 @@ differences in configuration can lead to noticeable changes in map outputs.
 Ensuring parameter clarity helps avoid misinterpretation of results and unintended
 differences between calculations.
 
-#### 4.3.1.1 Geometry and Positioning Parameters
+**4.3.1.1 Geometry and Positioning Parameters**
 
 These parameters define the spatial behavior of the cell:
 - Geographic location (X, Y)
@@ -188,7 +188,7 @@ They directly influence:
 - Main lobe orientation
 - Shadowing and overshoot effects
 
-#### 4.3.1.2 Transmission and Radio Parameters
+**4.3.1.2 Transmission and Radio Parameters**
 
 These parameters control how energy is transmitted:
 - Frequency
@@ -202,7 +202,7 @@ They affect:
 - Signal attenuation
 - Throughput potential
 
-#### 4.3.1.3 Antenna and Equipment Parameters
+**4.3.1.3 Antenna and Equipment Parameters**
 
 These parameters describe how the signal is shaped:
 - Antenna model and pattern
@@ -213,7 +213,7 @@ They influence:
 - Beam shape and directionality
 - Spatial distribution of signal strength
 
-#### 4.3.1.4 Environmental and Model Parameters
+**4.3.1.4 Environmental and Model Parameters**
 
 These parameters define how the environment is considered:
 - Propagation model
@@ -289,7 +289,7 @@ confusion or misinterpretation.
 
 ![Image p13](../../assets/images/ce-express/training-04/p013-img1.png)
 
-#### 4.5.2.1 Thresholds and Value Ranges
+**4.5.2.1 Thresholds and Value Ranges**
 
 Thresholds define how continuous values are grouped into ranges.
 - Each threshold represents a minimum and maximum value
@@ -307,7 +307,7 @@ Define new colors and thresholds based on the picture below.
 
 ![Image p13](../../assets/images/ce-express/training-04/p013-img2.png)
 
-#### 4.5.2.2 Adjusting Opacity
+**4.5.2.2 Adjusting Opacity**
 
 Opacity controls layer transparency.
 

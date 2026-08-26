@@ -109,7 +109,7 @@ New versions of CE for ArcGIS Pro usually bring changes to the default data tabl
 | Generate Antenna Type | Based on the Antenna data, assigns antennas a type if they are missing one. |
 | Run Analysis | Manually checks whether the default tables and their fields exist in the project. |
 
-#### Upgrade Database
+**Upgrade Database**
 
 Creates the missing tables and/or adds back the missing fields from the default tables.
 
@@ -129,13 +129,13 @@ The Workspace Properties dialog shows all workspace information from the `CE_WOR
 | Cancel | Cancels any changes and closes the dialog. |
 | Help | Opens helpful information about the dialog. |
 
-#### Parameters
+**Parameters**
 
 All information from the `CE_WORKSPACE` table is represented in the **Parameters** tab.
 
 ![Workspace Properties — Parameters tab](../../../assets/images/ce-pro/v5.0/workspace-properties-parameters.png)
 
-##### CE Server Parameters
+**CE Server Parameters**
 
 | Parameter | Description |
 |---|---|
@@ -146,7 +146,7 @@ All information from the `CE_WORKSPACE` table is represented in the **Parameters
 | CE Server Workspace | The workspace used in the Cellular Expert Server. |
 | CE Server Workspace ID | The ID of the workspace used in the Cellular Expert Server. |
 
-##### Project Paths Parameters
+**Project Paths Parameters**
 
 | Parameter | Description |
 |---|---|
@@ -159,7 +159,7 @@ All information from the `CE_WORKSPACE` table is represented in the **Parameters
 | Volatile Result Path | Path for storing the final Quick Prediction calculation results. |
 | Volatile Tasks Data Path | Path for the Quick Prediction calculation results displayed in the CE Calculation Task List. |
 
-##### Project Settings Parameters
+**Project Settings Parameters**
 
 ![Workspace Properties — Project Settings (Calculate EIRP, Enable GPU Acceleration, Height References, Use Clutter Loss)](../../../assets/images/ce-pro/v5.0/workspace-properties-project-settings.png)
 
@@ -172,7 +172,7 @@ All information from the `CE_WORKSPACE` table is represented in the **Parameters
 | Use Clutter Loss | Determines whether `clutterClasses.tif` and `clutterHeight.tif` rasters are used in prediction calculations. Possible values: Yes/No. |
 | Rounding | The rounding value applied to different parameters (Azimuth and Tilt, Default Rounding, Frequency, Geographic Coordinates, Power, Projected Coordinates). |
 
-#### Visualization
+**Visualization**
 
 The Cellular Expert network objects (Sites, Cells, OMEN) and calculation result rasters are represented in ArcGIS with the symbology defined in `.lyr` files, located in the **Visualization** tab (`CE_LAYERS` table).
 

@@ -51,23 +51,23 @@ Field Strength = EIRP – Antenna Attenuation – Path Loss
   - LOS
   - OLOS
   - NLOS
-  
+
 ![Image p4](../../assets/images/geodata/geodata-requirements/p004-img12.png)
 
 ![Coverage raster on the map with the calculated link profile below it](../../assets/images/ce-pro/training-08/p006-img12.png)
 
 ## Input Data
 
-- **Geographic data**
+ **Geographic data**
   - Elevation
-  - Clutter classes\*
-  - Clutter height grid\*
-- **Network data**
-  - Receiver settings
-- **Algorithm**
-  - Prediction model settings
+  - Clutter classes (optional)
+  - Clutter height grid (optional)
 
-\* Optional
+ **Network data**
+  - Receiver settings
+  
+ **Algorithm**
+  - Prediction model settings
 
 ## Path Loss Equation (LOS / OLOS)
 
@@ -169,7 +169,7 @@ f – frequency in GHz.
 
 - For frequencies from about 6 GHz to about 100 GHz
 
-![Radio visibility conditions diagram: UE, clutter losses, diffraction over terrain and buildings, DTM/DSM, Free Space Loss](../../assets/images/ce-pro/training-08/p006-img1.png)
+![Image p4](../../assets/images/geodata/geodata-requirements/p004-img12.png)
 
 ![Path loss equation settings panel with Radius, Effective Earth radius, Time Percentage, Receiver height, Offset/Distance/Frequency coefficients and Use Multipath Focusing](../../assets/images/ce-pro/training-08/p015-img1.png)
 
@@ -184,7 +184,7 @@ f – frequency in GHz.
 
 - For frequencies from about 6 GHz to about 100 GHz
 
-![Radio visibility conditions diagram: UE, clutter losses, diffraction over terrain and buildings, DTM/DSM, Free Space Loss](../../assets/images/ce-pro/training-08/p006-img1.png)
+![Image p4](../../assets/images/geodata/geodata-requirements/p004-img12.png)
 
 ![Path loss equation settings panel: Configuration name, Radius, Effective Earth radius, Receiver height, Offset/Distance/Frequency coefficients](../../assets/images/ce-pro/training-08/p021-img1.png)
 
@@ -194,7 +194,7 @@ f – frequency in GHz.
 - Distance: up to 100 km
 - 9999 Model (Ericsson)
 
-![Radio visibility conditions diagram: UE, clutter losses, diffraction over terrain and buildings, DTM/DSM, Free Space Loss](../../assets/images/ce-pro/training-08/p006-img1.png)
+![Image p4](../../assets/images/geodata/geodata-requirements/p004-img12.png)
 
 ![UniMacro model settings panel: Free Space Loss and Hata Loss coefficients, Use Line of Sight, Use High Building Entry Loss](../../assets/images/ce-pro/training-08/p024-img1.png)
 
@@ -255,10 +255,3 @@ L = K_off + K_LogD × log(d) + K_LogF × log(f)
 
 ![Path loss equation settings panel with Offset coefficient, Distance coefficient near, Distance coefficient far and Frequency coefficient](../../assets/images/ce-pro/training-08/p032-img1.png)
 
-## Exercise
-
-**Description:** `C:\CE_Course\0. Descriptions`
-**Name:** `5. Prediction models.pdf`
-
-*Reference: CE Desktop Training — 5. Prediction Models*
-*Contact: info@cellular-expert.com | +370 5 2150575*

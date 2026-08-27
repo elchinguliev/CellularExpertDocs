@@ -173,8 +173,8 @@ The DTM is now ready for CE Express.
 
 ## Step 3 – Preparing Clutter Class Raster
 
-The clutter class raster is downloaded from here:
-https://livingatlas.arcgis.com/landcoverexplorer/?hsamp_network=linkedin&hsamp=bMJ1LdVdwXGW&adumkts=social&utm_source=social&aduc=social&adum=external&adusf=linkedin&sf_id=7015x000000aYlKAAU&aduca=mi_employee_advocacy_hootsuite_amplify_soc_ex&adut=e621d967-b85a-4721-aa1e-d37a8f477f1b#mapCenter=-3.96366%2C55.51588%2C4.00&mode=step&timeExtent=2017%2C2022&year=2024&downloadMode=true
+The clutter class raster is downloaded from 
+[here.](https://livingatlas.arcgis.com/landcoverexplorer/?hsamp_network=linkedin&hsamp=bMJ1LdVdwXGW&adumkts=social&utm_source=social&aduc=social&adum=external&adusf=linkedin&sf_id=7015x000000aYlKAAU&aduca=mi_employee_advocacy_hootsuite_amplify_soc_ex&adut=e621d967-b85a-4721-aa1e-d37a8f477f1b#mapCenter=-3.96366%2C55.51588%2C4.00&mode=step&timeExtent=2017%2C2022&year=2024&downloadMode=true)
 
 ### Adding Clutter Class Data
 

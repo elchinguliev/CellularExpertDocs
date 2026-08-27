@@ -19,19 +19,6 @@ Installation requires administration rights.
 
 3. The installer displays a Quick Start guide:
 
-   > **Quick Start guide:**
-   >
-   > 1. Start `CE_Pro_Prediction_Service`:
-   >    1. Open **Task Manager** and navigate to the **Services** tab.
-   >    2. Find `CE_Pro_Prediction_Service`.
-   >    3. If the service is not running, right-click it and select **Start**.
-   >
-   > The following step is required for new users. If the Cellular Expert for ArcGIS Pro license has already been activated, please skip this step.
-   >
-   > You can activate the license in two ways:
-   >
-   > **First way:**
-
    ![Cellular Expert 4.0.8 for ArcGIS Pro Information dialog — Quick Start guide](../../assets/images/ce-pro/training-00/p003-img3.png)
 
 4. In **Task Manager → Services**, locate `CE_Pro_Prediction_Service`, right-click it, and select **Start**.

@@ -2,12 +2,13 @@
 
 ## Cell Structure
 
-- **Physical parameters**
+ **Physical parameters**
   - Coordinates
   - Height
   - Azimuth
   - …
-- **Logical parameters**
+
+**Logical parameters**
   - Power
   - Bandwidth
   - Frequency
@@ -19,10 +20,10 @@
 
 ## Cell Coordinates
 
-- **Projected coordinate system:**
+**Projected coordinate system:**
   - X
   - Y
-- **Geographic coordinate system in meters:**
+**Geographic coordinate system in meters:**
   - Longitude
   - Latitude
 - Z – total cell height above sea level.

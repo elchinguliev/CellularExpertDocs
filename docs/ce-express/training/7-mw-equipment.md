@@ -1,8 +1,6 @@
-# 07. MW Equipment
+# MW Equipment
 
-> **Version:** CE Express v7.2
-
-**1. Objective**
+## Objective
 
 This tutorial will show you how to add new MW links, manage and do predictions.
 
@@ -11,13 +9,13 @@ At the end of the exercise you will be able to:
 - Create MW links in the project.
 - Do MW Predictions.
 
-**2. Initial data**
+## Initial data
 
 Prepared project with:
 - Geodata.
 - Equipment and [models](#kw:31-models:ce-express-tr-models).
 
-**3. Manage MW equipment**
+## Manage MW equipment
 
 Navigate to C:\CE_Course\MW_Equipment\Project and run Project.aprx file to open the
 prepared project for RL Introduction exercise.
@@ -86,7 +84,7 @@ Now open Antenna Viewer tool to review these antennas.
 
 Close Antenna Viewer and Import tools.
 
-## 3.2 Radios
+## Radios
 
 This equipment category encompasses details about radio transceivers utilized in microwave
 links. It comprises information on transmitter power, receiver sensitivity, noise figure,
@@ -163,7 +161,7 @@ to the database.
 
 Close Radio tool.
 
-## 3.3 Frequency plans
+## Frequency plans
 
 Frequency planning is important for microwave link design, optimizing spectrum use, and
 preventing interference. By strategically allocating frequency bands, it enhances efficiency,
@@ -173,7 +171,7 @@ microwave links in various environments and supporting future technology upgrade
 
 Frequency plans can be imported from a text file, or created manually.
 
-### 3.3.1 Create manually
+### Create manually
 
 Open Frequency Plans tool in CE RLP tab.
 
@@ -196,7 +194,7 @@ The new frequency plan will appear in the main dialog.
 
 ![Image p12](../../assets/images/ce-express/training-07/p012-img3.png)
 
-### 3.3.2 Import
+### Import
 
 Click on Import option, and then on Select Data Files.
 

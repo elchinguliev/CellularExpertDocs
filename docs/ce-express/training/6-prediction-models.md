@@ -1,8 +1,6 @@
-# 06. Prediction Models
+# Prediction Models
 
-> **Version:** CE Express v7.2
-
-**1. Objective**
+## Objective
 
 This module explains how prediction [models](#kw:31-models:none) are used in CE Express, how different [models](#kw:31-models:none)
 influence calculation results, and how model parameters can be adjusted to reflect different
@@ -17,7 +15,7 @@ By the end of this exercise, participants will be able to:
 - Create and manage [custom prediction model](#kw:55-step-7-creating-applying-and-evaluating-a-custom-prediction-model-configuration:none) configurations
 - [Compare](#kw:98-compare-predictions:ce-pro-rcp) [prediction results](#kw:viewing-results:ce-express-rf-prediction) generated using different models
 
-**2. Understanding Prediction Models in CE Express**
+## Understanding Prediction Models in CE Express
 
 Prediction models define how signal propagation losses are calculated across the coverage
 area. Instead of applying a single formula everywhere, CE Express evaluates the radio
@@ -29,7 +27,7 @@ explicitly considered for every calculation pixel.
 
 ![Image p3](../../assets/images/ce-express/training-06/p003-img1.png)
 
-**3. Prediction models**
+## Prediction models
 
 The CE Path Loss Modelling aims to perform near-deterministic calculation of received signal
 levels at each specific point (pixel) in the network's target coverage area by applying selective
@@ -73,9 +71,9 @@ section.
 will be applied in addition to basic path loss, as explained in the separate section at the end of this
 chapter.
 
-## 3.1 Models
+## Models
 
-CEC ITU-R 3GPP Model (100MHz – 6GHz) is a combination model intended for use in a variety of
+**CEC ITU-R 3GPP Model (100MHz – 6GHz)** is a combination model intended for use in a variety of
 different radiocommunication systems which is derived explicitly from ITU-R path loss modelling
 methods as follows:
 a. Receive antenna in LOS condition – path loss calculated as FSL based on Recommendation ITU-
@@ -95,7 +93,7 @@ above based on LOS, OLOS and NLOS conditions, and additional penetration loss is
 simulate Outdoor-to-Indoor scenario which is based on ITU-R P.833 recommendation (if receiver
 is in vegetation type clutter) or based on 3GPP TR 38.901 (ref URL) (if receiver is in a building).
 
-ITU-R P.452 Model (6GHz – 50GHz) is provided as a universally applicable model with a very wide
+**ITU-R P.452 Model (6GHz – 50GHz)** is provided as a universally applicable model with a very wide
 frequency range from 0.1-50 GHz. Its implementation is based on the methodology described in the
 Recommendation ITU-R P.452 (ref URL). This model does not provide for definition of OLOS
 visibility condition; instead, it considers clutter as part of the general obstacles category and
@@ -104,12 +102,12 @@ a. Receive antenna in LOS condition – path loss model based on FSL principle.
 b. Receive antenna in NLOS condition – total path loss modelled using a combination of basic
 transmission losses and losses due to diffraction.
 
-LOS ITU-R P.525 Model (6GHz – 100GHz) is the FSL path loss calculated based on the method in
+**LOS ITU-R P.525 Model (6GHz – 100GHz)** is the FSL path loss calculated based on the method in
 Recommendation ITU-R P.525 (ref URL). As such it could be used for modelling radio links where
 LOS is considered a necessary condition, e.g., for Fixed (Point-to-Point) Links or Mobile Systems
 in [mmWave](#kw:56-step-8-losonly-prediction-for-mmwave:none) bands.
 
-UniMacro Model (400MHz – 3GHz) is the CE's proprietary combination model developed over the
+**UniMacro Model (400MHz – 3GHz)** is the CE's proprietary combination model developed over the
 years of practical experience with the operational planning of cellular mobile networks in the
 frequency ranges from 400-3000 MHz. It had been fine-tuned to produce coverage predictions that
 are most closely aligned with what could be expected to be experienced by the actual mobile
@@ -125,15 +123,15 @@ above based on LOS, OLOS and NLOS conditions, and additional penetration loss is
 simulate Outdoor-to-Indoor scenario which is based on ITU-R P.833 recommendation (if receiver
 is in vegetation type clutter) or based on 3GPP TR 38.901 (ref URL) (if receiver is in a building).
 
-**4. Exercise**
+### Exercise
 
-## 4.1 Step 1 – Open the Workspace
+## Step 1 – Open the Workspace
 
 1. Open the CE Express application:
 https://cecom2.cellular-expert.com/ce_express/
 2. From the workspace list, select the workspace used in the previous exercise.
 
-**5. Step 2 – Reviewing Prediction Models**
+## Step 2 – Reviewing Prediction Models
 
 Open Prediction Models tool
 
@@ -146,7 +144,7 @@ Open Prediction Models tool
 
 ![Image p7](../../assets/images/ce-express/training-06/p007-img2.png)
 
-## 5.1 Step 3 – Assigning Prediction Models to Cells
+## Step 3 – Assigning Prediction Models to Cells
 
 Assigning a prediction model to a cell determines which propagation logic and parameter set
 will be used when calculations are performed. This step is critical because the selected model
@@ -155,7 +153,7 @@ directly affects how terrain, clutter, distance, and frequency are interpreted d
 Prediction models are assigned at the cell level, which means different cells within the same
 workspace can use different models or different configurations of the same model.
 
-### 5.1.1 Selecting Cells for Model Assignment
+### Selecting Cells for Model Assignment
 
 1. On the map, locate and select the following cells:
 - NBa 01
@@ -167,7 +165,7 @@ workspace can use different models or different configurations of the same model
 
 Only selected cells will be affected by model assignment changes.
 
-### 5.1.2 Assigning a Prediction Model to a Cell
+### Assigning a Prediction Model to a Cell
 
 1. Click on NBa 01 in Features tool to open the Edit Feature panel.
 2. Scroll to find the Prediction model parameter.
@@ -180,7 +178,7 @@ The menu lists all available prediction model configurations defined in the work
 
 ![Image p9](../../assets/images/ce-express/training-06/p009-img2.png)
 
-### 5.1.3 Reviewing Available Models
+### Reviewing Available Models
 
 Before selecting a model, review the list and note:
 - Model name and configuration name
@@ -190,14 +188,14 @@ Before selecting a model, review the list and note:
 
 This review helps ensure the selected model matches the intended scenario.
 
-### 5.1.4 Applying the Model
+### Applying the Model
 
 1. Select the appropriate prediction model configuration from the list.
 2. Click Accept to apply the change.
 
 Repeat this process for NBa 02 and NBa 03.
 
-## 5.2 Step 4 – Running Predictions and Comparing Results
+## Step 4 – Running Predictions and Comparing Results
 
 Once prediction models are correctly assigned to cells, the next step is to run RF predictions
 and systematically [compare](#kw:98-compare-predictions:ce-pro-rcp) the results. This step transforms model configuration into visual
@@ -207,7 +205,7 @@ calculated results.
 Running predictions is not only about generating maps, it is about ensuring that results are
 produced in a controlled, repeatable manner so meaningful comparisons can be made.
 
-### 5.2.1 Running the Initial Prediction
+### Running the Initial Prediction
 
 1. Open the RF Prediction tool.
 2. Review calculation parameters make sure that they match with defined in the picture
@@ -219,7 +217,7 @@ below.
 
 A calculation task is created and executed in the background.
 
-### 5.2.2 Loading [Prediction Results](#kw:viewing-results:ce-express-rf-prediction)
+###  Loading [Prediction Results](#kw:viewing-results:ce-express-rf-prediction)
 
 1. Once the calculation is complete, open [Prediction History](#kw:44-step-4-prediction-history-and-result-management:ce-express-tr-rf).
 2. Locate the most recent prediction task.
@@ -228,7 +226,7 @@ A calculation task is created and executed in the background.
 The prediction raster is loaded on the map and listed under [Prediction Results](#kw:viewing-results:ce-express-rf-prediction) in the
 Layers panel.
 
-### 5.2.3 Establishing a Baseline Result
+###  Establishing a Baseline Result
 
 The first prediction result acts as a baseline.
 
@@ -239,7 +237,7 @@ Before making any changes:
 
 This baseline is essential for understanding the impact of later changes.
 
-## 5.3 Step 5 – Modifying Model Parameters and Observing Impact
+## Step 5 – Modifying Model Parameters and Observing Impact
 
 1. Open Prediction Models → CEC ITU-R → 2 km radius configuration.
 2. Change Free Space Loss KOff from 45 to 32.
@@ -255,7 +253,7 @@ Now, we have two layers loaded to Prediction results.
 
 Compare them visually. Then open [Identify tool](#kw:310-step-10-using-the-identify-tool:ce-express-tr-workspace) and click on the map.
 
-Field Strength for second prediction is higher by 13  (because we defined lower Offset Coefficient value by 13).
+Field Strength for second prediction is higher by 13 (because we defined lower Offset Coefficient value by 13).
 
 ![Image p12](../../assets/images/ce-express/training-06/p012-img2.png)
 
@@ -268,7 +266,7 @@ Field Strength 1, dBm prediction results.
 
 Compare the predictions using [Identify tool](#kw:310-step-10-using-the-identify-tool:ce-express-tr-workspace).
 
-## 5.4 Step 6 – Understanding Building Clutter Parameters
+## Step 6 – Understanding Building Clutter Parameters
 
 Building clutter parameters describe how man-made structures affect signal propagation.
 These parameters are critical in environments where buildings are a dominant factor
@@ -278,7 +276,7 @@ Rather than treating buildings as simple blockers, CE Express models their impac
 a set of configurable parameters that control how loss is introduced as signals interact with
 built environments.
 
-### 5.4.1 Purpose of Building Clutter Modeling
+### Purpose of Building Clutter Modeling
 
 Building clutter modeling is used to:
 - Represent attenuation caused by walls, roofs, and dense construction
@@ -289,7 +287,7 @@ Building clutter modeling is used to:
 Accurate clutter configuration ensures that predictions reflect realistic environmental
 behavior rather than idealized free-space conditions.
 
-### 5.4.2 Accessing Building Clutter Parameters
+### Accessing Building Clutter Parameters
 
 1. Open Prediction Models.
 2. Select the active prediction model configuration (e.g. CEC ITU-R – 2 km radius).
@@ -316,7 +314,7 @@ frequencies.
 - Receiver point loss offset, dB – an additional loss offset in dB applied to the path loss grid,
 representing user equipment (UE) losses.
 
-### 5.4.3 Observing the Impact of Parameter Changes
+### Observing the Impact of Parameter Changes
 
 1. Change Diffraction Loss Coefficient from 1 to 1.3.
 
@@ -334,7 +332,7 @@ These changes confirm the role of building clutter parameters in shaping predict
 
 ![Image p14](../../assets/images/ce-express/training-06/p014-img2.png)
 
-## 5.5 Step 7 – Creating, Applying, and Evaluating a Custom Prediction Model Configuration
+## Step 7 – Creating, Applying, and Evaluating a Custom Prediction Model Configuration
 
 Creating a [custom prediction model](#kw:55-step-7-creating-applying-and-evaluating-a-custom-prediction-model-configuration:none) configuration allows users to tailor propagation behavior
 to a specific scenario, environment, or analysis objective. This step combines model creation,
@@ -343,7 +341,7 @@ model assignment, and result evaluation into a single, coherent workflow.
 Instead of modifying standard models directly, custom configurations preserve original
 references while enabling controlled experimentation and scenario-specific tuning.
 
-### 5.5.1 Creating a New Model Configuration
+### Creating a New Model Configuration
 
 1. Open Prediction Models.
 2. Select the base model CEC ITU-R.
@@ -363,7 +361,7 @@ Define the following parameters:
 
 ![Image p15](../../assets/images/ce-express/training-06/p015-img2.png)
 
-### 5.5.2 Configuring Environmental Parameters
+###  Configuring Environmental Parameters
 
 Expand the following sections and configure values according to the training reference:
 - Building clutter values
@@ -381,7 +379,7 @@ Once all parameters are defined, click Accept to save the configuration.
 
 ![Image p17](../../assets/images/ce-express/training-06/p017-img1.png)
 
-### 5.5.3 Applying the Custom Model to Cells
+###  Applying the Custom Model to Cells
 
 1. Select the cells:
 - NBa 01
@@ -392,7 +390,7 @@ Once all parameters are defined, click Accept to save the configuration.
 
 ![Image p17](../../assets/images/ce-express/training-06/p017-img2.png)
 
-### 5.5.4 Running Predictions with the Custom Model
+### Running Predictions with the Custom Model
 
 1. Open the RF Prediction tool.
 2. Run predictions for the selected cells.
@@ -400,7 +398,7 @@ Once all parameters are defined, click Accept to save the configuration.
 
 Close all prediction results in Layers tool.
 
-## 5.6 Step 8 – LOS-Only Prediction for mmWave
+##  Step 8 – LOS-Only Prediction for mmWave
 
 High-frequency systems, particularly in the millimeter-wave ([mmWave](#kw:56-step-8-losonly-prediction-for-mmwave:none)) range, behave very
 differently from lower-frequency deployments. At these frequencies, signal propagation is
@@ -410,7 +408,7 @@ block connectivity.
 This step demonstrates how to use LOS-only prediction models in CE Express to accurately
 represent these conditions.
 
-### 5.6.1 Selecting and Assigning an LOS-Only Model
+###  Selecting and Assigning an LOS-Only Model
 
 1. Select the cell Cx002 on the map.
 2. Open Edit Feature.
@@ -422,7 +420,7 @@ represent these conditions.
 This model applies Free Space Loss only and evaluates signal strength exclusively where
 LOS conditions are met.
 
-### 5.6.2 Reviewing LOS-Only Model Parameters
+### Reviewing LOS-Only Model Parameters
 
 1. Open the Prediction Models tool.
 2. Select LOS ITU-R P.525 – mmWave Band 1km radius.
@@ -434,7 +432,7 @@ Key characteristics to review:
 - Maximum calculation radius
 - Receiver height assumptions
 
-### 5.6.3 Running the LOS-Only Prediction
+###  Running the LOS-Only Prediction
 
 1. Open the RF Prediction tool.
 2. Run the prediction for Cx002.

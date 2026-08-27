@@ -1,8 +1,6 @@
-# 02. Create Objects
+# Create Objects
 
-> **Version:** CE Express v7.2
-
-**1. Objective**
+## Objective
 
 This module explains and demonstrates how to create, edit, duplicate, and manage network
 objects in CE Express using object templates.
@@ -14,14 +12,14 @@ By the end of this exercise, participants will be able to:
 - Modify object parameters using both forms and tables
 - Apply meaningful [network symbology](#kw:37-step-7-managing-network-symbology:none) for RF analysis
 
-**2. Initial Data and Prerequisites**
+## Initial Data and Prerequisites
 
 The following prerequisites are assumed:
 - A prepared workspace created in: **01. CE Express – Creating Workspace**
 - Available geodata (terrain, obstacles and [clutter](#kw:clutter-classification-values:ce-express-geodata))
 - User permissions to create and edit [network objects](#kw:object-types:ce-express-network-objects)
 
-**3. Understanding the [Network Objects](#kw:object-types:ce-express-network-objects) Concept**
+##  Understanding the [Network Objects](#kw:object-types:ce-express-network-objects) Concept
 
 In CE Express, **network objects** represent the physical and logical elements of a radio
 network. They form the foundation for all RF planning, simulation, and optimization activities
@@ -38,7 +36,7 @@ These objects are tightly coupled with:
 - **Technology definitions** (LTE, 5G NR, TDD/FDD)
 - **Templates**, which standardize configuration and reduce engineering errors
 
-**Why Templates Matter**
+## Why Templates Matter
 
 Object templates encapsulate best-practice RF configurations, such as:
 - Standard power levels and bandwidths
@@ -50,7 +48,7 @@ Using templates ensures:
 - Faster rollout and scenario creation
 - Reduced risk of misconfiguration during planning and optimization
 
-## 3.1 Step 1 – Open the Workspace
+## Step 1 – Open the Workspace
 
 1. Open the CE Express application:
 https://cecom2.cellular-expert.com/ce_express/
@@ -61,9 +59,9 @@ https://cecom2.cellular-expert.com/ce_express/
 *Best practice:* Always confirm the active workspace before object creation to avoid placing
 objects in the wrong project.
 
-## 3.2 Step 2 – Creating Network Objects
+##  Step 2 – Creating Network Objects
 
-### 3.2.1 Creating a Site Object
+### Creating a Site Object
 
 1. Open the Features tool.
 2. Click Add Feature and select Sites.
@@ -85,7 +83,7 @@ Define the following parameters:
 *RF note:* Site height represents the average antenna mounting height above ground and
 directly impacts coverage and LOS conditions.
 
-### 3.2.2 Creating Cell Objects Using Templates
+### Creating Cell Objects Using Templates
 
 1. In the Features tool, click Add Feature again.
 
@@ -100,7 +98,7 @@ directly impacts coverage and LOS conditions.
 
 Templates pre-fill technology-specific parameters, ensuring consistency and reducing configuration errors.
 
-### 3.2.3 Creating a 3-Sector 5G Site
+### Creating a 3-Sector 5G Site
 
 Then create three new cells based on table below (once you enter all parameters for one cell object press Accept button, then change parameters for second cell and press Accept button, and do it for third cell).
 
@@ -137,7 +135,7 @@ Then create three new cells based on table below (once you enter all parameters 
 
 4. After creating all three cells, click Cancel to close the Add Feature tool.
    
-## 3.3 Step 3 – Selecting and Reviewing Objects
+## Step 3 – Selecting and Reviewing Objects
 
 1. Select the newly created site and cells on the map.
 
@@ -145,7 +143,7 @@ Then create three new cells based on table below (once you enter all parameters 
 
 2. Verify their placement and orientation.
 
-## 3.4 Step 4 – Duplicating Network Objects
+## Step 4 – Duplicating Network Objects
 
 [Duplicating objects](#kw:duplicating-objects:ce-express-network-objects) is commonly used for:
 - Multi-site rollout scenarios
@@ -172,13 +170,13 @@ All selected objects are duplicated at the new location.
 
 ![Image p9](../../assets/images/ce-express/training-02/p009-img1.png)
 
-## 3.5 Step 5 – Moving Individual Objects
+## Step 5 – Moving Individual Objects
 
 Objects can be repositioned individually or as a group.
 
 In this exercise, cells will be placed at different corners of a building.
 
-### 3.5.1 Moving a Single Cell
+### Moving a Single Cell
 
 1. Select duplicated objects.
 2. Remove all but Cx01 from the selection.
@@ -201,7 +199,7 @@ Repeat the process for:
 
 ![Image p10](../../assets/images/ce-express/training-02/p010-img2.png)
 
-## 3.6 Step 6 – Modifying Object Parameters
+## Step 6 – Modifying Object Parameters
 
 After objects are created and positioned, the next important task is updating and refining their parameters. Correct parameters ensure that objects are clearly identified, consistently configured, and ready for further analysis, visualization, or reporting across different user
 roles.
@@ -212,7 +210,7 @@ CE Express provides two complementary ways to modify object parameters:
 
 Both methods are commonly used together in real projects.
 
-### 3.6.1 Editing via Object Properties
+### Editing via Object Properties
 
 1. Select newly duplicated/moved objects on the map.
 
@@ -240,7 +238,7 @@ avoid confusion.
 Changing these parameters updates how the object is represented and interpreted in the
 project.
 
-### 3.6.2 Editing via Table View
+### Editing via Table View
 
 Table view is especially useful when working with multiple objects or large projects.
 
@@ -267,7 +265,7 @@ Update parameters as follows:
 This approach makes it easy to review and adjust values while maintaining full spatial
 awareness.
 
-### 3.6.3 Bulk Editing Multiple Objects
+### Bulk Editing Multiple Objects
 
 1. Select [multiple cells](#kw:47-step-7-rf-prediction-for-multiple-cells:ce-express-tr-rf) in the table (left click on them).
 
@@ -285,11 +283,15 @@ awareness.
 5. Click Change.
 6. Select Cells again and do the same for frequency_group field. Define value 1800.
 
-![Image p14](../../assets/images/ce-express/training-02/p014-img4.png) ![Image p14](../../assets/images/ce-express/training-02/p014-img5.png) ![Image p14](../../assets/images/ce-express/training-02/p014-img6.png)
+![Image p14](../../assets/images/ce-express/training-02/p014-img4.png)
 
-## 3.7 Step 7 – Managing Network Symbology
+![Image p14](../../assets/images/ce-express/training-02/p014-img5.png)
 
-[Network symbology](#kw:37-step-7-managing-network-symbology:none) defines how objects are visually displayed on the map. While symbology
+![Image p14](../../assets/images/ce-express/training-02/p014-img6.png)
+
+## Step 7 – Managing Network Symbology
+
+Network symbology defines how objects are visually displayed on the map. While symbology
 does not change object data, it plays a key role in making complex projects easier to
 understand for different audiences, including technical teams, decision-makers, and non-
 technical users.
@@ -299,7 +301,7 @@ Well-designed symbology helps to:
 - Improve map readability in dense areas
 - Support presentations, reviews, and decision-making
 
-### 3.7.1 Configuring Cell Symbology
+### Configuring Cell Symbology
 
 1. Open the Layers tool.
 2. Click on the Cells icon to open the Cell Symbolization panel.

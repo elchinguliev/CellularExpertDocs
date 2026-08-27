@@ -1,8 +1,6 @@
-# 01. Creating Workspace
+# Creating Workspace
 
-> **Version:** CE Express v7.2
-
-**1. Objective**
+## Objective
 
 This module provides a step-by-step, best-practice-driven introduction to creating and
 managing workspaces in CE Server-Express. The material is designed from an RF planning
@@ -16,16 +14,13 @@ By the end of this exercise, participants will be able to:
 - Switch between 2D and 3D environments for RF-relevant analysis
 - Prepare the workspace for further RF planning and optimization tasks
 
-**2. Initial data**
+## Initial data
 
 The following data is pre-configured for this exercise:
 - Prepared geodata (high-resolution terrain and [clutter](#kw:clutter-classification-values:ce-express-geodata))
 - Predefined external services for visualization
 
-*Trainer note:* Emphasize that workspace quality directly affects prediction accuracy,
-visualization clarity, and collaboration efficiency.
-
-**3. Understanding the Workspace Concept**
+## Understanding the Workspace Concept
 
 A Workspace in CE Express represents a project container that holds:
 - [Network objects](#kw:object-types:ce-express-network-objects) (sites, cells, links, etc.)
@@ -37,7 +32,7 @@ Workspaces can be:
 - Used collaboratively by RF planners, optimization engineers, and managers
 - Reused as templates for similar geographic areas
 
-## 3.1 Step 1 – Accessing CE Express
+## Step 1 – Accessing CE Express
 
 1. Open the following URL in your web browser: https://cecom2.cellular-expert.com/ce_express/
 2. On the login page, select Login as ArcGIS.
@@ -57,7 +52,7 @@ user group.
 *Best practice:* Always verify you are working in the correct workspace before making
 changes to avoid unintended modifications.
 
-## 3.2 Step 2 – Reviewing an Existing Workspace
+## Step 2 – Reviewing an Existing Workspace
 
 1. From the workspace list, click on a provided workspace.
 
@@ -69,7 +64,7 @@ changes to avoid unintended modifications.
 *Trainer insight:* Encourage users to explore existing workspaces to understand naming
 conventions, layer organization, and visualization standards.
 
-## 3.3 Step 3 – Creating a New Workspace
+## Step 3 – Creating a New Workspace
 
 1. Open the Workspaces tool.
 2. Click + New Workspace.
@@ -100,7 +95,7 @@ https://basemaps3d.arcgis.com/arcgis/rest/services/OpenStreetMap3D_Buildings_v1/
 
 4. Click Accept to create the workspace.
 
-## 3.4 Step 4 – Opening and Locating the Workspace
+## Step 4 – Opening and Locating the Workspace
 
 1. Return to the Workspaces tool.
 2. Use the Search function to find your newly created workspace.
@@ -113,7 +108,7 @@ The map zooms to the workspace area. Blue contours indicate the workspace extent
 
 ![Image p7](../../assets/images/ce-express/training-01/p007-img2.png)
 
-## 3.5 Step 5 – Layer Management Overview
+## Step 5 – Layer Management Overview
 
 Open the Layers tool. It is divided into logical sections:
 
@@ -137,7 +132,7 @@ Open the Layers tool. It is divided into logical sections:
 
 Observe changes on the map.
 
-## 3.6 Step 6 – Switching Between 2D and 3D Views
+## Step 6 – Switching Between 2D and 3D Views
 
 1. Click the 3D button to switch from 2D to 3D view.
 
@@ -163,17 +158,17 @@ You can also visualize 3D objects, such as polygons, lines and zones.
 
 ![Image p10](../../assets/images/ce-express/training-01/p010-img1.png)
 
-## 3.7 Step 7 – Basemap Configuration
+## Step 7 – Basemap Configuration
 
 1. Expand the [Basemap](#kw:37-step-7-basemap-configuration:none) options in Layers tool.
 
 ![Image p10](../../assets/images/ce-express/training-01/p010-img2.png)
    
 2. Review available ESRI basemaps.
-3. Enable each [basemap](#kw:37-step-7-basemap-configuration:none) briefly to understand differences.
+3. Enable each [basemap](#kw:37-step-7-basemap-configuration:none) briefly to understandd differences.
 4. Leave Topographic basemap enabled.
 
-## 3.8 Step 8 – Enabling and Reviewing Geodata
+## Step 8 – Enabling and Reviewing Geodata
 
 1. In the Geodata section, enable the Elevation layer.
 
@@ -201,7 +196,7 @@ This layer:
 
 4. Return to Layers and verify geodata visibility.
 
-## 3.9 Step 9 – Editing an Existing Workspace
+## Step 9 – Editing an Existing Workspace
 
 1. Open the Workspaces tool.
 2. Hover over your workspace name to reveal options.
@@ -209,7 +204,7 @@ This layer:
 
 ![Image p12](../../assets/images/ce-express/training-01/p012-img2.png)
 
-Adding an Additional Layer
+**Adding an Additional Layer**
 
 Add the following service:
 - https://cecom2.cellular-expert.com/server/rest/services/Hosted/Adresai_Vilnius/FeatureServer/82
@@ -219,7 +214,7 @@ Add the following service:
 4. Click Accept.
 5. Verify the new layer (Adresai Vilnius) is visible on the map.
 
-## 3.10 Step 10 – Using the Identify Tool
+## Step 10 – Using the Identify Tool
 
 1. Open the [Identify tool](#kw:310-step-10-using-the-identify-tool:none).
 
@@ -230,7 +225,8 @@ Add the following service:
 
 ![Image p13](../../assets/images/ce-express/training-01/p013-img2.png)
 
-**4. Summary and Key Takeaways**
+## Summary and Key Takeaways
+
 - A well-configured workspace is the foundation of reliable RF planning
 - [Layer management](#kw:35-step-5-layer-management-overview:none) improves clarity and performance
 - 3D visualization enhances understanding of real-world propagation challenges

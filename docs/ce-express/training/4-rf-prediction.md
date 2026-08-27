@@ -1,8 +1,6 @@
-# 04. RF Prediction
+# RF Prediction
 
-> **Version:** CE Express v7.2
-
-**1. Objective**
+## Objective
 
 This module explains how to run RF predictions in CE Express and how to interpret and
 manage results. It covers both rapid "what-if" checks and full project predictions, including
@@ -19,9 +17,9 @@ presets
 - Use Networks to calculate predictions without manual object selection and track
 calculation status
 
-**2. [Key Concepts](#kw:key-concepts:ce-express-overview)**
+## Key Concepts
 
-### 2.1.1 What Is an RF Prediction in CE Express?
+### What Is an RF Prediction in CE Express?
 
 An RF prediction is a calculation that produces map-based outputs (rasters) representing
 expected signal or performance across an area. Predictions are influenced by:
@@ -38,7 +36,7 @@ The outputs can be used to:
 - Produce documentation and map products
 - [Compare](#kw:98-compare-predictions:ce-pro-rcp) configurations before and after parameter changes
 
-### 2.1.2 [Quick Prediction](#kw:quick-rf-prediction:ce-express-rf-prediction) vs Full RF Prediction
+### Quick Prediction vs Full RF Prediction
 
 CE Express provides two complementary calculation approaches:
 - [Quick RF Prediction](#kw:quick-rf-prediction:ce-express-rf-prediction)
@@ -51,16 +49,16 @@ database
   - Results are tracked in [Prediction History](#kw:44-step-4-prediction-history-and-result-management:none)
   - Supports multi-object predictions and more structured workflows
 
-**3. Initial Data and Prerequisites**
+## 3. Initial Data and Prerequisites
 
 This exercise assumes a prepared workspace containing:
 - [Network objects](#kw:object-types:ce-express-network-objects) created in previous exercises
 - Loaded geodata (terrain, [clutter](#kw:clutter-classification-values:ce-express-geodata)/obstacles)
 - Defined equipment and calculation models
 
-**4. Exercise**
+**Exercise**
 
-## 4.1 Step 1 – Open the Workspace
+## Step 1 – Open the Workspace
 
 1. Open the CE Express application:
 https://cecom2.cellular-expert.com/ce_express/
@@ -68,12 +66,12 @@ https://cecom2.cellular-expert.com/ce_express/
 
 ![Image p4](../../assets/images/ce-express/training-04/p004-img1.png)
 
-## 4.2 Step 2 – Quick RF Prediction
+## Step 2 – Quick RF Prediction
 
 [Quick RF Prediction](#kw:quick-rf-prediction:ce-express-rf-prediction) enables rapid calculations without permanently changing object
 parameters. This is useful for fast scenario testing and side-by-side comparison.
 
-### 4.2.1 Run a [Quick Prediction](#kw:quick-rf-prediction:ce-express-rf-prediction) for a Specific Cell
+### Run a [Quick Prediction](#kw:quick-rf-prediction:ce-express-rf-prediction) for a Specific Cell
 
 1. Zoom to the cell Cx002.
 2. Open the [Quick RF Prediction](#kw:quick-rf-prediction:ce-express-rf-prediction) tool.
@@ -89,7 +87,7 @@ The tool automatically reads coordinates and key parameters from the snapped cel
 
 ![Image p5](../../assets/images/ce-express/training-04/p005-img2.png)
 
-### 4.2.2 Verify Results in Layers
+### Verify Results in Layers
 
 1. Open the Layers tool.
 2. The newly generated coverage layer is listed under [Prediction Results](#kw:viewing-results:ce-express-rf-prediction).
@@ -98,7 +96,7 @@ This confirms the result is loaded and available for review.
 
 ![Image p6](../../assets/images/ce-express/training-04/p006-img1.png)
 
-### 4.2.3 Adjust Resolution and Manage Result Handling
+### Adjust Resolution and Manage Result Handling
 
 1. In the [Quick Prediction](#kw:quick-rf-prediction:ce-express-rf-prediction) tool, change Resolution from 10 to 5.
 2. The result updates automatically.
@@ -109,12 +107,12 @@ Important behavior: By default, new results may replace/close previous results.
 
 ![Image p6](../../assets/images/ce-express/training-04/p006-img2.png)
 
-### 4.2.4 Run a Variant Prediction by Changing a Parameter (Azimuth Example)
+### Run a Variant Prediction by Changing a Parameter (Azimuth Example)
 
 1. Change Azimuth from 160 to 90.
 2. A new result is generated and added to Layers as a separate output.
 
-### 4.2.5 Compare Two Results Using Swipe
+### Compare Two Results Using Swipe
 
 [Comparing results](#kw:52-step-4-running-predictions-and-comparing-results:ce-express-tr-models) is essential when evaluating alternatives.
 
@@ -134,7 +132,7 @@ A swipe tool appears on the map, allowing visual comparison between two rasters.
 
 ![Image p7](../../assets/images/ce-express/training-04/p007-img3.png)
 
-### 4.2.6 Run Additional "What-If" Scenarios
+### Run Additional "What-If" Scenarios
 
 Run several additional quick predictions by changing one parameter at a time. Use the
 following test values:
@@ -152,7 +150,7 @@ following test values:
 
 ![Image p8](../../assets/images/ce-express/training-04/p008-img1.png)
 
-## 4.3 Step 3 – Understanding Cell Parameters Used in Predictions
+##  Step 3 – Understanding Cell Parameters Used in Predictions
 
 RF [prediction results](#kw:viewing-results:ce-express-rf-prediction) are directly influenced by the parameters defined at the cell level.
 Understanding which parameters are used in calculations is essential for interpreting results
@@ -161,7 +159,7 @@ correctly and ensuring consistency across different prediction runs.
 Before running or comparing predictions, it is important to review these parameters and
 confirm that they reflect the intended scenario.
 
-### 4.3.1 Why [Cell Parameters](#kw:43-step-3-understanding-cell-parameters-used-in-predictions:none) Matter
+###  Why [Cell Parameters](#kw:43-step-3-understanding-cell-parameters-used-in-predictions:none) Matter
 
 Each prediction uses the active values stored in the selected cell objects. Even small
 differences in configuration can lead to noticeable changes in map outputs.
@@ -202,7 +200,7 @@ They affect:
 - Signal attenuation
 - Throughput potential
 
-**4.3.1.3 Antenna and Equipment Parameters**
+**Antenna and Equipment Parameters**
 
 These parameters describe how the signal is shaped:
 - Antenna model and pattern
@@ -213,7 +211,7 @@ They influence:
 - Beam shape and directionality
 - Spatial distribution of signal strength
 
-**4.3.1.4 Environmental and Model Parameters**
+**Environmental and Model Parameters**
 
 These parameters define how the environment is considered:
 - Propagation model
@@ -222,7 +220,7 @@ These parameters define how the environment is considered:
 
 They ensure calculations are aligned with the intended level of detail and scenario scope.
 
-### 4.3.2 Reviewing Parameters in the RF Prediction Tool
+### Reviewing Parameters in the RF Prediction Tool
 
 1. Select Cx002 on the map.
 2. Open the RF Prediction tool.
@@ -237,7 +235,7 @@ defined in the picture below.
 
 ![Image p10](../../assets/images/ce-express/training-04/p010-img2.png)
 
-## 4.4 Step 4 – Prediction History and Result Management
+## Step 4 – Prediction History and Result Management
 
 All RF Predictions are tracked in [Prediction History](#kw:44-step-4-prediction-history-and-result-management:none), where users can:
 - Monitor status (queued, running, finished)
@@ -251,7 +249,7 @@ All RF Predictions are tracked in [Prediction History](#kw:44-step-4-prediction-
 
 ![Image p11](../../assets/images/ce-express/training-04/p011-img1.png)
 
-### 4.4.1 Open a Result on the Map
+### Open a Result on the Map
 
 1. In Prediction History, find 5G 1800 Field Strength 1, dBm.
 2. Click Open.
@@ -260,7 +258,7 @@ The raster is loaded on the map.
 
 ![Image p12](../../assets/images/ce-express/training-04/p012-img1.png)
 
-## 4.5 Step 5 – Visualizing Results and Creating Symbology Presets
+## Step 5 – Visualizing Results and Creating Symbology Presets
 
 Visualization is a critical part of working with RF prediction results. While calculations produce
 numerical values, symbology determines how those values are translated into an
@@ -270,7 +268,7 @@ results, identify patterns, compare scenarios, and communicate findings clearly.
 In CE Express, prediction results are displayed as raster layers, and each raster can be fully
 customized using symbology settings.
 
-### 4.5.1 Why Visualization Matters
+### Why Visualization Matters
 
 Effective visualization helps users to:
 - Understand spatial distribution of signal or performance
@@ -281,7 +279,7 @@ Effective visualization helps users to:
 Without consistent symbology, identical results may appear very different, leading to
 confusion or misinterpretation.
 
-### 4.5.2 Editing Raster Symbology
+### Editing Raster Symbology
 
 1. Open the Layers tool.
 2. Locate the loaded RF prediction raster under Prediction Results.
@@ -289,7 +287,7 @@ confusion or misinterpretation.
 
 ![Image p13](../../assets/images/ce-express/training-04/p013-img1.png)
 
-**4.5.2.1 Thresholds and Value Ranges**
+**Thresholds and Value Ranges**
 
 Thresholds define how continuous values are grouped into ranges.
 - Each threshold represents a minimum and maximum value
@@ -307,7 +305,7 @@ Define new colors and thresholds based on the picture below.
 
 ![Image p13](../../assets/images/ce-express/training-04/p013-img2.png)
 
-**4.5.2.2 Adjusting Opacity**
+**Adjusting Opacity**
 
 Opacity controls layer transparency.
 
@@ -322,7 +320,7 @@ Change opacity value to 40%
 
 ![Image p14](../../assets/images/ce-express/training-04/p014-img1.png)
 
-### 4.5.3 Creating a Symbology Template (Preset)
+### Creating a Symbology Template (Preset)
 
 Symbology presets allow users to save and reuse visualization settings, ensuring
 consistency across different predictions, projects, and users.
@@ -337,7 +335,7 @@ consistency across different predictions, projects, and users.
 
 4. Define technology: ![Image p14](../../assets/images/ce-express/training-04/p014-img4.png)
 
-## 4.6 Step 6 – Using Profiles to Investigate Weak or Marginal Areas
+## Step 6 – Using Profiles to Investigate Weak or Marginal Areas
 
 RF prediction maps often reveal areas with lower values or gradual degradation toward the
 cell edge. While map colors indicate where weaker or marginal areas are located, the Profile
@@ -347,7 +345,7 @@ path.
 This step connects area-based prediction results with path-based inspection, allowing
 users to move from visual observation to deeper understanding.
 
-### 4.6.1 Purpose of Using Profiles with Prediction Results
+### Purpose of Using Profiles with Prediction Results
 
 Using profiles in combination with prediction maps helps to:
 - Identify physical causes of weak signal areas
@@ -358,7 +356,7 @@ Using profiles in combination with prediction maps helps to:
 Profiles provide a clear, intuitive cross-section of the environment between a transmitter
 and a selected location.
 
-### 4.6.2 Selecting an Area of Interest
+### Selecting an Area of Interest
 
 1. Review the RF prediction raster on the map.
 2. Identify areas shown in lower-value colors (for our case – blue color).
@@ -368,7 +366,7 @@ These areas typically represent:
 - Increased obstruction by terrain or buildings
 - Reduced [line-of-sight](#kw:running-a-profile:ce-express-profile) conditions
 
-### 4.6.3 Running a Profile for a Weak Location
+### Running a Profile for a Weak Location
 
 1. Open the [Profile tool](#kw:when-to-use-the-profile-tool:ce-express-profile).
 2. Hold Ctrl and snap the transmitter to Cx002.
@@ -378,7 +376,7 @@ Once the receiver is defined, the profile is calculated and displayed immediatel
 
 ![Image p16](../../assets/images/ce-express/training-04/p016-img1.png)
 
-### 4.6.4 Interpreting the Profile Output
+### Interpreting the Profile Output
 
 The profile view shows:
 - Terrain elevation along the path
@@ -397,14 +395,14 @@ Remove prediction results.
 
 ![Image p16](../../assets/images/ce-express/training-04/p016-img2.png)
 
-## 4.7 Step 7 – RF Prediction for Multiple Cells
+## Step 7 – RF Prediction for Multiple Cells
 
 Single-cell predictions are useful for focused analysis, but many real scenarios require
 understanding the combined effect of [multiple cells](#kw:47-step-7-rf-prediction-for-multiple-cells:none) operating together. Multi-cell RF
 prediction allows users to evaluate how several transmitters interact across an area and how
 their combined influence shapes overall results.
 
-### 4.7.1 Purpose of Multi-Cell Predictions
+### Purpose of Multi-Cell Predictions
 
 Running predictions for multiple cells helps to:
 - Understand combined coverage from several transmitters
@@ -415,7 +413,7 @@ Running predictions for multiple cells helps to:
 Compared to single-cell predictions, multi-cell results provide a broader and more realistic
 picture of the environment.
 
-### 4.7.2 Selecting Multiple Cells
+### Selecting Multiple Cells
 
 1. On the map, select Cx001, Cx002, and Cx003.
 2. Verify that all selected cells are highlighted.
@@ -423,7 +421,7 @@ picture of the environment.
 Only selected objects will be included in the calculation, so careful selection is important to
 ensure correct results.
 
-### 4.7.3 Running the RF Prediction
+### Running the RF Prediction
 
 1. With all three cells selected, open the RF Prediction tool.
 2. Review and confirm calculation parameters as defined in the training reference.
@@ -434,7 +432,7 @@ ensure correct results.
 
 The system creates a single prediction task that includes all selected cells.
 
-### 4.7.4 Monitoring Calculation Progress
+### Monitoring Calculation Progress
 
 1. Open Prediction History.
 2. Locate the newly created prediction task.
@@ -449,7 +447,7 @@ Prediction History displays:
 This allows users to monitor long or complex calculations without keeping the prediction tool
 open.
 
-### 4.7.5 Loading and Reviewing Multi-Cell Results
+### Loading and Reviewing Multi-Cell Results
 
 Once the calculation is finished:
 
@@ -461,7 +459,7 @@ selected cells.
 
 ![Image p20](../../assets/images/ce-express/training-04/p020-img1.png)
 
-### 4.7.6 Applying Consistent Symbology
+### Applying Consistent Symbology
 
 1. Open the Layers tool.
 2. Apply the saved 5G [RSRP](#kw:typical-rsrp-thresholds:ce-express-rf-prediction) Symbology preset to the multi-cell raster.
@@ -471,7 +469,7 @@ Using the same symbology preset ensures:
 - Reliable visual comparison between scenarios
 - Clear communication of results in reviews and reports
 
-## 4.8 Step 8 – Throughput Predictions and Symbology
+## Step 8 – Throughput Predictions and Symbology
 
 1. In Prediction History, open 5G 1800 Throughput, Mbps.
 2. Review default symbology.
@@ -484,12 +482,12 @@ Using the same symbology preset ensures:
 
 4. Save the symbology if it will be reused.
 
-## 4.9 Step 9 – Editing Object Data and Re-Running Predictions
+## Step 9 – Editing Object Data and Re-Running Predictions
 
 To observe how configuration changes affect outputs, update key cell parameters, then re-
 run predictions.
 
-### 4.9.1 Edit Cell Parameters in the Attribute Table
+### Edit Cell Parameters in the Attribute Table
 
 1. Open Features tool.
 2. Open the Cells attribute table.
@@ -510,14 +508,14 @@ run predictions.
 
 ![Image p22](../../assets/images/ce-express/training-04/p022-img2.png)
 
-### 4.9.2 Re-Run Predictions
+### Re-Run Predictions
 
 1. Select Cx001, Cx002, Cx003.
 2. Run RF Predictions again.
 
 ![Image p23](../../assets/images/ce-express/training-04/p023-img1.png)
 
-### 4.9.3 Compare New vs Previous Results
+### Compare New vs Previous Results
 
 1. Open the newly calculated 5G 1800 Throughput layer.
 2. Compare it with the previous throughput result.
@@ -529,7 +527,7 @@ This helps quantify changes rather than relying only on color differences.
 
 4. Close all results when finished.
 
-## 4.10 Step 10 – Managing Predictions Using Networks
+## Step 10 – Managing Predictions Using Networks
 
 As projects grow in size and complexity, manually [selecting objects](#kw:selecting-multiple-objects:ce-express-network-objects) for every prediction
 becomes inefficient and error-prone. Networks provide a structured and scalable way to
@@ -540,7 +538,7 @@ A Network in CE Express acts as a dynamic selection and calculation container. I
 [selecting objects](#kw:selecting-multiple-objects:ce-express-network-objects) on the map, users define what should be included, and the system
 maintains that selection automatically.
 
-### 4.10.1 Why Use Networks
+### Why Use Networks
 
 Networks are especially useful when:
 - Working with a large number of cells
@@ -557,7 +555,7 @@ Using Networks helps to:
 - Clearly identify when results are missing or outdated
 - Support long-term project maintenance
 
-### 4.10.2 Creating a Network
+### Creating a Network
 
 1. Open the Networks tool.
 
@@ -578,7 +576,7 @@ The network is created and listed in the Networks panel.
 
 ![Image p26](../../assets/images/ce-express/training-04/p026-img1.png)
 
-### 4.10.3 Interpreting Network Status
+### Interpreting Network Status
 
 Each network displays status indicators that provide immediate feedback:
 - Red – The network has not been calculated or results are outdated
@@ -594,7 +592,7 @@ Expanding the network shows:
 
 These indicators help users quickly understand whether further action is required.
 
-### 4.10.4 Why Networks May Require Recalculation
+### Why Networks May Require Recalculation
 
 A network will require recalculation when:
 - Object parameters are modified
@@ -604,7 +602,7 @@ A network will require recalculation when:
 The status indicator changes accordingly, ensuring users are aware that results no longer
 reflect the current configuration.
 
-### 4.10.5 Benefits of Network-Based Prediction Management
+### Benefits of Network-Based Prediction Management
 
 Using Networks provides several advantages:
 - Centralized management of prediction scope
@@ -615,7 +613,7 @@ Using Networks provides several advantages:
 Networks transform prediction workflows from manual, one-time actions into repeatable, rule-
 driven processes.
 
-**5. Step 11 – Calculate a Network**
+## 5. Step 11 – Calculate a Network
 
 1. In the Network tab, click Calculate.
 2. The RF Prediction tool opens.
@@ -638,7 +636,7 @@ A task is also created in Prediction History.
 
 ![Image p29](../../assets/images/ce-express/training-04/p029-img1.png)
 
-### 5.1.1 Review Network Results Structure
+### Review Network Results Structure
 
 When finished, open the network results list.
 
@@ -657,7 +655,7 @@ Load results for each group to compare outputs and understand multi-layer behavi
 
 ![Image p30](../../assets/images/ce-express/training-04/p030-img3.png) ![Image p30](../../assets/images/ce-express/training-04/p030-img4.png)
 
-**6. Summary and Key Takeaways**
+## Summary and Key Takeaways
 
 This module provided a complete walkthrough of RF prediction workflows in CE Express,
 from quick exploratory checks to structured, multi-cell and network-based calculations.

@@ -1,8 +1,7 @@
-# 03. Line of Sight (Profile)
+# Line of Sight (Profile)
 
-> **Version:** CE Express v7.2
 
-**1. Objective**
+## Objective
 
 This module introduces **[Line of Sight]**(#kw:running-a-profile:ce-express-profile) **(LOS) and visibility analysis** in CE Express. It
 demonstrates how to use [profiling](#kw:42-step-2-profiling-pointtopoint-analysis:none) and visibility tools to evaluate spatial conditions between
@@ -20,14 +19,14 @@ By the end of this exercise, participants will be able to:
 - Perform area-based visibility analysis
 - Understand and visualize visibility results for decision support
 
-**2. Initial data**
+## Initial data
 
 This exercise assumes a prepared workspace containing:
 - [Network objects](#kw:object-types:ce-express-network-objects) created in the previous exercise
 - Loaded geodata (terrain, obstacles and [clutter](#kw:clutter-classification-values:ce-express-geodata))
 - Defined equipment and calculation [models](#kw:31-models:ce-express-tr-models)
 
-**3. Understanding [Line of Sight](#kw:running-a-profile:ce-express-profile) and Visibility**
+## Understanding [Line of Sight](#kw:running-a-profile:ce-express-profile) and Visibility
 
 [Line of Sight](#kw:running-a-profile:ce-express-profile) (LOS) describes whether a direct, unobstructed path exists between a
 transmitter and a receiver. Visibility analysis extends this concept by evaluating how terrain,
@@ -52,7 +51,7 @@ limit performance
 
 In CE Express, LOS and visibility analysis are supported by two complementary tools:
 - **[Profile Tool]**(#kw:when-to-use-the-profile-tool:ce-express-profile) – analyzes visibility along a single path (point-to-point)
-- **[Visibility Prediction]** (#kw:43-step-3-visibility-prediction-pointtoarea-analysis:none) Tool – analyzes visibility across an area (point-to-area)
+- **[Visibility Prediction Tool]**(#kw:43-step-3-visibility-prediction-pointtoarea-analysis:none) – analyzes visibility across an area (point-to-area)
 
 Together, these tools help users move from simple visual checks to structured, data-driven
 assessment of spatial conditions.
@@ -66,9 +65,9 @@ Both tools rely on:
 By combining detailed profiles with area-wide visibility results, users gain a clear and intuitive
 understanding of how the environment influences connectivity and visibility.
 
-**4. Exercise**
+### Exercise
 
-## 4.1 Step 1 – Open the Workspace
+## Step 1 – Open the Workspace
 
 1. Open the CE Express application:
 https://cecom2.cellular-expert.com/ce_express/
@@ -76,9 +75,9 @@ https://cecom2.cellular-expert.com/ce_express/
 
 ![Image p4](../../assets/images/ce-express/training-03/p004-img1.png)
 
-## 4.2 Step 2 – Profiling (Point-to-Point Analysis)
+## Step 2 – Profiling (Point-to-Point Analysis)
 
-### 4.2.1 Selecting the Transmitter and Receiver
+### Selecting the Transmitter and Receiver
 
 1. Find the cell with Cell Name: Cx002.
 2. Zoom to its location on the map.
@@ -108,7 +107,7 @@ Color indicators:
 
 This visual representation allows quick assessment of whether visibility can be established.
 
-### 4.2.2 Exploring Profile Calculation Tabs
+### Exploring Profile Calculation Tabs
 
 The [Profile tool](#kw:when-to-use-the-profile-tool:ce-express-profile) provides several result sections:
 - General – Summary of path characteristics
@@ -120,11 +119,7 @@ Each tab offers additional context for understanding the profile outcome.
 
 ![Image p6](../../assets/images/ce-express/training-03/p006-img1.png)
 
-![Image p6](../../assets/images/ce-express/training-03/p006-img2.png)
-
-![Image p6](../../assets/images/ce-express/training-03/p006-img3.png)
-
-### 4.2.3 Exploring Parameter Sensitivity
+### Exploring Parameter Sensitivity
 
 Parameter sensitivity analysis helps users understand how changes in input values influence
 visibility results. Instead of treating calculations as fixed outcomes, this step encourages
@@ -134,7 +129,7 @@ In CE Express, the Profile tool recalculates results automatically and instantly
 parameters are modified. This allows users to test different scenarios without repeating the
 setup process.
 
-**4.2.3.1 Transmitter Power**
+**Transmitter Power**
 
 - Increase Transmitter Power from 40 to 43
 - Observe how signal-related results are updated automatically
@@ -144,7 +139,7 @@ overall path conditions and calculated results.
 
 ![Image p7](../../assets/images/ce-express/training-03/p007-img1.png)
 
-**4.2.3.2 Receiver and Transmitter Heights**
+**Receiver and Transmitter Heights**
 
 - Change Receiver Height from 2 to 20
 
@@ -158,7 +153,7 @@ Height is one of the most influential parameters in visibility analysis. Increas
 This step helps users understand why height selection is critical in many real-world
 scenarios.
 
-**4.2.3.3 Frequency**
+**Frequency**
 
 - Change Frequency from 1800 to 700
 
@@ -173,7 +168,7 @@ generally:
 Observing these changes helps users understand how frequency choice affects visibility
 outcomes.
 
-**4.2.3.4 Other parameters**
+**Other parameters**
 
 Experiment with additional parameters available in the Profile tool, such as:
 - Antenna orientation and angles
@@ -190,7 +185,7 @@ As parameters are modified, the profile updates immediately, allowing users to:
 This interactive exploration is a key part of understanding visibility analysis and interpreting
 results with confidence.
 
-### 4.2.4 [Profiling](#kw:42-step-2-profiling-pointtopoint-analysis:none) with fixed transmitter location
+### [Profiling](#kw:42-step-2-profiling-pointtopoint-analysis:none) with fixed transmitter location
 
 Profiling with a fixed transmitter location allows users to systematically explore visibility
 conditions from a single source point to multiple potential receiver locations. This mode is
@@ -202,7 +197,7 @@ By locking the transmitter, users can focus on:
 - Identifying directions with favorable or unfavorable visibility
 - Understanding how terrain and obstacles influence different paths
 
-**4.2.4.1 Enabling Fixed Transmitter Mode**
+**Enabling Fixed Transmitter Mode**
 
 1. In the Profile tool, enable Lock Transmitter Location.
 
@@ -219,7 +214,7 @@ As you move the mouse cursor:
 
 ![Image p10](../../assets/images/ce-express/training-03/p010-img2.png)
 
-**4.2.4.2 Exploring Receiver Locations**
+**Exploring Receiver Locations**
 
 1. Move the cursor across different areas of the map.
 2. Observe how the [terrain profile](#kw:reading-the-profile-graph:ce-express-profile) preview changes along the grey path.
@@ -227,7 +222,7 @@ As you move the mouse cursor:
 
 The profile is recalculated and displayed for the selected path.
 
-### 4.2.5 Profile Report
+### Profile Report
 
 1. Click Generate Report in the Profile tool.
 
@@ -246,7 +241,7 @@ The report is generated automatically and downloaded.
 Reports can be used for documentation, presentations, or decision support.
 4. Close the Profile tool.
 
-## 4.3 Step 3 – Visibility Prediction (Point-to-Area Analysis)
+## Step 3 – Visibility Prediction (Point-to-Area Analysis)
 
 [Visibility Prediction](#kw:43-step-3-visibility-prediction-pointtoarea-analysis:none) extends the concept of [line-of-sight](#kw:running-a-profile:ce-express-profile) analysis from a single path to an
 entire surrounding area. Instead of answering the question "Is this specific point visible?",
@@ -263,7 +258,7 @@ receiver locations within a defined radius, taking into account:
 - Earth curvature and distance
 - Defined receiver height
 
-### 4.3.1 When to Use Visibility Prediction
+### When to Use Visibility Prediction
 
 Visibility prediction is typically used when:
 - The area of interest is larger than a single point or path
@@ -274,7 +269,7 @@ Visibility prediction is typically used when:
 Rather than manually checking many profiles, visibility prediction provides a comprehensive
 spatial overview in a single calculation.
 
-### 4.3.2 Running Visibility Prediction
+### Running Visibility Prediction
 
 Running a visibility prediction is the step where configuration choices are converted into a
 spatial visibility map. Careful definition of parameters is important, as each setting directly
@@ -304,30 +299,30 @@ This panel controls both the accuracy of the analysis and the scope of the evalu
 
 Set the following parameters carefully:
 
-**- Resolution: 1**
+- **Resolution: 1**
 
-Defines the spatial resolution of the output grid. Smaller values produce finer detail
-and smoother boundaries but increase computation time.
+  Defines the spatial resolution of the output grid. Smaller values produce finer detail
+  and smoother boundaries but increase computation time.
 
-**- Max Radius: 2**
+- **Max Radius: 2**
 
-Defines the maximum distance (in kilometers) from the transmitter to be analyzed.
-This limits the calculation area and helps focus results on the region of interest.
+  Defines the maximum distance (in kilometers) from the transmitter to be analyzed.
+  This limits the calculation area and helps focus results on the region of interest.
 
-**- Receiver Height: 1.5**
+- **Receiver Height: 1.5**
 
-Represents the assumed height of the receiving point above ground.
+  Represents the assumed height of the receiving point above ground.
 
-**- Effective Earth Radius: 8500**
+- **Effective Earth Radius: 8500**
 
-Adjusts how Earth curvature is considered in the calculation. This becomes more
-relevant as distance increases and helps ensure realistic geometric modeling.
+  Adjusts how Earth curvature is considered in the calculation. This becomes more
+  relevant as distance increases and helps ensure realistic geometric modeling.
 
-**- Layer to Calculate: Cells**
+- **Layer to Calculate: Cells**
 
-Specifies which object layer acts as the transmitter source for the visibility calculation.
+  Specifies which object layer acts as the transmitter source for the visibility calculation.
 
-**- Template: Default**
+- **Template: Default**
 
 ![Image p15](../../assets/images/ce-express/training-03/p015-img1.png)
 
@@ -369,7 +364,7 @@ obstructed by X meters.
 
 ![Image p16](../../assets/images/ce-express/training-03/p016-img3.png)
 
-### 4.3.3 Visualizing Results on the Map
+### Visualizing Results on the Map
 
 Once a visibility prediction is completed, results are presented as map layers that visually
 describe visibility conditions across the analyzed area. Proper visualization is essential for
@@ -432,7 +427,7 @@ Users can adjust visualization settings:
 
 Custom symbology allows results to be tailored for analysis, reporting, or presentation needs.
 
-## 4.4 Step 5 – Combining Profile and Visibility Analysis
+## Step 5 – Combining Profile and Visibility Analysis
 
 Profile analysis and visibility prediction are most powerful when used together. Each tool
 answers a different type of question, and combining them provides a deeper and more
@@ -443,7 +438,7 @@ reliable understanding of spatial conditions.
 Using both tools together allows users to move from a broad overview to detailed, point-
 specific investigation.
 
-**4.4.1.1 Practical Workflow Example**
+**Practical Workflow Example**
 
 1. Load the Minimum Receiver Height visibility result.
 2. Identify an area displayed in red, indicating high receiver height requirements.
@@ -460,7 +455,7 @@ The resulting profile reveals:
 
 This detailed view explains the visibility result observed on the map.
 
-**5. Summary and Key Takeaways**
+## Summary and Key Takeaways
 
 This module demonstrated how Line of Sight profiling and visibility prediction work
 together to provide a clear understanding of spatial conditions that influence connectivity and

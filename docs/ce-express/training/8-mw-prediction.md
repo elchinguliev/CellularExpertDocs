@@ -1,8 +1,6 @@
-# 08. MW Prediction
+# MW Prediction
 
-> **Version:** CE Express v7.2
-
-**1. Objective**
+## Objective
 
 This tutorial will show you how to add new MW links, manage and do predictions.
 
@@ -11,7 +9,7 @@ At the end of the exercise you will be able to:
 - Create MW links in the project.
 - Do MW Predictions.
 
-**2. Initial data**
+## Initial data
 
 Prepared project with:
 - [Network objects](#kw:object-types:ce-express-network-objects).
@@ -20,7 +18,7 @@ Prepared project with:
 
 ![Image p2](../../assets/images/ce-express/training-08/p002-img1.png)
 
-**3. Add Links**
+## Add Links
 
 The link objects can be imported or created manually using Add functionality. Open Add
 Object tool and select Link option from drop-down menu list.
@@ -109,7 +107,7 @@ Press Save Changes
 
 ![Image p7](../../assets/images/ce-express/training-08/p007-img2.png)
 
-**4. RL Predictions**
+## RL Predictions
 
 The predictions are working between selected links and provides all necessary information
 about power budget, interference or availability.
@@ -174,7 +172,7 @@ Interference From is changed for MW002 link, Site E2.
 
 Close Link [Prediction Results](#kw:viewing-results:ce-express-rf-prediction) dialog.
 
-## 4.1 Geoclimatic data
+### Geoclimatic data
 
 Geoclimatic data, comprising factors such as rain rate, temperature, gaseous absorption,
 and multipath fading, significantly shapes the planning and efficacy of microwave links.
@@ -201,8 +199,6 @@ and click on Performance tab.
 Review Multipath ITU and Rain ITU percentage values.
 
 ![Image p12](../../assets/images/ce-express/training-08/p012-img2.png)
-
-![Image p12](../../assets/images/ce-express/training-08/p012-img3.png)
 
 Close results, and open Geoclimatic Data tool.
 

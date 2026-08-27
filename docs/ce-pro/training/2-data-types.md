@@ -32,9 +32,10 @@ The CE tools make use of three distinct GIS data layers to obtain high precision
 
 1. **Digital Terrain Model** (DTM), also known as Digital Elevation Model (DEM), which describes Earth surface, i.e., path terrain profile in terms of ground elevation above uniform sea level.
 2. **Obstacles layer**, delineating buildings and other such objects above Earth surface that may be considered to be principal impediments for radio wave propagation.
-3. **[Clutter](#kw:clutter-classification-values:ce-express-geodata) layer**, delineating natural occurring or human cultivated ground cover that may be partially penetrable by radio waves, such as natural vegetation (e.g., forests, trees, bushes) or various crops, gardens, parks, etc.
+3. **Clutter layer**, delineating natural occurring or human cultivated ground cover that may be partially penetrable by radio waves, such as natural vegetation (e.g., forests, trees, bushes) or various crops, gardens, parks, etc.
 
-![Propagation loss diagram — clutter losses, diffraction, free space loss, DSM, and DTM](../../assets/images/ce-pro/training-01/p003-img2.png)
+
+![Image p4](../../assets/images/geodata/geodata-requirements/p004-img12.png)
 
 ![CE Pro coverage prediction map with elevation, buildings, and clutter profile](../../assets/images/ce-pro/training-01/p003-img24.png)
 

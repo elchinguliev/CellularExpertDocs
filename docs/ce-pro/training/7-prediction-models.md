@@ -51,8 +51,8 @@ Field Strength = EIRP – Antenna Attenuation – Path Loss
   - LOS
   - OLOS
   - NLOS
-
-![Radio visibility conditions diagram: UE, clutter losses, diffraction over terrain and buildings, DTM/DSM, Free Space Loss](../../assets/images/ce-pro/training-08/p006-img1.png)
+  
+![Image p4](../../assets/images/geodata/geodata-requirements/p004-img12.png)
 
 ![Coverage raster on the map with the calculated link profile below it](../../assets/images/ce-pro/training-08/p006-img12.png)
 

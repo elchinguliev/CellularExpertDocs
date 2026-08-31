@@ -121,8 +121,8 @@ Land use or clutter refers to the classification of the earth's surface into cat
 rural, forest, water, and open land, each of which affects radio propagation differently. Clutter data is crucial
 because it determines how signals are absorbed, reflected, or diffracted by the environment, directly
 influencing coverage, interference, and quality of service. The naming and classification of land use types
-may vary. An example is the Sentinel-2 Land Cover dataset from the Living Atlas: [Living Atlas Sentinel-2
-Land Cover](https://livingatlas.arcgis.com/landcoverexplorer/?hsamp_network=linkedin&hsamp=bMJ1LdVdwXGW&adumkts=social&utm_source=social&aduc=social&adum=external&adusf=linkedin&sf_id=7015x000000aYlKAAU&aduca=mi_employee_advocacy_hootsuite_amplify_soc_ex&adut=e621d967-b85a-4721-aa1e-d37a8f477f1b#mapCenter=-71.991%2C42.795%2C4&mode=step&timeExtent=2017%2C2022&year=2022)
+may vary. An example is the Sentinel-2 Land Cover dataset from the Living Atlas: 
+[Living Atlas Sentinel-2 Land Cover](https://livingatlas.arcgis.com/landcoverexplorer/?hsamp_network=linkedin&hsamp=bMJ1LdVdwXGW&adumkts=social&utm_source=social&aduc=social&adum=external&adusf=linkedin&sf_id=7015x000000aYlKAAU&aduca=mi_employee_advocacy_hootsuite_amplify_soc_ex&adut=e621d967-b85a-4721-aa1e-d37a8f477f1b#mapCenter=-71.991%2C42.795%2C4&mode=step&timeExtent=2017%2C2022&year=2022)
 
 ![Image p7](../../assets/images/geodata/geodata-requirements/p007-img2.png)
 

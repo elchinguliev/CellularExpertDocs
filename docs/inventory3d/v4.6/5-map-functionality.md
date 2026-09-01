@@ -20,27 +20,22 @@ Map view - select the preferred map background, for example ESRI streets:
 
 **Measure Distances**
 
-Select the Measure Tool
-![icon](../../assets/images/inventory3d/user-guide/map-measure-tool.png), left-click on the starting point, then move the mouse over the map - distance and azimuth values will be displayed between the starting point and the mouse cursor.
+Select the Measure Tool ![icon](../../assets/images/inventory3d/user-guide/map-measure-tool.png), left-click on the starting point, then move the mouse over the map - distance and azimuth values will be displayed between the starting point and the mouse cursor.
 
 **Link to database**
 
-
-
-Map and database are functionally connected. Select the info tool ![Info tool icon](../../assets/images/inventory3d/user-guide/map-information-tool.png). Then click on a site in the map (here: Abava), and a popup window opens:
+Map and database are functionally connected. Select the info tool ![ icon](../../assets/images/inventory3d/user-guide/map-information-tool.png). Then click on a site in the map (here: Abava), and a popup window opens:
 
 ![Popup window with site attribute information after clicking a site on the map](../../assets/images/inventory3d/user-guide/p032-fig1-linktodb-popup.png)
 
-The popup window comprises links to the site (![Site link icon in the popup window](../../assets/images/inventory3d/user-guide/map-site-link.png)) and to the attachments file browser (![Attachments file browser icon in the popup window](../../assets/images/inventory3d/user-guide/map-attachments.png))
+The popup window comprises links to the site (![icon](../../assets/images/inventory3d/user-guide/map-site-link.png)) and to the attachments file browser (![icon](../../assets/images/inventory3d/user-guide/map-attachments.png))
 
 Browse the parameters of the selected site by using the buttons
-![Browse buttons used to page through the site parameters](../../assets/images/inventory3d/user-guide/map-browse-buttons.png).
+![icon](../../assets/images/inventory3d/user-guide/map-browse-buttons.png).
 
 **Local Weather**
 
-
-
-Display local weather conditions by clicking on ![Weather tool icon](../../assets/images/inventory3d/user-guide/map-weather-tool.png) and then on a custom position on the map. A popup window opens with the local weather information. Users may choose from daily, weekly, and monthly data:
+Display local weather conditions by clicking on ![icon](../../assets/images/inventory3d/user-guide/map-weather-tool.png) and then on a custom position on the map. A popup window opens with the local weather information. Users may choose from daily, weekly, and monthly data:
 
 ![Local weather popup with current weather information](../../assets/images/inventory3d/user-guide/p033-fig1-localweather-popup.png)
 
@@ -50,7 +45,7 @@ Use the field "Search in Google Maps" to search an address and zoom to the defin
 
 **Print map**
 
-Custom map views can be exported and printed. In the Map toolbar, click the print button ![Print button in the map toolbar](../../assets/images/inventory3d/user-guide/map-print.png) .
+Custom map views can be exported and printed. In the Map toolbar, click the print button ![icon](../../assets/images/inventory3d/user-guide/map-print.png) .
 
 A popup window opens with the possibility to enter a document header. Then send the selected map view to the printer with ![icon](../../assets/images/inventory3d/user-guide/p033-icon-printbutton2.png) or ![icon](../../assets/images/inventory3d/user-guide/p033-icon-pngbutton.png):
 
@@ -68,7 +63,7 @@ Further, it is possible to select the child objects shown on the map:
 
 ![Layers panel with a layer expanded to show its child objects](../../assets/images/inventory3d/user-guide/p035-fig1-layers-childobjects.png)
 
-Additional map functions are shown after clicking the menu icon ![Menu icon used to show additional map functions](../../assets/images/inventory3d/user-guide/map-layer-menu.png) .
+Additional map functions are shown after clicking the menu icon ![icon](../../assets/images/inventory3d/user-guide/map-layer-menu.png) .
 
 ![Layer menu with additional map functions listed](../../assets/images/inventory3d/user-guide/p035-fig2-layers-additionalfns.png)
 
@@ -79,7 +74,7 @@ Additional map functions are shown after clicking the menu icon ![Menu icon used
 1. Select the layer on which You would like to add an object, for example "site". Then click "Add Object".
 2. Click to the position on the map where you would like to add a new object. If the layer consists of lines, you need to click on the map two times for each end of the line.
 3. An object will be created without a label (if label was not described in inv3d_map_settings).
-4. Use the info tool ![Info tool icon](../../assets/images/inventory3d/user-guide/map-information-tool.png) to open the Inventory3D page for the new object, edit the attributes and save the information to the database.
+4. Use the info tool ![icon](../../assets/images/inventory3d/user-guide/map-information-tool.png) to open the Inventory3D page for the new object, edit the attributes and save the information to the database.
 5. Click "Reload" and the map will be reloaded with the newly added attributes, for example a label.
 
 "Move Object" allows to move an object of point type on the map

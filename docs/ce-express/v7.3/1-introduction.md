@@ -21,27 +21,6 @@ for a specific need. Take inventory management: Error-prone databases which cont
 can be deleterious, especially in large industrial environments. Thus, it is essential that upon inventory
 changing databases are regularly updated.
 
----
-
-About Cellular Expert
-Cellular Expert UAB (CE) developed ultra-fast wave
-propagation, communication systems deployment planning
-and radio/optical visibility calculation software for ESRI’s
-ArcGIS mapping environment, which is widely used within
-Telecom, Defense, IoT, and other companies and
-organizations.
-CE’s communication network planning, network asset
-management, operational support software and customer-
-tailored solutions enhance the intelligence and business
-efficiency of more than 170 communication network
-companies, regulators, and defense organizations in more
-than 50 countries.
-Copyright © 2025 UAB CELLULAR EXPERT. All rights
-reserved. Cellular Expert and Cellular Expert logo are
-registered trademarks, @cellular-expert.com and
-www.cellular-expert.com are service marks of UAB
-CELLULAR EXPERT in Lithuania and some other countries.
-
 ## 1.1 CE Express application
 
 To access the Cellular Expert Express web application, type its URL in the address field of a web browser.

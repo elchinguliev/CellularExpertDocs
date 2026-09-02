@@ -51,7 +51,7 @@ Download statistic results as csv file.
 
 Publish statistic polygons as an ArcGIS layer. The output polygons will have the statistic results assigned to them as attributes
 
-3.1.13.1 Add statistic
+## Add statistic
 
 Used for adding new statistics items to the main screen.
 

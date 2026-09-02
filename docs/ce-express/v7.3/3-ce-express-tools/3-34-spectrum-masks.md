@@ -12,7 +12,7 @@ Move the mouse cursor over the spectrum mask and delete it using Delete button.
 
 By selecting a spectrum mask you can view its properties and change them. Changes in the mask point values will be reflected in the graph.
 
-3.1.34.1 Add spectrum mask
+## Add spectrum mask
 
 To create a spectrum mask, press the New spectrum mask button.
 

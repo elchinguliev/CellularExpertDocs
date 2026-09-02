@@ -22,43 +22,19 @@ The Temporary Mesh Node Object Template is automatically utilized whenever a new
 
 **Temporary mesh node**
 
-**x**
+| Field | Description |
+|---|---|
+| **X** | Coordinate in the projected coordinate system. |
+| **Y** | Coordinate in the projected coordinate system. |
+| **Height** | Mesh node object’s height above the terrain. |
+| **Antenna** | Antenna which will be used for Mesh Node. |
+| **Prediction model** | Prediction model used to calculate a path loss between Mesh Nodes. |
+| **Frequency** | Frequency in MHz for proposed Mesh Node. |
+| **Power** | Tx power in dBm for proposed Mesh Node. |
+| **Misc. Loss** | Total losses in dB for proposed Mesh Node. |
+| **Sensitivity** | Receiving Signal Level threshold in dBm at Mesh Node. |
 
-Coordinate in the projected coordinate system.
-
-**Y**
-
-Coordinate in the projected coordinate system.
-
-**Height**
-
-Mesh node object’s height above the terrain.
-
-**Antenna**
-
-Antenna which will be used for Mesh node.
-
-**Prediction model**
-
-Prediction model used to calculate a path loss between Mesh Nodes.
-
-**Frequency**
-
-Frequency in MHz for proposed Mesh Node.
-
-**Power**
-
-Tx power in dBm for proposed Mesh Node.
-
-**Misc. Loss**
-
-Total losses in dB for proposed Mesh Node.
-
-**Sensitivity**
-
-Receiving Signal Level threshold in dBm at Mesh Node.
-
-3.1.42.1 Calculate Quick mesh connectivity
+## Calculate Quick mesh connectivity
 
 **- Select Existing Mesh Nodes**
 

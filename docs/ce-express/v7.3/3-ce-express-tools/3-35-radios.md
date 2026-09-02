@@ -14,7 +14,7 @@ By clicking an already existing radio, you can edit its properties and save them
 
 ![Image p203](../../../assets/images/ce-express/user-guide-v73/p203-img1.png)
 
-### 3.1.35.1 Add new radio
+## Add new radio
 
 To create a radio press the New radio button.
 

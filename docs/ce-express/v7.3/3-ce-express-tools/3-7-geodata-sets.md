@@ -38,7 +38,7 @@ The data extent is also outlined in green on the map when a geodata set is selec
 
 ![Image p086](../../../assets/images/ce-express/user-guide-v73/p086-img1.png)
 
-3.1.7.1 [Clutter classes](#kw:clutter-classification-values:ce-express-geodata)
+## Clutter classes
 
 If a clutter class raster is available in the geodata set, the clutter classes section should be set up to represent the data in the file.
 

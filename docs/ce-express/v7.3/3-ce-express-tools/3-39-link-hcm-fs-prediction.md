@@ -46,7 +46,7 @@ Value of interference level used as a trigger for logging calculation case into 
 
 Distance between passive transmitter and receiver. In the case of passive receiver, calculation will be performed only if distance between passive transmitter and receiver is less than defined. Decision whether to include this calculation into the report will additionally depend on the rest of Trigger options.
 
-3.1.39.1 Link HCM-FS prediction results
+## Link HCM-FS prediction results
 
 ![Image p224](../../../assets/images/ce-express/user-guide-v73/p224-img1.png)
 

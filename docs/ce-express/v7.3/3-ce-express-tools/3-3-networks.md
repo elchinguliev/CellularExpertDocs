@@ -60,7 +60,7 @@ Upon hovering the mouse over a network item, options for it appear.
 
 ![Image p055](../../../assets/images/ce-express/user-guide-v73/p055-img4.png)
 
-3.1.3.1 Add network
+## Add network
 
 To create a network press the *New network* button.
 
@@ -88,7 +88,7 @@ The attribute field to be filtered by.
 
 Required values for the filter attribute. Features containing ANY of the entered values will be included.
 
-3.1.3.2 Network publishing setting
+## Network publishing setting
 
 If you would like the calculation results to be automatically published when the network is re-calculated,
 you may set it up in the network publishing settings menu.

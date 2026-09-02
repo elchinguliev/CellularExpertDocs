@@ -23,12 +23,12 @@ Mesh node template if selected features won’t have all necessary parameters.
 
 ![Image p228](../../../assets/images/ce-express/user-guide-v73/p228-img2.png)
 
-- **Define:**
+**Define:**
   
-o Calculation name
-o Mesh node template
+- Calculation name
+- Mesh node template
 
-- **Press Calculate button to start simulation.**
+**Press Calculate button to start simulation.**
 - The tool calculates the RSL between each node pair and compares it against the configured RSL sensitivity threshold defined for the Mesh Node object.
 - Open Prediction history tool.
 

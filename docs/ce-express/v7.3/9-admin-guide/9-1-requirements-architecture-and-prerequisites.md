@@ -190,4 +190,4 @@ When the CGI role is installed, open IIS Manager and:
 2. Select **Site > Default Documents > Add**, and set `index.php`.
 3. Restart the IIS server.
 
-Continue with [Installation and server configuration](2-installation-and-server-configuration.md).
+Continue with [Installation and server configuration](9-2-installation-and-server-configuration.md).

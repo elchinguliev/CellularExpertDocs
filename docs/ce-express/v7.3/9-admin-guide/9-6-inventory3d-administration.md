@@ -6,7 +6,7 @@ This chapter describes the CE Inventory3D web application functions available on
 
 Columns can be designed so that their record contents don't have to be entered by hand but are instead chosen from a list of defaults — e.g. active/inactive, or planned/active/closed. To do this, click a column header and select **Set defaults** from the dropdown menu. A new window opens with the currently active default values; enter at least 2 defaults and click **OK**.
 
-Default values can also be edited directly in the `defaults.json` file — see [CE Inventory3D folder structure](4-inventory3d-installation-and-database.md#ce-inventory3d-folder-structure).
+Default values can also be edited directly in the `defaults.json` file — see [CE Inventory3D folder structure](9-4-inventory3d-installation-and-database.md#ce-inventory3d-folder-structure).
 
 Once configured, users see the default values offered while [editing records](../8-exploring-data.md#85-default-editing-and-manual-editing).
 
@@ -155,7 +155,7 @@ System tables typically support additional features implemented in CE Inventory3
 
 ![System Tables view — inv3d_quick_references example](../../../assets/images/ce-express/admin-guide-v72/p052-img2.png)
 
-Through **System Tables**, the administrator can add, edit, or delete records from predefined tables directly from the web application — including `inv3d_tables`, `inv3d_quick_references`, `inv3d_aliases`, and others described in [Information about the CE Express Inventory3D database](4-inventory3d-installation-and-database.md#information-about-the-ce-express-inventory3d-database).
+Through **System Tables**, the administrator can add, edit, or delete records from predefined tables directly from the web application — including `inv3d_tables`, `inv3d_quick_references`, `inv3d_aliases`, and others described in [Information about the CE Express Inventory3D database](9-4-inventory3d-installation-and-database.md#information-about-the-ce-express-inventory3d-database).
 
 ## Delete object permanently
 
@@ -163,7 +163,7 @@ Any user can remove an object from the database, but it is only marked as struck
 
 ![Cells table with the permanent-delete icon in a row's action column](../../../assets/images/ce-express/admin-guide-v72/p052-img4.png)
 
-Permanently deleted records can no longer be restored from the application; the `deleted` system table tracks removed records for this purpose (see [Table deleted](4-inventory3d-installation-and-database.md#table-deleted)).
+Permanently deleted records can no longer be restored from the application; the `deleted` system table tracks removed records for this purpose (see [Table deleted](9-4-inventory3d-installation-and-database.md#table-deleted)).
 
 ## Restore deleted image
 

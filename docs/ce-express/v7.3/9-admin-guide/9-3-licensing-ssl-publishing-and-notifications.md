@@ -1,6 +1,6 @@
 # Licensing, SSL, publishing, and notifications
 
-Once CE Express is installed and its Windows services are running (see [Installation and server configuration](2-installation-and-server-configuration.md)), complete the following optional and required server-side configuration steps: licensing, SSL, publishing to Portal for ArcGIS, and email notifications.
+Once CE Express is installed and its Windows services are running (see [Installation and server configuration](9-2-installation-and-server-configuration.md)), complete the following optional and required server-side configuration steps: licensing, SSL, publishing to Portal for ArcGIS, and email notifications.
 
 ## Licence the CE Express application
 
@@ -119,7 +119,7 @@ You can enable email notifications to alert recipients when changes occur in the
 
 ## Register the licence for CE Inventory3D
 
-The Inventory3D webview application (installed as described in [Inventory3D installation and database](4-inventory3d-installation-and-database.md)) requires its own, separate licence.
+The Inventory3D webview application (installed as described in [Inventory3D installation and database](9-4-inventory3d-installation-and-database.md)) requires its own, separate licence.
 
 Inventory3D will be accessible at:
 

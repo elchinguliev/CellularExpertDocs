@@ -6,7 +6,7 @@ CE Inventory3D is the tabular network-data web application delivered with CE Exp
 
 1. Unzip the `ceexp_db_scripts.zip` file somewhere on the computer.
 2. Start the PostgreSQL pgAdmin app (or another PostgreSQL database management tool).
-3. Connect as the CE Express admin user provided during the [CE Express server DB configuration](2-installation-and-server-configuration.md#prepare-the-ce-express-server-db-configuration).
+3. Connect as the CE Express admin user provided during the [CE Express server DB configuration](9-2-installation-and-server-configuration.md#prepare-the-ce-express-server-db-configuration).
 4. Open the DB schema (`ce_express`) prepared during CE Express setup.
 5. Click **Open File** and select `ce7.2_inventory3d_create_table.sql`:
 
@@ -231,7 +231,7 @@ Change database credentials as required to connect to the database. For the demo
 
 The parameter for external API calls configuration is `$externalAPIConf`. The file `conf_template.inc` has examples of possible configurations.
 
-**File `defaults.json`** — sets default values for different fields. Changes in this file can also be entered with the webapp feature [Set defaults](6-inventory3d-administration.md#set-defaults). The file cannot be empty and must contain the characters `[]`.
+**File `defaults.json`** — sets default values for different fields. Changes in this file can also be entered with the webapp feature [Set defaults](9-6-inventory3d-administration.md#set-defaults). The file cannot be empty and must contain the characters `[]`.
 
 ## Information about the CE Express Inventory3D database
 
@@ -247,7 +247,7 @@ The table `inv3d_tables` is required to describe all the tables used in CE Expre
 - `table_name` — the exact name of the table as described in the DB schema.
 - `parent_name` — the exact name of the parent table. This field can also hold system keywords:
   - `inv3d_hidden` — the table is hidden for all users and visible only for the administrator.
-  - `inv3d_system` — the admin can access the table from [System tables](6-inventory3d-administration.md#system-tables).
+  - `inv3d_system` — the admin can access the table from [System tables](9-6-inventory3d-administration.md#system-tables).
 - `level` — the level at which the table appears in the application. A table with level `0` appears at the first level. A table with level `1` appears at the second level; its records are child records of a level-0 table, described in the `parent_name` column.
 
 Example database schema:
@@ -316,7 +316,7 @@ Each Inventory3D table may also have the special attribute `photo_name` — the 
 
 ### Tables `user_info` and `user_groups`
 
-Required to administer users and user groups, and to put restrictions on users by the administrator. See [User management](6-inventory3d-administration.md#user-management).
+Required to administer users and user groups, and to put restrictions on users by the administrator. See [User management](9-6-inventory3d-administration.md#user-management).
 
 ### Tables `permissions_user` and `permissions_group`
 
@@ -324,7 +324,7 @@ Required to administer users and user groups. Both tables are created automatica
 
 ### Table `history`
 
-Registers users' actions on the data. Administrators can check who performed changes and prepare reports about database usage. See [History](6-inventory3d-administration.md#history).
+Registers users' actions on the data. Administrators can check who performed changes and prepare reports about database usage. See [History](9-6-inventory3d-administration.md#history).
 
 ### Table `stats`
 
@@ -332,7 +332,7 @@ Registers all user logins, logouts, and session expirations, so administrators c
 
 ### Table `deleted`
 
-Keeps information about removed records. The administrator can "restore" a removed record simply by deleting its entry from this table. Alternatively, the administrator can permanently delete removed records using SQL scripts. See [Delete object permanently](6-inventory3d-administration.md#delete-object-permanently).
+Keeps information about removed records. The administrator can "restore" a removed record simply by deleting its entry from this table. Alternatively, the administrator can permanently delete removed records using SQL scripts. See [Delete object permanently](9-6-inventory3d-administration.md#delete-object-permanently).
 
 ## Testing the CE Inventory3D webview installation
 
@@ -351,4 +351,4 @@ The user receives the login window:
 
 By default, "Login with Express account" is enabled, and the `admin` user's password is set to `admin_ce`. To change the password, or to see the other default users and passwords, use a database management tool (e.g. pgAdmin) and check the `ceauth_user_info` table.
 
-Continue with [Preparing your own data](5-preparing-your-own-data.md) to load geodata, antennas, and cells into a workspace, or with [Inventory3D administration](6-inventory3d-administration.md) for the day-to-day administrator functions of the webapplication.
+Continue with [Preparing your own data](9-5-preparing-your-own-data.md) to load geodata, antennas, and cells into a workspace, or with [Inventory3D administration](9-6-inventory3d-administration.md) for the day-to-day administrator functions of the webapplication.

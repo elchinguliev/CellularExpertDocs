@@ -11,7 +11,7 @@ This chapter describes installing the Cellular Expert Server solution: the insta
 2. Zip file (`ceexp_db.zip`) with the Cellular Expert Inventory3D web application (frontend).
 3. Zip file (`ceexp_db_scripts.zip`) with the Cellular Expert Inventory3D installation DB scripts.
 
-Before running the installer, complete the [prerequisites](1-requirements-architecture-and-prerequisites.md#prerequisites) (ArcGIS Server, PostgreSQL, PHP server).
+Before running the installer, complete the [prerequisites](9-1-requirements-architecture-and-prerequisites.md#prerequisites) (ArcGIS Server, PostgreSQL, PHP server).
 
 ## Install CE Express
 
@@ -70,11 +70,11 @@ Check Windows services — there should be three CE Express services running (`C
 
 ![Windows services: three CE Express services running](../../../assets/images/ce-express/admin-guide-v72/p014-img4.png)
 
-Once the services are running, continue with [licensing the CE Express application](3-licensing-ssl-publishing-and-notifications.md).
+Once the services are running, continue with [licensing the CE Express application](9-3-licensing-ssl-publishing-and-notifications.md).
 
 ## Next steps
 
 With CE Express installed and its services running, continue with:
 
-- [Licensing, SSL, publishing, and notifications](3-licensing-ssl-publishing-and-notifications.md) — obtain and apply the CE Express licence, optionally enable SSL, configure publishing to Portal for ArcGIS, and configure email notifications.
-- [Inventory3D installation and database](4-inventory3d-installation-and-database.md) — create the Inventory3D database structure, install the Inventory3D web application, and register it in Portal for ArcGIS.
+- [Licensing, SSL, publishing, and notifications](9-3-licensing-ssl-publishing-and-notifications.md) — obtain and apply the CE Express licence, optionally enable SSL, configure publishing to Portal for ArcGIS, and configure email notifications.
+- [Inventory3D installation and database](9-4-inventory3d-installation-and-database.md) — create the Inventory3D database structure, install the Inventory3D web application, and register it in Portal for ArcGIS.

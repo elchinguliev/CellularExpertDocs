@@ -103,4 +103,4 @@ Describe the workspace in the window that opens:
 
 The new workspace becomes visible to administrators immediately after creation. See [Workspaces](../3-ce-express-tools/3-1-workspaces.md) for the full set of workspace options available to all users (group, locked state, coordinate origin, transmitter/receiver height reference, feature naming schemes, etc.).
 
-Antennas or cells for the new workspace can be loaded using the CE Express environment and tools, or via [Import CSV](6-inventory3d-administration.md#import-csv).
+Antennas or cells for the new workspace can be loaded using the CE Express environment and tools, or via [Import CSV](9-6-inventory3d-administration.md#import-csv).

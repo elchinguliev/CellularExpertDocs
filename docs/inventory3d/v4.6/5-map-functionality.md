@@ -24,14 +24,13 @@ Select the Measure Tool ![icon](../../assets/images/inventory3d/user-guide/map-m
 
 **Link to database**
 
-Map and database are functionally connected. Select the info tool ![ icon](../../assets/images/inventory3d/user-guide/map-information-tool.png). Then click on a site in the map (here: Abava), and a popup window opens:
+Map and database are functionally connected. Select the info tool ![icon](../../assets/images/inventory3d/user-guide/map-information-tool.png). Then click on a site in the map (here: Abava), and a popup window opens:
 
 ![Popup window with site attribute information after clicking a site on the map](../../assets/images/inventory3d/user-guide/p032-fig1-linktodb-popup.png)
 
 The popup window comprises links to the site (![icon](../../assets/images/inventory3d/user-guide/map-site-link.png)) and to the attachments file browser (![icon](../../assets/images/inventory3d/user-guide/map-attachments.png))
 
-Browse the parameters of the selected site by using the buttons
-![icon](../../assets/images/inventory3d/user-guide/map-browse-buttons.png).
+Browse the parameters of the selected site by using the buttons ![icon](../../assets/images/inventory3d/user-guide/map-browse-buttons.png).
 
 **Local Weather**
 

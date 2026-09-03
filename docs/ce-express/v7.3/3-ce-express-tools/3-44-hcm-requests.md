@@ -101,8 +101,7 @@ Each request contains a toolbar of the following tools:
 
 - Download request file. downloads original coordination request file.
 - View request file. Shows content of the original request file.
-- View associated records. Shows current records associated with the request file. Usually, when incoming request is processed, all records are imported into the internal database but with time they may be deleted by another request, or changed. The same is valid for the records of outgoing requests – they may later be changed or deleted. This functionality shows current parameters of
-the imported (or exported) data.
+- View associated records. Shows current records associated with the request file. Usually, when incoming request is processed, all records are imported into the internal database but with time they may be deleted by another request, or changed. The same is valid for the records of outgoing requests – they may later be changed or deleted. This functionality shows current parameters of the imported (or exported) data.
 - View processing results. Opens calculation results that have been performed for the selected
 coordination request.
 - Recalculate. Restarts calculations for the selected coordination request.

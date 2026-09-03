@@ -1,6 +1,6 @@
 # 3.1.33 Geoclimatic data
 
-Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p191-img1.png) to open Geoclimatic data tool.
+Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p191-img3.png) to open Geoclimatic data tool.
 
 Geoclimatic Data is a tool that lets you adjust the geoclimatic settings that will be used in certain calculations (e.g. Link Prediction).
 
@@ -10,7 +10,7 @@ Geoclimatic Data is a tool that lets you adjust the geoclimatic settings that wi
 
 Gaseous absorption define values for dry air pressure and water vapour density. These values can be obtained from predefined geoclimatic data maps. Water vapour density data according to ITU-R P.836-3. It is used in gaseous absorption evaluation.
 
-![Image p191](../../../assets/images/ce-express/user-guide-v73/p191-img3.png)
+![Image p192](../../../assets/images/ce-express/user-guide-v73/p192-img2.png)
 
 **Dry Air Pressure**
 
@@ -20,7 +20,7 @@ The atmospheric pressure contributed by air that contains no water vapor, typica
 
 The mass of water vapor present in a unit volume of air, typically measured in grams per cubic meter (g/m³).
 
-![Image p192](../../../assets/images/ce-express/user-guide-v73/p192-img2.png)
+
 
 **Use Geoclimatic Data**
 

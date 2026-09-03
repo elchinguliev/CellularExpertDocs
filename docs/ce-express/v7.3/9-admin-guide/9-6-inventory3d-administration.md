@@ -1,7 +1,5 @@
 # Inventory3D administration
 
-This chapter describes the CE Inventory3D web application functions available only to administrators. They are opened from the **Settings** menu ![icon](../../../assets/images/ce-express/user-guide-v73/p273-img1.png) in the [Network Data Management](../6-network-data-management.md) view. Each function below shows this same menu, with the relevant item highlighted.
-
 ## Set defaults
 
 Columns can be designed so that their record contents don't have to be entered by hand but are instead chosen from a list of defaults — e.g. active/inactive, or planned/active/closed. To do this, click a column header and select **Set defaults** from the dropdown menu. A new window opens with the currently active default values; enter at least 2 defaults and click **OK**.

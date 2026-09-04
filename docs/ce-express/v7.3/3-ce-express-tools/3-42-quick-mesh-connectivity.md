@@ -10,33 +10,30 @@ Whether you are planning the deployment of a single node or simulating a mobile 
 
 ![Image p233](../../../assets/images/ce-express/user-guide-v73/p233-img1.png)
 
-**Calculation settings**
+### Calculation settings
 
-**Mesh node template**
-
-The Mesh Node Object Template is automatically utilized whenever a Mesh object lacks the required parameters needed to complete connectivity calculations. This ensures that all essential data is available for accurate simulation and evaluation, even if the original Mesh object is incomplete.
-
-**Temporary mesh node template**
-
-The Temporary Mesh Node Object Template is automatically utilized whenever a newly proposed Mesh object lacks the required parameters needed to complete connectivity calculations. This ensures that all essential data is available for accurate simulation and evaluation, even if the original Mesh object is incomplete.
+| Option | Description |
+|---|---|
+| Mesh node template | The Mesh Node Object Template is automatically utilized whenever a Mesh object lacks the required parameters needed to complete connectivity calculations. This ensures that all essential data is available for accurate simulation and evaluation, even if the original Mesh object is incomplete. |
+| Temporary mesh node template | The Temporary Mesh Node Object Template is automatically utilized whenever a newly proposed Mesh object lacks the required parameters needed to complete connectivity calculations. This ensures that all essential data is available for accurate simulation and evaluation, even if the original Mesh object is incomplete. |
 
 **Temporary mesh node**
 
 | Field | Description |
 |---|---|
-| **X** | Coordinate in the projected coordinate system. |
-| **Y** | Coordinate in the projected coordinate system. |
-| **Height** | Mesh node object’s height above the terrain. |
-| **Antenna** | Antenna which will be used for Mesh Node. |
-| **Prediction model** | Prediction model used to calculate a path loss between Mesh Nodes. |
-| **Frequency** | Frequency in MHz for proposed Mesh Node. |
-| **Power** | Tx power in dBm for proposed Mesh Node. |
-| **Misc. Loss** | Total losses in dB for proposed Mesh Node. |
-| **Sensitivity** | Receiving Signal Level threshold in dBm at Mesh Node. |
+| X | Coordinate in the projected coordinate system. |
+| Y | Coordinate in the projected coordinate system. |
+| Height | Mesh node object's height above the terrain. |
+| Antenna | Antenna which will be used for Mesh Node. |
+| Prediction model | Prediction model used to calculate a path loss between Mesh Nodes. |
+| Frequency | Frequency in MHz for proposed Mesh Node. |
+| Power | Tx power in dBm for proposed Mesh Node. |
+| Misc. Loss | Total losses in dB for proposed Mesh Node. |
+| Sensitivity | Receiving Signal Level threshold in dBm at Mesh Node. |
 
 ## Calculate Quick mesh connectivity
 
-**- Select Existing Mesh Nodes**
+- **Select Existing Mesh Nodes**
 
 On the map interface, select the Mesh Nodes that should be included in the connectivity calculation.
 
@@ -45,14 +42,14 @@ On the map interface, select the Mesh Nodes that should be included in the conne
 - **Open the Quick Mesh Connectivity Tool**
 
 ![Image p235](../../../assets/images/ce-express/user-guide-v73/p235-img2.png)
-  
-- **Configure Node Parameters** 
+
+- **Configure Node Parameters**
 Input the required parameters for the proposed Mesh Node (e.g., transmission power, antenna type, height).
 
 - **Define the Proposed Node Location**
 Choose the location of the new Mesh Node either by clicking directly on the map or by entering specific coordinates.
 
-**- View the Results**
+- **View the Results**
 
 Once the analysis is complete, the results will appear on the map:
 - Green indicates areas with successful two-way connectivity.

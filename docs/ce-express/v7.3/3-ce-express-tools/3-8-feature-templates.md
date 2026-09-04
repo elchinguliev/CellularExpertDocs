@@ -16,10 +16,7 @@ After selecting the feature type, a list of existing feature templates is shown,
 
 Upon hovering the mouse over a feature template, options for it appear.
 
-**Mark as favorite**
-
-![Image p089](../../../assets/images/ce-express/user-guide-v73/p089-img4.png)
-
-**Delete Feature template**
-
-![Image p089](../../../assets/images/ce-express/user-guide-v73/p089-img2.png)
+| Option | Icon |
+|---|---|
+| Mark as favorite | ![icon](../../../assets/images/ce-express/user-guide-v73/p089-img4.png) |
+| Delete Feature template | ![icon](../../../assets/images/ce-express/user-guide-v73/p089-img2.png) |

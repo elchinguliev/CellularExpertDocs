@@ -125,69 +125,30 @@ When building data and their heights are not available, and only DTM and clutter
 
 ![Image p096](../../../assets/images/ce-express/user-guide-v73/p096-img1.png)
 
-**Configuration name**
-
-Name of the prediction configuration name.
-
-**Radius**
-
-Maximum prediction radius in kilometers to calculate path loss.
-
-**Receiver height**
-
-Receiver height above the receiver reference height selected in the workspace settings.
-
-**Effective earth radius**
-
-Earth radius in kilometers, used for the calculations.
-
-**Offset coefficient**
-
-Represents the offset in decibels added to the path loss grid. The default value is 37 dB.
-
-**Distance coefficient**
-
-Defines the slope based on the distance between the cell and the receiver location, with a default value of 20.
-
-**Distance coefficient obstructed**
-
-Represents the slope based on the obstructed distance between the cell and the receiver location. The default value is 30.
-
-**Frequency coefficient**
-
-Indicates the slope determined by the frequency value, with a default value of 20.
+| Option | Description |
+|---|---|
+| Configuration name | Name of the prediction configuration name. |
+| Radius | Maximum prediction radius in kilometers to calculate path loss. |
+| Receiver height | Receiver height above the receiver reference height selected in the workspace settings. |
+| Effective earth radius | Earth radius in kilometers, used for the calculations. |
+| Offset coefficient | Represents the offset in decibels added to the path loss grid. The default value is 37 dB. |
+| Distance coefficient | Defines the slope based on the distance between the cell and the receiver location, with a default value of 20. |
+| Distance coefficient obstructed | Represents the slope based on the obstructed distance between the cell and the receiver location. The default value is 30. |
+| Frequency coefficient | Indicates the slope determined by the frequency value, with a default value of 20. |
 
 The Clutter Class option defines several predefined clutter categories, each with unique values for diffraction loss, clutter loss, penetration loss, and receiver loss coefficients. These parameters describe how a signal is impacted when it passes through or terminates in a specific clutter class.
 
 ![Image p097](../../../assets/images/ce-express/user-guide-v73/p097-img1.png)
 
-**Nominal distance**
-
-The average distance between objects within the clutter class, ranging from 1 to 100 meters.
-
-**Diffraction loss coefficient**
-
-A multiplier used in diffraction calculations. Lower values result in reduced diffraction loss, while higher values increase it. Typically, this coefficient is higher for buildings compared to forests or other clutter types. A multiplier for diffraction calculations. If value is lower, diffraction will be lower, if higher – then diffraction will be higher. Usually, for buildings clutter class this parameter is higher then forest or other clutter classes.
-
-**Enclosed receiver loss offset**
-
-The initial entry loss into an obstacle within the clutter class, expressed as an offset in dB, which is added to the path loss grid. Applies when receiver point ends up enclosed within an obstacle within this clutter class.
-
-**Enclosed receiver loss scaling coefficient**
-
-Represents additional signal loss as a function of the distance travelled in an obstacle within the clutter class. Higher values increase path loss. Applies when receiver point ends up enclosed within an obstacle within this clutter class.
-
-**Enclosed receiver loss frequency exponent coefficient**
-
-Reflects additional loss inside an obstacle within the clutter class based on frequency. Higher values increase path loss, particularly at higher frequencies. Applies when receiver point ends up enclosed within an obstacle within this clutter class.
-
-**Receiver point loss offset**
-
-An additional loss offset in dB applied to the path loss grid, representing user equipment (UE) losses.
-
-**Receiver height**
-
-Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used.
+| Clutter class parameter | Description |
+|---|---|
+| Nominal distance | The average distance between objects within the clutter class, ranging from 1 to 100 meters. |
+| Diffraction loss coefficient | A multiplier used in diffraction calculations. Lower values result in reduced diffraction loss, while higher values increase it. Typically, this coefficient is higher for buildings compared to forests or other clutter types. |
+| Enclosed receiver loss offset | The initial entry loss into an obstacle within the clutter class, expressed as an offset in dB, which is added to the path loss grid. Applies when receiver point ends up enclosed within an obstacle within this clutter class. |
+| Enclosed receiver loss scaling coefficient | Represents additional signal loss as a function of the distance travelled in an obstacle within the clutter class. Higher values increase path loss. Applies when receiver point ends up enclosed within an obstacle within this clutter class. |
+| Enclosed receiver loss frequency exponent coefficient | Reflects additional loss inside an obstacle within the clutter class based on frequency. Higher values increase path loss, particularly at higher frequencies. Applies when receiver point ends up enclosed within an obstacle within this clutter class. |
+| Receiver point loss offset | An additional loss offset in dB applied to the path loss grid, representing user equipment (UE) losses. |
+| Receiver height | Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used. |
 
 **Clutter Classes default values**
 
@@ -229,53 +190,26 @@ This model is particularly well-suited for microwave links and is widely used fo
 
 ![Image p100](../../../assets/images/ce-express/user-guide-v73/p100-img1.png)
 
-**Configuration name**
-
-Name of the prediction configuration name.
-
-**Radius**
-
-Maximum prediction radius in kilometers to calculate path loss.
-
-**Receiver height**
-
-Receiver height above the receiver reference height selected in the workspace settings.
-
-**Effective earth radius**
-
-Earth radius in kilometers, used for the calculations.
-
-**Offset coefficient**
-
-Represents the offset in decibels added to the path loss grid. The default value is 37 dB.
-
-**Distance coefficient**
-
-Defines the slope based on the distance between the cell and the receiver location, with a default value of 20.
-
-**Frequency coefficient**
-
-Indicates the slope determined by the frequency value, with a default value of 20.
+| Option | Description |
+|---|---|
+| Configuration name | Name of the prediction configuration name. |
+| Radius | Maximum prediction radius in kilometers to calculate path loss. |
+| Receiver height | Receiver height above the receiver reference height selected in the workspace settings. |
+| Effective earth radius | Earth radius in kilometers, used for the calculations. |
+| Offset coefficient | Represents the offset in decibels added to the path loss grid. The default value is 37 dB. |
+| Distance coefficient | Defines the slope based on the distance between the cell and the receiver location, with a default value of 20. |
+| Frequency coefficient | Indicates the slope determined by the frequency value, with a default value of 20. |
 
 Clutter class option describes several fixed Clutter names with penetration loss coefficients. These parameters describe how a signal is impacted when it passes through or terminates in a specific clutter class.
 
 ![Image p101](../../../assets/images/ce-express/user-guide-v73/p101-img1.png)
 
-**Enclosed receiver loss offset**
-
-The initial entry loss into an obstacle within the clutter class, expressed as an offset in dB, which is added to the path loss grid. Applies when receiver point ends up enclosed within an obstacle within this clutter class.
-
-**Enclosed receiver loss scaling coefficient**
-
-Represents additional signal loss as a function of the distance travelled in an obstacle within the clutter class. Higher values increase path loss. Applies when receiver point ends up enclosed within an obstacle within this clutter class.
-
-**Enclosed receiver loss frequency exponent coefficient**
-
-Reflects additional loss inside an obstacle within the clutter class based on frequency. Higher values increase path loss, particularly at higher frequencies. Applies when receiver point ends up enclosed within an obstacle within this clutter class.
-
-**Receiver height**
-
-Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used.
+| Clutter class parameter | Description |
+|---|---|
+| Enclosed receiver loss offset | The initial entry loss into an obstacle within the clutter class, expressed as an offset in dB, which is added to the path loss grid. Applies when receiver point ends up enclosed within an obstacle within this clutter class. |
+| Enclosed receiver loss scaling coefficient | Represents additional signal loss as a function of the distance travelled in an obstacle within the clutter class. Higher values increase path loss. Applies when receiver point ends up enclosed within an obstacle within this clutter class. |
+| Enclosed receiver loss frequency exponent coefficient | Reflects additional loss inside an obstacle within the clutter class based on frequency. Higher values increase path loss, particularly at higher frequencies. Applies when receiver point ends up enclosed within an obstacle within this clutter class. |
+| Receiver height | Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used. |
 
 **Clutter Classes default values**
 
@@ -321,27 +255,18 @@ For scenarios where accurate building geometry and heights are available and a h
 
 ![Image p103](../../../assets/images/ce-express/user-guide-v73/p103-img1.png)
 
-**Configuration name**
-
-Name of the prediction configuration name.
-
-**Radius**
-
-Maximum prediction radius in kilometers to calculate path loss.
-
-**Receiver height**
-
-Receiver height above the receiver reference height selected in the workspace settings.
-
-**Time percentage**
-
-How radio signal levels fluctuate over time due to changes in atmospheric conditions, tropospheric refraction, and diffraction. This effect is represented as a statistical factor in the model, which allows predictions for different time percentages. Should not exceed outside the range from 1% to 50%.
+| Option | Description |
+|---|---|
+| Configuration name | Name of the prediction configuration name. |
+| Radius | Maximum prediction radius in kilometers to calculate path loss. |
+| Receiver height | Receiver height above the receiver reference height selected in the workspace settings. |
+| Time percentage | How radio signal levels fluctuate over time due to changes in atmospheric conditions, tropospheric refraction, and diffraction. This effect is represented as a statistical factor in the model, which allows predictions for different time percentages. Should not exceed outside the range from 1% to 50%. |
 
 ![Image p104](../../../assets/images/ce-express/user-guide-v73/p104-img1.png)
 
-**Receiver height**
-
-Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used.
+| Clutter class parameter | Description |
+|---|---|
+| Receiver height | Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used. |
 
 ## 3.1.9.4 ITU-R P525 Model
 
@@ -351,39 +276,21 @@ Line of Sight model is typically used for mmWave band frequencies within the 6 G
 
 ![Image p105](../../../assets/images/ce-express/user-guide-v73/p105-img1.png)
 
-**Configuration name**
-
-Name of the prediction configuration name.
-
-**Radius**
-
-Maximum prediction radius in kilometers to calculate path loss.
-
-**Receiver height**
-
-Receiver height above the receiver reference height selected in the workspace settings.
-
-**Effective earth radius**
-
-Earth radius in kilometers, used for the calculations.
-
-**Offset coefficient**
-
-Represents the offset in decibels added to the path loss grid. The default value is 37 dB.
-
-**Distance coefficient**
-
-Defines the slope based on the distance between the cell and the receiver location, with a default value of 20.
-
-**Frequency coefficient**
-
-Indicates the slope determined by the frequency value, with a default value of 20.
+| Option | Description |
+|---|---|
+| Configuration name | Name of the prediction configuration name. |
+| Radius | Maximum prediction radius in kilometers to calculate path loss. |
+| Receiver height | Receiver height above the receiver reference height selected in the workspace settings. |
+| Effective earth radius | Earth radius in kilometers, used for the calculations. |
+| Offset coefficient | Represents the offset in decibels added to the path loss grid. The default value is 37 dB. |
+| Distance coefficient | Defines the slope based on the distance between the cell and the receiver location, with a default value of 20. |
+| Frequency coefficient | Indicates the slope determined by the frequency value, with a default value of 20. |
 
 ![Image p106](../../../assets/images/ce-express/user-guide-v73/p106-img1.png)
 
-**Receiver height**
-
-Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used.
+| Clutter class parameter | Description |
+|---|---|
+| Receiver height | Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used. |
 
 ## 3.1.9.5 UniMacro Model
 
@@ -397,85 +304,34 @@ For accurate wide-area propagation and coverage modeling where building data and
 
 ![Image p107](../../../assets/images/ce-express/user-guide-v73/p107-img1.png)
 
-**Configuration name**
-
-Name of the prediction configuration name.
-
-**Radius**
-
-Maximum prediction radius in kilometers to calculate path loss.
-
-**Receiver height**
-
-Receiver height above the receiver reference height selected in the workspace settings.
-
-**Effective earth radius**
-
-Earth radius in kilometers, used for the calculations.
-
-**Offset coefficient**
-
-Represents the offset in decibels added to the path loss grid. The default value is 37 dB.
-
-**Distance coefficient near**
-
-Defines the slope based on the distance between the cell and the receiver location, with a default value of 20.
-
-**Distance coefficient far**
-
-Represents the slope based on breakpoint distance between the cell and the receiver location. The default value is 30.
-
-**Frequency coefficient**
-
-Indicates the slope determined by the frequency value, with a default value of 20.
-
-**A0**
-
-Constant offset in dB this value simply added to loss grid. Adjusting this value, you can minimize mean error. It regulates the absolute level of the loss curve. Default value 36.
-
-**A1**
-
-Distance influence coefficient. Physically it represents loss dependant on distance such as atmospheric (dust, hydrometeors, etc...) losses. It regulates slope of the curve. Default value 32.
-
-**A2**
-
-Transmitter height influence coefficient. It is related to errors in DTM, real Earth curvature, etc. It regulates loss curve vertical position like the A0, but with respect to antenna height. Default value -12.
-
-**A3**
-
-Okumura-Hata type of multiplying factor for log(hM)log(d). Default value 0.1.
+| Option | Description |
+|---|---|
+| Configuration name | Name of the prediction configuration name. |
+| Radius | Maximum prediction radius in kilometers to calculate path loss. |
+| Receiver height | Receiver height above the receiver reference height selected in the workspace settings. |
+| Effective earth radius | Earth radius in kilometers, used for the calculations. |
+| Offset coefficient | Represents the offset in decibels added to the path loss grid. The default value is 37 dB. |
+| Distance coefficient near | Defines the slope based on the distance between the cell and the receiver location, with a default value of 20. |
+| Distance coefficient far | Represents the slope based on breakpoint distance between the cell and the receiver location. The default value is 30. |
+| Frequency coefficient | Indicates the slope determined by the frequency value, with a default value of 20. |
+| A0 | Constant offset in dB this value simply added to loss grid. Adjusting this value, you can minimize mean error. It regulates the absolute level of the loss curve. Default value 36. |
+| A1 | Distance influence coefficient. Physically it represents loss dependant on distance such as atmospheric (dust, hydrometeors, etc...) losses. It regulates slope of the curve. Default value 32. |
+| A2 | Transmitter height influence coefficient. It is related to errors in DTM, real Earth curvature, etc. It regulates loss curve vertical position like the A0, but with respect to antenna height. Default value -12. |
+| A3 | Okumura-Hata type of multiplying factor for log(hM)log(d). Default value 0.1. |
 
 The Clutter Class option defines several predefined clutter categories, each with unique values for diffraction loss, clutter loss, penetration loss, and receiver loss coefficients. These parameters describe how a signal is impacted when it passes through or terminates in a specific clutter class.
 
 ![Image p109](../../../assets/images/ce-express/user-guide-v73/p109-img1.png)
 
-**Nominal distance**
-
-The average distance between objects within the clutter class, ranging from 1 to 100 meters.
-
-**Diffraction loss coefficient**
-
-A multiplier used in diffraction calculations. Lower values result in reduced diffraction loss, while higher values increase it. Typically, this coefficient is higher for buildings compared to forests or other clutter types. A multiplier for diffraction calculations. If value is lower, diffraction will be lower, if higher – then diffraction will be higher. Usually, for buildings clutter class this parameter is higher then forest or other clutter classes.
-
-**Enclosed receiver loss offset**
-
-The initial entry loss into an obstacle within the clutter class, expressed as an offset in dB, which is added to the path loss grid. Applies when receiver point ends up enclosed within an obstacle within this clutter class.
-
-**Enclosed receiver loss scaling coefficient**
-
-Represents additional signal loss as a function of the distance travelled in an obstacle within the clutter class. Higher values increase path loss. Applies when receiver point ends up enclosed within an obstacle within this clutter class.
-
-**Enclosed receiver loss frequency exponent coefficient**
-
-Reflects additional loss inside an obstacle within the clutter class based on frequency. Higher values increase path loss, particularly at higher frequencies. Applies when receiver point ends up enclosed within an obstacle within this clutter class.
-
-**Receiver point loss offset**
-
-An additional loss offset in dB applied to the path loss grid, representing user equipment (UE) losses.
-
-**Receiver height**
-
-Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used.
+| Clutter class parameter | Description |
+|---|---|
+| Nominal distance | The average distance between objects within the clutter class, ranging from 1 to 100 meters. |
+| Diffraction loss coefficient | A multiplier used in diffraction calculations. Lower values result in reduced diffraction loss, while higher values increase it. Typically, this coefficient is higher for buildings compared to forests or other clutter types. |
+| Enclosed receiver loss offset | The initial entry loss into an obstacle within the clutter class, expressed as an offset in dB, which is added to the path loss grid. Applies when receiver point ends up enclosed within an obstacle within this clutter class. |
+| Enclosed receiver loss scaling coefficient | Represents additional signal loss as a function of the distance travelled in an obstacle within the clutter class. Higher values increase path loss. Applies when receiver point ends up enclosed within an obstacle within this clutter class. |
+| Enclosed receiver loss frequency exponent coefficient | Reflects additional loss inside an obstacle within the clutter class based on frequency. Higher values increase path loss, particularly at higher frequencies. Applies when receiver point ends up enclosed within an obstacle within this clutter class. |
+| Receiver point loss offset | An additional loss offset in dB applied to the path loss grid, representing user equipment (UE) losses. |
+| Receiver height | Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used. |
 
 **Clutter Classes default values**
 
@@ -517,37 +373,22 @@ This model is widely used in planning and designing long-distance communication 
 
 ![Image p111](../../../assets/images/ce-express/user-guide-v73/p111-img1.png)
 
-**Configuration name**
-
-Name of the prediction configuration name.
-
-**Radius**
-
-Maximum prediction radius in kilometers to calculate path loss.
-
-**Receiver height**
-
-Receiver height above the receiver reference height selected in the workspace settings.
+| Option | Description |
+|---|---|
+| Configuration name | Name of the prediction configuration name. |
+| Radius | Maximum prediction radius in kilometers to calculate path loss. |
+| Receiver height | Receiver height above the receiver reference height selected in the workspace settings. |
 
 The general model parameters include the radius and receiver height. Additional parameters used for path loss calculations are derived from the clutter classes. Each clutter class has its own unique set of parameters:
 
 ![Image p112](../../../assets/images/ce-express/user-guide-v73/p112-img1.png)
 
-**Surface refractivity**
-
-A measure of the refractive index's influence on electromagnetic wave propagation, particularly in the lower atmosphere close to the Earth's surface. It is expressed as a dimensionless value, typically dependent on atmospheric pressure, temperature, and humidity. High surface refractivity can significantly affect radio wave bending and propagation, such as ducting or anomalous refraction.
-
-**Relative permittivity**
-
-Quantifies a material's ability to permit electric field propagation relative to vacuum. It is a complex quantity with the real part representing energy storage capability and the imaginary part representing energy dissipation within the material. ITU-R P.368 uses relative permittivity to model how radio waves interact with various surface materials, such as soil, water, or vegetation. These interactions influence reflection, refraction, and absorption phenomena at the surface.
-
-**Surface conductivity**
-
-Refers to a material's ability to conduct electrical currents across its surface. It is measured in siemens per meter (S/m). Higher conductivity indicates that a surface can easily allow current flow, affecting the reflection and absorption of radio waves. According to ITU-R P.368, surface conductivity is a critical factor in determining the reflective properties of surfaces, such as dry versus wet soil, or metallic versus dielectric surfaces.
-
-**Receiver height**
-
-Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used.
+| Clutter class parameter | Description |
+|---|---|
+| Surface refractivity | A measure of the refractive index's influence on electromagnetic wave propagation, particularly in the lower atmosphere close to the Earth's surface. It is expressed as a dimensionless value, typically dependent on atmospheric pressure, temperature, and humidity. High surface refractivity can significantly affect radio wave bending and propagation, such as ducting or anomalous refraction. |
+| Relative permittivity | Quantifies a material's ability to permit electric field propagation relative to vacuum. It is a complex quantity with the real part representing energy storage capability and the imaginary part representing energy dissipation within the material. ITU-R P.368 uses relative permittivity to model how radio waves interact with various surface materials, such as soil, water, or vegetation. These interactions influence reflection, refraction, and absorption phenomena at the surface. |
+| Surface conductivity | Refers to a material's ability to conduct electrical currents across its surface. It is measured in siemens per meter (S/m). Higher conductivity indicates that a surface can easily allow current flow, affecting the reflection and absorption of radio waves. According to ITU-R P.368, surface conductivity is a critical factor in determining the reflective properties of surfaces, such as dry versus wet soil, or metallic versus dielectric surfaces. |
+| Receiver height | Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used. |
 
 **Clutter Classes default values**
 
@@ -613,43 +454,22 @@ The primary factors included in the standard are:
 
 ![Image p116](../../../assets/images/ce-express/user-guide-v73/p116-img1.png)
 
-**Configuration name**
-
-Name of the prediction configuration name.
-
-**Radius**
-
-Maximum prediction radius in kilometers to calculate path loss.
-
-**Receiver height**
-
-Receiver height above the receiver reference height selected in the workspace settings.
-
-**Effective earth radius**
-
-Earth radius in kilometers, used for the calculations.
-
-**Distance coefficient**
-
-Defines the slope based on the distance between the cell and the receiver location, with a default value of 20.
-
-**Meteorological conditions**
-
-It is a factor, in decibels, which depends on local meteorological statistics for wind speed and direction, and temperature gradients. Experience indicates that values of Meteorological conditions (C0) in practice are limited to the range from zero to approximately + 5 dB.
-
-**Temperature**
-
-Air temperature in Celsius.
-
-**Humidity**
-
-Air humidity in percentage.
+| Option | Description |
+|---|---|
+| Configuration name | Name of the prediction configuration name. |
+| Radius | Maximum prediction radius in kilometers to calculate path loss. |
+| Receiver height | Receiver height above the receiver reference height selected in the workspace settings. |
+| Effective earth radius | Earth radius in kilometers, used for the calculations. |
+| Distance coefficient | Defines the slope based on the distance between the cell and the receiver location, with a default value of 20. |
+| Meteorological conditions | It is a factor, in decibels, which depends on local meteorological statistics for wind speed and direction, and temperature gradients. Experience indicates that values of Meteorological conditions (C0) in practice are limited to the range from zero to approximately + 5 dB. |
+| Temperature | Air temperature in Celsius. |
+| Humidity | Air humidity in percentage. |
 
 ![Image p117](../../../assets/images/ce-express/user-guide-v73/p117-img1.png)
 
-**Receiver height**
-
-Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used.
+| Clutter class parameter | Description |
+|---|---|
+| Receiver height | Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used. |
 
 ## 3.1.9.8 CEC 3GPP TR Indoor model
 
@@ -659,55 +479,25 @@ In the current version, each transmitter must be defined individually as a separ
 
 ![Image p118](../../../assets/images/ce-express/user-guide-v73/p118-img1.png)
 
-**Configuration name**
-
-Name of the prediction configuration name.
-
-**Radius**
-
-Maximum prediction radius in kilometers to calculate path loss.
-
-**Receiver height**
-
-Receiver height above the receiver reference height selected in the workspace settings.
-
-**Effective earth radius**
-
-Earth radius in kilometers, used for the calculations.
-
-**Offset coefficient**
-
-Represents the offset in decibels added to the path loss grid. The default value is 37 dB.
-
-**Distance coefficient**
-
-Defines the slope based on the distance between the cell and the receiver location, with a default value of 20.
-
-**Distance coefficient obstructed**
-
-Represents the slope based on the obstructed distance between the cell and the receiver location. The default value is 20.
-
-**Frequency coefficient**
-
-Indicates the slope determined by the frequency value, with a default value of 20.
-
-**Penetration loss offset**
-
-The initial entry loss applied when crossing an obstacle within the clutter class, expressed as an offset in dB, which is added to the path loss grid.
+| Option | Description |
+|---|---|
+| Configuration name | Name of the prediction configuration name. |
+| Radius | Maximum prediction radius in kilometers to calculate path loss. |
+| Receiver height | Receiver height above the receiver reference height selected in the workspace settings. |
+| Effective earth radius | Earth radius in kilometers, used for the calculations. |
+| Offset coefficient | Represents the offset in decibels added to the path loss grid. The default value is 37 dB. |
+| Distance coefficient | Defines the slope based on the distance between the cell and the receiver location, with a default value of 20. |
+| Distance coefficient obstructed | Represents the slope based on the obstructed distance between the cell and the receiver location. The default value is 20. |
+| Frequency coefficient | Indicates the slope determined by the frequency value, with a default value of 20. |
+| Penetration loss offset | The initial entry loss applied when crossing an obstacle within the clutter class, expressed as an offset in dB, which is added to the path loss grid. |
 
 ![Image p119](../../../assets/images/ce-express/user-guide-v73/p119-img1.png)
 
-**Penetration loss scaling coefficient**
-
-Represents additional signal loss as a function of the distance travelled in an obstacle within the clutter class. Higher values increase path loss.
-
-**Penetration loss frequency exponent coefficient**
-
-Reflects additional loss inside an obstacle within the clutter class based on frequency. Higher values increase path loss, particularly at higher frequencies.
-
-**Receiver height**
-
-Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used.
+| Clutter class parameter | Description |
+|---|---|
+| Penetration loss scaling coefficient | Represents additional signal loss as a function of the distance travelled in an obstacle within the clutter class. Higher values increase path loss. |
+| Penetration loss frequency exponent coefficient | Reflects additional loss inside an obstacle within the clutter class based on frequency. Higher values increase path loss, particularly at higher frequencies. |
+| Receiver height | Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used. |
 
 Note: penetration losses stack when multiple obstacles are crossed.
 

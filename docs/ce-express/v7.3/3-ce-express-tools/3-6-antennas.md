@@ -6,13 +6,10 @@ Preview the list of available antennas in the project. The antennas are used for
 
 ![Image p076](../../../assets/images/ce-express/user-guide-v73/p076-img1.png)
 
-**Search**
-
-Initiates the search procedure in the antennas list.
-
-**Delete antenna**
-
-Delete antenna using *Delete* button.
+| Option | Description |
+|---|---|
+| Search | Initiates the search procedure in the antennas list. |
+| Delete antenna | Delete antenna using *Delete* button. |
 
 ![Image p076](../../../assets/images/ce-express/user-guide-v73/p076-img2.png)
 
@@ -68,21 +65,12 @@ into a single cell array antenna pattern.
 
 **Antenna parameters**
 
-**Manufacturer**
-
-Antenna manufacturer.
-
-**Model**
-
-Antenna name.
-
-**Frequency**
-
-Antenna frequency value in MHz.
-
-**Gain**
-
-Antenna gain value in dBi.
+| Parameter | Description |
+|---|---|
+| Manufacturer | Antenna manufacturer. |
+| Model | Antenna name. |
+| Frequency | Antenna frequency value in MHz. |
+| Gain | Antenna gain value in dBi. |
 
 ![Image p081](../../../assets/images/ce-express/user-guide-v73/p081-img1.png)
 
@@ -100,63 +88,29 @@ and then select *Create Manually*.
 
 **Antenna parameters**
 
-**Manufacturer**
-
-Antenna manufacturer (company or entity).
-
-**Model**
-
-Antenna name.
-
-**Frequency**
-
-Antenna frequency value in MHz.
-
-**Gain**
-
-Antenna gain value in dBi.
-
-**Max attenuation**
-
-Attenuation value assigned to the attenuated parts of the antenna pattern.
+| Parameter | Description |
+|---|---|
+| Manufacturer | Antenna manufacturer (company or entity). |
+| Model | Antenna name. |
+| Frequency | Antenna frequency value in MHz. |
+| Gain | Antenna gain value in dBi. |
+| Max attenuation | Attenuation value assigned to the attenuated parts of the antenna pattern. |
 
 **Horizontal pattern**
 
-**Beamwidth**
-
-Antenna's horizontal beamwidth value in degrees. Used for generating the antenna pattern.
-
-**Smoothing degree count**
-
-Transition width between attenuated and non-attenuated parts of the antenna pattern in degrees. The attenuation values are linearly interpolated between 0 and the max attenuation value within this transition range.
+| Parameter | Description |
+|---|---|
+| Beamwidth | Antenna's horizontal beamwidth value in degrees. Used for generating the antenna pattern. |
+| Smoothing degree count | Transition width between attenuated and non-attenuated parts of the antenna pattern in degrees. The attenuation values are linearly interpolated between 0 and the max attenuation value within this transition range. |
 
 **Vertical pattern**
 
-**Beamwidth**
-
-Antenna's vertical beamwidth value in degrees. Used for generating the antenna pattern.
-
-**Smoothing degree count**
-
-Transition width between attenuated and non-attenuated parts of the antenna pattern in degrees. The attenuation values are linearly interpolated between 0 and the max attenuation value within this transition range.
-
-**Vertical pattern**
-
-**Beamwidth**
-
-Antenna’s vertical beamwidth value in degrees. Used for generating the antenna pattern.
-
-**Smoothing degree count**
-
-Transition width between attenuated and non-attenuated parts of the antenna pattern in degrees. The attenuation values are linearly interpolated between 0 and the max attenuation value within this transition range.
-
-**Angle offset**
-
-Transition width between attenuated and non-attenuated parts of the antenna pattern in degrees. The attenuation values are linearly interpolated between 0 and the max attenuation value within this transition range.
-
-**Mirror pattern**
-
-Ability to mirror the vertical attenuation pattern.
+| Parameter | Description |
+|---|---|
+| Beamwidth | Antenna's vertical beamwidth value in degrees. Used for generating the antenna pattern. |
+| Smoothing degree count | Transition width between attenuated and non-attenuated parts of the antenna pattern in degrees. The attenuation values are linearly interpolated between 0 and the max attenuation value within this transition range. |
+| Angle offset | Transition width between attenuated and non-attenuated parts of the antenna pattern in degrees. The attenuation values are linearly interpolated between 0 and the max attenuation value within this transition range. |
+| Mirror pattern | Ability to mirror the vertical attenuation pattern. |
 
 **Pattern preview**
 

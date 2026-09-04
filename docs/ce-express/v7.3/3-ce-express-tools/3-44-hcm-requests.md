@@ -47,45 +47,18 @@ Each coordination request contains detailed information about the request and/or
 
 ![Image p242](../../../assets/images/ce-express/user-guide-v73/p242-img1.png)
 
-**Country from**
-
-Country of origin
-
-**Country to**
-
-Destination country
-
-**Registration number**
-
-Your assigned registration number used for your convenience (optional)
-
-**Registration date**
-
-Your date of registration of the coordination request, used for your convenience (optional)
-
-**Responsible person**
-
-Name of the responsible person (from HCM request file header)
-
-**Phone**
-
-Phone number from HCM request file header
-
-**Telefax**
-
-Telefax number from HCM request file header
-
-**Email**
-
-Email from HCM request file header
-
-**Number of records**
-
-Number of records from HCM request file header
-
-**Writing date**
-
-Writing date from HCM request file header
+| Field | Description |
+|---|---|
+| Country from | Country of origin. |
+| Country to | Destination country. |
+| Registration number | Your assigned registration number used for your convenience (optional). |
+| Registration date | Your date of registration of the coordination request, used for your convenience (optional). |
+| Responsible person | Name of the responsible person (from HCM request file header). |
+| Phone | Phone number from HCM request file header. |
+| Telefax | Telefax number from HCM request file header. |
+| Email | Email from HCM request file header. |
+| Number of records | Number of records from HCM request file header. |
+| Writing date | Writing date from HCM request file header. |
 
 **Status**
 
@@ -96,16 +69,17 @@ Current status of the coordination request. Different statuses are available:
 - Processing error. This shows that processing resulted in error.
 - Ready to send. This shows that outgoing request is ready to be sent. Usually, user may need to enter additional parameters required for coordination request or edit defaults before finishing coordination request.
 - Finished
-  
+
 Each request contains a toolbar of the following tools:
 
-- Download request file. downloads original coordination request file.
-- View request file. Shows content of the original request file.
-- View associated records. Shows current records associated with the request file. Usually, when incoming request is processed, all records are imported into the internal database but with time they may be deleted by another request, or changed. The same is valid for the records of outgoing requests – they may later be changed or deleted. This functionality shows current parameters of the imported (or exported) data.
-- View processing results. Opens calculation results that have been performed for the selected
-coordination request.
-- Recalculate. Restarts calculations for the selected coordination request.
-  
+| Tool | Description |
+|---|---|
+| Download request file | Downloads original coordination request file. |
+| View request file | Shows content of the original request file. |
+| View associated records | Shows current records associated with the request file. Usually, when incoming request is processed, all records are imported into the internal database but with time they may be deleted by another request, or changed. The same is valid for the records of outgoing requests – they may later be changed or deleted. This functionality shows current parameters of the imported (or exported) data. |
+| View processing results | Opens calculation results that have been performed for the selected coordination request. |
+| Recalculate | Restarts calculations for the selected coordination request. |
+
 Answer to coordination request contains the same parameters as the request.
 
 ## 3.1.44.2 Create new incoming coordination request
@@ -122,17 +96,11 @@ When coordination file is loaded map displays the records of the file with addit
 
 **Your data**
 
-**Calculation Name**
-
-Name of the calculation that will be displayed in Prediction history.
-
-**Registration Number**
-
-You can assign registration number for the coordination request. Optional.
-
-**Registration Date**
-
-You can assign here registration date for the coordination request. Optional.
+| Field | Description |
+|---|---|
+| Calculation Name | Name of the calculation that will be displayed in Prediction history. |
+| Registration Number | You can assign registration number for the coordination request. Optional. |
+| Registration Date | You can assign here registration date for the coordination request. Optional. |
 
 ![Image p245](../../../assets/images/ce-express/user-guide-v73/p245-img1.png)
 
@@ -142,25 +110,13 @@ File content section contains header information of the file as it is defined in
 
 **Trigger options**
 
-**Limit TD**
-
-If enabled, calculation case is logged into the report only if threshold degradation is greater than defined.
-
-**TD, dB >**
-
-Value of threshold degradation used as a trigger for logging calculation case into the report.
-
-**Limit Interference**
-
-If enabled, calculation case is logged into the report only if interference level is greater than defined. Can be used along with TD limit.
-
-**Interference level, dBW**
-
-Value of interference level used as a trigger for logging calculation case into the report.
-
-**Distance PTX to RX [km]**
-
-Distance between passive transmitter and receiver. In the case of passive receiver, calculation will be performed only if distance between passive transmitter and receiver is less than defined. Decision whether to include this calculation into the report will additionally depend on the rest of Trigger options.
+| Option | Description |
+|---|---|
+| Limit TD | If enabled, calculation case is logged into the report only if threshold degradation is greater than defined. |
+| TD, dB > | Value of threshold degradation used as a trigger for logging calculation case into the report. |
+| Limit Interference | If enabled, calculation case is logged into the report only if interference level is greater than defined. Can be used along with TD limit. |
+| Interference level, dBW | Value of interference level used as a trigger for logging calculation case into the report. |
+| Distance PTX to RX [km] | Distance between passive transmitter and receiver. In the case of passive receiver, calculation will be performed only if distance between passive transmitter and receiver is less than defined. Decision whether to include this calculation into the report will additionally depend on the rest of Trigger options. |
 
 Please note that all calculation cases resulted in errors will be logged into the report regardless of Trigger options.
 
@@ -188,7 +144,7 @@ For file with contents code D, the following steps are performed:
 - Search for records in the database that have the same coordination reference.
 - Delete found records in the database.
 - Create new coordination request record (answer).
-  
+
 For file with contents code O, the following steps are performed:
 
 - New coordination request record is created.
@@ -204,41 +160,20 @@ View processing results displays calculations performed on an incoming request f
 
 ![Image p247](../../../assets/images/ce-express/user-guide-v73/p247-img1.png)
 
-**Type**
-
-Type of station of the test record
-
-**Name**
-
-Name of station of the test record
-
-**Frequency**
-
-Combines frequency and frequency unit of the test record
-
-**Reference**
-
-Coordination reference of the test record
-
-**Original status**
-
-Status of coordination of the test record
-
-**Max TD**
-
-Maximum threshold degradation. In case of test TX record, it shows maximum threshold degradation cause by the transmitter to a receiver of the reference file. In case of test RX record, it shows threshold degradation of this particular receiver. For PTX or PRX test record, it shows maximum threshold degradation of either test or reference receiver.
-
-**Proposed Coord. Status**
-
-If Max TD is lower than 1 dB and original coordination status is B, software automatically sets proposed coordination status to C. This value will be inserted into the answer file.
-
-**Remarks**
-
-User can write separate remarks for each HCM record. This information will be added to the answer file.
+| Field | Description |
+|---|---|
+| Type | Type of station of the test record. |
+| Name | Name of station of the test record. |
+| Frequency | Combines frequency and frequency unit of the test record. |
+| Reference | Coordination reference of the test record. |
+| Original status | Status of coordination of the test record. |
+| Max TD | Maximum threshold degradation. In case of test TX record, it shows maximum threshold degradation cause by the transmitter to a receiver of the reference file. In case of test RX record, it shows threshold degradation of this particular receiver. For PTX or PRX test record, it shows maximum threshold degradation of either test or reference receiver. |
+| Proposed Coord. Status | If Max TD is lower than 1 dB and original coordination status is B, software automatically sets proposed coordination status to C. This value will be inserted into the answer file. |
+| Remarks | User can write separate remarks for each HCM record. This information will be added to the answer file. |
 
 ![Image p247](../../../assets/images/ce-express/user-guide-v73/p247-img2.png)
 
-Shows list of calculated stations against particulat test record.
+Shows list of calculated stations against particular test record.
 
 ![Image p248](../../../assets/images/ce-express/user-guide-v73/p248-img1.png)
 
@@ -254,21 +189,12 @@ Shows records that have at least one different parameter value. By clicking on t
 
 ![Image p249](../../../assets/images/ce-express/user-guide-v73/p249-img1.png)
 
-**Parameter name**
-
-Name of the parameter defined in Annex 2B of HCM-Agreement.
-
-**Database value**
-
-Value of the record stored in the database.
-
-**Received value**
-
-Value of the record in the received request file.
-
-**Error**
-
-Contains error message if error occurs while processing the record.
+| Field | Description |
+|---|---|
+| Parameter name | Name of the parameter defined in Annex 2B of HCM-Agreement. |
+| Database value | Value of the record stored in the database. |
+| Received value | Value of the record in the received request file. |
+| Error | Contains error message if error occurs while processing the record. |
 
 ![Image p249](../../../assets/images/ce-express/user-guide-v73/p249-img2.png)
 
@@ -324,49 +250,19 @@ This creates a coordination request containing an overall list of coordinated HC
 
 ![Image p253](../../../assets/images/ce-express/user-guide-v73/p253-img1.png)
 
-**Country from**
-
-Country of origin. It is defined in the settings of the user.
-
-**Country to**
-
-Target country, to which coordination request is to be sent.
-
-**Registration number**
-
-Optional identification of the coordination request.
-
-**Registration date**
-
-Optional registration date of the request.
-
-**Responsible person**
-
-Name, as defined in Annex 2B of HCM-Agreement. This field is automatically filled with information from user settings.
-
-**Phone**
-
-Phone number, as defined in Annex 2B of HCM-Agreement. This field is automatically filled with information from user settings.
-
-**Telefax**
-
-Telefax number, as defined in Annex 2B of HCM-Agreement. There is no such parameter in the user settings therefore it is not filled in automatically.
-
-**Email**
-
-Email, as defined in Annex 2B of HCM-Agreement. This field is automatically filled with information from user settings.
-
-**Number of records**
-
-Defined in Annex 2B of HCM-Agreement. This field is automatically calculated.
-
-**Writing date**
-
-Writing date, as defined in Annex 2B of HCM-Agreement. Date of the creation of coordination request is automatically written to this field.
-
-**Status**
-
-Status of coordination request
+| Field | Description |
+|---|---|
+| Country from | Country of origin. It is defined in the settings of the user. |
+| Country to | Target country, to which coordination request is to be sent. |
+| Registration number | Optional identification of the coordination request. |
+| Registration date | Optional registration date of the request. |
+| Responsible person | Name, as defined in Annex 2B of HCM-Agreement. This field is automatically filled with information from user settings. |
+| Phone | Phone number, as defined in Annex 2B of HCM-Agreement. This field is automatically filled with information from user settings. |
+| Telefax | Telefax number, as defined in Annex 2B of HCM-Agreement. There is no such parameter in the user settings therefore it is not filled in automatically. |
+| Email | Email, as defined in Annex 2B of HCM-Agreement. This field is automatically filled with information from user settings. |
+| Number of records | Defined in Annex 2B of HCM-Agreement. This field is automatically calculated. |
+| Writing date | Writing date, as defined in Annex 2B of HCM-Agreement. Date of the creation of coordination request is automatically written to this field. |
+| Status | Status of coordination request. |
 
 **Send email**
 

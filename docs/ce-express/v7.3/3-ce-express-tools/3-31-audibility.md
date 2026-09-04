@@ -4,17 +4,11 @@ Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p189-
 
 ![Image p190](../../../assets/images/ce-express/user-guide-v73/p190-img1.png)
 
-**Calculation name**
-
-Name of the calculation that will be displayed in Prediction history.
-
-**Resolution**
-
-Prediction raster cell size in meters.
-
-**Siren Template**
-
-Option to use the parameters from the template if the siren misses the required parameters.
+| Option | Description |
+|---|---|
+| Calculation name | Name of the calculation that will be displayed in Prediction history. |
+| Resolution | Prediction raster cell size in meters. |
+| Siren Template | Option to use the parameters from the template if the siren misses the required parameters. |
 
 **Results:**
 - **Audibility, dB**. The siren sound prediction tool calculates the sound pressure level (SPL) at various locations around a siren using **ISO 9613-2** as the standard for sound propagation. The results are represented in **decibels (dB)**, showing how loud the siren is at different distances and conditions. Each location's sound pressure level is affected by several factors:

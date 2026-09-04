@@ -9,35 +9,20 @@ the organization.
 
 ![Image p074](../../../assets/images/ce-express/user-guide-v73/p074-img1.png)
 
-**Calculation status**
-Status of the current calculation.
-
-**Log**
-The tool shows the progress of a prediction in the Task log section.
-
-**Results**
-Select which prediction results you want to add to the Map view and manage in the layers tool.
-
-**Export**
-Exports the selected prediction results layer as a TIF raster.
-
-**Open**
-Opens the selected prediction results layer.
+| Field | Description |
+|---|---|
+| Calculation status | Status of the current calculation. |
+| Log | The tool shows the progress of a prediction in the Task log section. |
+| Results | Select which prediction results you want to add to the Map view and manage in the layers tool. |
+| Export | Exports the selected prediction results layer as a TIF raster. |
+| Open | Opens the selected prediction results layer. |
 
 Upon hovering the mouse over a prediction result item, options for it appear.
 
 ![Image p075](../../../assets/images/ce-express/user-guide-v73/p075-img5.png)
 
-**Rename layer**
-
-![Image p075](../../../assets/images/ce-express/user-guide-v73/p075-img3.png)
-
-**Share**
-Mouse over the calculation you want to share with the organization members and click *Share calculation task* button.
-
-![Image p075](../../../assets/images/ce-express/user-guide-v73/p075-img4.png)
-
-**Delete**
-Deletes the calculation from the Prediction History widget.
-
-![Image p075](../../../assets/images/ce-express/user-guide-v73/p075-img1.png)
+| Option | Description |
+|---|---|
+| Rename layer | ![icon](../../../assets/images/ce-express/user-guide-v73/p075-img3.png) |
+| Share | Mouse over the calculation you want to share with the organization members and click *Share calculation task* button. ![icon](../../../assets/images/ce-express/user-guide-v73/p075-img4.png) |
+| Delete | Deletes the calculation from the Prediction History widget. ![icon](../../../assets/images/ce-express/user-guide-v73/p075-img1.png) |

@@ -6,71 +6,47 @@ Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p211-
 
 **Calculation settings**
 
-**Calculation Name**
-
-Link Prediction identification.
-
-**Link Template**
-
-The template will fill all empty or not specified fields with default values that are not necessary for predictions.
+| Option | Description |
+|---|---|
+| Calculation Name | Link Prediction identification. |
+| Link Template | The template will fill all empty or not specified fields with default values that are not necessary for predictions. |
 
 ![Image p212](../../../assets/images/ce-express/user-guide-v73/p212-img1.png)
 
 **Interference**
 
-**Calculate Interference**
-
-If checked will calculate the interference of multiple links.
-
-**Use interference radius**
-
-If enabled, also allows to specify a certain radius from either link endpoint. Points outside this range will not be included in the calculation, speeding up the calculation process. If disabled all links will be used in the calculations.
-
-**Interference creation limit**
-
-The power threshold below which no interference for links will be calculated.
-
-**Interference analysis limit**
-
-The power threshold below which no links with lesser interference will be included in the analysis.
-
-**Tx/Rx filter discrimination**
-
-The ability of filters in a duplex system to effectively separate and prevent interference between Tx and Rx frequencies. No dBm greater than this will be accounted for in the calculation
+| Option | Description |
+|---|---|
+| Calculate Interference | If checked will calculate the interference of multiple links. |
+| Use interference radius | If enabled, also allows to specify a certain radius from either link endpoint. Points outside this range will not be included in the calculation, speeding up the calculation process. If disabled all links will be used in the calculations. |
+| Interference creation limit | The power threshold below which no interference for links will be calculated. |
+| Interference analysis limit | The power threshold below which no links with lesser interference will be included in the analysis. |
+| Tx/Rx filter discrimination | The ability of filters in a duplex system to effectively separate and prevent interference between Tx and Rx frequencies. No dBm greater than this will be accounted for in the calculation. |
 
 ![Image p213](../../../assets/images/ce-express/user-guide-v73/p213-img1.png)
 
 **Field Margin**
 
-**Include Field Margin in Power Budget**
-
-If checked, it will take into account the specified field margin for Power Budget calculations.
-
-**Thermal Fade Margin**
-
-The threshold below which thermal fade will not be calculated
+| Option | Description |
+|---|---|
+| Include Field Margin in Power Budget | If checked, it will take into account the specified field margin for Power Budget calculations. |
+| Thermal Fade Margin | The threshold below which thermal fade will not be calculated. |
 
 ![Image p213](../../../assets/images/ce-express/user-guide-v73/p213-img2.png)
 
 **Tropospheric scatter**
 
-**Calculate Tropospheric Scatter**
-
-Enable/Disable this option.
-
-**Troposcatter time percentage**
-
-Time Percentage in %.
+| Option | Description |
+|---|---|
+| Calculate Tropospheric Scatter | Enable/Disable this option. |
+| Troposcatter time percentage | Time Percentage in %. |
 
 ![Image p214](../../../assets/images/ce-express/user-guide-v73/p214-img1.png)
 
-**Method**
-
-The standard used to calculate the performance metric.
-
-**Statistis**
-
-A selection indicating if the metric is calculated based on yearly data or the data from the month with the poorest performance.
+| Option | Description |
+|---|---|
+| Method | The standard used to calculate the performance metric. |
+| Statistics | A selection indicating if the metric is calculated based on yearly data or the data from the month with the poorest performance. |
 
 ## 3.1.37.1 Link prediction results
 
@@ -78,27 +54,20 @@ After calculations, you will be able to view Profile, Interference, Performance 
 
 ![Image p215](../../../assets/images/ce-express/user-guide-v73/p215-img1.png)
 
-**Carrier**
-
-Select different carriers to view the results for each one of them.
-
-**Diversity improvement**
-
-To alleviate the effect of multipath fading, various propagation diversity techniques are employed.
-
-**Protection improvement**
-
-The protection improvement factor is a ratio between unprotected and protected unavailability.
-
-**Profile** - The Link Profile behaves in virtually the same way as a regular profile.
+| Result | Description |
+|---|---|
+| Carrier | Select different carriers to view the results for each one of them. |
+| Diversity improvement | To alleviate the effect of multipath fading, various propagation diversity techniques are employed. |
+| Protection improvement | The protection improvement factor is a ratio between unprotected and protected unavailability. |
+| Profile | The Link Profile behaves in virtually the same way as a regular profile. |
 
 ![Image p216](../../../assets/images/ce-express/user-guide-v73/p216-img1.png)
 
-**Power Budget** - the calculation of the balance between transmitted power, power losses in the system, and receiver sensitivity in a communication system.
-
-**Path Loss** - the reduction in signal strength as it travels from the transmitter to the receiver.
-
-**Interference** - the undesired impact of one signal on another, leading to potential signal degradation. 
+| Result | Description |
+|---|---|
+| Power Budget | The calculation of the balance between transmitted power, power losses in the system, and receiver sensitivity in a communication system. |
+| Path Loss | The reduction in signal strength as it travels from the transmitter to the receiver. |
+| Interference | The undesired impact of one signal on another, leading to potential signal degradation. |
 
 ![Image p216](../../../assets/images/ce-express/user-guide-v73/p216-img2.png)
 
@@ -115,11 +84,11 @@ In this tab, you will be able to view interference Power Budget, Path Loss, Prof
 
 ![Image p217](../../../assets/images/ce-express/user-guide-v73/p217-img3.png)
 
-**Power Budget** - the calculation of the balance between transmitted power, power losses in the system, and receiver sensitivity in a communication system.
-
-**Path Loss** - the reduction in signal strength as it travels from the transmitter to the receiver.
-
-**Spectrum Mask** - the method used to assess the usage efficiency of a frequency spectrum in a telecommunications system, involving the measurement of how much and how effectively different frequencies are being utilized.
+| Result | Description |
+|---|---|
+| Power Budget | The calculation of the balance between transmitted power, power losses in the system, and receiver sensitivity in a communication system. |
+| Path Loss | The reduction in signal strength as it travels from the transmitter to the receiver. |
+| Spectrum Mask | The method used to assess the usage efficiency of a frequency spectrum in a telecommunications system, involving the measurement of how much and how effectively different frequencies are being utilized. |
 
 ![Image p218](../../../assets/images/ce-express/user-guide-v73/p218-img1.png)
 

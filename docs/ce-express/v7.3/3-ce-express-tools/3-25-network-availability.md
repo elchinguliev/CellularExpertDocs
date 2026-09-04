@@ -7,13 +7,16 @@ This tool is designed to check if coverage exists at a chosen location. Define t
 ![Image p177](../../../assets/images/ce-express/user-guide-v73/p177-img2.png)
 
 The location can be defined manually in the X/Y fields or by clicking on the map. As a result, detailed information about possible connections is displayed:
-- Cell name – cell identification.
-- Signal strength – signal value in dBm.
-- Azimuth – direction from Receiver to Transmitter.
-- Distance – distance between Transmitter and Receiver.
-- CPE count – cpe count in a cell.
-- CPE throughput – total cpe throughput in a cell.
-- Calculate profile – option to open a detailed profile between Transmitter and Receiver.
+
+| Column | Description |
+|---|---|
+| Cell name | Cell identification. |
+| Signal strength | Signal value in dBm. |
+| Azimuth | Direction from Receiver to Transmitter. |
+| Distance | Distance between Transmitter and Receiver. |
+| CPE count | CPE count in a cell. |
+| CPE throughput | Total CPE throughput in a cell. |
+| Calculate profile | Option to open a detailed profile between Transmitter and Receiver. |
 
 In addition, the lines between Transmitter and Receiver are displayed on the map.
 

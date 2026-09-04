@@ -12,53 +12,26 @@ Once expanded, an existing network item displays the following information:
 
 ![Image p054](../../../assets/images/ce-express/user-guide-v73/p054-img1.png)
 
-**Feature type**
-
-The feature type associated with the network.
-
-**Feature count**
-
-Total feature count in the network.
-
-**Uncalculated features**
-
-Number of [Network objects](#kw:object-types:ce-express-network-objects) that have not yet been added to a calculation.
-
-**Calculation status**
-
-Status of the current calculation.
-
-**Last calculated**
-
-The last time the calculation was started.
-
-**Results**
-
-Select which [prediction results](#kw:viewing-results:ce-express-rf-prediction) you want to add to the Map view and manage in the layers tool.
-
-**Export**
-
-Exports the selected [prediction results](#kw:viewing-results:ce-express-rf-prediction) layer as a TIF raster.
-
-**Open**
-
-Opens the selected [prediction results](#kw:viewing-results:ce-express-rf-prediction) layer.
+| Field | Description |
+|---|---|
+| Feature type | The feature type associated with the network. |
+| Feature count | Total feature count in the network. |
+| Uncalculated features | Number of [Network objects](#kw:object-types:ce-express-network-objects) that have not yet been added to a calculation. |
+| Calculation status | Status of the current calculation. |
+| Last calculated | The last time the calculation was started. |
+| Results | Select which [prediction results](#kw:viewing-results:ce-express-rf-prediction) you want to add to the Map view and manage in the layers tool. |
+| Export | Exports the selected [prediction results](#kw:viewing-results:ce-express-rf-prediction) layer as a TIF raster. |
+| Open | Opens the selected [prediction results](#kw:viewing-results:ce-express-rf-prediction) layer. |
 
 Upon hovering the mouse over a network item, options for it appear.
 
 ![Image p055](../../../assets/images/ce-express/user-guide-v73/p055-img1.png)
 
-**Edit Network**
-
-![Image p055](../../../assets/images/ce-express/user-guide-v73/p055-img2.png)
-
-**Network publishing settings**
-
-![Image p055](../../../assets/images/ce-express/user-guide-v73/p055-img3.png)
-
-**Delete Network**
-
-![Image p055](../../../assets/images/ce-express/user-guide-v73/p055-img4.png)
+| Option | Icon |
+|---|---|
+| Edit Network | ![icon](../../../assets/images/ce-express/user-guide-v73/p055-img2.png) |
+| Network publishing settings | ![icon](../../../assets/images/ce-express/user-guide-v73/p055-img3.png) |
+| Delete Network | ![icon](../../../assets/images/ce-express/user-guide-v73/p055-img4.png) |
 
 ## Add network
 
@@ -66,27 +39,13 @@ To create a network press the *New network* button.
 
 ![Image p056](../../../assets/images/ce-express/user-guide-v73/p056-img1.png)
 
-**Network name**
-
-The name of the network.
-
-**Feature type**
-
-The type of feature to be included in the network.
-
-**Feature filter**
-
-- By attribute – Include features in the network by selecting an attribute and inputting the required
-attribute values. The features with these values will then be filtered and included in the network.
-- From selection – Include features in the network from the currently selected items.
-
-**Attribute**
-
-The attribute field to be filtered by.
-
-**Filter attribute values**
-
-Required values for the filter attribute. Features containing ANY of the entered values will be included.
+| Option | Description |
+|---|---|
+| Network name | The name of the network. |
+| Feature type | The type of feature to be included in the network. |
+| Feature filter | By attribute – include features in the network by selecting an attribute and inputting the required attribute values; features with these values are filtered and included in the network. From selection – include features in the network from the currently selected items. |
+| Attribute | The attribute field to be filtered by. |
+| Filter attribute values | Required values for the filter attribute. Features containing ANY of the entered values will be included. |
 
 ## Network publishing setting
 

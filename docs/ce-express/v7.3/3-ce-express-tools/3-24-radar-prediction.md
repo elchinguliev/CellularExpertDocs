@@ -6,31 +6,16 @@ Radar Prediction is a tool that lets you calculate predictions on radars. Depend
 
 ![Image p176](../../../assets/images/ce-express/user-guide-v73/p176-img2.png)
 
-**Calculation settings**
+### Calculation settings
 
-**Calculation name**
-
-Name of the calculation that will be displayed in Prediction history.
-
-**Resolution**
-
-Prediction raster cell size in meters.
-
-**Best server count**
-
-Option to calculate up to 5 best servers.
-
-**Radar template**
-
-If the radar misses the required parameters, the parameters from the template will be used.
-
-**Target cross-section, m^2**
-
-This parameter describes the target size in square meters.
-
-**Selected**
-
-Current amount of selected radars.
+| Option | Description |
+|---|---|
+| Calculation name | Name of the calculation that will be displayed in Prediction history. |
+| Resolution | Prediction raster cell size in meters. |
+| Best server count | Option to calculate up to 5 best servers. |
+| Radar template | If the radar misses the required parameters, the parameters from the template will be used. |
+| Target cross-section, m^2 | This parameter describes the target size in square meters. |
+| Selected | Current amount of selected radars. |
 
 **Results:**
 - Field Strength raster in dBm

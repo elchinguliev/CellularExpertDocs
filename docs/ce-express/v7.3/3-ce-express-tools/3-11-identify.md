@@ -20,14 +20,11 @@ Click on the map to preview the signal value.
 
 ![Image p126](../../../assets/images/ce-express/user-guide-v73/p126-img1.png)
 
-**Identify settings**
+### Identify settings
 
-**Real time**
-
-When enabled – you do not need to click on the map to identify the value of the raster, the value is automatically updated as you hover over different pixels of the calculation result.
-
-**Coordinates**
-
-To display the coordinates, click on your desired location on the map.
+| Option | Description |
+|---|---|
+| Real time | When enabled – you do not need to click on the map to identify the value of the raster, the value is automatically updated as you hover over different pixels of the calculation result. |
+| Coordinates | To display the coordinates, click on your desired location on the map. |
 
 ![Image p126](../../../assets/images/ce-express/user-guide-v73/p126-img2.png)

@@ -10,129 +10,52 @@ This tool generates a detailed profile between two points. The locations From (t
 
 ![Image p142](../../../assets/images/ce-express/user-guide-v73/p142-img3.png)
 
-**Calculation settings**
+### Calculation settings
 
-**Reference Fresnel clearance**
-
-Percentage by which the primary Fresnel zones will be scaled up or down thus creating a secondary Fresnel zone. The percentage must be in the range of 1 to 200 %.
-
-**Lock transmitter location**
-
-Toggling the switch will enable the Locked Transmitter location, which will modify only the receiver’s positioning when drawing the profile on the map.
-
-**Prediction model**
-
-Prediction model list.
-
-**Transmitter template**
-
-The template that is used for transmitter’s default values.
-
-**Receiver template**
-
-The template that is used for receiver’s default values.
+| Option | Description |
+|---|---|
+| Reference Fresnel clearance | Percentage by which the primary Fresnel zones will be scaled up or down thus creating a secondary Fresnel zone. The percentage must be in the range of 1 to 200%. |
+| Lock transmitter location | Toggling the switch will enable the Locked Transmitter location, which will modify only the receiver's positioning when drawing the profile on the map. |
+| Prediction model | Prediction model list. |
+| Transmitter template | The template that is used for transmitter's default values. |
+| Receiver template | The template that is used for receiver's default values. |
 
 ![Image p143](../../../assets/images/ce-express/user-guide-v73/p143-img1.png)
 
-**Transmitter**
+### Transmitter
 
-**Snapped feature**
-
-A feature from which the profile will be drawn. The parameters of the feature will be taken into calculation if the feature is snapped to by the [profile tool](#kw:when-to-use-the-profile-tool:ce-express-profile).
-
-**X**
-
-X coordinate of the transmitter.
-
-**Y**
-
-Y coordinate of the transmitter.
-
-**Height**
-
-Height above the ground in meters.
-
-**Azimuth towards receiver**
-
-Enabled by default. When enabled, the transmitter’s azimuth automatically set towards the receiver. Disabling this option allows the user to enter a static azimuth value for the transmitter.
-
-**Downtilt towards receiver**
-
-Enabled by default. When enabled, the transmitter’s tilt is automatically set towards the receiver. Disabling this option allows the user to enter a static tilt value for the transmitter.
-
-**El. Downtilt**
-
-Electrical downtilt value for the transmitter, in degrees.
-
-**Antenna**
-
-Antenna that will be used in the prediction calculations.
-
-**Frequency**
-
-The frequency value in MHz.
-
-**Bandwidth**
-
-Value in MHz. Required for 4G and 5G technologies. For other technologies define the value as 0.015.
-
-**Power**
-
-Transmitter power in dBm. If calculate EIRP is set to false in the workspace settings, the power value is assumed to be EIRP.
-
-**Misc. loss**
-
-Miscellaneous loss value in dB.
-
-**TX MIMO**
-
-Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
-
-**RX MIMO**
-
-Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.
-
-**Subcarrier spacing**
-
-Value in kHz. Required for 4G and 5G technologies. For other technologies define value 15.
+| Option | Description |
+|---|---|
+| Snapped feature | A feature from which the profile will be drawn. The parameters of the feature will be taken into calculation if the feature is snapped to by the [profile tool](#kw:when-to-use-the-profile-tool:ce-express-profile). |
+| X | X coordinate of the transmitter. |
+| Y | Y coordinate of the transmitter. |
+| Height | Height above the ground in meters. |
+| Azimuth towards receiver | Enabled by default. When enabled, the transmitter's azimuth automatically set towards the receiver. Disabling this option allows the user to enter a static azimuth value for the transmitter. |
+| Downtilt towards receiver | Enabled by default. When enabled, the transmitter's tilt is automatically set towards the receiver. Disabling this option allows the user to enter a static tilt value for the transmitter. |
+| El. Downtilt | Electrical downtilt value for the transmitter, in degrees. |
+| Antenna | Antenna that will be used in the prediction calculations. |
+| Frequency | The frequency value in MHz. |
+| Bandwidth | Value in MHz. Required for 4G and 5G technologies. For other technologies define the value as 0.015. |
+| Power | Transmitter power in dBm. If calculate EIRP is set to false in the workspace settings, the power value is assumed to be EIRP. |
+| Misc. loss | Miscellaneous loss value in dB. |
+| TX MIMO | Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64. |
+| RX MIMO | Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64. |
+| Subcarrier spacing | Value in kHz. Required for 4G and 5G technologies. For other technologies define value 15. |
 
 ![Image p145](../../../assets/images/ce-express/user-guide-v73/p145-img1.png)
 
-**Receiver**
+### Receiver
 
-**X**
-
-X coordinate of the receiver.
-
-**Y**
-
-Y coordinate of the receiver.
-
-**Height**
-
-Receiver height above the receiver reference height selected in the workspace settings.
-
-**Azimuth towards transmitter**
-
-Enabled by default. When enabled, the receiver’s azimuth automatically set towards the transmitter.
-
-Disabling this option allows the user to enter a static azimuth value for the receiver.
-
-**Downtilt towards transmitter**
-
-Enabled by default. When enabled, the receiver’s tilt is automatically set towards the transmitter. Disabling this option allows the user to enter a static tilt value for the receiver.
-
-**Antenna**
-
-Antenna that will be used in the prediction calculations.
-
-**Power**
-
-A power that the receiver possesses.
-
-**Misc. loss**
-
-Miscellaneous loss value in dB.
+| Option | Description |
+|---|---|
+| X | X coordinate of the receiver. |
+| Y | Y coordinate of the receiver. |
+| Height | Receiver height above the receiver reference height selected in the workspace settings. |
+| Azimuth towards transmitter | Enabled by default. When enabled, the receiver's azimuth automatically set towards the transmitter. Disabling this option allows the user to enter a static azimuth value for the receiver. |
+| Downtilt towards transmitter | Enabled by default. When enabled, the receiver's tilt is automatically set towards the transmitter. Disabling this option allows the user to enter a static tilt value for the receiver. |
+| Antenna | Antenna that will be used in the prediction calculations. |
+| Power | A power that the receiver possesses. |
+| Misc. loss | Miscellaneous loss value in dB. |
 
 ## 3.1.16.2 Draw profile
 
@@ -142,7 +65,7 @@ The profile also lets you snap to different [network objects](#kw:object-types:c
 
 The profile is automatically recalculated when a new parameter is defined.
 Upon the selection of a second point, these geometries will be created between the points:
-- LOS (green) - the section until the first obstruction in the profile’s way
+- LOS (green) - the section until the first obstruction in the profile's way
 - OLOS (yellow) – the section of profile that is obstructed by clutter
 - NLOS (red) – the section of profile that is obstructed by buildings or earth
 - Rx (purple) – the receiver point
@@ -173,4 +96,3 @@ The resulting Profile report will look similar to this example:
 ![Image p149](../../../assets/images/ce-express/user-guide-v73/p149-img1.png)
 
 ![Image p150](../../../assets/images/ce-express/user-guide-v73/p150-img1.png)
-

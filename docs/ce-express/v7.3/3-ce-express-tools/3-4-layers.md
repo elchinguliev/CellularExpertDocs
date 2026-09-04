@@ -23,41 +23,32 @@ see these layers unless they also add them manually.
 
 ![Image p061](../../../assets/images/ce-express/user-guide-v73/p061-img1.png)
 
-**From URL / Portal ItemID**
-Allows you to add a layer directly by entering its URL or Portal Item ID, then selecting Add.
+| Option | Description |
+|---|---|
+| From URL / Portal ItemID | Allows you to add a layer directly by entering its URL or Portal Item ID, then selecting Add. |
 
 **Search criteria**
 
-**My organization**
-Limits search results to layers shared within your organization.
-
-**Owned by me**
-Shows only layers you own.
-
-**Sort by**
-Determines the order of search results (e.g., by view count or date).
+| Option | Description |
+|---|---|
+| My organization | Limits search results to layers shared within your organization. |
+| Owned by me | Shows only layers you own. |
+| Sort by | Determines the order of search results (e.g., by view count or date). |
 
 ## 3.1.4.2 Features
 
 ![Image p062](../../../assets/images/ce-express/user-guide-v73/p062-img1.png)
 
-**Rearrange layers**
-Allows you to reorder layers by dragging.
+| Element | Description |
+|---|---|
+| Rearrange layers | Allows you to reorder layers by dragging. |
+| Turn on/off the layer | Turn on or off a layer in the Map view: ![icon](../../../assets/images/ce-express/user-guide-v73/p062-img3.png) the layer is visible, ![icon](../../../assets/images/ce-express/user-guide-v73/p062-img4.png) the layer is not visible. |
+| Layer symbol | Preview layer symbol. Click on it to edit the symbol. |
+| Expand layer | Previews and manages the layer opacity and map scale ![icon](../../../assets/images/ce-express/user-guide-v73/p063-img2.png). |
 
 ![Image p062](../../../assets/images/ce-express/user-guide-v73/p062-img2.png)
 
-**Turn on/off the layer**
-Turn on or off a layer in the Map view
-- The layer is visible - ![icon](../../../assets/images/ce-express/user-guide-v73/p062-img3.png)
-- The layer is not visible - ![icon](../../../assets/images/ce-express/user-guide-v73/p062-img4.png)
-
-**Layer symbol**
-Preview layer symbol. Click on it to edit the symbol.
-
 ![Image p063](../../../assets/images/ce-express/user-guide-v73/p063-img1.png)
-
-**Expand layer**
-Previews and manages the layer opacity and map scale ![icon](../../../assets/images/ce-express/user-guide-v73/p063-img2.png).
 
 ![Image p063](../../../assets/images/ce-express/user-guide-v73/p063-img3.png)
 
@@ -98,11 +89,10 @@ Choose a visual variable. The choices are:
 
 ![Image p066](../../../assets/images/ce-express/user-guide-v73/p066-img1.png)
 
-**Accept**
-Saves all changes.
-
-**Cancel**
-Discards all changes and closes the dialog.
+| Button | Description |
+|---|---|
+| Accept | Saves all changes. |
+| Cancel | Discards all changes and closes the dialog. |
 
 ## 3.1.4.3 Prediction results
 
@@ -111,18 +101,13 @@ Layers tool.
 
 ![Image p067](../../../assets/images/ce-express/user-guide-v73/p067-img1.png)
 
-**Rearrange layers**
-Allows you to reorder layers by dragging.
+| Element | Description |
+|---|---|
+| Rearrange layers | Allows you to reorder layers by dragging. |
+| Turn on/off the layer | Turn on or off a layer in the Map view: ![icon](../../../assets/images/ce-express/user-guide-v73/p067-img3.png) the layer is visible, ![icon](../../../assets/images/ce-express/user-guide-v73/p067-img4.png) the layer is not visible. |
+| Expand layer | Expand the layer so you can see and edit the symbology. |
 
 ![Image p067](../../../assets/images/ce-express/user-guide-v73/p067-img2.png)
-
-**Turn on/off the layer**
-Turn on or off a layer in the Map view
-- The layer is visible - ![icon](../../../assets/images/ce-express/user-guide-v73/p067-img3.png)
-- The layer is not visible - ![icon](../../../assets/images/ce-express/user-guide-v73/p067-img4.png)
-
-**Expand layer**
-Expand the layer so you can see and edit the symbology.
 
 For these types of layers, the visualization can be edited in the following ways:
 - Add threshold using *Add color band* button ![icon](../../../assets/images/ce-express/user-guide-v73/p068-img1.png)
@@ -137,25 +122,13 @@ Upon hovering the mouse over a prediction result item, options for it appear.
 
 ![Image p068](../../../assets/images/ce-express/user-guide-v73/p068-img6.png)
 
-**Rename layer**
-
-![Image p069](../../../assets/images/ce-express/user-guide-v73/p069-img1.png)
-
-**Publish to portal**
-
-![Image p069](../../../assets/images/ce-express/user-guide-v73/p069-img2.png)
-
-**Zoom to layer**
-
-![Image p069](../../../assets/images/ce-express/user-guide-v73/p069-img3.png)
-
-**Compare**
-
-![Image p069](../../../assets/images/ce-express/user-guide-v73/p069-img4.png)
-
-**Remove layer**
-
-![Image p069](../../../assets/images/ce-express/user-guide-v73/p069-img5.png)
+| Option | Icon |
+|---|---|
+| Rename layer | ![icon](../../../assets/images/ce-express/user-guide-v73/p069-img1.png) |
+| Publish to portal | ![icon](../../../assets/images/ce-express/user-guide-v73/p069-img2.png) |
+| Zoom to layer | ![icon](../../../assets/images/ce-express/user-guide-v73/p069-img3.png) |
+| Compare | ![icon](../../../assets/images/ce-express/user-guide-v73/p069-img4.png) |
+| Remove layer | ![icon](../../../assets/images/ce-express/user-guide-v73/p069-img5.png) |
 
 ## 3.1.4.3.1 Presets
 

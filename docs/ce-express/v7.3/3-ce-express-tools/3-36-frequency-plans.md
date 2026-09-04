@@ -39,52 +39,32 @@ and then select Create manually.
 
 **General**
 
-**Name**
-
-Frequency Plan identification
-
-**Duplex**
-
-Specifies whether the signal can be transmitted and received simultaneously. Changing the duplex mode will affect the carrier selection.
+| Option | Description |
+|---|---|
+| Name | Frequency Plan identification. |
+| Duplex | Specifies whether the signal can be transmitted and received simultaneously. Changing the duplex mode will affect the carrier selection. |
 
 **Generate channels**
 
-**Low/high frequency**
-
-Frequencies in MHz.
-
-**Carrier spacing**
-
-The frequency separation between adjacent carrier frequencies in a communication system, ensuring non- interference between carriers.
-
-**Duplex spacing**
-
-Frequency separation between the transmit and receive bands in a two-way communication system.
-
-**Index of first channel**
-
-The numbering start point for generated channels.
-
-**Generate channels**
-
-Creates a list of channels based on the inputs.
+| Option | Description |
+|---|---|
+| Low/high frequency | Frequencies in MHz. |
+| Carrier spacing | The frequency separation between adjacent carrier frequencies in a communication system, ensuring non-interference between carriers. |
+| Duplex spacing | Frequency separation between the transmit and receive bands in a two-way communication system. |
+| Index of first channel | The numbering start point for generated channels. |
+| Generate channels | Creates a list of channels based on the inputs. |
 
 **Channels**
 
-**Add channel**
-
-Allows manual addition of individual channels to the frequency plan.
+| Option | Description |
+|---|---|
+| Add channel | Allows manual addition of individual channels to the frequency plan. |
 
 ![Image p210](../../../assets/images/ce-express/user-guide-v73/p210-img1.png)
 
-**Channel**
-
-Channel identifier.
-
-**Frequency**
-
-Channel's frequency value in MHz.
-
-Add channel using *Add channel below* button ![icon](../../../assets/images/ce-express/user-guide-v73/p210-img2.png)
-
-Delete channel using *Delete channel* button ![icon](../../../assets/images/ce-express/user-guide-v73/p211-img3.png)
+| Option | Description |
+|---|---|
+| Channel | Channel identifier. |
+| Frequency | Channel's frequency value in MHz. |
+| Add channel below | Adds a new channel below the selected one, using the *Add channel below* button ![icon](../../../assets/images/ce-express/user-guide-v73/p210-img2.png). |
+| Delete channel | Deletes the channel, using the *Delete channel* button ![icon](../../../assets/images/ce-express/user-guide-v73/p211-img3.png). |

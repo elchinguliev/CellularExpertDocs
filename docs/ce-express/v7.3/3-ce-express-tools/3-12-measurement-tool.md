@@ -16,18 +16,16 @@ Click once to finish line segment. Double click to finish drawing.
 
 **Segment lengths**
 
-**Total distance**
-
-Total length of all line segments.
-
-**Segment X**
-
-Shows the length of the line segment.
+| Field | Description |
+|---|---|
+| Total distance | Total length of all line segments. |
+| Segment X | Shows the length of the line segment. |
 
 **Angles**
 
-**Segment 1 → 2**
-Angles between line segments.
+| Field | Description |
+|---|---|
+| Segment 1 → 2 | Angles between line segments. |
 
 ## 3.1.12.2 Area
 
@@ -35,10 +33,10 @@ Calculates the surface area and perimeter of the area.
 
 ![Image p128](../../../assets/images/ce-express/user-guide-v73/p128-img1.png)
 
-**Area**
-Total enclosed surface.
-**Perimeter**
-Total boundary length.
+| Field | Description |
+|---|---|
+| Area | Total enclosed surface. |
+| Perimeter | Total boundary length. |
 
 ## 3.1.12.3 Offset
 

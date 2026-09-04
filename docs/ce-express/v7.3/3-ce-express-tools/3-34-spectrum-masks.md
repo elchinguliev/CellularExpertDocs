@@ -20,17 +20,11 @@ To create a spectrum mask, press the New spectrum mask button.
 
 **Mask attributes**
 
-**Mask Name**
-
-Spectrum mask identification.
-
-**Add point**
-
-Add spectrum mask point (frequency and attenuation).
-
-Adds a new mask point to the spectrum mask
-
-Deletes mask point.
+| Option | Description |
+|---|---|
+| Mask Name | Spectrum mask identification. |
+| Add point | Adds a new spectrum mask point (frequency and attenuation). |
+| Delete point | Deletes mask point. |
 
 **Spectrum mask**
 

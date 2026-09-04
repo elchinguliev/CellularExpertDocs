@@ -352,15 +352,12 @@ recalculating.
 
 Preview the results:
 
-**Minimum Receiver Height** – the receiver height in meters, which ensure visibility between
-transmitter and receiver.
-
-**Line of Sight** – Visibility condition, if value 1 – Visible, if value 0 – Not Visible.
-
-**Clearance** – [Fresnel zone](#kw:fresnel-zone-clearance:ce-express-profile) obstruction in meters, if value is negative – [Fresnel zone](#kw:fresnel-zone-clearance:ce-express-profile) is
-obstructed by X meters.
-
-**Best Server** – Cell Identification, which has highest Clearence value.
+| Result | Description |
+|---|---|
+| Minimum Receiver Height | The receiver height in meters, which ensure visibility between transmitter and receiver. |
+| Line of Sight | Visibility condition: `1` – Visible, `0` – Not Visible. |
+| Clearance | [Fresnel zone](#kw:fresnel-zone-clearance:ce-express-profile) obstruction in meters. If the value is negative, the Fresnel zone is obstructed by that many meters. |
+| Best Server | Cell identification of the cell with the highest Clearance value. |
 
 ![Image p16](../../assets/images/ce-express/training-03/p016-img3.png)
 

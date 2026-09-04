@@ -145,7 +145,7 @@ Then determine the group's access for this table, choosing from **Restrict** / *
 
 ## System tables
 
-If a table is marked as a system table (using `inv3d_system` in `inv3d_tables.parent_name` — see [Table inv3d_tables](4-inventory3d-installation-and-database.md#table-inv3d_tables)), administrators can edit it directly in the webapp using **System Tables** from the **Settings** menu:
+If a table is marked as a system table (using `inv3d_system` in `inv3d_tables.parent_name` — see [Table inv3d_tables](9-4-inventory3d-installation-and-database.md#table-inv3d_tables)), administrators can edit it directly in the webapp using **System Tables** from the **Settings** menu:
 
 ![Settings menu with System Tables highlighted](../../../assets/images/ce-express/admin-guide-v72/p052-img1.png)
 

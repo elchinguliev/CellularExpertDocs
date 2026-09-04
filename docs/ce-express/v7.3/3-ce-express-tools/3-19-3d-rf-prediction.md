@@ -11,26 +11,11 @@ You can set custom colors for your polygon using color bands. After the calculat
 
 ![Image p169](../../../assets/images/ce-express/user-guide-v73/p169-img1.png)
 
-**Resolution**
-
-Prediction raster cell size in meters.
-
-**Vertical resolution**
-
-Vertical prediction step size in meters.
-
-**Min Z**
-
-Lowest height level, in meters, at which the prediction is calculated.
-
-**Max Z**
-
-Highest height level, in meters, up to which the prediction is calculated.
-
-**Cell template**
-
-If the cell is missing the required parameters, the parameters from the template will be used.
-
-**Repeater template**
-
-If the repeater is missing the required parameters, the parameters from the template will be used.
+| Option | Description |
+|---|---|
+| Resolution | Prediction raster cell size in meters. |
+| Vertical resolution | Vertical prediction step size in meters. |
+| Min Z | Lowest height level, in meters, at which the prediction is calculated. |
+| Max Z | Highest height level, in meters, up to which the prediction is calculated. |
+| Cell template | If the cell is missing the required parameters, the parameters from the template will be used. |
+| Repeater template | If the repeater is missing the required parameters, the parameters from the template will be used. |

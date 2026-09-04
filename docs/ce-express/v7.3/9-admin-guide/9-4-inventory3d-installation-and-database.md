@@ -70,9 +70,9 @@ The main folders and files are:
 - Folders `images` or `data` — for attachments and images taken from mobile devices.
 - Folder `deleted` — for files that were attached to objects and have been removed by a user with the Remove Record tool.
 - Folder `logs` — log files are created here for debugging; debugging is enabled in the `conf.inc` file.
-- Folder `exporttemplates` — configuration files for [generating PDF reports](6-inventory3d-administration.md#generate-pdf-reports).
+- Folder `exporttemplates` — configuration files for [generating PDF reports](9-6-inventory3d-administration.md#generate-pdf-reports).
 - Folder `plugins` — for CE Inventory3D plugins, like "Map".
-- Folder `scripts` — for scripts that can be run manually by the administrator (see [Run script](6-inventory3d-administration.md#run-script)).
+- Folder `scripts` — for scripts that can be run manually by the administrator (see [Run script](9-6-inventory3d-administration.md#run-script)).
 - Folder `temp` — temporary folder that can be cleaned periodically.
 - Folder `thumbs` — for thumbnail image files.
 

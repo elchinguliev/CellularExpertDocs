@@ -4,17 +4,11 @@ Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p084-
 
 Geodata sets are collections of geographical raster data that is used in CE calculations. Geodata sets are comprised of the following raster types:
 
-**Elevation**
-
-DTM (Digital terrain model), each pixel defines the absolute terrain height above sea level. No buildings or other obstacles are included in this height.
-
-**Clutter height (optional)**
-
-Relative height of obstructions (buildings, forests, etc.) above elevation.
-
-**Clutter classes (optional)**
-
-Each pixel defines the ID of the clutter class, which the area belongs to. Usually derived from land use data. If building heights are included in the clutter height raster, the clutter classes raster must have building outlines separated into their own class ID.
+| Raster type | Description |
+|---|---|
+| Elevation | DTM (Digital terrain model), each pixel defines the absolute terrain height above sea level. No buildings or other obstacles are included in this height. |
+| Clutter height (optional) | Relative height of obstructions (buildings, forests, etc.) above elevation. |
+| Clutter classes (optional) | Each pixel defines the ID of the clutter class, which the area belongs to. Usually derived from land use data. If building heights are included in the clutter height raster, the clutter classes raster must have building outlines separated into their own class ID. |
 
 To edit a geodata set, click the desired geodata set name from the list. To create a new one, click "+ New geodata set".
 
@@ -48,16 +42,10 @@ All available clutter class raster values are listed under the "Used" and "Unuse
 
 Each relevant clutter class needs these fields filled out:
 
-**IDs in geodata raster**
-
-Clutter class IDs from your uploaded clutter classes raster need to be assigned to predefined clutter classes within CE. For example if your clutter classes raster has buildings outlined with the ID of 2, you would need to assign "2" to the buildings clutter class in the menu. Multiple IDs may be assigned to each class.
-
-**Height**
-
-Nominal height for clutter class if it is not represented in the clutter height raster. If you already have heights for this class in the clutter height raster, this should be set to 0.
-
-**Color**
-
-The color by which the clutter class is represented in different UI elements, for example – the profile chart.
+| Field | Description |
+|---|---|
+| IDs in geodata raster | Clutter class IDs from your uploaded clutter classes raster need to be assigned to predefined clutter classes within CE. For example if your clutter classes raster has buildings outlined with the ID of 2, you would need to assign "2" to the buildings clutter class in the menu. Multiple IDs may be assigned to each class. |
+| Height | Nominal height for clutter class if it is not represented in the clutter height raster. If you already have heights for this class in the clutter height raster, this should be set to 0. |
+| Color | The color by which the clutter class is represented in different UI elements, for example – the profile chart. |
 
 ![Image p087](../../../assets/images/ce-express/user-guide-v73/p087-img1.png)

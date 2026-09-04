@@ -264,9 +264,7 @@ For scenarios where accurate building geometry and heights are available and a h
 
 ![Image p104](../../../assets/images/ce-express/user-guide-v73/p104-img1.png)
 
-| Clutter class parameter | Description |
-|---|---|
-| Receiver height | Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used. |
+**Receiver height** (clutter class override) — receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used.
 
 ## 3.1.9.4 ITU-R P525 Model
 
@@ -288,9 +286,7 @@ Line of Sight model is typically used for mmWave band frequencies within the 6 G
 
 ![Image p106](../../../assets/images/ce-express/user-guide-v73/p106-img1.png)
 
-| Clutter class parameter | Description |
-|---|---|
-| Receiver height | Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used. |
+**Receiver height** (clutter class override) — receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used.
 
 ## 3.1.9.5 UniMacro Model
 
@@ -467,9 +463,7 @@ The primary factors included in the standard are:
 
 ![Image p117](../../../assets/images/ce-express/user-guide-v73/p117-img1.png)
 
-| Clutter class parameter | Description |
-|---|---|
-| Receiver height | Receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used. |
+**Receiver height** (clutter class override) — receiver height value used when receiver lands on this clutter class. If this value is not defined, the main receiver height value defined in the prediction model is used.
 
 ## 3.1.9.8 CEC 3GPP TR Indoor model
 

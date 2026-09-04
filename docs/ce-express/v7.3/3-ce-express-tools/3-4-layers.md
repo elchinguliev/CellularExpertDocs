@@ -23,9 +23,7 @@ see these layers unless they also add them manually.
 
 ![Image p061](../../../assets/images/ce-express/user-guide-v73/p061-img1.png)
 
-| Option | Description |
-|---|---|
-| From URL / Portal ItemID | Allows you to add a layer directly by entering its URL or Portal Item ID, then selecting Add. |
+**From URL / Portal ItemID** — allows you to add a layer directly by entering its URL or Portal Item ID, then selecting Add.
 
 **Search criteria**
 
@@ -89,10 +87,8 @@ Choose a visual variable. The choices are:
 
 ![Image p066](../../../assets/images/ce-express/user-guide-v73/p066-img1.png)
 
-| Button | Description |
-|---|---|
-| Accept | Saves all changes. |
-| Cancel | Discards all changes and closes the dialog. |
+- **Accept** — saves all changes.
+- **Cancel** — discards all changes and closes the dialog.
 
 ## 3.1.4.3 Prediction results
 
@@ -118,17 +114,9 @@ For these types of layers, the visualization can be edited in the following ways
 
 ![Image p068](../../../assets/images/ce-express/user-guide-v73/p068-img5.png)
 
-Upon hovering the mouse over a prediction result item, options for it appear.
+Upon hovering the mouse over a prediction result item, options for it appear: **Rename layer**, **Publish to portal**, **Zoom to layer**, **Compare**, and **Remove layer**.
 
 ![Image p068](../../../assets/images/ce-express/user-guide-v73/p068-img6.png)
-
-| Option | Icon |
-|---|---|
-| Rename layer | ![icon](../../../assets/images/ce-express/user-guide-v73/p069-img1.png) |
-| Publish to portal | ![icon](../../../assets/images/ce-express/user-guide-v73/p069-img2.png) |
-| Zoom to layer | ![icon](../../../assets/images/ce-express/user-guide-v73/p069-img3.png) |
-| Compare | ![icon](../../../assets/images/ce-express/user-guide-v73/p069-img4.png) |
-| Remove layer | ![icon](../../../assets/images/ce-express/user-guide-v73/p069-img5.png) |
 
 ## 3.1.4.3.1 Presets
 

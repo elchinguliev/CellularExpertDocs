@@ -17,12 +17,9 @@ the organization.
 | Export | Exports the selected prediction results layer as a TIF raster. |
 | Open | Opens the selected prediction results layer. |
 
-Upon hovering the mouse over a prediction result item, options for it appear.
+Upon hovering the mouse over a prediction result item, options for it appear: **Rename layer**, **Share**, and **Delete**.
 
 ![Image p075](../../../assets/images/ce-express/user-guide-v73/p075-img5.png)
 
-| Option | Description |
-|---|---|
-| Rename layer | ![icon](../../../assets/images/ce-express/user-guide-v73/p075-img3.png) |
-| Share | Mouse over the calculation you want to share with the organization members and click *Share calculation task* button. ![icon](../../../assets/images/ce-express/user-guide-v73/p075-img4.png) |
-| Delete | Deletes the calculation from the Prediction History widget. ![icon](../../../assets/images/ce-express/user-guide-v73/p075-img1.png) |
+- **Share** — mouse over the calculation you want to share with the organization members and click the *Share calculation task* button.
+- **Delete** — deletes the calculation from the Prediction History widget.

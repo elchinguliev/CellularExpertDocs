@@ -12,15 +12,9 @@ A workspace is a project-based view in which objects are displayed. Workspaces c
 
 When enabled, this option filters the workspace list to display only the workspaces currently visible within the map's viewport.
 
-Upon hovering the mouse over a workspace item, options for it appear.
+Upon hovering the mouse over a workspace item, options for it appear: **Edit Workspace**, **Duplicate Workspace**, and **Delete Workspace**.
 
 ![Image p13](../../../assets/images/ce-express/user-guide-v73/p013-img2.png)
-
-| Option | Icon |
-|---|---|
-| Edit Workspace | ![icon](../../../assets/images/ce-express/user-guide-v73/p013-img3.png) |
-| Duplicate Workspace | ![icon](../../../assets/images/ce-express/user-guide-v73/p014-img2.png) |
-| Delete Workspace | ![icon](../../../assets/images/ce-express/user-guide-v73/p014-img3.png) |
 
 ## 3.1.1.1 Add workspace
 
@@ -53,9 +47,7 @@ Workspace extent defines where the map gets zoomed to when the workspace is load
 
 ![Image p16](../../../assets/images/ce-express/user-guide-v73/p016-img1.png)
 
-| Option | Description |
-|---|---|
-| Coordinate origin | Origin point from which coordinates are calculated from in the user interface. Global coordinates are saved in the database regardless of this setting. |
+**Coordinate origin** — origin point from which coordinates are calculated from in the user interface. Global coordinates are saved in the database regardless of this setting.
 
 ![Image p16](../../../assets/images/ce-express/user-guide-v73/p016-img2.png)
 

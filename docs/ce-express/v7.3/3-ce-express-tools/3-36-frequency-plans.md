@@ -56,15 +56,13 @@ and then select Create manually.
 
 **Channels**
 
-| Option | Description |
-|---|---|
-| Add channel | Allows manual addition of individual channels to the frequency plan. |
+**Add channel** — allows manual addition of individual channels to the frequency plan.
 
 ![Image p210](../../../assets/images/ce-express/user-guide-v73/p210-img1.png)
 
-| Option | Description |
+| Field | Description |
 |---|---|
 | Channel | Channel identifier. |
 | Frequency | Channel's frequency value in MHz. |
-| Add channel below | Adds a new channel below the selected one, using the *Add channel below* button ![icon](../../../assets/images/ce-express/user-guide-v73/p210-img2.png). |
-| Delete channel | Deletes the channel, using the *Delete channel* button ![icon](../../../assets/images/ce-express/user-guide-v73/p211-img3.png). |
+
+Use the *Add channel below* button ![icon](../../../assets/images/ce-express/user-guide-v73/p210-img2.png) to add a new channel below the selected one, or the *Delete channel* button ![icon](../../../assets/images/ce-express/user-guide-v73/p211-img3.png) to remove it.

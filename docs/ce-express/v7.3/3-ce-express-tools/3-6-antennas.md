@@ -6,10 +6,8 @@ Preview the list of available antennas in the project. The antennas are used for
 
 ![Image p076](../../../assets/images/ce-express/user-guide-v73/p076-img1.png)
 
-| Option | Description |
-|---|---|
-| Search | Initiates the search procedure in the antennas list. |
-| Delete antenna | Delete antenna using *Delete* button. |
+- **Search** — initiates the search procedure in the antennas list.
+- **Delete antenna** — deletes the antenna using the *Delete* button.
 
 ![Image p076](../../../assets/images/ce-express/user-guide-v73/p076-img2.png)
 

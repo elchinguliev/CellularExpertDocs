@@ -40,13 +40,10 @@ Click this button ![icon](../../../assets/images/ce-express/user-guide-v73/p211-
 |---|---|
 | Calculate Tropospheric Scatter | Enable/Disable this option. |
 | Troposcatter time percentage | Time Percentage in %. |
-
-![Image p214](../../../assets/images/ce-express/user-guide-v73/p214-img1.png)
-
-| Option | Description |
-|---|---|
 | Method | The standard used to calculate the performance metric. |
 | Statistics | A selection indicating if the metric is calculated based on yearly data or the data from the month with the poorest performance. |
+
+![Image p214](../../../assets/images/ce-express/user-guide-v73/p214-img1.png)
 
 ## 3.1.37.1 Link prediction results
 

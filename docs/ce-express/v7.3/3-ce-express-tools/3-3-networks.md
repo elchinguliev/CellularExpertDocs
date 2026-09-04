@@ -23,15 +23,9 @@ Once expanded, an existing network item displays the following information:
 | Export | Exports the selected [prediction results](#kw:viewing-results:ce-express-rf-prediction) layer as a TIF raster. |
 | Open | Opens the selected [prediction results](#kw:viewing-results:ce-express-rf-prediction) layer. |
 
-Upon hovering the mouse over a network item, options for it appear.
+Upon hovering the mouse over a network item, options for it appear: **Edit Network**, **Network publishing settings**, and **Delete Network**.
 
 ![Image p055](../../../assets/images/ce-express/user-guide-v73/p055-img1.png)
-
-| Option | Icon |
-|---|---|
-| Edit Network | ![icon](../../../assets/images/ce-express/user-guide-v73/p055-img2.png) |
-| Network publishing settings | ![icon](../../../assets/images/ce-express/user-guide-v73/p055-img3.png) |
-| Delete Network | ![icon](../../../assets/images/ce-express/user-guide-v73/p055-img4.png) |
 
 ## Add network
 

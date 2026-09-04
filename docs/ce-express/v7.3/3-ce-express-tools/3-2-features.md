@@ -55,10 +55,8 @@ A new preset will be created.
 
 Define a preset name. The defined preset will be applied the next time for importing.
 
-| Action | Description |
-|---|---|
-| Apply | Applies a mapping preset for importing file. |
-| Delete | Deletes a preset. |
+- **Apply** — applies a mapping preset for importing file.
+- **Delete** — deletes a preset.
 
 ## 3.1.2.2 Add features
 
@@ -353,12 +351,9 @@ Allows for saving a group of features as a "feature set template", with one of t
 |---|---|
 | Height, m | Height above the terrain. |
 | Downtilt | Mechanical tilt value. |
+| Antenna | Antenna name for Light object. |
 
 ![Image p040](../../../assets/images/ce-express/user-guide-v73/p040-img1.png)
-
-| Parameter | Description |
-|---|---|
-| Antenna | Antenna name for Light object. |
 
 ### 3.1.2.2.13 Add Mesh nodes
 
@@ -385,14 +380,11 @@ Allows for saving a group of features as a "feature set template", with one of t
 | Sensitivity | Sensitivity value of the mesh node. |
 | Max connections | The maximum number of connections the mesh node can have (used for mesh connectivity calculations). |
 | Layer | The layer of the mesh node (number value). Used for priority calculations in Automatic Frequency Planning. |
-
-![Image p042](../../../assets/images/ce-express/user-guide-v73/p042-img1.png)
-
-| Parameter | Description |
-|---|---|
 | Group name | The group name of the mesh node (text description). Several mesh nodes may belong to the same group. |
 | Status | Free-form text. |
 | Type | Free-form text. |
+
+![Image p042](../../../assets/images/ce-express/user-guide-v73/p042-img1.png)
 
 ## 3.1.2.3 Selecting
 
@@ -519,23 +511,21 @@ A new dialog opens on the right side with the most important attributes.
 
 ![Image p051](../../../assets/images/ce-express/user-guide-v73/p051-img1.png)
 
-| Button | Description |
-|---|---|
-| Accept | Saves all changes. |
-| Cancel | Discards all changes and closes the dialog. |
+- **Accept** — saves all changes.
+- **Cancel** — discards all changes and closes the dialog.
 
 Upon hovering the mouse over a feature item, options for it appear.
 
 ![Image p051](../../../assets/images/ce-express/user-guide-v73/p051-img2.png)
 
-| Action | Icon | Description |
-|---|---|---|
-| View from perspective | ![icon](../../../assets/images/ce-express/user-guide-v73/p052-img1.png) | Viewpoint from the position of cell. |
-| Highlight feature | ![icon](../../../assets/images/ce-express/user-guide-v73/p052-img2.png) | Highlights feature on the map. |
-| Duplicate feature | ![icon](../../../assets/images/ce-express/user-guide-v73/p052-img3.png) | Creates a copy of the feature. |
-| Delete feature | ![icon](../../../assets/images/ce-express/user-guide-v73/p052-img4.png) | Deletes feature. |
-| Remove from selection | ![icon](../../../assets/images/ce-express/user-guide-v73/p052-img5.png) | Removes feature from the selected features list. |
-| Add to selection | ![icon](../../../assets/images/ce-express/user-guide-v73/p052-img6.png) | Adds feature to selected features list. |
+| Action | Description |
+|---|---|
+| View from perspective | Viewpoint from the position of cell. |
+| Highlight feature | Highlights feature on the map. |
+| Duplicate feature | Creates a copy of the feature. |
+| Delete feature | Deletes feature. |
+| Remove from selection | Removes feature from the selected features list. |
+| Add to selection | Adds feature to selected features list. |
 
 ## 3.1.2.6 Quick add
 

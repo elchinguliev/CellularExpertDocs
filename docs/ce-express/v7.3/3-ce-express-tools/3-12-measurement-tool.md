@@ -21,11 +21,7 @@ Click once to finish line segment. Double click to finish drawing.
 | Total distance | Total length of all line segments. |
 | Segment X | Shows the length of the line segment. |
 
-**Angles**
-
-| Field | Description |
-|---|---|
-| Segment 1 → 2 | Angles between line segments. |
+**Angles** — angle between line segments (e.g. Segment 1 → 2).
 
 ## 3.1.12.2 Area
 

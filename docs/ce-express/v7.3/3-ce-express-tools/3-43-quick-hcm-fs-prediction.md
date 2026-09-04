@@ -28,15 +28,11 @@ Please note that all calculation cases resulted in errors will be logged into th
 
 ![Image p237](../../../assets/images/ce-express/user-guide-v73/p237-img2.png)
 
-| Option | Description |
-|---|---|
-| Reference file | File against which test calculations are performed. |
+**Reference file** — file against which test calculations are performed.
 
 ![Image p237](../../../assets/images/ce-express/user-guide-v73/p237-img3.png)
 
-| Option | Description |
-|---|---|
-| Test file | File that is tested against reference file. |
+**Test file** — file that is tested against reference file.
 
 There is no substantial difference between test and reference file. Calculations will be performed in the same way but the calculation report always lists records of test file.
 

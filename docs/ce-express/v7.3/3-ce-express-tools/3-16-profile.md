@@ -82,7 +82,7 @@ Zoom in/out in the profile view.
 
 ![Image p147](../../../assets/images/ce-express/user-guide-v73/p147-img2.png)
 
-Click on![Image p147](../../../assets/images/ce-express/user-guide-v73/p147-img3.png) button to view the see the Calculation results.
+Click on![icon](../../../assets/images/ce-express/user-guide-v73/p147-img3.png) button to view the see the Calculation results.
 
 ![Image p148](../../../assets/images/ce-express/user-guide-v73/p148-img1.png)
 

@@ -1,0 +1,3006 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Official documentation for CE Express, CE Pro, and Inventory3D">
+      
+      
+        <meta name="author" content="Cellular Expert UAB">
+      
+      
+        <link rel="canonical" href="https://elchinguliev.github.io/CellularExpertDocs/ce-express/v7.3/3-ce-express-tools/3-2-features/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>3.1.2 Features - Cellular Expert Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#312-features" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Cellular Expert Documentation" class="md-header__button md-logo" aria-label="Cellular Expert Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cellular Expert Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              3.1.2 Features
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../index.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../overview.md" class="md-tabs__link">
+          
+  
+  
+  CE Express
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../ce-pro/rcp-user-guide.md" class="md-tabs__link">
+          
+  
+  
+  CE Pro
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../inventory3d/user-guide.md" class="md-tabs__link">
+          
+  
+  
+  Inventory3D
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../geodata/geodata-requirements.md" class="md-tabs__link">
+          
+  
+  
+  Geodata
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Cellular Expert Documentation" class="md-nav__button md-logo" aria-label="Cellular Expert Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Cellular Expert Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CE Express
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CE Express
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../overview.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../login.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Login Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../workspace.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../network-objects.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Network Objects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../antenna-patterns.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Antenna Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rf-prediction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RF Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../profile-tool.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Path Profile & LOS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../street-view.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Street View
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../geodata.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geodata & Rasters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_10" id="__nav_2_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Training
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Training
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/01-creating-workspace.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01. Creating Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/02-create-objects.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02. Create Objects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/03-line-of-sight.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03. Line of Sight
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/04-rf-prediction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04. RF Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/05-import-data.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05. Import Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/06-prediction-models.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06. Prediction Models
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/07-mw-equipment.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07. MW Equipment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/08-mw-prediction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08. MW Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/09-preparing-geodata.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09. Preparing Geodata
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_11" id="__nav_2_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guides
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    User Guides
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../user-guide/user-guide-v7.3.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guide v7.3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../user-guide/admin-guide-v7.2.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Administrator Guide v7.2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../user-guide/admin-guide-only-v7.2.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Admin Guide (Express Only)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CE Pro
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CE Pro
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-pro/rcp-user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RCP User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-pro/rlp-user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RLP User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-pro/emf-user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EMF User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-pro/sound-user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sound User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-pro/indoor-user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Indoor User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Training
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Training
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-pro/training/00-installation.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    00. Installation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-pro/training/01-data-types.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01. Data Types
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-pro/training/02-architecture.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02. Architecture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-pro/training/03-agenda.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03. Agenda
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-pro/training/04-workspace.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04. Creating Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-pro/training/05-line-of-sight.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05. Line of Sight
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-pro/training/06-objects.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06. Creating Objects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-pro/training/07-cell-prediction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07. Cell Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-pro/training/08-prediction-models.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08. Prediction Models
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-pro/training/09-importing-data.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09. Importing Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-pro/training/10-rl-prediction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10. RL Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventory3D
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Inventory3D
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../inventory3d/user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guide v4.6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geodata
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Geodata
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../geodata/geodata-requirements.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geodata Requirements 2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../geodata/network-objects-requirements.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Network Objects Requirements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="312-features">3.1.2 Features</h1>
+<p>Click this button <img alt="icon" src="../../../../assets/images/ce-express/user-guide-v73/p018-img2.png" /> to open Features tool.</p>
+<p>Use this tool to import or add features, select and visualize them.</p>
+<h2 id="3121-import">3.1.2.1 Import</h2>
+<p>The widget allows the creation of objects from a text file. To start importing new objects press the Import
+features button.</p>
+<p><img alt="Image p19" src="../../../../assets/images/ce-express/user-guide-v73/p019-img1.png" /></p>
+<p>Select the object type.</p>
+<p><img alt="Image p19" src="../../../../assets/images/ce-express/user-guide-v73/p019-img2.png" /></p>
+<p>A new dialog on the right side of the window will appear. The widget imports object data to the database.
+The imported objects will be displayed automatically on the map. The supported file formats are CSV and
+KMZ.</p>
+<p><img alt="Image p20" src="../../../../assets/images/ce-express/user-guide-v73/p020-img1.png" /></p>
+<p>To start the import process, select or drag and drop a CSV or KMZ file.</p>
+<p><img alt="Image p020" src="../../../../assets/images/ce-express/user-guide-v73/p020-img2.png" /></p>
+<h3 id="31211-mapping">3.1.2.1.1 Mapping</h3>
+<p>The data in the import files may have names, values and units which do not match the data in the Cellular
+Expert database. To resolve such issues, check Use mapping button.</p>
+<p><img alt="Image p021" src="../../../../assets/images/ce-express/user-guide-v73/p021-img1.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Source</td>
+<td>The name of the value that is written in the data file.</td>
+</tr>
+<tr>
+<td>Fill</td>
+<td>Value which will be used when an object in the data file has no value for a particular property. In this example, if "Azimuth" is not set, then it will by default be assigned the value of 0. Leaving the default to empty means that no default value will be applied.</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Image p022" src="../../../../assets/images/ce-express/user-guide-v73/p022-img1.png" /></p>
+<h3 id="31212-mapping-presets">3.1.2.1.2 Mapping presets</h3>
+<p>It is possible to create import presets.</p>
+<p><img alt="Image p022" src="../../../../assets/images/ce-express/user-guide-v73/p022-img2.png" /></p>
+<p>To create a preset, first define source or fill value, then press New mapping preset button.</p>
+<p><img alt="Image p022" src="../../../../assets/images/ce-express/user-guide-v73/p022-img3.png" /></p>
+<p>A new preset will be created.</p>
+<p><img alt="Image p022" src="../../../../assets/images/ce-express/user-guide-v73/p022-img4.png" /></p>
+<p>Define a preset name. The defined preset will be applied the next time for importing.</p>
+<ul>
+<li><strong>Apply</strong> — applies a mapping preset for importing file.</li>
+<li><strong>Delete</strong> — deletes a preset.</li>
+</ul>
+<h2 id="3122-add-features">3.1.2.2 Add features</h2>
+<p><img alt="Image p023" src="../../../../assets/images/ce-express/user-guide-v73/p023-img1.png" /></p>
+<p>Select the object type.</p>
+<p><img alt="Image p23" src="../../../../assets/images/ce-express/user-guide-v73/p023-img2.png" /></p>
+<p>A new dialog on the right side of the window will appear.</p>
+<p>New objects can be created in several ways. They can be:
+- Created from templates
+- Created with Cellular Expert tools from zero (define all parameters in the process)</p>
+<p><img alt="Image p24" src="../../../../assets/images/ce-express/user-guide-v73/p024-img1.png" /></p>
+<h3 id="31221-feature-set-template">3.1.2.2.1 Feature set template</h3>
+<p>Allows for saving a group of features as a "feature set template", with one of the features acting as the origin for the feature set coordinates. The entire feature set can then be placed with a single operation via the add features tool. Coordinates relative to the origin feature are maintained by the other features in the set.</p>
+<p><img alt="Image p24" src="../../../../assets/images/ce-express/user-guide-v73/p024-img2.png" /></p>
+<p><img alt="Image p25" src="../../../../assets/images/ce-express/user-guide-v73/p025-img1.png" /></p>
+<p><strong>General</strong></p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Feature set template name</td>
+<td>Name of the feature set template.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Features</strong></p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Coordinate origin feature</td>
+<td>Feature which will be used as the coordinate origin point for the feature set. When the feature set is placed, this feature will be at the mouse click point.</td>
+</tr>
+<tr>
+<td>Feature parameters</td>
+<td>Parameters of the features saved in the feature set template. The placed feature parameters will be automatically filled with the saved values.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="31222-add-site">3.1.2.2.2 Add Site</h3>
+<p><img alt="Image p026" src="../../../../assets/images/ce-express/user-guide-v73/p026-img1.png" /></p>
+<p><strong>Required parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Site name</td>
+<td>Site identification.</td>
+</tr>
+<tr>
+<td>X</td>
+<td>Coordinate in the projected coordinate system.</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>Coordinate in the projected coordinate system.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Optional parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Height</td>
+<td>Height above the terrain.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="31223-add-candidate-sites">3.1.2.2.3 Add Candidate sites</h3>
+<p><img alt="Image p027" src="../../../../assets/images/ce-express/user-guide-v73/p027-img1.png" /></p>
+<p><strong>Required parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Site name</td>
+<td>Site identification.</td>
+</tr>
+<tr>
+<td>X</td>
+<td>Coordinate in the projected coordinate system.</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>Coordinate in the projected coordinate system.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Optional parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Max Site Height</td>
+<td>Maximum site height above the terrain in meters.</td>
+</tr>
+<tr>
+<td>City</td>
+<td>City where the site is located.</td>
+</tr>
+<tr>
+<td>Street</td>
+<td>Street address of the site.</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Free-form text.</td>
+</tr>
+<tr>
+<td>Type</td>
+<td>Free-form text.</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Free-form text.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="31224-add-site-search-areas">3.1.2.2.4 Add Site search areas</h3>
+<p><img alt="Image p028" src="../../../../assets/images/ce-express/user-guide-v73/p028-img1.png" /></p>
+<p><strong>Required parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Area Name</td>
+<td>Area identification.</td>
+</tr>
+<tr>
+<td>Draw mode</td>
+<td>Method used to draw the area geometry: Polygon or Circle.</td>
+</tr>
+<tr>
+<td>Circle radius</td>
+<td>Radius of the circle, in meters.</td>
+</tr>
+<tr>
+<td>Geometry segments</td>
+<td>Number of segments used to approximate the geometry.</td>
+</tr>
+<tr>
+<td>Group</td>
+<td>Group to which the area belongs.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="31225-add-cell">3.1.2.2.5 Add Cell</h3>
+<p><img alt="Image p029" src="../../../../assets/images/ce-express/user-guide-v73/p029-img1.png" /></p>
+<p><strong>Required parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cell name</td>
+<td>Cell identification.</td>
+</tr>
+<tr>
+<td>X</td>
+<td>Coordinate in the projected coordinate system.</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>Coordinate in the projected coordinate system.</td>
+</tr>
+<tr>
+<td>Azimuth</td>
+<td>Cell direction from the North in degrees.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Optional parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Height, m</td>
+<td>Height above the terrain.</td>
+</tr>
+<tr>
+<td>Downtilt</td>
+<td>Mechanical tilt value.</td>
+</tr>
+<tr>
+<td>El. Downtilt, deg</td>
+<td>Electrical tilt value.</td>
+</tr>
+<tr>
+<td>Frequency</td>
+<td>Frequency value in MHz.</td>
+</tr>
+<tr>
+<td>Power</td>
+<td>Power value in dBm.</td>
+</tr>
+<tr>
+<td>Misc. loss, dB</td>
+<td>Miscellaneous loss value in dB.</td>
+</tr>
+<tr>
+<td>Bandwidth, MHz</td>
+<td>Value in MHz. Required for 4G and 5G technologies. For other technologies define the value as <code>0.015</code>.</td>
+</tr>
+<tr>
+<td>Noise figure, dB</td>
+<td>Value in dB. Required for 4G and 5G technologies.</td>
+</tr>
+<tr>
+<td>Downlink duplex factor</td>
+<td>Value range from 0 to 1. Required for Duplex mode TDD, which is applicable for 4G and 5G technologies, and used for Downlink Throughput calculations. For example, if defined value is <code>0.7</code>, then 70% of available bandwidth will be dedicated to Downlink, and 30% - for Uplink.</td>
+</tr>
+<tr>
+<td>Subcarrier spacing, kHz</td>
+<td>Value in kHz. Required for 4G and 5G technologies. For other technologies define value <code>15</code>.</td>
+</tr>
+<tr>
+<td>Tx Mimo</td>
+<td>Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.</td>
+</tr>
+<tr>
+<td>Rx Mimo</td>
+<td>Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.</td>
+</tr>
+<tr>
+<td>Active antenna effect</td>
+<td>The parameter is dedicated to smart antenna modeling. The default value is <code>0</code>, but if massive MIMO is used, a smart antenna effect can be included to lower the interference and boost throughput. Recommended: <code>6</code> for MIMO 32x32, <code>9</code> for MIMO 64x64.</td>
+</tr>
+<tr>
+<td>Cell load, %</td>
+<td>The parameter is described in percentages and varies from 0 to 100. It describes how the cell is loaded. The Cell load affects RSSI, RSRQ, and DL Throughput calculations. For example, if the Cell load is higher, the DL Throughput is lower.</td>
+</tr>
+<tr>
+<td>Color index</td>
+<td>Describes the cell visualization. Available values: None – blue color, 1 – red color, 2 – light green color, 3 – dark green color, 4 – light blue color, 5 – dark blue color, 6 – purple color.</td>
+</tr>
+<tr>
+<td>Technology</td>
+<td>Describes the technology of the <a href="#kw:object-types:ce-express-network-objects">network object</a>. Possible values are 2G, 3G, 4G, and 5G.</td>
+</tr>
+<tr>
+<td>Prediction model</td>
+<td>Prediction model for Path Loss simulation.</td>
+</tr>
+<tr>
+<td>Frequency group</td>
+<td>Used to divide calculations into parts. If the selection range includes two or more different frequency group values, the cells won't be predicted together.</td>
+</tr>
+<tr>
+<td>Antenna</td>
+<td>Define <a href="#kw:importing-antenna-patterns:ce-express-antenna">antenna patterns</a> for the Cell object.</td>
+</tr>
+<tr>
+<td>Carriers</td>
+<td>Describes the carrier values used for 2G calculations: C/I interference and C/A interference. The values are written in brackets, <code>[...]</code>. If more than one value is defined, the values are separated by a comma. If there is no carrier information, the brackets are left empty <code>[]</code>.</td>
+</tr>
+<tr>
+<td>Site ID</td>
+<td>Describes to which Site the Cell belongs.</td>
+</tr>
+<tr>
+<td>Duplex mode</td>
+<td>Available values FDD or TDD. Required for 4G and 5G technologies. For other technologies define value FDD.</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Free-form text.</td>
+</tr>
+<tr>
+<td>Type</td>
+<td>Free-form text.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="31226-add-repeater">3.1.2.2.6 Add Repeater</h3>
+<p><img alt="Image p032" src="../../../../assets/images/ce-express/user-guide-v73/p032-img1.png" /></p>
+<p><strong>Required parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Repeater name</td>
+<td>Repeater identification.</td>
+</tr>
+<tr>
+<td>X</td>
+<td>Coordinate in the projected coordinate system.</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>Coordinate in the projected coordinate system.</td>
+</tr>
+<tr>
+<td>Azimuth</td>
+<td>Direction from the North in degrees.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Optional parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Height</td>
+<td>Object's height above the terrain.</td>
+</tr>
+<tr>
+<td>Downtilt</td>
+<td>Mechanical tilt in telecommunications repeaters is the physical angling of the antenna to optimize signal coverage.</td>
+</tr>
+<tr>
+<td>Electrical Tilt</td>
+<td>Electrical tilt in a repeater refers to the electronic adjustment of an antenna's vertical radiation pattern to optimize network coverage and reduce interference.</td>
+</tr>
+<tr>
+<td>Frequency</td>
+<td>Frequency value in MHz.</td>
+</tr>
+<tr>
+<td>Thresholds 1, 2, 3</td>
+<td>The minimum field strength in dB at repeater location at which power of the corresponding index (1-3) will be applied. Values should be in ascending order. If a higher threshold is satisfied, the power corresponding to it will be used.</td>
+</tr>
+<tr>
+<td>Power 1, 2, 3</td>
+<td>A power that is assigned to cells based on the repeater thresholds and cell signal strength. When the cell's signal strength is categorized the power of the repeater will be assigned as well.</td>
+</tr>
+<tr>
+<td>Misc loss</td>
+<td>Miscellaneous loss value in dB.</td>
+</tr>
+<tr>
+<td>Bandwidth</td>
+<td>Value in MHz. Required for 4G and 5G technologies. For other technologies define the value as <code>0.015</code>.</td>
+</tr>
+<tr>
+<td>Subcarrier Spacing</td>
+<td>Value in kHz. Required for 4G and 5G technologies. For other technologies define value <code>15</code>.</td>
+</tr>
+<tr>
+<td>Tx Mimo</td>
+<td>Transmitter antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.</td>
+</tr>
+<tr>
+<td>Rx Mimo</td>
+<td>Receiver antenna count. Available values: 1, 2, 4, 8, 16, 32 and 64.</td>
+</tr>
+<tr>
+<td>Technology</td>
+<td>Describes the technology of the <a href="#kw:object-types:ce-express-network-objects">network object</a>.</td>
+</tr>
+<tr>
+<td>Prediction Model</td>
+<td>Lets the user select which prediction model and configuration should be used for calculations.</td>
+</tr>
+<tr>
+<td>Frequency group</td>
+<td>Used to divide calculations into parts. If the selection range includes two or more different frequency group values, the cells won't be predicted together.</td>
+</tr>
+<tr>
+<td>Antenna</td>
+<td>Antenna name for Repeater object.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="31227-add-radar">3.1.2.2.7 Add Radar</h3>
+<p><img alt="Image p034" src="../../../../assets/images/ce-express/user-guide-v73/p034-img1.png" /></p>
+<p><strong>Required parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Radar name</td>
+<td>Radar identification.</td>
+</tr>
+<tr>
+<td>X</td>
+<td>Coordinate in the projected coordinate system.</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>Coordinate in the projected coordinate system.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Optional parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Height</td>
+<td>Object's height above the terrain.</td>
+</tr>
+<tr>
+<td>Downtilt</td>
+<td>Mechanical tilt value.</td>
+</tr>
+<tr>
+<td>Frequency</td>
+<td>Frequency value in MHz.</td>
+</tr>
+<tr>
+<td>Power</td>
+<td>Power value in dBm.</td>
+</tr>
+<tr>
+<td>Misc Loss</td>
+<td>Miscellaneous loss value in dB.</td>
+</tr>
+<tr>
+<td>View Angle</td>
+<td>Visible field (vertical angle) of the radar in degrees.</td>
+</tr>
+<tr>
+<td>Prediction Model</td>
+<td>Prediction model for Path Loss simulation.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="31228-add-cpe">3.1.2.2.8 Add CPE</h3>
+<p><img alt="Image p035" src="../../../../assets/images/ce-express/user-guide-v73/p035-img1.png" /></p>
+<p><strong>Required parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CPE name</td>
+<td>CPE identification.</td>
+</tr>
+<tr>
+<td>X</td>
+<td>Coordinate in the projected coordinate system.</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>Coordinate in the projected coordinate system.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Optional parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Height</td>
+<td>Object's height above the terrain.</td>
+</tr>
+<tr>
+<td>Azimuth</td>
+<td>Direction from the North in degrees.</td>
+</tr>
+<tr>
+<td>Antenna</td>
+<td>Antenna name for CPE location.</td>
+</tr>
+<tr>
+<td>Power</td>
+<td>A power value in dBm.</td>
+</tr>
+<tr>
+<td>Misc loss</td>
+<td>Miscellaneous loss value in dB.</td>
+</tr>
+<tr>
+<td>Cell ID</td>
+<td>Describes to which Cell the CPE point belongs.</td>
+</tr>
+<tr>
+<td>Throughput</td>
+<td>The speed at which data is transferred. Measured in Mb/s.</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Current status of the <a href="#kw:object-types:ce-express-network-objects">network object</a>.</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Additional information for network predictions can be noted here.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="31229-add-measurements">3.1.2.2.9 Add Measurements</h3>
+<p><strong>Required parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Field strength, dB</td>
+<td>Field strength.</td>
+</tr>
+<tr>
+<td>X</td>
+<td>Coordinate in the projected coordinate system.</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>Coordinate in the projected coordinate system.</td>
+</tr>
+<tr>
+<td>Cell ID</td>
+<td>A field which binds the measurement to a cell network object.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="312210-add-omen">3.1.2.2.10 Add Omen</h3>
+<p><img alt="Image p037" src="../../../../assets/images/ce-express/user-guide-v73/p037-img1.png" /></p>
+<p><img alt="Image p037" src="../../../../assets/images/ce-express/user-guide-v73/p037-img2.png" /></p>
+<p><strong>Required parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Omen name</td>
+<td>Omen identification.</td>
+</tr>
+<tr>
+<td>X</td>
+<td>Coordinate in the projected coordinate system.</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>Coordinate in the projected coordinate system.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Optional parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Height, m</td>
+<td>Height above the terrain.</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Free-form text.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="312211-add-sirens">3.1.2.2.11 Add Sirens</h3>
+<p><img alt="Image p038" src="../../../../assets/images/ce-express/user-guide-v73/p038-img1.png" /></p>
+<p><strong>Required parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Siren name</td>
+<td>Siren identification.</td>
+</tr>
+<tr>
+<td>X</td>
+<td>Coordinate in the projected coordinate system.</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>Coordinate in the projected coordinate system.</td>
+</tr>
+<tr>
+<td>Azimuth</td>
+<td>Cell direction from the North in degrees.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Optional parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Height, m</td>
+<td>Height above the terrain.</td>
+</tr>
+<tr>
+<td>Downtilt</td>
+<td>Mechanical tilt value.</td>
+</tr>
+<tr>
+<td>Frequency</td>
+<td>Frequency value in MHz.</td>
+</tr>
+<tr>
+<td>Power</td>
+<td>Power value in dBm.</td>
+</tr>
+<tr>
+<td>Misc. loss, dB</td>
+<td>Miscellaneous loss value in dB.</td>
+</tr>
+<tr>
+<td>Prediction model</td>
+<td>Only ISO9613 can be applied to calculate sound loss for the siren.</td>
+</tr>
+<tr>
+<td>Antenna</td>
+<td>Antenna name for Siren object.</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Free-form text.</td>
+</tr>
+<tr>
+<td>Type</td>
+<td>Free-form text.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="312212-add-lights">3.1.2.2.12 Add Lights</h3>
+<p><strong>Required parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Light name</td>
+<td>Light identification.</td>
+</tr>
+<tr>
+<td>X</td>
+<td>Coordinate in the projected coordinate system.</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>Coordinate in the projected coordinate system.</td>
+</tr>
+<tr>
+<td>Azimuth</td>
+<td>Cell direction from the North in degrees.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Optional parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Height, m</td>
+<td>Height above the terrain.</td>
+</tr>
+<tr>
+<td>Downtilt</td>
+<td>Mechanical tilt value.</td>
+</tr>
+<tr>
+<td>Antenna</td>
+<td>Antenna name for Light object.</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Image p040" src="../../../../assets/images/ce-express/user-guide-v73/p040-img1.png" /></p>
+<h3 id="312213-add-mesh-nodes">3.1.2.2.13 Add Mesh nodes</h3>
+<p><strong>Required parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mesh node name</td>
+<td>Mesh node identification.</td>
+</tr>
+<tr>
+<td>X</td>
+<td>Coordinate in the projected coordinate system.</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>Coordinate in the projected coordinate system.</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Image p041" src="../../../../assets/images/ce-express/user-guide-v73/p041-img1.png" /></p>
+<p><strong>Optional parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Height, m</td>
+<td>Height above the terrain.</td>
+</tr>
+<tr>
+<td>Frequency, MHz</td>
+<td>Frequency of the mesh node.</td>
+</tr>
+<tr>
+<td>Power, dBm</td>
+<td>Power value of the mesh node.</td>
+</tr>
+<tr>
+<td>Misc Loss, dB</td>
+<td>Miscellaneous loss value of the mesh node.</td>
+</tr>
+<tr>
+<td>Prediction model</td>
+<td>The prediction model that will be used for the mesh node in Mesh Connectivity and Quick Mesh Connectivity calculations.</td>
+</tr>
+<tr>
+<td>Antenna</td>
+<td>Define <a href="#kw:importing-antenna-patterns:ce-express-antenna">antenna patterns</a> for the mesh node object.</td>
+</tr>
+<tr>
+<td>Sensitivity</td>
+<td>Sensitivity value of the mesh node.</td>
+</tr>
+<tr>
+<td>Max connections</td>
+<td>The maximum number of connections the mesh node can have (used for mesh connectivity calculations).</td>
+</tr>
+<tr>
+<td>Layer</td>
+<td>The layer of the mesh node (number value). Used for priority calculations in Automatic Frequency Planning.</td>
+</tr>
+<tr>
+<td>Group name</td>
+<td>The group name of the mesh node (text description). Several mesh nodes may belong to the same group.</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Free-form text.</td>
+</tr>
+<tr>
+<td>Type</td>
+<td>Free-form text.</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Image p042" src="../../../../assets/images/ce-express/user-guide-v73/p042-img1.png" /></p>
+<h2 id="3123-selecting">3.1.2.3 Selecting</h2>
+<p><strong>Selection settings</strong></p>
+<p><strong>Show only selected features</strong></p>
+<p>Only the selected features will be displayed in the feature list. When the switch off, all features are visible
+regardless of selection. When it is on non-selected features are hidden, so you see only what you have
+selected.</p>
+<p><strong>Mode</strong></p>
+<p>There are several different modes for <a href="#kw:selecting-multiple-objects:ce-express-network-objects">selecting objects</a>:</p>
+<ul>
+<li>Rectangle.</li>
+</ul>
+<p><img alt="Image p043" src="../../../../assets/images/ce-express/user-guide-v73/p043-img1.png" /></p>
+<p>To start the selection process, click once on the map, then move the mouse cursor to define an
+area, click a second time to finish the selection process.</p>
+<p><img alt="Image p043" src="../../../../assets/images/ce-express/user-guide-v73/p043-img2.png" /></p>
+<ul>
+<li>Single click. Click once on an object to select it.</li>
+</ul>
+<p><img alt="Image p043" src="../../../../assets/images/ce-express/user-guide-v73/p043-img3.png" /></p>
+<ul>
+<li>Radius.</li>
+</ul>
+<p><img alt="Image p044" src="../../../../assets/images/ce-express/user-guide-v73/p044-img1.png" /></p>
+<p>Set the desired distance, then click on the map and the surrounding objects within the set distance will
+be selected.</p>
+<p><img alt="Image p044" src="../../../../assets/images/ce-express/user-guide-v73/p044-img2.png" /></p>
+<ul>
+<li>Polygon.</li>
+</ul>
+<p><img alt="Image p044" src="../../../../assets/images/ce-express/user-guide-v73/p044-img3.png" /></p>
+<p>Click once on the map to create the vertices of the polygon. Double-click to close the polygon and select
+the feature.</p>
+<p><img alt="Image p045" src="../../../../assets/images/ce-express/user-guide-v73/p045-img1.png" /></p>
+<ul>
+<li>Polygon layer.</li>
+</ul>
+<p><img alt="Image p045" src="../../../../assets/images/ce-express/user-guide-v73/p045-img2.png" /></p>
+<p>To use the polygon layer selection, choose a predefined polygon layer from the dropdown list. Then,
+click on the map. All features located within the selected polygon boundary will be highlighted and
+displayed in the feature list.</p>
+<p><img alt="Image p046" src="../../../../assets/images/ce-express/user-guide-v73/p046-img1.png" /></p>
+<p>Selected objects will be highlighted on the map and listed in the tool.</p>
+<p><img alt="Image p046" src="../../../../assets/images/ce-express/user-guide-v73/p046-img2.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Clear selection</td>
+<td>Clears a objects selection on the map.</td>
+</tr>
+<tr>
+<td>Search</td>
+<td>Initiates the search procedure in the selected objects list.</td>
+</tr>
+<tr>
+<td>Show in table</td>
+<td>Opens the selected objects attribute table <img alt="icon" src="../../../../assets/images/ce-express/user-guide-v73/p047-img1.png" />.</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Image p047" src="../../../../assets/images/ce-express/user-guide-v73/p047-img2.png" /></p>
+<h2 id="3124-moveduplicatedeletepublish-selected-objects">3.1.2.4 Move/Duplicate/Delete/Publish selected objects</h2>
+<p>Select objects on the map to start the Publish, Move, Duplicate or Delete functionality.</p>
+<p><img alt="Image p047" src="../../../../assets/images/ce-express/user-guide-v73/p047-img3.png" /></p>
+<p><strong>Publish</strong></p>
+<p>Select the features you want to publish to portal as a feature layer, then click the publish button.
+An option menu then appears to let you select who the newly created feature layer will be shared to:</p>
+<p><img alt="Image p048" src="../../../../assets/images/ce-express/user-guide-v73/p048-img1.png" /></p>
+<p>Press OK to start the publishing process.</p>
+<p><strong>Move</strong></p>
+<p>Select the objects which shall be moved and choose the Move tool. The Move selected features dialog will
+appear.</p>
+<p><img alt="Image p048" src="../../../../assets/images/ce-express/user-guide-v73/p048-img2.png" /></p>
+<p>Hold the left mouse button and drag the object to the preferred location.</p>
+<p><img alt="Image p048" src="../../../../assets/images/ce-express/user-guide-v73/p048-img3.png" /></p>
+<p>Press Accept to save changes.</p>
+<p><strong>Duplicate</strong></p>
+<p>Select the objects which shall be duplicated and choose the Duplicate tool. The Duplicate features dialog
+will appear. Hold the left mouse button and drag the object to the preferred location. Selected objects can
+be duplicated to another workspace.</p>
+<p><img alt="Image p049" src="../../../../assets/images/ce-express/user-guide-v73/p049-img1.png" /></p>
+<p>Press Accept to save changes.</p>
+<p><strong>Delete</strong></p>
+<p>Select the objects on the map, then press the Delete button to remove them from the Map view and
+database tables.</p>
+<p><img alt="Image p049" src="../../../../assets/images/ce-express/user-guide-v73/p049-img2.png" /></p>
+<p>Press Accept to save changes.</p>
+<h2 id="3125-edit-objects">3.1.2.5 Edit objects</h2>
+<p>Object attributes can be edited using the Cellular Expert graphical interface. Move the mouse cursor to the
+required object in the Features tool and click on it to edit object attributes.</p>
+<p><img alt="Image p050" src="../../../../assets/images/ce-express/user-guide-v73/p050-img1.png" /></p>
+<p>A new dialog opens on the right side with the most important attributes.</p>
+<p><img alt="Image p051" src="../../../../assets/images/ce-express/user-guide-v73/p051-img1.png" /></p>
+<ul>
+<li><strong>Accept</strong> — saves all changes.</li>
+<li><strong>Cancel</strong> — discards all changes and closes the dialog.</li>
+</ul>
+<p>Upon hovering the mouse over a feature item, options for it appear.</p>
+<p><img alt="Image p051" src="../../../../assets/images/ce-express/user-guide-v73/p051-img2.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>View from perspective</td>
+<td>Viewpoint from the position of cell.</td>
+</tr>
+<tr>
+<td>Highlight feature</td>
+<td>Highlights feature on the map.</td>
+</tr>
+<tr>
+<td>Duplicate feature</td>
+<td>Creates a copy of the feature.</td>
+</tr>
+<tr>
+<td>Delete feature</td>
+<td>Deletes feature.</td>
+</tr>
+<tr>
+<td>Remove from selection</td>
+<td>Removes feature from the selected features list.</td>
+</tr>
+<tr>
+<td>Add to selection</td>
+<td>Adds feature to selected features list.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="3126-quick-add">3.1.2.6 Quick add</h2>
+<p>If you have feature templates favorited, the quick add section will appear under the feature type in the
+features list. You may then use the listed favorite feature templates to quickly add features with the template
+applied. This can be done in 2 ways:
+- Click the feature template name to automatically open the add features tool and have the template
+applied
+- Drag and drop the feature template on the map to quickly add a new feature to the desired location
+with only having the enter the feature name in a popup.</p>
+<p><img alt="Image p052" src="../../../../assets/images/ce-express/user-guide-v73/p052-img7.png" /></p>
+<p><img alt="Image p053" src="../../../../assets/images/ce-express/user-guide-v73/p053-img1.png" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "search.suggest", "toc.integrate"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

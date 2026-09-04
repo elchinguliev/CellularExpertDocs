@@ -1,0 +1,2365 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Official documentation for CE Express, CE Pro, and Inventory3D">
+      
+      
+        <meta name="author" content="Cellular Expert UAB">
+      
+      
+        <link rel="canonical" href="https://elchinguliev.github.io/CellularExpertDocs/ce-pro/v5.0/4-workspace/4-1-workspace/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Workspace - Cellular Expert Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#workspace" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Cellular Expert Documentation" class="md-header__button md-logo" aria-label="Cellular Expert Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cellular Expert Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Workspace
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../index.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../ce-express/overview.md" class="md-tabs__link">
+          
+  
+  
+  CE Express
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../rcp-user-guide.md" class="md-tabs__link">
+          
+  
+  
+  CE Pro
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../inventory3d/user-guide.md" class="md-tabs__link">
+          
+  
+  
+  Inventory3D
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../geodata/geodata-requirements.md" class="md-tabs__link">
+          
+  
+  
+  Geodata
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Cellular Expert Documentation" class="md-nav__button md-logo" aria-label="Cellular Expert Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Cellular Expert Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CE Express
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CE Express
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/overview.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/login.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Login Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/workspace.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/network-objects.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Network Objects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/antenna-patterns.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Antenna Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/rf-prediction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RF Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/profile-tool.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Path Profile & LOS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/street-view.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Street View
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/geodata.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geodata & Rasters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_10" id="__nav_2_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Training
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Training
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/01-creating-workspace.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01. Creating Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/02-create-objects.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02. Create Objects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/03-line-of-sight.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03. Line of Sight
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/04-rf-prediction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04. RF Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/05-import-data.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05. Import Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/06-prediction-models.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06. Prediction Models
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/07-mw-equipment.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07. MW Equipment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/08-mw-prediction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08. MW Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/09-preparing-geodata.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09. Preparing Geodata
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_11" id="__nav_2_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guides
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    User Guides
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/user-guide/user-guide-v7.3.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guide v7.3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/user-guide/admin-guide-v7.2.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Administrator Guide v7.2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/user-guide/admin-guide-only-v7.2.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Admin Guide (Express Only)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CE Pro
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CE Pro
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rcp-user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RCP User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rlp-user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RLP User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../emf-user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EMF User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sound-user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sound User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../indoor-user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Indoor User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Training
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Training
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/00-installation.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    00. Installation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/01-data-types.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01. Data Types
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/02-architecture.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02. Architecture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/03-agenda.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03. Agenda
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/04-workspace.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04. Creating Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/05-line-of-sight.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05. Line of Sight
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/06-objects.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06. Creating Objects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/07-cell-prediction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07. Cell Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/08-prediction-models.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08. Prediction Models
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/09-importing-data.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09. Importing Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/10-rl-prediction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10. RL Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventory3D
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Inventory3D
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../inventory3d/user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guide v4.6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geodata
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Geodata
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../geodata/geodata-requirements.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geodata Requirements 2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../geodata/network-objects-requirements.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Network Objects Requirements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="workspace">Workspace</h1>
+<p>This chapter describes the Cellular Expert workspace functionality, shared across all CE Pro modules. For the Indoor-specific creation flow, see <a href="../4-2-create-indoor-workspace/">Create Indoor Workspace</a>.</p>
+<h2 id="workspace-tool">Workspace Tool</h2>
+<h3 id="workspace-table">Workspace Table</h3>
+<p>A Cellular Expert workspace is a geodatabase containing data tables, feature datasets, and the workspace definition table. After creating a new workspace database, the workspace definition table is named <code>CE_WORKSPACE</code> and contains information about the dataset.</p>
+<p><img alt="CE_WORKSPACE attribute table with OBJECTID, pName, pType, pValue fields" src="../../../../assets/images/ce-pro/v5.0/workspace-ce-workspace-table.png" /></p>
+<p>Data field types and values:</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OBJECTID</td>
+<td>Long integer</td>
+</tr>
+<tr>
+<td>pName</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>pType</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>pValue</td>
+<td>Text</td>
+</tr>
+</tbody>
+</table>
+<p>When moving your project's directory to another location (e.g. to another computer), it is necessary to update the workspace parameters by referencing the new paths so the project loads correctly:</p>
+<ul>
+<li><strong>Prediction Path</strong> — path for storing prediction grids.</li>
+<li><strong>Calculation Path</strong> — path for temporary calculations.</li>
+<li><strong>Calculation Tasks Data Path</strong> — path for saving calculation tasks.</li>
+<li><strong>Geodata Folder Path</strong> — path for geodata (prediction models do not have geodata options; topographical data is taken from the Geodata Folder Path).</li>
+<li><strong>Result Path</strong> — path for final results.</li>
+</ul>
+<p><img alt="Workspace Properties Project Paths table" src="../../../../assets/images/ce-pro/v5.0/workspace-project-paths-table.png" /></p>
+<p>Workspace calculation paths and settings can be previewed in <strong>Workspace &gt; Properties</strong>, which shows all parameters listed in the <code>CE_WORKSPACE</code> table.</p>
+<h3 id="create-workspace">Create Workspace</h3>
+<p>Steps to create a new workspace:</p>
+<ol>
+<li>Click the <strong>Create</strong> button in the Cellular Expert <strong>Workspace</strong> menu.</li>
+</ol>
+<p><img alt="Workspace menu — Create, Open, Remove, Upgrade, Properties" src="../../../../assets/images/ce-pro/v5.0/workspace-menu-dropdown.png" /></p>
+<ol>
+<li>The <strong>Create</strong> dialog appears. Fill in the minimum required data:</li>
+</ol>
+<p><strong>New workspace path</strong>
+   Automatically filled based on the ArcGIS Pro project location. It is recommended to first save your ArcGIS Pro project and then open <strong>Workspace &gt; Create</strong>. The project's workspace folder is automatically created in the ArcGIS Pro project location catalog, so both the ArcGIS Pro and CE workspace live in the same location.</p>
+<p><strong>Geodata folder path</strong>
+   The catalog where geodata files are stored — see <a href="../../3-geographic-data/">Geographic Data</a> for requirements. Click <strong>Browse</strong> to define the Geodata catalog. Geodata must use specific names:
+   - The Digital Terrain Model must be named <code>elevation.tif</code>
+   - The land use (or clutter) grid must be named <code>clutterClasses.tif</code>
+   - The clutter heights (typically building and vegetation height) grid must be named <code>clutterHeight.tif</code></p>
+<blockquote>
+<p><strong>Note:</strong> The projected coordinate system is filled in automatically, taken from the defined Elevation grid. This coordinate system is then assigned to your project feature layers.</p>
+</blockquote>
+<p>When creating a new workspace using geodata that contains a clutter classes raster, default class IDs can be set by clicking <strong>Set Default Clutter Class IDs</strong>. The default ID values are based on Living Atlas clutter. Clutter class IDs can also be set manually, either before or after the default values are set — click <strong>Manually Set Clutter Class IDs</strong> to open the manual editor, where each clutter class can be edited to designate its used and unused types, indicated by distinct colors.</p>
+<p><img alt="Set Custom Clutter Class IDs dialog" src="../../../../assets/images/ce-pro/v5.0/manually-set-clutter-class-ids.png" /></p>
+<p>Several messages relate to Geodata:
+   - If only Elevation exists in the Geodata catalog, the tool notes that Clutter Classes and Clutter Height are optional.</p>
+<pre><code> ![Elevation raster found! (Optional) Clutter classes raster is missing.](../../../assets/images/ce-pro/v5.0/workspace-elevation-only-message.png)
+</code></pre>
+<ul>
+<li>
+<p>If the coordinates of elevation and clutter mismatch, close the <strong>Create</strong> tool and fix the geodata — use the Geoprocessing <strong>Define Projection</strong> tool to assign the same coordinate system as <code>elevation.tif</code> to your <code>clutterClasses.tif</code> and, if present, <code>clutterHeight.tif</code> rasters.</p>
+<p><img alt="Spatial References of elevation and clutter class raster did not match!" src="../../../../assets/images/ce-pro/v5.0/workspace-coordinate-mismatch-message.png" /></p>
+<p><img alt="Define Projection geoprocessing tool" src="../../../../assets/images/ce-pro/v5.0/define-projection-tool.png" /></p>
+</li>
+</ul>
+<p><strong>Also Create Local Scene</strong>
+   Creates a second scene for 3D visualization.</p>
+<p><img alt="Also create Local Scene checkbox" src="../../../../assets/images/ce-pro/v5.0/create-local-scene-checkbox.png" /></p>
+<p><strong>Included Templates</strong>
+   When creating a new workspace, you can also choose which Cell and Repeater templates are provisioned into it, grouped by technology (2G, 3G, 4G, 5G, WiFi for Cells; 2G, 3G, 4G, 5G for Repeaters). Individual templates or entire technology groups can be selected or deselected. By default, all templates are enabled — deselecting unused technologies keeps the new workspace clean and uncluttered by objects from unrelated technology stacks. This selection does not affect previously created workspaces.</p>
+<p><img alt="Create New Workspace dialog with Included Templates" src="../../../../assets/images/ce-pro/v5.0/create-workspace-dialog.png" /></p>
+<ol>
+<li>Press <strong>OK</strong> to start the workspace creation procedure. The Cellular Expert layer and geodata are added to the project, and the workspace geodatabase and required folders are created.</li>
+</ol>
+<p><img alt="Folder structure created by a successful workspace creation (Geoclimatic.gdb, Predictions, Results, SystemFiles, Temp, workspace.gdb, etc.)" src="../../../../assets/images/ce-pro/v5.0/workspace-created-folder-structure.png" /></p>
+<p>The Project Paths are filled in under <strong>Workspace Properties &gt; Parameters</strong>.</p>
+<h3 id="open-workspace">Open Workspace</h3>
+<p>Steps to open a workspace:</p>
+<ol>
+<li>Click <strong>Open</strong> in the <strong>Workspace</strong> menu of the Cellular Expert toolbar.</li>
+<li>Specify the workspace name and click <strong>OK</strong>.</li>
+</ol>
+<p>The specified workspace is activated automatically.</p>
+<h3 id="remove-workspace">Remove Workspace</h3>
+<p>Selecting <strong>Remove</strong> in the <strong>Workspace</strong> dropdown menu removes the workspace from the currently open ArcGIS Pro project.</p>
+<h3 id="workspace-upgrade">Workspace Upgrade</h3>
+<p>Workspace Upgrade is a tool that lets you update missing tables from the default database (<code>default.gdb</code>). If a table exists, Workspace Upgrade also checks whether all default fields are present in it. Toggled tables are updated (upgraded) by the tool.</p>
+<p>New versions of CE for ArcGIS Pro usually bring changes to the default data tables. This tool is especially useful for checking whether the newest version's tables correspond to the current project's tables. Workspace Upgrade automatically checks these parameters and notifies the user on project start-up.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Refresh Cellular Expert Layers</td>
+<td>Imports missing layers from the Cellular Expert Dataset.</td>
+</tr>
+<tr>
+<td>Reimport Antennas</td>
+<td>Imports the deleted default antennas back into the Antennas table.</td>
+</tr>
+<tr>
+<td>Generate Antenna Type</td>
+<td>Based on the Antenna data, assigns antennas a type if they are missing one.</td>
+</tr>
+<tr>
+<td>Run Analysis</td>
+<td>Manually checks whether the default tables and their fields exist in the project.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Upgrade Database</strong></p>
+<p>Creates the missing tables and/or adds back the missing fields from the default tables.</p>
+<p>If a project with incompatible geodata is loaded, the Workspace Upgrade tool analyzes the current geodata as well as the owned Esri Extension licenses to offer the optimal geodata upgrade path. This process is one-time only and is triggered by checking the <strong>Upgrade Geodata</strong> toggle:</p>
+<ul>
+<li>If only <code>elevation</code> and <code>buildingHeight</code> rasters exist, <code>buildingHeight</code> can automatically be renamed to <code>clutterHeight</code>.</li>
+<li>(Image Analyst and Spatial Analyst licenses only) If <code>elevation</code>, <code>buildingHeight</code>, and <code>clutterHeight</code> rasters exist, raster calculations merge the <code>buildingHeight</code> and <code>clutterHeight</code> rasters.</li>
+<li>(Image Analyst and Spatial Analyst licenses only) If <code>elevation</code>, <code>buildingHeight</code>, <code>clutterHeight</code>, and <code>clutterClasses</code> rasters exist, raster calculations merge the <code>buildingHeight</code> and <code>clutterHeight</code> rasters, and modify the <code>clutterClasses</code> raster to add building outlines with ID <code>0</code>.</li>
+</ul>
+<h3 id="workspace-properties">Workspace Properties</h3>
+<p>The Workspace Properties dialog shows all workspace information from the <code>CE_WORKSPACE</code> data table and lets you customize the symbol visualization. To open it, click the <strong>Workspace</strong> menu icon and choose <strong>Properties</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Button</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OK</td>
+<td>Saves any changes and closes the dialog.</td>
+</tr>
+<tr>
+<td>Cancel</td>
+<td>Cancels any changes and closes the dialog.</td>
+</tr>
+<tr>
+<td>Help</td>
+<td>Opens helpful information about the dialog.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Parameters</strong></p>
+<p>All information from the <code>CE_WORKSPACE</code> table is represented in the <strong>Parameters</strong> tab.</p>
+<p><img alt="Workspace Properties — Parameters tab" src="../../../../assets/images/ce-pro/v5.0/workspace-properties-parameters.png" /></p>
+<p><strong>CE Server Parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ArcGIS Portal URL</td>
+<td>Connection URL to the ArcGIS Portal website.</td>
+</tr>
+<tr>
+<td>CE Server API</td>
+<td>Connection URL to the Cellular Expert Server API.</td>
+</tr>
+<tr>
+<td>CE Server Environment</td>
+<td>The Cellular Expert Server environment in which it is run.</td>
+</tr>
+<tr>
+<td>CE Server URL</td>
+<td>Connection URL to the Cellular Expert Server.</td>
+</tr>
+<tr>
+<td>CE Server Workspace</td>
+<td>The workspace used in the Cellular Expert Server.</td>
+</tr>
+<tr>
+<td>CE Server Workspace ID</td>
+<td>The ID of the workspace used in the Cellular Expert Server.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Project Paths Parameters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Calculation Path</td>
+<td>Path for temporary calculation results.</td>
+</tr>
+<tr>
+<td>Calculation Tasks Data Path</td>
+<td>Path for the calculation results displayed in the <a href="../../7-coverage-prediction/7-1-ce-calculation-task-list/">CE Calculation Task List</a>.</td>
+</tr>
+<tr>
+<td>Geodata Folder Path</td>
+<td>Path to the folder where the geodata for the Cellular Expert Workspace is stored.</td>
+</tr>
+<tr>
+<td>Prediction Path</td>
+<td>Path for storing prediction grids.</td>
+</tr>
+<tr>
+<td>Result Path</td>
+<td>Path for storing the final calculation results.</td>
+</tr>
+<tr>
+<td>Volatile Calculation Path</td>
+<td>Path for temporary Quick Prediction calculation results.</td>
+</tr>
+<tr>
+<td>Volatile Result Path</td>
+<td>Path for storing the final Quick Prediction calculation results.</td>
+</tr>
+<tr>
+<td>Volatile Tasks Data Path</td>
+<td>Path for the Quick Prediction calculation results displayed in the CE Calculation Task List.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Project Settings Parameters</strong></p>
+<p><img alt="Workspace Properties — Project Settings (Calculate EIRP, Enable GPU Acceleration, Height References, Use Clutter Loss)" src="../../../../assets/images/ce-pro/v5.0/workspace-properties-project-settings.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Calculate EIRP</td>
+<td>Determines whether EIRP is calculated in prediction calculations.<br>• <strong>Yes</strong> — EIRP is calculated based on Power, Antenna Gain, and Misc. Loss values.<br>• <strong>No</strong> — EIRP is taken as the single value defined in the Power field.</td>
+</tr>
+<tr>
+<td>Enable GPU Acceleration</td>
+<td>Enables GPU acceleration, which optimizes prediction calculations and makes them run faster. Possible values: Yes/No.</td>
+</tr>
+<tr>
+<td>Transmit Power Units</td>
+<td>Represents the power value in dBm or Watts.</td>
+</tr>
+<tr>
+<td>Receiver/Transmitter Height Reference</td>
+<td>The reference raster for calculating the receiver's and transmitter's height for Profile, RF Predictions, Quick Predictions, Visibility, and other prediction tools. Possible values:<br>• <strong>Elevation</strong> — the reference layer is the <code>elevation.tif</code> raster. Default.<br>• <strong>Clutter height</strong> — the reference layer is the <code>clutterHeight.tif</code> raster; receiver/transmitter height is calculated over the Clutter Height raster. A <code>clutterHeight.tif</code> raster is required to enable this option.<br>• <strong>Clutter height (buildings only)</strong> — height reference is calculated using the Building class from the <code>clutterClasses.tif</code> raster. The Building class is defined in the Clutter Classes dialog and linked to a specific clutter class ID in the <code>clutterClasses.tif</code> raster.<br>• <strong>Absolute</strong> — the receiver's and/or transmitter's absolute height (relative to sea level) is used in relevant calculations.</td>
+</tr>
+<tr>
+<td>Use Clutter Loss</td>
+<td>Determines whether <code>clutterClasses.tif</code> and <code>clutterHeight.tif</code> rasters are used in prediction calculations. Possible values: Yes/No.</td>
+</tr>
+<tr>
+<td>Rounding</td>
+<td>The rounding value applied to different parameters (Azimuth and Tilt, Default Rounding, Frequency, Geographic Coordinates, Power, Projected Coordinates).</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Visualization</strong></p>
+<p>The Cellular Expert network objects (Sites, Cells, OMEN) and calculation result rasters are represented in ArcGIS with the symbology defined in <code>.lyr</code> files, located in the <strong>Visualization</strong> tab (<code>CE_LAYERS</code> table).</p>
+<p><img alt="Workspace Properties — Visualization tab" src="../../../../assets/images/ce-pro/v5.0/workspace-properties-visualization.png" /></p>
+<p>All visualization settings have <strong>Visible</strong> set to On by default. If <strong>Visible</strong> is set to off, the next time a relevant calculation is performed, the associated rasters are added to the map with visibility disabled. This applies only to calculations performed after the setting is changed, and does not affect rasters already on the map.</p>
+<p>The symbology is defined as a list of layers and <code>.lyr</code> files:</p>
+<ul>
+<li><strong>Narrowband 2G (GSM/CDMA-850/TETRA/P-25)</strong> — second-generation network (e.g. GSM) calculations, or technology-independent calculations (for example, the symbology for antenna loss by tilt is defined by the same file for WiMAX, LTE, and other technologies).</li>
+<li><strong>Broadband 3G (UMTS/HSDPA)</strong> — results for UMTS, HSDPA, and other 3–3.5 generation technologies.</li>
+<li><strong>Broadband 4G (LTE, BWA/WiMAX)</strong> — results of LTE technology calculations.</li>
+<li><strong>Broadband 5G (NR, CBRS)</strong> — results of 5G-NR technology calculations.</li>
+<li><strong>Siren Sound Prediction</strong> — results of sirens calculations. <br><strong>Applies to:</strong> RCP.</li>
+<li><strong>Network objects</strong> — Sites, Cells, OMEN.</li>
+<li><strong>Visibility</strong> — results of Visibility Calculations.</li>
+<li><strong>Optimal Site Position</strong> — results of optimal site positioning.</li>
+<li><strong>Compare predictions</strong> — results of comparing several predictions.</li>
+<li><strong>EMF</strong> — results of EMF calculations.</li>
+<li><strong>Model Tuning</strong> — results of model calibration.</li>
+<li><strong>Radar</strong> — results of radar coverage calculations.</li>
+<li><strong>Wi-Fi</strong> — results of Wi-Fi coverage calculations.</li>
+</ul>
+<p>For example, the layer "4G Downlink Throughput" with the path <code>dl_ul_throughput.lyr</code> means the 4G downlink bitrate prediction raster is represented in ArcGIS using the symbology file <code>.../Cellular Expert/Layers/dl_ul_throughput.lyr</code>.</p>
+<blockquote>
+<p><strong>Note:</strong> If you change the symbology using ArcGIS tools, the change is saved only in the current ArcGIS project. When you re-open the same Cellular Expert workspace in another ArcGIS project, the symbology defined in the Visualization tab of the Workspace Properties dialog is used instead.</p>
+</blockquote>
+<p>To create a new visualization and register it in Workspace Properties:</p>
+<ol>
+<li>Right-click the layer with the modified symbology (e.g. Sites) in the ArcGIS Table Of Contents.</li>
+<li>Choose <strong>Sharing &gt; Save As Layer File…</strong>.</li>
+<li>Save the file with a given name (e.g. <code>Sites_my_symbol.lyrx</code>).</li>
+<li>Copy/paste it to <code>C:\Program Files\Cellular Expert\Layers</code>.</li>
+<li>Open the Cellular Expert workspace in which you want to use your symbology.</li>
+<li>Open <strong>Workspace Properties</strong> and select the <strong>Visualization</strong> tab.</li>
+<li>Select the row with the corresponding layer name (e.g. Sites).</li>
+<li>Click the browse button and locate your layer file (e.g. <code>C:\Program Files\Cellular Expert\Layers\Sites_my_symbol.lyrx</code>), which contains the modified symbols. Press <strong>OK</strong>.</li>
+</ol>
+<p>The symbology for the Cellular Expert network objects (Sites, Cells, OMEN) is applied to the layers the next time you open the workspace. To see the changes immediately, re-open the workspace (close it with <strong>Remove</strong> and open it again with <strong>Open</strong> from the Workspace menu).</p>
+<p>The new symbology is uploaded and remains assigned to the workspace database independently of the ArcGIS project file.</p>
+<blockquote>
+<p><strong>Note:</strong> When using layer files for visualization, remember that if you move your workspace to another location, the file path settings can become incorrect. If Cellular Expert cannot find your defined symbology file, it uses the default file from <code>.../Cellular Expert/Layers</code>.</p>
+</blockquote>
+<h2 id="docs-manager">Docs Manager</h2>
+<p>Docs Manager manages saved Profiles between the transmitter (Tx) and receiver (Rx) generated in the <a href="../../6-profile/">Profile</a> tool, as well as saved Link Prediction results, Profile Reports, and Link Prediction Reports. When a profile is saved in the Profile tool, it is automatically stored in Docs Manager, allowing users to reopen it at any time — preserving all parameters and calculations related to Tx and Rx for future reference, without needing to reconfigure settings repeatedly. The same applies to Link Prediction results, and reports can be reopened even if the originally exported document has since been deleted or moved.</p>
+<p><img alt="Docs Manager filtered by Saved Profiles" src="../../../../assets/images/ce-pro/v5.0/docs-manager-saved-profiles.png" /></p>
+<h3 id="how-to-find-a-saved-profile">How to Find a Saved Profile</h3>
+<p>Use the filter option on each column to quickly locate the required item from the list.</p>
+<p><img alt="Docs Manager — Profile Name column filtered to locate a specific saved profile" src="../../../../assets/images/ce-pro/v5.0/docs-manager-filter-example.png" /></p>
+<h3 id="how-to-open-a-profile">How to Open a Profile</h3>
+<p>A saved profile can be accessed in two ways:</p>
+<ol>
+<li>Double-click the desired profile.</li>
+<li>Select the profile and click <strong>Open</strong>.</li>
+</ol>
+<h3 id="additional-functions">Additional Functions</h3>
+<ul>
+<li><strong>Delete</strong> — removes the selected item.</li>
+<li><strong>Close</strong> — closes the Docs Manager dialog.</li>
+</ul>
+<h3 id="how-to-open-a-link-prediction">How to Open a Link Prediction</h3>
+<p>A saved Link Prediction, like a Profile, can be accessed either by double-clicking the desired result, or by selecting it and clicking <strong>Open</strong>.</p>
+<p><img alt="Docs Manager filtered by Saved Link Predictions" src="../../../../assets/images/ce-pro/v5.0/docs-manager-saved-link-predictions.png" /></p>
+<h3 id="how-to-save-a-link-prediction">How to Save a Link Prediction</h3>
+<p>A Link Prediction result can be saved to Docs Manager by enabling <strong>Save result to Docs Manager</strong> in the Link Prediction tool.</p>
+<h3 id="how-to-open-a-profile-report">How to Open a Profile Report</h3>
+<p>A Profile Report document can be accessed either by double-clicking the desired Profile Report, or by selecting it and clicking <strong>Open</strong>. It opens in your default PDF document reader.</p>
+<p><img alt="Docs Manager filtered by Saved Profile Reports" src="../../../../assets/images/ce-pro/v5.0/docs-manager-saved-profile-reports.png" /></p>
+<h3 id="how-to-save-a-profile-report">How to Save a Profile Report</h3>
+<p>A Profile Report of the currently drawn profile can be saved to Docs Manager by enabling <strong>Save result to Docs Manager</strong> in the <strong>Export</strong> tab of the Profile tool.</p>
+<h3 id="how-to-open-a-link-prediction-report">How to Open a Link Prediction Report</h3>
+<p>A Link Prediction Report document can be accessed either by double-clicking the desired report, or by selecting it and clicking <strong>Open</strong>. It opens in your default PDF document reader.</p>
+<p><img alt="Docs Manager filtered by Saved Link Prediction Reports" src="../../../../assets/images/ce-pro/v5.0/docs-manager-saved-link-prediction-reports.png" /></p>
+<h3 id="how-to-save-a-link-prediction-report">How to Save a Link Prediction Report</h3>
+<p>A Link Prediction Report can be saved to Docs Manager by enabling <strong>Save result to Docs Manager</strong> in the <strong>Export</strong> tab of the Link Prediction tool.</p>
+<h2 id="ce-express-connection">CE Express Connection</h2>
+<p>CE Express Connection establishes a connection between the CE Express database and CE for ArcGIS Pro. Once the connection is established, data can be retrieved from CE Express and uploaded to the CE for ArcGIS Pro workspace.</p>
+<p>For the connection to be established, you must have access to ArcGIS Portal and a valid CE Express URL.</p>
+<h3 id="properties">Properties</h3>
+<p>Click the CE Express Connection button and select the <strong>Properties</strong> tab to open the CE Express Connection dialog. To connect to CE Server Express and get the list of workspaces, insert the Server URL in the corresponding field, then press <strong>Get Workspaces</strong>. If you select one of the resulting workspaces, its properties are saved to your current ArcGIS Pro project automatically.</p>
+<p><img alt="CE Express Connection Manager with a retrieved workspace and feature table" src="../../../../assets/images/ce-pro/v5.0/ce-express-connection-manager.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Server URL</td>
+<td>The URL to the CE Express database where the workspaces are located. Required to connect to the database.</td>
+</tr>
+<tr>
+<td>Server ArcGIS Portal URL</td>
+<td>The URL to your organization's ArcGIS Portal (filled in automatically).</td>
+</tr>
+<tr>
+<td>Server API URL</td>
+<td>The API used in the connection process (filled in automatically).</td>
+</tr>
+<tr>
+<td>Selected Workspace</td>
+<td>The list of all workspaces retrieved from the CE Express database.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Button</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Get Workspaces</td>
+<td>Establishes the connection between the provided Server URL and CE for ArcGIS Pro. You may be redirected to a browser window to log in to ArcGIS Portal — after doing so, the workspaces are retrieved.</td>
+</tr>
+<tr>
+<td>Import Features</td>
+<td>Imports the retrieved objects into the currently open CE workspace.</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "search.suggest", "toc.integrate"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

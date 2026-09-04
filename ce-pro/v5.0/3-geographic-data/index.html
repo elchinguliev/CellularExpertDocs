@@ -1,0 +1,2187 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Official documentation for CE Express, CE Pro, and Inventory3D">
+      
+      
+        <meta name="author" content="Cellular Expert UAB">
+      
+      
+        <link rel="canonical" href="https://elchinguliev.github.io/CellularExpertDocs/ce-pro/v5.0/3-geographic-data/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Geographic Data - Cellular Expert Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#geographic-data" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Cellular Expert Documentation" class="md-header__button md-logo" aria-label="Cellular Expert Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cellular Expert Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Geographic Data
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../index.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../ce-express/overview.md" class="md-tabs__link">
+          
+  
+  
+  CE Express
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../rcp-user-guide.md" class="md-tabs__link">
+          
+  
+  
+  CE Pro
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../inventory3d/user-guide.md" class="md-tabs__link">
+          
+  
+  
+  Inventory3D
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../geodata/geodata-requirements.md" class="md-tabs__link">
+          
+  
+  
+  Geodata
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Cellular Expert Documentation" class="md-nav__button md-logo" aria-label="Cellular Expert Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Cellular Expert Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CE Express
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CE Express
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-express/overview.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-express/login.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Login Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-express/workspace.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-express/network-objects.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Network Objects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-express/antenna-patterns.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Antenna Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-express/rf-prediction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RF Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-express/profile-tool.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Path Profile & LOS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-express/street-view.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Street View
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-express/geodata.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geodata & Rasters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_10" id="__nav_2_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Training
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Training
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-express/training/01-creating-workspace.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01. Creating Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-express/training/02-create-objects.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02. Create Objects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-express/training/03-line-of-sight.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03. Line of Sight
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-express/training/04-rf-prediction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04. RF Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-express/training/05-import-data.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05. Import Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-express/training/06-prediction-models.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06. Prediction Models
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-express/training/07-mw-equipment.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07. MW Equipment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-express/training/08-mw-prediction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08. MW Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-express/training/09-preparing-geodata.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09. Preparing Geodata
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_11" id="__nav_2_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guides
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    User Guides
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-express/user-guide/user-guide-v7.3.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guide v7.3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-express/user-guide/admin-guide-v7.2.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Administrator Guide v7.2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ce-express/user-guide/admin-guide-only-v7.2.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Admin Guide (Express Only)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CE Pro
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CE Pro
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rcp-user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RCP User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rlp-user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RLP User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../emf-user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EMF User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sound-user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sound User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../indoor-user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Indoor User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Training
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Training
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../training/00-installation.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    00. Installation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../training/01-data-types.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01. Data Types
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../training/02-architecture.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02. Architecture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../training/03-agenda.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03. Agenda
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../training/04-workspace.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04. Creating Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../training/05-line-of-sight.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05. Line of Sight
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../training/06-objects.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06. Creating Objects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../training/07-cell-prediction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07. Cell Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../training/08-prediction-models.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08. Prediction Models
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../training/09-importing-data.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09. Importing Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../training/10-rl-prediction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10. RL Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventory3D
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Inventory3D
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inventory3d/user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guide v4.6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geodata
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Geodata
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../geodata/geodata-requirements.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geodata Requirements 2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../geodata/network-objects-requirements.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Network Objects Requirements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="geographic-data">Geographic Data</h1>
+<p>CE Desktop is designed to work with any geospatial data available to the customer and to fully exploit its precision for the most accurate coverage and QoS calculations. The platform supports multi-resolution input datasets — from freely available global sources such as <a href="https://livingatlas.arcgis.com/landcoverexplorer/">Sentinel-2 10 m land cover</a> and ASTER DEM, to premium high-resolution terrain and 3D building models when provided by the customer or government agencies.</p>
+<p>By leveraging whatever data is available locally, Cellular Expert performs calculations at the maximum feasible resolution, accurately modeling signal propagation even in dense urban environments. Support for 3D multi-height calculations ensures that coverage predictions reflect street-level, indoor, and rooftop conditions, providing a realistic representation of service availability.</p>
+<p>This flexibility means existing GIS assets, open datasets, or commercial data already licensed can be turned into actionable coverage maps without additional data procurement.</p>
+<p>By using terrain elevation, obstacles, and clutter classification in every calculation, Cellular Expert accurately models:</p>
+<ul>
+<li><strong>Line-of-Sight and Non-Line-of-Sight Conditions</strong> — determining diffraction, reflection, and shadowing effects over hills, valleys, and urban obstacles.</li>
+<li><strong>Coverage Footprints</strong> — generating precise signal strength maps at national, regional, and local levels.</li>
+<li><strong>Capacity and Interference Analysis</strong> — modeling realistic signal overlaps and interference zones for multi-operator, multi-technology environments.</li>
+</ul>
+<p><img alt="Propagation loss diagram — free space loss, diffraction over terrain, clutter losses (H clutter), and obstacle losses (H obstacles) relative to the DTM and DSM" src="../../../assets/images/ce-pro/v5.0/propagation-loss-diagram.png" /></p>
+<p>The CE tools make use of three distinct GIS data layers to obtain high-precision modeling of radio wave propagation losses:</p>
+<ol>
+<li><strong>Digital Terrain Model (DTM)</strong>, also known as Digital Elevation Model (DEM) — describes the Earth's surface, i.e. the path terrain profile in terms of ground elevation above uniform sea level.</li>
+<li><strong>Obstacles layer</strong> — delineates buildings and other objects above the Earth's surface that are principal impediments to radio wave propagation.</li>
+<li><strong>Clutter layer</strong> — delineates naturally occurring or human-cultivated ground cover that may be partially penetrable by radio waves, such as natural vegetation (forests, trees, bushes) or crops, gardens, parks, etc.</li>
+</ol>
+<p>The resolution of the input data has a direct impact on prediction accuracy:</p>
+<ul>
+<li>Coverage calculated using <strong>25 m resolution</strong> ASTER DEM data gives a general view of signal distribution but with limited detail, especially in dense urban areas.</li>
+<li>Coverage calculated using <strong>1 m resolution</strong> data reveals a much more precise propagation pattern, including building-level shadowing and accurate street-by-street coverage.</li>
+</ul>
+<p>Cellular Expert can easily integrate and process 1 m or even sub-meter topographical data, providing highly detailed RF calculations. This level of precision is essential for:</p>
+<ul>
+<li>Modeling 2G/3G/4G/5G, small cell, and mmWave networks.</li>
+<li>Identifying exact coverage gaps at the building and street level.</li>
+<li>Supporting regulatory-grade broadband mapping and planning.</li>
+</ul>
+<p>By using high-resolution terrain and clutter data, Cellular Expert ensures that its calculations match real-world conditions as closely as possible, resulting in better network design decisions and more reliable planning outcomes.</p>
+<h2 id="geographic-data-requirements">Geographic Data Requirements</h2>
+<p>Only <strong>GeoTIFF</strong> is supported. Topographical data must use specific file names:</p>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Required file name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Digital Terrain Model</td>
+<td><code>elevation.tif</code></td>
+</tr>
+<tr>
+<td>Land use / clutter grid</td>
+<td><code>clutterClasses.tif</code></td>
+</tr>
+<tr>
+<td>Clutter heights (building, vegetation height)</td>
+<td><code>clutterHeight.tif</code></td>
+</tr>
+</tbody>
+</table>
+<p>Mandatory geographical data:</p>
+<ul>
+<li>Digital Terrain Model (DTM) grid.</li>
+</ul>
+<p>All geodata must be located in one catalog.</p>
+<h3 id="digital-terrain-model-dtm-grid">Digital Terrain Model (DTM) Grid</h3>
+<blockquote>
+<p><strong>Mandatory</strong></p>
+</blockquote>
+<p>The Digital Terrain Model (DTM), also known as Digital Elevation Model (DEM), represents the Earth's ground level above sea level. Each raster pixel has its own height value.</p>
+<p>A sample DTM raster represents, for example, 5 square meters per pixel with its height value. In reality, within a one-pixel area the height is not the same everywhere — the pixel's height value is the height at its center, or the maximum. The smaller the pixels, the more accurate the grid, but also the more data there is to calculate.</p>
+<p><img alt="Sample DTM raster rendered as a hillshade" src="../../../assets/images/ce-pro/v5.0/dtm-hillshade-example.png" /></p>
+<h3 id="prepare-dtm-raster">Prepare DTM raster</h3>
+<p>The Digital Terrain Model (DTM) has the following requirements.</p>
+<p><strong>Projection</strong></p>
+<p>The raster must use a Projected Coordinate System. To check the coordinate system of your raster, use the Properties function in ArcGIS Pro: add the raster to your project, right-click it, and select <strong>Properties</strong>. Then go to the <strong>Source</strong> tab <strong>&gt; Spatial Reference</strong> and check the <strong>Coordinate System Type</strong> parameter to confirm it is a Projected Coordinate System.</p>
+<p><img alt="Raster Properties — Source tab showing the Projected Coordinate System field" src="../../../assets/images/ce-pro/v5.0/raster-properties-source-tab.png" /></p>
+<p>If your raster is in a Geographic Coordinate System or needs a different projection, use the <strong>Geoprocessing &gt; Project Raster</strong> tool to update it.</p>
+<p><img alt="Project Raster geoprocessing tool" src="../../../assets/images/ce-pro/v5.0/project-raster-dialog.png" /></p>
+<p>In the <strong>Output Coordinate System</strong>, specify a new coordinate system. It is recommended to use a UTM coordinate system under the WGS 1984 projection. You can find the appropriate <a href="https://www.arcgis.com/apps/mapviewer/index.html?layers=b294795270aa4fb3bd25286bf09edc51">UTM zone for your area</a> online.</p>
+<p><img alt="Projected Coordinate System picker showing UTM zones" src="../../../assets/images/ce-pro/v5.0/projected-coordinate-system-tree.png" /></p>
+<p><strong>Correct NoData value and raster name</strong></p>
+<p>After setting the correct projection, assign the NoData attribute and specify the appropriate name for the DTM raster using the <strong>Copy Raster</strong> tool in Geoprocessing:</p>
+<p><img alt="Copy Raster geoprocessing tool" src="../../../assets/images/ce-pro/v5.0/copy-raster-dialog.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Input Raster</td>
+<td>Your newly projected DTM raster</td>
+</tr>
+<tr>
+<td>Output Raster Dataset</td>
+<td>Output location, with the raster name set to <code>elevation.tif</code></td>
+</tr>
+<tr>
+<td>NoData Value</td>
+<td><code>-9999</code></td>
+</tr>
+<tr>
+<td>Pixel Type</td>
+<td>32-bit signed or 32-bit float</td>
+</tr>
+<tr>
+<td>Format</td>
+<td>TIFF (set automatically)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="clutter-classes-grid">Clutter Classes Grid</h3>
+<p>Land use, or clutter, refers to the classification of the Earth's surface into categories such as urban, suburban, rural, forest, water, and open land — each of which affects radio propagation differently. Clutter data is crucial because it determines how signals are absorbed, reflected, or diffracted by the environment, directly influencing coverage, interference, and quality of service.</p>
+<p><img alt="Example clutter classes raster with land cover legend" src="../../../assets/images/ce-pro/v5.0/clutter-classes-raster-example.png" /></p>
+<p>The naming and classification of land use types varies by source. One example is the <a href="https://livingatlas.arcgis.com/landcoverexplorer/">Sentinel-2 Land Cover dataset from the Living Atlas</a>, which is freely available worldwide and is detailed in Cellular Expert databases. Once the workspace is created, a default clutter class table is automatically applied for each land use class.</p>
+<p>These are the standard clutter types in the default workspace database and cannot be edited. You must map your clutter raster to these predefined clutter types. Standard mapping has already been configured for the Sentinel-2 Land Cover dataset from the Living Atlas.</p>
+<p><img alt="Clutter Classes dialog — clutter class filtering, used/unused geodata clutter class IDs, and the clutter class list" src="../../../assets/images/ce-pro/v5.0/clutter-classes-dialog-window.png" /></p>
+<p>If you have a different clutter class layer, it can be used for predictions by remapping it in the <a href="../5-data-management/5-5-clutter-classes/">Clutter Classes</a> tool and specifying the IDs in the geodata raster parameter — the <strong>Used geodata clutter class IDs</strong> and <strong>Unused geodata clutter class IDs</strong> lists shown above confirm which raster IDs are currently mapped. If multiple clutter classes correspond to a single default clutter type, separate the ID values with commas. This mapping can also be adjusted in the Clutter table.</p>
+<p><img alt="Clutter attribute table — clutter_class_name, height, nominal_distance, surface_refractivity, relative_permittivity, surface_conductivity, express_id, color, ids, and clutter_class_alias fields" src="../../../assets/images/ce-pro/v5.0/clutter-table-attributes.png" /></p>
+<p>Once clutter classes are successfully mapped, the prediction algorithms recognize the clutter types, apply distinct symbols, and adjust path loss calculations accordingly, based on the parameters set in the prediction model.</p>
+<h3 id="prepare-clutter-classes-raster">Prepare Clutter Classes raster</h3>
+<p>The Clutter Classes raster has the same requirements as the DTM raster above.</p>
+<p><strong>Projection</strong></p>
+<p>It must have the same coordinate system as your <code>elevation.tif</code> raster. If it has a different coordinate system, use <strong>Geoprocessing &gt; Project Raster</strong> to fix it. In the Output Coordinate System, click the <strong>Select Coordinate System</strong> button and choose the same coordinate system as your <code>elevation.tif</code>.</p>
+<p><strong>Correct NoData value and raster name</strong></p>
+<p>After setting the correct projection, assign the NoData attribute and specify the appropriate name for the Clutter Class raster using the <strong>Copy Raster</strong> tool in Geoprocessing:</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Input Raster</td>
+<td>Your newly projected Clutter Class raster</td>
+</tr>
+<tr>
+<td>Output Raster Dataset</td>
+<td>Output location, with the raster name set to <code>clutterClasses.tif</code></td>
+</tr>
+<tr>
+<td>NoData Value</td>
+<td><code>-9999</code></td>
+</tr>
+<tr>
+<td>Pixel Type</td>
+<td>32-bit signed or 32-bit float</td>
+</tr>
+<tr>
+<td>Format</td>
+<td>TIFF (set automatically)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="clutter-heights">Clutter Heights</h3>
+<p>Represents actual clutter heights, which override the default heights specified in the Clutter table. The clutter heights raster requires the accompanying <code>clutterClasses.tif</code> raster and cannot be used independently.</p>
+<p>A clutter height raster can be derived from a Digital Surface Model (DSM) raster and a DTM raster using the ArcGIS Raster Calculator tool. Open <strong>Geoprocessing &gt; Spatial Analyst &gt; Map Algebra &gt; Raster Calculator</strong> and use the following formula:</p>
+<pre><code>DSM – DTM
+</code></pre>
+<p>The calculation output is the difference between the DSM and DTM grids, representing the clutter heights.</p>
+<h3 id="prepare-clutter-height-raster">Prepare Clutter Height raster</h3>
+<p>The Clutter Height raster has the same requirements as the DTM raster above.</p>
+<p><strong>Projection</strong></p>
+<p>It must have the same coordinate system as your <code>elevation.tif</code> raster. If it has a different coordinate system, use <strong>Geoprocessing &gt; Project Raster</strong> to fix it. In the Output Coordinate System, click the <strong>Select Coordinate System</strong> button and choose the same coordinate system as your <code>elevation.tif</code>.</p>
+<p><strong>Correct NoData value and raster name</strong></p>
+<p>After setting the correct projection, assign the NoData attribute and specify the appropriate name for the Clutter Height raster using the <strong>Copy Raster</strong> tool in Geoprocessing:</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Input Raster</td>
+<td>Your newly projected Clutter Height raster</td>
+</tr>
+<tr>
+<td>Output Raster Dataset</td>
+<td>Output location, with the raster name set to <code>clutterHeight.tif</code></td>
+</tr>
+<tr>
+<td>NoData Value</td>
+<td><code>-9999</code></td>
+</tr>
+<tr>
+<td>Pixel Type</td>
+<td>32-bit signed or 32-bit float</td>
+</tr>
+<tr>
+<td>Format</td>
+<td>TIFF (set automatically)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="buildings">Buildings</h3>
+<p>Building features within the Clutter Classes raster are automatically identified and categorized using a range of dedicated building-specific clutter types. These clutter types are available within the <a href="../5-data-management/5-5-clutter-classes/">Clutter Classes</a> tool and are specifically designed to represent different architectural materials and structural characteristics.</p>
+<p>All building-related clutter classes are treated as <strong>Solid Obstacles</strong>, ensuring accurate modeling of signal attenuation and reflection in propagation calculations. This classification enhances the realism and precision of both indoor and outdoor network predictions by accounting for the physical impact of built environments.</p>
+<p><img alt="Clutter Classes filtered by Solid obstacle, showing building-related classes and properties" src="../../../assets/images/ce-pro/v5.0/clutter-classes-solid-obstacle-buildings.png" /></p>
+<p>You can edit your Clutter Classes raster using standard ArcGIS Geoprocessing tools to integrate detailed building data into your existing clutter layer. The process supports both vector and raster input formats, depending on your data source — whether you are working with CAD-derived vectors or pre-classified raster layers.</p>
+<p>If your building data is in vector format (e.g. polygons), first convert it to raster before incorporating it into the Clutter Classes layer:</p>
+<p><img alt="Vector building footprints symbolized by building type (garage, detached, shed, industrial, etc.)" src="../../../assets/images/ce-pro/v5.0/osm-buildings-vector-symbology.png" /></p>
+<ol>
+<li><strong>Convert Vector to Raster</strong> — use the <strong>Polygon to Raster</strong> tool in the Geoprocessing pane to transform your vector-based building footprints into a raster format suitable for clutter classification.</li>
+<li><strong>Update Clutter Classes Using Raster Calculator</strong> — after conversion, open <strong>Geoprocessing &gt; Spatial Analyst &gt; Map Algebra &gt; Raster Calculator</strong> to integrate the new raster into your existing clutter layer. Use a map algebra expression to merge or replace values as needed, assigning appropriate clutter class codes to building areas, for example:</li>
+</ol>
+<pre><code>Con(IsNull(&quot;building raster&quot;), &quot;Clutter_classes.tif&quot;, 0)
+</code></pre>
+<blockquote>
+<p><strong>Note:</strong> When incorporating building data into the Clutter Classes raster, you can assign any numeric value to represent the "Buildings" clutter class — in the example above, a value of <code>0</code> is used, but you may choose any value as long as it does not conflict with existing clutter class values already present in your raster. Document your chosen value and update your Clutter Class definitions accordingly within the Clutter Classes tool to maintain consistency across your modeling environment.</p>
+</blockquote>
+<p>All propagation and prediction calculations reference the clutter types defined in the Clutter Classes table. Each building-related clutter class is assigned a unique ID value, which is used during modeling to apply the appropriate path loss parameters for solid structures — ensuring buildings are accurately represented in simulations and contribute to more realistic signal behavior in both indoor and outdoor environments.</p>
+<p><strong>Building height determination in clutter-based modeling</strong></p>
+<p>Pixels assigned to a building clutter class ID are automatically recognized as a solid obstacle during prediction calculations. Their heights are determined using the following priority:</p>
+<ol>
+<li>From the associated Clutter Height raster, if available — this provides the most accurate, location-specific height information.</li>
+<li>If no Clutter Height raster is present, the system defaults to the height value defined in the Clutter Classes table for the corresponding clutter ID.</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "search.suggest", "toc.integrate"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,3301 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Official documentation for CE Express, CE Pro, and Inventory3D">
+      
+      
+        <meta name="author" content="Cellular Expert UAB">
+      
+      
+        <link rel="canonical" href="https://elchinguliev.github.io/CellularExpertDocs/ce-pro/v5.0/5-data-management/5-7-prediction-model-manager/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Prediction Model Manager - Cellular Expert Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#prediction-model-manager" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Cellular Expert Documentation" class="md-header__button md-logo" aria-label="Cellular Expert Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cellular Expert Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Prediction Model Manager
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../index.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../ce-express/overview.md" class="md-tabs__link">
+          
+  
+  
+  CE Express
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../rcp-user-guide.md" class="md-tabs__link">
+          
+  
+  
+  CE Pro
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../inventory3d/user-guide.md" class="md-tabs__link">
+          
+  
+  
+  Inventory3D
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../geodata/geodata-requirements.md" class="md-tabs__link">
+          
+  
+  
+  Geodata
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Cellular Expert Documentation" class="md-nav__button md-logo" aria-label="Cellular Expert Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Cellular Expert Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CE Express
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CE Express
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/overview.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/login.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Login Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/workspace.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/network-objects.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Network Objects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/antenna-patterns.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Antenna Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/rf-prediction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RF Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/profile-tool.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Path Profile & LOS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/street-view.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Street View
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/geodata.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geodata & Rasters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_10" id="__nav_2_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Training
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Training
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/01-creating-workspace.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01. Creating Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/02-create-objects.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02. Create Objects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/03-line-of-sight.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03. Line of Sight
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/04-rf-prediction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04. RF Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/05-import-data.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05. Import Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/06-prediction-models.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06. Prediction Models
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/07-mw-equipment.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07. MW Equipment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/08-mw-prediction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08. MW Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/training/09-preparing-geodata.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09. Preparing Geodata
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_11" id="__nav_2_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guides
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    User Guides
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/user-guide/user-guide-v7.3.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guide v7.3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/user-guide/admin-guide-v7.2.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Administrator Guide v7.2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ce-express/user-guide/admin-guide-only-v7.2.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Admin Guide (Express Only)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CE Pro
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CE Pro
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rcp-user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RCP User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rlp-user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RLP User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../emf-user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EMF User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sound-user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sound User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../indoor-user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Indoor User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Training
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Training
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/00-installation.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    00. Installation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/01-data-types.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01. Data Types
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/02-architecture.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02. Architecture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/03-agenda.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03. Agenda
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/04-workspace.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04. Creating Workspace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/05-line-of-sight.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05. Line of Sight
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/06-objects.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06. Creating Objects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/07-cell-prediction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07. Cell Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/08-prediction-models.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08. Prediction Models
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/09-importing-data.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09. Importing Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../training/10-rl-prediction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10. RL Prediction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventory3D
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Inventory3D
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../inventory3d/user-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guide v4.6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geodata
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Geodata
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../geodata/geodata-requirements.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geodata Requirements 2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../geodata/network-objects-requirements.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Network Objects Requirements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="prediction-model-manager">Prediction Model Manager</h1>
+<p>CE Path Loss Modelling performs a near-deterministic calculation of received signal levels at each specific point (pixel) in the network's target coverage area, applying a selective path loss model depending on the radio visibility condition between the transmitter antenna and a receiver antenna located at a given point in the coverage area. Radio visibility is evaluated from the DTM, Obstacles, and Clutter path profile information (see <a href="../../3-geographic-data/">Geographic Data</a>). This evaluation assigns the receiver antenna point to one of three radio visibility conditions:</p>
+<ul>
+<li><strong>Line-of-Sight (LOS)</strong> — occurs when no terrain irregularities, obstacles, or clutter interpose the direct radio path between the transmitter and receiver antennas. The radio path is understood to include the 1st Fresnel zone around the direct line and accounts for the Spherical Earth effect.</li>
+</ul>
+<p><img alt="(a) Example path profile with LOS condition — clear direct profile line, no obstructing clutter or terrain" src="../../../../assets/images/ce-pro/v5.0/los-condition-example-los.png" /></p>
+<ul>
+<li><strong>Obstructed LOS (OLOS)</strong> — occurs when the direct radio propagation line is interposed by clutter.</li>
+</ul>
+<p><img alt="(b) Example path profile with OLOS condition — clutter (green) obstructing the direct profile line" src="../../../../assets/images/ce-pro/v5.0/los-condition-example-olos.png" /></p>
+<ul>
+<li><strong>Non-LOS (NLOS)</strong> — occurs when the direct radio propagation line is interposed by terrain bulges or obstacles.</li>
+</ul>
+<p><img alt="(c) Example path profile with NLOS condition — terrain/obstacle obstruction shown as a red profile segment" src="../../../../assets/images/ce-pro/v5.0/los-condition-example-nlos.png" /></p>
+<p><img alt="(d) Example path profile with combined OLOS+NLOS condition" src="../../../../assets/images/ce-pro/v5.0/los-condition-example-olos-nlos.png" /></p>
+<p>Depending on the LOS condition at a specific location, the CE tools apply the relevant sub-set of the path loss prediction model, as described below.</p>
+<blockquote>
+<p><strong>Note:</strong> When the receiver is located indoors, a special Outdoor-to-Indoor propagation function is applied in addition to the basic path loss.</p>
+</blockquote>
+<h2 id="models">Models</h2>
+<p>Prediction models available in Cellular Expert support frequencies from 10 kHz to 350 GHz. Click the Prediction Model Manager button in the Data Management group to open the dialog.</p>
+<p><img alt="Prediction Model Manager — model tree" src="../../../../assets/images/ce-pro/v5.0/prediction-model-manager-tree.png" /></p>
+<h3 id="cec-itu-r-3gpp-model-100-mhz-6-ghz">CEC ITU-R 3GPP Model (100 MHz – 6 GHz)</h3>
+<p>A combination model intended for a variety of radiocommunication systems, derived explicitly from ITU-R path loss modelling methods:</p>
+<p>a. <strong>LOS condition</strong> — path loss calculated as FSL based on Recommendation ITU-R P.525.
+b. <strong>OLOS condition</strong> — total path loss modelled as a combination of basic FSL (ITU-R P.525, with dual slope option) and clutter loss modelling based on Recommendation ITU-R P.2108.
+c. <strong>NLOS condition</strong> — path loss as a combination of basic FSL (ITU-R P.525, with dual slope option) and additional diffraction losses based on Recommendation ITU-R P.526.
+d. <strong>OLOS+NLOS condition</strong> — path loss as a combination of basic FSL (with dual slope option), diffraction losses (ITU-R P.526), and clutter loss modelling (ITU-R P.2108).
+e. <strong>In clutter (building, vegetation, etc.)</strong> — path loss is calculated as above for LOS/OLOS/NLOS, plus an additional penetration loss to simulate an Outdoor-to-Indoor scenario, based on ITU-R P.833 (vegetation clutter) or 3GPP TR 38.901 (buildings).</p>
+<p><strong>Model application</strong></p>
+<p>This deterministic model precisely tracks the main, strongest radio ray, while empirically modeling the scattering of other rays around the receiver. It applies to all ranges of cellular mobile and public safety networks — 2G, 3G, 4G, and 5G — within the 30 MHz to 6 GHz frequency range.</p>
+<p>Recommended for accurate wide-area propagation and coverage modeling when precise, up-to-date topographic data is available: DTM, building data (with height information), and vegetation data (with height details) derived from a DSM. Ideally created with LiDAR or similar methods, at a resolution of at least 10 m — 5, 2, or even 1 m or better is preferable for optimal accuracy.</p>
+<p>When building data and heights are unavailable, and only DTM and clutter data at 10 m resolution or lower are accessible, use the <a href="#unimacro-model-400-mhz-3-ghz">UniMacro Model</a> instead, for the narrower 400 MHz to 3 GHz range.</p>
+<p><strong>Default settings</strong></p>
+<p><strong>General settings to calculate model loss</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Offset coefficient (dB)</td>
+<td>Offset in decibels added to the path loss grid. Default: <code>32</code> dB.</td>
+</tr>
+<tr>
+<td>Distance coefficient</td>
+<td>Slope based on distance between the cell and receiver location. Default: <code>20</code>.</td>
+</tr>
+<tr>
+<td>Distance coefficient obstructed</td>
+<td>Slope based on the obstructed distance between the cell and receiver location. Default: <code>40</code>.</td>
+</tr>
+<tr>
+<td>Frequency coefficient</td>
+<td>Slope determined by the frequency value. Default: <code>20</code>.</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="CEC ITU-R 3GPP — General settings fields" src="../../../../assets/images/ce-pro/v5.0/cec-itu-r-general-settings.png" /></p>
+<p><strong>Clutter class settings — diffraction, clutter loss, penetration loss, and receiver loss</strong></p>
+<p>The Clutter Class option defines predefined clutter categories, each with unique values for diffraction loss, clutter loss, penetration loss, and receiver loss coefficients — describing how a signal is affected when it passes through or terminates in a specific clutter class.</p>
+<p><img alt="Clutter class list filtered by Solid obstacle / Clutter obstacle" src="../../../../assets/images/ce-pro/v5.0/prediction-model-clutter-class-list.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nominal distance, m</td>
+<td>Average distance between objects within the clutter class (1–100 m).</td>
+</tr>
+<tr>
+<td>Diffraction loss coefficient</td>
+<td>Multiplier used in diffraction calculations — lower values reduce diffraction loss, higher values increase it. Typically higher for buildings than forests or other clutter types.</td>
+</tr>
+<tr>
+<td>Enclosed receiver loss offset, dB</td>
+<td>Initial entry loss into the clutter class, added to the path loss grid as an offset.</td>
+</tr>
+<tr>
+<td>Enclosed receiver loss scaling coefficient</td>
+<td>Additional signal loss as a function of distance traveled within the clutter class. Higher values increase path loss.</td>
+</tr>
+<tr>
+<td>Enclosed receiver loss frequency exponent coefficient</td>
+<td>Additional loss inside the clutter class based on frequency. Higher values increase path loss, particularly at higher frequencies.</td>
+</tr>
+<tr>
+<td>Receiver point loss offset, dB</td>
+<td>Additional loss offset applied to the path loss grid, representing UE losses.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Clutter Classes default values</strong></p>
+<table>
+<thead>
+<tr>
+<th>Clutter class</th>
+<th>Penetration receiver loss offset</th>
+<th>Penetration receiver loss scaling coefficient</th>
+<th>Penetration receiver loss frequency exponent coefficient</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Open / Terrain</td>
+<td>17</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Grassland</td>
+<td>0</td>
+<td>0.82</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Sparse forest</td>
+<td>0</td>
+<td>0.82</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Medium dense forest</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Very dense forest</td>
+<td>0</td>
+<td>0.95</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Low density urban (Low buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Low density urban (High buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Medium density urban (Low buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Medium density urban (High buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>High density urban (Low buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>High density urban (High buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>High density urban (Very high buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Building blocks</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Transportation</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Agriculture</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Plantation</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Parks</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Airport</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Sea</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Inland water</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Concrete building</td>
+<td>5</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Glass building</td>
+<td>2</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Wood building</td>
+<td>2</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Low loss building</td>
+<td>8.5</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+<tr>
+<td>High loss building</td>
+<td>17</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h3 id="itu-r-p452-model-6-ghz-50-ghz">ITU-R P.452 Model (6 GHz – 50 GHz)</h3>
+<p>Provided as a universally applicable model with a very wide frequency range from 0.1–50 GHz, based on the methodology in Recommendation ITU-R P.452. This model does not define an OLOS visibility condition — clutter is treated as part of the general obstacles category, so only two radio visibility cases are distinguished:</p>
+<p>a. <strong>LOS condition</strong> — path loss model based on the FSL principle.
+b. <strong>NLOS condition</strong> — total path loss modelled as a combination of basic transmission losses and diffraction losses.</p>
+<p><strong>Model application</strong></p>
+<p>Estimates radio signal propagation over long distances, including terrestrial paths, predicting attenuation from diffraction, tropospheric scatter, ducting, and reflections from the Earth's surface, across 0.1–50 GHz. While the CEC ITU-R 3GPP model above covers 100 MHz–6 GHz, this model is recommended for 6 GHz–50 GHz.</p>
+<p>Particularly well-suited for microwave links, and widely used for planning and interference analysis in fixed and mobile radio communication systems.</p>
+<p><strong>Default settings</strong></p>
+<p><strong>General settings to calculate model loss</strong></p>
+<p><img alt="ITU-R P.452 — General settings (Offset coefficient, Distance coefficient, Frequency coefficient)" src="../../../../assets/images/ce-pro/v5.0/itu-r-p452-general-settings.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Offset coefficient (dB)</td>
+<td>Offset in decibels added to the path loss grid. Default: <code>32</code> dB.</td>
+</tr>
+<tr>
+<td>Distance coefficient</td>
+<td>Slope based on distance between the cell and receiver location. Default: <code>20</code>.</td>
+</tr>
+<tr>
+<td>Frequency coefficient</td>
+<td>Slope determined by the frequency value. Default: <code>20</code>.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Multipath and focusing</strong></p>
+<p>The correction for multipath and focusing effects accounts for signal enhancements caused by constructive interference and atmospheric focusing. This adjustment reduces total path loss under favorable conditions, such as over-water paths or specific atmospheric gradients. Possible values: Yes or No.</p>
+<p><img alt="ITU-R P.452 — Use Multipath Focusing dropdown" src="../../../../assets/images/ce-pro/v5.0/itu-r-p452-multipath-focusing.png" /></p>
+<p><strong>Clutter class settings — penetration loss</strong></p>
+<p><img alt="ITU-R P.452 — Penetration loss offset/distance/frequency coefficient settings" src="../../../../assets/images/ce-pro/v5.0/itu-r-p452-penetration-loss-settings.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Penetration loss offset, dB</td>
+<td>Initial entry loss into the clutter class, added to the path loss grid as an offset.</td>
+</tr>
+<tr>
+<td>Penetration loss distance coefficient</td>
+<td>Additional signal loss as a function of distance traveled within the clutter class. Higher values increase path loss.</td>
+</tr>
+<tr>
+<td>Penetration loss frequency coefficient</td>
+<td>Additional loss inside the clutter class based on frequency. Higher values increase path loss, particularly at higher frequencies.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Clutter Classes default values</strong></p>
+<table>
+<thead>
+<tr>
+<th>Clutter class</th>
+<th>Penetration receiver loss offset</th>
+<th>Penetration receiver loss scaling coefficient</th>
+<th>Penetration receiver loss frequency exponent coefficient</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Open / Terrain</td>
+<td>17</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Grassland</td>
+<td>0</td>
+<td>0.82</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Sparse forest</td>
+<td>0</td>
+<td>0.82</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Medium dense forest</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Very dense forest</td>
+<td>0</td>
+<td>0.95</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Low density urban (Low buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Low density urban (High buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Medium density urban (Low buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Medium density urban (High buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>High density urban (Low buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>High density urban (High buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>High density urban (Very high buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Building blocks</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Transportation</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Agriculture</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Plantation</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Parks</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Airport</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Sea</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Inland water</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Concrete building</td>
+<td>5</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Glass building</td>
+<td>2</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Wood building</td>
+<td>2</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Low loss building</td>
+<td>8.5</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+<tr>
+<td>High loss building</td>
+<td>17</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h3 id="unimacro-model-400-mhz-3-ghz">UniMacro Model (400 MHz – 3 GHz)</h3>
+<p>CE's proprietary combination model, developed and fine-tuned over years of practical experience planning operational cellular mobile networks in the 400–3000 MHz range, to produce coverage predictions closely aligned with what mobile network users actually experience in the field.</p>
+<p>a. <strong>LOS condition</strong> — path loss model based on the FSL principle and dual slope based on breakpoint distance.
+b. <strong>OLOS or NLOS condition</strong> — path loss modelled using the Extended Hata (Open Area) model with additional diffraction losses based on Recommendation ITU-R P.526.
+c. <strong>In clutter (building, vegetation, etc.)</strong> — path loss is calculated as above for LOS/OLOS/NLOS, plus an additional penetration loss to simulate an Outdoor-to-Indoor scenario, based on ITU-R P.833 (vegetation clutter) or 3GPP TR 38.901 (buildings).</p>
+<p><strong>Model application</strong></p>
+<p>Deterministically tracks the main, strongest radio ray in LOS areas, while OLOS and NLOS propagation uses empirically determined parameters from ITU-R and 3GPP recommendations; it also models scattering of other rays around the receiver. Applies empirically validated values for 400 MHz–3 GHz, suitable for all cellular mobile and public safety networks (2G, 3G, 4G, 5G) in that range.</p>
+<p>Recommended for wide-area propagation and coverage modeling when building data and heights are unavailable, and only DTM and clutter data at 10 m resolution or lower are accessible. When accurate building geometry/heights are available, and a higher modeling frequency (up to 6 GHz) is needed, use the <a href="#cec-itu-r-3gpp-model-100-mhz-6-ghz">CEC ITU-R 3GPP Model</a> instead.</p>
+<p><strong>Default settings</strong></p>
+<p><strong>Line of Sight coefficients (used to calculate general model loss when Tx and Rx are in LOS condition)</strong></p>
+<p><img alt="UniMacro — Line of Sight coefficients settings" src="../../../../assets/images/ce-pro/v5.0/unimacro-los-coefficients-settings.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Offset coefficient (dB)</td>
+<td>Offset in decibels added to the path loss grid. Default: <code>32</code> dB.</td>
+</tr>
+<tr>
+<td>Distance coefficient near</td>
+<td>Slope based on distance between the cell and receiver location. Default: <code>20</code>.</td>
+</tr>
+<tr>
+<td>Distance coefficient far</td>
+<td>Slope based on breakpoint distance between the cell and receiver location. Default: <code>40</code>.</td>
+</tr>
+<tr>
+<td>Use custom break distance</td>
+<td>If Yes, enables a custom Fresnel breakpoint distance value. Path loss dependence on distance is split into near and far zones by the breakpoint distance; this only applies for the LOS condition.</td>
+</tr>
+<tr>
+<td>Custom break distance, km</td>
+<td>Fresnel breakpoint distance beyond which path loss is calculated using the Distance coefficient far parameter.</td>
+</tr>
+<tr>
+<td>Frequency coefficient</td>
+<td>Slope determined by the frequency value. Default: <code>20</code>.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Hata 9999 equation (used when Tx and Rx are in OLOS or NLOS condition)</strong></p>
+<p>9999 Model is Ericsson's implementation of the Hata Model. Ericsson provides steering parameters of the 9999 Model for different environments, making it convenient to apply as default parameters.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hata Loss: A0</td>
+<td>Constant offset in dB, added to the loss grid — adjust to minimize mean error; regulates the absolute level of the loss curve. Default: <code>36.2</code>.</td>
+</tr>
+<tr>
+<td>Hata Loss: A1</td>
+<td>Distance influence coefficient — represents distance-dependent loss (e.g. atmospheric losses); regulates the slope of the curve. Default: <code>30.2</code>.</td>
+</tr>
+<tr>
+<td>Hata Loss: A2</td>
+<td>Transmitter height influence coefficient — related to DTM errors, real Earth curvature, etc.; regulates the loss curve's vertical position with respect to antenna height. Default: <code>-12</code>.</td>
+</tr>
+<tr>
+<td>Hata Loss: A3</td>
+<td>Okumura-Hata type multiplying factor for log(h_M)·log(d). Default: <code>0.1</code>.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Clutter class settings — diffraction, clutter loss, penetration loss, and receiver loss</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nominal distance, m</td>
+<td>Average distance between objects within the clutter class (1–100 m).</td>
+</tr>
+<tr>
+<td>Diffraction loss coefficient</td>
+<td>Multiplier used in diffraction calculations — higher for buildings than forests or other clutter types.</td>
+</tr>
+<tr>
+<td>Penetration loss offset, dB</td>
+<td>Initial entry loss into the clutter class, added to the path loss grid.</td>
+</tr>
+<tr>
+<td>Penetration loss distance coefficient</td>
+<td>Additional signal loss as a function of distance traveled within the clutter class.</td>
+</tr>
+<tr>
+<td>Penetration loss frequency coefficient</td>
+<td>Additional loss inside the clutter class based on frequency.</td>
+</tr>
+<tr>
+<td>Receiver point loss offset, dB</td>
+<td>Additional loss offset applied to the path loss grid, representing UE losses.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Clutter Classes default values</strong></p>
+<table>
+<thead>
+<tr>
+<th>Clutter class</th>
+<th>Penetration receiver loss offset</th>
+<th>Penetration receiver loss scaling coefficient</th>
+<th>Penetration receiver loss frequency exponent coefficient</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Open / Terrain</td>
+<td>17</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Grassland</td>
+<td>0</td>
+<td>0.82</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Sparse forest</td>
+<td>0</td>
+<td>0.82</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Medium dense forest</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Very dense forest</td>
+<td>0</td>
+<td>0.95</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Low density urban (Low buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Low density urban (High buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Medium density urban (Low buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Medium density urban (High buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>High density urban (Low buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>High density urban (High buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>High density urban (Very high buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Building blocks</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Transportation</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Agriculture</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Plantation</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Parks</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Airport</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Sea</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Inland water</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Concrete building</td>
+<td>5</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Glass building</td>
+<td>2</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Wood building</td>
+<td>2</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Low loss building</td>
+<td>8.5</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+<tr>
+<td>High loss building</td>
+<td>17</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h3 id="los-itu-r-p525-model-6-ghz-100-ghz">LOS ITU-R P.525 Model (6 GHz – 100 GHz)</h3>
+<p>FSL path loss calculated based on the method in Recommendation ITU-R P.525. Suitable for modelling radio links where LOS is a necessary condition — e.g. Fixed (Point-to-Point) Links or Mobile Systems in mmWave bands.</p>
+<p><strong>Model application</strong></p>
+<p>Typically used for mmWave band frequencies in the 6 GHz–100 GHz range, and provides results only for line-of-sight areas.</p>
+<p><strong>Default settings</strong></p>
+<p><img alt="LOS ITU-R P.525 — General settings (Offset coefficient, Distance coefficient, Frequency coefficient)" src="../../../../assets/images/ce-pro/v5.0/los-itu-r-p525-settings.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Offset coefficient (dB)</td>
+<td>Offset in decibels added to the path loss grid. Default: <code>32</code> dB.</td>
+</tr>
+<tr>
+<td>Distance coefficient</td>
+<td>Slope based on distance between the cell and receiver location. Default: <code>20</code>.</td>
+</tr>
+<tr>
+<td>Frequency coefficient</td>
+<td>Slope determined by the frequency value. Default: <code>20</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="itu-r-p368-model-10-khz-30-mhz">ITU-R P.368 Model (10 kHz – 30 MHz)</h3>
+<p>Provides a standardized prediction method for assessing the ground-wave field strength of radio waves from 10 kHz to 30 MHz — a band primarily associated with long-range AM and shortwave communication, often for maritime, aeronautical, military, and broadcasting services. Offers guidance for engineers, planners, and researchers working in the MF and HF bands.</p>
+<p><strong>Model application</strong></p>
+<p>Estimates ground-wave propagation field strength and attenuation over the Earth's surface, particularly below 30 MHz. Widely used for planning long-distance communication systems (maritime, broadcasting, low-frequency navigation) where ground-wave propagation is critical. Accounts for terrain conductivity, dielectric properties, and surface roughness.</p>
+<p>The model calculates signal strength based on:</p>
+<ul>
+<li><strong>Frequency (f)</strong> — higher frequencies attenuate more rapidly over ground; the attenuation rate increases significantly above 3 MHz.</li>
+<li><strong>Distance (d)</strong> — field strength diminishes with increasing distance due to geometrical spreading and absorption by the ground and atmosphere.</li>
+<li><strong>Surface refractivity, Surface Conductivity (σ), and Relative Permittivity (εᵣ)</strong> — the surface over which the wave propagates critically affects signal strength (sea water: high conductivity, minimal loss; dry land/desert: low conductivity, high loss). Typical conductivity ranges from 10⁻⁴ to 5 S/m; relative permittivity from 4 to 81.</li>
+</ul>
+<p><strong>Default settings</strong></p>
+<p>The general model parameters are radius and receiver height. Additional path loss parameters are derived per clutter class:</p>
+<table>
+<thead>
+<tr>
+<th>Clutter class</th>
+<th>Surface refractivity, N-Units</th>
+<th>Relative permittivity</th>
+<th>Surface conductivity, S/m</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Buildings</td>
+<td>315</td>
+<td>5</td>
+<td>0.001</td>
+</tr>
+<tr>
+<td>Forest</td>
+<td>315</td>
+<td>13</td>
+<td>0.004</td>
+</tr>
+<tr>
+<td>Dense forest</td>
+<td>315</td>
+<td>13</td>
+<td>0.004</td>
+</tr>
+<tr>
+<td>Urban</td>
+<td>315</td>
+<td>5</td>
+<td>0.001</td>
+</tr>
+<tr>
+<td>Dense urban</td>
+<td>315</td>
+<td>5</td>
+<td>0.001</td>
+</tr>
+<tr>
+<td>Bare ground</td>
+<td>315</td>
+<td>10</td>
+<td>0.002</td>
+</tr>
+<tr>
+<td>Crops</td>
+<td>315</td>
+<td>20</td>
+<td>0.03</td>
+</tr>
+<tr>
+<td>Water</td>
+<td>365</td>
+<td>80</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Road</td>
+<td>315</td>
+<td>10</td>
+<td>0.002</td>
+</tr>
+</tbody>
+</table>
+<h3 id="itu-r-p1546-model-30-mhz-4-ghz">ITU-R P.1546 Model (30 MHz – 4 GHz)</h3>
+<p>A widely recognized radio propagation prediction method developed by the ITU, primarily used for estimating point-to-area radio signal coverage from 30 MHz to 4000 MHz over terrestrial paths. Especially suitable for broadcasting, land mobile, and fixed services.</p>
+<p><strong>Key features</strong></p>
+<ul>
+<li><strong>Versatile application</strong> — supports predictions over land, sea, and mixed paths.</li>
+<li><strong>Input parameters</strong> — transmitter/receiver heights, terrain profile, clutter (buildings, vegetation), climate, and time/location variability.</li>
+<li><strong>Time and location variability</strong> — predictions can be tailored for different statistical reliability levels (e.g. 50% or 10% time availability).</li>
+<li><strong>Clutter and terrain handling</strong> — can incorporate detailed DEMs and clutter data, reflecting buildings, forests, and other surface features.</li>
+</ul>
+<p><strong>Model application</strong></p>
+<p>Designed for wide-area radio propagation prediction based on empirical data and statistical analysis of measured field strengths, providing path loss estimations over land, sea, and mixed terrain for 30 MHz–3 GHz, per ITU-R Recommendation P.1546. Applicable to terrestrial broadcasting, mobile, and public safety networks (2G, 3G, 4G).</p>
+<p>Accounts for antenna heights, terrain elevation (DTM), land cover types (clutter), and environmental conditions, with corrections for time variability and location-specific effects. Particularly suitable for modeling LOS and NLOS propagation over long distances where detailed building data is unavailable.</p>
+<p>Recommended for national or regional coverage planning, especially where high-resolution DTM (e.g. 30 m) and clutter data (e.g. 10 m resolution) are available but building heights and detailed 3D structures are not. Where accurate building geometry/heights are available and a higher frequency range (up to 6 GHz) is required, use the <a href="#cec-itu-r-3gpp-model-100-mhz-6-ghz">CEC ITU-R 3GPP Model</a> instead.</p>
+<p><strong>Default settings</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Radius</td>
+<td>Maximum distance from the transmitter (prediction center) over which the propagation prediction is performed. Limits the spatial extent of the coverage area to optimize calculation time and resource usage. Typically 10–100 km, depending on transmitter power, terrain, and target coverage region.</td>
+</tr>
+<tr>
+<td>Receiver Height (m)</td>
+<td>Height of the receiving antenna above ground level. Impacts predicted signal strength, especially in terrain with elevation changes or obstacles. Guidelines: 1.5–2 m for handheld/mobile users; 10 m or higher for fixed installations (rooftop or vehicular antennas). Accurate receiver height is essential for meaningful signal level predictions.</td>
+</tr>
+<tr>
+<td>Time Percentage (%)</td>
+<td>Percentage of time during which the predicted field strength is expected to be met or exceeded, reflecting statistical variability due to atmospheric and environmental effects. Common values: 50% for general service coverage maps (median conditions); 10% for high-reliability or interference studies. A 10% time prediction means the signal level is met or exceeded during 10% of the time, capturing worst-case propagation conditions.</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="ITU-R P.1546 — Default settings (Configuration name, Radius, Receiver height, Time percentage)" src="../../../../assets/images/ce-pro/v5.0/itu-r-p1546-settings.png" /></p>
+<h3 id="iso9613-model-siren-sound">ISO9613 Model (Siren Sound)</h3>
+<blockquote>
+<p><strong>Note:</strong> This model applies to Siren Sound prediction. See <a href="../5-2-add-object/5-2-5-rcp/5-2-5-3-add-sirens/">Add Sirens</a>.</p>
+</blockquote>
+<p>ISO 9613 is an international standard for predicting outdoor sound propagation, including siren noise-level assessment. It provides a structured method for calculating sound attenuation over distance, considering geometric spreading, atmospheric absorption, ground effects, reflections, and obstacles.</p>
+<p>For siren sound prediction, ISO 9613 helps determine the effective coverage area, ensuring warning signals reach the intended audience with sufficient audibility — essential for optimizing siren placement, regulatory compliance, and designing effective emergency alert systems.</p>
+<p><strong>Model application</strong></p>
+<p>Used in siren sound prediction to determine effective coverage, supporting siren placement optimization, regulatory compliance, and emergency alert system design. The primary factors:</p>
+<ol>
+<li><strong>Geometric Spreading</strong> — sound intensity decreases as distance from the source increases, following the inverse square law (spherical spreading) or other forms depending on terrain:</li>
+</ol>
+<p><code>A_div = 20 * LOG10(d) + 11</code></p>
+<ol>
+<li><strong>Atmospheric Absorption</strong> — sound is absorbed by the atmosphere as it travels, particularly at higher frequencies; absorption depends on temperature, humidity, and air pressure, and is more significant over longer distances.</li>
+<li><strong>Obstacles</strong> — physical barriers (walls, hills, buildings) block or scatter sound waves, reducing sound level in shadow zones behind large or close obstacles.</li>
+<li><strong>Directivity of the Source</strong> — accounts for the directionality of the sound source; sirens may focus sound output in certain directions.</li>
+<li><strong>Meteorological Conditions</strong> — wind speed, temperature gradients, and humidity affect sound propagation (e.g. sound travels farther downwind, or is absorbed more by humid air).</li>
+</ol>
+<p><strong>Default settings</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Distance coefficient</td>
+<td>Slope coefficient based on distance, used in Geometric Spreading calculations. Default: <code>20</code>.</td>
+</tr>
+<tr>
+<td>Temperature</td>
+<td>Default: <code>20 °C</code>.</td>
+</tr>
+<tr>
+<td>Humidity</td>
+<td>Default: <code>50%</code>.</td>
+</tr>
+<tr>
+<td>Meteorological conditions</td>
+<td>A factor in decibels depending on local meteorological statistics for wind speed/direction and temperature gradients. In practice, values (C0) range from 0 to approximately +5 dB. Default: <code>3</code> dB.</td>
+</tr>
+</tbody>
+</table>
+<p>The <strong>Ground factor</strong> parameter defines the acoustic reflectivity (0 to 1, hard to soft) of the ground surface per clutter class, for more accurate sound-level predictions:</p>
+<table>
+<thead>
+<tr>
+<th>Clutter class</th>
+<th>Ground factor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Open / Terrain</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Grassland</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Sparse forest</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Medium dense forest</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Very dense forest</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Low density urban (Low buildings)</td>
+<td>0.5</td>
+</tr>
+<tr>
+<td>Low density urban (High buildings)</td>
+<td>0.3</td>
+</tr>
+<tr>
+<td>Medium density urban (Low buildings)</td>
+<td>0.3</td>
+</tr>
+<tr>
+<td>Medium density urban (High buildings)</td>
+<td>0.1</td>
+</tr>
+<tr>
+<td>High density urban (Low buildings)</td>
+<td>0.1</td>
+</tr>
+<tr>
+<td>High density urban (High buildings)</td>
+<td>0</td>
+</tr>
+<tr>
+<td>High density urban (Very high buildings)</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Building blocks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Transportation</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Agriculture</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Plantation</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Parks</td>
+<td>0.7</td>
+</tr>
+<tr>
+<td>Airport</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Sea</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Inland water</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Concrete building</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Glass building</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Wood building</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Low loss building</td>
+<td>0</td>
+</tr>
+<tr>
+<td>High loss building</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<h3 id="cec-3gpp-tr-indoor-model-500-mhz-100-ghz">CEC 3GPP TR Indoor Model (500 MHz – 100 GHz)</h3>
+<p>A high-frequency path loss model for indoor radiocommunication systems from 500 MHz to 100 GHz. Builds on the <a href="#cec-itu-r-3gpp-model-100-mhz-6-ghz">CEC ITU-R 3GPP Model</a> by adapting it to complex indoor environments — office buildings, residential units, shopping centers, industrial halls. Integrates core ITU-R free-space loss and penetration recommendations with 3GPP-specific methods for indoor multipath, wall attenuation, and frequency-dependent fading.</p>
+<p><strong>Purpose and use cases</strong></p>
+<ul>
+<li>Indoor wireless access network design (Wi-Fi, 5G NR, mmWave)</li>
+<li>System-level simulations for indoor coverage planning</li>
+<li>Performance evaluation of in-building penetration for outdoor base stations</li>
+<li>Integration with dual-slope and multi-scenario path loss modeling frameworks</li>
+</ul>
+<p><strong>Model application</strong></p>
+<p>A robust, scalable prediction method based on ITU-R principles and 3GPP extensions, engineered for indoor radiowave propagation from clean LOS corridors to deeply obstructed NLOS paths.</p>
+<p><strong>Key enhancements for indoor use</strong></p>
+<ul>
+<li>Frequency scaling up to 100 GHz supports mmWave and terahertz.</li>
+<li>Wall material database from 3GPP TR 38.901: standard drywall ~2–8 dB per wall; concrete 5–15 dB; glass 2–10 dB.</li>
+<li>Multi-floor attenuation (floor penetration factor).</li>
+<li>Path loss floors, ensuring minimum attenuation beyond the near field.</li>
+<li>LOS probability models — stochastic treatment of LOS in large buildings.</li>
+</ul>
+<p><strong>Default settings</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Configuration name</td>
+<td>Name of the prediction configuration.</td>
+</tr>
+<tr>
+<td>Radius</td>
+<td>Maximum prediction radius in kilometers to calculate path loss.</td>
+</tr>
+<tr>
+<td>Receiver height</td>
+<td>Receiver height above the receiver reference height selected in the workspace settings.</td>
+</tr>
+<tr>
+<td>Effective earth radius</td>
+<td>Earth radius in kilometers, used for the calculations.</td>
+</tr>
+<tr>
+<td>Offset coefficient</td>
+<td>Offset in decibels added to the path loss grid. Default: <code>37</code> dB.</td>
+</tr>
+<tr>
+<td>Distance coefficient</td>
+<td>Slope based on distance between the cell and receiver location. Default: <code>20</code>.</td>
+</tr>
+<tr>
+<td>Distance coefficient obstructed</td>
+<td>Slope based on the obstructed distance between the cell and receiver location. Default: <code>30</code>.</td>
+</tr>
+<tr>
+<td>Frequency coefficient</td>
+<td>Slope determined by the frequency value. Default: <code>20</code>.</td>
+</tr>
+<tr>
+<td>Penetration loss offset</td>
+<td>Initial entry loss applied when crossing an obstacle within the clutter class, added to the path loss grid.</td>
+</tr>
+<tr>
+<td>Penetration loss scaling coefficient</td>
+<td>Additional signal loss as a function of the distance travelled in an obstacle within the clutter class. Higher values increase path loss.</td>
+</tr>
+<tr>
+<td>Penetration loss frequency exponent coefficient</td>
+<td>Additional loss inside an obstacle within the clutter class based on frequency. Higher values increase path loss, particularly at higher frequencies.</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="CEC 3GPP TR Indoor — Default settings (Configuration name, Radius, Effective Earth radius, Receiver height, Offset/Distance/Frequency coefficients)" src="../../../../assets/images/ce-pro/v5.0/cec-3gpp-tr-indoor-settings.png" /></p>
+<blockquote>
+<p><strong>Note:</strong> Penetration losses stack when multiple obstacles are crossed.</p>
+</blockquote>
+<p><strong>Clutter Classes default values</strong></p>
+<table>
+<thead>
+<tr>
+<th>Clutter class</th>
+<th>Penetration receiver loss offset</th>
+<th>Penetration receiver loss scaling coefficient</th>
+<th>Penetration receiver loss frequency exponent coefficient</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Open / Terrain</td>
+<td>17</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Grassland</td>
+<td>0</td>
+<td>0.82</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Sparse forest</td>
+<td>0</td>
+<td>0.82</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Medium dense forest</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Very dense forest</td>
+<td>0</td>
+<td>0.95</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Low density urban (Low buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Low density urban (High buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Medium density urban (Low buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Medium density urban (High buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>High density urban (Low buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>High density urban (High buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>High density urban (Very high buildings)</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Building blocks</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Transportation</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Agriculture</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Plantation</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Parks</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Airport</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Sea</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Inland water</td>
+<td>0</td>
+<td>0.89</td>
+<td>0.65</td>
+</tr>
+<tr>
+<td>Concrete building</td>
+<td>5</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Glass building</td>
+<td>2</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Wood building</td>
+<td>2</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Low loss building</td>
+<td>8.5</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+<tr>
+<td>High loss building</td>
+<td>17</td>
+<td>0.25</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h3 id="cnossos-eu-model">CNOSSOS-EU Model</h3>
+<blockquote>
+<p><strong>Note:</strong> Also related to Siren Sound / environmental noise prediction, alongside ISO9613.</p>
+</blockquote>
+<p>Developed by the European Commission's Joint Research Centre as the Common Noise Assessment Methods in Europe, CNOSSOS-EU is the reference methodology adopted under the Environmental Noise Directive (2002/49/EC) for strategic noise mapping across EU Member States — the preferred choice for projects that must align with European regulatory requirements.</p>
+<p><strong>Model application</strong></p>
+<p>Unlike ISO 9613-2, which assumes downwind or moderate temperature inversion conditions throughout, CNOSSOS-EU evaluates sound propagation under two distinct meteorological scenarios — <strong>favourable conditions</strong> (downwind or temperature inversion, enhancing propagation toward the receiver) and <strong>homogeneous conditions</strong> (neutral atmosphere) — and combines the two results using the long-term occurrence probability of favourable conditions for the given direction. This produces long-term average sound pressure levels that more realistically reflect the variability of outdoor propagation over extended periods.</p>
+<p>The model also features more refined calculations of geometrical divergence, atmospheric absorption, ground effect, diffraction over obstacles and around vertical edges, and reflections from building façades and other vertical surfaces. Ground effect is handled separately for the source-side, middle, and receiver-side regions of the propagation path, with acoustic reflectivity defined per clutter class via the <strong>Ground factor</strong> parameter shared with the ISO 9613-2 model. Diffraction is computed using path-difference geometry consistent with the CNOSSOS-EU specification; terrain profiles, clutter classification, and building data from the workspace are used directly in the calculation.</p>
+<p><strong>Default settings</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Distance coefficient</td>
+<td>Slope coefficient based on distance, used in Geometric Spreading calculations. Default: <code>20</code>.</td>
+</tr>
+<tr>
+<td>Temperature</td>
+<td>Default: <code>15 °C</code>.</td>
+</tr>
+<tr>
+<td>Humidity</td>
+<td>Default: <code>70%</code>.</td>
+</tr>
+<tr>
+<td>Favourable conditions occurrence</td>
+<td>Probability or fraction of time during which meteorological conditions are "favourable" for sound propagation from source to receiver. Default: <code>0.25</code>.</td>
+</tr>
+</tbody>
+</table>
+<p>The <strong>Ground factor</strong> parameter (0 to 1, hard to soft) uses the same per-clutter-class values as the ISO9613 model above. When the clutter classes raster is absent from the geodata, a ground factor value of <code>0.5</code> is used.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "search.suggest", "toc.integrate"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
